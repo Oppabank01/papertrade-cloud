@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 5.021781834034147,
+ "cash": 2.252853128396,
  "pos": {
   "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": {
    "sym": "BTC",
    "qty": 1205.8174352716414,
    "entry": 0.00236,
-   "last": 0.00239,
+   "last": 0.002307,
    "peak": 0.002427,
    "cost": 2.9331366184715257,
    "opened": "2026-11-14T00:45:44+07:00",
@@ -20,8 +20,8 @@
    "sym": "JENSEN",
    "qty": 15458.543928853422,
    "entry": 0.0001819,
-   "last": 0.000206,
-   "peak": 0.0002122,
+   "last": 0.0002324,
+   "peak": 0.0002324,
    "cost": 2.898277819685052,
    "opened": "2026-11-14T00:45:44+07:00",
    "zoo": "cto",
@@ -33,13 +33,26 @@
    "sym": "FOOD",
    "qty": 2187.696805169492,
    "entry": 0.001269,
-   "last": 0.00126,
-   "peak": 0.001269,
+   "last": 0.001322,
+   "peak": 0.001322,
    "cost": 2.861458715481432,
    "opened": "2026-11-14T00:57:19+07:00",
    "zoo": "cto",
    "smart": 272,
    "kol": 20,
+   "miss": 0
+  },
+  "3rT7GQU91EAG3yMhELgk8MghoSPdGtp2esPqmUc9pump": {
+   "sym": "coal",
+   "qty": 178026.15177005503,
+   "entry": 1.509e-05,
+   "last": 1.509e-05,
+   "peak": 1.509e-05,
+   "cost": 2.7689287056381473,
+   "opened": "2026-11-14T01:01:07+07:00",
+   "zoo": "cto",
+   "smart": 9,
+   "kol": 0,
    "miss": 0
   }
  },
@@ -112,8 +125,16 @@
    "why": "stop -11.8%",
    "smart": 52,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:01:07+07:00",
+   "kind": "buy",
+   "mint": "3rT7GQU91EAG3yMhELgk8MghoSPdGtp2esPqmUc9pump",
+   "sym": "coal",
+   "price": 1.509e-05,
+   "usd": 2.7689
   }
  ],
  "label": "สวนสัตว์: community takeover",
- "rank_t": 1794592636.513667
+ "rank_t": 1794592864.388242
 }

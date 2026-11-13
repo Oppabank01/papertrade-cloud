@@ -1,26 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 3.56237096823306,
+ "cash": 4.986418580313892,
  "pos": {
-  "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump": {
-   "sym": "plumber",
-   "qty": 22158.72737698972,
-   "entry": 0.0001277,
-   "last": 0.0001225,
-   "peak": 0.0001289,
-   "cost": 2.9165836796965436,
-   "opened": "2026-11-14T00:49:35+07:00",
-   "zoo": "mom5",
-   "smart": 117,
-   "kol": 3,
-   "miss": 0
-  },
   "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump": {
    "sym": "Huang",
    "qty": 10899.645756754797,
    "entry": 0.0001975,
-   "last": 0.0001975,
+   "last": 0.0001878,
    "peak": 0.0001975,
    "cost": 2.218800285465958,
    "opened": "2026-11-14T00:57:18+07:00",
@@ -29,17 +16,17 @@
    "kol": 10,
    "miss": 0
   },
-  "62Z72VWdVeMwgyGDjeR8KaazTjFzy3RVXD3K25yNaHAT": {
-   "sym": "cashchick",
-   "qty": 45049.47503029045,
-   "entry": 4.75e-05,
-   "last": 4.509e-05,
-   "peak": 4.75e-05,
-   "cost": 2.205576235764581,
-   "opened": "2026-11-14T00:57:18+07:00",
+  "3rT7GQU91EAG3yMhELgk8MghoSPdGtp2esPqmUc9pump": {
+   "sym": "coal",
+   "qty": 134513.5164352166,
+   "entry": 1.509e-05,
+   "last": 1.509e-05,
+   "peak": 1.509e-05,
+   "cost": 2.0921551875978337,
+   "opened": "2026-11-14T01:01:06+07:00",
    "zoo": "mom5",
-   "smart": 32,
-   "kol": 5,
+   "smart": 9,
+   "kol": 0,
    "miss": 0
   }
  },
@@ -132,8 +119,40 @@
    "why": "stop -11.8%",
    "smart": 52,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:01:06+07:00",
+   "kind": "buy",
+   "mint": "3rT7GQU91EAG3yMhELgk8MghoSPdGtp2esPqmUc9pump",
+   "sym": "coal",
+   "price": 1.509e-05,
+   "usd": 2.0922
+  },
+  {
+   "t": "2026-11-14T01:01:06+07:00",
+   "kind": "sell",
+   "mint": "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump",
+   "sym": "plumber",
+   "price": 0.000117,
+   "usd": 2.5153,
+   "pnl": -0.4013,
+   "why": "stop -8.4%",
+   "smart": 117,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:01:06+07:00",
+   "kind": "sell",
+   "mint": "62Z72VWdVeMwgyGDjeR8KaazTjFzy3RVXD3K25yNaHAT",
+   "sym": "cashchick",
+   "price": 2.29e-05,
+   "usd": 1.0009,
+   "pnl": -1.2047,
+   "why": "stop -51.8%",
+   "smart": 32,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: โมเมนตัม 5 นาที +10 ถึง +50%",
- "rank_t": 1794592636.513667
+ "rank_t": 1794592864.388242
 }

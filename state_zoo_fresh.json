@@ -1,21 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.0,
+ "cash": 4.046685657203792,
  "pos": {
-  "62Z72VWdVeMwgyGDjeR8KaazTjFzy3RVXD3K25yNaHAT": {
-   "sym": "cashchick",
-   "qty": 169086.69918247618,
-   "entry": 1.683e-05,
-   "last": 4.509e-05,
-   "peak": 4.509e-05,
-   "cost": 2.9331366184715257,
-   "opened": "2026-11-14T00:45:43+07:00",
-   "zoo": "fresh",
-   "smart": 26,
-   "kol": 5,
-   "miss": 0
-  },
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
    "qty": 15869739662.787699,
@@ -29,25 +16,12 @@
    "kol": 0,
    "miss": 0
   },
-  "B9tmX45FDCb24RRdE2rge4xtkzd9b5TYndJ1mVAHpump": {
-   "sym": "!LAMPS",
-   "qty": 99698.29098640218,
-   "entry": 2.356e-05,
-   "last": 2.234e-05,
-   "peak": 2.356e-05,
-   "cost": 2.421038688558684,
-   "opened": "2026-11-14T00:57:18+07:00",
-   "zoo": "fresh",
-   "smart": 1,
-   "kol": 0,
-   "miss": 0
-  },
   "8mweZGJET41QuhoTKzrbBkCd8WTfFKNSSdsQvgErpump": {
    "sym": "JHP",
    "qty": 32996.4356711468,
    "entry": 9.379e-06,
-   "last": 9.379e-06,
-   "peak": 9.379e-06,
+   "last": 1.014e-05,
+   "peak": 1.014e-05,
    "cost": 0.31897914879373923,
    "opened": "2026-11-14T00:57:18+07:00",
    "zoo": "fresh",
@@ -193,8 +167,32 @@
    "sym": "JHP",
    "price": 9.379e-06,
    "usd": 0.319
+  },
+  {
+   "t": "2026-11-14T01:01:07+07:00",
+   "kind": "sell",
+   "mint": "62Z72VWdVeMwgyGDjeR8KaazTjFzy3RVXD3K25yNaHAT",
+   "sym": "cashchick",
+   "price": 2.29e-05,
+   "usd": 3.7567,
+   "pnl": 0.8236,
+   "why": "trailing จากยอด +168% (+36.1%)",
+   "smart": 26,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:01:07+07:00",
+   "kind": "sell",
+   "mint": "B9tmX45FDCb24RRdE2rge4xtkzd9b5TYndJ1mVAHpump",
+   "sym": "!LAMPS",
+   "price": 2.998e-06,
+   "usd": 0.29,
+   "pnl": -2.1311,
+   "why": "stop -87.3%",
+   "smart": 1,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญเกิดใหม่ไม่เกิน 10 นาที",
- "rank_t": 1794592636.513667
+ "rank_t": 1794592864.388242
 }
