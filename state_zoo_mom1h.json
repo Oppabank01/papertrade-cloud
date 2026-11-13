@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.6074298513561258,
+ "cash": 1.4214427075205842,
  "pos": {
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
@@ -16,30 +16,17 @@
    "kol": 0,
    "miss": 0
   },
-  "DzFftAYHszHZThtyC7CSRgN5eDvgyK9DUPm3z2o5pump": {
-   "sym": "JENSEN",
-   "qty": 13953.978428830635,
-   "entry": 8.937e-05,
-   "last": 0.0001127,
-   "peak": 0.0001127,
-   "cost": 1.285371111301375,
-   "opened": "2026-11-14T01:31:28+07:00",
+  "H2REP2i7Xra5jtdN81Hf4CPPRkbbNFaaFp9Gw9RZpump": {
+   "sym": "Nancy",
+   "qty": 30967.399438131397,
+   "entry": 4.318e-05,
+   "last": 4.318e-05,
+   "peak": 4.318e-05,
+   "cost": 1.3782439782916036,
+   "opened": "2026-11-14T01:40:02+07:00",
    "zoo": "mom1h",
-   "smart": 4,
+   "smart": 11,
    "kol": 0,
-   "miss": 0
-  },
-  "3vKbL9MU2u6x7KAma4o8utbZDm8hBZm1k9QojSxKpump": {
-   "sym": "LONGURO",
-   "qty": 92025.37209773298,
-   "entry": 1.34e-05,
-   "last": 1.61e-05,
-   "peak": 1.61e-05,
-   "cost": 1.2710162709849744,
-   "opened": "2026-11-14T01:35:46+07:00",
-   "zoo": "mom1h",
-   "smart": 12,
-   "kol": 1,
    "miss": 0
   }
  },
@@ -312,8 +299,40 @@
    "sym": "LONGURO",
    "price": 1.34e-05,
    "usd": 1.271
+  },
+  {
+   "t": "2026-11-14T01:40:02+07:00",
+   "kind": "buy",
+   "mint": "H2REP2i7Xra5jtdN81Hf4CPPRkbbNFaaFp9Gw9RZpump",
+   "sym": "Nancy",
+   "price": 4.318e-05,
+   "usd": 1.3782
+  },
+  {
+   "t": "2026-11-14T01:40:03+07:00",
+   "kind": "sell",
+   "mint": "DzFftAYHszHZThtyC7CSRgN5eDvgyK9DUPm3z2o5pump",
+   "sym": "JENSEN",
+   "price": 1.673e-06,
+   "usd": 0.0226,
+   "pnl": -1.2627,
+   "why": "stop -98.1%",
+   "smart": 4,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:40:03+07:00",
+   "kind": "sell",
+   "mint": "3vKbL9MU2u6x7KAma4o8utbZDm8hBZm1k9QojSxKpump",
+   "sym": "LONGURO",
+   "price": 1.31e-05,
+   "usd": 1.1696,
+   "pnl": -0.1014,
+   "why": "trailing จากยอด +20% (-2.2%)",
+   "smart": 12,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: พุ่งแรง 1 ชม. เกิน +100%",
- "rank_t": 1794594925.9593356
+ "rank_t": 1794595188.3028018
 }
