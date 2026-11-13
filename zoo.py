@@ -33,7 +33,18 @@ safe = lambda t: (f(t, "top_10_holder_rate") <= 0.20 and f(t, "dev_team_hold_rat
                   and f(t, "rug_ratio") <= 0.1 and not t.get("is_wash_trading") and f(t, "holder_count") >= 500)
 up = recipes.up_with_buyers      # buys > sells and 0 < 5m change <= 100%
 
-STD = dict(STOP=-0.08, TP_ALL=None, TRAIL_ON=0.15, TRAIL=0.15, MAX_HOLD_H=3, PER_TRADE=0.20, MAX_POS=4)   # agents.py exits
+STD = dict(STOP=-0.08, TP_ALL=None, HALF_AT=None, TRAIL_ON=0.15, TRAIL=0.15, MAX_HOLD_H=3, PER_TRADE=0.20, MAX_POS=4, COOLDOWN_H=24)
+
+
+def score(t):
+    """0-100 'Analyst' score for the savipww 5-bot recipe (the post gives no formula; this one is ours, fixed in advance)."""
+    b, sl = f(t, "buys"), f(t, "sells")
+    return (20 * safe(t) + 2 * min(f(t, "smart_degen_count"), 10) + 4 * min(f(t, "renowned_count"), 5)
+            + (15 if b > 1.5 * sl else 8 if b > sl else 0) + 15 * (5 <= f(t, "price_change_percent5m") <= 60)
+            + 10 * (f(t, "holder_count") >= 1000))
+
+
+vl = lambda t: f(t, "volume") / max(f(t, "liquidity"), 1)     # gmgn-vl-radar ranks by volume / liquidity
 RUN = dict(STOP=-0.15, TP_ALL=None, TRAIL_ON=0.30, TRAIL=0.25, MAX_HOLD_H=24)
 ZOO = {   # name: (label, entry rule, exit/sizing overrides). "pick" = one token per ranking chosen from those that pass.
     "rand":     ("สุ่ม 1 ตัว (ตัวควบคุม)", ok, {}),
@@ -56,13 +67,26 @@ ZOO = {   # name: (label, entry rule, exit/sizing overrides). "pick" = one token
     "runwide":  ("ปล่อยวิ่ง trail 30/25 ถือ 24 ชม.", lambda t: safe(t) and up(t), RUN),
     "randrun":  ("สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)", ok, RUN),
     "allin":    ("ทุ่มหมดหน้าตัก ไม้ละ 100%", lambda t: safe(t) and up(t), dict(PER_TRADE=1.0, MAX_POS=1)),
+    # X posts added 14 Nov (claims are the posts', unverified)
+    "trench":   ("crbpite8 รอบ 2: ปลอดภัย + smart 3 + V/L สูงสุด 3 ตัว",   # $134 -> $3,452, "3 questions, 3 free repos"
+                 lambda t: (safe(t) and f(t, "smart_degen_count") >= 3 and f(t, "holder_count") >= 200 and recipes.age_min(t) >= 30
+                            and f(t, "market_cap") >= 100_000),
+                 dict(rank_by=vl, take=3, MAX_POS=5, STOP=-0.10, TRAIL_ON=0.30, TRAIL=0.20, MAX_HOLD_H=12)),
+    "savip":    ("savipww 5 บอท: คะแนน 80+ ทุ่มหมด ขายครึ่ง +30% stop -6%",   # $36 -> $3,125, rebuys allowed
+                 lambda t: f(t, "liquidity") >= 20_000 and score(t) >= 70,
+                 dict(rank_by=score, take=1, size=lambda t: 1.0 if score(t) >= 80 else 0.25, MAX_POS=3, STOP=-0.06,
+                      HALF_AT=0.30, TRAIL_ON=0.30, TRAIL=0.20, MAX_HOLD_H=12, COOLDOWN_H=0)),
+    "tomcruise": ("tomcruise 6 เอเจนต์: scanner rug check sizer ตามสภาพคล่อง",   # $60 -> $9,684, post gives no rules
+                  lambda t: safe(t) and up(t),
+                  dict(size=lambda t: 0.40 if f(t, "liquidity") >= 200_000 else 0.25 if f(t, "liquidity") >= 50_000 else 0.10)),
 }
 ONE_PICK = {"rand", "randrun", "top1"}   # these take a single token per ranking; the rest buy every match (up to MAX_POS)
 
 
 def use(name):
     for k, v in {**STD, **ZOO[name][2]}.items():
-        setattr(agents, k, v)
+        if k.isupper():
+            setattr(agents, k, v)
     agents.STATE = HERE / f"state_zoo_{name}.json"
 
 
@@ -82,6 +106,9 @@ def picks(name, rank):
         return random.sample(hits, 1) if hits else []
     if name == "top1":
         return hits[:1]                   # the ranking is sorted by 5m volume
+    ov = ZOO[name][2]
+    if "rank_by" in ov:
+        hits = sorted(hits, key=ov["rank_by"], reverse=True)[:ov["take"]]
     return hits
 
 
@@ -108,6 +135,8 @@ def cmd_tick():
         if d and d["t"] > s.get("rank_t", 0):
             s["rank_t"] = d["t"]
             for t in picks(name, d["rank"]):
+                if "size" in ZOO[name][2]:
+                    agents.PER_TRADE = ZOO[name][2]["size"](t)
                 agents.paper_buy(s, t["address"], t.get("symbol"), zoo=name, smart=t.get("smart_degen_count"), kol=t.get("renowned_count"))
             agents.save(s)
         agents.cmd_run()

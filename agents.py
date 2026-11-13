@@ -23,6 +23,7 @@ FEE, SLIP = 0.01, 0.02                  # per side; small pools slip more than v
 PER_TRADE, MAX_POS = 0.20, 4
 STOP, TRAIL_ON, TRAIL, MAX_HOLD_H = -0.08, 0.15, 0.15, 3
 TP_ALL = None                           # recipes.py 'grad' sells everything at a fixed target
+HALF_AT = None                          # zoo 'savip': sell half on the first big candle, trail the rest
 MIN_LIQ, MIN_AGE_MIN = 15_000, 15
 DEBATE_BUY = 0.60
 COOLDOWN_H = 24                         # added 13 Nov 01:40 with the 500 THB restart, before any trade
@@ -178,6 +179,11 @@ def cmd_run():
                 price = float(pools[m]["priceUsd"])
                 q.update(last=price, peak=max(q["peak"], price), miss=0)
                 chg, held = price / q["entry"] - 1, (grok.now() - datetime.fromisoformat(q["opened"])).total_seconds() / 3600
+                if HALF_AT is not None and not q.get("half") and chg >= HALF_AT:
+                    got = q["qty"] / 2 * price * (1 - SLIP) * (1 - FEE)
+                    s["cash"] += got
+                    log(s, "sell", mint=m, sym=q["sym"], price=price, usd=round(got, 4), pnl=round(got - q["cost"] / 2, 4), why=f"ขายครึ่ง {chg:+.1%}")
+                    q.update(qty=q["qty"] / 2, cost=q["cost"] / 2, half=True)
                 why = (f"stop {chg:+.1%}" if chg <= STOP else
                        f"ถึงเป้า {chg:+.1%}" if TP_ALL is not None and chg >= TP_ALL else
                        f"trailing จากยอด {q['peak'] / q['entry'] - 1:+.0%} ({chg:+.1%})" if q["peak"] / q["entry"] - 1 >= TRAIL_ON and price <= q["peak"] * (1 - TRAIL) else

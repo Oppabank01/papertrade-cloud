@@ -17,7 +17,11 @@ hit = lambda n: {t["address"] for t in zoo.picks(n, rank)}
 assert hit("fresh") == {"F"} and hit("safe") == {"S"} and hit("dip") == {"D"}, (hit("fresh"), hit("safe"), hit("dip"))
 assert hit("top1") == {"F"} and len(hit("rand")) == 1 and "B" not in hit("rand")
 zoo.use("scalp"); assert agents.TP_ALL == 0.10 and agents.STOP == -0.05 and agents.MAX_HOLD_H == 0.5
-zoo.use("safe"); assert agents.TP_ALL is None and agents.STOP == -0.08     # overrides never leak to the next account
+zoo.use("savip"); assert agents.HALF_AT == 0.30 and agents.COOLDOWN_H == 0 and agents.STOP == -0.06
+hot = {**safe, "address": "H", "smart_degen_count": 10, "renowned_count": 5, "buys": 400, "holder_count": 2000}
+assert zoo.score(hot) == 100 and {t["address"] for t in zoo.picks("savip", rank + [hot])} == {"H"}
+zoo.use("safe"); assert agents.TP_ALL is None and agents.HALF_AT is None and agents.COOLDOWN_H == 24 and agents.PER_TRADE == 0.20
+assert agents.TP_ALL is None and agents.STOP == -0.08     # overrides never leak to the next account
 d = Path(tempfile.mkdtemp()); zoo.HERE = d; zoo.HIST = d / "hist"; zoo.RANK = d / "rank.json"
 zoo.RANK.write_text(json.dumps(dict(t=now, rank=rank)))
 grok.pair = lambda m: {"priceUsd": "1.0"}; grok.usdthb = lambda: 32.0
@@ -28,3 +32,10 @@ zoo.use("safe"); s = agents.load()
 assert list(s["pos"]) == ["S"] and sum(x["kind"] == "buy" for x in s["log"]) == 1
 assert len(list((d / "hist").rglob("*.json.gz"))) == 1
 print("zoo ok")
+# half take-profit: +30% sells half once, the rest stays and trails
+zoo.use("savip"); s = agents.load(); s.update(cash=0, pos={"X": dict(sym="X", qty=10, entry=1, last=1, peak=1, cost=10, opened=grok.now().isoformat())}); agents.save(s)
+grok.get = lambda url: [{"chainId": "solana", "baseToken": {"address": "X"}, "priceUsd": "1.3", "liquidity": {"usd": 1}}]
+agents.cmd_run(); agents.cmd_run()
+s = agents.load(); q = s["pos"]["X"]
+assert q["half"] and abs(q["qty"] - 5) < 1e-9 and abs(q["cost"] - 5) < 1e-9 and sum(x["kind"] == "sell" for x in s["log"]) == 1
+print("half ok")
