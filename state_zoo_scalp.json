@@ -1,19 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 8.151927536871531,
+ "cash": 6.170596404230183,
  "pos": {
-  "2wt4B6hskQxSEPevuoxTwSoJPv3R7xqRYoCkXUkNpump": {
-   "sym": "SI",
-   "qty": 26715.984651644238,
-   "entry": 7.401e-05,
-   "last": 7.401e-05,
-   "peak": 7.401e-05,
-   "cost": 2.0379818842178827,
-   "opened": "2026-11-14T03:23:38+07:00",
+  "9oJk7eMccQchx3evoN5C5pKQD5Xodb4C1qkhemjjpump": {
+   "sym": "POOR",
+   "qty": 31533.220181690096,
+   "entry": 6.233e-05,
+   "last": 6.233e-05,
+   "peak": 6.233e-05,
+   "cost": 2.0258355121879443,
+   "opened": "2026-11-14T03:27:45+07:00",
    "zoo": "scalp",
-   "smart": 2,
-   "kol": 0,
+   "smart": 56,
+   "kol": 3,
    "miss": 0
   }
  },
@@ -310,8 +310,28 @@
    "sym": "SI",
    "price": 7.401e-05,
    "usd": 2.038
+  },
+  {
+   "t": "2026-11-14T03:27:45+07:00",
+   "kind": "buy",
+   "mint": "9oJk7eMccQchx3evoN5C5pKQD5Xodb4C1qkhemjjpump",
+   "sym": "POOR",
+   "price": 6.233e-05,
+   "usd": 2.0258
+  },
+  {
+   "t": "2026-11-14T03:27:45+07:00",
+   "kind": "sell",
+   "mint": "2wt4B6hskQxSEPevuoxTwSoJPv3R7xqRYoCkXUkNpump",
+   "sym": "SI",
+   "price": 1.717e-06,
+   "usd": 0.0445,
+   "pnl": -1.9935,
+   "why": "stop -97.7%",
+   "smart": 2,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เก็บสั้น +10% ตัด -5% 30 นาที",
- "rank_t": 1794601396.2387056
+ "rank_t": 1794601650.600134
 }

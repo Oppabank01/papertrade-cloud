@@ -1,21 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.6550470687066907,
+ "cash": 4.841216202775583,
  "pos": {
-  "4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": {
-   "sym": "Speed",
-   "qty": 16320.94186706099,
-   "entry": 0.0002154,
-   "last": 0.0002064,
-   "peak": 0.0002329,
-   "cost": 3.6235115215058102,
-   "opened": "2026-11-14T01:27:09+07:00",
-   "zoo": "dip",
-   "smart": 120,
-   "kol": 8,
-   "miss": 0
-  },
   "BGQqYLTCRHBK3CSosCNq5G6MsGYL2iZ2amsSsF4Tpump": {
    "sym": "ESTR",
    "qty": 74928.00994816927,
@@ -29,17 +16,17 @@
    "kol": 0,
    "miss": 0
   },
-  "pdcSEvDqUReA3UJ5NKbZpSjTrg4BxcrTTpLFaY3pump": {
-   "sym": "GME",
-   "qty": 220161.17988491835,
-   "entry": 1.035e-05,
-   "last": 1.124e-05,
-   "peak": 1.124e-05,
-   "cost": 2.3486582269726908,
-   "opened": "2026-11-14T03:23:36+07:00",
+  "Gta6uoekEj831ppDPD4EiX3Xj9tW8SxR5rzCsF7cLeEk": {
+   "sym": "GTA6",
+   "qty": 57421.53375983476,
+   "entry": 3.702e-05,
+   "last": 3.702e-05,
+   "peak": 3.702e-05,
+   "cost": 2.1910381156350063,
+   "opened": "2026-11-14T03:27:44+07:00",
    "zoo": "dip",
-   "smart": 8,
-   "kol": 1,
+   "smart": 26,
+   "kol": 0,
    "miss": 0
   }
  },
@@ -572,8 +559,40 @@
    "why": "stop -35.5%",
    "smart": 5,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:27:44+07:00",
+   "kind": "buy",
+   "mint": "Gta6uoekEj831ppDPD4EiX3Xj9tW8SxR5rzCsF7cLeEk",
+   "sym": "GTA6",
+   "price": 3.702e-05,
+   "usd": 2.191
+  },
+  {
+   "t": "2026-11-14T03:27:44+07:00",
+   "kind": "sell",
+   "mint": "4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump",
+   "sym": "Speed",
+   "price": 0.0001981,
+   "usd": 3.1368,
+   "pnl": -0.4867,
+   "why": "stop -8.0%",
+   "smart": 120,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:27:44+07:00",
+   "kind": "sell",
+   "mint": "pdcSEvDqUReA3UJ5NKbZpSjTrg4BxcrTTpLFaY3pump",
+   "sym": "GME",
+   "price": 5.807e-06,
+   "usd": 1.2404,
+   "pnl": -1.1083,
+   "why": "stop -43.9%",
+   "smart": 8,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794601396.2387056
+ "rank_t": 1794601650.600134
 }
