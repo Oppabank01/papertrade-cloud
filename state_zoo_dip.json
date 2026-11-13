@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.3741204363851205,
+ "cash": 0.2809093344690885,
  "pos": {
   "BGQqYLTCRHBK3CSosCNq5G6MsGYL2iZ2amsSsF4Tpump": {
    "sym": "ESTR",
@@ -20,13 +20,26 @@
    "sym": "HUNG",
    "qty": 10842.477632589975,
    "entry": 0.000146,
-   "last": 0.0001508,
-   "peak": 0.0001525,
+   "last": 0.0001583,
+   "peak": 0.0001583,
    "cost": 1.6316241335375552,
    "opened": "2026-11-14T03:58:26+07:00",
    "zoo": "dip",
    "smart": 256,
    "kol": 15,
+   "miss": 0
+  },
+  "7csfMgiRcBy9Y4GbGVMz8qJWFUk718KG58xfCKpXpump": {
+   "sym": "SPEED",
+   "qty": 11887.843657015628,
+   "entry": 8.922e-05,
+   "last": 8.83e-05,
+   "peak": 8.922e-05,
+   "cost": 1.093211101916032,
+   "opened": "2026-11-14T04:32:28+07:00",
+   "zoo": "dip",
+   "smart": 1,
+   "kol": 0,
    "miss": 0
   }
  },
@@ -851,8 +864,16 @@
    "why": "stop -36.1%",
    "smart": 4,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:32:28+07:00",
+   "kind": "buy",
+   "mint": "7csfMgiRcBy9Y4GbGVMz8qJWFUk718KG58xfCKpXpump",
+   "sym": "SPEED",
+   "price": 8.922e-05,
+   "usd": 1.0932
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794605281.1201434
+ "rank_t": 1794605526.2346554
 }

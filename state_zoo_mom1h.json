@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.36348888484684233,
+ "cash": 0.23757864367999565,
  "pos": {
   "BGQqYLTCRHBK3CSosCNq5G6MsGYL2iZ2amsSsF4Tpump": {
    "sym": "ESTR",
@@ -16,29 +16,29 @@
    "kol": 0,
    "miss": 0
   },
-  "7csfMgiRcBy9Y4GbGVMz8qJWFUk718KG58xfCKpXpump": {
-   "sym": "SPEED",
-   "qty": 909.3582568855409,
-   "entry": 0.0002589,
-   "last": 0.0002612,
-   "peak": 0.0002612,
-   "cost": 0.24266424727650643,
-   "opened": "2026-11-14T04:28:11+07:00",
-   "zoo": "mom1h",
-   "smart": 1,
-   "kol": 0,
-   "miss": 0
-  },
   "9y6FgwuQDzUW8XzhF3W26kyCeFF2wWQXU3BRDkZTpump": {
    "sym": "SIRIUS",
    "qty": 1475.2357541491137,
    "entry": 7.454e-05,
-   "last": 7.454e-05,
-   "peak": 7.454e-05,
+   "last": 9.451e-05,
+   "peak": 9.451e-05,
    "cost": 0.1133416544158678,
    "opened": "2026-11-14T04:28:12+07:00",
    "zoo": "mom1h",
    "smart": 4,
+   "kol": 0,
+   "miss": 0
+  },
+  "85xrw1gHPUMeauAhGhy5k2eGJ37hk4Tf1UvK9bNQpump": {
+   "sym": "SpaceCat",
+   "qty": 4112.730759322808,
+   "entry": 4.808e-05,
+   "last": 4.808e-05,
+   "peak": 4.808e-05,
+   "cost": 0.20381374449416675,
+   "opened": "2026-11-14T04:32:28+07:00",
+   "zoo": "mom1h",
+   "smart": 6,
    "kol": 0,
    "miss": 0
   }
@@ -712,8 +712,28 @@
    "why": "stop -28.0%",
    "smart": 8,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:32:28+07:00",
+   "kind": "buy",
+   "mint": "85xrw1gHPUMeauAhGhy5k2eGJ37hk4Tf1UvK9bNQpump",
+   "sym": "SpaceCat",
+   "price": 4.808e-05,
+   "usd": 0.2038
+  },
+  {
+   "t": "2026-11-14T04:32:28+07:00",
+   "kind": "sell",
+   "mint": "7csfMgiRcBy9Y4GbGVMz8qJWFUk718KG58xfCKpXpump",
+   "sym": "SPEED",
+   "price": 8.83e-05,
+   "usd": 0.0779,
+   "pnl": -0.1648,
+   "why": "stop -65.9%",
+   "smart": 1,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: พุ่งแรง 1 ชม. เกิน +100%",
- "rank_t": 1794605281.1201434
+ "rank_t": 1794605526.2346554
 }

@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.08927194585486246,
+ "cash": 0.030036398685198445,
  "pos": {
   "4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": {
    "sym": "Speed",
    "qty": 402.36322347995775,
    "entry": 0.0002693,
-   "last": 0.0002555,
-   "peak": 0.0002835,
+   "last": 0.000289,
+   "peak": 0.000289,
    "cost": 0.11168461769032428,
    "opened": "2026-11-14T04:02:49+07:00",
    "zoo": "mom5",
@@ -20,13 +20,26 @@
    "sym": "XD",
    "qty": 658.8733316096735,
    "entry": 0.0001081,
-   "last": 0.000158,
+   "last": 0.0001574,
    "peak": 0.000158,
    "cost": 0.07341188120697352,
    "opened": "2026-11-14T04:11:10+07:00",
    "zoo": "mom5",
    "smart": 110,
    "kol": 4,
+   "miss": 0
+  },
+  "9y6FgwuQDzUW8XzhF3W26kyCeFF2wWQXU3BRDkZTpump": {
+   "sym": "SIRIUS",
+   "qty": 608.3447429237644,
+   "entry": 9.447e-05,
+   "last": 9.451e-05,
+   "peak": 9.451e-05,
+   "cost": 0.05923554716966402,
+   "opened": "2026-11-14T04:32:28+07:00",
+   "zoo": "mom5",
+   "smart": 4,
+   "kol": 0,
    "miss": 0
   }
  },
@@ -1011,8 +1024,16 @@
    "why": "stop -28.0%",
    "smart": 8,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:32:28+07:00",
+   "kind": "buy",
+   "mint": "9y6FgwuQDzUW8XzhF3W26kyCeFF2wWQXU3BRDkZTpump",
+   "sym": "SIRIUS",
+   "price": 9.447e-05,
+   "usd": 0.0592
   }
  ],
  "label": "สวนสัตว์: โมเมนตัม 5 นาที +10 ถึง +50%",
- "rank_t": 1794605281.1201434
+ "rank_t": 1794605526.2346554
 }
