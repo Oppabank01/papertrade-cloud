@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.3560059016923742,
+ "cash": 0.36348888484684233,
  "pos": {
   "BGQqYLTCRHBK3CSosCNq5G6MsGYL2iZ2amsSsF4Tpump": {
    "sym": "ESTR",
@@ -16,16 +16,29 @@
    "kol": 0,
    "miss": 0
   },
-  "AUpCMjSdzQX91Sh7LKr2XwtvnZ1TdMwZ4dv49Lczpump": {
-   "sym": "Ground",
-   "qty": 17474.513104643484,
-   "entry": 2.977e-05,
-   "last": 3.143e-05,
-   "peak": 3.143e-05,
-   "cost": 0.5361948620132307,
-   "opened": "2026-11-14T04:24:00+07:00",
+  "7csfMgiRcBy9Y4GbGVMz8qJWFUk718KG58xfCKpXpump": {
+   "sym": "SPEED",
+   "qty": 909.3582568855409,
+   "entry": 0.0002589,
+   "last": 0.0002612,
+   "peak": 0.0002612,
+   "cost": 0.24266424727650643,
+   "opened": "2026-11-14T04:28:11+07:00",
    "zoo": "mom1h",
-   "smart": 8,
+   "smart": 1,
+   "kol": 0,
+   "miss": 0
+  },
+  "9y6FgwuQDzUW8XzhF3W26kyCeFF2wWQXU3BRDkZTpump": {
+   "sym": "SIRIUS",
+   "qty": 1475.2357541491137,
+   "entry": 7.454e-05,
+   "last": 7.454e-05,
+   "peak": 7.454e-05,
+   "cost": 0.1133416544158678,
+   "opened": "2026-11-14T04:28:12+07:00",
+   "zoo": "mom1h",
+   "smart": 4,
    "kol": 0,
    "miss": 0
   }
@@ -671,8 +684,36 @@
    "why": "stop -16.5%",
    "smart": 8,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:28:11+07:00",
+   "kind": "buy",
+   "mint": "7csfMgiRcBy9Y4GbGVMz8qJWFUk718KG58xfCKpXpump",
+   "sym": "SPEED",
+   "price": 0.0002589,
+   "usd": 0.2427
+  },
+  {
+   "t": "2026-11-14T04:28:12+07:00",
+   "kind": "buy",
+   "mint": "9y6FgwuQDzUW8XzhF3W26kyCeFF2wWQXU3BRDkZTpump",
+   "sym": "SIRIUS",
+   "price": 7.454e-05,
+   "usd": 0.1133
+  },
+  {
+   "t": "2026-11-14T04:28:12+07:00",
+   "kind": "sell",
+   "mint": "AUpCMjSdzQX91Sh7LKr2XwtvnZ1TdMwZ4dv49Lczpump",
+   "sym": "Ground",
+   "price": 2.144e-05,
+   "usd": 0.3635,
+   "pnl": -0.1727,
+   "why": "stop -28.0%",
+   "smart": 8,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: พุ่งแรง 1 ชม. เกิน +100%",
- "rank_t": 1794605009.6534264
+ "rank_t": 1794605281.1201434
 }

@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.9851411572397528,
+ "cash": 0.35557758326420885,
  "pos": {
   "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": {
    "sym": "fone",
@@ -18,7 +18,7 @@
    "sym": "EXFIL",
    "qty": 248.9021500967398,
    "entry": 0.002639,
-   "last": 0.002769,
+   "last": 0.002768,
    "peak": 0.002851,
    "cost": 0.6770282149096025,
    "opened": "2026-11-14T03:32:01+07:00",
@@ -29,10 +29,21 @@
    "sym": "BBTB",
    "qty": 5444.73039813437,
    "entry": 0.0001134,
-   "last": 0.0001192,
+   "last": 0.0001052,
    "peak": 0.0001192,
    "cost": 0.6363970595221992,
    "opened": "2026-11-14T04:23:55+07:00",
+   "source": "agents",
+   "miss": 0
+  },
+  "HMTwjQPHbf82woGKMwDyPHAxgpwVj4boFQPMwk5Bpump": {
+   "sym": "Blackout",
+   "qty": 9643.236177314064,
+   "entry": 6.334e-05,
+   "last": 6.047e-05,
+   "peak": 6.334e-05,
+   "cost": 0.629563573975544,
+   "opened": "2026-11-14T04:28:09+07:00",
    "source": "agents",
    "miss": 0
   }
@@ -1266,6 +1277,14 @@
    "why": "stop -8.4%",
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:28:09+07:00",
+   "kind": "buy",
+   "mint": "HMTwjQPHbf82woGKMwDyPHAxgpwVj4boFQPMwk5Bpump",
+   "sym": "Blackout",
+   "price": 6.334e-05,
+   "usd": 0.6296
   }
  ],
  "label": "เร็ว ไม่มี laya",
@@ -1883,6 +1902,8 @@
   "state_agents.json:2026-11-14T04:23:46+07:00:7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump",
   "state_agents.json:2026-11-14T04:23:49+07:00:HMTwjQPHbf82woGKMwDyPHAxgpwVj4boFQPMwk5Bpump",
   "state_agents.json:2026-11-14T04:23:51+07:00:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
-  "state_agents.json:2026-11-14T04:23:54+07:00:7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump"
+  "state_agents.json:2026-11-14T04:23:54+07:00:7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump",
+  "state_agents.json:2026-11-14T04:28:07+07:00:HMTwjQPHbf82woGKMwDyPHAxgpwVj4boFQPMwk5Bpump",
+  "state_agents.json:2026-11-14T04:28:08+07:00:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump"
  ]
 }

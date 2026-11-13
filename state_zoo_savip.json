@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.0,
+ "cash": 2.4596223645417306,
  "pos": {
   "FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": {
    "sym": "PUSSY",
    "qty": 19413.21212763607,
    "entry": 0.0002169,
-   "last": 0.000221,
+   "last": 0.0002391,
    "peak": 0.0002501,
    "cost": 4.340059483080049,
    "opened": "2026-11-14T04:07:00+07:00",
@@ -18,29 +18,17 @@
   },
   "3B7SHozUFoiGnFC7i6WHZ8zNMbDrhtz9WpXqWt51pump": {
    "sym": "XD",
-   "qty": 13743.53327106632,
+   "qty": 6871.76663553316,
    "entry": 0.0001081,
-   "last": 0.000117,
-   "peak": 0.000117,
-   "cost": 1.5313089534140067,
+   "last": 0.000158,
+   "peak": 0.000158,
+   "cost": 0.7656544767070034,
    "opened": "2026-11-14T04:11:12+07:00",
    "zoo": "savip",
    "smart": 110,
    "kol": 4,
-   "miss": 0
-  },
-  "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": {
-   "sym": "Sakura",
-   "qty": 7265.319876449708,
-   "entry": 0.000244,
-   "last": 0.0002503,
-   "peak": 0.0002519,
-   "cost": 1.8271882600017821,
-   "opened": "2026-11-14T04:19:30+07:00",
-   "zoo": "savip",
-   "smart": 128,
-   "kol": 6,
-   "miss": 0
+   "miss": 0,
+   "half": true
   }
  },
  "log": [
@@ -172,8 +160,30 @@
    "sym": "Sakura",
    "price": 0.000244,
    "usd": 1.8272
+  },
+  {
+   "t": "2026-11-14T04:28:13+07:00",
+   "kind": "sell",
+   "mint": "3B7SHozUFoiGnFC7i6WHZ8zNMbDrhtz9WpXqWt51pump",
+   "sym": "XD",
+   "price": 0.000158,
+   "usd": 1.0534,
+   "pnl": 0.2877,
+   "why": "ขายครึ่ง +46.2%"
+  },
+  {
+   "t": "2026-11-14T04:28:13+07:00",
+   "kind": "sell",
+   "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
+   "sym": "Sakura",
+   "price": 0.0001995,
+   "usd": 1.4062,
+   "pnl": -0.4209,
+   "why": "stop -18.2%",
+   "smart": 128,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: savipww 5 บอท: คะแนน 80+ ทุ่มหมด ขายครึ่ง +30% stop -6%",
- "rank_t": 1794605009.6534264
+ "rank_t": 1794605281.1201434
 }

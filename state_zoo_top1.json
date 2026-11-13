@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 3.883841109649937,
+ "cash": 2.6001743728161175,
  "pos": {
   "BGQqYLTCRHBK3CSosCNq5G6MsGYL2iZ2amsSsF4Tpump": {
    "sym": "ESTR",
@@ -13,6 +13,19 @@
    "opened": "2026-11-14T02:06:42+07:00",
    "zoo": "top1",
    "smart": 5,
+   "kol": 0,
+   "miss": 0
+  },
+  "7csfMgiRcBy9Y4GbGVMz8qJWFUk718KG58xfCKpXpump": {
+   "sym": "SPEED",
+   "qty": 4810.403507439829,
+   "entry": 0.0002589,
+   "last": 0.0002612,
+   "peak": 0.0002612,
+   "cost": 1.2836667368338195,
+   "opened": "2026-11-14T04:28:11+07:00",
+   "zoo": "top1",
+   "smart": 1,
    "kol": 0,
    "miss": 0
   }
@@ -270,8 +283,16 @@
    "why": "stop -50.1%",
    "smart": 37,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:28:11+07:00",
+   "kind": "buy",
+   "mint": "7csfMgiRcBy9Y4GbGVMz8qJWFUk718KG58xfCKpXpump",
+   "sym": "SPEED",
+   "price": 0.0002589,
+   "usd": 1.2837
   }
  ],
  "label": "สวนสัตว์: วอลุ่มอันดับ 1",
- "rank_t": 1794605009.6534264
+ "rank_t": 1794605281.1201434
 }
