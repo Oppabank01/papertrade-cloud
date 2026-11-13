@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.049530869607755934,
+ "cash": 0.1202205800307798,
  "pos": {
   "7f12HytX17fyBAoaJMdtHWZatNDeaJuXZTxPncL8pump": {
    "sym": "TEDDY",
@@ -26,19 +26,6 @@
    "opened": "2026-11-14T05:19:42+07:00",
    "zoo": "mom1h",
    "smart": 5,
-   "kol": 0,
-   "miss": 0
-  },
-  "Big1krPP8QUkgg5fsfEZQmeuwAViNajzAxNhNYvXaSS1": {
-   "sym": "BTC",
-   "qty": 2225.4418829255956,
-   "entry": 3.286e-05,
-   "last": 3.419e-05,
-   "peak": 3.88e-05,
-   "cost": 0.07537417055548862,
-   "opened": "2026-11-14T05:45:13+07:00",
-   "zoo": "mom1h",
-   "smart": 51,
    "kol": 0,
    "miss": 0
   }
@@ -992,8 +979,20 @@
    "sym": "BTC",
    "price": 3.286e-05,
    "usd": 0.0754
+  },
+  {
+   "t": "2026-11-14T06:02:57+07:00",
+   "kind": "sell",
+   "mint": "Big1krPP8QUkgg5fsfEZQmeuwAViNajzAxNhNYvXaSS1",
+   "sym": "BTC",
+   "price": 3.274e-05,
+   "usd": 0.0707,
+   "pnl": -0.0047,
+   "why": "trailing จากยอด +18% (-0.4%)",
+   "smart": 51,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: พุ่งแรง 1 ชม. เกิน +100%",
- "rank_t": 1794610679.0303638
+ "rank_t": 1794610937.624725
 }
