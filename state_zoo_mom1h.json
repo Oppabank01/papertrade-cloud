@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.8784461223411,
+ "cash": 1.6074298513561258,
  "pos": {
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
@@ -20,13 +20,26 @@
    "sym": "JENSEN",
    "qty": 13953.978428830635,
    "entry": 8.937e-05,
-   "last": 8.937e-05,
-   "peak": 8.937e-05,
+   "last": 0.0001127,
+   "peak": 0.0001127,
    "cost": 1.285371111301375,
    "opened": "2026-11-14T01:31:28+07:00",
    "zoo": "mom1h",
    "smart": 4,
    "kol": 0,
+   "miss": 0
+  },
+  "3vKbL9MU2u6x7KAma4o8utbZDm8hBZm1k9QojSxKpump": {
+   "sym": "LONGURO",
+   "qty": 92025.37209773298,
+   "entry": 1.34e-05,
+   "last": 1.61e-05,
+   "peak": 1.61e-05,
+   "cost": 1.2710162709849744,
+   "opened": "2026-11-14T01:35:46+07:00",
+   "zoo": "mom1h",
+   "smart": 12,
+   "kol": 1,
    "miss": 0
   }
  },
@@ -291,8 +304,16 @@
    "why": "trailing จากยอด +232% (+152.2%)",
    "smart": 30,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:35:46+07:00",
+   "kind": "buy",
+   "mint": "3vKbL9MU2u6x7KAma4o8utbZDm8hBZm1k9QojSxKpump",
+   "sym": "LONGURO",
+   "price": 1.34e-05,
+   "usd": 1.271
   }
  ],
  "label": "สวนสัตว์: พุ่งแรง 1 ชม. เกิน +100%",
- "rank_t": 1794594667.132806
+ "rank_t": 1794594925.9593356
 }
