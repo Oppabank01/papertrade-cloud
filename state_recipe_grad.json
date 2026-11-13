@@ -1,41 +1,17 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.171634266358939,
+ "cash": 3.2770342881117114,
  "pos": {
-  "CGeqbrTESrLDDeCrkLMCpV6PZLJVUGsQpmANnLY7pump": {
-   "sym": "PP",
-   "qty": 21573.333176251752,
-   "entry": 4.146e-05,
-   "last": 4.579e-05,
-   "peak": 4.891e-05,
-   "cost": 0.9219031060476166,
-   "opened": "2026-11-14T02:43:21+07:00",
-   "smart": 11,
-   "kol": 2,
-   "miss": 0
-  },
   "3vKbL9MU2u6x7KAma4o8utbZDm8hBZm1k9QojSxKpump": {
    "sym": "LONGURO",
    "qty": 22501.277773606358,
    "entry": 3.422e-05,
-   "last": 3.261e-05,
+   "last": 3.028e-05,
    "peak": 3.443e-05,
    "cost": 0.7936443263376722,
    "opened": "2026-11-14T03:10:34+07:00",
    "smart": 21,
-   "kol": 1,
-   "miss": 0
-  },
-  "AEiq5qgDmHbbmCvoGYfrxkFLivcnst4BUsXhqbyepump": {
-   "sym": "GME",
-   "qty": 20620.410868968367,
-   "entry": 3.627e-05,
-   "last": 4.506e-05,
-   "peak": 4.506e-05,
-   "cost": 0.7708743580885207,
-   "opened": "2026-11-14T03:14:58+07:00",
-   "smart": 33,
    "kol": 1,
    "miss": 0
   }
@@ -809,8 +785,32 @@
    "why": "stop -31.2%",
    "smart": 14,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:23:33+07:00",
+   "kind": "sell",
+   "mint": "CGeqbrTESrLDDeCrkLMCpV6PZLJVUGsQpmANnLY7pump",
+   "sym": "PP",
+   "price": 4.044e-05,
+   "usd": 0.8464,
+   "pnl": -0.0755,
+   "why": "trailing จากยอด +18% (-2.5%)",
+   "smart": 11,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:23:33+07:00",
+   "kind": "sell",
+   "mint": "AEiq5qgDmHbbmCvoGYfrxkFLivcnst4BUsXhqbyepump",
+   "sym": "GME",
+   "price": 6.293e-05,
+   "usd": 1.259,
+   "pnl": 0.4881,
+   "why": "ถึงเป้า +73.5%",
+   "smart": 33,
+   "bundler": null
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794601145.345585
+ "rank_t": 1794601396.2387056
 }

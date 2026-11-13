@@ -1,8 +1,22 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 4.227440637403734,
- "pos": {},
+ "cash": 3.381952509922987,
+ "pos": {
+  "AEiq5qgDmHbbmCvoGYfrxkFLivcnst4BUsXhqbyepump": {
+   "sym": "GME",
+   "qty": 12715.743005453736,
+   "entry": 6.451e-05,
+   "last": 6.293e-05,
+   "peak": 6.451e-05,
+   "cost": 0.8454881274807469,
+   "opened": "2026-11-14T03:23:24+07:00",
+   "smart": 33,
+   "kol": 1,
+   "bundler": 0.34,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T01:37:56+07:00",
@@ -7380,6 +7394,47 @@
    "buy": 0.8964,
    "bull": 0.9121,
    "bear": 1.0
+  },
+  {
+   "t": "2026-11-14T03:23:24+07:00",
+   "kind": "debate",
+   "mint": "AEiq5qgDmHbbmCvoGYfrxkFLivcnst4BUsXhqbyepump",
+   "sym": "GME",
+   "ok": true,
+   "bundler": 0.34,
+   "buy": 0.7647,
+   "bull": 0.9266,
+   "bear": 0.8669
+  },
+  {
+   "t": "2026-11-14T03:23:24+07:00",
+   "kind": "buy",
+   "mint": "AEiq5qgDmHbbmCvoGYfrxkFLivcnst4BUsXhqbyepump",
+   "sym": "GME",
+   "price": 6.451e-05,
+   "usd": 0.8455
+  },
+  {
+   "t": "2026-11-14T03:23:28+07:00",
+   "kind": "debate",
+   "mint": "4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump",
+   "sym": "HUNG",
+   "ok": false,
+   "bundler": 0.1887,
+   "buy": 0.8705,
+   "bull": 0.9393,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-14T03:23:31+07:00",
+   "kind": "debate",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "ok": false,
+   "bundler": 0.02,
+   "buy": 0.8927,
+   "bull": 0.9378,
+   "bear": 0.9999
   }
  ]
 }
