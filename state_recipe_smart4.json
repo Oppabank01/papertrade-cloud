@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.072961842007605,
+ "cash": 0.9742886557934598,
  "pos": {
   "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
    "sym": "PAID",
    "qty": 833.5462110140909,
    "entry": 0.001455,
-   "last": 0.001472,
+   "last": 0.001443,
    "peak": 0.001472,
    "cost": 1.250061571867143,
    "opened": "2026-11-13T23:41:28+07:00",
@@ -37,6 +37,18 @@
    "opened": "2026-11-14T01:57:13+07:00",
    "smart": 720,
    "kol": 80,
+   "miss": 0
+  },
+  "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": {
+   "sym": "BAWSAQ",
+   "qty": 4563.068173223302,
+   "entry": 0.0002336,
+   "last": 0.0002213,
+   "peak": 0.0002336,
+   "cost": 1.098673186214145,
+   "opened": "2026-11-14T02:06:39+07:00",
+   "smart": 51,
+   "kol": 6,
    "miss": 0
   }
  },
@@ -949,8 +961,16 @@
    "why": "trailing จากยอด +28% (+4.6%)",
    "smart": 72,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:06:39+07:00",
+   "kind": "buy",
+   "mint": "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump",
+   "sym": "BAWSAQ",
+   "price": 0.0002336,
+   "usd": 1.0987
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794596492.2127411
+ "rank_t": 1794596782.4615548
 }

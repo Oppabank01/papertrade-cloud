@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 4.112233316216032,
+ "cash": 6.446764782861364,
  "pos": {
   "4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": {
    "sym": "Speed",
    "qty": 16320.94186706099,
    "entry": 0.0002154,
-   "last": 0.0002286,
-   "peak": 0.0002301,
+   "last": 0.0002304,
+   "peak": 0.0002304,
    "cost": 3.6235115215058102,
    "opened": "2026-11-14T01:27:09+07:00",
    "zoo": "dip",
@@ -16,30 +16,17 @@
    "kol": 8,
    "miss": 0
   },
-  "GmGR4KUh4GQcKJJqom8Q7mbg5eSqCGu1sEx9krBpump": {
-   "sym": "Makenzi",
-   "qty": 324030.3451642688,
-   "entry": 8.938e-06,
-   "last": 9.377e-06,
-   "peak": 1.097e-05,
-   "cost": 2.985140409274618,
-   "opened": "2026-11-14T01:48:36+07:00",
+  "H2REP2i7Xra5jtdN81Hf4CPPRkbbNFaaFp9Gw9RZpump": {
+   "sym": "Nancy",
+   "qty": 27742.51950534723,
+   "entry": 9.412e-05,
+   "last": 8.848e-05,
+   "peak": 9.412e-05,
+   "cost": 2.691327495200249,
+   "opened": "2026-11-14T02:06:43+07:00",
    "zoo": "dip",
-   "smart": 21,
-   "kol": 1,
-   "miss": 0
-  },
-  "DdTgSXwj4Pvr6yF5o9HmnMHQsLeQBXgggzZzsKmnpump": {
-   "sym": "Criptoe",
-   "qty": 209179.87834035108,
-   "entry": 1.329e-05,
-   "last": 1.231e-05,
-   "peak": 1.329e-05,
-   "cost": 2.86538918072899,
-   "opened": "2026-11-14T02:02:22+07:00",
-   "zoo": "dip",
-   "smart": 20,
-   "kol": 5,
+   "smart": 12,
+   "kol": 0,
    "miss": 0
   }
  },
@@ -292,8 +279,40 @@
    "why": "stop -11.5%",
    "smart": 114,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:06:43+07:00",
+   "kind": "buy",
+   "mint": "H2REP2i7Xra5jtdN81Hf4CPPRkbbNFaaFp9Gw9RZpump",
+   "sym": "Nancy",
+   "price": 9.412e-05,
+   "usd": 2.6913
+  },
+  {
+   "t": "2026-11-14T02:06:43+07:00",
+   "kind": "sell",
+   "mint": "GmGR4KUh4GQcKJJqom8Q7mbg5eSqCGu1sEx9krBpump",
+   "sym": "Makenzi",
+   "price": 8.195e-06,
+   "usd": 2.5763,
+   "pnl": -0.4088,
+   "why": "stop -8.3%",
+   "smart": 21,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:06:43+07:00",
+   "kind": "sell",
+   "mint": "DdTgSXwj4Pvr6yF5o9HmnMHQsLeQBXgggzZzsKmnpump",
+   "sym": "Criptoe",
+   "price": 1.207e-05,
+   "usd": 2.4496,
+   "pnl": -0.4158,
+   "why": "stop -9.2%",
+   "smart": 20,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794596492.2127411
+ "rank_t": 1794596782.4615548
 }

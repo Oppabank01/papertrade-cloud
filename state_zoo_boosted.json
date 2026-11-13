@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 5.180792880306711,
+ "cash": 2.465145809436364,
  "pos": {
   "2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump": {
    "sym": "Peekhole",
    "qty": 8217.281908590992,
    "entry": 0.0003449,
-   "last": 0.0003628,
+   "last": 0.0003661,
    "peak": 0.0003834,
    "cost": 2.9211920534663296,
    "opened": "2026-11-14T00:49:36+07:00",
@@ -20,7 +20,7 @@
    "sym": "GTA6",
    "qty": 373.03445209391305,
    "entry": 0.007287,
-   "last": 0.007173,
+   "last": 0.00724,
    "peak": 0.007317,
    "cost": 2.8017955600993036,
    "opened": "2026-11-14T01:01:07+07:00",
@@ -40,6 +40,19 @@
    "zoo": "boosted",
    "smart": 720,
    "kol": 80,
+   "miss": 0
+  },
+  "ANYq8tELPCSTvEjWVpxzgvtHu2K5vXFZZEmnNJfQpump": {
+   "sym": "Sakura",
+   "qty": 23524.292751414385,
+   "entry": 0.000112,
+   "last": 0.000112,
+   "peak": 0.000112,
+   "cost": 2.7156470708703475,
+   "opened": "2026-11-14T02:06:44+07:00",
+   "zoo": "boosted",
+   "smart": 60,
+   "kol": 0,
    "miss": 0
   }
  },
@@ -132,8 +145,16 @@
    "why": "trailing จากยอด +25% (+1.5%)",
    "smart": 72,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:06:44+07:00",
+   "kind": "buy",
+   "mint": "ANYq8tELPCSTvEjWVpxzgvtHu2K5vXFZZEmnNJfQpump",
+   "sym": "Sakura",
+   "price": 0.000112,
+   "usd": 2.7156
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794596492.2127411
+ "rank_t": 1794596782.4615548
 }
