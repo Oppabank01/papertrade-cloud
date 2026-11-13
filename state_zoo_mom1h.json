@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.35784223677546917,
+ "cash": 0.02358632547692263,
  "pos": {
   "BGQqYLTCRHBK3CSosCNq5G6MsGYL2iZ2amsSsF4Tpump": {
    "sym": "ESTR",
@@ -20,12 +20,38 @@
    "sym": "SEO",
    "qty": 6418.330346420866,
    "entry": 2.669e-05,
-   "last": 2.683e-05,
+   "last": 2.827e-05,
    "peak": 3.067e-05,
    "cost": 0.17656693150481645,
    "opened": "2026-11-14T04:36:54+07:00",
    "zoo": "mom1h",
    "smart": 2,
+   "kol": 0,
+   "miss": 0
+  },
+  "BApgNbjD25PHFft8WNATeL6gwpFFucEn5VBg2VHDpump": {
+   "sym": "KOSMIK",
+   "qty": 2441.5581217032754,
+   "entry": 6.661e-05,
+   "last": 6.498e-05,
+   "peak": 6.661e-05,
+   "cost": 0.16762748555623086,
+   "opened": "2026-11-14T04:45:36+07:00",
+   "zoo": "mom1h",
+   "smart": 37,
+   "kol": 1,
+   "miss": 0
+  },
+  "9UyvkF4J5gTRynxLJ582rP2jqfHwuXcteLLPKHrspump": {
+   "sym": "PUMPMAS",
+   "qty": 5248.7954108829435,
+   "entry": 3.08e-05,
+   "last": 3.236e-05,
+   "peak": 3.236e-05,
+   "cost": 0.16662842574231568,
+   "opened": "2026-11-14T04:45:36+07:00",
+   "zoo": "mom1h",
+   "smart": 7,
    "kol": 0,
    "miss": 0
   }
@@ -751,8 +777,24 @@
    "why": "trailing จากยอด +107% (+53.5%)",
    "smart": 6,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:45:36+07:00",
+   "kind": "buy",
+   "mint": "BApgNbjD25PHFft8WNATeL6gwpFFucEn5VBg2VHDpump",
+   "sym": "KOSMIK",
+   "price": 6.661e-05,
+   "usd": 0.1676
+  },
+  {
+   "t": "2026-11-14T04:45:36+07:00",
+   "kind": "buy",
+   "mint": "9UyvkF4J5gTRynxLJ582rP2jqfHwuXcteLLPKHrspump",
+   "sym": "PUMPMAS",
+   "price": 3.08e-05,
+   "usd": 0.1666
   }
  ],
  "label": "สวนสัตว์: พุ่งแรง 1 ชม. เกิน +100%",
- "rank_t": 1794606058.46531
+ "rank_t": 1794606310.1408715
 }

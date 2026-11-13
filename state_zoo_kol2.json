@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.163372254949386,
+ "cash": 0.11692111440778308,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 32.546896420503494,
    "entry": 0.04744,
-   "last": 0.04639,
+   "last": 0.04663,
    "peak": 0.04814,
    "cost": 1.591449975457314,
    "opened": "2026-11-14T02:32:32+07:00",
@@ -20,7 +20,7 @@
    "sym": "DacityCoin",
    "qty": 296.61062074748435,
    "entry": 0.004791,
-   "last": 0.004464,
+   "last": 0.00442,
    "peak": 0.004899,
    "cost": 1.4647098371482143,
    "opened": "2026-11-14T02:52:55+07:00",
@@ -33,13 +33,26 @@
    "sym": "GTA6",
    "qty": 170.01144160169335,
    "entry": 0.007436,
-   "last": 0.007264,
+   "last": 0.007197,
    "peak": 0.007459,
    "cost": 1.3030355388066295,
    "opened": "2026-11-14T03:41:11+07:00",
    "zoo": "kol2",
    "smart": 287,
    "kol": 23,
+   "miss": 0
+  },
+  "HMTwjQPHbf82woGKMwDyPHAxgpwVj4boFQPMwk5Bpump": {
+   "sym": "Blackout",
+   "qty": 12663.925365516565,
+   "entry": 8.017e-05,
+   "last": 0.0001086,
+   "peak": 0.0001086,
+   "cost": 1.0464511405416028,
+   "opened": "2026-11-14T04:45:37+07:00",
+   "zoo": "kol2",
+   "smart": 86,
+   "kol": 5,
    "miss": 0
   }
  },
@@ -532,8 +545,16 @@
    "why": "stop -11.0%",
    "smart": 9,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:45:37+07:00",
+   "kind": "buy",
+   "mint": "HMTwjQPHbf82woGKMwDyPHAxgpwVj4boFQPMwk5Bpump",
+   "sym": "Blackout",
+   "price": 8.017e-05,
+   "usd": 1.0465
   }
  ],
  "label": "สวนสัตว์: KOL เข้า 2 คนขึ้นไป",
- "rank_t": 1794606058.46531
+ "rank_t": 1794606310.1408715
 }
