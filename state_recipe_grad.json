@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.4374889623662075,
+ "cash": 1.171634266358939,
  "pos": {
   "CGeqbrTESrLDDeCrkLMCpV6PZLJVUGsQpmANnLY7pump": {
    "sym": "PP",
    "qty": 21573.333176251752,
    "entry": 4.146e-05,
-   "last": 4.381e-05,
+   "last": 4.486e-05,
    "peak": 4.891e-05,
    "cost": 0.9219031060476166,
    "opened": "2026-11-14T02:43:21+07:00",
@@ -15,27 +15,27 @@
    "kol": 2,
    "miss": 0
   },
-  "bSU2Zy75MJiF25Y1VcV9ARhJv2hfai9w38vW1q6pump": {
-   "sym": "Fede",
-   "qty": 17544.034405299917,
-   "entry": 4.314e-05,
-   "last": 4e-05,
-   "peak": 4.314e-05,
-   "cost": 0.7800965205572443,
-   "opened": "2026-11-14T03:02:06+07:00",
-   "smart": 14,
-   "kol": 1,
-   "miss": 0
-  },
   "3vKbL9MU2u6x7KAma4o8utbZDm8hBZm1k9QojSxKpump": {
    "sym": "LONGURO",
    "qty": 22501.277773606358,
    "entry": 3.422e-05,
-   "last": 3.422e-05,
-   "peak": 3.422e-05,
+   "last": 3.443e-05,
+   "peak": 3.443e-05,
    "cost": 0.7936443263376722,
    "opened": "2026-11-14T03:10:34+07:00",
    "smart": 21,
+   "kol": 1,
+   "miss": 0
+  },
+  "AEiq5qgDmHbbmCvoGYfrxkFLivcnst4BUsXhqbyepump": {
+   "sym": "GME",
+   "qty": 20620.410868968367,
+   "entry": 3.627e-05,
+   "last": 3.627e-05,
+   "peak": 3.627e-05,
+   "cost": 0.7708743580885207,
+   "opened": "2026-11-14T03:14:58+07:00",
+   "smart": 33,
    "kol": 1,
    "miss": 0
   }
@@ -789,8 +789,28 @@
    "sym": "LONGURO",
    "price": 3.422e-05,
    "usd": 0.7936
+  },
+  {
+   "t": "2026-11-14T03:14:58+07:00",
+   "kind": "buy",
+   "mint": "AEiq5qgDmHbbmCvoGYfrxkFLivcnst4BUsXhqbyepump",
+   "sym": "GME",
+   "price": 3.627e-05,
+   "usd": 0.7709
+  },
+  {
+   "t": "2026-11-14T03:14:58+07:00",
+   "kind": "sell",
+   "mint": "bSU2Zy75MJiF25Y1VcV9ARhJv2hfai9w38vW1q6pump",
+   "sym": "Fede",
+   "price": 2.967e-05,
+   "usd": 0.505,
+   "pnl": -0.2751,
+   "why": "stop -31.2%",
+   "smart": 14,
+   "bundler": null
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794600616.0388153
+ "rank_t": 1794600879.1525567
 }
