@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 5.954099965771614,
+ "cash": 4.94795643282546,
  "pos": {
   "CbtV3nXwEM9vhuh3qCJoMxLAGNkBGzytMMuzf38Hpump": {
    "sym": "Onboarder",
    "qty": 35883.57212194852,
    "entry": 7.978e-05,
-   "last": 7.835e-05,
-   "peak": 7.978e-05,
+   "last": 0.000163,
+   "peak": 0.000163,
    "cost": 2.950722927117144,
    "opened": "2026-11-14T00:45:43+07:00",
    "zoo": "dip",
@@ -20,8 +20,8 @@
    "sym": "cashchick",
    "qty": 169086.69918247618,
    "entry": 1.683e-05,
-   "last": 2.705e-05,
-   "peak": 2.705e-05,
+   "last": 3.825e-05,
+   "peak": 3.825e-05,
    "cost": 2.9331366184715257,
    "opened": "2026-11-14T00:45:43+07:00",
    "zoo": "dip",
@@ -29,17 +29,17 @@
    "kol": 5,
    "miss": 0
   },
-  "DF35EFJBZ7Kssd4xLpDp7zaZLibAGWHppL6Y2mWvpump": {
-   "sym": "COIL",
-   "qty": 104075.3716528152,
-   "entry": 2.718e-05,
-   "last": 2.718e-05,
-   "peak": 2.718e-05,
-   "cost": 2.9156551242254354,
-   "opened": "2026-11-14T00:45:43+07:00",
+  "E28eQFoCPndfLUPnxYgEWHhbnEVqSpyNPgAacoAEpump": {
+   "sym": "inu",
+   "qty": 24452.581503645968,
+   "entry": 0.0001283,
+   "last": 0.0001263,
+   "peak": 0.0001283,
+   "cost": 3.2336283311871554,
+   "opened": "2026-11-14T00:49:35+07:00",
    "zoo": "dip",
-   "smart": 19,
-   "kol": 2,
+   "smart": 151,
+   "kol": 14,
    "miss": 0
   }
  },
@@ -72,8 +72,28 @@
    "sym": "COIL",
    "price": 2.718e-05,
    "usd": 2.9157
+  },
+  {
+   "t": "2026-11-14T00:49:35+07:00",
+   "kind": "buy",
+   "mint": "E28eQFoCPndfLUPnxYgEWHhbnEVqSpyNPgAacoAEpump",
+   "sym": "inu",
+   "price": 0.0001283,
+   "usd": 3.2336
+  },
+  {
+   "t": "2026-11-14T00:49:35+07:00",
+   "kind": "sell",
+   "mint": "DF35EFJBZ7Kssd4xLpDp7zaZLibAGWHppL6Y2mWvpump",
+   "sym": "COIL",
+   "price": 2.206e-05,
+   "usd": 2.2275,
+   "pnl": -0.6882,
+   "why": "stop -18.8%",
+   "smart": 19,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794591937.7259166
+ "rank_t": 1794592170.5836637
 }

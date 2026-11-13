@@ -1,26 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 5.954099965771614,
+ "cash": 3.119706896901766,
  "pos": {
-  "BEJWz9HuLeAVsAhJ9QwiHcHpTrwoUyv3RoKot1Rnpump": {
-   "sym": "cashduck",
-   "qty": 24426.547644104543,
-   "entry": 0.0001172,
-   "last": 0.0001083,
-   "peak": 0.0001172,
-   "cost": 2.950722927117144,
-   "opened": "2026-11-14T00:45:42+07:00",
-   "zoo": "mom1h",
-   "smart": 5,
-   "kol": 0,
-   "miss": 0
-  },
   "724AMeMtZZQ5KmPMzqnPY5bixBoZA9hSHn2p886Lpump": {
    "sym": "M&F",
    "qty": 13868.075766282036,
    "entry": 0.0002052,
-   "last": 0.0002118,
+   "last": 0.0002112,
    "peak": 0.0002118,
    "cost": 2.9331366184715257,
    "opened": "2026-11-14T00:45:42+07:00",
@@ -33,13 +20,26 @@
    "sym": "WOOF",
    "qty": 238513.37280974007,
    "entry": 1.186e-05,
-   "last": 1.19e-05,
+   "last": 1.112e-05,
    "peak": 1.19e-05,
    "cost": 2.9156551242254354,
    "opened": "2026-11-14T00:45:42+07:00",
    "zoo": "mom1h",
    "smart": 4,
    "kol": 1,
+   "miss": 0
+  },
+  "Fpohaf4qcw6XpJsKr89uT5wmd6mu5neJSHDryNFBpump": {
+   "sym": "INU",
+   "qty": 77096.10719797442,
+   "entry": 3.618e-05,
+   "last": 3.618e-05,
+   "peak": 3.618e-05,
+   "cost": 2.8750125318725157,
+   "opened": "2026-11-14T00:49:35+07:00",
+   "zoo": "mom1h",
+   "smart": 6,
+   "kol": 0,
    "miss": 0
   }
  },
@@ -72,8 +72,28 @@
    "sym": "WOOF",
    "price": 1.186e-05,
    "usd": 2.9157
+  },
+  {
+   "t": "2026-11-14T00:49:35+07:00",
+   "kind": "buy",
+   "mint": "Fpohaf4qcw6XpJsKr89uT5wmd6mu5neJSHDryNFBpump",
+   "sym": "INU",
+   "price": 3.618e-05,
+   "usd": 2.875
+  },
+  {
+   "t": "2026-11-14T00:49:35+07:00",
+   "kind": "sell",
+   "mint": "BEJWz9HuLeAVsAhJ9QwiHcHpTrwoUyv3RoKot1Rnpump",
+   "sym": "cashduck",
+   "price": 1.714e-06,
+   "usd": 0.0406,
+   "pnl": -2.9101,
+   "why": "stop -98.5%",
+   "smart": 5,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: พุ่งแรง 1 ชม. เกิน +100%",
- "rank_t": 1794591937.7259166
+ "rank_t": 1794592170.5836637
 }
