@@ -1,25 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.5868205130635553,
+ "cash": 1.7264535583410052,
  "pos": {
-  "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": {
-   "sym": "VEIL",
-   "qty": 3368.1825517600696,
-   "entry": 0.0005052,
-   "last": 0.0004815,
-   "peak": 0.0005467,
-   "cost": 1.7538711865070988,
-   "opened": "2026-11-13T20:50:27+07:00",
-   "smart": 67,
-   "kol": 5,
-   "miss": 0
-  },
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
    "sym": "TROLL",
    "qty": 54.93705255415901,
    "entry": 0.02755,
-   "last": 0.02661,
+   "last": 0.02662,
    "peak": 0.02764,
    "cost": 1.5600039145197702,
    "opened": "2026-11-13T21:28:37+07:00",
@@ -31,12 +19,24 @@
    "sym": "42",
    "qty": 42822.41870079468,
    "entry": 2.986e-05,
-   "last": 4.797e-05,
+   "last": 4.102e-05,
    "peak": 4.797e-05,
    "cost": 1.317952404046309,
    "opened": "2026-11-13T23:14:54+07:00",
    "smart": 80,
    "kol": 5,
+   "miss": 0
+  },
+  "6ZeMsPdH2ZcP3pGSxHz5ErstowgnnW28CoxU2vcBpump": {
+   "sym": "Clipper",
+   "qty": 20056.16887329234,
+   "entry": 6.506e-05,
+   "last": 6.506e-05,
+   "peak": 6.506e-05,
+   "cost": 1.3449333610558645,
+   "opened": "2026-11-13T23:37:42+07:00",
+   "smart": 39,
+   "kol": 2,
    "miss": 0
   }
  },
@@ -809,8 +809,28 @@
    "why": "stop -19.0%",
    "smart": 59,
    "bundler": null
+  },
+  {
+   "t": "2026-11-13T23:37:42+07:00",
+   "kind": "buy",
+   "mint": "6ZeMsPdH2ZcP3pGSxHz5ErstowgnnW28CoxU2vcBpump",
+   "sym": "Clipper",
+   "price": 6.506e-05,
+   "usd": 1.3449
+  },
+  {
+   "t": "2026-11-13T23:37:43+07:00",
+   "kind": "sell",
+   "mint": "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump",
+   "sym": "VEIL",
+   "price": 0.0004543,
+   "usd": 1.4846,
+   "pnl": -0.2693,
+   "why": "stop -10.1%",
+   "smart": 67,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794587635.7953265
+ "rank_t": 1794587862.47963
 }
