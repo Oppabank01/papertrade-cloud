@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.654201757500293,
+ "cash": 2.8418173416653203,
  "pos": {
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 1037.2111208388167,
    "entry": 0.00228,
-   "last": 0.002312,
+   "last": 0.002207,
    "peak": 0.0026,
    "cost": 2.4374782060528775,
    "opened": "2026-11-14T01:18:41+07:00",
@@ -16,30 +16,30 @@
    "kol": 8,
    "miss": 0
   },
-  "4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": {
-   "sym": "Speed",
-   "qty": 9881.40684071132,
-   "entry": 0.0002286,
-   "last": 0.0002131,
-   "peak": 0.0002304,
-   "cost": 2.328272112746452,
-   "opened": "2026-11-14T01:31:30+07:00",
-   "zoo": "smart10",
-   "smart": 125,
-   "kol": 8,
-   "miss": 0
-  },
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 97.37894757896353,
    "entry": 0.01875,
-   "last": 0.01787,
+   "last": 0.01774,
    "peak": 0.01875,
    "cost": 1.8819369893893694,
    "opened": "2026-11-14T02:06:44+07:00",
    "zoo": "smart10",
    "smart": 668,
    "kol": 68,
+   "miss": 0
+  },
+  "9oJk7eMccQchx3evoN5C5pKQD5Xodb4C1qkhemjjpump": {
+   "sym": "POOR",
+   "qty": 11907.530180368458,
+   "entry": 0.000145,
+   "last": 0.0001361,
+   "peak": 0.000145,
+   "cost": 1.7796246919742593,
+   "opened": "2026-11-14T02:19:34+07:00",
+   "zoo": "smart10",
+   "smart": 46,
+   "kol": 3,
    "miss": 0
   }
  },
@@ -252,8 +252,28 @@
    "why": "stop -10.8%",
    "smart": 60,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:19:34+07:00",
+   "kind": "buy",
+   "mint": "9oJk7eMccQchx3evoN5C5pKQD5Xodb4C1qkhemjjpump",
+   "sym": "POOR",
+   "price": 0.000145,
+   "usd": 1.7796
+  },
+  {
+   "t": "2026-11-14T02:19:34+07:00",
+   "kind": "sell",
+   "mint": "4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump",
+   "sym": "Speed",
+   "price": 0.0002052,
+   "usd": 1.9672,
+   "pnl": -0.361,
+   "why": "stop -10.2%",
+   "smart": 125,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: smart wallet 10 ขึ้นไป",
- "rank_t": 1794597298.993736
+ "rank_t": 1794597557.3250504
 }
