@@ -1,8 +1,21 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 5.299934633399117,
- "pos": {},
+ "cash": 4.239947706719294,
+ "pos": {
+  "E9J3QADxFYhuS4ExoM21tQPF9Weg7AvPegLbfooppump": {
+   "sym": "KIND",
+   "qty": 38763.63800470277,
+   "entry": 2.653e-05,
+   "last": 2.653e-05,
+   "peak": 2.653e-05,
+   "cost": 1.0599869266798234,
+   "opened": "2026-11-14T01:44:11+07:00",
+   "smart": 31,
+   "kol": 3,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -628,8 +641,16 @@
    "why": "ถึงเป้า +58.0%",
    "smart": 30,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:44:11+07:00",
+   "kind": "buy",
+   "mint": "E9J3QADxFYhuS4ExoM21tQPF9Weg7AvPegLbfooppump",
+   "sym": "KIND",
+   "price": 2.653e-05,
+   "usd": 1.06
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794595188.3028018
+ "rank_t": 1794595438.8362021
 }

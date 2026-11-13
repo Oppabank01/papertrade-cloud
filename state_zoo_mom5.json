@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 3.257714566800558,
+ "cash": 0.7158042958261064,
  "pos": {
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 595.7728869728575,
    "entry": 0.00228,
-   "last": 0.002318,
+   "last": 0.002334,
    "peak": 0.0026,
    "cost": 1.4000847065534066,
    "opened": "2026-11-14T01:18:40+07:00",
@@ -20,13 +20,39 @@
    "sym": "BAWSAQ",
    "qty": 6982.106204321966,
    "entry": 0.0002441,
-   "last": 0.0002485,
-   "peak": 0.0002485,
+   "last": 0.0003959,
+   "peak": 0.0003959,
    "cost": 1.7566812249793775,
    "opened": "2026-11-14T01:40:02+07:00",
    "zoo": "mom5",
    "smart": 46,
    "kol": 3,
+   "miss": 0
+  },
+  "H2REP2i7Xra5jtdN81Hf4CPPRkbbNFaaFp9Gw9RZpump": {
+   "sym": "Nancy",
+   "qty": 27021.329163917137,
+   "entry": 4.577e-05,
+   "last": 4.633e-05,
+   "peak": 4.633e-05,
+   "cost": 1.2747539021155303,
+   "opened": "2026-11-14T01:44:14+07:00",
+   "zoo": "mom5",
+   "smart": 11,
+   "kol": 0,
+   "miss": 0
+  },
+  "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
+   "sym": "FOOD",
+   "qty": 1118.6488708525255,
+   "entry": 0.001099,
+   "last": 0.001099,
+   "peak": 0.001099,
+   "cost": 1.2671563688589214,
+   "opened": "2026-11-14T01:44:14+07:00",
+   "zoo": "mom5",
+   "smart": 274,
+   "kol": 20,
    "miss": 0
   }
  },
@@ -351,8 +377,24 @@
    "why": "stop -19.9%",
    "smart": 80,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:44:14+07:00",
+   "kind": "buy",
+   "mint": "H2REP2i7Xra5jtdN81Hf4CPPRkbbNFaaFp9Gw9RZpump",
+   "sym": "Nancy",
+   "price": 4.577e-05,
+   "usd": 1.2748
+  },
+  {
+   "t": "2026-11-14T01:44:14+07:00",
+   "kind": "buy",
+   "mint": "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
+   "sym": "FOOD",
+   "price": 0.001099,
+   "usd": 1.2672
   }
  ],
  "label": "สวนสัตว์: โมเมนตัม 5 นาที +10 ถึง +50%",
- "rank_t": 1794595188.3028018
+ "rank_t": 1794595438.8362021
 }
