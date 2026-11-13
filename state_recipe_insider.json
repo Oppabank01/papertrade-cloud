@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.0470709790160655,
+ "cash": 1.02888540171142,
  "pos": {
   "7f12HytX17fyBAoaJMdtHWZatNDeaJuXZTxPncL8pump": {
    "sym": "TEDDY",
@@ -15,14 +15,14 @@
    "kol": 0,
    "miss": 0
   },
-  "DcjQG6tceT5PSVbDggAj1ev6E4SYdGyNPppCggxqpump": {
-   "sym": "descend",
-   "qty": 4545.76324940363,
-   "entry": 7.47e-05,
-   "last": 9.506e-05,
-   "peak": 9.506e-05,
-   "cost": 0.349998469109927,
-   "opened": "2026-11-14T06:24:11+07:00",
+  "EeTf7Pp9bBGZmy2diaf7UbrTQSthMXB4eJ6zd2zwpump": {
+   "sym": "HEDGE",
+   "qty": 2734.641738194404,
+   "entry": 0.00013,
+   "last": 0.00013,
+   "peak": 0.00013,
+   "cost": 0.36642282618560346,
+   "opened": "2026-11-14T06:32:32+07:00",
    "smart": 6,
    "kol": 0,
    "miss": 0
@@ -589,8 +589,28 @@
    "sym": "descend",
    "price": 7.47e-05,
    "usd": 0.35
+  },
+  {
+   "t": "2026-11-14T06:32:32+07:00",
+   "kind": "buy",
+   "mint": "EeTf7Pp9bBGZmy2diaf7UbrTQSthMXB4eJ6zd2zwpump",
+   "sym": "HEDGE",
+   "price": 0.00013,
+   "usd": 0.3664
+  },
+  {
+   "t": "2026-11-14T06:32:33+07:00",
+   "kind": "sell",
+   "mint": "DcjQG6tceT5PSVbDggAj1ev6E4SYdGyNPppCggxqpump",
+   "sym": "descend",
+   "price": 7.896e-05,
+   "usd": 0.3482,
+   "pnl": -0.0018,
+   "why": "trailing จากยอด +27% (+5.7%)",
+   "smart": 6,
+   "bundler": null
   }
  ],
  "label": "สูตร x_insider4 (คู่ใหม่ + top trader)",
- "rank_t": 1794612487.9689732
+ "rank_t": 1794612739.7110083
 }

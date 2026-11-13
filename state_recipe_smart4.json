@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.7370549265024869,
+ "cash": 0.26767258566839924,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 11.702493587133723,
    "entry": 0.05031,
-   "last": 0.04976,
+   "last": 0.04993,
    "peak": 0.05056,
    "cost": 0.6068361702419065,
    "opened": "2026-11-14T05:11:04+07:00",
@@ -31,12 +31,24 @@
    "sym": "PEACEFROG",
    "qty": 1857.913840536725,
    "entry": 0.000277,
-   "last": 0.0002684,
+   "last": 0.0002642,
    "peak": 0.0002894,
    "cost": 0.5304495298172262,
    "opened": "2026-11-14T06:02:55+07:00",
    "smart": 7,
    "kol": 1,
+   "miss": 0
+  },
+  "BDDdnX85YSmqDNHTyHjktmUd8ZzGLyXiWMAT1FLppump": {
+   "sym": "SWJ",
+   "qty": 4216.618028492888,
+   "entry": 0.000108,
+   "last": 0.000108,
+   "peak": 0.000108,
+   "cost": 0.4693823408340877,
+   "opened": "2026-11-14T06:32:33+07:00",
+   "smart": 38,
+   "kol": 2,
    "miss": 0
   }
  },
@@ -1409,8 +1421,16 @@
    "why": "stop -26.8%",
    "smart": 31,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T06:32:33+07:00",
+   "kind": "buy",
+   "mint": "BDDdnX85YSmqDNHTyHjktmUd8ZzGLyXiWMAT1FLppump",
+   "sym": "SWJ",
+   "price": 0.000108,
+   "usd": 0.4694
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794612487.9689732
+ "rank_t": 1794612739.7110083
 }
