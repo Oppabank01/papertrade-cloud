@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.4119916241431922,
+ "cash": 3.202100745190463,
  "pos": {
   "9yZ5Ru8pbmJZ6Q2DKLCGXkaLNwkm83cnJ4QCw4PFpump": {
    "sym": "wobbles",
@@ -15,23 +15,11 @@
    "kol": 19,
    "miss": 0
   },
-  "DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": {
-   "sym": "AMD",
-   "qty": 3057.827128179905,
-   "entry": 0.0005707,
-   "last": 0.0006754,
-   "peak": 0.0007391,
-   "cost": 1.7987033004043207,
-   "opened": "2026-11-13T19:26:30+07:00",
-   "smart": 305,
-   "kol": 26,
-   "miss": 0
-  },
   "4rYsDHMfKmt6VuVGcM8cGzBgkZNgQT3w2DhdEmtVpump": {
    "sym": "DacityCoin",
    "qty": 3256.245390970716,
    "entry": 0.0005257,
-   "last": 0.0005769,
+   "last": 0.0005366,
    "peak": 0.0005769,
    "cost": 1.764386932625547,
    "opened": "2026-11-13T20:50:27+07:00",
@@ -43,8 +31,8 @@
    "sym": "VEIL",
    "qty": 3368.1825517600696,
    "entry": 0.0005052,
-   "last": 0.0005228,
-   "peak": 0.0005228,
+   "last": 0.0005467,
+   "peak": 0.0005467,
    "cost": 1.7538711865070988,
    "opened": "2026-11-13T20:50:27+07:00",
    "smart": 67,
@@ -609,8 +597,20 @@
    "sym": "VEIL",
    "price": 0.0005052,
    "usd": 1.7539
+  },
+  {
+   "t": "2026-11-13T21:15:38+07:00",
+   "kind": "sell",
+   "mint": "DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump",
+   "sym": "AMD",
+   "price": 0.0006034,
+   "usd": 1.7901,
+   "pnl": -0.0086,
+   "why": "trailing จากยอด +30% (+5.7%)",
+   "smart": 305,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794578588.5958636
+ "rank_t": 1794579337.642399
 }
