@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.5784697366594878,
+ "cash": 0.15192937468752388,
  "pos": {
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
    "qty": 1409.5348669141406,
    "entry": 0.001229,
-   "last": 0.002378,
-   "peak": 0.002378,
+   "last": 0.002489,
+   "peak": 0.002489,
    "cost": 1.785527057758688,
    "opened": "2026-11-14T04:06:58+07:00",
    "zoo": "rand",
@@ -20,13 +20,26 @@
    "sym": "WASTED",
    "qty": 1132.3178198861215,
    "entry": 0.001982,
-   "last": 0.001945,
+   "last": 0.001853,
    "peak": 0.001982,
    "cost": 2.3131868882851916,
    "opened": "2026-11-14T06:15:45+07:00",
    "zoo": "rand",
    "smart": 55,
    "kol": 0,
+   "miss": 0
+  },
+  "4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": {
+   "sym": "Speed",
+   "qty": 6059.673639164621,
+   "entry": 0.0002284,
+   "last": 0.0002574,
+   "peak": 0.0002574,
+   "cost": 1.4265403619719639,
+   "opened": "2026-11-14T06:28:24+07:00",
+   "zoo": "rand",
+   "smart": 135,
+   "kol": 8,
    "miss": 0
   }
  },
@@ -451,8 +464,16 @@
    "why": "stop -96.7%",
    "smart": 5,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T06:28:24+07:00",
+   "kind": "buy",
+   "mint": "4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump",
+   "sym": "Speed",
+   "price": 0.0002284,
+   "usd": 1.4265
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794612237.4266129
+ "rank_t": 1794612487.9689732
 }
