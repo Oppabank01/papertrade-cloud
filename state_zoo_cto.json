@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.698960511742056,
+ "cash": 2.5001126577439177,
  "pos": {
   "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": {
    "sym": "BTC",
    "qty": 1205.8174352716414,
    "entry": 0.00236,
-   "last": 0.002485,
-   "peak": 0.00249,
+   "last": 0.00259,
+   "peak": 0.00259,
    "cost": 2.9331366184715257,
    "opened": "2026-11-14T00:45:44+07:00",
    "zoo": "cto",
@@ -20,7 +20,7 @@
    "sym": "plumber",
    "qty": 13769.174659790307,
    "entry": 0.0001437,
-   "last": 0.0001524,
+   "last": 0.000136,
    "peak": 0.0001524,
    "cost": 2.0394046574024607,
    "opened": "2026-11-14T01:09:57+07:00",
@@ -29,17 +29,17 @@
    "kol": 3,
    "miss": 0
   },
-  "6d9fD5SxvN4DAG4SHQD8pebm8TM6XeSbYezPDjdapump": {
-   "sym": "PINO",
-   "qty": 4550.758355937391,
-   "entry": 0.0004322,
-   "last": 0.0004147,
-   "peak": 0.0004322,
-   "cost": 2.0272498056443418,
-   "opened": "2026-11-14T01:09:57+07:00",
+  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
+   "sym": "Macca",
+   "qty": 823.9073331629977,
+   "entry": 0.00228,
+   "last": 0.00228,
+   "peak": 0.00228,
+   "cost": 1.9362077093502728,
+   "opened": "2026-11-14T01:18:41+07:00",
    "zoo": "cto",
-   "smart": 54,
-   "kol": 4,
+   "smart": 164,
+   "kol": 8,
    "miss": 0
   }
  },
@@ -172,8 +172,28 @@
    "why": "stop -9.9%",
    "smart": 272,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:18:41+07:00",
+   "kind": "buy",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.00228,
+   "usd": 1.9362
+  },
+  {
+   "t": "2026-11-14T01:18:41+07:00",
+   "kind": "sell",
+   "mint": "6d9fD5SxvN4DAG4SHQD8pebm8TM6XeSbYezPDjdapump",
+   "sym": "PINO",
+   "price": 0.0003935,
+   "usd": 1.7374,
+   "pnl": -0.2899,
+   "why": "stop -9.0%",
+   "smart": 54,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: community takeover",
- "rank_t": 1794593642.8156188
+ "rank_t": 1794593899.5480697
 }

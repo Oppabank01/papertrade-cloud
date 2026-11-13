@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 3.3165659339602955,
+ "cash": 0.8790877279074181,
  "pos": {
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 4218.672832138303,
    "entry": 0.0006786,
-   "last": 0.0008199,
+   "last": 0.0007996,
    "peak": 0.0008199,
    "cost": 2.950722927117144,
    "opened": "2026-11-14T00:45:44+07:00",
@@ -20,8 +20,8 @@
    "sym": "BTC",
    "qty": 1198.6307633574227,
    "entry": 0.00236,
-   "last": 0.002485,
-   "peak": 0.00249,
+   "last": 0.002548,
+   "peak": 0.002548,
    "cost": 2.9156551242254354,
    "opened": "2026-11-14T00:45:44+07:00",
    "zoo": "smart10",
@@ -33,13 +33,26 @@
    "sym": "dca",
    "qty": 37418.69589867291,
    "entry": 6.503e-05,
-   "last": 6.503e-05,
+   "last": 6.476e-05,
    "peak": 6.503e-05,
    "cost": 2.5080785346224483,
    "opened": "2026-11-14T01:14:21+07:00",
    "zoo": "smart10",
    "smart": 67,
    "kol": 2,
+   "miss": 0
+  },
+  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
+   "sym": "Macca",
+   "qty": 1037.2111208388167,
+   "entry": 0.00228,
+   "last": 0.002324,
+   "peak": 0.002324,
+   "cost": 2.4374782060528775,
+   "opened": "2026-11-14T01:18:41+07:00",
+   "zoo": "smart10",
+   "smart": 164,
+   "kol": 8,
    "miss": 0
   }
  },
@@ -152,8 +165,16 @@
    "why": "stop -12.1%",
    "smart": 272,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:18:41+07:00",
+   "kind": "buy",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.00228,
+   "usd": 2.4375
   }
  ],
  "label": "สวนสัตว์: smart wallet 10 ขึ้นไป",
- "rank_t": 1794593642.8156188
+ "rank_t": 1794593899.5480697
 }

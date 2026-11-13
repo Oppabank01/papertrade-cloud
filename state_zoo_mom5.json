@@ -1,27 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.499500732456372,
+ "cash": 2.493544411928943,
  "pos": {
-  "6d9fD5SxvN4DAG4SHQD8pebm8TM6XeSbYezPDjdapump": {
-   "sym": "PINO",
-   "qty": 3651.714054755416,
-   "entry": 0.0004322,
-   "last": 0.0004147,
-   "peak": 0.0004322,
-   "cost": 1.6267479019431978,
-   "opened": "2026-11-14T01:09:56+07:00",
-   "zoo": "mom5",
-   "smart": 54,
-   "kol": 4,
-   "miss": 0
-  },
   "ByCUjGx4FkhK7ac8Vdqzb41yScUtvG78GBYSXKsMpump": {
    "sym": "dca",
    "qty": 23031.550997241568,
    "entry": 6.503e-05,
-   "last": 6.503e-05,
-   "peak": 6.503e-05,
+   "last": 6.607e-05,
+   "peak": 6.607e-05,
    "cost": 1.5437453734803332,
    "opened": "2026-11-14T01:14:20+07:00",
    "zoo": "mom5",
@@ -33,13 +20,26 @@
    "sym": "rockstar",
    "qty": 120747.38203187099,
    "entry": 1.233e-05,
-   "last": 1.233e-05,
+   "last": 1.173e-05,
    "peak": 1.233e-05,
    "cost": 1.5345446510543903,
    "opened": "2026-11-14T01:14:20+07:00",
    "zoo": "mom5",
    "smart": 28,
    "kol": 2,
+   "miss": 0
+  },
+  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
+   "sym": "Macca",
+   "qty": 595.7728869728575,
+   "entry": 0.00228,
+   "last": 0.00228,
+   "peak": 0.00228,
+   "cost": 1.4000847065534066,
+   "opened": "2026-11-14T01:18:40+07:00",
+   "zoo": "mom5",
+   "smart": 164,
+   "kol": 8,
    "miss": 0
   }
  },
@@ -252,8 +252,28 @@
    "why": "stop -21.7%",
    "smart": 4,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:18:40+07:00",
+   "kind": "buy",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.00228,
+   "usd": 1.4001
+  },
+  {
+   "t": "2026-11-14T01:18:40+07:00",
+   "kind": "sell",
+   "mint": "6d9fD5SxvN4DAG4SHQD8pebm8TM6XeSbYezPDjdapump",
+   "sym": "PINO",
+   "price": 0.0003935,
+   "usd": 1.3941,
+   "pnl": -0.2326,
+   "why": "stop -9.0%",
+   "smart": 54,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: โมเมนตัม 5 นาที +10 ถึง +50%",
- "rank_t": 1794593642.8156188
+ "rank_t": 1794593899.5480697
 }
