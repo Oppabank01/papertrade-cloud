@@ -1,8 +1,22 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 12.678830614017144,
- "pos": {},
+ "cash": 10.143064491213716,
+ "pos": {
+  "2CUsXJdV5gPu9SujUjvsXEaaJhmEk6J5wFGkh59epump": {
+   "sym": "Daniela",
+   "qty": 27717.44358206272,
+   "entry": 8.876e-05,
+   "last": 8.876e-05,
+   "peak": 8.876e-05,
+   "cost": 2.535766122803429,
+   "opened": "2026-11-14T03:10:39+07:00",
+   "zoo": "scalp",
+   "smart": 4,
+   "kol": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:42:01+07:00",
@@ -268,8 +282,16 @@
    "why": "stop -5.2%",
    "smart": 66,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:10:39+07:00",
+   "kind": "buy",
+   "mint": "2CUsXJdV5gPu9SujUjvsXEaaJhmEk6J5wFGkh59epump",
+   "sym": "Daniela",
+   "price": 8.876e-05,
+   "usd": 2.5358
   }
  ],
  "label": "สวนสัตว์: เก็บสั้น +10% ตัด -5% 30 นาที",
- "rank_t": 1794600369.5620217
+ "rank_t": 1794600616.0388153
 }

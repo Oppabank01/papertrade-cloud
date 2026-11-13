@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.5249981907872966,
+ "cash": 0.0,
  "pos": {
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
@@ -20,8 +20,8 @@
    "sym": "LuckyCoin",
    "qty": 1968.7705278006651,
    "entry": 0.0004267,
-   "last": 0.0005166,
-   "peak": 0.0005166,
+   "last": 0.0005204,
+   "peak": 0.0005204,
    "cost": 0.8658775347480354,
    "opened": "2026-11-14T01:53:11+07:00",
    "zoo": "safe",
@@ -33,13 +33,26 @@
    "sym": "Rings",
    "qty": 5172.764736034745,
    "entry": 0.0002592,
-   "last": 0.0002595,
-   "peak": 0.0002623,
+   "last": 0.0002624,
+   "peak": 0.0002624,
    "cost": 1.3819631205732898,
    "opened": "2026-11-14T02:52:54+07:00",
    "zoo": "safe",
    "smart": 66,
    "kol": 5,
+   "miss": 0
+  },
+  "2CUsXJdV5gPu9SujUjvsXEaaJhmEk6J5wFGkh59epump": {
+   "sym": "Daniela",
+   "qty": 5738.544892990482,
+   "entry": 8.876e-05,
+   "last": 9.823e-05,
+   "peak": 9.823e-05,
+   "cost": 0.5249981907872966,
+   "opened": "2026-11-14T03:10:38+07:00",
+   "zoo": "safe",
+   "smart": 4,
+   "kol": 0,
    "miss": 0
   }
  },
@@ -232,8 +245,16 @@
    "why": "stop -96.5%",
    "smart": 4,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:10:38+07:00",
+   "kind": "buy",
+   "mint": "2CUsXJdV5gPu9SujUjvsXEaaJhmEk6J5wFGkh59epump",
+   "sym": "Daniela",
+   "price": 8.876e-05,
+   "usd": 0.525
   }
  ],
  "label": "สวนสัตว์: ผ่านเช็กความปลอดภัยเข้ม",
- "rank_t": 1794600369.5620217
+ "rank_t": 1794600616.0388153
 }

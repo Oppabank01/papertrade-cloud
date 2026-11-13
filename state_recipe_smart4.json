@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.587974896698566,
+ "cash": 1.4572009263968675,
  "pos": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
@@ -19,7 +19,7 @@
    "sym": "Cole",
    "qty": 14423.053695772156,
    "entry": 6.374e-05,
-   "last": 6.892e-05,
+   "last": 7.816e-05,
    "peak": 7.846e-05,
    "cost": 0.9475628144387933,
    "opened": "2026-11-14T03:02:06+07:00",
@@ -27,16 +27,16 @@
    "kol": 2,
    "miss": 0
   },
-  "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
-   "sym": "STANK",
-   "qty": 305.12605156923024,
-   "entry": 0.003067,
-   "last": 0.003051,
-   "peak": 0.003067,
-   "cost": 0.964565656733487,
-   "opened": "2026-11-14T03:06:19+07:00",
-   "smart": 74,
-   "kol": 1,
+  "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": {
+   "sym": "OTC",
+   "qty": 375.9914257841518,
+   "entry": 0.002377,
+   "last": 0.002377,
+   "peak": 0.002377,
+   "cost": 0.921182868572386,
+   "opened": "2026-11-14T03:10:35+07:00",
+   "smart": 506,
+   "kol": 55,
    "miss": 0
   }
  },
@@ -1069,8 +1069,28 @@
    "why": "trailing จากยอด +23% (+1.2%)",
    "smart": 81,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:10:35+07:00",
+   "kind": "buy",
+   "mint": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
+   "sym": "OTC",
+   "price": 0.002377,
+   "usd": 0.9212
+  },
+  {
+   "t": "2026-11-14T03:10:35+07:00",
+   "kind": "sell",
+   "mint": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
+   "sym": "STANK",
+   "price": 0.00267,
+   "usd": 0.7904,
+   "pnl": -0.1742,
+   "why": "stop -12.9%",
+   "smart": 74,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794600369.5620217
+ "rank_t": 1794600616.0388153
 }
