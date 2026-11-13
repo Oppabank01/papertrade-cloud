@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.6743587819843773,
+ "cash": 1.8565994597935653,
  "pos": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": {
    "sym": "VEIL",
@@ -27,24 +27,12 @@
    "kol": 213,
    "miss": 0
   },
-  "HFcyhe28iLYRhac2W5FBdtDGFunWDJesCR7f6EZJpump": {
-   "sym": "MRPENIS",
-   "qty": 9066.618856577714,
-   "entry": 0.0001406,
-   "last": 0.0001509,
-   "peak": 0.0001685,
-   "cost": 1.3139214710727958,
-   "opened": "2026-11-13T22:29:26+07:00",
-   "smart": 43,
-   "kol": 3,
-   "miss": 0
-  },
   "Aerzt1UbAbJ5aTTHVvZkDpWVfwjb59WpuMynAEcwpump": {
    "sym": "S42",
    "qty": 16994.099198243905,
    "entry": 7.466e-05,
-   "last": 8.989e-05,
-   "peak": 8.989e-05,
+   "last": 0.0001084,
+   "peak": 0.0001084,
    "cost": 1.3077504083084825,
    "opened": "2026-11-13T22:48:15+07:00",
    "smart": 61,
@@ -749,8 +737,20 @@
    "sym": "S42",
    "price": 7.466e-05,
    "usd": 1.3078
+  },
+  {
+   "t": "2026-11-13T22:59:46+07:00",
+   "kind": "sell",
+   "mint": "HFcyhe28iLYRhac2W5FBdtDGFunWDJesCR7f6EZJpump",
+   "sym": "MRPENIS",
+   "price": 0.0001344,
+   "usd": 1.1822,
+   "pnl": -0.1317,
+   "why": "trailing จากยอด +20% (-4.4%)",
+   "smart": 43,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794585358.2049372
+ "rank_t": 1794585585.9639084
 }
