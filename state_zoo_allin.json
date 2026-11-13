@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.0,
- "pos": {
-  "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
-   "sym": "Leonida",
-   "qty": 21093.364160691515,
-   "entry": 0.0006786,
-   "last": 0.0007556,
-   "peak": 0.0008619,
-   "cost": 14.753614635585718,
-   "opened": "2026-11-14T00:45:45+07:00",
-   "zoo": "allin",
-   "smart": 72,
-   "kol": 4,
-   "miss": 0
-  }
- },
+ "cash": 14.703945801403039,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T00:42:02+07:00",
@@ -30,8 +16,20 @@
    "sym": "Leonida",
    "price": 0.0006786,
    "usd": 14.7536
+  },
+  {
+   "t": "2026-11-14T02:02:24+07:00",
+   "kind": "sell",
+   "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "sym": "Leonida",
+   "price": 0.0007185,
+   "usd": 14.7039,
+   "pnl": -0.0497,
+   "why": "trailing จากยอด +27% (+5.9%)",
+   "smart": 72,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ทุ่มหมดหน้าตัก ไม้ละ 100%",
- "rank_t": 1794596225.4741583
+ "rank_t": 1794596492.2127411
 }

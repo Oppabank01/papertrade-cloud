@@ -1,26 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.6679597414125396,
+ "cash": 4.840297538811358,
  "pos": {
-  "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
-   "sym": "Leonida",
-   "qty": 4218.672832138303,
-   "entry": 0.0006786,
-   "last": 0.0007471,
-   "peak": 0.0008452,
-   "cost": 2.950722927117144,
-   "opened": "2026-11-14T00:45:44+07:00",
-   "zoo": "kol2",
-   "smart": 72,
-   "kol": 4,
-   "miss": 0
-  },
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 1037.2111208388167,
    "entry": 0.00228,
-   "last": 0.002256,
+   "last": 0.002282,
    "peak": 0.0026,
    "cost": 2.4374782060528775,
    "opened": "2026-11-14T01:18:40+07:00",
@@ -33,26 +20,13 @@
    "sym": "Speed",
    "qty": 9881.40684071132,
    "entry": 0.0002286,
-   "last": 0.0002261,
+   "last": 0.0002286,
    "peak": 0.0002301,
    "cost": 2.328272112746452,
    "opened": "2026-11-14T01:31:29+07:00",
    "zoo": "kol2",
    "smart": 125,
    "kol": 8,
-   "miss": 0
-  },
-  "DdTgSXwj4Pvr6yF5o9HmnMHQsLeQBXgggzZzsKmnpump": {
-   "sym": "Criptoe",
-   "qty": 113261.47514516937,
-   "entry": 1.82e-05,
-   "last": 1.9e-05,
-   "peak": 1.9e-05,
-   "cost": 2.124674136922369,
-   "opened": "2026-11-14T01:57:17+07:00",
-   "zoo": "kol2",
-   "smart": 20,
-   "kol": 5,
    "miss": 0
   }
  },
@@ -213,8 +187,32 @@
    "sym": "Criptoe",
    "price": 1.82e-05,
    "usd": 2.1247
+  },
+  {
+   "t": "2026-11-14T02:02:23+07:00",
+   "kind": "sell",
+   "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "sym": "Leonida",
+   "price": 0.0006889,
+   "usd": 2.8196,
+   "pnl": -0.1311,
+   "why": "trailing จากยอด +25% (+1.5%)",
+   "smart": 72,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:02:23+07:00",
+   "kind": "sell",
+   "mint": "DdTgSXwj4Pvr6yF5o9HmnMHQsLeQBXgggzZzsKmnpump",
+   "sym": "Criptoe",
+   "price": 1.231e-05,
+   "usd": 1.3527,
+   "pnl": -0.772,
+   "why": "stop -32.4%",
+   "smart": 20,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: KOL เข้า 2 คนขึ้นไป",
- "rank_t": 1794596225.4741583
+ "rank_t": 1794596492.2127411
 }

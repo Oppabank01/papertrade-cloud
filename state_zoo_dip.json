@@ -1,26 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 3.8237820726550584,
+ "cash": 4.112233316216032,
  "pos": {
-  "9zqre5sRRdFvKqyTyvEd1jcKDRF4g47s7mZSGUnQpump": {
-   "sym": "boob",
-   "qty": 37891.498203642615,
-   "entry": 9.693e-05,
-   "last": 9.138e-05,
-   "peak": 9.703e-05,
-   "cost": 3.7856348390837753,
-   "opened": "2026-11-14T01:09:56+07:00",
-   "zoo": "dip",
-   "smart": 114,
-   "kol": 13,
-   "miss": 0
-  },
   "4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": {
    "sym": "Speed",
    "qty": 16320.94186706099,
    "entry": 0.0002154,
-   "last": 0.0002261,
+   "last": 0.0002286,
    "peak": 0.0002301,
    "cost": 3.6235115215058102,
    "opened": "2026-11-14T01:27:09+07:00",
@@ -33,13 +20,26 @@
    "sym": "Makenzi",
    "qty": 324030.3451642688,
    "entry": 8.938e-06,
-   "last": 1.034e-05,
+   "last": 9.377e-06,
    "peak": 1.097e-05,
    "cost": 2.985140409274618,
    "opened": "2026-11-14T01:48:36+07:00",
    "zoo": "dip",
    "smart": 21,
    "kol": 1,
+   "miss": 0
+  },
+  "DdTgSXwj4Pvr6yF5o9HmnMHQsLeQBXgggzZzsKmnpump": {
+   "sym": "Criptoe",
+   "qty": 209179.87834035108,
+   "entry": 1.329e-05,
+   "last": 1.231e-05,
+   "peak": 1.329e-05,
+   "cost": 2.86538918072899,
+   "opened": "2026-11-14T02:02:22+07:00",
+   "zoo": "dip",
+   "smart": 20,
+   "kol": 5,
    "miss": 0
   }
  },
@@ -272,8 +272,28 @@
    "why": "stop -28.7%",
    "smart": 49,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:02:22+07:00",
+   "kind": "buy",
+   "mint": "DdTgSXwj4Pvr6yF5o9HmnMHQsLeQBXgggzZzsKmnpump",
+   "sym": "Criptoe",
+   "price": 1.329e-05,
+   "usd": 2.8654
+  },
+  {
+   "t": "2026-11-14T02:02:22+07:00",
+   "kind": "sell",
+   "mint": "9zqre5sRRdFvKqyTyvEd1jcKDRF4g47s7mZSGUnQpump",
+   "sym": "boob",
+   "price": 8.579e-05,
+   "usd": 3.1538,
+   "pnl": -0.6318,
+   "why": "stop -11.5%",
+   "smart": 114,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794596225.4741583
+ "rank_t": 1794596492.2127411
 }
