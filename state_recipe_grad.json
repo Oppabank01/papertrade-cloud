@@ -1,8 +1,21 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 7.475754449988951,
- "pos": {},
+ "cash": 5.980603559991161,
+ "pos": {
+  "FqmHVSWGmgPHCXQvBSeE82kxMJgS8fBHyiUkJvWopump": {
+   "sym": "MILO",
+   "qty": 42070.63206136473,
+   "entry": 3.448e-05,
+   "last": 3.448e-05,
+   "peak": 3.448e-05,
+   "cost": 1.4951508899977903,
+   "opened": "2026-11-13T23:41:28+07:00",
+   "smart": 48,
+   "kol": 2,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -428,8 +441,16 @@
    "why": "ถึงเป้า +63.0%",
    "smart": 50,
    "bundler": null
+  },
+  {
+   "t": "2026-11-13T23:41:28+07:00",
+   "kind": "buy",
+   "mint": "FqmHVSWGmgPHCXQvBSeE82kxMJgS8fBHyiUkJvWopump",
+   "sym": "MILO",
+   "price": 3.448e-05,
+   "usd": 1.4952
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794587862.47963
+ "rank_t": 1794588087.9740698
 }

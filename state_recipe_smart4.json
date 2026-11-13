@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.7264535583410052,
+ "cash": 0.47639198647386216,
  "pos": {
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
    "sym": "TROLL",
    "qty": 54.93705255415901,
    "entry": 0.02755,
-   "last": 0.02662,
+   "last": 0.02646,
    "peak": 0.02764,
    "cost": 1.5600039145197702,
    "opened": "2026-11-13T21:28:37+07:00",
@@ -19,7 +19,7 @@
    "sym": "42",
    "qty": 42822.41870079468,
    "entry": 2.986e-05,
-   "last": 4.102e-05,
+   "last": 4.092e-05,
    "peak": 4.797e-05,
    "cost": 1.317952404046309,
    "opened": "2026-11-13T23:14:54+07:00",
@@ -31,12 +31,24 @@
    "sym": "Clipper",
    "qty": 20056.16887329234,
    "entry": 6.506e-05,
-   "last": 6.506e-05,
+   "last": 6.38e-05,
    "peak": 6.506e-05,
    "cost": 1.3449333610558645,
    "opened": "2026-11-13T23:37:42+07:00",
    "smart": 39,
    "kol": 2,
+   "miss": 0
+  },
+  "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
+   "sym": "PAID",
+   "qty": 833.5462110140909,
+   "entry": 0.001455,
+   "last": 0.001468,
+   "peak": 0.001468,
+   "cost": 1.250061571867143,
+   "opened": "2026-11-13T23:41:28+07:00",
+   "smart": 661,
+   "kol": 93,
    "miss": 0
   }
  },
@@ -829,8 +841,16 @@
    "why": "stop -10.1%",
    "smart": 67,
    "bundler": null
+  },
+  {
+   "t": "2026-11-13T23:41:28+07:00",
+   "kind": "buy",
+   "mint": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
+   "sym": "PAID",
+   "price": 0.001455,
+   "usd": 1.2501
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794587862.47963
+ "rank_t": 1794588087.9740698
 }
