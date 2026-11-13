@@ -1,32 +1,32 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 4.986418580313892,
+ "cash": 4.615413031847,
  "pos": {
-  "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump": {
-   "sym": "Huang",
-   "qty": 10899.645756754797,
-   "entry": 0.0001975,
-   "last": 0.0001878,
-   "peak": 0.0001975,
-   "cost": 2.218800285465958,
-   "opened": "2026-11-14T00:57:18+07:00",
+  "E28eQFoCPndfLUPnxYgEWHhbnEVqSpyNPgAacoAEpump": {
+   "sym": "inu",
+   "qty": 6641.312856608726,
+   "entry": 0.0002648,
+   "last": 0.0002648,
+   "peak": 0.0002648,
+   "cost": 1.8126362032879724,
+   "opened": "2026-11-14T01:04:52+07:00",
    "zoo": "mom5",
-   "smart": 133,
-   "kol": 10,
+   "smart": 154,
+   "kol": 14,
    "miss": 0
   },
-  "3rT7GQU91EAG3yMhELgk8MghoSPdGtp2esPqmUc9pump": {
-   "sym": "coal",
-   "qty": 134513.5164352166,
-   "entry": 1.509e-05,
-   "last": 1.509e-05,
-   "peak": 1.509e-05,
-   "cost": 2.0921551875978337,
-   "opened": "2026-11-14T01:01:06+07:00",
+  "vmUmykEVidvzcq8MGLjAeXe8tg5qGioC4ua8aQVpump": {
+   "sym": "WOOF",
+   "qty": 128539.57877567555,
+   "entry": 1.36e-05,
+   "last": 1.369e-05,
+   "peak": 1.369e-05,
+   "cost": 1.8018328915163757,
+   "opened": "2026-11-14T01:04:52+07:00",
    "zoo": "mom5",
-   "smart": 9,
-   "kol": 0,
+   "smart": 4,
+   "kol": 2,
    "miss": 0
   }
  },
@@ -151,8 +151,48 @@
    "why": "stop -51.8%",
    "smart": 32,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:04:52+07:00",
+   "kind": "buy",
+   "mint": "E28eQFoCPndfLUPnxYgEWHhbnEVqSpyNPgAacoAEpump",
+   "sym": "inu",
+   "price": 0.0002648,
+   "usd": 1.8126
+  },
+  {
+   "t": "2026-11-14T01:04:52+07:00",
+   "kind": "buy",
+   "mint": "vmUmykEVidvzcq8MGLjAeXe8tg5qGioC4ua8aQVpump",
+   "sym": "WOOF",
+   "price": 1.36e-05,
+   "usd": 1.8018
+  },
+  {
+   "t": "2026-11-14T01:04:52+07:00",
+   "kind": "sell",
+   "mint": "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump",
+   "sym": "Huang",
+   "price": 0.0001817,
+   "usd": 1.9214,
+   "pnl": -0.2974,
+   "why": "stop -8.0%",
+   "smart": 133,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:04:52+07:00",
+   "kind": "sell",
+   "mint": "3rT7GQU91EAG3yMhELgk8MghoSPdGtp2esPqmUc9pump",
+   "sym": "coal",
+   "price": 1.013e-05,
+   "usd": 1.322,
+   "pnl": -0.7701,
+   "why": "stop -32.9%",
+   "smart": 9,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: โมเมนตัม 5 นาที +10 ถึง +50%",
- "rank_t": 1794592864.388242
+ "rank_t": 1794593089.5191333
 }

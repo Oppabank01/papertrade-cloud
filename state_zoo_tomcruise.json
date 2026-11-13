@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 6.68832916492978,
+ "cash": 7.962691951432615,
  "pos": {
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
@@ -16,43 +16,17 @@
    "kol": 0,
    "miss": 0
   },
-  "F37BKMyLrJxpHAmLcsQxza4f1uwPyCAmMmaeA2C7pump": {
-   "sym": "JENSEN",
-   "qty": 6725.401191246615,
-   "entry": 0.0002122,
-   "last": 0.0002324,
-   "peak": 0.0002324,
-   "cost": 1.4709648863971674,
-   "opened": "2026-11-14T00:53:26+07:00",
-   "zoo": "tomcruise",
-   "smart": 2,
-   "kol": 0,
-   "miss": 0
-  },
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 5163.584282867034,
    "entry": 0.0006889,
-   "last": 0.0007156,
-   "peak": 0.0007156,
+   "last": 0.000771,
+   "peak": 0.000771,
    "cost": 3.666453527589259,
    "opened": "2026-11-14T00:53:26+07:00",
    "zoo": "tomcruise",
    "smart": 72,
    "kol": 4,
-   "miss": 0
-  },
-  "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump": {
-   "sym": "Huang",
-   "qty": 7135.295830056874,
-   "entry": 0.0001975,
-   "last": 0.0001878,
-   "peak": 0.0001975,
-   "cost": 1.4525055931109387,
-   "opened": "2026-11-14T00:57:20+07:00",
-   "zoo": "tomcruise",
-   "smart": 133,
-   "kol": 10,
    "miss": 0
   }
  },
@@ -93,8 +67,32 @@
    "sym": "Huang",
    "price": 0.0001975,
    "usd": 1.4525
+  },
+  {
+   "t": "2026-11-14T01:04:54+07:00",
+   "kind": "sell",
+   "mint": "F37BKMyLrJxpHAmLcsQxza4f1uwPyCAmMmaeA2C7pump",
+   "sym": "JENSEN",
+   "price": 2.531e-06,
+   "usd": 0.0165,
+   "pnl": -1.4545,
+   "why": "stop -98.8%",
+   "smart": 2,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:04:54+07:00",
+   "kind": "sell",
+   "mint": "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump",
+   "sym": "Huang",
+   "price": 0.0001817,
+   "usd": 1.2578,
+   "pnl": -0.1947,
+   "why": "stop -8.0%",
+   "smart": 133,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: tomcruise 6 เอเจนต์: scanner rug check sizer ตามสภาพคล่อง",
- "rank_t": 1794592864.388242
+ "rank_t": 1794593089.5191333
 }

@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.252853128396,
+ "cash": 4.339593542439729,
  "pos": {
   "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": {
    "sym": "BTC",
    "qty": 1205.8174352716414,
    "entry": 0.00236,
-   "last": 0.002307,
-   "peak": 0.002427,
+   "last": 0.00249,
+   "peak": 0.00249,
    "cost": 2.9331366184715257,
    "opened": "2026-11-14T00:45:44+07:00",
    "zoo": "cto",
@@ -16,43 +16,17 @@
    "kol": 69,
    "miss": 0
   },
-  "F37BKMyLrJxpHAmLcsQxza4f1uwPyCAmMmaeA2C7pump": {
-   "sym": "JENSEN",
-   "qty": 15458.543928853422,
-   "entry": 0.0001819,
-   "last": 0.0002324,
-   "peak": 0.0002324,
-   "cost": 2.898277819685052,
-   "opened": "2026-11-14T00:45:44+07:00",
-   "zoo": "cto",
-   "smart": 2,
-   "kol": 0,
-   "miss": 0
-  },
   "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
    "sym": "FOOD",
    "qty": 2187.696805169492,
    "entry": 0.001269,
-   "last": 0.001322,
+   "last": 0.001305,
    "peak": 0.001322,
    "cost": 2.861458715481432,
    "opened": "2026-11-14T00:57:19+07:00",
    "zoo": "cto",
    "smart": 272,
    "kol": 20,
-   "miss": 0
-  },
-  "3rT7GQU91EAG3yMhELgk8MghoSPdGtp2esPqmUc9pump": {
-   "sym": "coal",
-   "qty": 178026.15177005503,
-   "entry": 1.509e-05,
-   "last": 1.509e-05,
-   "peak": 1.509e-05,
-   "cost": 2.7689287056381473,
-   "opened": "2026-11-14T01:01:07+07:00",
-   "zoo": "cto",
-   "smart": 9,
-   "kol": 0,
    "miss": 0
   }
  },
@@ -133,8 +107,32 @@
    "sym": "coal",
    "price": 1.509e-05,
    "usd": 2.7689
+  },
+  {
+   "t": "2026-11-14T01:04:53+07:00",
+   "kind": "sell",
+   "mint": "F37BKMyLrJxpHAmLcsQxza4f1uwPyCAmMmaeA2C7pump",
+   "sym": "JENSEN",
+   "price": 2.782e-06,
+   "usd": 0.0417,
+   "pnl": -2.8566,
+   "why": "stop -98.5%",
+   "smart": 2,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:04:53+07:00",
+   "kind": "sell",
+   "mint": "3rT7GQU91EAG3yMhELgk8MghoSPdGtp2esPqmUc9pump",
+   "sym": "coal",
+   "price": 1.184e-05,
+   "usd": 2.045,
+   "pnl": -0.7239,
+   "why": "stop -21.5%",
+   "smart": 9,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: community takeover",
- "rank_t": 1794592864.388242
+ "rank_t": 1794593089.5191333
 }
