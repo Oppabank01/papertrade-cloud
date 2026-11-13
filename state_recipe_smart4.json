@@ -1,54 +1,18 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.0,
+ "cash": 2.090983544577322,
  "pos": {
-  "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
-   "sym": "baton",
-   "qty": 291.53454310830216,
-   "entry": 0.003788,
-   "last": 0.003551,
-   "peak": 0.003867,
-   "cost": 1.1382527822039255,
-   "opened": "2026-11-14T01:57:13+07:00",
-   "smart": 720,
-   "kol": 80,
-   "miss": 0
-  },
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": {
    "sym": "OTC",
    "qty": 375.9914257841518,
    "entry": 0.002377,
-   "last": 0.002348,
+   "last": 0.002346,
    "peak": 0.002388,
    "cost": 0.921182868572386,
    "opened": "2026-11-14T03:10:35+07:00",
    "smart": 506,
    "kol": 55,
-   "miss": 0
-  },
-  "FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": {
-   "sym": "PUSSY",
-   "qty": 3290.369646619106,
-   "entry": 0.0002169,
-   "last": 0.0002218,
-   "peak": 0.0002501,
-   "cost": 0.7356021195131768,
-   "opened": "2026-11-14T04:06:56+07:00",
-   "smart": 250,
-   "kol": 15,
-   "miss": 0
-  },
-  "BApgNbjD25PHFft8WNATeL6gwpFFucEn5VBg2VHDpump": {
-   "sym": "KOSMIK",
-   "qty": 5506.810759832444,
-   "entry": 8.881e-05,
-   "last": 8.4e-05,
-   "peak": 8.881e-05,
-   "cost": 0.5040814920436192,
-   "opened": "2026-11-14T04:53:56+07:00",
-   "smart": 39,
-   "kol": 1,
    "miss": 0
   }
  },
@@ -1249,8 +1213,44 @@
    "sym": "KOSMIK",
    "price": 8.881e-05,
    "usd": 0.5041
+  },
+  {
+   "t": "2026-11-14T04:58:00+07:00",
+   "kind": "sell",
+   "mint": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
+   "sym": "baton",
+   "price": 0.003512,
+   "usd": 0.9934,
+   "pnl": -0.1449,
+   "why": "ครบ 3 ชม. (-7.3%)",
+   "smart": 720,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:58:00+07:00",
+   "kind": "sell",
+   "mint": "FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat",
+   "sym": "PUSSY",
+   "price": 0.0002113,
+   "usd": 0.6745,
+   "pnl": -0.0611,
+   "why": "trailing จากยอด +15% (-2.6%)",
+   "smart": 250,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:58:00+07:00",
+   "kind": "sell",
+   "mint": "BApgNbjD25PHFft8WNATeL6gwpFFucEn5VBg2VHDpump",
+   "sym": "KOSMIK",
+   "price": 7.919e-05,
+   "usd": 0.4231,
+   "pnl": -0.081,
+   "why": "stop -10.8%",
+   "smart": 39,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794606823.2989473
+ "rank_t": 1794607072.3160584
 }
