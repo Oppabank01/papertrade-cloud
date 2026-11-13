@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.0449968973446744,
+ "cash": 0.8916201965434702,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 32.546896420503494,
    "entry": 0.04744,
-   "last": 0.0458,
+   "last": 0.046,
    "peak": 0.04814,
    "cost": 1.591449975457314,
    "opened": "2026-11-14T02:32:32+07:00",
@@ -20,7 +20,7 @@
    "sym": "GTA6",
    "qty": 170.01144160169335,
    "entry": 0.007436,
-   "last": 0.007184,
+   "last": 0.007217,
    "peak": 0.007459,
    "cost": 1.3030355388066295,
    "opened": "2026-11-14T03:41:11+07:00",
@@ -33,13 +33,26 @@
    "sym": "NIO",
    "qty": 724.4451607860267,
    "entry": 0.001319,
-   "last": 0.001394,
+   "last": 0.001376,
    "peak": 0.001394,
    "cost": 0.9848929778156764,
    "opened": "2026-11-14T04:58:04+07:00",
    "zoo": "kol2",
    "smart": 358,
    "kol": 26,
+   "miss": 0
+  },
+  "9ELbLEniMY2B8jgZ1KdwLVPgRcr1HS3wXM9HkiRDpump": {
+   "sym": "DOOMSDAY",
+   "qty": 23935.95882603911,
+   "entry": 4.675e-05,
+   "last": 4.606e-05,
+   "peak": 4.675e-05,
+   "cost": 1.1533767008012041,
+   "opened": "2026-11-14T05:15:23+07:00",
+   "zoo": "kol2",
+   "smart": 63,
+   "kol": 5,
    "miss": 0
   }
  },
@@ -592,8 +605,16 @@
    "why": "trailing จากยอด +177% (+95.6%)",
    "smart": 33,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T05:15:23+07:00",
+   "kind": "buy",
+   "mint": "9ELbLEniMY2B8jgZ1KdwLVPgRcr1HS3wXM9HkiRDpump",
+   "sym": "DOOMSDAY",
+   "price": 4.675e-05,
+   "usd": 1.1534
   }
  ],
  "label": "สวนสัตว์: KOL เข้า 2 คนขึ้นไป",
- "rank_t": 1794607846.0327146
+ "rank_t": 1794608108.6447675
 }

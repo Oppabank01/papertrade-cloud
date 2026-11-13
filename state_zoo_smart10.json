@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.7418822172091453,
+ "cash": 0.3489602284418456,
  "pos": {
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
    "qty": 441.43921177316463,
    "entry": 0.001243,
-   "last": 0.001394,
+   "last": 0.001376,
    "peak": 0.001394,
    "cost": 0.565562708961084,
    "opened": "2026-11-14T04:11:11+07:00",
@@ -20,7 +20,7 @@
    "sym": "PIRATE",
    "qty": 645.7486444537734,
    "entry": 0.0002687,
-   "last": 0.0003,
+   "last": 0.0002979,
    "peak": 0.0003256,
    "cost": 0.17884215704465978,
    "opened": "2026-11-14T04:11:11+07:00",
@@ -33,13 +33,26 @@
    "sym": "ANSEM",
    "qty": 8.269429669720697,
    "entry": 0.05031,
-   "last": 0.05002,
+   "last": 0.05031,
    "peak": 0.05031,
    "cost": 0.4288136535597282,
    "opened": "2026-11-14T05:11:08+07:00",
    "zoo": "smart10",
    "smart": 1000,
    "kol": 186,
+   "miss": 0
+  },
+  "2zhfT4b6N4Jq5VwPjvbN6BwrZhpk7ncZ55ofXR9wpump": {
+   "sym": "LEAP",
+   "qty": 4180.424536703961,
+   "entry": 9.119e-05,
+   "last": 9.119e-05,
+   "peak": 9.119e-05,
+   "cost": 0.39292198876729967,
+   "opened": "2026-11-14T05:15:23+07:00",
+   "zoo": "smart10",
+   "smart": 63,
+   "kol": 7,
    "miss": 0
   }
  },
@@ -892,8 +905,16 @@
    "why": "stop -20.5%",
    "smart": 53,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T05:15:23+07:00",
+   "kind": "buy",
+   "mint": "2zhfT4b6N4Jq5VwPjvbN6BwrZhpk7ncZ55ofXR9wpump",
+   "sym": "LEAP",
+   "price": 9.119e-05,
+   "usd": 0.3929
   }
  ],
  "label": "สวนสัตว์: smart wallet 10 ขึ้นไป",
- "rank_t": 1794607846.0327146
+ "rank_t": 1794608108.6447675
 }

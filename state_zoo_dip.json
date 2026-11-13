@@ -1,45 +1,32 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 3.333057203013685,
+ "cash": 4.054501336072281,
  "pos": {
-  "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": {
-   "sym": "WISHMAS",
-   "qty": 12435.612879683878,
-   "entry": 0.0001317,
-   "last": 0.0001313,
-   "peak": 0.0001317,
-   "cost": 1.6880748466855977,
-   "opened": "2026-11-14T05:11:07+07:00",
-   "zoo": "dip",
-   "smart": 61,
-   "kol": 6,
-   "miss": 0
-  },
-  "85xrw1gHPUMeauAhGhy5k2eGJ37hk4Tf1UvK9bNQpump": {
-   "sym": "SpaceCat",
-   "qty": 12268.342922121255,
-   "entry": 0.0001327,
-   "last": 0.0001416,
-   "peak": 0.0001416,
-   "cost": 1.6780139205993514,
-   "opened": "2026-11-14T05:11:07+07:00",
-   "zoo": "dip",
-   "smart": 7,
-   "kol": 0,
-   "miss": 0
-  },
   "DnyM8ojRndhqLcptmELJj644N91gEDE6L2aFAfJ1ngEM": {
    "sym": "Cloak",
    "qty": 144491.62245492218,
    "entry": 1.12e-05,
-   "last": 1.216e-05,
-   "peak": 1.216e-05,
+   "last": 1.29e-05,
+   "peak": 1.29e-05,
    "cost": 1.668012957632579,
    "opened": "2026-11-14T05:11:07+07:00",
    "zoo": "dip",
    "smart": 1,
    "kol": 0,
+   "miss": 0
+  },
+  "BDDdnX85YSmqDNHTyHjktmUd8ZzGLyXiWMAT1FLppump": {
+   "sym": "SWJ",
+   "qty": 36230.230036832385,
+   "entry": 4.531e-05,
+   "last": 4.587e-05,
+   "peak": 4.587e-05,
+   "cost": 1.6920137321880802,
+   "opened": "2026-11-14T05:15:22+07:00",
+   "zoo": "dip",
+   "smart": 26,
+   "kol": 2,
    "miss": 0
   }
  },
@@ -1032,8 +1019,40 @@
    "why": "ครบ 3 ชม. (+0.0%)",
    "smart": 5,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T05:15:22+07:00",
+   "kind": "buy",
+   "mint": "BDDdnX85YSmqDNHTyHjktmUd8ZzGLyXiWMAT1FLppump",
+   "sym": "SWJ",
+   "price": 4.531e-05,
+   "usd": 1.692
+  },
+  {
+   "t": "2026-11-14T05:15:22+07:00",
+   "kind": "sell",
+   "mint": "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
+   "sym": "WISHMAS",
+   "price": 0.0001001,
+   "usd": 1.2077,
+   "pnl": -0.4804,
+   "why": "stop -24.0%",
+   "smart": 61,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T05:15:22+07:00",
+   "kind": "sell",
+   "mint": "85xrw1gHPUMeauAhGhy5k2eGJ37hk4Tf1UvK9bNQpump",
+   "sym": "SpaceCat",
+   "price": 0.0001013,
+   "usd": 1.2057,
+   "pnl": -0.4723,
+   "why": "stop -23.7%",
+   "smart": 7,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794607846.0327146
+ "rank_t": 1794608108.6447675
 }

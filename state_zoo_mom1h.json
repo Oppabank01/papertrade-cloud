@@ -1,26 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.12503102790441767,
+ "cash": 0.2542510272886419,
  "pos": {
-  "29qUmBy7i13ra6PK4dSRHTrmARWy6uyfBwibu5Zxpump": {
-   "sym": "SEO",
-   "qty": 6418.330346420866,
-   "entry": 2.669e-05,
-   "last": 5.09e-05,
-   "peak": 5.09e-05,
-   "cost": 0.17656693150481645,
-   "opened": "2026-11-14T04:36:54+07:00",
-   "zoo": "mom1h",
-   "smart": 2,
-   "kol": 0,
-   "miss": 0
-  },
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": {
    "sym": "AURA",
    "qty": 1892.9392669173242,
    "entry": 7.73e-05,
-   "last": 9.02e-05,
+   "last": 8.001e-05,
    "peak": 9.02e-05,
    "cost": 0.1508185996008134,
    "opened": "2026-11-14T05:06:50+07:00",
@@ -33,12 +20,25 @@
    "sym": "Cloak",
    "qty": 11345.71864812217,
    "entry": 1.282e-05,
-   "last": 1.216e-05,
-   "peak": 1.282e-05,
+   "last": 1.29e-05,
+   "peak": 1.29e-05,
    "cost": 0.14991972074719256,
    "opened": "2026-11-14T05:06:50+07:00",
    "zoo": "mom1h",
    "smart": 1,
+   "kol": 0,
+   "miss": 0
+  },
+  "7f12HytX17fyBAoaJMdtHWZatNDeaJuXZTxPncL8pump": {
+   "sym": "TEDDY",
+   "qty": 3753.251957700062,
+   "entry": 3.232e-05,
+   "last": 3.232e-05,
+   "peak": 3.232e-05,
+   "cost": 0.12503102790441767,
+   "opened": "2026-11-14T05:15:22+07:00",
+   "zoo": "mom1h",
+   "smart": 5,
    "kol": 0,
    "miss": 0
   }
@@ -852,8 +852,28 @@
    "why": "stop -29.5%",
    "smart": 58,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T05:15:22+07:00",
+   "kind": "buy",
+   "mint": "7f12HytX17fyBAoaJMdtHWZatNDeaJuXZTxPncL8pump",
+   "sym": "TEDDY",
+   "price": 3.232e-05,
+   "usd": 0.125
+  },
+  {
+   "t": "2026-11-14T05:15:22+07:00",
+   "kind": "sell",
+   "mint": "29qUmBy7i13ra6PK4dSRHTrmARWy6uyfBwibu5Zxpump",
+   "sym": "SEO",
+   "price": 4.083e-05,
+   "usd": 0.2543,
+   "pnl": 0.0777,
+   "why": "trailing จากยอด +91% (+53.0%)",
+   "smart": 2,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: พุ่งแรง 1 ชม. เกิน +100%",
- "rank_t": 1794607846.0327146
+ "rank_t": 1794608108.6447675
 }
