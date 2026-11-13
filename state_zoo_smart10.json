@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.0,
+ "cash": 0.9912372049129508,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 97.37894757896353,
    "entry": 0.01875,
-   "last": 0.01798,
+   "last": 0.01761,
    "peak": 0.01983,
    "cost": 1.8819369893893694,
    "opened": "2026-11-14T02:06:44+07:00",
@@ -20,39 +20,13 @@
    "sym": "Ansemmas",
    "qty": 805.6533816826727,
    "entry": 0.0005258,
-   "last": 0.0005191,
+   "last": 0.0004879,
    "peak": 0.0005304,
    "cost": 0.4366239415468453,
    "opened": "2026-11-14T03:27:45+07:00",
    "zoo": "smart10",
    "smart": 167,
    "kol": 6,
-   "miss": 0
-  },
-  "HGYiaHSpJAfiwZBkYvw2HWgdKULW2LyDqwQ7zXsNpump": {
-   "sym": "TRUST",
-   "qty": 29642.12046124605,
-   "entry": 2.371e-05,
-   "last": 2.226e-05,
-   "peak": 2.371e-05,
-   "cost": 0.7244018513050339,
-   "opened": "2026-11-14T03:49:54+07:00",
-   "zoo": "smart10",
-   "smart": 77,
-   "kol": 14,
-   "miss": 0
-  },
-  "4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump": {
-   "sym": "HUNG",
-   "qty": 3329.0803150304278,
-   "entry": 0.000172,
-   "last": 0.0001705,
-   "peak": 0.000172,
-   "cost": 0.5901894600960974,
-   "opened": "2026-11-14T03:54:17+07:00",
-   "zoo": "smart10",
-   "smart": 256,
-   "kol": 15,
    "miss": 0
   }
  },
@@ -613,8 +587,32 @@
    "sym": "HUNG",
    "price": 0.000172,
    "usd": 0.5902
+  },
+  {
+   "t": "2026-11-14T03:58:28+07:00",
+   "kind": "sell",
+   "mint": "HGYiaHSpJAfiwZBkYvw2HWgdKULW2LyDqwQ7zXsNpump",
+   "sym": "TRUST",
+   "price": 1.816e-05,
+   "usd": 0.5223,
+   "pnl": -0.2021,
+   "why": "stop -23.4%",
+   "smart": 77,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:58:28+07:00",
+   "kind": "sell",
+   "mint": "4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump",
+   "sym": "HUNG",
+   "price": 0.0001452,
+   "usd": 0.469,
+   "pnl": -0.1212,
+   "why": "stop -15.6%",
+   "smart": 256,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: smart wallet 10 ขึ้นไป",
- "rank_t": 1794603231.7718046
+ "rank_t": 1794603494.241422
 }

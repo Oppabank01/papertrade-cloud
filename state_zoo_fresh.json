@@ -1,16 +1,42 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 3.132705313782122,
+ "cash": 0.10678189581997173,
  "pos": {
-  "8YUjNT9Had6PoMvDBMNz9Rnbp9ksH5JRH4UnuMXtpump": {
-   "sym": "NASDAQ",
-   "qty": 23216.46596081287,
-   "entry": 3.372e-05,
-   "last": 8.619e-05,
-   "peak": 8.619e-05,
-   "cost": 0.8069050012354257,
-   "opened": "2026-11-14T03:45:34+07:00",
+  "otgeY6A8M27DVvk4Er9xkGP5KCaDdeucaYJQBi9AeXB": {
+   "sym": "JENSEN",
+   "qty": 14137.800982115343,
+   "entry": 7.046e-05,
+   "last": 6.741e-05,
+   "peak": 7.046e-05,
+   "cost": 1.0267465029889167,
+   "opened": "2026-11-14T03:58:26+07:00",
+   "zoo": "fresh",
+   "smart": 82,
+   "kol": 8,
+   "miss": 0
+  },
+  "2sNtC7RCgdCqmT8dTZxr1gcqExQynuq4YuU3SCRhu8h2": {
+   "sym": "BBTB",
+   "qty": 46929.497935305015,
+   "entry": 2.11e-05,
+   "last": 2.11e-05,
+   "peak": 2.11e-05,
+   "cost": 1.0206270938311028,
+   "opened": "2026-11-14T03:58:26+07:00",
+   "zoo": "fresh",
+   "smart": 31,
+   "kol": 3,
+   "miss": 0
+  },
+  "3R91w5vktaJYQxjBo8tzsR66pBYhq9tgWsAynXfBpump": {
+   "sym": "Burn",
+   "qty": 64587.318929959554,
+   "entry": 1.524e-05,
+   "last": 1.524e-05,
+   "peak": 1.524e-05,
+   "cost": 1.0145441563518693,
+   "opened": "2026-11-14T03:58:27+07:00",
    "zoo": "fresh",
    "smart": 4,
    "kol": 0,
@@ -330,8 +356,44 @@
    "why": "ครบ 3 ชม. (+0.0%)",
    "smart": 0,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:58:26+07:00",
+   "kind": "buy",
+   "mint": "otgeY6A8M27DVvk4Er9xkGP5KCaDdeucaYJQBi9AeXB",
+   "sym": "JENSEN",
+   "price": 7.046e-05,
+   "usd": 1.0267
+  },
+  {
+   "t": "2026-11-14T03:58:26+07:00",
+   "kind": "buy",
+   "mint": "2sNtC7RCgdCqmT8dTZxr1gcqExQynuq4YuU3SCRhu8h2",
+   "sym": "BBTB",
+   "price": 2.11e-05,
+   "usd": 1.0206
+  },
+  {
+   "t": "2026-11-14T03:58:27+07:00",
+   "kind": "buy",
+   "mint": "3R91w5vktaJYQxjBo8tzsR66pBYhq9tgWsAynXfBpump",
+   "sym": "Burn",
+   "price": 1.524e-05,
+   "usd": 1.0145
+  },
+  {
+   "t": "2026-11-14T03:58:27+07:00",
+   "kind": "sell",
+   "mint": "8YUjNT9Had6PoMvDBMNz9Rnbp9ksH5JRH4UnuMXtpump",
+   "sym": "NASDAQ",
+   "price": 1.598e-06,
+   "usd": 0.036,
+   "pnl": -0.7709,
+   "why": "stop -95.3%",
+   "smart": 4,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญเกิดใหม่ไม่เกิน 10 นาที",
- "rank_t": 1794603231.7718046
+ "rank_t": 1794603494.241422
 }

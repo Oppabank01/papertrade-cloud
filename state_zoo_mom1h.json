@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.207348285347577,
+ "cash": 1.7042603507158192,
  "pos": {
   "BGQqYLTCRHBK3CSosCNq5G6MsGYL2iZ2amsSsF4Tpump": {
    "sym": "ESTR",
@@ -13,6 +13,19 @@
    "opened": "2026-11-14T02:02:21+07:00",
    "zoo": "mom1h",
    "smart": 5,
+   "kol": 0,
+   "miss": 0
+  },
+  "3R91w5vktaJYQxjBo8tzsR66pBYhq9tgWsAynXfBpump": {
+   "sym": "Burn",
+   "qty": 32027.290956675304,
+   "entry": 1.524e-05,
+   "last": 1.524e-05,
+   "peak": 1.524e-05,
+   "cost": 0.503087934631758,
+   "opened": "2026-11-14T03:58:26+07:00",
+   "zoo": "mom1h",
+   "smart": 4,
    "kol": 0,
    "miss": 0
   }
@@ -530,8 +543,16 @@
    "why": "ครบ 3 ชม. (+0.0%)",
    "smart": 0,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:58:26+07:00",
+   "kind": "buy",
+   "mint": "3R91w5vktaJYQxjBo8tzsR66pBYhq9tgWsAynXfBpump",
+   "sym": "Burn",
+   "price": 1.524e-05,
+   "usd": 0.5031
   }
  ],
  "label": "สวนสัตว์: พุ่งแรง 1 ชม. เกิน +100%",
- "rank_t": 1794603231.7718046
+ "rank_t": 1794603494.241422
 }

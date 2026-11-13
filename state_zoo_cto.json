@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.10013335543448022,
+ "cash": 0.0,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 38.79267331646431,
    "entry": 0.04689,
-   "last": 0.04741,
+   "last": 0.04713,
    "peak": 0.04814,
    "cost": 1.8748592576881173,
    "opened": "2026-11-14T01:22:59+07:00",
@@ -20,7 +20,7 @@
    "sym": "baton",
    "qty": 433.30005939602586,
    "entry": 0.003788,
-   "last": 0.003814,
+   "last": 0.003721,
    "peak": 0.003867,
    "cost": 1.6917549216575407,
    "opened": "2026-11-14T01:57:17+07:00",
@@ -33,13 +33,26 @@
    "sym": "duh",
    "qty": 21841.495844571833,
    "entry": 7.012e-05,
-   "last": 9.849e-05,
+   "last": 9.886e-05,
    "peak": 0.0001005,
    "cost": 1.5785669847674466,
    "opened": "2026-11-14T02:32:33+07:00",
    "zoo": "cto",
    "smart": 61,
    "kol": 4,
+   "miss": 0
+  },
+  "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": {
+   "sym": "Sakura",
+   "qty": 310.97753342680124,
+   "entry": 0.0003124,
+   "last": 0.0003121,
+   "peak": 0.0003124,
+   "cost": 0.10013335543448022,
+   "opened": "2026-11-14T03:58:28+07:00",
+   "zoo": "cto",
+   "smart": 127,
+   "kol": 6,
    "miss": 0
   }
  },
@@ -392,8 +405,16 @@
    "why": "stop -70.7%",
    "smart": 9,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:58:28+07:00",
+   "kind": "buy",
+   "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
+   "sym": "Sakura",
+   "price": 0.0003124,
+   "usd": 0.1001
   }
  ],
  "label": "สวนสัตว์: community takeover",
- "rank_t": 1794603231.7718046
+ "rank_t": 1794603494.241422
 }
