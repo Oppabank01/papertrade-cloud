@@ -1,18 +1,18 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 4.984450330487788,
+ "cash": 5.610994885003525,
  "pos": {
-  "49Z2pXyeh8QnKXLHDm3Js4r8Ah2JSQv2KQquJVB1pump": {
-   "sym": "Onboarder",
-   "qty": 24457.69849397928,
-   "entry": 5.241e-05,
-   "last": 5.241e-05,
-   "peak": 5.241e-05,
-   "cost": 1.3211997300241745,
-   "opened": "2026-11-14T00:19:11+07:00",
-   "smart": 28,
-   "kol": 3,
+  "Do3GQyMQib7DFyPN7AhyGRGqt8Z79hRcypQ7DwYipump": {
+   "sym": "CHUD",
+   "qty": 56765.10938340091,
+   "entry": 2.142e-05,
+   "last": 2.167e-05,
+   "peak": 2.167e-05,
+   "cost": 1.2532556617114485,
+   "opened": "2026-11-14T00:22:55+07:00",
+   "smart": 22,
+   "kol": 2,
    "miss": 0
   }
  },
@@ -529,8 +529,28 @@
    "why": "trailing จากยอด +17% (-12.4%)",
    "smart": 13,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T00:22:55+07:00",
+   "kind": "buy",
+   "mint": "Do3GQyMQib7DFyPN7AhyGRGqt8Z79hRcypQ7DwYipump",
+   "sym": "CHUD",
+   "price": 2.142e-05,
+   "usd": 1.2533
+  },
+  {
+   "t": "2026-11-14T00:22:55+07:00",
+   "kind": "sell",
+   "mint": "49Z2pXyeh8QnKXLHDm3Js4r8Ah2JSQv2KQquJVB1pump",
+   "sym": "Onboarder",
+   "price": 7.922e-05,
+   "usd": 1.8798,
+   "pnl": 0.5586,
+   "why": "ถึงเป้า +51.2%",
+   "smart": 28,
+   "bundler": null
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794590351.3167605
+ "rank_t": 1794590575.064855
 }
