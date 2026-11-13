@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.540503045405078,
+ "cash": 3.0607395268716884,
  "pos": {
   "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
    "sym": "Max",
    "qty": 1281.5214374322693,
    "entry": 0.001653,
-   "last": 0.001671,
+   "last": 0.001669,
    "peak": 0.001861,
    "cost": 2.1834208782473112,
    "opened": "2026-11-13T17:42:53+07:00",
@@ -27,24 +27,12 @@
    "kol": 19,
    "miss": 0
   },
-  "HcsZdLqWXmL7BQBhvoBvi9BDRZyiBuMvymhNwrfKpump": {
-   "sym": "papercat",
-   "qty": 7925.801851505727,
-   "entry": 0.0002215,
-   "last": 0.0002114,
-   "peak": 0.0002215,
-   "cost": 1.8094878479782712,
-   "opened": "2026-11-13T19:26:30+07:00",
-   "smart": 36,
-   "kol": 5,
-   "miss": 0
-  },
   "DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": {
    "sym": "AMD",
    "qty": 3057.827128179905,
    "entry": 0.0005707,
-   "last": 0.0005707,
-   "peak": 0.0005707,
+   "last": 0.0005716,
+   "peak": 0.0005716,
    "cost": 1.7987033004043207,
    "opened": "2026-11-13T19:26:30+07:00",
    "smart": 305,
@@ -549,8 +537,20 @@
    "sym": "AMD",
    "price": 0.0005707,
    "usd": 1.7987
+  },
+  {
+   "t": "2026-11-13T19:27:25+07:00",
+   "kind": "sell",
+   "mint": "HcsZdLqWXmL7BQBhvoBvi9BDRZyiBuMvymhNwrfKpump",
+   "sym": "papercat",
+   "price": 0.0001977,
+   "usd": 1.5202,
+   "pnl": -0.2893,
+   "why": "stop -10.7%",
+   "smart": 36,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794572789.8803601
+ "rank_t": 1794572844.7796946
 }
