@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.4392659888898016,
+ "cash": 0.0,
  "pos": {
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
@@ -20,8 +20,8 @@
    "sym": "DCFP",
    "qty": 73431.5335118212,
    "entry": 1.242e-05,
-   "last": 1.298e-05,
-   "peak": 1.304e-05,
+   "last": 1.308e-05,
+   "peak": 1.308e-05,
    "cost": 0.9400326182403826,
    "opened": "2026-11-14T01:09:56+07:00",
    "zoo": "fresh",
@@ -33,10 +33,23 @@
    "sym": "JENSEN",
    "qty": 16990.900713963092,
    "entry": 5.406e-05,
-   "last": 7.406e-05,
+   "last": 6.944e-05,
    "peak": 7.406e-05,
    "cost": 0.9467409736104357,
    "opened": "2026-11-14T01:18:40+07:00",
+   "zoo": "fresh",
+   "smart": 4,
+   "kol": 0,
+   "miss": 0
+  },
+  "DwNsAUk1RPvFqJAwjS7uMdRNgr4dyN72YrzpDapBpump": {
+   "sym": "JENSENITO",
+   "qty": 12096.958910612702,
+   "entry": 3.523e-05,
+   "last": 3.523e-05,
+   "peak": 3.523e-05,
+   "cost": 0.4392659888898016,
+   "opened": "2026-11-14T01:27:09+07:00",
    "zoo": "fresh",
    "smart": 4,
    "kol": 0,
@@ -292,8 +305,16 @@
    "why": "stop -69.0%",
    "smart": 3,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:27:09+07:00",
+   "kind": "buy",
+   "mint": "DwNsAUk1RPvFqJAwjS7uMdRNgr4dyN72YrzpDapBpump",
+   "sym": "JENSENITO",
+   "price": 3.523e-05,
+   "usd": 0.4393
   }
  ],
  "label": "สวนสัตว์: เหรียญเกิดใหม่ไม่เกิน 10 นาที",
- "rank_t": 1794594155.7464466
+ "rank_t": 1794594412.7073026
 }
