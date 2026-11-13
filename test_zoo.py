@@ -33,7 +33,7 @@ assert list(s["pos"]) == ["S"] and sum(x["kind"] == "buy" for x in s["log"]) == 
 assert len(list((d / "hist").rglob("*.json.gz"))) == 1
 print("zoo ok")
 # half take-profit: +30% sells half once, the rest stays and trails
-zoo.use("savip"); s = agents.load(); s.update(cash=0, pos={"X": dict(sym="X", qty=10, entry=1, last=1, peak=1, cost=10, opened=grok.now().isoformat())}); agents.save(s)
+zoo.use("safe"); agents.HALF_AT, agents.TRAIL_ON = 0.30, 0.30; s = agents.load(); s.update(cash=0, pos={"X": dict(sym="X", qty=10, entry=1, last=1, peak=1, cost=10, opened=grok.now().isoformat())}); agents.save(s)
 grok.get = lambda url: [{"chainId": "solana", "baseToken": {"address": "X"}, "priceUsd": "1.3", "liquidity": {"usd": 1}}]
 agents.cmd_run(); agents.cmd_run()
 s = agents.load(); q = s["pos"]["X"]
