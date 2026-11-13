@@ -2,7 +2,20 @@
 # GitHub Actions entry (every ~5 min). Paper money only: no wallet, no keys that can trade, no orders anywhere.
 cd "$(dirname "$0")" || exit 1
 PY=python3
-$PY rankfetch.py || echo "rank fetch failed (GMGN demo key may be rate-limited)"
+M=$((10#$(date +%M)))
+# fast multi-agent account (laya DEBATE), moved from the Mac 14 Nov; its scan saves the ranking the recipes/zoo read
+$PY agents.py scan || $PY rankfetch.py || echo "rank fetch failed (GMGN demo key may be rate-limited)"
+$PY agents.py run
+for p in hype runner nolaya apple; do $PY hype.py --profile $p mirror; $PY hype.py --profile $p run; done   # mirror accounts
+# v2 + ghost tracker (was the Mac's auto.sh): exits every run, ghost ~every 15 min, rule scan + laya judge once an hour
+[ "$($PY -c "import json;print(len(json.load(open('state_grok_v2.json'))['pos']))" 2>/dev/null || echo 0)" -gt 0 ] && $PY grok.py run
+[ $((M % 15)) -lt 5 ] && $PY grok.py ghost
+HOUR=$(date -u +%FT%H)
+if [ "$M" -lt 15 ] && [ "$(cat data/last_v2scan 2>/dev/null)" != "$HOUR" ]; then
+  echo "$HOUR" > data/last_v2scan
+  out=$($PY grok.py scan 2>&1); echo "$out" | grep -E "กรรมการ|ผ่านทุกข้อ|ข้าม"
+  for m in $(echo "$out" | grep -o ' mint [A-Za-z0-9]*' | awk '{print $2}'); do $PY grok.py buy "$m" "auto: ผ่านกฎ+กรรมการ laya"; done
+fi
 for r in insider grad smart4; do $PY recipes.py $r scan; $PY recipes.py $r run; done
 $PY wallets.py poll; $PY wallets.py run
 $PY zoo.py tick       # strategy zoo: ~20 one-rule accounts on the same ranking
