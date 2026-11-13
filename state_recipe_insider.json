@@ -1,8 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 5.858052701801951,
- "pos": {},
+ "cash": 3.521814419901718,
+ "pos": {
+  "AkHks81XypWdWay4L5u7DUzu8umKjcrBG12NtB8Fpump": {
+   "sym": "CHUD",
+   "qty": 18967.07068676207,
+   "entry": 5.993e-05,
+   "last": 5.993e-05,
+   "peak": 5.993e-05,
+   "cost": 1.1716105403603903,
+   "opened": "2026-11-14T00:07:49+07:00",
+   "smart": 12,
+   "kol": 0,
+   "miss": 0
+  },
+  "JBe58zq8soWT9cHkh2ZbqCQpDCYpdSW38fGDWYzEpump": {
+   "sym": "CHUD",
+   "qty": 20333.306367499634,
+   "entry": 5.557e-05,
+   "last": 5.557e-05,
+   "peak": 5.557e-05,
+   "cost": 1.164627741539842,
+   "opened": "2026-11-14T00:07:49+07:00",
+   "smart": 6,
+   "kol": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -208,8 +233,24 @@
    "why": "stop -96.0%",
    "smart": 5,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T00:07:49+07:00",
+   "kind": "buy",
+   "mint": "AkHks81XypWdWay4L5u7DUzu8umKjcrBG12NtB8Fpump",
+   "sym": "CHUD",
+   "price": 5.993e-05,
+   "usd": 1.1716
+  },
+  {
+   "t": "2026-11-14T00:07:49+07:00",
+   "kind": "buy",
+   "mint": "JBe58zq8soWT9cHkh2ZbqCQpDCYpdSW38fGDWYzEpump",
+   "sym": "CHUD",
+   "price": 5.557e-05,
+   "usd": 1.1646
   }
  ],
  "label": "สูตร x_insider4 (คู่ใหม่ + top trader)",
- "rank_t": 1794589443.6976454
+ "rank_t": 1794589668.8747482
 }
