@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 4.841216202775583,
+ "cash": 2.956446037022556,
  "pos": {
   "BGQqYLTCRHBK3CSosCNq5G6MsGYL2iZ2amsSsF4Tpump": {
    "sym": "ESTR",
@@ -20,12 +20,25 @@
    "sym": "GTA6",
    "qty": 57421.53375983476,
    "entry": 3.702e-05,
-   "last": 3.702e-05,
+   "last": 3.686e-05,
    "peak": 3.702e-05,
    "cost": 2.1910381156350063,
    "opened": "2026-11-14T03:27:44+07:00",
    "zoo": "dip",
    "smart": 26,
+   "kol": 0,
+   "miss": 0
+  },
+  "CjXst5eYUaEByY7tVv6i7kC2m1sc7XCniQbpc95pump": {
+   "sym": "MIPO",
+   "qty": 52440.608397292424,
+   "entry": 3.487e-05,
+   "last": 3.487e-05,
+   "peak": 3.487e-05,
+   "cost": 1.8847701657530274,
+   "opened": "2026-11-14T03:32:05+07:00",
+   "zoo": "dip",
+   "smart": 10,
    "kol": 0,
    "miss": 0
   }
@@ -591,8 +604,16 @@
    "why": "stop -43.9%",
    "smart": 8,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:32:05+07:00",
+   "kind": "buy",
+   "mint": "CjXst5eYUaEByY7tVv6i7kC2m1sc7XCniQbpc95pump",
+   "sym": "MIPO",
+   "price": 3.487e-05,
+   "usd": 1.8848
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794601650.600134
+ "rank_t": 1794601906.2866342
 }

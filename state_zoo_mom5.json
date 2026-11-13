@@ -1,19 +1,45 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.6206141031399095,
+ "cash": 0.1907570943309686,
  "pos": {
   "9jh6f2mEsoPMwrQ1XJA17Rzy3Y9VWmH4FvGXXhZJpump": {
    "sym": "Ballfin",
    "qty": 1248.3947241687017,
    "entry": 0.0002325,
-   "last": 0.000273,
-   "peak": 0.000273,
+   "last": 0.0002741,
+   "peak": 0.0002741,
    "cost": 0.299166948432512,
    "opened": "2026-11-14T03:19:20+07:00",
    "zoo": "mom5",
    "smart": 1,
    "kol": 0,
+   "miss": 0
+  },
+  "6kRSNnusHuWtL218UDQCF6Jg6H4RZPgJE55QHoFZpump": {
+   "sym": "DJT",
+   "qty": 2116.6899461420535,
+   "entry": 8.761e-05,
+   "last": 8.761e-05,
+   "peak": 8.761e-05,
+   "cost": 0.19113915293909017,
+   "opened": "2026-11-14T03:32:04+07:00",
+   "zoo": "mom5",
+   "smart": 4,
+   "kol": 0,
+   "miss": 0
+  },
+  "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": {
+   "sym": "Sakura",
+   "qty": 729.4735444110152,
+   "entry": 0.0002527,
+   "last": 0.0002527,
+   "peak": 0.0002527,
+   "cost": 0.1899999635875732,
+   "opened": "2026-11-14T03:32:04+07:00",
+   "zoo": "mom5",
+   "smart": 126,
+   "kol": 6,
    "miss": 0
   }
  },
@@ -750,8 +776,44 @@
    "why": "stop -97.7%",
    "smart": 2,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:32:04+07:00",
+   "kind": "buy",
+   "mint": "BrqB65FGC1QZY14yhB4Kb9bjoLKyJfJCbKsqoCEUpump",
+   "sym": "PROB",
+   "price": 6.92e-05,
+   "usd": 0.1923
+  },
+  {
+   "t": "2026-11-14T03:32:04+07:00",
+   "kind": "buy",
+   "mint": "6kRSNnusHuWtL218UDQCF6Jg6H4RZPgJE55QHoFZpump",
+   "sym": "DJT",
+   "price": 8.761e-05,
+   "usd": 0.1911
+  },
+  {
+   "t": "2026-11-14T03:32:04+07:00",
+   "kind": "buy",
+   "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
+   "sym": "Sakura",
+   "price": 0.0002527,
+   "usd": 0.19
+  },
+  {
+   "t": "2026-11-14T03:32:05+07:00",
+   "kind": "sell",
+   "mint": "BrqB65FGC1QZY14yhB4Kb9bjoLKyJfJCbKsqoCEUpump",
+   "sym": "PROB",
+   "price": 5.489e-05,
+   "usd": 0.1436,
+   "pnl": -0.0487,
+   "why": "stop -20.7%",
+   "smart": 11,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: โมเมนตัม 5 นาที +10 ถึง +50%",
- "rank_t": 1794601650.600134
+ "rank_t": 1794601906.2866342
 }

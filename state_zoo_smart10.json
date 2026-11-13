@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.426296188022208,
+ "cash": 2.6114061676561233,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 97.37894757896353,
    "entry": 0.01875,
-   "last": 0.01826,
+   "last": 0.01839,
    "peak": 0.01983,
    "cost": 1.8819369893893694,
    "opened": "2026-11-14T02:06:44+07:00",
@@ -16,24 +16,11 @@
    "kol": 68,
    "miss": 0
   },
-  "HFcyhe28iLYRhac2W5FBdtDGFunWDJesCR7f6EZJpump": {
-   "sym": "MRPENIS",
-   "qty": 4910.277710154022,
-   "entry": 0.0001013,
-   "last": 9.337e-05,
-   "peak": 0.0001014,
-   "cost": 0.5126892723547747,
-   "opened": "2026-11-14T03:10:39+07:00",
-   "zoo": "smart10",
-   "smart": 47,
-   "kol": 3,
-   "miss": 0
-  },
   "HXxJdaQbrYRvwTAM8M8mUPyoRPvmyuUbPFBRkiAAMASS": {
    "sym": "Ansemmas",
    "qty": 805.6533816826727,
    "entry": 0.0005258,
-   "last": 0.0005258,
+   "last": 0.000506,
    "peak": 0.0005258,
    "cost": 0.4366239415468453,
    "opened": "2026-11-14T03:27:45+07:00",
@@ -472,8 +459,40 @@
    "why": "trailing จากยอด +82% (+52.0%)",
    "smart": 52,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:32:06+07:00",
+   "kind": "buy",
+   "mint": "BrqB65FGC1QZY14yhB4Kb9bjoLKyJfJCbKsqoCEUpump",
+   "sym": "PROB",
+   "price": 6.92e-05,
+   "usd": 1.0173
+  },
+  {
+   "t": "2026-11-14T03:32:06+07:00",
+   "kind": "sell",
+   "mint": "HFcyhe28iLYRhac2W5FBdtDGFunWDJesCR7f6EZJpump",
+   "sym": "MRPENIS",
+   "price": 9.296e-05,
+   "usd": 0.4429,
+   "pnl": -0.0698,
+   "why": "stop -8.2%",
+   "smart": 47,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:32:06+07:00",
+   "kind": "sell",
+   "mint": "BrqB65FGC1QZY14yhB4Kb9bjoLKyJfJCbKsqoCEUpump",
+   "sym": "PROB",
+   "price": 5.489e-05,
+   "usd": 0.7596,
+   "pnl": -0.2577,
+   "why": "stop -20.7%",
+   "smart": 11,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: smart wallet 10 ขึ้นไป",
- "rank_t": 1794601650.600134
+ "rank_t": 1794601906.2866342
 }

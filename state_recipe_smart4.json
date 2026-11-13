@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.9819866996533749,
+ "cash": 0.19394211185003596,
  "pos": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 291.53454310830216,
    "entry": 0.003788,
-   "last": 0.003661,
+   "last": 0.003649,
    "peak": 0.003867,
    "cost": 1.1382527822039255,
    "opened": "2026-11-14T01:57:13+07:00",
@@ -19,7 +19,7 @@
    "sym": "OTC",
    "qty": 375.9914257841518,
    "entry": 0.002377,
-   "last": 0.002381,
+   "last": 0.002373,
    "peak": 0.002383,
    "cost": 0.921182868572386,
    "opened": "2026-11-14T03:10:35+07:00",
@@ -31,12 +31,24 @@
    "sym": "Ansemmas",
    "qty": 1893.6719137538232,
    "entry": 0.0004684,
-   "last": 0.0005258,
+   "last": 0.000506,
    "peak": 0.0005943,
    "cost": 0.9142402848920747,
    "opened": "2026-11-14T03:14:58+07:00",
    "smart": 167,
    "kol": 6,
+   "miss": 0
+  },
+  "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": {
+   "sym": "LuckyCoin",
+   "qty": 1441.751572858381,
+   "entry": 0.0005303,
+   "last": 0.0005303,
+   "peak": 0.0005303,
+   "cost": 0.788044587803339,
+   "opened": "2026-11-14T03:32:02+07:00",
+   "smart": 40,
+   "kol": 4,
    "miss": 0
   }
  },
@@ -1129,8 +1141,16 @@
    "why": "stop -18.5%",
    "smart": 33,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:32:02+07:00",
+   "kind": "buy",
+   "mint": "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump",
+   "sym": "LuckyCoin",
+   "price": 0.0005303,
+   "usd": 0.788
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794601650.600134
+ "rank_t": 1794601906.2866342
 }
