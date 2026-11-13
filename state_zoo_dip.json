@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 4.440555391456885,
+ "cash": 0.35677194733288786,
  "pos": {
   "4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": {
    "sym": "Speed",
    "qty": 16320.94186706099,
    "entry": 0.0002154,
-   "last": 0.0002048,
+   "last": 0.000199,
    "peak": 0.0002304,
    "cost": 3.6235115215058102,
    "opened": "2026-11-14T01:27:09+07:00",
@@ -26,6 +26,32 @@
    "opened": "2026-11-14T02:10:56+07:00",
    "zoo": "dip",
    "smart": 5,
+   "kol": 0,
+   "miss": 0
+  },
+  "8ZNdNDtQALCFJbZbds1zzprnV1GjDE1uNKpLfwaRpump": {
+   "sym": "ussuss",
+   "qty": 195567.37233891556,
+   "entry": 1.016e-05,
+   "last": 1.016e-05,
+   "peak": 1.016e-05,
+   "cost": 2.0479947464062898,
+   "opened": "2026-11-14T02:28:06+07:00",
+   "zoo": "dip",
+   "smart": 9,
+   "kol": 0,
+   "miss": 0
+  },
+  "EtVFUXdLwKEwNXg7eoQ1JJX2BG6LCUxRq5oxBuSnpump": {
+   "sym": "GR00T2",
+   "qty": 127263.02799779121,
+   "entry": 1.552e-05,
+   "last": 1.552e-05,
+   "peak": 1.552e-05,
+   "cost": 2.0357886977177078,
+   "opened": "2026-11-14T02:28:07+07:00",
+   "zoo": "dip",
+   "smart": 3,
    "kol": 0,
    "miss": 0
   }
@@ -391,8 +417,24 @@
    "why": "stop -16.1%",
    "smart": 11,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:28:06+07:00",
+   "kind": "buy",
+   "mint": "8ZNdNDtQALCFJbZbds1zzprnV1GjDE1uNKpLfwaRpump",
+   "sym": "ussuss",
+   "price": 1.016e-05,
+   "usd": 2.048
+  },
+  {
+   "t": "2026-11-14T02:28:07+07:00",
+   "kind": "buy",
+   "mint": "EtVFUXdLwKEwNXg7eoQ1JJX2BG6LCUxRq5oxBuSnpump",
+   "sym": "GR00T2",
+   "price": 1.552e-05,
+   "usd": 2.0358
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794597814.9687068
+ "rank_t": 1794598071.6155503
 }

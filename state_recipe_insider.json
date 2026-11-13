@@ -1,8 +1,21 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 6.109037029377481,
- "pos": {},
+ "cash": 4.887229623501985,
+ "pos": {
+  "9sgwS7PdKgjrMjkZJYhvZXa9gtoDZqenTiSnUHxDpump": {
+   "sym": "HUMAN",
+   "qty": 59838.34150330169,
+   "entry": 1.981e-05,
+   "last": 1.981e-05,
+   "peak": 1.981e-05,
+   "cost": 1.2218074058754962,
+   "opened": "2026-11-14T02:28:01+07:00",
+   "smart": 10,
+   "kol": 1,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -368,8 +381,16 @@
    "why": "trailing จากยอด +259% (+83.8%)",
    "smart": 11,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:28:01+07:00",
+   "kind": "buy",
+   "mint": "9sgwS7PdKgjrMjkZJYhvZXa9gtoDZqenTiSnUHxDpump",
+   "sym": "HUMAN",
+   "price": 1.981e-05,
+   "usd": 1.2218
   }
  ],
  "label": "สูตร x_insider4 (คู่ใหม่ + top trader)",
- "rank_t": 1794597814.9687068
+ "rank_t": 1794598071.6155503
 }

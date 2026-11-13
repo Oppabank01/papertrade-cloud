@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.692821973934673,
+ "cash": 2.4589659977134053,
  "pos": {
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 1037.2111208388167,
    "entry": 0.00228,
-   "last": 0.00215,
+   "last": 0.002157,
    "peak": 0.0026,
    "cost": 2.4374782060528775,
    "opened": "2026-11-14T01:18:40+07:00",
@@ -20,7 +20,7 @@
    "sym": "mihao",
    "qty": 97.9628059021403,
    "entry": 0.01875,
-   "last": 0.01733,
+   "last": 0.01812,
    "peak": 0.01875,
    "cost": 1.8932205840704293,
    "opened": "2026-11-14T02:06:44+07:00",
@@ -29,17 +29,17 @@
    "kol": 68,
    "miss": 0
   },
-  "9oJk7eMccQchx3evoN5C5pKQD5Xodb4C1qkhemjjpump": {
-   "sym": "POOR",
-   "qty": 12108.867534313902,
-   "entry": 0.0001363,
-   "last": 0.0001363,
-   "peak": 0.0001363,
-   "cost": 1.7011323901535613,
-   "opened": "2026-11-14T02:23:55+07:00",
+  "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": {
+   "sym": "Sakura",
+   "qty": 5559.047695387405,
+   "entry": 0.0002887,
+   "last": 0.0002673,
+   "peak": 0.0002887,
+   "cost": 1.6541919909898413,
+   "opened": "2026-11-14T02:28:08+07:00",
    "zoo": "kol2",
-   "smart": 47,
-   "kol": 3,
+   "smart": 119,
+   "kol": 6,
    "miss": 0
   }
  },
@@ -292,8 +292,28 @@
    "why": "stop -8.2%",
    "smart": 447,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:28:08+07:00",
+   "kind": "buy",
+   "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
+   "sym": "Sakura",
+   "price": 0.0002887,
+   "usd": 1.6542
+  },
+  {
+   "t": "2026-11-14T02:28:08+07:00",
+   "kind": "sell",
+   "mint": "9oJk7eMccQchx3evoN5C5pKQD5Xodb4C1qkhemjjpump",
+   "sym": "POOR",
+   "price": 0.0001209,
+   "usd": 1.4203,
+   "pnl": -0.2808,
+   "why": "stop -11.3%",
+   "smart": 47,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: KOL เข้า 2 คนขึ้นไป",
- "rank_t": 1794597814.9687068
+ "rank_t": 1794598071.6155503
 }

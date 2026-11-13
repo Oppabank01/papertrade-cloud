@@ -1,8 +1,22 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 14.023887268818969,
- "pos": {},
+ "cash": 0.0,
+ "pos": {
+  "13gWn6Htjk3kisvhx8rb4YY4E6zNF8eLjwKMhv3fpump": {
+   "sym": "Claude",
+   "qty": 225152.66305159958,
+   "entry": 6.043e-05,
+   "last": 6.043e-05,
+   "peak": 6.043e-05,
+   "cost": 14.023887268818969,
+   "opened": "2026-11-14T02:28:10+07:00",
+   "zoo": "allin",
+   "smart": 1,
+   "kol": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:42:02+07:00",
@@ -48,8 +62,16 @@
    "why": "trailing จากยอด +21% (+1.3%)",
    "smart": 12,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:28:10+07:00",
+   "kind": "buy",
+   "mint": "13gWn6Htjk3kisvhx8rb4YY4E6zNF8eLjwKMhv3fpump",
+   "sym": "Claude",
+   "price": 6.043e-05,
+   "usd": 14.0239
   }
  ],
  "label": "สวนสัตว์: ทุ่มหมดหน้าตัก ไม้ละ 100%",
- "rank_t": 1794597814.9687068
+ "rank_t": 1794598071.6155503
 }
