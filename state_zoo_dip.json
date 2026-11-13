@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 3.558364096773748,
+ "cash": 3.0924652659128196,
  "pos": {
   "BGQqYLTCRHBK3CSosCNq5G6MsGYL2iZ2amsSsF4Tpump": {
    "sym": "ESTR",
@@ -20,8 +20,8 @@
    "sym": "HUNG",
    "qty": 10842.477632589975,
    "entry": 0.000146,
-   "last": 0.0001452,
-   "peak": 0.000146,
+   "last": 0.00015,
+   "peak": 0.00015,
    "cost": 1.6316241335375552,
    "opened": "2026-11-14T03:58:26+07:00",
    "zoo": "dip",
@@ -731,8 +731,48 @@
    "why": "trailing จากยอด +129% (+85.2%)",
    "smart": 5,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:02:49+07:00",
+   "kind": "buy",
+   "mint": "otgeY6A8M27DVvk4Er9xkGP5KCaDdeucaYJQBi9AeXB",
+   "sym": "JENSEN",
+   "price": 5.106e-05,
+   "usd": 1.5179
+  },
+  {
+   "t": "2026-11-14T04:02:49+07:00",
+   "kind": "buy",
+   "mint": "Gixc7u56Xa6bWYccAw1VDKetyVJQ2tkySvYbZgvZmFrL",
+   "sym": "CC",
+   "price": 1.721e-05,
+   "usd": 1.5089
+  },
+  {
+   "t": "2026-11-14T04:02:49+07:00",
+   "kind": "sell",
+   "mint": "otgeY6A8M27DVvk4Er9xkGP5KCaDdeucaYJQBi9AeXB",
+   "sym": "JENSEN",
+   "price": 4.489e-05,
+   "usd": 1.2561,
+   "pnl": -0.2618,
+   "why": "stop -12.1%",
+   "smart": 84,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:02:49+07:00",
+   "kind": "sell",
+   "mint": "Gixc7u56Xa6bWYccAw1VDKetyVJQ2tkySvYbZgvZmFrL",
+   "sym": "CC",
+   "price": 1.581e-05,
+   "usd": 1.3047,
+   "pnl": -0.2041,
+   "why": "stop -8.1%",
+   "smart": 6,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794603494.241422
+ "rank_t": 1794603741.795694
 }
