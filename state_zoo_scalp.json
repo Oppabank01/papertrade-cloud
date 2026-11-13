@@ -1,32 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 10.556349980186553,
+ "cash": 13.850259308380199,
  "pos": {
-  "H2REP2i7Xra5jtdN81Hf4CPPRkbbNFaaFp9Gw9RZpump": {
-   "sym": "Nancy",
-   "qty": 54073.23762761264,
-   "entry": 6.301e-05,
-   "last": 6.301e-05,
-   "peak": 6.301e-05,
-   "cost": 3.51180653774054,
-   "opened": "2026-11-14T01:53:11+07:00",
+  "4hdUC8v8KqmNgCBe1jkUoGHLqHtWZfBzaH9BSC3Lpump": {
+   "sym": "ALETH",
+   "qty": 64755.96165500307,
+   "entry": 5.199e-05,
+   "last": 5.199e-05,
+   "peak": 5.199e-05,
+   "cost": 3.470070548797784,
+   "opened": "2026-11-14T01:57:17+07:00",
    "zoo": "scalp",
-   "smart": 11,
+   "smart": 3,
    "kol": 0,
-   "miss": 0
-  },
-  "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": {
-   "sym": "LuckyCoin",
-   "qty": 7937.30504074641,
-   "entry": 0.0004267,
-   "last": 0.0004267,
-   "peak": 0.0004267,
-   "cost": 3.4908761707756066,
-   "opened": "2026-11-14T01:53:11+07:00",
-   "zoo": "scalp",
-   "smart": 38,
-   "kol": 4,
    "miss": 0
   }
  },
@@ -191,8 +178,40 @@
    "sym": "LuckyCoin",
    "price": 0.0004267,
    "usd": 3.4909
+  },
+  {
+   "t": "2026-11-14T01:57:17+07:00",
+   "kind": "buy",
+   "mint": "4hdUC8v8KqmNgCBe1jkUoGHLqHtWZfBzaH9BSC3Lpump",
+   "sym": "ALETH",
+   "price": 5.199e-05,
+   "usd": 3.4701
+  },
+  {
+   "t": "2026-11-14T01:57:18+07:00",
+   "kind": "sell",
+   "mint": "H2REP2i7Xra5jtdN81Hf4CPPRkbbNFaaFp9Gw9RZpump",
+   "sym": "Nancy",
+   "price": 5.953e-05,
+   "usd": 3.1231,
+   "pnl": -0.3888,
+   "why": "stop -5.5%",
+   "smart": 11,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:57:18+07:00",
+   "kind": "sell",
+   "mint": "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump",
+   "sym": "LuckyCoin",
+   "price": 0.0004728,
+   "usd": 3.6409,
+   "pnl": 0.15,
+   "why": "ถึงเป้า +10.8%",
+   "smart": 38,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เก็บสั้น +10% ตัด -5% 30 นาที",
- "rank_t": 1794595959.619074
+ "rank_t": 1794596225.4741583
 }
