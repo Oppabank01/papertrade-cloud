@@ -1,18 +1,30 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.090983544577322,
+ "cash": 1.4963716586839335,
  "pos": {
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": {
    "sym": "OTC",
    "qty": 375.9914257841518,
    "entry": 0.002377,
-   "last": 0.002346,
+   "last": 0.00238,
    "peak": 0.002388,
    "cost": 0.921182868572386,
    "opened": "2026-11-14T03:10:35+07:00",
    "smart": 506,
    "kol": 55,
+   "miss": 0
+  },
+  "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": {
+   "sym": "WISHMAS",
+   "qty": 3492.085058678967,
+   "entry": 0.0001652,
+   "last": 0.0001715,
+   "peak": 0.0001715,
+   "cost": 0.5946118858933884,
+   "opened": "2026-11-14T05:02:33+07:00",
+   "smart": 53,
+   "kol": 4,
    "miss": 0
   }
  },
@@ -1249,8 +1261,16 @@
    "why": "stop -10.8%",
    "smart": 39,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T05:02:33+07:00",
+   "kind": "buy",
+   "mint": "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
+   "sym": "WISHMAS",
+   "price": 0.0001652,
+   "usd": 0.5946
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794607072.3160584
+ "rank_t": 1794607316.5330613
 }

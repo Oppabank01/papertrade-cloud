@@ -1,27 +1,16 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.16332334300004,
+ "cash": 1.072420269833556,
  "pos": {
   "6FhVPctYg363pQbs4iSvqyHe2cJzfsvFD96gePy6pump": {
    "sym": "EXFIL",
    "qty": 248.9021500967398,
    "entry": 0.002639,
-   "last": 0.002713,
+   "last": 0.00271,
    "peak": 0.002851,
    "cost": 0.6770282149096025,
    "opened": "2026-11-14T03:32:01+07:00",
-   "source": "agents",
-   "miss": 0
-  },
-  "BApgNbjD25PHFft8WNATeL6gwpFFucEn5VBg2VHDpump": {
-   "sym": "KOSMIK",
-   "qty": 9404.110354336652,
-   "entry": 6.836e-05,
-   "last": 7.919e-05,
-   "peak": 8.4e-05,
-   "cost": 0.6626107852220713,
-   "opened": "2026-11-14T04:41:11+07:00",
    "source": "agents",
    "miss": 0
   },
@@ -29,10 +18,21 @@
    "sym": "GTA6",
    "qty": 81.3287782058539,
    "entry": 0.007266,
-   "last": 0.007256,
+   "last": 0.007217,
    "peak": 0.007266,
    "cost": 0.6090856549615898,
    "opened": "2026-11-14T04:53:55+07:00",
+   "source": "agents",
+   "miss": 0
+  },
+  "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": {
+   "sym": "WISHMAS",
+   "qty": 3727.4332151780077,
+   "entry": 0.0001652,
+   "last": 0.0001652,
+   "peak": 0.0001652,
+   "cost": 0.6346855979668181,
+   "opened": "2026-11-14T05:02:14+07:00",
    "source": "agents",
    "miss": 0
   }
@@ -1326,6 +1326,26 @@
    "sym": "GTA6",
    "price": 0.007266,
    "usd": 0.6091
+  },
+  {
+   "t": "2026-11-14T05:02:14+07:00",
+   "kind": "buy",
+   "mint": "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
+   "sym": "WISHMAS",
+   "price": 0.0001652,
+   "usd": 0.6347
+  },
+  {
+   "t": "2026-11-14T05:02:14+07:00",
+   "kind": "sell",
+   "mint": "BApgNbjD25PHFft8WNATeL6gwpFFucEn5VBg2VHDpump",
+   "sym": "KOSMIK",
+   "price": 5.96e-05,
+   "usd": 0.5438,
+   "pnl": -0.1188,
+   "why": "stop -12.8%",
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "เร็ว ไม่มี laya",
@@ -1973,6 +1993,12 @@
   "state_agents.json:2026-11-14T04:53:51+07:00:BApgNbjD25PHFft8WNATeL6gwpFFucEn5VBg2VHDpump",
   "state_agents.json:2026-11-14T04:53:53+07:00:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
   "state_agents.json:2026-11-14T04:53:54+07:00:7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump",
-  "state_agents.json:2026-11-14T04:57:58+07:00:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump"
+  "state_agents.json:2026-11-14T04:57:58+07:00:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+  "state_agents.json:2026-11-14T05:02:01+07:00:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
+  "state_agents.json:2026-11-14T05:02:03+07:00:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
+  "state_agents.json:2026-11-14T05:02:06+07:00:4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump",
+  "state_agents.json:2026-11-14T05:02:08+07:00:2zhfT4b6N4Jq5VwPjvbN6BwrZhpk7ncZ55ofXR9wpump",
+  "state_agents.json:2026-11-14T05:02:10+07:00:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+  "state_agents.json:2026-11-14T05:02:12+07:00:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump"
  ]
 }
