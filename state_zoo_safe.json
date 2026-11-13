@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.6792028581325793,
+ "cash": 0.0,
  "pos": {
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 4218.672832138303,
    "entry": 0.0006786,
-   "last": 0.0008492,
+   "last": 0.000787,
    "peak": 0.0008492,
    "cost": 2.950722927117144,
    "opened": "2026-11-14T00:45:44+07:00",
@@ -27,6 +27,32 @@
    "zoo": "safe",
    "smart": 0,
    "kol": 0,
+   "miss": 0
+  },
+  "H2REP2i7Xra5jtdN81Hf4CPPRkbbNFaaFp9Gw9RZpump": {
+   "sym": "Nancy",
+   "qty": 27920.778110580617,
+   "entry": 6.301e-05,
+   "last": 6.301e-05,
+   "peak": 6.301e-05,
+   "cost": 1.8133253233845439,
+   "opened": "2026-11-14T01:53:11+07:00",
+   "zoo": "safe",
+   "smart": 11,
+   "kol": 0,
+   "miss": 0
+  },
+  "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": {
+   "sym": "LuckyCoin",
+   "qty": 1968.7705278006651,
+   "entry": 0.0004267,
+   "last": 0.0004267,
+   "peak": 0.0004267,
+   "cost": 0.8658775347480354,
+   "opened": "2026-11-14T01:53:11+07:00",
+   "zoo": "safe",
+   "smart": 38,
+   "kol": 4,
    "miss": 0
   }
  },
@@ -131,8 +157,24 @@
    "why": "stop -98.1%",
    "smart": 4,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:53:11+07:00",
+   "kind": "buy",
+   "mint": "H2REP2i7Xra5jtdN81Hf4CPPRkbbNFaaFp9Gw9RZpump",
+   "sym": "Nancy",
+   "price": 6.301e-05,
+   "usd": 1.8133
+  },
+  {
+   "t": "2026-11-14T01:53:11+07:00",
+   "kind": "buy",
+   "mint": "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump",
+   "sym": "LuckyCoin",
+   "price": 0.0004267,
+   "usd": 0.8659
   }
  ],
  "label": "สวนสัตว์: ผ่านเช็กความปลอดภัยเข้ม",
- "rank_t": 1794595695.2956254
+ "rank_t": 1794595959.619074
 }

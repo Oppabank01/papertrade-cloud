@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.052205740064393984,
+ "cash": 10.076936472639154,
  "pos": {
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 4218.672832138303,
    "entry": 0.0006786,
-   "last": 0.0008343,
+   "last": 0.000787,
    "peak": 0.0008452,
    "cost": 2.950722927117144,
    "opened": "2026-11-14T00:45:45+07:00",
@@ -29,17 +29,17 @@
    "kol": 0,
    "miss": 0
   },
-  "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": {
-   "sym": "BAWSAQ",
-   "qty": 37879.11292865524,
-   "entry": 5.908e-05,
-   "last": 0.0002973,
-   "peak": 0.0003959,
-   "cost": 2.306635736781026,
-   "opened": "2026-11-14T01:18:41+07:00",
+  "H2REP2i7Xra5jtdN81Hf4CPPRkbbNFaaFp9Gw9RZpump": {
+   "sym": "Nancy",
+   "qty": 803.8408032133796,
+   "entry": 6.301e-05,
+   "last": 6.301e-05,
+   "peak": 6.301e-05,
+   "cost": 0.052205740064393984,
+   "opened": "2026-11-14T01:53:11+07:00",
    "zoo": "runwide",
-   "smart": 30,
-   "kol": 3,
+   "smart": 11,
+   "kol": 0,
    "miss": 0
   }
  },
@@ -132,8 +132,28 @@
    "why": "stop -98.1%",
    "smart": 4,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:53:11+07:00",
+   "kind": "buy",
+   "mint": "H2REP2i7Xra5jtdN81Hf4CPPRkbbNFaaFp9Gw9RZpump",
+   "sym": "Nancy",
+   "price": 6.301e-05,
+   "usd": 0.0522
+  },
+  {
+   "t": "2026-11-14T01:53:12+07:00",
+   "kind": "sell",
+   "mint": "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump",
+   "sym": "BAWSAQ",
+   "price": 0.0002742,
+   "usd": 10.0769,
+   "pnl": 7.7703,
+   "why": "trailing จากยอด +570% (+364.1%)",
+   "smart": 30,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ปล่อยวิ่ง trail 30/25 ถือ 24 ชม.",
- "rank_t": 1794595695.2956254
+ "rank_t": 1794595959.619074
 }

@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.568784071553988,
+ "cash": 0.0,
  "pos": {
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
@@ -20,13 +20,26 @@
    "sym": "Nancy",
    "qty": 30967.399438131397,
    "entry": 4.318e-05,
-   "last": 5.585e-05,
-   "peak": 5.585e-05,
+   "last": 6.301e-05,
+   "peak": 6.301e-05,
    "cost": 1.3782439782916036,
    "opened": "2026-11-14T01:40:02+07:00",
    "zoo": "mom1h",
    "smart": 11,
    "kol": 0,
+   "miss": 0
+  },
+  "9oJk7eMccQchx3evoN5C5pKQD5Xodb4C1qkhemjjpump": {
+   "sym": "POOR",
+   "qty": 8137.94877188732,
+   "entry": 6.781e-05,
+   "last": 6.994e-05,
+   "peak": 6.994e-05,
+   "cost": 0.568784071553988,
+   "opened": "2026-11-14T01:53:09+07:00",
+   "zoo": "mom1h",
+   "smart": 21,
+   "kol": 3,
    "miss": 0
   }
  },
@@ -371,8 +384,16 @@
    "why": "stop -18.6%",
    "smart": 21,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:53:09+07:00",
+   "kind": "buy",
+   "mint": "9oJk7eMccQchx3evoN5C5pKQD5Xodb4C1qkhemjjpump",
+   "sym": "POOR",
+   "price": 6.781e-05,
+   "usd": 0.5688
   }
  ],
  "label": "สวนสัตว์: พุ่งแรง 1 ชม. เกิน +100%",
- "rank_t": 1794595695.2956254
+ "rank_t": 1794595959.619074
 }
