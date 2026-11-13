@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.47639198647386216,
+ "cash": 2.126195981333484,
  "pos": {
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
    "sym": "TROLL",
    "qty": 54.93705255415901,
    "entry": 0.02755,
-   "last": 0.02635,
+   "last": 0.02639,
    "peak": 0.02764,
    "cost": 1.5600039145197702,
    "opened": "2026-11-13T21:28:37+07:00",
@@ -15,23 +15,11 @@
    "kol": 213,
    "miss": 0
   },
-  "FibMHnUpDLQGtg51rWZotvRX2yp45SewAU4KrCNcpump": {
-   "sym": "42",
-   "qty": 42822.41870079468,
-   "entry": 2.986e-05,
-   "last": 4.641e-05,
-   "peak": 4.797e-05,
-   "cost": 1.317952404046309,
-   "opened": "2026-11-13T23:14:54+07:00",
-   "smart": 80,
-   "kol": 5,
-   "miss": 0
-  },
   "6ZeMsPdH2ZcP3pGSxHz5ErstowgnnW28CoxU2vcBpump": {
    "sym": "Clipper",
    "qty": 20056.16887329234,
    "entry": 6.506e-05,
-   "last": 7.447e-05,
+   "last": 7.043e-05,
    "peak": 8.284e-05,
    "cost": 1.3449333610558645,
    "opened": "2026-11-13T23:37:42+07:00",
@@ -43,7 +31,7 @@
    "sym": "PAID",
    "qty": 833.5462110140909,
    "entry": 0.001455,
-   "last": 0.001396,
+   "last": 0.001409,
    "peak": 0.001471,
    "cost": 1.250061571867143,
    "opened": "2026-11-13T23:41:28+07:00",
@@ -849,8 +837,20 @@
    "sym": "PAID",
    "price": 0.001455,
    "usd": 1.2501
+  },
+  {
+   "t": "2026-11-13T23:52:47+07:00",
+   "kind": "sell",
+   "mint": "FibMHnUpDLQGtg51rWZotvRX2yp45SewAU4KrCNcpump",
+   "sym": "42",
+   "price": 3.971e-05,
+   "usd": 1.6498,
+   "pnl": 0.3319,
+   "why": "trailing จากยอด +61% (+33.0%)",
+   "smart": 80,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794588538.8193312
+ "rank_t": 1794588767.0191681
 }
