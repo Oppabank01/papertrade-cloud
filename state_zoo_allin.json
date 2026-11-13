@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.0,
- "pos": {
-  "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": {
-   "sym": "LuckyCoin",
-   "qty": 704.0616119031142,
-   "entry": 0.0004446,
-   "last": 0.000503,
-   "peak": 0.00059,
-   "cost": 0.32264047892406167,
-   "opened": "2026-11-14T02:43:49+07:00",
-   "zoo": "allin",
-   "smart": 38,
-   "kol": 4,
-   "miss": 0
-  }
- },
+ "cash": 0.3125093634597937,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T00:42:02+07:00",
@@ -90,8 +76,20 @@
    "sym": "LuckyCoin",
    "price": 0.0004446,
    "usd": 0.3226
+  },
+  {
+   "t": "2026-11-14T03:45:35+07:00",
+   "kind": "sell",
+   "mint": "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump",
+   "sym": "LuckyCoin",
+   "price": 0.0004575,
+   "usd": 0.3125,
+   "pnl": -0.0101,
+   "why": "trailing จากยอด +33% (+2.9%)",
+   "smart": 38,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ทุ่มหมดหน้าตัก ไม้ละ 100%",
- "rank_t": 1794602449.251817
+ "rank_t": 1794602709.8540235
 }

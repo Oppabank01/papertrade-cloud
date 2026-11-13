@@ -1,8 +1,21 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 3.817126788189586,
- "pos": {},
+ "cash": 3.0537014305516688,
+ "pos": {
+  "5pwkNm6E69DyvyTvMna9rM5sTFogbBLH3N3rvymPpump": {
+   "sym": "BATON",
+   "qty": 12823.325519049642,
+   "entry": 5.776e-05,
+   "last": 5.776e-05,
+   "peak": 5.776e-05,
+   "cost": 0.7634253576379173,
+   "opened": "2026-11-14T03:45:31+07:00",
+   "smart": 58,
+   "kol": 6,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -808,8 +821,16 @@
    "why": "stop -27.7%",
    "smart": 21,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:45:31+07:00",
+   "kind": "buy",
+   "mint": "5pwkNm6E69DyvyTvMna9rM5sTFogbBLH3N3rvymPpump",
+   "sym": "BATON",
+   "price": 5.776e-05,
+   "usd": 0.7634
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794602449.251817
+ "rank_t": 1794602709.8540235
 }
