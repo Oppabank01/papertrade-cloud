@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 4.930249743275838,
+ "cash": 1.4119916241431922,
  "pos": {
   "9yZ5Ru8pbmJZ6Q2DKLCGXkaLNwkm83cnJ4QCw4PFpump": {
    "sym": "wobbles",
@@ -19,12 +19,36 @@
    "sym": "AMD",
    "qty": 3057.827128179905,
    "entry": 0.0005707,
-   "last": 0.0007391,
+   "last": 0.0007205,
    "peak": 0.0007391,
    "cost": 1.7987033004043207,
    "opened": "2026-11-13T19:26:30+07:00",
    "smart": 305,
    "kol": 26,
+   "miss": 0
+  },
+  "4rYsDHMfKmt6VuVGcM8cGzBgkZNgQT3w2DhdEmtVpump": {
+   "sym": "DacityCoin",
+   "qty": 3256.245390970716,
+   "entry": 0.0005257,
+   "last": 0.0005257,
+   "peak": 0.0005257,
+   "cost": 1.764386932625547,
+   "opened": "2026-11-13T20:50:27+07:00",
+   "smart": 121,
+   "kol": 11,
+   "miss": 0
+  },
+  "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": {
+   "sym": "VEIL",
+   "qty": 3368.1825517600696,
+   "entry": 0.0005052,
+   "last": 0.0005052,
+   "peak": 0.0005052,
+   "cost": 1.7538711865070988,
+   "opened": "2026-11-13T20:50:27+07:00",
+   "smart": 67,
+   "kol": 5,
    "miss": 0
   }
  },
@@ -569,8 +593,24 @@
    "why": "stop -8.5%",
    "smart": 50,
    "bundler": null
+  },
+  {
+   "t": "2026-11-13T20:50:27+07:00",
+   "kind": "buy",
+   "mint": "4rYsDHMfKmt6VuVGcM8cGzBgkZNgQT3w2DhdEmtVpump",
+   "sym": "DacityCoin",
+   "price": 0.0005257,
+   "usd": 1.7644
+  },
+  {
+   "t": "2026-11-13T20:50:27+07:00",
+   "kind": "buy",
+   "mint": "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump",
+   "sym": "VEIL",
+   "price": 0.0005052,
+   "usd": 1.7539
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794577579.3151622
+ "rank_t": 1794577826.8652844
 }
