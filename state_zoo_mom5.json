@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.299166948432512,
+ "cash": 0.12545551604901412,
  "pos": {
   "2zhfT4b6N4Jq5VwPjvbN6BwrZhpk7ncZ55ofXR9wpump": {
    "sym": "LEAP",
    "qty": 9481.207105538268,
    "entry": 7.112e-05,
-   "last": 8.421e-05,
+   "last": 7.725e-05,
    "peak": 8.421e-05,
    "cost": 0.6950148931621126,
    "opened": "2026-11-14T02:52:47+07:00",
@@ -16,30 +16,17 @@
    "kol": 7,
    "miss": 0
   },
-  "BPoGXKyvgtVFW5UBwUDE97nyUEefYDbMScHPfzhZpump": {
-   "sym": "CRED",
-   "qty": 3022.0679613320335,
-   "entry": 0.0001126,
-   "last": 0.0001126,
-   "peak": 0.0001126,
-   "cost": 0.35073680936506596,
-   "opened": "2026-11-14T03:15:01+07:00",
+  "9jh6f2mEsoPMwrQ1XJA17Rzy3Y9VWmH4FvGXXhZJpump": {
+   "sym": "Ballfin",
+   "qty": 1248.3947241687017,
+   "entry": 0.0002325,
+   "last": 0.0002183,
+   "peak": 0.0002325,
+   "cost": 0.299166948432512,
+   "opened": "2026-11-14T03:19:20+07:00",
    "zoo": "mom5",
-   "smart": 5,
+   "smart": 1,
    "kol": 0,
-   "miss": 0
-  },
-  "AdWNsQzcsqBNCC19a21LqP8YMf6MDTBZtGMpoNFtpump": {
-   "sym": "SAI",
-   "qty": 23863.785980641976,
-   "entry": 1.409e-05,
-   "last": 1.409e-05,
-   "peak": 1.409e-05,
-   "cost": 0.3465684853300819,
-   "opened": "2026-11-14T03:15:01+07:00",
-   "zoo": "mom5",
-   "smart": 3,
-   "kol": 1,
    "miss": 0
   }
  },
@@ -712,8 +699,40 @@
    "why": "stop -16.7%",
    "smart": 4,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:19:20+07:00",
+   "kind": "buy",
+   "mint": "9jh6f2mEsoPMwrQ1XJA17Rzy3Y9VWmH4FvGXXhZJpump",
+   "sym": "Ballfin",
+   "price": 0.0002325,
+   "usd": 0.2992
+  },
+  {
+   "t": "2026-11-14T03:19:20+07:00",
+   "kind": "sell",
+   "mint": "BPoGXKyvgtVFW5UBwUDE97nyUEefYDbMScHPfzhZpump",
+   "sym": "CRED",
+   "price": 1.679e-06,
+   "usd": 0.0049,
+   "pnl": -0.3458,
+   "why": "stop -98.5%",
+   "smart": 5,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:19:20+07:00",
+   "kind": "sell",
+   "mint": "AdWNsQzcsqBNCC19a21LqP8YMf6MDTBZtGMpoNFtpump",
+   "sym": "SAI",
+   "price": 5.206e-06,
+   "usd": 0.1205,
+   "pnl": -0.226,
+   "why": "stop -63.1%",
+   "smart": 3,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: โมเมนตัม 5 นาที +10 ถึง +50%",
- "rank_t": 1794600879.1525567
+ "rank_t": 1794601145.345585
 }

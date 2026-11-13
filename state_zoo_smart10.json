@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.4754624584734113,
+ "cash": 0.0,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 97.37894757896353,
    "entry": 0.01875,
-   "last": 0.01871,
+   "last": 0.01824,
    "peak": 0.01983,
    "cost": 1.8819369893893694,
    "opened": "2026-11-14T02:06:44+07:00",
@@ -20,8 +20,8 @@
    "sym": "BAWSAQ",
    "qty": 9140.42632744608,
    "entry": 0.00018,
-   "last": 0.0003105,
-   "peak": 0.0003105,
+   "last": 0.0003281,
+   "peak": 0.0003281,
    "cost": 1.6958119345911098,
    "opened": "2026-11-14T02:23:55+07:00",
    "zoo": "smart10",
@@ -33,13 +33,26 @@
    "sym": "MRPENIS",
    "qty": 4910.277710154022,
    "entry": 0.0001013,
-   "last": 9.641e-05,
+   "last": 9.535e-05,
    "peak": 0.0001014,
    "cost": 0.5126892723547747,
    "opened": "2026-11-14T03:10:39+07:00",
    "zoo": "smart10",
    "smart": 47,
    "kol": 3,
+   "miss": 0
+  },
+  "62MnzU6NVvGrVRLHyqKrwrSnCJsZGHm9bE8aHaB82ray": {
+   "sym": "DEFAULT",
+   "qty": 6254.829521503777,
+   "entry": 7.375e-05,
+   "last": 8.629e-05,
+   "peak": 8.629e-05,
+   "cost": 0.4754624584734113,
+   "opened": "2026-11-14T03:19:21+07:00",
+   "zoo": "smart10",
+   "smart": 14,
+   "kol": 0,
    "miss": 0
   }
  },
@@ -432,8 +445,16 @@
    "why": "stop -29.8%",
    "smart": 71,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:19:21+07:00",
+   "kind": "buy",
+   "mint": "62MnzU6NVvGrVRLHyqKrwrSnCJsZGHm9bE8aHaB82ray",
+   "sym": "DEFAULT",
+   "price": 7.375e-05,
+   "usd": 0.4755
   }
  ],
  "label": "สวนสัตว์: smart wallet 10 ขึ้นไป",
- "rank_t": 1794600879.1525567
+ "rank_t": 1794601145.345585
 }
