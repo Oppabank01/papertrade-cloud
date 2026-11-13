@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.7876366183066974,
+ "cash": 1.324276737368631,
  "pos": {
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
@@ -20,13 +20,26 @@
    "sym": "LUKE",
    "qty": 113416.18134369639,
    "entry": 1.204e-05,
-   "last": 1.204e-05,
+   "last": 1.12e-05,
    "peak": 1.204e-05,
    "cost": 1.407473534712538,
    "opened": "2026-11-14T01:09:56+07:00",
    "zoo": "mom1h",
    "smart": 6,
    "kol": 1,
+   "miss": 0
+  },
+  "ByCUjGx4FkhK7ac8Vdqzb41yScUtvG78GBYSXKsMpump": {
+   "sym": "dca",
+   "qty": 19045.14870227857,
+   "entry": 6.503e-05,
+   "last": 6.503e-05,
+   "peak": 6.503e-05,
+   "cost": 1.276547124416796,
+   "opened": "2026-11-14T01:14:20+07:00",
+   "zoo": "mom1h",
+   "smart": 67,
+   "kol": 2,
    "miss": 0
   }
  },
@@ -191,8 +204,36 @@
    "why": "trailing จากยอด +36% (+0.7%)",
    "smart": 152,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:14:20+07:00",
+   "kind": "buy",
+   "mint": "ByCUjGx4FkhK7ac8Vdqzb41yScUtvG78GBYSXKsMpump",
+   "sym": "dca",
+   "price": 6.503e-05,
+   "usd": 1.2765
+  },
+  {
+   "t": "2026-11-14T01:14:20+07:00",
+   "kind": "buy",
+   "mint": "3kJoQ9Bi5UtNbmDn5zgP4mcpZjdAUmzGb2DrvjHTpump",
+   "sym": "GENNY",
+   "price": 3.818e-05,
+   "usd": 1.2689
+  },
+  {
+   "t": "2026-11-14T01:14:20+07:00",
+   "kind": "sell",
+   "mint": "3kJoQ9Bi5UtNbmDn5zgP4mcpZjdAUmzGb2DrvjHTpump",
+   "sym": "GENNY",
+   "price": 3.459e-05,
+   "usd": 1.0821,
+   "pnl": -0.1868,
+   "why": "stop -9.4%",
+   "smart": 5,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: พุ่งแรง 1 ชม. เกิน +100%",
- "rank_t": 1794593350.9185283
+ "rank_t": 1794593642.8156188
 }

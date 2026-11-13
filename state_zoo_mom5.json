@@ -1,32 +1,45 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 4.249638849146187,
+ "cash": 2.499500732456372,
  "pos": {
-  "vmUmykEVidvzcq8MGLjAeXe8tg5qGioC4ua8aQVpump": {
-   "sym": "WOOF",
-   "qty": 128539.57877567555,
-   "entry": 1.36e-05,
-   "last": 1.471e-05,
-   "peak": 1.471e-05,
-   "cost": 1.8018328915163757,
-   "opened": "2026-11-14T01:04:52+07:00",
-   "zoo": "mom5",
-   "smart": 4,
-   "kol": 2,
-   "miss": 0
-  },
   "6d9fD5SxvN4DAG4SHQD8pebm8TM6XeSbYezPDjdapump": {
    "sym": "PINO",
    "qty": 3651.714054755416,
    "entry": 0.0004322,
-   "last": 0.0004322,
+   "last": 0.0004147,
    "peak": 0.0004322,
    "cost": 1.6267479019431978,
    "opened": "2026-11-14T01:09:56+07:00",
    "zoo": "mom5",
    "smart": 54,
    "kol": 4,
+   "miss": 0
+  },
+  "ByCUjGx4FkhK7ac8Vdqzb41yScUtvG78GBYSXKsMpump": {
+   "sym": "dca",
+   "qty": 23031.550997241568,
+   "entry": 6.503e-05,
+   "last": 6.503e-05,
+   "peak": 6.503e-05,
+   "cost": 1.5437453734803332,
+   "opened": "2026-11-14T01:14:20+07:00",
+   "zoo": "mom5",
+   "smart": 67,
+   "kol": 2,
+   "miss": 0
+  },
+  "GKJCDugL2YXbo67wNSCC4jqfAzpyZfRosBtdBjRBpump": {
+   "sym": "rockstar",
+   "qty": 120747.38203187099,
+   "entry": 1.233e-05,
+   "last": 1.233e-05,
+   "peak": 1.233e-05,
+   "cost": 1.5345446510543903,
+   "opened": "2026-11-14T01:14:20+07:00",
+   "zoo": "mom5",
+   "smart": 28,
+   "kol": 2,
    "miss": 0
   }
  },
@@ -211,8 +224,36 @@
    "why": "stop -26.1%",
    "smart": 154,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:14:20+07:00",
+   "kind": "buy",
+   "mint": "ByCUjGx4FkhK7ac8Vdqzb41yScUtvG78GBYSXKsMpump",
+   "sym": "dca",
+   "price": 6.503e-05,
+   "usd": 1.5437
+  },
+  {
+   "t": "2026-11-14T01:14:20+07:00",
+   "kind": "buy",
+   "mint": "GKJCDugL2YXbo67wNSCC4jqfAzpyZfRosBtdBjRBpump",
+   "sym": "rockstar",
+   "price": 1.233e-05,
+   "usd": 1.5345
+  },
+  {
+   "t": "2026-11-14T01:14:20+07:00",
+   "kind": "sell",
+   "mint": "vmUmykEVidvzcq8MGLjAeXe8tg5qGioC4ua8aQVpump",
+   "sym": "WOOF",
+   "price": 1.065e-05,
+   "usd": 1.3282,
+   "pnl": -0.4737,
+   "why": "stop -21.7%",
+   "smart": 4,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: โมเมนตัม 5 นาที +10 ถึง +50%",
- "rank_t": 1794593350.9185283
+ "rank_t": 1794593642.8156188
 }

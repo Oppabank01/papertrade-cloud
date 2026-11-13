@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 3.4065500879499107,
+ "cash": 3.3165659339602955,
  "pos": {
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 4218.672832138303,
    "entry": 0.0006786,
-   "last": 0.0008148,
-   "peak": 0.0008148,
+   "last": 0.0008199,
+   "peak": 0.0008199,
    "cost": 2.950722927117144,
    "opened": "2026-11-14T00:45:44+07:00",
    "zoo": "kol2",
@@ -20,7 +20,7 @@
    "sym": "BTC",
    "qty": 1198.6307633574227,
    "entry": 0.00236,
-   "last": 0.002433,
+   "last": 0.002485,
    "peak": 0.00249,
    "cost": 2.9156551242254354,
    "opened": "2026-11-14T00:45:44+07:00",
@@ -29,17 +29,17 @@
    "kol": 69,
    "miss": 0
   },
-  "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
-   "sym": "FOOD",
-   "qty": 2180.548481794063,
-   "entry": 0.001301,
-   "last": 0.001275,
-   "peak": 0.001322,
-   "cost": 2.9240296586415955,
-   "opened": "2026-11-14T01:01:07+07:00",
+  "ByCUjGx4FkhK7ac8Vdqzb41yScUtvG78GBYSXKsMpump": {
+   "sym": "dca",
+   "qty": 37418.69589867291,
+   "entry": 6.503e-05,
+   "last": 6.503e-05,
+   "peak": 6.503e-05,
+   "cost": 2.5080785346224483,
+   "opened": "2026-11-14T01:14:21+07:00",
    "zoo": "kol2",
-   "smart": 272,
-   "kol": 20,
+   "smart": 67,
+   "kol": 2,
    "miss": 0
   }
  },
@@ -132,8 +132,28 @@
    "why": "stop -26.1%",
    "smart": 154,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:14:21+07:00",
+   "kind": "buy",
+   "mint": "ByCUjGx4FkhK7ac8Vdqzb41yScUtvG78GBYSXKsMpump",
+   "sym": "dca",
+   "price": 6.503e-05,
+   "usd": 2.5081
+  },
+  {
+   "t": "2026-11-14T01:14:21+07:00",
+   "kind": "sell",
+   "mint": "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
+   "sym": "FOOD",
+   "price": 0.001143,
+   "usd": 2.4181,
+   "pnl": -0.5059,
+   "why": "stop -12.1%",
+   "smart": 272,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: KOL เข้า 2 คนขึ้นไป",
- "rank_t": 1794593350.9185283
+ "rank_t": 1794593642.8156188
 }

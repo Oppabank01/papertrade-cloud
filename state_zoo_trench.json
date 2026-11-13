@@ -1,27 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.757969303423847,
- "cash": 5.9350773330754,
+ "cash": 5.34356103682087,
  "pos": {
-  "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump": {
-   "sym": "Huang",
-   "qty": 17931.348551260886,
-   "entry": 0.0001597,
-   "last": 0.0001572,
-   "peak": 0.0001975,
-   "cost": 2.9515938606847696,
-   "opened": "2026-11-14T00:53:25+07:00",
-   "zoo": "trench",
-   "smart": 132,
-   "kol": 9,
-   "miss": 0
-  },
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 4132.049776323256,
    "entry": 0.0006889,
-   "last": 0.0008148,
-   "peak": 0.0008148,
+   "last": 0.0008199,
+   "peak": 0.0008199,
    "cost": 2.9340023612750885,
    "opened": "2026-11-14T00:53:25+07:00",
    "zoo": "trench",
@@ -33,13 +20,26 @@
    "sym": "SHARKBUX",
    "qty": 4647.365190943592,
    "entry": 0.0006132,
-   "last": 0.0006693,
-   "peak": 0.0006693,
+   "last": 0.0006919,
+   "peak": 0.0006919,
    "cost": 2.937295748388591,
    "opened": "2026-11-14T00:57:20+07:00",
    "zoo": "trench",
    "smart": 10,
    "kol": 0,
+   "miss": 0
+  },
+  "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": {
+   "sym": "LuckyCoin",
+   "qty": 8334.615007005083,
+   "entry": 0.0003546,
+   "last": 0.0003546,
+   "peak": 0.0003546,
+   "cost": 3.0462322010760694,
+   "opened": "2026-11-14T01:14:22+07:00",
+   "zoo": "trench",
+   "smart": 38,
+   "kol": 4,
    "miss": 0
   }
  },
@@ -72,8 +72,28 @@
    "sym": "SHARKBUX",
    "price": 0.0006132,
    "usd": 2.9373
+  },
+  {
+   "t": "2026-11-14T01:14:22+07:00",
+   "kind": "buy",
+   "mint": "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump",
+   "sym": "LuckyCoin",
+   "price": 0.0003546,
+   "usd": 3.0462
+  },
+  {
+   "t": "2026-11-14T01:14:22+07:00",
+   "kind": "sell",
+   "mint": "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump",
+   "sym": "Huang",
+   "price": 0.0001411,
+   "usd": 2.4547,
+   "pnl": -0.4969,
+   "why": "stop -11.6%",
+   "smart": 132,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: crbpite8 รอบ 2: ปลอดภัย + smart 3 + V/L สูงสุด 3 ตัว",
- "rank_t": 1794593350.9185283
+ "rank_t": 1794593642.8156188
 }
