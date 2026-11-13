@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 3.119706896901766,
+ "cash": 3.323625722857275,
  "pos": {
   "724AMeMtZZQ5KmPMzqnPY5bixBoZA9hSHn2p886Lpump": {
    "sym": "M&F",
    "qty": 13868.075766282036,
    "entry": 0.0002052,
-   "last": 0.0002112,
+   "last": 0.0001935,
    "peak": 0.0002118,
    "cost": 2.9331366184715257,
    "opened": "2026-11-14T00:45:42+07:00",
@@ -16,29 +16,16 @@
    "kol": 5,
    "miss": 0
   },
-  "vmUmykEVidvzcq8MGLjAeXe8tg5qGioC4ua8aQVpump": {
-   "sym": "WOOF",
-   "qty": 238513.37280974007,
-   "entry": 1.186e-05,
-   "last": 1.112e-05,
-   "peak": 1.19e-05,
-   "cost": 2.9156551242254354,
-   "opened": "2026-11-14T00:45:42+07:00",
-   "zoo": "mom1h",
-   "smart": 4,
-   "kol": 1,
-   "miss": 0
-  },
-  "Fpohaf4qcw6XpJsKr89uT5wmd6mu5neJSHDryNFBpump": {
+  "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
-   "qty": 77096.10719797442,
-   "entry": 3.618e-05,
-   "last": 3.618e-05,
-   "peak": 3.618e-05,
-   "cost": 2.8750125318725157,
-   "opened": "2026-11-14T00:49:35+07:00",
+   "qty": 11108959543.593315,
+   "entry": 2.007e-10,
+   "last": 2.007e-10,
+   "peak": 2.007e-10,
+   "cost": 2.2980500725615114,
+   "opened": "2026-11-14T00:53:24+07:00",
    "zoo": "mom1h",
-   "smart": 6,
+   "smart": 0,
    "kol": 0,
    "miss": 0
   }
@@ -92,8 +79,40 @@
    "why": "stop -98.5%",
    "smart": 5,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T00:53:24+07:00",
+   "kind": "buy",
+   "mint": "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd",
+   "sym": "INU",
+   "price": 2.007e-10,
+   "usd": 2.2981
+  },
+  {
+   "t": "2026-11-14T00:53:24+07:00",
+   "kind": "sell",
+   "mint": "vmUmykEVidvzcq8MGLjAeXe8tg5qGioC4ua8aQVpump",
+   "sym": "WOOF",
+   "price": 1.028e-05,
+   "usd": 2.3789,
+   "pnl": -0.5368,
+   "why": "stop -13.3%",
+   "smart": 4,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T00:53:24+07:00",
+   "kind": "sell",
+   "mint": "Fpohaf4qcw6XpJsKr89uT5wmd6mu5neJSHDryNFBpump",
+   "sym": "INU",
+   "price": 1.646e-06,
+   "usd": 0.1231,
+   "pnl": -2.7519,
+   "why": "stop -95.5%",
+   "smart": 6,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: พุ่งแรง 1 ชม. เกิน +100%",
- "rank_t": 1794592170.5836637
+ "rank_t": 1794592400.0605166
 }

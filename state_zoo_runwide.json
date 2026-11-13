@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 8.86975508999705,
+ "cash": 5.978674086350079,
  "pos": {
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 4218.672832138303,
    "entry": 0.0006786,
-   "last": 0.0006784,
-   "peak": 0.0006798,
+   "last": 0.0006828,
+   "peak": 0.0006828,
    "cost": 2.950722927117144,
    "opened": "2026-11-14T00:45:45+07:00",
    "zoo": "runwide",
@@ -20,12 +20,25 @@
    "sym": "JENSEN",
    "qty": 15644.47029819172,
    "entry": 0.0001819,
-   "last": 0.0001741,
-   "peak": 0.0001819,
+   "last": 0.0002122,
+   "peak": 0.0002122,
    "cost": 2.9331366184715257,
    "opened": "2026-11-14T00:45:45+07:00",
    "zoo": "runwide",
    "smart": 2,
+   "kol": 0,
+   "miss": 0
+  },
+  "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
+   "sym": "INU",
+   "qty": 13975718932.427958,
+   "entry": 2.007e-10,
+   "last": 2.007e-10,
+   "peak": 2.007e-10,
+   "cost": 2.8910810036469705,
+   "opened": "2026-11-14T00:53:25+07:00",
+   "zoo": "runwide",
+   "smart": 0,
    "kol": 0,
    "miss": 0
   }
@@ -51,8 +64,16 @@
    "sym": "JENSEN",
    "price": 0.0001819,
    "usd": 2.9331
+  },
+  {
+   "t": "2026-11-14T00:53:25+07:00",
+   "kind": "buy",
+   "mint": "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd",
+   "sym": "INU",
+   "price": 2.007e-10,
+   "usd": 2.8911
   }
  ],
  "label": "สวนสัตว์: ปล่อยวิ่ง trail 30/25 ถือ 24 ชม.",
- "rank_t": 1794592170.5836637
+ "rank_t": 1794592400.0605166
 }

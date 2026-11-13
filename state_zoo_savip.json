@@ -1,14 +1,37 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 14.753614635585718,
- "pos": {},
+ "cash": 0.0,
+ "pos": {
+  "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
+   "sym": "Leonida",
+   "qty": 20777.989431623257,
+   "entry": 0.0006889,
+   "last": 0.0006889,
+   "peak": 0.0006889,
+   "cost": 14.753614635585718,
+   "opened": "2026-11-14T00:53:26+07:00",
+   "zoo": "savip",
+   "smart": 72,
+   "kol": 4,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:50:18+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-14T00:53:26+07:00",
+   "kind": "buy",
+   "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "sym": "Leonida",
+   "price": 0.0006889,
+   "usd": 14.7536
   }
  ],
- "label": "สวนสัตว์: savipww 5 บอท: คะแนน 80+ ทุ่มหมด ขายครึ่ง +30% stop -6%"
+ "label": "สวนสัตว์: savipww 5 บอท: คะแนน 80+ ทุ่มหมด ขายครึ่ง +30% stop -6%",
+ "rank_t": 1794592400.0605166
 }

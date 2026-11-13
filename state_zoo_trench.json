@@ -1,14 +1,58 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.757969303423847,
- "cash": 14.757969303423847,
- "pos": {},
+ "cash": 8.87237308146399,
+ "pos": {
+  "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump": {
+   "sym": "Huang",
+   "qty": 17931.348551260886,
+   "entry": 0.0001597,
+   "last": 0.0001669,
+   "peak": 0.0001669,
+   "cost": 2.9515938606847696,
+   "opened": "2026-11-14T00:53:25+07:00",
+   "zoo": "trench",
+   "smart": 132,
+   "kol": 9,
+   "miss": 0
+  },
+  "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
+   "sym": "Leonida",
+   "qty": 4132.049776323256,
+   "entry": 0.0006889,
+   "last": 0.0006828,
+   "peak": 0.0006889,
+   "cost": 2.9340023612750885,
+   "opened": "2026-11-14T00:53:25+07:00",
+   "zoo": "trench",
+   "smart": 72,
+   "kol": 4,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:50:18+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-14T00:53:25+07:00",
+   "kind": "buy",
+   "mint": "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump",
+   "sym": "Huang",
+   "price": 0.0001597,
+   "usd": 2.9516
+  },
+  {
+   "t": "2026-11-14T00:53:25+07:00",
+   "kind": "buy",
+   "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "sym": "Leonida",
+   "price": 0.0006889,
+   "usd": 2.934
   }
  ],
- "label": "สวนสัตว์: crbpite8 รอบ 2: ปลอดภัย + smart 3 + V/L สูงสุด 3 ตัว"
+ "label": "สวนสัตว์: crbpite8 รอบ 2: ปลอดภัย + smart 3 + V/L สูงสุด 3 ตัว",
+ "rank_t": 1794592400.0605166
 }

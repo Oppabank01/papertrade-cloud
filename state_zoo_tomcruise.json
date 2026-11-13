@@ -1,14 +1,79 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 14.753614635585718,
- "pos": {},
+ "cash": 8.140834758040718,
+ "pos": {
+  "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
+   "sym": "INU",
+   "qty": 7132016402.314531,
+   "entry": 2.007e-10,
+   "last": 2.007e-10,
+   "peak": 2.007e-10,
+   "cost": 1.475361463558572,
+   "opened": "2026-11-14T00:53:26+07:00",
+   "zoo": "tomcruise",
+   "smart": 0,
+   "kol": 0,
+   "miss": 0
+  },
+  "F37BKMyLrJxpHAmLcsQxza4f1uwPyCAmMmaeA2C7pump": {
+   "sym": "JENSEN",
+   "qty": 6725.401191246615,
+   "entry": 0.0002122,
+   "last": 0.0002122,
+   "peak": 0.0002122,
+   "cost": 1.4709648863971674,
+   "opened": "2026-11-14T00:53:26+07:00",
+   "zoo": "tomcruise",
+   "smart": 2,
+   "kol": 0,
+   "miss": 0
+  },
+  "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
+   "sym": "Leonida",
+   "qty": 5163.584282867034,
+   "entry": 0.0006889,
+   "last": 0.0006828,
+   "peak": 0.0006889,
+   "cost": 3.666453527589259,
+   "opened": "2026-11-14T00:53:26+07:00",
+   "zoo": "tomcruise",
+   "smart": 72,
+   "kol": 4,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:50:19+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-14T00:53:26+07:00",
+   "kind": "buy",
+   "mint": "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd",
+   "sym": "INU",
+   "price": 2.007e-10,
+   "usd": 1.4754
+  },
+  {
+   "t": "2026-11-14T00:53:26+07:00",
+   "kind": "buy",
+   "mint": "F37BKMyLrJxpHAmLcsQxza4f1uwPyCAmMmaeA2C7pump",
+   "sym": "JENSEN",
+   "price": 0.0002122,
+   "usd": 1.471
+  },
+  {
+   "t": "2026-11-14T00:53:26+07:00",
+   "kind": "buy",
+   "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "sym": "Leonida",
+   "price": 0.0006889,
+   "usd": 3.6665
   }
  ],
- "label": "สวนสัตว์: tomcruise 6 เอเจนต์: scanner rug check sizer ตามสภาพคล่อง"
+ "label": "สวนสัตว์: tomcruise 6 เอเจนต์: scanner rug check sizer ตามสภาพคล่อง",
+ "rank_t": 1794592400.0605166
 }

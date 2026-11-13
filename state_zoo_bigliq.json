@@ -1,15 +1,58 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 14.753614635585718,
- "pos": {},
+ "cash": 8.86975508999705,
+ "pos": {
+  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
+   "sym": "GTA6",
+   "qty": 404.5204725009259,
+   "entry": 0.007077,
+   "last": 0.00714,
+   "peak": 0.00714,
+   "cost": 2.950722927117144,
+   "opened": "2026-11-14T00:53:24+07:00",
+   "zoo": "bigliq",
+   "smart": 285,
+   "kol": 23,
+   "miss": 0
+  },
+  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
+   "sym": "CATE",
+   "qty": 145.63608737160052,
+   "entry": 0.01954,
+   "last": 0.01954,
+   "peak": 0.01954,
+   "cost": 2.9331366184715257,
+   "opened": "2026-11-14T00:53:24+07:00",
+   "zoo": "bigliq",
+   "smart": 861,
+   "kol": 110,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:42:00+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-14T00:53:24+07:00",
+   "kind": "buy",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.007077,
+   "usd": 2.9507
+  },
+  {
+   "t": "2026-11-14T00:53:24+07:00",
+   "kind": "buy",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.01954,
+   "usd": 2.9331
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ มาร์เก็ตแคป 2M+",
- "rank_t": 1794592170.5836637
+ "rank_t": 1794592400.0605166
 }

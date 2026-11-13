@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 3.721038411325106,
+ "cash": 2.7400178373524233,
  "pos": {
   "62Z72VWdVeMwgyGDjeR8KaazTjFzy3RVXD3K25yNaHAT": {
    "sym": "cashchick",
    "qty": 169086.69918247618,
    "entry": 1.683e-05,
-   "last": 3.825e-05,
+   "last": 3.655e-05,
    "peak": 3.825e-05,
    "cost": 2.9331366184715257,
    "opened": "2026-11-14T00:45:43+07:00",
@@ -16,29 +16,16 @@
    "kol": 5,
    "miss": 0
   },
-  "5LEGND95QBhYtQecbyak9HzYeq2SeJL8YwDsX8PLpump": {
-   "sym": "BBTB",
-   "qty": 130532.96558781802,
-   "entry": 2.204e-05,
-   "last": 2.204e-05,
-   "peak": 2.204e-05,
-   "cost": 2.9653128855447424,
-   "opened": "2026-11-14T00:49:35+07:00",
+  "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
+   "sym": "INU",
+   "qty": 15869739662.787699,
+   "entry": 2.007e-10,
+   "last": 2.007e-10,
+   "peak": 2.007e-10,
+   "cost": 3.282886776253856,
+   "opened": "2026-11-14T00:53:24+07:00",
    "zoo": "fresh",
-   "smart": 39,
-   "kol": 4,
-   "miss": 0
-  },
-  "AKEvWzxpmt5VQKeSGMsb18jMYtftVJxFQkts1aiypump": {
-   "sym": "trump2",
-   "qty": 177848.25622193026,
-   "entry": 1.608e-05,
-   "last": 1.883e-05,
-   "peak": 1.883e-05,
-   "cost": 2.9476396207468962,
-   "opened": "2026-11-14T00:49:35+07:00",
-   "zoo": "fresh",
-   "smart": 1,
+   "smart": 0,
    "kol": 0,
    "miss": 0
   }
@@ -132,8 +119,40 @@
    "why": "stop -19.6%",
    "smart": 19,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T00:53:24+07:00",
+   "kind": "buy",
+   "mint": "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd",
+   "sym": "INU",
+   "price": 2.007e-10,
+   "usd": 3.2829
+  },
+  {
+   "t": "2026-11-14T00:53:24+07:00",
+   "kind": "sell",
+   "mint": "5LEGND95QBhYtQecbyak9HzYeq2SeJL8YwDsX8PLpump",
+   "sym": "BBTB",
+   "price": 1.509e-05,
+   "usd": 1.911,
+   "pnl": -1.0543,
+   "why": "stop -31.5%",
+   "smart": 39,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T00:53:24+07:00",
+   "kind": "sell",
+   "mint": "AKEvWzxpmt5VQKeSGMsb18jMYtftVJxFQkts1aiypump",
+   "sym": "trump2",
+   "price": 2.265e-06,
+   "usd": 0.3908,
+   "pnl": -2.5568,
+   "why": "stop -85.9%",
+   "smart": 1,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญเกิดใหม่ไม่เกิน 10 นาที",
- "rank_t": 1794592170.5836637
+ "rank_t": 1794592400.0605166
 }
