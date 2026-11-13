@@ -1,14 +1,37 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 14.753614635585718,
- "pos": {},
+ "cash": 11.802891708468575,
+ "pos": {
+  "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": {
+   "sym": "BTC",
+   "qty": 1213.0471965631577,
+   "entry": 0.00236,
+   "last": 0.00236,
+   "peak": 0.00236,
+   "cost": 2.950722927117144,
+   "opened": "2026-11-14T00:45:44+07:00",
+   "zoo": "holders",
+   "smart": 781,
+   "kol": 69,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:42:00+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-14T00:45:44+07:00",
+   "kind": "buy",
+   "mint": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+   "sym": "BTC",
+   "price": 0.00236,
+   "usd": 2.9507
   }
  ],
- "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป"
+ "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
+ "rank_t": 1794591937.7259166
 }

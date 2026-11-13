@@ -1,14 +1,98 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 14.753614635585718,
- "pos": {},
+ "cash": 7.440860074179294,
+ "pos": {
+  "62Z72VWdVeMwgyGDjeR8KaazTjFzy3RVXD3K25yNaHAT": {
+   "sym": "cashchick",
+   "qty": 169086.69918247618,
+   "entry": 1.683e-05,
+   "last": 2.705e-05,
+   "peak": 2.705e-05,
+   "cost": 2.9331366184715257,
+   "opened": "2026-11-14T00:45:43+07:00",
+   "zoo": "fresh",
+   "smart": 26,
+   "kol": 5,
+   "miss": 0
+  },
+  "DF35EFJBZ7Kssd4xLpDp7zaZLibAGWHppL6Y2mWvpump": {
+   "sym": "COIL",
+   "qty": 103455.08243776443,
+   "entry": 2.718e-05,
+   "last": 2.718e-05,
+   "peak": 2.718e-05,
+   "cost": 2.898277819685052,
+   "opened": "2026-11-14T00:45:43+07:00",
+   "zoo": "fresh",
+   "smart": 19,
+   "kol": 2,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:41:59+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-14T00:45:43+07:00",
+   "kind": "buy",
+   "mint": "Fpohaf4qcw6XpJsKr89uT5wmd6mu5neJSHDryNFBpump",
+   "sym": "INU",
+   "price": 3.144e-05,
+   "usd": 2.9507
+  },
+  {
+   "t": "2026-11-14T00:45:43+07:00",
+   "kind": "buy",
+   "mint": "62Z72VWdVeMwgyGDjeR8KaazTjFzy3RVXD3K25yNaHAT",
+   "sym": "cashchick",
+   "price": 1.683e-05,
+   "usd": 2.9331
+  },
+  {
+   "t": "2026-11-14T00:45:43+07:00",
+   "kind": "buy",
+   "mint": "7ocq1Kv2Eyg7CuuB1rJ4eNX3kZ1DKz4EMDNNCdvWpump",
+   "sym": "cashduck",
+   "price": 1.267e-05,
+   "usd": 2.9157
+  },
+  {
+   "t": "2026-11-14T00:45:43+07:00",
+   "kind": "buy",
+   "mint": "DF35EFJBZ7Kssd4xLpDp7zaZLibAGWHppL6Y2mWvpump",
+   "sym": "COIL",
+   "price": 2.718e-05,
+   "usd": 2.8983
+  },
+  {
+   "t": "2026-11-14T00:45:43+07:00",
+   "kind": "sell",
+   "mint": "Fpohaf4qcw6XpJsKr89uT5wmd6mu5neJSHDryNFBpump",
+   "sym": "INU",
+   "price": 2.766e-05,
+   "usd": 2.4435,
+   "pnl": -0.5072,
+   "why": "stop -12.0%",
+   "smart": 6,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T00:45:43+07:00",
+   "kind": "sell",
+   "mint": "7ocq1Kv2Eyg7CuuB1rJ4eNX3kZ1DKz4EMDNNCdvWpump",
+   "sym": "cashduck",
+   "price": 8.963e-06,
+   "usd": 1.9415,
+   "pnl": -0.9742,
+   "why": "stop -29.3%",
+   "smart": 20,
+   "bundler": null
   }
  ],
- "label": "สวนสัตว์: เหรียญเกิดใหม่ไม่เกิน 10 นาที"
+ "label": "สวนสัตว์: เหรียญเกิดใหม่ไม่เกิน 10 นาที",
+ "rank_t": 1794591937.7259166
 }

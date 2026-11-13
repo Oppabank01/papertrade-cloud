@@ -1,14 +1,58 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 14.753614635585718,
- "pos": {},
+ "cash": 8.86975508999705,
+ "pos": {
+  "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
+   "sym": "Leonida",
+   "qty": 4218.672832138303,
+   "entry": 0.0006786,
+   "last": 0.0006798,
+   "peak": 0.0006798,
+   "cost": 2.950722927117144,
+   "opened": "2026-11-14T00:45:45+07:00",
+   "zoo": "scalp",
+   "smart": 72,
+   "kol": 4,
+   "miss": 0
+  },
+  "F37BKMyLrJxpHAmLcsQxza4f1uwPyCAmMmaeA2C7pump": {
+   "sym": "JENSEN",
+   "qty": 15644.47029819172,
+   "entry": 0.0001819,
+   "last": 0.0001763,
+   "peak": 0.0001819,
+   "cost": 2.9331366184715257,
+   "opened": "2026-11-14T00:45:45+07:00",
+   "zoo": "scalp",
+   "smart": 2,
+   "kol": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:42:01+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-14T00:45:45+07:00",
+   "kind": "buy",
+   "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "sym": "Leonida",
+   "price": 0.0006786,
+   "usd": 2.9507
+  },
+  {
+   "t": "2026-11-14T00:45:45+07:00",
+   "kind": "buy",
+   "mint": "F37BKMyLrJxpHAmLcsQxza4f1uwPyCAmMmaeA2C7pump",
+   "sym": "JENSEN",
+   "price": 0.0001819,
+   "usd": 2.9331
   }
  ],
- "label": "สวนสัตว์: เก็บสั้น +10% ตัด -5% 30 นาที"
+ "label": "สวนสัตว์: เก็บสั้น +10% ตัด -5% 30 นาที",
+ "rank_t": 1794591937.7259166
 }
