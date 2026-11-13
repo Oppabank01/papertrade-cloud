@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.9422334027435284,
+ "cash": 0.1444127647131217,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 54.202965232231236,
    "entry": 0.04342,
-   "last": 0.04537,
+   "last": 0.04516,
    "peak": 0.04987,
    "cost": 2.4257810249262834,
    "opened": "2026-11-13T12:21:03+07:00",
@@ -18,7 +18,7 @@
    "sym": "wobbles",
    "qty": 1813.3881709184109,
    "entry": 0.001058,
-   "last": 0.0009832,
+   "last": 0.0009841,
    "peak": 0.001083,
    "cost": 1.9774940062169435,
    "opened": "2026-11-13T19:22:18+07:00",
@@ -29,10 +29,21 @@
    "sym": "NEVERDOOM",
    "qty": 15218.437358519752,
    "entry": 0.0001018,
-   "last": 0.0001843,
+   "last": 0.0001773,
    "peak": 0.0001929,
    "cost": 1.5968222254146678,
    "opened": "2026-11-14T05:58:14+07:00",
+   "source": "agents",
+   "miss": 0
+  },
+  "CPV5kijeSj5ns5vWgH7attMfhKGQLaen2wXeqCDjpump": {
+   "sym": "Fine",
+   "qty": 112170.13395608365,
+   "entry": 1.555e-05,
+   "last": 1.651e-05,
+   "peak": 1.651e-05,
+   "cost": 1.7978206380304067,
+   "opened": "2026-11-14T06:15:40+07:00",
    "source": "agents",
    "miss": 0
   }
@@ -446,6 +457,14 @@
    "why": "stop -8.0%",
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T06:15:40+07:00",
+   "kind": "buy",
+   "mint": "CPV5kijeSj5ns5vWgH7attMfhKGQLaen2wXeqCDjpump",
+   "sym": "Fine",
+   "price": 1.555e-05,
+   "usd": 1.7978
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",
@@ -511,6 +530,7 @@
   "state_agents.json:2026-11-14T04:49:41+07:00:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump",
   "state_agents.json:2026-11-14T05:02:01+07:00:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
   "state_agents.json:2026-11-14T05:45:08+07:00:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
-  "state_agents.json:2026-11-14T05:58:10+07:00:7FxGzQZjdxL87R9hTvtghmtn1vCUc79oVvKiV31azZrQ"
+  "state_agents.json:2026-11-14T05:58:10+07:00:7FxGzQZjdxL87R9hTvtghmtn1vCUc79oVvKiV31azZrQ",
+  "state_agents.json:2026-11-14T06:15:36+07:00:CPV5kijeSj5ns5vWgH7attMfhKGQLaen2wXeqCDjpump"
  ]
 }
