@@ -1,32 +1,32 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 4.615413031847,
+ "cash": 4.249638849146187,
  "pos": {
-  "E28eQFoCPndfLUPnxYgEWHhbnEVqSpyNPgAacoAEpump": {
-   "sym": "inu",
-   "qty": 6641.312856608726,
-   "entry": 0.0002648,
-   "last": 0.0002648,
-   "peak": 0.0002648,
-   "cost": 1.8126362032879724,
-   "opened": "2026-11-14T01:04:52+07:00",
-   "zoo": "mom5",
-   "smart": 154,
-   "kol": 14,
-   "miss": 0
-  },
   "vmUmykEVidvzcq8MGLjAeXe8tg5qGioC4ua8aQVpump": {
    "sym": "WOOF",
    "qty": 128539.57877567555,
    "entry": 1.36e-05,
-   "last": 1.369e-05,
-   "peak": 1.369e-05,
+   "last": 1.471e-05,
+   "peak": 1.471e-05,
    "cost": 1.8018328915163757,
    "opened": "2026-11-14T01:04:52+07:00",
    "zoo": "mom5",
    "smart": 4,
    "kol": 2,
+   "miss": 0
+  },
+  "6d9fD5SxvN4DAG4SHQD8pebm8TM6XeSbYezPDjdapump": {
+   "sym": "PINO",
+   "qty": 3651.714054755416,
+   "entry": 0.0004322,
+   "last": 0.0004322,
+   "peak": 0.0004322,
+   "cost": 1.6267479019431978,
+   "opened": "2026-11-14T01:09:56+07:00",
+   "zoo": "mom5",
+   "smart": 54,
+   "kol": 4,
    "miss": 0
   }
  },
@@ -191,8 +191,28 @@
    "why": "stop -32.9%",
    "smart": 9,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:09:56+07:00",
+   "kind": "buy",
+   "mint": "6d9fD5SxvN4DAG4SHQD8pebm8TM6XeSbYezPDjdapump",
+   "sym": "PINO",
+   "price": 0.0004322,
+   "usd": 1.6267
+  },
+  {
+   "t": "2026-11-14T01:09:56+07:00",
+   "kind": "sell",
+   "mint": "E28eQFoCPndfLUPnxYgEWHhbnEVqSpyNPgAacoAEpump",
+   "sym": "inu",
+   "price": 0.0001957,
+   "usd": 1.261,
+   "pnl": -0.5517,
+   "why": "stop -26.1%",
+   "smart": 154,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: โมเมนตัม 5 นาที +10 ถึง +50%",
- "rank_t": 1794593089.5191333
+ "rank_t": 1794593350.9185283
 }

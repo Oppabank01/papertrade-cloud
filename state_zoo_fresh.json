@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.3358076977260986,
+ "cash": 0.0,
  "pos": {
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
@@ -20,12 +20,38 @@
    "sym": "LUKE",
    "qty": 140870.623128598,
    "entry": 1.036e-05,
-   "last": 1.035e-05,
-   "peak": 1.036e-05,
+   "last": 1.204e-05,
+   "peak": 1.204e-05,
    "cost": 1.5042461921379873,
    "opened": "2026-11-14T01:04:52+07:00",
    "zoo": "fresh",
    "smart": 3,
+   "kol": 1,
+   "miss": 0
+  },
+  "vmUmykEVidvzcq8MGLjAeXe8tg5qGioC4ua8aQVpump": {
+   "sym": "WOOF",
+   "qty": 92058.5303954481,
+   "entry": 1.471e-05,
+   "last": 1.471e-05,
+   "peak": 1.471e-05,
+   "cost": 1.395775079485716,
+   "opened": "2026-11-14T01:09:56+07:00",
+   "zoo": "fresh",
+   "smart": 5,
+   "kol": 2,
+   "miss": 0
+  },
+  "26rPhZmKz5j8RPRGVv5W8Zmx54zvooPjrdgUSCuvpump": {
+   "sym": "DCFP",
+   "qty": 73431.5335118212,
+   "entry": 1.242e-05,
+   "last": 1.242e-05,
+   "peak": 1.242e-05,
+   "cost": 0.9400326182403826,
+   "opened": "2026-11-14T01:09:56+07:00",
+   "zoo": "fresh",
+   "smart": 2,
    "kol": 1,
    "miss": 0
   }
@@ -231,8 +257,24 @@
    "why": "stop -20.2%",
    "smart": 18,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:09:56+07:00",
+   "kind": "buy",
+   "mint": "vmUmykEVidvzcq8MGLjAeXe8tg5qGioC4ua8aQVpump",
+   "sym": "WOOF",
+   "price": 1.471e-05,
+   "usd": 1.3958
+  },
+  {
+   "t": "2026-11-14T01:09:56+07:00",
+   "kind": "buy",
+   "mint": "26rPhZmKz5j8RPRGVv5W8Zmx54zvooPjrdgUSCuvpump",
+   "sym": "DCFP",
+   "price": 1.242e-05,
+   "usd": 0.94
   }
  ],
  "label": "สวนสัตว์: เหรียญเกิดใหม่ไม่เกิน 10 นาที",
- "rank_t": 1794593089.5191333
+ "rank_t": 1794593350.9185283
 }
