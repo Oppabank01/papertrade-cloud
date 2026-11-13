@@ -1,31 +1,44 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.980346788557686,
+ "cash": 0.6170539254470547,
  "pos": {
-  "AgkptBdVa3VjQZMEdQC7HRegRYMtoBfYayqSXRPGpump": {
-   "sym": "Theranoses",
-   "qty": 14046.221831786015,
-   "entry": 5.292e-05,
-   "last": 5.292e-05,
-   "peak": 5.292e-05,
-   "cost": 0.7661575544610554,
-   "opened": "2026-11-14T02:48:04+07:00",
-   "zoo": "mom5",
-   "smart": 7,
-   "kol": 0,
-   "miss": 0
-  },
   "GXbhJB9Vx1n5JZ74ghk18UT59oNqKJKfLNPzKmhzpump": {
    "sym": "ZELDA",
    "qty": 15067.207096746755,
    "entry": 4.904e-05,
-   "last": 4.987e-05,
-   "peak": 4.987e-05,
+   "last": 9.249e-05,
+   "peak": 9.249e-05,
    "cost": 0.7615912554364676,
    "opened": "2026-11-14T02:48:04+07:00",
    "zoo": "mom5",
    "smart": 4,
+   "kol": 0,
+   "miss": 0
+  },
+  "2zhfT4b6N4Jq5VwPjvbN6BwrZhpk7ncZ55ofXR9wpump": {
+   "sym": "LEAP",
+   "qty": 9481.207105538268,
+   "entry": 7.112e-05,
+   "last": 7.112e-05,
+   "peak": 7.112e-05,
+   "cost": 0.6950148931621126,
+   "opened": "2026-11-14T02:52:47+07:00",
+   "zoo": "mom5",
+   "smart": 62,
+   "kol": 7,
+   "miss": 0
+  },
+  "AEiq5qgDmHbbmCvoGYfrxkFLivcnst4BUsXhqbyepump": {
+   "sym": "GME",
+   "qty": 22876.60753541912,
+   "entry": 2.93e-05,
+   "last": 3.103e-05,
+   "peak": 3.103e-05,
+   "cost": 0.6908726043988663,
+   "opened": "2026-11-14T02:52:47+07:00",
+   "zoo": "mom5",
+   "smart": 23,
    "kol": 0,
    "miss": 0
   }
@@ -571,8 +584,36 @@
    "why": "stop -45.8%",
    "smart": 51,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:52:47+07:00",
+   "kind": "buy",
+   "mint": "2zhfT4b6N4Jq5VwPjvbN6BwrZhpk7ncZ55ofXR9wpump",
+   "sym": "LEAP",
+   "price": 7.112e-05,
+   "usd": 0.695
+  },
+  {
+   "t": "2026-11-14T02:52:47+07:00",
+   "kind": "buy",
+   "mint": "AEiq5qgDmHbbmCvoGYfrxkFLivcnst4BUsXhqbyepump",
+   "sym": "GME",
+   "price": 2.93e-05,
+   "usd": 0.6909
+  },
+  {
+   "t": "2026-11-14T02:52:47+07:00",
+   "kind": "sell",
+   "mint": "AgkptBdVa3VjQZMEdQC7HRegRYMtoBfYayqSXRPGpump",
+   "sym": "Theranoses",
+   "price": 1.658e-06,
+   "usd": 0.0226,
+   "pnl": -0.7436,
+   "why": "stop -96.9%",
+   "smart": 7,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: โมเมนตัม 5 นาที +10 ถึง +50%",
- "rank_t": 1794599264.0584228
+ "rank_t": 1794599538.4707758
 }

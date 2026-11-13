@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.0541230194375437,
+ "cash": 4.795542084948815,
  "pos": {
   "2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump": {
    "sym": "Peekhole",
    "qty": 8217.281908590992,
    "entry": 0.0003449,
-   "last": 0.000355,
+   "last": 0.0003527,
    "peak": 0.0003834,
    "cost": 2.9211920534663296,
    "opened": "2026-11-14T00:49:36+07:00",
@@ -20,7 +20,7 @@
    "sym": "GTA6",
    "qty": 373.03445209391305,
    "entry": 0.007287,
-   "last": 0.007242,
+   "last": 0.007218,
    "peak": 0.007556,
    "cost": 2.8017955600993036,
    "opened": "2026-11-14T01:01:07+07:00",
@@ -40,19 +40,6 @@
    "zoo": "boosted",
    "smart": 720,
    "kol": 80,
-   "miss": 0
-  },
-  "GxRPJsRK9TE9EgBhLxrFGcRYLGqPJe4fxtiPmdXCpump": {
-   "sym": "Hope",
-   "qty": 31960.441347976408,
-   "entry": 8.167e-05,
-   "last": 0.0001048,
-   "peak": 0.0001219,
-   "cost": 2.690382647793479,
-   "opened": "2026-11-14T02:28:09+07:00",
-   "zoo": "boosted",
-   "smart": 85,
-   "kol": 5,
    "miss": 0
   }
  },
@@ -173,8 +160,20 @@
    "sym": "Hope",
    "price": 8.167e-05,
    "usd": 2.6904
+  },
+  {
+   "t": "2026-11-14T02:52:56+07:00",
+   "kind": "sell",
+   "mint": "GxRPJsRK9TE9EgBhLxrFGcRYLGqPJe4fxtiPmdXCpump",
+   "sym": "Hope",
+   "price": 8.841e-05,
+   "usd": 2.7414,
+   "pnl": 0.051,
+   "why": "trailing จากยอด +49% (+8.3%)",
+   "smart": 85,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794599264.0584228
+ "rank_t": 1794599538.4707758
 }

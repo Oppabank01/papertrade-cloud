@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.7402247506207345,
+ "cash": 0.03154708412655999,
  "pos": {
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
@@ -29,16 +29,16 @@
    "kol": 0,
    "miss": 0
   },
-  "AgkptBdVa3VjQZMEdQC7HRegRYMtoBfYayqSXRPGpump": {
-   "sym": "Theranoses",
-   "qty": 5916.254766518403,
-   "entry": 5.292e-05,
-   "last": 5.292e-05,
-   "peak": 5.292e-05,
-   "cost": 0.3227048054464584,
-   "opened": "2026-11-14T02:48:04+07:00",
+  "GXbhJB9Vx1n5JZ74ghk18UT59oNqKJKfLNPzKmhzpump": {
+   "sym": "ZELDA",
+   "qty": 7533.7042706178745,
+   "entry": 9.249e-05,
+   "last": 9.249e-05,
+   "peak": 9.249e-05,
+   "cost": 0.7181945042150559,
+   "opened": "2026-11-14T02:52:47+07:00",
    "zoo": "mom1h",
-   "smart": 7,
+   "smart": 4,
    "kol": 0,
    "miss": 0
   }
@@ -512,8 +512,28 @@
    "why": "trailing จากยอด +28% (+2.3%)",
    "smart": 66,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:52:47+07:00",
+   "kind": "buy",
+   "mint": "GXbhJB9Vx1n5JZ74ghk18UT59oNqKJKfLNPzKmhzpump",
+   "sym": "ZELDA",
+   "price": 9.249e-05,
+   "usd": 0.7182
+  },
+  {
+   "t": "2026-11-14T02:52:48+07:00",
+   "kind": "sell",
+   "mint": "AgkptBdVa3VjQZMEdQC7HRegRYMtoBfYayqSXRPGpump",
+   "sym": "Theranoses",
+   "price": 1.658e-06,
+   "usd": 0.0095,
+   "pnl": -0.3132,
+   "why": "stop -96.9%",
+   "smart": 7,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: พุ่งแรง 1 ชม. เกิน +100%",
- "rank_t": 1794599264.0584228
+ "rank_t": 1794599538.4707758
 }
