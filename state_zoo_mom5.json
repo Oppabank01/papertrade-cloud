@@ -1,26 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.4851931976274471,
+ "cash": 0.025347966300007258,
  "pos": {
-  "GXbhJB9Vx1n5JZ74ghk18UT59oNqKJKfLNPzKmhzpump": {
-   "sym": "ZELDA",
-   "qty": 15067.207096746755,
-   "entry": 4.904e-05,
-   "last": 0.0001339,
-   "peak": 0.0001339,
-   "cost": 0.7615912554364676,
-   "opened": "2026-11-14T02:48:04+07:00",
-   "zoo": "mom5",
-   "smart": 4,
-   "kol": 0,
-   "miss": 0
-  },
   "2zhfT4b6N4Jq5VwPjvbN6BwrZhpk7ncZ55ofXR9wpump": {
    "sym": "LEAP",
    "qty": 9481.207105538268,
    "entry": 7.112e-05,
-   "last": 7.535e-05,
+   "last": 7.243e-05,
    "peak": 8.334e-05,
    "cost": 0.6950148931621126,
    "opened": "2026-11-14T02:52:47+07:00",
@@ -33,13 +20,26 @@
    "sym": "GME",
    "qty": 22876.60753541912,
    "entry": 2.93e-05,
-   "last": 3.491e-05,
-   "peak": 3.66e-05,
+   "last": 4.103e-05,
+   "peak": 4.103e-05,
    "cost": 0.6908726043988663,
    "opened": "2026-11-14T02:52:47+07:00",
    "zoo": "mom5",
    "smart": 23,
    "kol": 0,
+   "miss": 0
+  },
+  "4aY33ycCbtjRSqjQYuuBHcfj8LqrzAcnHVa9E8JZA2HD": {
+   "sym": "CRED",
+   "qty": 21702.832657360494,
+   "entry": 2.169e-05,
+   "last": 2.03e-05,
+   "peak": 2.169e-05,
+   "cost": 0.4851931976274471,
+   "opened": "2026-11-14T03:06:21+07:00",
+   "zoo": "mom5",
+   "smart": 14,
+   "kol": 2,
    "miss": 0
   }
  },
@@ -632,8 +632,28 @@
    "why": "stop -16.5%",
    "smart": 16,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:06:21+07:00",
+   "kind": "buy",
+   "mint": "4aY33ycCbtjRSqjQYuuBHcfj8LqrzAcnHVa9E8JZA2HD",
+   "sym": "CRED",
+   "price": 2.169e-05,
+   "usd": 0.4852
+  },
+  {
+   "t": "2026-11-14T03:06:21+07:00",
+   "kind": "sell",
+   "mint": "GXbhJB9Vx1n5JZ74ghk18UT59oNqKJKfLNPzKmhzpump",
+   "sym": "ZELDA",
+   "price": 1.734e-06,
+   "usd": 0.0253,
+   "pnl": -0.7362,
+   "why": "stop -96.5%",
+   "smart": 4,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: โมเมนตัม 5 นาที +10 ถึง +50%",
- "rank_t": 1794600085.1983147
+ "rank_t": 1794600369.5620217
 }

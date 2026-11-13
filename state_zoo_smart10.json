@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.0,
+ "cash": 0.5126892723547747,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 97.37894757896353,
    "entry": 0.01875,
-   "last": 0.01942,
+   "last": 0.01945,
    "peak": 0.01983,
    "cost": 1.8819369893893694,
    "opened": "2026-11-14T02:06:44+07:00",
@@ -20,7 +20,7 @@
    "sym": "BAWSAQ",
    "qty": 9140.42632744608,
    "entry": 0.00018,
-   "last": 0.000273,
+   "last": 0.000261,
    "peak": 0.000273,
    "cost": 1.6958119345911098,
    "opened": "2026-11-14T02:23:55+07:00",
@@ -29,24 +29,11 @@
    "kol": 6,
    "miss": 0
   },
-  "AEiq5qgDmHbbmCvoGYfrxkFLivcnst4BUsXhqbyepump": {
-   "sym": "GME",
-   "qty": 18994.84851133048,
-   "entry": 3.598e-05,
-   "last": 3.491e-05,
-   "peak": 3.66e-05,
-   "cost": 0.704426560954103,
-   "opened": "2026-11-14T02:57:24+07:00",
-   "zoo": "smart10",
-   "smart": 26,
-   "kol": 0,
-   "miss": 0
-  },
   "D5Mvk9PiehtdWDVrhB8d9wr8Q73csDJ3Akovuwfqpump": {
    "sym": "Cole",
    "qty": 10946.31311895954,
    "entry": 6.374e-05,
-   "last": 7.846e-05,
+   "last": 6.975e-05,
    "peak": 7.846e-05,
    "cost": 0.7191486272958988,
    "opened": "2026-11-14T03:02:14+07:00",
@@ -413,8 +400,20 @@
    "sym": "Cole",
    "price": 6.374e-05,
    "usd": 0.7191
+  },
+  {
+   "t": "2026-11-14T03:06:22+07:00",
+   "kind": "sell",
+   "mint": "AEiq5qgDmHbbmCvoGYfrxkFLivcnst4BUsXhqbyepump",
+   "sym": "GME",
+   "price": 2.782e-05,
+   "usd": 0.5127,
+   "pnl": -0.1917,
+   "why": "stop -22.7%",
+   "smart": 26,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: smart wallet 10 ขึ้นไป",
- "rank_t": 1794600085.1983147
+ "rank_t": 1794600369.5620217
 }
