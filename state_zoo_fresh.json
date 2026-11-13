@@ -1,44 +1,18 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.8026825735484917,
+ "cash": 1.2592472895295235,
  "pos": {
-  "BApgNbjD25PHFft8WNATeL6gwpFFucEn5VBg2VHDpump": {
-   "sym": "KOSMIK",
-   "qty": 5761.946347304593,
-   "entry": 1.798e-05,
-   "last": 3.332e-05,
-   "peak": 3.332e-05,
-   "cost": 0.10678189581997173,
-   "opened": "2026-11-14T04:02:49+07:00",
+  "Tec1zfEna7YMRL1FJRBrK1bCUWHn5j9ryXaC2DMpump": {
+   "sym": "NVDA",
+   "qty": 7068.913241082228,
+   "entry": 5.105e-05,
+   "last": 5.129e-05,
+   "peak": 5.129e-05,
+   "cost": 0.37195219641027394,
+   "opened": "2026-11-14T04:11:10+07:00",
    "zoo": "fresh",
-   "smart": 6,
-   "kol": 0,
-   "miss": 0
-  },
-  "786HiJ5MyHQ6M2kfTN8iQs9j85aehLEvDHBBzZNeT8r5": {
-   "sym": "PPA",
-   "qty": 8214.946142446795,
-   "entry": 4.869e-05,
-   "last": 4.869e-05,
-   "peak": 4.869e-05,
-   "cost": 0.41227141586861943,
-   "opened": "2026-11-14T04:06:59+07:00",
-   "zoo": "fresh",
-   "smart": 60,
-   "kol": 6,
-   "miss": 0
-  },
-  "6KrHGieJvnTebqjAseeYgX572vzZNcDDqAgJgaQjpump": {
-   "sym": "11/13",
-   "qty": 12784.624203819525,
-   "entry": 3.11e-05,
-   "last": 3.638e-05,
-   "peak": 3.638e-05,
-   "cost": 0.40981427823004246,
-   "opened": "2026-11-14T04:06:59+07:00",
-   "zoo": "fresh",
-   "smart": 32,
+   "smart": 8,
    "kol": 0,
    "miss": 0
   }
@@ -452,8 +426,52 @@
    "why": "stop -20.8%",
    "smart": 4,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:11:10+07:00",
+   "kind": "buy",
+   "mint": "Tec1zfEna7YMRL1FJRBrK1bCUWHn5j9ryXaC2DMpump",
+   "sym": "NVDA",
+   "price": 5.105e-05,
+   "usd": 0.372
+  },
+  {
+   "t": "2026-11-14T04:11:11+07:00",
+   "kind": "sell",
+   "mint": "BApgNbjD25PHFft8WNATeL6gwpFFucEn5VBg2VHDpump",
+   "sym": "KOSMIK",
+   "price": 2.759e-05,
+   "usd": 0.1542,
+   "pnl": 0.0475,
+   "why": "trailing จากยอด +85% (+53.4%)",
+   "smart": 6,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:11:11+07:00",
+   "kind": "sell",
+   "mint": "786HiJ5MyHQ6M2kfTN8iQs9j85aehLEvDHBBzZNeT8r5",
+   "sym": "PPA",
+   "price": 3.838e-05,
+   "usd": 0.3059,
+   "pnl": -0.1064,
+   "why": "stop -21.2%",
+   "smart": 60,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:11:11+07:00",
+   "kind": "sell",
+   "mint": "6KrHGieJvnTebqjAseeYgX572vzZNcDDqAgJgaQjpump",
+   "sym": "11/13",
+   "price": 2.97e-05,
+   "usd": 0.3684,
+   "pnl": -0.0414,
+   "why": "trailing จากยอด +17% (-4.5%)",
+   "smart": 32,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญเกิดใหม่ไม่เกิน 10 นาที",
- "rank_t": 1794604003.9862692
+ "rank_t": 1794604251.8269534
 }

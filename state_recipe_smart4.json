@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.26897997807809526,
+ "cash": 0.8159963610530071,
  "pos": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 291.53454310830216,
    "entry": 0.003788,
-   "last": 0.003695,
+   "last": 0.00368,
    "peak": 0.003867,
    "cost": 1.1382527822039255,
    "opened": "2026-11-14T01:57:13+07:00",
@@ -19,7 +19,7 @@
    "sym": "OTC",
    "qty": 375.9914257841518,
    "entry": 0.002377,
-   "last": 0.002379,
+   "last": 0.002349,
    "peak": 0.002388,
    "cost": 0.921182868572386,
    "opened": "2026-11-14T03:10:35+07:00",
@@ -27,24 +27,12 @@
    "kol": 55,
    "miss": 0
   },
-  "FNxVZo25dGerP4Tw49f4aHg9xac5qw1FER9F7EzK9cTs": {
-   "sym": "HWAN",
-   "qty": 3330.290397342958,
-   "entry": 0.0002188,
-   "last": 0.0002111,
-   "peak": 0.0002188,
-   "cost": 0.751048792969119,
-   "opened": "2026-11-14T03:49:49+07:00",
-   "smart": 49,
-   "kol": 3,
-   "miss": 0
-  },
   "FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": {
    "sym": "PUSSY",
    "qty": 3290.369646619106,
    "entry": 0.0002169,
-   "last": 0.0002169,
-   "peak": 0.0002169,
+   "last": 0.0002473,
+   "peak": 0.0002473,
    "cost": 0.7356021195131768,
    "opened": "2026-11-14T04:06:56+07:00",
    "smart": 250,
@@ -1189,8 +1177,20 @@
    "sym": "PUSSY",
    "price": 0.0002169,
    "usd": 0.7356
+  },
+  {
+   "t": "2026-11-14T04:11:07+07:00",
+   "kind": "sell",
+   "mint": "FNxVZo25dGerP4Tw49f4aHg9xac5qw1FER9F7EzK9cTs",
+   "sym": "HWAN",
+   "price": 0.0001693,
+   "usd": 0.547,
+   "pnl": -0.204,
+   "why": "stop -22.6%",
+   "smart": 49,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794604003.9862692
+ "rank_t": 1794604251.8269534
 }

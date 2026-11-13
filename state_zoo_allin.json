@@ -1,8 +1,22 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.25559291145289253,
- "pos": {},
+ "cash": 0.0,
+ "pos": {
+  "Tec1zfEna7YMRL1FJRBrK1bCUWHn5j9ryXaC2DMpump": {
+   "sym": "NVDA",
+   "qty": 4857.516996897087,
+   "entry": 5.105e-05,
+   "last": 5.105e-05,
+   "peak": 5.105e-05,
+   "cost": 0.25559291145289253,
+   "opened": "2026-11-14T04:11:12+07:00",
+   "zoo": "allin",
+   "smart": 8,
+   "kol": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:42:02+07:00",
@@ -108,8 +122,16 @@
    "why": "stop -13.1%",
    "smart": 56,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:11:12+07:00",
+   "kind": "buy",
+   "mint": "Tec1zfEna7YMRL1FJRBrK1bCUWHn5j9ryXaC2DMpump",
+   "sym": "NVDA",
+   "price": 5.105e-05,
+   "usd": 0.2556
   }
  ],
  "label": "สวนสัตว์: ทุ่มหมดหน้าตัก ไม้ละ 100%",
- "rank_t": 1794604003.9862692
+ "rank_t": 1794604251.8269534
 }

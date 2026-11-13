@@ -1,30 +1,18 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.32064461813134,
+ "cash": 2.119875212639373,
  "pos": {
-  "6kRSNnusHuWtL218UDQCF6Jg6H4RZPgJE55QHoFZpump": {
-   "sym": "DJT",
-   "qty": 3940.075956886161,
-   "entry": 0.0001901,
-   "last": 0.0002079,
-   "peak": 0.0002079,
-   "cost": 0.7720144706287975,
-   "opened": "2026-11-14T04:02:45+07:00",
-   "smart": 5,
+  "Tec1zfEna7YMRL1FJRBrK1bCUWHn5j9ryXaC2DMpump": {
+   "sym": "NVDA",
+   "qty": 14764.26132052781,
+   "entry": 5.105e-05,
+   "last": 5.129e-05,
+   "peak": 5.129e-05,
+   "cost": 0.7768661517346369,
+   "opened": "2026-11-14T04:11:07+07:00",
+   "smart": 8,
    "kol": 0,
-   "miss": 0
-  },
-  "786HiJ5MyHQ6M2kfTN8iQs9j85aehLEvDHBBzZNeT8r5": {
-   "sym": "PPA",
-   "qty": 15291.524935412015,
-   "entry": 4.869e-05,
-   "last": 4.869e-05,
-   "peak": 4.869e-05,
-   "cost": 0.7674132643838498,
-   "opened": "2026-11-14T04:06:55+07:00",
-   "smart": 60,
-   "kol": 6,
    "miss": 0
   }
  },
@@ -469,8 +457,40 @@
    "sym": "PPA",
    "price": 4.869e-05,
    "usd": 0.7674
+  },
+  {
+   "t": "2026-11-14T04:11:07+07:00",
+   "kind": "buy",
+   "mint": "Tec1zfEna7YMRL1FJRBrK1bCUWHn5j9ryXaC2DMpump",
+   "sym": "NVDA",
+   "price": 5.105e-05,
+   "usd": 0.7769
+  },
+  {
+   "t": "2026-11-14T04:11:07+07:00",
+   "kind": "sell",
+   "mint": "6kRSNnusHuWtL218UDQCF6Jg6H4RZPgJE55QHoFZpump",
+   "sym": "DJT",
+   "price": 1.752e-06,
+   "usd": 0.0067,
+   "pnl": -0.7653,
+   "why": "stop -99.1%",
+   "smart": 5,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:11:07+07:00",
+   "kind": "sell",
+   "mint": "786HiJ5MyHQ6M2kfTN8iQs9j85aehLEvDHBBzZNeT8r5",
+   "sym": "PPA",
+   "price": 3.838e-05,
+   "usd": 0.5694,
+   "pnl": -0.198,
+   "why": "stop -21.2%",
+   "smart": 60,
+   "bundler": null
   }
  ],
  "label": "สูตร x_insider4 (คู่ใหม่ + top trader)",
- "rank_t": 1794604003.9862692
+ "rank_t": 1794604251.8269534
 }

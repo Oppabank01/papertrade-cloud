@@ -1,8 +1,22 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 7.680693055902993,
- "pos": {},
+ "cash": 6.144554444722394,
+ "pos": {
+  "Tec1zfEna7YMRL1FJRBrK1bCUWHn5j9ryXaC2DMpump": {
+   "sym": "NVDA",
+   "qty": 29194.15632845087,
+   "entry": 5.105e-05,
+   "last": 5.105e-05,
+   "peak": 5.105e-05,
+   "cost": 1.5361386111805988,
+   "opened": "2026-11-14T04:11:11+07:00",
+   "zoo": "scalp",
+   "smart": 8,
+   "kol": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:42:01+07:00",
@@ -328,8 +342,16 @@
    "why": "stop -20.8%",
    "smart": 56,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:11:11+07:00",
+   "kind": "buy",
+   "mint": "Tec1zfEna7YMRL1FJRBrK1bCUWHn5j9ryXaC2DMpump",
+   "sym": "NVDA",
+   "price": 5.105e-05,
+   "usd": 1.5361
   }
  ],
  "label": "สวนสัตว์: เก็บสั้น +10% ตัด -5% 30 นาที",
- "rank_t": 1794604003.9862692
+ "rank_t": 1794604251.8269534
 }

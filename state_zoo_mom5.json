@@ -1,32 +1,45 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.16974065128392574,
+ "cash": 0.17820773161590933,
  "pos": {
-  "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": {
-   "sym": "Sakura",
-   "qty": 729.4735444110152,
-   "entry": 0.0002527,
-   "last": 0.0002712,
-   "peak": 0.0003124,
-   "cost": 0.1899999635875732,
-   "opened": "2026-11-14T03:32:04+07:00",
-   "zoo": "mom5",
-   "smart": 126,
-   "kol": 6,
-   "miss": 0
-  },
   "4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": {
    "sym": "Speed",
    "qty": 402.36322347995775,
    "entry": 0.0002693,
-   "last": 0.0002835,
+   "last": 0.0002811,
    "peak": 0.0002835,
    "cost": 0.11168461769032428,
    "opened": "2026-11-14T04:02:49+07:00",
    "zoo": "mom5",
    "smart": 126,
    "kol": 8,
+   "miss": 0
+  },
+  "Tec1zfEna7YMRL1FJRBrK1bCUWHn5j9ryXaC2DMpump": {
+   "sym": "NVDA",
+   "qty": 1830.7183688277971,
+   "entry": 5.105e-05,
+   "last": 5.129e-05,
+   "peak": 5.129e-05,
+   "cost": 0.09632877007695222,
+   "opened": "2026-11-14T04:11:10+07:00",
+   "zoo": "mom5",
+   "smart": 8,
+   "kol": 0,
+   "miss": 0
+  },
+  "3B7SHozUFoiGnFC7i6WHZ8zNMbDrhtz9WpXqWt51pump": {
+   "sym": "XD",
+   "qty": 658.8733316096735,
+   "entry": 0.0001081,
+   "last": 0.0001081,
+   "peak": 0.0001081,
+   "cost": 0.07341188120697352,
+   "opened": "2026-11-14T04:11:10+07:00",
+   "zoo": "mom5",
+   "smart": 110,
+   "kol": 4,
    "miss": 0
   }
  },
@@ -931,8 +944,36 @@
    "why": "stop -20.2%",
    "smart": 5,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:11:10+07:00",
+   "kind": "buy",
+   "mint": "Tec1zfEna7YMRL1FJRBrK1bCUWHn5j9ryXaC2DMpump",
+   "sym": "NVDA",
+   "price": 5.105e-05,
+   "usd": 0.0963
+  },
+  {
+   "t": "2026-11-14T04:11:10+07:00",
+   "kind": "buy",
+   "mint": "3B7SHozUFoiGnFC7i6WHZ8zNMbDrhtz9WpXqWt51pump",
+   "sym": "XD",
+   "price": 0.0001081,
+   "usd": 0.0734
+  },
+  {
+   "t": "2026-11-14T04:11:10+07:00",
+   "kind": "sell",
+   "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
+   "sym": "Sakura",
+   "price": 0.0002518,
+   "usd": 0.1782,
+   "pnl": -0.0118,
+   "why": "trailing จากยอด +24% (-0.4%)",
+   "smart": 126,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: โมเมนตัม 5 นาที +10 ถึง +50%",
- "rank_t": 1794604003.9862692
+ "rank_t": 1794604251.8269534
 }
