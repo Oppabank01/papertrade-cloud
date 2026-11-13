@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 3.2091438227833198,
+ "cash": 3.883841109649937,
  "pos": {
   "BGQqYLTCRHBK3CSosCNq5G6MsGYL2iZ2amsSsF4Tpump": {
    "sym": "ESTR",
@@ -14,19 +14,6 @@
    "zoo": "top1",
    "smart": 5,
    "kol": 0,
-   "miss": 0
-  },
-  "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": {
-   "sym": "AURA",
-   "qty": 20703.21010797617,
-   "entry": 6.729e-05,
-   "last": 6.898e-05,
-   "peak": 6.898e-05,
-   "cost": 1.43590909932562,
-   "opened": "2026-11-14T04:19:27+07:00",
-   "zoo": "top1",
-   "smart": 37,
-   "kol": 1,
    "miss": 0
   }
  },
@@ -271,8 +258,20 @@
    "sym": "AURA",
    "price": 6.729e-05,
    "usd": 1.4359
+  },
+  {
+   "t": "2026-11-14T04:23:59+07:00",
+   "kind": "sell",
+   "mint": "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump",
+   "sym": "AURA",
+   "price": 3.359e-05,
+   "usd": 0.6747,
+   "pnl": -0.7612,
+   "why": "stop -50.1%",
+   "smart": 37,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: วอลุ่มอันดับ 1",
- "rank_t": 1794604755.9988806
+ "rank_t": 1794605009.6534264
 }
