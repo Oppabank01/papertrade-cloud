@@ -1,8 +1,45 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 3.411556411441939,
- "pos": {},
+ "cash": 1.376798053515647,
+ "pos": {
+  "HWfEjmhZKTxwSEr9dULePombTFJZwXtA3dft3jiNpump": {
+   "sym": "PPA",
+   "qty": 22826.841588834275,
+   "entry": 2.9e-05,
+   "last": 2.781e-05,
+   "peak": 2.9e-05,
+   "cost": 0.6823112822883879,
+   "opened": "2026-11-14T04:15:13+07:00",
+   "smart": 41,
+   "kol": 3,
+   "miss": 0
+  },
+  "Gixc7u56Xa6bWYccAw1VDKetyVJQ2tkySvYbZgvZmFrL": {
+   "sym": "CC",
+   "qty": 17886.19230160315,
+   "entry": 3.679e-05,
+   "last": 4.043e-05,
+   "peak": 4.043e-05,
+   "cost": 0.6782447070459492,
+   "opened": "2026-11-14T04:15:13+07:00",
+   "smart": 15,
+   "kol": 3,
+   "miss": 0
+  },
+  "9ELbLEniMY2B8jgZ1KdwLVPgRcr1HS3wXM9HkiRDpump": {
+   "sym": "DOOMSDAY",
+   "qty": 28815.468634709912,
+   "entry": 2.27e-05,
+   "last": 2.27e-05,
+   "peak": 2.27e-05,
+   "cost": 0.6742023685919553,
+   "opened": "2026-11-14T04:15:13+07:00",
+   "smart": 41,
+   "kol": 3,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -848,8 +885,32 @@
    "why": "stop -21.3%",
    "smart": 96,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:15:13+07:00",
+   "kind": "buy",
+   "mint": "HWfEjmhZKTxwSEr9dULePombTFJZwXtA3dft3jiNpump",
+   "sym": "PPA",
+   "price": 2.9e-05,
+   "usd": 0.6823
+  },
+  {
+   "t": "2026-11-14T04:15:13+07:00",
+   "kind": "buy",
+   "mint": "Gixc7u56Xa6bWYccAw1VDKetyVJQ2tkySvYbZgvZmFrL",
+   "sym": "CC",
+   "price": 3.679e-05,
+   "usd": 0.6782
+  },
+  {
+   "t": "2026-11-14T04:15:13+07:00",
+   "kind": "buy",
+   "mint": "9ELbLEniMY2B8jgZ1KdwLVPgRcr1HS3wXM9HkiRDpump",
+   "sym": "DOOMSDAY",
+   "price": 2.27e-05,
+   "usd": 0.6742
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794604251.8269534
+ "rank_t": 1794604512.0526044
 }

@@ -1,18 +1,57 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.2592472895295235,
+ "cash": 0.2919482570347858,
  "pos": {
   "Tec1zfEna7YMRL1FJRBrK1bCUWHn5j9ryXaC2DMpump": {
    "sym": "NVDA",
    "qty": 7068.913241082228,
    "entry": 5.105e-05,
-   "last": 5.129e-05,
-   "peak": 5.129e-05,
+   "last": 5.782e-05,
+   "peak": 5.782e-05,
    "cost": 0.37195219641027394,
    "opened": "2026-11-14T04:11:10+07:00",
    "zoo": "fresh",
    "smart": 8,
+   "kol": 0,
+   "miss": 0
+  },
+  "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": {
+   "sym": "AURA",
+   "qty": 7684.89307225702,
+   "entry": 4.095e-05,
+   "last": 4.879e-05,
+   "peak": 4.879e-05,
+   "cost": 0.3243623699329262,
+   "opened": "2026-11-14T04:15:18+07:00",
+   "zoo": "fresh",
+   "smart": 28,
+   "kol": 1,
+   "miss": 0
+  },
+  "Gixc7u56Xa6bWYccAw1VDKetyVJQ2tkySvYbZgvZmFrL": {
+   "sym": "CC",
+   "qty": 8502.875263275993,
+   "entry": 3.679e-05,
+   "last": 4.043e-05,
+   "peak": 4.043e-05,
+   "cost": 0.32242917020812595,
+   "opened": "2026-11-14T04:15:18+07:00",
+   "zoo": "fresh",
+   "smart": 15,
+   "kol": 3,
+   "miss": 0
+  },
+  "AUpCMjSdzQX91Sh7LKr2XwtvnZ1TdMwZ4dv49Lczpump": {
+   "sym": "Ground",
+   "qty": 17657.942594068467,
+   "entry": 1.761e-05,
+   "last": 1.981e-05,
+   "peak": 1.981e-05,
+   "cost": 0.3205074923536855,
+   "opened": "2026-11-14T04:15:18+07:00",
+   "zoo": "fresh",
+   "smart": 3,
    "kol": 0,
    "miss": 0
   }
@@ -470,8 +509,32 @@
    "why": "trailing จากยอด +17% (-4.5%)",
    "smart": 32,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:15:18+07:00",
+   "kind": "buy",
+   "mint": "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump",
+   "sym": "AURA",
+   "price": 4.095e-05,
+   "usd": 0.3244
+  },
+  {
+   "t": "2026-11-14T04:15:18+07:00",
+   "kind": "buy",
+   "mint": "Gixc7u56Xa6bWYccAw1VDKetyVJQ2tkySvYbZgvZmFrL",
+   "sym": "CC",
+   "price": 3.679e-05,
+   "usd": 0.3224
+  },
+  {
+   "t": "2026-11-14T04:15:18+07:00",
+   "kind": "buy",
+   "mint": "AUpCMjSdzQX91Sh7LKr2XwtvnZ1TdMwZ4dv49Lczpump",
+   "sym": "Ground",
+   "price": 1.761e-05,
+   "usd": 0.3205
   }
  ],
  "label": "สวนสัตว์: เหรียญเกิดใหม่ไม่เกิน 10 นาที",
- "rank_t": 1794604251.8269534
+ "rank_t": 1794604512.0526044
 }

@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.17820773161590933,
+ "cash": 0.08692097441184757,
  "pos": {
   "4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": {
    "sym": "Speed",
    "qty": 402.36322347995775,
    "entry": 0.0002693,
-   "last": 0.0002811,
+   "last": 0.0002722,
    "peak": 0.0002835,
    "cost": 0.11168461769032428,
    "opened": "2026-11-14T04:02:49+07:00",
@@ -20,8 +20,8 @@
    "sym": "NVDA",
    "qty": 1830.7183688277971,
    "entry": 5.105e-05,
-   "last": 5.129e-05,
-   "peak": 5.129e-05,
+   "last": 5.782e-05,
+   "peak": 5.782e-05,
    "cost": 0.09632877007695222,
    "opened": "2026-11-14T04:11:10+07:00",
    "zoo": "mom5",
@@ -33,13 +33,26 @@
    "sym": "XD",
    "qty": 658.8733316096735,
    "entry": 0.0001081,
-   "last": 0.0001081,
-   "peak": 0.0001081,
+   "last": 0.000117,
+   "peak": 0.000117,
    "cost": 0.07341188120697352,
    "opened": "2026-11-14T04:11:10+07:00",
    "zoo": "mom5",
    "smart": 110,
    "kol": 4,
+   "miss": 0
+  },
+  "HWfEjmhZKTxwSEr9dULePombTFJZwXtA3dft3jiNpump": {
+   "sym": "PPA",
+   "qty": 3054.0142013579557,
+   "entry": 2.9e-05,
+   "last": 2.781e-05,
+   "peak": 2.9e-05,
+   "cost": 0.09128675720406176,
+   "opened": "2026-11-14T04:15:17+07:00",
+   "zoo": "mom5",
+   "smart": 41,
+   "kol": 3,
    "miss": 0
   }
  },
@@ -972,8 +985,16 @@
    "why": "trailing จากยอด +24% (-0.4%)",
    "smart": 126,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:15:17+07:00",
+   "kind": "buy",
+   "mint": "HWfEjmhZKTxwSEr9dULePombTFJZwXtA3dft3jiNpump",
+   "sym": "PPA",
+   "price": 2.9e-05,
+   "usd": 0.0913
   }
  ],
  "label": "สวนสัตว์: โมเมนตัม 5 นาที +10 ถึง +50%",
- "rank_t": 1794604251.8269534
+ "rank_t": 1794604512.0526044
 }

@@ -1,27 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.3778471499331829,
+ "cash": 1.6127233278447548,
  "pos": {
-  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
-   "sym": "mihao",
-   "qty": 97.37894757896353,
-   "entry": 0.01875,
-   "last": 0.01774,
-   "peak": 0.01983,
-   "cost": 1.8819369893893694,
-   "opened": "2026-11-14T02:06:44+07:00",
-   "zoo": "smart10",
-   "smart": 668,
-   "kol": 68,
-   "miss": 0
-  },
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
    "qty": 441.43921177316463,
    "entry": 0.001243,
-   "last": 0.001243,
-   "peak": 0.001243,
+   "last": 0.001276,
+   "peak": 0.001276,
    "cost": 0.565562708961084,
    "opened": "2026-11-14T04:11:11+07:00",
    "zoo": "smart10",
@@ -33,13 +20,26 @@
    "sym": "PIRATE",
    "qty": 645.7486444537734,
    "entry": 0.0002687,
-   "last": 0.000273,
-   "peak": 0.000273,
+   "last": 0.000325,
+   "peak": 0.000325,
    "cost": 0.17884215704465978,
    "opened": "2026-11-14T04:11:11+07:00",
    "zoo": "smart10",
    "smart": 243,
    "kol": 16,
+   "miss": 0
+  },
+  "HWfEjmhZKTxwSEr9dULePombTFJZwXtA3dft3jiNpump": {
+   "sym": "PPA",
+   "qty": 12640.941547074966,
+   "entry": 2.9e-05,
+   "last": 2.781e-05,
+   "peak": 2.9e-05,
+   "cost": 0.3778471499331829,
+   "opened": "2026-11-14T04:15:19+07:00",
+   "zoo": "smart10",
+   "smart": 41,
+   "kol": 3,
    "miss": 0
   }
  },
@@ -692,8 +692,28 @@
    "why": "stop -8.1%",
    "smart": 167,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:15:19+07:00",
+   "kind": "buy",
+   "mint": "HWfEjmhZKTxwSEr9dULePombTFJZwXtA3dft3jiNpump",
+   "sym": "PPA",
+   "price": 2.9e-05,
+   "usd": 0.3778
+  },
+  {
+   "t": "2026-11-14T04:15:19+07:00",
+   "kind": "sell",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.01707,
+   "usd": 1.6127,
+   "pnl": -0.2692,
+   "why": "stop -9.0%",
+   "smart": 668,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: smart wallet 10 ขึ้นไป",
- "rank_t": 1794604251.8269534
+ "rank_t": 1794604512.0526044
 }

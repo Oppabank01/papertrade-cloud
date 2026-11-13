@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.3556965757177633,
+ "cash": 0.0,
  "pos": {
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 4218.672832138303,
    "entry": 0.0006786,
-   "last": 0.0006259,
+   "last": 0.0006344,
    "peak": 0.0008452,
    "cost": 2.950722927117144,
    "opened": "2026-11-14T00:45:45+07:00",
@@ -26,6 +26,19 @@
    "opened": "2026-11-14T00:53:25+07:00",
    "zoo": "runwide",
    "smart": 0,
+   "kol": 0,
+   "miss": 0
+  },
+  "Tec1zfEna7YMRL1FJRBrK1bCUWHn5j9ryXaC2DMpump": {
+   "sym": "NVDA",
+   "qty": 22748.128982382805,
+   "entry": 5.782e-05,
+   "last": 5.782e-05,
+   "peak": 5.782e-05,
+   "cost": 1.3556965757177633,
+   "opened": "2026-11-14T04:15:19+07:00",
+   "zoo": "runwide",
+   "smart": 8,
    "kol": 0,
    "miss": 0
   }
@@ -251,8 +264,16 @@
    "why": "stop -28.8%",
    "smart": 38,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:15:19+07:00",
+   "kind": "buy",
+   "mint": "Tec1zfEna7YMRL1FJRBrK1bCUWHn5j9ryXaC2DMpump",
+   "sym": "NVDA",
+   "price": 5.782e-05,
+   "usd": 1.3557
   }
  ],
  "label": "สวนสัตว์: ปล่อยวิ่ง trail 30/25 ถือ 24 ชม.",
- "rank_t": 1794604251.8269534
+ "rank_t": 1794604512.0526044
 }
