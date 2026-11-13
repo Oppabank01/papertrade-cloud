@@ -1,45 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 5.266728503618497,
+ "cash": 7.388778486859929,
  "pos": {
-  "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
-   "sym": "INU",
-   "qty": 7132016402.314531,
-   "entry": 2.007e-10,
-   "last": 2.007e-10,
-   "peak": 2.007e-10,
-   "cost": 1.475361463558572,
-   "opened": "2026-11-14T00:53:26+07:00",
-   "zoo": "tomcruise",
-   "smart": 0,
-   "kol": 0,
-   "miss": 0
-  },
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
    "sym": "Rings",
    "qty": 4497.833831267276,
    "entry": 0.0002592,
-   "last": 0.0002622,
+   "last": 0.0002712,
    "peak": 0.0002872,
    "cost": 1.2016476283905153,
    "opened": "2026-11-14T02:52:59+07:00",
    "zoo": "tomcruise",
    "smart": 66,
    "kol": 5,
-   "miss": 0
-  },
-  "9oJk7eMccQchx3evoN5C5pKQD5Xodb4C1qkhemjjpump": {
-   "sym": "POOR",
-   "qty": 7704.727094919458,
-   "entry": 0.0001096,
-   "last": 0.0001101,
-   "peak": 0.0001101,
-   "cost": 0.8703752727305427,
-   "opened": "2026-11-14T03:49:56+07:00",
-   "zoo": "tomcruise",
-   "smart": 56,
-   "kol": 3,
    "miss": 0
   }
  },
@@ -292,8 +266,32 @@
    "sym": "POOR",
    "price": 0.0001096,
    "usd": 0.8704
+  },
+  {
+   "t": "2026-11-14T03:54:18+07:00",
+   "kind": "sell",
+   "mint": "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd",
+   "sym": "INU",
+   "price": 2.007e-10,
+   "usd": 1.3887,
+   "pnl": -0.0866,
+   "why": "ครบ 3 ชม. (+0.0%)",
+   "smart": 0,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:54:18+07:00",
+   "kind": "sell",
+   "mint": "9oJk7eMccQchx3evoN5C5pKQD5Xodb4C1qkhemjjpump",
+   "sym": "POOR",
+   "price": 9.81e-05,
+   "usd": 0.7333,
+   "pnl": -0.1371,
+   "why": "stop -10.5%",
+   "smart": 56,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: tomcruise 6 เอเจนต์: scanner rug check sizer ตามสภาพคล่อง",
- "rank_t": 1794602974.5789044
+ "rank_t": 1794603231.7718046
 }

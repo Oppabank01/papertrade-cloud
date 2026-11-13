@@ -1,26 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.0,
+ "cash": 2.7138526286386284,
  "pos": {
-  "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
-   "sym": "INU",
-   "qty": 13354405143.458998,
-   "entry": 2.007e-10,
-   "last": 2.007e-10,
-   "peak": 2.007e-10,
-   "cost": 2.762553197580108,
-   "opened": "2026-11-14T00:53:23+07:00",
-   "zoo": "top1",
-   "smart": 0,
-   "kol": 0,
-   "miss": 0
-  },
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 141.98949953169154,
    "entry": 0.01783,
-   "last": 0.01817,
+   "last": 0.01798,
    "peak": 0.01952,
    "cost": 2.6094339070810757,
    "opened": "2026-11-14T01:14:20+07:00",
@@ -40,19 +27,6 @@
    "zoo": "top1",
    "smart": 5,
    "kol": 0,
-   "miss": 0
-  },
-  "D2mA5zAMARotHeuGRPRCa1rZzWKrBAD9v2nntBt8pump": {
-   "sym": "BRACKET",
-   "qty": 4835.897419526687,
-   "entry": 3.641e-05,
-   "last": 3.578e-05,
-   "peak": 3.641e-05,
-   "cost": 0.18148322515457296,
-   "opened": "2026-11-14T03:49:52+07:00",
-   "zoo": "top1",
-   "smart": 115,
-   "kol": 10,
    "miss": 0
   }
  },
@@ -213,8 +187,32 @@
    "sym": "BRACKET",
    "price": 3.641e-05,
    "usd": 0.1815
+  },
+  {
+   "t": "2026-11-14T03:54:15+07:00",
+   "kind": "sell",
+   "mint": "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd",
+   "sym": "INU",
+   "price": 2.007e-10,
+   "usd": 2.6004,
+   "pnl": -0.1622,
+   "why": "ครบ 3 ชม. (+0.0%)",
+   "smart": 0,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:54:15+07:00",
+   "kind": "sell",
+   "mint": "D2mA5zAMARotHeuGRPRCa1rZzWKrBAD9v2nntBt8pump",
+   "sym": "BRACKET",
+   "price": 2.419e-05,
+   "usd": 0.1135,
+   "pnl": -0.068,
+   "why": "stop -33.6%",
+   "smart": 115,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: วอลุ่มอันดับ 1",
- "rank_t": 1794602974.5789044
+ "rank_t": 1794603231.7718046
 }
