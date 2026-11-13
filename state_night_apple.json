@@ -41,10 +41,30 @@
    "why": "trailing จากยอด +20% (+5.0%)",
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-13T21:28:41+07:00",
+   "kind": "buy",
+   "mint": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
+   "sym": "TROLL",
+   "price": 0.02755,
+   "usd": 8.2823
   }
  ],
- "pos": {},
- "cash": 13.803897578693768,
+ "pos": {
+  "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
+   "sym": "TROLL",
+   "qty": 291.67059377528915,
+   "entry": 0.02755,
+   "last": 0.02755,
+   "peak": 0.02755,
+   "cost": 8.282338547216261,
+   "opened": "2026-11-13T21:28:41+07:00",
+   "source": "state_recipe_smart4.json",
+   "miss": 0
+  }
+ },
+ "cash": 5.521559031477507,
  "start_usd": 14.766686355581808,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
@@ -101,6 +121,7 @@
   "state_recipe_smart4.json:2026-11-13T20:50:27+07:00:GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump",
   "state_recipe_smart4.json:2026-11-13T21:20:59+07:00:12m4AufHNA6fxGF6z5dH1quWKrGHMEmVRKiuhRLepump",
   "state_recipe_smart4.json:2026-11-13T21:24:47+07:00:4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump",
+  "state_recipe_smart4.json:2026-11-13T21:28:37+07:00:5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
   "state_wallets.json:2026-11-13T12:53:22+07:00:6p4ZRmb36ggUCox9R8eJ9Jva22doySgk6QVNrTFnpump"
  ],
  "session": {
