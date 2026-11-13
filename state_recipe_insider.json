@@ -1,21 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 4.071084152362984,
- "pos": {
-  "BrqB65FGC1QZY14yhB4Kb9bjoLKyJfJCbKsqoCEUpump": {
-   "sym": "PROB",
-   "qty": 14269.385276815632,
-   "entry": 6.92e-05,
-   "last": 6.92e-05,
-   "peak": 6.92e-05,
-   "cost": 1.017771038090746,
-   "opened": "2026-11-14T03:32:01+07:00",
-   "smart": 11,
-   "kol": 0,
-   "miss": 0
-  }
- },
+ "cash": 4.09529758399763,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -409,8 +396,20 @@
    "sym": "PROB",
    "price": 6.92e-05,
    "usd": 1.0178
+  },
+  {
+   "t": "2026-11-14T03:36:30+07:00",
+   "kind": "sell",
+   "mint": "BrqB65FGC1QZY14yhB4Kb9bjoLKyJfJCbKsqoCEUpump",
+   "sym": "PROB",
+   "price": 1.749e-06,
+   "usd": 0.0242,
+   "pnl": -0.9936,
+   "why": "stop -97.5%",
+   "smart": 11,
+   "bundler": null
   }
  ],
  "label": "สูตร x_insider4 (คู่ใหม่ + top trader)",
- "rank_t": 1794601906.2866342
+ "rank_t": 1794602169.8620481
 }
