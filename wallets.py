@@ -45,8 +45,9 @@ def rpc(method, params):
 
 
 def sol_usd():
-    with urllib.request.urlopen("https://api.binance.com/api/v3/ticker/price?symbol=SOLUSDT", timeout=10) as r:
-        return float(json.load(r)["price"])
+    """SOL in USD via Binance TH (api.binance.com answers 451 to US cloud hosts such as GitHub Actions)."""
+    th = lambda sym: float(json.load(urllib.request.urlopen(f"https://api.binance.th/api/v1/ticker/price?symbol={sym}", timeout=10))["price"])
+    return th("SOLTHB") / th("USDTTHB")
 
 
 def buys_in(tx, wallet, sol_price):
