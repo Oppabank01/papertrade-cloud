@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.2648373812438551,
+ "cash": 2.0848804539909613,
  "pos": {
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
@@ -14,19 +14,6 @@
    "zoo": "runwide",
    "smart": 0,
    "kol": 0,
-   "miss": 0
-  },
-  "m7SihqeaWimE1zpBzjHBwKJbbhuaczX5fHvGoNupump": {
-   "sym": "PEACEFROG",
-   "qty": 3449.9222661732115,
-   "entry": 0.0002894,
-   "last": 0.0002537,
-   "peak": 0.0002894,
-   "cost": 1.0290739062363712,
-   "opened": "2026-11-14T06:24:14+07:00",
-   "zoo": "runwide",
-   "smart": 9,
-   "kol": 1,
    "miss": 0
   }
  },
@@ -311,8 +298,20 @@
    "why": "trailing จากยอด +48% (-1.7%)",
    "smart": 6,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T06:45:37+07:00",
+   "kind": "sell",
+   "mint": "m7SihqeaWimE1zpBzjHBwKJbbhuaczX5fHvGoNupump",
+   "sym": "PEACEFROG",
+   "price": 0.000245,
+   "usd": 0.82,
+   "pnl": -0.209,
+   "why": "stop -15.3%",
+   "smart": 9,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ปล่อยวิ่ง trail 30/25 ถือ 24 ชม.",
- "rank_t": 1794613266.0452285
+ "rank_t": 1794613516.5313947
 }

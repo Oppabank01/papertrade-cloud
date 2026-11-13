@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.9828968470545926,
+ "cash": 0.4558649756154861,
  "pos": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 81.3287782058539,
    "entry": 0.007266,
-   "last": 0.007145,
+   "last": 0.007095,
    "peak": 0.007383,
    "cost": 0.6090856549615898,
    "opened": "2026-11-14T04:53:55+07:00",
@@ -29,10 +29,21 @@
    "sym": "PURR",
    "qty": 294.8158853711156,
    "entry": 0.001832,
-   "last": 0.001788,
+   "last": 0.001785,
    "peak": 0.001955,
    "cost": 0.5566921273962934,
    "opened": "2026-11-14T05:32:18+07:00",
+   "source": "agents",
+   "miss": 0
+  },
+  "847WX2V6HVA5tzoEYXUvvaHYi2ieBxhYVqpEkYHipump": {
+   "sym": "CYBERFINE",
+   "qty": 14563.552311883253,
+   "entry": 3.511e-05,
+   "last": 3.511e-05,
+   "peak": 3.511e-05,
+   "cost": 0.5270318714391065,
+   "opened": "2026-11-14T06:45:31+07:00",
    "source": "agents",
    "miss": 0
   }
@@ -1406,6 +1417,14 @@
    "why": "trailing จากยอด +34% (-3.5%)",
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T06:45:31+07:00",
+   "kind": "buy",
+   "mint": "847WX2V6HVA5tzoEYXUvvaHYi2ieBxhYVqpEkYHipump",
+   "sym": "CYBERFINE",
+   "price": 3.511e-05,
+   "usd": 0.527
   }
  ],
  "label": "เร็ว ไม่มี laya",
@@ -2144,6 +2163,9 @@
   "state_agents.json:2026-11-14T06:37:00+07:00:6EHTywfoXpDNhL4JGkeYUhiL6mumpmD7j8ByjQaXpump",
   "state_agents.json:2026-11-14T06:37:02+07:00:44qqXe5keKWp9cBJG6n8ou3kEVG9NTCfzQtBH3sMpump",
   "state_agents.json:2026-11-14T06:41:12+07:00:6EHTywfoXpDNhL4JGkeYUhiL6mumpmD7j8ByjQaXpump",
-  "state_agents.json:2026-11-14T06:41:15+07:00:HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR"
+  "state_agents.json:2026-11-14T06:41:15+07:00:HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+  "state_agents.json:2026-11-14T06:45:24+07:00:847WX2V6HVA5tzoEYXUvvaHYi2ieBxhYVqpEkYHipump",
+  "state_agents.json:2026-11-14T06:45:27+07:00:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+  "state_agents.json:2026-11-14T06:45:30+07:00:HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR"
  ]
 }

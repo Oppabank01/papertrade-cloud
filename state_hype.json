@@ -1,27 +1,16 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.775413711583923,
- "cash": 0.0,
+ "cash": 1.557028390559151,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 141.02912910986464,
    "entry": 0.04342,
-   "last": 0.04536,
+   "last": 0.04531,
    "peak": 0.04987,
    "cost": 6.311569558802642,
    "opened": "2026-11-13T12:21:03+07:00",
-   "source": "agents",
-   "miss": 0
-  },
-  "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
-   "sym": "NIO",
-   "qty": 703.8828992390569,
-   "entry": 0.002364,
-   "last": 0.002298,
-   "peak": 0.00286,
-   "cost": 1.7150888206567003,
-   "opened": "2026-11-14T06:24:10+07:00",
    "source": "agents",
    "miss": 0
   }
@@ -567,6 +556,18 @@
    "sym": "NIO",
    "price": 0.002364,
    "usd": 1.7151
+  },
+  {
+   "t": "2026-11-14T06:45:31+07:00",
+   "kind": "sell",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "price": 0.00228,
+   "usd": 1.557,
+   "pnl": -0.1581,
+   "why": "trailing จากยอด +21% (-3.6%)",
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "สายโม้ (ไม้ใหญ่ ปล่อยกำไรวิ่ง)",

@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.7099818475602842,
+ "cash": 0.3946091906700353,
  "pos": {
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 343.7777043501499,
    "entry": 0.006221,
-   "last": 0.008406,
+   "last": 0.008173,
    "peak": 0.008979,
    "cost": 2.2043301368401185,
    "opened": "2026-11-14T01:18:41+07:00",
@@ -20,7 +20,7 @@
    "sym": "STANK",
    "qty": 498.5937487483079,
    "entry": 0.002357,
-   "last": 0.002088,
+   "last": 0.002095,
    "peak": 0.002357,
    "cost": 1.2112816592452709,
    "opened": "2026-11-14T04:49:49+07:00",
@@ -33,12 +33,25 @@
    "sym": "JOB",
    "qty": 660.1003573604597,
    "entry": 0.001499,
-   "last": 0.001418,
+   "last": 0.001425,
    "peak": 0.00153,
    "cost": 1.0198829475194073,
    "opened": "2026-11-14T05:02:39+07:00",
    "zoo": "randrun",
    "smart": 31,
+   "kol": 0,
+   "miss": 0
+  },
+  "BHxgYSNJyXhkY5riybgGkE3f5ByYeiuq5GRHbQZgpump": {
+   "sym": "SPACEFART",
+   "qty": 55389.520473737815,
+   "entry": 2.304e-05,
+   "last": 3.517e-05,
+   "peak": 3.517e-05,
+   "cost": 1.3153726568902488,
+   "opened": "2026-11-14T06:45:37+07:00",
+   "zoo": "randrun",
+   "smart": 3,
    "kol": 0,
    "miss": 0
   }
@@ -352,8 +365,16 @@
    "why": "stop -16.4%",
    "smart": 368,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T06:45:37+07:00",
+   "kind": "buy",
+   "mint": "BHxgYSNJyXhkY5riybgGkE3f5ByYeiuq5GRHbQZgpump",
+   "sym": "SPACEFART",
+   "price": 2.304e-05,
+   "usd": 1.3154
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1794613266.0452285
+ "rank_t": 1794613516.5313947
 }
