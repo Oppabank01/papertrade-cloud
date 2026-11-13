@@ -1,21 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 3.1536181193021817,
- "pos": {
-  "EJSqDHgDAM3MGoRjinmypwS7H2dwq2SUFd12qwJnpump": {
-   "sym": "DaCat",
-   "qty": 26857.797571514897,
-   "entry": 2.848e-05,
-   "last": 2.848e-05,
-   "peak": 2.848e-05,
-   "cost": 0.7884045298255455,
-   "opened": "2026-11-14T05:40:46+07:00",
-   "smart": 24,
-   "kol": 5,
-   "miss": 0
-  }
- },
+ "cash": 3.4076520551048444,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -1029,8 +1016,20 @@
    "sym": "DaCat",
    "price": 2.848e-05,
    "usd": 0.7884
+  },
+  {
+   "t": "2026-11-14T05:45:10+07:00",
+   "kind": "sell",
+   "mint": "EJSqDHgDAM3MGoRjinmypwS7H2dwq2SUFd12qwJnpump",
+   "sym": "DaCat",
+   "price": 9.749e-06,
+   "usd": 0.254,
+   "pnl": -0.5344,
+   "why": "stop -65.8%",
+   "smart": 24,
+   "bundler": null
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794609632.2065437
+ "rank_t": 1794609887.5897918
 }
