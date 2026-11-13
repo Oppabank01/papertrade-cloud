@@ -1,32 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.08692097441184757,
+ "cash": 0.10854762106397449,
  "pos": {
   "4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": {
    "sym": "Speed",
    "qty": 402.36322347995775,
    "entry": 0.0002693,
-   "last": 0.0002722,
+   "last": 0.0002823,
    "peak": 0.0002835,
    "cost": 0.11168461769032428,
    "opened": "2026-11-14T04:02:49+07:00",
    "zoo": "mom5",
    "smart": 126,
    "kol": 8,
-   "miss": 0
-  },
-  "Tec1zfEna7YMRL1FJRBrK1bCUWHn5j9ryXaC2DMpump": {
-   "sym": "NVDA",
-   "qty": 1830.7183688277971,
-   "entry": 5.105e-05,
-   "last": 5.782e-05,
-   "peak": 5.782e-05,
-   "cost": 0.09632877007695222,
-   "opened": "2026-11-14T04:11:10+07:00",
-   "zoo": "mom5",
-   "smart": 8,
-   "kol": 0,
    "miss": 0
   },
   "3B7SHozUFoiGnFC7i6WHZ8zNMbDrhtz9WpXqWt51pump": {
@@ -40,19 +27,6 @@
    "zoo": "mom5",
    "smart": 110,
    "kol": 4,
-   "miss": 0
-  },
-  "HWfEjmhZKTxwSEr9dULePombTFJZwXtA3dft3jiNpump": {
-   "sym": "PPA",
-   "qty": 3054.0142013579557,
-   "entry": 2.9e-05,
-   "last": 2.781e-05,
-   "peak": 2.9e-05,
-   "cost": 0.09128675720406176,
-   "opened": "2026-11-14T04:15:17+07:00",
-   "zoo": "mom5",
-   "smart": 41,
-   "kol": 3,
    "miss": 0
   }
  },
@@ -993,8 +967,32 @@
    "sym": "PPA",
    "price": 2.9e-05,
    "usd": 0.0913
+  },
+  {
+   "t": "2026-11-14T04:19:28+07:00",
+   "kind": "sell",
+   "mint": "Tec1zfEna7YMRL1FJRBrK1bCUWHn5j9ryXaC2DMpump",
+   "sym": "NVDA",
+   "price": 1.643e-06,
+   "usd": 0.0029,
+   "pnl": -0.0934,
+   "why": "stop -96.8%",
+   "smart": 8,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:19:28+07:00",
+   "kind": "sell",
+   "mint": "HWfEjmhZKTxwSEr9dULePombTFJZwXtA3dft3jiNpump",
+   "sym": "PPA",
+   "price": 6.314e-06,
+   "usd": 0.0187,
+   "pnl": -0.0726,
+   "why": "stop -78.2%",
+   "smart": 41,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: โมเมนตัม 5 นาที +10 ถึง +50%",
- "rank_t": 1794604512.0526044
+ "rank_t": 1794604755.9988806
 }
