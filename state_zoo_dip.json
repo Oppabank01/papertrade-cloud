@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.6290576070753624,
+ "cash": 0.7624963375423865,
  "pos": {
   "EeTf7Pp9bBGZmy2diaf7UbrTQSthMXB4eJ6zd2zwpump": {
    "sym": "HEDGE",
    "qty": 6396.74522498369,
    "entry": 0.0001134,
-   "last": 0.0001971,
-   "peak": 0.0001971,
+   "last": 0.0002978,
+   "peak": 0.0002978,
    "cost": 0.7476715198032884,
    "opened": "2026-11-14T06:19:57+07:00",
    "zoo": "dip",
@@ -16,17 +16,30 @@
    "kol": 0,
    "miss": 0
   },
-  "BSe1q3SL6KQPLeZHFG9nNw5VFbDL3ZXvBmtjBVpYpump": {
-   "sym": "SMOOVE",
-   "qty": 10473.382227386108,
-   "entry": 6.712e-05,
-   "last": 6.712e-05,
-   "peak": 6.712e-05,
-   "cost": 0.7245654659886163,
-   "opened": "2026-11-14T06:37:06+07:00",
+  "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
+   "sym": "NIO",
+   "qty": 305.36690203612386,
+   "entry": 0.002283,
+   "last": 0.002298,
+   "peak": 0.002298,
+   "cost": 0.7185659012043607,
+   "opened": "2026-11-14T06:41:21+07:00",
    "zoo": "dip",
-   "smart": 71,
-   "kol": 3,
+   "smart": 369,
+   "kol": 28,
+   "miss": 0
+  },
+  "DcjQG6tceT5PSVbDggAj1ev6E4SYdGyNPppCggxqpump": {
+   "sym": "descend",
+   "qty": 10158.276277189589,
+   "entry": 6.822e-05,
+   "last": 7.211e-05,
+   "peak": 7.211e-05,
+   "cost": 0.7142832484331826,
+   "opened": "2026-11-14T06:41:21+07:00",
+   "zoo": "dip",
+   "smart": 7,
+   "kol": 0,
    "miss": 0
   }
  },
@@ -1351,8 +1364,36 @@
    "why": "trailing จากยอด +103% (+45.6%)",
    "smart": 8,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T06:41:21+07:00",
+   "kind": "buy",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "price": 0.002283,
+   "usd": 0.7186
+  },
+  {
+   "t": "2026-11-14T06:41:21+07:00",
+   "kind": "buy",
+   "mint": "DcjQG6tceT5PSVbDggAj1ev6E4SYdGyNPppCggxqpump",
+   "sym": "descend",
+   "price": 6.822e-05,
+   "usd": 0.7143
+  },
+  {
+   "t": "2026-11-14T06:41:22+07:00",
+   "kind": "sell",
+   "mint": "BSe1q3SL6KQPLeZHFG9nNw5VFbDL3ZXvBmtjBVpYpump",
+   "sym": "SMOOVE",
+   "price": 5.573e-05,
+   "usd": 0.5663,
+   "pnl": -0.1583,
+   "why": "stop -17.0%",
+   "smart": 71,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794613014.870828
+ "rank_t": 1794613266.0452285
 }

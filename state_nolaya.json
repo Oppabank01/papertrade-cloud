@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.49246025953999883,
+ "cash": 0.9828968470545926,
  "pos": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 81.3287782058539,
    "entry": 0.007266,
-   "last": 0.007261,
+   "last": 0.007145,
    "peak": 0.007383,
    "cost": 0.6090856549615898,
    "opened": "2026-11-14T04:53:55+07:00",
@@ -29,21 +29,10 @@
    "sym": "PURR",
    "qty": 294.8158853711156,
    "entry": 0.001832,
-   "last": 0.001809,
+   "last": 0.001788,
    "peak": 0.001955,
    "cost": 0.5566921273962934,
    "opened": "2026-11-14T05:32:18+07:00",
-   "source": "agents",
-   "miss": 0
-  },
-  "44qqXe5keKWp9cBJG6n8ou3kEVG9NTCfzQtBH3sMpump": {
-   "sym": "TTP",
-   "qty": 9480.504547801178,
-   "entry": 5.527e-05,
-   "last": 7.419e-05,
-   "peak": 7.419e-05,
-   "cost": 0.5400819278055774,
-   "opened": "2026-11-14T06:37:03+07:00",
    "source": "agents",
    "miss": 0
   }
@@ -1405,6 +1394,18 @@
    "sym": "TTP",
    "price": 5.527e-05,
    "usd": 0.5401
+  },
+  {
+   "t": "2026-11-14T06:41:17+07:00",
+   "kind": "sell",
+   "mint": "44qqXe5keKWp9cBJG6n8ou3kEVG9NTCfzQtBH3sMpump",
+   "sym": "TTP",
+   "price": 5.332e-05,
+   "usd": 0.4904,
+   "pnl": -0.0496,
+   "why": "trailing จากยอด +34% (-3.5%)",
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "เร็ว ไม่มี laya",
@@ -2141,6 +2142,8 @@
   "state_agents.json:2026-11-14T06:32:29+07:00:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
   "state_agents.json:2026-11-14T06:32:31+07:00:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
   "state_agents.json:2026-11-14T06:37:00+07:00:6EHTywfoXpDNhL4JGkeYUhiL6mumpmD7j8ByjQaXpump",
-  "state_agents.json:2026-11-14T06:37:02+07:00:44qqXe5keKWp9cBJG6n8ou3kEVG9NTCfzQtBH3sMpump"
+  "state_agents.json:2026-11-14T06:37:02+07:00:44qqXe5keKWp9cBJG6n8ou3kEVG9NTCfzQtBH3sMpump",
+  "state_agents.json:2026-11-14T06:41:12+07:00:6EHTywfoXpDNhL4JGkeYUhiL6mumpmD7j8ByjQaXpump",
+  "state_agents.json:2026-11-14T06:41:15+07:00:HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR"
  ]
 }

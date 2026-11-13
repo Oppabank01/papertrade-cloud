@@ -1,39 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.0,
+ "cash": 2.7813401826524418,
  "pos": {
-  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
-   "sym": "GTA6",
-   "qty": 170.01144160169335,
-   "entry": 0.007436,
-   "last": 0.007249,
-   "peak": 0.007459,
-   "cost": 1.3030355388066295,
-   "opened": "2026-11-14T03:41:11+07:00",
-   "zoo": "kol2",
-   "smart": 287,
-   "kol": 23,
-   "miss": 0
-  },
-  "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
-   "sym": "NIO",
-   "qty": 724.4451607860267,
-   "entry": 0.001319,
-   "last": 0.00268,
-   "peak": 0.002829,
-   "cost": 0.9848929778156764,
-   "opened": "2026-11-14T04:58:04+07:00",
-   "zoo": "kol2",
-   "smart": 358,
-   "kol": 26,
-   "miss": 0
-  },
   "8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": {
    "sym": "PURR",
    "qty": 583.6727902937704,
    "entry": 0.001832,
-   "last": 0.001809,
+   "last": 0.001786,
    "peak": 0.001955,
    "cost": 1.1021320880418342,
    "opened": "2026-11-14T05:32:21+07:00",
@@ -46,8 +20,8 @@
    "sym": "USELESS",
    "qty": 1.0557938824136164,
    "entry": 0.1241,
-   "last": 0.1242,
-   "peak": 0.1242,
+   "last": 0.1244,
+   "peak": 0.1244,
    "cost": 0.13504846506651183,
    "opened": "2026-11-14T06:32:35+07:00",
    "zoo": "kol2",
@@ -793,8 +767,32 @@
    "sym": "USELESS",
    "price": 0.1241,
    "usd": 0.135
+  },
+  {
+   "t": "2026-11-14T06:41:22+07:00",
+   "kind": "sell",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.007134,
+   "usd": 1.1767,
+   "pnl": -0.1263,
+   "why": "ครบ 3 ชม. (-4.1%)",
+   "smart": 287,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T06:41:22+07:00",
+   "kind": "sell",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "price": 0.002283,
+   "usd": 1.6046,
+   "pnl": 0.6197,
+   "why": "trailing จากยอด +114% (+73.1%)",
+   "smart": 358,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: KOL เข้า 2 คนขึ้นไป",
- "rank_t": 1794613014.870828
+ "rank_t": 1794613266.0452285
 }

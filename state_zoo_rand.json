@@ -1,26 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.0,
+ "cash": 4.376607729722674,
  "pos": {
-  "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
-   "sym": "NIO",
-   "qty": 1409.5348669141406,
-   "entry": 0.001229,
-   "last": 0.00268,
-   "peak": 0.002829,
-   "cost": 1.785527057758688,
-   "opened": "2026-11-14T04:06:58+07:00",
-   "zoo": "rand",
-   "smart": 358,
-   "kol": 26,
-   "miss": 0
-  },
   "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
    "sym": "WASTED",
    "qty": 1132.3178198861215,
    "entry": 0.001982,
-   "last": 0.001881,
+   "last": 0.001849,
    "peak": 0.001982,
    "cost": 2.3131868882851916,
    "opened": "2026-11-14T06:15:45+07:00",
@@ -29,25 +16,12 @@
    "kol": 0,
    "miss": 0
   },
-  "4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": {
-   "sym": "Speed",
-   "qty": 6059.673639164621,
-   "entry": 0.0002284,
-   "last": 0.0002204,
-   "peak": 0.0002574,
-   "cost": 1.4265403619719639,
-   "opened": "2026-11-14T06:28:24+07:00",
-   "zoo": "rand",
-   "smart": 135,
-   "kol": 8,
-   "miss": 0
-  },
   "EeTf7Pp9bBGZmy2diaf7UbrTQSthMXB4eJ6zd2zwpump": {
    "sym": "HEDGE",
    "qty": 1133.8606101679666,
    "entry": 0.00013,
-   "last": 0.0001971,
-   "peak": 0.0001971,
+   "last": 0.0002978,
+   "peak": 0.0002978,
    "cost": 0.15192937468752388,
    "opened": "2026-11-14T06:32:34+07:00",
    "zoo": "rand",
@@ -493,8 +467,32 @@
    "sym": "HEDGE",
    "price": 0.00013,
    "usd": 0.1519
+  },
+  {
+   "t": "2026-11-14T06:41:21+07:00",
+   "kind": "sell",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "price": 0.002298,
+   "usd": 3.1426,
+   "pnl": 1.3571,
+   "why": "trailing จากยอด +130% (+87.0%)",
+   "smart": 358,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T06:41:21+07:00",
+   "kind": "sell",
+   "mint": "4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump",
+   "sym": "Speed",
+   "price": 0.0002099,
+   "usd": 1.234,
+   "pnl": -0.1925,
+   "why": "stop -8.1%",
+   "smart": 135,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794613014.870828
+ "rank_t": 1794613266.0452285
 }
