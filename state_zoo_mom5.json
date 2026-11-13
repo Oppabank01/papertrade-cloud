@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.6170539254470547,
+ "cash": 0.0,
  "pos": {
   "GXbhJB9Vx1n5JZ74ghk18UT59oNqKJKfLNPzKmhzpump": {
    "sym": "ZELDA",
    "qty": 15067.207096746755,
    "entry": 4.904e-05,
-   "last": 9.249e-05,
-   "peak": 9.249e-05,
+   "last": 0.0001265,
+   "peak": 0.0001265,
    "cost": 0.7615912554364676,
    "opened": "2026-11-14T02:48:04+07:00",
    "zoo": "mom5",
@@ -20,8 +20,8 @@
    "sym": "LEAP",
    "qty": 9481.207105538268,
    "entry": 7.112e-05,
-   "last": 7.112e-05,
-   "peak": 7.112e-05,
+   "last": 8.334e-05,
+   "peak": 8.334e-05,
    "cost": 0.6950148931621126,
    "opened": "2026-11-14T02:52:47+07:00",
    "zoo": "mom5",
@@ -33,12 +33,25 @@
    "sym": "GME",
    "qty": 22876.60753541912,
    "entry": 2.93e-05,
-   "last": 3.103e-05,
-   "peak": 3.103e-05,
+   "last": 3.66e-05,
+   "peak": 3.66e-05,
    "cost": 0.6908726043988663,
    "opened": "2026-11-14T02:52:47+07:00",
    "zoo": "mom5",
    "smart": 23,
+   "kol": 0,
+   "miss": 0
+  },
+  "8ZNdNDtQALCFJbZbds1zzprnV1GjDE1uNKpLfwaRpump": {
+   "sym": "ussuss",
+   "qty": 36238.844943627875,
+   "entry": 1.652e-05,
+   "last": 1.524e-05,
+   "peak": 1.652e-05,
+   "cost": 0.6170539254470547,
+   "opened": "2026-11-14T02:57:21+07:00",
+   "zoo": "mom5",
+   "smart": 16,
    "kol": 0,
    "miss": 0
   }
@@ -612,8 +625,16 @@
    "why": "stop -96.9%",
    "smart": 7,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:57:21+07:00",
+   "kind": "buy",
+   "mint": "8ZNdNDtQALCFJbZbds1zzprnV1GjDE1uNKpLfwaRpump",
+   "sym": "ussuss",
+   "price": 1.652e-05,
+   "usd": 0.6171
   }
  ],
  "label": "สวนสัตว์: โมเมนตัม 5 นาที +10 ถึง +50%",
- "rank_t": 1794599538.4707758
+ "rank_t": 1794599814.8830938
 }
