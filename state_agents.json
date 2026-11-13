@@ -1,8 +1,22 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 4.468930417964183,
- "pos": {},
+ "cash": 3.575144334371346,
+ "pos": {
+  "BALLFiNPXRhugiUXxstiegkpPeE4oWZhzHVohAxWbG2v": {
+   "sym": "Ballfin",
+   "qty": 7721.738720407569,
+   "entry": 0.0001123,
+   "last": 0.0001123,
+   "peak": 0.0001123,
+   "cost": 0.8937860835928366,
+   "opened": "2026-11-14T02:47:52+07:00",
+   "smart": 76,
+   "kol": 6,
+   "bundler": 0.2479,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T01:37:56+07:00",
@@ -7063,6 +7077,25 @@
    "why": "stop -13.2%",
    "smart": 103,
    "bundler": 0.0173
+  },
+  {
+   "t": "2026-11-14T02:47:52+07:00",
+   "kind": "debate",
+   "mint": "BALLFiNPXRhugiUXxstiegkpPeE4oWZhzHVohAxWbG2v",
+   "sym": "Ballfin",
+   "ok": true,
+   "bundler": 0.2479,
+   "buy": 0.8334,
+   "bull": 0.9428,
+   "bear": 0.6278
+  },
+  {
+   "t": "2026-11-14T02:47:52+07:00",
+   "kind": "buy",
+   "mint": "BALLFiNPXRhugiUXxstiegkpPeE4oWZhzHVohAxWbG2v",
+   "sym": "Ballfin",
+   "price": 0.0001123,
+   "usd": 0.8938
   }
  ]
 }

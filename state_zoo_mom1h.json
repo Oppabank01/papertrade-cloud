@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.3227048054464584,
+ "cash": 0.7402247506207345,
  "pos": {
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
@@ -29,16 +29,16 @@
    "kol": 0,
    "miss": 0
   },
-  "ANYq8tELPCSTvEjWVpxzgvtHu2K5vXFZZEmnNJfQpump": {
-   "sym": "Sakura",
-   "qty": 12301.854048130823,
-   "entry": 6.064e-05,
-   "last": 7.784e-05,
-   "peak": 7.784e-05,
-   "cost": 0.7688975772816461,
-   "opened": "2026-11-14T02:37:09+07:00",
+  "AgkptBdVa3VjQZMEdQC7HRegRYMtoBfYayqSXRPGpump": {
+   "sym": "Theranoses",
+   "qty": 5916.254766518403,
+   "entry": 5.292e-05,
+   "last": 5.292e-05,
+   "peak": 5.292e-05,
+   "cost": 0.3227048054464584,
+   "opened": "2026-11-14T02:48:04+07:00",
    "zoo": "mom1h",
-   "smart": 66,
+   "smart": 7,
    "kol": 0,
    "miss": 0
   }
@@ -492,8 +492,28 @@
    "why": "stop -36.3%",
    "smart": 45,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:48:04+07:00",
+   "kind": "buy",
+   "mint": "AgkptBdVa3VjQZMEdQC7HRegRYMtoBfYayqSXRPGpump",
+   "sym": "Theranoses",
+   "price": 5.292e-05,
+   "usd": 0.3227
+  },
+  {
+   "t": "2026-11-14T02:48:04+07:00",
+   "kind": "sell",
+   "mint": "ANYq8tELPCSTvEjWVpxzgvtHu2K5vXFZZEmnNJfQpump",
+   "sym": "Sakura",
+   "price": 6.202e-05,
+   "usd": 0.7402,
+   "pnl": -0.0287,
+   "why": "trailing จากยอด +28% (+2.3%)",
+   "smart": 66,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: พุ่งแรง 1 ชม. เกิน +100%",
- "rank_t": 1794598992.1959445
+ "rank_t": 1794599264.0584228
 }

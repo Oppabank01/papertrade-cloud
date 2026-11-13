@@ -1,32 +1,32 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.350294283033758,
+ "cash": 1.980346788557686,
  "pos": {
-  "HXxJdaQbrYRvwTAM8M8mUPyoRPvmyuUbPFBRkiAAMASS": {
-   "sym": "Ansemmas",
-   "qty": 1991.1720086104758,
-   "entry": 0.0004965,
-   "last": 0.0004623,
-   "peak": 0.0004965,
-   "cost": 1.0189825832561341,
-   "opened": "2026-11-14T02:37:04+07:00",
+  "AgkptBdVa3VjQZMEdQC7HRegRYMtoBfYayqSXRPGpump": {
+   "sym": "Theranoses",
+   "qty": 14046.221831786015,
+   "entry": 5.292e-05,
+   "last": 5.292e-05,
+   "peak": 5.292e-05,
+   "cost": 0.7661575544610554,
+   "opened": "2026-11-14T02:48:04+07:00",
    "zoo": "mom5",
-   "smart": 166,
-   "kol": 6,
+   "smart": 7,
+   "kol": 0,
    "miss": 0
   },
-  "GABSPmXJZu9dnqBcATGDEkX5DNwTtB1tyA9g2hEhpump": {
-   "sym": "ballfin",
-   "qty": 21179.07222734099,
-   "entry": 2.644e-05,
-   "last": 2.644e-05,
-   "peak": 2.644e-05,
-   "cost": 0.5771744688630136,
-   "opened": "2026-11-14T02:43:25+07:00",
+  "GXbhJB9Vx1n5JZ74ghk18UT59oNqKJKfLNPzKmhzpump": {
+   "sym": "ZELDA",
+   "qty": 15067.207096746755,
+   "entry": 4.904e-05,
+   "last": 4.987e-05,
+   "peak": 4.987e-05,
+   "cost": 0.7615912554364676,
+   "opened": "2026-11-14T02:48:04+07:00",
    "zoo": "mom5",
-   "smart": 51,
-   "kol": 4,
+   "smart": 4,
+   "kol": 0,
    "miss": 0
   }
  },
@@ -531,8 +531,48 @@
    "why": "trailing จากยอด +17% (-1.2%)",
    "smart": 274,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:48:04+07:00",
+   "kind": "buy",
+   "mint": "AgkptBdVa3VjQZMEdQC7HRegRYMtoBfYayqSXRPGpump",
+   "sym": "Theranoses",
+   "price": 5.292e-05,
+   "usd": 0.7662
+  },
+  {
+   "t": "2026-11-14T02:48:04+07:00",
+   "kind": "buy",
+   "mint": "GXbhJB9Vx1n5JZ74ghk18UT59oNqKJKfLNPzKmhzpump",
+   "sym": "ZELDA",
+   "price": 4.904e-05,
+   "usd": 0.7616
+  },
+  {
+   "t": "2026-11-14T02:48:04+07:00",
+   "kind": "sell",
+   "mint": "HXxJdaQbrYRvwTAM8M8mUPyoRPvmyuUbPFBRkiAAMASS",
+   "sym": "Ansemmas",
+   "price": 0.0004468,
+   "usd": 0.8631,
+   "pnl": -0.1558,
+   "why": "stop -10.0%",
+   "smart": 166,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:48:04+07:00",
+   "kind": "sell",
+   "mint": "GABSPmXJZu9dnqBcATGDEkX5DNwTtB1tyA9g2hEhpump",
+   "sym": "ballfin",
+   "price": 1.434e-05,
+   "usd": 0.2947,
+   "pnl": -0.2825,
+   "why": "stop -45.8%",
+   "smart": 51,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: โมเมนตัม 5 นาที +10 ถึง +50%",
- "rank_t": 1794598992.1959445
+ "rank_t": 1794599264.0584228
 }
