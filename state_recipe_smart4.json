@@ -1,0 +1,516 @@
+{
+ "start_thb": 500.0,
+ "start_usd": 14.779781259237364,
+ "cash": 5.14869419378767,
+ "pos": {
+  "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
+   "sym": "Max",
+   "qty": 1281.5214374322693,
+   "entry": 0.001653,
+   "last": 0.001652,
+   "peak": 0.001861,
+   "cost": 2.1834208782473112,
+   "opened": "2026-11-13T17:42:53+07:00",
+   "smart": 445,
+   "kol": 42,
+   "miss": 0
+  },
+  "9yZ5Ru8pbmJZ6Q2DKLCGXkaLNwkm83cnJ4QCw4PFpump": {
+   "sym": "wobbles",
+   "qty": 1665.1136742668943,
+   "entry": 0.001058,
+   "last": 0.00107,
+   "peak": 0.00107,
+   "cost": 1.8158011413877286,
+   "opened": "2026-11-13T19:22:16+07:00",
+   "smart": 111,
+   "kol": 19,
+   "miss": 0
+  }
+ },
+ "log": [
+  {
+   "t": "2026-11-13T09:54:41+07:00",
+   "kind": "init",
+   "thb": 500.0
+  },
+  {
+   "t": "2026-11-13T09:57:00+07:00",
+   "kind": "buy",
+   "mint": "2uBwYfuaU2juRuLG8dty56hzPpqcgejtQDwXqFBKQETg",
+   "sym": "JENSWAN",
+   "price": 0.0001227,
+   "usd": 2.956
+  },
+  {
+   "t": "2026-11-13T09:57:00+07:00",
+   "kind": "buy",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.01941,
+   "usd": 2.9383
+  },
+  {
+   "t": "2026-11-13T09:57:00+07:00",
+   "kind": "buy",
+   "mint": "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
+   "sym": "FOOD",
+   "price": 0.0005091,
+   "usd": 2.9208
+  },
+  {
+   "t": "2026-11-13T09:57:01+07:00",
+   "kind": "buy",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "price": 0.002793,
+   "usd": 2.9034
+  },
+  {
+   "t": "2026-11-13T10:01:06+07:00",
+   "kind": "sell",
+   "mint": "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
+   "sym": "FOOD",
+   "price": 0.000453,
+   "usd": 2.4464,
+   "pnl": -0.4744,
+   "why": "stop -11.0%",
+   "smart": 142,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T10:09:12+07:00",
+   "kind": "sell",
+   "mint": "2uBwYfuaU2juRuLG8dty56hzPpqcgejtQDwXqFBKQETg",
+   "sym": "JENSWAN",
+   "price": 0.0001453,
+   "usd": 3.2949,
+   "pnl": 0.3389,
+   "why": "trailing จากยอด +50% (+18.4%)",
+   "smart": 66,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T10:21:39+07:00",
+   "kind": "buy",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.01524,
+   "usd": 2.8384
+  },
+  {
+   "t": "2026-11-13T10:21:39+07:00",
+   "kind": "buy",
+   "mint": "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump",
+   "sym": "neet",
+   "price": 0.02583,
+   "usd": 2.8215
+  },
+  {
+   "t": "2026-11-13T10:29:56+07:00",
+   "kind": "sell",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "price": 0.002439,
+   "usd": 2.3866,
+   "pnl": -0.5169,
+   "why": "stop -12.7%",
+   "smart": 340,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T10:34:10+07:00",
+   "kind": "buy",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.04361,
+   "usd": 2.7575
+  },
+  {
+   "t": "2026-11-13T11:05:50+07:00",
+   "kind": "sell",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.01784,
+   "usd": 2.5421,
+   "pnl": -0.3962,
+   "why": "stop -8.1%",
+   "smart": 860,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T11:05:50+07:00",
+   "kind": "sell",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.01389,
+   "usd": 2.4351,
+   "pnl": -0.4033,
+   "why": "stop -8.9%",
+   "smart": 656,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T11:20:32+07:00",
+   "kind": "buy",
+   "mint": "G9E8zzhdqCGpGqrHSgL2CKW1MuAbCVTQPFUhFk72pump",
+   "sym": "CHARITY",
+   "price": 7.894e-05,
+   "usd": 2.6108
+  },
+  {
+   "t": "2026-11-13T11:20:32+07:00",
+   "kind": "buy",
+   "mint": "7dc1iQxqAwyrsPXQqM8XhALVAQmZ3G7BKc7sjxW2pump",
+   "sym": "HOUSE",
+   "price": 5.295e-05,
+   "usd": 2.5953
+  },
+  {
+   "t": "2026-11-13T11:24:43+07:00",
+   "kind": "sell",
+   "mint": "7dc1iQxqAwyrsPXQqM8XhALVAQmZ3G7BKc7sjxW2pump",
+   "sym": "HOUSE",
+   "price": 3.901e-05,
+   "usd": 1.7998,
+   "pnl": -0.7955,
+   "why": "stop -26.3%",
+   "smart": 14,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T11:26:56+07:00",
+   "kind": "buy",
+   "mint": "ByCUjGx4FkhK7ac8Vdqzb41yScUtvG78GBYSXKsMpump",
+   "sym": "dca",
+   "price": 7.968e-05,
+   "usd": 2.7251
+  },
+  {
+   "t": "2026-11-13T11:29:01+07:00",
+   "kind": "sell",
+   "mint": "ByCUjGx4FkhK7ac8Vdqzb41yScUtvG78GBYSXKsMpump",
+   "sym": "dca",
+   "price": 6.565e-05,
+   "usd": 2.1134,
+   "pnl": -0.6117,
+   "why": "stop -17.6%",
+   "smart": 25,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T11:33:19+07:00",
+   "kind": "buy",
+   "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+   "sym": "ZCAT",
+   "price": 0.01383,
+   "usd": 2.7468
+  },
+  {
+   "t": "2026-11-13T11:53:08+07:00",
+   "kind": "sell",
+   "mint": "G9E8zzhdqCGpGqrHSgL2CKW1MuAbCVTQPFUhFk72pump",
+   "sym": "CHARITY",
+   "price": 0.0001306,
+   "usd": 4.0658,
+   "pnl": 1.455,
+   "why": "trailing จากยอด +155% (+65.4%)",
+   "smart": 63,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T12:10:26+07:00",
+   "kind": "buy",
+   "mint": "98HEU4TvXB3xjB1t15fgxHwYDLUH4fDomvp2DCzJpump",
+   "sym": "LEEROY",
+   "price": 0.0001056,
+   "usd": 2.5968
+  },
+  {
+   "t": "2026-11-13T12:14:33+07:00",
+   "kind": "sell",
+   "mint": "98HEU4TvXB3xjB1t15fgxHwYDLUH4fDomvp2DCzJpump",
+   "sym": "LEEROY",
+   "price": 9.542e-05,
+   "usd": 2.2087,
+   "pnl": -0.3881,
+   "why": "stop -9.6%",
+   "smart": 183,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T12:21:02+07:00",
+   "kind": "buy",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "price": 0.001703,
+   "usd": 2.5349
+  },
+  {
+   "t": "2026-11-13T13:54:30+07:00",
+   "kind": "sell",
+   "mint": "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump",
+   "sym": "neet",
+   "price": 0.02571,
+   "usd": 2.6435,
+   "pnl": -0.178,
+   "why": "ครบ 3 ชม. (-0.5%)",
+   "smart": 839,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T13:54:30+07:00",
+   "kind": "sell",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.04425,
+   "usd": 2.6337,
+   "pnl": -0.1238,
+   "why": "ครบ 3 ชม. (+1.5%)",
+   "smart": 1000,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T13:54:30+07:00",
+   "kind": "sell",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "price": 0.001697,
+   "usd": 2.3777,
+   "pnl": -0.1572,
+   "why": "trailing จากยอด +19% (-0.4%)",
+   "smart": 356,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T14:22:10+07:00",
+   "kind": "buy",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "price": 0.005097,
+   "usd": 2.5348
+  },
+  {
+   "t": "2026-11-13T14:22:10+07:00",
+   "kind": "buy",
+   "mint": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
+   "sym": "Dacity",
+   "price": 0.00186,
+   "usd": 2.5197
+  },
+  {
+   "t": "2026-11-13T14:22:10+07:00",
+   "kind": "buy",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.1367,
+   "usd": 2.5047
+  },
+  {
+   "t": "2026-11-13T14:35:00+07:00",
+   "kind": "sell",
+   "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+   "sym": "ZCAT",
+   "price": 0.01506,
+   "usd": 2.8155,
+   "pnl": 0.0687,
+   "why": "ครบ 3 ชม. (+8.9%)",
+   "smart": 329,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T14:39:19+07:00",
+   "kind": "buy",
+   "mint": "77HqxiDCgYfXUsDXDD6YVefPhTTz1Z2n8jX4gTxipump",
+   "sym": "updog",
+   "price": 0.000372,
+   "usd": 2.497
+  },
+  {
+   "t": "2026-11-13T14:58:23+07:00",
+   "kind": "sell",
+   "mint": "77HqxiDCgYfXUsDXDD6YVefPhTTz1Z2n8jX4gTxipump",
+   "sym": "updog",
+   "price": 0.0003284,
+   "usd": 2.075,
+   "pnl": -0.4221,
+   "why": "stop -11.7%",
+   "smart": 183,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T16:12:47+07:00",
+   "kind": "buy",
+   "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
+   "sym": "Sakura",
+   "price": 0.0003737,
+   "usd": 2.3784
+  },
+  {
+   "t": "2026-11-13T16:44:16+07:00",
+   "kind": "sell",
+   "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
+   "sym": "Sakura",
+   "price": 0.0002207,
+   "usd": 1.3222,
+   "pnl": -1.0562,
+   "why": "stop -40.9%",
+   "smart": 80,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T17:20:42+07:00",
+   "kind": "buy",
+   "mint": "4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump",
+   "sym": "HUNG",
+   "price": 0.0002548,
+   "usd": 2.1719
+  },
+  {
+   "t": "2026-11-13T17:22:47+07:00",
+   "kind": "sell",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "price": 0.004951,
+   "usd": 2.3176,
+   "pnl": -0.2172,
+   "why": "ครบ 3 ชม. (-2.9%)",
+   "smart": 60,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T17:22:47+07:00",
+   "kind": "sell",
+   "mint": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
+   "sym": "Dacity",
+   "price": 0.001882,
+   "usd": 2.3998,
+   "pnl": -0.1199,
+   "why": "ครบ 3 ชม. (+1.2%)",
+   "smart": 424,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T17:22:47+07:00",
+   "kind": "sell",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.1341,
+   "usd": 2.3128,
+   "pnl": -0.1919,
+   "why": "ครบ 3 ชม. (-1.9%)",
+   "smart": 923,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T17:42:53+07:00",
+   "kind": "buy",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.006098,
+   "usd": 2.1965
+  },
+  {
+   "t": "2026-11-13T17:42:53+07:00",
+   "kind": "buy",
+   "mint": "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump",
+   "sym": "Max",
+   "price": 0.001653,
+   "usd": 2.1834
+  },
+  {
+   "t": "2026-11-13T17:42:53+07:00",
+   "kind": "buy",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.008889,
+   "usd": 2.1704
+  },
+  {
+   "t": "2026-11-13T18:47:54+07:00",
+   "kind": "sell",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.007946,
+   "usd": 1.8262,
+   "pnl": -0.3442,
+   "why": "stop -10.6%",
+   "smart": 285,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T18:49:59+07:00",
+   "kind": "sell",
+   "mint": "4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump",
+   "sym": "HUNG",
+   "price": 0.0002599,
+   "usd": 2.0853,
+   "pnl": -0.0866,
+   "why": "trailing จากยอด +23% (+2.0%)",
+   "smart": 252,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T19:15:37+07:00",
+   "kind": "buy",
+   "mint": "6p4ZRmb36ggUCox9R8eJ9Jva22doySgk6QVNrTFnpump",
+   "sym": "364",
+   "price": 8.745e-05,
+   "usd": 1.9903
+  },
+  {
+   "t": "2026-11-13T19:15:38+07:00",
+   "kind": "buy",
+   "mint": "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump",
+   "sym": "Huang",
+   "price": 0.0001836,
+   "usd": 1.9784
+  },
+  {
+   "t": "2026-11-13T19:15:38+07:00",
+   "kind": "sell",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.005553,
+   "usd": 1.8828,
+   "pnl": -0.3137,
+   "why": "stop -8.9%",
+   "smart": 243,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T19:19:58+07:00",
+   "kind": "sell",
+   "mint": "6p4ZRmb36ggUCox9R8eJ9Jva22doySgk6QVNrTFnpump",
+   "sym": "364",
+   "price": 7.694e-05,
+   "usd": 1.6483,
+   "pnl": -0.342,
+   "why": "stop -12.0%",
+   "smart": 54,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T19:19:58+07:00",
+   "kind": "sell",
+   "mint": "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump",
+   "sym": "Huang",
+   "price": 0.00016,
+   "usd": 1.6229,
+   "pnl": -0.3555,
+   "why": "stop -12.9%",
+   "smart": 127,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T19:22:16+07:00",
+   "kind": "buy",
+   "mint": "9yZ5Ru8pbmJZ6Q2DKLCGXkaLNwkm83cnJ4QCw4PFpump",
+   "sym": "wobbles",
+   "price": 0.001058,
+   "usd": 1.8158
+  }
+ ],
+ "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
+ "rank_t": 1794572400.601652
+}
