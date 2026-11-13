@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.857041894266796,
+ "cash": 0.0,
  "pos": {
   "4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": {
    "sym": "Speed",
    "qty": 16320.94186706099,
    "entry": 0.0002154,
-   "last": 0.0002113,
+   "last": 0.0002145,
    "peak": 0.0002329,
    "cost": 3.6235115215058102,
    "opened": "2026-11-14T01:27:09+07:00",
@@ -33,13 +33,26 @@
    "sym": "GR00T2",
    "qty": 127263.02799779121,
    "entry": 1.552e-05,
-   "last": 1.767e-05,
-   "peak": 1.767e-05,
+   "last": 2.246e-05,
+   "peak": 2.246e-05,
    "cost": 2.0357886977177078,
    "opened": "2026-11-14T02:28:07+07:00",
    "zoo": "dip",
    "smart": 3,
    "kol": 0,
+   "miss": 0
+  },
+  "BALLFiNPXRhugiUXxstiegkpPeE4oWZhzHVohAxWbG2v": {
+   "sym": "Ballfin",
+   "qty": 19308.777685324676,
+   "entry": 9.331e-05,
+   "last": 9.331e-05,
+   "peak": 9.331e-05,
+   "cost": 1.857041894266796,
+   "opened": "2026-11-14T02:43:27+07:00",
+   "zoo": "dip",
+   "smart": 73,
+   "kol": 5,
    "miss": 0
   }
  },
@@ -432,8 +445,16 @@
    "why": "stop -22.2%",
    "smart": 9,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:43:27+07:00",
+   "kind": "buy",
+   "mint": "BALLFiNPXRhugiUXxstiegkpPeE4oWZhzHVohAxWbG2v",
+   "sym": "Ballfin",
+   "price": 9.331e-05,
+   "usd": 1.857
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794598593.346318
+ "rank_t": 1794598992.1959445
 }

@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 3.710596234571521,
- "pos": {
-  "Cr8kuNqKwiVVuzqLYKcJhmpSHy767837BwLFr9GDYXUf": {
-   "sym": "b",
-   "qty": 3288.2905250103126,
-   "entry": 0.0002737,
-   "last": 0.0002737,
-   "peak": 0.0002737,
-   "cost": 0.9276490586428804,
-   "opened": "2026-11-14T02:36:57+07:00",
-   "smart": 103,
-   "kol": 7,
-   "bundler": 0.0173,
-   "miss": 0
-  }
- },
+ "cash": 4.468930417964183,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T01:37:56+07:00",
@@ -7054,6 +7040,29 @@
    "sym": "b",
    "price": 0.0002737,
    "usd": 0.9276
+  },
+  {
+   "t": "2026-11-14T02:43:19+07:00",
+   "kind": "debate",
+   "mint": "9oJk7eMccQchx3evoN5C5pKQD5Xodb4C1qkhemjjpump",
+   "sym": "POOR",
+   "ok": false,
+   "bundler": 0.1387,
+   "buy": 0.8783,
+   "bull": 0.9346,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-14T02:43:19+07:00",
+   "kind": "sell",
+   "mint": "Cr8kuNqKwiVVuzqLYKcJhmpSHy767837BwLFr9GDYXUf",
+   "sym": "b",
+   "price": 0.0002377,
+   "usd": 0.7583,
+   "pnl": -0.1693,
+   "why": "stop -13.2%",
+   "smart": 103,
+   "bundler": 0.0173
   }
  ]
 }

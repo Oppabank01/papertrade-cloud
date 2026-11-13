@@ -1,45 +1,32 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.5771744688630136,
+ "cash": 2.350294283033758,
  "pos": {
-  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
-   "sym": "Macca",
-   "qty": 595.7728869728575,
-   "entry": 0.00228,
-   "last": 0.002104,
-   "peak": 0.0026,
-   "cost": 1.4000847065534066,
-   "opened": "2026-11-14T01:18:40+07:00",
-   "zoo": "mom5",
-   "smart": 164,
-   "kol": 8,
-   "miss": 0
-  },
-  "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
-   "sym": "FOOD",
-   "qty": 1118.6488708525255,
-   "entry": 0.001099,
-   "last": 0.00112,
-   "peak": 0.001284,
-   "cost": 1.2671563688589214,
-   "opened": "2026-11-14T01:44:14+07:00",
-   "zoo": "mom5",
-   "smart": 274,
-   "kol": 20,
-   "miss": 0
-  },
   "HXxJdaQbrYRvwTAM8M8mUPyoRPvmyuUbPFBRkiAAMASS": {
    "sym": "Ansemmas",
    "qty": 1991.1720086104758,
    "entry": 0.0004965,
-   "last": 0.0004733,
+   "last": 0.0004623,
    "peak": 0.0004965,
    "cost": 1.0189825832561341,
    "opened": "2026-11-14T02:37:04+07:00",
    "zoo": "mom5",
    "smart": 166,
    "kol": 6,
+   "miss": 0
+  },
+  "GABSPmXJZu9dnqBcATGDEkX5DNwTtB1tyA9g2hEhpump": {
+   "sym": "ballfin",
+   "qty": 21179.07222734099,
+   "entry": 2.644e-05,
+   "last": 2.644e-05,
+   "peak": 2.644e-05,
+   "cost": 0.5771744688630136,
+   "opened": "2026-11-14T02:43:25+07:00",
+   "zoo": "mom5",
+   "smart": 51,
+   "kol": 4,
    "miss": 0
   }
  },
@@ -512,8 +499,40 @@
    "why": "stop -70.0%",
    "smart": 1,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:43:25+07:00",
+   "kind": "buy",
+   "mint": "GABSPmXJZu9dnqBcATGDEkX5DNwTtB1tyA9g2hEhpump",
+   "sym": "ballfin",
+   "price": 2.644e-05,
+   "usd": 0.5772
+  },
+  {
+   "t": "2026-11-14T02:43:25+07:00",
+   "kind": "sell",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.002027,
+   "usd": 1.1716,
+   "pnl": -0.2284,
+   "why": "stop -11.1%",
+   "smart": 164,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:43:25+07:00",
+   "kind": "sell",
+   "mint": "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
+   "sym": "FOOD",
+   "price": 0.001086,
+   "usd": 1.1787,
+   "pnl": -0.0885,
+   "why": "trailing จากยอด +17% (-1.2%)",
+   "smart": 274,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: โมเมนตัม 5 นาที +10 ถึง +50%",
- "rank_t": 1794598593.346318
+ "rank_t": 1794598992.1959445
 }

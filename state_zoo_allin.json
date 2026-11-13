@@ -1,8 +1,22 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.32264047892406167,
- "pos": {},
+ "cash": 0.0,
+ "pos": {
+  "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": {
+   "sym": "LuckyCoin",
+   "qty": 704.0616119031142,
+   "entry": 0.0004446,
+   "last": 0.0004446,
+   "peak": 0.0004446,
+   "cost": 0.32264047892406167,
+   "opened": "2026-11-14T02:43:49+07:00",
+   "zoo": "allin",
+   "smart": 38,
+   "kol": 4,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:42:02+07:00",
@@ -68,8 +82,16 @@
    "why": "stop -97.6%",
    "smart": 1,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:43:49+07:00",
+   "kind": "buy",
+   "mint": "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump",
+   "sym": "LuckyCoin",
+   "price": 0.0004446,
+   "usd": 0.3226
   }
  ],
  "label": "สวนสัตว์: ทุ่มหมดหน้าตัก ไม้ละ 100%",
- "rank_t": 1794598593.346318
+ "rank_t": 1794598992.1959445
 }

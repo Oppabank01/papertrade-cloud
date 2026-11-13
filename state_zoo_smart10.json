@@ -1,27 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.4463933863969705,
+ "cash": 2.9801026941066953,
  "pos": {
-  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
-   "sym": "Macca",
-   "qty": 1037.2111208388167,
-   "entry": 0.00228,
-   "last": 0.002104,
-   "peak": 0.0026,
-   "cost": 2.4374782060528775,
-   "opened": "2026-11-14T01:18:41+07:00",
-   "zoo": "smart10",
-   "smart": 164,
-   "kol": 8,
-   "miss": 0
-  },
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 97.37894757896353,
    "entry": 0.01875,
-   "last": 0.01908,
-   "peak": 0.01908,
+   "last": 0.01927,
+   "peak": 0.01927,
    "cost": 1.8819369893893694,
    "opened": "2026-11-14T02:06:44+07:00",
    "zoo": "smart10",
@@ -33,7 +20,7 @@
    "sym": "BAWSAQ",
    "qty": 9140.42632744608,
    "entry": 0.00018,
-   "last": 0.0002017,
+   "last": 0.0001908,
    "peak": 0.0002113,
    "cost": 1.6958119345911098,
    "opened": "2026-11-14T02:23:55+07:00",
@@ -312,8 +299,40 @@
    "why": "stop -65.2%",
    "smart": 22,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:43:37+07:00",
+   "kind": "buy",
+   "mint": "GABSPmXJZu9dnqBcATGDEkX5DNwTtB1tyA9g2hEhpump",
+   "sym": "ballfin",
+   "price": 2.644e-05,
+   "usd": 1.4464
+  },
+  {
+   "t": "2026-11-14T02:43:39+07:00",
+   "kind": "sell",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.002046,
+   "usd": 2.0589,
+   "pnl": -0.3786,
+   "why": "stop -10.3%",
+   "smart": 164,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:43:39+07:00",
+   "kind": "sell",
+   "mint": "GABSPmXJZu9dnqBcATGDEkX5DNwTtB1tyA9g2hEhpump",
+   "sym": "ballfin",
+   "price": 1.789e-05,
+   "usd": 0.9212,
+   "pnl": -0.5252,
+   "why": "stop -32.3%",
+   "smart": 51,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: smart wallet 10 ขึ้นไป",
- "rank_t": 1794598593.346318
+ "rank_t": 1794598992.1959445
 }

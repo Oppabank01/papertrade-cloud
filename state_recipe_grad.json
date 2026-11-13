@@ -1,8 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 4.637152961890952,
- "pos": {},
+ "cash": 2.7878192634651455,
+ "pos": {
+  "GABSPmXJZu9dnqBcATGDEkX5DNwTtB1tyA9g2hEhpump": {
+   "sym": "ballfin",
+   "qty": 34031.511373877474,
+   "entry": 2.644e-05,
+   "last": 2.644e-05,
+   "peak": 2.644e-05,
+   "cost": 0.9274305923781905,
+   "opened": "2026-11-14T02:43:21+07:00",
+   "smart": 51,
+   "kol": 4,
+   "miss": 0
+  },
+  "CGeqbrTESrLDDeCrkLMCpV6PZLJVUGsQpmANnLY7pump": {
+   "sym": "PP",
+   "qty": 21573.333176251752,
+   "entry": 4.146e-05,
+   "last": 4.172e-05,
+   "peak": 4.172e-05,
+   "cost": 0.9219031060476166,
+   "opened": "2026-11-14T02:43:21+07:00",
+   "smart": 11,
+   "kol": 2,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -688,8 +713,24 @@
    "why": "stop -60.5%",
    "smart": 22,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:43:21+07:00",
+   "kind": "buy",
+   "mint": "GABSPmXJZu9dnqBcATGDEkX5DNwTtB1tyA9g2hEhpump",
+   "sym": "ballfin",
+   "price": 2.644e-05,
+   "usd": 0.9274
+  },
+  {
+   "t": "2026-11-14T02:43:21+07:00",
+   "kind": "buy",
+   "mint": "CGeqbrTESrLDDeCrkLMCpV6PZLJVUGsQpmANnLY7pump",
+   "sym": "PP",
+   "price": 4.146e-05,
+   "usd": 0.9219
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794598593.346318
+ "rank_t": 1794598992.1959445
 }
