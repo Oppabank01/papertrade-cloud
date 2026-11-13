@@ -1,31 +1,44 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.8684304825591832,
+ "cash": 0.8026825735484917,
  "pos": {
-  "3R91w5vktaJYQxjBo8tzsR66pBYhq9tgWsAynXfBpump": {
-   "sym": "Burn",
-   "qty": 64587.318929959554,
-   "entry": 1.524e-05,
-   "last": 1.651e-05,
-   "peak": 1.651e-05,
-   "cost": 1.0145441563518693,
-   "opened": "2026-11-14T03:58:27+07:00",
-   "zoo": "fresh",
-   "smart": 4,
-   "kol": 0,
-   "miss": 0
-  },
   "BApgNbjD25PHFft8WNATeL6gwpFFucEn5VBg2VHDpump": {
    "sym": "KOSMIK",
    "qty": 5761.946347304593,
    "entry": 1.798e-05,
-   "last": 2.197e-05,
-   "peak": 2.197e-05,
+   "last": 3.332e-05,
+   "peak": 3.332e-05,
    "cost": 0.10678189581997173,
    "opened": "2026-11-14T04:02:49+07:00",
    "zoo": "fresh",
    "smart": 6,
+   "kol": 0,
+   "miss": 0
+  },
+  "786HiJ5MyHQ6M2kfTN8iQs9j85aehLEvDHBBzZNeT8r5": {
+   "sym": "PPA",
+   "qty": 8214.946142446795,
+   "entry": 4.869e-05,
+   "last": 4.869e-05,
+   "peak": 4.869e-05,
+   "cost": 0.41227141586861943,
+   "opened": "2026-11-14T04:06:59+07:00",
+   "zoo": "fresh",
+   "smart": 60,
+   "kol": 6,
+   "miss": 0
+  },
+  "6KrHGieJvnTebqjAseeYgX572vzZNcDDqAgJgaQjpump": {
+   "sym": "11/13",
+   "qty": 12784.624203819525,
+   "entry": 3.11e-05,
+   "last": 3.638e-05,
+   "peak": 3.638e-05,
+   "cost": 0.40981427823004246,
+   "opened": "2026-11-14T04:06:59+07:00",
+   "zoo": "fresh",
+   "smart": 32,
    "kol": 0,
    "miss": 0
   }
@@ -411,8 +424,36 @@
    "why": "stop -73.7%",
    "smart": 31,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:06:59+07:00",
+   "kind": "buy",
+   "mint": "786HiJ5MyHQ6M2kfTN8iQs9j85aehLEvDHBBzZNeT8r5",
+   "sym": "PPA",
+   "price": 4.869e-05,
+   "usd": 0.4123
+  },
+  {
+   "t": "2026-11-14T04:06:59+07:00",
+   "kind": "buy",
+   "mint": "6KrHGieJvnTebqjAseeYgX572vzZNcDDqAgJgaQjpump",
+   "sym": "11/13",
+   "price": 3.11e-05,
+   "usd": 0.4098
+  },
+  {
+   "t": "2026-11-14T04:06:59+07:00",
+   "kind": "sell",
+   "mint": "3R91w5vktaJYQxjBo8tzsR66pBYhq9tgWsAynXfBpump",
+   "sym": "Burn",
+   "price": 1.207e-05,
+   "usd": 0.7563,
+   "pnl": -0.2582,
+   "why": "stop -20.8%",
+   "smart": 4,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญเกิดใหม่ไม่เกิน 10 นาที",
- "rank_t": 1794603741.795694
+ "rank_t": 1794604003.9862692
 }

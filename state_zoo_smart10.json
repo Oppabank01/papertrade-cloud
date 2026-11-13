@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.0,
+ "cash": 0.7444048660057437,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 97.37894757896353,
    "entry": 0.01875,
-   "last": 0.01733,
+   "last": 0.01735,
    "peak": 0.01983,
    "cost": 1.8819369893893694,
    "opened": "2026-11-14T02:06:44+07:00",
@@ -20,39 +20,13 @@
    "sym": "Ansemmas",
    "qty": 805.6533816826727,
    "entry": 0.0005258,
-   "last": 0.0004904,
+   "last": 0.0004889,
    "peak": 0.0005304,
    "cost": 0.4366239415468453,
    "opened": "2026-11-14T03:27:45+07:00",
    "zoo": "smart10",
    "smart": 167,
    "kol": 6,
-   "miss": 0
-  },
-  "5LEGND95QBhYtQecbyak9HzYeq2SeJL8YwDsX8PLpump": {
-   "sym": "BBTB",
-   "qty": 2503.583535180492,
-   "entry": 0.0002402,
-   "last": 0.0002402,
-   "peak": 0.0002402,
-   "cost": 0.619831751340295,
-   "opened": "2026-11-14T04:02:50+07:00",
-   "zoo": "smart10",
-   "smart": 96,
-   "kol": 6,
-   "miss": 0
-  },
-  "HMTwjQPHbf82woGKMwDyPHAxgpwVj4boFQPMwk5Bpump": {
-   "sym": "Blackout",
-   "qty": 9381.34785358476,
-   "entry": 3.841e-05,
-   "last": 3.754e-05,
-   "peak": 3.841e-05,
-   "cost": 0.37140545357265575,
-   "opened": "2026-11-14T04:02:50+07:00",
-   "zoo": "smart10",
-   "smart": 81,
-   "kol": 4,
    "miss": 0
   }
  },
@@ -653,8 +627,32 @@
    "sym": "Blackout",
    "price": 3.841e-05,
    "usd": 0.3714
+  },
+  {
+   "t": "2026-11-14T04:06:59+07:00",
+   "kind": "sell",
+   "mint": "5LEGND95QBhYtQecbyak9HzYeq2SeJL8YwDsX8PLpump",
+   "sym": "BBTB",
+   "price": 0.0001821,
+   "usd": 0.4423,
+   "pnl": -0.1775,
+   "why": "stop -24.2%",
+   "smart": 96,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:06:59+07:00",
+   "kind": "sell",
+   "mint": "HMTwjQPHbf82woGKMwDyPHAxgpwVj4boFQPMwk5Bpump",
+   "sym": "Blackout",
+   "price": 3.319e-05,
+   "usd": 0.3021,
+   "pnl": -0.0693,
+   "why": "stop -13.6%",
+   "smart": 81,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: smart wallet 10 ขึ้นไป",
- "rank_t": 1794603741.795694
+ "rank_t": 1794604003.9862692
 }

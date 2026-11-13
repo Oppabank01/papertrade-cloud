@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.70706182323514,
+ "cash": 1.7962365604864674,
  "pos": {
   "BGQqYLTCRHBK3CSosCNq5G6MsGYL2iZ2amsSsF4Tpump": {
    "sym": "ESTR",
@@ -11,45 +11,6 @@
    "peak": 3.279e-05,
    "cost": 0.3175545122770698,
    "opened": "2026-11-14T02:02:21+07:00",
-   "zoo": "mom1h",
-   "smart": 5,
-   "kol": 0,
-   "miss": 0
-  },
-  "3R91w5vktaJYQxjBo8tzsR66pBYhq9tgWsAynXfBpump": {
-   "sym": "Burn",
-   "qty": 32027.290956675304,
-   "entry": 1.524e-05,
-   "last": 1.651e-05,
-   "peak": 1.651e-05,
-   "cost": 0.503087934631758,
-   "opened": "2026-11-14T03:58:26+07:00",
-   "zoo": "mom1h",
-   "smart": 4,
-   "kol": 0,
-   "miss": 0
-  },
-  "5LEGND95QBhYtQecbyak9HzYeq2SeJL8YwDsX8PLpump": {
-   "sym": "BBTB",
-   "qty": 2019.928653335639,
-   "entry": 0.0002402,
-   "last": 0.0002402,
-   "peak": 0.0002402,
-   "cost": 0.5000895305413529,
-   "opened": "2026-11-14T04:02:49+07:00",
-   "zoo": "mom1h",
-   "smart": 96,
-   "kol": 6,
-   "miss": 0
-  },
-  "6kRSNnusHuWtL218UDQCF6Jg6H4RZPgJE55QHoFZpump": {
-   "sym": "DJT",
-   "qty": 2120.9109447253054,
-   "entry": 0.0002274,
-   "last": 0.0002274,
-   "peak": 0.0002274,
-   "cost": 0.49710899693932636,
-   "opened": "2026-11-14T04:02:49+07:00",
    "zoo": "mom1h",
    "smart": 5,
    "kol": 0,
@@ -593,8 +554,44 @@
    "sym": "DJT",
    "price": 0.0002274,
    "usd": 0.4971
+  },
+  {
+   "t": "2026-11-14T04:06:59+07:00",
+   "kind": "sell",
+   "mint": "3R91w5vktaJYQxjBo8tzsR66pBYhq9tgWsAynXfBpump",
+   "sym": "Burn",
+   "price": 1.207e-05,
+   "usd": 0.375,
+   "pnl": -0.128,
+   "why": "stop -20.8%",
+   "smart": 4,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:06:59+07:00",
+   "kind": "sell",
+   "mint": "5LEGND95QBhYtQecbyak9HzYeq2SeJL8YwDsX8PLpump",
+   "sym": "BBTB",
+   "price": 0.0001922,
+   "usd": 0.3767,
+   "pnl": -0.1234,
+   "why": "stop -20.0%",
+   "smart": 96,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:06:59+07:00",
+   "kind": "sell",
+   "mint": "6kRSNnusHuWtL218UDQCF6Jg6H4RZPgJE55QHoFZpump",
+   "sym": "DJT",
+   "price": 0.000164,
+   "usd": 0.3375,
+   "pnl": -0.1596,
+   "why": "stop -27.9%",
+   "smart": 5,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: พุ่งแรง 1 ชม. เกิน +100%",
- "rank_t": 1794603741.795694
+ "rank_t": 1794604003.9862692
 }

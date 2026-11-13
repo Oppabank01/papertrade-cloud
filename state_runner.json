@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.7968890329057774,
+ "cash": 2.607137904246396,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 54.202965232231236,
    "entry": 0.04342,
-   "last": 0.04722,
+   "last": 0.04685,
    "peak": 0.04987,
    "cost": 2.4257810249262834,
    "opened": "2026-11-13T12:21:03+07:00",
@@ -29,21 +29,10 @@
    "sym": "USELESS",
    "qty": 12.94771045982782,
    "entry": 0.134,
-   "last": 0.1276,
+   "last": 0.1266,
    "peak": 0.1352,
    "cost": 1.7882840668078004,
    "opened": "2026-11-13T21:57:56+07:00",
-   "source": "agents",
-   "miss": 0
-  },
-  "FS8ZSohYyG5tNm1ZAHzpvRgK2tJsCLSCDYX4xigNpump": {
-   "sym": "250",
-   "qty": 30769.31461477862,
-   "entry": 5.341e-05,
-   "last": 6.725e-05,
-   "peak": 7.959e-05,
-   "cost": 1.6938663096014492,
-   "opened": "2026-11-13T22:44:15+07:00",
    "source": "agents",
    "miss": 0
   }
@@ -365,6 +354,18 @@
    "sym": "250",
    "price": 5.341e-05,
    "usd": 1.6939
+  },
+  {
+   "t": "2026-11-14T04:06:55+07:00",
+   "kind": "sell",
+   "mint": "FS8ZSohYyG5tNm1ZAHzpvRgK2tJsCLSCDYX4xigNpump",
+   "sym": "250",
+   "price": 6.064e-05,
+   "usd": 1.8102,
+   "pnl": 0.1164,
+   "why": "trailing จากยอด +49% (+13.5%)",
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",
