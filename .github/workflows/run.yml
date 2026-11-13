@@ -8,10 +8,11 @@ concurrency:
   cancel-in-progress: false
 permissions:
   contents: write
+  actions: write   # lets a run dispatch the next one (GitHub's own scheduler never fired for this repo)
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -32,3 +33,10 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -q -m "paper state $(date -u +%FT%TZ)"
           for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
+      - name: chain next run in ~5 min
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sleep 210
+          gh workflow run papertrade -R ${{ github.repository }}
