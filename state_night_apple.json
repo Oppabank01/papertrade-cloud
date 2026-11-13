@@ -77,33 +77,32 @@
    "sym": "WIZARDIO",
    "price": 4.641e-05,
    "usd": 4.075
+  },
+  {
+   "t": "2026-11-13T21:59:09+07:00",
+   "kind": "sell",
+   "mint": "EcFqNvSqKuHEm5UxMpCHzgJcKdK8wLydvtP44b1cpump",
+   "sym": "WIZARDIO",
+   "price": 1.865e-06,
+   "usd": 0.1541,
+   "pnl": -3.9208,
+   "why": "stop -96.0%",
+   "smart": null,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T21:59:09+07:00",
+   "kind": "sell",
+   "mint": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
+   "sym": "TROLL",
+   "price": 0.02735,
+   "usd": 7.7395,
+   "pnl": -0.5429,
+   "why": "ชนเพดานขาดทุนคืนนี้"
   }
  ],
- "pos": {
-  "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
-   "sym": "TROLL",
-   "qty": 291.67059377528915,
-   "entry": 0.02755,
-   "last": 0.02698,
-   "peak": 0.02764,
-   "cost": 8.282338547216261,
-   "opened": "2026-11-13T21:28:41+07:00",
-   "source": "state_recipe_smart4.json",
-   "miss": 0
-  },
-  "EcFqNvSqKuHEm5UxMpCHzgJcKdK8wLydvtP44b1cpump": {
-   "sym": "WIZARDIO",
-   "qty": 85186.74071477026,
-   "entry": 4.641e-05,
-   "last": 5.489e-05,
-   "peak": 5.489e-05,
-   "cost": 4.074950151074508,
-   "opened": "2026-11-13T21:51:26+07:00",
-   "source": "state_recipe_insider.json",
-   "miss": 0
-  }
- },
- "cash": 0.0,
+ "pos": {},
+ "cash": 7.893609303653825,
  "start_usd": 14.766686355581808,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
@@ -170,6 +169,7 @@
  "session": {
   "night": "2026-11-13",
   "t": "2026-11-13T21:03:13+07:00",
-  "start_usd": 14.766686355581808
+  "start_usd": 14.766686355581808,
+  "halted": "ชนเพดานขาดทุนคืนนี้ -45%"
  }
 }
