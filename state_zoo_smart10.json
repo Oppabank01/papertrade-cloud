@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.1007439737807045,
+ "cash": 0.6309713764921518,
  "pos": {
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
    "qty": 441.43921177316463,
    "entry": 0.001243,
-   "last": 0.00139,
+   "last": 0.001299,
    "peak": 0.00139,
    "cost": 0.565562708961084,
    "opened": "2026-11-14T04:11:11+07:00",
@@ -20,7 +20,7 @@
    "sym": "PIRATE",
    "qty": 645.7486444537734,
    "entry": 0.0002687,
-   "last": 0.0002921,
+   "last": 0.0002894,
    "peak": 0.0003256,
    "cost": 0.17884215704465978,
    "opened": "2026-11-14T04:11:11+07:00",
@@ -33,13 +33,26 @@
    "sym": "Ground",
    "qty": 6504.6729285545325,
    "entry": 6.486e-05,
-   "last": 6.855e-05,
-   "peak": 7.295e-05,
+   "last": 9.599e-05,
+   "peak": 9.599e-05,
    "cost": 0.4348516657864842,
    "opened": "2026-11-14T04:41:15+07:00",
    "zoo": "smart10",
    "smart": 15,
    "kol": 0,
+   "miss": 0
+  },
+  "9ELbLEniMY2B8jgZ1KdwLVPgRcr1HS3wXM9HkiRDpump": {
+   "sym": "DOOMSDAY",
+   "qty": 10882.840828303577,
+   "entry": 4.188e-05,
+   "last": 4.188e-05,
+   "peak": 4.188e-05,
+   "cost": 0.4697725972885527,
+   "opened": "2026-11-14T04:49:48+07:00",
+   "zoo": "smart10",
+   "smart": 61,
+   "kol": 5,
    "miss": 0
   }
  },
@@ -812,8 +825,16 @@
    "why": "trailing จากยอด +88% (+44.2%)",
    "smart": 48,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:49:48+07:00",
+   "kind": "buy",
+   "mint": "9ELbLEniMY2B8jgZ1KdwLVPgRcr1HS3wXM9HkiRDpump",
+   "sym": "DOOMSDAY",
+   "price": 4.188e-05,
+   "usd": 0.4698
   }
  ],
  "label": "สวนสัตว์: smart wallet 10 ขึ้นไป",
- "rank_t": 1794606310.1408715
+ "rank_t": 1794606574.8075125
 }

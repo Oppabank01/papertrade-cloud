@@ -1,32 +1,32 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.251527840861857,
+ "cash": 2.273641344686598,
  "pos": {
-  "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": {
-   "sym": "AURA",
-   "qty": 14392.95686846328,
-   "entry": 5.049e-05,
-   "last": 7.272e-05,
-   "peak": 7.96e-05,
-   "cost": 0.7490212247873748,
-   "opened": "2026-11-14T04:36:38+07:00",
-   "smart": 48,
-   "kol": 1,
-   "bundler": 0.1981,
-   "miss": 0
-  },
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
    "sym": "STANK",
    "qty": 296.53910424904365,
    "entry": 0.002436,
-   "last": 0.00242,
+   "last": 0.002357,
    "peak": 0.002436,
    "cost": 0.744557058287642,
    "opened": "2026-11-14T04:36:45+07:00",
    "smart": 74,
    "kol": 1,
    "bundler": 0.1327,
+   "miss": 0
+  },
+  "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
+   "sym": "Max",
+   "qty": 427.911829695765,
+   "entry": 0.001821,
+   "last": 0.001848,
+   "peak": 0.001848,
+   "cost": 0.8031616593238384,
+   "opened": "2026-11-14T04:49:41+07:00",
+   "smart": 447,
+   "kol": 42,
+   "bundler": 0.5523,
    "miss": 0
   }
  },
@@ -8156,6 +8156,59 @@
    "buy": 0.8124,
    "bull": 0.9161,
    "bear": 0.9666
+  },
+  {
+   "t": "2026-11-14T04:49:40+07:00",
+   "kind": "debate",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "ok": false,
+   "bundler": 0.02,
+   "buy": 0.865,
+   "bull": 0.918,
+   "bear": 0.9996
+  },
+  {
+   "t": "2026-11-14T04:49:41+07:00",
+   "kind": "debate",
+   "mint": "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump",
+   "sym": "Max",
+   "ok": true,
+   "bundler": 0.5523,
+   "buy": 0.8627,
+   "bull": 0.9214,
+   "bear": 0.0005
+  },
+  {
+   "t": "2026-11-14T04:49:41+07:00",
+   "kind": "buy",
+   "mint": "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump",
+   "sym": "Max",
+   "price": 0.001821,
+   "usd": 0.8032
+  },
+  {
+   "t": "2026-11-14T04:49:43+07:00",
+   "kind": "debate",
+   "mint": "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump",
+   "sym": "BAWSAQ",
+   "ok": false,
+   "bundler": 0.2111,
+   "buy": 0.9722,
+   "bull": 0.8185,
+   "bear": 0.9938
+  },
+  {
+   "t": "2026-11-14T04:49:43+07:00",
+   "kind": "sell",
+   "mint": "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump",
+   "sym": "AURA",
+   "price": 5.91e-05,
+   "usd": 0.8253,
+   "pnl": 0.0763,
+   "why": "trailing จากยอด +58% (+17.1%)",
+   "smart": 48,
+   "bundler": 0.1981
   }
  ]
 }

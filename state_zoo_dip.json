@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 7.5351378242337566,
+ "cash": 5.536732370146911,
  "pos": {
   "BGQqYLTCRHBK3CSosCNq5G6MsGYL2iZ2amsSsF4Tpump": {
    "sym": "ESTR",
@@ -14,6 +14,19 @@
    "zoo": "dip",
    "smart": 5,
    "kol": 0,
+   "miss": 0
+  },
+  "HMTwjQPHbf82woGKMwDyPHAxgpwVj4boFQPMwk5Bpump": {
+   "sym": "Blackout",
+   "qty": 28038.365459942986,
+   "entry": 6.915e-05,
+   "last": 6.914e-05,
+   "peak": 6.915e-05,
+   "cost": 1.9984054540868457,
+   "opened": "2026-11-14T04:49:47+07:00",
+   "zoo": "dip",
+   "smart": 87,
+   "kol": 5,
    "miss": 0
   }
  },
@@ -890,8 +903,16 @@
    "why": "stop -38.4%",
    "smart": 56,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:49:47+07:00",
+   "kind": "buy",
+   "mint": "HMTwjQPHbf82woGKMwDyPHAxgpwVj4boFQPMwk5Bpump",
+   "sym": "Blackout",
+   "price": 6.915e-05,
+   "usd": 1.9984
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794606310.1408715
+ "rank_t": 1794606574.8075125
 }
