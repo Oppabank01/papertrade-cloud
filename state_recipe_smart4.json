@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.8055242534100303,
+ "cash": 0.1057408194311854,
  "pos": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 291.53454310830216,
    "entry": 0.003788,
-   "last": 0.003568,
+   "last": 0.003542,
    "peak": 0.003867,
    "cost": 1.1382527822039255,
    "opened": "2026-11-14T01:57:13+07:00",
@@ -19,7 +19,7 @@
    "sym": "OTC",
    "qty": 375.9914257841518,
    "entry": 0.002377,
-   "last": 0.002343,
+   "last": 0.002386,
    "peak": 0.002388,
    "cost": 0.921182868572386,
    "opened": "2026-11-14T03:10:35+07:00",
@@ -31,12 +31,24 @@
    "sym": "PUSSY",
    "qty": 3290.369646619106,
    "entry": 0.0002169,
-   "last": 0.0002347,
+   "last": 0.0002221,
    "peak": 0.0002501,
    "cost": 0.7356021195131768,
    "opened": "2026-11-14T04:06:56+07:00",
    "smart": 250,
    "kol": 15,
+   "miss": 0
+  },
+  "9ELbLEniMY2B8jgZ1KdwLVPgRcr1HS3wXM9HkiRDpump": {
+   "sym": "DOOMSDAY",
+   "qty": 11744.159966204383,
+   "entry": 5.781e-05,
+   "last": 5.781e-05,
+   "peak": 5.781e-05,
+   "cost": 0.6997834339788449,
+   "opened": "2026-11-14T04:41:12+07:00",
+   "smart": 58,
+   "kol": 5,
    "miss": 0
   }
  },
@@ -1209,8 +1221,16 @@
    "why": "trailing จากยอด +32% (+4.7%)",
    "smart": 104,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:41:12+07:00",
+   "kind": "buy",
+   "mint": "9ELbLEniMY2B8jgZ1KdwLVPgRcr1HS3wXM9HkiRDpump",
+   "sym": "DOOMSDAY",
+   "price": 5.781e-05,
+   "usd": 0.6998
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794605786.1794121
+ "rank_t": 1794606058.46531
 }
