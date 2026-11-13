@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.0848804539909613,
+ "cash": 1.106919005245111,
  "pos": {
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
@@ -13,6 +13,19 @@
    "opened": "2026-11-14T00:53:25+07:00",
    "zoo": "runwide",
    "smart": 0,
+   "kol": 0,
+   "miss": 0
+  },
+  "ttwocSxKgj4NpQEUzBaFzLxEFzVdLytUbLsnnjGew9v": {
+   "sym": "SHARKBUX",
+   "qty": 2046.6311423063505,
+   "entry": 0.0004636,
+   "last": 0.0004753,
+   "peak": 0.0004753,
+   "cost": 0.9779614487458504,
+   "opened": "2026-11-14T06:49:51+07:00",
+   "zoo": "runwide",
+   "smart": 10,
    "kol": 0,
    "miss": 0
   }
@@ -310,8 +323,16 @@
    "why": "stop -15.3%",
    "smart": 9,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T06:49:51+07:00",
+   "kind": "buy",
+   "mint": "ttwocSxKgj4NpQEUzBaFzLxEFzVdLytUbLsnnjGew9v",
+   "sym": "SHARKBUX",
+   "price": 0.0004636,
+   "usd": 0.978
   }
  ],
  "label": "สวนสัตว์: ปล่อยวิ่ง trail 30/25 ถือ 24 ชม.",
- "rank_t": 1794613516.5313947
+ "rank_t": 1794613766.3845568
 }

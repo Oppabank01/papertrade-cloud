@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.284620293136098,
+ "cash": 1.0264385912208305,
  "pos": {
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
    "qty": 305.36690203612386,
    "entry": 0.002283,
-   "last": 0.002302,
+   "last": 0.002223,
    "peak": 0.002302,
    "cost": 0.7185659012043607,
    "opened": "2026-11-14T06:41:21+07:00",
@@ -16,17 +16,17 @@
    "kol": 28,
    "miss": 0
   },
-  "HP7VzKRfL6QbQVbqddSFkFy9NwrbEveewz3sqdgLL6VZ": {
-   "sym": "LHX",
-   "qty": 60291.27519833932,
-   "entry": 1.227e-05,
-   "last": 1.227e-05,
-   "peak": 1.227e-05,
-   "cost": 0.7624963375423865,
-   "opened": "2026-11-14T06:45:35+07:00",
+  "847WX2V6HVA5tzoEYXUvvaHYi2ieBxhYVqpEkYHipump": {
+   "sym": "CYBERFINE",
+   "qty": 28888.55851142971,
+   "entry": 1.821e-05,
+   "last": 1.782e-05,
+   "peak": 1.821e-05,
+   "cost": 0.5422187698341939,
+   "opened": "2026-11-14T06:49:49+07:00",
    "zoo": "dip",
-   "smart": 12,
-   "kol": 0,
+   "smart": 15,
+   "kol": 1,
    "miss": 0
   }
  },
@@ -1411,8 +1411,48 @@
    "why": "stop -39.3%",
    "smart": 7,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T06:49:49+07:00",
+   "kind": "buy",
+   "mint": "J4MsEuqfAnCFAE1E7zfN1MrK7X1msFHtGFTySXi2pump",
+   "sym": "BC",
+   "price": 4.464e-05,
+   "usd": 0.5455
+  },
+  {
+   "t": "2026-11-14T06:49:49+07:00",
+   "kind": "buy",
+   "mint": "847WX2V6HVA5tzoEYXUvvaHYi2ieBxhYVqpEkYHipump",
+   "sym": "CYBERFINE",
+   "price": 1.821e-05,
+   "usd": 0.5422
+  },
+  {
+   "t": "2026-11-14T06:49:49+07:00",
+   "kind": "sell",
+   "mint": "HP7VzKRfL6QbQVbqddSFkFy9NwrbEveewz3sqdgLL6VZ",
+   "sym": "LHX",
+   "price": 7.346e-06,
+   "usd": 0.4297,
+   "pnl": -0.3328,
+   "why": "stop -40.1%",
+   "smart": 12,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T06:49:49+07:00",
+   "kind": "sell",
+   "mint": "J4MsEuqfAnCFAE1E7zfN1MrK7X1msFHtGFTySXi2pump",
+   "sym": "BC",
+   "price": 3.476e-05,
+   "usd": 0.3998,
+   "pnl": -0.1457,
+   "why": "stop -22.1%",
+   "smart": 35,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794613516.5313947
+ "rank_t": 1794613766.3845568
 }

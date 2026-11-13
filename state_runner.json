@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.300654382856278,
+ "cash": 0.7172969254961272,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 54.202965232231236,
    "entry": 0.04342,
-   "last": 0.04531,
+   "last": 0.04532,
    "peak": 0.04987,
    "cost": 2.4257810249262834,
    "opened": "2026-11-13T12:21:03+07:00",
@@ -18,7 +18,7 @@
    "sym": "NIO",
    "qty": 676.7407799845907,
    "entry": 0.002364,
-   "last": 0.00228,
+   "last": 0.002207,
    "peak": 0.002829,
    "cost": 1.648954034099745,
    "opened": "2026-11-14T06:24:10+07:00",
@@ -29,10 +29,21 @@
    "sym": "FLOAT",
    "qty": 655.810044974538,
    "entry": 0.002435,
-   "last": 0.002466,
+   "last": 0.002343,
    "peak": 0.002466,
    "cost": 1.6459466702875696,
    "opened": "2026-11-14T06:32:32+07:00",
+   "source": "agents",
+   "miss": 0
+  },
+  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
+   "sym": "GTA6",
+   "qty": 212.91384686497827,
+   "entry": 0.007215,
+   "last": 0.007246,
+   "peak": 0.007246,
+   "cost": 1.5833574573601508,
+   "opened": "2026-11-14T06:49:45+07:00",
    "source": "agents",
    "miss": 0
   }
@@ -506,6 +517,14 @@
    "why": "trailing จากยอด +89% (+46.9%)",
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T06:49:45+07:00",
+   "kind": "buy",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.007215,
+   "usd": 1.5834
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",
@@ -574,6 +593,7 @@
   "state_agents.json:2026-11-14T05:58:10+07:00:7FxGzQZjdxL87R9hTvtghmtn1vCUc79oVvKiV31azZrQ",
   "state_agents.json:2026-11-14T06:15:36+07:00:CPV5kijeSj5ns5vWgH7attMfhKGQLaen2wXeqCDjpump",
   "state_agents.json:2026-11-14T06:24:04+07:00:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
-  "state_agents.json:2026-11-14T06:32:29+07:00:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr"
+  "state_agents.json:2026-11-14T06:32:29+07:00:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+  "state_agents.json:2026-11-14T06:49:44+07:00:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz"
  ]
 }
