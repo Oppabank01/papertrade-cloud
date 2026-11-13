@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.7131642350444183,
+ "cash": 0.2389077501041823,
  "pos": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 81.3287782058539,
    "entry": 0.007266,
-   "last": 0.007246,
+   "last": 0.007254,
    "peak": 0.007383,
    "cost": 0.6090856549615898,
    "opened": "2026-11-14T04:53:55+07:00",
@@ -33,6 +33,17 @@
    "peak": 0.001955,
    "cost": 0.5566921273962934,
    "opened": "2026-11-14T05:32:18+07:00",
+   "source": "agents",
+   "miss": 0
+  },
+  "BDDdnX85YSmqDNHTyHjktmUd8ZzGLyXiWMAT1FLppump": {
+   "sym": "SWJ",
+   "qty": 3408.323271770496,
+   "entry": 0.000135,
+   "last": 0.0001394,
+   "peak": 0.0001394,
+   "cost": 0.474256484940236,
+   "opened": "2026-11-14T06:54:02+07:00",
    "source": "agents",
    "miss": 0
   }
@@ -1426,6 +1437,14 @@
    "why": "stop -48.1%",
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T06:54:02+07:00",
+   "kind": "buy",
+   "mint": "BDDdnX85YSmqDNHTyHjktmUd8ZzGLyXiWMAT1FLppump",
+   "sym": "SWJ",
+   "price": 0.000135,
+   "usd": 0.4743
   }
  ],
  "label": "เร็ว ไม่มี laya",
@@ -2172,6 +2191,10 @@
   "state_agents.json:2026-11-14T06:49:36+07:00:6EHTywfoXpDNhL4JGkeYUhiL6mumpmD7j8ByjQaXpump",
   "state_agents.json:2026-11-14T06:49:39+07:00:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
   "state_agents.json:2026-11-14T06:49:41+07:00:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
-  "state_agents.json:2026-11-14T06:49:44+07:00:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz"
+  "state_agents.json:2026-11-14T06:49:44+07:00:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+  "state_agents.json:2026-11-14T06:53:54+07:00:BDDdnX85YSmqDNHTyHjktmUd8ZzGLyXiWMAT1FLppump",
+  "state_agents.json:2026-11-14T06:53:56+07:00:5mQhQ97wN1cjcZTedLUzkxgHr94MdfmsGq93e1S7pump",
+  "state_agents.json:2026-11-14T06:53:58+07:00:4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump",
+  "state_agents.json:2026-11-14T06:54:00+07:00:m7SihqeaWimE1zpBzjHBwKJbbhuaczX5fHvGoNupump"
  ]
 }

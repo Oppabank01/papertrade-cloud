@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.0598645700480644,
+ "cash": 1.2977593578293498,
  "pos": {
   "7f12HytX17fyBAoaJMdtHWZatNDeaJuXZTxPncL8pump": {
    "sym": "TEDDY",
@@ -13,18 +13,6 @@
    "opened": "2026-11-14T05:11:03+07:00",
    "smart": 5,
    "kol": 0,
-   "miss": 0
-  },
-  "3j6wuvwdbT7JWfoquZc6sgmJQi3SJTj8usRciDgmpump": {
-   "sym": "AIRPLANE",
-   "qty": 13884.586719419065,
-   "entry": 2.468e-05,
-   "last": 2.772e-05,
-   "peak": 2.772e-05,
-   "cost": 0.3531968668679268,
-   "opened": "2026-11-14T06:49:46+07:00",
-   "smart": 10,
-   "kol": 1,
    "miss": 0
   }
  },
@@ -629,8 +617,20 @@
    "sym": "AIRPLANE",
    "price": 2.468e-05,
    "usd": 0.3532
+  },
+  {
+   "t": "2026-11-14T06:54:03+07:00",
+   "kind": "sell",
+   "mint": "3j6wuvwdbT7JWfoquZc6sgmJQi3SJTj8usRciDgmpump",
+   "sym": "AIRPLANE",
+   "price": 1.766e-05,
+   "usd": 0.2379,
+   "pnl": -0.1153,
+   "why": "stop -28.4%",
+   "smart": 10,
+   "bundler": null
   }
  ],
  "label": "สูตร x_insider4 (คู่ใหม่ + top trader)",
- "rank_t": 1794613766.3845568
+ "rank_t": 1794614028.273252
 }
