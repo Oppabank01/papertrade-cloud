@@ -1,8 +1,22 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 9.781875727504433,
- "pos": {},
+ "cash": 7.825500582003547,
+ "pos": {
+  "HFcyhe28iLYRhac2W5FBdtDGFunWDJesCR7f6EZJpump": {
+   "sym": "MRPENIS",
+   "qty": 18499.757954824174,
+   "entry": 0.0001026,
+   "last": 0.0001026,
+   "peak": 0.0001026,
+   "cost": 1.9563751455008866,
+   "opened": "2026-11-14T01:31:25+07:00",
+   "wallet": "FqJMNz",
+   "wallet_usd": 750,
+   "lag_min": 3.6,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T10:36:33+07:00",
@@ -619,18 +633,53 @@
    "wallet": "FqJMNz",
    "usd": 300,
    "why": "liq $0"
+  },
+  {
+   "t": "2026-11-14T01:31:25+07:00",
+   "kind": "buy",
+   "mint": "HFcyhe28iLYRhac2W5FBdtDGFunWDJesCR7f6EZJpump",
+   "sym": "MRPENIS",
+   "price": 0.0001026,
+   "usd": 1.9564
+  },
+  {
+   "t": "2026-11-14T01:31:25+07:00",
+   "kind": "skip",
+   "mint": "HFcyhe28iLYRhac2W5FBdtDGFunWDJesCR7f6EZJpump",
+   "sym": "MRPENIS",
+   "wallet": "FqJMNz",
+   "usd": 200,
+   "why": "repeat"
+  },
+  {
+   "t": "2026-11-14T01:31:25+07:00",
+   "kind": "skip",
+   "mint": "mHW5NCh2Kh5GAgnxXX6LFgQo5eDuGRXi5wWdKWHpump",
+   "sym": "setulushati",
+   "wallet": "FqJMNz",
+   "usd": 300,
+   "why": "liq $0"
+  },
+  {
+   "t": "2026-11-14T01:31:26+07:00",
+   "kind": "skip",
+   "mint": "3vKbL9MU2u6x7KAma4o8utbZDm8hBZm1k9QojSxKpump",
+   "sym": "LONGURO",
+   "wallet": "FqJMNz",
+   "usd": 300,
+   "why": "liq $0"
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ ผ่าน Helius",
  "cursor": {
-  "FqJMNzzY1DHz2F1Pt6F7VqCxBWdu8cK2TbfTrYT9zQbT": "4ryz5EDvNPtcPgRKxxCxSnA8HDkMkf9BLgR1JNvqM5PfuyC3ng9FdYZvafS39J5DcW4iGwYKkLHhrYNRDw411KU7",
+  "FqJMNzzY1DHz2F1Pt6F7VqCxBWdu8cK2TbfTrYT9zQbT": "5JTXGm8rt6SppUvMmVmdjSJA9PfbJzyeDadZeJXcnasJ8NSWjmUsaQ9fxM6SaDiWAhodYcG3cLXLNoXxmM8PpJVo",
   "2kN7bb7sVKn4iBWDMpo8aAVyyQxAVpZATQ7RRkmoy6Mm": "5sZK1REkmSDpZ2AAq5Mgb253Cs2WXHE3rxUuA6ZstcTyzWp37gnwW4yg2fJcMZPE2eFU4jvnp4RbeK8ePDkTRy9K",
   "7NnaXghjuU92gM9kmwXysqa5HboyZuR2LTaBnvazFxSH": "3J8SRDwc2np4Jrzq7FCB9kGhfzTdXeyd1EKMmRTQiZpXW3dHERRbKZFeWjqLZB2wnUCmzrpcLP64EKrqPTEBPn5V",
   "7g5CJ754NboeY6D44MDdGwQmVX4Fvu59Q47c9ZKLPMkE": "5GYULcrpodUYNmSufJ5SHAVDSAE5U1h1An8rYxbCxpn4eRfcgV2JaevsJMzYfRukiaxhtqVSvY2KMoFqPtMa2LDj",
   "8emnM6nfVM2ePrYDmZcMkwy8qzDhRFZ5EefCkMsmgByX": "5RyyxcZe19oqy27hSMAA1VbZAciECezSuinhx73gGU3Jo75gkU9B12gXBZvhkFpgwKNTiKXFUa1QGW69kvKgd5iU",
   "ENskGQev2bXPjaCYPV9bUcPLv3635Y18BWzLN95x4soC": "3eyzoTsWS9ZZSZTBcPuHkYHqT5h84LpXpAKFvBLPgGb4n13kXBTWsQne1RPaw3yhE1AfWt9uwsL4uCND58bLzeMn",
-  "chudc2GnxyW2V7nmLA9bkrzFmKkvPyTfN7V7Uu6XG6o": "4yUKZeJULZWXmbxGkUtXsaQhwvVSAAFTKbJUFwj9uCPWdVz41saofXAQLkY7PPcuxfZKSFsv8wXn4pcL7nqJBLoK",
-  "8XzVYjjVdpDoD3zBtXqMiMBRNj7eMhayr8DyWZQiRgs8": "4Gp5kG5uFZAX55pznj1t75FQi1PuZVxDC8GZAqtymCYfNpFP1UmEmS4eqFXKgndyhc3jHS6W8QBa4T6Yme9RZDxX",
+  "chudc2GnxyW2V7nmLA9bkrzFmKkvPyTfN7V7Uu6XG6o": "2867ETV5oZ1AriM7PovjCmZxaMEcpAzhxjaRFsZjqYmWVUWNPJAVVB87VBUzJtHLeJjeNAaVQcTfmK6zVf8iHv8H",
+  "8XzVYjjVdpDoD3zBtXqMiMBRNj7eMhayr8DyWZQiRgs8": "rjUo6muNeV7JUff4qaZC5yF7WrEPECV2v2tM4dH6m6ahiHC7ytJkW4VvRkz87uDvRd6Ucaf489d3DJrETRgpXXy",
   "a8UJuWKvWwQTtYbEVzA5b7SYF5j92guqJdwMY428jZN": "4FYmLfGHNVrYDqkXgwPrc6o6rzX6Xtjqj9KRCp7JKnEa394tvhN8Nf7DPJDmyPsPptmhKZpAWEszGTQPR3VjuDac",
   "A9svdtSzTnMBRFWYMtu4u4gQikU4XJCZaQ9h3nijWmP2": "4umF2U3SN3HeNHgBBhv5aWShVrL7oLxpi8tWPhyTQVUF3HcYen4shu3CzWj7LWvmYixRXXGthr63hb6ZW8vnzM1W"
  }

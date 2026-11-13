@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.285371111301375,
+ "cash": 2.8784461223411,
  "pos": {
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
@@ -16,17 +16,17 @@
    "kol": 0,
    "miss": 0
   },
-  "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": {
-   "sym": "BAWSAQ",
-   "qty": 19911.802052445426,
-   "entry": 5.908e-05,
-   "last": 0.0001962,
-   "peak": 0.0001962,
-   "cost": 1.212522433785277,
-   "opened": "2026-11-14T01:18:40+07:00",
+  "DzFftAYHszHZThtyC7CSRgN5eDvgyK9DUPm3z2o5pump": {
+   "sym": "JENSEN",
+   "qty": 13953.978428830635,
+   "entry": 8.937e-05,
+   "last": 8.937e-05,
+   "peak": 8.937e-05,
+   "cost": 1.285371111301375,
+   "opened": "2026-11-14T01:31:28+07:00",
    "zoo": "mom1h",
-   "smart": 30,
-   "kol": 3,
+   "smart": 4,
+   "kol": 0,
    "miss": 0
   }
  },
@@ -271,8 +271,28 @@
    "why": "stop -8.8%",
    "smart": 4,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:31:28+07:00",
+   "kind": "buy",
+   "mint": "DzFftAYHszHZThtyC7CSRgN5eDvgyK9DUPm3z2o5pump",
+   "sym": "JENSEN",
+   "price": 8.937e-05,
+   "usd": 1.2854
+  },
+  {
+   "t": "2026-11-14T01:31:28+07:00",
+   "kind": "sell",
+   "mint": "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump",
+   "sym": "BAWSAQ",
+   "price": 0.000149,
+   "usd": 2.8784,
+   "pnl": 1.6659,
+   "why": "trailing จากยอด +232% (+152.2%)",
+   "smart": 30,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: พุ่งแรง 1 ชม. เกิน +100%",
- "rank_t": 1794594412.7073026
+ "rank_t": 1794594667.132806
 }

@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 4.875212713825981,
+ "cash": 2.6398132310012383,
  "pos": {
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 4218.672832138303,
    "entry": 0.0006786,
-   "last": 0.0008289,
+   "last": 0.0008212,
    "peak": 0.0008289,
    "cost": 2.950722927117144,
    "opened": "2026-11-14T00:45:44+07:00",
@@ -26,6 +26,19 @@
    "opened": "2026-11-14T00:53:24+07:00",
    "zoo": "safe",
    "smart": 0,
+   "kol": 0,
+   "miss": 0
+  },
+  "DzFftAYHszHZThtyC7CSRgN5eDvgyK9DUPm3z2o5pump": {
+   "sym": "JENSEN",
+   "qty": 24267.47877628471,
+   "entry": 8.937e-05,
+   "last": 8.937e-05,
+   "peak": 8.937e-05,
+   "cost": 2.2353994828247425,
+   "opened": "2026-11-14T01:31:29+07:00",
+   "zoo": "safe",
+   "smart": 4,
    "kol": 0,
    "miss": 0
   }
@@ -111,8 +124,16 @@
    "why": "stop -11.9%",
    "smart": 30,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T01:31:29+07:00",
+   "kind": "buy",
+   "mint": "DzFftAYHszHZThtyC7CSRgN5eDvgyK9DUPm3z2o5pump",
+   "sym": "JENSEN",
+   "price": 8.937e-05,
+   "usd": 2.2354
   }
  ],
  "label": "สวนสัตว์: ผ่านเช็กความปลอดภัยเข้ม",
- "rank_t": 1794594412.7073026
+ "rank_t": 1794594667.132806
 }
