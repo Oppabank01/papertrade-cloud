@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.0,
+ "cash": 0.1348803926163271,
  "pos": {
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
    "qty": 441.43921177316463,
    "entry": 0.001243,
-   "last": 0.001482,
+   "last": 0.001455,
    "peak": 0.001581,
    "cost": 0.565562708961084,
    "opened": "2026-11-14T04:11:11+07:00",
@@ -20,7 +20,7 @@
    "sym": "ANSEM",
    "qty": 8.269429669720697,
    "entry": 0.05031,
-   "last": 0.05034,
+   "last": 0.05038,
    "peak": 0.05056,
    "cost": 0.4288136535597282,
    "opened": "2026-11-14T05:11:08+07:00",
@@ -29,25 +29,12 @@
    "kol": 186,
    "miss": 0
   },
-  "Big1krPP8QUkgg5fsfEZQmeuwAViNajzAxNhNYvXaSS1": {
-   "sym": "BTC",
-   "qty": 4066.1973254076206,
-   "entry": 3.286e-05,
-   "last": 3.872e-05,
-   "peak": 4.215e-05,
-   "cost": 0.1377192786156405,
-   "opened": "2026-11-14T05:45:14+07:00",
-   "zoo": "smart10",
-   "smart": 51,
-   "kol": 0,
-   "miss": 0
-  },
   "44qqXe5keKWp9cBJG6n8ou3kEVG9NTCfzQtBH3sMpump": {
    "sym": "TTP",
    "qty": 18473.847852551105,
    "entry": 1.493e-05,
-   "last": 1.54e-05,
-   "peak": 1.54e-05,
+   "last": 1.983e-05,
+   "peak": 1.983e-05,
    "cost": 0.28428627956976704,
    "opened": "2026-11-14T05:54:01+07:00",
    "zoo": "smart10",
@@ -1013,8 +1000,20 @@
    "sym": "TTP",
    "price": 1.493e-05,
    "usd": 0.2843
+  },
+  {
+   "t": "2026-11-14T05:58:22+07:00",
+   "kind": "sell",
+   "mint": "Big1krPP8QUkgg5fsfEZQmeuwAViNajzAxNhNYvXaSS1",
+   "sym": "BTC",
+   "price": 3.419e-05,
+   "usd": 0.1349,
+   "pnl": -0.0028,
+   "why": "trailing จากยอด +28% (+4.0%)",
+   "smart": 51,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: smart wallet 10 ขึ้นไป",
- "rank_t": 1794610417.2596755
+ "rank_t": 1794610679.0303638
 }

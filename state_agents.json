@@ -1,19 +1,32 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.6809272182896864,
+ "cash": 2.0134121067547595,
  "pos": {
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
    "sym": "paws",
    "qty": 665.5669363317949,
    "entry": 0.000977,
-   "last": 0.0009866,
+   "last": 0.0009434,
    "peak": 0.0009878,
    "cost": 0.6702318045724217,
    "opened": "2026-11-14T05:45:08+07:00",
    "smart": 279,
    "kol": 15,
    "bundler": 0.1744,
+   "miss": 0
+  },
+  "7FxGzQZjdxL87R9hTvtghmtn1vCUc79oVvKiV31azZrQ": {
+   "sym": "NEVERDOOM",
+   "qty": 6361.720640581397,
+   "entry": 0.0001018,
+   "last": 0.0001018,
+   "peak": 0.0001018,
+   "cost": 0.667515111534927,
+   "opened": "2026-11-14T05:58:10+07:00",
+   "smart": 33,
+   "kol": 2,
+   "bundler": 0.0443,
    "miss": 0
   }
  },
@@ -8831,6 +8844,47 @@
    "buy": 0.8325,
    "bull": 0.8709,
    "bear": 1.0
+  },
+  {
+   "t": "2026-11-14T05:58:06+07:00",
+   "kind": "debate",
+   "mint": "4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump",
+   "sym": "Speed",
+   "ok": false,
+   "bundler": 0.2398,
+   "buy": 0.8691,
+   "bull": 0.9231,
+   "bear": 0.9669
+  },
+  {
+   "t": "2026-11-14T05:58:09+07:00",
+   "kind": "debate",
+   "mint": "7FxGzQZjdxL87R9hTvtghmtn1vCUc79oVvKiV31azZrQ",
+   "sym": "NEVERDOOM",
+   "ok": true,
+   "bundler": 0.0443,
+   "buy": 0.8218,
+   "bull": 0.866,
+   "bear": 0.8046
+  },
+  {
+   "t": "2026-11-14T05:58:10+07:00",
+   "kind": "buy",
+   "mint": "7FxGzQZjdxL87R9hTvtghmtn1vCUc79oVvKiV31azZrQ",
+   "sym": "NEVERDOOM",
+   "price": 0.0001018,
+   "usd": 0.6675
+  },
+  {
+   "t": "2026-11-14T05:58:13+07:00",
+   "kind": "debate",
+   "mint": "BApgNbjD25PHFft8WNATeL6gwpFFucEn5VBg2VHDpump",
+   "sym": "KOSMIK",
+   "ok": false,
+   "bundler": 0.1832,
+   "buy": 0.9042,
+   "bull": 0.9217,
+   "bear": 0.9998
   }
  ]
 }

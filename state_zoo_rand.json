@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 4.078161503684728,
+ "cash": 4.417826114493549,
  "pos": {
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
    "qty": 1409.5348669141406,
    "entry": 0.001229,
-   "last": 0.001482,
+   "last": 0.001455,
    "peak": 0.001581,
    "cost": 1.785527057758688,
    "opened": "2026-11-14T04:06:58+07:00",
@@ -16,29 +16,29 @@
    "kol": 26,
    "miss": 0
   },
-  "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
-   "sym": "FOOD",
-   "qty": 2360.859341681879,
-   "entry": 0.000924,
-   "last": 0.001227,
-   "peak": 0.001333,
-   "cost": 2.248437468268456,
-   "opened": "2026-11-14T04:41:14+07:00",
-   "zoo": "rand",
-   "smart": 279,
-   "kol": 21,
-   "miss": 0
-  },
   "ErZcPNM8Zh2cY6qdvtEagBSg79SLixNdsMewg6mmpump": {
    "sym": "WWZ",
    "qty": 43626.98199007776,
    "entry": 5.06e-05,
-   "last": 4.995e-05,
-   "peak": 5.571e-05,
+   "last": 5.997e-05,
+   "peak": 5.997e-05,
    "cost": 2.27533012646664,
    "opened": "2026-11-14T05:45:12+07:00",
    "zoo": "rand",
    "smart": 5,
+   "kol": 0,
+   "miss": 0
+  },
+  "9h7V1dWCTc8tAjLTHva2ztV93yx59oY1yYmJfAwwpump": {
+   "sym": "NEVERGOON",
+   "qty": 133024.2916560289,
+   "entry": 1.64e-05,
+   "last": 2.144e-05,
+   "peak": 2.144e-05,
+   "cost": 2.2486068678199067,
+   "opened": "2026-11-14T05:58:20+07:00",
+   "zoo": "rand",
+   "smart": 2,
    "kol": 0,
    "miss": 0
   }
@@ -392,8 +392,28 @@
    "why": "ครบ 3 ชม. (+1.2%)",
    "smart": 287,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T05:58:20+07:00",
+   "kind": "buy",
+   "mint": "9h7V1dWCTc8tAjLTHva2ztV93yx59oY1yYmJfAwwpump",
+   "sym": "NEVERGOON",
+   "price": 1.64e-05,
+   "usd": 2.2486
+  },
+  {
+   "t": "2026-11-14T05:58:20+07:00",
+   "kind": "sell",
+   "mint": "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
+   "sym": "FOOD",
+   "price": 0.00113,
+   "usd": 2.5883,
+   "pnl": 0.3398,
+   "why": "trailing จากยอด +44% (+22.3%)",
+   "smart": 279,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794610417.2596755
+ "rank_t": 1794610679.0303638
 }

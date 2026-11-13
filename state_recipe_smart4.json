@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.17993050184842807,
+ "cash": 0.643451703937342,
  "pos": {
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": {
    "sym": "OTC",
    "qty": 375.9914257841518,
    "entry": 0.002377,
-   "last": 0.002349,
+   "last": 0.002368,
    "peak": 0.002388,
    "cost": 0.921182868572386,
    "opened": "2026-11-14T03:10:35+07:00",
@@ -19,7 +19,7 @@
    "sym": "ANSEM",
    "qty": 11.702493587133723,
    "entry": 0.05031,
-   "last": 0.05034,
+   "last": 0.05038,
    "peak": 0.05056,
    "cost": 0.6068361702419065,
    "opened": "2026-11-14T05:11:04+07:00",
@@ -37,18 +37,6 @@
    "opened": "2026-11-14T05:23:58+07:00",
    "smart": 159,
    "kol": 29,
-   "miss": 0
-  },
-  "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump": {
-   "sym": "plumber",
-   "qty": 4227.950464450482,
-   "entry": 0.0001244,
-   "last": 0.0001158,
-   "peak": 0.0001367,
-   "cost": 0.5421119746213564,
-   "opened": "2026-11-14T05:28:06+07:00",
-   "smart": 126,
-   "kol": 3,
    "miss": 0
   }
  },
@@ -1349,8 +1337,20 @@
    "sym": "plumber",
    "price": 0.0001244,
    "usd": 0.5421
+  },
+  {
+   "t": "2026-11-14T05:58:16+07:00",
+   "kind": "sell",
+   "mint": "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump",
+   "sym": "plumber",
+   "price": 0.000113,
+   "usd": 0.4635,
+   "pnl": -0.0786,
+   "why": "stop -9.2%",
+   "smart": 126,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794610417.2596755
+ "rank_t": 1794610679.0303638
 }

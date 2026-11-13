@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.147299212044556,
+ "cash": 0.5504769866298882,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 54.202965232231236,
    "entry": 0.04342,
-   "last": 0.04563,
+   "last": 0.04573,
    "peak": 0.04987,
    "cost": 2.4257810249262834,
    "opened": "2026-11-13T12:21:03+07:00",
@@ -29,10 +29,21 @@
    "sym": "paws",
    "qty": 1596.377314519808,
    "entry": 0.000977,
-   "last": 0.0009866,
+   "last": 0.0009434,
    "peak": 0.0009878,
    "cost": 1.607566106252167,
    "opened": "2026-11-14T05:45:09+07:00",
+   "source": "agents",
+   "miss": 0
+  },
+  "7FxGzQZjdxL87R9hTvtghmtn1vCUc79oVvKiV31azZrQ": {
+   "sym": "NEVERDOOM",
+   "qty": 15218.437358519752,
+   "entry": 0.0001018,
+   "last": 0.000102,
+   "peak": 0.000102,
+   "cost": 1.5968222254146678,
+   "opened": "2026-11-14T05:58:14+07:00",
    "source": "agents",
    "miss": 0
   }
@@ -426,6 +437,14 @@
    "sym": "paws",
    "price": 0.000977,
    "usd": 1.6076
+  },
+  {
+   "t": "2026-11-14T05:58:14+07:00",
+   "kind": "buy",
+   "mint": "7FxGzQZjdxL87R9hTvtghmtn1vCUc79oVvKiV31azZrQ",
+   "sym": "NEVERDOOM",
+   "price": 0.0001018,
+   "usd": 1.5968
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",
@@ -490,6 +509,7 @@
   "state_agents.json:2026-11-14T04:36:45+07:00:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
   "state_agents.json:2026-11-14T04:49:41+07:00:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump",
   "state_agents.json:2026-11-14T05:02:01+07:00:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
-  "state_agents.json:2026-11-14T05:45:08+07:00:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump"
+  "state_agents.json:2026-11-14T05:45:08+07:00:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
+  "state_agents.json:2026-11-14T05:58:10+07:00:7FxGzQZjdxL87R9hTvtghmtn1vCUc79oVvKiV31azZrQ"
  ]
 }
