@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 6.941527788443992,
+ "cash": 7.001844198542443,
  "pos": {
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 4218.672832138303,
    "entry": 0.0006786,
-   "last": 0.0007734,
+   "last": 0.000748,
    "peak": 0.0008452,
    "cost": 2.950722927117144,
    "opened": "2026-11-14T00:45:45+07:00",
@@ -26,19 +26,6 @@
    "opened": "2026-11-14T00:53:25+07:00",
    "zoo": "runwide",
    "smart": 0,
-   "kol": 0,
-   "miss": 0
-  },
-  "H2REP2i7Xra5jtdN81Hf4CPPRkbbNFaaFp9Gw9RZpump": {
-   "sym": "Nancy",
-   "qty": 803.8408032133796,
-   "entry": 6.301e-05,
-   "last": 0.0001148,
-   "peak": 0.0001373,
-   "cost": 0.052205740064393984,
-   "opened": "2026-11-14T01:53:11+07:00",
-   "zoo": "runwide",
-   "smart": 11,
    "kol": 0,
    "miss": 0
   }
@@ -172,8 +159,20 @@
    "why": "stop -96.2%",
    "smart": 3,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T02:23:56+07:00",
+   "kind": "sell",
+   "mint": "H2REP2i7Xra5jtdN81Hf4CPPRkbbNFaaFp9Gw9RZpump",
+   "sym": "Nancy",
+   "price": 7.734e-05,
+   "usd": 0.0603,
+   "pnl": 0.0081,
+   "why": "trailing จากยอด +118% (+22.7%)",
+   "smart": 11,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ปล่อยวิ่ง trail 30/25 ถือ 24 ชม.",
- "rank_t": 1794597557.3250504
+ "rank_t": 1794597814.9687068
 }
