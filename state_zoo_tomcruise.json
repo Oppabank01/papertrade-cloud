@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 4.126088988500879,
+ "cash": 3.3887639300740116,
  "pos": {
   "7f12HytX17fyBAoaJMdtHWZatNDeaJuXZTxPncL8pump": {
    "sym": "TEDDY",
@@ -33,13 +33,26 @@
    "sym": "PEACEFROG",
    "qty": 2592.1321272758237,
    "entry": 0.000277,
-   "last": 0.0002749,
-   "peak": 0.0002891,
+   "last": 0.0002894,
+   "peak": 0.0002894,
    "cost": 0.7400748291645054,
    "opened": "2026-11-14T06:02:59+07:00",
    "zoo": "tomcruise",
    "smart": 7,
    "kol": 1,
+   "miss": 0
+  },
+  "DcjQG6tceT5PSVbDggAj1ev6E4SYdGyNPppCggxqpump": {
+   "sym": "descend",
+   "qty": 8895.20979464992,
+   "entry": 8.042e-05,
+   "last": 8.042e-05,
+   "peak": 8.042e-05,
+   "cost": 0.7373250584268672,
+   "opened": "2026-11-14T06:24:15+07:00",
+   "zoo": "tomcruise",
+   "smart": 6,
+   "kol": 0,
    "miss": 0
   }
  },
@@ -392,8 +405,16 @@
    "sym": "PEACEFROG",
    "price": 0.000277,
    "usd": 0.7401
+  },
+  {
+   "t": "2026-11-14T06:24:15+07:00",
+   "kind": "buy",
+   "mint": "DcjQG6tceT5PSVbDggAj1ev6E4SYdGyNPppCggxqpump",
+   "sym": "descend",
+   "price": 8.042e-05,
+   "usd": 0.7373
   }
  ],
  "label": "สวนสัตว์: tomcruise 6 เอเจนต์: scanner rug check sizer ตามสภาพคล่อง",
- "rank_t": 1794611982.2321024
+ "rank_t": 1794612237.4266129
 }

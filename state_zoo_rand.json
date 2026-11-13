@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.0,
+ "cash": 1.5784697366594878,
  "pos": {
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
    "qty": 1409.5348669141406,
    "entry": 0.001229,
-   "last": 0.002151,
-   "peak": 0.00224,
+   "last": 0.002378,
+   "peak": 0.002378,
    "cost": 1.785527057758688,
    "opened": "2026-11-14T04:06:58+07:00",
    "zoo": "rand",
@@ -16,37 +16,11 @@
    "kol": 26,
    "miss": 0
   },
-  "ErZcPNM8Zh2cY6qdvtEagBSg79SLixNdsMewg6mmpump": {
-   "sym": "WWZ",
-   "qty": 43626.98199007776,
-   "entry": 5.06e-05,
-   "last": 7.062e-05,
-   "peak": 7.248e-05,
-   "cost": 2.27533012646664,
-   "opened": "2026-11-14T05:45:12+07:00",
-   "zoo": "rand",
-   "smart": 5,
-   "kol": 0,
-   "miss": 0
-  },
-  "Ac3TV6pUmnpArtEauZbsAKHgjL2kucNXqpVDeNygpump": {
-   "sym": "NEVERGOON",
-   "qty": 48386.57267971803,
-   "entry": 4.787e-05,
-   "last": 0.0001129,
-   "peak": 0.0001129,
-   "cost": 2.387410053780769,
-   "opened": "2026-11-14T06:02:57+07:00",
-   "zoo": "rand",
-   "smart": 5,
-   "kol": 0,
-   "miss": 0
-  },
   "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
    "sym": "WASTED",
    "qty": 1132.3178198861215,
    "entry": 0.001982,
-   "last": 0.001975,
+   "last": 0.001945,
    "peak": 0.001982,
    "cost": 2.3131868882851916,
    "opened": "2026-11-14T06:15:45+07:00",
@@ -453,8 +427,32 @@
    "sym": "WASTED",
    "price": 0.001982,
    "usd": 2.3132
+  },
+  {
+   "t": "2026-11-14T06:24:13+07:00",
+   "kind": "sell",
+   "mint": "ErZcPNM8Zh2cY6qdvtEagBSg79SLixNdsMewg6mmpump",
+   "sym": "WWZ",
+   "price": 3.553e-05,
+   "usd": 1.5039,
+   "pnl": -0.7715,
+   "why": "stop -29.8%",
+   "smart": 5,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T06:24:13+07:00",
+   "kind": "sell",
+   "mint": "Ac3TV6pUmnpArtEauZbsAKHgjL2kucNXqpVDeNygpump",
+   "sym": "NEVERGOON",
+   "price": 1.589e-06,
+   "usd": 0.0746,
+   "pnl": -2.3128,
+   "why": "stop -96.7%",
+   "smart": 5,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794611982.2321024
+ "rank_t": 1794612237.4266129
 }

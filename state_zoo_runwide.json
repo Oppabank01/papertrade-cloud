@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.3712930114586985,
+ "cash": 0.30697514498292944,
  "pos": {
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
@@ -14,6 +14,32 @@
    "zoo": "runwide",
    "smart": 0,
    "kol": 0,
+   "miss": 0
+  },
+  "DcjQG6tceT5PSVbDggAj1ev6E4SYdGyNPppCggxqpump": {
+   "sym": "descend",
+   "qty": 12489.352029647647,
+   "entry": 8.042e-05,
+   "last": 8.042e-05,
+   "peak": 8.042e-05,
+   "cost": 1.035243960239398,
+   "opened": "2026-11-14T06:24:14+07:00",
+   "zoo": "runwide",
+   "smart": 6,
+   "kol": 0,
+   "miss": 0
+  },
+  "m7SihqeaWimE1zpBzjHBwKJbbhuaczX5fHvGoNupump": {
+   "sym": "PEACEFROG",
+   "qty": 3449.9222661732115,
+   "entry": 0.0002894,
+   "last": 0.0002894,
+   "peak": 0.0002894,
+   "cost": 1.0290739062363712,
+   "opened": "2026-11-14T06:24:14+07:00",
+   "zoo": "runwide",
+   "smart": 9,
+   "kol": 1,
    "miss": 0
   }
  },
@@ -270,8 +296,24 @@
    "why": "stop -15.9%",
    "smart": 72,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T06:24:14+07:00",
+   "kind": "buy",
+   "mint": "DcjQG6tceT5PSVbDggAj1ev6E4SYdGyNPppCggxqpump",
+   "sym": "descend",
+   "price": 8.042e-05,
+   "usd": 1.0352
+  },
+  {
+   "t": "2026-11-14T06:24:14+07:00",
+   "kind": "buy",
+   "mint": "m7SihqeaWimE1zpBzjHBwKJbbhuaczX5fHvGoNupump",
+   "sym": "PEACEFROG",
+   "price": 0.0002894,
+   "usd": 1.0291
   }
  ],
  "label": "สวนสัตว์: ปล่อยวิ่ง trail 30/25 ถือ 24 ชม.",
- "rank_t": 1794611982.2321024
+ "rank_t": 1794612237.4266129
 }

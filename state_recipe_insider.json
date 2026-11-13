@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.3970694481259924,
+ "cash": 1.0470709790160655,
  "pos": {
   "7f12HytX17fyBAoaJMdtHWZatNDeaJuXZTxPncL8pump": {
    "sym": "TEDDY",
@@ -12,6 +12,18 @@
    "cost": 0.3637630358932617,
    "opened": "2026-11-14T05:11:03+07:00",
    "smart": 5,
+   "kol": 0,
+   "miss": 0
+  },
+  "DcjQG6tceT5PSVbDggAj1ev6E4SYdGyNPppCggxqpump": {
+   "sym": "descend",
+   "qty": 4545.76324940363,
+   "entry": 7.47e-05,
+   "last": 8.042e-05,
+   "peak": 8.042e-05,
+   "cost": 0.349998469109927,
+   "opened": "2026-11-14T06:24:11+07:00",
+   "smart": 6,
    "kol": 0,
    "miss": 0
   }
@@ -569,8 +581,16 @@
    "why": "stop -10.8%",
    "smart": 5,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T06:24:11+07:00",
+   "kind": "buy",
+   "mint": "DcjQG6tceT5PSVbDggAj1ev6E4SYdGyNPppCggxqpump",
+   "sym": "descend",
+   "price": 7.47e-05,
+   "usd": 0.35
   }
  ],
  "label": "สูตร x_insider4 (คู่ใหม่ + top trader)",
- "rank_t": 1794611982.2321024
+ "rank_t": 1794612237.4266129
 }

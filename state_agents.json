@@ -1,8 +1,22 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 3.433235681656007,
- "pos": {},
+ "cash": 2.746588545324806,
+ "pos": {
+  "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
+   "sym": "NIO",
+   "qty": 281.8041673724753,
+   "entry": 0.002364,
+   "last": 0.002364,
+   "peak": 0.002364,
+   "cost": 0.6866471363312014,
+   "opened": "2026-11-14T06:24:04+07:00",
+   "smart": 363,
+   "kol": 27,
+   "bundler": 0.167,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T01:37:56+07:00",
@@ -9144,6 +9158,69 @@
    "why": "stop -12.3%",
    "smart": 106,
    "bundler": 0.0436
+  },
+  {
+   "t": "2026-11-14T06:24:04+07:00",
+   "kind": "debate",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "ok": true,
+   "bundler": 0.167,
+   "buy": 0.7991,
+   "bull": 0.926,
+   "bear": 0.8835
+  },
+  {
+   "t": "2026-11-14T06:24:04+07:00",
+   "kind": "buy",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "price": 0.002364,
+   "usd": 0.6866
+  },
+  {
+   "t": "2026-11-14T06:24:05+07:00",
+   "kind": "debate",
+   "mint": "6EHTywfoXpDNhL4JGkeYUhiL6mumpmD7j8ByjQaXpump",
+   "sym": "CSI",
+   "ok": false,
+   "bundler": 0.3187,
+   "buy": 0.8555,
+   "bull": 0.9284,
+   "bear": 0.9803
+  },
+  {
+   "t": "2026-11-14T06:24:07+07:00",
+   "kind": "debate",
+   "mint": "44qqXe5keKWp9cBJG6n8ou3kEVG9NTCfzQtBH3sMpump",
+   "sym": "TTP",
+   "ok": false,
+   "bundler": 0.1897,
+   "buy": 0.8093,
+   "bull": 0.9316,
+   "bear": 0.9648
+  },
+  {
+   "t": "2026-11-14T06:24:08+07:00",
+   "kind": "debate",
+   "mint": "m7SihqeaWimE1zpBzjHBwKJbbhuaczX5fHvGoNupump",
+   "sym": "PEACEFROG",
+   "ok": false,
+   "bundler": 0.0783,
+   "buy": 0.9648,
+   "bull": 0.9024,
+   "bear": 0.9996
+  },
+  {
+   "t": "2026-11-14T06:24:10+07:00",
+   "kind": "debate",
+   "mint": "8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump",
+   "sym": "WEALTH",
+   "ok": false,
+   "bundler": 0.0285,
+   "buy": 0.9399,
+   "bull": 0.9453,
+   "bear": 1.0
   }
  ]
 }

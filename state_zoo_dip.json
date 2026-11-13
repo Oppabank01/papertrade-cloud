@@ -1,26 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.46444856273677093,
+ "cash": 1.4815005383220101,
  "pos": {
-  "ErZcPNM8Zh2cY6qdvtEagBSg79SLixNdsMewg6mmpump": {
-   "sym": "WWZ",
-   "qty": 13001.122259723643,
-   "entry": 5.06e-05,
-   "last": 7.062e-05,
-   "peak": 7.248e-05,
-   "cost": 0.6780630656998725,
-   "opened": "2026-11-14T05:45:13+07:00",
-   "zoo": "dip",
-   "smart": 5,
-   "kol": 0,
-   "miss": 0
-  },
   "DXVzgtUb9nvmxsQgkhm6NACKf3rwhsqS5Kspb1Kcpump": {
    "sym": "TITTY",
    "qty": 57502.45565395305,
    "entry": 1.212e-05,
-   "last": 1.343e-05,
+   "last": 1.36e-05,
    "peak": 1.467e-05,
    "cost": 0.7183361807111018,
    "opened": "2026-11-14T06:15:46+07:00",
@@ -33,25 +20,12 @@
    "sym": "HEDGE",
    "qty": 6396.74522498369,
    "entry": 0.0001134,
-   "last": 0.0001228,
+   "last": 0.0001203,
    "peak": 0.0001228,
    "cost": 0.7476715198032884,
    "opened": "2026-11-14T06:19:57+07:00",
    "zoo": "dip",
    "smart": 6,
-   "kol": 0,
-   "miss": 0
-  },
-  "7pUDncmrbpWSDpzEDaW3w9ZRuxzZ8uX8WEfqM9sDpump": {
-   "sym": "WIENER",
-   "qty": 66951.4929153586,
-   "entry": 1.077e-05,
-   "last": 1.077e-05,
-   "peak": 1.077e-05,
-   "cost": 0.7432153975452609,
-   "opened": "2026-11-14T06:19:57+07:00",
-   "zoo": "dip",
-   "smart": 3,
    "kol": 0,
    "miss": 0
   }
@@ -1313,8 +1287,32 @@
    "sym": "WIENER",
    "price": 1.077e-05,
    "usd": 0.7432
+  },
+  {
+   "t": "2026-11-14T06:24:13+07:00",
+   "kind": "sell",
+   "mint": "ErZcPNM8Zh2cY6qdvtEagBSg79SLixNdsMewg6mmpump",
+   "sym": "WWZ",
+   "price": 3.553e-05,
+   "usd": 0.4482,
+   "pnl": -0.2299,
+   "why": "stop -29.8%",
+   "smart": 5,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T06:24:13+07:00",
+   "kind": "sell",
+   "mint": "7pUDncmrbpWSDpzEDaW3w9ZRuxzZ8uX8WEfqM9sDpump",
+   "sym": "WIENER",
+   "price": 8.758e-06,
+   "usd": 0.5689,
+   "pnl": -0.1743,
+   "why": "stop -18.7%",
+   "smart": 3,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794611982.2321024
+ "rank_t": 1794612237.4266129
 }
