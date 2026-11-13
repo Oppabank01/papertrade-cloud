@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: tests
-        run: python3 test_recipes.py && python3 test_wallets.py
+        run: python3 test_recipes.py && python3 test_wallets.py && python3 test_nightly.py
       - name: paper accounts
         env:
           HELIUS_API_KEY: ${{ secrets.HELIUS_API_KEY }}
