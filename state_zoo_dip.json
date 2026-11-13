@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.0645607125949128,
+ "cash": 3.5511051372465747,
  "pos": {
   "BGQqYLTCRHBK3CSosCNq5G6MsGYL2iZ2amsSsF4Tpump": {
    "sym": "ESTR",
@@ -16,30 +16,17 @@
    "kol": 0,
    "miss": 0
   },
-  "Gta6uoekEj831ppDPD4EiX3Xj9tW8SxR5rzCsF7cLeEk": {
-   "sym": "GTA6",
-   "qty": 57421.53375983476,
-   "entry": 3.702e-05,
-   "last": 5.246e-05,
-   "peak": 5.246e-05,
-   "cost": 2.1910381156350063,
-   "opened": "2026-11-14T03:27:44+07:00",
+  "7uicYHeMCTHQwdrqhgtP1Mpi7BcUkf5Z22yKJNR1pump": {
+   "sym": "BAG",
+   "qty": 86357.59225414586,
+   "entry": 1.196e-05,
+   "last": 1.196e-05,
+   "peak": 1.196e-05,
+   "cost": 1.0645607125949128,
+   "opened": "2026-11-14T03:49:53+07:00",
    "zoo": "dip",
-   "smart": 26,
-   "kol": 0,
-   "miss": 0
-  },
-  "D2mA5zAMARotHeuGRPRCa1rZzWKrBAD9v2nntBt8pump": {
-   "sym": "BRACKET",
-   "qty": 37364.53882864657,
-   "entry": 4.415e-05,
-   "last": 5.141e-05,
-   "peak": 5.141e-05,
-   "cost": 1.700313738697945,
-   "opened": "2026-11-14T03:41:09+07:00",
-   "zoo": "dip",
-   "smart": 100,
-   "kol": 7,
+   "smart": 5,
+   "kol": 1,
    "miss": 0
   }
  },
@@ -672,8 +659,40 @@
    "why": "stop -16.7%",
    "smart": 1,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:49:53+07:00",
+   "kind": "buy",
+   "mint": "7uicYHeMCTHQwdrqhgtP1Mpi7BcUkf5Z22yKJNR1pump",
+   "sym": "BAG",
+   "price": 1.196e-05,
+   "usd": 1.0646
+  },
+  {
+   "t": "2026-11-14T03:49:53+07:00",
+   "kind": "sell",
+   "mint": "Gta6uoekEj831ppDPD4EiX3Xj9tW8SxR5rzCsF7cLeEk",
+   "sym": "GTA6",
+   "price": 4.046e-05,
+   "usd": 2.254,
+   "pnl": 0.063,
+   "why": "trailing จากยอด +42% (+9.3%)",
+   "smart": 26,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:49:53+07:00",
+   "kind": "sell",
+   "mint": "D2mA5zAMARotHeuGRPRCa1rZzWKrBAD9v2nntBt8pump",
+   "sym": "BRACKET",
+   "price": 3.578e-05,
+   "usd": 1.2971,
+   "pnl": -0.4033,
+   "why": "stop -19.0%",
+   "smart": 100,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794602709.8540235
+ "rank_t": 1794602974.5789044
 }

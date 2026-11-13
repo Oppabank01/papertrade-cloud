@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.36325178639313016,
+ "cash": 0.0,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 38.79267331646431,
    "entry": 0.04689,
-   "last": 0.04723,
+   "last": 0.04717,
    "peak": 0.04814,
    "cost": 1.8748592576881173,
    "opened": "2026-11-14T01:22:59+07:00",
@@ -20,7 +20,7 @@
    "sym": "baton",
    "qty": 433.30005939602586,
    "entry": 0.003788,
-   "last": 0.003719,
+   "last": 0.003734,
    "peak": 0.003867,
    "cost": 1.6917549216575407,
    "opened": "2026-11-14T01:57:17+07:00",
@@ -33,13 +33,26 @@
    "sym": "duh",
    "qty": 21841.495844571833,
    "entry": 7.012e-05,
-   "last": 0.0001001,
-   "peak": 0.0001001,
+   "last": 0.0001005,
+   "peak": 0.0001005,
    "cost": 1.5785669847674466,
    "opened": "2026-11-14T02:32:33+07:00",
    "zoo": "cto",
    "smart": 61,
    "kol": 4,
+   "miss": 0
+  },
+  "1S8PgRQPQ1fqAf6qv6oemmCeHzuBEb5iiEGJrNepump": {
+   "sym": "JFMM",
+   "qty": 24457.105007537466,
+   "entry": 1.441e-05,
+   "last": 1.511e-05,
+   "peak": 1.511e-05,
+   "cost": 0.36325178639313016,
+   "opened": "2026-11-14T03:49:54+07:00",
+   "zoo": "cto",
+   "smart": 9,
+   "kol": 2,
    "miss": 0
   }
  },
@@ -372,8 +385,16 @@
    "why": "stop -67.7%",
    "smart": 1,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:49:54+07:00",
+   "kind": "buy",
+   "mint": "1S8PgRQPQ1fqAf6qv6oemmCeHzuBEb5iiEGJrNepump",
+   "sym": "JFMM",
+   "price": 1.441e-05,
+   "usd": 0.3633
   }
  ],
  "label": "สวนสัตว์: community takeover",
- "rank_t": 1794602709.8540235
+ "rank_t": 1794602974.5789044
 }

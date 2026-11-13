@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.8338873363641806,
+ "cash": 1.004582097591272,
  "pos": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 291.53454310830216,
    "entry": 0.003788,
-   "last": 0.003719,
+   "last": 0.003734,
    "peak": 0.003867,
    "cost": 1.1382527822039255,
    "opened": "2026-11-14T01:57:13+07:00",
@@ -19,7 +19,7 @@
    "sym": "OTC",
    "qty": 375.9914257841518,
    "entry": 0.002377,
-   "last": 0.002315,
+   "last": 0.00233,
    "peak": 0.002383,
    "cost": 0.921182868572386,
    "opened": "2026-11-14T03:10:35+07:00",
@@ -27,16 +27,16 @@
    "kol": 55,
    "miss": 0
   },
-  "HXxJdaQbrYRvwTAM8M8mUPyoRPvmyuUbPFBRkiAAMASS": {
-   "sym": "Ansemmas",
-   "qty": 1893.6719137538232,
-   "entry": 0.0004684,
-   "last": 0.0005105,
-   "peak": 0.0005943,
-   "cost": 0.9142402848920747,
-   "opened": "2026-11-14T03:14:58+07:00",
-   "smart": 167,
-   "kol": 6,
+  "FNxVZo25dGerP4Tw49f4aHg9xac5qw1FER9F7EzK9cTs": {
+   "sym": "HWAN",
+   "qty": 3330.290397342958,
+   "entry": 0.0002188,
+   "last": 0.0002188,
+   "peak": 0.0002188,
+   "cost": 0.751048792969119,
+   "opened": "2026-11-14T03:49:49+07:00",
+   "smart": 49,
+   "kol": 3,
    "miss": 0
   }
  },
@@ -1149,8 +1149,28 @@
    "why": "stop -13.7%",
    "smart": 40,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:49:49+07:00",
+   "kind": "buy",
+   "mint": "FNxVZo25dGerP4Tw49f4aHg9xac5qw1FER9F7EzK9cTs",
+   "sym": "HWAN",
+   "price": 0.0002188,
+   "usd": 0.751
+  },
+  {
+   "t": "2026-11-14T03:49:49+07:00",
+   "kind": "sell",
+   "mint": "HXxJdaQbrYRvwTAM8M8mUPyoRPvmyuUbPFBRkiAAMASS",
+   "sym": "Ansemmas",
+   "price": 0.0005017,
+   "usd": 0.9217,
+   "pnl": 0.0075,
+   "why": "trailing จากยอด +27% (+7.1%)",
+   "smart": 167,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794602709.8540235
+ "rank_t": 1794602974.5789044
 }

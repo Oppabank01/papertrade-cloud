@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.18148322515457296,
+ "cash": 0.0,
  "pos": {
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
@@ -20,7 +20,7 @@
    "sym": "mihao",
    "qty": 141.98949953169154,
    "entry": 0.01783,
-   "last": 0.0179,
+   "last": 0.01817,
    "peak": 0.01952,
    "cost": 2.6094339070810757,
    "opened": "2026-11-14T01:14:20+07:00",
@@ -40,6 +40,19 @@
    "zoo": "top1",
    "smart": 5,
    "kol": 0,
+   "miss": 0
+  },
+  "D2mA5zAMARotHeuGRPRCa1rZzWKrBAD9v2nntBt8pump": {
+   "sym": "BRACKET",
+   "qty": 4835.897419526687,
+   "entry": 3.641e-05,
+   "last": 3.578e-05,
+   "peak": 3.641e-05,
+   "cost": 0.18148322515457296,
+   "opened": "2026-11-14T03:49:52+07:00",
+   "zoo": "top1",
+   "smart": 115,
+   "kol": 10,
    "miss": 0
   }
  },
@@ -192,8 +205,16 @@
    "why": "stop -30.2%",
    "smart": 1,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T03:49:52+07:00",
+   "kind": "buy",
+   "mint": "D2mA5zAMARotHeuGRPRCa1rZzWKrBAD9v2nntBt8pump",
+   "sym": "BRACKET",
+   "price": 3.641e-05,
+   "usd": 0.1815
   }
  ],
  "label": "สวนสัตว์: วอลุ่มอันดับ 1",
- "rank_t": 1794602709.8540235
+ "rank_t": 1794602974.5789044
 }
