@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.9664125169463983,
+ "cash": 1.2506554789870636,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 32.546896420503494,
    "entry": 0.04744,
-   "last": 0.04629,
+   "last": 0.04612,
    "peak": 0.04814,
    "cost": 1.591449975457314,
    "opened": "2026-11-14T02:32:32+07:00",
@@ -16,30 +16,30 @@
    "kol": 174,
    "miss": 0
   },
-  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
-   "sym": "DacityCoin",
-   "qty": 296.61062074748435,
-   "entry": 0.004791,
-   "last": 0.004424,
-   "peak": 0.004899,
-   "cost": 1.4647098371482143,
-   "opened": "2026-11-14T02:52:55+07:00",
-   "zoo": "kol2",
-   "smart": 244,
-   "kol": 20,
-   "miss": 0
-  },
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 170.01144160169335,
    "entry": 0.007436,
-   "last": 0.007191,
+   "last": 0.007265,
    "peak": 0.007459,
    "cost": 1.3030355388066295,
    "opened": "2026-11-14T03:41:11+07:00",
    "zoo": "kol2",
    "smart": 287,
    "kol": 23,
+   "miss": 0
+  },
+  "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": {
+   "sym": "WISHMAS",
+   "qty": 13967.129806962543,
+   "entry": 6.713e-05,
+   "last": 6.713e-05,
+   "peak": 6.713e-05,
+   "cost": 0.9664125169463983,
+   "opened": "2026-11-14T04:54:01+07:00",
+   "zoo": "kol2",
+   "smart": 33,
+   "kol": 3,
    "miss": 0
   }
  },
@@ -552,8 +552,28 @@
    "why": "stop -13.8%",
    "smart": 86,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:54:01+07:00",
+   "kind": "buy",
+   "mint": "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
+   "sym": "WISHMAS",
+   "price": 6.713e-05,
+   "usd": 0.9664
+  },
+  {
+   "t": "2026-11-14T04:54:01+07:00",
+   "kind": "sell",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.004346,
+   "usd": 1.2507,
+   "pnl": -0.2141,
+   "why": "stop -9.3%",
+   "smart": 244,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: KOL เข้า 2 คนขึ้นไป",
- "rank_t": 1794606574.8075125
+ "rank_t": 1794606823.2989473
 }
