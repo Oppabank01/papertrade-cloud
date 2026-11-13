@@ -1,17 +1,29 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 9.571032296687926,
+ "cash": 5.4893465627309945,
  "pos": {
-  "HcsZdLqWXmL7BQBhvoBvi9BDRZyiBuMvymhNwrfKpump": {
-   "sym": "papercat",
-   "qty": 10480.604440458947,
-   "entry": 0.0002215,
-   "last": 0.0002053,
-   "peak": 0.0002215,
-   "cost": 2.3927580741719816,
-   "opened": "2026-11-13T19:26:30+07:00",
-   "smart": 36,
+  "52jLwRnUxGrSGPu65aGMgKrWdpMDFmyR3Gyf3sivpump": {
+   "sym": "Buffape",
+   "qty": 26511.337801264308,
+   "entry": 8.58e-05,
+   "last": 8.58e-05,
+   "peak": 8.58e-05,
+   "cost": 2.34454007766283,
+   "opened": "2026-11-13T20:46:19+07:00",
+   "smart": 48,
+   "kol": 6,
+   "miss": 0
+  },
+  "B3yEiHrvXDRtY14cihzncXwqr4WZwPHpwyqhGDdypump": {
+   "sym": "YIPPEE",
+   "qty": 80696.49298928339,
+   "entry": 2.802e-05,
+   "last": 2.635e-05,
+   "peak": 2.802e-05,
+   "cost": 2.3305666187999594,
+   "opened": "2026-11-13T20:46:19+07:00",
+   "smart": 21,
    "kol": 5,
    "miss": 0
   }
@@ -249,8 +261,36 @@
    "sym": "papercat",
    "price": 0.0002215,
    "usd": 2.3928
+  },
+  {
+   "t": "2026-11-13T20:46:19+07:00",
+   "kind": "buy",
+   "mint": "52jLwRnUxGrSGPu65aGMgKrWdpMDFmyR3Gyf3sivpump",
+   "sym": "Buffape",
+   "price": 8.58e-05,
+   "usd": 2.3445
+  },
+  {
+   "t": "2026-11-13T20:46:19+07:00",
+   "kind": "buy",
+   "mint": "B3yEiHrvXDRtY14cihzncXwqr4WZwPHpwyqhGDdypump",
+   "sym": "YIPPEE",
+   "price": 2.802e-05,
+   "usd": 2.3306
+  },
+  {
+   "t": "2026-11-13T20:46:19+07:00",
+   "kind": "sell",
+   "mint": "HcsZdLqWXmL7BQBhvoBvi9BDRZyiBuMvymhNwrfKpump",
+   "sym": "papercat",
+   "price": 5.836e-05,
+   "usd": 0.5934,
+   "pnl": -1.7993,
+   "why": "stop -73.7%",
+   "smart": 36,
+   "bundler": null
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794572844.7796946
+ "rank_t": 1794577579.3151622
 }
