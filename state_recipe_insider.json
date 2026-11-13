@@ -1,17 +1,29 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 4.5052093897287655,
+ "cash": 3.2627712978726935,
  "pos": {
   "JBe58zq8soWT9cHkh2ZbqCQpDCYpdSW38fGDWYzEpump": {
    "sym": "CHUD",
    "qty": 20333.306367499634,
    "entry": 5.557e-05,
-   "last": 8.395e-05,
-   "peak": 8.395e-05,
+   "last": 0.0001009,
+   "peak": 0.0001009,
    "cost": 1.164627741539842,
    "opened": "2026-11-14T00:07:49+07:00",
    "smart": 6,
+   "kol": 0,
+   "miss": 0
+  },
+  "Ya1xD1tzUe72trkVvYk79mFDdJsHBFjKGHswJ2spump": {
+   "sym": "SUNNY",
+   "qty": 40113.591904118504,
+   "entry": 3.005e-05,
+   "last": 3.404e-05,
+   "peak": 3.404e-05,
+   "cost": 1.242438091856072,
+   "opened": "2026-11-14T00:15:25+07:00",
+   "smart": 8,
    "kol": 0,
    "miss": 0
   }
@@ -249,8 +261,16 @@
    "why": "stop -10.8%",
    "smart": 12,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T00:15:25+07:00",
+   "kind": "buy",
+   "mint": "Ya1xD1tzUe72trkVvYk79mFDdJsHBFjKGHswJ2spump",
+   "sym": "SUNNY",
+   "price": 3.005e-05,
+   "usd": 1.2424
   }
  ],
  "label": "สูตร x_insider4 (คู่ใหม่ + top trader)",
- "rank_t": 1794589899.2639644
+ "rank_t": 1794590125.096978
 }
