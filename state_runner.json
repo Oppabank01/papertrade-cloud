@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.9285397951925678,
+ "cash": 2.211011656526167,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 54.202965232231236,
    "entry": 0.04342,
-   "last": 0.04636,
+   "last": 0.0458,
    "peak": 0.04987,
    "cost": 2.4257810249262834,
    "opened": "2026-11-13T12:21:03+07:00",
@@ -18,7 +18,7 @@
    "sym": "wobbles",
    "qty": 1813.3881709184109,
    "entry": 0.001058,
-   "last": 0.001008,
+   "last": 0.0009831,
    "peak": 0.001083,
    "cost": 1.9774940062169435,
    "opened": "2026-11-13T19:22:18+07:00",
@@ -29,21 +29,10 @@
    "sym": "USELESS",
    "qty": 12.94771045982782,
    "entry": 0.134,
-   "last": 0.1249,
+   "last": 0.1238,
    "peak": 0.1352,
    "cost": 1.7882840668078004,
    "opened": "2026-11-13T21:57:56+07:00",
-   "source": "agents",
-   "miss": 0
-  },
-  "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": {
-   "sym": "WISHMAS",
-   "qty": 10067.504877125066,
-   "entry": 0.0001652,
-   "last": 0.0001862,
-   "peak": 0.0001862,
-   "cost": 1.7142360396836331,
-   "opened": "2026-11-14T05:02:13+07:00",
    "source": "agents",
    "miss": 0
   }
@@ -405,6 +394,18 @@
    "sym": "WISHMAS",
    "price": 0.0001652,
    "usd": 1.7142
+  },
+  {
+   "t": "2026-11-14T05:11:03+07:00",
+   "kind": "sell",
+   "mint": "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
+   "sym": "WISHMAS",
+   "price": 0.0001313,
+   "usd": 1.2825,
+   "pnl": -0.4318,
+   "why": "stop -20.5%",
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",

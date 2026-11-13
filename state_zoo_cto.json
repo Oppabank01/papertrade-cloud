@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.8430667714755957,
+ "cash": 2.4777870562001323,
  "pos": {
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
    "sym": "FLOAT",
    "qty": 30.170889727416125,
    "entry": 0.002605,
-   "last": 0.00267,
+   "last": 0.002675,
    "peak": 0.002722,
    "cost": 0.08100924318688828,
    "opened": "2026-11-14T04:06:59+07:00",
@@ -16,30 +16,17 @@
    "kol": 31,
    "miss": 0
   },
-  "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": {
-   "sym": "WISHMAS",
-   "qty": 5305.963972348597,
-   "entry": 0.0001652,
-   "last": 0.0001862,
-   "peak": 0.0001862,
-   "cost": 0.9034686128962979,
-   "opened": "2026-11-14T05:02:38+07:00",
+  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
+   "sym": "ANSEM",
+   "qty": 14.433387683722875,
+   "entry": 0.05031,
+   "last": 0.05002,
+   "peak": 0.05031,
+   "cost": 0.7484474689425871,
+   "opened": "2026-11-14T05:11:08+07:00",
    "zoo": "cto",
-   "smart": 53,
-   "kol": 4,
-   "miss": 0
-  },
-  "EtVFUXdLwKEwNXg7eoQ1JJX2BG6LCUxRq5oxBuSnpump": {
-   "sym": "GR00T2",
-   "qty": 12739.935675058732,
-   "entry": 6.62e-05,
-   "last": 6.52e-05,
-   "peak": 6.62e-05,
-   "cost": 0.869288540186444,
-   "opened": "2026-11-14T05:06:51+07:00",
-   "zoo": "cto",
-   "smart": 20,
-   "kol": 0,
+   "smart": 1000,
+   "kol": 186,
    "miss": 0
   }
  },
@@ -552,8 +539,40 @@
    "why": "stop -73.0%",
    "smart": 39,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T05:11:08+07:00",
+   "kind": "buy",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.05031,
+   "usd": 0.7484
+  },
+  {
+   "t": "2026-11-14T05:11:08+07:00",
+   "kind": "sell",
+   "mint": "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
+   "sym": "WISHMAS",
+   "price": 0.0001313,
+   "usd": 0.6759,
+   "pnl": -0.2276,
+   "why": "stop -20.5%",
+   "smart": 53,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T05:11:08+07:00",
+   "kind": "sell",
+   "mint": "EtVFUXdLwKEwNXg7eoQ1JJX2BG6LCUxRq5oxBuSnpump",
+   "sym": "GR00T2",
+   "price": 5.722e-05,
+   "usd": 0.7073,
+   "pnl": -0.162,
+   "why": "stop -13.6%",
+   "smart": 20,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: community takeover",
- "rank_t": 1794607592.7288902
+ "rank_t": 1794607846.0327146
 }

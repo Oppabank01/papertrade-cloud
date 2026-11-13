@@ -1,18 +1,44 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 5.983484787227517,
+ "cash": 3.333057203013685,
  "pos": {
-  "BGQqYLTCRHBK3CSosCNq5G6MsGYL2iZ2amsSsF4Tpump": {
-   "sym": "ESTR",
-   "qty": 74928.00994816927,
-   "entry": 3.279e-05,
-   "last": 3.279e-05,
-   "peak": 3.279e-05,
-   "cost": 2.532353582973068,
-   "opened": "2026-11-14T02:10:56+07:00",
+  "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": {
+   "sym": "WISHMAS",
+   "qty": 12435.612879683878,
+   "entry": 0.0001317,
+   "last": 0.0001313,
+   "peak": 0.0001317,
+   "cost": 1.6880748466855977,
+   "opened": "2026-11-14T05:11:07+07:00",
    "zoo": "dip",
-   "smart": 5,
+   "smart": 61,
+   "kol": 6,
+   "miss": 0
+  },
+  "85xrw1gHPUMeauAhGhy5k2eGJ37hk4Tf1UvK9bNQpump": {
+   "sym": "SpaceCat",
+   "qty": 12268.342922121255,
+   "entry": 0.0001327,
+   "last": 0.0001416,
+   "peak": 0.0001416,
+   "cost": 1.6780139205993514,
+   "opened": "2026-11-14T05:11:07+07:00",
+   "zoo": "dip",
+   "smart": 7,
+   "kol": 0,
+   "miss": 0
+  },
+  "DnyM8ojRndhqLcptmELJj644N91gEDE6L2aFAfJ1ngEM": {
+   "sym": "Cloak",
+   "qty": 144491.62245492218,
+   "entry": 1.12e-05,
+   "last": 1.216e-05,
+   "peak": 1.216e-05,
+   "cost": 1.668012957632579,
+   "opened": "2026-11-14T05:11:07+07:00",
+   "zoo": "dip",
+   "smart": 1,
    "kol": 0,
    "miss": 0
   }
@@ -970,8 +996,44 @@
    "why": "stop -10.5%",
    "smart": 20,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T05:11:07+07:00",
+   "kind": "buy",
+   "mint": "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
+   "sym": "WISHMAS",
+   "price": 0.0001317,
+   "usd": 1.6881
+  },
+  {
+   "t": "2026-11-14T05:11:07+07:00",
+   "kind": "buy",
+   "mint": "85xrw1gHPUMeauAhGhy5k2eGJ37hk4Tf1UvK9bNQpump",
+   "sym": "SpaceCat",
+   "price": 0.0001327,
+   "usd": 1.678
+  },
+  {
+   "t": "2026-11-14T05:11:07+07:00",
+   "kind": "buy",
+   "mint": "DnyM8ojRndhqLcptmELJj644N91gEDE6L2aFAfJ1ngEM",
+   "sym": "Cloak",
+   "price": 1.12e-05,
+   "usd": 1.668
+  },
+  {
+   "t": "2026-11-14T05:11:07+07:00",
+   "kind": "sell",
+   "mint": "BGQqYLTCRHBK3CSosCNq5G6MsGYL2iZ2amsSsF4Tpump",
+   "sym": "ESTR",
+   "price": 3.279e-05,
+   "usd": 2.3837,
+   "pnl": -0.1487,
+   "why": "ครบ 3 ชม. (+0.0%)",
+   "smart": 5,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794607592.7288902
+ "rank_t": 1794607846.0327146
 }

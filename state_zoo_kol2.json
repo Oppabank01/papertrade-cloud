@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.2657625011713872,
+ "cash": 2.0449968973446744,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 32.546896420503494,
    "entry": 0.04744,
-   "last": 0.04636,
+   "last": 0.0458,
    "peak": 0.04814,
    "cost": 1.591449975457314,
    "opened": "2026-11-14T02:32:32+07:00",
@@ -20,7 +20,7 @@
    "sym": "GTA6",
    "qty": 170.01144160169335,
    "entry": 0.007436,
-   "last": 0.007159,
+   "last": 0.007184,
    "peak": 0.007459,
    "cost": 1.3030355388066295,
    "opened": "2026-11-14T03:41:11+07:00",
@@ -29,25 +29,12 @@
    "kol": 23,
    "miss": 0
   },
-  "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": {
-   "sym": "WISHMAS",
-   "qty": 13967.129806962543,
-   "entry": 6.713e-05,
-   "last": 0.0001862,
-   "peak": 0.0001862,
-   "cost": 0.9664125169463983,
-   "opened": "2026-11-14T04:54:01+07:00",
-   "zoo": "kol2",
-   "smart": 33,
-   "kol": 3,
-   "miss": 0
-  },
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
    "qty": 724.4451607860267,
    "entry": 0.001319,
-   "last": 0.001379,
-   "peak": 0.001379,
+   "last": 0.001394,
+   "peak": 0.001394,
    "cost": 0.9848929778156764,
    "opened": "2026-11-14T04:58:04+07:00",
    "zoo": "kol2",
@@ -593,8 +580,20 @@
    "sym": "NIO",
    "price": 0.001319,
    "usd": 0.9849
+  },
+  {
+   "t": "2026-11-14T05:11:08+07:00",
+   "kind": "sell",
+   "mint": "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
+   "sym": "WISHMAS",
+   "price": 0.0001313,
+   "usd": 1.7792,
+   "pnl": 0.8128,
+   "why": "trailing จากยอด +177% (+95.6%)",
+   "smart": 33,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: KOL เข้า 2 คนขึ้นไป",
- "rank_t": 1794607592.7288902
+ "rank_t": 1794607846.0327146
 }
