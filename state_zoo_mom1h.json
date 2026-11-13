@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.057438023356706044,
+ "cash": 0.0,
  "pos": {
   "7f12HytX17fyBAoaJMdtHWZatNDeaJuXZTxPncL8pump": {
    "sym": "TEDDY",
@@ -33,13 +33,26 @@
    "sym": "TOPBLAST",
    "qty": 4879.772672032091,
    "entry": 1.991e-05,
-   "last": 1.991e-05,
-   "peak": 1.991e-05,
+   "last": 2.496e-05,
+   "peak": 2.496e-05,
    "cost": 0.10014045959612342,
    "opened": "2026-11-14T05:32:21+07:00",
    "zoo": "mom1h",
    "smart": 9,
    "kol": 0,
+   "miss": 0
+  },
+  "6DN9qkg45N7GWvS46zYvUf6ADDYLc9FWYyWim28ut49X": {
+   "sym": "CWW",
+   "qty": 1130.1231040494058,
+   "entry": 4.931e-05,
+   "last": 4.931e-05,
+   "peak": 4.931e-05,
+   "cost": 0.057438023356706044,
+   "opened": "2026-11-14T05:36:34+07:00",
+   "zoo": "mom1h",
+   "smart": 46,
+   "kol": 4,
    "miss": 0
   }
  },
@@ -952,8 +965,16 @@
    "why": "stop -85.9%",
    "smart": 16,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T05:36:34+07:00",
+   "kind": "buy",
+   "mint": "6DN9qkg45N7GWvS46zYvUf6ADDYLc9FWYyWim28ut49X",
+   "sym": "CWW",
+   "price": 4.931e-05,
+   "usd": 0.0574
   }
  ],
  "label": "สวนสัตว์: พุ่งแรง 1 ชม. เกิน +100%",
- "rank_t": 1794609131.1075108
+ "rank_t": 1794609374.7108889
 }

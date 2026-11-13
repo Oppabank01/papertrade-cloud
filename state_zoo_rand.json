@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.238583110321873,
+ "cash": 4.35177442103674,
  "pos": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 282.51411565044015,
    "entry": 0.007218,
-   "last": 0.00723,
+   "last": 0.007282,
    "peak": 0.007454,
    "cost": 2.1018211572509555,
    "opened": "2026-11-14T02:52:47+07:00",
@@ -20,7 +20,7 @@
    "sym": "NIO",
    "qty": 1409.5348669141406,
    "entry": 0.001229,
-   "last": 0.001489,
+   "last": 0.001474,
    "peak": 0.001489,
    "cost": 1.785527057758688,
    "opened": "2026-11-14T04:06:58+07:00",
@@ -33,26 +33,13 @@
    "sym": "FOOD",
    "qty": 2360.859341681879,
    "entry": 0.000924,
-   "last": 0.001273,
+   "last": 0.001268,
    "peak": 0.001333,
    "cost": 2.248437468268456,
    "opened": "2026-11-14T04:41:14+07:00",
    "zoo": "rand",
    "smart": 279,
    "kol": 21,
-   "miss": 0
-  },
-  "9ELbLEniMY2B8jgZ1KdwLVPgRcr1HS3wXM9HkiRDpump": {
-   "sym": "DOOMSDAY",
-   "qty": 45386.510741816215,
-   "entry": 5.071e-05,
-   "last": 8.211e-05,
-   "peak": 8.211e-05,
-   "cost": 2.3722427950087615,
-   "opened": "2026-11-14T05:28:09+07:00",
-   "zoo": "rand",
-   "smart": 63,
-   "kol": 5,
    "miss": 0
   }
  },
@@ -373,8 +360,20 @@
    "sym": "DOOMSDAY",
    "price": 5.071e-05,
    "usd": 2.3722
+  },
+  {
+   "t": "2026-11-14T05:36:33+07:00",
+   "kind": "sell",
+   "mint": "9ELbLEniMY2B8jgZ1KdwLVPgRcr1HS3wXM9HkiRDpump",
+   "sym": "DOOMSDAY",
+   "price": 4.799e-05,
+   "usd": 2.1132,
+   "pnl": -0.2591,
+   "why": "trailing จากยอด +62% (-5.4%)",
+   "smart": 63,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794609131.1075108
+ "rank_t": 1794609374.7108889
 }
