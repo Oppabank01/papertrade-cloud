@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.9553354800853202,
+ "cash": 0.46444856273677093,
  "pos": {
   "ErZcPNM8Zh2cY6qdvtEagBSg79SLixNdsMewg6mmpump": {
    "sym": "WWZ",
    "qty": 13001.122259723643,
    "entry": 5.06e-05,
-   "last": 7.226e-05,
+   "last": 7.062e-05,
    "peak": 7.248e-05,
    "cost": 0.6780630656998725,
    "opened": "2026-11-14T05:45:13+07:00",
@@ -20,13 +20,39 @@
    "sym": "TITTY",
    "qty": 57502.45565395305,
    "entry": 1.212e-05,
-   "last": 1.467e-05,
+   "last": 1.343e-05,
    "peak": 1.467e-05,
    "cost": 0.7183361807111018,
    "opened": "2026-11-14T06:15:46+07:00",
    "zoo": "dip",
    "smart": 8,
    "kol": 1,
+   "miss": 0
+  },
+  "EeTf7Pp9bBGZmy2diaf7UbrTQSthMXB4eJ6zd2zwpump": {
+   "sym": "HEDGE",
+   "qty": 6396.74522498369,
+   "entry": 0.0001134,
+   "last": 0.0001228,
+   "peak": 0.0001228,
+   "cost": 0.7476715198032884,
+   "opened": "2026-11-14T06:19:57+07:00",
+   "zoo": "dip",
+   "smart": 6,
+   "kol": 0,
+   "miss": 0
+  },
+  "7pUDncmrbpWSDpzEDaW3w9ZRuxzZ8uX8WEfqM9sDpump": {
+   "sym": "WIENER",
+   "qty": 66951.4929153586,
+   "entry": 1.077e-05,
+   "last": 1.077e-05,
+   "peak": 1.077e-05,
+   "cost": 0.7432153975452609,
+   "opened": "2026-11-14T06:19:57+07:00",
+   "zoo": "dip",
+   "smart": 3,
+   "kol": 0,
    "miss": 0
   }
  },
@@ -1271,8 +1297,24 @@
    "sym": "TITTY",
    "price": 1.212e-05,
    "usd": 0.7183
+  },
+  {
+   "t": "2026-11-14T06:19:57+07:00",
+   "kind": "buy",
+   "mint": "EeTf7Pp9bBGZmy2diaf7UbrTQSthMXB4eJ6zd2zwpump",
+   "sym": "HEDGE",
+   "price": 0.0001134,
+   "usd": 0.7477
+  },
+  {
+   "t": "2026-11-14T06:19:57+07:00",
+   "kind": "buy",
+   "mint": "7pUDncmrbpWSDpzEDaW3w9ZRuxzZ8uX8WEfqM9sDpump",
+   "sym": "WIENER",
+   "price": 1.077e-05,
+   "usd": 0.7432
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794611724.5693882
+ "rank_t": 1794611982.2321024
 }

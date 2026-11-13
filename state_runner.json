@@ -1,27 +1,16 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.1444127647131217,
+ "cash": 3.388198362420831,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 54.202965232231236,
    "entry": 0.04342,
-   "last": 0.04516,
+   "last": 0.04507,
    "peak": 0.04987,
    "cost": 2.4257810249262834,
    "opened": "2026-11-13T12:21:03+07:00",
-   "source": "agents",
-   "miss": 0
-  },
-  "9yZ5Ru8pbmJZ6Q2DKLCGXkaLNwkm83cnJ4QCw4PFpump": {
-   "sym": "wobbles",
-   "qty": 1813.3881709184109,
-   "entry": 0.001058,
-   "last": 0.0009841,
-   "peak": 0.001083,
-   "cost": 1.9774940062169435,
-   "opened": "2026-11-13T19:22:18+07:00",
    "source": "agents",
    "miss": 0
   },
@@ -29,21 +18,10 @@
    "sym": "NEVERDOOM",
    "qty": 15218.437358519752,
    "entry": 0.0001018,
-   "last": 0.0001773,
+   "last": 0.0001586,
    "peak": 0.0001929,
    "cost": 1.5968222254146678,
    "opened": "2026-11-14T05:58:14+07:00",
-   "source": "agents",
-   "miss": 0
-  },
-  "CPV5kijeSj5ns5vWgH7attMfhKGQLaen2wXeqCDjpump": {
-   "sym": "Fine",
-   "qty": 112170.13395608365,
-   "entry": 1.555e-05,
-   "last": 1.651e-05,
-   "peak": 1.651e-05,
-   "cost": 1.7978206380304067,
-   "opened": "2026-11-14T06:15:40+07:00",
    "source": "agents",
    "miss": 0
   }
@@ -465,6 +443,30 @@
    "sym": "Fine",
    "price": 1.555e-05,
    "usd": 1.7978
+  },
+  {
+   "t": "2026-11-14T06:19:53+07:00",
+   "kind": "sell",
+   "mint": "9yZ5Ru8pbmJZ6Q2DKLCGXkaLNwkm83cnJ4QCw4PFpump",
+   "sym": "wobbles",
+   "price": 0.0009728,
+   "usd": 1.7115,
+   "pnl": -0.266,
+   "why": "stop -8.1%",
+   "smart": null,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T06:19:53+07:00",
+   "kind": "sell",
+   "mint": "CPV5kijeSj5ns5vWgH7attMfhKGQLaen2wXeqCDjpump",
+   "sym": "Fine",
+   "price": 1.408e-05,
+   "usd": 1.5323,
+   "pnl": -0.2655,
+   "why": "stop -9.5%",
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",

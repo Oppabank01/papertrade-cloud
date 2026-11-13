@@ -1,35 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.84044123155831,
- "pos": {
-  "7FxGzQZjdxL87R9hTvtghmtn1vCUc79oVvKiV31azZrQ": {
-   "sym": "NEVERDOOM",
-   "qty": 6361.720640581397,
-   "entry": 0.0001018,
-   "last": 0.0001773,
-   "peak": 0.0001931,
-   "cost": 0.667515111534927,
-   "opened": "2026-11-14T05:58:10+07:00",
-   "smart": 33,
-   "kol": 2,
-   "bundler": 0.0443,
-   "miss": 0
-  },
-  "CPV5kijeSj5ns5vWgH7attMfhKGQLaen2wXeqCDjpump": {
-   "sym": "Fine",
-   "qty": 46995.526310579764,
-   "entry": 1.555e-05,
-   "last": 1.651e-05,
-   "peak": 1.651e-05,
-   "cost": 0.7532265864043654,
-   "opened": "2026-11-14T06:15:36+07:00",
-   "smart": 106,
-   "kol": 13,
-   "bundler": 0.0436,
-   "miss": 0
-  }
- },
+ "cash": 3.433235681656007,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T01:37:56+07:00",
@@ -9114,6 +9087,63 @@
    "buy": 0.9806,
    "bull": 0.9079,
    "bear": 1.0
+  },
+  {
+   "t": "2026-11-14T06:19:48+07:00",
+   "kind": "debate",
+   "mint": "6EHTywfoXpDNhL4JGkeYUhiL6mumpmD7j8ByjQaXpump",
+   "sym": "CSI",
+   "ok": false,
+   "bundler": 0.3178,
+   "buy": 0.8694,
+   "bull": 0.9188,
+   "bear": 0.9312
+  },
+  {
+   "t": "2026-11-14T06:19:50+07:00",
+   "kind": "debate",
+   "mint": "4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump",
+   "sym": "Speed",
+   "ok": false,
+   "bundler": 0.2125,
+   "buy": 0.8338,
+   "bull": 0.9125,
+   "bear": 0.9644
+  },
+  {
+   "t": "2026-11-14T06:19:52+07:00",
+   "kind": "debate",
+   "mint": "BApgNbjD25PHFft8WNATeL6gwpFFucEn5VBg2VHDpump",
+   "sym": "KOSMIK",
+   "ok": false,
+   "bundler": 0.1715,
+   "buy": 0.8864,
+   "bull": 0.916,
+   "bear": 0.997
+  },
+  {
+   "t": "2026-11-14T06:19:53+07:00",
+   "kind": "sell",
+   "mint": "7FxGzQZjdxL87R9hTvtghmtn1vCUc79oVvKiV31azZrQ",
+   "sym": "NEVERDOOM",
+   "price": 0.0001573,
+   "usd": 0.9709,
+   "pnl": 0.3034,
+   "why": "trailing จากยอด +90% (+54.5%)",
+   "smart": 33,
+   "bundler": 0.0443
+  },
+  {
+   "t": "2026-11-14T06:19:53+07:00",
+   "kind": "sell",
+   "mint": "CPV5kijeSj5ns5vWgH7attMfhKGQLaen2wXeqCDjpump",
+   "sym": "Fine",
+   "price": 1.364e-05,
+   "usd": 0.6219,
+   "pnl": -0.1313,
+   "why": "stop -12.3%",
+   "smart": 106,
+   "bundler": 0.0436
   }
  ]
 }
