@@ -1,21 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 4.243181456017258,
- "pos": {
-  "HSJdVLxpwYJXR7L7VMDn1Dmx5fwLJZA8Jz41hLahpump": {
-   "sym": "Mikol",
-   "qty": 25930.553342327687,
-   "entry": 3.969e-05,
-   "last": 3.969e-05,
-   "peak": 3.969e-05,
-   "cost": 1.0607953640043144,
-   "opened": "2026-11-14T02:32:22+07:00",
-   "smart": 22,
-   "kol": 1,
-   "miss": 0
-  }
- },
+ "cash": 4.637152961890952,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -689,8 +676,20 @@
    "sym": "Mikol",
    "price": 3.969e-05,
    "usd": 1.0608
+  },
+  {
+   "t": "2026-11-14T02:37:00+07:00",
+   "kind": "sell",
+   "mint": "HSJdVLxpwYJXR7L7VMDn1Dmx5fwLJZA8Jz41hLahpump",
+   "sym": "Mikol",
+   "price": 1.566e-05,
+   "usd": 0.394,
+   "pnl": -0.6668,
+   "why": "stop -60.5%",
+   "smart": 22,
+   "bundler": null
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794598326.053106
+ "rank_t": 1794598593.346318
 }
