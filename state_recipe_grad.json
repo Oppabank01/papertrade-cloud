@@ -1,33 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 3.9408467418975706,
- "pos": {
-  "HWqSHNsXsW9L3zf2viWKDFKDr512cbCyT9pynAYRpump": {
-   "sym": "SOL",
-   "qty": 27982.34954560275,
-   "entry": 4.541e-05,
-   "last": 4.76e-05,
-   "peak": 5.179e-05,
-   "cost": 1.3097077848544845,
-   "opened": "2026-11-13T22:52:00+07:00",
-   "smart": 8,
-   "kol": 1,
-   "miss": 0
-  },
-  "FibMHnUpDLQGtg51rWZotvRX2yp45SewAU4KrCNcpump": {
-   "sym": "42",
-   "qty": 42173.625668930355,
-   "entry": 2.986e-05,
-   "last": 3.71e-05,
-   "peak": 3.71e-05,
-   "cost": 1.2979843975203673,
-   "opened": "2026-11-13T23:14:54+07:00",
-   "smart": 80,
-   "kol": 5,
-   "miss": 0
-  }
- },
+ "cash": 6.754020488920748,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -409,8 +384,32 @@
    "sym": "42",
    "price": 2.986e-05,
    "usd": 1.298
+  },
+  {
+   "t": "2026-11-13T23:22:35+07:00",
+   "kind": "sell",
+   "mint": "HWqSHNsXsW9L3zf2viWKDFKDr512cbCyT9pynAYRpump",
+   "sym": "SOL",
+   "price": 3.58e-05,
+   "usd": 0.9719,
+   "pnl": -0.3378,
+   "why": "stop -21.2%",
+   "smart": 8,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T23:22:35+07:00",
+   "kind": "sell",
+   "mint": "FibMHnUpDLQGtg51rWZotvRX2yp45SewAU4KrCNcpump",
+   "sym": "42",
+   "price": 4.5e-05,
+   "usd": 1.8413,
+   "pnl": 0.5433,
+   "why": "ถึงเป้า +50.7%",
+   "smart": 80,
+   "bundler": null
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794586727.554299
+ "rank_t": 1794586955.5196981
 }
