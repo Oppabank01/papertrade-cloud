@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 5.991931725677051,
+ "cash": 5.191715116946655,
  "pos": {
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 1411.6328322924323,
    "entry": 0.002028,
-   "last": 0.001906,
-   "peak": 0.002028,
+   "last": 0.002034,
+   "peak": 0.002034,
    "cost": 2.950722927117144,
    "opened": "2026-11-14T00:45:42+07:00",
    "zoo": "rand",
@@ -20,8 +20,8 @@
    "sym": "GATO",
    "qty": 435.12678092371164,
    "entry": 0.00654,
-   "last": 0.006534,
-   "peak": 0.00654,
+   "last": 0.006542,
+   "peak": 0.006542,
    "cost": 2.9331366184715257,
    "opened": "2026-11-14T00:49:35+07:00",
    "zoo": "rand",
@@ -29,17 +29,17 @@
    "kol": 4,
    "miss": 0
   },
-  "otgeY6A8M27DVvk4Er9xkGP5KCaDdeucaYJQBi9AeXB": {
-   "sym": "JENSEN",
-   "qty": 345082.71265149704,
-   "entry": 8.091e-06,
-   "last": 1.303e-05,
-   "peak": 1.303e-05,
-   "cost": 2.8778233643199984,
-   "opened": "2026-11-14T00:53:23+07:00",
+  "ttwocSxKgj4NpQEUzBaFzLxEFzVdLytUbLsnnjGew9v": {
+   "sym": "SHARKBUX",
+   "qty": 5069.991175911717,
+   "entry": 0.0006132,
+   "last": 0.0006182,
+   "peak": 0.0006182,
+   "cost": 3.204410007286193,
+   "opened": "2026-11-14T00:57:18+07:00",
    "zoo": "rand",
-   "smart": 8,
-   "kol": 7,
+   "smart": 10,
+   "kol": 0,
    "miss": 0
   }
  },
@@ -72,8 +72,28 @@
    "sym": "JENSEN",
    "price": 8.091e-06,
    "usd": 2.8778
+  },
+  {
+   "t": "2026-11-14T00:57:18+07:00",
+   "kind": "buy",
+   "mint": "ttwocSxKgj4NpQEUzBaFzLxEFzVdLytUbLsnnjGew9v",
+   "sym": "SHARKBUX",
+   "price": 0.0006132,
+   "usd": 3.2044
+  },
+  {
+   "t": "2026-11-14T00:57:18+07:00",
+   "kind": "sell",
+   "mint": "otgeY6A8M27DVvk4Er9xkGP5KCaDdeucaYJQBi9AeXB",
+   "sym": "JENSEN",
+   "price": 7.181e-06,
+   "usd": 2.4042,
+   "pnl": -0.4736,
+   "why": "stop -11.2%",
+   "smart": 8,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794592400.0605166
+ "rank_t": 1794592636.513667
 }

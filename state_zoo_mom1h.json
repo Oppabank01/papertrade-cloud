@@ -1,21 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 3.323625722857275,
+ "cash": 2.472751809706822,
  "pos": {
-  "724AMeMtZZQ5KmPMzqnPY5bixBoZA9hSHn2p886Lpump": {
-   "sym": "M&F",
-   "qty": 13868.075766282036,
-   "entry": 0.0002052,
-   "last": 0.0001935,
-   "peak": 0.0002118,
-   "cost": 2.9331366184715257,
-   "opened": "2026-11-14T00:45:42+07:00",
-   "zoo": "mom1h",
-   "smart": 52,
-   "kol": 5,
-   "miss": 0
-  },
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
    "qty": 11108959543.593315,
@@ -27,6 +14,32 @@
    "zoo": "mom1h",
    "smart": 0,
    "kol": 0,
+   "miss": 0
+  },
+  "62Z72VWdVeMwgyGDjeR8KaazTjFzy3RVXD3K25yNaHAT": {
+   "sym": "cashchick",
+   "qty": 33647.21642283736,
+   "entry": 4.75e-05,
+   "last": 4.509e-05,
+   "peak": 4.75e-05,
+   "cost": 1.6473333128064056,
+   "opened": "2026-11-14T00:57:18+07:00",
+   "zoo": "mom1h",
+   "smart": 32,
+   "kol": 5,
+   "miss": 0
+  },
+  "E28eQFoCPndfLUPnxYgEWHhbnEVqSpyNPgAacoAEpump": {
+   "sym": "inu",
+   "qty": 8176.619933687439,
+   "entry": 0.0001943,
+   "last": 0.000199,
+   "peak": 0.000199,
+   "cost": 1.6375152062620792,
+   "opened": "2026-11-14T00:57:18+07:00",
+   "zoo": "mom1h",
+   "smart": 152,
+   "kol": 14,
    "miss": 0
   }
  },
@@ -111,8 +124,36 @@
    "why": "stop -95.5%",
    "smart": 6,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T00:57:18+07:00",
+   "kind": "buy",
+   "mint": "62Z72VWdVeMwgyGDjeR8KaazTjFzy3RVXD3K25yNaHAT",
+   "sym": "cashchick",
+   "price": 4.75e-05,
+   "usd": 1.6473
+  },
+  {
+   "t": "2026-11-14T00:57:18+07:00",
+   "kind": "buy",
+   "mint": "E28eQFoCPndfLUPnxYgEWHhbnEVqSpyNPgAacoAEpump",
+   "sym": "inu",
+   "price": 0.0001943,
+   "usd": 1.6375
+  },
+  {
+   "t": "2026-11-14T00:57:18+07:00",
+   "kind": "sell",
+   "mint": "724AMeMtZZQ5KmPMzqnPY5bixBoZA9hSHn2p886Lpump",
+   "sym": "M&F",
+   "price": 0.0001809,
+   "usd": 2.434,
+   "pnl": -0.4992,
+   "why": "stop -11.8%",
+   "smart": 52,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: พุ่งแรง 1 ชม. เกิน +100%",
- "rank_t": 1794592400.0605166
+ "rank_t": 1794592636.513667
 }
