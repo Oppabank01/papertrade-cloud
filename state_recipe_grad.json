@@ -1,18 +1,18 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 5.980603559991161,
+ "cash": 6.595631719937301,
  "pos": {
-  "FqmHVSWGmgPHCXQvBSeE82kxMJgS8fBHyiUkJvWopump": {
-   "sym": "MILO",
-   "qty": 42070.63206136473,
-   "entry": 3.448e-05,
-   "last": 3.443e-05,
-   "peak": 3.448e-05,
-   "cost": 1.4951508899977903,
-   "opened": "2026-11-13T23:41:28+07:00",
-   "smart": 48,
-   "kol": 2,
+  "FiFdmCETsJLurcK55MhdYN7nw6zm7w4hvPg2Y4WLaNHr": {
+   "sym": "DINOMAN",
+   "qty": 34265.311995685304,
+   "entry": 4.207e-05,
+   "last": 4.257e-05,
+   "peak": 4.257e-05,
+   "cost": 1.4858190843727899,
+   "opened": "2026-11-13T23:48:59+07:00",
+   "smart": 29,
+   "kol": 4,
    "miss": 0
   }
  },
@@ -449,8 +449,28 @@
    "sym": "MILO",
    "price": 3.448e-05,
    "usd": 1.4952
+  },
+  {
+   "t": "2026-11-13T23:48:59+07:00",
+   "kind": "buy",
+   "mint": "FiFdmCETsJLurcK55MhdYN7nw6zm7w4hvPg2Y4WLaNHr",
+   "sym": "DINOMAN",
+   "price": 4.207e-05,
+   "usd": 1.4858
+  },
+  {
+   "t": "2026-11-13T23:48:59+07:00",
+   "kind": "sell",
+   "mint": "FqmHVSWGmgPHCXQvBSeE82kxMJgS8fBHyiUkJvWopump",
+   "sym": "MILO",
+   "price": 5.147e-05,
+   "usd": 2.1008,
+   "pnl": 0.6057,
+   "why": "ถึงเป้า +49.3%",
+   "smart": 48,
+   "bundler": null
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794588314.4679642
+ "rank_t": 1794588538.8193312
 }

@@ -1,41 +1,17 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.842678700368878,
+ "cash": 5.785558251241275,
  "pos": {
-  "E7hQikBvDtwUWRi9wdej6jhN6XkokZyhHtwakjmZpump": {
-   "sym": "Grumblor",
-   "qty": 86806.02048675678,
-   "entry": 3.357e-05,
-   "last": 3.357e-05,
-   "peak": 3.357e-05,
-   "cost": 3.0035849389202482,
-   "opened": "2026-11-13T20:46:19+07:00",
-   "smart": 6,
-   "kol": 0,
-   "miss": 0
-  },
   "5R7Q4ZRqjX6btciX9n5R1pvDMNxMiDqJwYNKU8j6pump": {
    "sym": "SYRUP",
    "qty": 29805.002213417065,
    "entry": 6.234e-05,
-   "last": 7.817e-05,
+   "last": 7.805e-05,
    "peak": 7.817e-05,
    "cost": 1.9151142424081837,
    "opened": "2026-11-13T23:41:28+07:00",
    "smart": 5,
-   "kol": 0,
-   "miss": 0
-  },
-  "AjUfofiDZ23PcjzJfZa7FwAXHgHhgEQTqLhcKz1zpump": {
-   "sym": "NEVER",
-   "qty": 61218.75693437297,
-   "entry": 3.017e-05,
-   "last": 3.017e-05,
-   "peak": 3.017e-05,
-   "cost": 1.9037001615234308,
-   "opened": "2026-11-13T23:45:14+07:00",
-   "smart": 10,
    "kol": 0,
    "miss": 0
   }
@@ -209,8 +185,32 @@
    "sym": "NEVER",
    "price": 3.017e-05,
    "usd": 1.9037
+  },
+  {
+   "t": "2026-11-13T23:48:59+07:00",
+   "kind": "sell",
+   "mint": "E7hQikBvDtwUWRi9wdej6jhN6XkokZyhHtwakjmZpump",
+   "sym": "Grumblor",
+   "price": 3.357e-05,
+   "usd": 2.8272,
+   "pnl": -0.1763,
+   "why": "ครบ 3 ชม. (+0.0%)",
+   "smart": 6,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-13T23:48:59+07:00",
+   "kind": "sell",
+   "mint": "AjUfofiDZ23PcjzJfZa7FwAXHgHhgEQTqLhcKz1zpump",
+   "sym": "NEVER",
+   "price": 1.947e-06,
+   "usd": 0.1156,
+   "pnl": -1.7881,
+   "why": "stop -93.5%",
+   "smart": 10,
+   "bundler": null
   }
  ],
  "label": "สูตร x_insider4 (คู่ใหม่ + top trader)",
- "rank_t": 1794588314.4679642
+ "rank_t": 1794588538.8193312
 }
