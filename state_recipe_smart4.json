@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.10451703715681337,
+ "cash": 0.8055242534100303,
  "pos": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
@@ -19,7 +19,7 @@
    "sym": "OTC",
    "qty": 375.9914257841518,
    "entry": 0.002377,
-   "last": 0.002387,
+   "last": 0.002343,
    "peak": 0.002388,
    "cost": 0.921182868572386,
    "opened": "2026-11-14T03:10:35+07:00",
@@ -31,24 +31,12 @@
    "sym": "PUSSY",
    "qty": 3290.369646619106,
    "entry": 0.0002169,
-   "last": 0.0002354,
+   "last": 0.0002347,
    "peak": 0.0002501,
    "cost": 0.7356021195131768,
    "opened": "2026-11-14T04:06:56+07:00",
    "smart": 250,
    "kol": 15,
-   "miss": 0
-  },
-  "5LEGND95QBhYtQecbyak9HzYeq2SeJL8YwDsX8PLpump": {
-   "sym": "BBTB",
-   "qty": 6087.100882222991,
-   "entry": 0.0001134,
-   "last": 0.0001498,
-   "peak": 0.0001498,
-   "cost": 0.7114793238961937,
-   "opened": "2026-11-14T04:23:56+07:00",
-   "smart": 104,
-   "kol": 7,
    "miss": 0
   }
  },
@@ -1209,8 +1197,20 @@
    "sym": "BBTB",
    "price": 0.0001134,
    "usd": 0.7115
+  },
+  {
+   "t": "2026-11-14T04:36:48+07:00",
+   "kind": "sell",
+   "mint": "5LEGND95QBhYtQecbyak9HzYeq2SeJL8YwDsX8PLpump",
+   "sym": "BBTB",
+   "price": 0.0001187,
+   "usd": 0.701,
+   "pnl": -0.0105,
+   "why": "trailing จากยอด +32% (+4.7%)",
+   "smart": 104,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794605526.2346554
+ "rank_t": 1794605786.1794121
 }

@@ -1,8 +1,35 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 3.7451061239368735,
- "pos": {},
+ "cash": 2.251527840861857,
+ "pos": {
+  "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": {
+   "sym": "AURA",
+   "qty": 14392.95686846328,
+   "entry": 5.049e-05,
+   "last": 4.805e-05,
+   "peak": 5.049e-05,
+   "cost": 0.7490212247873748,
+   "opened": "2026-11-14T04:36:38+07:00",
+   "smart": 48,
+   "kol": 1,
+   "bundler": 0.1981,
+   "miss": 0
+  },
+  "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
+   "sym": "STANK",
+   "qty": 296.53910424904365,
+   "entry": 0.002436,
+   "last": 0.002436,
+   "peak": 0.002436,
+   "cost": 0.744557058287642,
+   "opened": "2026-11-14T04:36:45+07:00",
+   "smart": 74,
+   "kol": 1,
+   "bundler": 0.1327,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T01:37:56+07:00",
@@ -7948,6 +7975,66 @@
    "buy": 0.8771,
    "bull": 0.9221,
    "bear": 0.9694
+  },
+  {
+   "t": "2026-11-14T04:36:34+07:00",
+   "kind": "debate",
+   "mint": "6EHTywfoXpDNhL4JGkeYUhiL6mumpmD7j8ByjQaXpump",
+   "sym": "CSI",
+   "ok": false,
+   "bundler": 0.3471,
+   "buy": 0.8247,
+   "bull": 0.9214,
+   "bear": 0.9598
+  },
+  {
+   "t": "2026-11-14T04:36:38+07:00",
+   "kind": "debate",
+   "mint": "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump",
+   "sym": "AURA",
+   "ok": true,
+   "bundler": 0.1981,
+   "buy": 0.7535,
+   "bull": 0.9677,
+   "bear": 0.0001
+  },
+  {
+   "t": "2026-11-14T04:36:38+07:00",
+   "kind": "buy",
+   "mint": "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump",
+   "sym": "AURA",
+   "price": 5.049e-05,
+   "usd": 0.749
+  },
+  {
+   "t": "2026-11-14T04:36:41+07:00",
+   "kind": "debate",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "ok": false,
+   "bundler": 0.02,
+   "buy": 0.8801,
+   "bull": 0.9113,
+   "bear": 0.9673
+  },
+  {
+   "t": "2026-11-14T04:36:45+07:00",
+   "kind": "debate",
+   "mint": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
+   "sym": "STANK",
+   "ok": true,
+   "bundler": 0.1327,
+   "buy": 0.8527,
+   "bull": 0.7915,
+   "bear": 0.0185
+  },
+  {
+   "t": "2026-11-14T04:36:45+07:00",
+   "kind": "buy",
+   "mint": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
+   "sym": "STANK",
+   "price": 0.002436,
+   "usd": 0.7446
   }
  ]
 }

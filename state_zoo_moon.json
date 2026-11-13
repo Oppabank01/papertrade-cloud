@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.558915953560335,
+ "cash": 0.0,
  "pos": {
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 4218.672832138303,
    "entry": 0.0006786,
-   "last": 0.0006271,
+   "last": 0.0006086,
    "peak": 0.0008452,
    "cost": 2.950722927117144,
    "opened": "2026-11-14T00:45:45+07:00",
@@ -33,13 +33,26 @@
    "sym": "LuckyCoin",
    "qty": 5068.607085878472,
    "entry": 0.0004446,
-   "last": 0.0003619,
+   "last": 0.0003069,
    "peak": 0.000567,
    "cost": 2.322719759205905,
    "opened": "2026-11-14T02:43:43+07:00",
    "zoo": "moon",
    "smart": 38,
    "kol": 4,
+   "miss": 0
+  },
+  "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump": {
+   "sym": "plumber",
+   "qty": 4530.160886752188,
+   "entry": 0.0001197,
+   "last": 0.0001197,
+   "peak": 0.0001197,
+   "cost": 0.558915953560335,
+   "opened": "2026-11-14T04:36:57+07:00",
+   "zoo": "moon",
+   "smart": 126,
+   "kol": 3,
    "miss": 0
   }
  },
@@ -272,8 +285,16 @@
    "why": "stop -52.2%",
    "smart": 56,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T04:36:57+07:00",
+   "kind": "buy",
+   "mint": "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump",
+   "sym": "plumber",
+   "price": 0.0001197,
+   "usd": 0.5589
   }
  ],
  "label": "สวนสัตว์: ถือยาวรอ x2 (stop -50%)",
- "rank_t": 1794605526.2346554
+ "rank_t": 1794605786.1794121
 }
