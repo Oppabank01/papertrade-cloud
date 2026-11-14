@@ -1,19 +1,32 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.155483362462657,
+ "cash": 1.5984557184180028,
  "pos": {
   "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
    "sym": "Lucia",
    "qty": 708.0342491404625,
    "entry": 0.0007384,
-   "last": 0.0008893,
+   "last": 0.0008884,
    "peak": 0.0009397,
    "cost": 0.5388708406156643,
    "opened": "2026-11-14T09:55:28+07:00",
    "smart": 96,
    "kol": 4,
    "bundler": 0.1822,
+   "miss": 0
+  },
+  "FPN5sEwtxtLn8d5zRqy2wMs8oSswRk9xyQd4Lt1dpump": {
+   "sym": "farmed",
+   "qty": 7038.658768587177,
+   "entry": 7.678e-05,
+   "last": 7.678e-05,
+   "peak": 7.678e-05,
+   "cost": 0.5570276440446541,
+   "opened": "2026-11-14T10:17:48+07:00",
+   "smart": 87,
+   "kol": 4,
+   "bundler": 0.2395,
    "miss": 0
   }
  },
@@ -11317,6 +11330,58 @@
    "buy": 0.8519,
    "bull": 0.945,
    "bear": 0.9995
+  },
+  {
+   "t": "2026-11-14T10:17:48+07:00",
+   "kind": "debate",
+   "mint": "FPN5sEwtxtLn8d5zRqy2wMs8oSswRk9xyQd4Lt1dpump",
+   "sym": "farmed",
+   "ok": true,
+   "bundler": 0.2395,
+   "buy": 0.8065,
+   "bull": 0.9053,
+   "bear": 0.0014
+  },
+  {
+   "t": "2026-11-14T10:17:48+07:00",
+   "kind": "buy",
+   "mint": "FPN5sEwtxtLn8d5zRqy2wMs8oSswRk9xyQd4Lt1dpump",
+   "sym": "farmed",
+   "price": 7.678e-05,
+   "usd": 0.557
+  },
+  {
+   "t": "2026-11-14T10:17:51+07:00",
+   "kind": "debate",
+   "mint": "BDDdnX85YSmqDNHTyHjktmUd8ZzGLyXiWMAT1FLppump",
+   "sym": "SWJ",
+   "ok": false,
+   "bundler": 0.1627,
+   "buy": 0.8148,
+   "bull": 0.9088,
+   "bear": 0.9997
+  },
+  {
+   "t": "2026-11-14T10:17:54+07:00",
+   "kind": "debate",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "ok": false,
+   "bundler": 0.0201,
+   "buy": 0.921,
+   "bull": 0.9016,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-14T10:17:56+07:00",
+   "kind": "debate",
+   "mint": "2zhfT4b6N4Jq5VwPjvbN6BwrZhpk7ncZ55ofXR9wpump",
+   "sym": "LEAP",
+   "ok": false,
+   "bundler": 0.1056,
+   "buy": 0.8601,
+   "bull": 0.9453,
+   "bear": 1.0
   }
  ]
 }
