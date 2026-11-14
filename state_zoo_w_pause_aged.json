@@ -1,41 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.36119571424707,
+ "cash": 8.181647394945028,
  "pos": {
-  "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
-   "sym": "STANK",
-   "qty": 1813.538893426379,
-   "entry": 0.001561,
-   "last": 0.001858,
-   "peak": 0.001905,
-   "cost": 2.9178872527711586,
-   "opened": "2026-11-15T00:49:45+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 77,
-   "kol": 1,
-   "gap": 0,
-   "miss": 0
-  },
-  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
-   "sym": "USELESS",
-   "qty": 26.698878982269942,
-   "entry": 0.1054,
-   "last": 0.09817,
-   "peak": 0.1056,
-   "cost": 2.900496644744642,
-   "opened": "2026-11-15T00:49:49+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 924,
-   "kol": 294,
-   "gap": 0,
-   "miss": 0
-  },
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 1401.4676854614495,
    "entry": 0.001984,
-   "last": 0.002138,
+   "last": 0.002176,
    "peak": 0.002242,
    "cost": 2.8659161904303403,
    "opened": "2026-11-15T01:32:16+07:00",
@@ -49,7 +21,7 @@
    "sym": "CATE",
    "qty": 168.15623706880842,
    "entry": 0.01645,
-   "last": 0.01622,
+   "last": 0.01611,
    "peak": 0.01658,
    "cost": 2.851133889694804,
    "opened": "2026-11-15T02:56:26+07:00",
@@ -184,8 +156,38 @@
    "zoo": "w_pause_aged",
    "smart": 862,
    "kol": 110
+  },
+  {
+   "t": "2026-11-15T03:49:45+07:00",
+   "kind": "sell",
+   "mint": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
+   "sym": "STANK",
+   "price": 0.001861,
+   "entry": 0.001561,
+   "usd": 3.2744,
+   "pnl": 0.3565,
+   "why": "ครบ 3 ชม. (+19.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 77,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T03:50:05+07:00",
+   "kind": "sell",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.09829,
+   "entry": 0.1054,
+   "usd": 2.546,
+   "pnl": -0.3545,
+   "why": "ครบ 3 ชม. (-6.7%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 924,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794688929.8825777
+ "rank_t": 1794689208.0581129
 }

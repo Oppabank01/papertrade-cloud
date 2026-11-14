@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 6.232103709967033,
+ "cash": 7.80238158820519,
  "pos": {
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 102.52900167134874,
    "entry": 0.006737,
-   "last": 0.007227,
+   "last": 0.00727,
    "peak": 0.007787,
    "cost": 0.7119541169448326,
    "opened": "2026-11-15T02:10:20+07:00",
@@ -17,25 +17,11 @@
    "gap": 0,
    "miss": 0
   },
-  "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
-   "sym": "WASTED",
-   "qty": 219.16386552663784,
-   "entry": 0.003147,
-   "last": 0.004332,
-   "peak": 0.004563,
-   "cost": 0.7108933053105848,
-   "opened": "2026-11-15T02:10:25+07:00",
-   "zoo": "w_f5_spray",
-   "smart": 63,
-   "kol": 1,
-   "gap": 0,
-   "miss": 0
-  },
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 338.41819109187173,
    "entry": 0.002035,
-   "last": 0.002136,
+   "last": 0.002176,
    "peak": 0.002242,
    "cost": 0.709834074285672,
    "opened": "2026-11-15T02:10:27+07:00",
@@ -63,21 +49,21 @@
    "sym": "neet",
    "qty": 23.09283914038281,
    "entry": 0.02966,
-   "last": 0.0295,
+   "last": 0.02961,
    "peak": 0.03006,
    "cost": 0.7059715614345023,
    "opened": "2026-11-15T02:37:28+07:00",
    "zoo": "w_f5_spray",
    "smart": 851,
    "kol": 202,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 41.498010801038006,
    "entry": 0.0164,
-   "last": 0.01613,
+   "last": 0.01611,
    "peak": 0.01663,
    "cost": 0.7014712194774514,
    "opened": "2026-11-15T02:46:56+07:00",
@@ -101,46 +87,32 @@
    "gap": 0,
    "miss": 0
   },
-  "7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": {
-   "sym": "Snoopy",
-   "qty": 1087.7227149337564,
-   "entry": 0.0006179,
-   "last": 0.0006209400191875183,
-   "peak": 0.0006275,
-   "cost": 0.6927477484617276,
-   "opened": "2026-11-15T03:10:36+07:00",
-   "zoo": "w_f5_spray",
-   "smart": 208,
-   "kol": 14,
-   "gap": 1,
-   "miss": 0
-  },
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 164.86511849558678,
    "entry": 0.003928,
-   "last": 0.003978,
+   "last": 0.003873,
    "peak": 0.003983,
    "cost": 0.6674811229134868,
    "opened": "2026-11-15T03:25:02+07:00",
    "zoo": "w_f5_spray",
    "smart": 248,
    "kol": 20,
-   "gap": 0,
+   "gap": 3,
    "miss": 0
   },
   "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump": {
    "sym": "ber",
    "qty": 912.7484441375713,
    "entry": 0.0007033,
-   "last": 0.00067324769931114,
+   "last": 0.0006672056598085262,
    "peak": 0.000717,
    "cost": 0.6616532475386043,
    "opened": "2026-11-15T03:43:23+07:00",
    "zoo": "w_f5_spray",
    "smart": 126,
    "kol": 5,
-   "gap": 1,
+   "gap": 11,
    "miss": 0
   }
  },
@@ -927,8 +899,38 @@
    "zoo": "w_f5_spray",
    "smart": 126,
    "kol": 5
+  },
+  {
+   "t": "2026-11-15T03:48:01+07:00",
+   "kind": "sell",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "price": 0.00479,
+   "entry": 0.003147,
+   "usd": 1.0185,
+   "pnl": 0.3076,
+   "why": "ถึงเป้า +52.2%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 63,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T03:49:03+07:00",
+   "kind": "sell",
+   "mint": "7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn",
+   "sym": "Snoopy",
+   "price": 0.0005228488257806457,
+   "entry": 0.0006179,
+   "usd": 0.5518,
+   "pnl": -0.141,
+   "why": "stop -15.4%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 208,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ x_spray_small แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794688929.8825777
+ "rank_t": 1794689208.0581129
 }

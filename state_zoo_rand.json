@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.1644353679082404,
+ "cash": 0.7824474376132873,
  "pos": {
   "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
    "sym": "neet",
    "qty": 12.681676320491647,
    "entry": 0.02963,
-   "last": 0.02935,
-   "peak": 0.02963,
+   "last": 0.02986,
+   "peak": 0.02986,
    "cost": 0.3872995973780329,
    "opened": "2026-11-15T03:13:29+07:00",
    "zoo": "rand",
@@ -21,14 +21,28 @@
    "sym": "PEAK",
    "qty": 1448.572307179259,
    "entry": 0.0002577,
-   "last": 0.0002577,
-   "peak": 0.0002577,
+   "last": 0.0002587,
+   "peak": 0.0002587,
    "cost": 0.3847630216038909,
    "opened": "2026-11-15T03:42:38+07:00",
    "zoo": "rand",
    "smart": 119,
    "kol": 9,
    "gap": 0,
+   "miss": 0
+  },
+  "46sup1Mc1AdQPpikrdNLUjmzSgZcEYdV3pk8XPPXpump": {
+   "sym": "DOGCOIN",
+   "qty": 3183.889089107934,
+   "entry": 0.0001164,
+   "last": 0.00011528184908556168,
+   "peak": 0.0001164,
+   "cost": 0.3819879302949531,
+   "opened": "2026-11-15T03:47:23+07:00",
+   "zoo": "rand",
+   "smart": 59,
+   "kol": 3,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -1406,8 +1420,22 @@
    "zoo": "rand",
    "smart": 119,
    "kol": 9
+  },
+  {
+   "t": "2026-11-15T03:47:23+07:00",
+   "kind": "buy",
+   "mint": "46sup1Mc1AdQPpikrdNLUjmzSgZcEYdV3pk8XPPXpump",
+   "sym": "DOGCOIN",
+   "price": 0.0001164,
+   "jup": 0.00011528184908556168,
+   "usd": 0.382,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 59,
+   "kol": 3
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794688929.8825777
+ "rank_t": 1794689208.0581129
 }
