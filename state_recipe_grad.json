@@ -1,21 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.0966608584637414,
- "pos": {
-  "5coEpE53g1rt3XzDA2DCkCHmE8RaHodrrs1bUAPZpump": {
-   "sym": "pichu",
-   "qty": 6723.839515176453,
-   "entry": 3.956e-05,
-   "last": 3.956e-05,
-   "peak": 3.956e-05,
-   "cost": 0.27416521461593535,
-   "opened": "2026-11-14T16:44:59+07:00",
-   "smart": 7,
-   "kol": 1,
-   "miss": 0
-  }
- },
+ "cash": 1.24891862720229,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -1669,8 +1656,20 @@
    "sym": "pichu",
    "price": 3.956e-05,
    "usd": 0.2742
+  },
+  {
+   "t": "2026-11-14T16:49:12+07:00",
+   "kind": "sell",
+   "mint": "5coEpE53g1rt3XzDA2DCkCHmE8RaHodrrs1bUAPZpump",
+   "sym": "pichu",
+   "price": 2.334e-05,
+   "usd": 0.1523,
+   "pnl": -0.1219,
+   "why": "stop -41.0%",
+   "smart": 7,
+   "bundler": null
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794649477.6920488
+ "rank_t": 1794649738.2828765
 }
