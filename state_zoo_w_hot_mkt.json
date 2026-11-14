@@ -1,15 +1,44 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 14.714537963507947,
- "pos": {},
+ "cash": 11.771630370806358,
+ "pos": {
+  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
+   "sym": "STONK",
+   "qty": 73.68619346141607,
+   "entry": 0.03954,
+   "last": 0.03946,
+   "peak": 0.03954,
+   "cost": 2.9429075927015895,
+   "opened": "2026-11-15T00:29:22+07:00",
+   "zoo": "w_hot_mkt",
+   "smart": 1000,
+   "kol": 174,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T22:43:41+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-15T00:29:22+07:00",
+   "kind": "buy",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.03954,
+   "jup": 0.039554058792103275,
+   "usd": 2.9429,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_hot_mkt",
+   "smart": 1000,
+   "kol": 174
   }
  ],
  "label": "สวนสัตว์: ตลาดร้อน: กฎ w_aged_nostop เฉพาะรอบที่เหรียญ 74%+ ขึ้นใน 1 ชม.",
- "rank_t": 1794677012.2344882
+ "rank_t": 1794677303.5371604
 }
