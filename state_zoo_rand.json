@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 3.6649038997276975,
+ "cash": 2.4215170422667436,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 26.66014466906886,
    "entry": 0.04955,
-   "last": 0.04932,
-   "peak": 0.04955,
+   "last": 0.04976,
+   "peak": 0.04976,
    "cost": 1.3615854136800267,
    "opened": "2026-11-14T06:45:35+07:00",
    "zoo": "rand",
@@ -20,13 +20,26 @@
    "sym": "SPEED",
    "qty": 3863.685360707664,
    "entry": 0.0003271,
-   "last": 0.0003202,
+   "last": 0.0003242,
    "peak": 0.0003271,
    "cost": 1.3026298510487289,
    "opened": "2026-11-14T07:03:22+07:00",
    "zoo": "rand",
    "smart": 3,
    "kol": 0,
+   "miss": 0
+  },
+  "7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": {
+   "sym": "HIGH",
+   "qty": 1607.802117964304,
+   "entry": 0.0007503,
+   "last": 0.0007503,
+   "peak": 0.0007503,
+   "cost": 1.2433868574609537,
+   "opened": "2026-11-14T07:12:02+07:00",
+   "zoo": "rand",
+   "smart": 122,
+   "kol": 8,
    "miss": 0
   }
  },
@@ -551,8 +564,16 @@
    "why": "stop -9.4%",
    "smart": 14,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T07:12:02+07:00",
+   "kind": "buy",
+   "mint": "7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh",
+   "sym": "HIGH",
+   "price": 0.0007503,
+   "usd": 1.2434
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794614845.8640132
+ "rank_t": 1794615098.7435288
 }
