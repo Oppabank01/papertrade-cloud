@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 4.265410860448482,
- "pos": {
-  "Aq38XaBAkzAtwbpvFKEzKg9hp1eZrEFV5W9H6XJjFUND": {
-   "sym": "FUND",
-   "qty": 6118.127759915905,
-   "entry": 0.0001691,
-   "last": 0.0001771,
-   "peak": 0.0001771,
-   "cost": 1.0663527151121206,
-   "opened": "2026-11-14T16:45:03+07:00",
-   "zoo": "scalp",
-   "smart": 53,
-   "kol": 3,
-   "miss": 0
-  }
- },
+ "cash": 4.98601789734267,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T00:42:01+07:00",
@@ -730,8 +716,20 @@
    "sym": "FUND",
    "price": 0.0001691,
    "usd": 1.0664
+  },
+  {
+   "t": "2026-11-14T16:53:45+07:00",
+   "kind": "sell",
+   "mint": "Aq38XaBAkzAtwbpvFKEzKg9hp1eZrEFV5W9H6XJjFUND",
+   "sym": "FUND",
+   "price": 0.0001214,
+   "usd": 0.7206,
+   "pnl": -0.3457,
+   "why": "stop -28.2%",
+   "smart": 53,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เก็บสั้น +10% ตัด -5% 30 นาที",
- "rank_t": 1794649738.2828765
+ "rank_t": 1794650003.4878807
 }
