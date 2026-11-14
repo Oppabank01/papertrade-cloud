@@ -1,31 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 3.400235294420818,
+ "cash": 4.3964095422700025,
  "pos": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 409.5232799784383,
    "entry": 0.003253,
-   "last": 0.003194,
+   "last": 0.0031481550710441217,
    "peak": 0.003407,
    "cost": 1.3730975363531848,
    "opened": "2026-11-14T14:56:23+07:00",
    "source": "agents",
    "miss": 0,
-   "gap": 0
-  },
-  "BdouwEr3mwXkT6S6EmHNCjn9oEtykRKCKiUSTRF9pump": {
-   "sym": "Alice",
-   "qty": 33047.05681013497,
-   "entry": 3.485e-05,
-   "last": 3.441e-05,
-   "peak": 3.589e-05,
-   "cost": 1.1870644504568169,
-   "opened": "2026-11-14T21:42:01+07:00",
-   "source": "agents",
-   "gap": 0,
-   "miss": 0
+   "gap": 1
   }
  },
  "log": [
@@ -817,6 +805,21 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-14T23:13:07+07:00",
+   "kind": "sell",
+   "mint": "BdouwEr3mwXkT6S6EmHNCjn9oEtykRKCKiUSTRF9pump",
+   "sym": "Alice",
+   "price": 3.107e-05,
+   "entry": 3.485e-05,
+   "usd": 0.9962,
+   "pnl": -0.1909,
+   "why": "stop -10.8%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",

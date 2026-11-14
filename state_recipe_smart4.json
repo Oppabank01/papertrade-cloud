@@ -1,32 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.31119387660680964,
+ "cash": 0.43140632696301434,
  "pos": {
-  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
-   "sym": "USELESS",
-   "qty": 1.1755674934314362,
-   "entry": 0.1109,
-   "last": 0.1067,
-   "peak": 0.1113,
-   "cost": 0.13437480418629796,
-   "opened": "2026-11-14T20:09:08+07:00",
-   "smart": 924,
-   "kol": 294,
-   "gap": 0,
-   "miss": 0
-  },
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 28.91296457060654,
    "entry": 0.004159,
-   "last": 0.004146,
+   "last": 0.004076,
    "peak": 0.004316,
    "cost": 0.12394250633802578,
    "opened": "2026-11-14T22:34:37+07:00",
    "smart": 245,
    "kol": 20,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -2669,8 +2656,23 @@
    "cost_side": 0.03,
    "smart": 173,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T23:13:17+07:00",
+   "kind": "sell",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.1054,
+   "entry": 0.1109,
+   "usd": 0.1202,
+   "pnl": -0.0142,
+   "why": "ครบ 3 ชม. (-5.0%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 924,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794672466.6208253
+ "rank_t": 1794672766.6144433
 }
