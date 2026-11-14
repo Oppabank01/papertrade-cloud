@@ -1,8 +1,37 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 6.9184898729158135,
- "pos": {},
+ "cash": 4.159340763678004,
+ "pos": {
+  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
+   "sym": "mihao",
+   "qty": 100.3336154664114,
+   "entry": 0.01338,
+   "last": 0.0133,
+   "peak": 0.01338,
+   "cost": 1.3836979745831628,
+   "opened": "2026-11-15T04:16:29+07:00",
+   "zoo": "holders",
+   "smart": 679,
+   "kol": 69,
+   "gap": 0,
+   "miss": 0
+  },
+  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
+   "sym": "Macca",
+   "qty": 668.5684823857409,
+   "entry": 0.001996,
+   "last": 0.001996,
+   "peak": 0.001996,
+   "cost": 1.3754511346546474,
+   "opened": "2026-11-15T04:16:29+07:00",
+   "zoo": "holders",
+   "smart": 169,
+   "kol": 8,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:42:00+07:00",
@@ -947,8 +976,36 @@
    "cost_side": 0.03,
    "smart": 763,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T04:16:29+07:00",
+   "kind": "buy",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.01338,
+   "jup": 0.013374207350822965,
+   "usd": 1.3837,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 679,
+   "kol": 69
+  },
+  {
+   "t": "2026-11-15T04:16:29+07:00",
+   "kind": "buy",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.001996,
+   "jup": 0.0019940319176811917,
+   "usd": 1.3755,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 169,
+   "kol": 8
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794690666.4504988
+ "rank_t": 1794690950.5406485
 }
