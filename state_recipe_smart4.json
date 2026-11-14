@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.15931105158203387,
+ "cash": 0.2999434638701399,
  "pos": {
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 44.98978506690364,
    "entry": 0.00389,
-   "last": 0.003908,
+   "last": 0.003861,
    "peak": 0.003931,
    "cost": 0.18038575954468683,
    "opened": "2026-11-14T16:26:54+07:00",
@@ -20,7 +20,7 @@
    "sym": "Wolf",
    "qty": 2623.063883605347,
    "entry": 6.298e-05,
-   "last": 9.153e-05,
+   "last": 8.021e-05,
    "peak": 9.415e-05,
    "cost": 0.17027475096832073,
    "opened": "2026-11-14T17:25:21+07:00",
@@ -33,25 +33,12 @@
    "sym": "Dacity",
    "qty": 71.32065891387626,
    "entry": 0.002239,
-   "last": 0.002271,
-   "peak": 0.002275,
+   "last": 0.002277,
+   "peak": 0.002277,
    "cost": 0.16459179067013913,
    "opened": "2026-11-14T17:33:57+07:00",
    "smart": 424,
    "kol": 38,
-   "gap": 0,
-   "miss": 0
-  },
-  "8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": {
-   "sym": "WEALTH",
-   "qty": 364.07160792323907,
-   "entry": 0.000436,
-   "last": 0.0004171,
-   "peak": 0.000436,
-   "cost": 0.16361082359774506,
-   "opened": "2026-11-14T17:33:57+07:00",
-   "smart": 58,
-   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -2217,8 +2204,23 @@
    "cost_side": 0.03,
    "smart": 58,
    "kol": 1
+  },
+  {
+   "t": "2026-11-14T18:31:22+07:00",
+   "kind": "sell",
+   "mint": "8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump",
+   "sym": "WEALTH",
+   "price": 0.00039814140454027153,
+   "entry": 0.000436,
+   "usd": 0.1406,
+   "pnl": -0.023,
+   "why": "stop -8.7%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 58,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794655579.8633015
+ "rank_t": 1794655850.8692062
 }
