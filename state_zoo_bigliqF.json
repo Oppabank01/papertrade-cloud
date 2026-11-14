@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.740566037735848,
- "cash": 10.100562103586082,
- "pos": {
-  "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
-   "sym": "TROLL",
-   "qty": 101.44139742896492,
-   "entry": 0.02569,
-   "last": 0.02521,
-   "peak": 0.02576,
-   "cost": 2.6860745206659544,
-   "opened": "2026-11-14T17:39:10+07:00",
-   "zoo": "bigliqF",
-   "smart": 458,
-   "kol": 213,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 12.581691071420599,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T10:55:00+07:00",
@@ -275,9 +260,24 @@
    "cost_side": 0.03,
    "smart": 424,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T20:39:31+07:00",
+   "kind": "sell",
+   "mint": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
+   "sym": "TROLL",
+   "price": 0.02521,
+   "entry": 0.02569,
+   "usd": 2.4811,
+   "pnl": -0.2049,
+   "why": "ครบ 3 ชม. (-1.9%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 458,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ เช็กราคาทุก 20 วิ",
- "rank_t": 1794663120.6597657,
+ "rank_t": 1794663388.9048476,
  "halted": "ราคา FLOAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }

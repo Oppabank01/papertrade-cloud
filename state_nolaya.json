@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.36289503405456713,
+ "cash": 0.18262030627975157,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 4.146369017502364,
    "entry": 0.04552,
-   "last": 0.04389,
+   "last": 0.04386,
    "peak": 0.04552,
    "cost": 0.19454000997393076,
    "opened": "2026-11-14T19:12:44+07:00",
@@ -19,8 +19,8 @@
    "sym": "Dacity",
    "qty": 81.29281406406862,
    "entry": 0.002171,
-   "last": 0.002228,
-   "peak": 0.002228,
+   "last": 0.002315,
+   "peak": 0.002315,
    "cost": 0.18190754414872498,
    "opened": "2026-11-14T20:22:48+07:00",
    "source": "agents",
@@ -31,12 +31,24 @@
    "sym": "DacityCoin",
    "qty": 43.56037727436337,
    "entry": 0.004026,
-   "last": 0.004026,
-   "peak": 0.004026,
+   "last": 0.004039806520431533,
+   "peak": 0.004039806520431533,
    "cost": 0.18076074923375277,
    "opened": "2026-11-14T20:32:12+07:00",
    "source": "agents",
-   "gap": 0,
+   "gap": 1,
+   "miss": 0
+  },
+  "6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": {
+   "sym": "GTA$",
+   "qty": 405.8063593668818,
+   "entry": 0.000431,
+   "last": 0.000431,
+   "peak": 0.000431,
+   "cost": 0.18027472777481557,
+   "opened": "2026-11-14T20:36:40+07:00",
+   "source": "agents",
+   "gap": 1,
    "miss": 0
   }
  },
@@ -2345,6 +2357,18 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-14T20:36:40+07:00",
+   "kind": "buy",
+   "mint": "6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump",
+   "sym": "GTA$",
+   "price": 0.000431,
+   "jup": 0.0004336813553005427,
+   "usd": 0.1803,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "agents"
   }
  ],
  "label": "เร็ว ไม่มี laya",
@@ -3746,6 +3770,8 @@
   "state_agents.json:2026-11-14T20:27:16+07:00:BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W",
   "state_agents.json:2026-11-14T20:32:06+07:00:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump",
   "state_agents.json:2026-11-14T20:32:08+07:00:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
-  "state_agents.json:2026-11-14T20:32:11+07:00:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump"
+  "state_agents.json:2026-11-14T20:32:11+07:00:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
+  "state_agents.json:2026-11-14T20:36:34+07:00:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump",
+  "state_agents.json:2026-11-14T20:36:35+07:00:6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx"
  ]
 }
