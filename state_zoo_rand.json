@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.6387351716551317,
+ "cash": 0.29788758323228304,
  "pos": {
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 170.45912095202308,
    "entry": 0.002019,
-   "last": 0.002322,
+   "last": 0.002312,
    "peak": 0.002346,
    "cost": 0.3547278552897698,
    "opened": "2026-11-15T04:02:21+07:00",
@@ -21,7 +21,7 @@
    "sym": "GATO",
    "qty": 46.671932944640524,
    "entry": 0.007277,
-   "last": 0.007095,
+   "last": 0.006984,
    "peak": 0.007616,
    "cost": 0.35006354982287063,
    "opened": "2026-11-15T04:11:42+07:00",
@@ -35,13 +35,27 @@
    "sym": "Buttcoin",
    "qty": 71.81996762118993,
    "entry": 0.004671,
-   "last": 0.004714,
-   "peak": 0.004714,
+   "last": 0.004774,
+   "peak": 0.004774,
    "cost": 0.34577516878847475,
    "opened": "2026-11-15T06:09:19+07:00",
    "zoo": "rand",
    "smart": 471,
    "kol": 48,
+   "gap": 0,
+   "miss": 0
+  },
+  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
+   "sym": "mihao",
+   "qty": 23.386869185844965,
+   "entry": 0.01414,
+   "last": 0.0142,
+   "peak": 0.0142,
+   "cost": 0.3408475884228487,
+   "opened": "2026-11-15T06:37:36+07:00",
+   "zoo": "rand",
+   "smart": 679,
+   "kol": 69,
    "gap": 0,
    "miss": 0
   }
@@ -1521,8 +1535,22 @@
    "cost_side": 0.03,
    "smart": 851,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T06:37:36+07:00",
+   "kind": "buy",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.01414,
+   "jup": 0.014147433118319836,
+   "usd": 0.3408,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 679,
+   "kol": 69
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794699140.6302884
+ "rank_t": 1794699415.5856907
 }
