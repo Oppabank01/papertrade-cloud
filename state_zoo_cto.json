@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.0184298376725875,
+ "cash": 0.35983391179081803,
  "pos": {
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
    "sym": "paws",
    "qty": 691.7415049536181,
    "entry": 0.0009017,
-   "last": 0.0009833,
+   "last": 0.0009827,
    "peak": 0.001036,
    "cost": 0.6429017883082638,
    "opened": "2026-11-14T06:19:58+07:00",
@@ -33,13 +33,26 @@
    "sym": "JENSEN",
    "qty": 1051.6787295965764,
    "entry": 0.0005492,
-   "last": 0.0009516,
+   "last": 0.000946,
    "peak": 0.0009516,
    "cost": 0.5953225709074829,
    "opened": "2026-11-14T08:34:15+07:00",
    "zoo": "cto",
    "smart": 2,
    "kol": 0,
+   "miss": 0
+  },
+  "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": {
+   "sym": "AURA",
+   "qty": 4664.012899930604,
+   "entry": 0.000137,
+   "last": 0.0001357,
+   "peak": 0.000137,
+   "cost": 0.6585959258817695,
+   "opened": "2026-11-14T08:47:38+07:00",
+   "zoo": "cto",
+   "smart": 65,
+   "kol": 1,
    "miss": 0
   }
  },
@@ -732,8 +745,16 @@
    "why": "stop -11.9%",
    "smart": 189,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T08:47:38+07:00",
+   "kind": "buy",
+   "mint": "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump",
+   "sym": "AURA",
+   "price": 0.000137,
+   "usd": 0.6586
   }
  ],
  "label": "สวนสัตว์: community takeover",
- "rank_t": 1794620567.1674538
+ "rank_t": 1794620841.5381904
 }
