@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.0146742297952143,
+ "cash": 1.4173754160790395,
  "pos": {
   "JATk4idqfAyU21F6w3xf2Rbyj9j8FnYxVWLMfoweqExh": {
    "sym": "WHITE",
@@ -17,32 +17,18 @@
    "miss": 0,
    "gap": 0
   },
-  "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
-   "sym": "Leonida",
-   "qty": 765.9536457780202,
-   "entry": 0.0005957,
-   "last": 0.0005491,
-   "peak": 0.0006414,
-   "cost": 0.4702933279632722,
-   "opened": "2026-11-14T16:00:57+07:00",
-   "smart": 73,
-   "kol": 4,
-   "bundler": 0.1097,
-   "miss": 0,
-   "gap": 0
-  },
   "6GnUH7g2nDJeKieaMdWqb2iaaVptJ3k8E5VpWA9pump": {
    "sym": "Wolf",
    "qty": 7676.395974388922,
    "entry": 6.298e-05,
-   "last": 8.779647790370631e-05,
+   "last": 8.623e-05,
    "peak": 8.779647790370631e-05,
    "cost": 0.49830902748610006,
    "opened": "2026-11-14T17:25:09+07:00",
    "smart": 73,
    "kol": 4,
    "bundler": 0.0596,
-   "gap": 1,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -15581,6 +15567,54 @@
    "buy": 0.7866,
    "bull": 0.9202,
    "bear": 0.9969
+  },
+  {
+   "t": "2026-11-14T18:21:38+07:00",
+   "kind": "debate",
+   "mint": "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
+   "sym": "FOOD",
+   "ok": false,
+   "bundler": 0.3174,
+   "buy": 0.804,
+   "bull": 0.9588,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-14T18:21:41+07:00",
+   "kind": "debate",
+   "mint": "EJPWoVgMrkZrqZAtRkGvA4jppbo15rMF2hhe1EPzpump",
+   "sym": "DCYC",
+   "ok": false,
+   "bundler": 0.1025,
+   "buy": 0.841,
+   "bull": 0.9188,
+   "bear": 0.9999
+  },
+  {
+   "t": "2026-11-14T18:21:44+07:00",
+   "kind": "debate",
+   "mint": "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray",
+   "sym": "PEAK",
+   "ok": false,
+   "bundler": 0.0442,
+   "buy": 0.8568,
+   "bull": 0.9647,
+   "bear": 0.9999
+  },
+  {
+   "t": "2026-11-14T18:21:44+07:00",
+   "kind": "sell",
+   "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "sym": "Leonida",
+   "price": 0.0005419,
+   "entry": 0.0005957,
+   "usd": 0.4027,
+   "pnl": -0.0676,
+   "why": "stop -9.0%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 73,
+   "bundler": 0.1097
   }
  ]
 }
