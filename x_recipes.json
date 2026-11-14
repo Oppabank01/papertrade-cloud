@@ -537,5 +537,263 @@
    "COOLDOWN_H": 6,
    "WATCH_S": 5
   }
+ },
+ {
+  "name": "w_ban_smartflow",
+  "label": "กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
+  "horizon": "week",
+  "source": "Mac session 15 Nov: x_smartflow_lowcap stopped buying for good after one coin kept a >1% price gap; user asked to test both fixes",
+  "claim": "identical to x_smartflow_lowcap except the price-gap halt: mode ban keeps trading on clean coins and beats the permanent halt",
+  "added": "2026-11-15",
+  "active": true,
+  "entry": {
+   "min": {
+    "smart_degen_count": 3,
+    "liquidity": 15000
+   },
+   "max": {
+    "market_cap": 1000000
+   },
+   "safe": false,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.2,
+   "HALF_AT": 1.0,
+   "TRAIL_ON": 0.5,
+   "TRAIL": 0.25,
+   "MAX_HOLD_H": 48,
+   "PER_TRADE": 0.2,
+   "MAX_POS": 4,
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "w_pause_smartflow",
+  "label": "กฎ x_smartflow_lowcap แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
+  "horizon": "week",
+  "source": "Mac session 15 Nov: x_smartflow_lowcap stopped buying for good after one coin kept a >1% price gap; user asked to test both fixes",
+  "claim": "identical to x_smartflow_lowcap except the price-gap halt: mode pause keeps trading on clean coins and beats the permanent halt",
+  "added": "2026-11-15",
+  "active": true,
+  "entry": {
+   "min": {
+    "smart_degen_count": 3,
+    "liquidity": 15000
+   },
+   "max": {
+    "market_cap": 1000000
+   },
+   "safe": false,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.2,
+   "HALF_AT": 1.0,
+   "TRAIL_ON": 0.5,
+   "TRAIL": 0.25,
+   "MAX_HOLD_H": 48,
+   "PER_TRADE": 0.2,
+   "MAX_POS": 4,
+   "HALT_MODE": 2
+  }
+ },
+ {
+  "name": "w_ban_spray",
+  "label": "กฎ x_spray_small แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
+  "horizon": "month",
+  "source": "Mac session 15 Nov: x_spray_small stopped buying for good after one coin kept a >1% price gap; user asked to test both fixes",
+  "claim": "identical to x_spray_small except the price-gap halt: mode ban keeps trading on clean coins and beats the permanent halt",
+  "added": "2026-11-15",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 15000
+   },
+   "max": {},
+   "safe": false,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "TP_ALL": 0.5,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 3,
+   "PER_TRADE": 0.05,
+   "MAX_POS": 12,
+   "COOLDOWN_H": 6,
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "w_pause_spray",
+  "label": "กฎ x_spray_small แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
+  "horizon": "month",
+  "source": "Mac session 15 Nov: x_spray_small stopped buying for good after one coin kept a >1% price gap; user asked to test both fixes",
+  "claim": "identical to x_spray_small except the price-gap halt: mode pause keeps trading on clean coins and beats the permanent halt",
+  "added": "2026-11-15",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 15000
+   },
+   "max": {},
+   "safe": false,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "TP_ALL": 0.5,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 3,
+   "PER_TRADE": 0.05,
+   "MAX_POS": 12,
+   "COOLDOWN_H": 6,
+   "HALT_MODE": 2
+  }
+ },
+ {
+  "name": "w_ban_scalp",
+  "label": "กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
+  "horizon": "month",
+  "source": "Mac session 15 Nov: x_scalp_1020 stopped buying for good after one coin kept a >1% price gap; user asked to test both fixes",
+  "claim": "identical to x_scalp_1020 except the price-gap halt: mode ban keeps trading on clean coins and beats the permanent halt",
+  "added": "2026-11-15",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 30000,
+    "price_change_percent5m": 3
+   },
+   "max": {
+    "price_change_percent5m": 40
+   },
+   "safe": false,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "TP_ALL": 0.15,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 2,
+   "PER_TRADE": 0.1,
+   "MAX_POS": 8,
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "w_pause_scalp",
+  "label": "กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
+  "horizon": "month",
+  "source": "Mac session 15 Nov: x_scalp_1020 stopped buying for good after one coin kept a >1% price gap; user asked to test both fixes",
+  "claim": "identical to x_scalp_1020 except the price-gap halt: mode pause keeps trading on clean coins and beats the permanent halt",
+  "added": "2026-11-15",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 30000,
+    "price_change_percent5m": 3
+   },
+   "max": {
+    "price_change_percent5m": 40
+   },
+   "safe": false,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "TP_ALL": 0.15,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 2,
+   "PER_TRADE": 0.1,
+   "MAX_POS": 8,
+   "HALT_MODE": 2
+  }
+ },
+ {
+  "name": "w_ban_bigliq",
+  "label": "กฎ bigliqF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
+  "horizon": "week",
+  "source": "Mac session 15 Nov: bigliqF stopped buying for good after one coin kept a >1% price gap; user asked to test both fixes",
+  "claim": "identical to bigliqF except the price-gap halt: mode ban keeps trading on clean coins and beats the permanent halt",
+  "added": "2026-11-15",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 200000,
+    "market_cap": 2000000
+   },
+   "up": true
+  },
+  "exit": {
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "w_pause_bigliq",
+  "label": "กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
+  "horizon": "week",
+  "source": "Mac session 15 Nov: bigliqF stopped buying for good after one coin kept a >1% price gap; user asked to test both fixes",
+  "claim": "identical to bigliqF except the price-gap halt: mode pause keeps trading on clean coins and beats the permanent halt",
+  "added": "2026-11-15",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 200000,
+    "market_cap": 2000000
+   },
+   "up": true
+  },
+  "exit": {
+   "HALT_MODE": 2
+  }
+ },
+ {
+  "name": "w_ban_aged",
+  "label": "กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
+  "horizon": "week",
+  "source": "Mac session 15 Nov: agedF stopped buying for good after one coin kept a >1% price gap; user asked to test both fixes",
+  "claim": "identical to agedF except the price-gap halt: mode ban keeps trading on clean coins and beats the permanent halt",
+  "added": "2026-11-15",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 24,
+    "liquidity": 50000
+   },
+   "up": true
+  },
+  "exit": {
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "w_pause_aged",
+  "label": "กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
+  "horizon": "week",
+  "source": "Mac session 15 Nov: agedF stopped buying for good after one coin kept a >1% price gap; user asked to test both fixes",
+  "claim": "identical to agedF except the price-gap halt: mode pause keeps trading on clean coins and beats the permanent halt",
+  "added": "2026-11-15",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 24,
+    "liquidity": 50000
+   },
+   "up": true
+  },
+  "exit": {
+   "HALT_MODE": 2
+  }
  }
 ]

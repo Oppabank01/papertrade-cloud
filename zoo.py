@@ -40,7 +40,7 @@ safe = lambda t: (f(t, "top_10_holder_rate") <= 0.20 and f(t, "dev_team_hold_rat
 up = recipes.up_with_buyers      # buys > sells and 0 < 5m change <= 100%
 
 STD = dict(STOP=-0.08, TP_ALL=None, HALF_AT=None, TRAIL_ON=0.15, TRAIL=0.15, MAX_HOLD_H=3, PER_TRADE=0.20, MAX_POS=4, COOLDOWN_H=24, MISS_N=2,
-           FEE=0.01, SLIP=0.02, WATCH_S=20, GAP_HALT_N=15)    # FEE/SLIP per side = agents defaults; listed so a recipe override never leaks to the next account
+           FEE=0.01, SLIP=0.02, WATCH_S=20, GAP_HALT_N=15, HALT_MODE=0, PAUSE_H=1)    # FEE/SLIP per side = agents defaults; listed so a recipe override never leaks to the next account
 LOCKS = Path(tempfile.gettempdir()) / "zoo_locks"     # outside data/ so git never picks them up
 STOP_FILE = LOCKS / "watch.stop"
 
@@ -308,6 +308,7 @@ def cmd_report():
                 due = datetime.fromisoformat(s["log"][0]["t"]) + timedelta(days=7 if hz == "week" else 30)
                 tag = f"  [{HORIZONS[hz]}: ตัดสิน {due:%d/%m}]"
             tag += "".join(f"  [{k}: {s[k]}]" for k, k2 in (("dead", 0), ("passed", 0), ("halted", 0)) if s.get(k))
+            tag += f"  [ห้ามเหรียญ: {' '.join(s['banned'].values())}]" if s.get("banned") else ""
             rows.append((agents.equity(s) / s["start_usd"] - 1, name, s.get("label", name) + tag, len(sells), sum(p > 0 for p in sells)))
     for r, name, label, n, w in sorted(rows, reverse=True):
         print(f"{r:+7.1%}  {name:8s} ไม้ {n:3d} ชนะ {w:3d}  {label}")

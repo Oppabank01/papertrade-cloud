@@ -138,6 +138,8 @@ def cmd_scan():
 JUP = "https://lite-api.jup.ag/price/v3?ids="
 PRICE_GAP = 0.01            # agent rules (14 Nov): account price vs a second source must agree within 1%
 GAP_HALT_N = 15             # rounds in a row a held token disagrees before the account stops buying (~5 min at 20 s)
+HALT_MODE = 0               # what a long price gap stops: 0 = all buys for good, 1 = only that coin, 2 = all buys for PAUSE_H then resume
+PAUSE_H = 1
 WATCH_S = 20                # seconds between exit checks for this account; the Jupiter cache must be younger than one check
 _jup = {}
 
@@ -164,8 +166,13 @@ def jup_prices(mints):
 
 def paper_buy(s, mint, sym, **meta):
     """EXEC seat: fake buy at the live DexScreener price (not a stale snapshot). Returns why it did not buy, or None."""
+    if s.get("halted") and HALT_MODE == 2 and grok.now() >= datetime.fromisoformat(s["halted_until"]):
+        log(s, "resume", why=s.pop("halted"))
+        s.pop("halted_until")
     if s.get("halted"):
         return "account halted"
+    if mint in s.get("banned", {}):
+        return "coin banned: price gap"
     if mint in s["pos"] or len(s["pos"]) >= MAX_POS:
         return "held or full"
     cut = (grok.now() - timedelta(hours=COOLDOWN_H)).isoformat(timespec="seconds")
@@ -208,8 +215,14 @@ def cmd_run():
             if m in pools and m in jp and abs(float(pools[m]["priceUsd"]) / jp[m] - 1) > PRICE_GAP:
                 q["gap"] = q.get("gap", 0) + 1                    # sources disagree: price this round at the lower one
                 pools[m] = {**pools[m], "priceUsd": str(min(float(pools[m]["priceUsd"]), jp[m]))}
-                if q["gap"] >= GAP_HALT_N and not s.get("halted"):
+                if q["gap"] >= GAP_HALT_N and HALT_MODE == 1 and m not in s.setdefault("banned", {}):
+                    s["banned"][m] = q["sym"]
+                    log(s, "ban", mint=m, sym=q["sym"], why=f"ราคาสองแหล่งต่างกันเกิน {PRICE_GAP:.0%} ติดกัน {q['gap']} รอบ")
+                    print(f"  BAN {q['sym']}")
+                elif q["gap"] >= GAP_HALT_N and HALT_MODE != 1 and not s.get("halted"):
                     s["halted"] = f"ราคา {q['sym']} สองแหล่งต่างกันเกิน {PRICE_GAP:.0%} ติดกัน {q['gap']} รอบ"
+                    if HALT_MODE == 2:
+                        s["halted_until"] = (grok.now() + timedelta(hours=PAUSE_H)).isoformat(timespec="seconds")
                     print(f"  HALT {s['halted']}")
             elif m in pools:
                 q["gap"] = 0

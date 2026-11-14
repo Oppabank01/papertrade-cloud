@@ -57,7 +57,7 @@ assert not s["pos"] and s["log"][-1]["kind"] == "sell" and s["log"][-1]["why"].s
 zoo.cmd_stopwatch(); zoo.cmd_watch(5, every=0.1)        # a stale stop file is cleared at start (runs the full 5 s)
 print("fast ok")
 # X recipes from x_recipes.json: spec -> account, bad entries skipped, night accounts close at 09:00 and book the night
-from datetime import datetime
+from datetime import datetime, timedelta
 spec = d / "x.json"
 spec.write_text(json.dumps([
     dict(name="x_ok", label="t", horizon="night", entry=dict(min={"liquidity": 100_000}, safe=False, up=True), pick=dict(by="volume", take=1), exit={"STOP": -0.1}),
@@ -105,6 +105,24 @@ agents.STOP = -0.5; agents.jup_prices = lambda ms: {m: 0.98 for m in ms}
 for _ in range(agents.GAP_HALT_N): agents.cmd_run()
 s = agents.load(); assert s.get("halted") and agents.paper_buy(s, "Z", "Z") in ("account halted",), s.get("halted")
 print("price check ok")
+# halt fixes as new accounts: mode 1 bans only the gapped coin, mode 2 pauses all buys for PAUSE_H then resumes
+held = lambda: {"Q": dict(sym="Q", qty=1, entry=1, last=1, peak=1, cost=1, opened=grok.now().isoformat())}
+gap, ok_px = (lambda ms: {m: 0.98 for m in ms}), (lambda ms: {m: 1.0 for m in ms})
+agents.HALT_MODE = 1; agents.save(dict(start_usd=10, cash=10, pos=held(), log=[])); agents.jup_prices = gap
+for _ in range(agents.GAP_HALT_N): agents.cmd_run()
+s = agents.load(); agents.jup_prices = ok_px
+assert not s.get("halted") and s["banned"] == {"Q": "Q"} and s["log"][-1]["kind"] == "ban", s
+assert agents.paper_buy(s, "Q", "Q") == "coin banned: price gap" and agents.paper_buy(s, "Z", "Z") is None
+agents.HALT_MODE = 2; agents.save(dict(start_usd=10, cash=10, pos=held(), log=[])); agents.jup_prices = gap
+for _ in range(agents.GAP_HALT_N): agents.cmd_run()
+s = agents.load(); agents.jup_prices = ok_px
+assert s.get("halted") and s["halted_until"] > grok.now().isoformat() and agents.paper_buy(s, "Z", "Z") == "account halted"
+s["halted_until"] = (grok.now() - timedelta(minutes=1)).isoformat()
+assert agents.paper_buy(s, "Z", "Z") is None and not s.get("halted") and any(x["kind"] == "resume" for x in s["log"]), s
+agents.HALT_MODE = 0; agents.STOP = -0.08
+zoo.use("w_ban_aged"); assert agents.HALT_MODE == 1 and agents.STOP == -0.08
+zoo.use("agedF"); assert agents.HALT_MODE == 0                    # no leak back to the original accounts
+print("halt modes ok")
 # agent rules: death at 20+ sells below rand, pass at 50+ sells positive and above rand
 st = lambda n, eq: dict(start_usd=10, cash=eq, pos={}, log=[{"kind": "sell", "pnl": 0}] * n)
 a = st(20, 5); zoo.verdict("x", a, -0.3); assert a.get("dead")
