@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 5.408874228613243,
+ "cash": 5.995177767330114,
  "pos": {
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
@@ -14,21 +14,7 @@
    "zoo": "hodl",
    "smart": 0,
    "kol": 0,
-   "miss": 0,
-   "gap": 0
-  },
-  "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump": {
-   "sym": "Huang",
-   "qty": 14721.365101884412,
-   "entry": 0.0001975,
-   "last": 4.125e-05,
-   "peak": 0.0001975,
-   "cost": 2.9967734566297377,
-   "opened": "2026-11-14T00:57:19+07:00",
-   "zoo": "hodl",
-   "smart": 133,
-   "kol": 10,
-   "miss": 0,
+   "miss": 1,
    "gap": 0
   }
  },
@@ -99,8 +85,23 @@
    "cost_side": 0.03,
    "smart": 2,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T00:57:52+07:00",
+   "kind": "sell",
+   "mint": "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump",
+   "sym": "Huang",
+   "price": 4.105e-05,
+   "entry": 0.0001975,
+   "usd": 0.5863,
+   "pnl": -2.4105,
+   "why": "ครบ 24 ชม. (-79.2%)",
+   "stop_set": -1.0,
+   "cost_side": 0.03,
+   "smart": 133,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ไม่ตั้ง stop ถือ 24 ชม.",
- "rank_t": 1794678737.845645
+ "rank_t": 1794679040.9813035
 }

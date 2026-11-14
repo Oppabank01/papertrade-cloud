@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 2.5818367287614556,
+ "cash": 2.7303189992117547,
  "pos": {
-  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
-   "sym": "CATE",
-   "qty": 168.75607233432245,
-   "entry": 0.01633,
-   "last": 0.01675,
-   "peak": 0.01675,
-   "cost": 2.7835525983884106,
-   "opened": "2026-11-14T21:56:47+07:00",
-   "zoo": "i_bigliq_cost2",
-   "smart": 861,
-   "kol": 110,
-   "gap": 0,
-   "miss": 0
-  },
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 61.3518694382175,
    "entry": 0.0433,
-   "last": 0.04378,
+   "last": 0.04364,
    "peak": 0.04406,
    "cost": 2.6833018829573168,
    "opened": "2026-11-14T23:32:45+07:00",
@@ -35,7 +21,7 @@
    "sym": "TripleT",
    "qty": 1160.2491387964324,
    "entry": 0.002273,
-   "last": 0.002221,
+   "last": 0.002211,
    "peak": 0.002389,
    "cost": 2.6638178757953495,
    "opened": "2026-11-14T23:42:17+07:00",
@@ -49,7 +35,7 @@
    "sym": "Buttcoin",
    "qty": 514.5620696247869,
    "entry": 0.005115,
-   "last": 0.004981,
+   "last": 0.00496,
    "peak": 0.005163,
    "cost": 2.6585035591331376,
    "opened": "2026-11-14T23:42:17+07:00",
@@ -57,6 +43,20 @@
    "smart": 470,
    "kol": 48,
    "gap": 0,
+   "miss": 0
+  },
+  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
+   "sym": "GTA6",
+   "qty": 416.1930329329497,
+   "entry": 0.006256,
+   "last": 0.006256,
+   "peak": 0.006256,
+   "cost": 2.629937237977358,
+   "opened": "2026-11-15T00:58:06+07:00",
+   "zoo": "i_bigliq_cost2",
+   "smart": 287,
+   "kol": 23,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -382,8 +382,37 @@
    "zoo": "i_bigliq_cost2",
    "smart": 470,
    "kol": 48
+  },
+  {
+   "t": "2026-11-15T00:57:21+07:00",
+   "kind": "sell",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.01663,
+   "entry": 0.01633,
+   "usd": 2.7784,
+   "pnl": -0.0051,
+   "why": "ครบ 3 ชม. (+1.8%)",
+   "stop_set": -0.08,
+   "cost_side": 0.01,
+   "smart": 861,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T00:58:06+07:00",
+   "kind": "buy",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.006256,
+   "jup": 0.006261297464515985,
+   "usd": 2.6299,
+   "stop_set": -0.08,
+   "cost_side": 0.01,
+   "zoo": "i_bigliq_cost2",
+   "smart": 287,
+   "kol": 23
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ ค่าธรรมเนียมสมจริง 1% ต่อขา",
- "rank_t": 1794678737.845645
+ "rank_t": 1794679040.9813035
 }

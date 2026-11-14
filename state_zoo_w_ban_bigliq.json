@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 5.939822826555192,
+ "cash": 3.0624492497247946,
  "pos": {
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 27.081299165453846,
    "entry": 0.1054,
-   "last": 0.1047,
+   "last": 0.1049,
    "peak": 0.1056,
    "cost": 2.9420417769932334,
    "opened": "2026-11-15T00:49:25+07:00",
@@ -21,14 +21,14 @@
    "sym": "NIO",
    "qty": 1191.0039632998169,
    "entry": 0.002381,
-   "last": 0.002374,
+   "last": 0.002348,
    "peak": 0.002402,
    "cost": 2.9228823300524263,
    "opened": "2026-11-15T00:54:49+07:00",
    "zoo": "w_ban_bigliq",
    "smart": 403,
    "kol": 30,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
@@ -42,6 +42,20 @@
    "zoo": "w_ban_bigliq",
    "smart": 287,
    "kol": 23,
+   "gap": 1,
+   "miss": 0
+  },
+  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
+   "sym": "mihao",
+   "qty": 195.90370836777905,
+   "entry": 0.01425,
+   "last": 0.01426,
+   "peak": 0.01431,
+   "cost": 2.877373576830397,
+   "opened": "2026-11-15T00:59:13+07:00",
+   "zoo": "w_ban_bigliq",
+   "smart": 678,
+   "kol": 69,
    "gap": 0,
    "miss": 0
   }
@@ -93,8 +107,22 @@
    "zoo": "w_ban_bigliq",
    "smart": 287,
    "kol": 23
+  },
+  {
+   "t": "2026-11-15T00:59:13+07:00",
+   "kind": "buy",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.01425,
+   "jup": 0.014334486968480978,
+   "usd": 2.8774,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_bigliq",
+   "smart": 678,
+   "kol": 69
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794678737.845645
+ "rank_t": 1794679040.9813035
 }
