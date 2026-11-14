@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.9083825180188185,
+ "cash": 0.45611309657973864,
  "pos": {
   "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": {
    "sym": "Sakura",
    "qty": 9480.582330540232,
    "entry": 0.0001032,
-   "last": 0.0001126,
+   "last": 0.0001213,
    "peak": 0.0001242,
    "cost": 1.008447842209598,
    "opened": "2026-11-14T11:01:57+07:00",
@@ -16,19 +16,18 @@
    "kol": 6,
    "miss": 0
   },
-  "4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": {
-   "sym": "greg",
-   "qty": 1618.3227355210706,
-   "entry": 0.0002684,
-   "last": 0.0003052,
-   "peak": 0.0003691,
-   "cost": 0.4476992601668268,
-   "opened": "2026-11-14T11:47:50+07:00",
+  "A5bpyAGdSPKwX3YDyF563DmbVSfM3EcYgBPjPna8pump": {
+   "sym": "UP",
+   "qty": 12077.708538694438,
+   "entry": 0.0001533,
+   "last": 0.0001533,
+   "peak": 0.0001533,
+   "cost": 1.9083825180188185,
+   "opened": "2026-11-14T12:47:01+07:00",
    "zoo": "savip",
-   "smart": 67,
-   "kol": 6,
-   "miss": 0,
-   "half": true
+   "smart": 56,
+   "kol": 1,
+   "miss": 0
   }
  },
  "log": [
@@ -562,8 +561,28 @@
    "why": "stop -7.6%",
    "smart": 40,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T12:47:01+07:00",
+   "kind": "buy",
+   "mint": "A5bpyAGdSPKwX3YDyF563DmbVSfM3EcYgBPjPna8pump",
+   "sym": "UP",
+   "price": 0.0001533,
+   "usd": 1.9084
+  },
+  {
+   "t": "2026-11-14T12:47:01+07:00",
+   "kind": "sell",
+   "mint": "4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump",
+   "sym": "greg",
+   "price": 0.0002905,
+   "usd": 0.4561,
+   "pnl": 0.0084,
+   "why": "trailing จากยอด +38% (+8.2%)",
+   "smart": 67,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: savipww 5 บอท: คะแนน 80+ ทุ่มหมด ขายครึ่ง +30% stop -6%",
- "rank_t": 1794634921.1901147
+ "rank_t": 1794635206.3785324
 }
