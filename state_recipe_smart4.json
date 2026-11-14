@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.14149672149895592,
+ "cash": 0.06116236539359354,
  "pos": {
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 19.25021139545809,
    "entry": 0.004712,
-   "last": 0.004928,
-   "peak": 0.004928,
+   "last": 0.004969,
+   "peak": 0.004969,
    "cost": 0.09349309018284738,
    "opened": "2026-11-15T04:21:15+07:00",
    "smart": 471,
@@ -20,7 +20,7 @@
    "sym": "Leonida",
    "qty": 182.6171033135507,
    "entry": 0.000463,
-   "last": 0.0004534,
+   "last": 0.0004502,
    "peak": 0.0005189,
    "cost": 0.08714875163283238,
    "opened": "2026-11-15T05:18:15+07:00",
@@ -33,12 +33,25 @@
    "sym": "ZCAT",
    "qty": 6.361713386944839,
    "entry": 0.01274,
-   "last": 0.01297,
+   "last": 0.012730755096180643,
    "peak": 0.013,
    "cost": 0.0835376505356393,
    "opened": "2026-11-15T05:55:18+07:00",
    "smart": 329,
    "kol": 48,
+   "gap": 1,
+   "miss": 0
+  },
+  "7R3RnGmpV9mZXwSyHyKN5LEddiZRmGsYrAZPgDJqpump": {
+   "sym": "NUREMBERG",
+   "qty": 789.6696280995196,
+   "entry": 9.87e-05,
+   "last": 9.789e-05,
+   "peak": 9.87e-05,
+   "cost": 0.08033435610536238,
+   "opened": "2026-11-15T06:55:59+07:00",
+   "smart": 68,
+   "kol": 3,
    "gap": 0,
    "miss": 0
   }
@@ -3087,8 +3100,21 @@
    "cost_side": 0.03,
    "smart": 77,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T06:55:59+07:00",
+   "kind": "buy",
+   "mint": "7R3RnGmpV9mZXwSyHyKN5LEddiZRmGsYrAZPgDJqpump",
+   "sym": "NUREMBERG",
+   "price": 9.87e-05,
+   "jup": 9.809328635322599e-05,
+   "usd": 0.0803,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 68,
+   "kol": 3
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794700252.6983268
+ "rank_t": 1794700524.16619
 }
