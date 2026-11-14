@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.1509122296998041,
+ "cash": 0.2704661788953143,
  "pos": {
   "12bTtDLSegj1rw2oxXWYm63Rxw5QxkVSXDHCEvRShaDe": {
    "sym": "SHADE",
    "qty": 7548.577290070926,
    "entry": 1.975e-05,
-   "last": 4.157e-05,
-   "peak": 4.157e-05,
+   "last": 4.195e-05,
+   "peak": 4.195e-05,
    "cost": 0.15366357604504308,
    "opened": "2026-11-14T10:13:41+07:00",
    "zoo": "dip",
@@ -16,29 +16,16 @@
    "kol": 2,
    "miss": 0
   },
-  "FPN5sEwtxtLn8d5zRqy2wMs8oSswRk9xyQd4Lt1dpump": {
-   "sym": "farmed",
-   "qty": 3186.6750288332364,
-   "entry": 5.391e-05,
-   "last": 6.657e-05,
-   "peak": 6.657e-05,
-   "cost": 0.17707034714945347,
-   "opened": "2026-11-14T10:22:21+07:00",
+  "ELbCDkRuUTuzPCR6CarMVtR1CYh71AzGhuZTBPePpump": {
+   "sym": "GIGAPIG",
+   "qty": 3010.7967356518598,
+   "entry": 4.863e-05,
+   "last": 4.801e-05,
+   "peak": 4.863e-05,
+   "cost": 0.1509122296998041,
+   "opened": "2026-11-14T10:30:59+07:00",
    "zoo": "dip",
-   "smart": 87,
-   "kol": 4,
-   "miss": 0
-  },
-  "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump": {
-   "sym": "chudhaos",
-   "qty": 341.3110830417802,
-   "entry": 0.0003845,
-   "last": 0.0003845,
-   "peak": 0.0003845,
-   "cost": 0.13526500868848124,
-   "opened": "2026-11-14T10:26:39+07:00",
-   "zoo": "dip",
-   "smart": 19,
+   "smart": 83,
    "kol": 1,
    "miss": 0
   }
@@ -2112,8 +2099,40 @@
    "why": "trailing จากยอด +32% (+0.5%)",
    "smart": 24,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T10:30:59+07:00",
+   "kind": "buy",
+   "mint": "ELbCDkRuUTuzPCR6CarMVtR1CYh71AzGhuZTBPePpump",
+   "sym": "GIGAPIG",
+   "price": 4.863e-05,
+   "usd": 0.1509
+  },
+  {
+   "t": "2026-11-14T10:30:59+07:00",
+   "kind": "sell",
+   "mint": "FPN5sEwtxtLn8d5zRqy2wMs8oSswRk9xyQd4Lt1dpump",
+   "sym": "farmed",
+   "price": 5.34e-05,
+   "usd": 0.1651,
+   "pnl": -0.012,
+   "why": "trailing จากยอด +23% (-0.9%)",
+   "smart": 87,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T10:30:59+07:00",
+   "kind": "sell",
+   "mint": "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump",
+   "sym": "chudhaos",
+   "price": 0.0003182,
+   "usd": 0.1054,
+   "pnl": -0.0299,
+   "why": "stop -17.2%",
+   "smart": 19,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794626788.2258503
+ "rank_t": 1794627037.974427
 }
