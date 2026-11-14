@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.39099728859935257,
+ "cash": 0.1652535517260863,
  "pos": {
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
    "sym": "paws",
    "qty": 318.31499221437053,
    "entry": 0.0008447,
-   "last": 0.000794,
+   "last": 0.0008304,
    "peak": 0.0008799,
    "cost": 0.27713942890484317,
    "opened": "2026-11-14T14:37:52+07:00",
@@ -33,13 +33,26 @@
    "sym": "TripleT",
    "qty": 100.39741823476372,
    "entry": 0.00235,
-   "last": 0.00242,
+   "last": 0.002386,
    "peak": 0.00242,
    "cost": 0.24318071825571505,
    "opened": "2026-11-14T15:42:42+07:00",
    "zoo": "kol2",
    "smart": 609,
    "kol": 71,
+   "miss": 0
+  },
+  "Aq38XaBAkzAtwbpvFKEzKg9hp1eZrEFV5W9H6XJjFUND": {
+   "sym": "FUND",
+   "qty": 1120.8627098999125,
+   "entry": 0.0001954,
+   "last": 0.0001835,
+   "peak": 0.0001954,
+   "cost": 0.22574373687326627,
+   "opened": "2026-11-14T16:35:53+07:00",
+   "zoo": "kol2",
+   "smart": 50,
+   "kol": 3,
    "miss": 0
   }
  },
@@ -1492,8 +1505,16 @@
    "why": "stop -11.8%",
    "smart": 98,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T16:35:53+07:00",
+   "kind": "buy",
+   "mint": "Aq38XaBAkzAtwbpvFKEzKg9hp1eZrEFV5W9H6XJjFUND",
+   "sym": "FUND",
+   "price": 0.0001954,
+   "usd": 0.2257
   }
  ],
  "label": "สวนสัตว์: KOL เข้า 2 คนขึ้นไป",
- "rank_t": 1794648678.2984896
+ "rank_t": 1794648949.0075483
 }

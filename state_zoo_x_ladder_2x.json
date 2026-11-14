@@ -1,15 +1,37 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 14.727540500736376,
- "pos": {},
+ "cash": 11.7820324005891,
+ "pos": {
+  "Aq38XaBAkzAtwbpvFKEzKg9hp1eZrEFV5W9H6XJjFUND": {
+   "sym": "FUND",
+   "qty": 14625.035612911395,
+   "entry": 0.0001954,
+   "last": 0.0001954,
+   "peak": 0.0001954,
+   "cost": 2.9455081001472756,
+   "opened": "2026-11-14T16:35:55+07:00",
+   "zoo": "x_ladder_2x",
+   "smart": 50,
+   "kol": 3,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T15:56:36+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-14T16:35:55+07:00",
+   "kind": "buy",
+   "mint": "Aq38XaBAkzAtwbpvFKEzKg9hp1eZrEFV5W9H6XJjFUND",
+   "sym": "FUND",
+   "price": 0.0001954,
+   "usd": 2.9455
   }
  ],
  "label": "สวนสัตว์: บันไดขาย ครึ่งที่ x2 trail 30% stop -35%",
- "rank_t": 1794648678.2984896
+ "rank_t": 1794648949.0075483
 }
