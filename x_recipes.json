@@ -145,5 +145,103 @@
    "MAX_POS": 12,
    "COOLDOWN_H": 6
   }
+ },
+ {
+  "name": "i_bigliq_cost2",
+  "label": "สภาพคล่อง 200k+ ค่าธรรมเนียมสมจริง 1% ต่อขา",
+  "horizon": "week",
+  "source": "iteration 14 Nov: big-pool exits are mostly 3h timeouts at -1..+2%; 6% round trip is a small-pool number",
+  "claim": "same rule as bigliqF, realistic big-pool cost (pool fee + priority fee + tiny slippage)",
+  "added": "2026-11-14",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 200000,
+    "market_cap": 2000000
+   },
+   "up": true
+  },
+  "exit": {
+   "FEE": 0.005,
+   "SLIP": 0.005
+  }
+ },
+ {
+  "name": "i_bigliq_run24",
+  "label": "สภาพคล่อง 200k+ ปล่อยวิ่ง trail 20/15 ถือ 24 ชม.",
+  "horizon": "week",
+  "source": "iteration 14 Nov: 3h timeout cuts the few big-pool winners",
+  "claim": "let big-pool winners run: trail 20/15, hold up to 24h, stop -10%",
+  "added": "2026-11-14",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 200000,
+    "market_cap": 2000000
+   },
+   "up": true
+  },
+  "exit": {
+   "STOP": -0.1,
+   "TRAIL_ON": 0.2,
+   "TRAIL": 0.15,
+   "MAX_HOLD_H": 24,
+   "FEE": 0.005,
+   "SLIP": 0.005
+  }
+ },
+ {
+  "name": "i_bigliq_mom1h",
+  "label": "สภาพคล่อง 200k+ ขึ้น 1 ชม. 10 ถึง 50%",
+  "horizon": "week",
+  "source": "iteration 14 Nov: momentum only on established pools (mom1h on all coins lost to rugs)",
+  "claim": "1h trend +10..+50% on 200k+ pools, trail 20/15, hold 12h",
+  "added": "2026-11-14",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 200000,
+    "market_cap": 2000000,
+    "price_change_percent1h": 10
+   },
+   "max": {
+    "price_change_percent1h": 50
+   },
+   "up": true
+  },
+  "exit": {
+   "STOP": -0.1,
+   "TRAIL_ON": 0.2,
+   "TRAIL": 0.15,
+   "MAX_HOLD_H": 12,
+   "FEE": 0.005,
+   "SLIP": 0.005
+  }
+ },
+ {
+  "name": "i_bigdip",
+  "label": "สภาพคล่อง 500k+ ย่อ 1 ชม. -15 ถึง -40%",
+  "horizon": "week",
+  "source": "iteration 14 Nov: dip-buying failed on small coins; test it only on deep pools",
+  "claim": "buy a -15..-40% 1h dip on 500k+ liquidity, take +12%, stop -10%, hold 6h",
+  "added": "2026-11-14",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 500000,
+    "price_change_percent1h": -40
+   },
+   "max": {
+    "price_change_percent1h": -15
+   }
+  },
+  "exit": {
+   "STOP": -0.1,
+   "TP_ALL": 0.12,
+   "TRAIL_ON": 9,
+   "MAX_HOLD_H": 6,
+   "FEE": 0.005,
+   "SLIP": 0.005
+  }
  }
 ]
