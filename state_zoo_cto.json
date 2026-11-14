@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.6637186657681104,
+ "cash": 0.3398538382186772,
  "pos": {
   "HFcyhe28iLYRhac2W5FBdtDGFunWDJesCR7f6EZJpump": {
    "sym": "MRPENIS",
@@ -20,7 +20,7 @@
    "sym": "BAGSPAY",
    "qty": 296.9417701558718,
    "entry": 0.0005122,
-   "last": 0.0005126,
+   "last": 0.0005181,
    "peak": 0.0005476,
    "cost": 0.15676517694685377,
    "opened": "2026-11-14T14:33:18+07:00",
@@ -33,13 +33,26 @@
    "sym": "PUMPCADE",
    "qty": 7.202017063998824,
    "entry": 0.01578,
-   "last": 0.01586,
+   "last": 0.01577,
    "peak": 0.01586,
    "cost": 0.11713855830746385,
    "opened": "2026-11-14T15:15:11+07:00",
    "zoo": "cto",
    "smart": 123,
    "kol": 19,
+   "miss": 0
+  },
+  "HLNfRydLB2kMF8T6e2k2xdso5G3QnfD9Df5xtbmRpump": {
+   "sym": "OCC",
+   "qty": 23536.603422356562,
+   "entry": 1.335e-05,
+   "last": 1.441e-05,
+   "peak": 1.441e-05,
+   "cost": 0.32386482754943324,
+   "opened": "2026-11-14T15:47:22+07:00",
+   "zoo": "cto",
+   "smart": 3,
+   "kol": 1,
    "miss": 0
   }
  },
@@ -1232,8 +1245,16 @@
    "why": "stop -13.2%",
    "smart": 56,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T15:47:22+07:00",
+   "kind": "buy",
+   "mint": "HLNfRydLB2kMF8T6e2k2xdso5G3QnfD9Df5xtbmRpump",
+   "sym": "OCC",
+   "price": 1.335e-05,
+   "usd": 0.3239
   }
  ],
  "label": "สวนสัตว์: community takeover",
- "rank_t": 1794645746.748234
+ "rank_t": 1794646029.535438
 }
