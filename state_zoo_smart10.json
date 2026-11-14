@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.11230140199734391,
+ "cash": 0.03922979545034613,
  "pos": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 21.425162276988015,
    "entry": 0.007823,
-   "last": 0.00768,
+   "last": 0.00765,
    "peak": 0.008284,
    "cost": 0.17275720933093924,
    "opened": "2026-11-14T11:20:12+07:00",
@@ -20,13 +20,26 @@
    "sym": "WASTED",
    "qty": 25.346902763567314,
    "entry": 0.002994,
-   "last": 0.003492,
+   "last": 0.003342,
    "peak": 0.003678,
    "cost": 0.07821957006196717,
    "opened": "2026-11-14T13:19:18+07:00",
    "zoo": "smart10",
    "smart": 56,
    "kol": 0,
+   "miss": 0
+  },
+  "RA23GF9Jw9x2xqVfH1XhfBfa5TnWJC9uLDFHeU5pump": {
+   "sym": "SCRAP",
+   "qty": 2075.3534154536665,
+   "entry": 3.416e-05,
+   "last": 5.558e-05,
+   "peak": 5.558e-05,
+   "cost": 0.07307160654699778,
+   "opened": "2026-11-14T14:14:53+07:00",
+   "zoo": "smart10",
+   "smart": 36,
+   "kol": 3,
    "miss": 0
   }
  },
@@ -1751,8 +1764,16 @@
    "why": "stop -11.0%",
    "smart": 15,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T14:14:53+07:00",
+   "kind": "buy",
+   "mint": "RA23GF9Jw9x2xqVfH1XhfBfa5TnWJC9uLDFHeU5pump",
+   "sym": "SCRAP",
+   "price": 3.416e-05,
+   "usd": 0.0731
   }
  ],
  "label": "สวนสัตว์: smart wallet 10 ขึ้นไป",
- "rank_t": 1794640196.9822917
+ "rank_t": 1794640472.715714
 }

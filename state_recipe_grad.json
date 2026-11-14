@@ -1,18 +1,18 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.7360830569555048,
+ "cash": 0.6425673985620832,
  "pos": {
-  "6EK6KzPzCSFWx9tyXdaP2zNXPqt4ZNihFo1CJzacmmsQ": {
-   "sym": "SAI",
-   "qty": 3426.155161476832,
-   "entry": 5.211e-05,
-   "last": 5.319e-05,
-   "peak": 5.319e-05,
-   "cost": 0.18402076423887623,
-   "opened": "2026-11-14T14:05:31+07:00",
-   "smart": 40,
-   "kol": 4,
+  "RA23GF9Jw9x2xqVfH1XhfBfa5TnWJC9uLDFHeU5pump": {
+   "sym": "SCRAP",
+   "qty": 5216.360108575075,
+   "entry": 3.416e-05,
+   "last": 3.416e-05,
+   "peak": 3.416e-05,
+   "cost": 0.18366404999889152,
+   "opened": "2026-11-14T14:14:50+07:00",
+   "smart": 36,
+   "kol": 3,
    "miss": 0
   }
  },
@@ -1609,8 +1609,28 @@
    "sym": "SAI",
    "price": 5.211e-05,
    "usd": 0.184
+  },
+  {
+   "t": "2026-11-14T14:14:50+07:00",
+   "kind": "buy",
+   "mint": "RA23GF9Jw9x2xqVfH1XhfBfa5TnWJC9uLDFHeU5pump",
+   "sym": "SCRAP",
+   "price": 3.416e-05,
+   "usd": 0.1837
+  },
+  {
+   "t": "2026-11-14T14:14:50+07:00",
+   "kind": "sell",
+   "mint": "6EK6KzPzCSFWx9tyXdaP2zNXPqt4ZNihFo1CJzacmmsQ",
+   "sym": "SAI",
+   "price": 2.712e-05,
+   "usd": 0.0901,
+   "pnl": -0.0939,
+   "why": "stop -48.0%",
+   "smart": 40,
+   "bundler": null
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794640196.9822917
+ "rank_t": 1794640472.715714
 }
