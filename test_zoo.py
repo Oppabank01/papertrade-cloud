@@ -129,3 +129,19 @@ zoo.cmd_tick(); zoo.tick_one = real
 assert all(t["breadth"] == 0.75 for t in seen[0]["rank"])
 assert zoo.spec_rule({"min": {"breadth": 0.74}})(seen[0]["rank"][0]) and not zoo.spec_rule({"max": {"breadth": 0.61}})(seen[0]["rank"][0])
 print("breadth ok")
+# 5-second accounts: rug/halt round counts scale to the same ~5 min, each watcher loop only touches its own speed, Jupiter cache stays younger than a check
+(d / "f5.json").write_text(json.dumps([dict(name="w_f5_t", label="t", horizon="week", entry={"min": {"liquidity": 1}}, exit={"WATCH_S": 5})]))
+zoo.load_specs(d / "f5.json"); zoo.use("w_f5_t"); assert agents.MISS_N == 60 and agents.GAP_HALT_N == 60 and agents.WATCH_S == 5
+zoo.use("bigliqF"); assert agents.GAP_HALT_N == 15 and agents.WATCH_S == 20      # no leak back to 20 s accounts
+touched = []
+real_use = zoo.use
+zoo.use = lambda n: touched.append(n) or real_use(n)
+zoo.cmd_watch(0.05, every=0.01, ws=5); zoo.use = real_use
+assert "w_f5_t" in touched and all(zoo.ZOO[n][2].get("WATCH_S") == 5 for n in touched), set(touched)
+calls = []
+grok.get = lambda url: calls.append(url) or {"J": {"usdPrice": 1.0}}
+import importlib.util as iu
+spec = iu.spec_from_file_location("agents_real", Path(__file__).parent / "agents.py"); ar = iu.module_from_spec(spec); spec.loader.exec_module(ar)
+ar.WATCH_S = 5; ar.jup_prices(["J"]); time.sleep(4.1); ar.jup_prices(["J"]); assert len(calls) == 2      # 5 s checks: 4 s cache, fresh price each check
+ar.WATCH_S = 20; ar.jup_prices(["J"]); assert len(calls) == 2                                           # 20 s accounts keep the 15 s cache
+print("5s watch ok")

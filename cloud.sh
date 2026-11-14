@@ -5,6 +5,7 @@ PY=python3
 T0=$(date +%s)
 M=$((10#$(date +%M)))
 $PY zoo.py watch 900 & WATCH=$!   # 20-second exit checks for the zoo's FAST accounts while the rest of this run works
+$PY zoo.py watch 900 5 & WATCH5=$!   # 5-second checks for recipes with WATCH_S=5 (same rules as a 20 s twin, faster stops)
 # fast multi-agent account (laya DEBATE), moved from the Mac 14 Nov; its scan saves the ranking the recipes/zoo read
 $PY agents.py scan || $PY rankfetch.py || echo "rank fetch failed (GMGN demo key may be rate-limited)"
 $PY agents.py run
@@ -25,7 +26,7 @@ $PY zoo.py init 500 >/dev/null; $PY zoo.py tick       # init only creates new ac
 $PY nightly.py tick    # nightly sessions: fresh 500 THB at 21:00, settle at 09:00
 $PY funding.py run || echo "funding run failed (Hyperliquid API)"   # funding carry: steps once a day, no network otherwise
 left=$((T0 + 230 - $(date +%s))); [ "$left" -gt 0 ] && sleep "$left"   # watcher keeps checking here instead of the chain step idling
-$PY zoo.py stopwatch; wait $WATCH
+$PY zoo.py stopwatch; wait $WATCH $WATCH5
 TODAY=$(TZ=Asia/Bangkok date +%F); H=$((10#$(TZ=Asia/Bangkok date +%H)))
 if [ "$H" -ge 8 ] && [ "$(cat data/last_daily 2>/dev/null)" != "$TODAY" ]; then
   $PY paper.py run; $PY dca.py run; $PY stock.py run; $PY majors.py run; echo "$TODAY" > data/last_daily

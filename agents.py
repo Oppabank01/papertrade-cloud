@@ -138,6 +138,7 @@ def cmd_scan():
 JUP = "https://lite-api.jup.ag/price/v3?ids="
 PRICE_GAP = 0.01            # agent rules (14 Nov): account price vs a second source must agree within 1%
 GAP_HALT_N = 15             # rounds in a row a held token disagrees before the account stops buying (~5 min at 20 s)
+WATCH_S = 20                # seconds between exit checks for this account; the Jupiter cache must be younger than one check
 _jup = {}
 
 
@@ -145,7 +146,7 @@ def jup_prices(mints):
     """Second price source (Jupiter). {mint: usd}; a failed lookup returns {} and counts as unverified, never a guessed value."""
     now, out, need = time.time(), {}, []
     for m in mints:
-        if m in _jup and now - _jup[m][1] < 15:
+        if m in _jup and now - _jup[m][1] < min(15, WATCH_S - 1):
             out[m] = _jup[m][0]
         else:
             need.append(m)

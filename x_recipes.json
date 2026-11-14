@@ -469,5 +469,73 @@
    "FEE": 0.005,
    "SLIP": 0.005
   }
+ },
+ {
+  "name": "w_f5_aged",
+  "label": "ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
+  "horizon": "week",
+  "source": "Mac session 14 Nov: speed test. stops slip past the set level (aged stops avg -12% on -8%, agedF 20 s beat aged 5 min by ~16 pts); does 5 s checking close the rest of that gap",
+  "claim": "identical to agedF (age 24h+, liquidity 50k+, up, standard exits) but checked every 5 s instead of 20 s: smaller stop slippage beats agedF",
+  "added": "2026-11-14",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 24,
+    "liquidity": 50000
+   },
+   "up": true
+  },
+  "exit": {
+   "WATCH_S": 5
+  }
+ },
+ {
+  "name": "w_f5_bigliqRC",
+  "label": "ความเร็ว: กฎ bigliqRC แต่เช็กราคาทุก 5 วิ",
+  "horizon": "week",
+  "source": "Mac session 14 Nov: speed test. stops slip past the set level (aged stops avg -12% on -8%, agedF 20 s beat aged 5 min by ~16 pts); does 5 s checking close the rest of that gap",
+  "claim": "identical to bigliqRC (liquidity 200k+, mcap 2M+, up, RugCheck, standard exits) checked every 5 s instead of 20 s",
+  "added": "2026-11-14",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 200000,
+    "market_cap": 2000000
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "WATCH_S": 5
+  }
+ },
+ {
+  "name": "w_f5_spray",
+  "label": "ความเร็ว: กฎ x_spray_small แต่เช็กราคาทุก 5 วิ",
+  "horizon": "month",
+  "source": "Mac session 14 Nov: speed test. stops slip past the set level (aged stops avg -12% on -8%, agedF 20 s beat aged 5 min by ~16 pts); does 5 s checking close the rest of that gap",
+  "claim": "identical to x_spray_small (stop -15%, TP +50%) checked every 5 s instead of 20 s",
+  "added": "2026-11-14",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 15000
+   },
+   "max": {},
+   "safe": false,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "TP_ALL": 0.5,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 3,
+   "PER_TRADE": 0.05,
+   "MAX_POS": 12,
+   "COOLDOWN_H": 6,
+   "WATCH_S": 5
+  }
  }
 ]

@@ -40,7 +40,7 @@ safe = lambda t: (f(t, "top_10_holder_rate") <= 0.20 and f(t, "dev_team_hold_rat
 up = recipes.up_with_buyers      # buys > sells and 0 < 5m change <= 100%
 
 STD = dict(STOP=-0.08, TP_ALL=None, HALF_AT=None, TRAIL_ON=0.15, TRAIL=0.15, MAX_HOLD_H=3, PER_TRADE=0.20, MAX_POS=4, COOLDOWN_H=24, MISS_N=2,
-           FEE=0.01, SLIP=0.02)    # FEE/SLIP per side = agents defaults; listed so a recipe override never leaks to the next account
+           FEE=0.01, SLIP=0.02, WATCH_S=20, GAP_HALT_N=15)    # FEE/SLIP per side = agents defaults; listed so a recipe override never leaks to the next account
 LOCKS = Path(tempfile.gettempdir()) / "zoo_locks"     # outside data/ so git never picks them up
 STOP_FILE = LOCKS / "watch.stop"
 
@@ -140,7 +140,8 @@ def load_specs(path):
             assert n.isidentifier() and n not in ZOO and sp["horizon"] in HORIZONS and sp["label"]
             off_val = dict(TRAIL_ON=9, TRAIL=0.15, STOP=-1.0, MAX_HOLD_H=1e9)   # null = "no trailing / no stop / no time limit"
             x = {k: (off_val.get(k, STD[k]) if v is None and k not in ("TP_ALL", "HALF_AT") else v) for k, v in x.items()}
-            ov = {**x, "MISS_N": 15, "horizon": sp["horizon"], "off": not sp.get("active", True)}
+            k = 20 / x.get("WATCH_S", 20)       # faster checks: scale the round counts so "rug" and "halt" still mean ~5 min
+            ov = {**x, "MISS_N": round(15 * k), "GAP_HALT_N": round(15 * k), "horizon": sp["horizon"], "off": not sp.get("active", True)}
             if p:
                 ov.update(rank_by=lambda t, k=p["by"]: val(t, k), take=int(p["take"]))
             ZOO[n] = (sp["label"], spec_rule(e), ov)
@@ -269,13 +270,14 @@ def tick_one(name, d, rand_ret):
         agents.cmd_run()
 
 
-def cmd_watch(max_s, every=20):
-    """Exit checks for the FAST accounts every `every` s until the stop file appears or max_s passes."""
+def cmd_watch(max_s, every=20, ws=20):
+    """Exit checks every `every` s for the FAST accounts whose WATCH_S is `ws`, until the stop file appears or max_s passes."""
+    names = [n for n in FAST if ZOO[n][2].get("WATCH_S", 20) == ws]
     LOCKS.mkdir(exist_ok=True)
     STOP_FILE.unlink(missing_ok=True)
     end = time.time() + float(max_s)
     while time.time() < end and not STOP_FILE.exists():
-        for name in FAST:
+        for name in names:
             try:
                 with lock(name):
                     use(name)
@@ -313,7 +315,7 @@ def cmd_report():
 
 if __name__ == "__main__":
     a = sys.argv[1:]
-    cmds = {"init": lambda: cmd_init(a[1]), "tick": cmd_tick, "report": cmd_report, "watch": lambda: cmd_watch(a[1]),
+    cmds = {"init": lambda: cmd_init(a[1]), "tick": cmd_tick, "report": cmd_report, "watch": lambda: cmd_watch(a[1], float(a[2]), int(a[2])) if len(a) > 2 else cmd_watch(a[1]),
             "stopwatch": cmd_stopwatch}
     if not a or a[0] not in cmds:
         sys.exit(__doc__)
