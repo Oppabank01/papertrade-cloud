@@ -1,27 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.740566037735848,
- "cash": 3.053119473197924,
+ "cash": 2.7600572188220474,
  "pos": {
-  "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
-   "sym": "NIO",
-   "qty": 1110.3491591468417,
-   "entry": 0.002576,
-   "last": 0.002704,
-   "peak": 0.002996,
-   "cost": 2.94811320754717,
-   "opened": "2026-11-14T10:56:54+07:00",
-   "zoo": "agedF",
-   "smart": 385,
-   "kol": 29,
-   "miss": 0
-  },
   "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump": {
    "sym": "ber",
    "qty": 4681.726144798039,
    "entry": 0.0006073,
-   "last": 0.000621,
-   "peak": 0.0006367,
+   "last": 0.0006921,
+   "peak": 0.0006921,
    "cost": 2.9305424528301884,
    "opened": "2026-11-14T10:56:54+07:00",
    "zoo": "agedF",
@@ -33,7 +20,7 @@
    "sym": "FOOD",
    "qty": 2749.286714495081,
    "entry": 0.001028,
-   "last": 0.0009696,
+   "last": 0.0009977,
    "peak": 0.001038,
    "cost": 2.9130764198113206,
    "opened": "2026-11-14T10:56:54+07:00",
@@ -46,13 +33,26 @@
    "sym": "CLAUDIA",
    "qty": 685.0578377750884,
    "entry": 0.004101,
-   "last": 0.004156,
+   "last": 0.004164,
    "peak": 0.004239,
    "cost": 2.895714484349245,
    "opened": "2026-11-14T10:56:54+07:00",
    "zoo": "agedF",
    "smart": 438,
    "kol": 28,
+   "miss": 0
+  },
+  "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
+   "sym": "Lucia",
+   "qty": 4105.937415234853,
+   "entry": 0.000685,
+   "last": 0.000685,
+   "peak": 0.000685,
+   "cost": 2.898956018795995,
+   "opened": "2026-11-14T11:38:54+07:00",
+   "zoo": "agedF",
+   "smart": 98,
+   "kol": 4,
    "miss": 0
   }
  },
@@ -93,8 +93,28 @@
    "sym": "CLAUDIA",
    "price": 0.004101,
    "usd": 2.8957
+  },
+  {
+   "t": "2026-11-14T11:38:36+07:00",
+   "kind": "sell",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "price": 0.002419,
+   "usd": 2.6059,
+   "pnl": -0.3422,
+   "why": "trailing จากยอด +16% (-6.1%)",
+   "smart": 385,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T11:38:54+07:00",
+   "kind": "buy",
+   "mint": "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump",
+   "sym": "Lucia",
+   "price": 0.000685,
+   "usd": 2.899
   }
  ],
  "label": "สวนสัตว์: อายุเกิน 1 วัน เช็กราคาทุก 20 วิ",
- "rank_t": 1794630833.0306776
+ "rank_t": 1794631116.650353
 }

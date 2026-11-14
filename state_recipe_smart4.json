@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.15646130601587874,
+ "cash": 0.0,
  "pos": {
   "8JCjZbMPXZPHXWwCdTh2skHN7NDEDuakNbP83ZdYpump": {
    "sym": "VICECITY",
@@ -37,6 +37,18 @@
    "opened": "2026-11-14T10:30:56+07:00",
    "smart": 90,
    "kol": 7,
+   "miss": 0
+  },
+  "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
+   "sym": "FOOD",
+   "qty": 152.14870110915663,
+   "entry": 0.0009977,
+   "last": 0.0009977,
+   "peak": 0.0009977,
+   "cost": 0.15646130601587874,
+   "opened": "2026-11-14T11:38:51+07:00",
+   "smart": 285,
+   "kol": 22,
    "miss": 0
   }
  },
@@ -1869,8 +1881,16 @@
    "why": "stop -15.0%",
    "smart": 17,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T11:38:51+07:00",
+   "kind": "buy",
+   "mint": "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
+   "sym": "FOOD",
+   "price": 0.0009977,
+   "usd": 0.1565
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794630833.0306776
+ "rank_t": 1794631116.650353
 }
