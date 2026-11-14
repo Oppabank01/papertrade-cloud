@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.49652345249812796,
+ "cash": 0.2351619257228651,
  "pos": {
   "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm": {
    "sym": "KLED",
@@ -29,10 +29,21 @@
    "sym": "WASTED",
    "qty": 68.65250974439623,
    "entry": 0.003814,
-   "last": 0.003623,
+   "last": 0.00378,
    "peak": 0.003814,
    "cost": 0.26988319126481886,
    "opened": "2026-11-14T14:51:41+07:00",
+   "source": "agents",
+   "miss": 0
+  },
+  "2afcRhtGYgp1e3xPBMu2UbnELL8AUMZzguLQsPo8pump": {
+   "sym": "VICECITY",
+   "qty": 891.2933331365908,
+   "entry": 0.0002845,
+   "last": 0.0002749,
+   "peak": 0.0002845,
+   "cost": 0.26136152677526286,
+   "opened": "2026-11-14T15:15:07+07:00",
    "source": "agents",
    "miss": 0
   }
@@ -2006,6 +2017,14 @@
    "why": "trailing จากยอด +27% (+6.6%)",
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T15:15:07+07:00",
+   "kind": "buy",
+   "mint": "2afcRhtGYgp1e3xPBMu2UbnELL8AUMZzguLQsPo8pump",
+   "sym": "VICECITY",
+   "price": 0.0002845,
+   "usd": 0.2614
   }
  ],
  "label": "เร็ว ไม่มี laya",
@@ -3150,6 +3169,11 @@
   "state_agents.json:2026-11-14T15:05:43+07:00:7LNFZcNigZay5U9e2sq6n2Z4iM8BC2Dd53L14pwvpump",
   "state_agents.json:2026-11-14T15:10:16+07:00:3D5nV4rQuNJezr6BGfxgQY3qqrtigmEnV2gqSi7ipump",
   "state_agents.json:2026-11-14T15:10:19+07:00:2afcRhtGYgp1e3xPBMu2UbnELL8AUMZzguLQsPo8pump",
-  "state_agents.json:2026-11-14T15:10:22+07:00:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump"
+  "state_agents.json:2026-11-14T15:10:22+07:00:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+  "state_agents.json:2026-11-14T15:14:54+07:00:3D5nV4rQuNJezr6BGfxgQY3qqrtigmEnV2gqSi7ipump",
+  "state_agents.json:2026-11-14T15:14:57+07:00:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+  "state_agents.json:2026-11-14T15:15:00+07:00:ELbCDkRuUTuzPCR6CarMVtR1CYh71AzGhuZTBPePpump",
+  "state_agents.json:2026-11-14T15:15:03+07:00:2afcRhtGYgp1e3xPBMu2UbnELL8AUMZzguLQsPo8pump",
+  "state_agents.json:2026-11-14T15:15:06+07:00:Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu"
  ]
 }
