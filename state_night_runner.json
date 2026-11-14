@@ -196,21 +196,24 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "state_recipe_smart4.json"
+  },
+  {
+   "t": "2026-11-15T02:11:01+07:00",
+   "kind": "sell",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.003572,
+   "entry": 0.004056,
+   "usd": 4.7042,
+   "pnl": -0.9706,
+   "why": "stop -11.9%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "pos": {
-  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
-   "sym": "DacityCoin",
-   "qty": 1357.4244667819405,
-   "entry": 0.004056,
-   "last": 0.004115,
-   "peak": 0.004251,
-   "cost": 5.674823373806999,
-   "opened": "2026-11-14T22:35:39+07:00",
-   "source": "state_recipe_smart4.json",
-   "gap": 1,
-   "miss": 0
-  },
   "FFGQzvcNAucVQXueT7gPZegS8fK4aghXHNzGEvxWpump": {
    "sym": "europoor",
    "qty": 53849.255761896355,
@@ -224,7 +227,7 @@
    "miss": 0
   }
  },
- "cash": 2.8794086415708655,
+ "cash": 7.583636975094673,
  "start_usd": 14.727540500736376,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",

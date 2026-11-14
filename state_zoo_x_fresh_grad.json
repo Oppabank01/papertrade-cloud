@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 12.46928502267829,
- "pos": {
-  "8JNcbK2bWFxQnZsR6xQtgB3en7DcFSXW5xSyh6fYpump": {
-   "sym": "SLIDES",
-   "qty": 38366.42245655993,
-   "entry": 7.883e-05,
-   "last": 9.723e-05,
-   "peak": 0.0001043,
-   "cost": 3.117321255669573,
-   "opened": "2026-11-15T01:41:35+07:00",
-   "zoo": "x_fresh_grad",
-   "smart": 24,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 16.437267809658273,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-15T00:52:42+07:00",
@@ -66,8 +51,23 @@
    "zoo": "x_fresh_grad",
    "smart": 24,
    "kol": 0
+  },
+  {
+   "t": "2026-11-15T02:10:18+07:00",
+   "kind": "sell",
+   "mint": "8JNcbK2bWFxQnZsR6xQtgB3en7DcFSXW5xSyh6fYpump",
+   "sym": "SLIDES",
+   "price": 0.0001066,
+   "entry": 7.883e-05,
+   "usd": 3.968,
+   "pnl": 0.8507,
+   "why": "ถึงเป้า +35.2%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 24,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เพิ่งจบ bonding curve ไม่เกิน 6 ชม. TP +35% SL -15%",
- "rank_t": 1794683019.7873836
+ "rank_t": 1794683302.1377404
 }
