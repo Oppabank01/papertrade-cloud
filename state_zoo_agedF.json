@@ -1,26 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.740566037735848,
- "cash": 2.352442217592042,
+ "cash": 2.255510982414672,
  "pos": {
-  "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
-   "sym": "Dacity",
-   "qty": 1106.4144550123483,
-   "entry": 0.002264,
-   "last": 0.00212,
-   "peak": 0.002297,
-   "cost": 2.5818618080271656,
-   "opened": "2026-11-14T13:47:18+07:00",
-   "zoo": "agedF",
-   "smart": 424,
-   "kol": 38,
-   "miss": 0
-  },
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 134.9995081999241,
    "entry": 0.01789,
-   "last": 0.01701,
+   "last": 0.01716,
    "peak": 0.01798,
    "cost": 2.4893230279289242,
    "opened": "2026-11-14T14:01:33+07:00",
@@ -33,7 +20,7 @@
    "sym": "GATO",
    "qty": 283.3860053254425,
    "entry": 0.008256,
-   "last": 0.0081,
+   "last": 0.008023,
    "peak": 0.008428,
    "cost": 2.4114974850204627,
    "opened": "2026-11-14T14:14:54+07:00",
@@ -46,13 +33,26 @@
    "sym": "mihao",
    "qty": 134.64716865540785,
    "entry": 0.01677,
-   "last": 0.0184,
+   "last": 0.01808,
    "peak": 0.0184,
    "cost": 2.327389217018336,
    "opened": "2026-11-14T15:24:25+07:00",
    "zoo": "agedF",
    "smart": 676,
    "kol": 68,
+   "miss": 0
+  },
+  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+   "sym": "USELESS",
+   "qty": 19.77939679437953,
+   "entry": 0.1138,
+   "last": 0.1138,
+   "peak": 0.1138,
+   "cost": 2.320032318285292,
+   "opened": "2026-11-14T16:31:22+07:00",
+   "zoo": "agedF",
+   "smart": 924,
+   "kol": 294,
    "miss": 0
   }
  },
@@ -273,8 +273,28 @@
    "sym": "mihao",
    "price": 0.01677,
    "usd": 2.3274
+  },
+  {
+   "t": "2026-11-14T16:31:18+07:00",
+   "kind": "sell",
+   "mint": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
+   "sym": "Dacity",
+   "price": 0.002071,
+   "usd": 2.2231,
+   "pnl": -0.3588,
+   "why": "stop -8.5%",
+   "smart": 424,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T16:31:22+07:00",
+   "kind": "buy",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.1138,
+   "usd": 2.32
   }
  ],
  "label": "สวนสัตว์: อายุเกิน 1 วัน เช็กราคาทุก 20 วิ",
- "rank_t": 1794648412.8941035
+ "rank_t": 1794648678.2984896
 }
