@@ -112,3 +112,12 @@ b = st(19, 5); zoo.verdict("x", b, -0.3); assert not b.get("dead")
 c = st(50, 11); zoo.verdict("x", c, -0.3); assert c.get("passed") and not c.get("dead")
 r = st(30, 1); zoo.verdict("rand", r, 0.5); assert not r.get("dead")
 print("verdict ok")
+# null exits in a recipe mean "off", never None in the exit math; one crashing account does not stop the round
+(d / "null.json").write_text(json.dumps([dict(name="x_null", label="t", horizon="week", exit={"TRAIL_ON": None, "TRAIL": None, "TP_ALL": None})]))
+zoo.load_specs(d / "null.json"); zoo.use("x_null"); assert agents.TRAIL_ON == 9 and agents.TRAIL == 0.15 and agents.TP_ALL is None
+calls = []
+real = zoo.tick_one
+zoo.tick_one = lambda n, *a: calls.append(n) or (_ for _ in ()).throw(RuntimeError("boom")) if n == list(zoo.ZOO)[0] else calls.append(n)
+zoo.cmd_tick(); zoo.tick_one = real
+assert len(calls) == len(zoo.ZOO), (len(calls), len(zoo.ZOO))
+print("robust ok")

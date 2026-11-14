@@ -138,6 +138,8 @@ def load_specs(path):
             assert not bad, f"unknown keys {bad}"
             assert all(v is None or isinstance(v, (int, float)) for v in (*x.values(), *e.get("min", {}).values(), *e.get("max", {}).values()))
             assert n.isidentifier() and n not in ZOO and sp["horizon"] in HORIZONS and sp["label"]
+            off_val = dict(TRAIL_ON=9, TRAIL=0.15, STOP=-1.0, MAX_HOLD_H=1e9)   # null = "no trailing / no stop / no time limit"
+            x = {k: (off_val.get(k, STD[k]) if v is None and k not in ("TP_ALL", "HALF_AT") else v) for k, v in x.items()}
             ov = {**x, "MISS_N": 15, "horizon": sp["horizon"], "off": not sp.get("active", True)}
             if p:
                 ov.update(rank_by=lambda t, k=p["by"]: val(t, k), take=int(p["take"]))
@@ -237,24 +239,31 @@ def cmd_tick():
     if d:
         save_hist(d)
     for name in ZOO:
-        with lock(name):
-            use(name)
-            if not agents.STATE.exists():
-                continue
-            s = agents.load()
-            verdict(name, s, rand_ret)
-            ov = ZOO[name][2]
-            night = nightly.night_of(agents.grok.now())
-            if ov.get("horizon") == "night":
-                night_book(s, night)
-            if d and d["t"] > s.get("rank_t", 0) and not ov.get("off") and not s.get("dead") and (night or ov.get("horizon") != "night"):
-                s["rank_t"] = d["t"]
-                for t in picks(name, d["rank"]):
-                    if "size" in ZOO[name][2]:
-                        agents.PER_TRADE = ZOO[name][2]["size"](t)
-                    agents.paper_buy(s, t["address"], t.get("symbol"), zoo=name, smart=t.get("smart_degen_count"), kol=t.get("renowned_count"))
-            agents.save(s)
-            agents.cmd_run()
+        try:
+            tick_one(name, d, rand_ret)
+        except Exception as e:                  # one bad account must not stop the round for the others
+            print(f"zoo {name} error: {e!r}"[:200])
+
+
+def tick_one(name, d, rand_ret):
+    with lock(name):
+        use(name)
+        if not agents.STATE.exists():
+            return
+        s = agents.load()
+        verdict(name, s, rand_ret)
+        ov = ZOO[name][2]
+        night = nightly.night_of(agents.grok.now())
+        if ov.get("horizon") == "night":
+            night_book(s, night)
+        if d and d["t"] > s.get("rank_t", 0) and not ov.get("off") and not s.get("dead") and (night or ov.get("horizon") != "night"):
+            s["rank_t"] = d["t"]
+            for t in picks(name, d["rank"]):
+                if "size" in ZOO[name][2]:
+                    agents.PER_TRADE = ZOO[name][2]["size"](t)
+                agents.paper_buy(s, t["address"], t.get("symbol"), zoo=name, smart=t.get("smart_degen_count"), kol=t.get("renowned_count"))
+        agents.save(s)
+        agents.cmd_run()
 
 
 def cmd_watch(max_s, every=20):
@@ -264,10 +273,13 @@ def cmd_watch(max_s, every=20):
     end = time.time() + float(max_s)
     while time.time() < end and not STOP_FILE.exists():
         for name in FAST:
-            with lock(name):
-                use(name)
-                if agents.STATE.exists() and agents.load()["pos"]:
-                    agents.cmd_run()
+            try:
+                with lock(name):
+                    use(name)
+                    if agents.STATE.exists() and agents.load()["pos"]:
+                        agents.cmd_run()
+            except Exception as e:              # keep watching the other accounts
+                print(f"watch {name} error: {e!r}"[:200])
         time.sleep(every)
 
 
