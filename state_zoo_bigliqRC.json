@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.740566037735848,
- "cash": 4.6473953814117195,
+ "cash": 6.904722825450888,
  "pos": {
-  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
-   "sym": "Buttcoin",
-   "qty": 426.0505348412482,
-   "entry": 0.005797,
-   "last": 0.005511,
-   "peak": 0.005835,
-   "cost": 2.5456760982011093,
-   "opened": "2026-11-14T19:22:38+07:00",
-   "zoo": "bigliqRC",
-   "smart": 467,
-   "kol": 48,
-   "gap": 0,
-   "miss": 0
-  },
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 569.699350789648,
@@ -28,21 +14,21 @@
    "zoo": "bigliqRC",
    "smart": 245,
    "kol": 20,
-   "gap": 1,
+   "gap": 6,
    "miss": 0
   },
   "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
    "sym": "CBUCKS",
    "qty": 632.0510641886561,
    "entry": 0.003683,
-   "last": 0.003649,
+   "last": 0.003581979954762592,
    "peak": 0.003889,
    "cost": 2.399344536597424,
    "opened": "2026-11-14T21:09:33+07:00",
    "zoo": "bigliqRC",
    "smart": 41,
    "kol": 0,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -427,8 +413,23 @@
    "cost_side": 0.03,
    "smart": 221,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T22:23:01+07:00",
+   "kind": "sell",
+   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+   "sym": "Buttcoin",
+   "price": 0.005461,
+   "entry": 0.005797,
+   "usd": 2.2573,
+   "pnl": -0.2883,
+   "why": "ครบ 3 ชม. (-5.8%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 467,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ ผ่าน RugCheck เช็กราคาทุก 20 วิ",
- "rank_t": 1794669302.3440797
+ "rank_t": 1794669590.441057
 }
