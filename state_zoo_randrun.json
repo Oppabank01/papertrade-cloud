@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.8949046453866418,
+ "cash": 2.365388848573578,
  "pos": {
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 41.03407551603159,
    "entry": 0.01864,
-   "last": 0.01623,
+   "last": 0.01635,
    "peak": 0.01889,
    "cost": 0.7883685504213863,
    "opened": "2026-11-14T08:34:15+07:00",
@@ -21,7 +21,7 @@
    "sym": "STONK",
    "qty": 21.229887227050792,
    "entry": 0.04397,
-   "last": 0.04052,
+   "last": 0.04046,
    "peak": 0.04567,
    "cost": 0.9621502178658249,
    "opened": "2026-11-14T11:56:43+07:00",
@@ -30,20 +30,6 @@
    "kol": 174,
    "miss": 0,
    "gap": 0
-  },
-  "B4v7fATuSdtNsJximsbLXZ5wMenSvujfED71xe5ZxrPk": {
-   "sym": "depcat",
-   "qty": 21381.625853745685,
-   "entry": 2.768e-05,
-   "last": 2.735e-05,
-   "peak": 2.798e-05,
-   "cost": 0.6100220610510003,
-   "opened": "2026-11-14T19:03:51+07:00",
-   "zoo": "randrun",
-   "smart": 68,
-   "kol": 6,
-   "gap": 0,
-   "miss": 0
   }
  },
  "log": [
@@ -585,8 +571,23 @@
    "cost_side": 0.03,
    "smart": 19,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T22:29:58+07:00",
+   "kind": "sell",
+   "mint": "B4v7fATuSdtNsJximsbLXZ5wMenSvujfED71xe5ZxrPk",
+   "sym": "depcat",
+   "price": 2.268e-05,
+   "entry": 2.768e-05,
+   "usd": 0.4705,
+   "pnl": -0.1395,
+   "why": "stop -18.1%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 68,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1794669879.018639
+ "rank_t": 1794670161.9226727
 }
