@@ -40,7 +40,7 @@ s = agents.load(); q = s["pos"]["X"]
 assert q["half"] and abs(q["qty"] - 5) < 1e-9 and abs(q["cost"] - 5) < 1e-9 and sum(x["kind"] == "sell" for x in s["log"]) == 1
 print("half ok")
 # fast accounts: RugCheck filter, MISS_N per account, background watcher sells between ticks
-import importlib; importlib.reload(zoo); zoo.HERE = d; zoo.LOCKS = d / "locks"; zoo.STOP_FILE = zoo.LOCKS / "watch.stop"
+import importlib; importlib.reload(zoo); zoo.HERE = d; zoo.HIST = d / "hist"; zoo.RANK = d / "rank.json"; zoo.LOCKS = d / "locks"; zoo.STOP_FILE = zoo.LOCKS / "watch.stop"
 grok.get = lambda url: {"risks": [{"level": "danger", "name": "LP unlocked"}]} if "rugcheck" in url and "R" in url else {"risks": []}
 big1 = {**base, "address": "G", "liquidity": 300_000, "market_cap": 3e6}
 big2 = {**big1, "address": "R"}
@@ -55,3 +55,34 @@ zoo.use("bigliqF"); s = agents.load()
 assert not s["pos"] and s["log"][-1]["kind"] == "sell" and s["log"][-1]["why"].startswith("stop"), s["log"][-1]
 zoo.cmd_stopwatch(); zoo.cmd_watch(5, every=0.1)        # a stale stop file is cleared at start (runs the full 5 s)
 print("fast ok")
+# X recipes from x_recipes.json: spec -> account, bad entries skipped, night accounts close at 09:00 and book the night
+from datetime import datetime
+spec = d / "x.json"
+spec.write_text(json.dumps([
+    dict(name="x_ok", label="t", horizon="night", entry=dict(min={"liquidity": 100_000}, safe=False, up=True), pick=dict(by="volume", take=1), exit={"STOP": -0.1}),
+    dict(name="x_badkey", label="t", horizon="week", entry=dict(min={"nope": 1})),
+    dict(name="x_badexit", label="t", horizon="week", exit={"EVAL": 1}),
+    dict(name="x_badhz", label="t", horizon="year"),
+    dict(name="rand", label="t", horizon="week"),
+    dict(name="x_off", label="t", horizon="month", active=False)]))
+zoo.load_specs(spec)
+assert "x_ok" in zoo.ZOO and "x_off" in zoo.ZOO and "x_ok" in zoo.FAST and not any(k in zoo.ZOO for k in ("x_badkey", "x_badexit", "x_badhz"))
+assert zoo.ZOO["rand"][0] != "t"
+v1, v2 = {**big1, "volume": 5}, {**big1, "address": "V", "volume": 9}
+assert [t["address"] for t in zoo.picks("x_ok", [v1, v2, {**base, "address": "L"}])] == ["V"]
+zoo.use("x_ok"); assert agents.STOP == -0.1 and agents.MISS_N == 15
+(d / "bad.json").write_text("{nope"); zoo.load_specs(d / "bad.json")      # unreadable file: message, no crash
+zoo.RANK.write_text(json.dumps(dict(t=time.time() + 99, rank=[v2])))
+grok.get = lambda url: [{"chainId": "solana", "baseToken": {"address": m}, "priceUsd": "1.0", "liquidity": {"usd": 1}} for m in url.rsplit("/", 1)[1].split(",")]
+zoo.use("x_ok"); agents.cmd_init(500); zoo.use("x_off"); agents.cmd_init(500)
+grok.now = lambda: datetime(2026, 11, 14, 12, 0, tzinfo=grok.TH)   # daytime: night account does not buy
+zoo.cmd_tick(); zoo.use("x_ok"); assert not agents.load()["pos"]
+grok.now = lambda: datetime(2026, 11, 14, 22, 0, tzinfo=grok.TH)
+zoo.RANK.write_text(json.dumps(dict(t=time.time() + 199, rank=[v2]))); zoo.cmd_tick()
+zoo.use("x_ok"); assert list(agents.load()["pos"]) == ["V"]
+zoo.use("x_off"); assert not agents.load()["pos"]          # inactive recipe never buys
+grok.get = lambda url: [{"chainId": "solana", "baseToken": {"address": "V"}, "priceUsd": "1.05", "liquidity": {"usd": 1}}]
+grok.now = lambda: datetime(2026, 11, 15, 9, 5, tzinfo=grok.TH); zoo.cmd_tick()
+zoo.use("x_ok"); s = agents.load()
+assert not s["pos"] and s["nights"][0]["night"] == "2026-11-14" and s["log"][-1]["why"] == "ปิดรอบเช้า", (s["pos"], s.get("nights"))
+print("x recipes ok")

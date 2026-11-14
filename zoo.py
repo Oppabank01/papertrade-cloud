@@ -17,11 +17,13 @@ import random
 import sys
 import tempfile
 import time
+from datetime import datetime, timedelta
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 import agents  # noqa: E402
 import recipes  # noqa: E402
+import nightly  # noqa: E402
 
 HERE = Path(__file__).parent
 RANK, HIST = HERE / "data" / "rank5m_latest.json", HERE / "data" / "rank_hist"
@@ -106,8 +108,56 @@ ZOO = {   # name: (label, entry rule, exit/sizing overrides). "pick" = one token
     "agedF":    ("อายุเกิน 1 วัน เช็กราคาทุก 20 วิ", aged, dict(MISS_N=15)),
     "bigliqRC": ("สภาพคล่อง 200k+ ผ่าน RugCheck เช็กราคาทุก 20 วิ", lambda t: big(t) and rc_clean(t), dict(MISS_N=15)),
 }
-FAST = ("bigliqF", "agedF", "bigliqRC")   # MISS_N=15: ~5 min of missing pool before calling it a rug, same as the 5-min accounts
+FAST = ["bigliqF", "agedF", "bigliqRC"]   # MISS_N=15: ~5 min of missing pool before calling it a rug, same as the 5-min accounts
 ONE_PICK = {"rand", "randrun", "top1"}   # these take a single token per ranking; the rest buy every match (up to MAX_POS)
+SPECS = HERE / "x_recipes.json"         # X "bragging" recipes added by the daily research routine: data only, no code
+FIELDS = set(KEEP) | {"age_h", "vl", "score"}
+HORIZONS = {"night": "1 คืน", "week": "1 สัปดาห์", "month": "1 เดือน"}
+
+
+def val(t, k):
+    return age_h(t) if k == "age_h" else vl(t) if k == "vl" else score(t) if k == "score" else f(t, k)
+
+
+def spec_rule(e):
+    return lambda t: (all(val(t, k) >= v for k, v in e.get("min", {}).items()) and all(val(t, k) <= v for k, v in e.get("max", {}).items())
+                      and (not e.get("safe") or safe(t)) and (not e.get("up") or up(t)) and (not e.get("rugcheck") or rc_clean(t)))
+
+
+def load_specs(path):
+    """Each x_recipes.json entry becomes a FAST zoo account. A bad entry is skipped with a message, never stops the run."""
+    try:
+        specs = json.loads(path.read_text()) if path.exists() else []
+    except ValueError as err:
+        return print(f"x_recipes.json unreadable, no X recipes this run: {err}")
+    for sp in specs:
+        try:
+            n, e, x, p = sp["name"], sp.get("entry", {}), sp.get("exit", {}), sp.get("pick")
+            bad = [k for k in (*e.get("min", {}), *e.get("max", {}), *([p["by"]] if p else [])) if k not in FIELDS] + [k for k in x if k not in STD]
+            assert not bad, f"unknown keys {bad}"
+            assert all(v is None or isinstance(v, (int, float)) for v in (*x.values(), *e.get("min", {}).values(), *e.get("max", {}).values()))
+            assert n.isidentifier() and n not in ZOO and sp["horizon"] in HORIZONS and sp["label"]
+            ov = {**x, "MISS_N": 15, "horizon": sp["horizon"], "off": not sp.get("active", True)}
+            if p:
+                ov.update(rank_by=lambda t, k=p["by"]: val(t, k), take=int(p["take"]))
+            ZOO[n] = (sp["label"], spec_rule(e), ov)
+            FAST.append(n)
+        except Exception as err:
+            print(f"skip X recipe {sp.get('name') if isinstance(sp, dict) else sp}: {err!r}")
+
+
+def night_book(s, night):
+    """'1 night' recipes: trade only 21:00-09:00, close everything at 09:00 and book each night on its own."""
+    if s.get("night") and s["night"] != night:
+        if s["pos"]:
+            nightly.close_all(s, "ปิดรอบเช้า")
+        s.setdefault("nights", []).append(dict(night=s["night"], ret=round(agents.equity(s) / s["night_start"] - 1, 4)))
+        s["night"] = None
+    if night and s.get("night") != night:
+        s.update(night=night, night_start=agents.equity(s))
+
+
+load_specs(SPECS)
 
 
 def use(name):
@@ -168,13 +218,17 @@ def cmd_tick():
             if not agents.STATE.exists():
                 continue
             s = agents.load()
-            if d and d["t"] > s.get("rank_t", 0):
+            ov = ZOO[name][2]
+            night = nightly.night_of(agents.grok.now())
+            if ov.get("horizon") == "night":
+                night_book(s, night)
+            if d and d["t"] > s.get("rank_t", 0) and not ov.get("off") and (night or ov.get("horizon") != "night"):
                 s["rank_t"] = d["t"]
                 for t in picks(name, d["rank"]):
                     if "size" in ZOO[name][2]:
                         agents.PER_TRADE = ZOO[name][2]["size"](t)
                     agents.paper_buy(s, t["address"], t.get("symbol"), zoo=name, smart=t.get("smart_degen_count"), kol=t.get("renowned_count"))
-                agents.save(s)
+            agents.save(s)
             agents.cmd_run()
 
 
@@ -204,7 +258,14 @@ def cmd_report():
         if agents.STATE.exists():
             s = agents.load()
             sells = [x["pnl"] for x in s["log"] if x["kind"] == "sell"]
-            rows.append((agents.equity(s) / s["start_usd"] - 1, name, s.get("label", name), len(sells), sum(p > 0 for p in sells)))
+            hz, tag = ZOO[name][2].get("horizon"), ""
+            if hz == "night":
+                n = s.get("nights", [])
+                tag = f"  [{HORIZONS[hz]}: {len(n)} คืน บวก {sum(x['ret'] > 0 for x in n)}]"
+            elif hz:
+                due = datetime.fromisoformat(s["log"][0]["t"]) + timedelta(days=7 if hz == "week" else 30)
+                tag = f"  [{HORIZONS[hz]}: ตัดสิน {due:%d/%m}]"
+            rows.append((agents.equity(s) / s["start_usd"] - 1, name, s.get("label", name) + tag, len(sells), sum(p > 0 for p in sells)))
     for r, name, label, n, w in sorted(rows, reverse=True):
         print(f"{r:+7.1%}  {name:8s} ไม้ {n:3d} ชนะ {w:3d}  {label}")
 
