@@ -1,34 +1,48 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 6.5075350810188795,
+ "cash": 4.038205074552183,
  "pos": {
   "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
    "sym": "FOOD",
    "qty": 7507.499732154056,
    "entry": 0.0003472,
-   "last": 0.0004352,
-   "peak": 0.0004364,
+   "last": 0.0004319,
+   "peak": 0.0004365,
    "cost": 2.68666657081415,
    "opened": "2026-11-15T01:03:26+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 292,
    "kol": 22,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   },
   "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump": {
    "sym": "GTA6",
    "qty": 17381.894967634707,
    "entry": 0.0001511,
-   "last": 0.00014745959033320464,
+   "last": 0.0001501,
    "peak": 0.0001511,
    "cost": 2.7070751696656403,
    "opened": "2026-11-15T02:19:00+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 92,
    "kol": 5,
-   "gap": 4,
+   "gap": 0,
+   "miss": 0
+  },
+  "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": {
+   "sym": "WOJAK",
+   "qty": 1625335.1236594226,
+   "entry": 1.474e-06,
+   "last": 1.445e-06,
+   "peak": 1.474e-06,
+   "cost": 2.4693300064666963,
+   "opened": "2026-11-15T02:28:19+07:00",
+   "zoo": "w_ban_smartflow",
+   "smart": 5,
+   "kol": 0,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -210,8 +224,22 @@
    "cost_side": 0.03,
    "smart": 7,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T02:28:19+07:00",
+   "kind": "buy",
+   "mint": "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump",
+   "sym": "WOJAK",
+   "price": 1.474e-06,
+   "jup": 1.4630978018672234e-06,
+   "usd": 2.4693,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "w_ban_smartflow",
+   "smart": 5,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794684120.4838948
+ "rank_t": 1794684396.6644402
 }

@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 5.735463464086685,
+ "cash": 2.975449653574321,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 199.26033277077715,
    "entry": 0.01406,
-   "last": 0.01355,
+   "last": 0.01358,
    "peak": 0.01541,
    "cost": 2.8876523178284135,
    "opened": "2026-11-14T23:42:37+07:00",
@@ -35,14 +35,28 @@
    "sym": "GTA6",
    "qty": 413.7419863606772,
    "entry": 0.006594,
-   "last": 0.006316250262882045,
+   "last": 0.006435767545154102,
    "peak": 0.006595,
    "cost": 2.812012634572568,
    "opened": "2026-11-15T02:10:11+07:00",
    "zoo": "w_f5_bigliqRC",
    "smart": 287,
    "kol": 23,
-   "gap": 14,
+   "gap": 18,
+   "miss": 0
+  },
+  "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
+   "sym": "neet",
+   "qty": 90.09977789229795,
+   "entry": 0.02972,
+   "last": 0.02961,
+   "peak": 0.02972,
+   "cost": 2.7600138105123637,
+   "opened": "2026-11-15T02:27:53+07:00",
+   "zoo": "w_f5_bigliqRC",
+   "smart": 851,
+   "kol": 202,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -151,8 +165,22 @@
    "cost_side": 0.03,
    "smart": 924,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T02:27:53+07:00",
+   "kind": "buy",
+   "mint": "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump",
+   "sym": "neet",
+   "price": 0.02972,
+   "jup": 0.029670413521808908,
+   "usd": 2.76,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_bigliqRC",
+   "smart": 851,
+   "kol": 202
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ bigliqRC แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794684120.4838948
+ "rank_t": 1794684396.6644402
 }
