@@ -22,6 +22,8 @@ jobs:
       - name: claude code
         run: npm install -g @anthropic-ai/claude-code
       - name: iterate
+        # out of API credit: skip quietly (no failure mail every 90 min); it resumes by itself once credit is back
+        continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         # No web tools, and Bash limited to read/run/git commands: rankings and token names come from strangers.
