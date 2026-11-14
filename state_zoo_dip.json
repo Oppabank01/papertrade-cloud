@@ -1,31 +1,18 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.3481718643890306,
+ "cash": 0.6823461123428941,
  "pos": {
   "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
    "sym": "JENSEN",
    "qty": 652.5477751423126,
    "entry": 0.0003796,
-   "last": 0.001335,
-   "peak": 0.001335,
+   "last": 0.00154,
+   "peak": 0.00154,
    "cost": 0.25531553849105537,
    "opened": "2026-11-14T08:51:50+07:00",
    "zoo": "dip",
    "smart": 4,
-   "kol": 0,
-   "miss": 0
-  },
-  "GNXrWwLyw3WqD4mBEjvWhKFMvbjgcsEL21uwjaFmpump": {
-   "sym": "breadcat",
-   "qty": 18005.149802529577,
-   "entry": 1.018e-05,
-   "last": 2.629e-05,
-   "peak": 2.629e-05,
-   "cost": 0.18892230982246044,
-   "opened": "2026-11-14T09:00:01+07:00",
-   "zoo": "dip",
-   "smart": 5,
    "kol": 0,
    "miss": 0
   }
@@ -1871,8 +1858,20 @@
    "why": "stop -59.3%",
    "smart": 17,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T09:12:58+07:00",
+   "kind": "sell",
+   "mint": "GNXrWwLyw3WqD4mBEjvWhKFMvbjgcsEL21uwjaFmpump",
+   "sym": "breadcat",
+   "price": 1.913e-05,
+   "usd": 0.3342,
+   "pnl": 0.1453,
+   "why": "trailing จากยอด +158% (+87.9%)",
+   "smart": 5,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794622119.1583285
+ "rank_t": 1794622357.477945
 }

@@ -1,8 +1,21 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.8049747680694077,
- "pos": {},
+ "cash": 2.243979814455526,
+ "pos": {
+  "9T9JyZtJQjYNfSYvhMB4uXkPJLUv6MTfVRBNRq5Spump": {
+   "sym": "SUNBUCK",
+   "qty": 20430.829729586632,
+   "entry": 2.664e-05,
+   "last": 2.664e-05,
+   "peak": 2.664e-05,
+   "cost": 0.5609949536138815,
+   "opened": "2026-11-14T09:12:55+07:00",
+   "smart": 31,
+   "kol": 4,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -1288,8 +1301,16 @@
    "why": "stop -23.1%",
    "smart": 19,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T09:12:55+07:00",
+   "kind": "buy",
+   "mint": "9T9JyZtJQjYNfSYvhMB4uXkPJLUv6MTfVRBNRq5Spump",
+   "sym": "SUNBUCK",
+   "price": 2.664e-05,
+   "usd": 0.561
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794622119.1583285
+ "rank_t": 1794622357.477945
 }
