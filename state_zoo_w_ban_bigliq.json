@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 5.0595446846129235,
+ "cash": 2.4469871431480024,
  "pos": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 900.9599965229868,
    "entry": 0.002849,
-   "last": 0.002832,
+   "last": 0.0027960328961358213,
    "peak": 0.002901,
    "cost": 2.6456761802659137,
    "opened": "2026-11-15T04:17:22+07:00",
    "zoo": "w_ban_bigliq",
    "smart": 721,
    "kol": 80,
-   "gap": 0,
+   "gap": 4,
    "miss": 0
   },
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 186.8434127761786,
    "entry": 0.01447,
-   "last": 0.01527,
+   "last": 0.01557,
    "peak": 0.01558,
    "cost": 2.786666855154921,
    "opened": "2026-11-15T05:00:45+07:00",
@@ -35,14 +35,28 @@
    "sym": "ANSEM",
    "qty": 60.79452055215613,
    "entry": 0.04198,
-   "last": 0.04232,
-   "peak": 0.04248,
+   "last": 0.0411010180419481,
+   "peak": 0.04256,
    "cost": 2.6305441896305037,
    "opened": "2026-11-15T05:38:18+07:00",
    "zoo": "w_ban_bigliq",
    "smart": 1000,
    "kol": 186,
-   "gap": 0,
+   "gap": 2,
+   "miss": 0
+  },
+  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
+   "sym": "DacityCoin",
+   "qty": 730.6726222915153,
+   "entry": 0.003469,
+   "last": 0.0034971576948183837,
+   "peak": 0.003554,
+   "cost": 2.612557541464921,
+   "opened": "2026-11-15T05:52:27+07:00",
+   "zoo": "w_ban_bigliq",
+   "smart": 248,
+   "kol": 20,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -310,10 +324,24 @@
    "cost_side": 0.03,
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T05:52:27+07:00",
+   "kind": "buy",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.003469,
+   "jup": 0.0034606669327990726,
+   "usd": 2.6126,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_bigliq",
+   "smart": 248,
+   "kol": 20
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794696341.5014887,
+ "rank_t": 1794696628.3831863,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"

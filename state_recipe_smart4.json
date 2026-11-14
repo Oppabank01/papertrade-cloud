@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.07780247250306939,
+ "cash": 0.15226110509027435,
  "pos": {
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 19.25021139545809,
    "entry": 0.004712,
-   "last": 0.004708,
+   "last": 0.0047,
    "peak": 0.004773,
    "cost": 0.09349309018284738,
    "opened": "2026-11-15T04:21:15+07:00",
@@ -20,7 +20,7 @@
    "sym": "STANK",
    "qty": 55.397725898176944,
    "entry": 0.001543,
-   "last": 0.001529,
+   "last": 0.001497,
    "peak": 0.001545,
    "cost": 0.08810419610481038,
    "opened": "2026-11-15T05:08:41+07:00",
@@ -33,25 +33,12 @@
    "sym": "Leonida",
    "qty": 182.6171033135507,
    "entry": 0.000463,
-   "last": 0.0005054,
+   "last": 0.0005039,
    "peak": 0.0005189,
    "cost": 0.08714875163283238,
    "opened": "2026-11-15T05:18:15+07:00",
    "smart": 79,
    "kol": 4,
-   "gap": 0,
-   "miss": 0
-  },
-  "ELbCDkRuUTuzPCR6CarMVtR1CYh71AzGhuZTBPePpump": {
-   "sym": "GIGAPIG",
-   "qty": 870.8232502897588,
-   "entry": 9.591e-05,
-   "last": 8.95e-05,
-   "peak": 9.591e-05,
-   "cost": 0.08608602137218178,
-   "opened": "2026-11-15T05:41:52+07:00",
-   "smart": 110,
-   "kol": 2,
    "gap": 0,
    "miss": 0
   }
@@ -3057,8 +3044,23 @@
    "cost_side": 0.03,
    "smart": 110,
    "kol": 2
+  },
+  {
+   "t": "2026-11-15T05:51:01+07:00",
+   "kind": "sell",
+   "mint": "ELbCDkRuUTuzPCR6CarMVtR1CYh71AzGhuZTBPePpump",
+   "sym": "GIGAPIG",
+   "price": 8.813e-05,
+   "entry": 9.591e-05,
+   "usd": 0.0745,
+   "pnl": -0.0116,
+   "why": "stop -8.1%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 110,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794696341.5014887
+ "rank_t": 1794696628.3831863
 }
