@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.6646514717823024,
+ "cash": 0.20210312855479667,
  "pos": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 81.3287782058539,
    "entry": 0.007266,
-   "last": 0.007484,
+   "last": 0.007477,
    "peak": 0.007484,
    "cost": 0.6090856549615898,
    "opened": "2026-11-14T04:53:55+07:00",
@@ -29,10 +29,21 @@
    "sym": "PURR",
    "qty": 294.8158853711156,
    "entry": 0.001832,
-   "last": 0.001751,
+   "last": 0.00175,
    "peak": 0.001955,
    "cost": 0.5566921273962934,
    "opened": "2026-11-14T05:32:18+07:00",
+   "source": "agents",
+   "miss": 0
+  },
+  "GsuDgP89rWTYrsGCZ3VMtfnD7mAeDLfe6qiJ6KLKpump": {
+   "sym": "CS",
+   "qty": 3621.9887215441977,
+   "entry": 0.0001239,
+   "last": 0.0001239,
+   "peak": 0.0001239,
+   "cost": 0.46254834322750576,
+   "opened": "2026-11-14T07:50:45+07:00",
    "source": "agents",
    "miss": 0
   }
@@ -1486,6 +1497,14 @@
    "why": "stop -21.7%",
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T07:50:45+07:00",
+   "kind": "buy",
+   "mint": "GsuDgP89rWTYrsGCZ3VMtfnD7mAeDLfe6qiJ6KLKpump",
+   "sym": "CS",
+   "price": 0.0001239,
+   "usd": 0.4625
   }
  ],
  "label": "เร็ว ไม่มี laya",
@@ -2280,6 +2299,9 @@
   "state_agents.json:2026-11-14T07:46:12+07:00:BDDdnX85YSmqDNHTyHjktmUd8ZzGLyXiWMAT1FLppump",
   "state_agents.json:2026-11-14T07:46:13+07:00:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
   "state_agents.json:2026-11-14T07:46:15+07:00:m7SihqeaWimE1zpBzjHBwKJbbhuaczX5fHvGoNupump",
-  "state_agents.json:2026-11-14T07:46:16+07:00:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump"
+  "state_agents.json:2026-11-14T07:46:16+07:00:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+  "state_agents.json:2026-11-14T07:50:41+07:00:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+  "state_agents.json:2026-11-14T07:50:43+07:00:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+  "state_agents.json:2026-11-14T07:50:44+07:00:GsuDgP89rWTYrsGCZ3VMtfnD7mAeDLfe6qiJ6KLKpump"
  ]
 }
