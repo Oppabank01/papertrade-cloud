@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 7.766660371145951,
- "pos": {},
+ "cash": 6.213328296916761,
+ "pos": {
+  "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump": {
+   "sym": "HELL",
+   "qty": 12913.819866470954,
+   "entry": 0.0001167,
+   "last": 0.0001167,
+   "peak": 0.0001167,
+   "cost": 1.5533320742291903,
+   "opened": "2026-11-14T18:44:58+07:00",
+   "zoo": "boosted",
+   "smart": 16,
+   "kol": 0,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:42:01+07:00",
@@ -869,8 +884,22 @@
    "cost_side": 0.03,
    "smart": 123,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T18:44:58+07:00",
+   "kind": "buy",
+   "mint": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
+   "sym": "HELL",
+   "price": 0.0001167,
+   "jup": 0.0001168122997556946,
+   "usd": 1.5533,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 16,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794656395.77021
+ "rank_t": 1794656667.2386177
 }
