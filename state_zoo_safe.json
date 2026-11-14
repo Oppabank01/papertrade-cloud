@@ -1,19 +1,32 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.8219454304683258,
+ "cash": 1.3418957865773056,
  "pos": {
   "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": {
    "sym": "Sakura",
    "qty": 4532.153518705137,
    "entry": 0.0001,
-   "last": 0.0001276,
+   "last": 0.0001124,
    "peak": 0.0001291,
    "cost": 0.46713600481397005,
    "opened": "2026-11-14T11:15:40+07:00",
    "zoo": "safe",
    "smart": 139,
    "kol": 6,
+   "miss": 0
+  },
+  "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": {
+   "sym": "BRUH",
+   "qty": 142.51657420534508,
+   "entry": 0.003268,
+   "last": 0.003411,
+   "peak": 0.003411,
+   "cost": 0.48004964389102023,
+   "opened": "2026-11-14T13:28:51+07:00",
+   "zoo": "safe",
+   "smart": 3,
+   "kol": 0,
    "miss": 0
   }
  },
@@ -610,8 +623,16 @@
    "why": "trailing จากยอด +41% (+13.8%)",
    "smart": 4,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T13:28:51+07:00",
+   "kind": "buy",
+   "mint": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
+   "sym": "BRUH",
+   "price": 0.003268,
+   "usd": 0.48
   }
  ],
  "label": "สวนสัตว์: ผ่านเช็กความปลอดภัยเข้ม",
- "rank_t": 1794637425.915144
+ "rank_t": 1794637703.1321607
 }
