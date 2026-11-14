@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.1862873945234715,
+ "cash": 0.09170627850604723,
  "pos": {
   "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
    "sym": "neet",
    "qty": 3.205928143631403,
    "entry": 0.02993,
-   "last": 0.02852,
+   "last": 0.02812,
    "peak": 0.03011,
    "cost": 0.0989006692835373,
    "opened": "2026-11-15T01:59:23+07:00",
@@ -33,11 +33,24 @@
    "sym": "MRPENIS",
    "qty": 543.1688927790624,
    "entry": 0.0001656,
-   "last": 0.0001904,
+   "last": 0.00017648924395729875,
    "peak": 0.0001904,
    "cost": 0.09271157353557279,
    "opened": "2026-11-15T04:45:10+07:00",
    "smart": 82,
+   "kol": 4,
+   "gap": 1,
+   "miss": 0
+  },
+  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
+   "sym": "GATO",
+   "qty": 12.189505680141476,
+   "entry": 0.007528,
+   "last": 0.007574,
+   "peak": 0.007574,
+   "cost": 0.09458111601742428,
+   "opened": "2026-11-15T04:54:36+07:00",
+   "smart": 62,
    "kol": 4,
    "gap": 0,
    "miss": 0
@@ -2947,8 +2960,21 @@
    "cost_side": 0.03,
    "smart": 103,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T04:54:36+07:00",
+   "kind": "buy",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "price": 0.007528,
+   "jup": 0.007583937255460128,
+   "usd": 0.0946,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 62,
+   "kol": 4
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794692950.4050105
+ "rank_t": 1794693236.3817892
 }
