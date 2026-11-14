@@ -1,33 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.6033049578191727,
- "pos": {
-  "9HrYC4PH4A3d5o7LUvwjDrxkWyZDjVQpvFvWVwbKpump": {
-   "sym": "Heisto",
-   "qty": 8374.133040520992,
-   "entry": 3.836e-05,
-   "last": 4.019e-05,
-   "peak": 4.477e-05,
-   "cost": 0.3310984780812052,
-   "opened": "2026-11-14T12:55:44+07:00",
-   "smart": 9,
-   "kol": 1,
-   "miss": 0
-  },
-  "rysLWnWRnvx9TKF76CzqVYeDMYbQAM3Z8PvgDFbpump": {
-   "sym": "FRENS",
-   "qty": 4694.880957194026,
-   "entry": 4.962e-05,
-   "last": 6.253e-05,
-   "peak": 6.253e-05,
-   "cost": 0.24011543299934823,
-   "opened": "2026-11-14T13:37:48+07:00",
-   "smart": 44,
-   "kol": 4,
-   "miss": 0
-  }
- },
+ "cash": 1.062109906199693,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -1569,8 +1544,32 @@
    "sym": "FRENS",
    "price": 4.962e-05,
    "usd": 0.2401
+  },
+  {
+   "t": "2026-11-14T13:42:49+07:00",
+   "kind": "sell",
+   "mint": "9HrYC4PH4A3d5o7LUvwjDrxkWyZDjVQpvFvWVwbKpump",
+   "sym": "Heisto",
+   "price": 3.723e-05,
+   "usd": 0.3025,
+   "pnl": -0.0286,
+   "why": "trailing จากยอด +17% (-2.9%)",
+   "smart": 9,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T13:42:49+07:00",
+   "kind": "sell",
+   "mint": "rysLWnWRnvx9TKF76CzqVYeDMYbQAM3Z8PvgDFbpump",
+   "sym": "FRENS",
+   "price": 3.432e-05,
+   "usd": 0.1563,
+   "pnl": -0.0838,
+   "why": "stop -30.8%",
+   "smart": 44,
+   "bundler": null
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794638260.2694445
+ "rank_t": 1794638542.365232
 }
