@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.740566037735848,
- "cash": 2.23622828298217,
+ "cash": 2.230974500324117,
  "pos": {
-  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
-   "sym": "GATO",
-   "qty": 283.3860053254425,
-   "entry": 0.008256,
-   "last": 0.008135,
-   "peak": 0.008428,
-   "cost": 2.4114974850204627,
-   "opened": "2026-11-14T14:14:54+07:00",
-   "zoo": "agedF",
-   "smart": 61,
-   "kol": 4,
-   "miss": 0,
-   "gap": 0
-  },
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 134.64716865540785,
    "entry": 0.01677,
-   "last": 0.01726,
+   "last": 0.01747,
    "peak": 0.0184,
    "cost": 2.327389217018336,
    "opened": "2026-11-14T15:24:25+07:00",
@@ -35,7 +21,7 @@
    "sym": "USELESS",
    "qty": 19.77939679437953,
    "entry": 0.1138,
-   "last": 0.1136,
+   "last": 0.1126,
    "peak": 0.1144,
    "cost": 2.320032318285292,
    "opened": "2026-11-14T16:31:22+07:00",
@@ -49,15 +35,29 @@
    "sym": "GTA6",
    "qty": 341.0227322942924,
    "entry": 0.006464,
-   "last": 0.006466,
-   "peak": 0.006466,
+   "last": 0.00638036809264916,
+   "peak": 0.006467,
    "cost": 2.272078892548244,
    "opened": "2026-11-14T17:02:52+07:00",
    "zoo": "agedF",
    "smart": 287,
    "kol": 23,
    "miss": 0,
-   "gap": 0
+   "gap": 1
+  },
+  "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
+   "sym": "Max",
+   "qty": 1303.4118128082578,
+   "entry": 0.001679,
+   "last": 0.001682,
+   "peak": 0.001707,
+   "cost": 2.2556467055298546,
+   "opened": "2026-11-14T17:16:27+07:00",
+   "zoo": "agedF",
+   "smart": 448,
+   "kol": 42,
+   "gap": 0,
+   "miss": 0
   }
  },
  "log": [
@@ -317,8 +317,37 @@
    "sym": "GTA6",
    "price": 0.006464,
    "usd": 2.2721
+  },
+  {
+   "t": "2026-11-14T17:15:42+07:00",
+   "kind": "sell",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "price": 0.008185,
+   "entry": 0.008256,
+   "usd": 2.2504,
+   "pnl": -0.1611,
+   "why": "ครบ 3 ชม. (-0.9%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 61,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T17:16:27+07:00",
+   "kind": "buy",
+   "mint": "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump",
+   "sym": "Max",
+   "price": 0.001679,
+   "jup": 0.0016901392267226892,
+   "usd": 2.2556,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "agedF",
+   "smart": 448,
+   "kol": 42
   }
  ],
  "label": "สวนสัตว์: อายุเกิน 1 วัน เช็กราคาทุก 20 วิ",
- "rank_t": 1794651071.6260843
+ "rank_t": 1794651342.3889163
 }

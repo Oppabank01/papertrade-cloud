@@ -1,103 +1,105 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 3.067665015672709,
+ "cash": 4.061180555229515,
  "pos": {
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 512.1383438643167,
    "entry": 0.00279,
-   "last": 0.00279,
+   "last": 0.002672403140350022,
    "peak": 0.00279,
    "cost": 1.4727540500736378,
    "opened": "2026-11-14T15:56:45+07:00",
    "zoo": "x_scalp_1020",
    "smart": 167,
-   "kol": 8
+   "kol": 8,
+   "gap": 3,
+   "miss": 0
   },
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
    "sym": "FLOAT",
    "qty": 429.0987827599056,
    "entry": 0.00332,
-   "last": 0.00332,
-   "peak": 0.00332,
+   "last": 0.003647864400973816,
+   "peak": 0.003655115640008475,
    "cost": 1.4683652430044183,
    "opened": "2026-11-14T15:56:45+07:00",
    "zoo": "x_scalp_1020",
    "smart": 342,
-   "kol": 31
+   "kol": 31,
+   "gap": 10,
+   "miss": 0
   },
   "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": {
    "sym": "BAWSAQ",
    "qty": 11317.630494388632,
    "entry": 0.0001255,
-   "last": 0.0001255,
-   "peak": 0.0001255,
+   "last": 0.0001244,
+   "peak": 0.0001256,
    "cost": 1.463989514580265,
    "opened": "2026-11-14T15:56:45+07:00",
    "zoo": "x_scalp_1020",
    "smart": 60,
-   "kol": 6
+   "kol": 6,
+   "gap": 0,
+   "miss": 0
   },
   "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
    "sym": "WASTED",
    "qty": 363.76315089061825,
    "entry": 0.003893,
-   "last": 0.003893,
+   "last": 0.003448,
    "peak": 0.003893,
    "cost": 1.459626825826816,
    "opened": "2026-11-14T16:01:24+07:00",
    "zoo": "x_scalp_1020",
    "smart": 60,
-   "kol": 1
+   "kol": 1,
+   "gap": 0,
+   "miss": 0
   },
   "2afcRhtGYgp1e3xPBMu2UbnELL8AUMZzguLQsPo8pump": {
    "sym": "VICECITY",
    "qty": 6380.071754075253,
    "entry": 0.0002213,
-   "last": 0.0002213,
+   "last": 0.0001891,
    "peak": 0.0002213,
    "cost": 1.455277137885852,
    "opened": "2026-11-14T16:01:24+07:00",
    "zoo": "x_scalp_1020",
    "smart": 6,
-   "kol": 1
-  },
-  "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
-   "sym": "JENSEN",
-   "qty": 1601.1173654878373,
-   "entry": 0.0008792,
-   "last": 0.0008792,
-   "peak": 0.0008792,
-   "cost": 1.450940412014952,
-   "opened": "2026-11-14T16:06:46+07:00",
-   "zoo": "x_scalp_1020",
-   "smart": 4,
-   "kol": 0
+   "kol": 1,
+   "gap": 7,
+   "miss": 0
   },
   "AuRhMFYgi4G3AQCy3ZfzkArVYLvozD2cH1b6R1RHpump": {
    "sym": "DCT",
    "qty": 6086.328857855379,
    "entry": 0.0002306,
-   "last": 0.0002306,
+   "last": 0.000217,
    "peak": 0.0002306,
    "cost": 1.4466166095871476,
    "opened": "2026-11-14T16:06:46+07:00",
    "zoo": "x_scalp_1020",
    "smart": 27,
-   "kol": 2
+   "kol": 2,
+   "gap": 0,
+   "miss": 0
   },
   "6mXFCoZ515w37YfmwXGJMPfQfiK5tr9WkihW3oN9pump": {
    "sym": "PIRATE",
    "qty": 5772.7928319565945,
    "entry": 0.0002424,
-   "last": 0.0002424,
+   "last": 0.0002294,
    "peak": 0.0002424,
    "cost": 1.442305692090578,
    "opened": "2026-11-14T16:06:46+07:00",
    "zoo": "x_scalp_1020",
    "smart": 245,
-   "kol": 17
+   "kol": 17,
+   "gap": 0,
+   "miss": 0
   }
  },
  "log": [
@@ -169,8 +171,23 @@
    "sym": "PIRATE",
    "price": 0.0002424,
    "usd": 1.4423
+  },
+  {
+   "t": "2026-11-14T17:15:42+07:00",
+   "kind": "sell",
+   "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+   "sym": "JENSEN",
+   "price": 0.0006395731542265874,
+   "entry": 0.0008792,
+   "usd": 0.9935,
+   "pnl": -0.4574,
+   "why": "stop -27.3%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 4,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สกัลป์ pump.fun ตัดกำไร/ขาดทุน 15% เดือนเต็ม",
- "rank_t": 1794649209.437962
+ "rank_t": 1794651342.3889163
 }

@@ -1,14 +1,72 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 14.727540500736376,
- "pos": {},
+ "cash": 8.842400589101619,
+ "pos": {
+  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
+   "sym": "mihao",
+   "qty": 167.40107100162493,
+   "entry": 0.01742,
+   "last": 0.01749,
+   "peak": 0.01756,
+   "cost": 2.9455081001472756,
+   "opened": "2026-11-14T17:16:48+07:00",
+   "zoo": "i_bigliq_cost2",
+   "smart": 677,
+   "kol": 68,
+   "gap": 0,
+   "miss": 0
+  },
+  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
+   "sym": "CLAUDIA",
+   "qty": 743.9440143578463,
+   "entry": 0.003912,
+   "last": 0.003876,
+   "peak": 0.003922,
+   "cost": 2.939631811487482,
+   "opened": "2026-11-14T17:16:48+07:00",
+   "zoo": "i_bigliq_cost2",
+   "smart": 439,
+   "kol": 28,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T16:49:15+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-14T17:16:48+07:00",
+   "kind": "buy",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.01742,
+   "jup": 0.017410833475085246,
+   "usd": 2.9455,
+   "stop_set": -0.08,
+   "cost_side": 0.01,
+   "zoo": "i_bigliq_cost2",
+   "smart": 677,
+   "kol": 68
+  },
+  {
+   "t": "2026-11-14T17:16:48+07:00",
+   "kind": "buy",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.003912,
+   "jup": 0.003924281676331191,
+   "usd": 2.9396,
+   "stop_set": -0.08,
+   "cost_side": 0.01,
+   "zoo": "i_bigliq_cost2",
+   "smart": 439,
+   "kol": 28
   }
  ],
- "label": "สวนสัตว์: สภาพคล่อง 200k+ ค่าธรรมเนียมสมจริง 1% ต่อขา"
+ "label": "สวนสัตว์: สภาพคล่อง 200k+ ค่าธรรมเนียมสมจริง 1% ต่อขา",
+ "rank_t": 1794651342.3889163
 }
