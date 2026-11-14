@@ -1,15 +1,44 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 14.710208884966166,
- "pos": {},
+ "cash": 13.23918799646955,
+ "pos": {
+  "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
+   "sym": "STANK",
+   "qty": 914.2757629848926,
+   "entry": 0.001561,
+   "last": 0.001575,
+   "peak": 0.001575,
+   "cost": 1.4710208884966167,
+   "opened": "2026-11-15T00:49:20+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 77,
+   "kol": 1,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-15T00:43:00+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-15T00:49:20+07:00",
+   "kind": "buy",
+   "mint": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
+   "sym": "STANK",
+   "price": 0.001561,
+   "jup": 0.0015490019062468477,
+   "usd": 1.471,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 77,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794678153.9759278
+ "rank_t": 1794678441.3573995
 }

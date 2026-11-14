@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.7374784789213837,
- "pos": {
-  "5bzT7x5nYZx3grnRaL6cDRQuSKxEWDVwh2WUxd91pump": {
-   "sym": "Angel",
-   "qty": 2841.708732720038,
-   "entry": 0.0001483,
-   "last": 0.0001483,
-   "peak": 0.0001483,
-   "cost": 0.43436961973034593,
-   "opened": "2026-11-15T00:42:44+07:00",
-   "smart": 71,
-   "kol": 1,
-   "bundler": 0.242,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 2.080176787413267,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T01:37:56+07:00",
@@ -19599,6 +19584,65 @@
    "cost_side": 0.03,
    "smart": 71,
    "kol": 1,
+   "bundler": 0.242
+  },
+  {
+   "t": "2026-11-15T00:47:26+07:00",
+   "kind": "debate",
+   "mint": "6i3oFRo48Xbnu7B9YH5DgypHRvsr47GagoJhSvs4pump",
+   "sym": "Other",
+   "ok": true,
+   "bundler": 0.0958,
+   "buy": 0.7382,
+   "bull": 0.8652,
+   "bear": 0.0001
+  },
+  {
+   "t": "2026-11-15T00:47:28+07:00",
+   "kind": "debate",
+   "mint": "7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn",
+   "sym": "Snoopy",
+   "ok": false,
+   "bundler": 0.2444,
+   "buy": 0.7624,
+   "bull": 0.874,
+   "bear": 0.9999
+  },
+  {
+   "t": "2026-11-15T00:47:30+07:00",
+   "kind": "debate",
+   "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+   "sym": "ZCAT",
+   "ok": false,
+   "bundler": 0.4614,
+   "buy": 0.926,
+   "bull": 0.9433,
+   "bear": 0.9999
+  },
+  {
+   "t": "2026-11-15T00:47:31+07:00",
+   "kind": "debate",
+   "mint": "FBwLNTQwVwZK4jQak7aGVYiLe7WPg7JCsJfKSADKpump",
+   "sym": "YoungBull",
+   "ok": false,
+   "bundler": 0.1754,
+   "buy": 0.8789,
+   "bull": 0.9999,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-15T00:47:34+07:00",
+   "kind": "sell",
+   "mint": "5bzT7x5nYZx3grnRaL6cDRQuSKxEWDVwh2WUxd91pump",
+   "sym": "Angel",
+   "price": 0.0001243,
+   "entry": 0.0001483,
+   "usd": 0.3427,
+   "pnl": -0.0917,
+   "why": "stop -16.2%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 71,
    "bundler": 0.242
   }
  ]
