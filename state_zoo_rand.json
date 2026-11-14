@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.8157306829635296,
+ "cash": 0.3533492096905906,
  "pos": {
   "43Lgs3sVLmSb9Gz5JrqmVtZYfu8hTwZeaqT3PT1wpump": {
    "sym": "WILL",
@@ -20,7 +20,7 @@
    "sym": "ber",
    "qty": 734.2327636015063,
    "entry": 0.0005782,
-   "last": 0.0005435,
+   "last": 0.0005512,
    "peak": 0.0005791,
    "cost": 0.4375730611362513,
    "opened": "2026-11-14T15:24:22+07:00",
@@ -33,12 +33,25 @@
    "sym": "SIRIUS",
    "qty": 10327.24015539153,
    "entry": 4.115e-05,
-   "last": 5.551e-05,
-   "peak": 5.551e-05,
+   "last": 5.647e-05,
+   "peak": 5.647e-05,
    "cost": 0.43801889547965517,
    "opened": "2026-11-14T15:38:22+07:00",
    "zoo": "rand",
    "smart": 18,
+   "kol": 2,
+   "miss": 0
+  },
+  "Aq38XaBAkzAtwbpvFKEzKg9hp1eZrEFV5W9H6XJjFUND": {
+   "sym": "FUND",
+   "qty": 5373.128582697394,
+   "entry": 8.349e-05,
+   "last": 8.361e-05,
+   "peak": 8.361e-05,
+   "cost": 0.462381473272939,
+   "opened": "2026-11-14T16:20:21+07:00",
+   "zoo": "rand",
+   "smart": 40,
    "kol": 2,
    "miss": 0
   }
@@ -1092,8 +1105,16 @@
    "why": "ครบ 3 ชม. (+1.6%)",
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T16:20:21+07:00",
+   "kind": "buy",
+   "mint": "Aq38XaBAkzAtwbpvFKEzKg9hp1eZrEFV5W9H6XJjFUND",
+   "sym": "FUND",
+   "price": 8.349e-05,
+   "usd": 0.4624
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794647700.573072
+ "rank_t": 1794648018.278256
 }
