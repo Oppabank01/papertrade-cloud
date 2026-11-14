@@ -1,21 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.7986110943155382,
- "pos": {
-  "7fP3ga6BX9tY3Q6CBTxe4DBgR8GCs5iqQL6KYja5pump": {
-   "sym": "Bagwork",
-   "qty": 15216.362780824338,
-   "entry": 2.867e-05,
-   "last": 2.867e-05,
-   "peak": 2.867e-05,
-   "cost": 0.44965277357888456,
-   "opened": "2026-11-14T11:20:09+07:00",
-   "smart": 17,
-   "kol": 1,
-   "miss": 0
-  }
- },
+ "cash": 1.7606276360800968,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -1449,8 +1436,40 @@
    "sym": "Bagwork",
    "price": 2.867e-05,
    "usd": 0.4497
+  },
+  {
+   "t": "2026-11-14T11:24:53+07:00",
+   "kind": "buy",
+   "mint": "mHW5NCh2Kh5GAgnxXX6LFgQo5eDuGRXi5wWdKWHpump",
+   "sym": "setulushati",
+   "price": 3.631e-05,
+   "usd": 0.447
+  },
+  {
+   "t": "2026-11-14T11:24:54+07:00",
+   "kind": "sell",
+   "mint": "7fP3ga6BX9tY3Q6CBTxe4DBgR8GCs5iqQL6KYja5pump",
+   "sym": "Bagwork",
+   "price": 3.655e-06,
+   "usd": 0.054,
+   "pnl": -0.3957,
+   "why": "stop -87.3%",
+   "smart": 17,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T11:24:54+07:00",
+   "kind": "sell",
+   "mint": "mHW5NCh2Kh5GAgnxXX6LFgQo5eDuGRXi5wWdKWHpump",
+   "sym": "setulushati",
+   "price": 3.064e-05,
+   "usd": 0.355,
+   "pnl": -0.0919,
+   "why": "stop -15.6%",
+   "smart": 26,
+   "bundler": null
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794630000.6152964
+ "rank_t": 1794630273.9612606
 }
