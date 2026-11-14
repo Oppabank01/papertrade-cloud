@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.365388848573578,
+ "cash": 1.588786436796477,
  "pos": {
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 41.03407551603159,
    "entry": 0.01864,
-   "last": 0.0166,
+   "last": 0.01654,
    "peak": 0.01889,
    "cost": 0.7883685504213863,
    "opened": "2026-11-14T08:34:15+07:00",
@@ -21,7 +21,7 @@
    "sym": "STONK",
    "qty": 21.229887227050792,
    "entry": 0.04397,
-   "last": 0.0394,
+   "last": 0.03975,
    "peak": 0.04567,
    "cost": 0.9621502178658249,
    "opened": "2026-11-14T11:56:43+07:00",
@@ -30,6 +30,20 @@
    "kol": 174,
    "miss": 0,
    "gap": 0
+  },
+  "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
+   "sym": "SAPLING",
+   "qty": 463.667483019165,
+   "entry": 0.001625,
+   "last": 0.001625,
+   "peak": 0.001625,
+   "cost": 0.7766024117771008,
+   "opened": "2026-11-15T00:38:47+07:00",
+   "zoo": "randrun",
+   "smart": 185,
+   "kol": 19,
+   "gap": 0,
+   "miss": 0
   }
  },
  "log": [
@@ -586,8 +600,22 @@
    "cost_side": 0.03,
    "smart": 68,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T00:38:47+07:00",
+   "kind": "buy",
+   "mint": "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W",
+   "sym": "SAPLING",
+   "price": 0.001625,
+   "jup": 0.0016173225443999449,
+   "usd": 0.7766,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "randrun",
+   "smart": 185,
+   "kol": 19
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1794677575.6976676
+ "rank_t": 1794677876.1158333
 }

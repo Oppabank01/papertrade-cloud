@@ -1,21 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.775413711583923,
- "cash": 3.73508000500911,
- "pos": {
-  "6ZnZUo7Nj5dJwyEXDpMXM32QHkCwHEsQX3rkRbyjpump": {
-   "sym": "Charlie",
-   "qty": 49545.72902460814,
-   "entry": 4.876e-05,
-   "last": 4.876e-05,
-   "peak": 4.876e-05,
-   "cost": 2.4900533366727404,
-   "opened": "2026-11-15T00:33:20+07:00",
-   "source": "agents",
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 5.7765817447562995,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T01:40:57+07:00",
@@ -774,6 +761,21 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-15T00:38:17+07:00",
+   "kind": "sell",
+   "mint": "6ZnZUo7Nj5dJwyEXDpMXM32QHkCwHEsQX3rkRbyjpump",
+   "sym": "Charlie",
+   "price": 4.247e-05,
+   "entry": 4.876e-05,
+   "usd": 2.0415,
+   "pnl": -0.4486,
+   "why": "stop -12.9%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "สายโม้ (ไม้ใหญ่ ปล่อยกำไรวิ่ง)",
