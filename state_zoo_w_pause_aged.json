@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 4.513678442603592,
+ "cash": 2.1080904631721844,
  "pos": {
   "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
    "sym": "neet",
    "qty": 90.73388794173313,
    "entry": 0.02967,
-   "last": 0.02832,
+   "last": 0.0285,
    "peak": 0.02969,
    "cost": 2.774762373975698,
    "opened": "2026-11-15T03:54:03+07:00",
@@ -21,28 +21,42 @@
    "sym": "GTA6",
    "qty": 399.1691067240519,
    "entry": 0.006704,
-   "last": 0.0064898477588585055,
+   "last": 0.00665,
    "peak": 0.006704,
    "cost": 2.758224790226803,
    "opened": "2026-11-15T03:54:03+07:00",
    "zoo": "w_pause_aged",
    "smart": 287,
    "kol": 23,
-   "gap": 3,
+   "gap": 0,
    "miss": 0
   },
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
    "sym": "ZCAT",
    "qty": 202.6062561320265,
    "entry": 0.01216,
-   "last": 0.01124864380821323,
+   "last": 0.011595315490708814,
    "peak": 0.01216,
    "cost": 2.539365156220823,
    "opened": "2026-11-15T04:03:59+07:00",
    "zoo": "w_pause_aged",
    "smart": 329,
    "kol": 48,
-   "gap": 6,
+   "gap": 15,
+   "miss": 0
+  },
+  "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
+   "sym": "TROLL",
+   "qty": 113.24121580030817,
+   "entry": 0.02061,
+   "last": 0.0208,
+   "peak": 0.0208,
+   "cost": 2.4055879794314072,
+   "opened": "2026-11-15T04:32:14+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 465,
+   "kol": 213,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -301,8 +315,24 @@
    "cost_side": 0.03,
    "smart": 99,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T04:32:14+07:00",
+   "kind": "buy",
+   "mint": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
+   "sym": "TROLL",
+   "price": 0.02061,
+   "jup": 0.02081413992512555,
+   "usd": 2.4056,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 465,
+   "kol": 213
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794691515.0975137
+ "rank_t": 1794691814.4995542,
+ "halted": "ราคา ZCAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+ "halted_until": "2026-11-15T05:33:59+07:00"
 }

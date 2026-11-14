@@ -21,7 +21,7 @@
    "sym": "GATO",
    "qty": 188.24719135074025,
    "entry": 0.007243,
-   "last": 0.007265,
+   "last": 0.007296,
    "peak": 0.007407,
    "cost": 1.40535395480665,
    "opened": "2026-11-15T03:25:13+07:00",
@@ -35,7 +35,7 @@
    "sym": "ber",
    "qty": 1900.2088478198161,
    "entry": 0.0007026,
-   "last": 0.0006457,
+   "last": 0.0006067,
    "peak": 0.0007034,
    "cost": 1.3760943480500956,
    "opened": "2026-11-15T03:43:35+07:00",
@@ -49,14 +49,14 @@
    "sym": "VICECITY",
    "qty": 7445.514061060102,
    "entry": 0.0001777,
-   "last": 0.00015463545318117024,
+   "last": 0.0001663,
    "peak": 0.0001937027039293195,
    "cost": 1.3637062962795097,
    "opened": "2026-11-15T03:53:35+07:00",
    "zoo": "w_ban_scalp",
    "smart": 13,
    "kol": 1,
-   "gap": 8,
+   "gap": 0,
    "miss": 0
   },
   "5wSQpQfbdSKs7amvyxa2XTzWXNyionERZWdDWykYm1At": {
@@ -70,7 +70,7 @@
    "zoo": "w_ban_scalp",
    "smart": 44,
    "kol": 3,
-   "gap": 8,
+   "gap": 17,
    "miss": 0
   }
  },
@@ -627,12 +627,20 @@
    "cost_side": 0.03,
    "smart": 24,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T04:33:19+07:00",
+   "kind": "ban",
+   "mint": "5wSQpQfbdSKs7amvyxa2XTzWXNyionERZWdDWykYm1At",
+   "sym": "SOUVENIR",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794691515.0975137,
+ "rank_t": 1794691814.4995542,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
-  "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK"
+  "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
+  "5wSQpQfbdSKs7amvyxa2XTzWXNyionERZWdDWykYm1At": "SOUVENIR"
  }
 }
