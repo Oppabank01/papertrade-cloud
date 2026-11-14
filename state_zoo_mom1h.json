@@ -1,35 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.13622687344012374,
- "pos": {
-  "7S5t7eZqrfef2dGjTLBGDDYE57Secf1rJS7fM3Vzpump": {
-   "sym": "COINSIDE",
-   "qty": 963.5934201940723,
-   "entry": 5.093e-05,
-   "last": 5.093e-05,
-   "peak": 5.093e-05,
-   "cost": 0.05058319201245527,
-   "opened": "2026-11-14T08:30:03+07:00",
-   "zoo": "mom1h",
-   "smart": 22,
-   "kol": 1,
-   "miss": 0
-  },
-  "HGZ2C2Vc47zqmDpiPJu5sbRJRH87P9pUoDQzhPMTpump": {
-   "sym": "Poolrip",
-   "qty": 4704.273967758612,
-   "entry": 1.037e-05,
-   "last": 1.02e-05,
-   "peak": 1.037e-05,
-   "cost": 0.050281716188061036,
-   "opened": "2026-11-14T08:30:03+07:00",
-   "zoo": "mom1h",
-   "smart": 6,
-   "kol": 1,
-   "miss": 0
-  }
- },
+ "cash": 0.2172875821760824,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T00:41:59+07:00",
@@ -1111,8 +1084,32 @@
    "why": "trailing จากยอด +26% (+1.4%)",
    "smart": 57,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T08:34:14+07:00",
+   "kind": "sell",
+   "mint": "7S5t7eZqrfef2dGjTLBGDDYE57Secf1rJS7fM3Vzpump",
+   "sym": "COINSIDE",
+   "price": 4.625e-05,
+   "usd": 0.0432,
+   "pnl": -0.0073,
+   "why": "stop -9.2%",
+   "smart": 22,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T08:34:14+07:00",
+   "kind": "sell",
+   "mint": "HGZ2C2Vc47zqmDpiPJu5sbRJRH87P9pUoDQzhPMTpump",
+   "sym": "Poolrip",
+   "price": 8.287e-06,
+   "usd": 0.0378,
+   "pnl": -0.0125,
+   "why": "stop -20.1%",
+   "smart": 6,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: พุ่งแรง 1 ชม. เกิน +100%",
- "rank_t": 1794619784.476878
+ "rank_t": 1794620037.6719983
 }
