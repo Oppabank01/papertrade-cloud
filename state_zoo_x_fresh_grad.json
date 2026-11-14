@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 13.149814247726619,
+ "cash": 12.889199920394198,
  "pos": {
-  "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": {
-   "sym": "WOJAK",
-   "qty": 2177124.5363727584,
-   "entry": 1.465e-06,
-   "last": 1.413e-06,
-   "peak": 1.468e-06,
-   "cost": 3.2874535619316547,
-   "opened": "2026-11-15T02:28:51+07:00",
+  "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": {
+   "sym": "bill",
+   "qty": 16882.095119931593,
+   "entry": 0.0001865,
+   "last": 0.0001663,
+   "peak": 0.0001865,
+   "cost": 3.2452182435242656,
+   "opened": "2026-11-15T04:27:19+07:00",
    "zoo": "x_fresh_grad",
-   "smart": 5,
-   "kol": 0,
-   "gap": 0,
+   "smart": 70,
+   "kol": 3,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -95,8 +95,37 @@
    "zoo": "x_fresh_grad",
    "smart": 5,
    "kol": 0
+  },
+  {
+   "t": "2026-11-15T04:27:19+07:00",
+   "kind": "buy",
+   "mint": "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
+   "sym": "bill",
+   "price": 0.0001865,
+   "jup": 0.00018610224854759077,
+   "usd": 3.2452,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_fresh_grad",
+   "smart": 70,
+   "kol": 3
+  },
+  {
+   "t": "2026-11-15T04:29:03+07:00",
+   "kind": "sell",
+   "mint": "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump",
+   "sym": "WOJAK",
+   "price": 1.413e-06,
+   "entry": 1.465e-06,
+   "usd": 2.9846,
+   "pnl": -0.3028,
+   "why": "ครบ 2 ชม. (-3.5%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 5,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เพิ่งจบ bonding curve ไม่เกิน 6 ชม. TP +35% SL -15%",
- "rank_t": 1794691238.5683975
+ "rank_t": 1794691515.0975137
 }
