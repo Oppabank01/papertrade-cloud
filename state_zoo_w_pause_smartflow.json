@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 4.758573010475823,
+ "cash": 2.1094337121317155,
  "pos": {
   "6sZUjgnHTdezsZoMdbTcxsi58bXqnsz6mkj49Wgxpump": {
    "sym": "SHIT",
    "qty": 35552.46730790664,
    "entry": 8.015e-05,
-   "last": 9.51233126435034e-05,
-   "peak": 0.0001028,
+   "last": 0.0001117,
+   "peak": 0.0001117,
    "cost": 2.9370544781784345,
    "opened": "2026-11-15T00:58:44+07:00",
    "zoo": "w_pause_smartflow",
    "smart": 66,
    "kol": 4,
-   "gap": 6,
+   "gap": 0,
    "miss": 0
   },
   "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
    "sym": "FOOD",
    "qty": 7648.119682882018,
    "entry": 0.0003442,
-   "last": 0.0003381,
+   "last": 0.0003359,
    "peak": 0.0003747,
    "cost": 2.71334033688723,
    "opened": "2026-11-15T01:03:30+07:00",
@@ -35,14 +35,28 @@
    "sym": "JENSEN",
    "qty": 2971.0435910558217,
    "entry": 0.0008783,
-   "last": 0.0008710804830795588,
+   "last": 0.000738,
    "peak": 0.000959,
    "cost": 2.6896182086418556,
    "opened": "2026-11-15T01:17:14+07:00",
    "zoo": "w_pause_smartflow",
    "smart": 4,
    "kol": 0,
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "DGNHqQS2buSPcNzZDhDkzUfpMe6syWzb8hrjv9yJqUQc": {
+   "sym": "DEGO",
+   "qty": 3839.5502647945223,
+   "entry": 0.0006694,
+   "last": 0.0007402,
+   "peak": 0.0007402,
+   "cost": 2.6491392983441076,
+   "opened": "2026-11-15T01:36:18+07:00",
+   "zoo": "w_pause_smartflow",
+   "smart": 10,
+   "kol": 1,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -151,8 +165,22 @@
    "zoo": "w_pause_smartflow",
    "smart": 4,
    "kol": 0
+  },
+  {
+   "t": "2026-11-15T01:36:18+07:00",
+   "kind": "buy",
+   "mint": "DGNHqQS2buSPcNzZDhDkzUfpMe6syWzb8hrjv9yJqUQc",
+   "sym": "DEGO",
+   "price": 0.0006694,
+   "jup": 0.0006738365490430214,
+   "usd": 2.6491,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "w_pause_smartflow",
+   "smart": 10,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794681009.7721317
+ "rank_t": 1794681287.4683657
 }
