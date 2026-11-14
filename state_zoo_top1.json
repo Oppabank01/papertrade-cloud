@@ -1,19 +1,32 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.6518225152588204,
+ "cash": 1.234281051915083,
  "pos": {
   "EnXT7SXxXb9MYt3RJzDTXA9FxCaEzf9erDQbmcTQpump": {
    "sym": "MANE",
    "qty": 5266.853570080544,
    "entry": 7.607e-05,
-   "last": 8.276e-05,
+   "last": 7.997e-05,
    "peak": 8.276e-05,
    "cost": 0.41295562881470516,
    "opened": "2026-11-14T07:07:43+07:00",
    "zoo": "top1",
    "smart": 31,
    "kol": 0,
+   "miss": 0
+  },
+  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
+   "sym": "ANSEM",
+   "qty": 8.114958488303163,
+   "entry": 0.04992,
+   "last": 0.0499,
+   "peak": 0.04992,
+   "cost": 0.4175414633437373,
+   "opened": "2026-11-14T07:16:08+07:00",
+   "zoo": "top1",
+   "smart": 1000,
+   "kol": 186,
    "miss": 0
   }
  },
@@ -510,8 +523,16 @@
    "sym": "MANE",
    "price": 7.607e-05,
    "usd": 0.413
+  },
+  {
+   "t": "2026-11-14T07:16:08+07:00",
+   "kind": "buy",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.04992,
+   "usd": 0.4175
   }
  ],
  "label": "สวนสัตว์: วอลุ่มอันดับ 1",
- "rank_t": 1794615098.7435288
+ "rank_t": 1794615363.0039785
 }
