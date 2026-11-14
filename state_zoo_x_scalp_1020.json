@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 10.322431693078055,
+ "cash": 7.407527729365387,
  "pos": {
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
@@ -38,6 +38,30 @@
    "zoo": "x_scalp_1020",
    "smart": 60,
    "kol": 6
+  },
+  "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
+   "sym": "WASTED",
+   "qty": 363.76315089061825,
+   "entry": 0.003893,
+   "last": 0.003893,
+   "peak": 0.003893,
+   "cost": 1.459626825826816,
+   "opened": "2026-11-14T16:01:24+07:00",
+   "zoo": "x_scalp_1020",
+   "smart": 60,
+   "kol": 1
+  },
+  "2afcRhtGYgp1e3xPBMu2UbnELL8AUMZzguLQsPo8pump": {
+   "sym": "VICECITY",
+   "qty": 6380.071754075253,
+   "entry": 0.0002213,
+   "last": 0.0002213,
+   "peak": 0.0002213,
+   "cost": 1.455277137885852,
+   "opened": "2026-11-14T16:01:24+07:00",
+   "zoo": "x_scalp_1020",
+   "smart": 6,
+   "kol": 1
   }
  },
  "log": [
@@ -69,8 +93,24 @@
    "sym": "BAWSAQ",
    "price": 0.0001255,
    "usd": 1.464
+  },
+  {
+   "t": "2026-11-14T16:01:24+07:00",
+   "kind": "buy",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "price": 0.003893,
+   "usd": 1.4596
+  },
+  {
+   "t": "2026-11-14T16:01:24+07:00",
+   "kind": "buy",
+   "mint": "2afcRhtGYgp1e3xPBMu2UbnELL8AUMZzguLQsPo8pump",
+   "sym": "VICECITY",
+   "price": 0.0002213,
+   "usd": 1.4553
   }
  ],
  "label": "สวนสัตว์: สกัลป์ pump.fun ตัดกำไร/ขาดทุน 15% เดือนเต็ม",
- "rank_t": 1794646576.7164118
+ "rank_t": 1794646844.399994
 }

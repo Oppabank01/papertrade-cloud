@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.9162293288032229,
+ "cash": 0.6150298065956651,
  "pos": {
   "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS": {
    "sym": "BAGSPAY",
    "qty": 296.9417701558718,
    "entry": 0.0005122,
-   "last": 0.0005223,
+   "last": 0.0005259,
    "peak": 0.0005476,
    "cost": 0.15676517694685377,
    "opened": "2026-11-14T14:33:18+07:00",
@@ -20,7 +20,7 @@
    "sym": "PUMPCADE",
    "qty": 7.202017063998824,
    "entry": 0.01578,
-   "last": 0.01583,
+   "last": 0.0158,
    "peak": 0.01586,
    "cost": 0.11713855830746385,
    "opened": "2026-11-14T15:15:11+07:00",
@@ -33,13 +33,26 @@
    "sym": "george",
    "qty": 13152.898505293388,
    "entry": 2.324e-05,
-   "last": 2.438e-05,
+   "last": 2.423e-05,
    "peak": 2.438e-05,
    "cost": 0.3150622152783121,
    "opened": "2026-11-14T15:56:40+07:00",
    "zoo": "cto",
    "smart": 187,
    "kol": 8,
+   "miss": 0
+  },
+  "62MnzU6NVvGrVRLHyqKrwrSnCJsZGHm9bE8aHaB82ray": {
+   "sym": "DEFAULT",
+   "qty": 6273.589017728052,
+   "entry": 4.658e-05,
+   "last": 4.658e-05,
+   "peak": 4.658e-05,
+   "cost": 0.30119952220755786,
+   "opened": "2026-11-14T16:01:21+07:00",
+   "zoo": "cto",
+   "smart": 23,
+   "kol": 0,
    "miss": 0
   }
  },
@@ -1272,8 +1285,16 @@
    "why": "stop -24.6%",
    "smart": 3,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T16:01:21+07:00",
+   "kind": "buy",
+   "mint": "62MnzU6NVvGrVRLHyqKrwrSnCJsZGHm9bE8aHaB82ray",
+   "sym": "DEFAULT",
+   "price": 4.658e-05,
+   "usd": 0.3012
   }
  ],
  "label": "สวนสัตว์: community takeover",
- "rank_t": 1794646576.7164118
+ "rank_t": 1794646844.399994
 }
