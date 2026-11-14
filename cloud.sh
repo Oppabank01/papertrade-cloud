@@ -22,6 +22,7 @@ for r in insider grad smart4; do $PY recipes.py $r scan; $PY recipes.py $r run; 
 $PY wallets.py poll; $PY wallets.py run
 $PY zoo.py init 500 >/dev/null; $PY zoo.py tick       # init only creates new accounts (X recipes added by the routine); strategy zoo: ~20 one-rule accounts on the same ranking
 $PY nightly.py tick    # nightly sessions: fresh 500 THB at 21:00, settle at 09:00
+$PY funding.py run || echo "funding run failed (Hyperliquid API)"   # funding carry: steps once a day, no network otherwise
 left=$((T0 + 230 - $(date +%s))); [ "$left" -gt 0 ] && sleep "$left"   # watcher keeps checking here instead of the chain step idling
 $PY zoo.py stopwatch; wait $WATCH
 TODAY=$(TZ=Asia/Bangkok date +%F); H=$((10#$(TZ=Asia/Bangkok date +%H)))

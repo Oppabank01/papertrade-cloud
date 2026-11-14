@@ -10,6 +10,7 @@ Then read docs/pstack/hillclimb.md, attack-the-premise.md, explain-the-number.md
 - On a stall (no account improving for 3 days of runs), pivot category: entry signal, exit rule, pool type or holding time, rather than another small tweak of the same family.
 
 ## 1. Read the evidence
+- Main track first: `python3 majors.py report` and `python3 funding.py report` (read-only reports; never change these accounts). Compare each with its own control (hold6, fundon).
 - `python3 zoo.py report` (all accounts, sorted). `rand` and `randrun` are random-pick controls: a rule only counts if it beats them.
 - For every zoo account with sells, read state_zoo_<name>.json and compute: number of sells, win rate, average % per trade, sum of pnl, and the exit-reason mix (first word of each sell's "why": stop / trailing / ครบ / tp / rug-like -50% or worse). Check per-account FEE/SLIP.
 - Read data/iterate_log.md to see what earlier runs (this workflow and the claude.ai routine) tried and why, and x_recipes.json.
