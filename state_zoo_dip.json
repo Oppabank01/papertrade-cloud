@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.4019029334244895,
+ "cash": 0.18892230982246044,
  "pos": {
   "6vtfL1Zi8YQqQrsxwLqguFNFCvwmER5SnYSBYDTRpump": {
    "sym": "loco",
    "qty": 19995.207860828883,
    "entry": 1.084e-05,
-   "last": 1.748e-05,
-   "peak": 1.748e-05,
+   "last": 1.864e-05,
+   "peak": 1.864e-05,
    "cost": 0.22340553825127302,
    "opened": "2026-11-14T08:34:14+07:00",
    "zoo": "dip",
@@ -20,12 +20,25 @@
    "sym": "JENSEN",
    "qty": 652.5477751423126,
    "entry": 0.0003796,
-   "last": 0.0004804,
-   "peak": 0.0004804,
+   "last": 0.000684,
+   "peak": 0.000684,
    "cost": 0.25531553849105537,
    "opened": "2026-11-14T08:51:50+07:00",
    "zoo": "dip",
    "smart": 4,
+   "kol": 0,
+   "miss": 0
+  },
+  "4PxYxGrMpfzFkb9ubTNoXC5dXnT4F8AJPRgrw5eNpump": {
+   "sym": "RARECOIN",
+   "qty": 7066.819460283467,
+   "entry": 2.924e-05,
+   "last": 2.849e-05,
+   "peak": 2.924e-05,
+   "cost": 0.21298062360202907,
+   "opened": "2026-11-14T08:55:56+07:00",
+   "zoo": "dip",
+   "smart": 19,
    "kol": 0,
    "miss": 0
   }
@@ -1811,8 +1824,16 @@
    "why": "stop -82.2%",
    "smart": 12,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T08:55:56+07:00",
+   "kind": "buy",
+   "mint": "4PxYxGrMpfzFkb9ubTNoXC5dXnT4F8AJPRgrw5eNpump",
+   "sym": "RARECOIN",
+   "price": 2.924e-05,
+   "usd": 0.213
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794621094.308726
+ "rank_t": 1794621342.6125758
 }

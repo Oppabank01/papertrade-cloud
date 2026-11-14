@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.625135707662708,
+ "cash": 0.2970333300255374,
  "pos": {
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
    "sym": "paws",
    "qty": 360.382191477883,
    "entry": 0.001031,
-   "last": 0.0009913,
+   "last": 0.000984,
    "peak": 0.001036,
    "cost": 0.382966439304986,
    "opened": "2026-11-14T07:50:46+07:00",
@@ -19,8 +19,8 @@
    "sym": "VICECITY",
    "qty": 4795.36495984576,
    "entry": 7e-05,
-   "last": 6.766e-05,
-   "peak": 7e-05,
+   "last": 7.519e-05,
+   "peak": 7.519e-05,
    "cost": 0.34598592783879933,
    "opened": "2026-11-14T08:47:34+07:00",
    "smart": 28,
@@ -37,6 +37,18 @@
    "opened": "2026-11-14T08:47:34+07:00",
    "smart": 385,
    "kol": 63,
+   "miss": 0
+  },
+  "4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": {
+   "sym": "greg",
+   "qty": 2172.866394427187,
+   "entry": 0.0001465,
+   "last": 0.0001465,
+   "peak": 0.0001465,
+   "cost": 0.3281023776371706,
+   "opened": "2026-11-14T08:55:52+07:00",
+   "smart": 63,
+   "kol": 6,
    "miss": 0
   }
  },
@@ -1649,8 +1661,16 @@
    "why": "trailing จากยอด +18% (-3.5%)",
    "smart": 30,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T08:55:52+07:00",
+   "kind": "buy",
+   "mint": "4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump",
+   "sym": "greg",
+   "price": 0.0001465,
+   "usd": 0.3281
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794621094.308726
+ "rank_t": 1794621342.6125758
 }
