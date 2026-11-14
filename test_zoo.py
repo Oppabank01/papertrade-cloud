@@ -39,3 +39,19 @@ agents.cmd_run(); agents.cmd_run()
 s = agents.load(); q = s["pos"]["X"]
 assert q["half"] and abs(q["qty"] - 5) < 1e-9 and abs(q["cost"] - 5) < 1e-9 and sum(x["kind"] == "sell" for x in s["log"]) == 1
 print("half ok")
+# fast accounts: RugCheck filter, MISS_N per account, background watcher sells between ticks
+import importlib; importlib.reload(zoo); zoo.HERE = d; zoo.LOCKS = d / "locks"; zoo.STOP_FILE = zoo.LOCKS / "watch.stop"
+grok.get = lambda url: {"risks": [{"level": "danger", "name": "LP unlocked"}]} if "rugcheck" in url and "R" in url else {"risks": []}
+big1 = {**base, "address": "G", "liquidity": 300_000, "market_cap": 3e6}
+big2 = {**big1, "address": "R"}
+assert {t["address"] for t in zoo.picks("bigliqRC", [big1, big2])} == {"G"} and {t["address"] for t in zoo.picks("bigliqF", [big1, big2])} == {"G", "R"}
+zoo.use("bigliqF"); assert agents.MISS_N == 15
+zoo.use("safe"); assert agents.MISS_N == 2
+zoo.use("bigliqF"); agents.cmd_init(500); s = agents.load()
+s.update(pos={"G": dict(sym="G", qty=1, entry=1, last=1, peak=1, cost=1, opened=grok.now().isoformat())}); agents.save(s)
+grok.get = lambda url: [{"chainId": "solana", "baseToken": {"address": "G"}, "priceUsd": "0.9", "liquidity": {"usd": 1}}]
+zoo.cmd_watch(0.3, every=0.1)
+zoo.use("bigliqF"); s = agents.load()
+assert not s["pos"] and s["log"][-1]["kind"] == "sell" and s["log"][-1]["why"].startswith("stop"), s["log"][-1]
+zoo.cmd_stopwatch(); zoo.cmd_watch(5, every=0.1)        # a stale stop file is cleared at start (runs the full 5 s)
+print("fast ok")

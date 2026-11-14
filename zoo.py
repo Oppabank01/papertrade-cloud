@@ -7,11 +7,15 @@ Every scan also saves a slim copy of the ranking to data/rank_hist/ so later rul
   python3 zoo.py init 500      # creates any missing zoo account (never resets a running one)
   python3 zoo.py tick          # scan the newest ranking + exits, every account
   python3 zoo.py report        # one line per account, sorted by result
+  python3 zoo.py watch 600     # exit checks every 20 s for the FAST accounts until `stopwatch` (cloud.sh runs it in the background)
+  python3 zoo.py stopwatch
 """
+import fcntl
 import gzip
 import json
 import random
 import sys
+import tempfile
 import time
 from pathlib import Path
 
@@ -33,7 +37,9 @@ safe = lambda t: (f(t, "top_10_holder_rate") <= 0.20 and f(t, "dev_team_hold_rat
                   and f(t, "rug_ratio") <= 0.1 and not t.get("is_wash_trading") and f(t, "holder_count") >= 500)
 up = recipes.up_with_buyers      # buys > sells and 0 < 5m change <= 100%
 
-STD = dict(STOP=-0.08, TP_ALL=None, HALF_AT=None, TRAIL_ON=0.15, TRAIL=0.15, MAX_HOLD_H=3, PER_TRADE=0.20, MAX_POS=4, COOLDOWN_H=24)
+STD = dict(STOP=-0.08, TP_ALL=None, HALF_AT=None, TRAIL_ON=0.15, TRAIL=0.15, MAX_HOLD_H=3, PER_TRADE=0.20, MAX_POS=4, COOLDOWN_H=24, MISS_N=2)
+LOCKS = Path(tempfile.gettempdir()) / "zoo_locks"     # outside data/ so git never picks them up
+STOP_FILE = LOCKS / "watch.stop"
 
 
 def score(t):
@@ -42,6 +48,22 @@ def score(t):
     return (20 * safe(t) + 2 * min(f(t, "smart_degen_count"), 10) + 4 * min(f(t, "renowned_count"), 5)
             + (15 if b > 1.5 * sl else 8 if b > sl else 0) + 15 * (5 <= f(t, "price_change_percent5m") <= 60)
             + 10 * (f(t, "holder_count") >= 1000))
+
+
+big = lambda t: f(t, "liquidity") >= 200_000 and f(t, "market_cap") >= 2e6 and up(t)
+aged = lambda t: age_h(t) >= 24 and f(t, "liquidity") >= 50_000 and up(t)
+_rc = {}
+
+
+def rc_clean(t):
+    """No RugCheck 'danger' flag (unlocked LP, insiders, top holders...). A failed lookup counts as not clean."""
+    a = t.get("address")
+    if a not in _rc:
+        try:
+            _rc[a] = not any(x.get("level") == "danger" for x in agents.grok.get(agents.grok.RUG.format(a)).get("risks") or [])
+        except Exception:
+            _rc[a] = False
+    return _rc[a]
 
 
 vl = lambda t: f(t, "volume") / max(f(t, "liquidity"), 1)     # gmgn-vl-radar ranks by volume / liquidity
@@ -53,8 +75,8 @@ ZOO = {   # name: (label, entry rule, exit/sizing overrides). "pick" = one token
     "mom1h":    ("พุ่งแรง 1 ชม. เกิน +100%", lambda t: f(t, "price_change_percent1h") >= 100 and up(t), {}),
     "dip":      ("ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.", lambda t: f(t, "price_change_percent5m") <= -15 and f(t, "price_change_percent1h") > 20, {}),
     "fresh":    ("เหรียญเกิดใหม่ไม่เกิน 10 นาที", lambda t: recipes.age_min(t) <= 10, {}),
-    "aged":     ("เหรียญอายุเกิน 1 วัน ยังมีคนเล่น", lambda t: age_h(t) >= 24 and f(t, "liquidity") >= 50_000 and up(t), {}),
-    "bigliq":   ("สภาพคล่อง 200k+ มาร์เก็ตแคป 2M+", lambda t: f(t, "liquidity") >= 200_000 and f(t, "market_cap") >= 2e6 and up(t), {}),
+    "aged":     ("เหรียญอายุเกิน 1 วัน ยังมีคนเล่น", aged, {}),
+    "bigliq":   ("สภาพคล่อง 200k+ มาร์เก็ตแคป 2M+", big, {}),
     "holders":  ("คนถือ 3,000 ขึ้นไป", lambda t: f(t, "holder_count") >= 3000 and up(t), {}),
     "safe":     ("ผ่านเช็กความปลอดภัยเข้ม", lambda t: safe(t) and up(t), {}),
     "kol2":     ("KOL เข้า 2 คนขึ้นไป", lambda t: f(t, "renowned_count") >= 2 and up(t), {}),
@@ -79,7 +101,12 @@ ZOO = {   # name: (label, entry rule, exit/sizing overrides). "pick" = one token
     "tomcruise": ("tomcruise 6 เอเจนต์: scanner rug check sizer ตามสภาพคล่อง",   # $60 -> $9,684, post gives no rules
                   lambda t: safe(t) and up(t),
                   dict(size=lambda t: 0.40 if f(t, "liquidity") >= 200_000 else 0.25 if f(t, "liquidity") >= 50_000 else 0.10)),
+    # 14 Nov: the two best rules so far, with exits checked every 20 s instead of every ~5 min (stops slipped to -35% avg)
+    "bigliqF":  ("สภาพคล่อง 200k+ เช็กราคาทุก 20 วิ", big, dict(MISS_N=15)),
+    "agedF":    ("อายุเกิน 1 วัน เช็กราคาทุก 20 วิ", aged, dict(MISS_N=15)),
+    "bigliqRC": ("สภาพคล่อง 200k+ ผ่าน RugCheck เช็กราคาทุก 20 วิ", lambda t: big(t) and rc_clean(t), dict(MISS_N=15)),
 }
+FAST = ("bigliqF", "agedF", "bigliqRC")   # MISS_N=15: ~5 min of missing pool before calling it a rug, same as the 5-min accounts
 ONE_PICK = {"rand", "randrun", "top1"}   # these take a single token per ranking; the rest buy every match (up to MAX_POS)
 
 
@@ -88,6 +115,14 @@ def use(name):
         if k.isupper():
             setattr(agents, k, v)
     agents.STATE = HERE / f"state_zoo_{name}.json"
+
+
+def lock(name):
+    """Per-account file lock: the background watcher and the tick write the same state files."""
+    LOCKS.mkdir(exist_ok=True)
+    fh = open(LOCKS / f"{name}.lock", "w")
+    fcntl.flock(fh, fcntl.LOCK_EX)
+    return fh                             # use as `with lock(name):`, closing releases it
 
 
 def save_hist(d):
@@ -128,18 +163,38 @@ def cmd_tick():
     if d:
         save_hist(d)
     for name in ZOO:
-        use(name)
-        if not agents.STATE.exists():
-            continue
-        s = agents.load()
-        if d and d["t"] > s.get("rank_t", 0):
-            s["rank_t"] = d["t"]
-            for t in picks(name, d["rank"]):
-                if "size" in ZOO[name][2]:
-                    agents.PER_TRADE = ZOO[name][2]["size"](t)
-                agents.paper_buy(s, t["address"], t.get("symbol"), zoo=name, smart=t.get("smart_degen_count"), kol=t.get("renowned_count"))
-            agents.save(s)
-        agents.cmd_run()
+        with lock(name):
+            use(name)
+            if not agents.STATE.exists():
+                continue
+            s = agents.load()
+            if d and d["t"] > s.get("rank_t", 0):
+                s["rank_t"] = d["t"]
+                for t in picks(name, d["rank"]):
+                    if "size" in ZOO[name][2]:
+                        agents.PER_TRADE = ZOO[name][2]["size"](t)
+                    agents.paper_buy(s, t["address"], t.get("symbol"), zoo=name, smart=t.get("smart_degen_count"), kol=t.get("renowned_count"))
+                agents.save(s)
+            agents.cmd_run()
+
+
+def cmd_watch(max_s, every=20):
+    """Exit checks for the FAST accounts every `every` s until the stop file appears or max_s passes."""
+    LOCKS.mkdir(exist_ok=True)
+    STOP_FILE.unlink(missing_ok=True)
+    end = time.time() + float(max_s)
+    while time.time() < end and not STOP_FILE.exists():
+        for name in FAST:
+            with lock(name):
+                use(name)
+                if agents.STATE.exists() and agents.load()["pos"]:
+                    agents.cmd_run()
+        time.sleep(every)
+
+
+def cmd_stopwatch():
+    LOCKS.mkdir(exist_ok=True)
+    STOP_FILE.touch()
 
 
 def cmd_report():
@@ -156,7 +211,8 @@ def cmd_report():
 
 if __name__ == "__main__":
     a = sys.argv[1:]
-    cmds = {"init": lambda: cmd_init(a[1]), "tick": cmd_tick, "report": cmd_report}
+    cmds = {"init": lambda: cmd_init(a[1]), "tick": cmd_tick, "report": cmd_report, "watch": lambda: cmd_watch(a[1]),
+            "stopwatch": cmd_stopwatch}
     if not a or a[0] not in cmds:
         sys.exit(__doc__)
     cmds[a[0]]()

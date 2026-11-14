@@ -22,6 +22,7 @@ STATE = Path(__file__).with_name("state_agents.json")
 FEE, SLIP = 0.01, 0.02                  # per side; small pools slip more than v2's 1%
 PER_TRADE, MAX_POS = 0.20, 4
 STOP, TRAIL_ON, TRAIL, MAX_HOLD_H = -0.08, 0.15, 0.15, 3
+MISS_N = 2                                  # price fetches in a row with no pool before it counts as a rug
 TP_ALL = None                           # recipes.py 'grad' sells everything at a fixed target
 HALF_AT = None                          # zoo 'savip': sell half on the first big candle, trail the rest
 MIN_LIQ, MIN_AGE_MIN = 15_000, 15
@@ -172,7 +173,7 @@ def cmd_run():
         for m, q in list(s["pos"].items()):
             if m not in pools:
                 q["miss"] = q.get("miss", 0) + 1
-                if q["miss"] < 2:
+                if q["miss"] < MISS_N:
                     continue
                 price, why = 0.0, "pool หาย ถือว่า rug"
             else:
