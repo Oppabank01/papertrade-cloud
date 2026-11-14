@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 7.480222728128194,
+ "cash": 4.971641537864883,
  "pos": {
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 361.34644155567133,
    "entry": 0.007278,
-   "last": 0.007208,
+   "last": 0.007329,
    "peak": 0.00779,
    "cost": 2.710656979635308,
    "opened": "2026-11-15T03:24:53+07:00",
@@ -21,14 +21,28 @@
    "sym": "ZCAT",
    "qty": 192.38447782293667,
    "entry": 0.01274,
-   "last": 0.012260260567943016,
+   "last": 0.0127,
    "peak": 0.01274,
    "cost": 2.526260819897148,
    "opened": "2026-11-15T05:56:05+07:00",
    "zoo": "w_f5_bigliqRC",
    "smart": 329,
    "kol": 48,
-   "gap": 21,
+   "gap": 20,
+   "miss": 0
+  },
+  "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
+   "sym": "FLOAT",
+   "qty": 864.5916414896852,
+   "entry": 0.002815,
+   "last": 0.002842,
+   "peak": 0.002842,
+   "cost": 2.5085811902633104,
+   "opened": "2026-11-15T06:00:52+07:00",
+   "zoo": "w_f5_bigliqRC",
+   "smart": 342,
+   "kol": 31,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -268,8 +282,22 @@
    "zoo": "w_f5_bigliqRC",
    "smart": 329,
    "kol": 48
+  },
+  {
+   "t": "2026-11-15T06:00:52+07:00",
+   "kind": "buy",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "price": 0.002815,
+   "jup": 0.0028012455173345094,
+   "usd": 2.5086,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_bigliqRC",
+   "smart": 342,
+   "kol": 31
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ bigliqRC แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794696898.2567368
+ "rank_t": 1794697168.179811
 }

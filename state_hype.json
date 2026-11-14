@@ -1,8 +1,21 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.775413711583923,
- "cash": 5.7765817447562995,
- "pos": {},
+ "cash": 3.4659490468537797,
+ "pos": {
+  "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": {
+   "sym": "AURA",
+   "qty": 10559.47170751307,
+   "entry": 0.0002123,
+   "last": 0.0002123,
+   "peak": 0.0002123,
+   "cost": 2.31063269790252,
+   "opened": "2026-11-15T05:59:38+07:00",
+   "source": "agents",
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T01:40:57+07:00",
@@ -776,6 +789,18 @@
    "cost_side": 0.03,
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T05:59:38+07:00",
+   "kind": "buy",
+   "mint": "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump",
+   "sym": "AURA",
+   "price": 0.0002123,
+   "jup": 0.00021420347088991506,
+   "usd": 2.3106,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "agents"
   }
  ],
  "label": "สายโม้ (ไม้ใหญ่ ปล่อยกำไรวิ่ง)",
@@ -873,6 +898,7 @@
   "state_agents.json:2026-11-15T04:30:20+07:00:27sDLLwdhfd4bAn3Lq8KfEoaie2924vRbQsyjdjjpump",
   "state_agents.json:2026-11-15T04:54:11+07:00:bSU2Zy75MJiF25Y1VcV9ARhJv2hfai9w38vW1q6pump",
   "state_agents.json:2026-11-15T05:45:53+07:00:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump",
+  "state_agents.json:2026-11-15T05:59:34+07:00:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump",
   "state_grokbot.json:2026-11-14T01:57:45+07:00:9oJk7eMccQchx3evoN5C5pKQD5Xodb4C1qkhemjjpump"
  ]
 }

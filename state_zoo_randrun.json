@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.256734271395517,
+ "cash": 1.344507078545226,
  "pos": {
-  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
-   "sym": "STONK",
-   "qty": 21.229887227050792,
-   "entry": 0.04397,
-   "last": 0.0378,
-   "peak": 0.04567,
-   "cost": 0.9621502178658249,
-   "opened": "2026-11-14T11:56:43+07:00",
-   "zoo": "randrun",
-   "smart": 1000,
-   "kol": 174,
-   "miss": 0,
-   "gap": 0
-  },
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 16.39752523356051,
    "entry": 0.04187,
-   "last": 0.04128,
+   "last": 0.04121,
    "peak": 0.04256,
    "cost": 0.7076524237571414,
    "opened": "2026-11-15T04:11:49+07:00",
@@ -35,13 +21,27 @@
    "sym": "Macca",
    "qty": 301.84685442893885,
    "entry": 0.002211,
-   "last": 0.002218,
-   "peak": 0.002218,
+   "last": 0.002278,
+   "peak": 0.002278,
    "cost": 0.6878822873040443,
    "opened": "2026-11-15T05:46:40+07:00",
    "zoo": "randrun",
    "smart": 169,
    "kol": 8,
+   "gap": 0,
+   "miss": 0
+  },
+  "Ftn74epZ9x4MTu4QBnuT1B72E17ueWqcJMdrVMuLpump": {
+   "sym": "sTABLE",
+   "qty": 25475.119430818704,
+   "entry": 2.594e-05,
+   "last": 2.582e-05,
+   "peak": 2.594e-05,
+   "cost": 0.6811220346685603,
+   "opened": "2026-11-15T06:00:14+07:00",
+   "zoo": "randrun",
+   "smart": 18,
+   "kol": 3,
    "gap": 0,
    "miss": 0
   }
@@ -730,8 +730,37 @@
    "zoo": "randrun",
    "smart": 169,
    "kol": 8
+  },
+  {
+   "t": "2026-11-15T06:00:14+07:00",
+   "kind": "buy",
+   "mint": "Ftn74epZ9x4MTu4QBnuT1B72E17ueWqcJMdrVMuLpump",
+   "sym": "sTABLE",
+   "price": 2.594e-05,
+   "jup": 2.598506944023158e-05,
+   "usd": 0.6811,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "randrun",
+   "smart": 18,
+   "kol": 3
+  },
+  {
+   "t": "2026-11-15T06:00:16+07:00",
+   "kind": "sell",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.03733,
+   "entry": 0.04397,
+   "usd": 0.7689,
+   "pnl": -0.1933,
+   "why": "stop -15.1%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 1000,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1794696898.2567368
+ "rank_t": 1794697168.179811
 }

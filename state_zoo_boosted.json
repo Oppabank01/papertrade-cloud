@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 5.157175414440193,
- "pos": {},
+ "cash": 4.125740331552154,
+ "pos": {
+  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
+   "sym": "GTA6",
+   "qty": 158.33834136360366,
+   "entry": 0.00632,
+   "last": 0.00632,
+   "peak": 0.00632,
+   "cost": 1.0314350828880385,
+   "opened": "2026-11-15T06:00:08+07:00",
+   "zoo": "boosted",
+   "smart": 287,
+   "kol": 23,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:42:01+07:00",
@@ -1188,8 +1203,22 @@
    "cost_side": 0.03,
    "smart": 763,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T06:00:08+07:00",
+   "kind": "buy",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.00632,
+   "jup": 0.006303252935103197,
+   "usd": 1.0314,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 287,
+   "kol": 23
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794696898.2567368
+ "rank_t": 1794697168.179811
 }
