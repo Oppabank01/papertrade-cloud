@@ -1,15 +1,36 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 14.727540500736376,
- "pos": {},
+ "cash": 11.7820324005891,
+ "pos": {
+  "Aq38XaBAkzAtwbpvFKEzKg9hp1eZrEFV5W9H6XJjFUND": {
+   "sym": "FUND",
+   "qty": 16899.656763825467,
+   "entry": 0.0001691,
+   "last": 0.0001691,
+   "peak": 0.0001691,
+   "cost": 2.9455081001472756,
+   "opened": "2026-11-14T16:45:05+07:00",
+   "zoo": "x_snipe_30_30",
+   "smart": 53,
+   "kol": 3
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T15:56:37+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-14T16:45:05+07:00",
+   "kind": "buy",
+   "mint": "Aq38XaBAkzAtwbpvFKEzKg9hp1eZrEFV5W9H6XJjFUND",
+   "sym": "FUND",
+   "price": 0.0001691,
+   "usd": 2.9455
   }
  ],
  "label": "สวนสัตว์: เหรียญใหม่ TP +30% SL -30% ถือไม่เกิน 2 นาที",
- "rank_t": 1794649209.437962
+ "rank_t": 1794649477.6920488
 }
