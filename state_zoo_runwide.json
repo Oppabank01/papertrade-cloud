@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.04092254886581,
+ "cash": 0.05137143974144198,
  "pos": {
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
@@ -20,12 +20,25 @@
    "sym": "SHARKBUX",
    "qty": 2046.6311423063505,
    "entry": 0.0004636,
-   "last": 0.0005384,
+   "last": 0.0005374,
    "peak": 0.0005507,
    "cost": 0.9779614487458504,
    "opened": "2026-11-14T06:49:51+07:00",
    "zoo": "runwide",
    "smart": 10,
+   "kol": 0,
+   "miss": 0
+  },
+  "4PxYxGrMpfzFkb9ubTNoXC5dXnT4F8AJPRgrw5eNpump": {
+   "sym": "RARECOIN",
+   "qty": 31456.831129503997,
+   "entry": 3.052e-05,
+   "last": 2.628e-05,
+   "peak": 3.052e-05,
+   "cost": 0.9895511091243681,
+   "opened": "2026-11-14T09:00:03+07:00",
+   "zoo": "runwide",
+   "smart": 19,
    "kol": 0,
    "miss": 0
   }
@@ -371,8 +384,16 @@
    "why": "trailing จากยอด +53% (+1.7%)",
    "smart": 148,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T09:00:03+07:00",
+   "kind": "buy",
+   "mint": "4PxYxGrMpfzFkb9ubTNoXC5dXnT4F8AJPRgrw5eNpump",
+   "sym": "RARECOIN",
+   "price": 3.052e-05,
+   "usd": 0.9896
   }
  ],
  "label": "สวนสัตว์: ปล่อยวิ่ง trail 30/25 ถือ 24 ชม.",
- "rank_t": 1794621342.6125758
+ "rank_t": 1794621596.969967
 }
