@@ -1,33 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 10.117613498739477,
+ "cash": 10.012151906941368,
  "pos": {
-  "5wSQpQfbdSKs7amvyxa2XTzWXNyionERZWdDWykYm1At": {
-   "sym": "SOUVENIR",
-   "qty": 4330.468782350896,
-   "entry": 0.0002968,
-   "last": 0.00025925692825841433,
-   "peak": 0.00029694036843496113,
-   "cost": 1.3247610127826694,
-   "opened": "2026-11-15T04:12:38+07:00",
-   "zoo": "w_ban_scalp",
-   "smart": 44,
-   "kol": 3,
-   "gap": 4,
-   "miss": 0
-  },
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
    "sym": "paws",
    "qty": 1733.0451071830132,
    "entry": 0.0007161,
-   "last": 0.0006957,
+   "last": 0.0006891,
    "peak": 0.0007497,
    "cost": 1.2791523410160335,
    "opened": "2026-11-15T04:37:12+07:00",
    "zoo": "w_ban_scalp",
    "smart": 284,
    "kol": 15,
+   "gap": 2,
+   "miss": 0
+  },
+  "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": {
+   "sym": "swordcat",
+   "qty": 2104.3905706248534,
+   "entry": 0.0005751,
+   "last": 0.0005751,
+   "peak": 0.0005751,
+   "cost": 1.2474077686728027,
+   "opened": "2026-11-15T06:15:27+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 307,
+   "kol": 41,
    "gap": 0,
    "miss": 0
   }
@@ -695,10 +695,39 @@
    "cost_side": 0.03,
    "smart": 62,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T06:13:27+07:00",
+   "kind": "sell",
+   "mint": "5wSQpQfbdSKs7amvyxa2XTzWXNyionERZWdDWykYm1At",
+   "sym": "SOUVENIR",
+   "price": 0.0002718,
+   "entry": 0.0002968,
+   "usd": 1.1419,
+   "pnl": -0.1828,
+   "why": "ครบ 2 ชม. (-8.4%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 44,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T06:15:27+07:00",
+   "kind": "buy",
+   "mint": "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump",
+   "sym": "swordcat",
+   "price": 0.0005751,
+   "jup": 0.0005758483150462898,
+   "usd": 1.2474,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 307,
+   "kol": 41
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794697728.15489,
+ "rank_t": 1794698007.5182664,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
