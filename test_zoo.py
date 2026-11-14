@@ -121,3 +121,11 @@ zoo.tick_one = lambda n, *a: calls.append(n) or (_ for _ in ()).throw(RuntimeErr
 zoo.cmd_tick(); zoo.tick_one = real
 assert len(calls) == len(zoo.ZOO), (len(calls), len(zoo.ZOO))
 print("robust ok")
+# market breadth: share of ranked coins up over 1h, attached to every coin each round, usable as a recipe gate
+zoo.RANK.write_text(json.dumps(dict(t=1, rank=[dict(address=f"m{i}", price_change_percent1h=c) for i, c in enumerate([5, 2, 1, -3])])))
+seen = []
+zoo.tick_one = lambda n, dd, r: seen.append(dd)
+zoo.cmd_tick(); zoo.tick_one = real
+assert all(t["breadth"] == 0.75 for t in seen[0]["rank"])
+assert zoo.spec_rule({"min": {"breadth": 0.74}})(seen[0]["rank"][0]) and not zoo.spec_rule({"max": {"breadth": 0.61}})(seen[0]["rank"][0])
+print("breadth ok")

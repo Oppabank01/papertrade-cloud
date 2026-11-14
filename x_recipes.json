@@ -417,5 +417,57 @@
    "PER_TRADE": 0.2,
    "MAX_POS": 4
   }
+ },
+ {
+  "name": "w_hot_mkt",
+  "label": "ตลาดร้อน: กฎ w_aged_nostop เฉพาะรอบที่เหรียญ 74%+ ขึ้นใน 1 ชม.",
+  "horizon": "week",
+  "source": "Mac session 14 Nov (user: 'หาทางเข้าใกล้คนได้เปรียบ'): memecoin profitability swings by market phase (CoinGecko 30% to 73% of wallets profitable by month)",
+  "claim": "gate w_aged_nostop by market breadth (top 30% of rounds in rank_hist 13-14 Nov): buying only when most coins rise beats the ungated w_aged_nostop",
+  "added": "2026-11-14",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 24,
+    "liquidity": 200000,
+    "breadth": 0.74
+   },
+   "up": true
+  },
+  "exit": {
+   "STOP": null,
+   "TRAIL_ON": 0.3,
+   "TRAIL": 0.2,
+   "MAX_HOLD_H": 12,
+   "FEE": 0.005,
+   "SLIP": 0.005
+  }
+ },
+ {
+  "name": "w_cold_mkt",
+  "label": "ตลาดเย็น: กฎ w_aged_nostop เฉพาะรอบที่เหรียญขึ้นไม่เกิน 61%",
+  "horizon": "week",
+  "source": "Mac session 14 Nov (user: 'หาทางเข้าใกล้คนได้เปรียบ'): memecoin profitability swings by market phase (CoinGecko 30% to 73% of wallets profitable by month)",
+  "claim": "mirror of w_hot_mkt (bottom 20% of rounds); if hot beats cold and both differ from w_aged_nostop, market phase matters",
+  "added": "2026-11-14",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 24,
+    "liquidity": 200000
+   },
+   "max": {
+    "breadth": 0.61
+   },
+   "up": true
+  },
+  "exit": {
+   "STOP": null,
+   "TRAIL_ON": 0.3,
+   "TRAIL": 0.2,
+   "MAX_HOLD_H": 12,
+   "FEE": 0.005,
+   "SLIP": 0.005
+  }
  }
 ]

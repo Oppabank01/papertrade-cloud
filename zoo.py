@@ -112,7 +112,7 @@ ZOO = {   # name: (label, entry rule, exit/sizing overrides). "pick" = one token
 FAST = ["bigliqF", "agedF", "bigliqRC"]   # MISS_N=15: ~5 min of missing pool before calling it a rug, same as the 5-min accounts
 ONE_PICK = {"rand", "randrun", "top1"}   # these take a single token per ranking; the rest buy every match (up to MAX_POS)
 SPECS = HERE / "x_recipes.json"         # X "bragging" recipes added by the daily research routine: data only, no code
-FIELDS = set(KEEP) | {"age_h", "vl", "score"}
+FIELDS = set(KEEP) | {"age_h", "vl", "score", "breadth"}
 HORIZONS = {"night": "1 คืน", "week": "1 สัปดาห์", "month": "1 เดือน"}
 
 
@@ -238,6 +238,9 @@ def cmd_tick():
         rand_ret = ret(agents.load()) if agents.STATE.exists() else None
     if d:
         save_hist(d)
+        breadth = sum(f(t, "price_change_percent1h") > 0 for t in d["rank"]) / max(len(d["rank"]), 1)
+        for t in d["rank"]:
+            t["breadth"] = breadth          # market-wide: share of ranked coins up over 1h, same for every coin this round
     for name in ZOO:
         try:
             tick_one(name, d, rand_ret)
