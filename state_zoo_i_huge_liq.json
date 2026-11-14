@@ -1,19 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.731879787860931,
- "cash": 11.360456638220187,
+ "cash": 11.322020287380107,
  "pos": {
-  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
-   "sym": "CATE",
-   "qty": 173.23097163275838,
-   "entry": 0.01682,
-   "last": 0.01629,
-   "peak": 0.01762,
-   "cost": 2.943102389195219,
-   "opened": "2026-11-14T18:40:40+07:00",
+  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
+   "sym": "ANSEM",
+   "qty": 63.529149484320385,
+   "entry": 0.04411,
+   "last": 0.04463,
+   "peak": 0.04463,
+   "cost": 2.830505071845027,
+   "opened": "2026-11-14T21:42:50+07:00",
    "zoo": "i_huge_liq",
-   "smart": 861,
-   "kol": 110,
+   "smart": 1000,
+   "kol": 186,
    "gap": 0,
    "miss": 0
   }
@@ -95,8 +95,37 @@
    "cost_side": 0.01,
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T21:41:28+07:00",
+   "kind": "sell",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.01628,
+   "entry": 0.01682,
+   "usd": 2.7921,
+   "pnl": -0.151,
+   "why": "ครบ 3 ชม. (-3.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.01,
+   "smart": 861,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T21:42:50+07:00",
+   "kind": "buy",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.04411,
+   "jup": 0.0441897729896298,
+   "usd": 2.8305,
+   "stop_set": -0.08,
+   "cost_side": 0.01,
+   "zoo": "i_huge_liq",
+   "smart": 1000,
+   "kol": 186
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 1M+ มาร์เก็ตแคป 5M+ ค่าธรรมเนียมใหญ่",
- "rank_t": 1794667004.5745552
+ "rank_t": 1794667285.8613455
 }

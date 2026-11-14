@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.718869590815427,
- "cash": 11.775095672652341,
+ "cash": 3.006527492056947,
  "pos": {
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
    "qty": 1315.1668652208523,
    "entry": 0.002216,
-   "last": 0.002187516773394164,
+   "last": 0.002223,
    "peak": 0.002225,
    "cost": 2.9437739181630853,
    "opened": "2026-11-14T21:37:59+07:00",
@@ -15,6 +15,48 @@
    "smart": 393,
    "kol": 30,
    "gap": 2,
+   "miss": 0
+  },
+  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+   "sym": "USELESS",
+   "qty": 27.123303922370763,
+   "entry": 0.1069,
+   "last": 0.107,
+   "peak": 0.107,
+   "cost": 2.928694921139804,
+   "opened": "2026-11-14T21:42:56+07:00",
+   "zoo": "w_aged_nostop",
+   "smart": 924,
+   "kol": 294,
+   "gap": 0,
+   "miss": 0
+  },
+  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
+   "sym": "ANSEM",
+   "qty": 65.60183006866419,
+   "entry": 0.04411,
+   "last": 0.04463,
+   "peak": 0.04463,
+   "cost": 2.92285217477213,
+   "opened": "2026-11-14T21:42:56+07:00",
+   "zoo": "w_aged_nostop",
+   "smart": 1000,
+   "kol": 186,
+   "gap": 0,
+   "miss": 0
+  },
+  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
+   "sym": "STONK",
+   "qty": 69.63886663524818,
+   "entry": 0.04147,
+   "last": 0.04139,
+   "peak": 0.04147,
+   "cost": 2.91702108468346,
+   "opened": "2026-11-14T21:42:57+07:00",
+   "zoo": "w_aged_nostop",
+   "smart": 1000,
+   "kol": 174,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -37,8 +79,50 @@
    "zoo": "w_aged_nostop",
    "smart": 393,
    "kol": 30
+  },
+  {
+   "t": "2026-11-14T21:42:56+07:00",
+   "kind": "buy",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.1069,
+   "jup": 0.10660103161850012,
+   "usd": 2.9287,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_aged_nostop",
+   "smart": 924,
+   "kol": 294
+  },
+  {
+   "t": "2026-11-14T21:42:56+07:00",
+   "kind": "buy",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.04411,
+   "jup": 0.0441897729896298,
+   "usd": 2.9229,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_aged_nostop",
+   "smart": 1000,
+   "kol": 186
+  },
+  {
+   "t": "2026-11-14T21:42:57+07:00",
+   "kind": "buy",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.04147,
+   "jup": 0.0414558055332987,
+   "usd": 2.917,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_aged_nostop",
+   "smart": 1000,
+   "kol": 174
   }
  ],
  "label": "สวนสัตว์: อายุเกิน 1 วัน pool 200k+ ไม่มี stop ถือ 12 ชม.",
- "rank_t": 1794667004.5745552
+ "rank_t": 1794667285.8613455
 }
