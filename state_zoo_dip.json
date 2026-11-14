@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.18018167815684527,
+ "cash": 0.0,
  "pos": {
   "6vtfL1Zi8YQqQrsxwLqguFNFCvwmER5SnYSBYDTRpump": {
    "sym": "loco",
    "qty": 19995.207860828883,
    "entry": 1.084e-05,
-   "last": 1.924e-05,
-   "peak": 1.924e-05,
+   "last": 2.26e-05,
+   "peak": 2.26e-05,
    "cost": 0.22340553825127302,
    "opened": "2026-11-14T08:34:14+07:00",
    "zoo": "dip",
@@ -20,8 +20,8 @@
    "sym": "JENSEN",
    "qty": 652.5477751423126,
    "entry": 0.0003796,
-   "last": 0.0009125,
-   "peak": 0.0009125,
+   "last": 0.001267,
+   "peak": 0.001267,
    "cost": 0.25531553849105537,
    "opened": "2026-11-14T08:51:50+07:00",
    "zoo": "dip",
@@ -33,13 +33,26 @@
    "sym": "breadcat",
    "qty": 18005.149802529577,
    "entry": 1.018e-05,
-   "last": 9.706e-06,
-   "peak": 1.018e-05,
+   "last": 1.611e-05,
+   "peak": 1.611e-05,
    "cost": 0.18892230982246044,
    "opened": "2026-11-14T09:00:01+07:00",
    "zoo": "dip",
    "smart": 5,
    "kol": 0,
+   "miss": 0
+  },
+  "HLpSm3WEe4dTXNgyQaiKhoLvcgxdM3LzAzvVuxMdy1eh": {
+   "sym": "SUNBUCKS",
+   "qty": 14579.838544434633,
+   "entry": 1.199e-05,
+   "last": 1.166e-05,
+   "peak": 1.199e-05,
+   "cost": 0.18018167815684527,
+   "opened": "2026-11-14T09:04:37+07:00",
+   "zoo": "dip",
+   "smart": 17,
+   "kol": 5,
    "miss": 0
   }
  },
@@ -1852,8 +1865,16 @@
    "why": "stop -10.1%",
    "smart": 19,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T09:04:37+07:00",
+   "kind": "buy",
+   "mint": "HLpSm3WEe4dTXNgyQaiKhoLvcgxdM3LzAzvVuxMdy1eh",
+   "sym": "SUNBUCKS",
+   "price": 1.199e-05,
+   "usd": 0.1802
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794621596.969967
+ "rank_t": 1794621843.366356
 }
