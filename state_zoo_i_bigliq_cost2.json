@@ -1,33 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 7.838359878240206,
+ "cash": 7.904158163689942,
  "pos": {
-  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
-   "sym": "DacityCoin",
-   "qty": 716.5932221410643,
-   "entry": 0.004026,
-   "last": 0.003996,
-   "peak": 0.004251,
-   "cost": 2.9140721823589555,
-   "opened": "2026-11-14T20:33:00+07:00",
-   "zoo": "i_bigliq_cost2",
-   "smart": 245,
-   "kol": 20,
-   "gap": 0,
-   "miss": 0
-  },
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 168.75607233432245,
    "entry": 0.01633,
-   "last": 0.01661,
+   "last": 0.0165,
    "peak": 0.01667,
    "cost": 2.7835525983884106,
    "opened": "2026-11-14T21:56:47+07:00",
    "zoo": "i_bigliq_cost2",
    "smart": 861,
    "kol": 110,
+   "gap": 0,
+   "miss": 0
+  },
+  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
+   "sym": "ANSEM",
+   "qty": 61.3518694382175,
+   "entry": 0.0433,
+   "last": 0.04314,
+   "peak": 0.0433,
+   "cost": 2.6833018829573168,
+   "opened": "2026-11-14T23:32:45+07:00",
+   "zoo": "i_bigliq_cost2",
+   "smart": 1000,
+   "kol": 186,
    "gap": 0,
    "miss": 0
   }
@@ -297,8 +297,37 @@
    "cost_side": 0.01,
    "smart": 41,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T23:32:45+07:00",
+   "kind": "buy",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.0433,
+   "jup": 0.043093710980082446,
+   "usd": 2.6833,
+   "stop_set": -0.08,
+   "cost_side": 0.01,
+   "zoo": "i_bigliq_cost2",
+   "smart": 1000,
+   "kol": 186
+  },
+  {
+   "t": "2026-11-14T23:33:11+07:00",
+   "kind": "sell",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.003875,
+   "entry": 0.004026,
+   "usd": 2.7491,
+   "pnl": -0.165,
+   "why": "ครบ 3 ชม. (-3.8%)",
+   "stop_set": -0.08,
+   "cost_side": 0.01,
+   "smart": 245,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ ค่าธรรมเนียมสมจริง 1% ต่อขา",
- "rank_t": 1794673631.1349983
+ "rank_t": 1794673914.5217593
 }
