@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.6230411420097035,
+ "cash": 0.0,
  "pos": {
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 343.7777043501499,
    "entry": 0.006221,
-   "last": 0.008068,
+   "last": 0.008017,
    "peak": 0.009359,
    "cost": 2.2043301368401185,
    "opened": "2026-11-14T01:18:41+07:00",
@@ -20,7 +20,7 @@
    "sym": "CATE",
    "qty": 41.03407551603159,
    "entry": 0.01864,
-   "last": 0.0172,
+   "last": 0.01714,
    "peak": 0.01889,
    "cost": 0.7883685504213863,
    "opened": "2026-11-14T08:34:15+07:00",
@@ -33,13 +33,26 @@
    "sym": "STONK",
    "qty": 21.229887227050792,
    "entry": 0.04397,
-   "last": 0.04439,
+   "last": 0.04418,
    "peak": 0.04511,
    "cost": 0.9621502178658249,
    "opened": "2026-11-14T11:56:43+07:00",
    "zoo": "randrun",
    "smart": 1000,
    "kol": 174,
+   "miss": 0
+  },
+  "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": {
+   "sym": "Sakura",
+   "qty": 5279.2534146534,
+   "entry": 0.0001145,
+   "last": 0.0001145,
+   "peak": 0.0001145,
+   "cost": 0.6230411420097035,
+   "opened": "2026-11-14T14:56:28+07:00",
+   "zoo": "randrun",
+   "smart": 139,
+   "kol": 6,
    "miss": 0
   }
  },
@@ -472,8 +485,16 @@
    "why": "trailing จากยอด +199% (-0.3%)",
    "smart": 385,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T14:56:28+07:00",
+   "kind": "buy",
+   "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
+   "sym": "Sakura",
+   "price": 0.0001145,
+   "usd": 0.623
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1794642683.2819872
+ "rank_t": 1794642958.940346
 }
