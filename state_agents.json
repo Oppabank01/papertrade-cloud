@@ -1,32 +1,32 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.4884875705130365,
+ "cash": 1.5535381849947552,
  "pos": {
-  "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
-   "sym": "FLOAT",
-   "qty": 273.8430457224195,
-   "entry": 0.002435,
-   "last": 0.002575,
-   "peak": 0.002812,
-   "cost": 0.687289029410525,
-   "opened": "2026-11-14T06:32:29+07:00",
-   "smart": 342,
-   "kol": 31,
-   "bundler": 0.5142,
-   "miss": 0
-  },
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 90.44131466736208,
    "entry": 0.007215,
-   "last": 0.007797,
+   "last": 0.007579,
    "peak": 0.008138,
    "cost": 0.6725768762368763,
    "opened": "2026-11-14T06:49:44+07:00",
    "smart": 287,
    "kol": 23,
    "bundler": 0.3305,
+   "miss": 0
+  },
+  "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump": {
+   "sym": "plumber",
+   "qty": 4640.957053246106,
+   "entry": 0.0001212,
+   "last": 0.0001212,
+   "peak": 0.0001212,
+   "cost": 0.5797608687419378,
+   "opened": "2026-11-14T09:34:06+07:00",
+   "smart": 127,
+   "kol": 3,
+   "bundler": 0.117,
    "miss": 0
   }
  },
@@ -10849,6 +10849,59 @@
    "buy": 0.7442,
    "bull": 0.9256,
    "bear": 0.9999
+  },
+  {
+   "t": "2026-11-14T09:34:00+07:00",
+   "kind": "debate",
+   "mint": "BDDdnX85YSmqDNHTyHjktmUd8ZzGLyXiWMAT1FLppump",
+   "sym": "SWJ",
+   "ok": false,
+   "bundler": 0.1457,
+   "buy": 0.8482,
+   "bull": 0.9251,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-14T09:34:03+07:00",
+   "kind": "debate",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "ok": false,
+   "bundler": 0.0201,
+   "buy": 0.9297,
+   "bull": 0.887,
+   "bear": 0.9996
+  },
+  {
+   "t": "2026-11-14T09:34:05+07:00",
+   "kind": "debate",
+   "mint": "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump",
+   "sym": "plumber",
+   "ok": true,
+   "bundler": 0.117,
+   "buy": 0.7665,
+   "bull": 0.787,
+   "bear": 0.1608
+  },
+  {
+   "t": "2026-11-14T09:34:06+07:00",
+   "kind": "buy",
+   "mint": "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump",
+   "sym": "plumber",
+   "price": 0.0001212,
+   "usd": 0.5798
+  },
+  {
+   "t": "2026-11-14T09:34:06+07:00",
+   "kind": "sell",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "price": 0.002427,
+   "usd": 0.6448,
+   "pnl": -0.0425,
+   "why": "ครบ 3 ชม. (-0.3%)",
+   "smart": 342,
+   "bundler": 0.5142
   }
  ]
 }
