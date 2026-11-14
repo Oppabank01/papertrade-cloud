@@ -1,1 +1,91 @@
-[]
+[
+ {
+  "name": "x_ladder_2x",
+  "label": "บันไดขาย ครึ่งที่ x2 trail 30% stop -35%",
+  "horizon": "week",
+  "source": "https://solanatools-io.pages.dev/blog/pump-fun-trading-strategy",
+  "claim": "staged exits: sell part at 2x, rest rides with 30% trailing stop, stop-loss 35% below entry",
+  "added": "2026-11-14",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 20000,
+    "volume": 50000
+   },
+   "max": {
+    "age_h": 48
+   },
+   "safe": false,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.35,
+   "HALF_AT": 1.0,
+   "TRAIL_ON": 1.0,
+   "TRAIL": 0.3,
+   "MAX_HOLD_H": 72,
+   "PER_TRADE": 0.2,
+   "MAX_POS": 4
+  }
+ },
+ {
+  "name": "x_snipe_30_30",
+  "label": "เหรียญใหม่ TP +30% SL -30% ถือไม่เกิน 2 นาที",
+  "horizon": "week",
+  "source": "https://dev.to/deni_yuda_880c19d38c2fe2d/how-to-implement-solana-sniper-bot-sales-logic-54a7",
+  "claim": "backtest: take +30% stop -30% hold 120s gave 52.7% win rate",
+  "added": "2026-11-14",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 15000
+   },
+   "max": {
+    "age_h": 3
+   },
+   "safe": true,
+   "up": true,
+   "rugcheck": false
+  },
+  "exit": {
+   "STOP": -0.3,
+   "TP_ALL": 0.3,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 0.034,
+   "PER_TRADE": 0.2,
+   "MAX_POS": 4
+  }
+ },
+ {
+  "name": "x_scalp_1020",
+  "label": "สกัลป์ pump.fun ตัดกำไร/ขาดทุน 15% เดือนเต็ม",
+  "horizon": "month",
+  "source": "https://app.notion.com/p/Part-4-How-to-turn-3-SOL-to-2000-SOL-in-1-MONTH-TUTORIAL-36cc586ff93680609c4adad9c976e166",
+  "claim": "turn 3 SOL to 2000 SOL in 1 month; short scalps taking profit or cutting loss at 10-20%",
+  "added": "2026-11-14",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 30000,
+    "price_change_percent5m": 3
+   },
+   "max": {
+    "price_change_percent5m": 40
+   },
+   "safe": false,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "TP_ALL": 0.15,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 2,
+   "PER_TRADE": 0.1,
+   "MAX_POS": 8
+  }
+ }
+]
