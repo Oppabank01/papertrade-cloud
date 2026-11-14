@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.27616214415772006,
+ "cash": 0.2544957263017356,
  "pos": {
   "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
    "sym": "Dacity",
    "qty": 71.32065891387626,
    "entry": 0.002239,
-   "last": 0.002095,
+   "last": 0.002116,
    "peak": 0.002277,
    "cost": 0.16459179067013913,
    "opened": "2026-11-14T17:33:57+07:00",
@@ -16,29 +16,29 @@
    "gap": 0,
    "miss": 0
   },
-  "LP9FEB5TZZepT48qigsAJkdzB38R5hfFyJzerzxpump": {
-   "sym": "Avatars",
-   "qty": 1297.3428883723823,
-   "entry": 0.0001057,
-   "last": 0.0001056,
-   "peak": 0.0001057,
-   "cost": 0.14134110832917007,
-   "opened": "2026-11-14T19:50:19+07:00",
-   "smart": 53,
-   "kol": 7,
-   "gap": 0,
-   "miss": 0
-  },
   "5w3wVdJaESaJKyLmStM6Hv9UyUkmZ1b9DLQquAqqpump": {
    "sym": "SID",
    "qty": 97.15741525793803,
    "entry": 0.001403,
-   "last": 0.001403,
+   "last": 0.001382,
    "peak": 0.001403,
    "cost": 0.1404987153235282,
    "opened": "2026-11-14T19:50:20+07:00",
    "smart": 26,
    "kol": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "95kvFsVDJ5Lr4GH9Uau4dUgstft6gwnVagpKwYt2pump": {
+   "sym": "UAV",
+   "qty": 714.5029079269784,
+   "entry": 0.0001898,
+   "last": 0.0001898,
+   "peak": 0.0001898,
+   "cost": 0.13977803744026027,
+   "opened": "2026-11-14T19:54:49+07:00",
+   "smart": 91,
+   "kol": 3,
    "gap": 0,
    "miss": 0
   }
@@ -2415,8 +2415,36 @@
    "cost_side": 0.03,
    "smart": 26,
    "kol": 1
+  },
+  {
+   "t": "2026-11-14T19:54:49+07:00",
+   "kind": "buy",
+   "mint": "95kvFsVDJ5Lr4GH9Uau4dUgstft6gwnVagpKwYt2pump",
+   "sym": "UAV",
+   "price": 0.0001898,
+   "jup": 0.00018973713720227194,
+   "usd": 0.1398,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 91,
+   "kol": 3
+  },
+  {
+   "t": "2026-11-14T19:54:52+07:00",
+   "kind": "sell",
+   "mint": "LP9FEB5TZZepT48qigsAJkdzB38R5hfFyJzerzxpump",
+   "sym": "Avatars",
+   "price": 9.383753242487132e-05,
+   "entry": 0.0001057,
+   "usd": 0.1181,
+   "pnl": -0.0232,
+   "why": "stop -11.2%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 53,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794660591.4469078
+ "rank_t": 1794660864.4851656
 }
