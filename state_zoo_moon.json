@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 377249.53064169036,
+ "cash": 301799.21454272646,
  "pos": {
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 4218.672832138303,
    "entry": 0.0006786,
-   "last": 0.0004859,
+   "last": 0.0004819,
    "peak": 0.0008452,
    "cost": 2.950722927117144,
    "opened": "2026-11-14T00:45:45+07:00",
@@ -15,7 +15,21 @@
    "smart": 72,
    "kol": 4,
    "miss": 0,
-   "gap": 0
+   "gap": 1
+  },
+  "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": {
+   "sym": "gtacoin",
+   "qty": 269719589.82761526,
+   "entry": 0.0002714,
+   "last": 0.0002701,
+   "peak": 0.0002714,
+   "cost": 75450.3160989639,
+   "opened": "2026-11-15T06:18:58+07:00",
+   "zoo": "moon",
+   "smart": 18,
+   "kol": 0,
+   "gap": 1,
+   "miss": 0
   }
  },
  "log": [
@@ -395,8 +409,22 @@
    "cost_side": 0.03,
    "smart": 11,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T06:18:58+07:00",
+   "kind": "buy",
+   "mint": "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK",
+   "sym": "gtacoin",
+   "price": 0.0002714,
+   "jup": 0.0002728888819013476,
+   "usd": 75450.3161,
+   "stop_set": -0.5,
+   "cost_side": 0.03,
+   "zoo": "moon",
+   "smart": 18,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: ถือยาวรอ x2 (stop -50%)",
- "rank_t": 1794698007.5182664
+ "rank_t": 1794698289.8358507
 }
