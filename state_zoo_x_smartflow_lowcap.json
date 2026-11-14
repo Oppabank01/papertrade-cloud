@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.731879787860931,
- "cash": 15.574657103241695,
- "pos": {
-  "4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": {
-   "sym": "greg",
-   "qty": 10311.30970417801,
-   "entry": 0.000281,
-   "last": 0.0002331,
-   "peak": 0.0003299,
-   "cost": 2.9864749813172757,
-   "opened": "2026-11-14T17:21:24+07:00",
-   "zoo": "x_smartflow_lowcap",
-   "smart": 77,
-   "kol": 6,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 17.80990154650978,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T16:40:28+07:00",
@@ -192,9 +177,24 @@
    "cost_side": 0.03,
    "smart": 58,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T22:25:51+07:00",
+   "kind": "sell",
+   "mint": "4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump",
+   "sym": "greg",
+   "price": 0.00022343434051903848,
+   "entry": 0.000281,
+   "usd": 2.2352,
+   "pnl": -0.7512,
+   "why": "stop -20.5%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 77,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: smart money เข้า 3+ มาร์เก็ตแคปต่ำ ขายครึ่งที่ x2",
- "rank_t": 1794669590.441057,
+ "rank_t": 1794669879.018639,
  "halted": "ราคา WISHMAS สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }
