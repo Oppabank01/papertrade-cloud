@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 7.904158163689942,
+ "cash": 2.5818367287614556,
  "pos": {
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 168.75607233432245,
    "entry": 0.01633,
-   "last": 0.01638,
+   "last": 0.01653,
    "peak": 0.01667,
    "cost": 2.7835525983884106,
    "opened": "2026-11-14T21:56:47+07:00",
@@ -21,13 +21,41 @@
    "sym": "ANSEM",
    "qty": 61.3518694382175,
    "entry": 0.0433,
-   "last": 0.04325,
-   "peak": 0.04346,
+   "last": 0.04399,
+   "peak": 0.04399,
    "cost": 2.6833018829573168,
    "opened": "2026-11-14T23:32:45+07:00",
    "zoo": "i_bigliq_cost2",
    "smart": 1000,
    "kol": 186,
+   "gap": 0,
+   "miss": 0
+  },
+  "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": {
+   "sym": "TripleT",
+   "qty": 1160.2491387964324,
+   "entry": 0.002273,
+   "last": 0.002287,
+   "peak": 0.002287,
+   "cost": 2.6638178757953495,
+   "opened": "2026-11-14T23:42:17+07:00",
+   "zoo": "i_bigliq_cost2",
+   "smart": 610,
+   "kol": 71,
+   "gap": 0,
+   "miss": 0
+  },
+  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
+   "sym": "Buttcoin",
+   "qty": 514.5620696247869,
+   "entry": 0.005115,
+   "last": 0.005158,
+   "peak": 0.005163,
+   "cost": 2.6585035591331376,
+   "opened": "2026-11-14T23:42:17+07:00",
+   "zoo": "i_bigliq_cost2",
+   "smart": 470,
+   "kol": 48,
    "gap": 0,
    "miss": 0
   }
@@ -326,8 +354,36 @@
    "cost_side": 0.01,
    "smart": 245,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T23:42:17+07:00",
+   "kind": "buy",
+   "mint": "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump",
+   "sym": "TripleT",
+   "price": 0.002273,
+   "jup": 0.002292795398958427,
+   "usd": 2.6638,
+   "stop_set": -0.08,
+   "cost_side": 0.01,
+   "zoo": "i_bigliq_cost2",
+   "smart": 610,
+   "kol": 71
+  },
+  {
+   "t": "2026-11-14T23:42:17+07:00",
+   "kind": "buy",
+   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+   "sym": "Buttcoin",
+   "price": 0.005115,
+   "jup": 0.005157655272166789,
+   "usd": 2.6585,
+   "stop_set": -0.08,
+   "cost_side": 0.01,
+   "zoo": "i_bigliq_cost2",
+   "smart": 470,
+   "kol": 48
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ ค่าธรรมเนียมสมจริง 1% ต่อขา",
- "rank_t": 1794674196.6806643
+ "rank_t": 1794674472.9455454
 }

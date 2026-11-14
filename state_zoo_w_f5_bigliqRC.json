@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 8.856073733318638,
+ "cash": 3.0979795054760686,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 71.09584029977795,
    "entry": 0.04016,
-   "last": 0.03883,
+   "last": 0.03946,
    "peak": 0.04024,
    "cost": 2.9429075927015895,
    "opened": "2026-11-14T23:04:15+07:00",
@@ -21,13 +21,41 @@
    "sym": "USELESS",
    "qty": 26.88852708831355,
    "entry": 0.1052,
-   "last": 0.1034,
+   "last": 0.1038,
    "peak": 0.1052,
    "cost": 2.915556637487719,
    "opened": "2026-11-14T23:19:46+07:00",
    "zoo": "w_f5_bigliqRC",
    "smart": 924,
    "kol": 294,
+   "gap": 0,
+   "miss": 0
+  },
+  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
+   "sym": "mihao",
+   "qty": 199.26033277077715,
+   "entry": 0.01406,
+   "last": 0.0145,
+   "peak": 0.0145,
+   "cost": 2.8876523178284135,
+   "opened": "2026-11-14T23:42:37+07:00",
+   "zoo": "w_f5_bigliqRC",
+   "smart": 678,
+   "kol": 68,
+   "gap": 0,
+   "miss": 0
+  },
+  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
+   "sym": "Buttcoin",
+   "qty": 538.145457216567,
+   "entry": 0.005175,
+   "last": 0.005158,
+   "peak": 0.005175,
+   "cost": 2.870441910014156,
+   "opened": "2026-11-14T23:42:44+07:00",
+   "zoo": "w_f5_bigliqRC",
+   "smart": 470,
+   "kol": 48,
    "gap": 0,
    "miss": 0
   }
@@ -65,8 +93,36 @@
    "zoo": "w_f5_bigliqRC",
    "smart": 924,
    "kol": 294
+  },
+  {
+   "t": "2026-11-14T23:42:37+07:00",
+   "kind": "buy",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.01406,
+   "jup": 0.014126419455089754,
+   "usd": 2.8877,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_bigliqRC",
+   "smart": 678,
+   "kol": 68
+  },
+  {
+   "t": "2026-11-14T23:42:44+07:00",
+   "kind": "buy",
+   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+   "sym": "Buttcoin",
+   "price": 0.005175,
+   "jup": 0.005158621820335707,
+   "usd": 2.8704,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_bigliqRC",
+   "smart": 470,
+   "kol": 48
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ bigliqRC แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794674196.6806643
+ "rank_t": 1794674472.9455454
 }
