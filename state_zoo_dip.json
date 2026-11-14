@@ -1,32 +1,32 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.2704661788953143,
+ "cash": 0.34978462363018475,
  "pos": {
-  "12bTtDLSegj1rw2oxXWYm63Rxw5QxkVSXDHCEvRShaDe": {
-   "sym": "SHADE",
-   "qty": 7548.577290070926,
-   "entry": 1.975e-05,
-   "last": 4.195e-05,
-   "peak": 4.195e-05,
-   "cost": 0.15366357604504308,
-   "opened": "2026-11-14T10:13:41+07:00",
+  "2vcwEzJGC9TskVDsbLreBaGTakPQLXYREZLuCgfJpump": {
+   "sym": "GTA$",
+   "qty": 4194.229616172294,
+   "entry": 3.385e-05,
+   "last": 3.385e-05,
+   "peak": 3.385e-05,
+   "cost": 0.1463354694984871,
+   "opened": "2026-11-14T10:35:18+07:00",
    "zoo": "dip",
-   "smart": 24,
-   "kol": 2,
+   "smart": 30,
+   "kol": 5,
    "miss": 0
   },
-  "ELbCDkRuUTuzPCR6CarMVtR1CYh71AzGhuZTBPePpump": {
-   "sym": "GIGAPIG",
-   "qty": 3010.7967356518598,
-   "entry": 4.863e-05,
-   "last": 4.801e-05,
-   "peak": 4.863e-05,
-   "cost": 0.1509122296998041,
-   "opened": "2026-11-14T10:30:59+07:00",
+  "D1daGWL56VrjVagTKsGQRJagpDzyXAGZFmGV6XrFpump": {
+   "sym": "Scat",
+   "qty": 1885.5740450415183,
+   "entry": 6.387e-05,
+   "last": 6.387e-05,
+   "peak": 6.387e-05,
+   "cost": 0.12413070939682722,
+   "opened": "2026-11-14T10:35:18+07:00",
    "zoo": "dip",
-   "smart": 83,
-   "kol": 1,
+   "smart": 24,
+   "kol": 0,
    "miss": 0
   }
  },
@@ -2131,8 +2131,48 @@
    "why": "stop -17.2%",
    "smart": 19,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T10:35:18+07:00",
+   "kind": "buy",
+   "mint": "2vcwEzJGC9TskVDsbLreBaGTakPQLXYREZLuCgfJpump",
+   "sym": "GTA$",
+   "price": 3.385e-05,
+   "usd": 0.1463
+  },
+  {
+   "t": "2026-11-14T10:35:18+07:00",
+   "kind": "buy",
+   "mint": "D1daGWL56VrjVagTKsGQRJagpDzyXAGZFmGV6XrFpump",
+   "sym": "Scat",
+   "price": 6.387e-05,
+   "usd": 0.1241
+  },
+  {
+   "t": "2026-11-14T10:35:18+07:00",
+   "kind": "sell",
+   "mint": "12bTtDLSegj1rw2oxXWYm63Rxw5QxkVSXDHCEvRShaDe",
+   "sym": "SHADE",
+   "price": 3.071e-05,
+   "usd": 0.2249,
+   "pnl": 0.0712,
+   "why": "trailing จากยอด +112% (+55.5%)",
+   "smart": 24,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T10:35:18+07:00",
+   "kind": "sell",
+   "mint": "ELbCDkRuUTuzPCR6CarMVtR1CYh71AzGhuZTBPePpump",
+   "sym": "GIGAPIG",
+   "price": 4.275e-05,
+   "usd": 0.1249,
+   "pnl": -0.026,
+   "why": "stop -12.1%",
+   "smart": 83,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794627037.974427
+ "rank_t": 1794627301.6495576
 }
