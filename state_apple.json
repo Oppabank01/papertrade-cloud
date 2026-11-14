@@ -1,28 +1,17 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.3314575816107381,
+ "cash": 4.355257419659457,
  "pos": {
   "8JCjZbMPXZPHXWwCdTh2skHN7NDEDuakNbP83ZdYpump": {
    "sym": "VICECITY",
    "qty": 1117.6502730140458,
    "entry": 7.012e-05,
-   "last": 6.809e-05,
+   "last": 6.856e-05,
    "peak": 7.621e-05,
    "cost": 0.08077678534708811,
    "opened": "2026-11-14T08:51:47+07:00",
    "source": "../PaperTrade-cloud/recipe_smart4",
-   "miss": 0
-  },
-  "7fP3ga6BX9tY3Q6CBTxe4DBgR8GCs5iqQL6KYja5pump": {
-   "sym": "Bagwork",
-   "qty": 507354.1928852622,
-   "entry": 4.038e-06,
-   "last": 9.779e-06,
-   "peak": 1.001e-05,
-   "cost": 2.1116225838700156,
-   "opened": "2026-11-14T11:24:53+07:00",
-   "source": "../PaperTrade-cloud/recipe_grad",
    "miss": 0
   }
  },
@@ -287,6 +276,18 @@
    "sym": "Bagwork",
    "price": 4.038e-06,
    "usd": 2.1116
+  },
+  {
+   "t": "2026-11-14T11:43:12+07:00",
+   "kind": "sell",
+   "mint": "7fP3ga6BX9tY3Q6CBTxe4DBgR8GCs5iqQL6KYja5pump",
+   "sym": "Bagwork",
+   "price": 6.143e-06,
+   "usd": 3.0238,
+   "pnl": 0.9122,
+   "why": "trailing จากยอด +148% (+52.1%)",
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 Apple Card (ไม้ 60%)",
@@ -491,6 +492,7 @@
   "../PaperTrade-cloud/state_recipe_smart4.json:2026-11-14T10:30:56+07:00:CbmdFB7ruUfTHb1uRWC99knEni77CQKfFZL6qq2fLoat",
   "../PaperTrade-cloud/state_recipe_smart4.json:2026-11-14T10:39:36+07:00:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
   "../PaperTrade-cloud/state_recipe_smart4.json:2026-11-14T11:24:54+07:00:3nJUK2stwRCGYftUQBc8cmZHES8QQbSPiwHiUwHWPU57",
+  "../PaperTrade-cloud/state_recipe_smart4.json:2026-11-14T11:38:51+07:00:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
   "state_agents.json:2026-11-13T01:43:48+07:00:6MQGcPiDMusnHWXTBAfY7sRAHYRfgZmPjsmSPmPdpump",
   "state_agents.json:2026-11-13T01:43:49+07:00:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump",
   "state_agents.json:2026-11-13T01:50:03+07:00:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
