@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.2860198911237285,
+ "cash": 0.0,
  "pos": {
   "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump": {
    "sym": "ber",
    "qty": 744.8075131749821,
    "entry": 0.0006073,
-   "last": 0.0006574,
+   "last": 0.0006453,
    "peak": 0.0007395,
    "cost": 0.4662148039076135,
    "opened": "2026-11-14T10:56:52+07:00",
@@ -20,8 +20,8 @@
    "sym": "Dacity",
    "qty": 223.7231345573134,
    "entry": 0.002046,
-   "last": 0.002188,
-   "peak": 0.002249,
+   "last": 0.002265,
+   "peak": 0.002265,
    "cost": 0.47179708648140917,
    "opened": "2026-11-14T11:52:08+07:00",
    "zoo": "kol2",
@@ -33,13 +33,26 @@
    "sym": "Pokémon",
    "qty": 2196.881584616406,
    "entry": 0.0002044,
-   "last": 0.0001919,
+   "last": 0.0001906,
    "peak": 0.0002052,
    "cost": 0.4628350813188966,
    "opened": "2026-11-14T12:47:00+07:00",
    "zoo": "kol2",
    "smart": 382,
    "kol": 39,
+   "miss": 0
+  },
+  "6GnUH7g2nDJeKieaMdWqb2iaaVptJ3k8E5VpWA9pump": {
+   "sym": "Wolf",
+   "qty": 5008.962064408689,
+   "entry": 5.54e-05,
+   "last": 5.54e-05,
+   "peak": 5.54e-05,
+   "cost": 0.2860198911237285,
+   "opened": "2026-11-14T13:47:17+07:00",
+   "zoo": "kol2",
+   "smart": 73,
+   "kol": 4,
    "miss": 0
   }
  },
@@ -1272,8 +1285,16 @@
    "why": "stop -30.8%",
    "smart": 44,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T13:47:17+07:00",
+   "kind": "buy",
+   "mint": "6GnUH7g2nDJeKieaMdWqb2iaaVptJ3k8E5VpWA9pump",
+   "sym": "Wolf",
+   "price": 5.54e-05,
+   "usd": 0.286
   }
  ],
  "label": "สวนสัตว์: KOL เข้า 2 คนขึ้นไป",
- "rank_t": 1794638542.365232
+ "rank_t": 1794638817.0483546
 }

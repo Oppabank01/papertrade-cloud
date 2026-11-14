@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.39017386982451163,
+ "cash": 1.1059617450670403,
  "pos": {
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 5.726235452516093,
    "entry": 0.1154,
-   "last": 0.1155,
+   "last": 0.115,
    "peak": 0.1178,
    "cost": 0.6811044848694673,
    "opened": "2026-11-14T10:48:03+07:00",
@@ -20,7 +20,7 @@
    "sym": "ber",
    "qty": 788.7798727353061,
    "entry": 0.0006705,
-   "last": 0.0006574,
+   "last": 0.0006453,
    "peak": 0.0007395,
    "cost": 0.5451215261482403,
    "opened": "2026-11-14T12:15:15+07:00",
@@ -29,24 +29,11 @@
    "kol": 5,
    "miss": 0
   },
-  "BDDdnX85YSmqDNHTyHjktmUd8ZzGLyXiWMAT1FLppump": {
-   "sym": "SWJ",
-   "qty": 2798.83735328936,
-   "entry": 0.0001822,
-   "last": 0.0003129,
-   "peak": 0.0003129,
-   "cost": 0.5256113850436214,
-   "opened": "2026-11-14T12:33:15+07:00",
-   "zoo": "cto",
-   "smart": 111,
-   "kol": 7,
-   "miss": 0
-  },
   "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
    "sym": "WASTED",
    "qty": 192.4483199321702,
    "entry": 0.002634,
-   "last": 0.003356,
+   "last": 0.003214,
    "peak": 0.003356,
    "cost": 0.5224787411887614,
    "opened": "2026-11-14T12:33:15+07:00",
@@ -1013,8 +1000,20 @@
    "sym": "WASTED",
    "price": 0.002634,
    "usd": 0.5225
+  },
+  {
+   "t": "2026-11-14T13:47:17+07:00",
+   "kind": "sell",
+   "mint": "BDDdnX85YSmqDNHTyHjktmUd8ZzGLyXiWMAT1FLppump",
+   "sym": "SWJ",
+   "price": 0.0002636,
+   "usd": 0.7158,
+   "pnl": 0.1902,
+   "why": "trailing จากยอด +72% (+44.7%)",
+   "smart": 111,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: community takeover",
- "rank_t": 1794638542.365232
+ "rank_t": 1794638817.0483546
 }
