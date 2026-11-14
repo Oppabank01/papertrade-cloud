@@ -1,8 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.6654182833749402,
- "pos": {},
+ "cash": 1.001236148618747,
+ "pos": {
+  "EnwpfgEPpQuXaA4TfvG1X8uTRo43DeWk7JjGKunWpump": {
+   "sym": "Popo",
+   "qty": 11528.996207851353,
+   "entry": 2.803e-05,
+   "last": 2.942e-05,
+   "peak": 2.942e-05,
+   "cost": 0.33308365667498807,
+   "opened": "2026-11-14T12:55:44+07:00",
+   "smart": 16,
+   "kol": 1,
+   "miss": 0
+  },
+  "9HrYC4PH4A3d5o7LUvwjDrxkWyZDjVQpvFvWVwbKpump": {
+   "sym": "Heisto",
+   "qty": 8374.133040520992,
+   "entry": 3.836e-05,
+   "last": 3.836e-05,
+   "peak": 3.836e-05,
+   "cost": 0.3310984780812052,
+   "opened": "2026-11-14T12:55:44+07:00",
+   "smart": 9,
+   "kol": 1,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -1488,8 +1513,24 @@
    "why": "stop -22.5%",
    "smart": 40,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T12:55:44+07:00",
+   "kind": "buy",
+   "mint": "EnwpfgEPpQuXaA4TfvG1X8uTRo43DeWk7JjGKunWpump",
+   "sym": "Popo",
+   "price": 2.803e-05,
+   "usd": 0.3331
+  },
+  {
+   "t": "2026-11-14T12:55:44+07:00",
+   "kind": "buy",
+   "mint": "9HrYC4PH4A3d5o7LUvwjDrxkWyZDjVQpvFvWVwbKpump",
+   "sym": "Heisto",
+   "price": 3.836e-05,
+   "usd": 0.3311
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794635464.103191
+ "rank_t": 1794635727.6390793
 }
