@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 8.181647394945028,
+ "cash": 4.991430133895513,
  "pos": {
-  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
-   "sym": "Macca",
-   "qty": 1401.4676854614495,
-   "entry": 0.001984,
-   "last": 0.002176,
-   "peak": 0.002242,
-   "cost": 2.8659161904303403,
-   "opened": "2026-11-15T01:32:16+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 169,
-   "kol": 8,
-   "gap": 0,
-   "miss": 0
-  },
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 168.15623706880842,
    "entry": 0.01645,
-   "last": 0.01611,
+   "last": 0.016,
    "peak": 0.01658,
    "cost": 2.851133889694804,
    "opened": "2026-11-15T02:56:26+07:00",
@@ -29,6 +15,34 @@
    "smart": 862,
    "kol": 110,
    "gap": 0,
+   "miss": 0
+  },
+  "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
+   "sym": "neet",
+   "qty": 90.73388794173313,
+   "entry": 0.02967,
+   "last": 0.02941502918649668,
+   "peak": 0.02969,
+   "cost": 2.774762373975698,
+   "opened": "2026-11-15T03:54:03+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 855,
+   "kol": 202,
+   "gap": 2,
+   "miss": 0
+  },
+  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
+   "sym": "GTA6",
+   "qty": 399.1691067240519,
+   "entry": 0.006704,
+   "last": 0.006586756976631599,
+   "peak": 0.006704,
+   "cost": 2.758224790226803,
+   "opened": "2026-11-15T03:54:03+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 287,
+   "kol": 23,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -186,8 +200,51 @@
    "cost_side": 0.03,
    "smart": 924,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T03:54:03+07:00",
+   "kind": "buy",
+   "mint": "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump",
+   "sym": "neet",
+   "price": 0.02967,
+   "jup": 0.029597271125895996,
+   "usd": 2.7748,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 855,
+   "kol": 202
+  },
+  {
+   "t": "2026-11-15T03:54:03+07:00",
+   "kind": "buy",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.006704,
+   "jup": 0.006696441825760483,
+   "usd": 2.7582,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 287,
+   "kol": 23
+  },
+  {
+   "t": "2026-11-15T03:54:54+07:00",
+   "kind": "sell",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.001723,
+   "entry": 0.001984,
+   "usd": 2.3428,
+   "pnl": -0.5231,
+   "why": "stop -13.2%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 169,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794689208.0581129
+ "rank_t": 1794689485.7257571
 }
