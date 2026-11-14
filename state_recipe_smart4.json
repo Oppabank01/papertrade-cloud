@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.25906364386506775,
+ "cash": 0.17095944776025737,
  "pos": {
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 19.25021139545809,
    "entry": 0.004712,
-   "last": 0.004743,
+   "last": 0.004733,
    "peak": 0.004773,
    "cost": 0.09349309018284738,
    "opened": "2026-11-15T04:21:15+07:00",
@@ -20,12 +20,25 @@
    "sym": "GATO",
    "qty": 12.189505680141476,
    "entry": 0.007528,
-   "last": 0.007396,
-   "peak": 0.007574,
+   "last": 0.007612,
+   "peak": 0.007612,
    "cost": 0.09458111601742428,
    "opened": "2026-11-15T04:54:36+07:00",
    "smart": 62,
    "kol": 4,
+   "gap": 0,
+   "miss": 0
+  },
+  "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
+   "sym": "STANK",
+   "qty": 55.397725898176944,
+   "entry": 0.001543,
+   "last": 0.001543,
+   "peak": 0.001543,
+   "cost": 0.08810419610481038,
+   "opened": "2026-11-15T05:08:41+07:00",
+   "smart": 77,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -2977,8 +2990,21 @@
    "cost_side": 0.03,
    "smart": 82,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T05:08:41+07:00",
+   "kind": "buy",
+   "mint": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
+   "sym": "STANK",
+   "price": 0.001543,
+   "jup": 0.001553460129280022,
+   "usd": 0.0881,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 77,
+   "kol": 1
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794693820.3205063
+ "rank_t": 1794694097.8686512
 }
