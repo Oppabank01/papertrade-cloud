@@ -243,5 +243,50 @@
    "FEE": 0.005,
    "SLIP": 0.005
   }
+ },
+ {
+  "name": "i_huge_liq",
+  "label": "สภาพคล่อง 1M+ มาร์เก็ตแคป 5M+ ค่าธรรมเนียมใหญ่",
+  "horizon": "week",
+  "source": "iteration 14 Nov: bigliq family loses mainly to stop slippage (bigliq 19 sells avg -9.2% on stops) and 3h timeouts; deeper pools slip less",
+  "claim": "same as i_bigliq_cost2 but pool liquidity 1M+ and mcap 5M+: deeper pools mean smaller stop slippage and less noise",
+  "added": "2026-11-14",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 1000000,
+    "market_cap": 5000000
+   },
+   "up": true
+  },
+  "exit": {
+   "FEE": 0.005,
+   "SLIP": 0.005
+  }
+ },
+ {
+  "name": "i_bigliq_rc_run24",
+  "label": "สภาพคล่อง 200k+ RugCheck ปล่อยวิ่ง 24 ชม.",
+  "horizon": "week",
+  "source": "iteration 14 Nov: bigliqRC lost least among old accounts (-10.4%, 8 sells, 7 timeouts); run24 lets winners run",
+  "claim": "i_bigliq_run24 plus RugCheck filter: does removing rug-flagged coins make letting winners run profitable",
+  "added": "2026-11-14",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 200000,
+    "market_cap": 2000000
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.1,
+   "TRAIL_ON": 0.2,
+   "TRAIL": 0.15,
+   "MAX_HOLD_H": 24,
+   "FEE": 0.005,
+   "SLIP": 0.005
+  }
  }
 ]
