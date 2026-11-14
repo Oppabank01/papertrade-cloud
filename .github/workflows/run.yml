@@ -53,6 +53,16 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -q -m "paper state $(date -u +%FT%TZ)"
           for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
+      - name: start the API iteration at 00, 06 and 18 Bangkok
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          h=$((10#$(TZ=Asia/Bangkok date +%H)))
+          case $h in 0|6|18) ;; *) exit 0 ;; esac
+          last=$(gh run list -R ${{ github.repository }} -w iterate -L 1 --json createdAt --jq '.[0].createdAt // ""')
+          [ -n "$last" ] && [ $(( $(date +%s) - $(date -d "$last" +%s) )) -lt 7200 ] && exit 0
+          gh workflow run iterate -R ${{ github.repository }}
       - name: chain next run in ~5 min
         if: always()
         env:

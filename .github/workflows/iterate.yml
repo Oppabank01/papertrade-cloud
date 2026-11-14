@@ -1,0 +1,35 @@
+name: iterate
+# Claude (API key) runs ITERATE.md. Started by run.yml at 00, 06 and 18 Bangkok; the claude.ai routine still runs at 12:00 as the backup.
+on:
+  workflow_dispatch:
+concurrency:
+  group: iterate
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  iterate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: claude code
+        run: npm install -g @anthropic-ai/claude-code
+      - name: iterate
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        # No web tools, and Bash limited to read/run/git commands: rankings and token names come from strangers.
+        run: |
+          claude -p "$(cat ITERATE.md)" --model sonnet --max-turns 60 \
+            --allowedTools "Read,Edit,Write,Glob,Grep,Bash(python3:*),Bash(git status:*),Bash(git diff:*),Bash(git log:*),Bash(git add:*),Bash(git checkout:*),Bash(git -c:*),Bash(ls:*),Bash(cat:*),Bash(head:*),Bash(tail:*),Bash(wc:*),Bash(jq:*)" \
+            --disallowedTools "WebFetch,WebSearch" | tee iterate.out
+      - name: push
+        run: |
+          git log origin/main..HEAD --oneline | grep -q . || { echo "nothing committed"; exit 0; }
+          for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done
