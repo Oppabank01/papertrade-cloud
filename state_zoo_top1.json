@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.9555395180113182,
+ "cash": 0.7887622513641819,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 8.114958488303163,
    "entry": 0.04992,
-   "last": 0.04856,
+   "last": 0.04874,
    "peak": 0.04992,
    "cost": 0.4175414633437373,
    "opened": "2026-11-14T07:16:08+07:00",
@@ -16,17 +16,17 @@
    "kol": 186,
    "miss": 0
   },
-  "AUH2LBseFhiYBxr1xsdyBhr7m4HSGMk9oWRB7f2qpump": {
-   "sym": "COCORO",
-   "qty": 2809.9586951682327,
-   "entry": 0.0001166,
-   "last": 0.0001166,
-   "peak": 0.0001166,
-   "cost": 0.3377047864941414,
-   "opened": "2026-11-14T07:55:01+07:00",
+  "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
+   "sym": "JENSEN",
+   "qty": 1486.762212969712,
+   "entry": 0.0002189,
+   "last": 0.0002581,
+   "peak": 0.0002581,
+   "cost": 0.33544861721198715,
+   "opened": "2026-11-14T07:59:12+07:00",
    "zoo": "top1",
-   "smart": 33,
-   "kol": 2,
+   "smart": 1,
+   "kol": 0,
    "miss": 0
   }
  },
@@ -611,8 +611,28 @@
    "sym": "COCORO",
    "price": 0.0001166,
    "usd": 0.3377
+  },
+  {
+   "t": "2026-11-14T07:59:12+07:00",
+   "kind": "buy",
+   "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+   "sym": "JENSEN",
+   "price": 0.0002189,
+   "usd": 0.3354
+  },
+  {
+   "t": "2026-11-14T07:59:12+07:00",
+   "kind": "sell",
+   "mint": "AUH2LBseFhiYBxr1xsdyBhr7m4HSGMk9oWRB7f2qpump",
+   "sym": "COCORO",
+   "price": 6.187e-05,
+   "usd": 0.1687,
+   "pnl": -0.169,
+   "why": "stop -46.9%",
+   "smart": 33,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: วอลุ่มอันดับ 1",
- "rank_t": 1794617693.0110922
+ "rank_t": 1794617933.8298743
 }
