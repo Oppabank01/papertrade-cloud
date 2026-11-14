@@ -3,6 +3,12 @@ on:
   schedule:
     - cron: "2-59/5 * * * *"   # off the :00 peak; GitHub drops/delays busy-minute schedules
   workflow_dispatch:
+  # watchdog: the claude.ai routines push these files 3x a day; a push restarts the chain if it broke.
+  # Bot pushes use GITHUB_TOKEN and never trigger this. A spare run is harmless: the group keeps
+  # at most one pending run, so the chain's own dispatch cancels it.
+  push:
+    branches: [main]
+    paths: [data/iterate_log.md, data/x_research_log.md, x_recipes.json, lessons.md]
 concurrency:
   group: papertrade
   cancel-in-progress: false
