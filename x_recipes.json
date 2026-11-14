@@ -36,7 +36,7 @@
   "source": "https://dev.to/deni_yuda_880c19d38c2fe2d/how-to-implement-solana-sniper-bot-sales-logic-54a7",
   "claim": "backtest: take +30% stop -30% hold 120s gave 52.7% win rate",
   "added": "2026-11-14",
-  "active": true,
+  "active": false,
   "entry": {
    "min": {
     "liquidity": 15000
@@ -56,7 +56,8 @@
    "MAX_HOLD_H": 0.034,
    "PER_TRADE": 0.2,
    "MAX_POS": 4
-  }
+  },
+  "retired": "2026-11-15: speed-based (2-6 min hold) cannot be reproduced with 20 s price checks; research rule 1"
  },
  {
   "name": "x_scalp_1020",
@@ -396,7 +397,7 @@
   "source": "https://ketchupjl.github.io/backtesting",
   "claim": "backtest of low-cap Solana bot: buy/sell ratio >= 1.6 with market cap and volume floors, exit +50% take profit, -25% stop, 6 minute timeout",
   "added": "2026-11-14",
-  "active": true,
+  "active": false,
   "entry": {
    "min": {
     "market_cap": 100000,
@@ -416,7 +417,8 @@
    "MAX_HOLD_H": 0.1,
    "PER_TRADE": 0.2,
    "MAX_POS": 4
-  }
+  },
+  "retired": "2026-11-15: speed-based (2-6 min hold) cannot be reproduced with 20 s price checks; research rule 1"
  },
  {
   "name": "w_hot_mkt",
@@ -794,6 +796,66 @@
   },
   "exit": {
    "HALT_MODE": 2
+  }
+ },
+ {
+  "name": "x_boan_desk",
+  "label": "โต๊ะ 4 เอเจนต์: เหรียญใหม่ คนถือ 300+ top10 ไม่เกิน 30% ขายเป็นช่วง",
+  "horizon": "week",
+  "source": "https://x.com/0xboan/status/2119869042223882557",
+  "claim": "$101 to $6,292 in 24h, 79 of 100 green: scan new pools for liquidity, holders, top-10 share, volume; rug check; buy only a confirmed move; sell in pieces on the way up",
+  "added": "2026-11-15",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 0.25,
+    "liquidity": 20000,
+    "holder_count": 300,
+    "volume": 50000
+   },
+   "max": {
+    "age_h": 6,
+    "top_10_holder_rate": 0.3
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "HALF_AT": 0.3,
+   "TRAIL_ON": 0.3,
+   "TRAIL": 0.15,
+   "MAX_HOLD_H": 4.25,
+   "PER_TRADE": 0.1,
+   "MAX_POS": 8
+  }
+ },
+ {
+  "name": "x_fresh_grad",
+  "label": "เพิ่งจบ bonding curve ไม่เกิน 6 ชม. TP +35% SL -15%",
+  "horizon": "week",
+  "source": "https://x.com/0xNevsky/status/2120942473459417354",
+  "claim": "$75 to $1,944 overnight, 134 trades 80% win: graduation is where pump.fun gets real liquidity; trade around it with TP +35% and SL on every trade",
+  "added": "2026-11-15",
+  "active": true,
+  "entry": {
+   "min": {
+    "launchpad_status": 1,
+    "liquidity": 20000
+   },
+   "max": {
+    "launchpad_status": 1,
+    "age_h": 6
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "TP_ALL": 0.35,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 2
   }
  }
 ]
