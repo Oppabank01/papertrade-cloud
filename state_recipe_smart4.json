@@ -1,18 +1,44 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.5580019678104183,
+ "cash": 0.27616214415772006,
  "pos": {
   "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
    "sym": "Dacity",
    "qty": 71.32065891387626,
    "entry": 0.002239,
-   "last": 0.002085,
+   "last": 0.002095,
    "peak": 0.002277,
    "cost": 0.16459179067013913,
    "opened": "2026-11-14T17:33:57+07:00",
    "smart": 424,
    "kol": 38,
+   "gap": 0,
+   "miss": 0
+  },
+  "LP9FEB5TZZepT48qigsAJkdzB38R5hfFyJzerzxpump": {
+   "sym": "Avatars",
+   "qty": 1297.3428883723823,
+   "entry": 0.0001057,
+   "last": 0.0001056,
+   "peak": 0.0001057,
+   "cost": 0.14134110832917007,
+   "opened": "2026-11-14T19:50:19+07:00",
+   "smart": 53,
+   "kol": 7,
+   "gap": 0,
+   "miss": 0
+  },
+  "5w3wVdJaESaJKyLmStM6Hv9UyUkmZ1b9DLQquAqqpump": {
+   "sym": "SID",
+   "qty": 97.15741525793803,
+   "entry": 0.001403,
+   "last": 0.001403,
+   "peak": 0.001403,
+   "cost": 0.1404987153235282,
+   "opened": "2026-11-14T19:50:20+07:00",
+   "smart": 26,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -2363,8 +2389,34 @@
    "cost_side": 0.03,
    "smart": 61,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T19:50:19+07:00",
+   "kind": "buy",
+   "mint": "LP9FEB5TZZepT48qigsAJkdzB38R5hfFyJzerzxpump",
+   "sym": "Avatars",
+   "price": 0.0001057,
+   "jup": 0.00010576300467248993,
+   "usd": 0.1413,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 53,
+   "kol": 7
+  },
+  {
+   "t": "2026-11-14T19:50:20+07:00",
+   "kind": "buy",
+   "mint": "5w3wVdJaESaJKyLmStM6Hv9UyUkmZ1b9DLQquAqqpump",
+   "sym": "SID",
+   "price": 0.001403,
+   "jup": 0.0014038893296348933,
+   "usd": 0.1405,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 26,
+   "kol": 1
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794660310.469591
+ "rank_t": 1794660591.4469078
 }
