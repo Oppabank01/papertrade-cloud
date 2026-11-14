@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.757969303423847,
- "cash": 6.272986021380617,
- "pos": {},
+ "cash": 5.018388817104493,
+ "pos": {
+  "EbFogghDYCPxg8NDzWJXyJMykNVjfLLgm1o3h7H7pump": {
+   "sym": "FCK925",
+   "qty": 3097.2269913198347,
+   "entry": 0.000393,
+   "last": 0.000393,
+   "peak": 0.000393,
+   "cost": 1.2545972042761235,
+   "opened": "2026-11-15T01:59:44+07:00",
+   "zoo": "trench",
+   "smart": 7,
+   "kol": 4,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:50:18+07:00",
@@ -437,8 +452,22 @@
    "cost_side": 0.03,
    "smart": 20,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T01:59:44+07:00",
+   "kind": "buy",
+   "mint": "EbFogghDYCPxg8NDzWJXyJMykNVjfLLgm1o3h7H7pump",
+   "sym": "FCK925",
+   "price": 0.000393,
+   "jup": 0.00039336846038200856,
+   "usd": 1.2546,
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "zoo": "trench",
+   "smart": 7,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: crbpite8 รอบ 2: ปลอดภัย + smart 3 + V/L สูงสุด 3 ตัว",
- "rank_t": 1794682423.7028499
+ "rank_t": 1794682719.2179675
 }
