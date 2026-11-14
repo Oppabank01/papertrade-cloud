@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 7.407527729365387,
+ "cash": 3.067665015672709,
  "pos": {
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
@@ -62,6 +62,42 @@
    "zoo": "x_scalp_1020",
    "smart": 6,
    "kol": 1
+  },
+  "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
+   "sym": "JENSEN",
+   "qty": 1601.1173654878373,
+   "entry": 0.0008792,
+   "last": 0.0008792,
+   "peak": 0.0008792,
+   "cost": 1.450940412014952,
+   "opened": "2026-11-14T16:06:46+07:00",
+   "zoo": "x_scalp_1020",
+   "smart": 4,
+   "kol": 0
+  },
+  "AuRhMFYgi4G3AQCy3ZfzkArVYLvozD2cH1b6R1RHpump": {
+   "sym": "DCT",
+   "qty": 6086.328857855379,
+   "entry": 0.0002306,
+   "last": 0.0002306,
+   "peak": 0.0002306,
+   "cost": 1.4466166095871476,
+   "opened": "2026-11-14T16:06:46+07:00",
+   "zoo": "x_scalp_1020",
+   "smart": 27,
+   "kol": 2
+  },
+  "6mXFCoZ515w37YfmwXGJMPfQfiK5tr9WkihW3oN9pump": {
+   "sym": "PIRATE",
+   "qty": 5772.7928319565945,
+   "entry": 0.0002424,
+   "last": 0.0002424,
+   "peak": 0.0002424,
+   "cost": 1.442305692090578,
+   "opened": "2026-11-14T16:06:46+07:00",
+   "zoo": "x_scalp_1020",
+   "smart": 245,
+   "kol": 17
   }
  },
  "log": [
@@ -109,8 +145,32 @@
    "sym": "VICECITY",
    "price": 0.0002213,
    "usd": 1.4553
+  },
+  {
+   "t": "2026-11-14T16:06:46+07:00",
+   "kind": "buy",
+   "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+   "sym": "JENSEN",
+   "price": 0.0008792,
+   "usd": 1.4509
+  },
+  {
+   "t": "2026-11-14T16:06:46+07:00",
+   "kind": "buy",
+   "mint": "AuRhMFYgi4G3AQCy3ZfzkArVYLvozD2cH1b6R1RHpump",
+   "sym": "DCT",
+   "price": 0.0002306,
+   "usd": 1.4466
+  },
+  {
+   "t": "2026-11-14T16:06:46+07:00",
+   "kind": "buy",
+   "mint": "6mXFCoZ515w37YfmwXGJMPfQfiK5tr9WkihW3oN9pump",
+   "sym": "PIRATE",
+   "price": 0.0002424,
+   "usd": 1.4423
   }
  ],
  "label": "สวนสัตว์: สกัลป์ pump.fun ตัดกำไร/ขาดทุน 15% เดือนเต็ม",
- "rank_t": 1794646844.399994
+ "rank_t": 1794647177.4454074
 }
