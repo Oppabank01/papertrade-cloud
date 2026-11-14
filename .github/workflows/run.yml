@@ -52,5 +52,5 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          sleep 210
+          sleep 5   # the wait now happens inside cloud.sh with the exit watcher running
           gh workflow run papertrade -R ${{ github.repository }}

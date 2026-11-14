@@ -2,6 +2,7 @@
 # GitHub Actions entry (every ~5 min). Paper money only: no wallet, no keys that can trade, no orders anywhere.
 cd "$(dirname "$0")" || exit 1
 PY=python3
+T0=$(date +%s)
 M=$((10#$(date +%M)))
 $PY zoo.py watch 900 & WATCH=$!   # 20-second exit checks for the zoo's FAST accounts while the rest of this run works
 # fast multi-agent account (laya DEBATE), moved from the Mac 14 Nov; its scan saves the ranking the recipes/zoo read
@@ -21,6 +22,7 @@ for r in insider grad smart4; do $PY recipes.py $r scan; $PY recipes.py $r run; 
 $PY wallets.py poll; $PY wallets.py run
 $PY zoo.py tick       # strategy zoo: ~20 one-rule accounts on the same ranking
 $PY nightly.py tick    # nightly sessions: fresh 500 THB at 21:00, settle at 09:00
+left=$((T0 + 230 - $(date +%s))); [ "$left" -gt 0 ] && sleep "$left"   # watcher keeps checking here instead of the chain step idling
 $PY zoo.py stopwatch; wait $WATCH
 TODAY=$(TZ=Asia/Bangkok date +%F); H=$((10#$(TZ=Asia/Bangkok date +%H)))
 if [ "$H" -ge 8 ] && [ "$(cat data/last_daily 2>/dev/null)" != "$TODAY" ]; then
