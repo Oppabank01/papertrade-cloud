@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 12.29751173696327,
+ "cash": 9.849993505165601,
  "pos": {},
  "log": [
   {
@@ -57,8 +57,37 @@
    "cost_side": 0.03,
    "smart": 76,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T21:51:50+07:00",
+   "kind": "buy",
+   "mint": "6T8QbFuULVxy2BC9kPa7QAvJ5jQSi8xrjBFhzrfFpump",
+   "sym": "Ballfin",
+   "price": 0.0002842,
+   "jup": 0.0002814444645645154,
+   "usd": 2.4595,
+   "stop_set": -0.35,
+   "cost_side": 0.03,
+   "zoo": "x_ladder_2x",
+   "smart": 1,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-14T21:52:36+07:00",
+   "kind": "sell",
+   "mint": "6T8QbFuULVxy2BC9kPa7QAvJ5jQSi8xrjBFhzrfFpump",
+   "sym": "Ballfin",
+   "price": 1.471161263149584e-06,
+   "entry": 0.0002842,
+   "usd": 0.012,
+   "pnl": -2.4475,
+   "why": "stop -99.5%",
+   "stop_set": -0.35,
+   "cost_side": 0.03,
+   "smart": 1,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: บันไดขาย ครึ่งที่ x2 trail 30% stop -35%",
- "rank_t": 1794667571.987184
+ "rank_t": 1794667860.8252165
 }

@@ -1,8 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 14.727540500736376,
- "pos": {},
+ "cash": 11.7820324005891,
+ "pos": {
+  "FmNyBh2B2HxzjcdKtfTnDgvQhN3LxyfJHDjKX9Mcpump": {
+   "sym": "SOSSA",
+   "qty": 730386.3094751125,
+   "entry": 3.849214236843076e-06,
+   "last": 3.849214236843076e-06,
+   "peak": 3.849214236843076e-06,
+   "cost": 2.9455081001472756,
+   "curve": "E2pnzzaFLzy4KEiyPzuRDxt8CrLUezpqHZyF9ofcr8Fz",
+   "opened": "2026-11-14T21:51:24+07:00",
+   "wallet": "2kN7bb"
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T21:07:09+07:00",
@@ -24,8 +36,23 @@
    "sym": "Town",
    "wallet": "2kN7bb",
    "why": "not on a SOL pump.fun curve"
+  },
+  {
+   "t": "2026-11-14T21:51:24+07:00",
+   "kind": "buy",
+   "mint": "FmNyBh2B2HxzjcdKtfTnDgvQhN3LxyfJHDjKX9Mcpump",
+   "sym": "SOSSA",
+   "price": 3.849214236843076e-06,
+   "jup": 3.830575092856344e-06,
+   "usd": 2.9455,
+   "curve_sol": 10.82,
+   "wallet": "2kN7bb",
+   "wallet_usd": 319,
+   "lag_min_after_skip": 0.0,
+   "stop_set": -0.08,
+   "cost_side": 0.0325
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ บน bonding curve",
- "seen_t": "2026-11-14T21:18:17+07:00"
+ "seen_t": "2026-11-14T21:51:23+07:00"
 }
