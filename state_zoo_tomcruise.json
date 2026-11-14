@@ -1,18 +1,31 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 5.2526617953445776,
+ "cash": 4.555804574918383,
  "pos": {
   "34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump": {
    "sym": "BIG",
    "qty": 1251.5757906034746,
    "entry": 0.001368,
-   "last": 0.001371,
-   "peak": 0.001416,
+   "last": 0.001432,
+   "peak": 0.001432,
    "cost": 1.7647450850809663,
    "opened": "2026-11-14T09:21:16+07:00",
    "zoo": "tomcruise",
    "smart": 5,
+   "kol": 0,
+   "miss": 0
+  },
+  "7DvzSp1hKJADiCk9v5ncVp6WV4s1VY342yLje1eApump": {
+   "sym": "NVIDIA",
+   "qty": 9353.77525259399,
+   "entry": 7.228e-05,
+   "last": 7.267e-05,
+   "peak": 7.267e-05,
+   "cost": 0.6968572204261942,
+   "opened": "2026-11-14T10:00:05+07:00",
+   "zoo": "tomcruise",
+   "smart": 0,
    "kol": 0,
    "miss": 0
   }
@@ -510,8 +523,16 @@
    "why": "ครบ 3 ชม. (+21.4%)",
    "smart": 10,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T10:00:05+07:00",
+   "kind": "buy",
+   "mint": "7DvzSp1hKJADiCk9v5ncVp6WV4s1VY342yLje1eApump",
+   "sym": "NVIDIA",
+   "price": 7.228e-05,
+   "usd": 0.6969
   }
  ],
  "label": "สวนสัตว์: tomcruise 6 เอเจนต์: scanner rug check sizer ตามสภาพคล่อง",
- "rank_t": 1794624920.2568483
+ "rank_t": 1794625186.8908412
 }
