@@ -1,48 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 5.375540970953634,
+ "cash": 10.439205775311386,
  "pos": {
-  "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": {
-   "sym": "TripleT",
-   "qty": 1160.2491387964324,
-   "entry": 0.002273,
-   "last": 0.00219,
-   "peak": 0.002389,
-   "cost": 2.6638178757953495,
-   "opened": "2026-11-14T23:42:17+07:00",
-   "zoo": "i_bigliq_cost2",
-   "smart": 610,
-   "kol": 71,
-   "gap": 0,
-   "miss": 0
-  },
-  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
-   "sym": "Buttcoin",
-   "qty": 514.5620696247869,
-   "entry": 0.005115,
-   "last": 0.004919,
-   "peak": 0.005163,
-   "cost": 2.6585035591331376,
-   "opened": "2026-11-14T23:42:17+07:00",
-   "zoo": "i_bigliq_cost2",
-   "smart": 470,
-   "kol": 48,
-   "gap": 0,
-   "miss": 0
-  },
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 416.1930329329497,
    "entry": 0.006256,
-   "last": 0.006303087938643421,
+   "last": 0.006414009606141264,
    "peak": 0.006595,
    "cost": 2.629937237977358,
    "opened": "2026-11-15T00:58:06+07:00",
    "zoo": "i_bigliq_cost2",
    "smart": 287,
    "kol": 23,
-   "gap": 8,
+   "gap": 6,
    "miss": 0
   }
  },
@@ -412,9 +384,39 @@
    "cost_side": 0.01,
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T02:42:37+07:00",
+   "kind": "sell",
+   "mint": "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump",
+   "sym": "TripleT",
+   "price": 0.002201,
+   "entry": 0.002273,
+   "usd": 2.5282,
+   "pnl": -0.1356,
+   "why": "ครบ 3 ชม. (-3.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.01,
+   "smart": 610,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T02:42:37+07:00",
+   "kind": "sell",
+   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+   "sym": "Buttcoin",
+   "price": 0.004977,
+   "entry": 0.005115,
+   "usd": 2.5354,
+   "pnl": -0.1231,
+   "why": "ครบ 3 ชม. (-2.7%)",
+   "stop_set": -0.08,
+   "cost_side": 0.01,
+   "smart": 470,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ ค่าธรรมเนียมสมจริง 1% ต่อขา",
- "rank_t": 1794684960.216145,
+ "rank_t": 1794685250.918131,
  "halted": "ราคา GTA6 สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }
