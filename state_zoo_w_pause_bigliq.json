@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 12.651546948844597,
- "pos": {},
+ "cash": 10.121237559075677,
+ "pos": {
+  "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
+   "sym": "WASTED",
+   "qty": 418.9259675689089,
+   "entry": 0.00586,
+   "last": 0.005719,
+   "peak": 0.00586,
+   "cost": 2.5303093897689197,
+   "opened": "2026-11-15T04:51:05+07:00",
+   "zoo": "w_pause_bigliq",
+   "smart": 63,
+   "kol": 1,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-15T00:43:01+07:00",
@@ -168,8 +183,22 @@
    "t": "2026-11-15T04:46:48+07:00",
    "kind": "resume",
    "why": "ราคา GTA6 สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-15T04:51:05+07:00",
+   "kind": "buy",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "price": 0.00586,
+   "jup": 0.005816151348827439,
+   "usd": 2.5303,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_bigliq",
+   "smart": 63,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794692673.5010471
+ "rank_t": 1794692950.4050105
 }
