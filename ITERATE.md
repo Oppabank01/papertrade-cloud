@@ -17,7 +17,7 @@ Then read docs/pstack/hillclimb.md, attack-the-premise.md, explain-the-number.md
 - data/rank_hist/ holds slim GMGN rankings every ~5 min since 14 Nov; you may backtest an idea with a small script in /tmp (never commit it).
 
 ## 2. Decide
-- Daily cap: count x_recipes.json entries whose name starts with "i_" and whose "added" is today's Bangkok date. Add new accounts only while that count is below 2 (the routine and this workflow share the cap). If the cap is reached, skip adding and still do the rest.
+- Daily cap: count x_recipes.json entries whose name starts with "i_" and whose "added" is today's Bangkok date. Add new accounts only while that count is below 4 (the routine and this workflow share the cap). If the cap is reached, skip adding and still do the rest.
 - Diagnose WHY the best accounts still lose and form at most 2 testable hypotheses. Each becomes ONE new entry appended to x_recipes.json named "i_<short_snake>" with the same schema as the existing entries ("source": "iteration <date> api: <evidence>", "added": today). Change one or two things versus the parent rule so the result is attributable. Allowed entry fields: names in KEEP in zoo.py plus age_h, vl, score.
 - Costs stay honest: FEE+SLIP per side at least 0.005+0.005 for pools with liquidity >= 200k, and at least 0.01+0.02 for smaller pools.
 - Never edit an existing entry's rules, never edit Python files, never touch the ZOO dict.

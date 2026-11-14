@@ -1,5 +1,5 @@
 name: iterate
-# Claude (API key) runs ITERATE.md. Started by run.yml at 00, 06 and 18 Bangkok; the claude.ai routine still runs at 12:00 as the backup.
+# Claude (API key) runs ITERATE.md. Started by run.yml every 3 hours Bangkok (not 12); the claude.ai routine still runs at 12:00 as the backup.
 on:
   workflow_dispatch:
 concurrency:
