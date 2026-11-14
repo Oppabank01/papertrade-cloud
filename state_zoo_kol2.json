@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.8381547973312944,
+ "cash": 1.3975487844175056,
  "pos": {
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 1.0557938824136164,
    "entry": 0.1241,
-   "last": 0.1222,
+   "last": 0.1217,
    "peak": 0.1255,
    "cost": 0.13504846506651183,
    "opened": "2026-11-14T06:32:35+07:00",
@@ -33,26 +33,13 @@
    "sym": "ANSEM",
    "qty": 11.560242362512197,
    "entry": 0.04845,
-   "last": 0.0479,
+   "last": 0.04755,
    "peak": 0.0486,
    "cost": 0.5772971989937291,
    "opened": "2026-11-14T08:47:38+07:00",
    "zoo": "kol2",
    "smart": 1000,
    "kol": 186,
-   "miss": 0
-  },
-  "HqbtT1MBhoCaZBZ5byqXSZzJdhPNtoF8KrJ4ZZdepump": {
-   "sym": "GTA",
-   "qty": 42426.486417099404,
-   "entry": 1.323e-05,
-   "last": 1.366e-05,
-   "peak": 1.603e-05,
-   "cost": 0.5785429965968101,
-   "opened": "2026-11-14T09:00:02+07:00",
-   "zoo": "kol2",
-   "smart": 4,
-   "kol": 3,
    "miss": 0
   }
  },
@@ -993,8 +980,20 @@
    "sym": "GTA",
    "price": 1.323e-05,
    "usd": 0.5785
+  },
+  {
+   "t": "2026-11-14T09:25:30+07:00",
+   "kind": "sell",
+   "mint": "HqbtT1MBhoCaZBZ5byqXSZzJdhPNtoF8KrJ4ZZdepump",
+   "sym": "GTA",
+   "price": 1.359e-05,
+   "usd": 0.5594,
+   "pnl": -0.0191,
+   "why": "trailing จากยอด +21% (+2.7%)",
+   "smart": 4,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: KOL เข้า 2 คนขึ้นไป",
- "rank_t": 1794622858.161195
+ "rank_t": 1794623110.6807637
 }

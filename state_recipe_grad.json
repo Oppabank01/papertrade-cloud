@@ -1,33 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.6734569680355436,
- "pos": {
-  "9T9JyZtJQjYNfSYvhMB4uXkPJLUv6MTfVRBNRq5Spump": {
-   "sym": "SUNBUCK",
-   "qty": 20430.829729586632,
-   "entry": 2.664e-05,
-   "last": 2.661e-05,
-   "peak": 2.979e-05,
-   "cost": 0.5609949536138815,
-   "opened": "2026-11-14T09:12:55+07:00",
-   "smart": 31,
-   "kol": 4,
-   "miss": 0
-  },
-  "Hrd1QQnFeZJdX5wYLBmj4SVDcwqXLh8TyJunx4zspump": {
-   "sym": "Angel",
-   "qty": 17977.306450037897,
-   "entry": 3.079e-05,
-   "last": 3.079e-05,
-   "peak": 3.079e-05,
-   "cost": 0.5705228464199824,
-   "opened": "2026-11-14T09:21:10+07:00",
-   "smart": 17,
-   "kol": 2,
-   "miss": 0
-  }
- },
+ "cash": 2.4873842110304665,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -1329,8 +1304,32 @@
    "sym": "Angel",
    "price": 3.079e-05,
    "usd": 0.5705
+  },
+  {
+   "t": "2026-11-14T09:25:27+07:00",
+   "kind": "sell",
+   "mint": "9T9JyZtJQjYNfSYvhMB4uXkPJLUv6MTfVRBNRq5Spump",
+   "sym": "SUNBUCK",
+   "price": 1.968e-05,
+   "usd": 0.3901,
+   "pnl": -0.1709,
+   "why": "stop -26.1%",
+   "smart": 31,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T09:25:27+07:00",
+   "kind": "sell",
+   "mint": "Hrd1QQnFeZJdX5wYLBmj4SVDcwqXLh8TyJunx4zspump",
+   "sym": "Angel",
+   "price": 2.43e-05,
+   "usd": 0.4238,
+   "pnl": -0.1467,
+   "why": "stop -21.1%",
+   "smart": 17,
+   "bundler": null
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794622858.161195
+ "rank_t": 1794623110.6807637
 }
