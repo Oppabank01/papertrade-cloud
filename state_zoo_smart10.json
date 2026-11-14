@@ -1,39 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.17376087739917753,
+ "cash": 0.5763634164664744,
  "pos": {
-  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
-   "sym": "GATO",
-   "qty": 25.975607822152906,
-   "entry": 0.008459,
-   "last": 0.007854,
-   "peak": 0.008468,
-   "cost": 0.2264766713745531,
-   "opened": "2026-11-14T08:51:50+07:00",
-   "zoo": "smart10",
-   "smart": 60,
-   "kol": 4,
-   "miss": 0
-  },
-  "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": {
-   "sym": "Sakura",
-   "qty": 1419.1177603844847,
-   "entry": 0.0001519,
-   "last": 0.0001678,
-   "peak": 0.0001938,
-   "cost": 0.22218510389858093,
-   "opened": "2026-11-14T09:25:30+07:00",
-   "zoo": "smart10",
-   "smart": 135,
-   "kol": 6,
-   "miss": 0
-  },
   "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
    "sym": "JOB",
    "qty": 157.452738573966,
    "entry": 0.001344,
-   "last": 0.001355,
+   "last": 0.001382,
    "peak": 0.001404,
    "cost": 0.21811634780809142,
    "opened": "2026-11-14T09:42:58+07:00",
@@ -46,7 +20,7 @@
    "sym": "STONK",
    "qty": 4.56693445495563,
    "entry": 0.04415,
-   "last": 0.04398,
+   "last": 0.0438,
    "peak": 0.04449,
    "cost": 0.20782329023530313,
    "opened": "2026-11-14T09:47:12+07:00",
@@ -1373,8 +1347,32 @@
    "sym": "STONK",
    "price": 0.04415,
    "usd": 0.2078
+  },
+  {
+   "t": "2026-11-14T10:26:39+07:00",
+   "kind": "sell",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "price": 0.007693,
+   "usd": 0.1939,
+   "pnl": -0.0326,
+   "why": "stop -9.1%",
+   "smart": 60,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T10:26:39+07:00",
+   "kind": "sell",
+   "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
+   "sym": "Sakura",
+   "price": 0.0001516,
+   "usd": 0.2087,
+   "pnl": -0.0135,
+   "why": "trailing จากยอด +28% (-0.2%)",
+   "smart": 135,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: smart wallet 10 ขึ้นไป",
- "rank_t": 1794626523.1801767
+ "rank_t": 1794626788.2258503
 }

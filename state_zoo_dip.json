@@ -1,27 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.13526500868848124,
+ "cash": 0.1509122296998041,
  "pos": {
-  "6fJPx1nWz6PvMifsee6AtTi4H3srtis5rHAUs3HYpump": {
-   "sym": "JASON",
-   "qty": 1244.3803727050433,
-   "entry": 0.0001244,
-   "last": 0.0001487,
-   "peak": 0.0001636,
-   "cost": 0.15955567755566624,
-   "opened": "2026-11-14T10:09:25+07:00",
-   "zoo": "dip",
-   "smart": 24,
-   "kol": 0,
-   "miss": 0
-  },
   "12bTtDLSegj1rw2oxXWYm63Rxw5QxkVSXDHCEvRShaDe": {
    "sym": "SHADE",
    "qty": 7548.577290070926,
    "entry": 1.975e-05,
-   "last": 3.812e-05,
-   "peak": 3.812e-05,
+   "last": 4.157e-05,
+   "peak": 4.157e-05,
    "cost": 0.15366357604504308,
    "opened": "2026-11-14T10:13:41+07:00",
    "zoo": "dip",
@@ -33,13 +20,26 @@
    "sym": "farmed",
    "qty": 3186.6750288332364,
    "entry": 5.391e-05,
-   "last": 5.391e-05,
-   "peak": 5.391e-05,
+   "last": 6.657e-05,
+   "peak": 6.657e-05,
    "cost": 0.17707034714945347,
    "opened": "2026-11-14T10:22:21+07:00",
    "zoo": "dip",
    "smart": 87,
    "kol": 4,
+   "miss": 0
+  },
+  "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump": {
+   "sym": "chudhaos",
+   "qty": 341.3110830417802,
+   "entry": 0.0003845,
+   "last": 0.0003845,
+   "peak": 0.0003845,
+   "cost": 0.13526500868848124,
+   "opened": "2026-11-14T10:26:39+07:00",
+   "zoo": "dip",
+   "smart": 19,
+   "kol": 1,
    "miss": 0
   }
  },
@@ -2092,8 +2092,28 @@
    "why": "stop -93.4%",
    "smart": 9,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T10:26:39+07:00",
+   "kind": "buy",
+   "mint": "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump",
+   "sym": "chudhaos",
+   "price": 0.0003845,
+   "usd": 0.1353
+  },
+  {
+   "t": "2026-11-14T10:26:39+07:00",
+   "kind": "sell",
+   "mint": "6fJPx1nWz6PvMifsee6AtTi4H3srtis5rHAUs3HYpump",
+   "sym": "JASON",
+   "price": 0.000125,
+   "usd": 0.1509,
+   "pnl": -0.0086,
+   "why": "trailing จากยอด +32% (+0.5%)",
+   "smart": 24,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794626523.1801767
+ "rank_t": 1794626788.2258503
 }
