@@ -133,26 +133,29 @@
    "stop_set": -0.18,
    "cost_side": 0.03,
    "source": "state_recipe_smart4.json"
+  },
+  {
+   "t": "2026-11-15T00:01:13+07:00",
+   "kind": "sell",
+   "mint": "ByCUjGx4FkhK7ac8Vdqzb41yScUtvG78GBYSXKsMpump",
+   "sym": "dca",
+   "price": 9.719e-05,
+   "entry": 8.614e-05,
+   "usd": 9.3847,
+   "pnl": 0.5482,
+   "why": "trailing จากยอด +30% (+12.8%)",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "pos": {
-  "ByCUjGx4FkhK7ac8Vdqzb41yScUtvG78GBYSXKsMpump": {
-   "sym": "dca",
-   "qty": 99526.30457730044,
-   "entry": 8.614e-05,
-   "last": 0.0001119,
-   "peak": 0.0001124,
-   "cost": 8.836524300441825,
-   "opened": "2026-11-14T21:14:18+07:00",
-   "source": "state_recipe_smart4.json",
-   "gap": 0,
-   "miss": 0
-  },
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 1409.1380467272618,
    "entry": 0.004056,
-   "last": 0.004053,
+   "last": 0.004043,
    "peak": 0.004251,
    "cost": 5.891016200294551,
    "opened": "2026-11-14T22:35:39+07:00",
@@ -161,7 +164,7 @@
    "miss": 0
   }
  },
- "cash": 0.0,
+ "cash": 9.384707287920168,
  "start_usd": 14.727540500736376,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
