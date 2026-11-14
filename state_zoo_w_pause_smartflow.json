@@ -1,28 +1,28 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 4.0971169047589635,
+ "cash": 3.424243303076864,
  "pos": {
   "6sZUjgnHTdezsZoMdbTcxsi58bXqnsz6mkj49Wgxpump": {
    "sym": "SHIT",
    "qty": 35552.46730790664,
    "entry": 8.015e-05,
-   "last": 0.0001151,
-   "peak": 0.0001155,
+   "last": 0.00011798702150546541,
+   "peak": 0.0001212,
    "cost": 2.9370544781784345,
    "opened": "2026-11-15T00:58:44+07:00",
    "zoo": "w_pause_smartflow",
    "smart": 66,
    "kol": 4,
-   "gap": 0,
+   "gap": 7,
    "miss": 0
   },
   "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
    "sym": "FOOD",
    "qty": 7648.119682882018,
    "entry": 0.0003442,
-   "last": 0.0003637239078606967,
-   "peak": 0.0003747,
+   "last": 0.0003741354680292728,
+   "peak": 0.0003792,
    "cost": 2.71334033688723,
    "opened": "2026-11-15T01:03:30+07:00",
    "zoo": "w_pause_smartflow",
@@ -31,18 +31,18 @@
    "gap": 1,
    "miss": 0
   },
-  "DGNHqQS2buSPcNzZDhDkzUfpMe6syWzb8hrjv9yJqUQc": {
-   "sym": "DEGO",
-   "qty": 3839.5502647945223,
-   "entry": 0.0006694,
-   "last": 0.000585,
-   "peak": 0.0008118,
-   "cost": 2.6491392983441076,
-   "opened": "2026-11-15T01:36:18+07:00",
+  "5wU7osGtkG6NP1Fxqv83mFL4uuDmjvggrkGwuZiYpump": {
+   "sym": "VI",
+   "qty": 63516.84530388778,
+   "entry": 3.961e-05,
+   "last": 4.205e-05,
+   "peak": 4.205e-05,
+   "cost": 2.5931789759709285,
+   "opened": "2026-11-15T01:45:33+07:00",
    "zoo": "w_pause_smartflow",
-   "smart": 10,
-   "kol": 1,
-   "gap": 6,
+   "smart": 55,
+   "kol": 2,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -180,8 +180,37 @@
    "cost_side": 0.03,
    "smart": 4,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T01:45:26+07:00",
+   "kind": "sell",
+   "mint": "DGNHqQS2buSPcNzZDhDkzUfpMe6syWzb8hrjv9yJqUQc",
+   "sym": "DEGO",
+   "price": 0.0005155,
+   "entry": 0.0006694,
+   "usd": 1.9203,
+   "pnl": -0.7288,
+   "why": "stop -23.0%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 10,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T01:45:33+07:00",
+   "kind": "buy",
+   "mint": "5wU7osGtkG6NP1Fxqv83mFL4uuDmjvggrkGwuZiYpump",
+   "sym": "VI",
+   "price": 3.961e-05,
+   "jup": 3.928726159086229e-05,
+   "usd": 2.5932,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "w_pause_smartflow",
+   "smart": 55,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794681565.5684884
+ "rank_t": 1794681848.9490101
 }
