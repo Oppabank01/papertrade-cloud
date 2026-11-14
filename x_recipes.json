@@ -288,5 +288,105 @@
    "FEE": 0.005,
    "SLIP": 0.005
   }
+ },
+ {
+  "name": "w_aged_nostop",
+  "label": "อายุเกิน 1 วัน pool 200k+ ไม่มี stop ถือ 12 ชม.",
+  "horizon": "week",
+  "source": "user 14 Nov: 'ลองสมมติฐานแปลกๆ เปิดกระเป๋าได้เลย' (opened by Mac session, not counted in i_ cap)",
+  "claim": "iterate 14 Nov: aged/holders timeouts avg +5 to +6% gross but stops avg -12% eat it; remove the stop on deep aged pools and let trailing/time exit",
+  "added": "2026-11-14",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 24,
+    "liquidity": 200000
+   },
+   "up": true
+  },
+  "exit": {
+   "STOP": null,
+   "TRAIL_ON": 0.3,
+   "TRAIL": 0.2,
+   "MAX_HOLD_H": 12,
+   "FEE": 0.005,
+   "SLIP": 0.005
+  }
+ },
+ {
+  "name": "w_red5m",
+  "label": "สวนทาง: อายุเกิน 1 วัน pool 200k+ กำลังแดง 5 นาที",
+  "horizon": "week",
+  "source": "user 14 Nov: 'ลองสมมติฐานแปลกๆ เปิดกระเป๋าได้เลย' (opened by Mac session, not counted in i_ cap)",
+  "claim": "every zoo rule requires 'up' and loses to or near rand; test the inverse: buy deep aged coins while 5m change <= -2%, same exits as w_aged_nostop",
+  "added": "2026-11-14",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 24,
+    "liquidity": 200000
+   },
+   "max": {
+    "price_change_percent5m": -2
+   }
+  },
+  "exit": {
+   "STOP": null,
+   "TRAIL_ON": 0.3,
+   "TRAIL": 0.2,
+   "MAX_HOLD_H": 12,
+   "FEE": 0.005,
+   "SLIP": 0.005
+  }
+ },
+ {
+  "name": "w_deadcat",
+  "label": "เด้งหลังร่วง: อายุเกิน 1 วัน pool 100k+ ร่วง 1 ชม. 15% ขึ้นไป",
+  "horizon": "month",
+  "source": "user 14 Nov: 'ลองสมมติฐานแปลกๆ เปิดกระเป๋าได้เลย' (opened by Mac session, not counted in i_ cap)",
+  "claim": "aged coins with real liquidity that dumped 15%+ in 1h mean-revert within 6h (dead cat bounce); stop -25% for true rugs",
+  "added": "2026-11-14",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 24,
+    "liquidity": 100000
+   },
+   "max": {
+    "price_change_percent1h": -15
+   }
+  },
+  "exit": {
+   "STOP": -0.25,
+   "TRAIL_ON": 0.2,
+   "TRAIL": 0.15,
+   "MAX_HOLD_H": 6,
+   "FEE": 0.005,
+   "SLIP": 0.01
+  }
+ },
+ {
+  "name": "w_night_aged",
+  "label": "กะดึก: กฎ w_aged_nostop เทรดเฉพาะ 21:00-09:00",
+  "horizon": "night",
+  "source": "user 14 Nov: 'ลองสมมติฐานแปลกๆ เปิดกระเป๋าได้เลย' (opened by Mac session, not counted in i_ cap)",
+  "claim": "same rule as w_aged_nostop but only during Bangkok night (US day) and flat by 09:00: does time of day change the result",
+  "added": "2026-11-14",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 24,
+    "liquidity": 200000
+   },
+   "up": true
+  },
+  "exit": {
+   "STOP": null,
+   "TRAIL_ON": 0.3,
+   "TRAIL": 0.2,
+   "MAX_HOLD_H": 12,
+   "FEE": 0.005,
+   "SLIP": 0.005
+  }
  }
 ]
