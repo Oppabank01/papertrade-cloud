@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 2.5478856821667115,
+ "cash": 5.695055820308438,
  "pos": {
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 743.9440143578463,
    "entry": 0.003912,
-   "last": 0.003931,
+   "last": 0.003911,
    "peak": 0.004642,
    "cost": 2.939631811487482,
    "opened": "2026-11-14T17:16:48+07:00",
    "zoo": "i_bigliq_run24",
    "smart": 439,
    "kol": 28,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
    "sym": "Dacity",
    "qty": 1376.9675084749745,
    "entry": 0.002109,
-   "last": 0.001939,
+   "last": 0.001944,
    "peak": 0.00236,
    "cost": 2.933283983105196,
    "opened": "2026-11-14T17:21:37+07:00",
@@ -31,25 +31,11 @@
    "gap": 0,
    "miss": 0
   },
-  "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
-   "sym": "NIO",
-   "qty": 1358.7580621403426,
-   "entry": 0.002133,
-   "last": 0.002504,
-   "peak": 0.002759189366594212,
-   "cost": 2.927432081558901,
-   "opened": "2026-11-14T17:21:37+07:00",
-   "zoo": "i_bigliq_run24",
-   "smart": 387,
-   "kol": 30,
-   "gap": 0,
-   "miss": 0
-  },
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 26.6792481362479,
    "entry": 0.1113,
-   "last": 0.1087,
+   "last": 0.1081,
    "peak": 0.1113,
    "cost": 2.99931851979939,
    "opened": "2026-11-14T20:55:58+07:00",
@@ -150,8 +136,23 @@
    "zoo": "i_bigliq_run24",
    "smart": 924,
    "kol": 294
+  },
+  {
+   "t": "2026-11-14T23:05:30+07:00",
+   "kind": "sell",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "price": 0.0023395478189512284,
+   "entry": 0.002133,
+   "usd": 3.1472,
+   "pnl": 0.2197,
+   "why": "trailing จากยอด +29% (+9.7%)",
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "smart": 387,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ ปล่อยวิ่ง trail 20/15 ถือ 24 ชม.",
- "rank_t": 1794671857.990405
+ "rank_t": 1794672167.604457
 }

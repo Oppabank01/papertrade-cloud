@@ -166,6 +166,18 @@
    "cost_side": 0.03,
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T23:04:37+07:00",
+   "kind": "buy",
+   "mint": "7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn",
+   "sym": "Snoopy",
+   "price": 0.000823,
+   "jup": 0.0008203706617200645,
+   "usd": 2.8605,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "state_recipe_smart4.json"
   }
  ],
  "pos": {
@@ -173,16 +185,28 @@
    "sym": "DacityCoin",
    "qty": 691.6406283773007,
    "entry": 0.004056,
-   "last": 0.00414,
-   "peak": 0.004163,
+   "last": 0.00425,
+   "peak": 0.00425,
    "cost": 2.8914598935253877,
    "opened": "2026-11-14T22:35:37+07:00",
    "source": "state_recipe_smart4.json",
-   "gap": 3,
+   "gap": 0,
+   "miss": 0
+  },
+  "7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": {
+   "sym": "Snoopy",
+   "qty": 3372.1266342065255,
+   "entry": 0.000823,
+   "last": 0.0008259,
+   "peak": 0.0008259,
+   "cost": 2.8605032157822823,
+   "opened": "2026-11-14T23:04:37+07:00",
+   "source": "state_recipe_smart4.json",
+   "gap": 0,
    "miss": 0
   }
  },
- "cash": 11.439123877429385,
+ "cash": 8.578620661647102,
  "start_usd": 14.727540500736376,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
@@ -430,6 +454,7 @@
   "state_recipe_smart4.json:2026-11-14T21:13:45+07:00:ByCUjGx4FkhK7ac8Vdqzb41yScUtvG78GBYSXKsMpump",
   "state_recipe_smart4.json:2026-11-14T22:25:00+07:00:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump",
   "state_recipe_smart4.json:2026-11-14T22:34:37+07:00:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+  "state_recipe_smart4.json:2026-11-14T23:03:30+07:00:7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn",
   "state_wallets.json:2026-11-13T12:53:22+07:00:6p4ZRmb36ggUCox9R8eJ9Jva22doySgk6QVNrTFnpump",
   "state_wallets.json:2026-11-13T23:11:09+07:00:CFf1JUpnPYQe794psw7M6qogeG3z8ttVygLPd5t1pump",
   "state_wallets.json:2026-11-13T23:30:10+07:00:2rQWxRpgpxd9a24jK829ECcwWYnonPYmPRG9gG5cpump",
