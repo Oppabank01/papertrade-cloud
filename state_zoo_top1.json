@@ -1,19 +1,32 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.2932443045054596,
+ "cash": 0.9555395180113182,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 8.114958488303163,
    "entry": 0.04992,
-   "last": 0.04871,
+   "last": 0.04856,
    "peak": 0.04992,
    "cost": 0.4175414633437373,
    "opened": "2026-11-14T07:16:08+07:00",
    "zoo": "top1",
    "smart": 1000,
    "kol": 186,
+   "miss": 0
+  },
+  "AUH2LBseFhiYBxr1xsdyBhr7m4HSGMk9oWRB7f2qpump": {
+   "sym": "COCORO",
+   "qty": 2809.9586951682327,
+   "entry": 0.0001166,
+   "last": 0.0001166,
+   "peak": 0.0001166,
+   "cost": 0.3377047864941414,
+   "opened": "2026-11-14T07:55:01+07:00",
+   "zoo": "top1",
+   "smart": 33,
+   "kol": 2,
    "miss": 0
   }
  },
@@ -590,8 +603,16 @@
    "why": "trailing จากยอด +67% (+39.1%)",
    "smart": 18,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T07:55:01+07:00",
+   "kind": "buy",
+   "mint": "AUH2LBseFhiYBxr1xsdyBhr7m4HSGMk9oWRB7f2qpump",
+   "sym": "COCORO",
+   "price": 0.0001166,
+   "usd": 0.3377
   }
  ],
  "label": "สวนสัตว์: วอลุ่มอันดับ 1",
- "rank_t": 1794617435.0015368
+ "rank_t": 1794617693.0110922
 }
