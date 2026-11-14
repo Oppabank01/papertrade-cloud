@@ -1,41 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.731879787860931,
- "cash": 10.919985285204955,
+ "cash": 11.668339419760658,
  "pos": {
-  "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": {
-   "sym": "CHOO",
-   "qty": 927.4258369604205,
-   "entry": 0.0007501,
-   "last": 0.0007305,
-   "peak": 0.0008076,
-   "cost": 0.7170296024572371,
-   "opened": "2026-11-14T19:41:37+07:00",
-   "zoo": "x_spray_small",
-   "smart": 112,
-   "kol": 5,
-   "gap": 0,
-   "miss": 0
-  },
   "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": {
    "sym": "Sakura",
    "qty": 10042.485815699423,
    "entry": 6.902e-05,
-   "last": 6.079393930225386e-05,
+   "last": 6.382e-05,
    "peak": 7.407479308255298e-05,
    "cost": 0.7144221511024265,
    "opened": "2026-11-14T20:23:34+07:00",
    "zoo": "x_spray_small",
    "smart": 145,
    "kol": 6,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
    "sym": "SAPLING",
    "qty": 412.6935067826146,
    "entry": 0.001673,
-   "last": 0.001516,
+   "last": 0.001508,
    "peak": 0.001682,
    "cost": 0.7116432043365432,
    "opened": "2026-11-14T20:27:54+07:00",
@@ -49,14 +35,14 @@
    "sym": "DacityCoin",
    "qty": 170.31528970575647,
    "entry": 0.004026,
-   "last": 0.0040739364042870155,
+   "last": 0.004054,
    "peak": 0.004199,
    "cost": 0.7067505219082412,
    "opened": "2026-11-14T20:32:55+07:00",
    "zoo": "x_spray_small",
    "smart": 245,
    "kol": 20,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -643,9 +629,24 @@
    "cost_side": 0.03,
    "smart": 18,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T22:41:46+07:00",
+   "kind": "sell",
+   "mint": "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump",
+   "sym": "CHOO",
+   "price": 0.0008317,
+   "entry": 0.0007501,
+   "usd": 0.7484,
+   "pnl": 0.0313,
+   "why": "ครบ 3 ชม. (+10.9%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 112,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: หว่านไม้เล็กหลายตัว ตัดกำไร 50% ตัดขาดทุน 15%",
- "rank_t": 1794670440.460491,
+ "rank_t": 1794670717.6396265,
  "halted": "ราคา CHOO สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }
