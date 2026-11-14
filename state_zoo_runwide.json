@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.0,
+ "cash": 0.17710343951778315,
  "pos": {
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
@@ -17,25 +17,11 @@
    "miss": 0,
    "gap": 0
   },
-  "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": {
-   "sym": "Sakura",
-   "qty": 1532.6887296670259,
-   "entry": 0.0001158,
-   "last": 0.0001259,
-   "peak": 0.0001597,
-   "cost": 0.1829368737326753,
-   "opened": "2026-11-14T15:01:40+07:00",
-   "zoo": "runwide",
-   "smart": 140,
-   "kol": 6,
-   "miss": 0,
-   "gap": 0
-  },
   "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": {
    "sym": "BRUH",
    "qty": 113.91564376170736,
    "entry": 0.003646,
-   "last": 0.00381,
+   "last": 0.003793,
    "peak": 0.003898,
    "cost": 0.4280936272471501,
    "opened": "2026-11-14T17:44:03+07:00",
@@ -521,8 +507,23 @@
    "zoo": "runwide",
    "smart": 3,
    "kol": 0
+  },
+  {
+   "t": "2026-11-14T18:49:42+07:00",
+   "kind": "sell",
+   "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
+   "sym": "Sakura",
+   "price": 0.0001191,
+   "entry": 0.0001158,
+   "usd": 0.1771,
+   "pnl": -0.0058,
+   "why": "trailing จากยอด +38% (+2.8%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 140,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ปล่อยวิ่ง trail 30/25 ถือ 24 ชม.",
- "rank_t": 1794656667.2386177
+ "rank_t": 1794656941.9066327
 }
