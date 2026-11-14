@@ -1,47 +1,47 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 3.0958498638542906,
+ "cash": 2.9522397122174633,
  "pos": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 360.8609658049363,
    "entry": 0.006594,
-   "last": 0.00665,
+   "last": 0.00651766254353851,
    "peak": 0.006828,
    "cost": 2.4526048325270566,
    "opened": "2026-11-15T02:10:00+07:00",
    "zoo": "w_f5_aged",
    "smart": 287,
    "kol": 23,
-   "gap": 0,
+   "gap": 17,
    "miss": 0
   },
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
    "sym": "ZCAT",
    "qty": 152.1009957800876,
    "entry": 0.01216,
-   "last": 0.011595315490708814,
+   "last": 0.011641743365983042,
    "peak": 0.01216,
    "cost": 1.9063575640959236,
    "opened": "2026-11-15T04:03:19+07:00",
    "zoo": "w_f5_aged",
    "smart": 329,
    "kol": 48,
-   "gap": 18,
+   "gap": 17,
    "miss": 0
   },
-  "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump": {
-   "sym": "ber",
-   "qty": 2782.806888213603,
-   "entry": 0.0006563,
-   "last": 0.0006067,
-   "peak": 0.0006563,
-   "cost": 1.8824532681247037,
-   "opened": "2026-11-15T04:12:14+07:00",
+  "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
+   "sym": "paws",
+   "qty": 2393.0007913540894,
+   "entry": 0.0007173,
+   "last": 0.0007154,
+   "peak": 0.0007173,
+   "cost": 1.769222291938042,
+   "opened": "2026-11-15T04:36:33+07:00",
    "zoo": "w_f5_aged",
-   "smart": 126,
-   "kol": 5,
+   "smart": 284,
+   "kol": 15,
    "gap": 0,
    "miss": 0
   }
@@ -499,8 +499,37 @@
    "cost_side": 0.03,
    "smart": 99,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T04:36:11+07:00",
+   "kind": "sell",
+   "mint": "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump",
+   "sym": "ber",
+   "price": 0.000602105499551199,
+   "entry": 0.0006563,
+   "usd": 1.6256,
+   "pnl": -0.2568,
+   "why": "stop -8.3%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 126,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T04:36:33+07:00",
+   "kind": "buy",
+   "mint": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
+   "sym": "paws",
+   "price": 0.0007173,
+   "jup": 0.0007154864476312682,
+   "usd": 1.7692,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged",
+   "smart": 284,
+   "kol": 15
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794691814.4995542
+ "rank_t": 1794692098.3025537
 }
