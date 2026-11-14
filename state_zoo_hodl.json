@@ -1,21 +1,21 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 5.995177767330114,
+ "cash": 0.0,
  "pos": {
-  "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
-   "sym": "INU",
-   "qty": 13975718932.427958,
-   "entry": 2.007e-10,
-   "last": 3.135e-05,
-   "peak": 3.135e-05,
-   "cost": 2.8910810036469705,
-   "opened": "2026-11-14T00:53:25+07:00",
+  "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
+   "sym": "JENSEN",
+   "qty": 7876.129275373968,
+   "entry": 0.0007385,
+   "last": 0.0007286,
+   "peak": 0.0007385,
+   "cost": 5.995177767330114,
+   "opened": "2026-11-15T01:02:43+07:00",
    "zoo": "hodl",
-   "smart": 0,
+   "smart": 4,
    "kol": 0,
-   "miss": 1,
-   "gap": 0
+   "gap": 1,
+   "miss": 0
   }
  },
  "log": [
@@ -100,8 +100,37 @@
    "cost_side": 0.03,
    "smart": 133,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T01:02:43+07:00",
+   "kind": "buy",
+   "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+   "sym": "JENSEN",
+   "price": 0.0007385,
+   "jup": 0.0007363522580437333,
+   "usd": 5.9952,
+   "stop_set": -1.0,
+   "cost_side": 0.03,
+   "zoo": "hodl",
+   "smart": 4,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-15T01:02:43+07:00",
+   "kind": "sell",
+   "mint": "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd",
+   "sym": "INU",
+   "price": 0.0,
+   "entry": 2.007e-10,
+   "usd": 0.0,
+   "pnl": -2.8911,
+   "why": "pool หาย ถือว่า rug",
+   "stop_set": -1.0,
+   "cost_side": 0.03,
+   "smart": 0,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ไม่ตั้ง stop ถือ 24 ชม.",
- "rank_t": 1794679040.9813035
+ "rank_t": 1794679319.2314336
 }
