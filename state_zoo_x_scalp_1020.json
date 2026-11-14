@@ -1,36 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 8.260726124308446,
+ "cash": 10.806503225282661,
  "pos": {
-  "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
-   "sym": "WASTED",
-   "qty": 363.76315089061825,
-   "entry": 0.003893,
-   "last": 0.003515,
-   "peak": 0.003893,
-   "cost": 1.459626825826816,
-   "opened": "2026-11-14T16:01:24+07:00",
-   "zoo": "x_scalp_1020",
-   "smart": 60,
-   "kol": 1,
-   "gap": 0,
-   "miss": 0
-  },
-  "2afcRhtGYgp1e3xPBMu2UbnELL8AUMZzguLQsPo8pump": {
-   "sym": "VICECITY",
-   "qty": 6380.071754075253,
-   "entry": 0.0002213,
-   "last": 0.0002087,
-   "peak": 0.0002213,
-   "cost": 1.455277137885852,
-   "opened": "2026-11-14T16:01:24+07:00",
-   "zoo": "x_scalp_1020",
-   "smart": 6,
-   "kol": 1,
-   "gap": 8,
-   "miss": 0
-  },
   "AuRhMFYgi4G3AQCy3ZfzkArVYLvozD2cH1b6R1RHpump": {
    "sym": "DCT",
    "qty": 6086.328857855379,
@@ -49,14 +21,14 @@
    "sym": "PIRATE",
    "qty": 5772.7928319565945,
    "entry": 0.0002424,
-   "last": 0.0002223,
+   "last": 0.0002317,
    "peak": 0.0002424,
    "cost": 1.442305692090578,
    "opened": "2026-11-14T16:06:46+07:00",
    "zoo": "x_scalp_1020",
    "smart": 245,
    "kol": 17,
-   "gap": 3,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -189,9 +161,39 @@
    "cost_side": 0.03,
    "smart": 60,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T18:02:18+07:00",
+   "kind": "sell",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "price": 0.003553,
+   "entry": 0.003893,
+   "usd": 1.2539,
+   "pnl": -0.2057,
+   "why": "ครบ 2 ชม. (-8.7%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 60,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T18:02:18+07:00",
+   "kind": "sell",
+   "mint": "2afcRhtGYgp1e3xPBMu2UbnELL8AUMZzguLQsPo8pump",
+   "sym": "VICECITY",
+   "price": 0.0002087,
+   "entry": 0.0002213,
+   "usd": 1.2918,
+   "pnl": -0.1634,
+   "why": "ครบ 2 ชม. (-5.7%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 6,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สกัลป์ pump.fun ตัดกำไร/ขาดทุน 15% เดือนเต็ม",
- "rank_t": 1794653862.3657432,
+ "rank_t": 1794654138.1068883,
  "halted": "ราคา FLOAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }
