@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.5991968632048305,
+ "cash": 0.16162380206857918,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 14.239479630253996,
    "entry": 0.04444,
-   "last": 0.04513,
-   "peak": 0.04518,
+   "last": 0.04534,
+   "peak": 0.04534,
    "cost": 0.652239203018437,
    "opened": "2026-11-14T13:10:03+07:00",
    "zoo": "rand",
@@ -20,7 +20,7 @@
    "sym": "DacityCoin",
    "qty": 109.61068931969248,
    "entry": 0.004815,
-   "last": 0.004493,
+   "last": 0.004488,
    "peak": 0.00509,
    "cost": 0.5439862596107187,
    "opened": "2026-11-14T13:19:18+07:00",
@@ -33,13 +33,26 @@
    "sym": "WILL",
    "qty": 37391.582823551915,
    "entry": 1.202e-05,
-   "last": 1.213e-05,
+   "last": 1.212e-05,
    "peak": 1.354e-05,
    "cost": 0.46325172700380757,
    "opened": "2026-11-14T14:56:26+07:00",
    "zoo": "rand",
    "smart": 23,
    "kol": 4,
+   "miss": 0
+  },
+  "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump": {
+   "sym": "ber",
+   "qty": 734.2327636015063,
+   "entry": 0.0005782,
+   "last": 0.0005782,
+   "peak": 0.0005782,
+   "cost": 0.4375730611362513,
+   "opened": "2026-11-14T15:24:22+07:00",
+   "zoo": "rand",
+   "smart": 124,
+   "kol": 5,
    "miss": 0
   }
  },
@@ -1052,8 +1065,16 @@
    "why": "trailing จากยอด +34% (+12.4%)",
    "smart": 70,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T15:24:22+07:00",
+   "kind": "buy",
+   "mint": "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump",
+   "sym": "ber",
+   "price": 0.0005782,
+   "usd": 0.4376
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794644359.8272178
+ "rank_t": 1794644633.711171
 }
