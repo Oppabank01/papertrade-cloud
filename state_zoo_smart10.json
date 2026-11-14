@@ -1,26 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.4169984289614296,
+ "cash": 0.43672732242804474,
  "pos": {
-  "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
-   "sym": "PAID",
-   "qty": 196.0111825033139,
-   "entry": 0.001384,
-   "last": 0.001305,
-   "peak": 0.001462,
-   "cost": 0.2796119115487389,
-   "opened": "2026-11-14T07:24:54+07:00",
-   "zoo": "smart10",
-   "smart": 662,
-   "kol": 93,
-   "miss": 0
-  },
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 25.975607822152906,
    "entry": 0.008459,
-   "last": 0.007964,
+   "last": 0.007996,
    "peak": 0.008468,
    "cost": 0.2264766713745531,
    "opened": "2026-11-14T08:51:50+07:00",
@@ -33,13 +20,26 @@
    "sym": "Sakura",
    "qty": 1419.1177603844847,
    "entry": 0.0001519,
-   "last": 0.0001629,
+   "last": 0.0001625,
    "peak": 0.0001637,
    "cost": 0.22218510389858093,
    "opened": "2026-11-14T09:25:30+07:00",
    "zoo": "smart10",
    "smart": 135,
    "kol": 6,
+   "miss": 0
+  },
+  "EjoWiu2PLuEs6roeM1H9YxApa3LQ3guo9E27Lcu5pump": {
+   "sym": "HARAMBE",
+   "qty": 2277.0633890133004,
+   "entry": 9.466e-05,
+   "last": 9.466e-05,
+   "peak": 9.466e-05,
+   "cost": 0.2221674091981025,
+   "opened": "2026-11-14T09:38:33+07:00",
+   "zoo": "smart10",
+   "smart": 36,
+   "kol": 1,
    "miss": 0
   }
  },
@@ -1312,8 +1312,28 @@
    "why": "ครบ 3 ชม. (-1.5%)",
    "smart": 923,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T09:38:33+07:00",
+   "kind": "buy",
+   "mint": "EjoWiu2PLuEs6roeM1H9YxApa3LQ3guo9E27Lcu5pump",
+   "sym": "HARAMBE",
+   "price": 9.466e-05,
+   "usd": 0.2222
+  },
+  {
+   "t": "2026-11-14T09:38:33+07:00",
+   "kind": "sell",
+   "mint": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
+   "sym": "PAID",
+   "price": 0.001272,
+   "usd": 0.2419,
+   "pnl": -0.0377,
+   "why": "stop -8.1%",
+   "smart": 662,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: smart wallet 10 ขึ้นไป",
- "rank_t": 1794623633.1334448
+ "rank_t": 1794623893.2810571
 }
