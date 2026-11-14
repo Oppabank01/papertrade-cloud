@@ -1,19 +1,32 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.092110895168764,
+ "cash": 0.7953306769719557,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 8.114958488303163,
    "entry": 0.04992,
-   "last": 0.04828,
+   "last": 0.04806,
    "peak": 0.04992,
    "cost": 0.4175414633437373,
    "opened": "2026-11-14T07:16:08+07:00",
    "zoo": "top1",
    "smart": 1000,
    "kol": 186,
+   "miss": 0
+  },
+  "Cp3iq6yuX4iSRXP3d5jxMvW6RZ86vZT9Uha5UmVCpump": {
+   "sym": "CHARITY",
+   "qty": 22672.139188546713,
+   "entry": 1.27e-05,
+   "last": 1.208e-05,
+   "peak": 1.27e-05,
+   "cost": 0.29678021819680817,
+   "opened": "2026-11-14T08:43:03+07:00",
+   "zoo": "top1",
+   "smart": 2,
+   "kol": 2,
    "miss": 0
   }
  },
@@ -630,8 +643,16 @@
    "why": "trailing จากยอด +73% (-3.9%)",
    "smart": 1,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T08:43:03+07:00",
+   "kind": "buy",
+   "mint": "Cp3iq6yuX4iSRXP3d5jxMvW6RZ86vZT9Uha5UmVCpump",
+   "sym": "CHARITY",
+   "price": 1.27e-05,
+   "usd": 0.2968
   }
  ],
  "label": "สวนสัตว์: วอลุ่มอันดับ 1",
- "rank_t": 1794620296.5850987
+ "rank_t": 1794620567.1674538
 }

@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.614656910163418,
+ "cash": 1.3329679995896995,
  "pos": {
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 1.0557938824136164,
    "entry": 0.1241,
-   "last": 0.1244,
+   "last": 0.1243,
    "peak": 0.1255,
    "cost": 0.13504846506651183,
    "opened": "2026-11-14T06:32:35+07:00",
@@ -29,17 +29,17 @@
    "kol": 48,
    "miss": 0
   },
-  "27UnW8kJufYjPS2yxNrNhCFNR4arnnqnPTSEqtzBpump": {
-   "sym": "COCO",
-   "qty": 9357.61064278936,
-   "entry": 6.836e-05,
-   "last": 6.836e-05,
-   "peak": 6.836e-05,
-   "cost": 0.6593344295414147,
-   "opened": "2026-11-14T08:38:44+07:00",
+  "AUH2LBseFhiYBxr1xsdyBhr7m4HSGMk9oWRB7f2qpump": {
+   "sym": "COCORO",
+   "qty": 7213.664866075586,
+   "entry": 8.525e-05,
+   "last": 8.854e-05,
+   "peak": 8.854e-05,
+   "cost": 0.6338537722458707,
+   "opened": "2026-11-14T08:43:04+07:00",
    "zoo": "kol2",
-   "smart": 64,
-   "kol": 6,
+   "smart": 62,
+   "kol": 4,
    "miss": 0
   }
  },
@@ -932,8 +932,28 @@
    "why": "stop -13.6%",
    "smart": 12,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T08:43:04+07:00",
+   "kind": "buy",
+   "mint": "AUH2LBseFhiYBxr1xsdyBhr7m4HSGMk9oWRB7f2qpump",
+   "sym": "COCORO",
+   "price": 8.525e-05,
+   "usd": 0.6339
+  },
+  {
+   "t": "2026-11-14T08:43:04+07:00",
+   "kind": "sell",
+   "mint": "27UnW8kJufYjPS2yxNrNhCFNR4arnnqnPTSEqtzBpump",
+   "sym": "COCO",
+   "price": 3.879e-05,
+   "usd": 0.3522,
+   "pnl": -0.3072,
+   "why": "stop -43.3%",
+   "smart": 64,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: KOL เข้า 2 คนขึ้นไป",
- "rank_t": 1794620296.5850987
+ "rank_t": 1794620567.1674538
 }
