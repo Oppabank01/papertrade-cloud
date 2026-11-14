@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 3.927091723243195,
+ "cash": 1.9476123053431758,
  "pos": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 619.1029341120206,
    "entry": 0.003222,
-   "last": 0.003346,
+   "last": 0.003239,
    "peak": 0.003374,
    "cost": 2.05601902052044,
    "opened": "2026-11-14T15:38:23+07:00",
@@ -15,7 +15,7 @@
    "smart": 721,
    "kol": 80,
    "miss": 0,
-   "gap": 0
+   "gap": 1
   },
   "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": {
    "sym": "PUMPCADE",
@@ -35,7 +35,7 @@
    "sym": "ZCAT",
    "qty": 123.62841175851456,
    "entry": 0.01569,
-   "last": 0.0155,
+   "last": 0.0154,
    "peak": 0.0159,
    "cost": 1.9993091944868002,
    "opened": "2026-11-14T16:10:53+07:00",
@@ -44,6 +44,20 @@
    "kol": 48,
    "miss": 0,
    "gap": 0
+  },
+  "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
+   "sym": "neet",
+   "qty": 76.02893631221689,
+   "entry": 0.02526,
+   "last": 0.02526,
+   "peak": 0.02526,
+   "cost": 1.9794794179000192,
+   "opened": "2026-11-14T17:11:46+07:00",
+   "zoo": "holders",
+   "smart": 841,
+   "kol": 202,
+   "gap": 0,
+   "miss": 0
   }
  },
  "log": [
@@ -655,8 +669,22 @@
    "why": "ครบ 3 ชม. (+0.3%)",
    "smart": 161,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T17:11:46+07:00",
+   "kind": "buy",
+   "mint": "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump",
+   "sym": "neet",
+   "price": 0.02526,
+   "jup": 0.025150588521495928,
+   "usd": 1.9795,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 841,
+   "kol": 202
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794650795.8562517
+ "rank_t": 1794651071.6260843
 }
