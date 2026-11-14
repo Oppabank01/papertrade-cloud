@@ -1,40 +1,40 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.18479508635228376,
+ "cash": 0.18444018063399645,
  "pos": {
-  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
-   "sym": "USELESS",
-   "qty": 1.0548061856997348,
-   "entry": 0.1019,
-   "last": 0.0962,
-   "peak": 0.1019,
-   "cost": 0.11078617844032466,
-   "opened": "2026-11-15T02:54:51+07:00",
-   "source": "agents",
-   "gap": 0,
-   "miss": 0
-  },
   "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
    "sym": "Max",
    "qty": 96.71729667815575,
    "entry": 0.001027,
-   "last": 0.001097,
+   "last": 0.001084,
    "peak": 0.001151,
    "cost": 0.10237957502418671,
    "opened": "2026-11-15T05:22:46+07:00",
    "source": "agents",
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
    "sym": "JEANPHIL",
    "qty": 40.09449032668615,
    "entry": 0.002508,
-   "last": 0.002534,
+   "last": 0.002514,
    "peak": 0.002535,
    "cost": 0.10364562125265807,
    "opened": "2026-11-15T05:41:41+07:00",
+   "source": "agents",
+   "gap": 0,
+   "miss": 0
+  },
+  "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
+   "sym": "ZCAT",
+   "qty": 7.523478412565449,
+   "entry": 0.01274,
+   "last": 0.01274,
+   "peak": 0.01274,
+   "cost": 0.09879315087207156,
+   "opened": "2026-11-15T05:55:09+07:00",
    "source": "agents",
    "gap": 0,
    "miss": 0
@@ -2885,6 +2885,33 @@
    "cost_side": 0.03,
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T05:55:09+07:00",
+   "kind": "buy",
+   "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+   "sym": "ZCAT",
+   "price": 0.01274,
+   "jup": 0.01286753446525404,
+   "usd": 0.0988,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "agents"
+  },
+  {
+   "t": "2026-11-15T05:55:09+07:00",
+   "kind": "sell",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.09619,
+   "entry": 0.1019,
+   "usd": 0.0984,
+   "pnl": -0.0123,
+   "why": "ครบ 3 ชม. (-5.6%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "เร็ว ไม่มี laya",
@@ -4805,6 +4832,9 @@
   "state_agents.json:2026-11-15T05:50:39+07:00:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
   "state_agents.json:2026-11-15T05:50:42+07:00:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump",
   "state_agents.json:2026-11-15T05:50:46+07:00:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
-  "state_agents.json:2026-11-15T05:50:49+07:00:2ssMotVbTUfRJev2UnibHzHsoeszPzgwbfsTZPSHpump"
+  "state_agents.json:2026-11-15T05:50:49+07:00:2ssMotVbTUfRJev2UnibHzHsoeszPzgwbfsTZPSHpump",
+  "state_agents.json:2026-11-15T05:55:04+07:00:6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+  "state_agents.json:2026-11-15T05:55:05+07:00:H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS",
+  "state_agents.json:2026-11-15T05:55:07+07:00:HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR"
  ]
 }

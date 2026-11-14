@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.15226110509027435,
+ "cash": 0.06872345455463505,
  "pos": {
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 19.25021139545809,
    "entry": 0.004712,
-   "last": 0.0047,
+   "last": 0.00462,
    "peak": 0.004773,
    "cost": 0.09349309018284738,
    "opened": "2026-11-15T04:21:15+07:00",
@@ -20,7 +20,7 @@
    "sym": "STANK",
    "qty": 55.397725898176944,
    "entry": 0.001543,
-   "last": 0.001497,
+   "last": 0.001475,
    "peak": 0.001545,
    "cost": 0.08810419610481038,
    "opened": "2026-11-15T05:08:41+07:00",
@@ -33,12 +33,25 @@
    "sym": "Leonida",
    "qty": 182.6171033135507,
    "entry": 0.000463,
-   "last": 0.0005039,
+   "last": 0.0005123,
    "peak": 0.0005189,
    "cost": 0.08714875163283238,
    "opened": "2026-11-15T05:18:15+07:00",
    "smart": 79,
    "kol": 4,
+   "gap": 0,
+   "miss": 0
+  },
+  "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
+   "sym": "ZCAT",
+   "qty": 6.361713386944839,
+   "entry": 0.01274,
+   "last": 0.01274,
+   "peak": 0.01274,
+   "cost": 0.0835376505356393,
+   "opened": "2026-11-15T05:55:18+07:00",
+   "smart": 329,
+   "kol": 48,
    "gap": 0,
    "miss": 0
   }
@@ -3059,8 +3072,21 @@
    "cost_side": 0.03,
    "smart": 110,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T05:55:18+07:00",
+   "kind": "buy",
+   "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+   "sym": "ZCAT",
+   "price": 0.01274,
+   "jup": 0.01286753446525404,
+   "usd": 0.0835,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 329,
+   "kol": 48
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794696628.3831863
+ "rank_t": 1794696898.2567368
 }
