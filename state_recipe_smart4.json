@@ -1,42 +1,42 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.31832631624461705,
+ "cash": 0.3277526296657725,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 10.407797738082865,
    "entry": 0.01654,
-   "last": 0.01672,
-   "peak": 0.01672,
+   "last": 0.01678,
+   "peak": 0.01678,
    "cost": 0.17743246195412346,
    "opened": "2026-11-14T13:19:16+07:00",
    "smart": 676,
    "kol": 68,
    "miss": 0
   },
-  "12bTtDLSegj1rw2oxXWYm63Rxw5QxkVSXDHCEvRShaDe": {
-   "sym": "SHADE",
-   "qty": 3149.1394960825664,
-   "entry": 5.331e-05,
-   "last": 7.279e-05,
-   "peak": 7.368e-05,
-   "cost": 0.17303713310261967,
-   "opened": "2026-11-14T13:33:10+07:00",
-   "smart": 28,
-   "kol": 2,
-   "miss": 0
-  },
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 9.504600672849184,
    "entry": 0.01781,
-   "last": 0.01789,
+   "last": 0.01781,
    "peak": 0.01789,
    "cost": 0.1744763326978396,
    "opened": "2026-11-14T13:56:18+07:00",
    "smart": 861,
    "kol": 110,
+   "miss": 0
+  },
+  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
+   "sym": "STONK",
+   "qty": 3.84375894256337,
+   "entry": 0.04501,
+   "last": 0.04501,
+   "peak": 0.04501,
+   "cost": 0.1783215728764969,
+   "opened": "2026-11-14T14:05:31+07:00",
+   "smart": 1000,
+   "kol": 174,
    "miss": 0
   }
  },
@@ -2049,8 +2049,28 @@
    "sym": "CATE",
    "price": 0.01781,
    "usd": 0.1745
+  },
+  {
+   "t": "2026-11-14T14:05:31+07:00",
+   "kind": "buy",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.04501,
+   "usd": 0.1783
+  },
+  {
+   "t": "2026-11-14T14:05:31+07:00",
+   "kind": "sell",
+   "mint": "12bTtDLSegj1rw2oxXWYm63Rxw5QxkVSXDHCEvRShaDe",
+   "sym": "SHADE",
+   "price": 6.145e-05,
+   "usd": 0.1877,
+   "pnl": 0.0147,
+   "why": "trailing จากยอด +38% (+15.3%)",
+   "smart": 28,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794639645.8335383
+ "rank_t": 1794639921.7348275
 }
