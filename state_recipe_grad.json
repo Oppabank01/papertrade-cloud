@@ -1,18 +1,18 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.7037490442941459,
+ "cash": 1.4965439726788023,
  "pos": {
-  "3j6wuvwdbT7JWfoquZc6sgmJQi3SJTj8usRciDgmpump": {
-   "sym": "AIRPLANE",
-   "qty": 15894.012718982503,
-   "entry": 2.6e-05,
-   "last": 2.6e-05,
-   "peak": 2.6e-05,
-   "cost": 0.42593726107353647,
-   "opened": "2026-11-14T06:58:28+07:00",
-   "smart": 19,
-   "kol": 1,
+  "HTp4PKiZ6wwusNKDdDqJYhoP58bMDneME2E9z8cJpump": {
+   "sym": "IFO",
+   "qty": 11783.74625595558,
+   "entry": 3.486e-05,
+   "last": 3.486e-05,
+   "peak": 3.486e-05,
+   "cost": 0.42339867499753825,
+   "opened": "2026-11-14T07:03:19+07:00",
+   "smart": 17,
+   "kol": 3,
    "miss": 0
   }
  },
@@ -1149,8 +1149,28 @@
    "sym": "AIRPLANE",
    "price": 2.6e-05,
    "usd": 0.4259
+  },
+  {
+   "t": "2026-11-14T07:03:19+07:00",
+   "kind": "buy",
+   "mint": "HTp4PKiZ6wwusNKDdDqJYhoP58bMDneME2E9z8cJpump",
+   "sym": "IFO",
+   "price": 3.486e-05,
+   "usd": 0.4234
+  },
+  {
+   "t": "2026-11-14T07:03:19+07:00",
+   "kind": "sell",
+   "mint": "3j6wuvwdbT7JWfoquZc6sgmJQi3SJTj8usRciDgmpump",
+   "sym": "AIRPLANE",
+   "price": 1.402e-05,
+   "usd": 0.2162,
+   "pnl": -0.2097,
+   "why": "stop -46.1%",
+   "smart": 19,
+   "bundler": null
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794614285.8484807
+ "rank_t": 1794614560.624965
 }
