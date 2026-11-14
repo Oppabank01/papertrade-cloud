@@ -10,6 +10,7 @@ Runs on GitHub Actions every ~5 minutes (`cloud.sh`), committing the state files
 |---|---|---|
 | X-post recipes (insider, grad, smart4) | `state_recipe_*.json` | `recipes.py`, `RULES_AGENTS.md` |
 | Copy 10 smart wallets via Helius | `state_wallets.json` | `wallets.py` |
+| Same wallets, tokens still on the pump.fun bonding curve (priced from the curve account) | `state_curve.json` | `curve.py`, `RULES_AGENTS.md` |
 | Nightly sessions (safe, runner, apple): fresh 500 THB every 21:00, settle 09:00, one result per night | `state_night_*.json` | `nightly.py` (`python3 nightly.py report`) |
 | Trend following, 5 coins | `state.json` | `paper.py`, `RULES.md` |
 | Weekly DCA BTC / VOO | `state_dca.json`, `state_stock.json` | `dca.py`, `stock.py` |

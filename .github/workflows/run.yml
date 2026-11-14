@@ -39,7 +39,7 @@ jobs:
           key: laya-hf-0.3.21
       - run: echo "$HOME/venv/bin" >> "$GITHUB_PATH"
       - name: tests
-        run: python3 test_recipes.py && python3 test_wallets.py && python3 test_nightly.py && python3 test_zoo.py && python3 test_majors.py && python3 test_agents.py && python3 test_hype.py && python3 test_grok_v2.py && python3 test_funding.py
+        run: python3 test_recipes.py && python3 test_wallets.py && python3 test_nightly.py && python3 test_zoo.py && python3 test_majors.py && python3 test_agents.py && python3 test_hype.py && python3 test_grok_v2.py && python3 test_funding.py && python3 test_curve.py
       - name: paper accounts
         env:
           HELIUS_API_KEY: ${{ secrets.HELIUS_API_KEY }}

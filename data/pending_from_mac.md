@@ -6,7 +6,7 @@ routine บนคลาวด์ (09:30, 12:00, 21:30) ทำส่วนเท�
 - ~~backtest ด้วย skill market-timeseries พร้อม DSR/PBO ตาม AGENT_RULES.md: skill อยู่บน Mac เท่านั้น routine ทำได้แค่ backtest ง่ายๆ จาก data/rank_hist ให้รันเมื่อเปิด Mac กับท่าที่มีข้อมูลพอ (i_*, bigliqF, bigliqRC)~~ คลาวด์ทำได้แล้ว (14 พ.ย. 69 ก๊อป skill ไว้ที่ .claude/skills/market-timeseries)
 - grokbot.py / grokbot.py --team อ่านแชท Grok ใน Chrome Canary: หยุดไปพร้อม Mac และ Grok หมดโควตาจนถึง 19 พ.ย. 69 10:48 ห้ามใช้ Grok ก่อนเช็กโควตาที่ grok.com/?_s=usage
 - crypto-regime-analyzer รายวัน และ dashboard 127.0.0.1:8787: หยุดไปพร้อม Mac
-- แก้ wallets.py ให้อ่านราคาจาก bonding curve เอง (56 จาก 84 ครั้งที่ข้ามเพราะ DexScreener ให้ liquidity 0)
+- ~~แก้ wallets.py ให้อ่านราคาจาก bonding curve เอง (56 จาก 84 ครั้งที่ข้ามเพราะ DexScreener ให้ liquidity 0)~~ ทำแล้ว 14 พ.ย. 69 เป็นบัญชีใหม่ curve.py (ไม่แก้ wallets.py เพราะห้ามแก้กฎบัญชีที่รันอยู่) กฎอยู่ใน RULES_AGENTS.md
 
 ## รอดูผล
 - ท่า i_* ชุดแรก (i_bigliq_cost2, i_bigliq_run24, i_bigliq_mom1h, i_bigdip) และ x_* ระยะสัปดาห์ ตัดสิน 21 พ.ย. 69, x_* ระยะเดือนตัดสิน 14 ธ.ค. 69
