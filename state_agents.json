@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.4277156013032384,
+ "cash": 1.4884875705130365,
  "pos": {
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
    "sym": "FLOAT",
    "qty": 273.8430457224195,
    "entry": 0.002435,
-   "last": 0.002709,
+   "last": 0.00269,
    "peak": 0.002812,
    "cost": 0.687289029410525,
    "opened": "2026-11-14T06:32:29+07:00",
@@ -20,39 +20,13 @@
    "sym": "GTA6",
    "qty": 90.44131466736208,
    "entry": 0.007215,
-   "last": 0.007863,
+   "last": 0.007779,
    "peak": 0.007888,
    "cost": 0.6725768762368763,
    "opened": "2026-11-14T06:49:44+07:00",
    "smart": 287,
    "kol": 23,
    "bundler": 0.3305,
-   "miss": 0
-  },
-  "7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": {
-   "sym": "HIGH",
-   "qty": 817.9831159048648,
-   "entry": 0.0007474,
-   "last": 0.0007084,
-   "peak": 0.0007474,
-   "cost": 0.6301387145199917,
-   "opened": "2026-11-14T08:03:31+07:00",
-   "smart": 122,
-   "kol": 8,
-   "bundler": 0.4049,
-   "miss": 0
-  },
-  "4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": {
-   "sym": "greg",
-   "qty": 4133.587883021867,
-   "entry": 0.0001465,
-   "last": 0.0001396,
-   "peak": 0.0001465,
-   "cost": 0.6241709182258335,
-   "opened": "2026-11-14T08:55:50+07:00",
-   "smart": 63,
-   "kol": 6,
-   "bundler": 0.0694,
    "miss": 0
   }
  },
@@ -10697,6 +10671,30 @@
    "sym": "greg",
    "price": 0.0001465,
    "usd": 0.6242
+  },
+  {
+   "t": "2026-11-14T09:08:39+07:00",
+   "kind": "sell",
+   "mint": "7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh",
+   "sym": "HIGH",
+   "price": 0.0006792,
+   "usd": 0.539,
+   "pnl": -0.0911,
+   "why": "stop -9.1%",
+   "smart": 122,
+   "bundler": 0.4049
+  },
+  {
+   "t": "2026-11-14T09:08:39+07:00",
+   "kind": "sell",
+   "mint": "4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump",
+   "sym": "greg",
+   "price": 0.0001301,
+   "usd": 0.5218,
+   "pnl": -0.1024,
+   "why": "stop -11.2%",
+   "smart": 63,
+   "bundler": 0.0694
   }
  ]
 }

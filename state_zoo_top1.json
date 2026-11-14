@@ -1,19 +1,32 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.8186616690785417,
+ "cash": 0.5768309747714037,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 8.114958488303163,
    "entry": 0.04992,
-   "last": 0.04812,
+   "last": 0.04787,
    "peak": 0.04992,
    "cost": 0.4175414633437373,
    "opened": "2026-11-14T07:16:08+07:00",
    "zoo": "top1",
    "smart": 1000,
    "kol": 186,
+   "miss": 0
+  },
+  "AnAvhL2uUMs1SKkTzUw7BWfuyFESFxAjmL1E8JkFpump": {
+   "sym": "BELLA",
+   "qty": 5499.862625803686,
+   "entry": 4.266e-05,
+   "last": 4.299e-05,
+   "peak": 4.299e-05,
+   "cost": 0.24183069430713797,
+   "opened": "2026-11-14T09:08:42+07:00",
+   "zoo": "top1",
+   "smart": 20,
+   "kol": 1,
    "miss": 0
   }
  },
@@ -670,8 +683,16 @@
    "why": "stop -9.8%",
    "smart": 30,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T09:08:42+07:00",
+   "kind": "buy",
+   "mint": "AnAvhL2uUMs1SKkTzUw7BWfuyFESFxAjmL1E8JkFpump",
+   "sym": "BELLA",
+   "price": 4.266e-05,
+   "usd": 0.2418
   }
  ],
  "label": "สวนสัตว์: วอลุ่มอันดับ 1",
- "rank_t": 1794621843.366356
+ "rank_t": 1794622119.1583285
 }
