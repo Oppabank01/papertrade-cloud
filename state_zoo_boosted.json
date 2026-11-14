@@ -1,20 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 4.125740331552154,
+ "cash": 3.1081799996743014,
  "pos": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 158.33834136360366,
    "entry": 0.00632,
-   "last": 0.006075984626034828,
+   "last": 0.006158608281986325,
    "peak": 0.006323,
    "cost": 1.0314350828880385,
    "opened": "2026-11-15T06:00:08+07:00",
    "zoo": "boosted",
    "smart": 287,
    "kol": 23,
-   "gap": 1,
+   "gap": 2,
+   "miss": 0
+  },
+  "DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": {
+   "sym": "AMD",
+   "qty": 2712.1896538128926,
+   "entry": 0.000364,
+   "last": 0.000364,
+   "peak": 0.000364,
+   "cost": 1.017560331877853,
+   "opened": "2026-11-15T06:23:35+07:00",
+   "zoo": "boosted",
+   "smart": 306,
+   "kol": 26,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1217,8 +1231,22 @@
    "zoo": "boosted",
    "smart": 287,
    "kol": 23
+  },
+  {
+   "t": "2026-11-15T06:23:35+07:00",
+   "kind": "buy",
+   "mint": "DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump",
+   "sym": "AMD",
+   "price": 0.000364,
+   "jup": 0.00036600805195893777,
+   "usd": 1.0176,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 306,
+   "kol": 26
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794698289.8358507
+ "rank_t": 1794698578.7790768
 }
