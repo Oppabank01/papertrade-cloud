@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.0,
+ "cash": 0.10410602043484579,
  "pos": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 21.425162276988015,
    "entry": 0.007823,
-   "last": 0.007812,
+   "last": 0.00778,
    "peak": 0.008284,
    "cost": 0.17275720933093924,
    "opened": "2026-11-14T11:20:12+07:00",
@@ -16,24 +16,11 @@
    "kol": 23,
    "miss": 0
   },
-  "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump": {
-   "sym": "chudhaos",
-   "qty": 373.8803825600304,
-   "entry": 0.0003254,
-   "last": 0.0003085,
-   "peak": 0.0003569,
-   "cost": 0.12539752266031118,
-   "opened": "2026-11-14T13:10:03+07:00",
-   "zoo": "smart10",
-   "smart": 20,
-   "kol": 1,
-   "miss": 0
-  },
   "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
    "sym": "WASTED",
    "qty": 25.346902763567314,
    "entry": 0.002994,
-   "last": 0.003214,
+   "last": 0.003317,
    "peak": 0.003356,
    "cost": 0.07821957006196717,
    "opened": "2026-11-14T13:19:18+07:00",
@@ -46,8 +33,8 @@
    "sym": "SHADE",
    "qty": 1349.1657791320224,
    "entry": 4.676e-05,
-   "last": 6.083e-05,
-   "peak": 6.083e-05,
+   "last": 6.782e-05,
+   "peak": 6.782e-05,
    "cost": 0.06502472874893152,
    "opened": "2026-11-14T13:28:51+07:00",
    "zoo": "smart10",
@@ -1713,8 +1700,20 @@
    "sym": "SHADE",
    "price": 4.676e-05,
    "usd": 0.065
+  },
+  {
+   "t": "2026-11-14T13:51:45+07:00",
+   "kind": "sell",
+   "mint": "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump",
+   "sym": "chudhaos",
+   "price": 0.000287,
+   "usd": 0.1041,
+   "pnl": -0.0213,
+   "why": "stop -11.8%",
+   "smart": 20,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: smart wallet 10 ขึ้นไป",
- "rank_t": 1794638817.0483546
+ "rank_t": 1794639090.0163443
 }

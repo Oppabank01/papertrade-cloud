@@ -1,37 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.13541335765989385,
+ "cash": 0.4928026489424566,
  "pos": {
-  "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump": {
-   "sym": "Punch",
-   "qty": 598.7921034453227,
-   "entry": 0.0003448,
-   "last": 0.0003254,
-   "peak": 0.0003555,
-   "cost": 0.2128051095320009,
-   "opened": "2026-11-14T11:47:47+07:00",
-   "smart": 398,
-   "kol": 54,
-   "miss": 0
-  },
-  "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": {
-   "sym": "CHOO",
-   "qty": 182.03548237993792,
-   "entry": 0.001118,
-   "last": 0.001057,
-   "peak": 0.001123,
-   "cost": 0.20976671748172607,
-   "opened": "2026-11-14T11:52:06+07:00",
-   "smart": 112,
-   "kol": 5,
-   "miss": 0
-  },
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 10.407797738082865,
    "entry": 0.01654,
-   "last": 0.01606,
+   "last": 0.01595,
    "peak": 0.01654,
    "cost": 0.17743246195412346,
    "opened": "2026-11-14T13:19:16+07:00",
@@ -43,8 +19,8 @@
    "sym": "SHADE",
    "qty": 3149.1394960825664,
    "entry": 5.331e-05,
-   "last": 6.083e-05,
-   "peak": 6.083e-05,
+   "last": 6.782e-05,
+   "peak": 6.782e-05,
    "cost": 0.17303713310261967,
    "opened": "2026-11-14T13:33:10+07:00",
    "smart": 28,
@@ -2029,8 +2005,32 @@
    "sym": "SHADE",
    "price": 5.331e-05,
    "usd": 0.173
+  },
+  {
+   "t": "2026-11-14T13:51:43+07:00",
+   "kind": "sell",
+   "mint": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
+   "sym": "Punch",
+   "price": 0.0003151,
+   "usd": 0.1831,
+   "pnl": -0.0297,
+   "why": "stop -8.6%",
+   "smart": 398,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T13:51:43+07:00",
+   "kind": "sell",
+   "mint": "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump",
+   "sym": "CHOO",
+   "price": 0.0009871,
+   "usd": 0.1743,
+   "pnl": -0.0354,
+   "why": "stop -11.7%",
+   "smart": 112,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794638817.0483546
+ "rank_t": 1794639090.0163443
 }
