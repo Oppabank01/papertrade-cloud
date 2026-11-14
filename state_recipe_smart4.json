@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.23236620679188197,
+ "cash": 0.10842370045385619,
  "pos": {
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 1.1755674934314362,
    "entry": 0.1109,
-   "last": 0.11,
+   "last": 0.1085,
    "peak": 0.1113,
    "cost": 0.13437480418629796,
    "opened": "2026-11-14T20:09:08+07:00",
@@ -20,7 +20,7 @@
    "sym": "NIO",
    "qty": 51.033658179222485,
    "entry": 0.002333,
-   "last": 0.002534,
+   "last": 0.002563,
    "peak": 0.002632,
    "cost": 0.12271853693272115,
    "opened": "2026-11-14T21:05:12+07:00",
@@ -33,12 +33,25 @@
    "sym": "GTA$",
    "qty": 366.91736258449,
    "entry": 0.0003396,
-   "last": 0.0003508,
+   "last": 0.0003447,
    "peak": 0.0003508,
    "cost": 0.1284324225249359,
    "opened": "2026-11-14T22:25:00+07:00",
    "smart": 77,
    "kol": 7,
+   "gap": 0,
+   "miss": 0
+  },
+  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
+   "sym": "DacityCoin",
+   "qty": 28.91296457060654,
+   "entry": 0.004159,
+   "last": 0.004159,
+   "peak": 0.004159,
+   "cost": 0.12394250633802578,
+   "opened": "2026-11-14T22:34:37+07:00",
+   "smart": 245,
+   "kol": 20,
    "gap": 0,
    "miss": 0
   }
@@ -2611,8 +2624,21 @@
    "cost_side": 0.03,
    "smart": 91,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T22:34:37+07:00",
+   "kind": "buy",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.004159,
+   "jup": 0.004150499334655229,
+   "usd": 0.1239,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 245,
+   "kol": 20
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794670161.9226727
+ "rank_t": 1794670440.460491
 }

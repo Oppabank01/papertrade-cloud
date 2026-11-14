@@ -103,23 +103,50 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "state_recipe_smart4.json"
+  },
+  {
+   "t": "2026-11-14T22:35:39+07:00",
+   "kind": "buy",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.004056,
+   "jup": 0.004052817767296724,
+   "usd": 5.6748,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "state_recipe_smart4.json"
+  },
+  {
+   "t": "2026-11-14T22:35:39+07:00",
+   "kind": "sell",
+   "mint": "ByCUjGx4FkhK7ac8Vdqzb41yScUtvG78GBYSXKsMpump",
+   "sym": "dca",
+   "price": 7.918e-05,
+   "entry": 8.614e-05,
+   "usd": 5.0971,
+   "pnl": -0.7939,
+   "why": "stop -8.1%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "pos": {
-  "ByCUjGx4FkhK7ac8Vdqzb41yScUtvG78GBYSXKsMpump": {
-   "sym": "dca",
-   "qty": 66350.8697182003,
-   "entry": 8.614e-05,
-   "last": 8.064e-05,
-   "peak": 9.531e-05,
-   "cost": 5.891016200294551,
-   "opened": "2026-11-14T21:14:18+07:00",
+  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
+   "sym": "DacityCoin",
+   "qty": 1357.4244667819405,
+   "entry": 0.004056,
+   "last": 0.004056,
+   "peak": 0.004056,
+   "cost": 5.674823373806999,
+   "opened": "2026-11-14T22:35:39+07:00",
    "source": "state_recipe_smart4.json",
    "gap": 0,
    "miss": 0
   }
  },
- "cash": 8.836524300441825,
+ "cash": 8.25880366736617,
  "start_usd": 14.727540500736376,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
@@ -366,6 +393,7 @@
   "state_recipe_smart4.json:2026-11-14T21:05:12+07:00:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
   "state_recipe_smart4.json:2026-11-14T21:13:45+07:00:ByCUjGx4FkhK7ac8Vdqzb41yScUtvG78GBYSXKsMpump",
   "state_recipe_smart4.json:2026-11-14T22:25:00+07:00:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump",
+  "state_recipe_smart4.json:2026-11-14T22:34:37+07:00:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
   "state_wallets.json:2026-11-13T12:53:22+07:00:6p4ZRmb36ggUCox9R8eJ9Jva22doySgk6QVNrTFnpump",
   "state_wallets.json:2026-11-13T23:11:09+07:00:CFf1JUpnPYQe794psw7M6qogeG3z8ttVygLPd5t1pump",
   "state_wallets.json:2026-11-13T23:30:10+07:00:2rQWxRpgpxd9a24jK829ECcwWYnonPYmPRG9gG5cpump",
