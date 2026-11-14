@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.0683438971575989,
+ "cash": 0.17491090253383346,
  "pos": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 21.425162276988015,
    "entry": 0.007823,
-   "last": 0.008116,
+   "last": 0.008173,
    "peak": 0.008245,
    "cost": 0.17275720933093924,
    "opened": "2026-11-14T11:20:12+07:00",
@@ -16,43 +16,17 @@
    "kol": 23,
    "miss": 0
   },
-  "BjeskoEiE7Zh2L5Ende6ZrhDtapWZB1FCqo9Rp9iHMLw": {
-   "sym": "sprout",
-   "qty": 4003.2031882470815,
-   "entry": 2.985e-05,
-   "last": 3.643e-05,
-   "peak": 3.643e-05,
-   "cost": 0.12316596080104658,
-   "opened": "2026-11-14T13:05:30+07:00",
-   "zoo": "smart10",
-   "smart": 11,
-   "kol": 1,
-   "miss": 0
-  },
   "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump": {
    "sym": "chudhaos",
    "qty": 373.8803825600304,
    "entry": 0.0003254,
-   "last": 0.0003254,
-   "peak": 0.0003254,
+   "last": 0.0003569,
+   "peak": 0.0003569,
    "cost": 0.12539752266031118,
    "opened": "2026-11-14T13:10:03+07:00",
    "zoo": "smart10",
    "smart": 20,
    "kol": 1,
-   "miss": 0
-  },
-  "FKk57Kk5z5ZFN3wt9bftSqbTiecPYxXiFVhm9rT5pump": {
-   "sym": "RobRun",
-   "qty": 7455.954306608082,
-   "entry": 1.622e-05,
-   "last": 1.622e-05,
-   "peak": 1.622e-05,
-   "cost": 0.12465015342525572,
-   "opened": "2026-11-14T13:10:04+07:00",
-   "zoo": "smart10",
-   "smart": 21,
-   "kol": 0,
    "miss": 0
   }
  },
@@ -1653,8 +1627,32 @@
    "sym": "RobRun",
    "price": 1.622e-05,
    "usd": 0.1247
+  },
+  {
+   "t": "2026-11-14T13:14:46+07:00",
+   "kind": "sell",
+   "mint": "BjeskoEiE7Zh2L5Ende6ZrhDtapWZB1FCqo9Rp9iHMLw",
+   "sym": "sprout",
+   "price": 4.25e-06,
+   "usd": 0.0165,
+   "pnl": -0.1067,
+   "why": "stop -85.8%",
+   "smart": 11,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T13:14:46+07:00",
+   "kind": "sell",
+   "mint": "FKk57Kk5z5ZFN3wt9bftSqbTiecPYxXiFVhm9rT5pump",
+   "sym": "RobRun",
+   "price": 1.245e-05,
+   "usd": 0.0901,
+   "pnl": -0.0346,
+   "why": "stop -23.2%",
+   "smart": 21,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: smart wallet 10 ขึ้นไป",
- "rank_t": 1794636589.2914724
+ "rank_t": 1794636867.7003012
 }
