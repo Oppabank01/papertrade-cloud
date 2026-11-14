@@ -1,19 +1,32 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.6823461123428941,
+ "cash": 0.2808932944189947,
  "pos": {
   "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
    "sym": "JENSEN",
    "qty": 652.5477751423126,
    "entry": 0.0003796,
-   "last": 0.00154,
+   "last": 0.001509,
    "peak": 0.00154,
    "cost": 0.25531553849105537,
    "opened": "2026-11-14T08:51:50+07:00",
    "zoo": "dip",
    "smart": 4,
    "kol": 0,
+   "miss": 0
+  },
+  "AnAvhL2uUMs1SKkTzUw7BWfuyFESFxAjmL1E8JkFpump": {
+   "sym": "BELLA",
+   "qty": 11042.084650370361,
+   "entry": 2.965e-05,
+   "last": 2.965e-05,
+   "peak": 2.965e-05,
+   "cost": 0.33745393721241107,
+   "opened": "2026-11-14T09:17:03+07:00",
+   "zoo": "dip",
+   "smart": 30,
+   "kol": 1,
    "miss": 0
   }
  },
@@ -1870,8 +1883,36 @@
    "why": "trailing จากยอด +158% (+87.9%)",
    "smart": 5,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T09:17:03+07:00",
+   "kind": "buy",
+   "mint": "AnAvhL2uUMs1SKkTzUw7BWfuyFESFxAjmL1E8JkFpump",
+   "sym": "BELLA",
+   "price": 2.965e-05,
+   "usd": 0.3375
+  },
+  {
+   "t": "2026-11-14T09:17:03+07:00",
+   "kind": "buy",
+   "mint": "9T9JyZtJQjYNfSYvhMB4uXkPJLUv6MTfVRBNRq5Spump",
+   "sym": "SUNBUCK",
+   "price": 2.979e-05,
+   "usd": 0.3354
+  },
+  {
+   "t": "2026-11-14T09:17:03+07:00",
+   "kind": "sell",
+   "mint": "9T9JyZtJQjYNfSYvhMB4uXkPJLUv6MTfVRBNRq5Spump",
+   "sym": "SUNBUCK",
+   "price": 2.561e-05,
+   "usd": 0.2714,
+   "pnl": -0.064,
+   "why": "stop -14.0%",
+   "smart": 32,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794622357.477945
+ "rank_t": 1794622609.6331806
 }
