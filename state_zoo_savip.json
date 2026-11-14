@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.46544343275250943,
- "pos": {
-  "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
-   "sym": "Rocco",
-   "qty": 2569.2096191283704,
-   "entry": 0.0005981,
-   "last": 0.0005674,
-   "peak": 0.0006512,
-   "cost": 1.5838427882917732,
-   "opened": "2026-11-14T16:20:24+07:00",
-   "zoo": "savip",
-   "smart": 106,
-   "kol": 8,
-   "miss": 0,
-   "gap": 0
-  }
- },
+ "cash": 1.8625721729266218,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T00:50:18+07:00",
@@ -746,6 +731,21 @@
    "stop_set": -0.06,
    "cost_side": 0.03,
    "smart": 342,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T21:37:38+07:00",
+   "kind": "sell",
+   "mint": "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
+   "sym": "Rocco",
+   "price": 0.0005605,
+   "entry": 0.0005981,
+   "usd": 1.3971,
+   "pnl": -0.1867,
+   "why": "stop -6.3%",
+   "stop_set": -0.06,
+   "cost_side": 0.03,
+   "smart": 106,
    "bundler": null
   }
  ],
