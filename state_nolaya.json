@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.39011366992830376,
+ "cash": 0.1584793879648705,
  "pos": {
   "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm": {
    "sym": "KLED",
@@ -18,7 +18,7 @@
    "sym": "WASTED",
    "qty": 68.65250974439623,
    "entry": 0.003814,
-   "last": 0.003613,
+   "last": 0.003672,
    "peak": 0.00414,
    "cost": 0.26988319126481886,
    "opened": "2026-11-14T14:51:41+07:00",
@@ -29,10 +29,21 @@
    "sym": "Leonida",
    "qty": 386.5383852853726,
    "entry": 0.0005957,
-   "last": 0.0005942,
+   "last": 0.0005907,
    "peak": 0.0006091,
    "cost": 0.23733345301432332,
    "opened": "2026-11-14T16:00:58+07:00",
+   "source": "agents",
+   "miss": 0
+  },
+  "77HqxiDCgYfXUsDXDD6YVefPhTTz1Z2n8jX4gTxipump": {
+   "sym": "updog",
+   "qty": 588.3025663898507,
+   "entry": 0.000382,
+   "last": 0.000382,
+   "peak": 0.000382,
+   "cost": 0.23163428196343328,
+   "opened": "2026-11-14T16:40:24+07:00",
    "source": "agents",
    "miss": 0
   }
@@ -2086,6 +2097,14 @@
    "why": "stop -8.5%",
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T16:40:24+07:00",
+   "kind": "buy",
+   "mint": "77HqxiDCgYfXUsDXDD6YVefPhTTz1Z2n8jX4gTxipump",
+   "sym": "updog",
+   "price": 0.000382,
+   "usd": 0.2316
   }
  ],
  "label": "เร็ว ไม่มี laya",
@@ -3299,6 +3318,8 @@
   "state_agents.json:2026-11-14T16:15:07+07:00:Aq38XaBAkzAtwbpvFKEzKg9hp1eZrEFV5W9H6XJjFUND",
   "state_agents.json:2026-11-14T16:15:10+07:00:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
   "state_agents.json:2026-11-14T16:15:13+07:00:2afcRhtGYgp1e3xPBMu2UbnELL8AUMZzguLQsPo8pump",
-  "state_agents.json:2026-11-14T16:15:15+07:00:FTafjhdsVGSwKcSqdi6daM8EtQmHQwtGnXs2jeiNZ6Kx"
+  "state_agents.json:2026-11-14T16:15:15+07:00:FTafjhdsVGSwKcSqdi6daM8EtQmHQwtGnXs2jeiNZ6Kx",
+  "state_agents.json:2026-11-14T16:40:20+07:00:4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump",
+  "state_agents.json:2026-11-14T16:40:23+07:00:77HqxiDCgYfXUsDXDD6YVefPhTTz1Z2n8jX4gTxipump"
  ]
 }
