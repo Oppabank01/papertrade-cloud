@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 11.687207344284726,
- "pos": {
-  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
-   "sym": "STONK",
-   "qty": 71.81991743998634,
-   "entry": 0.03947,
-   "last": 0.03851,
-   "peak": 0.03947,
-   "cost": 2.921801836071182,
-   "opened": "2026-11-14T23:19:31+07:00",
-   "zoo": "x_night_tp50_sl25",
-   "smart": 1000,
-   "kol": 174,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 14.408199000590455,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T21:42:18+07:00",
@@ -95,10 +80,25 @@
    "zoo": "x_night_tp50_sl25",
    "smart": 1000,
    "kol": 174
+  },
+  {
+   "t": "2026-11-14T23:25:40+07:00",
+   "kind": "sell",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.03905,
+   "entry": 0.03947,
+   "usd": 2.721,
+   "pnl": -0.2008,
+   "why": "ครบ 0.1 ชม. (-1.1%)",
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "smart": 1000,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กะดึก TP +50% SL -25% ถือไม่เกิน 6 นาที",
  "night": "2026-11-14",
  "night_start": 14.714537963507947,
- "rank_t": 1794673063.602197
+ "rank_t": 1794673340.50276
 }
