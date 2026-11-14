@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.754777687690124,
- "pos": {},
+ "cash": 1.403822150152099,
+ "pos": {
+  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+   "sym": "USELESS",
+   "qty": 3.61845975047175,
+   "entry": 0.0941,
+   "last": 0.09413,
+   "peak": 0.09413,
+   "cost": 0.35095553753802483,
+   "opened": "2026-11-15T04:20:46+07:00",
+   "smart": 924,
+   "kol": 294,
+   "bundler": 0.095,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T01:37:56+07:00",
@@ -21975,6 +21990,75 @@
    "cost_side": 0.03,
    "smart": 62,
    "bundler": 0.2817
+  },
+  {
+   "t": "2026-11-15T04:20:46+07:00",
+   "kind": "debate",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "ok": true,
+   "bundler": 0.095,
+   "buy": 0.8898,
+   "bull": 0.2447,
+   "bear": 0.0013
+  },
+  {
+   "t": "2026-11-15T04:20:46+07:00",
+   "kind": "buy",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.0941,
+   "jup": 0.09357052904286489,
+   "usd": 0.351,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 924,
+   "kol": 294,
+   "bundler": 0.095
+  },
+  {
+   "t": "2026-11-15T04:20:49+07:00",
+   "kind": "debate",
+   "mint": "6vtfL1Zi8YQqQrsxwLqguFNFCvwmER5SnYSBYDTRpump",
+   "sym": "loco",
+   "ok": true,
+   "bundler": 0.1201,
+   "buy": 0.8107,
+   "bull": 0.9206,
+   "bear": 0.0016
+  },
+  {
+   "t": "2026-11-15T04:20:53+07:00",
+   "kind": "debate",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "ok": false,
+   "bundler": 0.0497,
+   "buy": 0.8748,
+   "bull": 0.9278,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-15T04:20:56+07:00",
+   "kind": "debate",
+   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+   "sym": "Buttcoin",
+   "ok": false,
+   "bundler": 0.2293,
+   "buy": 0.8358,
+   "bull": 0.9123,
+   "bear": 0.9912
+  },
+  {
+   "t": "2026-11-15T04:20:59+07:00",
+   "kind": "debate",
+   "mint": "GdCN7rQA5egc8SU2Bc2kKB2kMwELneQZJVSt8gGBpump",
+   "sym": "CAGE",
+   "ok": false,
+   "bundler": 0.1571,
+   "buy": 0.9255,
+   "bull": 0.8449,
+   "bear": 0.9564
   }
  ]
 }
