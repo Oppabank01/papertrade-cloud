@@ -1,19 +1,31 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.0603726540061125,
+ "cash": 0.0,
  "pos": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 547.7704532233863,
    "entry": 0.003253,
-   "last": 0.0029813512982118026,
+   "last": 0.003013,
    "peak": 0.003411,
    "cost": 1.8366288232690948,
    "opened": "2026-11-14T14:56:24+07:00",
    "source": "agents",
    "miss": 0,
-   "gap": 1
+   "gap": 0
+  },
+  "FFGQzvcNAucVQXueT7gPZegS8fK4aghXHNzGEvxWpump": {
+   "sym": "europoor",
+   "qty": 19276.504811154584,
+   "entry": 0.0001037,
+   "last": 0.0001037,
+   "peak": 0.0001037,
+   "cost": 2.0603726540061125,
+   "opened": "2026-11-15T01:53:58+07:00",
+   "source": "../PaperTrade-cloud/recipe_smart4",
+   "gap": 0,
+   "miss": 0
   }
  },
  "log": [
@@ -432,6 +444,18 @@
    "cost_side": 0.03,
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T01:53:58+07:00",
+   "kind": "buy",
+   "mint": "FFGQzvcNAucVQXueT7gPZegS8fK4aghXHNzGEvxWpump",
+   "sym": "europoor",
+   "price": 0.0001037,
+   "jup": 0.00010371356698338437,
+   "usd": 2.0604,
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "source": "../PaperTrade-cloud/recipe_smart4"
   }
  ],
  "label": "สูตร crbpite8 Apple Card (ไม้ 60%)",
@@ -688,6 +712,7 @@
   "../PaperTrade-cloud/state_recipe_smart4.json:2026-11-15T00:05:06+07:00:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
   "../PaperTrade-cloud/state_recipe_smart4.json:2026-11-15T00:09:34+07:00:6ZeMsPdH2ZcP3pGSxHz5ErstowgnnW28CoxU2vcBpump",
   "../PaperTrade-cloud/state_recipe_smart4.json:2026-11-15T00:28:44+07:00:GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump",
+  "../PaperTrade-cloud/state_recipe_smart4.json:2026-11-15T01:49:11+07:00:FFGQzvcNAucVQXueT7gPZegS8fK4aghXHNzGEvxWpump",
   "state_agents.json:2026-11-13T01:43:48+07:00:6MQGcPiDMusnHWXTBAfY7sRAHYRfgZmPjsmSPmPdpump",
   "state_agents.json:2026-11-13T01:43:49+07:00:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump",
   "state_agents.json:2026-11-13T01:50:03+07:00:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
