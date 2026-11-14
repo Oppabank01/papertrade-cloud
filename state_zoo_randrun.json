@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.2276918002557944,
+ "cash": 1.9446165586995614,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 21.229887227050792,
    "entry": 0.04397,
-   "last": 0.03759,
+   "last": 0.03803,
    "peak": 0.04567,
    "cost": 0.9621502178658249,
    "opened": "2026-11-14T11:56:43+07:00",
@@ -21,7 +21,7 @@
    "sym": "ANSEM",
    "qty": 16.39752523356051,
    "entry": 0.04187,
-   "last": 0.04094,
+   "last": 0.04093,
    "peak": 0.04212,
    "cost": 0.7076524237571414,
    "opened": "2026-11-15T04:11:49+07:00",
@@ -29,20 +29,6 @@
    "smart": 1000,
    "kol": 186,
    "gap": 0,
-   "miss": 0
-  },
-  "AjPoaVhU5WdZhZzR6jbxjHD3CUZMqic51BDiVmXHpump": {
-   "sym": "Mikol",
-   "qty": 22687.913087368233,
-   "entry": 3.078e-05,
-   "last": 4.096e-05,
-   "peak": 5.027e-05,
-   "cost": 0.7197835135324615,
-   "opened": "2026-11-15T04:45:33+07:00",
-   "zoo": "randrun",
-   "smart": 15,
-   "kol": 1,
-   "gap": 3,
    "miss": 0
   }
  },
@@ -701,8 +687,23 @@
    "cost_side": 0.03,
    "smart": 292,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T05:23:18+07:00",
+   "kind": "sell",
+   "mint": "AjPoaVhU5WdZhZzR6jbxjHD3CUZMqic51BDiVmXHpump",
+   "sym": "Mikol",
+   "price": 3.257e-05,
+   "entry": 3.078e-05,
+   "usd": 0.7169,
+   "pnl": -0.0029,
+   "why": "trailing จากยอด +63% (+5.8%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 15,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1794694676.6218836
+ "rank_t": 1794694949.7181659
 }

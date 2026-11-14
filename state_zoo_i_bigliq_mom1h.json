@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 11.500718988733812,
- "pos": {
-  "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
-   "sym": "WASTED",
-   "qty": 565.5672221747064,
-   "entry": 0.005033,
-   "last": 0.006295,
-   "peak": 0.007153,
-   "cost": 2.875179747183453,
-   "opened": "2026-11-15T04:16:41+07:00",
-   "zoo": "i_bigliq_mom1h",
-   "smart": 63,
-   "kol": 1,
-   "gap": 3,
-   "miss": 0
-  }
- },
+ "cash": 14.317485278713313,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T16:49:15+07:00",
@@ -66,8 +51,23 @@
    "zoo": "i_bigliq_mom1h",
    "smart": 63,
    "kol": 1
+  },
+  {
+   "t": "2026-11-15T05:22:29+07:00",
+   "kind": "sell",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "price": 0.005030607354948213,
+   "entry": 0.005033,
+   "usd": 2.8168,
+   "pnl": -0.0584,
+   "why": "trailing จากยอด +42% (-0.0%)",
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "smart": 63,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ ขึ้น 1 ชม. 10 ถึง 50%",
- "rank_t": 1794694676.6218836
+ "rank_t": 1794694949.7181659
 }
