@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.731879787860931,
- "cash": 4.974794929798589,
+ "cash": 2.229116358003758,
  "pos": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 887.431048796898,
    "entry": 0.003287,
-   "last": 0.003387,
-   "peak": 0.003411,
+   "last": 0.003413,
+   "peak": 0.003413,
    "cost": 2.9463759575721866,
    "opened": "2026-11-14T17:53:51+07:00",
    "zoo": "i_bigliq_rc_run24",
@@ -21,7 +21,7 @@
    "sym": "USELESS",
    "qty": 25.488887474841732,
    "entry": 0.112,
-   "last": 0.1115,
+   "last": 0.1109,
    "peak": 0.1135,
    "cost": 2.8835184941615357,
    "opened": "2026-11-14T18:13:11+07:00",
@@ -35,14 +35,28 @@
    "sym": "NIO",
    "qty": 1294.4341477731364,
    "entry": 0.002123,
-   "last": 0.002233,
+   "last": 0.00229,
    "peak": 0.002341,
    "cost": 2.7757720216382094,
    "opened": "2026-11-14T18:40:40+07:00",
    "zoo": "i_bigliq_rc_run24",
    "smart": 387,
    "kol": 30,
-   "gap": 0,
+   "gap": 1,
+   "miss": 0
+  },
+  "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
+   "sym": "Dacity",
+   "qty": 1262.5594185049595,
+   "entry": 0.002153,
+   "last": 0.002074,
+   "peak": 0.002154,
+   "cost": 2.7456785717948313,
+   "opened": "2026-11-14T20:56:01+07:00",
+   "zoo": "i_bigliq_rc_run24",
+   "smart": 424,
+   "kol": 38,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -180,8 +194,22 @@
    "cost_side": 0.01,
    "smart": 677,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T20:56:01+07:00",
+   "kind": "buy",
+   "mint": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
+   "sym": "Dacity",
+   "price": 0.002153,
+   "jup": 0.002154919733700909,
+   "usd": 2.7457,
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "zoo": "i_bigliq_rc_run24",
+   "smart": 424,
+   "kol": 38
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ RugCheck ปล่อยวิ่ง 24 ชม.",
- "rank_t": 1794664242.3526454
+ "rank_t": 1794664514.1489851
 }
