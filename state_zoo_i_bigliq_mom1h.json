@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 14.317485278713313,
- "pos": {},
+ "cash": 11.45398822297065,
+ "pos": {
+  "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
+   "sym": "ZCAT",
+   "qty": 218.57622764931605,
+   "entry": 0.01297,
+   "last": 0.01303,
+   "peak": 0.01303,
+   "cost": 2.8634970557426627,
+   "opened": "2026-11-15T05:28:09+07:00",
+   "zoo": "i_bigliq_mom1h",
+   "smart": 329,
+   "kol": 48,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T16:49:15+07:00",
@@ -66,8 +81,22 @@
    "cost_side": 0.01,
    "smart": 63,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T05:28:09+07:00",
+   "kind": "buy",
+   "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+   "sym": "ZCAT",
+   "price": 0.01297,
+   "jup": 0.013079367693553473,
+   "usd": 2.8635,
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "zoo": "i_bigliq_mom1h",
+   "smart": 329,
+   "kol": 48
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ ขึ้น 1 ชม. 10 ถึง 50%",
- "rank_t": 1794694949.7181659
+ "rank_t": 1794695231.4080977
 }
