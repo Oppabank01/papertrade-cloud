@@ -87,5 +87,63 @@
    "PER_TRADE": 0.1,
    "MAX_POS": 8
   }
+ },
+ {
+  "name": "x_smartflow_lowcap",
+  "label": "smart money เข้า 3+ มาร์เก็ตแคปต่ำ ขายครึ่งที่ x2",
+  "horizon": "week",
+  "source": "https://nansen.ai/post/how-to-identify-the-next-viral-memecoin-using-nansen",
+  "claim": "filter micro-cap Solana memecoins for smart money inflows; high inflow with low market cap is a high-potential signal; sell half at 2x",
+  "added": "2026-11-14",
+  "active": true,
+  "entry": {
+   "min": {
+    "smart_degen_count": 3,
+    "liquidity": 15000
+   },
+   "max": {
+    "market_cap": 1000000
+   },
+   "safe": false,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.2,
+   "HALF_AT": 1.0,
+   "TRAIL_ON": 0.5,
+   "TRAIL": 0.25,
+   "MAX_HOLD_H": 48,
+   "PER_TRADE": 0.2,
+   "MAX_POS": 4
+  }
+ },
+ {
+  "name": "x_spray_small",
+  "label": "หว่านไม้เล็กหลายตัว ตัดกำไร 50% ตัดขาดทุน 15%",
+  "horizon": "month",
+  "source": "https://dailycoin.com/how-a-trading-bot-made-6-8m-on-pump-fun-memecoins/",
+  "claim": "pump.fun bot made 27,000 SOL in a month with spray and pray: many small bets across many tokens",
+  "added": "2026-11-14",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 15000
+   },
+   "max": {},
+   "safe": false,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "TP_ALL": 0.5,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 3,
+   "PER_TRADE": 0.05,
+   "MAX_POS": 12,
+   "COOLDOWN_H": 6
+  }
  }
 ]
