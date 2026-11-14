@@ -1,17 +1,29 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.0764246233351504,
+ "cash": 0.7955367404286788,
  "pos": {
   "9HrYC4PH4A3d5o7LUvwjDrxkWyZDjVQpvFvWVwbKpump": {
    "sym": "Heisto",
    "qty": 8374.133040520992,
    "entry": 3.836e-05,
-   "last": 3.917e-05,
+   "last": 3.479e-05,
    "peak": 3.917e-05,
    "cost": 0.3310984780812052,
    "opened": "2026-11-14T12:55:44+07:00",
    "smart": 9,
+   "kol": 1,
+   "miss": 0
+  },
+  "BjeskoEiE7Zh2L5Ende6ZrhDtapWZB1FCqo9Rp9iHMLw": {
+   "sym": "sprout",
+   "qty": 9129.561942909837,
+   "entry": 2.985e-05,
+   "last": 3.296e-05,
+   "peak": 3.296e-05,
+   "cost": 0.28088788290647154,
+   "opened": "2026-11-14T13:05:25+07:00",
+   "smart": 11,
    "kol": 1,
    "miss": 0
   }
@@ -1529,8 +1541,16 @@
    "why": "stop -76.0%",
    "smart": 16,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T13:05:25+07:00",
+   "kind": "buy",
+   "mint": "BjeskoEiE7Zh2L5Ende6ZrhDtapWZB1FCqo9Rp9iHMLw",
+   "sym": "sprout",
+   "price": 2.985e-05,
+   "usd": 0.2809
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794636006.3747911
+ "rank_t": 1794636306.1411736
 }

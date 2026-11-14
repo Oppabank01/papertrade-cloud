@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.3445988911751568,
+ "cash": 0.15936798793746404,
  "pos": {
   "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump": {
    "sym": "Punch",
    "qty": 598.7921034453227,
    "entry": 0.0003448,
-   "last": 0.0003308,
+   "last": 0.0003225,
    "peak": 0.0003555,
    "cost": 0.2128051095320009,
    "opened": "2026-11-14T11:47:47+07:00",
@@ -19,7 +19,7 @@
    "sym": "CHOO",
    "qty": 182.03548237993792,
    "entry": 0.001118,
-   "last": 0.001075,
+   "last": 0.001045,
    "peak": 0.001123,
    "cost": 0.20976671748172607,
    "opened": "2026-11-14T11:52:06+07:00",
@@ -37,6 +37,18 @@
    "opened": "2026-11-14T12:28:35+07:00",
    "smart": 71,
    "kol": 3,
+   "miss": 0
+  },
+  "BTCmcoKg6J767Bum7nXVDPLsWAZs3ZdYwTQr7YnXpump": {
+   "sym": "SIRIUS",
+   "qty": 2418.0708062595463,
+   "entry": 7.432e-05,
+   "last": 7.412e-05,
+   "peak": 7.432e-05,
+   "cost": 0.18523090323769276,
+   "opened": "2026-11-14T13:05:25+07:00",
+   "smart": 15,
+   "kol": 1,
    "miss": 0
   }
  },
@@ -1969,8 +1981,16 @@
    "why": "trailing จากยอด +36% (+9.1%)",
    "smart": 90,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T13:05:25+07:00",
+   "kind": "buy",
+   "mint": "BTCmcoKg6J767Bum7nXVDPLsWAZs3ZdYwTQr7YnXpump",
+   "sym": "SIRIUS",
+   "price": 7.432e-05,
+   "usd": 0.1852
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794636006.3747911
+ "rank_t": 1794636306.1411736
 }
