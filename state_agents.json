@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.918095015174711,
- "pos": {},
+ "cash": 1.5344760121397687,
+ "pos": {
+  "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": {
+   "sym": "bill",
+   "qty": 1422.7337796043614,
+   "entry": 0.0002616,
+   "last": 0.0002616,
+   "peak": 0.0002616,
+   "cost": 0.38361900303494223,
+   "opened": "2026-11-15T03:56:30+07:00",
+   "smart": 62,
+   "kol": 2,
+   "bundler": 0.2817,
+   "gap": 1,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T01:37:56+07:00",
@@ -21737,6 +21752,75 @@
    "buy": 0.8852,
    "bull": 0.881,
    "bear": 1.0
+  },
+  {
+   "t": "2026-11-15T03:56:30+07:00",
+   "kind": "debate",
+   "mint": "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
+   "sym": "bill",
+   "ok": true,
+   "bundler": 0.2817,
+   "buy": 0.8506,
+   "bull": 0.9217,
+   "bear": 0.0
+  },
+  {
+   "t": "2026-11-15T03:56:30+07:00",
+   "kind": "buy",
+   "mint": "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
+   "sym": "bill",
+   "price": 0.0002616,
+   "jup": 0.0002638398507782586,
+   "usd": 0.3836,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 62,
+   "kol": 2,
+   "bundler": 0.2817
+  },
+  {
+   "t": "2026-11-15T03:56:31+07:00",
+   "kind": "debate",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "ok": false,
+   "bundler": 0.0495,
+   "buy": 0.9077,
+   "bull": 0.905,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-15T03:56:33+07:00",
+   "kind": "debate",
+   "mint": "ABgXjaJ3iUg66vxhitQ77gj3cSechFJ3qyiPiRpqpump",
+   "sym": "nilf",
+   "ok": false,
+   "bundler": 0.1697,
+   "buy": 0.8066,
+   "bull": 0.9044,
+   "bear": 0.9979
+  },
+  {
+   "t": "2026-11-15T03:56:34+07:00",
+   "kind": "debate",
+   "mint": "6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump",
+   "sym": "GTA$",
+   "ok": false,
+   "bundler": 0.2329,
+   "buy": 0.8297,
+   "bull": 0.951,
+   "bear": 0.9817
+  },
+  {
+   "t": "2026-11-15T03:56:36+07:00",
+   "kind": "debate",
+   "mint": "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump",
+   "sym": "CHOO",
+   "ok": false,
+   "bundler": 0.3004,
+   "buy": 0.8215,
+   "bull": 0.9512,
+   "bear": 0.9999
   }
  ]
 }
