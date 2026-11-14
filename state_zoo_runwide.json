@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.17710343951778315,
+ "cash": 0.0,
  "pos": {
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
@@ -21,12 +21,26 @@
    "sym": "BRUH",
    "qty": 113.91564376170736,
    "entry": 0.003646,
-   "last": 0.003996,
+   "last": 0.003982,
    "peak": 0.003996,
    "cost": 0.4280936272471501,
    "opened": "2026-11-14T17:44:03+07:00",
    "zoo": "runwide",
    "smart": 3,
+   "kol": 0,
+   "gap": 0,
+   "miss": 0
+  },
+  "9RZeokzHNXoRyJkWDFdvcQTAzUhKpXm7RrqkUM3Fpump": {
+   "sym": "CHILL",
+   "qty": 677.5463604895632,
+   "entry": 0.0002536,
+   "last": 0.0002536,
+   "peak": 0.0002536,
+   "cost": 0.17710343951778315,
+   "opened": "2026-11-14T21:23:04+07:00",
+   "zoo": "runwide",
+   "smart": 20,
    "kol": 0,
    "gap": 0,
    "miss": 0
@@ -522,8 +536,22 @@
    "cost_side": 0.03,
    "smart": 140,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T21:23:04+07:00",
+   "kind": "buy",
+   "mint": "9RZeokzHNXoRyJkWDFdvcQTAzUhKpXm7RrqkUM3Fpump",
+   "sym": "CHILL",
+   "price": 0.0002536,
+   "jup": 0.0002539505951211793,
+   "usd": 0.1771,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "runwide",
+   "smart": 20,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: ปล่อยวิ่ง trail 30/25 ถือ 24 ชม.",
- "rank_t": 1794665872.9034095
+ "rank_t": 1794666148.2123501
 }

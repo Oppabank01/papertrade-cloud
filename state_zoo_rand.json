@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.7178307794159813,
+ "cash": 1.2914498022170957,
  "pos": {
   "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
    "sym": "PAID",
    "qty": 315.12489085117693,
    "entry": 0.00133,
-   "last": 0.001314,
+   "last": 0.001337,
    "peak": 0.001361,
    "cost": 0.4319893886127245,
    "opened": "2026-11-14T20:13:56+07:00",
    "zoo": "rand",
    "smart": 662,
    "kol": 93,
+   "gap": 0,
+   "miss": 0
+  },
+  "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump": {
+   "sym": "Shitcoin",
+   "qty": 1519.7458636236545,
+   "entry": 0.0002722,
+   "last": 0.0002722,
+   "peak": 0.0002722,
+   "cost": 0.42638097719888557,
+   "opened": "2026-11-14T21:22:48+07:00",
+   "zoo": "rand",
+   "smart": 51,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -1262,8 +1276,22 @@
    "cost_side": 0.03,
    "smart": 439,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T21:22:48+07:00",
+   "kind": "buy",
+   "mint": "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump",
+   "sym": "Shitcoin",
+   "price": 0.0002722,
+   "jup": 0.00027266231104316536,
+   "usd": 0.4264,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 51,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794665872.9034095
+ "rank_t": 1794666148.2123501
 }
