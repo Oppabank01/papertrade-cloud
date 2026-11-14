@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.10842370045385619,
+ "cash": 0.21780550534024384,
  "pos": {
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 1.1755674934314362,
    "entry": 0.1109,
-   "last": 0.1092,
+   "last": 0.1086,
    "peak": 0.1113,
    "cost": 0.13437480418629796,
    "opened": "2026-11-14T20:09:08+07:00",
@@ -20,7 +20,7 @@
    "sym": "NIO",
    "qty": 51.033658179222485,
    "entry": 0.002333,
-   "last": 0.002572,
+   "last": 0.002504,
    "peak": 0.002747,
    "cost": 0.12271853693272115,
    "opened": "2026-11-14T21:05:12+07:00",
@@ -29,30 +29,17 @@
    "gap": 0,
    "miss": 0
   },
-  "6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": {
-   "sym": "GTA$",
-   "qty": 366.91736258449,
-   "entry": 0.0003396,
-   "last": 0.0003151,
-   "peak": 0.0003508,
-   "cost": 0.1284324225249359,
-   "opened": "2026-11-14T22:25:00+07:00",
-   "smart": 77,
-   "kol": 7,
-   "gap": 0,
-   "miss": 0
-  },
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 28.91296457060654,
    "entry": 0.004159,
-   "last": 0.004138,
+   "last": 0.00413810482146562,
    "peak": 0.004316,
    "cost": 0.12394250633802578,
    "opened": "2026-11-14T22:34:37+07:00",
    "smart": 245,
    "kol": 20,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -2637,8 +2624,23 @@
    "cost_side": 0.03,
    "smart": 245,
    "kol": 20
+  },
+  {
+   "t": "2026-11-14T22:58:03+07:00",
+   "kind": "sell",
+   "mint": "6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump",
+   "sym": "GTA$",
+   "price": 0.0003072667394123469,
+   "entry": 0.0003396,
+   "usd": 0.1094,
+   "pnl": -0.0191,
+   "why": "stop -9.5%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 77,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794671570.4453332
+ "rank_t": 1794671857.990405
 }
