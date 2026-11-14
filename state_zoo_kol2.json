@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.5425334216946852,
+ "cash": 0.7812027254397358,
  "pos": {
-  "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": {
-   "sym": "PUMPCADE",
-   "qty": 15.31756581143292,
-   "entry": 0.01578,
-   "last": 0.01611,
-   "peak": 0.01614,
-   "cost": 0.24913542414389966,
-   "opened": "2026-11-14T15:15:11+07:00",
-   "zoo": "kol2",
-   "smart": 123,
-   "kol": 19,
-   "miss": 0,
-   "gap": 0
-  },
   "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": {
    "sym": "TripleT",
    "qty": 100.39741823476372,
    "entry": 0.00235,
-   "last": 0.0024171561793777043,
+   "last": 0.002459,
    "peak": 0.002471,
    "cost": 0.24318071825571505,
    "opened": "2026-11-14T15:42:42+07:00",
@@ -29,7 +15,7 @@
    "smart": 609,
    "kol": 71,
    "miss": 0,
-   "gap": 4
+   "gap": 0
   }
  },
  "log": [
@@ -1558,6 +1544,21 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "smart": 281,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T18:17:20+07:00",
+   "kind": "sell",
+   "mint": "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu",
+   "sym": "PUMPCADE",
+   "price": 0.01606,
+   "entry": 0.01578,
+   "usd": 0.2387,
+   "pnl": -0.0105,
+   "why": "ครบ 3 ชม. (+1.8%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 123,
    "bundler": null
   }
  ],
