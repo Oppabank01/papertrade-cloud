@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.740566037735848,
- "cash": 5.370828599437199,
+ "cash": 2.7075975788101116,
  "pos": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 821.7076853874655,
    "entry": 0.003253,
-   "last": 0.003304,
+   "last": 0.003238479063799714,
    "peak": 0.003374,
    "cost": 2.755117605200397,
    "opened": "2026-11-14T14:56:29+07:00",
@@ -15,7 +15,7 @@
    "smart": 721,
    "kol": 80,
    "miss": 0,
-   "gap": 0
+   "gap": 3
   },
   "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
    "sym": "neet",
@@ -36,12 +36,26 @@
    "qty": 1157.3456571899844,
    "entry": 0.002234,
    "last": 0.002274,
-   "peak": 0.002274,
+   "peak": 0.002276,
    "cost": 2.6649249620309474,
    "opened": "2026-11-14T17:30:27+07:00",
    "zoo": "bigliqRC",
    "smart": 424,
    "kol": 38,
+   "gap": 0,
+   "miss": 0
+  },
+  "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
+   "sym": "TROLL",
+   "qty": 100.57869740024911,
+   "entry": 0.02569,
+   "last": 0.02569,
+   "peak": 0.02569,
+   "cost": 2.6632310206270873,
+   "opened": "2026-11-14T17:39:12+07:00",
+   "zoo": "bigliqRC",
+   "smart": 458,
+   "kol": 213,
    "gap": 0,
    "miss": 0
   }
@@ -253,8 +267,22 @@
    "zoo": "bigliqRC",
    "smart": 424,
    "kol": 38
+  },
+  {
+   "t": "2026-11-14T17:39:12+07:00",
+   "kind": "buy",
+   "mint": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
+   "sym": "TROLL",
+   "price": 0.02569,
+   "jup": 0.025684717244438784,
+   "usd": 2.6632,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliqRC",
+   "smart": 458,
+   "kol": 213
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ ผ่าน RugCheck เช็กราคาทุก 20 วิ",
- "rank_t": 1794652425.0580058
+ "rank_t": 1794652709.837709
 }
