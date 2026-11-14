@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 5.612547771476038,
+ "cash": 2.7466315810456976,
  "pos": {
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
    "sym": "STANK",
    "qty": 1813.538893426379,
    "entry": 0.001561,
-   "last": 0.0016176343572202288,
+   "last": 0.001639251056661917,
    "peak": 0.00171,
    "cost": 2.9178872527711586,
    "opened": "2026-11-15T00:49:45+07:00",
    "zoo": "w_pause_aged",
    "smart": 77,
    "kol": 1,
-   "gap": 3,
+   "gap": 2,
    "miss": 0
   },
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
@@ -35,14 +35,28 @@
    "sym": "NIO",
    "qty": 1177.9818640878539,
    "entry": 0.002375,
-   "last": 0.002477,
+   "last": 0.002509,
    "peak": 0.002597,
    "cost": 2.8836393807551564,
    "opened": "2026-11-15T00:55:28+07:00",
    "zoo": "w_pause_aged",
    "smart": 403,
    "kol": 30,
-   "gap": 1,
+   "gap": 2,
+   "miss": 0
+  },
+  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
+   "sym": "Macca",
+   "qty": 1401.4676854614495,
+   "entry": 0.001984,
+   "last": 0.001972,
+   "peak": 0.001984,
+   "cost": 2.8659161904303403,
+   "opened": "2026-11-15T01:32:16+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 169,
+   "kol": 8,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -122,8 +136,22 @@
    "cost_side": 0.03,
    "smart": 678,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T01:32:16+07:00",
+   "kind": "buy",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.001984,
+   "jup": 0.001996895750925185,
+   "usd": 2.8659,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 169,
+   "kol": 8
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794680734.3595366
+ "rank_t": 1794681009.7721317
 }
