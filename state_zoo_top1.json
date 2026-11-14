@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.2608765881523697,
+ "cash": 0.13023280693167208,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 8.114958488303163,
    "entry": 0.04992,
-   "last": 0.04821,
+   "last": 0.04837,
    "peak": 0.04992,
    "cost": 0.4175414633437373,
    "opened": "2026-11-14T07:16:08+07:00",
@@ -20,8 +20,8 @@
    "sym": "FOOD",
    "qty": 171.6097001051687,
    "entry": 0.001223,
-   "last": 0.00131,
-   "peak": 0.00131,
+   "last": 0.001336,
+   "peak": 0.001336,
    "cost": 0.21632515278151032,
    "opened": "2026-11-14T09:42:57+07:00",
    "zoo": "top1",
@@ -29,17 +29,17 @@
    "kol": 21,
    "miss": 0
   },
-  "2xwjxcKpj57K1CqyJtiVU2CykkRNwsBViJcRw5mfpump": {
-   "sym": "Python",
-   "qty": 5424.447491779815,
-   "entry": 3.851e-05,
-   "last": 4.904e-05,
-   "peak": 4.904e-05,
-   "cost": 0.21531176345953484,
-   "opened": "2026-11-14T09:47:10+07:00",
+  "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
+   "sym": "Lucia",
+   "qty": 267.1315979300594,
+   "entry": 0.0008302,
+   "last": 0.0008475,
+   "peak": 0.0008475,
+   "cost": 0.2285844698016237,
+   "opened": "2026-11-14T09:55:47+07:00",
    "zoo": "top1",
-   "smart": 21,
-   "kol": 3,
+   "smart": 96,
+   "kol": 4,
    "miss": 0
   }
  },
@@ -752,8 +752,28 @@
    "sym": "Python",
    "price": 3.851e-05,
    "usd": 0.2153
+  },
+  {
+   "t": "2026-11-14T09:55:47+07:00",
+   "kind": "buy",
+   "mint": "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump",
+   "sym": "Lucia",
+   "price": 0.0008302,
+   "usd": 0.2286
+  },
+  {
+   "t": "2026-11-14T09:55:47+07:00",
+   "kind": "sell",
+   "mint": "2xwjxcKpj57K1CqyJtiVU2CykkRNwsBViJcRw5mfpump",
+   "sym": "Python",
+   "price": 1.861e-05,
+   "usd": 0.0979,
+   "pnl": -0.1174,
+   "why": "stop -51.7%",
+   "smart": 21,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: วอลุ่มอันดับ 1",
- "rank_t": 1794624672.6306953
+ "rank_t": 1794624920.2568483
 }

@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.6438102094876854,
+ "cash": 0.17951892732701835,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 54.202965232231236,
    "entry": 0.04342,
-   "last": 0.0442,
+   "last": 0.04449,
    "peak": 0.04987,
    "cost": 2.4257810249262834,
    "opened": "2026-11-13T12:21:03+07:00",
@@ -18,7 +18,7 @@
    "sym": "FLOAT",
    "qty": 655.810044974538,
    "entry": 0.002435,
-   "last": 0.002521,
+   "last": 0.002518,
    "peak": 0.002812,
    "cost": 1.6459466702875696,
    "opened": "2026-11-14T06:32:32+07:00",
@@ -29,10 +29,21 @@
    "sym": "GTA6",
    "qty": 212.91384686497827,
    "entry": 0.007215,
-   "last": 0.007649,
+   "last": 0.007761,
    "peak": 0.008158,
    "cost": 1.5833574573601508,
    "opened": "2026-11-14T06:49:45+07:00",
+   "source": "agents",
+   "miss": 0
+  },
+  "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
+   "sym": "Lucia",
+   "qty": 1711.220672069717,
+   "entry": 0.0008302,
+   "last": 0.0008475,
+   "peak": 0.0008475,
+   "cost": 1.464291282160667,
+   "opened": "2026-11-14T09:55:44+07:00",
    "source": "agents",
    "miss": 0
   }
@@ -566,6 +577,14 @@
    "why": "stop -9.8%",
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T09:55:44+07:00",
+   "kind": "buy",
+   "mint": "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump",
+   "sym": "Lucia",
+   "price": 0.0008302,
+   "usd": 1.4643
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",
@@ -640,6 +659,7 @@
   "state_agents.json:2026-11-14T08:03:31+07:00:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh",
   "state_agents.json:2026-11-14T08:08:08+07:00:AUH2LBseFhiYBxr1xsdyBhr7m4HSGMk9oWRB7f2qpump",
   "state_agents.json:2026-11-14T08:55:50+07:00:4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump",
-  "state_agents.json:2026-11-14T09:34:06+07:00:9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump"
+  "state_agents.json:2026-11-14T09:34:06+07:00:9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump",
+  "state_agents.json:2026-11-14T09:55:28+07:00:HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump"
  ]
 }
