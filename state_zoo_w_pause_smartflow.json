@@ -1,48 +1,48 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.1084290626262474,
+ "cash": 3.14232448730306,
  "pos": {
-  "6sZUjgnHTdezsZoMdbTcxsi58bXqnsz6mkj49Wgxpump": {
-   "sym": "SHIT",
-   "qty": 35552.46730790664,
-   "entry": 8.015e-05,
-   "last": 9.911295753066406e-05,
-   "peak": 0.0001264,
-   "cost": 2.9370544781784345,
-   "opened": "2026-11-15T00:58:44+07:00",
-   "zoo": "w_pause_smartflow",
-   "smart": 66,
-   "kol": 4,
-   "gap": 3,
-   "miss": 0
-  },
   "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
    "sym": "FOOD",
    "qty": 7648.119682882018,
    "entry": 0.0003442,
-   "last": 0.000418,
-   "peak": 0.0004339,
+   "last": 0.0004359,
+   "peak": 0.0004359,
    "cost": 2.71334033688723,
    "opened": "2026-11-15T01:03:30+07:00",
    "zoo": "w_pause_smartflow",
    "smart": 292,
    "kol": 22,
-   "gap": 4,
+   "gap": 0,
    "miss": 0
   },
   "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
    "sym": "Lucia",
    "qty": 2363.7985329245967,
    "entry": 0.001025,
-   "last": 0.0009665,
-   "peak": 0.001026,
+   "last": 0.00101,
+   "peak": 0.001079,
    "cost": 2.497313436660185,
    "opened": "2026-11-15T02:14:11+07:00",
    "zoo": "w_pause_smartflow",
    "smart": 99,
    "kol": 4,
-   "gap": 4,
+   "gap": 3,
+   "miss": 0
+  },
+  "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump": {
+   "sym": "GTA6",
+   "qty": 14050.598539208284,
+   "entry": 0.0001511,
+   "last": 0.0001465,
+   "peak": 0.0001511,
+   "cost": 2.1882554517361075,
+   "opened": "2026-11-15T02:19:07+07:00",
+   "zoo": "w_pause_smartflow",
+   "smart": 92,
+   "kol": 5,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -267,8 +267,37 @@
    "cost_side": 0.03,
    "smart": 55,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T02:17:46+07:00",
+   "kind": "sell",
+   "mint": "6sZUjgnHTdezsZoMdbTcxsi58bXqnsz6mkj49Wgxpump",
+   "sym": "SHIT",
+   "price": 9.341462102764571e-05,
+   "entry": 8.015e-05,
+   "usd": 3.2222,
+   "pnl": 0.2851,
+   "why": "trailing จากยอด +58% (+16.5%)",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 66,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T02:19:07+07:00",
+   "kind": "buy",
+   "mint": "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump",
+   "sym": "GTA6",
+   "price": 0.0001511,
+   "jup": 0.0001514019112146558,
+   "usd": 2.1883,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "w_pause_smartflow",
+   "smart": 92,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794683571.19899
+ "rank_t": 1794683843.6276224
 }
