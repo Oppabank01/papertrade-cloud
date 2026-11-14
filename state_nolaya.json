@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.5137923036130161,
+ "cash": 0.23381358411773367,
  "pos": {
   "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": {
    "sym": "GTA",
    "qty": 364.63066830317143,
    "entry": 0.0008049,
-   "last": 0.0008659,
+   "last": 0.0008615,
    "peak": 0.0008851,
    "cost": 0.3025059007598667,
    "opened": "2026-11-14T11:56:37+07:00",
@@ -29,10 +29,21 @@
    "sym": "Snoopy",
    "qty": 2149.1364891319195,
    "entry": 0.0001298,
-   "last": 0.0001303,
+   "last": 0.0001274,
    "peak": 0.0001303,
    "cost": 0.2875261969586922,
    "opened": "2026-11-14T14:10:13+07:00",
+   "source": "agents",
+   "miss": 0
+  },
+  "RA23GF9Jw9x2xqVfH1XhfBfa5TnWJC9uLDFHeU5pump": {
+   "sym": "SCRAP",
+   "qty": 1814.5314205365598,
+   "entry": 0.0001497,
+   "last": 0.0001497,
+   "peak": 0.0001497,
+   "cost": 0.2799787194952824,
+   "opened": "2026-11-14T14:37:49+07:00",
    "source": "agents",
    "miss": 0
   }
@@ -1946,6 +1957,14 @@
    "why": "stop -8.1%",
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T14:37:49+07:00",
+   "kind": "buy",
+   "mint": "RA23GF9Jw9x2xqVfH1XhfBfa5TnWJC9uLDFHeU5pump",
+   "sym": "SCRAP",
+   "price": 0.0001497,
+   "usd": 0.28
   }
  ],
  "label": "เร็ว ไม่มี laya",
@@ -3053,6 +3072,10 @@
   "state_agents.json:2026-11-14T14:28:28+07:00:BDDdnX85YSmqDNHTyHjktmUd8ZzGLyXiWMAT1FLppump",
   "state_agents.json:2026-11-14T14:33:06+07:00:3D5nV4rQuNJezr6BGfxgQY3qqrtigmEnV2gqSi7ipump",
   "state_agents.json:2026-11-14T14:33:09+07:00:H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS",
-  "state_agents.json:2026-11-14T14:33:11+07:00:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump"
+  "state_agents.json:2026-11-14T14:33:11+07:00:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump",
+  "state_agents.json:2026-11-14T14:37:44+07:00:RA23GF9Jw9x2xqVfH1XhfBfa5TnWJC9uLDFHeU5pump",
+  "state_agents.json:2026-11-14T14:37:46+07:00:3D5nV4rQuNJezr6BGfxgQY3qqrtigmEnV2gqSi7ipump",
+  "state_agents.json:2026-11-14T14:37:47+07:00:BDDdnX85YSmqDNHTyHjktmUd8ZzGLyXiWMAT1FLppump",
+  "state_agents.json:2026-11-14T14:37:48+07:00:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump"
  ]
 }
