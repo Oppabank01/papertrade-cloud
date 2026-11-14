@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.45697755875187485,
+ "cash": 0.41550236572038535,
  "pos": {
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
    "sym": "paws",
    "qty": 318.31499221437053,
    "entry": 0.0008447,
-   "last": 0.0008332,
+   "last": 0.000845,
    "peak": 0.0008799,
    "cost": 0.27713942890484317,
    "opened": "2026-11-14T14:37:52+07:00",
@@ -20,8 +20,8 @@
    "sym": "PUMPCADE",
    "qty": 15.31756581143292,
    "entry": 0.01578,
-   "last": 0.01579,
-   "peak": 0.01581,
+   "last": 0.01586,
+   "peak": 0.01586,
    "cost": 0.24913542414389966,
    "opened": "2026-11-14T15:15:11+07:00",
    "zoo": "kol2",
@@ -29,17 +29,17 @@
    "kol": 19,
    "miss": 0
   },
-  "7x8HCyf5Z3JYWXmC7p6C4w11Hw6JAXFEiZy6PCDBpump": {
-   "sym": "SCRAP",
-   "qty": 2593.8986183042643,
-   "entry": 9.234e-05,
-   "last": 9.709e-05,
-   "peak": 9.709e-05,
-   "cost": 0.24687754938591608,
-   "opened": "2026-11-14T15:38:24+07:00",
+  "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": {
+   "sym": "TripleT",
+   "qty": 100.39741823476372,
+   "entry": 0.00235,
+   "last": 0.00235,
+   "peak": 0.00235,
+   "cost": 0.24318071825571505,
+   "opened": "2026-11-14T15:42:42+07:00",
    "zoo": "kol2",
-   "smart": 56,
-   "kol": 2,
+   "smart": 609,
+   "kol": 71,
    "miss": 0
   }
  },
@@ -1432,8 +1432,28 @@
    "why": "stop -8.1%",
    "smart": 70,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T15:42:42+07:00",
+   "kind": "buy",
+   "mint": "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump",
+   "sym": "TripleT",
+   "price": 0.00235,
+   "usd": 0.2432
+  },
+  {
+   "t": "2026-11-14T15:42:42+07:00",
+   "kind": "sell",
+   "mint": "7x8HCyf5Z3JYWXmC7p6C4w11Hw6JAXFEiZy6PCDBpump",
+   "sym": "SCRAP",
+   "price": 8.015e-05,
+   "usd": 0.2017,
+   "pnl": -0.0452,
+   "why": "stop -13.2%",
+   "smart": 56,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: KOL เข้า 2 คนขึ้นไป",
- "rank_t": 1794645471.8999403
+ "rank_t": 1794645746.748234
 }
