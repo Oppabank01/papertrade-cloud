@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.210223481792738,
+ "cash": 0.42896109128068494,
  "pos": {
   "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
    "sym": "Dacity",
    "qty": 71.32065891387626,
    "entry": 0.002239,
-   "last": 0.002132,
+   "last": 0.0021,
    "peak": 0.002277,
    "cost": 0.16459179067013913,
    "opened": "2026-11-14T17:33:57+07:00",
@@ -16,24 +16,11 @@
    "gap": 0,
    "miss": 0
   },
-  "9zqre5sRRdFvKqyTyvEd1jcKDRF4g47s7mZSGUnQpump": {
-   "sym": "boob",
-   "qty": 982.3799755051156,
-   "entry": 0.0001383,
-   "last": 0.0002937,
-   "peak": 0.0002937,
-   "cost": 0.14003623027453876,
-   "opened": "2026-11-14T18:54:10+07:00",
-   "smart": 116,
-   "kol": 14,
-   "gap": 0,
-   "miss": 0
-  },
   "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
    "sym": "WASTED",
    "qty": 43.74568213194088,
    "entry": 0.003325,
-   "last": 0.003325,
+   "last": 0.003237,
    "peak": 0.003325,
    "cost": 0.1499220707984987,
    "opened": "2026-11-14T19:31:33+07:00",
@@ -2359,8 +2346,23 @@
    "cost_side": 0.03,
    "smart": 439,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T19:36:09+07:00",
+   "kind": "sell",
+   "mint": "9zqre5sRRdFvKqyTyvEd1jcKDRF4g47s7mZSGUnQpump",
+   "sym": "boob",
+   "price": 0.0002295,
+   "entry": 0.0001383,
+   "usd": 0.2187,
+   "pnl": 0.0787,
+   "why": "trailing จากยอด +112% (+65.9%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 116,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794659466.6142538
+ "rank_t": 1794659745.5574129
 }
