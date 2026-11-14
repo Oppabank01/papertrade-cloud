@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.5274443512434617,
+ "cash": 0.4339328949633955,
  "pos": {
   "6NwarBvDkXhByqVp2Qkq5i9XbtA2B3Bwe8SWGu9vpump": {
    "sym": "Cupsey",
@@ -20,13 +20,39 @@
    "sym": "USELESS",
    "qty": 5.726235452516093,
    "entry": 0.1154,
-   "last": 0.1158,
+   "last": 0.1159,
    "peak": 0.1164,
    "cost": 0.6811044848694673,
    "opened": "2026-11-14T10:48:03+07:00",
    "zoo": "cto",
    "smart": 923,
    "kol": 294,
+   "miss": 0
+  },
+  "6BeyohhmEkxxBsKsne2rLUjkVpx1uQ1jw4KVB9uTpump": {
+   "sym": "IGNORE",
+   "qty": 17530.408903258565,
+   "entry": 3.035e-05,
+   "last": 3.035e-05,
+   "peak": 3.035e-05,
+   "cost": 0.5483899301318259,
+   "opened": "2026-11-14T12:15:15+07:00",
+   "zoo": "cto",
+   "smart": 132,
+   "kol": 11,
+   "miss": 0
+  },
+  "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump": {
+   "sym": "ber",
+   "qty": 788.7798727353061,
+   "entry": 0.0006705,
+   "last": 0.0006705,
+   "peak": 0.0006705,
+   "cost": 0.5451215261482403,
+   "opened": "2026-11-14T12:15:15+07:00",
+   "zoo": "cto",
+   "smart": 124,
+   "kol": 5,
    "miss": 0
   }
  },
@@ -931,8 +957,24 @@
    "why": "stop -12.6%",
    "smart": 47,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T12:15:15+07:00",
+   "kind": "buy",
+   "mint": "6BeyohhmEkxxBsKsne2rLUjkVpx1uQ1jw4KVB9uTpump",
+   "sym": "IGNORE",
+   "price": 3.035e-05,
+   "usd": 0.5484
+  },
+  {
+   "t": "2026-11-14T12:15:15+07:00",
+   "kind": "buy",
+   "mint": "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump",
+   "sym": "ber",
+   "price": 0.0006705,
+   "usd": 0.5451
   }
  ],
  "label": "สวนสัตว์: community takeover",
- "rank_t": 1794633008.2936623
+ "rank_t": 1794633300.3843472
 }
