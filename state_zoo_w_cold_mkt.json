@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 5.90950477870751,
+ "cash": 3.0022383763746294,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 72.54860780538823,
    "entry": 0.04016,
-   "last": 0.03945,
+   "last": 0.03851,
    "peak": 0.04024,
    "cost": 2.9429075927015895,
    "opened": "2026-11-14T23:04:15+07:00",
@@ -21,7 +21,7 @@
    "sym": "OTC",
    "qty": 1196.836796768572,
    "entry": 0.002427,
-   "last": 0.002438,
+   "last": 0.002386,
    "peak": 0.002438,
    "cost": 2.9339894505263238,
    "opened": "2026-11-14T23:09:00+07:00",
@@ -35,13 +35,27 @@
    "sym": "baton",
    "qty": 906.4815458287486,
    "entry": 0.003198,
-   "last": 0.003146,
+   "last": 0.003169,
    "peak": 0.003198,
    "cost": 2.9281361415725238,
    "opened": "2026-11-14T23:09:02+07:00",
    "zoo": "w_cold_mkt",
    "smart": 721,
    "kol": 80,
+   "gap": 0,
+   "miss": 0
+  },
+  "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
+   "sym": "NIO",
+   "qty": 1173.3658458905873,
+   "entry": 0.002453,
+   "last": 0.002432,
+   "peak": 0.002453,
+   "cost": 2.9072664023328807,
+   "opened": "2026-11-14T23:19:31+07:00",
+   "zoo": "w_cold_mkt",
+   "smart": 394,
+   "kol": 30,
    "gap": 0,
    "miss": 0
   }
@@ -93,8 +107,22 @@
    "zoo": "w_cold_mkt",
    "smart": 721,
    "kol": 80
+  },
+  {
+   "t": "2026-11-14T23:19:31+07:00",
+   "kind": "buy",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "price": 0.002453,
+   "jup": 0.002440276340912545,
+   "usd": 2.9073,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_cold_mkt",
+   "smart": 394,
+   "kol": 30
   }
  ],
  "label": "สวนสัตว์: ตลาดเย็น: กฎ w_aged_nostop เฉพาะรอบที่เหรียญขึ้นไม่เกิน 61%",
- "rank_t": 1794672766.6144433
+ "rank_t": 1794673063.602197
 }
