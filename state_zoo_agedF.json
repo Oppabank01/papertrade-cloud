@@ -1,14 +1,100 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.740566037735848,
- "cash": 14.740566037735848,
- "pos": {},
+ "cash": 3.053119473197924,
+ "pos": {
+  "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
+   "sym": "NIO",
+   "qty": 1110.3491591468417,
+   "entry": 0.002576,
+   "last": 0.002605,
+   "peak": 0.002605,
+   "cost": 2.94811320754717,
+   "opened": "2026-11-14T10:56:54+07:00",
+   "zoo": "agedF",
+   "smart": 385,
+   "kol": 29,
+   "miss": 0
+  },
+  "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump": {
+   "sym": "ber",
+   "qty": 4681.726144798039,
+   "entry": 0.0006073,
+   "last": 0.0006203,
+   "peak": 0.0006203,
+   "cost": 2.9305424528301884,
+   "opened": "2026-11-14T10:56:54+07:00",
+   "zoo": "agedF",
+   "smart": 124,
+   "kol": 5,
+   "miss": 0
+  },
+  "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
+   "sym": "FOOD",
+   "qty": 2749.286714495081,
+   "entry": 0.001028,
+   "last": 0.001033,
+   "peak": 0.001033,
+   "cost": 2.9130764198113206,
+   "opened": "2026-11-14T10:56:54+07:00",
+   "zoo": "agedF",
+   "smart": 285,
+   "kol": 22,
+   "miss": 0
+  },
+  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
+   "sym": "CLAUDIA",
+   "qty": 685.0578377750884,
+   "entry": 0.004101,
+   "last": 0.0041,
+   "peak": 0.004101,
+   "cost": 2.895714484349245,
+   "opened": "2026-11-14T10:56:54+07:00",
+   "zoo": "agedF",
+   "smart": 438,
+   "kol": 28,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T10:55:00+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-14T10:56:54+07:00",
+   "kind": "buy",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "price": 0.002576,
+   "usd": 2.9481
+  },
+  {
+   "t": "2026-11-14T10:56:54+07:00",
+   "kind": "buy",
+   "mint": "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump",
+   "sym": "ber",
+   "price": 0.0006073,
+   "usd": 2.9305
+  },
+  {
+   "t": "2026-11-14T10:56:54+07:00",
+   "kind": "buy",
+   "mint": "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
+   "sym": "FOOD",
+   "price": 0.001028,
+   "usd": 2.9131
+  },
+  {
+   "t": "2026-11-14T10:56:54+07:00",
+   "kind": "buy",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.004101,
+   "usd": 2.8957
   }
  ],
- "label": "สวนสัตว์: อายุเกิน 1 วัน เช็กราคาทุก 20 วิ"
+ "label": "สวนสัตว์: อายุเกิน 1 วัน เช็กราคาทุก 20 วิ",
+ "rank_t": 1794628595.6164966
 }

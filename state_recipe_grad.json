@@ -1,8 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.6610445875021012,
- "pos": {},
+ "cash": 0.9986067176495632,
+ "pos": {
+  "3nJUK2stwRCGYftUQBc8cmZHES8QQbSPiwHiUwHWPU57": {
+   "sym": "WIO",
+   "qty": 9817.517263445254,
+   "entry": 3.283e-05,
+   "last": 3.283e-05,
+   "peak": 3.283e-05,
+   "cost": 0.33220891750042025,
+   "opened": "2026-11-14T10:56:48+07:00",
+   "smart": 14,
+   "kol": 1,
+   "miss": 0
+  },
+  "BTCmcoKg6J767Bum7nXVDPLsWAZs3ZdYwTQr7YnXpump": {
+   "sym": "SIRIUS",
+   "qty": 6831.303402388586,
+   "entry": 4.69e-05,
+   "last": 4.69e-05,
+   "peak": 4.69e-05,
+   "cost": 0.3302289523521178,
+   "opened": "2026-11-14T10:56:48+07:00",
+   "smart": 12,
+   "kol": 1,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -1388,8 +1413,24 @@
    "why": "stop -67.4%",
    "smart": 15,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T10:56:48+07:00",
+   "kind": "buy",
+   "mint": "3nJUK2stwRCGYftUQBc8cmZHES8QQbSPiwHiUwHWPU57",
+   "sym": "WIO",
+   "price": 3.283e-05,
+   "usd": 0.3322
+  },
+  {
+   "t": "2026-11-14T10:56:48+07:00",
+   "kind": "buy",
+   "mint": "BTCmcoKg6J767Bum7nXVDPLsWAZs3ZdYwTQr7YnXpump",
+   "sym": "SIRIUS",
+   "price": 4.69e-05,
+   "usd": 0.3302
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794628317.273352
+ "rank_t": 1794628595.6164966
 }
