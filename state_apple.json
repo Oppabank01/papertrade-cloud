@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.0,
+ "cash": 1.8366288232690948,
  "pos": {
   "BSe1q3SL6KQPLeZHFG9nNw5VFbDL3ZXvBmtjBVpYpump": {
    "sym": "SMOOVE",
@@ -12,17 +12,6 @@
    "cost": 2.935168691338434,
    "opened": "2026-11-14T12:33:07+07:00",
    "source": "../PaperTrade-cloud/recipe_smart4",
-   "miss": 0
-  },
-  "RA23GF9Jw9x2xqVfH1XhfBfa5TnWJC9uLDFHeU5pump": {
-   "sym": "SCRAP",
-   "qty": 14406.708209585486,
-   "entry": 6.583e-05,
-   "last": 0.0001428,
-   "peak": 0.0001497,
-   "cost": 0.9775238110049603,
-   "opened": "2026-11-14T14:19:16+07:00",
-   "source": "../PaperTrade-cloud/recipe_grad",
    "miss": 0
   }
  },
@@ -387,6 +376,18 @@
    "sym": "SCRAP",
    "price": 6.583e-05,
    "usd": 0.9775
+  },
+  {
+   "t": "2026-11-14T14:46:58+07:00",
+   "kind": "sell",
+   "mint": "RA23GF9Jw9x2xqVfH1XhfBfa5TnWJC9uLDFHeU5pump",
+   "sym": "SCRAP",
+   "price": 0.0001314,
+   "usd": 1.8366,
+   "pnl": 0.8591,
+   "why": "trailing จากยอด +127% (+99.6%)",
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 Apple Card (ไม้ 60%)",
