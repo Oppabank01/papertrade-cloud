@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 4.132003735753939,
+ "cash": 3.9552162257858035,
  "pos": {
-  "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump": {
-   "sym": "ber",
-   "qty": 3829.4501459174935,
-   "entry": 0.0005512,
-   "last": 0.0005325,
-   "peak": 0.0006161,
-   "cost": 2.175626592898085,
-   "opened": "2026-11-14T16:20:22+07:00",
-   "zoo": "aged",
-   "smart": 124,
-   "kol": 5,
-   "miss": 0,
-   "gap": 0
-  },
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
    "sym": "paws",
    "qty": 2542.4845734449696,
    "entry": 0.0008304,
-   "last": 0.0009455,
+   "last": 0.0009546,
    "peak": 0.0009775,
    "cost": 2.176127798174297,
    "opened": "2026-11-14T16:35:53+07:00",
@@ -44,6 +30,20 @@
    "kol": 40,
    "miss": 0,
    "gap": 0
+  },
+  "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump": {
+   "sym": "chudhaos",
+   "qty": 3643.397382223022,
+   "entry": 0.0005663,
+   "last": 0.0005663,
+   "peak": 0.0005663,
+   "cost": 2.1266294965500903,
+   "opened": "2026-11-14T19:22:15+07:00",
+   "zoo": "aged",
+   "smart": 27,
+   "kol": 1,
+   "gap": 0,
+   "miss": 0
   }
  },
  "log": [
@@ -727,8 +727,37 @@
    "cost_side": 0.03,
    "smart": 70,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T19:22:15+07:00",
+   "kind": "buy",
+   "mint": "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump",
+   "sym": "chudhaos",
+   "price": 0.0005663,
+   "jup": 0.0005647724722121704,
+   "usd": 2.1266,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "aged",
+   "smart": 27,
+   "kol": 1
+  },
+  {
+   "t": "2026-11-14T19:22:15+07:00",
+   "kind": "sell",
+   "mint": "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump",
+   "sym": "ber",
+   "price": 0.0005248095480052357,
+   "entry": 0.0005512,
+   "usd": 1.9498,
+   "pnl": -0.2258,
+   "why": "ครบ 3 ชม. (-4.8%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 124,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุเกิน 1 วัน ยังมีคนเล่น",
- "rank_t": 1794658629.5682538
+ "rank_t": 1794658902.4770138
 }

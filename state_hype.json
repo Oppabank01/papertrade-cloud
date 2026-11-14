@@ -1,30 +1,18 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.775413711583923,
- "cash": 1.1459280151629248,
+ "cash": 3.712573259913508,
  "pos": {
   "6GnUH7g2nDJeKieaMdWqb2iaaVptJ3k8E5VpWA9pump": {
    "sym": "Wolf",
    "qty": 43421.157723721044,
    "entry": 6.298e-05,
-   "last": 8.039e-05,
+   "last": 7.801e-05,
    "peak": 8.874e-05,
    "cost": 2.8186605992990637,
    "opened": "2026-11-14T17:25:10+07:00",
    "source": "agents",
    "gap": 0,
-   "miss": 0
-  },
-  "GxRPJsRK9TE9EgBhLxrFGcRYLGqPJe4fxtiPmdXCpump": {
-   "sym": "Hope",
-   "qty": 18735.698056697103,
-   "entry": 0.0001596,
-   "last": 0.0001505,
-   "peak": 0.0001686,
-   "cost": 3.082062883785671,
-   "opened": "2026-11-14T19:07:46+07:00",
-   "source": "agents",
-   "gap": 1,
    "miss": 0
   }
  },
@@ -717,6 +705,21 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-14T19:22:05+07:00",
+   "kind": "sell",
+   "mint": "GxRPJsRK9TE9EgBhLxrFGcRYLGqPJe4fxtiPmdXCpump",
+   "sym": "Hope",
+   "price": 0.0001412,
+   "entry": 0.0001596,
+   "usd": 2.5666,
+   "pnl": -0.5154,
+   "why": "stop -11.5%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "สายโม้ (ไม้ใหญ่ ปล่อยกำไรวิ่ง)",

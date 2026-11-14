@@ -1,54 +1,42 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.27331571622006123,
+ "cash": 1.4197040735840416,
  "pos": {
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
    "sym": "FLOAT",
    "qty": 655.810044974538,
    "entry": 0.002435,
-   "last": 0.0032971658794981543,
+   "last": 0.0033163933975924246,
    "peak": 0.003813,
    "cost": 1.6459466702875696,
    "opened": "2026-11-14T06:32:32+07:00",
    "source": "agents",
    "miss": 0,
-   "gap": 2
+   "gap": 3
   },
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 409.5232799784383,
    "entry": 0.003253,
-   "last": 0.0032730343391681035,
+   "last": 0.003272,
    "peak": 0.003394,
    "cost": 1.3730975363531848,
    "opened": "2026-11-14T14:56:23+07:00",
    "source": "agents",
    "miss": 0,
-   "gap": 1
+   "gap": 0
   },
   "6GnUH7g2nDJeKieaMdWqb2iaaVptJ3k8E5VpWA9pump": {
    "sym": "Wolf",
    "qty": 20808.258598022647,
    "entry": 6.298e-05,
-   "last": 8.039e-05,
+   "last": 7.801e-05,
    "peak": 9.153e-05,
    "cost": 1.3507566754313196,
    "opened": "2026-11-14T17:25:10+07:00",
    "source": "agents",
    "gap": 0,
-   "miss": 0
-  },
-  "GxRPJsRK9TE9EgBhLxrFGcRYLGqPJe4fxtiPmdXCpump": {
-   "sym": "Hope",
-   "qty": 8368.272227419455,
-   "entry": 0.0001596,
-   "last": 0.0001505,
-   "peak": 0.0001686,
-   "cost": 1.3765988945538499,
-   "opened": "2026-11-14T19:07:46+07:00",
-   "source": "agents",
-   "gap": 1,
    "miss": 0
   }
  },
@@ -757,6 +745,21 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-14T19:22:06+07:00",
+   "kind": "sell",
+   "mint": "GxRPJsRK9TE9EgBhLxrFGcRYLGqPJe4fxtiPmdXCpump",
+   "sym": "Hope",
+   "price": 0.0001412,
+   "entry": 0.0001596,
+   "usd": 1.1464,
+   "pnl": -0.2302,
+   "why": "stop -11.5%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",
