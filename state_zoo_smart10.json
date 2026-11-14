@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.8326928930395875,
+ "cash": 0.5530809814908486,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 8.269429669720697,
    "entry": 0.05031,
-   "last": 0.04965,
+   "last": 0.04975,
    "peak": 0.05056,
    "cost": 0.4288136535597282,
    "opened": "2026-11-14T05:11:08+07:00",
@@ -20,8 +20,8 @@
    "sym": "Max",
    "qty": 50.22515905461725,
    "entry": 0.001634,
-   "last": 0.001814,
-   "peak": 0.001814,
+   "last": 0.001816,
+   "peak": 0.001816,
    "cost": 0.08458865171639311,
    "opened": "2026-11-14T06:19:58+07:00",
    "zoo": "smart10",
@@ -40,6 +40,19 @@
    "zoo": "smart10",
    "smart": 923,
    "kol": 294,
+   "miss": 0
+  },
+  "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
+   "sym": "PAID",
+   "qty": 196.0111825033139,
+   "entry": 0.001384,
+   "last": 0.001384,
+   "peak": 0.001384,
+   "cost": 0.2796119115487389,
+   "opened": "2026-11-14T07:24:54+07:00",
+   "zoo": "smart10",
+   "smart": 662,
+   "kol": 93,
    "miss": 0
   }
  },
@@ -1172,8 +1185,16 @@
    "why": "stop -9.9%",
    "smart": 32,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T07:24:54+07:00",
+   "kind": "buy",
+   "mint": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
+   "sym": "PAID",
+   "price": 0.001384,
+   "usd": 0.2796
   }
  ],
  "label": "สวนสัตว์: smart wallet 10 ขึ้นไป",
- "rank_t": 1794615605.3536727
+ "rank_t": 1794615866.8578758
 }
