@@ -1,21 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.0002836701413775,
+ "cash": 1.4258165593193377,
  "pos": {
-  "43Lgs3sVLmSb9Gz5JrqmVtZYfu8hTwZeaqT3PT1wpump": {
-   "sym": "WILL",
-   "qty": 37391.582823551915,
-   "entry": 1.202e-05,
-   "last": 1.223e-05,
-   "peak": 1.401e-05,
-   "cost": 0.46325172700380757,
-   "opened": "2026-11-14T14:56:26+07:00",
-   "zoo": "rand",
-   "smart": 23,
-   "kol": 4,
-   "miss": 0
-  },
   "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump": {
    "sym": "ber",
    "qty": 734.2327636015063,
@@ -27,20 +14,22 @@
    "zoo": "rand",
    "smart": 124,
    "kol": 5,
-   "miss": 0
+   "miss": 0,
+   "gap": 0
   },
   "BTCmcoKg6J767Bum7nXVDPLsWAZs3ZdYwTQr7YnXpump": {
    "sym": "SIRIUS",
    "qty": 10327.24015539153,
    "entry": 4.115e-05,
-   "last": 5.018e-05,
+   "last": 5.195e-05,
    "peak": 5.727e-05,
    "cost": 0.43801889547965517,
    "opened": "2026-11-14T15:38:22+07:00",
    "zoo": "rand",
    "smart": 18,
    "kol": 2,
-   "miss": 0
+   "miss": 0,
+   "gap": 0
   }
  },
  "log": [
@@ -1112,8 +1101,23 @@
    "why": "trailing จากยอด +120% (+48.6%)",
    "smart": 40,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T17:06:47+07:00",
+   "kind": "sell",
+   "mint": "43Lgs3sVLmSb9Gz5JrqmVtZYfu8hTwZeaqT3PT1wpump",
+   "sym": "WILL",
+   "price": 1.173e-05,
+   "entry": 1.202e-05,
+   "usd": 0.4255,
+   "pnl": -0.0377,
+   "why": "trailing จากยอด +17% (-2.4%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 23,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794650534.9577727
+ "rank_t": 1794650795.8562517
 }

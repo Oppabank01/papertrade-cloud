@@ -1,40 +1,31 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.4111141872034273,
+ "cash": 0.6428387745784393,
  "pos": {
-  "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
-   "sym": "WASTED",
-   "qty": 68.65250974439623,
-   "entry": 0.003814,
-   "last": 0.003738,
-   "peak": 0.00414,
-   "cost": 0.26988319126481886,
-   "opened": "2026-11-14T14:51:41+07:00",
-   "source": "agents",
-   "miss": 0
-  },
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 386.5383852853726,
    "entry": 0.0005957,
-   "last": 0.0006365,
+   "last": 0.0005872,
    "peak": 0.0006414,
    "cost": 0.23733345301432332,
    "opened": "2026-11-14T16:00:58+07:00",
    "source": "agents",
-   "miss": 0
+   "miss": 0,
+   "gap": 0
   },
   "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
    "sym": "CRIME",
    "qty": 68.55545828312272,
    "entry": 0.003231,
-   "last": 0.003214,
+   "last": 0.003208,
    "peak": 0.003231,
    "cost": 0.22830621079444394,
    "opened": "2026-11-14T16:53:37+07:00",
    "source": "agents",
-   "miss": 0
+   "miss": 0,
+   "gap": 0
   }
  },
  "log": [
@@ -2124,6 +2115,21 @@
    "usd": 0.1984,
    "pnl": -0.0332,
    "why": "stop -9.0%",
+   "smart": null,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T17:06:40+07:00",
+   "kind": "sell",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "price": 0.003479,
+   "entry": 0.003814,
+   "usd": 0.2317,
+   "pnl": -0.0382,
+   "why": "stop -8.8%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
    "smart": null,
    "bundler": null
   }

@@ -1,33 +1,21 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.27422047197345684,
+ "cash": 0.36272758322481563,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 2.1441193506818728,
    "entry": 0.04505,
-   "last": 0.0455,
+   "last": 0.04532,
    "peak": 0.04567,
    "cost": 0.09955944830779051,
    "opened": "2026-11-14T15:05:48+07:00",
    "zoo": "top1",
    "smart": 1000,
    "kol": 174,
-   "miss": 0
-  },
-  "LP9FEB5TZZepT48qigsAJkdzB38R5hfFyJzerzxpump": {
-   "sym": "Avatars",
-   "qty": 1495.6609739770872,
-   "entry": 6.035e-05,
-   "last": 7.422e-05,
-   "peak": 7.422e-05,
-   "cost": 0.09303560067977451,
-   "opened": "2026-11-14T16:58:16+07:00",
-   "zoo": "top1",
-   "smart": 15,
-   "kol": 5,
-   "miss": 0
+   "miss": 0,
+   "gap": 0
   }
  },
  "log": [
@@ -1151,8 +1139,24 @@
    "sym": "Avatars",
    "price": 6.035e-05,
    "usd": 0.093
+  },
+  {
+   "t": "2026-11-14T17:06:47+07:00",
+   "kind": "sell",
+   "mint": "LP9FEB5TZZepT48qigsAJkdzB38R5hfFyJzerzxpump",
+   "sym": "Avatars",
+   "price": 6.099352511494479e-05,
+   "entry": 6.035e-05,
+   "usd": 0.0885,
+   "pnl": -0.0045,
+   "why": "trailing จากยอด +23% (+1.1%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 15,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: วอลุ่มอันดับ 1",
- "rank_t": 1794650534.9577727
+ "rank_t": 1794650534.9577727,
+ "dead": "2026-11-14: 55 ไม้ -96.7% แพ้ rand -83.9%"
 }

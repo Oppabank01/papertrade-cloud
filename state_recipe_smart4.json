@@ -1,55 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.13961695943915087,
+ "cash": 0.4969232480903318,
  "pos": {
-  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
-   "sym": "STONK",
-   "qty": 3.84375894256337,
-   "entry": 0.04501,
-   "last": 0.0455,
-   "peak": 0.04567,
-   "cost": 0.1783215728764969,
-   "opened": "2026-11-14T14:05:31+07:00",
-   "smart": 1000,
-   "kol": 174,
-   "miss": 0
-  },
-  "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump": {
-   "sym": "chudhaos",
-   "qty": 515.9008747804804,
-   "entry": 0.0003177,
-   "last": 0.0004168,
-   "peak": 0.0004736,
-   "cost": 0.16893600073980486,
-   "opened": "2026-11-14T14:10:14+07:00",
-   "smart": 21,
-   "kol": 1,
-   "miss": 0
-  },
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 44.98978506690364,
    "entry": 0.00389,
-   "last": 0.003877,
+   "last": 0.003837,
    "peak": 0.003925,
    "cost": 0.18038575954468683,
    "opened": "2026-11-14T16:26:54+07:00",
    "smart": 439,
    "kol": 28,
-   "miss": 0
+   "miss": 0,
+   "gap": 0
   },
   "Aq38XaBAkzAtwbpvFKEzKg9hp1eZrEFV5W9H6XJjFUND": {
    "sym": "FUND",
    "qty": 1286.316472365291,
    "entry": 0.0001349,
-   "last": 0.0001269,
+   "last": 0.0001328,
    "peak": 0.0001349,
    "cost": 0.1788539395197668,
    "opened": "2026-11-14T17:02:46+07:00",
    "smart": 55,
    "kol": 3,
-   "miss": 0
+   "miss": 0,
+   "gap": 1
   }
  },
  "log": [
@@ -2129,8 +2107,38 @@
    "sym": "FUND",
    "price": 0.0001349,
    "usd": 0.1789
+  },
+  {
+   "t": "2026-11-14T17:06:45+07:00",
+   "kind": "sell",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.04532,
+   "entry": 0.04501,
+   "usd": 0.169,
+   "pnl": -0.0093,
+   "why": "ครบ 3 ชม. (+0.7%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 1000,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T17:06:45+07:00",
+   "kind": "sell",
+   "mint": "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump",
+   "sym": "chudhaos",
+   "price": 0.0003762,
+   "entry": 0.0003177,
+   "usd": 0.1883,
+   "pnl": 0.0194,
+   "why": "trailing จากยอด +49% (+18.4%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 21,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794650534.9577727
+ "rank_t": 1794650795.8562517
 }
