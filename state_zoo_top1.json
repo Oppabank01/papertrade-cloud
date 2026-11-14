@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.7053861838904558,
+ "cash": 0.30580711242183944,
  "pos": {
   "EnXT7SXxXb9MYt3RJzDTXA9FxCaEzf9erDQbmcTQpump": {
    "sym": "MANE",
    "qty": 5266.853570080544,
    "entry": 7.607e-05,
-   "last": 0.0001166,
-   "peak": 0.0001166,
+   "last": 0.0001398,
+   "peak": 0.0001398,
    "cost": 0.41295562881470516,
    "opened": "2026-11-14T07:07:43+07:00",
    "zoo": "top1",
@@ -20,7 +20,7 @@
    "sym": "ANSEM",
    "qty": 8.114958488303163,
    "entry": 0.04992,
-   "last": 0.04958,
+   "last": 0.04969,
    "peak": 0.04992,
    "cost": 0.4175414633437373,
    "opened": "2026-11-14T07:16:08+07:00",
@@ -29,17 +29,17 @@
    "kol": 186,
    "miss": 0
   },
-  "HNx7J7kb5spKoPJnChSdZzXTqB1dEihKk1brhxZ2pump": {
-   "sym": "PANIC",
-   "qty": 7555.714060409716,
-   "entry": 4.747e-05,
-   "last": 4.747e-05,
-   "peak": 4.747e-05,
-   "cost": 0.3696864012035139,
-   "opened": "2026-11-14T07:33:24+07:00",
+  "27UnW8kJufYjPS2yxNrNhCFNR4arnnqnPTSEqtzBpump": {
+   "sym": "COCO",
+   "qty": 6053.415743426216,
+   "entry": 6.669e-05,
+   "last": 6.494e-05,
+   "peak": 6.669e-05,
+   "cost": 0.4161021396919134,
+   "opened": "2026-11-14T07:37:39+07:00",
    "zoo": "top1",
-   "smart": 4,
-   "kol": 0,
+   "smart": 18,
+   "kol": 1,
    "miss": 0
   }
  },
@@ -572,8 +572,28 @@
    "sym": "PANIC",
    "price": 4.747e-05,
    "usd": 0.3697
+  },
+  {
+   "t": "2026-11-14T07:37:39+07:00",
+   "kind": "buy",
+   "mint": "27UnW8kJufYjPS2yxNrNhCFNR4arnnqnPTSEqtzBpump",
+   "sym": "COCO",
+   "price": 6.669e-05,
+   "usd": 0.4161
+  },
+  {
+   "t": "2026-11-14T07:37:40+07:00",
+   "kind": "sell",
+   "mint": "HNx7J7kb5spKoPJnChSdZzXTqB1dEihKk1brhxZ2pump",
+   "sym": "PANIC",
+   "price": 2.254e-06,
+   "usd": 0.0165,
+   "pnl": -0.3532,
+   "why": "stop -95.3%",
+   "smart": 4,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: วอลุ่มอันดับ 1",
- "rank_t": 1794616383.4078074
+ "rank_t": 1794616641.2524238
 }

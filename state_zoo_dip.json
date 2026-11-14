@@ -1,19 +1,32 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.801758576466792,
+ "cash": 0.43012064937899425,
  "pos": {
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
    "qty": 305.36690203612386,
    "entry": 0.002283,
-   "last": 0.002239,
+   "last": 0.002106,
    "peak": 0.002452,
    "cost": 0.7185659012043607,
    "opened": "2026-11-14T06:41:21+07:00",
    "zoo": "dip",
    "smart": 369,
    "kol": 28,
+   "miss": 0
+  },
+  "DMvhbmFMo1MQnSEaqgzMCoASTnb632MHp7sVhBRypump": {
+   "sym": "bullish",
+   "qty": 2250.7750414363454,
+   "entry": 0.0001273,
+   "last": 0.0001273,
+   "peak": 0.0001273,
+   "cost": 0.2953243277415449,
+   "opened": "2026-11-14T07:37:40+07:00",
+   "zoo": "dip",
+   "smart": 6,
+   "kol": 1,
    "miss": 0
   }
  },
@@ -1570,8 +1583,36 @@
    "why": "stop -19.8%",
    "smart": 8,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T07:37:40+07:00",
+   "kind": "buy",
+   "mint": "3dq3xBZHXD9wwUD2xjetwh2S9JXUUPhZ2AJD26zkpump",
+   "sym": "Sanctum",
+   "price": 4.166e-05,
+   "usd": 0.2971
+  },
+  {
+   "t": "2026-11-14T07:37:40+07:00",
+   "kind": "buy",
+   "mint": "DMvhbmFMo1MQnSEaqgzMCoASTnb632MHp7sVhBRypump",
+   "sym": "bullish",
+   "price": 0.0001273,
+   "usd": 0.2953
+  },
+  {
+   "t": "2026-11-14T07:37:40+07:00",
+   "kind": "sell",
+   "mint": "3dq3xBZHXD9wwUD2xjetwh2S9JXUUPhZ2AJD26zkpump",
+   "sym": "Sanctum",
+   "price": 3.289e-05,
+   "usd": 0.2208,
+   "pnl": -0.0763,
+   "why": "stop -21.1%",
+   "smart": 15,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794616383.4078074
+ "rank_t": 1794616641.2524238
 }
