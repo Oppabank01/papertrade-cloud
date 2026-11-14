@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.5182682840512767,
+ "cash": 0.974282024440558,
  "pos": {
   "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS": {
    "sym": "BAGSPAY",
    "qty": 1047.0706780879373,
    "entry": 0.000545,
-   "last": 0.0005354,
+   "last": 0.000537,
    "peak": 0.0005786,
    "cost": 0.5881813229828138,
    "opened": "2026-11-14T12:19:39+07:00",
@@ -20,13 +20,26 @@
    "sym": "STONK",
    "qty": 14.239479630253996,
    "entry": 0.04444,
-   "last": 0.04502,
+   "last": 0.04485,
    "peak": 0.04502,
    "cost": 0.652239203018437,
    "opened": "2026-11-14T13:10:03+07:00",
    "zoo": "rand",
    "smart": 1000,
    "kol": 174,
+   "miss": 0
+  },
+  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
+   "sym": "DacityCoin",
+   "qty": 109.61068931969248,
+   "entry": 0.004815,
+   "last": 0.004815,
+   "peak": 0.004815,
+   "cost": 0.5439862596107187,
+   "opened": "2026-11-14T13:19:18+07:00",
+   "zoo": "rand",
+   "smart": 245,
+   "kol": 20,
    "miss": 0
   }
  },
@@ -931,8 +944,16 @@
    "why": "trailing จากยอด +40% (+16.7%)",
    "smart": 72,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T13:19:18+07:00",
+   "kind": "buy",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.004815,
+   "usd": 0.544
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794636867.7003012
+ "rank_t": 1794637145.8859594
 }

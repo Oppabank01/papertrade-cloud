@@ -1,8 +1,22 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.4953697318854458,
- "pos": {},
+ "cash": 1.9962957855083565,
+ "pos": {
+  "DffdPtAKvnP91k9Ct6QvZ8TwVvWbJ6CxRtGNGNh9pump": {
+   "sym": "LTC",
+   "qty": 1546.4757035293896,
+   "entry": 0.0003131,
+   "last": 0.0003131,
+   "peak": 0.0003131,
+   "cost": 0.4990739463770892,
+   "opened": "2026-11-14T13:19:14+07:00",
+   "smart": 113,
+   "kol": 5,
+   "bundler": 0.0259,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T01:37:56+07:00",
@@ -13084,6 +13098,47 @@
    "buy": 0.8451,
    "bull": 0.9007,
    "bear": 0.9497
+  },
+  {
+   "t": "2026-11-14T13:19:11+07:00",
+   "kind": "debate",
+   "mint": "A5bpyAGdSPKwX3YDyF563DmbVSfM3EcYgBPjPna8pump",
+   "sym": "UP",
+   "ok": false,
+   "bundler": 0.0999,
+   "buy": 0.902,
+   "bull": 0.9682,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-14T13:19:12+07:00",
+   "kind": "debate",
+   "mint": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
+   "sym": "PAID",
+   "ok": false,
+   "bundler": 0.2874,
+   "buy": 0.767,
+   "bull": 0.9301,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-14T13:19:14+07:00",
+   "kind": "debate",
+   "mint": "DffdPtAKvnP91k9Ct6QvZ8TwVvWbJ6CxRtGNGNh9pump",
+   "sym": "LTC",
+   "ok": true,
+   "bundler": 0.0259,
+   "buy": 0.7939,
+   "bull": 0.8897,
+   "bear": 0.0001
+  },
+  {
+   "t": "2026-11-14T13:19:14+07:00",
+   "kind": "buy",
+   "mint": "DffdPtAKvnP91k9Ct6QvZ8TwVvWbJ6CxRtGNGNh9pump",
+   "sym": "LTC",
+   "price": 0.0003131,
+   "usd": 0.4991
   }
  ]
 }

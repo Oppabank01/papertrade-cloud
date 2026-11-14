@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 3.27544260447835,
+ "cash": 1.8609634985795211,
  "pos": {
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
    "sym": "FLOAT",
@@ -18,10 +18,21 @@
    "sym": "GTA6",
    "qty": 212.91384686497827,
    "entry": 0.007215,
-   "last": 0.00814,
-   "peak": 0.008245,
+   "last": 0.00826,
+   "peak": 0.00826,
    "cost": 1.5833574573601508,
    "opened": "2026-11-14T06:49:45+07:00",
+   "source": "agents",
+   "miss": 0
+  },
+  "DffdPtAKvnP91k9Ct6QvZ8TwVvWbJ6CxRtGNGNh9pump": {
+   "sym": "LTC",
+   "qty": 4383.0329880007785,
+   "entry": 0.0003131,
+   "last": 0.0003131,
+   "peak": 0.0003131,
+   "cost": 1.4144791058988289,
+   "opened": "2026-11-14T13:19:15+07:00",
    "source": "agents",
    "miss": 0
   }
@@ -607,6 +618,14 @@
    "why": "ครบ 24 ชม. (+1.7%)",
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T13:19:15+07:00",
+   "kind": "buy",
+   "mint": "DffdPtAKvnP91k9Ct6QvZ8TwVvWbJ6CxRtGNGNh9pump",
+   "sym": "LTC",
+   "price": 0.0003131,
+   "usd": 1.4145
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",
@@ -683,6 +702,7 @@
   "state_agents.json:2026-11-14T08:55:50+07:00:4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump",
   "state_agents.json:2026-11-14T09:34:06+07:00:9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump",
   "state_agents.json:2026-11-14T09:55:28+07:00:HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump",
-  "state_agents.json:2026-11-14T10:17:48+07:00:FPN5sEwtxtLn8d5zRqy2wMs8oSswRk9xyQd4Lt1dpump"
+  "state_agents.json:2026-11-14T10:17:48+07:00:FPN5sEwtxtLn8d5zRqy2wMs8oSswRk9xyQd4Lt1dpump",
+  "state_agents.json:2026-11-14T13:19:14+07:00:DffdPtAKvnP91k9Ct6QvZ8TwVvWbJ6CxRtGNGNh9pump"
  ]
 }

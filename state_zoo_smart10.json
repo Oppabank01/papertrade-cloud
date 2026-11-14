@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.17491090253383346,
+ "cash": 0.0,
  "pos": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 21.425162276988015,
    "entry": 0.007823,
-   "last": 0.008173,
+   "last": 0.008219,
    "peak": 0.008245,
    "cost": 0.17275720933093924,
    "opened": "2026-11-14T11:20:12+07:00",
@@ -20,13 +20,39 @@
    "sym": "chudhaos",
    "qty": 373.8803825600304,
    "entry": 0.0003254,
-   "last": 0.0003569,
+   "last": 0.0003544,
    "peak": 0.0003569,
    "cost": 0.12539752266031118,
    "opened": "2026-11-14T13:10:03+07:00",
    "zoo": "smart10",
    "smart": 20,
    "kol": 1,
+   "miss": 0
+  },
+  "DxavSLTxr2YRAVoYakCHtxDx2T9sNQRGTW1xEsk1pump": {
+   "sym": "SPERMCOIN",
+   "qty": 2605.831410116796,
+   "entry": 3.6e-05,
+   "last": 3.333e-05,
+   "peak": 3.6e-05,
+   "cost": 0.09669133247186629,
+   "opened": "2026-11-14T13:19:18+07:00",
+   "zoo": "smart10",
+   "smart": 21,
+   "kol": 0,
+   "miss": 0
+  },
+  "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
+   "sym": "WASTED",
+   "qty": 25.346902763567314,
+   "entry": 0.002994,
+   "last": 0.002994,
+   "peak": 0.002994,
+   "cost": 0.07821957006196717,
+   "opened": "2026-11-14T13:19:18+07:00",
+   "zoo": "smart10",
+   "smart": 56,
+   "kol": 0,
    "miss": 0
   }
  },
@@ -1651,8 +1677,24 @@
    "why": "stop -23.2%",
    "smart": 21,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T13:19:18+07:00",
+   "kind": "buy",
+   "mint": "DxavSLTxr2YRAVoYakCHtxDx2T9sNQRGTW1xEsk1pump",
+   "sym": "SPERMCOIN",
+   "price": 3.6e-05,
+   "usd": 0.0967
+  },
+  {
+   "t": "2026-11-14T13:19:18+07:00",
+   "kind": "buy",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "price": 0.002994,
+   "usd": 0.0782
   }
  ],
  "label": "สวนสัตว์: smart wallet 10 ขึ้นไป",
- "rank_t": 1794636867.7003012
+ "rank_t": 1794637145.8859594
 }
