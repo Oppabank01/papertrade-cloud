@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.6834574694839293,
+ "cash": 0.9627115160624702,
  "pos": {
   "8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": {
    "sym": "PURR",
    "qty": 583.6727902937704,
    "entry": 0.001832,
-   "last": 0.001764,
+   "last": 0.001765,
    "peak": 0.001955,
    "cost": 1.1021320880418342,
    "opened": "2026-11-14T05:32:21+07:00",
@@ -20,7 +20,7 @@
    "sym": "USELESS",
    "qty": 1.0557938824136164,
    "entry": 0.1241,
-   "last": 0.1255,
+   "last": 0.1254,
    "peak": 0.1255,
    "cost": 0.13504846506651183,
    "opened": "2026-11-14T06:32:35+07:00",
@@ -40,6 +40,19 @@
    "zoo": "kol2",
    "smart": 329,
    "kol": 48,
+   "miss": 0
+  },
+  "kSUNKKZbz7wd5J7riTjdhDpkDKcjEmzs1Ht3qCnpump": {
+   "sym": "eˣ",
+   "qty": 52458.193849174764,
+   "entry": 1.333e-05,
+   "last": 1.296e-05,
+   "peak": 1.333e-05,
+   "cost": 0.7207459534214591,
+   "opened": "2026-11-14T07:20:28+07:00",
+   "zoo": "kol2",
+   "smart": 7,
+   "kol": 2,
    "miss": 0
   }
  },
@@ -852,8 +865,16 @@
    "why": "trailing จากยอด +22% (-3.2%)",
    "smart": 73,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T07:20:28+07:00",
+   "kind": "buy",
+   "mint": "kSUNKKZbz7wd5J7riTjdhDpkDKcjEmzs1Ht3qCnpump",
+   "sym": "eˣ",
+   "price": 1.333e-05,
+   "usd": 0.7207
   }
  ],
  "label": "สวนสัตว์: KOL เข้า 2 คนขึ้นไป",
- "rank_t": 1794615363.0039785
+ "rank_t": 1794615605.3536727
 }
