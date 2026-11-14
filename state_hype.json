@@ -1,8 +1,21 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.775413711583923,
- "cash": 7.046651498247659,
- "pos": {},
+ "cash": 4.227990898948596,
+ "pos": {
+  "6GnUH7g2nDJeKieaMdWqb2iaaVptJ3k8E5VpWA9pump": {
+   "sym": "Wolf",
+   "qty": 43421.157723721044,
+   "entry": 6.298e-05,
+   "last": 6.298e-05,
+   "peak": 6.298e-05,
+   "cost": 2.8186605992990637,
+   "opened": "2026-11-14T17:25:10+07:00",
+   "source": "agents",
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T01:40:57+07:00",
@@ -668,6 +681,18 @@
    "why": "trailing จากยอด +158% (+56.4%)",
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T17:25:10+07:00",
+   "kind": "buy",
+   "mint": "6GnUH7g2nDJeKieaMdWqb2iaaVptJ3k8E5VpWA9pump",
+   "sym": "Wolf",
+   "price": 6.298e-05,
+   "jup": 6.259651949327952e-05,
+   "usd": 2.8187,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "agents"
   }
  ],
  "label": "สายโม้ (ไม้ใหญ่ ปล่อยกำไรวิ่ง)",
@@ -752,6 +777,7 @@
   "state_agents.json:2026-11-14T15:56:26+07:00:GWKw27d8mYA2TnnrE5jDdksEVCmMsGnDsi6FzqWgVmHq",
   "state_agents.json:2026-11-14T16:00:57+07:00:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
   "state_agents.json:2026-11-14T16:15:15+07:00:FTafjhdsVGSwKcSqdi6daM8EtQmHQwtGnXs2jeiNZ6Kx",
+  "state_agents.json:2026-11-14T17:25:09+07:00:6GnUH7g2nDJeKieaMdWqb2iaaVptJ3k8E5VpWA9pump",
   "state_grokbot.json:2026-11-14T01:57:45+07:00:9oJk7eMccQchx3evoN5C5pKQD5Xodb4C1qkhemjjpump"
  ]
 }

@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.0381108009799322,
+ "cash": 0.5398017734938322,
  "pos": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 146.632209125339,
    "entry": 0.003253,
-   "last": 0.003325,
+   "last": 0.003323,
    "peak": 0.003374,
    "cost": 0.4916456156305171,
    "opened": "2026-11-14T14:56:19+07:00",
@@ -35,7 +35,7 @@
    "sym": "Leonida",
    "qty": 765.9536457780202,
    "entry": 0.0005957,
-   "last": 0.0005783,
+   "last": 0.0005922,
    "peak": 0.0006414,
    "cost": 0.4702933279632722,
    "opened": "2026-11-14T16:00:57+07:00",
@@ -43,7 +43,21 @@
    "kol": 4,
    "bundler": 0.1097,
    "miss": 0,
-   "gap": 0
+   "gap": 1
+  },
+  "6GnUH7g2nDJeKieaMdWqb2iaaVptJ3k8E5VpWA9pump": {
+   "sym": "Wolf",
+   "qty": 7676.395974388922,
+   "entry": 6.298e-05,
+   "last": 6.261e-05,
+   "peak": 6.298e-05,
+   "cost": 0.49830902748610006,
+   "opened": "2026-11-14T17:25:09+07:00",
+   "smart": 73,
+   "kol": 4,
+   "bundler": 0.0596,
+   "gap": 0,
+   "miss": 0
   }
  },
  "log": [
@@ -15310,6 +15324,64 @@
    "buy": 0.786,
    "bull": 0.9056,
    "bear": 0.0003
+  },
+  {
+   "t": "2026-11-14T17:25:01+07:00",
+   "kind": "debate",
+   "mint": "LP9FEB5TZZepT48qigsAJkdzB38R5hfFyJzerzxpump",
+   "sym": "Avatars",
+   "ok": true,
+   "bundler": 0.1888,
+   "buy": 0.8075,
+   "bull": 0.9487,
+   "bear": 0.9466
+  },
+  {
+   "t": "2026-11-14T17:25:05+07:00",
+   "kind": "debate",
+   "mint": "3D5nV4rQuNJezr6BGfxgQY3qqrtigmEnV2gqSi7ipump",
+   "sym": "tinfoil",
+   "ok": true,
+   "bundler": 0.2576,
+   "buy": 0.7824,
+   "bull": 0.9412,
+   "bear": 0.9284
+  },
+  {
+   "t": "2026-11-14T17:25:07+07:00",
+   "kind": "debate",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "ok": false,
+   "bundler": 0.0507,
+   "buy": 0.9129,
+   "bull": 0.9098,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-14T17:25:08+07:00",
+   "kind": "debate",
+   "mint": "6GnUH7g2nDJeKieaMdWqb2iaaVptJ3k8E5VpWA9pump",
+   "sym": "Wolf",
+   "ok": true,
+   "bundler": 0.0596,
+   "buy": 0.7397,
+   "bull": 0.8439,
+   "bear": 0.0001
+  },
+  {
+   "t": "2026-11-14T17:25:09+07:00",
+   "kind": "buy",
+   "mint": "6GnUH7g2nDJeKieaMdWqb2iaaVptJ3k8E5VpWA9pump",
+   "sym": "Wolf",
+   "price": 6.298e-05,
+   "jup": 6.259651949327952e-05,
+   "usd": 0.4983,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 73,
+   "kol": 4,
+   "bundler": 0.0596
   }
  ]
 }
