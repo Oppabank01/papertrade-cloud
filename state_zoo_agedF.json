@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.740566037735848,
- "cash": 2.7600572188220474,
+ "cash": 2.298149223834905,
  "pos": {
   "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump": {
    "sym": "ber",
    "qty": 4681.726144798039,
    "entry": 0.0006073,
-   "last": 0.0006705,
+   "last": 0.0006823,
    "peak": 0.0006921,
    "cost": 2.9305424528301884,
    "opened": "2026-11-14T10:56:54+07:00",
@@ -16,25 +16,12 @@
    "kol": 5,
    "miss": 0
   },
-  "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
-   "sym": "FOOD",
-   "qty": 2749.286714495081,
-   "entry": 0.001028,
-   "last": 0.0009658,
-   "peak": 0.001061,
-   "cost": 2.9130764198113206,
-   "opened": "2026-11-14T10:56:54+07:00",
-   "zoo": "agedF",
-   "smart": 285,
-   "kol": 22,
-   "miss": 0
-  },
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 685.0578377750884,
    "entry": 0.004101,
-   "last": 0.004317,
-   "peak": 0.004329,
+   "last": 0.00436,
+   "peak": 0.00436,
    "cost": 2.895714484349245,
    "opened": "2026-11-14T10:56:54+07:00",
    "zoo": "agedF",
@@ -46,13 +33,26 @@
    "sym": "Lucia",
    "qty": 4105.937415234853,
    "entry": 0.000685,
-   "last": 0.0006959,
+   "last": 0.0007273,
    "peak": 0.0007827,
    "cost": 2.898956018795995,
    "opened": "2026-11-14T11:38:54+07:00",
    "zoo": "agedF",
    "smart": 98,
    "kol": 4,
+   "miss": 0
+  },
+  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
+   "sym": "Macca",
+   "qty": 1204.55635027792,
+   "entry": 0.002294,
+   "last": 0.002294,
+   "peak": 0.002294,
+   "cost": 2.84812643530978,
+   "opened": "2026-11-14T12:19:40+07:00",
+   "zoo": "agedF",
+   "smart": 167,
+   "kol": 8,
    "miss": 0
   }
  },
@@ -113,8 +113,28 @@
    "sym": "Lucia",
    "price": 0.000685,
    "usd": 2.899
+  },
+  {
+   "t": "2026-11-14T12:19:23+07:00",
+   "kind": "sell",
+   "mint": "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
+   "sym": "FOOD",
+   "price": 0.0008946,
+   "usd": 2.3862,
+   "pnl": -0.5269,
+   "why": "stop -13.0%",
+   "smart": 285,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T12:19:40+07:00",
+   "kind": "buy",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.002294,
+   "usd": 2.8481
   }
  ],
  "label": "สวนสัตว์: อายุเกิน 1 วัน เช็กราคาทุก 20 วิ",
- "rank_t": 1794633300.3843472
+ "rank_t": 1794633563.3390057
 }

@@ -1,19 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.5280083732450802,
+ "cash": 0.48841523215858573,
  "pos": {
-  "GdZ9rwHyKcriLdbSzhtEFLe5MLs7Vk6AY1aE5ei7nsmP": {
-   "sym": "AVO",
-   "qty": 702.1295555405384,
-   "entry": 0.0001824,
-   "last": 0.0001824,
-   "peak": 0.0001824,
-   "cost": 0.13200209331127005,
-   "opened": "2026-11-14T12:15:14+07:00",
+  "7eAnVu4aLFennnQZnJY9ByDt8vgsyqFhstM7hbUHpump": {
+   "sym": "fomo",
+   "qty": 3692.1445209468634,
+   "entry": 3.448e-05,
+   "last": 3.448e-05,
+   "peak": 3.448e-05,
+   "cost": 0.13121536083513488,
+   "opened": "2026-11-14T12:19:39+07:00",
    "zoo": "top1",
-   "smart": 16,
-   "kol": 47,
+   "smart": 15,
+   "kol": 0,
    "miss": 0
   }
  },
@@ -930,8 +930,28 @@
    "sym": "AVO",
    "price": 0.0001824,
    "usd": 0.132
+  },
+  {
+   "t": "2026-11-14T12:19:39+07:00",
+   "kind": "buy",
+   "mint": "7eAnVu4aLFennnQZnJY9ByDt8vgsyqFhstM7hbUHpump",
+   "sym": "fomo",
+   "price": 3.448e-05,
+   "usd": 0.1312
+  },
+  {
+   "t": "2026-11-14T12:19:39+07:00",
+   "kind": "sell",
+   "mint": "GdZ9rwHyKcriLdbSzhtEFLe5MLs7Vk6AY1aE5ei7nsmP",
+   "sym": "AVO",
+   "price": 0.0001345,
+   "usd": 0.0916,
+   "pnl": -0.0404,
+   "why": "stop -26.3%",
+   "smart": 16,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: วอลุ่มอันดับ 1",
- "rank_t": 1794633300.3843472
+ "rank_t": 1794633563.3390057
 }

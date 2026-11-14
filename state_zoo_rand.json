@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.2736278498101594,
+ "cash": 1.2705961391408183,
  "pos": {
   "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": {
    "sym": "GTA",
    "qty": 713.0254732629516,
    "entry": 0.0007842,
-   "last": 0.0008154,
+   "last": 0.0008063,
    "peak": 0.0008303,
    "cost": 0.5763291858717858,
    "opened": "2026-11-14T09:21:14+07:00",
@@ -20,7 +20,7 @@
    "sym": "Cupsey",
    "qty": 167.17943305409145,
    "entry": 0.002731,
-   "last": 0.002782,
+   "last": 0.002829,
    "peak": 0.002838,
    "cost": 0.47059063251981414,
    "opened": "2026-11-14T09:25:29+07:00",
@@ -29,17 +29,17 @@
    "kol": 31,
    "miss": 0
   },
-  "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump": {
-   "sym": "chudhaos",
-   "qty": 2180.4868684538687,
-   "entry": 0.0002618,
-   "last": 0.0002847,
-   "peak": 0.0003324,
-   "cost": 0.5883853454558059,
-   "opened": "2026-11-14T11:29:41+07:00",
+  "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS": {
+   "sym": "BAGSPAY",
+   "qty": 1047.0706780879373,
+   "entry": 0.000545,
+   "last": 0.000545,
+   "peak": 0.000545,
+   "cost": 0.5881813229828138,
+   "opened": "2026-11-14T12:19:39+07:00",
    "zoo": "rand",
-   "smart": 19,
-   "kol": 1,
+   "smart": 187,
+   "kol": 18,
    "miss": 0
   }
  },
@@ -832,8 +832,28 @@
    "why": "ครบ 3 ชม. (-0.2%)",
    "smart": 448,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T12:19:39+07:00",
+   "kind": "buy",
+   "mint": "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS",
+   "sym": "BAGSPAY",
+   "price": 0.000545,
+   "usd": 0.5882
+  },
+  {
+   "t": "2026-11-14T12:19:39+07:00",
+   "kind": "sell",
+   "mint": "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump",
+   "sym": "chudhaos",
+   "price": 0.0002766,
+   "usd": 0.5851,
+   "pnl": -0.0032,
+   "why": "trailing จากยอด +27% (+5.7%)",
+   "smart": 19,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794633300.3843472
+ "rank_t": 1794633563.3390057
 }
