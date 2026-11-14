@@ -178,6 +178,21 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "state_recipe_smart4.json"
+  },
+  {
+   "t": "2026-11-14T23:38:09+07:00",
+   "kind": "sell",
+   "mint": "7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn",
+   "sym": "Snoopy",
+   "price": 0.0011128203645264605,
+   "entry": 0.000823,
+   "usd": 3.6407,
+   "pnl": 0.7802,
+   "why": "trailing จากยอด +61% (+35.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "pos": {
@@ -185,28 +200,16 @@
    "sym": "DacityCoin",
    "qty": 691.6406283773007,
    "entry": 0.004056,
-   "last": 0.003875,
+   "last": 0.0039028508669166876,
    "peak": 0.004251,
    "cost": 2.8914598935253877,
    "opened": "2026-11-14T22:35:37+07:00",
    "source": "state_recipe_smart4.json",
-   "gap": 0,
-   "miss": 0
-  },
-  "7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": {
-   "sym": "Snoopy",
-   "qty": 3372.1266342065255,
-   "entry": 0.000823,
-   "last": 0.001259,
-   "peak": 0.001328,
-   "cost": 2.8605032157822823,
-   "opened": "2026-11-14T23:04:37+07:00",
-   "source": "state_recipe_smart4.json",
-   "gap": 2,
+   "gap": 1,
    "miss": 0
   }
  },
- "cash": 8.578620661647102,
+ "cash": 12.219365230483042,
  "start_usd": 14.727540500736376,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
