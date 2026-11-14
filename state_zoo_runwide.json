@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.10425047009057486,
+ "cash": 0.0,
  "pos": {
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
@@ -20,7 +20,7 @@
    "sym": "SHARKBUX",
    "qty": 2046.6311423063505,
    "entry": 0.0004636,
-   "last": 0.0005507,
+   "last": 0.0005254,
    "peak": 0.0005507,
    "cost": 0.9779614487458504,
    "opened": "2026-11-14T06:49:51+07:00",
@@ -33,13 +33,26 @@
    "sym": "Speed",
    "qty": 40098.475383632765,
    "entry": 2.426e-05,
-   "last": 2.657e-05,
+   "last": 2.501e-05,
    "peak": 2.657e-05,
    "cost": 1.0026685351545361,
    "opened": "2026-11-14T08:03:59+07:00",
    "zoo": "runwide",
    "smart": 148,
    "kol": 8,
+   "miss": 0
+  },
+  "AUH2LBseFhiYBxr1xsdyBhr7m4HSGMk9oWRB7f2qpump": {
+   "sym": "COCORO",
+   "qty": 1618.0420105883177,
+   "entry": 6.251e-05,
+   "last": 5.589e-05,
+   "peak": 6.251e-05,
+   "cost": 0.10425047009057486,
+   "opened": "2026-11-14T08:12:41+07:00",
+   "zoo": "runwide",
+   "smart": 50,
+   "kol": 3,
    "miss": 0
   }
  },
@@ -352,8 +365,16 @@
    "sym": "Speed",
    "price": 2.426e-05,
    "usd": 1.0027
+  },
+  {
+   "t": "2026-11-14T08:12:41+07:00",
+   "kind": "buy",
+   "mint": "AUH2LBseFhiYBxr1xsdyBhr7m4HSGMk9oWRB7f2qpump",
+   "sym": "COCORO",
+   "price": 6.251e-05,
+   "usd": 0.1043
   }
  ],
  "label": "สวนสัตว์: ปล่อยวิ่ง trail 30/25 ถือ 24 ชม.",
- "rank_t": 1794618480.1616616
+ "rank_t": 1794618732.3193471
 }
