@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.18893995428750615,
+ "cash": 0.5533775771188378,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
@@ -20,7 +20,7 @@
    "sym": "DacityCoin",
    "qty": 109.61068931969248,
    "entry": 0.004815,
-   "last": 0.004768,
+   "last": 0.004725,
    "peak": 0.00509,
    "cost": 0.5439862596107187,
    "opened": "2026-11-14T13:19:18+07:00",
@@ -33,26 +33,13 @@
    "sym": "greg",
    "qty": 1443.0893573762141,
    "entry": 0.0003235,
-   "last": 0.0004303,
+   "last": 0.0004247,
    "peak": 0.0004343,
    "cost": 0.48117852722243387,
    "opened": "2026-11-14T13:47:17+07:00",
    "zoo": "rand",
    "smart": 70,
    "kol": 6,
-   "miss": 0
-  },
-  "RA23GF9Jw9x2xqVfH1XhfBfa5TnWJC9uLDFHeU5pump": {
-   "sym": "SCRAP",
-   "qty": 3650.4513093823907,
-   "entry": 0.0001314,
-   "last": 0.0001314,
-   "peak": 0.0001314,
-   "cost": 0.4944024964469657,
-   "opened": "2026-11-14T14:47:01+07:00",
-   "zoo": "rand",
-   "smart": 62,
-   "kol": 5,
    "miss": 0
   }
  },
@@ -1033,8 +1020,20 @@
    "sym": "SCRAP",
    "price": 0.0001314,
    "usd": 0.4944
+  },
+  {
+   "t": "2026-11-14T14:51:44+07:00",
+   "kind": "sell",
+   "mint": "RA23GF9Jw9x2xqVfH1XhfBfa5TnWJC9uLDFHeU5pump",
+   "sym": "SCRAP",
+   "price": 0.0001029,
+   "usd": 0.3644,
+   "pnl": -0.13,
+   "why": "stop -21.7%",
+   "smart": 62,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794642407.2204897
+ "rank_t": 1794642683.2819872
 }

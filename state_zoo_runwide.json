@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.9416342689933711,
+ "cash": 0.1829368737326753,
  "pos": {
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
@@ -20,12 +20,25 @@
    "sym": "BIG",
    "qty": 36.433165816627934,
    "entry": 0.001368,
-   "last": 0.001288,
+   "last": 0.001303,
    "peak": 0.001537,
    "cost": 0.05137143974144198,
    "opened": "2026-11-14T09:21:15+07:00",
    "zoo": "runwide",
    "smart": 5,
+   "kol": 0,
+   "miss": 0
+  },
+  "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
+   "sym": "JENSEN",
+   "qty": 677.1740688886173,
+   "entry": 0.001087,
+   "last": 0.001087,
+   "peak": 0.001087,
+   "cost": 0.7586973952606958,
+   "opened": "2026-11-14T14:51:47+07:00",
+   "zoo": "runwide",
+   "smart": 4,
    "kol": 0,
    "miss": 0
   }
@@ -431,8 +444,16 @@
    "why": "trailing จากยอด +36% (+0.4%)",
    "smart": 10,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T14:51:47+07:00",
+   "kind": "buy",
+   "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+   "sym": "JENSEN",
+   "price": 0.001087,
+   "usd": 0.7587
   }
  ],
  "label": "สวนสัตว์: ปล่อยวิ่ง trail 30/25 ถือ 24 ชม.",
- "rank_t": 1794642407.2204897
+ "rank_t": 1794642683.2819872
 }
