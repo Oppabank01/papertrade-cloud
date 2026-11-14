@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.0,
+ "cash": 0.4126676519672052,
  "pos": {
   "7ssJZGFT3twGqeYA1kvpoMWwZYvMZvrMEbjRaWgg46BL": {
    "sym": "BUTTHOLE",
@@ -20,7 +20,7 @@
    "sym": "NIO",
    "qty": 756.1553766257517,
    "entry": 0.00224,
-   "last": 0.002143,
+   "last": 0.002148,
    "peak": 0.002749,
    "cost": 1.7458132793668149,
    "opened": "2026-11-14T06:15:48+07:00",
@@ -31,16 +31,17 @@
   },
   "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
    "sym": "FOOD",
-   "qty": 736.5244493119286,
+   "qty": 368.2622246559643,
    "entry": 0.0008772,
-   "last": 0.001077,
-   "peak": 0.001077,
-   "cost": 0.6659237754446751,
+   "last": 0.001155,
+   "peak": 0.001155,
+   "cost": 0.33296188772233754,
    "opened": "2026-11-14T07:41:53+07:00",
    "zoo": "savip",
    "smart": 281,
    "kol": 21,
-   "miss": 0
+   "miss": 0,
+   "half": true
   }
  },
  "log": [
@@ -352,8 +353,18 @@
    "sym": "FOOD",
    "price": 0.0008772,
    "usd": 0.6659
+  },
+  {
+   "t": "2026-11-14T08:25:52+07:00",
+   "kind": "sell",
+   "mint": "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
+   "sym": "FOOD",
+   "price": 0.001155,
+   "usd": 0.4127,
+   "pnl": 0.0797,
+   "why": "ขายครึ่ง +31.7%"
   }
  ],
  "label": "สวนสัตว์: savipww 5 บอท: คะแนน 80+ ทุ่มหมด ขายครึ่ง +30% stop -6%",
- "rank_t": 1794619265.202226
+ "rank_t": 1794619531.9310486
 }
