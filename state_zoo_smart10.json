@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.9419558237506882,
+ "cash": 0.6704241486767126,
  "pos": {
   "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
    "sym": "Max",
    "qty": 50.22515905461725,
    "entry": 0.001634,
-   "last": 0.001569,
+   "last": 0.001629,
    "peak": 0.001816,
    "cost": 0.08458865171639311,
    "opened": "2026-11-14T06:19:58+07:00",
@@ -33,13 +33,26 @@
    "sym": "PAID",
    "qty": 196.0111825033139,
    "entry": 0.001384,
-   "last": 0.001397,
+   "last": 0.001377,
    "peak": 0.001462,
    "cost": 0.2796119115487389,
    "opened": "2026-11-14T07:24:54+07:00",
    "zoo": "smart10",
    "smart": 662,
    "kol": 93,
+   "miss": 0
+  },
+  "7S5t7eZqrfef2dGjTLBGDDYE57Secf1rJS7fM3Vzpump": {
+   "sym": "COINSIDE",
+   "qty": 4980.904351612236,
+   "entry": 5.289e-05,
+   "last": 6.005e-05,
+   "peak": 6.005e-05,
+   "cost": 0.27153167507397563,
+   "opened": "2026-11-14T08:17:07+07:00",
+   "zoo": "smart10",
+   "smart": 13,
+   "kol": 1,
    "miss": 0
   }
  },
@@ -1192,8 +1205,16 @@
    "why": "ครบ 3 ชม. (-3.7%)",
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T08:17:07+07:00",
+   "kind": "buy",
+   "mint": "7S5t7eZqrfef2dGjTLBGDDYE57Secf1rJS7fM3Vzpump",
+   "sym": "COINSIDE",
+   "price": 5.289e-05,
+   "usd": 0.2715
   }
  ],
  "label": "สวนสัตว์: smart wallet 10 ขึ้นไป",
- "rank_t": 1794618732.3193471
+ "rank_t": 1794619004.5114465
 }

@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.05457455581388526,
+ "cash": 0.47591838930316543,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 26.66014466906886,
    "entry": 0.04955,
-   "last": 0.04847,
+   "last": 0.04815,
    "peak": 0.0499,
    "cost": 1.3615854136800267,
    "opened": "2026-11-14T06:45:35+07:00",
@@ -20,7 +20,7 @@
    "sym": "HIGH",
    "qty": 1607.802117964304,
    "entry": 0.0007503,
-   "last": 0.0007389,
+   "last": 0.0007349,
    "peak": 0.0008303,
    "cost": 1.2433868574609537,
    "opened": "2026-11-14T07:12:02+07:00",
@@ -39,19 +39,6 @@
    "opened": "2026-11-14T07:41:51+07:00",
    "zoo": "rand",
    "smart": 31,
-   "kol": 0,
-   "miss": 0
-  },
-  "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
-   "sym": "JENSEN",
-   "qty": 2065.076284643676,
-   "entry": 0.0003566,
-   "last": 0.0003543,
-   "peak": 0.0003824,
-   "cost": 0.7590251526529941,
-   "opened": "2026-11-14T08:03:57+07:00",
-   "zoo": "rand",
-   "smart": 2,
    "kol": 0,
    "miss": 0
   }
@@ -653,8 +640,20 @@
    "sym": "JENSEN",
    "price": 0.0003566,
    "usd": 0.759
+  },
+  {
+   "t": "2026-11-14T08:17:05+07:00",
+   "kind": "sell",
+   "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+   "sym": "JENSEN",
+   "price": 0.0002103,
+   "usd": 0.4213,
+   "pnl": -0.3377,
+   "why": "stop -41.0%",
+   "smart": 2,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794618732.3193471
+ "rank_t": 1794619004.5114465
 }
