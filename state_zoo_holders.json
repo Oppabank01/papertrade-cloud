@@ -1,26 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 4.142691323475429,
+ "cash": 4.360398747152651,
  "pos": {
-  "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
-   "sym": "paws",
-   "qty": 2537.267184565123,
-   "entry": 0.0009017,
-   "last": 0.0009945,
-   "peak": 0.001036,
-   "cost": 2.3581259743582472,
-   "opened": "2026-11-14T06:19:58+07:00",
-   "zoo": "holders",
-   "smart": 279,
-   "kol": 15,
-   "miss": 0
-  },
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 45.36044493263514,
    "entry": 0.04976,
-   "last": 0.04761,
+   "last": 0.0479,
    "peak": 0.0499,
    "cost": 2.326464378321918,
    "opened": "2026-11-14T07:12:03+07:00",
@@ -33,13 +20,26 @@
    "sym": "STANK",
    "qty": 1060.9428319602875,
    "entry": 0.002135,
-   "last": 0.002187,
+   "last": 0.00217,
    "peak": 0.002298,
    "cost": 2.334686607127617,
    "opened": "2026-11-14T07:37:41+07:00",
    "zoo": "holders",
    "smart": 75,
    "kol": 1,
+   "miss": 0
+  },
+  "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
+   "sym": "JENSEN",
+   "qty": 1363.6505152164495,
+   "entry": 0.001586,
+   "last": 0.001586,
+   "peak": 0.001586,
+   "cost": 2.2291792590530703,
+   "opened": "2026-11-14T09:21:15+07:00",
+   "zoo": "holders",
+   "smart": 4,
+   "kol": 0,
    "miss": 0
   }
  },
@@ -392,8 +392,28 @@
    "why": "stop -12.3%",
    "smart": 244,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T09:21:15+07:00",
+   "kind": "buy",
+   "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+   "sym": "JENSEN",
+   "price": 0.001586,
+   "usd": 2.2292
+  },
+  {
+   "t": "2026-11-14T09:21:15+07:00",
+   "kind": "sell",
+   "mint": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
+   "sym": "paws",
+   "price": 0.000994,
+   "usd": 2.4469,
+   "pnl": 0.0888,
+   "why": "ครบ 3 ชม. (+10.2%)",
+   "smart": 279,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794622609.6331806
+ "rank_t": 1794622858.161195
 }
