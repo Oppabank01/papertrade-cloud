@@ -123,6 +123,13 @@ agents.HALT_MODE = 0; agents.STOP = -0.08
 zoo.use("w_ban_aged"); assert agents.HALT_MODE == 1 and agents.STOP == -0.08
 zoo.use("agedF"); assert agents.HALT_MODE == 0                    # no leak back to the original accounts
 print("halt modes ok")
+# shared price pool: accounts holding the same coin share one DexScreener fetch while it is younger than a check; missing coins are cached as empty
+calls = []
+grok.get = lambda url: calls.append(url) or [{"chainId": "solana", "baseToken": {"address": "A"}, "priceUsd": "1"}]
+agents._dex.clear(); agents.WATCH_S = 20
+assert len(agents.dex_pairs(["A", "B"])) == 1 and len(agents.dex_pairs(["B", "A"])) == 1 and len(calls) == 1, calls
+agents._dex["A"] = (agents._dex["A"][0], time.time() - 20); agents.dex_pairs(["A"]); assert len(calls) == 2   # stale entry is refetched
+print("price pool ok")
 # agent rules: death at 20+ sells below rand, pass at 50+ sells positive and above rand
 st = lambda n, eq: dict(start_usd=10, cash=eq, pos={}, log=[{"kind": "sell", "pnl": 0}] * n)
 a = st(20, 5); zoo.verdict("x", a, -0.3); assert a.get("dead")

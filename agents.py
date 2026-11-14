@@ -142,6 +142,21 @@ HALT_MODE = 0               # what a long price gap stops: 0 = all buys for good
 PAUSE_H = 1
 WATCH_S = 20                # seconds between exit checks for this account; the Jupiter cache must be younger than one check
 _jup = {}
+_dex = {}                   # mint: (its DexScreener pairs, fetched at): shared pool, one fetch serves every account holding the coin
+
+
+def dex_pairs(mints):
+    """DexScreener pairs for the mints, served from the shared pool while younger than one check. A failed fetch raises, as before."""
+    now = time.time()
+    need = [m for m in dict.fromkeys(mints) if not (m in _dex and now - _dex[m][1] < min(15, WATCH_S - 1))]
+    for i in range(0, len(need), 30):       # the endpoint takes 30 addresses per call
+        got = {m: [] for m in need[i:i + 30]}
+        for p in grok.get(grok.DEX + ",".join(got)):
+            m = (p.get("baseToken") or {}).get("address")
+            if m in got:
+                got[m].append(p)
+        _dex.update({m: (ps, now) for m, ps in got.items()})    # a mint with no pairs is cached too, so the rug counter still sees it
+    return [p for m in dict.fromkeys(mints) for p in _dex[m][0]]
 
 
 def jup_prices(mints):
@@ -202,7 +217,7 @@ def cmd_run():
     if s["pos"]:
         pools = {}
         try:
-            for p in grok.get(grok.DEX + ",".join(s["pos"])):
+            for p in dex_pairs(list(s["pos"])):
                 m = (p.get("baseToken") or {}).get("address")
                 if p.get("chainId") == "solana" and p.get("priceUsd") and (p.get("liquidity") or {}).get("usd", 0) >= \
                         (pools.get(m, {}).get("liquidity") or {}).get("usd", -1):

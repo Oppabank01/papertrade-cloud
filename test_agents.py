@@ -23,6 +23,7 @@ def state(entry, last_peak, opened_h):
     agents.save(s)
 for price, peak, h, expect in [(0.91, 1.0, 0.1, "stop"), (1.10, 1.40, 0.1, "trailing"), (1.02, 1.05, 3.1, "ครบ"), (1.02, 1.05, 0.5, None)]:
     state(1.0, peak, h)
+    agents._dex.clear()                     # each case is a new moment; the shared price pool would otherwise serve the last price
     grok.get = lambda url, p=price: [{"chainId": "solana", "baseToken": {"address": "M"}, "priceUsd": str(p), "liquidity": {"usd": 1}}]
     agents.cmd_run()
     s = agents.load()

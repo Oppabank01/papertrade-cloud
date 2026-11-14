@@ -26,6 +26,7 @@ src.write_text(json.dumps({"log": [{"t": "2026-11-13T20:00:00+07:00", "kind": "b
 nightly.tick("runner", t(13, 21, 12))                           # mirrors M with 40%
 s = json.loads((d / "state_night_runner.json").read_text())
 assert list(s["pos"]) == ["M"] and abs(s["pos"]["M"]["cost"] - 4.0) < 1e-9
+nightly.agents._dex.clear()                                     # time has passed: drop the shared price pool
 price["v"] = 3.0                                                # +200% on 40% => night ~ +70%: beats the +50% target
 nightly.tick("runner", t(13, 23))
 s = json.loads((d / "state_night_runner.json").read_text())

@@ -277,6 +277,14 @@ def cmd_watch(max_s, every=20, ws=20):
     STOP_FILE.unlink(missing_ok=True)
     end = time.time() + float(max_s)
     while time.time() < end and not STOP_FILE.exists():
+        try:                                    # fill the shared price pool once per round; each account then reads from it
+            held = [m for n in names if (HERE / f"state_zoo_{n}.json").exists() for m in json.loads((HERE / f"state_zoo_{n}.json").read_text())["pos"]]
+            agents.WATCH_S = ws
+            if held:
+                agents.dex_pairs(held)
+                agents.jup_prices(held)
+        except Exception as e:                  # a failed prefetch only means each account fetches for itself, as before
+            print(f"watch prefetch error: {e!r}"[:200])
         for name in names:
             try:
                 with lock(name):
