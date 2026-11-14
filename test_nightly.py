@@ -5,6 +5,7 @@ from datetime import datetime
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import nightly, agents, grok
+agents.jup_prices = lambda ms: {p["baseToken"]["address"]: float(p["priceUsd"]) for p in (agents.grok.get(agents.grok.DEX + ",".join(ms)) or []) if isinstance(p, dict) and p.get("priceUsd")} if ms else {}   # second source mirrors the mocked DexScreener
 TH = grok.TH
 d = Path(tempfile.mkdtemp()); nightly.HERE = d
 assert nightly.night_of(datetime(2026, 11, 13, 22, tzinfo=TH)) == "2026-11-13"

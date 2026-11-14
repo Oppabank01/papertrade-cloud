@@ -4,6 +4,7 @@ import json, sys, tempfile, time
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import zoo, agents, grok
+agents.jup_prices = lambda ms: {p["baseToken"]["address"]: float(p["priceUsd"]) for p in (agents.grok.get(agents.grok.DEX + ",".join(ms)) or []) if isinstance(p, dict) and p.get("priceUsd")} if ms else {}   # second source mirrors the mocked DexScreener
 now = time.time()
 base = dict(is_honeypot=0, renounced_mint=1, renounced_freeze_account=1, sell_tax=0, liquidity=50_000, buys=200, sells=100,
             price_change_percent5m=5, price_change_percent1h=0, smart_degen_count=0, renowned_count=0, top_10_holder_rate=0.3,
@@ -86,3 +87,28 @@ grok.now = lambda: datetime(2026, 11, 15, 9, 5, tzinfo=grok.TH); zoo.cmd_tick()
 zoo.use("x_ok"); s = agents.load()
 assert not s["pos"] and s["nights"][0]["night"] == "2026-11-14" and s["log"][-1]["why"] == "ปิดรอบเช้า", (s["pos"], s.get("nights"))
 print("x recipes ok")
+# agent rules: a second price source must agree within 1% to buy; disagreement prices exits at the lower source; long disagreement halts buys
+zoo.use("bigliqF"); agents.STATE = d / "state_pricecheck.json"; agents.save(dict(start_usd=10, cash=10, pos={}, log=[])); s = agents.load()
+grok.pair = lambda m: {"priceUsd": "1.0"}
+agents.jup_prices = lambda ms: {m: 1.05 for m in ms}
+assert agents.paper_buy(s, "Q", "Q").startswith("price mismatch") and "Q" not in s["pos"]
+agents.jup_prices = lambda ms: {}
+assert agents.paper_buy(s, "Q", "Q") == "price unverified"
+agents.jup_prices = lambda ms: {m: 1.0 for m in ms}
+assert agents.paper_buy(s, "Q", "Q") is None and s["log"][-1]["stop_set"] == agents.STOP; agents.save(s)
+grok.get = lambda url: [{"chainId": "solana", "baseToken": {"address": "Q"}, "priceUsd": "1.0", "liquidity": {"usd": 1}}]
+agents.jup_prices = lambda ms: {m: 0.90 for m in ms}       # sources disagree by 10%: exit check uses 0.90, which hits the -8% stop
+agents.cmd_run(); s = agents.load()
+assert "Q" not in s["pos"] and s["log"][-1]["why"].startswith("stop") and s["log"][-1]["price"] == 0.90, s["log"][-1]
+s.update(pos={"Q": dict(sym="Q", qty=1, entry=1, last=1, peak=1, cost=1, opened=grok.now().isoformat())}); agents.save(s)
+agents.STOP = -0.5; agents.jup_prices = lambda ms: {m: 0.98 for m in ms}
+for _ in range(agents.GAP_HALT_N): agents.cmd_run()
+s = agents.load(); assert s.get("halted") and agents.paper_buy(s, "Z", "Z") in ("account halted",), s.get("halted")
+print("price check ok")
+# agent rules: death at 20+ sells below rand, pass at 50+ sells positive and above rand
+st = lambda n, eq: dict(start_usd=10, cash=eq, pos={}, log=[{"kind": "sell", "pnl": 0}] * n)
+a = st(20, 5); zoo.verdict("x", a, -0.3); assert a.get("dead")
+b = st(19, 5); zoo.verdict("x", b, -0.3); assert not b.get("dead")
+c = st(50, 11); zoo.verdict("x", c, -0.3); assert c.get("passed") and not c.get("dead")
+r = st(30, 1); zoo.verdict("rand", r, 0.5); assert not r.get("dead")
+print("verdict ok")

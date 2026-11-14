@@ -209,8 +209,31 @@ def cmd_init(thb):
             print(f"init {name}")
 
 
+DIE_N, PASS_N = 20, 50       # agent rules (14 Nov): dead at 20+ sells still below rand; passed at 50+ sells, positive after costs and above rand
+CONTROLS = {"rand", "randrun"}
+
+
+def ret(s):
+    return agents.equity(s) / s["start_usd"] - 1
+
+
+def verdict(name, s, rand_ret):
+    """Marks the account dead or passed once (never un-marks). Dead accounts stop buying; exits keep running."""
+    if name in CONTROLS or rand_ret is None or s.get("dead"):
+        return
+    n, r, day = sum(x["kind"] == "sell" for x in s["log"]), ret(s), agents.grok.now().date().isoformat()
+    if n >= DIE_N and r < rand_ret:
+        s["dead"] = f"{day}: {n} ไม้ {r:+.1%} แพ้ rand {rand_ret:+.1%}"
+    elif n >= PASS_N and r > 0 and r > rand_ret and not s.get("passed"):
+        s["passed"] = f"{day}: {n} ไม้ {r:+.1%} ชนะ rand {rand_ret:+.1%} หลังหักค่าธรรมเนียม"
+
+
 def cmd_tick():
     d = json.loads(RANK.read_text()) if RANK.exists() else None
+    rand_ret = None
+    if "rand" in ZOO:
+        use("rand")
+        rand_ret = ret(agents.load()) if agents.STATE.exists() else None
     if d:
         save_hist(d)
     for name in ZOO:
@@ -219,11 +242,12 @@ def cmd_tick():
             if not agents.STATE.exists():
                 continue
             s = agents.load()
+            verdict(name, s, rand_ret)
             ov = ZOO[name][2]
             night = nightly.night_of(agents.grok.now())
             if ov.get("horizon") == "night":
                 night_book(s, night)
-            if d and d["t"] > s.get("rank_t", 0) and not ov.get("off") and (night or ov.get("horizon") != "night"):
+            if d and d["t"] > s.get("rank_t", 0) and not ov.get("off") and not s.get("dead") and (night or ov.get("horizon") != "night"):
                 s["rank_t"] = d["t"]
                 for t in picks(name, d["rank"]):
                     if "size" in ZOO[name][2]:
@@ -266,6 +290,7 @@ def cmd_report():
             elif hz:
                 due = datetime.fromisoformat(s["log"][0]["t"]) + timedelta(days=7 if hz == "week" else 30)
                 tag = f"  [{HORIZONS[hz]}: ตัดสิน {due:%d/%m}]"
+            tag += "".join(f"  [{k}: {s[k]}]" for k, k2 in (("dead", 0), ("passed", 0), ("halted", 0)) if s.get(k))
             rows.append((agents.equity(s) / s["start_usd"] - 1, name, s.get("label", name) + tag, len(sells), sum(p > 0 for p in sells)))
     for r, name, label, n, w in sorted(rows, reverse=True):
         print(f"{r:+7.1%}  {name:8s} ไม้ {n:3d} ชนะ {w:3d}  {label}")

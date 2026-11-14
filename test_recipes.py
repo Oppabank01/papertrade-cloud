@@ -4,6 +4,7 @@ import json, sys, tempfile, time
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import recipes, agents, grok
+agents.jup_prices = lambda ms: {m: float(agents.grok.pair(m)["priceUsd"]) for m in ms}   # second source mirrors the mocked pair price
 now = time.time()
 base = dict(is_honeypot=0, renounced_mint=1, renounced_freeze_account=1, sell_tax=0, liquidity=50_000, buys=200, sells=100,
             price_change_percent5m=5, smart_degen_count=0, renowned_count=0, top_10_holder_rate=0.3, dev_team_hold_rate=0.1,

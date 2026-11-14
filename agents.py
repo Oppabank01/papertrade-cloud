@@ -135,8 +135,36 @@ def cmd_scan():
     save(s)
 
 
+JUP = "https://lite-api.jup.ag/price/v3?ids="
+PRICE_GAP = 0.01            # agent rules (14 Nov): account price vs a second source must agree within 1%
+GAP_HALT_N = 15             # rounds in a row a held token disagrees before the account stops buying (~5 min at 20 s)
+_jup = {}
+
+
+def jup_prices(mints):
+    """Second price source (Jupiter). {mint: usd}; a failed lookup returns {} and counts as unverified, never a guessed value."""
+    now, out, need = time.time(), {}, []
+    for m in mints:
+        if m in _jup and now - _jup[m][1] < 15:
+            out[m] = _jup[m][0]
+        else:
+            need.append(m)
+    for i in range(0, len(need), 50):
+        try:
+            d = grok.get(JUP + ",".join(need[i:i + 50]))
+        except Exception:
+            continue
+        for m, v in (d.items() if isinstance(d, dict) else []):
+            if isinstance(v, dict) and v.get("usdPrice"):
+                _jup[m] = (float(v["usdPrice"]), now)
+                out[m] = float(v["usdPrice"])
+    return out
+
+
 def paper_buy(s, mint, sym, **meta):
     """EXEC seat: fake buy at the live DexScreener price (not a stale snapshot). Returns why it did not buy, or None."""
+    if s.get("halted"):
+        return "account halted"
     if mint in s["pos"] or len(s["pos"]) >= MAX_POS:
         return "held or full"
     cut = (grok.now() - timedelta(hours=COOLDOWN_H)).isoformat(timespec="seconds")
@@ -146,13 +174,17 @@ def paper_buy(s, mint, sym, **meta):
     if not p or not p.get("priceUsd"):
         return "no pool"
     price = float(p["priceUsd"])
+    j = jup_prices([mint]).get(mint)
+    if not j or abs(price / j - 1) > PRICE_GAP:
+        return "price unverified" if not j else f"price mismatch {price / j - 1:+.1%}"   # data that does not check out is a fail
     spend = min(equity(s) * PER_TRADE, s["cash"])
     if spend < 0.05:
         return "no cash"
     s["cash"] -= spend
     s["pos"][mint] = dict(sym=sym, qty=spend * (1 - FEE) * (1 - SLIP) / price, entry=price, last=price, peak=price, cost=spend,
                           opened=grok.now().isoformat(timespec="seconds"), **meta)
-    log(s, "buy", mint=mint, sym=sym, price=price, usd=round(spend, 4))
+    log(s, "buy", mint=mint, sym=sym, price=price, jup=j, usd=round(spend, 4), stop_set=STOP, cost_side=FEE + SLIP,
+        **{k: v for k, v in meta.items() if isinstance(v, (str, int, float, type(None)))})
     print(f"  BUY {sym} ${spend:.2f} at {price:.8g}")
     return None
 
@@ -170,7 +202,16 @@ def cmd_run():
         except Exception as e:
             print(f"price fetch failed: {str(e)[:50]}")
             return
+        jp = jup_prices([m for m in s["pos"] if m in pools])
         for m, q in list(s["pos"].items()):
+            if m in pools and m in jp and abs(float(pools[m]["priceUsd"]) / jp[m] - 1) > PRICE_GAP:
+                q["gap"] = q.get("gap", 0) + 1                    # sources disagree: price this round at the lower one
+                pools[m] = {**pools[m], "priceUsd": str(min(float(pools[m]["priceUsd"]), jp[m]))}
+                if q["gap"] >= GAP_HALT_N and not s.get("halted"):
+                    s["halted"] = f"ราคา {q['sym']} สองแหล่งต่างกันเกิน {PRICE_GAP:.0%} ติดกัน {q['gap']} รอบ"
+                    print(f"  HALT {s['halted']}")
+            elif m in pools:
+                q["gap"] = 0
             if m not in pools:
                 q["miss"] = q.get("miss", 0) + 1
                 if q["miss"] < MISS_N:
@@ -192,8 +233,8 @@ def cmd_run():
             if why:
                 got = q["qty"] * price * (1 - SLIP) * (1 - FEE)
                 s["cash"] += got
-                log(s, "sell", mint=m, sym=q["sym"], price=price, usd=round(got, 4), pnl=round(got - q["cost"], 4), why=why,
-                    smart=q.get("smart"), bundler=q.get("bundler"))
+                log(s, "sell", mint=m, sym=q["sym"], price=price, entry=q["entry"], usd=round(got, 4), pnl=round(got - q["cost"], 4), why=why,
+                    stop_set=STOP, cost_side=FEE + SLIP, smart=q.get("smart"), bundler=q.get("bundler"))
                 del s["pos"][m]
                 print(f"  SELL {q['sym']} {why} pnl ${got - q['cost']:+.3f}")
     save(s)

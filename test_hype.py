@@ -4,6 +4,7 @@ import json, sys, tempfile
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import hype, agents, grok
+agents.jup_prices = lambda ms: {m: float(agents.grok.pair(m)["priceUsd"]) for m in ms}   # second source mirrors the mocked pair price
 d = Path(tempfile.mkdtemp()); hype.HERE = d; agents.STATE = d / "state_hype.json"
 (d / "state_agents.json").write_text(json.dumps({"log": [{"t": "2026-11-13T02:00:00", "kind": "buy", "mint": "M", "sym": "T"}]}))
 agents.save(dict(start_usd=10, cash=10, pos={}, log=[], mirrored=[]))
