@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 7.28379444849452,
+ "cash": 5.443089430418921,
  "pos": {
   "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
    "sym": "neet",
    "qty": 76.02893631221689,
    "entry": 0.02526,
-   "last": 0.02525,
+   "last": 0.0253,
    "peak": 0.02535,
    "cost": 1.9794794179000192,
    "opened": "2026-11-14T17:11:46+07:00",
    "zoo": "holders",
    "smart": 841,
    "kol": 202,
+   "gap": 0,
+   "miss": 0
+  },
+  "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": {
+   "sym": "BRUH",
+   "qty": 460.3897933841058,
+   "entry": 0.003879,
+   "last": 0.003879,
+   "peak": 0.003879,
+   "cost": 1.8407050180755995,
+   "opened": "2026-11-14T19:27:03+07:00",
+   "zoo": "holders",
+   "smart": 3,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -715,8 +729,22 @@
    "cost_side": 0.03,
    "smart": 329,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T19:27:03+07:00",
+   "kind": "buy",
+   "mint": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
+   "sym": "BRUH",
+   "price": 0.003879,
+   "jup": 0.003908518492328702,
+   "usd": 1.8407,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 3,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794658902.4770138
+ "rank_t": 1794659185.4155278
 }

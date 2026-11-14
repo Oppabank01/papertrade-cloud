@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 3.9552162257858035,
+ "cash": 5.652285295511559,
  "pos": {
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
    "sym": "paws",
    "qty": 2542.4845734449696,
    "entry": 0.0008304,
-   "last": 0.0009546,
+   "last": 0.0009633,
    "peak": 0.0009775,
    "cost": 2.176127798174297,
    "opened": "2026-11-14T16:35:53+07:00",
@@ -30,20 +30,6 @@
    "kol": 40,
    "miss": 0,
    "gap": 0
-  },
-  "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump": {
-   "sym": "chudhaos",
-   "qty": 3643.397382223022,
-   "entry": 0.0005663,
-   "last": 0.0005663,
-   "peak": 0.0005663,
-   "cost": 2.1266294965500903,
-   "opened": "2026-11-14T19:22:15+07:00",
-   "zoo": "aged",
-   "smart": 27,
-   "kol": 1,
-   "gap": 0,
-   "miss": 0
   }
  },
  "log": [
@@ -756,8 +742,23 @@
    "cost_side": 0.03,
    "smart": 124,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T19:27:02+07:00",
+   "kind": "sell",
+   "mint": "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump",
+   "sym": "chudhaos",
+   "price": 0.0004801,
+   "entry": 0.0005663,
+   "usd": 1.6971,
+   "pnl": -0.4296,
+   "why": "stop -15.2%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 27,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุเกิน 1 วัน ยังมีคนเล่น",
- "rank_t": 1794658902.4770138
+ "rank_t": 1794659185.4155278
 }
