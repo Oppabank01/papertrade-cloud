@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.740566037735848,
- "cash": 8.729515831395279,
- "pos": {
-  "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
-   "sym": "Max",
-   "qty": 1303.4118128082578,
-   "entry": 0.001679,
-   "last": 0.001957,
-   "peak": 0.0021975296166364833,
-   "cost": 2.2556467055298546,
-   "opened": "2026-11-14T17:16:27+07:00",
-   "zoo": "agedF",
-   "smart": 448,
-   "kol": 42,
-   "gap": 4,
-   "miss": 0
-  }
- },
+ "cash": 11.42557937155225,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T10:55:00+07:00",
@@ -349,9 +334,24 @@
    "cost_side": 0.03,
    "smart": 287,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T20:16:49+07:00",
+   "kind": "sell",
+   "mint": "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump",
+   "sym": "Max",
+   "price": 0.002132,
+   "entry": 0.001679,
+   "usd": 2.6961,
+   "pnl": 0.4404,
+   "why": "ครบ 3 ชม. (+27.0%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 448,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: อายุเกิน 1 วัน เช็กราคาทุก 20 วิ",
- "rank_t": 1794661719.7807555,
+ "rank_t": 1794662008.9053445,
  "halted": "ราคา GTA6 สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }

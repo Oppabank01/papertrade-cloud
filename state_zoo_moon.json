@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.0661863825239248,
+ "cash": 0.0,
  "pos": {
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 4218.672832138303,
    "entry": 0.0006786,
-   "last": 0.000535,
+   "last": 0.0005270749916326861,
    "peak": 0.0008452,
    "cost": 2.950722927117144,
    "opened": "2026-11-14T00:45:45+07:00",
@@ -15,7 +15,7 @@
    "smart": 72,
    "kol": 4,
    "miss": 0,
-   "gap": 0
+   "gap": 1
   },
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
@@ -30,6 +30,20 @@
    "kol": 0,
    "miss": 0,
    "gap": 0
+  },
+  "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
+   "sym": "JENSEN",
+   "qty": 1303.1166897514636,
+   "entry": 0.0007938,
+   "last": 0.0007938,
+   "peak": 0.0007938,
+   "cost": 1.0661863825239248,
+   "opened": "2026-11-14T20:14:17+07:00",
+   "zoo": "moon",
+   "smart": 4,
+   "kol": 0,
+   "gap": 0,
+   "miss": 0
   }
  },
  "log": [
@@ -336,8 +350,22 @@
    "cost_side": 0.03,
    "smart": 38,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T20:14:17+07:00",
+   "kind": "buy",
+   "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+   "sym": "JENSEN",
+   "price": 0.0007938,
+   "jup": 0.0007890037558367279,
+   "usd": 1.0662,
+   "stop_set": -0.5,
+   "cost_side": 0.03,
+   "zoo": "moon",
+   "smart": 4,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: ถือยาวรอ x2 (stop -50%)",
- "rank_t": 1794661719.7807555
+ "rank_t": 1794662008.9053445
 }
