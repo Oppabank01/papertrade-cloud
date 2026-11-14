@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.9841237770419173,
- "pos": {
-  "JATk4idqfAyU21F6w3xf2Rbyj9j8FnYxVWLMfoweqExh": {
-   "sym": "WHITE",
-   "qty": 14902.571893855426,
-   "entry": 3.095e-05,
-   "last": 3.522e-05,
-   "peak": 3.533e-05,
-   "cost": 0.4754015668056333,
-   "opened": "2026-11-14T15:38:11+07:00",
-   "smart": 87,
-   "kol": 11,
-   "bundler": 0.0693,
-   "miss": 0,
-   "gap": 0
-  }
- },
+ "cash": 2.4894642554220674,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T01:37:56+07:00",
@@ -15770,6 +15755,32 @@
    "cost_side": 0.03,
    "smart": 73,
    "bundler": 0.0596
+  },
+  {
+   "t": "2026-11-14T18:40:03+07:00",
+   "kind": "debate",
+   "mint": "EJPWoVgMrkZrqZAtRkGvA4jppbo15rMF2hhe1EPzpump",
+   "sym": "DCYC",
+   "ok": false,
+   "bundler": 0.1323,
+   "buy": 0.9108,
+   "bull": 0.918,
+   "bear": 0.9997
+  },
+  {
+   "t": "2026-11-14T18:40:05+07:00",
+   "kind": "sell",
+   "mint": "JATk4idqfAyU21F6w3xf2Rbyj9j8FnYxVWLMfoweqExh",
+   "sym": "WHITE",
+   "price": 3.495115975874223e-05,
+   "entry": 3.095e-05,
+   "usd": 0.5053,
+   "pnl": 0.0299,
+   "why": "ครบ 3 ชม. (+12.9%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 87,
+   "bundler": 0.0693
   }
  ]
 }

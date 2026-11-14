@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.3250001186228961,
- "pos": {
-  "62MnzU6NVvGrVRLHyqKrwrSnCJsZGHm9bE8aHaB82ray": {
-   "sym": "DEFAULT",
-   "qty": 6273.589017728052,
-   "entry": 4.658e-05,
-   "last": 6.012e-05,
-   "peak": 7.005e-05,
-   "cost": 0.30119952220755786,
-   "opened": "2026-11-14T16:01:21+07:00",
-   "zoo": "cto",
-   "smart": 23,
-   "kol": 0,
-   "miss": 0,
-   "gap": 0
-  }
- },
+ "cash": 1.6427701513442015,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T00:42:01+07:00",
@@ -1299,6 +1284,21 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "smart": 123,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T18:40:18+07:00",
+   "kind": "sell",
+   "mint": "62MnzU6NVvGrVRLHyqKrwrSnCJsZGHm9bE8aHaB82ray",
+   "sym": "DEFAULT",
+   "price": 5.220782536162988e-05,
+   "entry": 4.658e-05,
+   "usd": 0.3178,
+   "pnl": 0.0166,
+   "why": "trailing จากยอด +50% (+12.1%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 23,
    "bundler": null
   }
  ],
