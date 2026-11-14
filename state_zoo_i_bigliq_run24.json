@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 2.5347907254802777,
+ "cash": 2.3419850169139975,
  "pos": {
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 743.9440143578463,
    "entry": 0.003912,
-   "last": 0.003976156376262586,
+   "last": 0.003972,
    "peak": 0.004642,
    "cost": 2.939631811487482,
    "opened": "2026-11-14T17:16:48+07:00",
    "zoo": "i_bigliq_run24",
    "smart": 439,
    "kol": 28,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 70.26243292140992,
    "entry": 0.03947,
-   "last": 0.03802,
+   "last": 0.03757,
    "peak": 0.04069,
    "cost": 2.801200199397035,
    "opened": "2026-11-14T23:19:14+07:00",
@@ -35,28 +35,28 @@
    "sym": "ANSEM",
    "qty": 62.93504971445982,
    "entry": 0.0433,
-   "last": 0.040956165581600555,
+   "last": 0.04089,
    "peak": 0.04456,
    "cost": 2.7525442818475394,
    "opened": "2026-11-14T23:32:47+07:00",
    "zoo": "i_bigliq_run24",
    "smart": 1000,
    "kol": 186,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
-  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
-   "sym": "DacityCoin",
-   "qty": 692.643591021048,
-   "entry": 0.003965,
-   "last": 0.003571,
-   "peak": 0.00398,
-   "cost": 2.7740025134703217,
-   "opened": "2026-11-15T03:29:40+07:00",
+  "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
+   "sym": "WASTED",
+   "qty": 372.67216578002166,
+   "entry": 0.007012,
+   "last": 0.007035,
+   "peak": 0.007035,
+   "cost": 2.6395063018100675,
+   "opened": "2026-11-15T05:13:44+07:00",
    "zoo": "i_bigliq_run24",
-   "smart": 248,
-   "kol": 20,
-   "gap": 1,
+   "smart": 63,
+   "kol": 1,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -237,8 +237,37 @@
    "zoo": "i_bigliq_run24",
    "smart": 248,
    "kol": 20
+  },
+  {
+   "t": "2026-11-15T05:13:03+07:00",
+   "kind": "sell",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.003568,
+   "entry": 0.003965,
+   "usd": 2.4467,
+   "pnl": -0.3273,
+   "why": "stop -10.0%",
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "smart": 248,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T05:13:44+07:00",
+   "kind": "buy",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "price": 0.007012,
+   "jup": 0.007054531755879192,
+   "usd": 2.6395,
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "zoo": "i_bigliq_run24",
+   "smart": 63,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ ปล่อยวิ่ง trail 20/15 ถือ 24 ชม.",
- "rank_t": 1794694097.8686512
+ "rank_t": 1794694383.2549305
 }

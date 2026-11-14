@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 9.999572976413868,
+ "cash": 11.382192623156213,
  "pos": {
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
    "sym": "paws",
    "qty": 1728.079303503545,
    "entry": 0.0007161,
-   "last": 0.000738,
+   "last": 0.0007053,
    "peak": 0.0007497,
    "cost": 1.275487104966902,
    "opened": "2026-11-15T04:37:23+07:00",
    "zoo": "w_pause_scalp",
    "smart": 284,
    "kol": 15,
-   "gap": 0,
-   "miss": 0
-  },
-  "2afcRhtGYgp1e3xPBMu2UbnELL8AUMZzguLQsPo8pump": {
-   "sym": "VICECITY",
-   "qty": 5344.444696840329,
-   "entry": 0.0002312,
-   "last": 0.0002557,
-   "peak": 0.0002557,
-   "cost": 1.2735885527823996,
-   "opened": "2026-11-15T05:00:40+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 13,
-   "kol": 1,
-   "gap": 0,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -597,8 +583,23 @@
    "cost_side": 0.03,
    "smart": 82,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T05:14:16+07:00",
+   "kind": "sell",
+   "mint": "2afcRhtGYgp1e3xPBMu2UbnELL8AUMZzguLQsPo8pump",
+   "sym": "VICECITY",
+   "price": 0.00026664832878453044,
+   "entry": 0.0002312,
+   "usd": 1.3826,
+   "pnl": 0.109,
+   "why": "ถึงเป้า +15.3%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 13,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794694097.8686512
+ "rank_t": 1794694383.2549305
 }
