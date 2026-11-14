@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 10.920028951029176,
- "pos": {
-  "ALzxpDAGADGfhfbgEMQhJjHavmVwXY9qPMPdYXMdpump": {
-   "sym": "poordog",
-   "qty": 836641.52644086,
-   "entry": 3.111890242310516e-06,
-   "last": 6.623386180311389e-06,
-   "peak": 6.623386180311389e-06,
-   "cost": 2.730007237757294,
-   "curve": "A9kML6bKPMYun9vVnEuknrCYeY3GARthdxU4pBETT6TQ",
-   "opened": "2026-11-15T00:57:41+07:00",
-   "wallet": "7g5CJ7",
-   "miss": 0,
-   "gap": 0
-  }
- },
+ "cash": 15.430998574368058,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T21:07:09+07:00",
@@ -194,6 +180,20 @@
    "sym": "POPCAT",
    "wallet": "FqJMNz",
    "why": "not on a SOL pump.fun curve"
+  },
+  {
+   "t": "2026-11-15T01:16:31+07:00",
+   "kind": "sell",
+   "mint": "ALzxpDAGADGfhfbgEMQhJjHavmVwXY9qPMPdYXMdpump",
+   "sym": "poordog",
+   "price": 5.6237044405680636e-06,
+   "entry": 3.111890242310516e-06,
+   "usd": 4.511,
+   "pnl": 1.781,
+   "why": "trailing จากยอด +113% (+80.7%)",
+   "stop_set": -0.08,
+   "cost_side": 0.0325,
+   "graduated": false
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ บน bonding curve",
