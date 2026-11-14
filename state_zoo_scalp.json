@@ -1,19 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 4.698320866773491,
+ "cash": 4.413051135827306,
  "pos": {
-  "3nJUK2stwRCGYftUQBc8cmZHES8QQbSPiwHiUwHWPU57": {
-   "sym": "WIO",
-   "qty": 11607.025119534637,
-   "entry": 9.818e-05,
-   "last": 9.818e-05,
-   "peak": 9.818e-05,
-   "cost": 1.174580216693373,
-   "opened": "2026-11-14T11:11:17+07:00",
+  "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": {
+   "sym": "Sakura",
+   "qty": 11327.858429875443,
+   "entry": 0.0001,
+   "last": 0.0001,
+   "peak": 0.0001,
+   "cost": 1.1675797186018804,
+   "opened": "2026-11-14T11:15:41+07:00",
    "zoo": "scalp",
-   "smart": 17,
-   "kol": 1,
+   "smart": 139,
+   "kol": 6,
    "miss": 0
   }
  },
@@ -590,8 +590,28 @@
    "sym": "WIO",
    "price": 9.818e-05,
    "usd": 1.1746
+  },
+  {
+   "t": "2026-11-14T11:15:41+07:00",
+   "kind": "buy",
+   "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
+   "sym": "Sakura",
+   "price": 0.0001,
+   "usd": 1.1676
+  },
+  {
+   "t": "2026-11-14T11:15:41+07:00",
+   "kind": "sell",
+   "mint": "3nJUK2stwRCGYftUQBc8cmZHES8QQbSPiwHiUwHWPU57",
+   "sym": "WIO",
+   "price": 7.835e-05,
+   "usd": 0.8823,
+   "pnl": -0.2923,
+   "why": "stop -20.2%",
+   "smart": 17,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เก็บสั้น +10% ตัด -5% 30 นาที",
- "rank_t": 1794629460.8198557
+ "rank_t": 1794629718.4909472
 }

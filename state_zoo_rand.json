@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.6690220927781907,
+ "cash": 1.316593942557644,
  "pos": {
   "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
    "sym": "Max",
    "qty": 326.46456309062404,
    "entry": 0.001726,
-   "last": 0.001758,
+   "last": 0.001745,
    "peak": 0.001803,
    "cost": 0.5807852359249817,
    "opened": "2026-11-14T09:12:57+07:00",
@@ -20,7 +20,7 @@
    "sym": "GTA",
    "qty": 713.0254732629516,
    "entry": 0.0007842,
-   "last": 0.0008055,
+   "last": 0.0008077,
    "peak": 0.0008303,
    "cost": 0.5763291858717858,
    "opened": "2026-11-14T09:21:14+07:00",
@@ -39,19 +39,6 @@
    "opened": "2026-11-14T09:25:29+07:00",
    "zoo": "rand",
    "smart": 220,
-   "kol": 31,
-   "miss": 0
-  },
-  "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
-   "sym": "FLOAT",
-   "qty": 218.26756836374494,
-   "entry": 0.002538,
-   "last": 0.003132,
-   "peak": 0.003656,
-   "cost": 0.5709782400610026,
-   "opened": "2026-11-14T10:05:07+07:00",
-   "zoo": "rand",
-   "smart": 342,
    "kol": 31,
    "miss": 0
   }
@@ -813,8 +800,20 @@
    "sym": "FLOAT",
    "price": 0.002538,
    "usd": 0.571
+  },
+  {
+   "t": "2026-11-14T11:15:40+07:00",
+   "kind": "sell",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "price": 0.003058,
+   "usd": 0.6476,
+   "pnl": 0.0766,
+   "why": "trailing จากยอด +44% (+20.5%)",
+   "smart": 342,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794629460.8198557
+ "rank_t": 1794629718.4909472
 }
