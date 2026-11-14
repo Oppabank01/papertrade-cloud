@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.5225838574442587,
+ "cash": 1.216885585312178,
  "pos": {
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 251.25846066163265,
    "entry": 0.005797,
-   "last": 0.005524,
+   "last": 0.005545,
    "peak": 0.005835,
    "cost": 1.5012835461301635,
    "opened": "2026-11-14T19:22:26+07:00",
@@ -21,7 +21,7 @@
    "sym": "Cupsey",
    "qty": 526.5858770965857,
    "entry": 0.00275,
-   "last": 0.00259,
+   "last": 0.002637,
    "peak": 0.002776,
    "cost": 1.492590354582159,
    "opened": "2026-11-14T19:46:04+07:00",
@@ -35,13 +35,27 @@
    "sym": "TROLL",
    "qty": 52.60479634400706,
    "entry": 0.02552,
-   "last": 0.02384,
+   "last": 0.02382,
    "peak": 0.02552,
    "cost": 1.383708928776603,
    "opened": "2026-11-14T21:18:29+07:00",
    "zoo": "boosted",
    "smart": 459,
    "kol": 213,
+   "gap": 0,
+   "miss": 0
+  },
+  "EcCpMnjc3wJQrCKSsyrzyJiXRwY6AZPLzSaWR2bPpump": {
+   "sym": "GTAFY",
+   "qty": 9489.052161966629,
+   "entry": 0.0001335,
+   "last": 0.0001335,
+   "peak": 0.0001335,
+   "cost": 1.3056982721320807,
+   "opened": "2026-11-14T22:01:56+07:00",
+   "zoo": "boosted",
+   "smart": 23,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -1070,8 +1084,22 @@
    "cost_side": 0.03,
    "smart": 151,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T22:01:56+07:00",
+   "kind": "buy",
+   "mint": "EcCpMnjc3wJQrCKSsyrzyJiXRwY6AZPLzSaWR2bPpump",
+   "sym": "GTAFY",
+   "price": 0.0001335,
+   "jup": 0.00013408604406348398,
+   "usd": 1.3057,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 23,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794668145.6830354
+ "rank_t": 1794668446.097747
 }
