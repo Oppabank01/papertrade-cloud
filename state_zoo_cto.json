@@ -1,27 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.4339328949633955,
+ "cash": 1.4382639960568944,
  "pos": {
-  "6NwarBvDkXhByqVp2Qkq5i9XbtA2B3Bwe8SWGu9vpump": {
-   "sym": "Cupsey",
-   "qty": 198.2053321402963,
-   "entry": 0.002731,
-   "last": 0.002837,
-   "peak": 0.002838,
-   "cost": 0.5579249248352393,
-   "opened": "2026-11-14T09:25:30+07:00",
-   "zoo": "cto",
-   "smart": 220,
-   "kol": 31,
-   "miss": 0
-  },
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 5.726235452516093,
    "entry": 0.1154,
-   "last": 0.1165,
-   "peak": 0.1165,
+   "last": 0.1167,
+   "peak": 0.1167,
    "cost": 0.6811044848694673,
    "opened": "2026-11-14T10:48:03+07:00",
    "zoo": "cto",
@@ -29,24 +16,11 @@
    "kol": 294,
    "miss": 0
   },
-  "6BeyohhmEkxxBsKsne2rLUjkVpx1uQ1jw4KVB9uTpump": {
-   "sym": "IGNORE",
-   "qty": 17530.408903258565,
-   "entry": 3.035e-05,
-   "last": 3.281e-05,
-   "peak": 3.281e-05,
-   "cost": 0.5483899301318259,
-   "opened": "2026-11-14T12:15:15+07:00",
-   "zoo": "cto",
-   "smart": 132,
-   "kol": 11,
-   "miss": 0
-  },
   "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump": {
    "sym": "ber",
    "qty": 788.7798727353061,
    "entry": 0.0006705,
-   "last": 0.0006709,
+   "last": 0.0006612,
    "peak": 0.0006823,
    "cost": 0.5451215261482403,
    "opened": "2026-11-14T12:15:15+07:00",
@@ -973,8 +947,32 @@
    "sym": "ber",
    "price": 0.0006705,
    "usd": 0.5451
+  },
+  {
+   "t": "2026-11-14T12:28:40+07:00",
+   "kind": "sell",
+   "mint": "6NwarBvDkXhByqVp2Qkq5i9XbtA2B3Bwe8SWGu9vpump",
+   "sym": "Cupsey",
+   "price": 0.002825,
+   "usd": 0.5432,
+   "pnl": -0.0147,
+   "why": "ครบ 3 ชม. (+3.4%)",
+   "smart": 220,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T12:28:40+07:00",
+   "kind": "sell",
+   "mint": "6BeyohhmEkxxBsKsne2rLUjkVpx1uQ1jw4KVB9uTpump",
+   "sym": "IGNORE",
+   "price": 2.711e-05,
+   "usd": 0.4611,
+   "pnl": -0.0873,
+   "why": "stop -10.7%",
+   "smart": 132,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: community takeover",
- "rank_t": 1794633820.1265395
+ "rank_t": 1794634094.6962225
 }
