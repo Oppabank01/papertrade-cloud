@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 10.911121482835044,
+ "cash": 12.265764915179535,
  "pos": {
-  "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
-   "sym": "JOB",
-   "qty": 1048.237037551226,
-   "entry": 0.001346,
-   "last": 0.001306,
-   "peak": 0.00139,
-   "cost": 1.4542641234219236,
-   "opened": "2026-11-15T01:04:19+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 32,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 197.997469537811,
    "entry": 0.0069,
-   "last": 0.007324,
+   "last": 0.007354,
    "peak": 0.007787,
    "cost": 1.4081452688217853,
    "opened": "2026-11-15T02:19:45+07:00",
@@ -273,10 +259,25 @@
    "cost_side": 0.03,
    "smart": 246,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T03:04:21+07:00",
+   "kind": "sell",
+   "mint": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
+   "sym": "JOB",
+   "price": 0.001332,
+   "entry": 0.001346,
+   "usd": 1.3546,
+   "pnl": -0.0996,
+   "why": "ครบ 2 ชม. (-1.0%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 32,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794686361.880306,
+ "rank_t": 1794686636.2748995,
  "halted": "ราคา GTA6 สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-15T03:34:38+07:00"
 }
