@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.0013409527930057,
+ "cash": 0.9162293288032229,
  "pos": {
   "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS": {
    "sym": "BAGSPAY",
    "qty": 296.9417701558718,
    "entry": 0.0005122,
-   "last": 0.0005232,
+   "last": 0.0005223,
    "peak": 0.0005476,
    "cost": 0.15676517694685377,
    "opened": "2026-11-14T14:33:18+07:00",
@@ -20,7 +20,7 @@
    "sym": "PUMPCADE",
    "qty": 7.202017063998824,
    "entry": 0.01578,
-   "last": 0.01577,
+   "last": 0.01583,
    "peak": 0.01586,
    "cost": 0.11713855830746385,
    "opened": "2026-11-14T15:15:11+07:00",
@@ -29,17 +29,17 @@
    "kol": 19,
    "miss": 0
   },
-  "HLNfRydLB2kMF8T6e2k2xdso5G3QnfD9Df5xtbmRpump": {
-   "sym": "OCC",
-   "qty": 23536.603422356562,
-   "entry": 1.335e-05,
-   "last": 1.296e-05,
-   "peak": 1.441e-05,
-   "cost": 0.32386482754943324,
-   "opened": "2026-11-14T15:47:22+07:00",
+  "Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": {
+   "sym": "george",
+   "qty": 13152.898505293388,
+   "entry": 2.324e-05,
+   "last": 2.438e-05,
+   "peak": 2.438e-05,
+   "cost": 0.3150622152783121,
+   "opened": "2026-11-14T15:56:40+07:00",
    "zoo": "cto",
-   "smart": 3,
-   "kol": 1,
+   "smart": 187,
+   "kol": 8,
    "miss": 0
   }
  },
@@ -1252,8 +1252,28 @@
    "why": "trailing จากยอด +47% (+24.0%)",
    "smart": 51,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T15:56:40+07:00",
+   "kind": "buy",
+   "mint": "Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump",
+   "sym": "george",
+   "price": 2.324e-05,
+   "usd": 0.3151
+  },
+  {
+   "t": "2026-11-14T15:56:40+07:00",
+   "kind": "sell",
+   "mint": "HLNfRydLB2kMF8T6e2k2xdso5G3QnfD9Df5xtbmRpump",
+   "sym": "OCC",
+   "price": 1.007e-05,
+   "usd": 0.23,
+   "pnl": -0.0939,
+   "why": "stop -24.6%",
+   "smart": 3,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: community takeover",
- "rank_t": 1794646304.6607165
+ "rank_t": 1794646576.7164118
 }
