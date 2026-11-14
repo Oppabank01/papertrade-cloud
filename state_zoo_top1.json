@@ -1,32 +1,32 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.3619991874838038,
+ "cash": 0.40085728871713944,
  "pos": {
-  "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
-   "sym": "FOOD",
-   "qty": 171.6097001051687,
-   "entry": 0.001223,
-   "last": 0.001229,
-   "peak": 0.001406,
-   "cost": 0.21632515278151032,
-   "opened": "2026-11-14T09:42:57+07:00",
-   "zoo": "top1",
-   "smart": 282,
-   "kol": 21,
-   "miss": 0
-  },
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
    "sym": "FLOAT",
    "qty": 47.518322688081916,
    "entry": 0.002976,
-   "last": 0.002933,
-   "peak": 0.002987,
+   "last": 0.003353,
+   "peak": 0.003353,
    "cost": 0.14575812030481528,
    "opened": "2026-11-14T10:30:59+07:00",
    "zoo": "top1",
    "smart": 342,
    "kol": 31,
+   "miss": 0
+  },
+  "DYPRau89Eo4dzMeMKiy8RmhJ8xCJGSmVCDoP6j96pump": {
+   "sym": "JAMES",
+   "qty": 2623.5871018464536,
+   "entry": 5.268e-05,
+   "last": 5.801e-05,
+   "peak": 5.801e-05,
+   "cost": 0.14245574987144008,
+   "opened": "2026-11-14T10:39:38+07:00",
+   "zoo": "top1",
+   "smart": 27,
+   "kol": 3,
    "miss": 0
   }
  },
@@ -831,8 +831,28 @@
    "sym": "FLOAT",
    "price": 0.002976,
    "usd": 0.1458
+  },
+  {
+   "t": "2026-11-14T10:39:38+07:00",
+   "kind": "buy",
+   "mint": "DYPRau89Eo4dzMeMKiy8RmhJ8xCJGSmVCDoP6j96pump",
+   "sym": "JAMES",
+   "price": 5.268e-05,
+   "usd": 0.1425
+  },
+  {
+   "t": "2026-11-14T10:39:38+07:00",
+   "kind": "sell",
+   "mint": "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
+   "sym": "FOOD",
+   "price": 0.001089,
+   "usd": 0.1813,
+   "pnl": -0.035,
+   "why": "stop -11.0%",
+   "smart": 282,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: วอลุ่มอันดับ 1",
- "rank_t": 1794627301.6495576
+ "rank_t": 1794627552.0849757
 }

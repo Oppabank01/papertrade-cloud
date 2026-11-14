@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.7753058286757277,
+ "cash": 4.763714333246257,
  "pos": {
-  "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
-   "sym": "FOOD",
-   "qty": 368.2622246559643,
-   "entry": 0.0008772,
-   "last": 0.001229,
-   "peak": 0.001406,
-   "cost": 0.33296188772233754,
-   "opened": "2026-11-14T07:41:53+07:00",
-   "zoo": "savip",
-   "smart": 281,
-   "kol": 21,
-   "miss": 0,
-   "half": true
-  },
   "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": {
    "sym": "LuckyCoin",
    "qty": 5091.123400556586,
    "entry": 0.0002601,
-   "last": 0.0002704,
+   "last": 0.0002845,
    "peak": 0.0003118,
    "cost": 1.3648744552512553,
    "opened": "2026-11-14T09:12:58+07:00",
@@ -29,20 +15,6 @@
    "smart": 40,
    "kol": 4,
    "miss": 0
-  },
-  "AUH2LBseFhiYBxr1xsdyBhr7m4HSGMk9oWRB7f2qpump": {
-   "sym": "COCORO",
-   "qty": 16818.335560320036,
-   "entry": 8.193e-05,
-   "last": 0.0001778,
-   "peak": 0.0002128,
-   "cost": 1.4202496727035876,
-   "opened": "2026-11-14T09:47:13+07:00",
-   "zoo": "savip",
-   "smart": 64,
-   "kol": 5,
-   "miss": 0,
-   "half": true
   }
  },
  "log": [
@@ -434,8 +406,32 @@
    "usd": 1.7753,
    "pnl": 0.3551,
    "why": "ขายครึ่ง +32.8%"
+  },
+  {
+   "t": "2026-11-14T10:39:40+07:00",
+   "kind": "sell",
+   "mint": "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
+   "sym": "FOOD",
+   "price": 0.001089,
+   "usd": 0.3891,
+   "pnl": 0.0561,
+   "why": "trailing จากยอด +60% (+24.1%)",
+   "smart": 281,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-14T10:39:40+07:00",
+   "kind": "sell",
+   "mint": "AUH2LBseFhiYBxr1xsdyBhr7m4HSGMk9oWRB7f2qpump",
+   "sym": "COCORO",
+   "price": 0.0001593,
+   "usd": 2.5993,
+   "pnl": 1.1791,
+   "why": "trailing จากยอด +160% (+94.4%)",
+   "smart": 64,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: savipww 5 บอท: คะแนน 80+ ทุ่มหมด ขายครึ่ง +30% stop -6%",
- "rank_t": 1794627301.6495576
+ "rank_t": 1794627552.0849757
 }
