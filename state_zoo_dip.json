@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.2348143981072895,
+ "cash": 0.010457378045054005,
  "pos": {
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
    "qty": 305.36690203612386,
    "entry": 0.002283,
-   "last": 0.002242,
+   "last": 0.002143,
    "peak": 0.00256,
    "cost": 0.7185659012043607,
    "opened": "2026-11-14T06:41:21+07:00",
@@ -20,13 +20,26 @@
    "sym": "COCORO",
    "qty": 3238.4460281513807,
    "entry": 6.248e-05,
-   "last": 6.248e-05,
-   "peak": 6.248e-05,
+   "last": 9.003e-05,
+   "peak": 9.003e-05,
    "cost": 0.208552986846937,
    "opened": "2026-11-14T08:17:05+07:00",
    "zoo": "dip",
    "smart": 57,
    "kol": 4,
+   "miss": 0
+  },
+  "7S5t7eZqrfef2dGjTLBGDDYE57Secf1rJS7fM3Vzpump": {
+   "sym": "COINSIDE",
+   "qty": 5910.159675926714,
+   "entry": 3.683e-05,
+   "last": 4.153e-05,
+   "peak": 4.153e-05,
+   "cost": 0.22435702006223548,
+   "opened": "2026-11-14T08:21:30+07:00",
+   "zoo": "dip",
+   "smart": 20,
+   "kol": 1,
    "miss": 0
   }
  },
@@ -1731,8 +1744,16 @@
    "why": "trailing จากยอด +25% (-3.1%)",
    "smart": 3,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T08:21:30+07:00",
+   "kind": "buy",
+   "mint": "7S5t7eZqrfef2dGjTLBGDDYE57Secf1rJS7fM3Vzpump",
+   "sym": "COINSIDE",
+   "price": 3.683e-05,
+   "usd": 0.2244
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794619004.5114465
+ "rank_t": 1794619265.202226
 }

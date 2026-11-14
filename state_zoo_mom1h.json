@@ -1,18 +1,31 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.1654879208008836,
+ "cash": 0.17414849811408745,
  "pos": {
-  "8p3m4ytVesSstiXeZQjhpBATBFFfCFUcog5DLf3tpump": {
-   "sym": "SI",
-   "qty": 4042.7199672441984,
-   "entry": 3.232e-05,
-   "last": 3.232e-05,
-   "peak": 3.232e-05,
-   "cost": 0.1346739943736678,
-   "opened": "2026-11-14T05:19:42+07:00",
+  "AUH2LBseFhiYBxr1xsdyBhr7m4HSGMk9oWRB7f2qpump": {
+   "sym": "COCORO",
+   "qty": 665.4855841667124,
+   "entry": 8.635e-05,
+   "last": 9.003e-05,
+   "peak": 9.003e-05,
+   "cost": 0.05922972602844322,
+   "opened": "2026-11-14T08:21:30+07:00",
    "zoo": "mom1h",
-   "smart": 5,
+   "smart": 57,
+   "kol": 4,
+   "miss": 0
+  },
+  "Erzs5FwufhBSKeT61tspjD8KnMBQgzygQxkAZrKu2x6i": {
+   "sym": "Theo",
+   "qty": 1448.3314071715656,
+   "entry": 3.944e-05,
+   "last": 3.819e-05,
+   "peak": 3.944e-05,
+   "cost": 0.058876716861313697,
+   "opened": "2026-11-14T08:21:30+07:00",
+   "zoo": "mom1h",
+   "smart": 13,
    "kol": 0,
    "miss": 0
   }
@@ -1010,8 +1023,36 @@
    "why": "ครบ 3 ชม. (+0.0%)",
    "smart": 5,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T08:21:30+07:00",
+   "kind": "buy",
+   "mint": "AUH2LBseFhiYBxr1xsdyBhr7m4HSGMk9oWRB7f2qpump",
+   "sym": "COCORO",
+   "price": 8.635e-05,
+   "usd": 0.0592
+  },
+  {
+   "t": "2026-11-14T08:21:30+07:00",
+   "kind": "buy",
+   "mint": "Erzs5FwufhBSKeT61tspjD8KnMBQgzygQxkAZrKu2x6i",
+   "sym": "Theo",
+   "price": 3.944e-05,
+   "usd": 0.0589
+  },
+  {
+   "t": "2026-11-14T08:21:30+07:00",
+   "kind": "sell",
+   "mint": "8p3m4ytVesSstiXeZQjhpBATBFFfCFUcog5DLf3tpump",
+   "sym": "SI",
+   "price": 3.232e-05,
+   "usd": 0.1268,
+   "pnl": -0.0079,
+   "why": "ครบ 3 ชม. (+0.0%)",
+   "smart": 5,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: พุ่งแรง 1 ชม. เกิน +100%",
- "rank_t": 1794619004.5114465
+ "rank_t": 1794619265.202226
 }
