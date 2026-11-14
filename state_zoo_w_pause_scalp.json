@@ -1,20 +1,48 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 12.265764915179535,
+ "cash": 9.534896998540122,
  "pos": {
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 197.997469537811,
    "entry": 0.0069,
-   "last": 0.007090853766864673,
+   "last": 0.007407,
    "peak": 0.007787,
    "cost": 1.4081452688217853,
    "opened": "2026-11-15T02:19:45+07:00",
    "zoo": "w_pause_scalp",
    "smart": 61,
    "kol": 4,
-   "gap": 3,
+   "gap": 0,
+   "miss": 0
+  },
+  "7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": {
+   "sym": "Snoopy",
+   "qty": 2264.4151568765938,
+   "entry": 0.0005859,
+   "last": 0.0006037,
+   "peak": 0.0006037,
+   "cost": 1.36747149084106,
+   "opened": "2026-11-15T03:38:59+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 208,
+   "kol": 14,
+   "gap": 0,
+   "miss": 0
+  },
+  "8JNcbK2bWFxQnZsR6xQtgB3en7DcFSXW5xSyh6fYpump": {
+   "sym": "SLIDES",
+   "qty": 10833.474302289618,
+   "entry": 0.0001221,
+   "last": 0.0001184,
+   "peak": 0.0001221,
+   "cost": 1.3633964257983535,
+   "opened": "2026-11-15T03:38:59+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 24,
+   "kol": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -274,10 +302,41 @@
    "cost_side": 0.03,
    "smart": 32,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T03:38:57+07:00",
+   "kind": "resume",
+   "why": "ราคา GTA6 สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-15T03:38:59+07:00",
+   "kind": "buy",
+   "mint": "7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn",
+   "sym": "Snoopy",
+   "price": 0.0005859,
+   "jup": 0.0005879824070714637,
+   "usd": 1.3675,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 208,
+   "kol": 14
+  },
+  {
+   "t": "2026-11-15T03:38:59+07:00",
+   "kind": "buy",
+   "mint": "8JNcbK2bWFxQnZsR6xQtgB3en7DcFSXW5xSyh6fYpump",
+   "sym": "SLIDES",
+   "price": 0.0001221,
+   "jup": 0.00012192666121298727,
+   "usd": 1.3634,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 24,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794688351.565022,
- "halted": "ราคา GTA6 สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
- "halted_until": "2026-11-15T03:34:38+07:00"
+ "rank_t": 1794688653.2228193
 }
