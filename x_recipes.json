@@ -388,5 +388,34 @@
    "FEE": 0.005,
    "SLIP": 0.005
   }
+ },
+ {
+  "name": "x_night_tp50_sl25",
+  "label": "กะดึก TP +50% SL -25% ถือไม่เกิน 6 นาที",
+  "horizon": "night",
+  "source": "https://ketchupjl.github.io/backtesting",
+  "claim": "backtest of low-cap Solana bot: buy/sell ratio >= 1.6 with market cap and volume floors, exit +50% take profit, -25% stop, 6 minute timeout",
+  "added": "2026-11-14",
+  "active": true,
+  "entry": {
+   "min": {
+    "market_cap": 100000,
+    "volume": 30000,
+    "liquidity": 15000
+   },
+   "max": {},
+   "safe": false,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.25,
+   "TP_ALL": 0.5,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 0.1,
+   "PER_TRADE": 0.2,
+   "MAX_POS": 4
+  }
  }
 ]

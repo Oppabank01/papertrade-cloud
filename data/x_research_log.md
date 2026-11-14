@@ -33,3 +33,17 @@ night: ยังไม่พบโพสต์อวดคืนเดียว�
 
 สกอร์บอร์ด x_: x_snipe_30_30 +0.0% (0 ไม้), x_ladder_2x +0.0% (0 ไม้), x_scalp_1020 -2.4% (0 ไม้)
 ตัวควบคุม: rand -82.1%, randrun -64.3%
+
+## 2026-11-14 รอบที่ 3 (เวลาไทย)
+คำค้น: memecoin overnight turned $100 into $5,000 solana bot; เทรดเหรียญมีม กลยุทธ์ กำไร 1 เดือน โซลานา; solana memecoin strategy 1 week 30x bot rules.
+ผลค้นหาเป็นบทความขายบอทและไกด์ ไม่ใช่โพสต์ X ตรง ๆ ไม่มีหลักฐานผลจริงของคำอวด $100 เป็น $5,000
+
+เพิ่ม 1 สูตร:
+- x_night_tp50_sl25 (night): backtest ที่ ketchupjl.github.io/backtesting ใช้ buy/sell ratio 1.6+ ร่วมกับเพดาน market cap และ volume ออกที่ +50% stop -25% หมดเวลา 6 นาที (0.1 ชม.) ระบบไม่มีฟิลด์อัตราส่วน buys/sells จึงใช้ up (buys มากกว่า sells) แทน และเลือก market cap 100k+ volume 30k+ liquidity 15k+ rugcheck เอง รันเฉพาะกะดึก
+
+ข้ามเพราะซ้ำ: ladder ขายบางส่วนที่ 2x/3x (ซ้ำ x_ladder_2x)
+ยังทำไม่ได้: อัตราส่วน buys/sells ตรง ๆ (ต้องมีฟิลด์ยอดเทียบ), กระเป๋าที่ระบุชื่อ, sentiment บน X
+เลิกใช้: ไม่มี (ยังไม่ถึงกำหนดตัดสิน)
+
+สกอร์บอร์ด x_: x_smartflow_lowcap +26.2% (5 ไม้), x_snipe_30_30 -5.0% (1 ไม้), x_spray_small -7.3% (18 ไม้), x_scalp_1020 -9.0% (8 ไม้), x_ladder_2x -16.5% (2 ไม้)
+ตัวควบคุม: rand -85.8%, randrun -72.9%
