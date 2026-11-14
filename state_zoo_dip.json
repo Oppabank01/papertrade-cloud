@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.43012064937899425,
+ "cash": 0.0,
  "pos": {
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
    "qty": 305.36690203612386,
    "entry": 0.002283,
-   "last": 0.002106,
+   "last": 0.002172,
    "peak": 0.002452,
    "cost": 0.7185659012043607,
    "opened": "2026-11-14T06:41:21+07:00",
@@ -20,13 +20,39 @@
    "sym": "bullish",
    "qty": 2250.7750414363454,
    "entry": 0.0001273,
-   "last": 0.0001273,
+   "last": 0.0001239,
    "peak": 0.0001273,
    "cost": 0.2953243277415449,
    "opened": "2026-11-14T07:37:40+07:00",
    "zoo": "dip",
    "smart": 6,
    "kol": 1,
+   "miss": 0
+  },
+  "EnXT7SXxXb9MYt3RJzDTXA9FxCaEzf9erDQbmcTQpump": {
+   "sym": "MANE",
+   "qty": 3044.9545228118377,
+   "entry": 8.665e-05,
+   "last": 8.665e-05,
+   "peak": 8.665e-05,
+   "cost": 0.2719494015683836,
+   "opened": "2026-11-14T07:41:52+07:00",
+   "zoo": "dip",
+   "smart": 41,
+   "kol": 1,
+   "miss": 0
+  },
+  "5dnrZPYhBnMt31zzapPk21hL8PRtbfMn1a8pPHospump": {
+   "sym": "KOKO",
+   "qty": 18345.217528494257,
+   "entry": 8.365e-06,
+   "last": 8.365e-06,
+   "peak": 8.365e-06,
+   "cost": 0.15817124781061065,
+   "opened": "2026-11-14T07:41:52+07:00",
+   "zoo": "dip",
+   "smart": 9,
+   "kol": 2,
    "miss": 0
   }
  },
@@ -1611,8 +1637,24 @@
    "why": "stop -21.1%",
    "smart": 15,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T07:41:52+07:00",
+   "kind": "buy",
+   "mint": "EnXT7SXxXb9MYt3RJzDTXA9FxCaEzf9erDQbmcTQpump",
+   "sym": "MANE",
+   "price": 8.665e-05,
+   "usd": 0.2719
+  },
+  {
+   "t": "2026-11-14T07:41:52+07:00",
+   "kind": "buy",
+   "mint": "5dnrZPYhBnMt31zzapPk21hL8PRtbfMn1a8pPHospump",
+   "sym": "KOKO",
+   "price": 8.365e-06,
+   "usd": 0.1582
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794616641.2524238
+ "rank_t": 1794616899.8194163
 }
