@@ -1,16 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 4.012912587126328,
+ "cash": 1.5543544181387667,
  "pos": {
   "8JCjZbMPXZPHXWwCdTh2skHN7NDEDuakNbP83ZdYpump": {
    "sym": "VICECITY",
    "qty": 1117.6502730140458,
    "entry": 7.012e-05,
-   "last": 7.577e-05,
+   "last": 6.835e-05,
    "peak": 7.621e-05,
    "cost": 0.08077678534708811,
    "opened": "2026-11-14T08:51:47+07:00",
+   "source": "../PaperTrade-cloud/recipe_smart4",
+   "miss": 0
+  },
+  "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
+   "sym": "FLOAT",
+   "qty": 652.6109809991059,
+   "entry": 0.003655,
+   "last": 0.003618,
+   "peak": 0.003655,
+   "cost": 2.4585581689875613,
+   "opened": "2026-11-14T10:43:46+07:00",
    "source": "../PaperTrade-cloud/recipe_smart4",
    "miss": 0
   }
@@ -248,6 +259,14 @@
    "why": "stop -29.0%",
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T10:43:46+07:00",
+   "kind": "buy",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "price": 0.003655,
+   "usd": 2.4586
   }
  ],
  "label": "สูตร crbpite8 Apple Card (ไม้ 60%)",
@@ -445,6 +464,7 @@
   "../PaperTrade-cloud/state_recipe_smart4.json:2026-11-14T10:17:59+07:00:FPN5sEwtxtLn8d5zRqy2wMs8oSswRk9xyQd4Lt1dpump",
   "../PaperTrade-cloud/state_recipe_smart4.json:2026-11-14T10:30:56+07:00:2vcwEzJGC9TskVDsbLreBaGTakPQLXYREZLuCgfJpump",
   "../PaperTrade-cloud/state_recipe_smart4.json:2026-11-14T10:30:56+07:00:CbmdFB7ruUfTHb1uRWC99knEni77CQKfFZL6qq2fLoat",
+  "../PaperTrade-cloud/state_recipe_smart4.json:2026-11-14T10:39:36+07:00:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
   "state_agents.json:2026-11-13T01:43:48+07:00:6MQGcPiDMusnHWXTBAfY7sRAHYRfgZmPjsmSPmPdpump",
   "state_agents.json:2026-11-13T01:43:49+07:00:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump",
   "state_agents.json:2026-11-13T01:50:03+07:00:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",

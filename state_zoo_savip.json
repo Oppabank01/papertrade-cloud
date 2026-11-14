@@ -1,19 +1,32 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 4.763714333246257,
+ "cash": 0.0,
  "pos": {
   "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": {
    "sym": "LuckyCoin",
    "qty": 5091.123400556586,
    "entry": 0.0002601,
-   "last": 0.0002845,
+   "last": 0.000276,
    "peak": 0.0003118,
    "cost": 1.3648744552512553,
    "opened": "2026-11-14T09:12:58+07:00",
    "zoo": "savip",
    "smart": 40,
    "kol": 4,
+   "miss": 0
+  },
+  "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": {
+   "sym": "BAWSAQ",
+   "qty": 26126.37448341164,
+   "entry": 0.0001769,
+   "last": 0.0001769,
+   "peak": 0.0001769,
+   "cost": 4.763714333246257,
+   "opened": "2026-11-14T10:43:53+07:00",
+   "zoo": "savip",
+   "smart": 56,
+   "kol": 6,
    "miss": 0
   }
  },
@@ -430,8 +443,16 @@
    "why": "trailing จากยอด +160% (+94.4%)",
    "smart": 64,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T10:43:53+07:00",
+   "kind": "buy",
+   "mint": "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump",
+   "sym": "BAWSAQ",
+   "price": 0.0001769,
+   "usd": 4.7637
   }
  ],
  "label": "สวนสัตว์: savipww 5 บอท: คะแนน 80+ ทุ่มหมด ขายครึ่ง +30% stop -6%",
- "rank_t": 1794627552.0849757
+ "rank_t": 1794627812.40108
 }
