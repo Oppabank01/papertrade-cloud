@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.9446165586995614,
+ "cash": 1.256734271395517,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 21.229887227050792,
    "entry": 0.04397,
-   "last": 0.03797,
+   "last": 0.0379,
    "peak": 0.04567,
    "cost": 0.9621502178658249,
    "opened": "2026-11-14T11:56:43+07:00",
@@ -21,13 +21,27 @@
    "sym": "ANSEM",
    "qty": 16.39752523356051,
    "entry": 0.04187,
-   "last": 0.042,
-   "peak": 0.04212,
+   "last": 0.04215,
+   "peak": 0.04215,
    "cost": 0.7076524237571414,
    "opened": "2026-11-15T04:11:49+07:00",
    "zoo": "randrun",
    "smart": 1000,
    "kol": 186,
+   "gap": 0,
+   "miss": 0
+  },
+  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
+   "sym": "Macca",
+   "qty": 301.84685442893885,
+   "entry": 0.002211,
+   "last": 0.00221,
+   "peak": 0.002211,
+   "cost": 0.6878822873040443,
+   "opened": "2026-11-15T05:46:40+07:00",
+   "zoo": "randrun",
+   "smart": 169,
+   "kol": 8,
    "gap": 0,
    "miss": 0
   }
@@ -702,8 +716,22 @@
    "cost_side": 0.03,
    "smart": 15,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T05:46:40+07:00",
+   "kind": "buy",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.002211,
+   "jup": 0.0022145632503408584,
+   "usd": 0.6879,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "randrun",
+   "smart": 169,
+   "kol": 8
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1794696070.261771
+ "rank_t": 1794696341.5014887
 }
