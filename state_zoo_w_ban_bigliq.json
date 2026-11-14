@@ -7,7 +7,7 @@
    "sym": "USELESS",
    "qty": 27.081299165453846,
    "entry": 0.1054,
-   "last": 0.1042,
+   "last": 0.1039,
    "peak": 0.1057,
    "cost": 2.9420417769932334,
    "opened": "2026-11-15T00:49:25+07:00",
@@ -21,42 +21,42 @@
    "sym": "NIO",
    "qty": 1191.0039632998169,
    "entry": 0.002381,
-   "last": 0.002301,
+   "last": 0.00236,
    "peak": 0.002402,
    "cost": 2.9228823300524263,
    "opened": "2026-11-15T00:54:49+07:00",
    "zoo": "w_ban_bigliq",
    "smart": 403,
    "kol": 30,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 450.588105053489,
    "entry": 0.006256,
-   "last": 0.006252,
-   "peak": 0.006256,
+   "last": 0.006317,
+   "peak": 0.006317,
    "cost": 2.905461951365314,
    "opened": "2026-11-15T00:54:53+07:00",
    "zoo": "w_ban_bigliq",
    "smart": 287,
    "kol": 23,
-   "gap": 6,
+   "gap": 15,
    "miss": 0
   },
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 195.90370836777905,
    "entry": 0.01425,
-   "last": 0.01416,
-   "peak": 0.01431,
+   "last": 0.014172803930281246,
+   "peak": 0.01436,
    "cost": 2.877373576830397,
    "opened": "2026-11-15T00:59:13+07:00",
    "zoo": "w_ban_bigliq",
    "smart": 678,
    "kol": 69,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -121,8 +121,18 @@
    "zoo": "w_ban_bigliq",
    "smart": 678,
    "kol": 69
+  },
+  {
+   "t": "2026-11-15T01:15:04+07:00",
+   "kind": "ban",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794679600.5436423
+ "rank_t": 1794679889.782784,
+ "banned": {
+  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6"
+ }
 }
