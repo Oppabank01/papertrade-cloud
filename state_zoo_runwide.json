@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.0,
+ "cash": 0.01751669894615098,
  "pos": {
   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
    "sym": "INU",
@@ -20,7 +20,7 @@
    "sym": "SHARKBUX",
    "qty": 2046.6311423063505,
    "entry": 0.0004636,
-   "last": 0.0005919,
+   "last": 0.0005839,
    "peak": 0.0005919,
    "cost": 0.9779614487458504,
    "opened": "2026-11-14T06:49:51+07:00",
@@ -33,25 +33,12 @@
    "sym": "BIG",
    "qty": 36.433165816627934,
    "entry": 0.001368,
-   "last": 0.001432,
+   "last": 0.001378,
    "peak": 0.001432,
    "cost": 0.05137143974144198,
    "opened": "2026-11-14T09:21:15+07:00",
    "zoo": "runwide",
    "smart": 5,
-   "kol": 0,
-   "miss": 0
-  },
-  "7DvzSp1hKJADiCk9v5ncVp6WV4s1VY342yLje1eApump": {
-   "sym": "NVIDIA",
-   "qty": 13178.634961375246,
-   "entry": 7.228e-05,
-   "last": 7.267e-05,
-   "peak": 7.267e-05,
-   "cost": 0.9818096629645464,
-   "opened": "2026-11-14T10:00:04+07:00",
-   "zoo": "runwide",
-   "smart": 0,
    "kol": 0,
    "miss": 0
   }
@@ -433,8 +420,20 @@
    "sym": "NVIDIA",
    "price": 7.228e-05,
    "usd": 0.9818
+  },
+  {
+   "t": "2026-11-14T10:05:11+07:00",
+   "kind": "sell",
+   "mint": "7DvzSp1hKJADiCk9v5ncVp6WV4s1VY342yLje1eApump",
+   "sym": "NVIDIA",
+   "price": 1.37e-06,
+   "usd": 0.0175,
+   "pnl": -0.9643,
+   "why": "stop -98.1%",
+   "smart": 0,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ปล่อยวิ่ง trail 30/25 ถือ 24 ชม.",
- "rank_t": 1794625186.8908412
+ "rank_t": 1794625444.787246
 }

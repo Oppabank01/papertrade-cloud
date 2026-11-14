@@ -1,19 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.8038834804281494,
+ "cash": 0.5959977057272224,
  "pos": {
-  "7DvzSp1hKJADiCk9v5ncVp6WV4s1VY342yLje1eApump": {
-   "sym": "NVIDIA",
-   "qty": 3588.763850095752,
-   "entry": 5.81e-05,
-   "last": 7.228e-05,
-   "peak": 7.228e-05,
-   "cost": 0.21491154369260276,
-   "opened": "2026-11-14T09:51:27+07:00",
+  "2zhfT4b6N4Jq5VwPjvbN6BwrZhpk7ncZ55ofXR9wpump": {
+   "sym": "LEAP",
+   "qty": 2315.3262426977462,
+   "entry": 8.911e-05,
+   "last": 8.715e-05,
+   "peak": 8.911e-05,
+   "cost": 0.2126558663026141,
+   "opened": "2026-11-14T10:05:08+07:00",
    "zoo": "dip",
-   "smart": 0,
-   "kol": 0,
+   "smart": 70,
+   "kol": 8,
    "miss": 0
   }
  },
@@ -1990,8 +1990,28 @@
    "why": "stop -21.5%",
    "smart": 12,
    "bundler": null
+  },
+  {
+   "t": "2026-11-14T10:05:08+07:00",
+   "kind": "buy",
+   "mint": "2zhfT4b6N4Jq5VwPjvbN6BwrZhpk7ncZ55ofXR9wpump",
+   "sym": "LEAP",
+   "price": 8.911e-05,
+   "usd": 0.2127
+  },
+  {
+   "t": "2026-11-14T10:05:09+07:00",
+   "kind": "sell",
+   "mint": "7DvzSp1hKJADiCk9v5ncVp6WV4s1VY342yLje1eApump",
+   "sym": "NVIDIA",
+   "price": 1.37e-06,
+   "usd": 0.0048,
+   "pnl": -0.2101,
+   "why": "stop -97.6%",
+   "smart": 0,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
- "rank_t": 1794625186.8908412
+ "rank_t": 1794625444.787246
 }
