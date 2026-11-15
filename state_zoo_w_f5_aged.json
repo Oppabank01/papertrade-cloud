@@ -1,48 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 2.846455993670233,
+ "cash": 6.181883298568124,
  "pos": {
-  "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
-   "sym": "Rocco",
-   "qty": 2359.080252630704,
-   "entry": 0.0006399,
-   "last": 0.000772,
-   "peak": 0.0008465206180481374,
-   "cost": 1.555942541391865,
-   "opened": "2026-11-15T16:39:22+07:00",
-   "zoo": "w_f5_aged",
-   "smart": 109,
-   "kol": 8,
-   "gap": 0,
-   "miss": 0
-  },
-  "Ge87EtsjwRQbHaqQmKRno69RFTwh9bfSsm99XNxTpump": {
-   "sym": "Jimothy",
-   "qty": 1200.4627071636667,
-   "entry": 0.00125,
-   "last": 0.001251,
-   "peak": 0.001254,
-   "cost": 1.5466691238451695,
-   "opened": "2026-11-15T16:39:24+07:00",
-   "zoo": "w_f5_aged",
-   "smart": 385,
-   "kol": 63,
-   "gap": 0,
-   "miss": 0
-  },
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
    "sym": "STANK",
    "qty": 779.3286435135566,
    "entry": 0.00185,
-   "last": 0.0017761829993198045,
+   "last": 0.001774,
    "peak": 0.001862,
    "cost": 1.486042043393197,
    "opened": "2026-11-15T17:16:24+07:00",
    "zoo": "w_f5_aged",
    "smart": 78,
    "kol": 1,
-   "gap": 16,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1021,8 +993,38 @@
    "cost_side": 0.03,
    "smart": 112,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T19:39:25+07:00",
+   "kind": "sell",
+   "mint": "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
+   "sym": "Rocco",
+   "price": 0.0008207,
+   "entry": 0.0006399,
+   "usd": 1.8784,
+   "pnl": 0.3225,
+   "why": "ครบ 3 ชม. (+28.3%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 109,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T19:39:25+07:00",
+   "kind": "sell",
+   "mint": "Ge87EtsjwRQbHaqQmKRno69RFTwh9bfSsm99XNxTpump",
+   "sym": "Jimothy",
+   "price": 0.001251,
+   "entry": 0.00125,
+   "usd": 1.457,
+   "pnl": -0.0896,
+   "why": "ครบ 3 ชม. (+0.1%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 385,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794745851.8033485
+ "rank_t": 1794746152.1592364
 }

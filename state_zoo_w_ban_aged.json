@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.4165717617014897,
+ "cash": 1.6760459456338943,
  "pos": {
   "34As1e1Kop9zBvu5e84kjg452Uigq8krcoGEJiWRpump": {
    "sym": "UHI",
    "qty": 2274.3487391031467,
    "entry": 0.0007521,
-   "last": 0.0006976,
+   "last": 0.0007037,
    "peak": 0.0007557,
    "cost": 1.7630773929905967,
    "opened": "2026-11-15T17:58:54+07:00",
@@ -21,27 +21,41 @@
    "sym": "baton",
    "qty": 514.6274673952829,
    "entry": 0.003287,
-   "last": 0.003311,
+   "last": 0.003315,
    "peak": 0.003368,
    "cost": 1.7435379152012933,
    "opened": "2026-11-15T18:08:23+07:00",
    "zoo": "w_ban_aged",
    "smart": 722,
    "kol": 80,
-   "gap": 5,
+   "gap": 6,
    "miss": 0
   },
   "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
    "sym": "Rocco",
    "qty": 2404.88939593212,
    "entry": 0.0006992,
-   "last": 0.000772,
+   "last": 0.0008197890829844807,
    "peak": 0.0008465206180481374,
    "cost": 1.7331464292266938,
    "opened": "2026-11-15T18:08:23+07:00",
    "zoo": "w_ban_aged",
    "smart": 109,
    "kol": 8,
+   "gap": 1,
+   "miss": 0
+  },
+  "JB2wezZLdzWfnaCfHxLg193RS3Rh51ThiXxEDWQDpump": {
+   "sym": "LABUBU",
+   "qty": 6658.74663544472,
+   "entry": 0.0002536,
+   "last": 0.0002567,
+   "peak": 0.0002567,
+   "cost": 1.7405258160675954,
+   "opened": "2026-11-15T19:37:44+07:00",
+   "zoo": "w_ban_aged",
+   "smart": 34,
+   "kol": 116,
    "gap": 0,
    "miss": 0
   }
@@ -1078,10 +1092,24 @@
    "cost_side": 0.03,
    "smart": 249,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T19:37:44+07:00",
+   "kind": "buy",
+   "mint": "JB2wezZLdzWfnaCfHxLg193RS3Rh51ThiXxEDWQDpump",
+   "sym": "LABUBU",
+   "price": 0.0002536,
+   "jup": 0.000255243139617193,
+   "usd": 1.7405,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_aged",
+   "smart": 34,
+   "kol": 116
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794745851.8033485,
+ "rank_t": 1794746152.1592364,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": "CHOO",
