@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.3618667257684156,
+ "cash": 1.5039526966166101,
  "pos": {
   "2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump": {
    "sym": "Peekhole",
@@ -21,14 +21,28 @@
    "sym": "Jimothy",
    "qty": 705.6245865710271,
    "entry": 0.001211,
-   "last": 0.001193545291549931,
+   "last": 0.001188,
    "peak": 0.001211,
    "cost": 0.8807579615929847,
    "opened": "2026-11-15T09:52:51+07:00",
    "zoo": "boosted",
    "smart": 385,
    "kol": 63,
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "5gmCPpuktJ7Svjgr4PPJBTosAFKB8K6Z45EGfSUmpump": {
+   "sym": "penny",
+   "qty": 26059.742989451523,
+   "entry": 3.194e-05,
+   "last": 3.175e-05,
+   "peak": 3.194e-05,
+   "cost": 0.8579140291518055,
+   "opened": "2026-11-15T10:02:56+07:00",
+   "zoo": "boosted",
+   "smart": 10,
+   "kol": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1448,8 +1462,22 @@
    "cost_side": 0.03,
    "smart": 274,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T10:02:56+07:00",
+   "kind": "buy",
+   "mint": "5gmCPpuktJ7Svjgr4PPJBTosAFKB8K6Z45EGfSUmpump",
+   "sym": "penny",
+   "price": 3.194e-05,
+   "jup": 3.172482076569697e-05,
+   "usd": 0.8579,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 10,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794711439.9158478
+ "rank_t": 1794711724.5115213
 }
