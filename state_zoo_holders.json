@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 3.6441792914804862,
+ "cash": 2.444864553014925,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
@@ -28,6 +28,20 @@
    "zoo": "holders",
    "smart": 439,
    "kol": 28,
+   "gap": 0,
+   "miss": 0
+  },
+  "8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump": {
+   "sym": "PENGUIN",
+   "qty": 2996.5881000754252,
+   "entry": 0.0003883,
+   "last": 0.0003883,
+   "peak": 0.0003883,
+   "cost": 1.1993147384655614,
+   "opened": "2026-11-15T15:32:46+07:00",
+   "zoo": "holders",
+   "smart": 283,
+   "kol": 74,
    "gap": 0,
    "miss": 0
   }
@@ -1439,8 +1453,22 @@
    "zoo": "holders",
    "smart": 439,
    "kol": 28
+  },
+  {
+   "t": "2026-11-15T15:32:46+07:00",
+   "kind": "buy",
+   "mint": "8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump",
+   "sym": "PENGUIN",
+   "price": 0.0003883,
+   "jup": 0.00038507723008360397,
+   "usd": 1.1993,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 283,
+   "kol": 74
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794731220.579276
+ "rank_t": 1794731509.3741026
 }
