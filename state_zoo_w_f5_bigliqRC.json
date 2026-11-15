@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 9.610937976369263,
- "pos": {
-  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
-   "sym": "CATE",
-   "qty": 153.8254058785439,
-   "entry": 0.01541,
-   "last": 0.01627,
-   "peak": 0.01637,
-   "cost": 2.443258611202187,
-   "opened": "2026-11-15T06:33:42+07:00",
-   "zoo": "w_f5_bigliqRC",
-   "smart": 865,
-   "kol": 110,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 12.027156384571914,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T22:53:11+07:00",
@@ -356,9 +341,24 @@
    "cost_side": 0.03,
    "smart": 465,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T09:33:43+07:00",
+   "kind": "sell",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.01619,
+   "entry": 0.01541,
+   "usd": 2.4162,
+   "pnl": -0.027,
+   "why": "ครบ 3 ชม. (+5.1%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 865,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ bigliqRC แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794709743.0068889,
+ "rank_t": 1794710023.4404478,
  "halted": "ราคา ZCAT สองแหล่งต่างกันเกิน 1% ติดกัน 60 รอบ"
 }
