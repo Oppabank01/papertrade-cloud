@@ -24,7 +24,8 @@ $PY wallets.py poll; $PY wallets.py run
 $PY curve.py run || echo "curve run failed"   # pump.fun curve child of wallets.py: acts on the skips wallets.py just logged
 $PY zoo.py init 500 >/dev/null; $PY zoo.py tick       # init only creates new accounts (X recipes added by the routine); strategy zoo: ~20 one-rule accounts on the same ranking
 $PY nightly.py tick    # nightly sessions: fresh 500 THB at 21:00, settle at 09:00
-$PY funding.py run || echo "funding run failed (Hyperliquid API)"   # funding carry: steps once a day, no network otherwise
+$PY funding.py init 10000 >/dev/null; $PY funding.py run || echo "funding run failed (Hyperliquid API)"   # funding carry: steps once a day, no network otherwise
+$PY daytrade.py init 500 >/dev/null; $PY daytrade.py run || echo "daytrade run failed"   # one-day accounts on big coins: grid, dip, funding spike
 left=$((T0 + 230 - $(date +%s))); [ "$left" -gt 0 ] && sleep "$left"   # watcher keeps checking here instead of the chain step idling
 $PY zoo.py stopwatch; wait $WATCH $WATCH5
 TODAY=$(TZ=Asia/Bangkok date +%F); H=$((10#$(TZ=Asia/Bangkok date +%H)))

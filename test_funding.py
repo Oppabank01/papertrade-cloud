@@ -31,3 +31,17 @@ s = fresh()                                      # the control is always on, eve
 funding.step("fundon", s, neg, now, "d1")
 assert all(s["on"].values())
 print("funding ok")
+
+# pick accounts: top-3 by 7-day mean among the pool, drop a coin that fell out, pay COST each way
+hist = {k: [(now - i * H, r) for i in range(24 * 8)][::-1] for k, r in (("A", 3e-5), ("B", 2e-5), ("C", 1e-5), ("D", -1e-5), ("E", 5e-6))}
+s = dict(cash=300.0, sleeve={}, last_t=now - 24 * H, log=[], history=[])
+funding.pick_step("fundtop3_500", s, hist, now, "d1", list(hist))
+assert sorted(s["sleeve"]) == ["A", "B", "C"] and abs(s["sleeve"]["A"] - 100 * (1 - funding.COST)) < 1e-9, s
+hist["C"] = [(t, -1e-4) for t, _ in hist["C"]]
+s["last_t"] = now - 24 * H
+funding.pick_step("fundtop3_500", s, hist, now, "d2", list(hist))
+assert sorted(s["sleeve"]) == ["A", "B", "E"], s
+s = dict(cash=500.0, sleeve={}, last_t=now, log=[], history=[])
+funding.pick_step("fundhi_500", s, {k: hist[k] for k in "ABDE"}, now, "d1", list("ABDE"))
+assert sorted(s["sleeve"]) == ["A", "B"], s                     # 10%/yr floor is ~1.14e-5 per hour: only A and B pass
+print("funding picks ok")
