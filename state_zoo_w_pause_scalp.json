@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.321837920772637,
+ "cash": 4.6173019138788005,
  "pos": {
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 91.52508953373622,
    "entry": 0.007394,
-   "last": 0.007468,
+   "last": 0.007462,
    "peak": 0.007623,
    "cost": 0.6975226881183731,
    "opened": "2026-11-16T06:01:52+07:00",
@@ -21,28 +21,14 @@
    "sym": "DOOM",
    "qty": 2392.675843968266,
    "entry": 0.0002832,
-   "last": 0.0002472,
+   "last": 0.0002474,
    "peak": 0.0002903,
    "cost": 0.6984186755429941,
    "opened": "2026-11-16T06:06:48+07:00",
    "zoo": "w_pause_scalp",
    "smart": 58,
    "kol": 5,
-   "gap": 2,
-   "miss": 0
-  },
-  "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
-   "sym": "Rocco",
-   "qty": 685.8518236272222,
-   "entry": 0.0009859,
-   "last": 0.001108,
-   "peak": 0.001108,
-   "cost": 0.6969504359040182,
-   "opened": "2026-11-16T06:11:22+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 112,
-   "kol": 8,
-   "gap": 2,
+   "gap": 1,
    "miss": 0
   },
   "488SaFq6wHF2z2k6NLSD3PtoSkXDNZaPkJwxze11pump": {
@@ -57,20 +43,6 @@
    "smart": 193,
    "kol": 18,
    "gap": 0,
-   "miss": 0
-  },
-  "A3vB4dggaaMScchjNW9WifagMRiWaWtDAzunooDYcREQ": {
-   "sym": "BFS",
-   "qty": 4316.198461256579,
-   "entry": 0.0001465,
-   "last": 0.0001329914906865255,
-   "peak": 0.0001465,
-   "cost": 0.651745077895371,
-   "opened": "2026-11-16T06:38:55+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 114,
-   "kol": 5,
-   "gap": 7,
    "miss": 0
   }
  },
@@ -2528,10 +2500,40 @@
    "cost_side": 0.03,
    "smart": 37,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T06:44:28+07:00",
+   "kind": "sell",
+   "mint": "A3vB4dggaaMScchjNW9WifagMRiWaWtDAzunooDYcREQ",
+   "sym": "BFS",
+   "price": 0.00012360270329229384,
+   "entry": 0.0001465,
+   "usd": 0.5176,
+   "pnl": -0.1341,
+   "why": "stop -15.6%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 114,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-16T06:45:29+07:00",
+   "kind": "sell",
+   "mint": "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
+   "sym": "Rocco",
+   "price": 0.001169,
+   "entry": 0.0009859,
+   "usd": 0.7779,
+   "pnl": 0.0809,
+   "why": "ถึงเป้า +18.6%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 112,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794785884.3861852,
+ "rank_t": 1794786156.6768801,
  "halted": "ราคา NEVERDOOM สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-16T07:40:39+07:00"
 }
