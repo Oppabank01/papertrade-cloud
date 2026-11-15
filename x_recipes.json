@@ -837,7 +837,7 @@
   "source": "https://x.com/0xNevsky/status/2120942473459417354",
   "claim": "$75 to $1,944 overnight, 134 trades 80% win: graduation is where pump.fun gets real liquidity; trade around it with TP +35% and SL on every trade",
   "added": "2026-11-15",
-  "active": true,
+  "active": false,
   "entry": {
    "min": {
     "launchpad_status": 1,
@@ -856,7 +856,8 @@
    "TRAIL_ON": null,
    "TRAIL": null,
    "MAX_HOLD_H": 2
-  }
+  },
+  "retired": "2026-11-15: -21.3% 10 trades, backtest 149 trades median -17%"
  },
  {
   "name": "x_rule5_60_25",
@@ -946,5 +947,97 @@
    "MAX_HOLD_H": 4.25,
    "MAX_POS": 8
   }
+ },
+ {
+  "name": "x_lotus_5bots",
+  "label": "5 บอท: pool 25k+ dev ไม่เกิน 5% top10 ไม่เกิน 20% ขายครึ่ง x2 stop -25%",
+  "horizon": "week",
+  "source": "https://x.com/0xLotttus/status/2121983888406786144",
+  "claim": "$112 to $4,194 (37.4x)",
+  "added": "2026-11-15",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 25000
+   },
+   "max": {
+    "dev_team_hold_rate": 0.05,
+    "top_10_holder_rate": 0.2
+   }
+  },
+  "exit": {
+   "STOP": -0.25,
+   "HALF_AT": 1.0,
+   "TRAIL_ON": 1.0,
+   "TRAIL": 0.25,
+   "MAX_HOLD_H": 24
+  },
+  "note": "trail size not in post, 25% assumed; 'size by score' not modelled"
+ },
+ {
+  "name": "x_skip_pumped",
+  "label": "ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
+  "horizon": "week",
+  "source": "https://x.com/Brankotrcek/status/2120601973288292516",
+  "claim": "$25 to $1,912 (76.5x), 9 trades 6 wins, demo account",
+  "added": "2026-11-15",
+  "active": true,
+  "entry": {
+   "max": {
+    "price_change_percent5m": 25
+   }
+  },
+  "exit": {
+   "STOP": -0.08
+  }
+ },
+ {
+  "name": "x_cto_watch",
+  "label": "รอ dev เทหมดแล้วมี CTO: dev ถือ 0% ซื้อ 40% ขายครึ่ง x3 trail 15% stop -18%",
+  "horizon": "week",
+  "source": "https://x.com/Hrundel75/status/2121980466748129536",
+  "claim": "$250 to $15,483 buying after the dev rugged",
+  "added": "2026-11-15",
+  "active": true,
+  "entry": {
+   "min": {
+    "cto_flag": 1
+   },
+   "max": {
+    "dev_team_hold_rate": 0
+   }
+  },
+  "exit": {
+   "PER_TRADE": 0.4,
+   "HALF_AT": 2.0,
+   "TRAIL_ON": 0.0,
+   "TRAIL": 0.15,
+   "STOP": -0.18,
+   "MAX_HOLD_H": null
+  },
+  "note": "post sells half at the dev's exit price (not in our data, its example was x3.4); 'holders +15% after dump' not available"
+ },
+ {
+  "name": "x_loofy_desk",
+  "label": "8 เอเจนต์: smart money 2+ ผ่านเช็กปลอดภัย+RugCheck stop -8% trail",
+  "horizon": "week",
+  "source": "https://x.com/Loofyb0i/status/2121963630346264677",
+  "claim": "$2,140 to $8,619 overnight, 8 trades 6 green",
+  "added": "2026-11-15",
+  "active": true,
+  "entry": {
+   "min": {
+    "smart_degen_count": 2
+   },
+   "safe": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.08,
+   "TRAIL_ON": 0.1,
+   "TRAIL": 0.15,
+   "MAX_HOLD_H": 6
+  },
+  "note": "212 tracked wallets approximated by GMGN smart count; trail size not in post"
  }
 ]
