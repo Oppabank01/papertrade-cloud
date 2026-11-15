@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.283614815948661,
+ "cash": 0.72336858005277,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 16.39752523356051,
    "entry": 0.04187,
-   "last": 0.05075,
+   "last": 0.05054,
    "peak": 0.05292,
    "cost": 0.7076524237571414,
    "opened": "2026-11-15T04:11:49+07:00",
@@ -21,14 +21,14 @@
    "sym": "Macca",
    "qty": 301.84685442893885,
    "entry": 0.002211,
-   "last": 0.0020791854643438866,
+   "last": 0.002122,
    "peak": 0.002656,
    "cost": 0.6878822873040443,
    "opened": "2026-11-15T05:46:40+07:00",
    "zoo": "randrun",
    "smart": 169,
    "kol": 8,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "33eum82LaAhtv5YkUq1BdwEviSErH5CnFxqVNLT5pump": {
@@ -42,21 +42,7 @@
    "zoo": "randrun",
    "smart": 113,
    "kol": 24,
-   "gap": 1,
-   "miss": 0
-  },
-  "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": {
-   "sym": "PEAK",
-   "qty": 3054.319003501855,
-   "entry": 0.0001787,
-   "last": 0.000164,
-   "peak": 0.000196,
-   "cost": 0.5625714346792224,
-   "opened": "2026-11-15T09:20:06+07:00",
-   "zoo": "randrun",
-   "smart": 119,
-   "kol": 10,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -874,8 +860,23 @@
    "zoo": "randrun",
    "smart": 119,
    "kol": 10
+  },
+  {
+   "t": "2026-11-16T03:54:49+07:00",
+   "kind": "sell",
+   "mint": "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray",
+   "sym": "PEAK",
+   "price": 0.0001484,
+   "entry": 0.0001787,
+   "usd": 0.4398,
+   "pnl": -0.1228,
+   "why": "stop -17.0%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 119,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1794775748.1887882
+ "rank_t": 1794776036.3979805
 }
