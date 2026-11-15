@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 7.778593565641883,
+ "cash": 7.75855792655133,
  "pos": {
-  "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": {
-   "sym": "BTC",
-   "qty": 534.4564220866733,
-   "entry": 0.001587,
-   "last": 0.0016238293134166817,
-   "peak": 0.001656,
-   "cost": 0.8742345308715219,
-   "opened": "2026-11-15T17:26:15+07:00",
+  "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": {
+   "sym": "Socks",
+   "qty": 2787.9084816074446,
+   "entry": 0.0003,
+   "last": 0.0003215,
+   "peak": 0.000323,
+   "cost": 0.8620619918390366,
+   "opened": "2026-11-15T19:27:21+07:00",
    "zoo": "w_pause_scalp",
-   "smart": 783,
-   "kol": 69,
-   "gap": 8,
+   "smart": 62,
+   "kol": 6,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1541,8 +1541,37 @@
    "t": "2026-11-15T18:54:31+07:00",
    "kind": "resume",
    "why": "ราคา BTC สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-15T19:26:30+07:00",
+   "kind": "sell",
+   "mint": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+   "sym": "BTC",
+   "price": 0.0016238731966709723,
+   "entry": 0.001587,
+   "usd": 0.842,
+   "pnl": -0.0322,
+   "why": "ครบ 2 ชม. (+2.3%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 783,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T19:27:21+07:00",
+   "kind": "buy",
+   "mint": "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump",
+   "sym": "Socks",
+   "price": 0.0003,
+   "jup": 0.0003013405547041717,
+   "usd": 0.8621,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 62,
+   "kol": 6
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794745283.5143993
+ "rank_t": 1794745570.369477
 }

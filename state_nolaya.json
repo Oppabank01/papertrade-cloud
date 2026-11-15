@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.18218169445496976,
+ "cash": 0.12147237594136825,
  "pos": {
   "ABSZ6rwFCcWSTB4QiGfDqNBEgeyUswQWZm5Vt5rVpump": {
    "sym": "RINA",
@@ -19,10 +19,22 @@
    "sym": "Macca",
    "qty": 27.33184841932959,
    "entry": 0.002197,
-   "last": 0.00216,
+   "last": 0.002155,
    "peak": 0.002197,
    "cost": 0.061892466478321084,
    "opened": "2026-11-15T18:25:44+07:00",
+   "source": "agents",
+   "gap": 0,
+   "miss": 0
+  },
+  "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": {
+   "sym": "GTA",
+   "qty": 68.71229680575848,
+   "entry": 0.0008572,
+   "last": 0.000856,
+   "peak": 0.0008572,
+   "cost": 0.0607093185136015,
+   "opened": "2026-11-15T19:26:20+07:00",
    "source": "agents",
    "gap": 0,
    "miss": 0
@@ -3374,6 +3386,18 @@
    "cost_side": 0.03,
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T19:26:20+07:00",
+   "kind": "buy",
+   "mint": "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump",
+   "sym": "GTA",
+   "price": 0.0008572,
+   "jup": 0.000855362682009464,
+   "usd": 0.0607,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "agents"
   }
  ],
  "label": "เร็ว ไม่มี laya",
@@ -5792,6 +5816,7 @@
   "state_agents.json:2026-11-15T18:29:51+07:00:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump",
   "state_agents.json:2026-11-15T18:29:53+07:00:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump",
   "state_agents.json:2026-11-15T18:29:56+07:00:4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump",
-  "state_agents.json:2026-11-15T18:58:19+07:00:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump"
+  "state_agents.json:2026-11-15T18:58:19+07:00:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump",
+  "state_agents.json:2026-11-15T19:26:18+07:00:BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump"
  ]
 }

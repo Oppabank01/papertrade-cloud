@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 9.28246094423383,
- "pos": {},
+ "cash": 7.425968755387063,
+ "pos": {
+  "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": {
+   "sym": "Socks",
+   "qty": 6003.895738730443,
+   "entry": 0.0003,
+   "last": 0.0003215,
+   "peak": 0.000323,
+   "cost": 1.856492188846766,
+   "opened": "2026-11-15T19:27:26+07:00",
+   "zoo": "x_fresh_grad",
+   "smart": 62,
+   "kol": 6,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-15T00:52:42+07:00",
@@ -472,8 +487,22 @@
    "cost_side": 0.03,
    "smart": 32,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T19:27:26+07:00",
+   "kind": "buy",
+   "mint": "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump",
+   "sym": "Socks",
+   "price": 0.0003,
+   "jup": 0.0003013405547041717,
+   "usd": 1.8565,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_fresh_grad",
+   "smart": 62,
+   "kol": 6
   }
  ],
  "label": "สวนสัตว์: เพิ่งจบ bonding curve ไม่เกิน 6 ชม. TP +35% SL -15%",
- "rank_t": 1794745283.5143993
+ "rank_t": 1794745570.369477
 }

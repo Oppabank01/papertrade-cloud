@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.0360962326814116,
+ "cash": 3.7007063571914687,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 37.42090729828801,
    "entry": 0.05041,
-   "last": 0.05158,
+   "last": 0.05177,
    "peak": 0.05324,
    "cost": 1.9443289392977723,
    "opened": "2026-11-15T17:35:18+07:00",
@@ -17,25 +17,11 @@
    "gap": 0,
    "miss": 0
   },
-  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
-   "sym": "DacityCoin",
-   "qty": 433.5777920158606,
-   "entry": 0.004328,
-   "last": 0.00412,
-   "peak": 0.004335,
-   "cost": 1.9341627332968923,
-   "opened": "2026-11-15T17:44:07+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 249,
-   "kol": 20,
-   "gap": 0,
-   "miss": 0
-  },
   "34As1e1Kop9zBvu5e84kjg452Uigq8krcoGEJiWRpump": {
    "sym": "UHI",
    "qty": 2469.950906058764,
    "entry": 0.0007521,
-   "last": 0.0007003,
+   "last": 0.0007034,
    "peak": 0.0007557,
    "cost": 1.9147083863603342,
    "opened": "2026-11-15T17:58:54+07:00",
@@ -56,7 +42,7 @@
    "zoo": "w_pause_aged",
    "smart": 722,
    "kol": 80,
-   "gap": 2,
+   "gap": 14,
    "miss": 0
   }
  },
@@ -929,10 +915,25 @@
    "zoo": "w_pause_aged",
    "smart": 722,
    "kol": 80
+  },
+  {
+   "t": "2026-11-15T19:29:07+07:00",
+   "kind": "sell",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.003957165663949734,
+   "entry": 0.004328,
+   "usd": 1.6646,
+   "pnl": -0.2696,
+   "why": "stop -8.6%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 249,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794745283.5143993,
+ "rank_t": 1794745570.369477,
  "halted": "ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-15T20:01:46+07:00"
 }
