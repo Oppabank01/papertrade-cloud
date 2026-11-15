@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 6.061155817560608,
+ "cash": 8.00344568434476,
  "pos": {
-  "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
-   "sym": "FOOD",
-   "qty": 6086.739894676537,
-   "entry": 0.0003637,
-   "last": 0.00034578362638693365,
-   "peak": 0.0003714,
-   "cost": 2.2817432484991307,
-   "opened": "2026-11-15T13:58:26+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 296,
-   "kol": 22,
-   "gap": 8,
-   "miss": 0
-  },
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": {
    "sym": "CHOO",
    "qty": 2730.8624172139807,
    "entry": 0.000789,
-   "last": 0.000757475341279649,
+   "last": 0.0007861,
    "peak": 0.0007964,
    "cost": 2.2208312174622047,
    "opened": "2026-11-15T14:13:31+07:00",
    "zoo": "w_pause_aged",
    "smart": 112,
    "kol": 5,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -781,10 +767,25 @@
    "cost_side": 0.03,
    "smart": 783,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T16:22:31+07:00",
+   "kind": "sell",
+   "mint": "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
+   "sym": "FOOD",
+   "price": 0.0003289031483654066,
+   "entry": 0.0003637,
+   "usd": 1.9423,
+   "pnl": -0.3395,
+   "why": "stop -9.6%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 296,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794734058.2510772,
+ "rank_t": 1794734333.64773,
  "halted": "ราคา BTC สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-15T16:58:12+07:00"
 }
