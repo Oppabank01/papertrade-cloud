@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.8115588696246374,
- "pos": {
-  "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": {
-   "sym": "Socks",
-   "qty": 1409.5568495813473,
-   "entry": 0.0004838,
-   "last": 0.0004838,
-   "peak": 0.0004838,
-   "cost": 0.7028897174061594,
-   "opened": "2026-11-15T18:26:21+07:00",
-   "zoo": "scalp",
-   "smart": 56,
-   "kol": 5,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 3.3562548533158783,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T00:42:01+07:00",
@@ -931,8 +916,23 @@
    "zoo": "scalp",
    "smart": 56,
    "kol": 5
+  },
+  {
+   "t": "2026-11-15T18:30:27+07:00",
+   "kind": "sell",
+   "mint": "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump",
+   "sym": "Socks",
+   "price": 0.0003983,
+   "entry": 0.0004838,
+   "usd": 0.5447,
+   "pnl": -0.1582,
+   "why": "stop -17.7%",
+   "stop_set": -0.05,
+   "cost_side": 0.03,
+   "smart": 56,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เก็บสั้น +10% ตัด -5% 30 นาที",
- "rank_t": 1794741913.950743
+ "rank_t": 1794742186.4057202
 }
