@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.5857493421422099,
+ "cash": 0.2971706467423083,
  "pos": {
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
    "sym": "paws",
    "qty": 418.18525182978243,
    "entry": 0.0007445,
-   "last": 0.000692,
+   "last": 0.0006938,
    "peak": 0.0007749,
    "cost": 0.3209017934315327,
    "opened": "2026-11-15T12:09:15+07:00",
@@ -21,27 +21,41 @@
    "sym": "Lucia",
    "qty": 323.6460073526651,
    "entry": 0.0009128,
-   "last": 0.000882163264287366,
-   "peak": 0.00092,
+   "last": 0.0009237,
+   "peak": 0.0009237,
    "cost": 0.3044981194717715,
    "opened": "2026-11-15T13:19:37+07:00",
    "smart": 101,
    "kol": 4,
    "bundler": 0.1455,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 45.85724163627756,
    "entry": 0.006269,
-   "last": 0.006155,
+   "last": 0.006125400315409506,
    "peak": 0.006269,
    "cost": 0.29630905773842925,
    "opened": "2026-11-15T13:38:45+07:00",
    "smart": 287,
    "kol": 23,
    "bundler": 0.3199,
+   "gap": 1,
+   "miss": 0
+  },
+  "Dueav76X9spnoLomhM2jMkkWorVggbeWucLs3YLupump": {
+   "sym": "Chick",
+   "qty": 4512.152300998944,
+   "entry": 6.205e-05,
+   "last": 6.205e-05,
+   "peak": 6.205e-05,
+   "cost": 0.28857869539990155,
+   "opened": "2026-11-15T14:16:26+07:00",
+   "smart": 51,
+   "kol": 2,
+   "bundler": 0.2573,
    "gap": 0,
    "miss": 0
   }
@@ -26785,6 +26799,31 @@
    "buy": 0.8484,
    "bull": 0.9533,
    "bear": 0.9999
+  },
+  {
+   "t": "2026-11-15T14:16:26+07:00",
+   "kind": "debate",
+   "mint": "Dueav76X9spnoLomhM2jMkkWorVggbeWucLs3YLupump",
+   "sym": "Chick",
+   "ok": true,
+   "bundler": 0.2573,
+   "buy": 0.7472,
+   "bull": 0.8045,
+   "bear": 0.5677
+  },
+  {
+   "t": "2026-11-15T14:16:26+07:00",
+   "kind": "buy",
+   "mint": "Dueav76X9spnoLomhM2jMkkWorVggbeWucLs3YLupump",
+   "sym": "Chick",
+   "price": 6.205e-05,
+   "jup": 6.25574919026285e-05,
+   "usd": 0.2886,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 51,
+   "kol": 2,
+   "bundler": 0.2573
   }
  ]
 }

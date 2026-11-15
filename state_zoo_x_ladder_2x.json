@@ -1,24 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 9.768758517200302,
- "pos": {
-  "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": {
-   "sym": "bill",
-   "qty": 2039.3648524779485,
-   "entry": 0.0004686,
-   "last": 0.0007551,
-   "peak": 0.0009686,
-   "cost": 0.9849993505165602,
-   "opened": "2026-11-15T05:55:50+07:00",
-   "zoo": "x_ladder_2x",
-   "smart": 75,
-   "kol": 3,
-   "gap": 0,
-   "miss": 0,
-   "half": true
-  }
- },
+ "cash": 11.106484419573185,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T15:56:36+07:00",
@@ -126,9 +110,24 @@
    "usd": 1.8888,
    "pnl": 0.9038,
    "why": "ขายครึ่ง +103.7%"
+  },
+  {
+   "t": "2026-11-15T14:19:34+07:00",
+   "kind": "sell",
+   "mint": "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
+   "sym": "bill",
+   "price": 0.0006761,
+   "entry": 0.0004686,
+   "usd": 1.3377,
+   "pnl": 0.3527,
+   "why": "trailing จากยอด +107% (+44.3%)",
+   "stop_set": -0.35,
+   "cost_side": 0.03,
+   "smart": 75,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: บันไดขาย ครึ่งที่ x2 trail 30% stop -35%",
- "rank_t": 1794726693.9142044,
+ "rank_t": 1794726979.7633438,
  "halted": "ราคา bill สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }
