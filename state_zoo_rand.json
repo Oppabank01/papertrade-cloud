@@ -1,46 +1,46 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.7219626866479391,
+ "cash": 0.6974119338978528,
  "pos": {
-  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
-   "sym": "mihao",
-   "qty": 23.386869185844965,
-   "entry": 0.01414,
-   "last": 0.01487,
-   "peak": 0.01514,
-   "cost": 0.3408475884228487,
-   "opened": "2026-11-15T06:37:36+07:00",
-   "zoo": "rand",
-   "smart": 679,
-   "kol": 69,
-   "gap": 0,
-   "miss": 0
-  },
   "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
    "sym": "WASTED",
    "qty": 61.96437291843086,
    "entry": 0.005385,
-   "last": 0.00591,
+   "last": 0.00583,
    "peak": 0.006063,
    "cost": 0.3439271780723049,
    "opened": "2026-11-15T07:19:09+07:00",
    "zoo": "rand",
    "smart": 69,
    "kol": 1,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
    "sym": "STANK",
    "qty": 259.90931415990576,
    "entry": 0.001341,
-   "last": 0.001495,
-   "peak": 0.001495,
+   "last": 0.001645,
+   "peak": 0.001645,
    "cost": 0.3592438572340071,
    "opened": "2026-11-15T07:57:06+07:00",
    "zoo": "rand",
    "smart": 77,
+   "kol": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "ABgXjaJ3iUg66vxhitQ77gj3cSechFJ3qyiPiRpqpump": {
+   "sym": "nilf",
+   "qty": 5755.581924619405,
+   "entry": 6.151e-05,
+   "last": 6.151e-05,
+   "peak": 6.151e-05,
+   "cost": 0.3648998600116879,
+   "opened": "2026-11-15T09:38:28+07:00",
+   "zoo": "rand",
+   "smart": 39,
    "kol": 1,
    "gap": 0,
    "miss": 0
@@ -1637,8 +1637,37 @@
    "cost_side": 0.03,
    "smart": 471,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T09:38:28+07:00",
+   "kind": "buy",
+   "mint": "ABgXjaJ3iUg66vxhitQ77gj3cSechFJ3qyiPiRpqpump",
+   "sym": "nilf",
+   "price": 6.151e-05,
+   "jup": 6.146267214572971e-05,
+   "usd": 0.3649,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 39,
+   "kol": 1
+  },
+  {
+   "t": "2026-11-15T09:38:29+07:00",
+   "kind": "sell",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.015,
+   "entry": 0.01414,
+   "usd": 0.3403,
+   "pnl": -0.0005,
+   "why": "ครบ 3 ชม. (+6.1%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 679,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794710023.4404478
+ "rank_t": 1794710296.6076088
 }

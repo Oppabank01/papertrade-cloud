@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 4.895797279099014,
- "pos": {},
+ "cash": 3.916637823279211,
+ "pos": {
+  "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
+   "sym": "Lucia",
+   "qty": 1028.7854711245102,
+   "entry": 0.0009234,
+   "last": 0.0009234,
+   "peak": 0.0009234,
+   "cost": 0.9791594558198029,
+   "opened": "2026-11-15T09:38:39+07:00",
+   "zoo": "scalp",
+   "smart": 101,
+   "kol": 4,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:42:01+07:00",
@@ -757,8 +772,22 @@
    "cost_side": 0.03,
    "smart": 67,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T09:38:39+07:00",
+   "kind": "buy",
+   "mint": "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump",
+   "sym": "Lucia",
+   "price": 0.0009234,
+   "jup": 0.0009291835235990003,
+   "usd": 0.9792,
+   "stop_set": -0.05,
+   "cost_side": 0.03,
+   "zoo": "scalp",
+   "smart": 101,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: เก็บสั้น +10% ตัด -5% 30 นาที",
- "rank_t": 1794710023.4404478
+ "rank_t": 1794710296.6076088
 }
