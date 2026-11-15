@@ -1,28 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 7.316107465657988,
+ "cash": 9.858900489976751,
  "pos": {
-  "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
-   "sym": "Leonida",
-   "qty": 5910.4977281471665,
-   "entry": 0.0004626,
-   "last": 0.0004486,
-   "peak": 0.0005244,
-   "cost": 2.8181779520108012,
-   "opened": "2026-11-15T22:47:23+07:00",
-   "zoo": "x_loofy_desk",
-   "smart": 81,
-   "kol": 4,
-   "gap": 0,
-   "miss": 0
-  },
   "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": {
    "sym": "BRUH",
    "qty": 640.488870955932,
    "entry": 0.004006,
-   "last": 0.004448,
-   "peak": 0.004448,
+   "last": 0.004405,
+   "peak": 0.004451,
    "cost": 2.6446077273237103,
    "opened": "2026-11-16T00:58:16+07:00",
    "zoo": "x_loofy_desk",
@@ -268,8 +254,23 @@
    "cost_side": 0.03,
    "smart": 15,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T04:24:41+07:00",
+   "kind": "sell",
+   "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "sym": "Leonida",
+   "price": 0.0004434306275416337,
+   "entry": 0.0004626,
+   "usd": 2.5428,
+   "pnl": -0.2754,
+   "why": "trailing จากยอด +13% (-4.1%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 81,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: 8 เอเจนต์: smart money 2+ ผ่านเช็กปลอดภัย+RugCheck stop -8% trail",
- "rank_t": 1794777451.4153981
+ "rank_t": 1794777727.2212121
 }
