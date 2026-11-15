@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 4.24675790257964,
+ "cash": 4.656594443720372,
  "pos": {
   "81KNhgSwaCnWGR6PFS68E58WoYvwFeJ1AtE9KsGipump": {
    "sym": "Yams",
@@ -14,14 +14,14 @@
    "zoo": "w_pause_spray",
    "smart": 57,
    "kol": 0,
-   "gap": 6,
+   "gap": 17,
    "miss": 0
   },
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 76.98374122364866,
    "entry": 0.006863,
-   "last": 0.006695,
+   "last": 0.006704,
    "peak": 0.00694,
    "cost": 0.5445675283631218,
    "opened": "2026-11-15T12:57:35+07:00",
@@ -35,7 +35,7 @@
    "sym": "Dacity",
    "qty": 260.045683423102,
    "entry": 0.001999,
-   "last": 0.00193,
+   "last": 0.001927,
    "peak": 0.002021,
    "cost": 0.5357981046823138,
    "opened": "2026-11-15T13:21:12+07:00",
@@ -49,21 +49,21 @@
    "sym": "JOB",
    "qty": 355.87803408108584,
    "entry": 0.001446,
-   "last": 0.001311,
+   "last": 0.001328,
    "peak": 0.001474,
    "cost": 0.5304057279749023,
    "opened": "2026-11-15T13:34:46+07:00",
    "zoo": "w_pause_spray",
    "smart": 32,
    "kol": 0,
-   "gap": 4,
+   "gap": 0,
    "miss": 0
   },
   "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": {
    "sym": "BRUH",
    "qty": 126.13090415572042,
    "entry": 0.004056,
-   "last": 0.003809,
+   "last": 0.003758,
    "peak": 0.004098,
    "cost": 0.527300502221812,
    "opened": "2026-11-15T13:44:29+07:00",
@@ -77,7 +77,7 @@
    "sym": "PAYDAY",
    "qty": 1443.230508508213,
    "entry": 0.0003467,
-   "last": 0.0003212,
+   "last": 0.0003036,
    "peak": 0.0003479,
    "cost": 0.5157369792824135,
    "opened": "2026-11-15T15:00:57+07:00",
@@ -101,20 +101,6 @@
    "gap": 0,
    "miss": 0
   },
-  "AXVowhHHiw1vdcWg8eSrdbTp7jDTLdqmtP9PibDipump": {
-   "sym": "RESPECT+",
-   "qty": 20748.899030412587,
-   "entry": 2.396e-05,
-   "last": 2.373e-05,
-   "peak": 3.07e-05,
-   "cost": 0.512413544391554,
-   "opened": "2026-11-15T15:05:18+07:00",
-   "zoo": "w_pause_spray",
-   "smart": 10,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
   "31HzUsjzTt7FBCGnDy68cBnELayVsnd3zYEBtsXXpump": {
    "sym": "TrumpWars",
    "qty": 2462.0208907309075,
@@ -133,28 +119,28 @@
    "sym": "Snoopy",
    "qty": 1394.9603870755595,
    "entry": 0.0003543,
-   "last": 0.0003461,
+   "last": 0.0003553,
    "peak": 0.0003567,
    "cost": 0.5094150331280878,
    "opened": "2026-11-15T15:14:08+07:00",
    "zoo": "w_pause_spray",
    "smart": 220,
    "kol": 14,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": {
    "sym": "AURA",
    "qty": 1621.200243735457,
    "entry": 0.0003047,
-   "last": 0.0003152,
+   "last": 0.0003125,
    "peak": 0.0003304,
    "cost": 0.5091524574996843,
    "opened": "2026-11-15T15:18:54+07:00",
    "zoo": "w_pause_spray",
    "smart": 102,
    "kol": 2,
-   "gap": 4,
+   "gap": 0,
    "miss": 0
   },
   "HruKkLrLJ7t1kL8E6HBccSpWdUpnhGmi3SVrB9Jjpump": {
@@ -2400,8 +2386,25 @@
    "zoo": "w_pause_spray",
    "smart": 103,
    "kol": 18
+  },
+  {
+   "t": "2026-11-15T15:39:31+07:00",
+   "kind": "sell",
+   "mint": "AXVowhHHiw1vdcWg8eSrdbTp7jDTLdqmtP9PibDipump",
+   "sym": "RESPECT+",
+   "price": 2.0358901914126412e-05,
+   "entry": 2.396e-05,
+   "usd": 0.4098,
+   "pnl": -0.1026,
+   "why": "stop -15.0%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 10,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_spray_small แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794731509.3741026
+ "rank_t": 1794731785.966464,
+ "halted": "ราคา Yams สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+ "halted_until": "2026-11-15T16:39:31+07:00"
 }
