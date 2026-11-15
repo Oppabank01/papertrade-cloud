@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.3775006801570114,
+ "cash": 0.5494019067234535,
  "pos": {
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 53.411190122364445,
    "entry": 0.003757,
-   "last": 0.003684,
+   "last": 0.003688,
    "peak": 0.003784,
    "cost": 0.2068293561015494,
    "opened": "2026-11-15T22:40:51+07:00",
@@ -17,32 +17,18 @@
    "gap": 0,
    "miss": 0
   },
-  "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
-   "sym": "JOB",
-   "qty": 157.43963494864073,
-   "entry": 0.001257,
-   "last": 0.001162,
-   "peak": 0.001261,
-   "cost": 0.20398023204539417,
-   "opened": "2026-11-15T22:45:42+07:00",
-   "zoo": "rand",
-   "smart": 32,
-   "kol": 0,
-   "gap": 1,
-   "miss": 0
-  },
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": {
    "sym": "OTC",
    "qty": 58.72301878604902,
    "entry": 0.003172,
-   "last": 0.003159,
+   "last": 0.00315528463406495,
    "peak": 0.003172,
    "cost": 0.19199073963033136,
    "opened": "2026-11-15T23:18:22+07:00",
    "zoo": "rand",
    "smart": 524,
    "kol": 55,
-   "gap": 1,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -2391,8 +2377,23 @@
    "zoo": "rand",
    "smart": 524,
    "kol": 55
+  },
+  {
+   "t": "2026-11-15T23:37:01+07:00",
+   "kind": "sell",
+   "mint": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
+   "sym": "JOB",
+   "price": 0.00112539150127518,
+   "entry": 0.001257,
+   "usd": 0.1719,
+   "pnl": -0.0321,
+   "why": "stop -10.5%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 32,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794760316.7175899
+ "rank_t": 1794760590.7895613
 }
