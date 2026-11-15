@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.718869590815427,
- "cash": 5.493649241883139,
+ "cash": 8.351449560872183,
  "pos": {
-  "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
-   "sym": "JEANPHIL",
-   "qty": 1095.0660451773683,
-   "entry": 0.002587,
-   "last": 0.002636,
-   "peak": 0.00282,
-   "cost": 2.8614791130262893,
-   "opened": "2026-11-15T10:36:01+07:00",
-   "zoo": "w_red5m",
-   "smart": 398,
-   "kol": 43,
-   "gap": 0,
-   "miss": 0
-  },
   "9AvytnUKsLxPxFHFqS6VLxaxt5p6BhYNr53SD2Chpump": {
    "sym": "67",
    "qty": 2631.856231225005,
@@ -35,14 +21,14 @@
    "sym": "ZCAT",
    "qty": 163.0060070289455,
    "entry": 0.01742,
-   "last": 0.0166,
+   "last": 0.016071382163542418,
    "peak": 0.01882,
    "cost": 2.8681746849263714,
    "opened": "2026-11-15T10:59:47+07:00",
    "zoo": "w_red5m",
    "smart": 329,
    "kol": 48,
-   "gap": 5,
+   "gap": 7,
    "miss": 0
   }
  },
@@ -238,9 +224,24 @@
    "cost_side": 0.01,
    "smart": 63,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T22:36:17+07:00",
+   "kind": "sell",
+   "mint": "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump",
+   "sym": "JEANPHIL",
+   "price": 0.002636,
+   "entry": 0.002587,
+   "usd": 2.8578,
+   "pnl": -0.0037,
+   "why": "ครบ 12 ชม. (+1.9%)",
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "smart": 398,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สวนทาง: อายุเกิน 1 วัน pool 200k+ กำลังแดง 5 นาที",
- "rank_t": 1794756646.8910797,
+ "rank_t": 1794756936.9364152,
  "halted": "ราคา ZCAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }

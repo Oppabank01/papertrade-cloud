@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.5714210091513259,
+ "cash": 1.1082470956522257,
  "pos": {
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
@@ -14,20 +14,6 @@
    "zoo": "boosted",
    "smart": 249,
    "kol": 20,
-   "gap": 3,
-   "miss": 0
-  },
-  "7XdCaKpqLmKE2K7yr9xaeWB1H2CVZ1oGwxB6hmd9pump": {
-   "sym": "WIZARD",
-   "qty": 1273.451943879033,
-   "entry": 0.0004984,
-   "last": 0.0004667,
-   "peak": 0.0005013,
-   "cost": 0.6541831053693157,
-   "opened": "2026-11-15T21:53:33+07:00",
-   "zoo": "boosted",
-   "smart": 135,
-   "kol": 14,
    "gap": 0,
    "miss": 0
   },
@@ -35,14 +21,14 @@
    "sym": "ZCAT",
    "qty": 37.50171370707949,
    "entry": 0.01658,
-   "last": 0.016050701338527654,
+   "last": 0.0166,
    "peak": 0.0167,
    "cost": 0.6408765339758584,
    "opened": "2026-11-15T22:07:57+07:00",
    "zoo": "boosted",
    "smart": 329,
    "kol": 48,
-   "gap": 1,
+   "gap": 2,
    "miss": 0
   },
   "AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump": {
@@ -2084,8 +2070,23 @@
    "zoo": "boosted",
    "smart": 24,
    "kol": 45
+  },
+  {
+   "t": "2026-11-15T22:36:10+07:00",
+   "kind": "sell",
+   "mint": "7XdCaKpqLmKE2K7yr9xaeWB1H2CVZ1oGwxB6hmd9pump",
+   "sym": "WIZARD",
+   "price": 0.0004345,
+   "entry": 0.0004984,
+   "usd": 0.5368,
+   "pnl": -0.1174,
+   "why": "stop -12.8%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 135,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794756646.8910797
+ "rank_t": 1794756936.9364152
 }
