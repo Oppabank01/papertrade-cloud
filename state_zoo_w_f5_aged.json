@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 2.109217484146389,
+ "cash": 0.9507512157265063,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 29.568643824421343,
    "entry": 0.04316,
-   "last": 0.04344,
+   "last": 0.04356,
    "peak": 0.0438,
    "cost": 1.315381021915095,
    "opened": "2026-11-16T03:45:59+07:00",
@@ -21,7 +21,7 @@
    "sym": "SAPLING",
    "qty": 790.36671745813,
    "entry": 0.001564,
-   "last": 0.001614,
+   "last": 0.001626,
    "peak": 0.001679,
    "cost": 1.2741017791223619,
    "opened": "2026-11-16T05:23:29+07:00",
@@ -35,13 +35,27 @@
    "sym": "GTA6",
    "qty": 171.73881147617965,
    "entry": 0.006548,
-   "last": 0.006629,
+   "last": 0.006584,
    "peak": 0.006629,
    "cost": 1.1590865157143109,
    "opened": "2026-11-16T06:24:41+07:00",
    "zoo": "w_f5_aged",
    "smart": 289,
    "kol": 23,
+   "gap": 0,
+   "miss": 0
+  },
+  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
+   "sym": "CATE",
+   "qty": 63.499659526608475,
+   "entry": 0.0177,
+   "last": 0.01773,
+   "peak": 0.01773,
+   "cost": 1.1584662684198825,
+   "opened": "2026-11-16T06:38:35+07:00",
+   "zoo": "w_f5_aged",
+   "smart": 873,
+   "kol": 110,
    "gap": 0,
    "miss": 0
   }
@@ -1543,8 +1557,22 @@
    "zoo": "w_f5_aged",
    "smart": 289,
    "kol": 23
+  },
+  {
+   "t": "2026-11-16T06:38:35+07:00",
+   "kind": "buy",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.0177,
+   "jup": 0.017697512296183045,
+   "usd": 1.1585,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged",
+   "smart": 873,
+   "kol": 110
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794785603.9179063
+ "rank_t": 1794785884.3861852
 }
