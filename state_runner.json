@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.9027071857258129,
+ "cash": 1.8627581783400249,
  "pos": {
   "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
    "sym": "SAPLING",
@@ -19,7 +19,7 @@
    "sym": "STONK",
    "qty": 26.76591054270035,
    "entry": 0.04185,
-   "last": 0.04281,
+   "last": 0.04268,
    "peak": 0.04461,
    "cost": 1.1545592209977424,
    "opened": "2026-11-15T15:08:55+07:00",
@@ -35,18 +35,6 @@
    "peak": 0.001254,
    "cost": 1.1774525878985467,
    "opened": "2026-11-15T16:38:18+07:00",
-   "source": "agents",
-   "gap": 0,
-   "miss": 0
-  },
-  "56S874EPXeXKLQJCkMCsW15z38LW9xBpq4qQLr5qpump": {
-   "sym": "DAC",
-   "qty": 2452.3897463219614,
-   "entry": 0.0004482,
-   "last": 0.0004145,
-   "peak": 0.0004482,
-   "cost": 1.1329221648129284,
-   "opened": "2026-11-16T02:01:53+07:00",
    "source": "agents",
    "gap": 0,
    "miss": 0
@@ -1000,6 +988,21 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-16T03:07:32+07:00",
+   "kind": "sell",
+   "mint": "56S874EPXeXKLQJCkMCsW15z38LW9xBpq4qQLr5qpump",
+   "sym": "DAC",
+   "price": 0.0004035,
+   "entry": 0.0004482,
+   "usd": 0.9601,
+   "pnl": -0.1729,
+   "why": "stop -10.0%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",
