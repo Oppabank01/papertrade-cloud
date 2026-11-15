@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 5.158289229610164,
- "pos": {
-  "HgTGdc29D5bDMrDvsCLnorxz899VyDj7ZN7FPa6vpump": {
-   "sym": "VEIL",
-   "qty": 4225.741772912011,
-   "entry": 0.000293,
-   "last": 0.0002761,
-   "peak": 0.0002938,
-   "cost": 1.2761722732047198,
-   "opened": "2026-11-15T11:08:55+07:00",
-   "zoo": "holders",
-   "smart": 229,
-   "kol": 16,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 6.261139375323477,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T00:42:00+07:00",
@@ -1353,8 +1338,23 @@
    "cost_side": 0.03,
    "smart": 480,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T14:07:29+07:00",
+   "kind": "sell",
+   "mint": "HgTGdc29D5bDMrDvsCLnorxz899VyDj7ZN7FPa6vpump",
+   "sym": "VEIL",
+   "price": 0.000269,
+   "entry": 0.000293,
+   "usd": 1.1029,
+   "pnl": -0.1733,
+   "why": "stop -8.2%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 229,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794726117.7468889
+ "rank_t": 1794726409.1011655
 }
