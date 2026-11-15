@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.2635051061938247,
+ "cash": 1.4818022049049078,
  "pos": {
   "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
    "sym": "PAID",
@@ -28,7 +28,21 @@
    "zoo": "holders",
    "smart": 524,
    "kol": 55,
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS": {
+   "sym": "BAGSPAY",
+   "qty": 1127.9121874338298,
+   "entry": 0.0006724,
+   "last": 0.0006724,
+   "peak": 0.0006724,
+   "cost": 0.781702901288917,
+   "opened": "2026-11-16T04:32:35+07:00",
+   "zoo": "holders",
+   "smart": 187,
+   "kol": 18,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -2019,8 +2033,22 @@
    "cost_side": 0.03,
    "smart": 860,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T04:32:35+07:00",
+   "kind": "buy",
+   "mint": "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS",
+   "sym": "BAGSPAY",
+   "price": 0.0006724,
+   "jup": 0.0006717304051101339,
+   "usd": 0.7817,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 187,
+   "kol": 18
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794778000.371362
+ "rank_t": 1794778286.5937097
 }
