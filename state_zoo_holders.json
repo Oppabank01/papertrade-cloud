@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.2715184493180725,
+ "cash": 1.0291776829875796,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
@@ -21,7 +21,7 @@
    "sym": "CLAUDIA",
    "qty": 272.9817384954726,
    "entry": 0.004283,
-   "last": 0.004917,
+   "last": 0.004913,
    "peak": 0.005261,
    "cost": 1.2050925437807765,
    "opened": "2026-11-15T14:54:53+07:00",
@@ -42,6 +42,20 @@
    "zoo": "holders",
    "smart": 70,
    "kol": 4,
+   "gap": 0,
+   "miss": 0
+  },
+  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
+   "sym": "DacityCoin",
+   "qty": 269.3450305014177,
+   "entry": 0.004475,
+   "last": 0.004475,
+   "peak": 0.004475,
+   "cost": 1.2423407663304928,
+   "opened": "2026-11-15T17:29:38+07:00",
+   "zoo": "holders",
+   "smart": 249,
+   "kol": 20,
    "gap": 0,
    "miss": 0
   }
@@ -1496,8 +1510,22 @@
    "cost_side": 0.03,
    "smart": 283,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T17:29:38+07:00",
+   "kind": "buy",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.004475,
+   "jup": 0.004485412709627044,
+   "usd": 1.2423,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 249,
+   "kol": 20
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794738271.8069985
+ "rank_t": 1794738542.2701216
 }
