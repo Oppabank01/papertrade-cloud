@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 7.058961408766381,
+ "cash": 6.48174692307252,
  "pos": {
   "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
    "sym": "PAID",
    "qty": 526.8103631791047,
    "entry": 0.001157,
-   "last": 0.001105,
+   "last": 0.001116,
    "peak": 0.001166,
    "cost": 0.628241177281204,
    "opened": "2026-11-15T05:42:54+07:00",
@@ -21,28 +21,28 @@
    "sym": "JEANPHIL",
    "qty": 241.41666243904362,
    "entry": 0.002521,
-   "last": 0.002547776724914312,
+   "last": 0.002544,
    "peak": 0.002647,
    "cost": 0.6273050979270551,
    "opened": "2026-11-15T05:42:56+07:00",
    "zoo": "w_f5_spray",
    "smart": 398,
    "kol": 43,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": {
    "sym": "swordcat",
    "qty": 1013.2103229159545,
    "entry": 0.0005866,
-   "last": 0.0005637526478190955,
+   "last": 0.0005691,
    "peak": 0.0006325,
    "cost": 0.612604798415274,
    "opened": "2026-11-15T06:10:23+07:00",
    "zoo": "w_f5_spray",
    "smart": 307,
    "kol": 41,
-   "gap": 7,
+   "gap": 0,
    "miss": 0
   },
   "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS": {
@@ -77,7 +77,7 @@
    "sym": "MRPENIS",
    "qty": 4277.981363625948,
    "entry": 0.0001349,
-   "last": 0.000121,
+   "last": 0.0001235,
    "peak": 0.000139,
    "cost": 0.594825485418615,
    "opened": "2026-11-15T07:38:40+07:00",
@@ -91,7 +91,7 @@
    "sym": "FOOD",
    "qty": 1396.236460137594,
    "entry": 0.0004129,
-   "last": 0.0003837,
+   "last": 0.0003823,
    "peak": 0.0004214,
    "cost": 0.5942135996607014,
    "opened": "2026-11-15T07:43:18+07:00",
@@ -105,14 +105,28 @@
    "sym": "Kodak",
    "qty": 4577.826162120349,
    "entry": 0.0001237,
-   "last": 0.000113,
+   "last": 0.0001081,
    "peak": 0.0001237,
    "cost": 0.5836704764525739,
    "opened": "2026-11-15T07:52:52+07:00",
    "zoo": "w_f5_spray",
    "smart": 23,
    "kol": 0,
-   "gap": 0,
+   "gap": 20,
+   "miss": 0
+  },
+  "Acgs6mb4PC7tQbDm9T4EeTfNx3ZDh5fNSjHcHZQLpump": {
+   "sym": "USDC",
+   "qty": 2353.986944178999,
+   "entry": 0.0002379,
+   "last": 0.0002551973434710419,
+   "peak": 0.0002565185296664907,
+   "cost": 0.577214485693861,
+   "opened": "2026-11-15T08:02:30+07:00",
+   "zoo": "w_f5_spray",
+   "smart": 90,
+   "kol": 5,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -1567,8 +1581,22 @@
    "cost_side": 0.03,
    "smart": 21,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T08:02:30+07:00",
+   "kind": "buy",
+   "mint": "Acgs6mb4PC7tQbDm9T4EeTfNx3ZDh5fNSjHcHZQLpump",
+   "sym": "USDC",
+   "price": 0.0002379,
+   "jup": 0.00023789939790549425,
+   "usd": 0.5772,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_f5_spray",
+   "smart": 90,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ x_spray_small แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794704175.4026287
+ "rank_t": 1794704456.575845
 }

@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.9248786546893705,
- "pos": {
-  "ArokAnvdAKYidzJaEqYT48kSmnTMJLWzo9F3nFAgpump": {
-   "sym": "gta",
-   "qty": 3791.908683145821,
-   "entry": 5.916e-05,
-   "last": 5.136e-05,
-   "peak": 5.916e-05,
-   "cost": 0.23121966367234262,
-   "opened": "2026-11-15T07:51:40+07:00",
-   "smart": 10,
-   "kol": 4,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 1.1067036236815329,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -1827,8 +1813,23 @@
    "cost_side": 0.03,
    "smart": 10,
    "kol": 4
+  },
+  {
+   "t": "2026-11-15T08:01:38+07:00",
+   "kind": "sell",
+   "mint": "ArokAnvdAKYidzJaEqYT48kSmnTMJLWzo9F3nFAgpump",
+   "sym": "gta",
+   "price": 4.94236006480202e-05,
+   "entry": 5.916e-05,
+   "usd": 0.1818,
+   "pnl": -0.0494,
+   "why": "stop -16.5%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 10,
+   "bundler": null
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794704175.4026287
+ "rank_t": 1794704456.575845
 }
