@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 6.5764819358206665,
+ "cash": 4.472478106940551,
  "pos": {
   "3VW31dwix6k2EdzhDgZ2zB15J7FbHYQwAUqXgktRcJEX": {
    "sym": "SOLPUMP",
    "qty": 77.02204397122142,
    "entry": 0.02612,
-   "last": 0.0265,
+   "last": 0.02625,
    "peak": 0.0265,
    "cost": 2.0736093470710197,
    "opened": "2026-11-15T07:39:05+07:00",
@@ -21,7 +21,7 @@
    "sym": "fone",
    "qty": 1984.2112073674189,
    "entry": 0.00097,
-   "last": 0.0009708029773434403,
+   "last": 0.0009829,
    "peak": 0.000994,
    "cost": 1.9838021759909261,
    "opened": "2026-11-15T08:21:23+07:00",
@@ -29,6 +29,20 @@
    "smart": 480,
    "kol": 58,
    "gap": 1,
+   "miss": 0
+  },
+  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
+   "sym": "GATO",
+   "qty": 300.0153607847571,
+   "entry": 0.006804,
+   "last": 0.006881,
+   "peak": 0.006888,
+   "cost": 2.104003828880115,
+   "opened": "2026-11-15T10:36:36+07:00",
+   "zoo": "w_ban_aged",
+   "smart": 63,
+   "kol": 4,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -623,10 +637,24 @@
    "cost_side": 0.03,
    "smart": 77,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T10:36:36+07:00",
+   "kind": "buy",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "price": 0.006804,
+   "jup": 0.006828698271901405,
+   "usd": 2.104,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_aged",
+   "smart": 63,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794713434.0644054,
+ "rank_t": 1794713709.8876226,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6"
  }
