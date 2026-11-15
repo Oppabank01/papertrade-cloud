@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.8565989707864127,
+ "cash": 0.4649568885403359,
  "pos": {
   "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
    "sym": "Lucia",
    "qty": 287.5466074654378,
    "entry": 0.0009234,
-   "last": 0.001139,
+   "last": 0.001147,
    "peak": 0.001467,
    "cost": 0.2736760846563443,
    "opened": "2026-11-15T09:38:40+07:00",
@@ -21,7 +21,7 @@
    "sym": "JASON",
    "qty": 1149.2736083626153,
    "entry": 0.0003636,
-   "last": 0.0003519,
+   "last": 0.0003535,
    "peak": 0.0004511,
    "cost": 0.43071107400602654,
    "opened": "2026-11-16T01:10:39+07:00",
@@ -42,7 +42,21 @@
    "zoo": "moon",
    "smart": 78,
    "kol": 6,
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
+   "sym": "Rocco",
+   "qty": 385.40536382507725,
+   "entry": 0.0009859,
+   "last": 0.0009859,
+   "peak": 0.0009859,
+   "cost": 0.3916420822460768,
+   "opened": "2026-11-16T06:10:40+07:00",
+   "zoo": "moon",
+   "smart": 112,
+   "kol": 8,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -485,9 +499,23 @@
    "cost_side": 0.03,
    "smart": 40,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T06:10:40+07:00",
+   "kind": "buy",
+   "mint": "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
+   "sym": "Rocco",
+   "price": 0.0009859,
+   "jup": 0.0009847050003588412,
+   "usd": 0.3916,
+   "stop_set": -0.5,
+   "cost_side": 0.03,
+   "zoo": "moon",
+   "smart": 112,
+   "kol": 8
   }
  ],
  "label": "สวนสัตว์: ถือยาวรอ x2 (stop -50%)",
- "rank_t": 1794783895.6453993,
+ "rank_t": 1794784170.512178,
  "repair": "2026-11-15 moon INU fake x156000"
 }
