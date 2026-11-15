@@ -1,20 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.12192109710456261,
+ "cash": 0.18218169445496976,
  "pos": {
-  "XkeTXo1125vz5H9svJpGiw4JvLbN8VmMu9cmMvspump": {
-   "sym": "DREGG",
-   "qty": 67.16211144708234,
-   "entry": 0.0009734,
-   "last": 0.0009248,
-   "peak": 0.0009734,
-   "cost": 0.06738363150132956,
-   "opened": "2026-11-15T16:19:08+07:00",
-   "source": "agents",
-   "gap": 0,
-   "miss": 0
-  },
   "ABSZ6rwFCcWSTB4QiGfDqNBEgeyUswQWZm5Vt5rVpump": {
    "sym": "RINA",
    "qty": 1398.4318045161726,
@@ -31,7 +19,7 @@
    "sym": "Macca",
    "qty": 27.33184841932959,
    "entry": 0.002197,
-   "last": 0.002163,
+   "last": 0.00216,
    "peak": 0.002197,
    "cost": 0.061892466478321084,
    "opened": "2026-11-15T18:25:44+07:00",
@@ -3367,6 +3355,21 @@
    "usd": 0.0616,
    "pnl": -0.0004,
    "why": "trailing จากยอด +29% (+5.5%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T19:21:29+07:00",
+   "kind": "sell",
+   "mint": "XkeTXo1125vz5H9svJpGiw4JvLbN8VmMu9cmMvspump",
+   "sym": "DREGG",
+   "price": 0.0009248,
+   "entry": 0.0009734,
+   "usd": 0.0603,
+   "pnl": -0.0071,
+   "why": "ครบ 3 ชม. (-5.0%)",
    "stop_set": -0.08,
    "cost_side": 0.03,
    "smart": null,
