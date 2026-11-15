@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.4157051863484041,
+ "cash": 0.6486748292547834,
  "pos": {
-  "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump": {
-   "sym": "GTA6",
-   "qty": 1432.7289928803114,
-   "entry": 0.0001631,
-   "last": 0.0001676,
-   "peak": 0.0001826,
-   "cost": 0.24085559548420818,
-   "opened": "2026-11-15T17:48:09+07:00",
-   "zoo": "rand",
-   "smart": 93,
-   "kol": 5,
-   "gap": 0,
-   "miss": 0
-  },
   "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump": {
    "sym": "ber",
    "qty": 578.9590314568189,
    "entry": 0.0003843,
-   "last": 0.0003691,
+   "last": 0.0003797,
    "peak": 0.0004064,
    "cost": 0.22932792804458413,
    "opened": "2026-11-15T18:30:16+07:00",
@@ -35,14 +21,14 @@
    "sym": "GTA6",
    "qty": 29.13112160453499,
    "entry": 0.007367,
-   "last": 0.007451,
+   "last": 0.007103,
    "peak": 0.007566,
    "cost": 0.2212007553706548,
    "opened": "2026-11-15T19:31:42+07:00",
    "zoo": "rand",
    "smart": 287,
    "kol": 23,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -2246,8 +2232,23 @@
    "cost_side": 0.03,
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T20:52:09+07:00",
+   "kind": "sell",
+   "mint": "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump",
+   "sym": "GTA6",
+   "price": 0.0001676,
+   "entry": 0.0001631,
+   "usd": 0.233,
+   "pnl": -0.0079,
+   "why": "ครบ 3 ชม. (+2.8%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 93,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794750405.6945887
+ "rank_t": 1794750700.3388839
 }
