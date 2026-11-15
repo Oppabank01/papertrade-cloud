@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.8735449582395821,
+ "cash": 1.5775180233835897,
  "pos": {
   "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
    "sym": "neet",
    "qty": 29.003096365641664,
    "entry": 0.03069,
-   "last": 0.03004,
+   "last": 0.02999,
    "peak": 0.03126,
    "cost": 0.9174448850356036,
    "opened": "2026-11-16T01:15:52+07:00",
@@ -21,7 +21,7 @@
    "sym": "PAID",
    "qty": 727.5175743551034,
    "entry": 0.001159,
-   "last": 0.001135,
+   "last": 0.001136,
    "peak": 0.001171,
    "cost": 0.8690918044501803,
    "opened": "2026-11-16T02:16:19+07:00",
@@ -35,28 +35,14 @@
    "sym": "OTC",
    "qty": 275.1567344386526,
    "entry": 0.003,
-   "last": 0.003005,
+   "last": 0.003,
    "peak": 0.003044,
    "cost": 0.8508247818140156,
    "opened": "2026-11-16T03:17:46+07:00",
    "zoo": "holders",
    "smart": 524,
    "kol": 55,
-   "gap": 0,
-   "miss": 0
-  },
-  "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": {
-   "sym": "BTC",
-   "qty": 519.3957198266447,
-   "entry": 0.001574,
-   "last": 0.001491,
-   "peak": 0.001574,
-   "cost": 0.842639520724736,
-   "opened": "2026-11-16T03:26:58+07:00",
-   "zoo": "holders",
-   "smart": 786,
-   "kol": 69,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -1988,8 +1974,23 @@
    "zoo": "holders",
    "smart": 786,
    "kol": 69
+  },
+  {
+   "t": "2026-11-16T03:49:54+07:00",
+   "kind": "sell",
+   "mint": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+   "sym": "BTC",
+   "price": 0.001397,
+   "entry": 0.001574,
+   "usd": 0.704,
+   "pnl": -0.1387,
+   "why": "stop -11.2%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 786,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794775463.5524263
+ "rank_t": 1794775748.1887882
 }
