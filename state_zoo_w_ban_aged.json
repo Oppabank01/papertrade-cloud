@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 5.501740672729442,
+ "cash": 2.6850143963209456,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 95.77437730673797,
    "entry": 0.01609,
-   "last": 0.01657,
+   "last": 0.01645,
    "peak": 0.01672,
    "cost": 1.5883423323700412,
    "opened": "2026-11-16T01:35:03+07:00",
@@ -15,6 +15,34 @@
    "smart": 684,
    "kol": 69,
    "gap": 0,
+   "miss": 0
+  },
+  "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
+   "sym": "CRIME",
+   "qty": 363.5220002519341,
+   "entry": 0.00377,
+   "last": 0.00377,
+   "peak": 0.00377,
+   "cost": 1.4125726045658542,
+   "opened": "2026-11-16T02:22:20+07:00",
+   "zoo": "w_ban_aged",
+   "smart": 90,
+   "kol": 40,
+   "gap": 0,
+   "miss": 0
+  },
+  "AzeNfRi7DX5HndH7dUgCxMD5sQPV7FPFH1cwDkoqpump": {
+   "sym": "KNIGHT",
+   "qty": 926.1114156503949,
+   "entry": 0.001471,
+   "last": 0.001469,
+   "peak": 0.001471,
+   "cost": 1.4041536718426417,
+   "opened": "2026-11-16T02:22:21+07:00",
+   "zoo": "w_ban_aged",
+   "smart": 85,
+   "kol": 11,
+   "gap": 4,
    "miss": 0
   }
  },
@@ -1428,10 +1456,38 @@
    "cost_side": 0.03,
    "smart": 14,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T02:22:20+07:00",
+   "kind": "buy",
+   "mint": "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump",
+   "sym": "CRIME",
+   "price": 0.00377,
+   "jup": 0.003764967535881757,
+   "usd": 1.4126,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_aged",
+   "smart": 90,
+   "kol": 40
+  },
+  {
+   "t": "2026-11-16T02:22:21+07:00",
+   "kind": "buy",
+   "mint": "AzeNfRi7DX5HndH7dUgCxMD5sQPV7FPFH1cwDkoqpump",
+   "sym": "KNIGHT",
+   "price": 0.001471,
+   "jup": 0.001469060266697959,
+   "usd": 1.4042,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_aged",
+   "smart": 85,
+   "kol": 11
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794770128.8437815,
+ "rank_t": 1794770422.0868022,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": "CHOO",
