@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.2049817551637823,
+ "cash": 2.1068172060008497,
  "pos": {
   "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": {
    "sym": "TripleT",
    "qty": 576.7165173359269,
    "entry": 0.001985,
-   "last": 0.002066,
+   "last": 0.002046,
    "peak": 0.002102,
    "cost": 1.179944637097315,
    "opened": "2026-11-15T09:16:21+07:00",
@@ -21,7 +21,7 @@
    "sym": "Peekhole",
    "qty": 1736.0255425279172,
    "entry": 0.0006583,
-   "last": 0.0006399,
+   "last": 0.0006572,
    "peak": 0.0007552,
    "cost": 1.1779278650238385,
    "opened": "2026-11-15T09:21:16+07:00",
@@ -35,14 +35,14 @@
    "sym": "Leonida",
    "qty": 1870.5303178955544,
    "entry": 0.000612,
-   "last": 0.0005440900107486463,
+   "last": 0.0005465,
    "peak": 0.000612,
    "cost": 1.1799263600825391,
    "opened": "2026-11-15T09:30:39+07:00",
    "zoo": "w_pause_scalp",
    "smart": 80,
    "kol": 4,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
@@ -63,7 +63,7 @@
    "sym": "CBUCKS",
    "qty": 361.8219621979937,
    "entry": 0.003065,
-   "last": 0.003094,
+   "last": 0.00306,
    "peak": 0.003156,
    "cost": 1.1430471182610293,
    "opened": "2026-11-15T09:44:01+07:00",
@@ -98,6 +98,20 @@
    "zoo": "w_pause_scalp",
    "smart": 321,
    "kol": 27,
+   "gap": 0,
+   "miss": 0
+  },
+  "4qyk1uJexNRNUwfx9J4KKoJ1v5icmZNci42yDzgEpump": {
+   "sym": "ニャジラ",
+   "qty": 5386.447146602009,
+   "entry": 0.0001978,
+   "last": 0.0001893,
+   "peak": 0.0001978,
+   "cost": 1.0981645491629328,
+   "opened": "2026-11-15T11:09:33+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 63,
+   "kol": 2,
    "gap": 0,
    "miss": 0
   }
@@ -1008,8 +1022,22 @@
    "cost_side": 0.03,
    "smart": 92,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T11:09:33+07:00",
+   "kind": "buy",
+   "mint": "4qyk1uJexNRNUwfx9J4KKoJ1v5icmZNci42yDzgEpump",
+   "sym": "ニャジラ",
+   "price": 0.0001978,
+   "jup": 0.00019755030949156695,
+   "usd": 1.0982,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 63,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794715418.368195
+ "rank_t": 1794715694.5343885
 }
