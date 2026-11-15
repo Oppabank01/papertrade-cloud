@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.0255036157414013,
- "pos": {},
+ "cash": 0.820402892593121,
+ "pos": {
+  "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
+   "sym": "Leonida",
+   "qty": 384.8167116582121,
+   "entry": 0.0005171,
+   "last": 0.0005171,
+   "peak": 0.0005171,
+   "cost": 0.20510072314828026,
+   "opened": "2026-11-15T22:02:23+07:00",
+   "smart": 81,
+   "kol": 4,
+   "bundler": 0.0985,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T01:37:56+07:00",
@@ -30523,6 +30538,64 @@
    "buy": 0.7317,
    "bull": 0.9157,
    "bear": 0.9699
+  },
+  {
+   "t": "2026-11-15T22:02:15+07:00",
+   "kind": "debate",
+   "mint": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
+   "sym": "OTC",
+   "ok": false,
+   "bundler": 0.1724,
+   "buy": 0.8237,
+   "bull": 0.958,
+   "bear": 0.9991
+  },
+  {
+   "t": "2026-11-15T22:02:18+07:00",
+   "kind": "debate",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "ok": false,
+   "bundler": 0.1897,
+   "buy": 0.8408,
+   "bull": 0.9148,
+   "bear": 0.9897
+  },
+  {
+   "t": "2026-11-15T22:02:20+07:00",
+   "kind": "debate",
+   "mint": "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
+   "sym": "FOOD",
+   "ok": false,
+   "bundler": 0.1892,
+   "buy": 0.8485,
+   "bull": 0.9371,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-15T22:02:23+07:00",
+   "kind": "debate",
+   "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "sym": "Leonida",
+   "ok": true,
+   "bundler": 0.0985,
+   "buy": 0.8025,
+   "bull": 0.9154,
+   "bear": 0.0001
+  },
+  {
+   "t": "2026-11-15T22:02:23+07:00",
+   "kind": "buy",
+   "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "sym": "Leonida",
+   "price": 0.0005171,
+   "jup": 0.0005191322414748375,
+   "usd": 0.2051,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 81,
+   "kol": 4,
+   "bundler": 0.0985
   }
  ]
 }

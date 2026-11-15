@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 4.516470060836683,
+ "cash": 2.9427152522843034,
  "pos": {
   "9Pfync3ejPC9eHqVzq3nYQJAhyhjqpnB9UsaSfLxpump": {
    "sym": "KET",
    "qty": 746.4810475120878,
    "entry": 0.002339,
-   "last": 0.002314,
+   "last": 0.002345,
    "peak": 0.002416,
    "cost": 1.7996487014334914,
    "opened": "2026-11-15T21:07:13+07:00",
@@ -21,13 +21,27 @@
    "sym": "WIZARD",
    "qty": 3195.3040604615403,
    "entry": 0.000498,
-   "last": 0.0004985,
-   "peak": 0.0004985,
+   "last": 0.0005045,
+   "peak": 0.0005045,
    "cost": 1.6401375202121695,
    "opened": "2026-11-15T21:54:35+07:00",
    "zoo": "w_pause_aged",
    "smart": 135,
    "kol": 14,
+   "gap": 0,
+   "miss": 0
+  },
+  "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
+   "sym": "Leonida",
+   "qty": 2994.424230746262,
+   "entry": 0.0005099,
+   "last": 0.000506,
+   "peak": 0.0005099,
+   "cost": 1.5737548085523798,
+   "opened": "2026-11-15T22:04:04+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 81,
+   "kol": 4,
    "gap": 0,
    "miss": 0
   }
@@ -1110,8 +1124,22 @@
    "cost_side": 0.03,
    "smart": 60,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T22:04:04+07:00",
+   "kind": "buy",
+   "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "sym": "Leonida",
+   "price": 0.0005099,
+   "jup": 0.0005063259414189538,
+   "usd": 1.5738,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 81,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794754644.1192923
+ "rank_t": 1794754927.8963802
 }
