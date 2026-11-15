@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.5561885904739046,
+ "cash": 0.9537671085941122,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 16.39752523356051,
    "entry": 0.04187,
-   "last": 0.04462,
+   "last": 0.0446,
    "peak": 0.04581,
    "cost": 0.7076524237571414,
    "opened": "2026-11-15T04:11:49+07:00",
@@ -21,35 +21,21 @@
    "sym": "Macca",
    "qty": 301.84685442893885,
    "entry": 0.002211,
-   "last": 0.002272,
+   "last": 0.002282536259222724,
    "peak": 0.002527,
    "cost": 0.6878822873040443,
    "opened": "2026-11-15T05:46:40+07:00",
    "zoo": "randrun",
    "smart": 169,
    "kol": 8,
-   "gap": 0,
-   "miss": 0
-  },
-  "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
-   "sym": "JENSEN",
-   "qty": 1893.0817542923621,
-   "entry": 0.0003347,
-   "last": 0.0003599,
-   "peak": 0.0003768,
-   "cost": 0.6530761318920363,
-   "opened": "2026-11-15T06:23:40+07:00",
-   "zoo": "randrun",
-   "smart": 5,
-   "kol": 0,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": {
    "sym": "Snoopy",
    "qty": 1588.3669172089212,
    "entry": 0.0004007,
-   "last": 0.0004633,
+   "last": 0.0004715,
    "peak": 0.0005121,
    "cost": 0.656007651747696,
    "opened": "2026-11-15T06:37:58+07:00",
@@ -816,8 +802,23 @@
    "zoo": "randrun",
    "smart": 216,
    "kol": 14
+  },
+  {
+   "t": "2026-11-15T07:47:20+07:00",
+   "kind": "sell",
+   "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+   "sym": "JENSEN",
+   "price": 0.00021646728525100736,
+   "entry": 0.0003347,
+   "usd": 0.3976,
+   "pnl": -0.2555,
+   "why": "stop -35.3%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 5,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1794703314.3960226
+ "rank_t": 1794703605.1498249
 }

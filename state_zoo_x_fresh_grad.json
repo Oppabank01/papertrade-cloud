@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 15.483634896154847,
- "pos": {},
+ "cash": 12.386907916923878,
+ "pos": {
+  "ArokAnvdAKYidzJaEqYT48kSmnTMJLWzo9F3nFAgpump": {
+   "sym": "gta",
+   "qty": 59329.473049958266,
+   "entry": 5.064e-05,
+   "last": 5.188434895710767e-05,
+   "peak": 5.913307261794144e-05,
+   "cost": 3.0967269792309695,
+   "opened": "2026-11-15T07:48:16+07:00",
+   "zoo": "x_fresh_grad",
+   "smart": 9,
+   "kol": 4,
+   "gap": 8,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-15T00:52:42+07:00",
@@ -124,8 +139,22 @@
    "cost_side": 0.03,
    "smart": 70,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T07:48:16+07:00",
+   "kind": "buy",
+   "mint": "ArokAnvdAKYidzJaEqYT48kSmnTMJLWzo9F3nFAgpump",
+   "sym": "gta",
+   "price": 5.064e-05,
+   "jup": 5.0346860466999806e-05,
+   "usd": 3.0967,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_fresh_grad",
+   "smart": 9,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: เพิ่งจบ bonding curve ไม่เกิน 6 ชม. TP +35% SL -15%",
- "rank_t": 1794703314.3960226
+ "rank_t": 1794703605.1498249
 }

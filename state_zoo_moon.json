@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 232004.1028282466,
+ "cash": 0.2736760846563443,
  "pos": {
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 4218.672832138303,
    "entry": 0.0006786,
-   "last": 0.0005507,
+   "last": 0.0005393,
    "peak": 0.0008452,
    "cost": 2.950722927117144,
    "opened": "2026-11-14T00:45:45+07:00",
@@ -17,33 +17,19 @@
    "miss": 0,
    "gap": 0
   },
-  "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": {
-   "sym": "gtacoin",
-   "qty": 269719589.82761526,
-   "entry": 0.0002714,
-   "last": 0.0001568,
-   "peak": 0.0002845,
-   "cost": 75450.3160989639,
-   "opened": "2026-11-15T06:18:58+07:00",
+  "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
+   "sym": "INU",
+   "qty": 13975718932.427958,
+   "entry": 2.007e-10,
+   "last": 2.007e-10,
+   "peak": 2.007e-10,
+   "cost": 2.8910810036469705,
+   "opened": "2026-11-14T00:53:25+07:00",
    "zoo": "moon",
-   "smart": 18,
+   "smart": 0,
    "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
-  "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": {
-   "sym": "BAWSAQ",
-   "qty": 956024528.9480217,
-   "entry": 7.083e-05,
-   "last": 7.028e-05,
-   "peak": 7.083e-05,
-   "cost": 69795.11171447988,
-   "opened": "2026-11-15T07:37:50+07:00",
-   "zoo": "moon",
-   "smart": 67,
-   "kol": 6,
-   "gap": 0,
-   "miss": 0
+   "miss": 1,
+   "gap": 0
   }
  },
  "log": [
@@ -366,93 +352,27 @@
    "kol": 0
   },
   {
-   "t": "2026-11-15T00:47:57+07:00",
-   "kind": "sell",
-   "mint": "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd",
-   "sym": "INU",
-   "price": 3.135e-05,
-   "entry": 2.007e-10,
-   "usd": 425082.2526,
-   "pnl": 425079.3616,
-   "why": "ถึงเป้า +15620228.8%",
-   "stop_set": -0.5,
-   "cost_side": 0.03,
-   "smart": 0,
-   "bundler": null
+   "t": "2026-11-15T08:00:00+07:00",
+   "kind": "repair",
+   "why": "คืนสถานะก่อน 15 พ.ย. 00:47: INU ซื้อที่ราคาเพี้ยน 2e-10 (ก่อนมีตัวเทียบ Jupiter) แล้วขายที่ราคาที่ Jupiter ไม่ยืนยัน ได้ x156,000 ปลอม ไม้หลังจากนั้นใช้ขนาดเงินปลอม จึงตัดทิ้งทั้งหมด"
   },
   {
-   "t": "2026-11-15T01:59:35+07:00",
+   "t": "2026-11-15T07:47:15+07:00",
    "kind": "sell",
    "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
    "sym": "JENSEN",
-   "price": 0.0003681,
+   "price": 0.00021646728525100736,
    "entry": 0.0007938,
-   "usd": 0.4654,
-   "pnl": -0.6008,
-   "why": "stop -53.6%",
+   "usd": 0.2737,
+   "pnl": -0.7925,
+   "why": "stop -72.7%",
    "stop_set": -0.5,
    "cost_side": 0.03,
    "smart": 4,
    "bundler": null
-  },
-  {
-   "t": "2026-11-15T02:50:58+07:00",
-   "kind": "buy",
-   "mint": "ttwocSxKgj4NpQEUzBaFzLxEFzVdLytUbLsnnjGew9v",
-   "sym": "SHARKBUX",
-   "price": 0.0003239,
-   "jup": 0.000322045766334904,
-   "usd": 85016.9925,
-   "stop_set": -0.5,
-   "cost_side": 0.03,
-   "zoo": "moon",
-   "smart": 11,
-   "kol": 0
-  },
-  {
-   "t": "2026-11-15T04:31:02+07:00",
-   "kind": "sell",
-   "mint": "ttwocSxKgj4NpQEUzBaFzLxEFzVdLytUbLsnnjGew9v",
-   "sym": "SHARKBUX",
-   "price": 0.0001505,
-   "entry": 0.0003239,
-   "usd": 37183.8051,
-   "pnl": -47833.1874,
-   "why": "stop -53.5%",
-   "stop_set": -0.5,
-   "cost_side": 0.03,
-   "smart": 11,
-   "bundler": null
-  },
-  {
-   "t": "2026-11-15T06:18:58+07:00",
-   "kind": "buy",
-   "mint": "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK",
-   "sym": "gtacoin",
-   "price": 0.0002714,
-   "jup": 0.0002728888819013476,
-   "usd": 75450.3161,
-   "stop_set": -0.5,
-   "cost_side": 0.03,
-   "zoo": "moon",
-   "smart": 18,
-   "kol": 0
-  },
-  {
-   "t": "2026-11-15T07:37:50+07:00",
-   "kind": "buy",
-   "mint": "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump",
-   "sym": "BAWSAQ",
-   "price": 7.083e-05,
-   "jup": 7.091950286076346e-05,
-   "usd": 69795.1117,
-   "stop_set": -0.5,
-   "cost_side": 0.03,
-   "zoo": "moon",
-   "smart": 67,
-   "kol": 6
   }
  ],
  "label": "สวนสัตว์: ถือยาวรอ x2 (stop -50%)",
- "rank_t": 1794703314.3960226
+ "rank_t": 1794703605.1498249,
+ "repair": "2026-11-15 moon INU fake x156000"
 }
