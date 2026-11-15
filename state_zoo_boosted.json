@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.6563098325552397,
+ "cash": 0.8476272019159943,
  "pos": {
   "XkeTXo1125vz5H9svJpGiw4JvLbN8VmMu9cmMvspump": {
    "sym": "DREGG",
@@ -35,13 +35,27 @@
    "sym": "swordcat",
    "qty": 1134.9405936678363,
    "entry": 0.000697,
-   "last": 0.0006692,
+   "last": 0.0006747,
    "peak": 0.000697,
    "cost": 0.8153510552324076,
    "opened": "2026-11-15T18:39:40+07:00",
    "zoo": "boosted",
    "smart": 313,
    "kol": 43,
+   "gap": 0,
+   "miss": 0
+  },
+  "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
+   "sym": "JENSEN",
+   "qty": 7536.8288976579815,
+   "entry": 0.0001041,
+   "last": 0.0001041,
+   "peak": 0.0001041,
+   "cost": 0.8086826306392454,
+   "opened": "2026-11-15T18:49:03+07:00",
+   "zoo": "boosted",
+   "smart": 5,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -1882,8 +1896,22 @@
    "zoo": "boosted",
    "smart": 313,
    "kol": 43
+  },
+  {
+   "t": "2026-11-15T18:49:03+07:00",
+   "kind": "buy",
+   "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+   "sym": "JENSEN",
+   "price": 0.0001041,
+   "jup": 0.00010399976518483473,
+   "usd": 0.8087,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 5,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794743043.826835
+ "rank_t": 1794743322.0907829
 }
