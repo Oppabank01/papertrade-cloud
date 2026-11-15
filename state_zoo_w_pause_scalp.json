@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.7063936437368312,
+ "cash": 3.6328154954275167,
  "pos": {
-  "31HzUsjzTt7FBCGnDy68cBnELayVsnd3zYEBtsXXpump": {
-   "sym": "TrumpWars",
-   "qty": 4623.395886967324,
-   "entry": 0.0002005,
-   "last": 0.0001827,
-   "peak": 0.0002005,
-   "cost": 0.9554636934002769,
-   "opened": "2026-11-15T15:10:41+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 90,
-   "kol": 2,
-   "gap": 0,
-   "miss": 0
-  },
   "8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump": {
    "sym": "PENGUIN",
    "qty": 2355.7855784903054,
    "entry": 0.0003883,
-   "last": 0.0003845,
+   "last": 0.00036763218047609734,
    "peak": 0.0003925,
    "cost": 0.9428484231372765,
    "opened": "2026-11-15T15:28:34+07:00",
    "zoo": "w_pause_scalp",
    "smart": 283,
    "kol": 74,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "XkeTXo1125vz5H9svJpGiw4JvLbN8VmMu9cmMvspump": {
@@ -49,7 +35,7 @@
    "sym": "WANTED",
    "qty": 5882.19350144679,
    "entry": 0.0001492,
-   "last": 0.000151,
+   "last": 0.0001522,
    "peak": 0.0001669289074847563,
    "cost": 0.9045797468726665,
    "opened": "2026-11-15T16:34:40+07:00",
@@ -63,21 +49,21 @@
    "sym": "duh",
    "qty": 2887.3881262229984,
    "entry": 0.0003036,
-   "last": 0.0002730742623365363,
+   "last": 0.000276,
    "peak": 0.0003146,
    "cost": 0.9035364204507342,
    "opened": "2026-11-15T16:53:05+07:00",
    "zoo": "w_pause_scalp",
    "smart": 75,
    "kol": 4,
-   "gap": 4,
+   "gap": 3,
    "miss": 0
   },
   "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": {
    "sym": "PEAK",
    "qty": 4492.87096984928,
    "entry": 0.0001927,
-   "last": 0.0001842,
+   "last": 0.000184,
    "peak": 0.0001962,
    "cost": 0.892368826932546,
    "opened": "2026-11-15T17:03:08+07:00",
@@ -85,6 +71,20 @@
    "smart": 120,
    "kol": 10,
    "gap": 0,
+   "miss": 0
+  },
+  "97o3Kb9R7hMjHW6o9BunWk4jF1dFLhCpydPmh64npump": {
+   "sym": "DYC",
+   "qty": 8757.596261589086,
+   "entry": 9.75e-05,
+   "last": 0.0001026,
+   "peak": 0.0001026,
+   "cost": 0.8800923886878333,
+   "opened": "2026-11-15T17:11:59+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 72,
+   "kol": 3,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -1473,8 +1473,37 @@
    "zoo": "w_pause_scalp",
    "smart": 120,
    "kol": 10
+  },
+  {
+   "t": "2026-11-15T17:11:24+07:00",
+   "kind": "sell",
+   "mint": "31HzUsjzTt7FBCGnDy68cBnELayVsnd3zYEBtsXXpump",
+   "sym": "TrumpWars",
+   "price": 0.0001798,
+   "entry": 0.0002005,
+   "usd": 0.8065,
+   "pnl": -0.1489,
+   "why": "ครบ 2 ชม. (-10.3%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 90,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T17:11:59+07:00",
+   "kind": "buy",
+   "mint": "97o3Kb9R7hMjHW6o9BunWk4jF1dFLhCpydPmh64npump",
+   "sym": "DYC",
+   "price": 9.75e-05,
+   "jup": 9.757999231140441e-05,
+   "usd": 0.8801,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 72,
+   "kol": 3
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794737150.6956127
+ "rank_t": 1794737438.05518
 }
