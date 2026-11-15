@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.0436610058520558,
+ "cash": 0.09010271585125607,
  "pos": {
   "CniPCE4b3s8gSUPhUiyMjXnytrEqUrMfSsnbBjLCpump": {
    "sym": "pwease",
@@ -11,18 +11,6 @@
    "peak": 0.002098,
    "cost": 0.056815447357040874,
    "opened": "2026-11-15T19:55:09+07:00",
-   "source": "agents",
-   "gap": 0,
-   "miss": 0
-  },
-  "7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": {
-   "sym": "Snoopy",
-   "qty": 156.58548190172564,
-   "entry": 0.0003333,
-   "last": 0.0003184,
-   "peak": 0.0003564,
-   "cost": 0.05379297167372208,
-   "opened": "2026-11-15T20:37:36+07:00",
    "source": "agents",
    "gap": 0,
    "miss": 0
@@ -43,7 +31,7 @@
    "sym": "WASTED",
    "qty": 10.107647699003628,
    "entry": 0.004851,
-   "last": 0.005041,
+   "last": 0.004887,
    "peak": 0.005041,
    "cost": 0.050538238495018144,
    "opened": "2026-11-15T22:26:10+07:00",
@@ -3557,6 +3545,21 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-15T22:45:26+07:00",
+   "kind": "sell",
+   "mint": "7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn",
+   "sym": "Snoopy",
+   "price": 0.0003057,
+   "entry": 0.0003333,
+   "usd": 0.0464,
+   "pnl": -0.0074,
+   "why": "stop -8.3%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "เร็ว ไม่มี laya",
@@ -6114,6 +6117,8 @@
   "state_agents.json:2026-11-15T22:35:43+07:00:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
   "state_agents.json:2026-11-15T22:35:44+07:00:8WvWwttzaLfW1nbjx6wmYL5jozWpvy95WktAg5cipump",
   "state_agents.json:2026-11-15T22:35:46+07:00:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
-  "state_agents.json:2026-11-15T22:40:40+07:00:7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn"
+  "state_agents.json:2026-11-15T22:40:40+07:00:7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn",
+  "state_agents.json:2026-11-15T22:45:18+07:00:HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
+  "state_agents.json:2026-11-15T22:45:21+07:00:8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump"
  ]
 }

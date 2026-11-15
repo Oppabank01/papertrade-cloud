@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.41615673766201455,
+ "cash": 0.21217650561662038,
  "pos": {
   "7R3RnGmpV9mZXwSyHyKN5LEddiZRmGsYrAZPgDJqpump": {
    "sym": "NUREMBERG",
    "qty": 3194.508090494021,
    "entry": 6.38e-05,
-   "last": 6.6e-05,
+   "last": 6.1e-05,
    "peak": 6.941e-05,
    "cost": 0.21006969302568393,
    "opened": "2026-11-15T21:48:45+07:00",
@@ -21,7 +21,7 @@
    "sym": "NIO",
    "qty": 125.7299197531901,
    "entry": 0.001606,
-   "last": 0.001529,
+   "last": 0.001519,
    "peak": 0.001606,
    "cost": 0.20812435696106296,
    "opened": "2026-11-15T22:12:13+07:00",
@@ -42,6 +42,20 @@
    "zoo": "rand",
    "smart": 249,
    "kol": 20,
+   "gap": 0,
+   "miss": 0
+  },
+  "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
+   "sym": "JOB",
+   "qty": 157.43963494864073,
+   "entry": 0.001257,
+   "last": 0.001261,
+   "peak": 0.001261,
+   "cost": 0.20398023204539417,
+   "opened": "2026-11-15T22:45:42+07:00",
+   "zoo": "rand",
+   "smart": 32,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -2333,8 +2347,22 @@
    "zoo": "rand",
    "smart": 249,
    "kol": 20
+  },
+  {
+   "t": "2026-11-15T22:45:42+07:00",
+   "kind": "buy",
+   "mint": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
+   "sym": "JOB",
+   "price": 0.001257,
+   "jup": 0.0012539823329729563,
+   "usd": 0.204,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 32,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794757232.3058672
+ "rank_t": 1794757512.5306172
 }
