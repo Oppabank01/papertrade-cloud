@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 3.8489108516784167,
+ "cash": 5.303685908534108,
  "pos": {
-  "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": {
-   "sym": "OTC",
-   "qty": 488.26406156330415,
-   "entry": 0.002798,
-   "last": 0.002999,
-   "peak": 0.003383,
-   "cost": 1.4081249683097559,
-   "opened": "2026-11-15T22:03:38+07:00",
-   "zoo": "w_f5_aged",
-   "smart": 510,
-   "kol": 55,
-   "gap": 0,
-   "miss": 0
-  },
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 351.6517911996005,
    "entry": 0.003688,
-   "last": 0.00383,
-   "peak": 0.00383,
+   "last": 0.003760412824507299,
+   "peak": 0.003839,
    "cost": 1.3367262481386586,
    "opened": "2026-11-16T00:00:44+07:00",
    "zoo": "w_f5_aged",
    "smart": 249,
    "kol": 20,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -1254,8 +1240,23 @@
    "zoo": "w_f5_aged",
    "smart": 249,
    "kol": 20
+  },
+  {
+   "t": "2026-11-16T01:03:42+07:00",
+   "kind": "sell",
+   "mint": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
+   "sym": "OTC",
+   "price": 0.003071,
+   "entry": 0.002798,
+   "usd": 1.4548,
+   "pnl": 0.0467,
+   "why": "ครบ 3 ชม. (+9.8%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 510,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794765363.256809
+ "rank_t": 1794765643.4516456
 }

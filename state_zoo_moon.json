@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.9646190632354794,
+ "cash": 1.5120005748785585,
  "pos": {
   "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
    "sym": "Lucia",
    "qty": 287.5466074654378,
    "entry": 0.0009234,
-   "last": 0.001038,
+   "last": 0.001004,
    "peak": 0.001467,
    "cost": 0.2736760846563443,
    "opened": "2026-11-15T09:38:40+07:00",
@@ -15,6 +15,20 @@
    "smart": 101,
    "kol": 4,
    "gap": 0,
+   "miss": 0
+  },
+  "8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump": {
+   "sym": "Nyajira",
+   "qty": 4569.515685784439,
+   "entry": 9.61e-05,
+   "last": 9.553440977692826e-05,
+   "peak": 9.61e-05,
+   "cost": 0.4526184883569208,
+   "opened": "2026-11-16T01:01:58+07:00",
+   "zoo": "moon",
+   "smart": 40,
+   "kol": 2,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -400,9 +414,23 @@
    "cost_side": 0.03,
    "smart": 72,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T01:01:58+07:00",
+   "kind": "buy",
+   "mint": "8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump",
+   "sym": "Nyajira",
+   "price": 9.61e-05,
+   "jup": 9.553440977692826e-05,
+   "usd": 0.4526,
+   "stop_set": -0.5,
+   "cost_side": 0.03,
+   "zoo": "moon",
+   "smart": 40,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: ถือยาวรอ x2 (stop -50%)",
- "rank_t": 1794765363.256809,
+ "rank_t": 1794765643.4516456,
  "repair": "2026-11-15 moon INU fake x156000"
 }
