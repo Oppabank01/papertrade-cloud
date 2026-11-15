@@ -1,33 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.6196558109342974,
+ "cash": 0.8936891596139622,
  "pos": {
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
    "sym": "paws",
    "qty": 418.18525182978243,
    "entry": 0.0007445,
-   "last": 0.0007409968481826031,
+   "last": 0.0007567,
    "peak": 0.0007749,
    "cost": 0.3209017934315327,
    "opened": "2026-11-15T12:09:15+07:00",
    "smart": 284,
    "kol": 15,
    "bundler": 0.1857,
-   "gap": 1,
-   "miss": 0
-  },
-  "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": {
-   "sym": "LuckyCoin",
-   "qty": 1245.921348463274,
-   "entry": 0.0002477,
-   "last": 0.0002446,
-   "peak": 0.0002502,
-   "cost": 0.3180939167329963,
-   "opened": "2026-11-15T12:23:12+07:00",
-   "smart": 43,
-   "kol": 5,
-   "bundler": 0.0394,
    "gap": 0,
    "miss": 0
   },
@@ -35,14 +21,14 @@
    "sym": "Optimistic",
    "qty": 9604.739332967674,
    "entry": 3.194e-05,
-   "last": 3.046e-05,
-   "peak": 3.288e-05,
+   "last": 3.644e-05,
+   "peak": 3.644e-05,
    "cost": 0.31619807698926766,
    "opened": "2026-11-15T12:23:17+07:00",
    "smart": 117,
    "kol": 18,
    "bundler": 0.0316,
-   "gap": 1,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -26298,6 +26284,43 @@
    "buy": 0.8259,
    "bull": 0.883,
    "bear": 0.9993
+  },
+  {
+   "t": "2026-11-15T13:05:39+07:00",
+   "kind": "debate",
+   "mint": "4qyk1uJexNRNUwfx9J4KKoJ1v5icmZNci42yDzgEpump",
+   "sym": "ニャジラ",
+   "ok": false,
+   "bundler": 0.1518,
+   "buy": 0.8014,
+   "bull": 0.9579,
+   "bear": 0.9857
+  },
+  {
+   "t": "2026-11-15T13:05:42+07:00",
+   "kind": "debate",
+   "mint": "5gmCPpuktJ7Svjgr4PPJBTosAFKB8K6Z45EGfSUmpump",
+   "sym": "penny",
+   "ok": true,
+   "bundler": 0.1118,
+   "buy": 0.759,
+   "bull": 0.8704,
+   "bear": 0.0
+  },
+  {
+   "t": "2026-11-15T13:05:43+07:00",
+   "kind": "sell",
+   "mint": "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump",
+   "sym": "LuckyCoin",
+   "price": 0.0002267,
+   "entry": 0.0002477,
+   "usd": 0.274,
+   "pnl": -0.0441,
+   "why": "stop -8.5%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 43,
+   "bundler": 0.0394
   }
  ]
 }
