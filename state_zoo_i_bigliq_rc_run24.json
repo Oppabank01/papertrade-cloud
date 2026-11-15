@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.731879787860931,
- "cash": 2.0064919962879375,
+ "cash": 4.263830528740769,
  "pos": {
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 640.7127927325882,
    "entry": 0.004041,
-   "last": 0.004304,
+   "last": 0.004266,
    "peak": 0.004831,
    "cost": 2.6152070861164005,
    "opened": "2026-11-14T21:42:54+07:00",
@@ -17,25 +17,11 @@
    "gap": 0,
    "miss": 0
   },
-  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
-   "sym": "STONK",
-   "qty": 64.90413760128995,
-   "entry": 0.03947,
-   "last": 0.04194,
-   "peak": 0.04295,
-   "cost": 2.587577395644468,
-   "opened": "2026-11-14T23:19:18+07:00",
-   "zoo": "i_bigliq_rc_run24",
-   "smart": 1000,
-   "kol": 174,
-   "gap": 0,
-   "miss": 0
-  },
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 516.6456943076724,
    "entry": 0.004955,
-   "last": 0.00507,
+   "last": 0.005075,
    "peak": 0.005257,
    "cost": 2.5857724959415336,
    "opened": "2026-11-15T01:54:40+07:00",
@@ -49,14 +35,14 @@
    "sym": "CATE",
    "qty": 163.41183603013283,
    "entry": 0.01436,
-   "last": 0.01732,
-   "peak": 0.01743,
+   "last": 0.01777,
+   "peak": 0.01777,
    "cost": 2.3702370802683848,
    "opened": "2026-11-15T05:23:30+07:00",
    "zoo": "i_bigliq_rc_run24",
    "smart": 865,
    "kol": 110,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -382,8 +368,23 @@
    "zoo": "i_bigliq_rc_run24",
    "smart": 865,
    "kol": 110
+  },
+  {
+   "t": "2026-11-15T12:11:22+07:00",
+   "kind": "sell",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.03513,
+   "entry": 0.03947,
+   "usd": 2.2573,
+   "pnl": -0.3302,
+   "why": "stop -11.0%",
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "smart": 1000,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ RugCheck ปล่อยวิ่ง 24 ชม.",
- "rank_t": 1794719052.4169657
+ "rank_t": 1794719336.0808787
 }

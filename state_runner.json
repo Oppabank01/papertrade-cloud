@@ -1,18 +1,18 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 3.3552276075590513,
+ "cash": 2.155282497205236,
  "pos": {
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
    "sym": "STANK",
    "qty": 807.553459330742,
    "entry": 0.001341,
-   "last": 0.001753,
+   "last": 0.001712,
    "peak": 0.001802,
    "cost": 1.1161917016723615,
    "opened": "2026-11-15T07:56:45+07:00",
    "source": "agents",
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
@@ -24,7 +24,19 @@
    "cost": 1.109539199130394,
    "opened": "2026-11-15T07:56:45+07:00",
    "source": "agents",
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
+   "sym": "paws",
+   "qty": 1563.7162472334076,
+   "entry": 0.0007445,
+   "last": 0.0007445,
+   "peak": 0.0007445,
+   "cost": 1.1999451103538157,
+   "opened": "2026-11-15T12:09:16+07:00",
+   "source": "agents",
+   "gap": 0,
    "miss": 0
   }
  },
@@ -871,6 +883,18 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-15T12:09:16+07:00",
+   "kind": "buy",
+   "mint": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
+   "sym": "paws",
+   "price": 0.0007445,
+   "jup": 0.000743126831952284,
+   "usd": 1.1999,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "agents"
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",
@@ -976,6 +1000,7 @@
   "state_agents.json:2026-11-15T08:14:50+07:00:2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump",
   "state_agents.json:2026-11-15T08:24:01+07:00:6zuDiAw3NviBwcLZfTztHJgtCmeNWfyFxYVoXtNYpump",
   "state_agents.json:2026-11-15T09:00:59+07:00:J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump",
-  "state_agents.json:2026-11-15T11:27:04+07:00:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr"
+  "state_agents.json:2026-11-15T11:27:04+07:00:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+  "state_agents.json:2026-11-15T12:09:15+07:00:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump"
  ]
 }
