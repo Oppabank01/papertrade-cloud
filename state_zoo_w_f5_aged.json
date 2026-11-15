@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 1.7332474390238095,
+ "cash": 1.673972004797225,
  "pos": {
-  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
-   "sym": "mihao",
-   "qty": 124.75871275434457,
-   "entry": 0.01381,
-   "last": 0.01403,
-   "peak": 0.01511,
-   "cost": 1.775837789257368,
-   "opened": "2026-11-15T05:19:20+07:00",
-   "zoo": "w_f5_aged",
-   "smart": 679,
-   "kol": 69,
-   "gap": 0,
-   "miss": 0
-  },
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 408.3965844166875,
    "entry": 0.004301,
-   "last": 0.00424,
+   "last": 0.004358,
    "peak": 0.00468,
    "cost": 1.8104655839787398,
    "opened": "2026-11-15T07:19:51+07:00",
@@ -35,7 +21,7 @@
    "sym": "Max",
    "qty": 1347.640843799688,
    "entry": 0.001276,
-   "last": 0.001295,
+   "last": 0.001332,
    "peak": 0.001428,
    "cost": 1.772407458965576,
    "opened": "2026-11-15T07:38:33+07:00",
@@ -49,13 +35,27 @@
    "sym": "PENGUIN",
    "qty": 5237.475469744841,
    "entry": 0.0003351,
-   "last": 0.0003523,
-   "peak": 0.0003523,
+   "last": 0.0003614,
+   "peak": 0.0003614,
    "cost": 1.8089858069588705,
    "opened": "2026-11-15T07:47:46+07:00",
    "zoo": "w_f5_aged",
    "smart": 283,
    "kol": 74,
+   "gap": 0,
+   "miss": 0
+  },
+  "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": {
+   "sym": "fone",
+   "qty": 1759.0523303867326,
+   "entry": 0.00097,
+   "last": 0.00097,
+   "peak": 0.00097,
+   "cost": 1.7586897139508666,
+   "opened": "2026-11-15T08:20:37+07:00",
+   "zoo": "w_f5_aged",
+   "smart": 480,
+   "kol": 58,
    "gap": 0,
    "miss": 0
   }
@@ -672,8 +672,37 @@
    "zoo": "w_f5_aged",
    "smart": 283,
    "kol": 74
+  },
+  {
+   "t": "2026-11-15T08:19:20+07:00",
+   "kind": "sell",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.01404,
+   "entry": 0.01381,
+   "usd": 1.6994,
+   "pnl": -0.0764,
+   "why": "ครบ 3 ชม. (+1.7%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 679,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T08:20:37+07:00",
+   "kind": "buy",
+   "mint": "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump",
+   "sym": "fone",
+   "price": 0.00097,
+   "jup": 0.0009717009239230005,
+   "usd": 1.7587,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged",
+   "smart": 480,
+   "kol": 58
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794705279.8313835
+ "rank_t": 1794705555.4793322
 }
