@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.7605919641385257,
+ "cash": 1.6723138852461805,
  "pos": {
   "2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump": {
    "sym": "Peekhole",
@@ -42,6 +42,20 @@
    "zoo": "boosted",
    "smart": 439,
    "kol": 28,
+   "gap": 0,
+   "miss": 0
+  },
+  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
+   "sym": "Macca",
+   "qty": 416.0155209382795,
+   "entry": 0.002538,
+   "last": 0.002538,
+   "peak": 0.002538,
+   "cost": 1.0882780788923452,
+   "opened": "2026-11-15T11:14:07+07:00",
+   "zoo": "boosted",
+   "smart": 169,
+   "kol": 8,
    "gap": 0,
    "miss": 0
   }
@@ -1505,8 +1519,22 @@
    "cost_side": 0.03,
    "smart": 10,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T11:14:07+07:00",
+   "kind": "buy",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.002538,
+   "jup": 0.0025391589720064668,
+   "usd": 1.0883,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 169,
+   "kol": 8
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794715694.5343885
+ "rank_t": 1794715981.5316043
 }
