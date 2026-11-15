@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.9537671085941122,
+ "cash": 0.3291694835058535,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 16.39752523356051,
    "entry": 0.04187,
-   "last": 0.0446,
+   "last": 0.04449,
    "peak": 0.04581,
    "cost": 0.7076524237571414,
    "opened": "2026-11-15T04:11:49+07:00",
@@ -28,20 +28,34 @@
    "zoo": "randrun",
    "smart": 169,
    "kol": 8,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": {
    "sym": "Snoopy",
    "qty": 1588.3669172089212,
    "entry": 0.0004007,
-   "last": 0.0004715,
+   "last": 0.0004361,
    "peak": 0.0005121,
    "cost": 0.656007651747696,
    "opened": "2026-11-15T06:37:58+07:00",
    "zoo": "randrun",
    "smart": 216,
    "kol": 14,
+   "gap": 0,
+   "miss": 0
+  },
+  "33eum82LaAhtv5YkUq1BdwEviSErH5CnFxqVNLT5pump": {
+   "sym": "WORLDCUP",
+   "qty": 16575.07154979837,
+   "entry": 3.656e-05,
+   "last": 3.656e-05,
+   "peak": 3.656e-05,
+   "cost": 0.6245976250882587,
+   "opened": "2026-11-15T07:52:10+07:00",
+   "zoo": "randrun",
+   "smart": 113,
+   "kol": 24,
    "gap": 0,
    "miss": 0
   }
@@ -817,8 +831,22 @@
    "cost_side": 0.03,
    "smart": 5,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T07:52:10+07:00",
+   "kind": "buy",
+   "mint": "33eum82LaAhtv5YkUq1BdwEviSErH5CnFxqVNLT5pump",
+   "sym": "WORLDCUP",
+   "price": 3.656e-05,
+   "jup": 3.6433064018241996e-05,
+   "usd": 0.6246,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "randrun",
+   "smart": 113,
+   "kol": 24
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1794703605.1498249
+ "rank_t": 1794703889.0599701
 }

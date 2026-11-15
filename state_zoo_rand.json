@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.32960792020768226,
+ "cash": 0.7470922261316999,
  "pos": {
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
@@ -21,7 +21,7 @@
    "sym": "mihao",
    "qty": 23.386869185844965,
    "entry": 0.01414,
-   "last": 0.0148,
+   "last": 0.01489,
    "peak": 0.01507,
    "cost": 0.3408475884228487,
    "opened": "2026-11-15T06:37:36+07:00",
@@ -35,7 +35,7 @@
    "sym": "WASTED",
    "qty": 61.96437291843086,
    "entry": 0.005385,
-   "last": 0.005464,
+   "last": 0.005443,
    "peak": 0.005464,
    "cost": 0.3439271780723049,
    "opened": "2026-11-15T07:19:09+07:00",
@@ -43,20 +43,6 @@
    "smart": 69,
    "kol": 1,
    "gap": 0,
-   "miss": 0
-  },
-  "HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump": {
-   "sym": "HYGG",
-   "qty": 1290.3698838776327,
-   "entry": 0.0002542,
-   "last": 0.0004515,
-   "peak": 0.0004515,
-   "cost": 0.33808701760636384,
-   "opened": "2026-11-15T07:32:58+07:00",
-   "zoo": "rand",
-   "smart": 21,
-   "kol": 0,
-   "gap": 4,
    "miss": 0
   }
  },
@@ -1607,8 +1593,23 @@
    "zoo": "rand",
    "smart": 21,
    "kol": 0
+  },
+  {
+   "t": "2026-11-15T07:51:54+07:00",
+   "kind": "sell",
+   "mint": "HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump",
+   "sym": "HYGG",
+   "price": 0.00033347606284158543,
+   "entry": 0.0002542,
+   "usd": 0.4175,
+   "pnl": 0.0794,
+   "why": "trailing จากยอด +78% (+31.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 21,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794703605.1498249
+ "rank_t": 1794703889.0599701
 }
