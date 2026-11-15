@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.3364041533505457,
+ "cash": 0.6196558109342974,
  "pos": {
-  "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
-   "sym": "FLOAT",
-   "qty": 109.83188018719586,
-   "entry": 0.002891,
-   "last": 0.002700902937357736,
-   "peak": 0.002891,
-   "cost": 0.32727681469922,
-   "opened": "2026-11-15T11:27:04+07:00",
-   "smart": 342,
-   "kol": 31,
-   "bundler": 0.5092,
-   "gap": 6,
-   "miss": 0
-  },
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
    "sym": "paws",
    "qty": 418.18525182978243,
    "entry": 0.0007445,
-   "last": 0.0007679,
+   "last": 0.0007589,
    "peak": 0.0007749,
    "cost": 0.3209017934315327,
    "opened": "2026-11-15T12:09:15+07:00",
@@ -35,8 +21,8 @@
    "sym": "LuckyCoin",
    "qty": 1245.921348463274,
    "entry": 0.0002477,
-   "last": 0.0002417,
-   "peak": 0.0002487,
+   "last": 0.0002502,
+   "peak": 0.0002502,
    "cost": 0.3180939167329963,
    "opened": "2026-11-15T12:23:12+07:00",
    "smart": 43,
@@ -49,14 +35,14 @@
    "sym": "Optimistic",
    "qty": 9604.739332967674,
    "entry": 3.194e-05,
-   "last": 3.1983328179658865e-05,
+   "last": 3.207e-05,
    "peak": 3.288e-05,
    "cost": 0.31619807698926766,
    "opened": "2026-11-15T12:23:17+07:00",
    "smart": 117,
    "kol": 18,
    "bundler": 0.0316,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -26077,6 +26063,21 @@
    "smart": 117,
    "kol": 18,
    "bundler": 0.0316
+  },
+  {
+   "t": "2026-11-15T12:37:27+07:00",
+   "kind": "sell",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "price": 0.002658170117620199,
+   "entry": 0.002891,
+   "usd": 0.2833,
+   "pnl": -0.044,
+   "why": "stop -8.1%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 342,
+   "bundler": 0.5092
   }
  ]
 }

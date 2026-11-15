@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.0,
+ "cash": 3.016126972506756,
  "pos": {
   "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
    "sym": "FOOD",
    "qty": 7507.499732154056,
    "entry": 0.0003472,
-   "last": 0.0003898,
+   "last": 0.000406,
    "peak": 0.0004611,
    "cost": 2.68666657081415,
    "opened": "2026-11-15T01:03:26+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 292,
    "kol": 22,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": {
@@ -28,14 +28,14 @@
    "zoo": "w_ban_smartflow",
    "smart": 5,
    "kol": 0,
-   "gap": 8,
+   "gap": 7,
    "miss": 0
   },
   "HFcyhe28iLYRhac2W5FBdtDGFunWDJesCR7f6EZJpump": {
    "sym": "MRPENIS",
    "qty": 14257.510981989892,
    "entry": 0.0001349,
-   "last": 0.0001361,
+   "last": 0.000136,
    "peak": 0.0001453,
    "cost": 1.9824141738512022,
    "opened": "2026-11-15T07:38:45+07:00",
@@ -43,20 +43,6 @@
    "smart": 86,
    "kol": 5,
    "gap": 0,
-   "miss": 0
-  },
-  "4qyk1uJexNRNUwfx9J4KKoJ1v5icmZNci42yDzgEpump": {
-   "sym": "ニャジラ",
-   "qty": 8688.864815173478,
-   "entry": 0.0001978,
-   "last": 0.0003269,
-   "peak": 0.0003269,
-   "cost": 1.7714465681728653,
-   "opened": "2026-11-15T11:09:26+07:00",
-   "zoo": "w_ban_smartflow",
-   "smart": 63,
-   "kol": 2,
-   "gap": 5,
    "miss": 0
   }
  },
@@ -425,10 +411,35 @@
    "zoo": "w_ban_smartflow",
    "smart": 63,
    "kol": 2
+  },
+  {
+   "t": "2026-11-15T12:40:21+07:00",
+   "kind": "sell",
+   "mint": "4qyk1uJexNRNUwfx9J4KKoJ1v5icmZNci42yDzgEpump",
+   "sym": "ニャジラ",
+   "price": 0.0004109,
+   "usd": 1.7319,
+   "pnl": 0.8462,
+   "why": "ขายครึ่ง +107.7%"
+  },
+  {
+   "t": "2026-11-15T12:41:02+07:00",
+   "kind": "sell",
+   "mint": "4qyk1uJexNRNUwfx9J4KKoJ1v5icmZNci42yDzgEpump",
+   "sym": "ニャジラ",
+   "price": 0.0003046752409521382,
+   "entry": 0.0001978,
+   "usd": 1.2842,
+   "pnl": 0.3985,
+   "why": "trailing จากยอด +108% (+54.0%)",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 63,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794720764.5720594,
+ "rank_t": 1794721047.4310284,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA"
