@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.6723138852461805,
+ "cash": 2.3878079593112,
  "pos": {
   "2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump": {
    "sym": "Peekhole",
    "qty": 1575.255430397468,
    "entry": 0.0005199,
-   "last": 0.0006914,
+   "last": 0.0007035,
    "peak": 0.0007518,
    "cost": 0.8441303836978392,
    "opened": "2026-11-15T08:52:19+07:00",
@@ -21,42 +21,28 @@
    "sym": "Jimothy",
    "qty": 705.6245865710271,
    "entry": 0.001211,
-   "last": 0.0012370589640243973,
+   "last": 0.001209,
    "peak": 0.0012370589640243973,
    "cost": 0.8807579615929847,
    "opened": "2026-11-15T09:52:51+07:00",
    "zoo": "boosted",
    "smart": 385,
    "kol": 63,
-   "gap": 0,
-   "miss": 0
-  },
-  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
-   "sym": "CLAUDIA",
-   "qty": 170.78987979468081,
-   "entry": 0.004745,
-   "last": 0.004510651603491073,
-   "peak": 0.004808,
-   "cost": 0.8352896100038759,
-   "opened": "2026-11-15T10:21:06+07:00",
-   "zoo": "boosted",
-   "smart": 439,
-   "kol": 28,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 416.0155209382795,
    "entry": 0.002538,
-   "last": 0.002458,
+   "last": 0.0024736974310842685,
    "peak": 0.002538,
    "cost": 1.0882780788923452,
    "opened": "2026-11-15T11:14:07+07:00",
    "zoo": "boosted",
    "smart": 169,
    "kol": 8,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -1533,8 +1519,23 @@
    "zoo": "boosted",
    "smart": 169,
    "kol": 8
+  },
+  {
+   "t": "2026-11-15T11:37:01+07:00",
+   "kind": "sell",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.004318,
+   "entry": 0.004745,
+   "usd": 0.7155,
+   "pnl": -0.1198,
+   "why": "stop -9.0%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 439,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794717098.6826344
+ "rank_t": 1794717375.7920125
 }
