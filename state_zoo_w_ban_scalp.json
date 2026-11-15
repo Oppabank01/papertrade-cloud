@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 9.104826952721025,
+ "cash": 8.085548147268955,
  "pos": {
   "CbsseJ9uLdJUr6UjPx3dL9BK5tBvTDCERuakuWEYpump": {
    "sym": "Kodak",
    "qty": 9051.257086519669,
    "entry": 0.0001088,
-   "last": 0.0001138,
-   "peak": 0.0001154,
+   "last": 0.000122,
+   "peak": 0.000122,
    "cost": 1.0150245011475367,
    "opened": "2026-11-15T14:41:30+07:00",
    "zoo": "w_ban_scalp",
    "smart": 23,
    "kol": 0,
+   "gap": 2,
+   "miss": 0
+  },
+  "31HzUsjzTt7FBCGnDy68cBnELayVsnd3zYEBtsXXpump": {
+   "sym": "TrumpWars",
+   "qty": 4932.191007728665,
+   "entry": 0.0002005,
+   "last": 0.0001854,
+   "peak": 0.0002005,
+   "cost": 1.019278805452069,
+   "opened": "2026-11-15T15:10:37+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 90,
+   "kol": 2,
    "gap": 0,
    "miss": 0
   }
@@ -1406,10 +1420,24 @@
    "cost_side": 0.03,
    "smart": 113,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T15:10:37+07:00",
+   "kind": "buy",
+   "mint": "31HzUsjzTt7FBCGnDy68cBnELayVsnd3zYEBtsXXpump",
+   "sym": "TrumpWars",
+   "price": 0.0002005,
+   "jup": 0.00020035357390609556,
+   "usd": 1.0193,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 90,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794729814.2708035,
+ "rank_t": 1794730103.6902971,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
