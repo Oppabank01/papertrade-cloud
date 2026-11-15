@@ -1,41 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.2593204570713272,
+ "cash": 1.051357604584969,
  "pos": {
-  "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
-   "sym": "STANK",
-   "qty": 238.48793830730818,
-   "entry": 0.001341,
-   "last": 0.001815,
-   "peak": 0.002054783792866531,
-   "cost": 0.32963546203885824,
-   "opened": "2026-11-15T07:56:29+07:00",
-   "smart": 77,
-   "kol": 1,
-   "bundler": 0.1152,
-   "gap": 4,
-   "miss": 0
-  },
-  "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
-   "sym": "SAPLING",
-   "qty": 263.16742037375036,
-   "entry": 0.001208,
-   "last": 0.001423,
-   "peak": 0.001489,
-   "cost": 0.32767083468510666,
-   "opened": "2026-11-15T07:56:35+07:00",
-   "smart": 186,
-   "kol": 19,
-   "bundler": 0.0982,
-   "gap": 1,
-   "miss": 0
-  },
   "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump": {
    "sym": "PsyopAnime",
    "qty": 564.1292452879981,
    "entry": 0.000539,
-   "last": 0.0005105,
+   "last": 0.0005157,
    "peak": 0.0005558,
    "cost": 0.31340513627111,
    "opened": "2026-11-15T08:14:50+07:00",
@@ -49,7 +21,7 @@
    "sym": "TripleT",
    "qty": 151.6313618949123,
    "entry": 0.001876,
-   "last": 0.002017,
+   "last": 0.002045,
    "peak": 0.002092,
    "cost": 0.2931977271849675,
    "opened": "2026-11-15T09:00:59+07:00",
@@ -25015,6 +24987,36 @@
    "smart": 611,
    "kol": 71,
    "bundler": 0.1307
+  },
+  {
+   "t": "2026-11-15T10:58:56+07:00",
+   "kind": "sell",
+   "mint": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
+   "sym": "STANK",
+   "price": 0.00178,
+   "entry": 0.001341,
+   "usd": 0.4119,
+   "pnl": 0.0822,
+   "why": "ครบ 3 ชม. (+32.7%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 77,
+   "bundler": 0.1152
+  },
+  {
+   "t": "2026-11-15T10:58:56+07:00",
+   "kind": "sell",
+   "mint": "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W",
+   "sym": "SAPLING",
+   "price": 0.001489,
+   "entry": 0.001208,
+   "usd": 0.3802,
+   "pnl": 0.0525,
+   "why": "ครบ 3 ชม. (+23.3%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 186,
+   "bundler": 0.0982
   }
  ]
 }
