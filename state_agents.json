@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.6192491140215085,
+ "cash": 0.3069429914607836,
  "pos": {
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
    "sym": "STANK",
    "qty": 238.48793830730818,
    "entry": 0.001341,
-   "last": 0.001343,
-   "peak": 0.001353,
+   "last": 0.001355,
+   "peak": 0.001355,
    "cost": 0.32963546203885824,
    "opened": "2026-11-15T07:56:29+07:00",
    "smart": 77,
@@ -21,27 +21,41 @@
    "sym": "SAPLING",
    "qty": 263.16742037375036,
    "entry": 0.001208,
-   "last": 0.001192,
+   "last": 0.0012372841573663864,
    "peak": 0.001259,
    "cost": 0.32767083468510666,
    "opened": "2026-11-15T07:56:35+07:00",
    "smart": 186,
    "kol": 19,
    "bundler": 0.0982,
-   "gap": 2,
+   "gap": 3,
    "miss": 0
   },
   "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump": {
    "sym": "PsyopAnime",
    "qty": 564.1292452879981,
    "entry": 0.000539,
-   "last": 0.0005465,
+   "last": 0.0005311,
    "peak": 0.0005465,
    "cost": 0.31340513627111,
    "opened": "2026-11-15T08:14:50+07:00",
    "smart": 367,
    "kol": 76,
    "bundler": 0.1288,
+   "gap": 0,
+   "miss": 0
+  },
+  "6zuDiAw3NviBwcLZfTztHJgtCmeNWfyFxYVoXtNYpump": {
+   "sym": "SI",
+   "qty": 9052.865255704071,
+   "entry": 3.347e-05,
+   "last": 3.347e-05,
+   "peak": 3.347e-05,
+   "cost": 0.31230612256072493,
+   "opened": "2026-11-15T08:24:01+07:00",
+   "smart": 121,
+   "kol": 7,
+   "bundler": 0.12,
    "gap": 0,
    "miss": 0
   }
@@ -24738,6 +24752,42 @@
    "buy": 0.8393,
    "bull": 0.8738,
    "bear": 1.0
+  },
+  {
+   "t": "2026-11-15T08:23:58+07:00",
+   "kind": "debate",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "ok": false,
+   "bundler": 0.0571,
+   "buy": 0.9215,
+   "bull": 0.9053,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-15T08:24:01+07:00",
+   "kind": "debate",
+   "mint": "6zuDiAw3NviBwcLZfTztHJgtCmeNWfyFxYVoXtNYpump",
+   "sym": "SI",
+   "ok": true,
+   "bundler": 0.12,
+   "buy": 0.7492,
+   "bull": 0.8982,
+   "bear": 0.0001
+  },
+  {
+   "t": "2026-11-15T08:24:01+07:00",
+   "kind": "buy",
+   "mint": "6zuDiAw3NviBwcLZfTztHJgtCmeNWfyFxYVoXtNYpump",
+   "sym": "SI",
+   "price": 3.347e-05,
+   "jup": 3.368950111015529e-05,
+   "usd": 0.3123,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 121,
+   "kol": 7,
+   "bundler": 0.12
   }
  ]
 }
