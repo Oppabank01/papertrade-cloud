@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.6478463751384824,
+ "cash": 2.1905550682453008,
  "pos": {
   "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
    "sym": "FOOD",
    "qty": 7507.499732154056,
    "entry": 0.0003472,
-   "last": 0.0004026,
+   "last": 0.0003922635995230892,
    "peak": 0.00046007768775712803,
    "cost": 2.68666657081415,
    "opened": "2026-11-15T01:03:26+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 292,
    "kol": 22,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump": {
    "sym": "GTA6",
    "qty": 17381.894967634707,
    "entry": 0.0001511,
-   "last": 0.000136,
+   "last": 0.0001338,
    "peak": 0.0001669,
    "cost": 2.7070751696656403,
    "opened": "2026-11-15T02:19:00+07:00",
@@ -43,20 +43,6 @@
    "smart": 5,
    "kol": 0,
    "gap": 0,
-   "miss": 0
-  },
-  "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": {
-   "sym": "AURA",
-   "qty": 6479.5985280126015,
-   "entry": 0.0003109,
-   "last": 0.00025723286477024937,
-   "peak": 0.0004277,
-   "cost": 2.0763834079149848,
-   "opened": "2026-11-15T06:57:07+07:00",
-   "zoo": "w_ban_smartflow",
-   "smart": 84,
-   "kol": 1,
-   "gap": 7,
    "miss": 0
   }
  },
@@ -338,10 +324,25 @@
    "mint": "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump",
    "sym": "AURA",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-15T07:32:39+07:00",
+   "kind": "sell",
+   "mint": "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump",
+   "sym": "AURA",
+   "price": 0.0002454,
+   "entry": 0.0003109,
+   "usd": 1.5427,
+   "pnl": -0.5337,
+   "why": "stop -21.1%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 84,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794702483.5803447,
+ "rank_t": 1794702759.3723118,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA"
