@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.473311512299455,
+ "cash": 0.5255621230964964,
  "pos": {
   "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
    "sym": "FOOD",
    "qty": 7507.499732154056,
    "entry": 0.0003472,
-   "last": 0.0003826,
+   "last": 0.0003924,
    "peak": 0.0004611,
    "cost": 2.68666657081415,
    "opened": "2026-11-15T01:03:26+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 292,
    "kol": 22,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": {
@@ -28,21 +28,35 @@
    "zoo": "w_ban_smartflow",
    "smart": 5,
    "kol": 0,
-   "gap": 15,
+   "gap": 5,
    "miss": 0
   },
   "G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump": {
    "sym": "GTA",
    "qty": 21957.776870899164,
    "entry": 8.941e-05,
-   "last": 9.172e-05,
-   "peak": 9.242e-05,
+   "last": 9.679e-05,
+   "peak": 9.679e-05,
    "cost": 2.0235465162101574,
    "opened": "2026-11-15T12:43:20+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 5,
    "kol": 0,
-   "gap": 5,
+   "gap": 0,
+   "miss": 0
+  },
+  "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": {
+   "sym": "bill",
+   "qty": 2526.34553128972,
+   "entry": 0.000748,
+   "last": 0.0007842,
+   "peak": 0.000788,
+   "cost": 1.9477493892029587,
+   "opened": "2026-11-15T13:02:43+07:00",
+   "zoo": "w_ban_smartflow",
+   "smart": 111,
+   "kol": 6,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -465,10 +479,24 @@
    "cost_side": 0.03,
    "smart": 86,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T13:02:43+07:00",
+   "kind": "buy",
+   "mint": "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
+   "sym": "bill",
+   "price": 0.000748,
+   "jup": 0.000741106419930775,
+   "usd": 1.9477,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "w_ban_smartflow",
+   "smart": 111,
+   "kol": 6
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794722170.4806662,
+ "rank_t": 1794722456.0342681,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA"
