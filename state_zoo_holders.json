@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.338090648271448,
+ "cash": 2.6019325811462,
  "pos": {
-  "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
-   "sym": "Max",
-   "qty": 1055.615595202707,
-   "entry": 0.001217,
-   "last": 0.001318,
-   "peak": 0.0015032921829623706,
-   "cost": 1.3241436604428924,
-   "opened": "2026-11-15T10:40:28+07:00",
-   "zoo": "holders",
-   "smart": 451,
-   "kol": 42,
-   "gap": 0,
-   "miss": 0
-  },
   "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
    "sym": "Dacity",
    "qty": 650.0326874757756,
    "entry": 0.001953,
-   "last": 0.001976,
+   "last": 0.001974,
    "peak": 0.002025,
    "cost": 1.308507357905782,
    "opened": "2026-11-15T10:44:58+07:00",
@@ -35,21 +21,21 @@
    "sym": "fone",
    "qty": 1185.8955707495224,
    "entry": 0.001057,
-   "last": 0.001035,
+   "last": 0.0010153248822309397,
    "peak": 0.001058,
    "cost": 1.2919930099796386,
    "opened": "2026-11-15T10:59:21+07:00",
    "zoo": "holders",
    "smart": 480,
    "kol": 58,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "HgTGdc29D5bDMrDvsCLnorxz899VyDj7ZN7FPa6vpump": {
    "sym": "VEIL",
    "qty": 4225.741772912011,
    "entry": 0.000293,
-   "last": 0.0002818,
+   "last": 0.000276,
    "peak": 0.0002938,
    "cost": 1.2761722732047198,
    "opened": "2026-11-15T11:08:55+07:00",
@@ -1321,8 +1307,23 @@
    "zoo": "holders",
    "smart": 229,
    "kol": 16
+  },
+  {
+   "t": "2026-11-15T12:18:53+07:00",
+   "kind": "sell",
+   "mint": "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump",
+   "sym": "Max",
+   "price": 0.0012340299287733178,
+   "entry": 0.001217,
+   "usd": 1.2638,
+   "pnl": -0.0603,
+   "why": "trailing จากยอด +24% (+1.4%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 451,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794719627.4158816
+ "rank_t": 1794719903.7108517
 }
