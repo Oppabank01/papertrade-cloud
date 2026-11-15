@@ -7,7 +7,7 @@
    "sym": "DacityCoin",
    "qty": 402.9139803856469,
    "entry": 0.004328,
-   "last": 0.004121,
+   "last": 0.004125,
    "peak": 0.004335,
    "cost": 1.7973734354865798,
    "opened": "2026-11-15T17:44:07+07:00",
@@ -21,35 +21,35 @@
    "sym": "UHI",
    "qty": 2274.3487391031467,
    "entry": 0.0007521,
-   "last": 0.0007155,
+   "last": 0.0007122,
    "peak": 0.0007557,
    "cost": 1.7630773929905967,
    "opened": "2026-11-15T17:58:54+07:00",
    "zoo": "w_ban_aged",
    "smart": 13,
    "kol": 0,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 514.6274673952829,
    "entry": 0.003287,
-   "last": 0.00327289839974791,
+   "last": 0.003265072878711365,
    "peak": 0.003357,
    "cost": 1.7435379152012933,
    "opened": "2026-11-15T18:08:23+07:00",
    "zoo": "w_ban_aged",
    "smart": 722,
    "kol": 80,
-   "gap": 4,
+   "gap": 15,
    "miss": 0
   },
   "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
    "sym": "Rocco",
    "qty": 2404.88939593212,
    "entry": 0.0006992,
-   "last": 0.0008187,
+   "last": 0.0008105,
    "peak": 0.0008465206180481374,
    "cost": 1.7331464292266938,
    "opened": "2026-11-15T18:08:23+07:00",
@@ -1070,13 +1070,21 @@
    "zoo": "w_ban_aged",
    "smart": 109,
    "kol": 8
+  },
+  {
+   "t": "2026-11-15T19:01:46+07:00",
+   "kind": "ban",
+   "mint": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
+   "sym": "baton",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794743611.2505746,
+ "rank_t": 1794743893.9953039,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": "CHOO",
-  "4ikwYoNvoGEwtMbziUyYBTz1zRM6nmxspsfw9G7Bpump": "crypto"
+  "4ikwYoNvoGEwtMbziUyYBTz1zRM6nmxspsfw9G7Bpump": "crypto",
+  "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"
  }
 }

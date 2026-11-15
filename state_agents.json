@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.4575461435853245,
+ "cash": 0.2232597661761797,
  "pos": {
   "Ge87EtsjwRQbHaqQmKRno69RFTwh9bfSsm99XNxTpump": {
    "sym": "Jimothy",
@@ -21,7 +21,7 @@
    "sym": "Macca",
    "qty": 105.5928927536251,
    "entry": 0.002197,
-   "last": 0.002223,
+   "last": 0.002168,
    "peak": 0.002223,
    "cost": 0.23911315747239162,
    "opened": "2026-11-15T18:25:35+07:00",
@@ -35,13 +35,27 @@
    "sym": "greg",
    "qty": 1515.1441482973144,
    "entry": 0.0001522,
-   "last": 0.0001604,
+   "last": 0.0001535,
    "peak": 0.0001636,
    "cost": 0.2376880430538562,
    "opened": "2026-11-15T18:29:56+07:00",
    "smart": 82,
    "kol": 6,
    "bundler": 0.0537,
+   "gap": 0,
+   "miss": 0
+  },
+  "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": {
+   "sym": "Socks",
+   "qty": 804.6182065923975,
+   "entry": 0.0002825,
+   "last": 0.0002825,
+   "peak": 0.0002825,
+   "cost": 0.23428637740914482,
+   "opened": "2026-11-15T18:58:20+07:00",
+   "smart": 58,
+   "kol": 6,
+   "bundler": 0.1787,
    "gap": 0,
    "miss": 0
   }
@@ -29213,6 +29227,31 @@
    "cost_side": 0.03,
    "smart": 75,
    "bundler": 0.0036
+  },
+  {
+   "t": "2026-11-15T18:58:19+07:00",
+   "kind": "debate",
+   "mint": "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump",
+   "sym": "Socks",
+   "ok": true,
+   "bundler": 0.1787,
+   "buy": 0.6751,
+   "bull": 0.9347,
+   "bear": 0.681
+  },
+  {
+   "t": "2026-11-15T18:58:20+07:00",
+   "kind": "buy",
+   "mint": "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump",
+   "sym": "Socks",
+   "price": 0.0002825,
+   "jup": 0.0002853258169927924,
+   "usd": 0.2343,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 58,
+   "kol": 6,
+   "bundler": 0.1787
   }
  ]
 }
