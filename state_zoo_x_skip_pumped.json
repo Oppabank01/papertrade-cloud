@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 2.1507350512795105,
+ "cash": 4.086003047479574,
  "pos": {
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 137.24230273882466,
    "entry": 0.01737,
-   "last": 0.01783,
+   "last": 0.01778,
    "peak": 0.0179,
    "cost": 2.4571210045077145,
    "opened": "2026-11-16T03:46:57+07:00",
@@ -21,42 +21,28 @@
    "sym": "LMAO!",
    "qty": 1711.0043850329755,
    "entry": 0.001376,
-   "last": 0.001368,
+   "last": 0.001344,
    "peak": 0.001411,
    "cost": 2.4266563943572197,
    "opened": "2026-11-16T04:34:05+07:00",
    "zoo": "x_skip_pumped",
    "smart": 786,
    "kol": 84,
-   "gap": 3,
+   "gap": 4,
    "miss": 0
   },
   "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
    "sym": "PAID",
    "qty": 1800.187477506838,
    "entry": 0.001287,
-   "last": 0.001235,
+   "last": 0.001217,
    "peak": 0.00136,
    "cost": 2.388003796692744,
    "opened": "2026-11-16T04:37:42+07:00",
    "zoo": "x_skip_pumped",
    "smart": 668,
    "kol": 93,
-   "gap": 0,
-   "miss": 0
-  },
-  "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": {
-   "sym": "bill",
-   "qty": 8022.889251556707,
-   "entry": 0.0002773,
-   "last": 0.0002864,
-   "peak": 0.0002922,
-   "cost": 2.293081003356705,
-   "opened": "2026-11-16T05:29:32+07:00",
-   "zoo": "x_skip_pumped",
-   "smart": 122,
-   "kol": 8,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -469,8 +455,23 @@
    "zoo": "x_skip_pumped",
    "smart": 122,
    "kol": 8
+  },
+  {
+   "t": "2026-11-16T05:40:21+07:00",
+   "kind": "sell",
+   "mint": "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
+   "sym": "bill",
+   "price": 0.0002486274336508372,
+   "entry": 0.0002773,
+   "usd": 1.9353,
+   "pnl": -0.3578,
+   "why": "stop -10.3%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 122,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794781916.0149271
+ "rank_t": 1794782200.5265183
 }
