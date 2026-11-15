@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 5.549692057663079,
+ "cash": 2.799228599639147,
  "pos": {
   "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
    "sym": "WASTED",
    "qty": 588.3389545516346,
    "entry": 0.004853,
-   "last": 0.00465,
+   "last": 0.004702,
    "peak": 0.005123,
    "cost": 2.9429075927015895,
    "opened": "2026-11-15T22:23:29+07:00",
@@ -21,7 +21,7 @@
    "sym": "Leonida",
    "qty": 6123.890335115348,
    "entry": 0.0004607,
-   "last": 0.0004553,
+   "last": 0.0004498,
    "peak": 0.0004675,
    "cost": 2.907932670982932,
    "opened": "2026-11-15T22:23:46+07:00",
@@ -35,13 +35,27 @@
    "sym": "NIO",
    "qty": 1816.3610562010426,
    "entry": 0.001544,
-   "last": 0.001456,
+   "last": 0.0014420648819762798,
    "peak": 0.001564,
    "cost": 2.8906013922638736,
    "opened": "2026-11-15T22:23:50+07:00",
    "zoo": "x_skip_pumped",
    "smart": 408,
    "kol": 32,
+   "gap": 1,
+   "miss": 0
+  },
+  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
+   "sym": "mihao",
+   "qty": 166.05473845518472,
+   "entry": 0.01607,
+   "last": 0.01617,
+   "peak": 0.0162,
+   "cost": 2.750463458023932,
+   "opened": "2026-11-15T23:05:29+07:00",
+   "zoo": "x_skip_pumped",
+   "smart": 682,
+   "kol": 69,
    "gap": 0,
    "miss": 0
   }
@@ -122,8 +136,22 @@
    "cost_side": 0.03,
    "smart": 32,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T23:05:29+07:00",
+   "kind": "buy",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.01607,
+   "jup": 0.016063248068857023,
+   "usd": 2.7505,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 682,
+   "kol": 69
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794758338.0642304
+ "rank_t": 1794758633.5502117
 }
