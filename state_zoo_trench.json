@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.757969303423847,
- "cash": 2.990845765640672,
+ "cash": 1.7979865170060605,
  "pos": {
   "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": {
    "sym": "BRUH",
    "qty": 321.04982708961415,
    "entry": 0.003628,
-   "last": 0.004073,
+   "last": 0.004137,
    "peak": 0.004167,
    "cost": 1.20054501410134,
    "opened": "2026-11-15T08:24:48+07:00",
@@ -21,14 +21,28 @@
    "sym": "Lucia",
    "qty": 1299.3873102935931,
    "entry": 0.0009234,
-   "last": 0.001282,
-   "peak": 0.001355,
+   "last": 0.001363,
+   "peak": 0.001363,
    "cost": 1.2367081450475201,
    "opened": "2026-11-15T09:38:46+07:00",
    "zoo": "trench",
    "smart": 101,
    "kol": 4,
-   "gap": 2,
+   "gap": 0,
+   "miss": 0
+  },
+  "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": {
+   "sym": "Socks",
+   "qty": 2392.1290678489045,
+   "entry": 0.0004838,
+   "last": 0.0004838,
+   "peak": 0.0004838,
+   "cost": 1.1928592486346115,
+   "opened": "2026-11-15T18:26:27+07:00",
+   "zoo": "trench",
+   "smart": 56,
+   "kol": 5,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -726,8 +740,22 @@
    "cost_side": 0.03,
    "smart": 79,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T18:26:27+07:00",
+   "kind": "buy",
+   "mint": "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump",
+   "sym": "Socks",
+   "price": 0.0004838,
+   "jup": 0.0004885573866851376,
+   "usd": 1.1929,
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "zoo": "trench",
+   "smart": 56,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: crbpite8 รอบ 2: ปลอดภัย + smart 3 + V/L สูงสุด 3 ตัว",
- "rank_t": 1794741639.8503826
+ "rank_t": 1794741913.950743
 }
