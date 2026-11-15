@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.17063357740306168,
+ "cash": 0.31424789819885074,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 3.790522389919014,
    "entry": 0.04341,
-   "last": 0.04326,
+   "last": 0.0433,
    "peak": 0.04357,
    "cost": 0.16960067712470048,
    "opened": "2026-11-16T04:18:09+07:00",
@@ -21,7 +21,7 @@
    "sym": "FUTA",
    "qty": 1485.4246487812704,
    "entry": 0.00011,
-   "last": 0.0001045,
+   "last": 0.0001041,
    "peak": 0.00011838522103817813,
    "cost": 0.16841549305910097,
    "opened": "2026-11-16T04:55:29+07:00",
@@ -35,27 +35,13 @@
    "sym": "Lucia",
    "qty": 165.20591268596007,
    "entry": 0.0009967,
-   "last": 0.0011752592199062635,
-   "peak": 0.001196,
+   "last": 0.001226,
+   "peak": 0.001226,
    "cost": 0.16971833969706906,
    "opened": "2026-11-16T05:13:59+07:00",
    "zoo": "rand",
    "smart": 108,
    "kol": 4,
-   "gap": 1,
-   "miss": 0
-  },
-  "2afcRhtGYgp1e3xPBMu2UbnELL8AUMZzguLQsPo8pump": {
-   "sym": "VICECITY",
-   "qty": 604.185633072874,
-   "entry": 0.0002724,
-   "last": 0.0002724,
-   "peak": 0.0002724,
-   "cost": 0.16963529833957008,
-   "opened": "2026-11-16T06:24:15+07:00",
-   "zoo": "rand",
-   "smart": 14,
-   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -2622,8 +2608,23 @@
    "zoo": "rand",
    "smart": 14,
    "kol": 1
+  },
+  {
+   "t": "2026-11-16T06:29:12+07:00",
+   "kind": "sell",
+   "mint": "2afcRhtGYgp1e3xPBMu2UbnELL8AUMZzguLQsPo8pump",
+   "sym": "VICECITY",
+   "price": 0.000245,
+   "entry": 0.0002724,
+   "usd": 0.1436,
+   "pnl": -0.026,
+   "why": "stop -10.1%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 14,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794785023.291162
+ "rank_t": 1794785318.2573447
 }

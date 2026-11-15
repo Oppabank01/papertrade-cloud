@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 5.763830531359663,
+ "cash": 5.421861643101263,
  "pos": {
   "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": {
    "sym": "LMAO!",
    "qty": 256.8313053905291,
    "entry": 0.001409,
-   "last": 0.001362269803066839,
+   "last": 0.0013413957829606204,
    "peak": 0.001411,
    "cost": 0.3729904239283195,
    "opened": "2026-11-16T04:33:34+07:00",
    "zoo": "w_pause_spray",
    "smart": 786,
    "kol": 84,
-   "gap": 1,
+   "gap": 5,
    "miss": 0
   },
   "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
    "sym": "JENSEN",
    "qty": 4090.7840807396906,
    "entry": 8.662e-05,
-   "last": 8.288e-05,
+   "last": 8.416e-05,
    "peak": 8.973e-05,
    "cost": 0.36522749646843117,
    "opened": "2026-11-16T05:05:34+07:00",
@@ -35,13 +35,27 @@
    "sym": "WANTED",
    "qty": 1567.3522349647278,
    "entry": 0.0002114,
-   "last": 0.0002412,
+   "last": 0.0002503,
    "peak": 0.00026411267497509323,
    "cost": 0.34151542204859153,
    "opened": "2026-11-16T05:19:40+07:00",
    "zoo": "w_pause_spray",
    "smart": 38,
    "kol": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "GxRPJsRK9TE9EgBhLxrFGcRYLGqPJe4fxtiPmdXCpump": {
+   "sym": "Hope",
+   "qty": 2080.1142030614456,
+   "entry": 0.0001595,
+   "last": 0.0001585,
+   "peak": 0.0001595,
+   "cost": 0.34196888825840094,
+   "opened": "2026-11-16T06:29:56+07:00",
+   "zoo": "w_pause_spray",
+   "smart": 97,
+   "kol": 5,
    "gap": 0,
    "miss": 0
   }
@@ -4353,10 +4367,27 @@
    "cost_side": 0.03,
    "smart": 250,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T06:29:49+07:00",
+   "kind": "resume",
+   "why": "ราคา Snoopy สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-16T06:29:56+07:00",
+   "kind": "buy",
+   "mint": "GxRPJsRK9TE9EgBhLxrFGcRYLGqPJe4fxtiPmdXCpump",
+   "sym": "Hope",
+   "price": 0.0001595,
+   "jup": 0.0001596686976008632,
+   "usd": 0.342,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_spray",
+   "smart": 97,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: กฎ x_spray_small แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794785023.291162,
- "halted": "ราคา Snoopy สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
- "halted_until": "2026-11-16T06:25:13+07:00"
+ "rank_t": 1794785318.2573447
 }
