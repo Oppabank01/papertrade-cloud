@@ -1,33 +1,61 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.9706961470728096,
+ "cash": 0.3364041533505457,
  "pos": {
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
    "sym": "FLOAT",
    "qty": 109.83188018719586,
    "entry": 0.002891,
-   "last": 0.0027625521211673987,
+   "last": 0.002781668829598919,
    "peak": 0.002891,
    "cost": 0.32727681469922,
    "opened": "2026-11-15T11:27:04+07:00",
    "smart": 342,
    "kol": 31,
    "bundler": 0.5092,
-   "gap": 3,
+   "gap": 4,
    "miss": 0
   },
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
    "sym": "paws",
    "qty": 418.18525182978243,
    "entry": 0.0007445,
-   "last": 0.0007565,
-   "peak": 0.0007565,
+   "last": 0.000766,
+   "peak": 0.000766,
    "cost": 0.3209017934315327,
    "opened": "2026-11-15T12:09:15+07:00",
    "smart": 284,
    "kol": 15,
    "bundler": 0.1857,
+   "gap": 0,
+   "miss": 0
+  },
+  "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": {
+   "sym": "LuckyCoin",
+   "qty": 1245.921348463274,
+   "entry": 0.0002477,
+   "last": 0.0002429,
+   "peak": 0.0002477,
+   "cost": 0.3180939167329963,
+   "opened": "2026-11-15T12:23:12+07:00",
+   "smart": 43,
+   "kol": 5,
+   "bundler": 0.0394,
+   "gap": 1,
+   "miss": 0
+  },
+  "2pjcq9k2X5oSArNKiVeQ2ENB63eJt8pwCabciGQGpump": {
+   "sym": "Optimistic",
+   "qty": 9604.739332967674,
+   "entry": 3.194e-05,
+   "last": 3.194e-05,
+   "peak": 3.194e-05,
+   "cost": 0.31619807698926766,
+   "opened": "2026-11-15T12:23:17+07:00",
+   "smart": 117,
+   "kol": 18,
+   "bundler": 0.0316,
    "gap": 0,
    "miss": 0
   }
@@ -25977,6 +26005,78 @@
    "buy": 0.8227,
    "bull": 0.8544,
    "bear": 0.9739
+  },
+  {
+   "t": "2026-11-15T12:23:09+07:00",
+   "kind": "debate",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "ok": false,
+   "bundler": 0.0185,
+   "buy": 0.8677,
+   "bull": 0.8876,
+   "bear": 0.969
+  },
+  {
+   "t": "2026-11-15T12:23:11+07:00",
+   "kind": "debate",
+   "mint": "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump",
+   "sym": "LuckyCoin",
+   "ok": true,
+   "bundler": 0.0394,
+   "buy": 0.8487,
+   "bull": 0.9623,
+   "bear": 0.7085
+  },
+  {
+   "t": "2026-11-15T12:23:12+07:00",
+   "kind": "buy",
+   "mint": "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump",
+   "sym": "LuckyCoin",
+   "price": 0.0002477,
+   "jup": 0.00024848979252940377,
+   "usd": 0.3181,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 43,
+   "kol": 5,
+   "bundler": 0.0394
+  },
+  {
+   "t": "2026-11-15T12:23:14+07:00",
+   "kind": "debate",
+   "mint": "uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY",
+   "sym": "PAYDAY",
+   "ok": false,
+   "bundler": 0.0673,
+   "buy": 0.8783,
+   "bull": 0.8904,
+   "bear": 0.958
+  },
+  {
+   "t": "2026-11-15T12:23:17+07:00",
+   "kind": "debate",
+   "mint": "2pjcq9k2X5oSArNKiVeQ2ENB63eJt8pwCabciGQGpump",
+   "sym": "Optimistic",
+   "ok": true,
+   "bundler": 0.0316,
+   "buy": 0.7585,
+   "bull": 1.0,
+   "bear": 0.9997
+  },
+  {
+   "t": "2026-11-15T12:23:17+07:00",
+   "kind": "buy",
+   "mint": "2pjcq9k2X5oSArNKiVeQ2ENB63eJt8pwCabciGQGpump",
+   "sym": "Optimistic",
+   "price": 3.194e-05,
+   "jup": 3.195801432833688e-05,
+   "usd": 0.3162,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 117,
+   "kol": 18,
+   "bundler": 0.0316
   }
  ]
 }

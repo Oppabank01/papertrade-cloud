@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.6689269037773717,
+ "cash": 0.6295877135218289,
  "pos": {
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
    "sym": "Rings",
    "qty": 2027.2545840450855,
    "entry": 0.000172,
-   "last": 0.00016367441596355014,
+   "last": 0.0001655,
    "peak": 0.0001852,
    "cost": 0.3593978442133114,
    "opened": "2026-11-15T11:04:46+07:00",
    "zoo": "rand",
    "smart": 67,
    "kol": 5,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "55A3VxMBfzw6uSe64zms5iMPw9k6kx9WzzusbCU6pump": {
    "sym": "Gato",
    "qty": 3342.3480965334174,
    "entry": 9.836e-05,
-   "last": 0.0001009,
+   "last": 9.84e-05,
    "peak": 0.0001009,
    "cost": 0.33885112221709646,
    "opened": "2026-11-15T11:55:30+07:00",
@@ -31,18 +31,18 @@
    "gap": 0,
    "miss": 0
   },
-  "6ZeMsPdH2ZcP3pGSxHz5ErstowgnnW28CoxU2vcBpump": {
-   "sym": "Clipper",
-   "qty": 7357.93090365039,
-   "entry": 4.446e-05,
-   "last": 4.286e-05,
-   "peak": 4.446e-05,
-   "cost": 0.33718162026004567,
-   "opened": "2026-11-15T12:14:17+07:00",
+  "4ed5SsUJeXaDCyM7aGHoA5LBjQjEx3xzVGpYEcMvpump": {
+   "sym": "meme",
+   "qty": 20138.994472480692,
+   "entry": 1.593e-05,
+   "last": 1.5846422831170258e-05,
+   "peak": 1.593e-05,
+   "cost": 0.3306680910602117,
+   "opened": "2026-11-15T12:23:47+07:00",
    "zoo": "rand",
-   "smart": 46,
+   "smart": 7,
    "kol": 2,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -1840,8 +1840,37 @@
    "zoo": "rand",
    "smart": 46,
    "kol": 2
+  },
+  {
+   "t": "2026-11-15T12:23:47+07:00",
+   "kind": "buy",
+   "mint": "4ed5SsUJeXaDCyM7aGHoA5LBjQjEx3xzVGpYEcMvpump",
+   "sym": "meme",
+   "price": 1.593e-05,
+   "jup": 1.5846422831170258e-05,
+   "usd": 0.3307,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 7,
+   "kol": 2
+  },
+  {
+   "t": "2026-11-15T12:23:47+07:00",
+   "kind": "sell",
+   "mint": "6ZeMsPdH2ZcP3pGSxHz5ErstowgnnW28CoxU2vcBpump",
+   "sym": "Clipper",
+   "price": 4.081e-05,
+   "entry": 4.446e-05,
+   "usd": 0.2913,
+   "pnl": -0.0459,
+   "why": "stop -8.2%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 46,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794719903.7108517
+ "rank_t": 1794720181.9183736
 }

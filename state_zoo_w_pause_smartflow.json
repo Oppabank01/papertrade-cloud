@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.4618133968637337,
+ "cash": 0.5871084997641671,
  "pos": {
   "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
    "sym": "FOOD",
    "qty": 7648.119682882018,
    "entry": 0.0003442,
-   "last": 0.0004014,
+   "last": 0.0003978,
    "peak": 0.0004611,
    "cost": 2.71334033688723,
    "opened": "2026-11-15T01:03:30+07:00",
    "zoo": "w_pause_smartflow",
    "smart": 292,
    "kol": 22,
-   "gap": 3,
+   "gap": 0,
    "miss": 0
   },
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": {
@@ -28,20 +28,34 @@
    "zoo": "w_pause_smartflow",
    "smart": 5,
    "kol": 0,
-   "gap": 7,
+   "gap": 16,
    "miss": 0
   },
   "6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": {
    "sym": "GTA$",
    "qty": 11786.505103067326,
    "entry": 0.0001552,
-   "last": 0.0001578,
-   "peak": 0.0001578,
+   "last": 0.0001596,
+   "peak": 0.0001598,
    "cost": 1.8854520634879912,
    "opened": "2026-11-15T12:19:40+07:00",
    "zoo": "w_pause_smartflow",
    "smart": 86,
    "kol": 8,
+   "gap": 0,
+   "miss": 0
+  },
+  "2pjcq9k2X5oSArNKiVeQ2ENB63eJt8pwCabciGQGpump": {
+   "sym": "Optimistic",
+   "qty": 55317.478441788306,
+   "entry": 3.288e-05,
+   "last": 3.288e-05,
+   "peak": 3.288e-05,
+   "cost": 1.8747048970995666,
+   "opened": "2026-11-15T12:25:23+07:00",
+   "zoo": "w_pause_smartflow",
+   "smart": 117,
+   "kol": 18,
    "gap": 0,
    "miss": 0
   }
@@ -379,8 +393,24 @@
    "zoo": "w_pause_smartflow",
    "smart": 86,
    "kol": 8
+  },
+  {
+   "t": "2026-11-15T12:25:23+07:00",
+   "kind": "buy",
+   "mint": "2pjcq9k2X5oSArNKiVeQ2ENB63eJt8pwCabciGQGpump",
+   "sym": "Optimistic",
+   "price": 3.288e-05,
+   "jup": 3.292349708362256e-05,
+   "usd": 1.8747,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "w_pause_smartflow",
+   "smart": 117,
+   "kol": 18
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794719903.7108517
+ "rank_t": 1794720181.9183736,
+ "halted": "ราคา WOJAK สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+ "halted_until": "2026-11-15T13:26:27+07:00"
 }
