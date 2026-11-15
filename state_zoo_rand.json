@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.30696442918468714,
+ "cash": 0.6869367807838038,
  "pos": {
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
    "sym": "Rings",
    "qty": 2027.2545840450855,
    "entry": 0.000172,
-   "last": 0.0001653,
+   "last": 0.0001645,
    "peak": 0.0001852,
    "cost": 0.3593978442133114,
    "opened": "2026-11-15T11:04:46+07:00",
@@ -29,34 +29,6 @@
    "smart": 277,
    "kol": 27,
    "gap": 0,
-   "miss": 0
-  },
-  "4ed5SsUJeXaDCyM7aGHoA5LBjQjEx3xzVGpYEcMvpump": {
-   "sym": "meme",
-   "qty": 20138.994472480692,
-   "entry": 1.593e-05,
-   "last": 1.5846422831170258e-05,
-   "peak": 1.593e-05,
-   "cost": 0.3306680910602117,
-   "opened": "2026-11-15T12:23:47+07:00",
-   "zoo": "rand",
-   "smart": 7,
-   "kol": 2,
-   "gap": 0,
-   "miss": 0
-  },
-  "F63zJ8AM4RnHHxnHzGAPgM8Amv8KTSqG9knPd7yvpump": {
-   "sym": "HODL",
-   "qty": 8999.686902354655,
-   "entry": 3.478e-05,
-   "last": 3.418e-05,
-   "peak": 3.478e-05,
-   "cost": 0.3226232843371417,
-   "opened": "2026-11-15T12:28:07+07:00",
-   "zoo": "rand",
-   "smart": 25,
-   "kol": 1,
-   "gap": 1,
    "miss": 0
   }
  },
@@ -1897,8 +1869,38 @@
    "zoo": "rand",
    "smart": 25,
    "kol": 1
+  },
+  {
+   "t": "2026-11-15T12:32:58+07:00",
+   "kind": "sell",
+   "mint": "4ed5SsUJeXaDCyM7aGHoA5LBjQjEx3xzVGpYEcMvpump",
+   "sym": "meme",
+   "price": 6.206e-06,
+   "entry": 1.593e-05,
+   "usd": 0.1213,
+   "pnl": -0.2094,
+   "why": "stop -61.0%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 7,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T12:32:58+07:00",
+   "kind": "sell",
+   "mint": "F63zJ8AM4RnHHxnHzGAPgM8Amv8KTSqG9knPd7yvpump",
+   "sym": "HODL",
+   "price": 2.963e-05,
+   "entry": 3.478e-05,
+   "usd": 0.2587,
+   "pnl": -0.0639,
+   "why": "stop -14.8%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 25,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794720473.9605753
+ "rank_t": 1794720764.5720594
 }
