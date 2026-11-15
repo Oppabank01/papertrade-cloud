@@ -1,41 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 5.002188875044858,
+ "cash": 6.945125457758707,
  "pos": {
-  "55A3VxMBfzw6uSe64zms5iMPw9k6kx9WzzusbCU6pump": {
-   "sym": "Gato",
-   "qty": 10097.89166914294,
-   "entry": 0.0001015,
-   "last": 0.0001006,
-   "peak": 0.0001091,
-   "cost": 1.0564172381137997,
-   "opened": "2026-11-15T11:52:22+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 277,
-   "kol": 27,
-   "gap": 0,
-   "miss": 0
-  },
-  "FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": {
-   "sym": ":3",
-   "qty": 3221.5690262447756,
-   "entry": 0.0003172,
-   "last": 0.0003063,
-   "peak": 0.0003202,
-   "cost": 1.0532691147442206,
-   "opened": "2026-11-15T11:52:22+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 121,
-   "kol": 9,
-   "gap": 0,
-   "miss": 0
-  },
   "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
    "sym": "FOOD",
    "qty": 2556.8349304721655,
    "entry": 0.0003961,
-   "last": 0.0003512,
+   "last": 0.0003632,
    "peak": 0.0004106,
    "cost": 1.0438696309627138,
    "opened": "2026-11-15T12:10:41+07:00",
@@ -63,14 +35,14 @@
    "sym": "PAYDAY",
    "qty": 2895.533275854072,
    "entry": 0.0003319,
-   "last": 0.0003202,
+   "last": 0.0003141,
    "peak": 0.0003761,
    "cost": 0.9905457578395862,
    "opened": "2026-11-15T13:40:23+07:00",
    "zoo": "w_pause_scalp",
    "smart": 105,
    "kol": 2,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -1242,8 +1214,38 @@
    "zoo": "w_pause_scalp",
    "smart": 105,
    "kol": 2
+  },
+  {
+   "t": "2026-11-15T13:52:42+07:00",
+   "kind": "sell",
+   "mint": "55A3VxMBfzw6uSe64zms5iMPw9k6kx9WzzusbCU6pump",
+   "sym": "Gato",
+   "price": 0.0001006,
+   "entry": 0.0001015,
+   "usd": 0.9856,
+   "pnl": -0.0708,
+   "why": "ครบ 2 ชม. (-0.9%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 277,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T13:52:42+07:00",
+   "kind": "sell",
+   "mint": "FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump",
+   "sym": ":3",
+   "price": 0.0003063,
+   "entry": 0.0003172,
+   "usd": 0.9574,
+   "pnl": -0.0959,
+   "why": "ครบ 2 ชม. (-3.4%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 121,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794725273.9977481
+ "rank_t": 1794725561.9489949
 }
