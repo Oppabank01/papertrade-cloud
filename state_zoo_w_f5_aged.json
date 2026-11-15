@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 5.949710634400905,
+ "cash": 2.9754933577380562,
  "pos": {
   "JB2wezZLdzWfnaCfHxLg193RS3Rh51ThiXxEDWQDpump": {
    "sym": "LABUBU",
@@ -14,6 +14,34 @@
    "zoo": "w_f5_aged",
    "smart": 34,
    "kol": 116,
+   "gap": 0,
+   "miss": 0
+  },
+  "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": {
+   "sym": "VEIL",
+   "qty": 3323.6223572086524,
+   "entry": 0.0004354,
+   "last": 0.0004354,
+   "peak": 0.0004354,
+   "cost": 1.4915534676650664,
+   "opened": "2026-11-15T20:24:32+07:00",
+   "zoo": "w_f5_aged",
+   "smart": 74,
+   "kol": 5,
+   "gap": 0,
+   "miss": 0
+  },
+  "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS": {
+   "sym": "BAGSPAY",
+   "qty": 2466.1073675461143,
+   "entry": 0.0005833,
+   "last": 0.0005899,
+   "peak": 0.0005899,
+   "cost": 1.4826638089977824,
+   "opened": "2026-11-15T20:24:34+07:00",
+   "zoo": "w_f5_aged",
+   "smart": 187,
+   "kol": 18,
    "gap": 0,
    "miss": 0
   }
@@ -1052,8 +1080,36 @@
    "cost_side": 0.03,
    "smart": 78,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T20:24:32+07:00",
+   "kind": "buy",
+   "mint": "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump",
+   "sym": "VEIL",
+   "price": 0.0004354,
+   "jup": 0.00043535802903571464,
+   "usd": 1.4916,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged",
+   "smart": 74,
+   "kol": 5
+  },
+  {
+   "t": "2026-11-15T20:24:34+07:00",
+   "kind": "buy",
+   "mint": "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS",
+   "sym": "BAGSPAY",
+   "price": 0.0005833,
+   "jup": 0.0005833503728082206,
+   "usd": 1.4827,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged",
+   "smart": 187,
+   "kol": 18
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794748708.746261
+ "rank_t": 1794748982.4322941
 }
