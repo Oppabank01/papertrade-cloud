@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.14030769488847858,
+ "cash": 0.2118849184458922,
  "pos": {
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 182.6171033135507,
    "entry": 0.000463,
-   "last": 0.0005183,
-   "peak": 0.0005251,
+   "last": 0.000547,
+   "peak": 0.000547,
    "cost": 0.08714875163283238,
    "opened": "2026-11-15T05:18:15+07:00",
    "smart": 79,
@@ -20,25 +20,12 @@
    "sym": "ZCAT",
    "qty": 6.361713386944839,
    "entry": 0.01274,
-   "last": 0.01455,
+   "last": 0.01457,
    "peak": 0.01483,
    "cost": 0.0835376505356393,
    "opened": "2026-11-15T05:55:18+07:00",
    "smart": 329,
    "kol": 48,
-   "gap": 0,
-   "miss": 0
-  },
-  "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
-   "sym": "SAPLING",
-   "qty": 59.3052577396559,
-   "entry": 0.001357,
-   "last": 0.001327,
-   "peak": 0.001357,
-   "cost": 0.082949118483522,
-   "opened": "2026-11-15T07:19:04+07:00",
-   "smart": 185,
-   "kol": 19,
    "gap": 0,
    "miss": 0
   }
@@ -3143,8 +3130,23 @@
    "cost_side": 0.03,
    "smart": 471,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T07:28:21+07:00",
+   "kind": "sell",
+   "mint": "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W",
+   "sym": "SAPLING",
+   "price": 0.001244,
+   "entry": 0.001357,
+   "usd": 0.0716,
+   "pnl": -0.0114,
+   "why": "stop -8.3%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 185,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794702207.9799871
+ "rank_t": 1794702483.5803447
 }
