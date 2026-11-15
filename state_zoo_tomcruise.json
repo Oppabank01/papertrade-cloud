@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 3.7746461308348973,
- "pos": {},
+ "cash": 3.3971815177514078,
+ "pos": {
+  "3GN46GsmAUQSpHXtY3oasJFYAbp9RBzVoR7X8ar1pump": {
+   "sym": "BEAR",
+   "qty": 3816.34188842853,
+   "entry": 9.596e-05,
+   "last": 9.596e-05,
+   "peak": 9.596e-05,
+   "cost": 0.3774646130834898,
+   "opened": "2026-11-16T00:38:22+07:00",
+   "zoo": "tomcruise",
+   "smart": 11,
+   "kol": 0,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:50:19+07:00",
@@ -1172,8 +1187,22 @@
    "cost_side": 0.03,
    "smart": 33,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T00:38:22+07:00",
+   "kind": "buy",
+   "mint": "3GN46GsmAUQSpHXtY3oasJFYAbp9RBzVoR7X8ar1pump",
+   "sym": "BEAR",
+   "price": 9.596e-05,
+   "jup": 9.600805165841108e-05,
+   "usd": 0.3775,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "tomcruise",
+   "smart": 11,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: tomcruise 6 เอเจนต์: scanner rug check sizer ตามสภาพคล่อง",
- "rank_t": 1794763956.819
+ "rank_t": 1794764243.2674558
 }
