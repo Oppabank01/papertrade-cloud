@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 2.403102369599104,
+ "cash": 1.1703095197285467,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 29.568643824421343,
    "entry": 0.04316,
-   "last": 0.04355,
-   "peak": 0.04357,
+   "last": 0.04371,
+   "peak": 0.0438,
    "cost": 1.315381021915095,
    "opened": "2026-11-16T03:45:59+07:00",
    "zoo": "w_f5_aged",
@@ -21,28 +21,42 @@
    "sym": "SAPLING",
    "qty": 790.36671745813,
    "entry": 0.001564,
-   "last": 0.001531,
+   "last": 0.0015731502834216927,
    "peak": 0.001679,
    "cost": 1.2741017791223619,
    "opened": "2026-11-16T05:23:29+07:00",
    "zoo": "w_f5_aged",
    "smart": 186,
    "kol": 19,
-   "gap": 21,
+   "gap": 13,
    "miss": 0
   },
   "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
    "sym": "WASTED",
    "qty": 232.39646643403492,
    "entry": 0.005161,
-   "last": 0.005023588085557966,
+   "last": 0.005081,
    "peak": 0.005201,
    "cost": 1.2362380573758547,
    "opened": "2026-11-16T05:56:55+07:00",
    "zoo": "w_f5_aged",
    "smart": 73,
    "kol": 1,
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
+   "sym": "Rings",
+   "qty": 2524.3892421790088,
+   "entry": 0.0004738,
+   "last": 0.0004875,
+   "peak": 0.0004875,
+   "cost": 1.2327928498705572,
+   "opened": "2026-11-16T06:06:27+07:00",
+   "zoo": "w_f5_aged",
+   "smart": 78,
+   "kol": 5,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1485,8 +1499,22 @@
    "zoo": "w_f5_aged",
    "smart": 73,
    "kol": 1
+  },
+  {
+   "t": "2026-11-16T06:06:27+07:00",
+   "kind": "buy",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.0004738,
+   "jup": 0.00047542033498539765,
+   "usd": 1.2328,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged",
+   "smart": 78,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794783614.1097038
+ "rank_t": 1794783895.6453993
 }
