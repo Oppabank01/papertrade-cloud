@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.29288198240376145,
+ "cash": 0.5857493421422099,
  "pos": {
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
    "sym": "paws",
    "qty": 418.18525182978243,
    "entry": 0.0007445,
-   "last": 0.0006948,
+   "last": 0.0007093,
    "peak": 0.0007749,
    "cost": 0.3209017934315327,
    "opened": "2026-11-15T12:09:15+07:00",
@@ -17,25 +17,11 @@
    "gap": 0,
    "miss": 0
   },
-  "2pjcq9k2X5oSArNKiVeQ2ENB63eJt8pwCabciGQGpump": {
-   "sym": "Optimistic",
-   "qty": 9604.739332967674,
-   "entry": 3.194e-05,
-   "last": 3.312e-05,
-   "peak": 3.703e-05,
-   "cost": 0.31619807698926766,
-   "opened": "2026-11-15T12:23:17+07:00",
-   "smart": 117,
-   "kol": 18,
-   "bundler": 0.0316,
-   "gap": 0,
-   "miss": 0
-  },
   "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
    "sym": "Lucia",
    "qty": 323.6460073526651,
    "entry": 0.0009128,
-   "last": 0.0008572,
+   "last": 0.0008555,
    "peak": 0.00092,
    "cost": 0.3044981194717715,
    "opened": "2026-11-15T13:19:37+07:00",
@@ -26696,6 +26682,21 @@
    "smart": 287,
    "kol": 23,
    "bundler": 0.3199
+  },
+  {
+   "t": "2026-11-15T13:57:23+07:00",
+   "kind": "sell",
+   "mint": "2pjcq9k2X5oSArNKiVeQ2ENB63eJt8pwCabciGQGpump",
+   "sym": "Optimistic",
+   "price": 3.142853365406714e-05,
+   "entry": 3.194e-05,
+   "usd": 0.2929,
+   "pnl": -0.0233,
+   "why": "trailing จากยอด +16% (-1.6%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 117,
+   "bundler": 0.0316
   }
  ]
 }
