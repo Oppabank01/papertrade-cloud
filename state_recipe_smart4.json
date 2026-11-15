@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.033915372011420065,
+ "cash": 0.11682688386965731,
  "pos": {
   "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": {
    "sym": "PUMPCADE",
    "qty": 4.82641907388533,
    "entry": 0.01369,
-   "last": 0.01469,
+   "last": 0.01456,
    "peak": 0.01469,
    "cost": 0.0681031510219441,
    "opened": "2026-11-15T08:37:50+07:00",
@@ -26,32 +26,6 @@
    "opened": "2026-11-15T10:59:08+07:00",
    "smart": 321,
    "kol": 27,
-   "gap": 0,
-   "miss": 0
-  },
-  "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": {
-   "sym": "bill",
-   "qty": 82.73569115453682,
-   "entry": 0.0006138,
-   "last": 0.0006138,
-   "peak": 0.0006138,
-   "cost": 0.05234298828144166,
-   "opened": "2026-11-15T11:13:42+07:00",
-   "smart": 108,
-   "kol": 5,
-   "gap": 0,
-   "miss": 0
-  },
-  "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": {
-   "sym": "WISHMAS",
-   "qty": 335.19588017237726,
-   "entry": 0.0001506,
-   "last": 0.0001506,
-   "peak": 0.0001506,
-   "cost": 0.052031024071284286,
-   "opened": "2026-11-15T11:13:42+07:00",
-   "smart": 135,
-   "kol": 9,
    "gap": 0,
    "miss": 0
   }
@@ -3533,8 +3507,38 @@
    "cost_side": 0.03,
    "smart": 135,
    "kol": 9
+  },
+  {
+   "t": "2026-11-15T11:18:03+07:00",
+   "kind": "sell",
+   "mint": "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
+   "sym": "bill",
+   "price": 0.0005123,
+   "entry": 0.0006138,
+   "usd": 0.0411,
+   "pnl": -0.0112,
+   "why": "stop -16.5%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 108,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T11:18:03+07:00",
+   "kind": "sell",
+   "mint": "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
+   "sym": "WISHMAS",
+   "price": 0.0001285,
+   "entry": 0.0001506,
+   "usd": 0.0418,
+   "pnl": -0.0102,
+   "why": "stop -14.7%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 135,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794715981.5316043
+ "rank_t": 1794716260.0734305
 }

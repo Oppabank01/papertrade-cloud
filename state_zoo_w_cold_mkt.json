@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 12.30602714392481,
- "pos": {
-  "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
-   "sym": "NIO",
-   "qty": 1173.3658458905873,
-   "entry": 0.002453,
-   "last": 0.0016734866926458268,
-   "peak": 0.002829,
-   "cost": 2.9072664023328807,
-   "opened": "2026-11-14T23:19:31+07:00",
-   "zoo": "w_cold_mkt",
-   "smart": 394,
-   "kol": 30,
-   "gap": 3,
-   "miss": 0
-  }
- },
+ "cash": 14.21579868539876,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T22:43:41+07:00",
@@ -124,9 +109,24 @@
    "cost_side": 0.01,
    "smart": 721,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T11:19:52+07:00",
+   "kind": "sell",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "price": 0.001644,
+   "entry": 0.002453,
+   "usd": 1.9098,
+   "pnl": -0.9975,
+   "why": "ครบ 12 ชม. (-33.0%)",
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "smart": 394,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ตลาดเย็น: กฎ w_aged_nostop เฉพาะรอบที่เหรียญขึ้นไม่เกิน 61%",
- "rank_t": 1794715981.5316043,
+ "rank_t": 1794716260.0734305,
  "halted": "ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }
