@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.5929394212611583,
+ "cash": 2.8443343474306753,
  "pos": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": {
    "sym": "WOJAK",
@@ -14,49 +14,21 @@
    "zoo": "w_pause_smartflow",
    "smart": 5,
    "kol": 0,
-   "gap": 20,
-   "miss": 0
-  },
-  "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": {
-   "sym": "WISHMAS",
-   "qty": 14139.418285178783,
-   "entry": 0.0001105,
-   "last": 9.842e-05,
-   "peak": 0.00012957788775647347,
-   "cost": 1.61039550660921,
-   "opened": "2026-11-15T14:36:39+07:00",
-   "zoo": "w_pause_smartflow",
-   "smart": 138,
-   "kol": 9,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   },
   "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": {
    "sym": "bill",
    "qty": 2910.2297104160934,
    "entry": 0.0004743,
-   "last": 0.000606,
+   "last": 0.0005603,
    "peak": 0.000642,
    "cost": 1.4227189771700197,
    "opened": "2026-11-15T19:51:21+07:00",
    "zoo": "w_pause_smartflow",
    "smart": 119,
    "kol": 8,
-   "gap": 0,
-   "miss": 0
-  },
-  "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": {
-   "sym": "Socks",
-   "qty": 7063.096135285769,
-   "entry": 0.000191,
-   "last": 0.00017353092580572643,
-   "peak": 0.0002291,
-   "cost": 1.3904879012982707,
-   "opened": "2026-11-15T20:57:22+07:00",
-   "zoo": "w_pause_smartflow",
-   "smart": 69,
-   "kol": 6,
-   "gap": 3,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -568,10 +540,40 @@
    "t": "2026-11-15T21:59:00+07:00",
    "kind": "resume",
    "why": "ราคา WOJAK สองแหล่งต่างกันเกิน 1% ติดกัน 51 รอบ"
+  },
+  {
+   "t": "2026-11-15T22:22:28+07:00",
+   "kind": "sell",
+   "mint": "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
+   "sym": "WISHMAS",
+   "price": 8.829e-05,
+   "entry": 0.0001105,
+   "usd": 1.2112,
+   "pnl": -0.3992,
+   "why": "stop -20.1%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 138,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T22:24:54+07:00",
+   "kind": "sell",
+   "mint": "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump",
+   "sym": "Socks",
+   "price": 0.0001518,
+   "entry": 0.000191,
+   "usd": 1.0402,
+   "pnl": -0.3503,
+   "why": "stop -20.5%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 69,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794755792.8657608,
+ "rank_t": 1794756080.188828,
  "halted": "ราคา WOJAK สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-15T23:18:26+07:00"
 }

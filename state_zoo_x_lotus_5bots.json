@@ -1,0 +1,128 @@
+{
+ "start_thb": 500.0,
+ "start_usd": 14.714537963507947,
+ "cash": 3.0477284441104646,
+ "pos": {
+  "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
+   "sym": "JOB",
+   "qty": 2176.2263311273496,
+   "entry": 0.001312,
+   "last": 0.0013201512296152416,
+   "peak": 0.0013201512296152416,
+   "cost": 2.9429075927015895,
+   "opened": "2026-11-15T22:22:59+07:00",
+   "zoo": "x_lotus_5bots",
+   "smart": 32,
+   "kol": 0,
+   "gap": 1,
+   "miss": 0
+  },
+  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
+   "sym": "GATO",
+   "qty": 430.029075927016,
+   "entry": 0.0066,
+   "last": 0.00661,
+   "peak": 0.00661,
+   "cost": 2.9253678634490883,
+   "opened": "2026-11-15T22:23:03+07:00",
+   "zoo": "x_lotus_5bots",
+   "smart": 63,
+   "kol": 4,
+   "gap": 0,
+   "miss": 0
+  },
+  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
+   "sym": "STONK",
+   "qty": 66.08752113815041,
+   "entry": 0.04269,
+   "last": 0.04287,
+   "peak": 0.04287,
+   "cost": 2.907932670982932,
+   "opened": "2026-11-15T22:23:07+07:00",
+   "zoo": "x_lotus_5bots",
+   "smart": 1000,
+   "kol": 174,
+   "gap": 0,
+   "miss": 0
+  },
+  "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
+   "sym": "NIO",
+   "qty": 1816.3610562010426,
+   "entry": 0.001544,
+   "last": 0.00156,
+   "peak": 0.00156,
+   "cost": 2.8906013922638736,
+   "opened": "2026-11-15T22:23:09+07:00",
+   "zoo": "x_lotus_5bots",
+   "smart": 408,
+   "kol": 32,
+   "gap": 0,
+   "miss": 0
+  }
+ },
+ "log": [
+  {
+   "t": "2026-11-15T22:21:46+07:00",
+   "kind": "init",
+   "thb": 500.0
+  },
+  {
+   "t": "2026-11-15T22:22:59+07:00",
+   "kind": "buy",
+   "mint": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
+   "sym": "JOB",
+   "price": 0.001312,
+   "jup": 0.0013119052949109625,
+   "usd": 2.9429,
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "zoo": "x_lotus_5bots",
+   "smart": 32,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-15T22:23:03+07:00",
+   "kind": "buy",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "price": 0.0066,
+   "jup": 0.0065881298535010084,
+   "usd": 2.9254,
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "zoo": "x_lotus_5bots",
+   "smart": 63,
+   "kol": 4
+  },
+  {
+   "t": "2026-11-15T22:23:07+07:00",
+   "kind": "buy",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.04269,
+   "jup": 0.0426283068903221,
+   "usd": 2.9079,
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "zoo": "x_lotus_5bots",
+   "smart": 1000,
+   "kol": 174
+  },
+  {
+   "t": "2026-11-15T22:23:09+07:00",
+   "kind": "buy",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "price": 0.001544,
+   "jup": 0.001544120858133986,
+   "usd": 2.8906,
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "zoo": "x_lotus_5bots",
+   "smart": 408,
+   "kol": 32
+  }
+ ],
+ "label": "สวนสัตว์: 5 บอท: pool 25k+ dev ไม่เกิน 5% top10 ไม่เกิน 20% ขายครึ่ง x2 stop -25%",
+ "rank_t": 1794756080.188828
+}

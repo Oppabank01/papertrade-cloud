@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.820402892593121,
- "pos": {
-  "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
-   "sym": "Leonida",
-   "qty": 384.8167116582121,
-   "entry": 0.0005171,
-   "last": 0.0004845100765464626,
-   "peak": 0.0005171,
-   "cost": 0.20510072314828026,
-   "opened": "2026-11-15T22:02:23+07:00",
-   "smart": 81,
-   "kol": 4,
-   "bundler": 0.0985,
-   "gap": 1,
-   "miss": 0
-  }
- },
+ "cash": 0.9967730422257577,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T01:37:56+07:00",
@@ -30739,6 +30724,43 @@
    "buy": 0.8442,
    "bull": 0.9615,
    "bear": 1.0
+  },
+  {
+   "t": "2026-11-15T22:21:25+07:00",
+   "kind": "debate",
+   "mint": "8WvWwttzaLfW1nbjx6wmYL5jozWpvy95WktAg5cipump",
+   "sym": "twert",
+   "ok": false,
+   "bundler": 0.1811,
+   "buy": 0.801,
+   "bull": 0.8535,
+   "bear": 0.9986
+  },
+  {
+   "t": "2026-11-15T22:21:27+07:00",
+   "kind": "debate",
+   "mint": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
+   "sym": "OTC",
+   "ok": false,
+   "bundler": 0.1729,
+   "buy": 0.8779,
+   "bull": 0.9453,
+   "bear": 0.9986
+  },
+  {
+   "t": "2026-11-15T22:21:27+07:00",
+   "kind": "sell",
+   "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "sym": "Leonida",
+   "price": 0.0004724,
+   "entry": 0.0005171,
+   "usd": 0.1764,
+   "pnl": -0.0287,
+   "why": "stop -8.6%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 81,
+   "bundler": 0.0985
   }
  ]
 }

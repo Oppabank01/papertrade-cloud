@@ -1,0 +1,128 @@
+{
+ "start_thb": 500.0,
+ "start_usd": 14.714537963507947,
+ "cash": 3.0477284441104646,
+ "pos": {
+  "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
+   "sym": "WASTED",
+   "qty": 588.3389545516346,
+   "entry": 0.004853,
+   "last": 0.004799,
+   "peak": 0.004853,
+   "cost": 2.9429075927015895,
+   "opened": "2026-11-15T22:23:29+07:00",
+   "zoo": "x_skip_pumped",
+   "smart": 72,
+   "kol": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
+   "sym": "JOB",
+   "qty": 2125.9864427852476,
+   "entry": 0.001335,
+   "last": 0.0013201512296152416,
+   "peak": 0.001335,
+   "cost": 2.9253678634490883,
+   "opened": "2026-11-15T22:23:39+07:00",
+   "zoo": "x_skip_pumped",
+   "smart": 32,
+   "kol": 0,
+   "gap": 1,
+   "miss": 0
+  },
+  "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
+   "sym": "Leonida",
+   "qty": 6123.890335115348,
+   "entry": 0.0004607,
+   "last": 0.00045013666222277994,
+   "peak": 0.0004607,
+   "cost": 2.907932670982932,
+   "opened": "2026-11-15T22:23:46+07:00",
+   "zoo": "x_skip_pumped",
+   "smart": 81,
+   "kol": 4,
+   "gap": 1,
+   "miss": 0
+  },
+  "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
+   "sym": "NIO",
+   "qty": 1816.3610562010426,
+   "entry": 0.001544,
+   "last": 0.00156,
+   "peak": 0.00156,
+   "cost": 2.8906013922638736,
+   "opened": "2026-11-15T22:23:50+07:00",
+   "zoo": "x_skip_pumped",
+   "smart": 408,
+   "kol": 32,
+   "gap": 0,
+   "miss": 0
+  }
+ },
+ "log": [
+  {
+   "t": "2026-11-15T22:21:46+07:00",
+   "kind": "init",
+   "thb": 500.0
+  },
+  {
+   "t": "2026-11-15T22:23:29+07:00",
+   "kind": "buy",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "price": 0.004853,
+   "jup": 0.004836032404075412,
+   "usd": 2.9429,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 72,
+   "kol": 1
+  },
+  {
+   "t": "2026-11-15T22:23:39+07:00",
+   "kind": "buy",
+   "mint": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
+   "sym": "JOB",
+   "price": 0.001335,
+   "jup": 0.001326940680646901,
+   "usd": 2.9254,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 32,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-15T22:23:46+07:00",
+   "kind": "buy",
+   "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "sym": "Leonida",
+   "price": 0.0004607,
+   "jup": 0.00046073616260615207,
+   "usd": 2.9079,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 81,
+   "kol": 4
+  },
+  {
+   "t": "2026-11-15T22:23:50+07:00",
+   "kind": "buy",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "price": 0.001544,
+   "jup": 0.0015423869498825233,
+   "usd": 2.8906,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 408,
+   "kol": 32
+  }
+ ],
+ "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
+ "rank_t": 1794756080.188828
+}
