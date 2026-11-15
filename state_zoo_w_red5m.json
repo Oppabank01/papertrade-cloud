@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.718869590815427,
- "cash": 8.351449560872183,
+ "cash": 11.337471132127225,
  "pos": {
-  "9AvytnUKsLxPxFHFqS6VLxaxt5p6BhYNr53SD2Chpump": {
-   "sym": "67",
-   "qty": 2631.856231225005,
-   "entry": 0.001128,
-   "last": 0.001145,
-   "peak": 0.001186,
-   "cost": 2.9986453158473836,
-   "opened": "2026-11-15T10:54:50+07:00",
-   "zoo": "w_red5m",
-   "smart": 372,
-   "kol": 63,
-   "gap": 0,
-   "miss": 0
-  },
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
    "sym": "ZCAT",
    "qty": 163.0060070289455,
    "entry": 0.01742,
-   "last": 0.01662,
+   "last": 0.016018803196327574,
    "peak": 0.01882,
    "cost": 2.8681746849263714,
    "opened": "2026-11-15T10:59:47+07:00",
    "zoo": "w_red5m",
    "smart": 329,
    "kol": 48,
-   "gap": 0,
+   "gap": 6,
    "miss": 0
   }
  },
@@ -239,9 +225,24 @@
    "cost_side": 0.01,
    "smart": 398,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T22:55:13+07:00",
+   "kind": "sell",
+   "mint": "9AvytnUKsLxPxFHFqS6VLxaxt5p6BhYNr53SD2Chpump",
+   "sym": "67",
+   "price": 0.001146,
+   "entry": 0.001128,
+   "usd": 2.986,
+   "pnl": -0.0126,
+   "why": "ครบ 12 ชม. (+1.6%)",
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "smart": 372,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สวนทาง: อายุเกิน 1 วัน pool 200k+ กำลังแดง 5 นาที",
- "rank_t": 1794757782.7583206,
+ "rank_t": 1794758055.5030148,
  "halted": "ราคา ZCAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }
