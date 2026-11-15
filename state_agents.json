@@ -1,33 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.6628290019324152,
+ "cash": 0.8548018240042823,
  "pos": {
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 105.5928927536251,
    "entry": 0.002197,
-   "last": 0.0021248541502325922,
+   "last": 0.002165,
    "peak": 0.002223,
    "cost": 0.23911315747239162,
    "opened": "2026-11-15T18:25:35+07:00",
    "smart": 169,
    "kol": 8,
    "bundler": 0.0584,
-   "gap": 1,
-   "miss": 0
-  },
-  "5wU7osGtkG6NP1Fxqv83mFL4uuDmjvggrkGwuZiYpump": {
-   "sym": "VI",
-   "qty": 8667.075253950423,
-   "entry": 2.549e-05,
-   "last": 2.549e-05,
-   "peak": 2.549e-05,
-   "cost": 0.22770949105668553,
-   "opened": "2026-11-15T19:40:49+07:00",
-   "smart": 63,
-   "kol": 2,
-   "bundler": 0.2158,
    "gap": 0,
    "miss": 0
   }
@@ -29415,6 +29401,54 @@
    "cost_side": 0.03,
    "smart": 82,
    "bundler": 0.0537
+  },
+  {
+   "t": "2026-11-15T19:45:16+07:00",
+   "kind": "debate",
+   "mint": "CM65K38bqGePYkNQBjGRRDYMhyxgh9xTQg2HPQTFpump",
+   "sym": "Pois",
+   "ok": false,
+   "bundler": 0.0494,
+   "buy": 0.822,
+   "bull": 0.9126,
+   "bear": 0.9645
+  },
+  {
+   "t": "2026-11-15T19:45:19+07:00",
+   "kind": "debate",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "ok": false,
+   "bundler": 0.2136,
+   "buy": 0.8509,
+   "bull": 0.9106,
+   "bear": 0.9996
+  },
+  {
+   "t": "2026-11-15T19:45:22+07:00",
+   "kind": "debate",
+   "mint": "77HqxiDCgYfXUsDXDD6YVefPhTTz1Z2n8jX4gTxipump",
+   "sym": "updog",
+   "ok": false,
+   "bundler": 0.1929,
+   "buy": 0.85,
+   "bull": 0.9516,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-15T19:45:23+07:00",
+   "kind": "sell",
+   "mint": "5wU7osGtkG6NP1Fxqv83mFL4uuDmjvggrkGwuZiYpump",
+   "sym": "VI",
+   "price": 2.283e-05,
+   "entry": 2.549e-05,
+   "usd": 0.192,
+   "pnl": -0.0357,
+   "why": "stop -10.4%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 63,
+   "bundler": 0.2158
   }
  ]
 }

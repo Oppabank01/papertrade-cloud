@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.6405987118912502,
+ "cash": 0.8392768777219137,
  "pos": {
   "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": {
    "sym": "fone",
@@ -21,7 +21,7 @@
    "sym": "swordcat",
    "qty": 1134.9405936678363,
    "entry": 0.000697,
-   "last": 0.0006622,
+   "last": 0.0006508,
    "peak": 0.000697,
    "cost": 0.8153510552324076,
    "opened": "2026-11-15T18:39:40+07:00",
@@ -42,6 +42,20 @@
    "zoo": "boosted",
    "smart": 5,
    "kol": 0,
+   "gap": 0,
+   "miss": 0
+  },
+  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
+   "sym": "DacityCoin",
+   "qty": 192.10339597506552,
+   "entry": 0.004047,
+   "last": 0.004047,
+   "peak": 0.004047,
+   "cost": 0.8013218341693364,
+   "opened": "2026-11-15T19:45:44+07:00",
+   "zoo": "boosted",
+   "smart": 249,
+   "kol": 20,
    "gap": 0,
    "miss": 0
   }
@@ -1911,8 +1925,22 @@
    "cost_side": 0.03,
    "smart": 74,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T19:45:44+07:00",
+   "kind": "buy",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.004047,
+   "jup": 0.004051453869772188,
+   "usd": 0.8013,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 249,
+   "kol": 20
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794746437.9097035
+ "rank_t": 1794746709.4970937
 }
