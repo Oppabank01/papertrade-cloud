@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.8443343474306753,
+ "cash": 4.495237642022892,
  "pos": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": {
    "sym": "WOJAK",
@@ -14,21 +14,7 @@
    "zoo": "w_pause_smartflow",
    "smart": 5,
    "kol": 0,
-   "gap": 6,
-   "miss": 0
-  },
-  "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": {
-   "sym": "bill",
-   "qty": 2910.2297104160934,
-   "entry": 0.0004743,
-   "last": 0.0006006,
-   "peak": 0.0007872,
-   "cost": 1.4227189771700197,
-   "opened": "2026-11-15T19:51:21+07:00",
-   "zoo": "w_pause_smartflow",
-   "smart": 119,
-   "kol": 8,
-   "gap": 2,
+   "gap": 4,
    "miss": 0
   }
  },
@@ -575,8 +561,23 @@
    "t": "2026-11-15T23:19:14+07:00",
    "kind": "resume",
    "why": "ราคา WOJAK สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-15T23:23:00+07:00",
+   "kind": "sell",
+   "mint": "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
+   "sym": "bill",
+   "price": 0.0005847,
+   "entry": 0.0004743,
+   "usd": 1.6509,
+   "pnl": 0.2282,
+   "why": "trailing จากยอด +66% (+23.3%)",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 119,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794759476.4284642
+ "rank_t": 1794759759.423845
 }

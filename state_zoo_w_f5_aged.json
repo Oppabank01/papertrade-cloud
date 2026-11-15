@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 3.744324397337947,
+ "cash": 5.185637099817075,
  "pos": {
-  "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS": {
-   "sym": "BAGSPAY",
-   "qty": 2466.1073675461143,
-   "entry": 0.0005833,
-   "last": 0.0006024,
-   "peak": 0.0006576,
-   "cost": 1.4826638089977824,
-   "opened": "2026-11-15T20:24:34+07:00",
-   "zoo": "w_f5_aged",
-   "smart": 187,
-   "kol": 18,
-   "gap": 0,
-   "miss": 0
-  },
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": {
    "sym": "OTC",
    "qty": 488.26406156330415,
@@ -28,7 +14,7 @@
    "zoo": "w_f5_aged",
    "smart": 510,
    "kol": 55,
-   "gap": 0,
+   "gap": 6,
    "miss": 0
   }
  },
@@ -1225,8 +1211,23 @@
    "cost_side": 0.03,
    "smart": 34,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T23:24:35+07:00",
+   "kind": "sell",
+   "mint": "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS",
+   "sym": "BAGSPAY",
+   "price": 0.0006024,
+   "entry": 0.0005833,
+   "usd": 1.4413,
+   "pnl": -0.0414,
+   "why": "ครบ 3 ชม. (+3.3%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 187,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794759476.4284642
+ "rank_t": 1794759759.423845
 }
