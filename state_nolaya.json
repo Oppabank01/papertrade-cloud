@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.06566759715621433,
+ "cash": 0.12117033786945056,
  "pos": {
   "5BjfgmtfqvNpAWx1CnZynoWLWNMnrwHLhTFzQ81vkEc8": {
    "sym": "ClapCat",
@@ -31,22 +31,10 @@
    "sym": "RINA",
    "qty": 1398.4318045161726,
    "entry": 4.626e-05,
-   "last": 5.149e-05,
+   "last": 4.922e-05,
    "peak": 5.289e-05,
    "cost": 0.06667847379604015,
    "opened": "2026-11-15T16:38:28+07:00",
-   "source": "agents",
-   "gap": 0,
-   "miss": 0
-  },
-  "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
-   "sym": "FOOD",
-   "qty": 209.62816034061353,
-   "entry": 0.0003019,
-   "last": 0.0002873,
-   "peak": 0.0003125,
-   "cost": 0.06523061390108352,
-   "opened": "2026-11-15T16:47:45+07:00",
    "source": "agents",
    "gap": 0,
    "miss": 0
@@ -3314,6 +3302,21 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-15T17:52:44+07:00",
+   "kind": "sell",
+   "mint": "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
+   "sym": "FOOD",
+   "price": 0.0002729,
+   "entry": 0.0003019,
+   "usd": 0.0555,
+   "pnl": -0.0097,
+   "why": "stop -9.6%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "เร็ว ไม่มี laya",
@@ -5695,6 +5698,9 @@
   "state_agents.json:2026-11-15T17:38:28+07:00:G8Yp5m5VmBTh1myNUyoy1Gb7uY6ek3jkcTkYGxE8jQLN",
   "state_agents.json:2026-11-15T17:47:41+07:00:8UqE9m2rMoxUzrz4kBVWx5ia3PiA2aGD6kiZUoiUpump",
   "state_agents.json:2026-11-15T17:47:43+07:00:7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn",
-  "state_agents.json:2026-11-15T17:47:46+07:00:8JCsa61htnPj2af7g1KSyU1UEncruHE1Ph9aNR6rpump"
+  "state_agents.json:2026-11-15T17:47:46+07:00:8JCsa61htnPj2af7g1KSyU1UEncruHE1Ph9aNR6rpump",
+  "state_agents.json:2026-11-15T17:52:33+07:00:HxPrDS84HH3ijsJhiCLF55MN7DqLfxzbt99RnSuSpump",
+  "state_agents.json:2026-11-15T17:52:35+07:00:AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+  "state_agents.json:2026-11-15T17:52:38+07:00:8UqE9m2rMoxUzrz4kBVWx5ia3PiA2aGD6kiZUoiUpump"
  ]
 }

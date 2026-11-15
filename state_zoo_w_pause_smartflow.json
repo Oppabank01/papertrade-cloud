@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.25555935725123335,
+ "cash": 2.282128650433245,
  "pos": {
-  "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
-   "sym": "FOOD",
-   "qty": 7648.119682882018,
-   "entry": 0.0003442,
-   "last": 0.00028376131928150564,
-   "peak": 0.0004611,
-   "cost": 2.71334033688723,
-   "opened": "2026-11-15T01:03:30+07:00",
-   "zoo": "w_pause_smartflow",
-   "smart": 292,
-   "kol": 22,
-   "gap": 3,
-   "miss": 0
-  },
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": {
    "sym": "WOJAK",
    "qty": 1496381.5861989965,
@@ -28,28 +14,28 @@
    "zoo": "w_pause_smartflow",
    "smart": 5,
    "kol": 0,
-   "gap": 63,
+   "gap": 74,
    "miss": 0
   },
   "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": {
    "sym": "WISHMAS",
    "qty": 14139.418285178783,
    "entry": 0.0001105,
-   "last": 0.000104,
+   "last": 0.0001039,
    "peak": 0.00012957788775647347,
    "cost": 1.61039550660921,
    "opened": "2026-11-15T14:36:39+07:00",
    "zoo": "w_pause_smartflow",
    "smart": 138,
    "kol": 9,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "ABSZ6rwFCcWSTB4QiGfDqNBEgeyUswQWZm5Vt5rVpump": {
    "sym": "RINA",
    "qty": 31638.091788974907,
    "entry": 4.623e-05,
-   "last": 4.894e-05,
+   "last": 4.922e-05,
    "peak": 5.289e-05,
    "cost": 1.5075540954486806,
    "opened": "2026-11-15T16:39:39+07:00",
@@ -490,10 +476,25 @@
    "t": "2026-11-15T17:43:56+07:00",
    "kind": "resume",
    "why": "ราคา WOJAK สองแหล่งต่างกันเกิน 1% ติดกัน 36 รอบ"
+  },
+  {
+   "t": "2026-11-15T17:52:26+07:00",
+   "kind": "sell",
+   "mint": "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
+   "sym": "FOOD",
+   "price": 0.00027311497425488643,
+   "entry": 0.0003442,
+   "usd": 2.0266,
+   "pnl": -0.6868,
+   "why": "stop -20.7%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 292,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794739654.5901325,
+ "rank_t": 1794739946.4106445,
  "halted": "ราคา WOJAK สองแหล่งต่างกันเกิน 1% ติดกัน 43 รอบ",
  "halted_until": "2026-11-15T18:43:58+07:00"
 }
