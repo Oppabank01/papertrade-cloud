@@ -1,37 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 8.062339027836437,
- "pos": {
-  "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
-   "sym": "neet",
-   "qty": 89.62358991308268,
-   "entry": 0.02773,
-   "last": 0.0303,
-   "peak": 0.03167,
-   "cost": 2.5615977615850163,
-   "opened": "2026-11-15T09:02:43+07:00",
-   "zoo": "w_ban_bigliq",
-   "smart": 856,
-   "kol": 202,
-   "gap": 0,
-   "miss": 0
-  },
-  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
-   "sym": "CLAUDIA",
-   "qty": 601.5217886257549,
-   "entry": 0.004107,
-   "last": 0.004321,
-   "peak": 0.004837,
-   "cost": 2.5463306389259692,
-   "opened": "2026-11-15T09:02:43+07:00",
-   "zoo": "w_ban_bigliq",
-   "smart": 439,
-   "kol": 28,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 13.232046411739546,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-15T00:43:01+07:00",
@@ -456,10 +427,40 @@
    "cost_side": 0.03,
    "smart": 465,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T12:02:50+07:00",
+   "kind": "sell",
+   "mint": "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump",
+   "sym": "neet",
+   "price": 0.03048,
+   "entry": 0.02773,
+   "usd": 2.6503,
+   "pnl": 0.0887,
+   "why": "ครบ 3 ชม. (+9.9%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 856,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T12:02:50+07:00",
+   "kind": "sell",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.004317,
+   "entry": 0.004107,
+   "usd": 2.5194,
+   "pnl": -0.0269,
+   "why": "ครบ 3 ชม. (+5.1%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 439,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794718483.9923666,
+ "rank_t": 1794718770.8338215,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"
