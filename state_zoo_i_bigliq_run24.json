@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 1.7693641485054674,
+ "cash": 5.425465178357275,
  "pos": {
-  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
-   "sym": "CLAUDIA",
-   "qty": 743.9440143578463,
-   "entry": 0.003912,
-   "last": 0.004959,
-   "peak": 0.005365,
-   "cost": 2.939631811487482,
-   "opened": "2026-11-14T17:16:48+07:00",
-   "zoo": "i_bigliq_run24",
-   "smart": 439,
-   "kol": 28,
-   "gap": 0,
-   "miss": 0
-  },
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 62.93504971445982,
    "entry": 0.0433,
-   "last": 0.04866,
+   "last": 0.0488,
    "peak": 0.04898,
    "cost": 2.7525442818475394,
    "opened": "2026-11-14T23:32:47+07:00",
@@ -35,7 +21,7 @@
    "sym": "CATE",
    "qty": 177.8051627896159,
    "entry": 0.01436,
-   "last": 0.01787,
+   "last": 0.01796,
    "peak": 0.01863,
    "cost": 2.5790077398640276,
    "opened": "2026-11-15T05:23:27+07:00",
@@ -49,14 +35,14 @@
    "sym": "TROLL",
    "qty": 123.69177537826275,
    "entry": 0.02209,
-   "last": 0.02301,
+   "last": 0.02316,
    "peak": 0.02331,
    "cost": 2.7598811324015293,
    "opened": "2026-11-15T12:14:53+07:00",
    "zoo": "i_bigliq_run24",
    "smart": 465,
    "kol": 213,
-   "gap": 3,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -324,9 +310,24 @@
    "zoo": "i_bigliq_run24",
    "smart": 465,
    "kol": 213
+  },
+  {
+   "t": "2026-11-15T17:17:18+07:00",
+   "kind": "sell",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.004964,
+   "entry": 0.003912,
+   "usd": 3.6561,
+   "pnl": 0.7165,
+   "why": "ครบ 24 ชม. (+26.9%)",
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "smart": 439,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ ปล่อยวิ่ง trail 20/15 ถือ 24 ชม.",
- "rank_t": 1794737438.05518,
+ "rank_t": 1794737716.3442645,
  "halted": "ราคา CLAUDIA สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }
