@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 6.882254827375431,
+ "cash": 7.292519943506349,
  "pos": {
   "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
    "sym": "JOB",
    "qty": 355.87803408108584,
    "entry": 0.001446,
-   "last": 0.001378,
+   "last": 0.001379,
    "peak": 0.001474,
    "cost": 0.5304057279749023,
    "opened": "2026-11-15T13:34:46+07:00",
@@ -21,7 +21,7 @@
    "sym": "BRUH",
    "qty": 126.13090415572042,
    "entry": 0.004056,
-   "last": 0.00377,
+   "last": 0.003716,
    "peak": 0.004098,
    "cost": 0.527300502221812,
    "opened": "2026-11-15T13:44:29+07:00",
@@ -31,39 +31,25 @@
    "gap": 0,
    "miss": 0
   },
-  "uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY": {
-   "sym": "PAYDAY",
-   "qty": 1443.230508508213,
-   "entry": 0.0003467,
-   "last": 0.0002967,
-   "peak": 0.0003479,
-   "cost": 0.5157369792824135,
-   "opened": "2026-11-15T15:00:57+07:00",
-   "zoo": "w_pause_spray",
-   "smart": 106,
-   "kol": 2,
-   "gap": 1,
-   "miss": 0
-  },
   "FibMHnUpDLQGtg51rWZotvRX2yp45SewAU4KrCNcpump": {
    "sym": "42",
    "qty": 20049.05573651769,
    "entry": 2.492e-05,
-   "last": 2.3225312114410355e-05,
+   "last": 2.283e-05,
    "peak": 2.51e-05,
    "cost": 0.5149685311832827,
    "opened": "2026-11-15T15:00:57+07:00",
    "zoo": "w_pause_spray",
    "smart": 117,
    "kol": 7,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "31HzUsjzTt7FBCGnDy68cBnELayVsnd3zYEBtsXXpump": {
    "sym": "TrumpWars",
    "qty": 2462.0208907309075,
    "entry": 0.0002005,
-   "last": 0.0001882,
+   "last": 0.0001795,
    "peak": 0.0002005,
    "cost": 0.5087973496099226,
    "opened": "2026-11-15T15:10:30+07:00",
@@ -77,14 +63,14 @@
    "sym": "Snoopy",
    "qty": 1394.9603870755595,
    "entry": 0.0003543,
-   "last": 0.0003355,
+   "last": 0.00032872307190687076,
    "peak": 0.0003594,
    "cost": 0.5094150331280878,
    "opened": "2026-11-15T15:14:08+07:00",
    "zoo": "w_pause_spray",
    "smart": 220,
    "kol": 14,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "HruKkLrLJ7t1kL8E6HBccSpWdUpnhGmi3SVrB9Jjpump": {
@@ -2405,10 +2391,25 @@
    "cost_side": 0.03,
    "smart": 424,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T16:24:48+07:00",
+   "kind": "sell",
+   "mint": "uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY",
+   "sym": "PAYDAY",
+   "price": 0.000293,
+   "entry": 0.0003467,
+   "usd": 0.4103,
+   "pnl": -0.1055,
+   "why": "stop -15.5%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 106,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_spray_small แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794734333.64773,
+ "rank_t": 1794734615.274739,
  "halted": "ราคา Yams สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-15T16:39:31+07:00"
 }
