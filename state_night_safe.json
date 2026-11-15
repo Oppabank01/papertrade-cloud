@@ -343,10 +343,35 @@
    "cost_side": 0.03,
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T08:39:24+07:00",
+   "kind": "buy",
+   "mint": "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu",
+   "sym": "PUMPCADE",
+   "price": 0.01369,
+   "jup": 0.013795271771832027,
+   "usd": 2.7187,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "state_recipe_smart4.json"
   }
  ],
- "pos": {},
- "cash": 13.593505249781458,
+ "pos": {
+  "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": {
+   "sym": "PUMPCADE",
+   "qty": 192.67229793043052,
+   "entry": 0.01369,
+   "last": 0.01369,
+   "peak": 0.01369,
+   "cost": 2.718701049956292,
+   "opened": "2026-11-15T08:39:24+07:00",
+   "source": "state_recipe_smart4.json",
+   "gap": 0,
+   "miss": 0
+  }
+ },
+ "cash": 10.874804199825167,
  "start_usd": 14.727540500736376,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
@@ -620,6 +645,7 @@
   "state_recipe_smart4.json:2026-11-15T07:42:20+07:00:AvRSpY1rPA9iVFxYHc5D5JQW6oU5tjGQZdsW2e5upump",
   "state_recipe_smart4.json:2026-11-15T07:57:01+07:00:AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
   "state_recipe_smart4.json:2026-11-15T08:24:22+07:00:6sZUjgnHTdezsZoMdbTcxsi58bXqnsz6mkj49Wgxpump",
+  "state_recipe_smart4.json:2026-11-15T08:37:50+07:00:Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu",
   "state_wallets.json:2026-11-13T12:53:22+07:00:6p4ZRmb36ggUCox9R8eJ9Jva22doySgk6QVNrTFnpump",
   "state_wallets.json:2026-11-13T23:11:09+07:00:CFf1JUpnPYQe794psw7M6qogeG3z8ttVygLPd5t1pump",
   "state_wallets.json:2026-11-13T23:30:10+07:00:2rQWxRpgpxd9a24jK829ECcwWYnonPYmPRG9gG5cpump",

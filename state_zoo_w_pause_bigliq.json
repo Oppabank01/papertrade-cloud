@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.3603466780556848,
+ "cash": 2.387646952435525,
  "pos": {
-  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
-   "sym": "ANSEM",
-   "qty": 54.451170807579224,
-   "entry": 0.04198,
-   "last": 0.04311,
-   "peak": 0.04601,
-   "cost": 2.3560710683386685,
-   "opened": "2026-11-15T05:38:18+07:00",
-   "zoo": "w_pause_bigliq",
-   "smart": 1000,
-   "kol": 186,
-   "gap": 0,
-   "miss": 0
-  },
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
    "sym": "TROLL",
    "qty": 105.7868579678608,
    "entry": 0.02145,
-   "last": 0.02149,
+   "last": 0.02157,
    "peak": 0.02253,
    "cost": 2.338825091126174,
    "opened": "2026-11-15T06:15:33+07:00",
@@ -35,27 +21,41 @@
    "sym": "baton",
    "qty": 772.2101290735602,
    "entry": 0.002942,
-   "last": 0.0028158229708820357,
+   "last": 0.002807,
    "peak": 0.002998,
    "cost": 2.3416225517773803,
    "opened": "2026-11-15T06:43:18+07:00",
    "zoo": "w_pause_bigliq",
    "smart": 721,
    "kol": 80,
-   "gap": 2,
+   "gap": 7,
    "miss": 0
   },
   "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
    "sym": "JEANPHIL",
    "qty": 887.3050281439942,
    "entry": 0.002527,
-   "last": 0.002449,
+   "last": 0.002444,
    "peak": 0.002527,
    "cost": 2.311090296969567,
    "opened": "2026-11-15T08:21:19+07:00",
    "zoo": "w_pause_bigliq",
    "smart": 398,
    "kol": 43,
+   "gap": 0,
+   "miss": 0
+  },
+  "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": {
+   "sym": "PUMPCADE",
+   "qty": 159.4281109367107,
+   "entry": 0.01369,
+   "last": 0.01369,
+   "peak": 0.01369,
+   "cost": 2.249609192664986,
+   "opened": "2026-11-15T08:39:13+07:00",
+   "zoo": "w_pause_bigliq",
+   "smart": 123,
+   "kol": 19,
    "gap": 0,
    "miss": 0
   }
@@ -373,8 +373,37 @@
    "zoo": "w_pause_bigliq",
    "smart": 398,
    "kol": 43
+  },
+  {
+   "t": "2026-11-15T08:38:28+07:00",
+   "kind": "sell",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.0431,
+   "entry": 0.04198,
+   "usd": 2.2769,
+   "pnl": -0.0792,
+   "why": "ครบ 3 ชม. (+2.7%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 1000,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T08:39:13+07:00",
+   "kind": "buy",
+   "mint": "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu",
+   "sym": "PUMPCADE",
+   "price": 0.01369,
+   "jup": 0.013795271771832027,
+   "usd": 2.2496,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_bigliq",
+   "smart": 123,
+   "kol": 19
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794706370.6600058
+ "rank_t": 1794706648.5465431
 }
