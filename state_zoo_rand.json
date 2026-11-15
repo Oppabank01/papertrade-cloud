@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.527433782572962,
+ "cash": 0.5366562740134927,
  "pos": {
-  "4ikwYoNvoGEwtMbziUyYBTz1zRM6nmxspsfw9G7Bpump": {
-   "sym": "crypto",
-   "qty": 136.3311864313095,
-   "entry": 0.001925,
-   "last": 0.00204,
-   "peak": 0.002093,
-   "cost": 0.2704983857764078,
-   "opened": "2026-11-15T14:21:14+07:00",
-   "zoo": "rand",
-   "smart": 34,
-   "kol": 22,
-   "gap": 0,
-   "miss": 0
-  },
   "5BjfgmtfqvNpAWx1CnZynoWLWNMnrwHLhTFzQ81vkEc8": {
    "sym": "ClapCat",
    "qty": 2922.0703651261238,
    "entry": 8.752e-05,
-   "last": 8.441e-05,
+   "last": 8.255e-05,
    "peak": 8.766e-05,
    "cost": 0.26359472104291737,
    "opened": "2026-11-15T15:09:27+07:00",
@@ -42,6 +28,20 @@
    "zoo": "rand",
    "smart": 91,
    "kol": 2,
+   "gap": 0,
+   "miss": 0
+  },
+  "2Ga9d2enxaeU8WoDZRDiAWb1KEJWx7NdSovHBei4pump": {
+   "sym": "6STAR",
+   "qty": 12635.05185248482,
+   "entry": 1.995e-05,
+   "last": 1.995e-05,
+   "peak": 1.995e-05,
+   "cost": 0.25981167229135455,
+   "opened": "2026-11-15T17:25:05+07:00",
+   "zoo": "rand",
+   "smart": 4,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -2014,8 +2014,37 @@
    "cost_side": 0.03,
    "smart": 57,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T17:25:05+07:00",
+   "kind": "buy",
+   "mint": "2Ga9d2enxaeU8WoDZRDiAWb1KEJWx7NdSovHBei4pump",
+   "sym": "6STAR",
+   "price": 1.995e-05,
+   "jup": 1.9878797794219347e-05,
+   "usd": 0.2598,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 4,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-15T17:25:06+07:00",
+   "kind": "sell",
+   "mint": "4ikwYoNvoGEwtMbziUyYBTz1zRM6nmxspsfw9G7Bpump",
+   "sym": "crypto",
+   "price": 0.002034,
+   "entry": 0.001925,
+   "usd": 0.269,
+   "pnl": -0.0015,
+   "why": "ครบ 3 ชม. (+5.7%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 34,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794737997.3450317
+ "rank_t": 1794738271.8069985
 }
