@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.6295877135218289,
+ "cash": 0.30696442918468714,
  "pos": {
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
    "sym": "Rings",
    "qty": 2027.2545840450855,
    "entry": 0.000172,
-   "last": 0.0001655,
+   "last": 0.0001653,
    "peak": 0.0001852,
    "cost": 0.3593978442133114,
    "opened": "2026-11-15T11:04:46+07:00",
@@ -42,6 +42,20 @@
    "zoo": "rand",
    "smart": 7,
    "kol": 2,
+   "gap": 0,
+   "miss": 0
+  },
+  "F63zJ8AM4RnHHxnHzGAPgM8Amv8KTSqG9knPd7yvpump": {
+   "sym": "HODL",
+   "qty": 8999.686902354655,
+   "entry": 3.478e-05,
+   "last": 3.418e-05,
+   "peak": 3.478e-05,
+   "cost": 0.3226232843371417,
+   "opened": "2026-11-15T12:28:07+07:00",
+   "zoo": "rand",
+   "smart": 25,
+   "kol": 1,
    "gap": 1,
    "miss": 0
   }
@@ -1869,8 +1883,22 @@
    "cost_side": 0.03,
    "smart": 46,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T12:28:07+07:00",
+   "kind": "buy",
+   "mint": "F63zJ8AM4RnHHxnHzGAPgM8Amv8KTSqG9knPd7yvpump",
+   "sym": "HODL",
+   "price": 3.478e-05,
+   "jup": 3.5022244517063773e-05,
+   "usd": 0.3226,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 25,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794720181.9183736
+ "rank_t": 1794720473.9605753
 }

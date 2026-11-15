@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.6019325811462,
+ "cash": 1.346724411606416,
  "pos": {
   "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
    "sym": "Dacity",
    "qty": 650.0326874757756,
    "entry": 0.001953,
-   "last": 0.001973,
+   "last": 0.001985,
    "peak": 0.002025,
    "cost": 1.308507357905782,
    "opened": "2026-11-15T10:44:58+07:00",
@@ -35,13 +35,27 @@
    "sym": "VEIL",
    "qty": 4225.741772912011,
    "entry": 0.000293,
-   "last": 0.0002755,
+   "last": 0.0002763,
    "peak": 0.0002938,
    "cost": 1.2761722732047198,
    "opened": "2026-11-15T11:08:55+07:00",
    "zoo": "holders",
    "smart": 229,
    "kol": 16,
+   "gap": 0,
+   "miss": 0
+  },
+  "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": {
+   "sym": "bill",
+   "qty": 1921.7342055980725,
+   "entry": 0.0006337,
+   "last": 0.0006337,
+   "peak": 0.0006337,
+   "cost": 1.255208169539784,
+   "opened": "2026-11-15T12:28:14+07:00",
+   "zoo": "holders",
+   "smart": 110,
+   "kol": 6,
    "gap": 0,
    "miss": 0
   }
@@ -1322,8 +1336,22 @@
    "cost_side": 0.03,
    "smart": 451,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T12:28:14+07:00",
+   "kind": "buy",
+   "mint": "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
+   "sym": "bill",
+   "price": 0.0006337,
+   "jup": 0.0006400707370658013,
+   "usd": 1.2552,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 110,
+   "kol": 6
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794720181.9183736
+ "rank_t": 1794720473.9605753
 }
