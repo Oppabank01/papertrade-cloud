@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.8470132363287655,
+ "cash": 0.6369435433030816,
  "pos": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 29.13112160453499,
    "entry": 0.007367,
-   "last": 0.00698,
+   "last": 0.00695,
    "peak": 0.007566,
    "cost": 0.2212007553706548,
    "opened": "2026-11-15T19:31:42+07:00",
    "zoo": "rand",
    "smart": 287,
    "kol": 23,
+   "gap": 0,
+   "miss": 0
+  },
+  "7R3RnGmpV9mZXwSyHyKN5LEddiZRmGsYrAZPgDJqpump": {
+   "sym": "NUREMBERG",
+   "qty": 3194.508090494021,
+   "entry": 6.38e-05,
+   "last": 6.38e-05,
+   "peak": 6.38e-05,
+   "cost": 0.21006969302568393,
+   "opened": "2026-11-15T21:48:45+07:00",
+   "zoo": "rand",
+   "smart": 83,
+   "kol": 3,
    "gap": 0,
    "miss": 0
   }
@@ -2248,8 +2262,22 @@
    "cost_side": 0.03,
    "smart": 130,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T21:48:45+07:00",
+   "kind": "buy",
+   "mint": "7R3RnGmpV9mZXwSyHyKN5LEddiZRmGsYrAZPgDJqpump",
+   "sym": "NUREMBERG",
+   "price": 6.38e-05,
+   "jup": 6.35031927955325e-05,
+   "usd": 0.2101,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 83,
+   "kol": 3
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794753808.6499095
+ "rank_t": 1794754084.3597143
 }
