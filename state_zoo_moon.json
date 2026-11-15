@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 301799.21454272646,
+ "cash": 232004.1028282466,
  "pos": {
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 4218.672832138303,
    "entry": 0.0006786,
-   "last": 0.000566,
+   "last": 0.00054,
    "peak": 0.0008452,
    "cost": 2.950722927117144,
    "opened": "2026-11-14T00:45:45+07:00",
@@ -21,13 +21,27 @@
    "sym": "gtacoin",
    "qty": 269719589.82761526,
    "entry": 0.0002714,
-   "last": 0.0001749,
+   "last": 0.0001442,
    "peak": 0.0002845,
    "cost": 75450.3160989639,
    "opened": "2026-11-15T06:18:58+07:00",
    "zoo": "moon",
    "smart": 18,
    "kol": 0,
+   "gap": 0,
+   "miss": 0
+  },
+  "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": {
+   "sym": "BAWSAQ",
+   "qty": 956024528.9480217,
+   "entry": 7.083e-05,
+   "last": 7.083e-05,
+   "peak": 7.083e-05,
+   "cost": 69795.11171447988,
+   "opened": "2026-11-15T07:37:50+07:00",
+   "zoo": "moon",
+   "smart": 67,
+   "kol": 6,
    "gap": 0,
    "miss": 0
   }
@@ -423,8 +437,22 @@
    "zoo": "moon",
    "smart": 18,
    "kol": 0
+  },
+  {
+   "t": "2026-11-15T07:37:50+07:00",
+   "kind": "buy",
+   "mint": "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump",
+   "sym": "BAWSAQ",
+   "price": 7.083e-05,
+   "jup": 7.091950286076346e-05,
+   "usd": 69795.1117,
+   "stop_set": -0.5,
+   "cost_side": 0.03,
+   "zoo": "moon",
+   "smart": 67,
+   "kol": 6
   }
  ],
  "label": "สวนสัตว์: ถือยาวรอ x2 (stop -50%)",
- "rank_t": 1794702759.3723118
+ "rank_t": 1794703032.8724895
 }

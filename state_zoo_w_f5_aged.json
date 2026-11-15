@@ -1,28 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 1.9360974225243544,
+ "cash": 1.7642626137006143,
  "pos": {
-  "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
-   "sym": "paws",
-   "qty": 2393.0007913540894,
-   "entry": 0.0007173,
-   "last": 0.000689,
-   "peak": 0.0007497,
-   "cost": 1.769222291938042,
-   "opened": "2026-11-15T04:36:33+07:00",
-   "zoo": "w_f5_aged",
-   "smart": 284,
-   "kol": 15,
-   "gap": 0,
-   "miss": 0
-  },
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
    "sym": "TROLL",
    "qty": 82.2523143112724,
    "entry": 0.02082,
-   "last": 0.02227,
-   "peak": 0.02237,
+   "last": 0.02241,
+   "peak": 0.02241,
    "cost": 1.765092953989581,
    "opened": "2026-11-15T04:41:38+07:00",
    "zoo": "w_f5_aged",
@@ -35,28 +21,42 @@
    "sym": "mihao",
    "qty": 124.75871275434457,
    "entry": 0.01381,
-   "last": 0.01403,
+   "last": 0.01443,
    "peak": 0.01511,
    "cost": 1.775837789257368,
    "opened": "2026-11-15T05:19:20+07:00",
    "zoo": "w_f5_aged",
    "smart": 679,
    "kol": 69,
-   "gap": 0,
+   "gap": 9,
    "miss": 0
   },
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 408.3965844166875,
    "entry": 0.004301,
-   "last": 0.004306,
+   "last": 0.004271641679635986,
    "peak": 0.004358,
    "cost": 1.8104655839787398,
    "opened": "2026-11-15T07:19:51+07:00",
    "zoo": "w_f5_aged",
    "smart": 439,
    "kol": 28,
-   "gap": 0,
+   "gap": 5,
+   "miss": 0
+  },
+  "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
+   "sym": "Max",
+   "qty": 1347.640843799688,
+   "entry": 0.001276,
+   "last": 0.001251,
+   "peak": 0.001278,
+   "cost": 1.772407458965576,
+   "opened": "2026-11-15T07:38:33+07:00",
+   "zoo": "w_f5_aged",
+   "smart": 450,
+   "kol": 42,
+   "gap": 5,
    "miss": 0
   }
  },
@@ -614,8 +614,37 @@
    "zoo": "w_f5_aged",
    "smart": 439,
    "kol": 28
+  },
+  {
+   "t": "2026-11-15T07:37:12+07:00",
+   "kind": "sell",
+   "mint": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
+   "sym": "paws",
+   "price": 0.0006894,
+   "entry": 0.0007173,
+   "usd": 1.6006,
+   "pnl": -0.1686,
+   "why": "ครบ 3 ชม. (-3.9%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 284,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T07:38:33+07:00",
+   "kind": "buy",
+   "mint": "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump",
+   "sym": "Max",
+   "price": 0.001276,
+   "jup": 0.0012794602632634246,
+   "usd": 1.7724,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged",
+   "smart": 450,
+   "kol": 42
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794702759.3723118
+ "rank_t": 1794703032.8724895
 }
