@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 5.836630971903437,
+ "cash": 3.0509145263856032,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 166.05473845518472,
    "entry": 0.01607,
-   "last": 0.01609,
+   "last": 0.01619,
    "peak": 0.0165,
    "cost": 2.750463458023932,
    "opened": "2026-11-15T23:05:29+07:00",
@@ -21,27 +21,41 @@
    "sym": "HODL",
    "qty": 1514.1605335624072,
    "entry": 0.001808,
-   "last": 0.001816,
-   "peak": 0.00182,
+   "last": 0.0017621940251336704,
+   "peak": 0.001839,
    "cost": 2.8216885638845928,
    "opened": "2026-11-16T01:26:23+07:00",
    "zoo": "x_skip_pumped",
    "smart": 351,
    "kol": 34,
-   "gap": 1,
+   "gap": 5,
    "miss": 0
   },
   "Gv6jKrrjJW9NLZujVZdxj6D9xL21qcLbHso8LYFMpump": {
    "sym": "BOUNCER",
    "qty": 98170.49550153443,
    "entry": 2.772e-05,
-   "last": 2.772e-05,
+   "last": 2.703e-05,
    "peak": 2.772e-05,
    "cost": 2.8048713000438408,
    "opened": "2026-11-16T01:26:45+07:00",
    "zoo": "x_skip_pumped",
    "smart": 37,
    "kol": 3,
+   "gap": 0,
+   "miss": 0
+  },
+  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
+   "sym": "GTA6",
+   "qty": 388.98993889484774,
+   "entry": 0.006948,
+   "last": 0.006998,
+   "peak": 0.006998,
+   "cost": 2.785716445517834,
+   "opened": "2026-11-16T01:30:23+07:00",
+   "zoo": "x_skip_pumped",
+   "smart": 289,
+   "kol": 23,
    "gap": 0,
    "miss": 0
   }
@@ -209,8 +223,22 @@
    "zoo": "x_skip_pumped",
    "smart": 37,
    "kol": 3
+  },
+  {
+   "t": "2026-11-16T01:30:23+07:00",
+   "kind": "buy",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.006948,
+   "jup": 0.006948010299452269,
+   "usd": 2.7857,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 289,
+   "kol": 23
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794767040.4573884
+ "rank_t": 1794767314.561147
 }

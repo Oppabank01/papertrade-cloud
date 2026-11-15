@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.6156624006891793,
+ "cash": 0.8231627288330645,
  "pos": {
-  "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": {
-   "sym": "WISHMAS",
-   "qty": 1717.8615773660317,
-   "entry": 0.0001134,
-   "last": 0.0001326,
-   "peak": 0.0001493,
-   "cost": 0.20078901553628944,
-   "opened": "2026-11-15T23:50:37+07:00",
-   "smart": 139,
-   "kol": 9,
-   "bundler": 0.1389,
-   "gap": 0,
-   "miss": 0
-  },
   "7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": {
    "sym": "HIGH",
    "qty": 267.11572718145896,
    "entry": 0.0007763,
-   "last": 0.0008142,
+   "last": 0.0007952204105926519,
    "peak": 0.0008142,
    "cost": 0.21373112658314428,
    "opened": "2026-11-16T00:51:23+07:00",
    "smart": 123,
    "kol": 8,
    "bundler": 0.4054,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -32233,6 +32219,54 @@
    "buy": 0.824,
    "bull": 0.9363,
    "bear": 0.9457
+  },
+  {
+   "t": "2026-11-16T01:28:40+07:00",
+   "kind": "debate",
+   "mint": "7mH4PaR9BMxAid2i1QNDBmziAwxyXBsPNKSMiWySpump",
+   "sym": "worth",
+   "ok": true,
+   "bundler": 0.4477,
+   "buy": 0.7139,
+   "bull": 0.8294,
+   "bear": 0.0003
+  },
+  {
+   "t": "2026-11-16T01:28:42+07:00",
+   "kind": "debate",
+   "mint": "FG3sAP594dUmgkzYneQEv4BnEJdgS8txNT7QAPtrpump",
+   "sym": "Brian",
+   "ok": true,
+   "bundler": 0.2051,
+   "buy": 0.7616,
+   "bull": 0.9052,
+   "bear": 0.0002
+  },
+  {
+   "t": "2026-11-16T01:28:44+07:00",
+   "kind": "debate",
+   "mint": "AxPzkSJKU3ACqZu7qpq8ov29g4BENZBM4SAZwUUUFo8M",
+   "sym": "Mag",
+   "ok": false,
+   "bundler": 0.1323,
+   "buy": 0.8201,
+   "bull": 0.8793,
+   "bear": 0.9608
+  },
+  {
+   "t": "2026-11-16T01:28:45+07:00",
+   "kind": "sell",
+   "mint": "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
+   "sym": "WISHMAS",
+   "price": 0.0001245,
+   "entry": 0.0001134,
+   "usd": 0.2075,
+   "pnl": 0.0067,
+   "why": "trailing จากยอด +32% (+9.8%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 139,
+   "bundler": 0.1389
   }
  ]
 }
