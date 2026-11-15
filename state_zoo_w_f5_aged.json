@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 2.5514155099074127,
+ "cash": 1.2360344879923177,
  "pos": {
   "AzeNfRi7DX5HndH7dUgCxMD5sQPV7FPFH1cwDkoqpump": {
    "sym": "KNIGHT",
    "qty": 833.965202251486,
    "entry": 0.001471,
-   "last": 0.001492,
-   "peak": 0.001524,
+   "last": 0.001527,
+   "peak": 0.001527,
    "cost": 1.2644432204823088,
    "opened": "2026-11-16T02:21:50+07:00",
    "zoo": "w_f5_aged",
@@ -21,7 +21,7 @@
    "sym": "HODL",
    "qty": 734.7210871209602,
    "entry": 0.001656,
-   "last": 0.001739,
+   "last": 0.001728,
    "peak": 0.001743,
    "cost": 1.2540693880357763,
    "opened": "2026-11-16T02:46:25+07:00",
@@ -35,14 +35,28 @@
    "sym": "LMAO!",
    "qty": 1061.1323630297613,
    "entry": 0.001134,
-   "last": 0.0013989218402287989,
+   "last": 0.001384,
    "peak": 0.001426,
    "cost": 1.2402845801646563,
    "opened": "2026-11-16T02:55:05+07:00",
    "zoo": "w_f5_aged",
    "smart": 767,
    "kol": 84,
-   "gap": 1,
+   "gap": 3,
+   "miss": 0
+  },
+  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
+   "sym": "STONK",
+   "qty": 29.568643824421343,
+   "entry": 0.04316,
+   "last": 0.04325,
+   "peak": 0.04325,
+   "cost": 1.315381021915095,
+   "opened": "2026-11-16T03:45:59+07:00",
+   "zoo": "w_f5_aged",
+   "smart": 1000,
+   "kol": 174,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1398,8 +1412,22 @@
    "cost_side": 0.03,
    "smart": 249,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T03:45:59+07:00",
+   "kind": "buy",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.04316,
+   "jup": 0.04307883060580659,
+   "usd": 1.3154,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged",
+   "smart": 1000,
+   "kol": 174
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794775195.3065875
+ "rank_t": 1794775463.5524263
 }

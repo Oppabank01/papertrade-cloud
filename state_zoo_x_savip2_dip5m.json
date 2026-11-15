@@ -1,15 +1,44 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 14.714537963507947,
- "pos": {},
+ "cash": 7.357268981753974,
+ "pos": {
+  "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": {
+   "sym": "Socks",
+   "qty": 51315.761079063304,
+   "entry": 0.0001391,
+   "last": 0.0001354,
+   "peak": 0.00014,
+   "cost": 7.357268981753974,
+   "opened": "2026-11-16T03:47:05+07:00",
+   "zoo": "x_savip2_dip5m",
+   "smart": 78,
+   "kol": 6,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-15T22:40:51+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-16T03:47:05+07:00",
+   "kind": "buy",
+   "mint": "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump",
+   "sym": "Socks",
+   "price": 0.0001391,
+   "jup": 0.00014003035567717188,
+   "usd": 7.3573,
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "zoo": "x_savip2_dip5m",
+   "smart": 78,
+   "kol": 6
   }
  ],
  "label": "สวนสัตว์: savipww v2: pool 20k+ คะแนน 70+ ย่อ 5 นาที 15-35% ทีละ 50% ขายครึ่ง x2 trail 40% stop -25%",
- "rank_t": 1794775195.3065875
+ "rank_t": 1794775463.5524263
 }
