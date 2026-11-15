@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 2.209845513412234,
+ "cash": 1.0570927960709264,
  "pos": {
   "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
    "sym": "SAPLING",
    "qty": 790.36671745813,
    "entry": 0.001564,
-   "last": 0.0016616696002571592,
+   "last": 0.00168,
    "peak": 0.00168,
    "cost": 1.2741017791223619,
    "opened": "2026-11-16T05:23:29+07:00",
    "zoo": "w_f5_aged",
    "smart": 186,
    "kol": 19,
-   "gap": 14,
+   "gap": 0,
    "miss": 0
   },
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 171.73881147617965,
    "entry": 0.006548,
-   "last": 0.006515,
+   "last": 0.006519,
    "peak": 0.006643,
    "cost": 1.1590865157143109,
    "opened": "2026-11-16T06:24:41+07:00",
@@ -35,13 +35,27 @@
    "sym": "CATE",
    "qty": 63.499659526608475,
    "entry": 0.0177,
-   "last": 0.01761,
-   "peak": 0.01773,
+   "last": 0.01781,
+   "peak": 0.01781,
    "cost": 1.1584662684198825,
    "opened": "2026-11-16T06:38:35+07:00",
    "zoo": "w_f5_aged",
    "smart": 873,
    "kol": 110,
+   "gap": 0,
+   "miss": 0
+  },
+  "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
+   "sym": "CRIME",
+   "qty": 281.78399757231966,
+   "entry": 0.003969,
+   "last": 0.003969,
+   "peak": 0.003969,
+   "cost": 1.1527527173413077,
+   "opened": "2026-11-16T06:52:54+07:00",
+   "zoo": "w_f5_aged",
+   "smart": 90,
+   "kol": 40,
    "gap": 0,
    "miss": 0
   }
@@ -1572,8 +1586,22 @@
    "cost_side": 0.03,
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T06:52:54+07:00",
+   "kind": "buy",
+   "mint": "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump",
+   "sym": "CRIME",
+   "price": 0.003969,
+   "jup": 0.003970055555244432,
+   "usd": 1.1528,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged",
+   "smart": 90,
+   "kol": 40
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794786435.0591862
+ "rank_t": 1794786710.1847112
 }
