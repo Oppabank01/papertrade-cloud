@@ -1,34 +1,48 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 5.374531729527355,
+ "cash": 3.5872152074653902,
  "pos": {
-  "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
-   "sym": "baton",
-   "qty": 558.5507825944165,
-   "entry": 0.003287,
-   "last": 0.00337312320492572,
-   "peak": 0.003467,
-   "cost": 1.8923484048524501,
-   "opened": "2026-11-15T18:08:25+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 722,
-   "kol": 80,
-   "gap": 2,
-   "miss": 0
-  },
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
    "sym": "paws",
    "qty": 2270.945633481341,
    "entry": 0.0007889,
-   "last": 0.0007909500275882255,
+   "last": 0.0007876,
    "peak": 0.0008221,
    "cost": 1.8465770050025043,
    "opened": "2026-11-15T20:15:23+07:00",
    "zoo": "w_pause_aged",
    "smart": 285,
    "kol": 15,
-   "gap": 3,
+   "gap": 4,
+   "miss": 0
+  },
+  "6fJPx1nWz6PvMifsee6AtTi4H3srtis5rHAUs3HYpump": {
+   "sym": "JASON",
+   "qty": 5158.554589260284,
+   "entry": 0.0003405,
+   "last": 0.0003205,
+   "peak": 0.0003405,
+   "cost": 1.810438917381083,
+   "opened": "2026-11-15T21:07:11+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 31,
+   "kol": 0,
+   "gap": 1,
+   "miss": 0
+  },
+  "9Pfync3ejPC9eHqVzq3nYQJAhyhjqpnB9UsaSfLxpump": {
+   "sym": "KET",
+   "qty": 746.4810475120878,
+   "entry": 0.002339,
+   "last": 0.002367,
+   "peak": 0.002367,
+   "cost": 1.7996487014334914,
+   "opened": "2026-11-15T21:07:13+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 106,
+   "kol": 24,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -965,8 +979,51 @@
    "cost_side": 0.03,
    "smart": 13,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T21:07:11+07:00",
+   "kind": "buy",
+   "mint": "6fJPx1nWz6PvMifsee6AtTi4H3srtis5rHAUs3HYpump",
+   "sym": "JASON",
+   "price": 0.0003405,
+   "jup": 0.0003377376597979906,
+   "usd": 1.8104,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 31,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-15T21:07:13+07:00",
+   "kind": "buy",
+   "mint": "9Pfync3ejPC9eHqVzq3nYQJAhyhjqpnB9UsaSfLxpump",
+   "sym": "KET",
+   "price": 0.002339,
+   "jup": 0.002341112072675443,
+   "usd": 1.7996,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 106,
+   "kol": 24
+  },
+  {
+   "t": "2026-11-15T21:08:40+07:00",
+   "kind": "sell",
+   "mint": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
+   "sym": "baton",
+   "price": 0.0033636298548207952,
+   "entry": 0.003287,
+   "usd": 1.8228,
+   "pnl": -0.0696,
+   "why": "ครบ 3 ชม. (+2.3%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 722,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794751248.609489
+ "rank_t": 1794751535.1436498
 }
