@@ -1,15 +1,44 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.671361502347418,
- "cash": 14.671361502347418,
- "pos": {},
+ "cash": 11.737089201877934,
+ "pos": {
+  "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
+   "sym": "Lucia",
+   "qty": 3002.3528642854812,
+   "entry": 0.0009482,
+   "last": 0.0009484,
+   "peak": 0.0009484,
+   "cost": 2.934272300469484,
+   "opened": "2026-11-15T09:49:21+07:00",
+   "zoo": "x_rule5_60_25",
+   "smart": 101,
+   "kol": 4,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-15T09:33:57+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-15T09:49:21+07:00",
+   "kind": "buy",
+   "mint": "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump",
+   "sym": "Lucia",
+   "price": 0.0009482,
+   "jup": 0.0009495289069842307,
+   "usd": 2.9343,
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "zoo": "x_rule5_60_25",
+   "smart": 101,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: ระบบ 5 ไม้ เข้มกรอง ปลอดภัย TP +60% SL -25%",
- "rank_t": 1794710576.414723
+ "rank_t": 1794710862.3328135
 }

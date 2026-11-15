@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 4.310054440559962,
+ "cash": 3.0956040548104324,
  "pos": {
   "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": {
    "sym": "BAWSAQ",
@@ -14,6 +14,20 @@
    "zoo": "tomcruise",
    "smart": 67,
    "kol": 6,
+   "gap": 0,
+   "miss": 0
+  },
+  "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
+   "sym": "Leonida",
+   "qty": 1982.267436497634,
+   "entry": 0.0005944,
+   "last": 0.0005926,
+   "peak": 0.0005944,
+   "cost": 1.2144503857495297,
+   "opened": "2026-11-15T09:48:16+07:00",
+   "zoo": "tomcruise",
+   "smart": 80,
+   "kol": 4,
    "gap": 0,
    "miss": 0
   }
@@ -882,8 +896,22 @@
    "cost_side": 0.03,
    "smart": 101,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T09:48:16+07:00",
+   "kind": "buy",
+   "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "sym": "Leonida",
+   "price": 0.0005944,
+   "jup": 0.0005957016481378508,
+   "usd": 1.2145,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "tomcruise",
+   "smart": 80,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: tomcruise 6 เอเจนต์: scanner rug check sizer ตามสภาพคล่อง",
- "rank_t": 1794710576.414723
+ "rank_t": 1794710862.3328135
 }
