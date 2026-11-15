@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.757969303423847,
- "cash": 2.13064139458954,
+ "cash": 3.3618042969980824,
  "pos": {
   "EbFogghDYCPxg8NDzWJXyJMykNVjfLLgm1o3h7H7pump": {
    "sym": "FCK925",
@@ -17,32 +17,18 @@
    "gap": 0,
    "miss": 0
   },
-  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
-   "sym": "Rings",
-   "qty": 7585.0475823814,
-   "entry": 0.0001542,
-   "last": 0.0001756,
-   "peak": 0.0002099,
-   "cost": 1.205539411671008,
-   "opened": "2026-11-15T04:35:55+07:00",
-   "zoo": "trench",
-   "smart": 67,
-   "kol": 5,
-   "gap": 0,
-   "miss": 0
-  },
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 2701.9152462453226,
    "entry": 0.0004417,
-   "last": 0.0005177,
+   "last": 0.0005155,
    "peak": 0.0005555324559539332,
    "cost": 1.2300927275474738,
    "opened": "2026-11-15T05:23:18+07:00",
    "zoo": "trench",
    "smart": 79,
    "kol": 4,
-   "gap": 1,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -580,8 +566,23 @@
    "cost_side": 0.03,
    "smart": 17,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T08:06:19+07:00",
+   "kind": "sell",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.0001673,
+   "entry": 0.0001542,
+   "usd": 1.2312,
+   "pnl": 0.0256,
+   "why": "trailing จากยอด +36% (+8.5%)",
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "smart": 67,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: crbpite8 รอบ 2: ปลอดภัย + smart 3 + V/L สูงสุด 3 ตัว",
- "rank_t": 1794704456.575845
+ "rank_t": 1794704734.8625243
 }
