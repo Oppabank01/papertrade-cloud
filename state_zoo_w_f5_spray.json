@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 3.9784563430832924,
+ "cash": 4.229621200918049,
  "pos": {
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 53.8083505936605,
    "entry": 0.006927,
-   "last": 0.007167,
+   "last": 0.007142,
    "peak": 0.007451,
    "cost": 0.38417897810996315,
    "opened": "2026-11-15T23:33:53+07:00",
@@ -21,7 +21,7 @@
    "sym": "mihao",
    "qty": 23.073493245933005,
    "entry": 0.01599,
-   "last": 0.01594,
+   "last": 0.01609,
    "peak": 0.0165,
    "cost": 0.38027742424496885,
    "opened": "2026-11-15T23:42:45+07:00",
@@ -49,35 +49,35 @@
    "sym": "Max",
    "qty": 306.0800287368533,
    "entry": 0.001183,
-   "last": 0.001144,
+   "last": 0.00112,
    "peak": 0.001205,
    "cost": 0.3732144650543161,
    "opened": "2026-11-16T00:29:21+07:00",
    "zoo": "w_f5_spray",
    "smart": 454,
    "kol": 42,
-   "gap": 0,
+   "gap": 6,
    "miss": 0
   },
   "B82PFKmT4aM38EUUqVoZs6sZdAfxDHHrB6DSXxCKpump": {
    "sym": "WSB",
    "qty": 2985.359592217673,
    "entry": 0.0001195,
-   "last": 0.00010834751255003228,
+   "last": 0.0001044,
    "peak": 0.0001215,
    "cost": 0.36770817488148005,
    "opened": "2026-11-16T01:02:24+07:00",
    "zoo": "w_f5_spray",
    "smart": 55,
    "kol": 0,
-   "gap": 6,
+   "gap": 7,
    "miss": 0
   },
   "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
    "sym": "neet",
    "qty": 10.822831216462014,
    "entry": 0.0307,
-   "last": 0.03071,
+   "last": 0.03066,
    "peak": 0.03086,
    "cost": 0.34246641758955254,
    "opened": "2026-11-16T01:16:55+07:00",
@@ -91,7 +91,7 @@
    "sym": "AIRDROP",
    "qty": 14220.567920147849,
    "entry": 2.333e-05,
-   "last": 2.437e-05,
+   "last": 2.436e-05,
    "peak": 2.437e-05,
    "cost": 0.34195614262734414,
    "opened": "2026-11-16T01:16:57+07:00",
@@ -99,20 +99,6 @@
    "smart": 91,
    "kol": 7,
    "gap": 0,
-   "miss": 0
-  },
-  "H4RmpEfhVT3J1Hgeq8sdRPxQe389yUnRU1HenXtBpump": {
-   "sym": "WANTED",
-   "qty": 4359.587518374466,
-   "entry": 7.567e-05,
-   "last": 7.05e-05,
-   "peak": 7.567e-05,
-   "cost": 0.34002266286888866,
-   "opened": "2026-11-16T01:20:47+07:00",
-   "zoo": "w_f5_spray",
-   "smart": 5,
-   "kol": 0,
-   "gap": 22,
    "miss": 0
   }
  },
@@ -4351,8 +4337,23 @@
    "zoo": "w_f5_spray",
    "smart": 5,
    "kol": 0
+  },
+  {
+   "t": "2026-11-16T01:24:16+07:00",
+   "kind": "sell",
+   "mint": "H4RmpEfhVT3J1Hgeq8sdRPxQe389yUnRU1HenXtBpump",
+   "sym": "WANTED",
+   "price": 5.9381642145739936e-05,
+   "entry": 7.567e-05,
+   "usd": 0.2512,
+   "pnl": -0.0889,
+   "why": "stop -21.5%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 5,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ x_spray_small แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794766759.529955
+ "rank_t": 1794767040.4573884
 }
