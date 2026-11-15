@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.757969303423847,
- "cash": 1.5736791894315343,
+ "cash": 2.4955532556021027,
  "pos": {
   "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": {
    "sym": "BRUH",
    "qty": 321.04982708961415,
    "entry": 0.003628,
-   "last": 0.004028,
+   "last": 0.004043,
    "peak": 0.004167,
    "cost": 1.20054501410134,
    "opened": "2026-11-15T08:24:48+07:00",
@@ -21,28 +21,14 @@
    "sym": "Lucia",
    "qty": 1299.3873102935931,
    "entry": 0.0009234,
-   "last": 0.001321,
+   "last": 0.0012395102787935803,
    "peak": 0.001386,
    "cost": 1.2367081450475201,
    "opened": "2026-11-15T09:38:46+07:00",
    "zoo": "trench",
    "smart": 101,
    "kol": 4,
-   "gap": 0,
-   "miss": 0
-  },
-  "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
-   "sym": "JENSEN",
-   "qty": 11122.436144460278,
-   "entry": 0.0001002,
-   "last": 0.0001606,
-   "peak": 0.0001606,
-   "cost": 1.148699342068563,
-   "opened": "2026-11-15T18:44:54+07:00",
-   "zoo": "trench",
-   "smart": 5,
-   "kol": 0,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -783,8 +769,23 @@
    "zoo": "trench",
    "smart": 5,
    "kol": 0
+  },
+  {
+   "t": "2026-11-15T20:14:36+07:00",
+   "kind": "sell",
+   "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+   "sym": "JENSEN",
+   "price": 8.543e-05,
+   "entry": 0.0001002,
+   "usd": 0.9219,
+   "pnl": -0.2268,
+   "why": "stop -14.7%",
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "smart": 5,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: crbpite8 รอบ 2: ปลอดภัย + smart 3 + V/L สูงสุด 3 ตัว",
- "rank_t": 1794748133.2293885
+ "rank_t": 1794748419.928642
 }
