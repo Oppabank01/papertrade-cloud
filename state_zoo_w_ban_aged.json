@@ -1,41 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.8461247114795736,
+ "cash": 3.906139516844971,
  "pos": {
-  "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
-   "sym": "Max",
-   "qty": 1667.9409363408176,
-   "entry": 0.001221,
-   "last": 0.001342,
-   "peak": 0.001512,
-   "cost": 2.09910934165341,
-   "opened": "2026-11-15T10:41:44+07:00",
-   "zoo": "w_ban_aged",
-   "smart": 451,
-   "kol": 42,
-   "gap": 2,
-   "miss": 0
-  },
   "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
    "sym": "JOB",
    "qty": 1463.1017331832545,
    "entry": 0.001391,
-   "last": 0.00133,
+   "last": 0.001332,
    "peak": 0.001391,
    "cost": 2.0976855399483685,
    "opened": "2026-11-15T10:50:38+07:00",
    "zoo": "w_ban_aged",
    "smart": 32,
    "kol": 0,
-   "gap": 4,
+   "gap": 0,
    "miss": 0
   },
   "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
    "sym": "neet",
    "qty": 67.41150930824926,
    "entry": 0.03046,
-   "last": 0.03048,
+   "last": 0.03034,
    "peak": 0.03061,
    "cost": 2.116424008997395,
    "opened": "2026-11-15T11:33:22+07:00",
@@ -49,14 +35,14 @@
    "sym": "Twin",
    "qty": 7815.187023812719,
    "entry": 0.0002552,
-   "last": 0.000252,
+   "last": 0.0002485,
    "peak": 0.0002605,
    "cost": 2.055695452975682,
    "opened": "2026-11-15T11:52:33+07:00",
    "zoo": "w_ban_aged",
    "smart": 137,
    "kol": 6,
-   "gap": 0,
+   "gap": 7,
    "miss": 0
   }
  },
@@ -795,10 +781,25 @@
    "zoo": "w_ban_aged",
    "smart": 137,
    "kol": 6
+  },
+  {
+   "t": "2026-11-15T12:07:17+07:00",
+   "kind": "sell",
+   "mint": "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump",
+   "sym": "Max",
+   "price": 0.001273,
+   "entry": 0.001221,
+   "usd": 2.06,
+   "pnl": -0.0391,
+   "why": "trailing จากยอด +24% (+4.3%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 451,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794718770.8338215,
+ "rank_t": 1794719052.4169657,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6"
  }
