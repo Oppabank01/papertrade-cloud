@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.12904137560888368,
+ "cash": 0.3800360402966126,
  "pos": {
   "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
    "sym": "Lucia",
    "qty": 323.6460073526651,
    "entry": 0.0009128,
-   "last": 0.0009125,
+   "last": 0.0009114,
    "peak": 0.0009738,
    "cost": 0.3044981194717715,
    "opened": "2026-11-15T13:19:37+07:00",
    "smart": 101,
    "kol": 4,
    "bundler": 0.1455,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
@@ -28,35 +28,21 @@
    "smart": 287,
    "kol": 23,
    "bundler": 0.3199,
-   "gap": 9,
+   "gap": 10,
    "miss": 0
   },
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 5.713221218964613,
    "entry": 0.04185,
-   "last": 0.04251,
-   "peak": 0.04251,
+   "last": 0.04311,
+   "peak": 0.04311,
    "cost": 0.2464422882020914,
    "opened": "2026-11-15T15:08:50+07:00",
    "smart": 1000,
    "kol": 174,
    "bundler": 0.4841,
-   "gap": 1,
-   "miss": 0
-  },
-  "FZLgwRj7k7bESGAPMitaLGCwKtVNJNtd96gj3TjApump": {
-   "sym": "SI",
-   "qty": 3579.9731863650845,
-   "entry": 6.43e-05,
-   "last": 9.06696295339699e-05,
-   "peak": 9.341e-05,
-   "cost": 0.23726270447668002,
-   "opened": "2026-11-15T15:51:01+07:00",
-   "smart": 42,
-   "kol": 1,
-   "bundler": 0.3567,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -27713,6 +27699,21 @@
    "cost_side": 0.03,
    "smart": 42,
    "kol": 1,
+   "bundler": 0.3567
+  },
+  {
+   "t": "2026-11-15T16:09:28+07:00",
+   "kind": "sell",
+   "mint": "FZLgwRj7k7bESGAPMitaLGCwKtVNJNtd96gj3TjApump",
+   "sym": "SI",
+   "price": 7.226424103428239e-05,
+   "entry": 6.43e-05,
+   "usd": 0.251,
+   "pnl": 0.0137,
+   "why": "trailing จากยอด +45% (+12.4%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 42,
    "bundler": 0.3567
   }
  ]

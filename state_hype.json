@@ -1,30 +1,18 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.775413711583923,
- "cash": 1.0109693916167721,
+ "cash": 3.388399000453802,
  "pos": {
   "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": {
    "sym": "TripleT",
    "qty": 1150.1319018253907,
    "entry": 0.001876,
-   "last": 0.002134,
+   "last": 0.002129,
    "peak": 0.002134,
    "cost": 2.2239202719278843,
    "opened": "2026-11-15T09:01:04+07:00",
    "source": "agents",
    "gap": 0,
-   "miss": 0
-  },
-  "FZLgwRj7k7bESGAPMitaLGCwKtVNJNtd96gj3TjApump": {
-   "sym": "SI",
-   "qty": 33909.62219334818,
-   "entry": 6.43e-05,
-   "last": 9.06696295339699e-05,
-   "peak": 9.15445012444112e-05,
-   "cost": 2.247360036108316,
-   "opened": "2026-11-15T15:51:02+07:00",
-   "source": "agents",
-   "gap": 2,
    "miss": 0
   }
  },
@@ -906,6 +894,21 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-15T16:09:28+07:00",
+   "kind": "sell",
+   "mint": "FZLgwRj7k7bESGAPMitaLGCwKtVNJNtd96gj3TjApump",
+   "sym": "SI",
+   "price": 7.226424103428239e-05,
+   "entry": 6.43e-05,
+   "usd": 2.3774,
+   "pnl": 0.1301,
+   "why": "trailing จากยอด +42% (+12.4%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "สายโม้ (ไม้ใหญ่ ปล่อยกำไรวิ่ง)",
