@@ -1,33 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.20814089439409855,
+ "cash": 0.365351801853786,
  "pos": {
   "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
    "sym": "FOOD",
    "qty": 7507.499732154056,
    "entry": 0.0003472,
-   "last": 0.0004351,
+   "last": 0.0004135,
    "peak": 0.0004611,
    "cost": 2.68666657081415,
    "opened": "2026-11-15T01:03:26+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 292,
    "kol": 22,
-   "gap": 0,
-   "miss": 0
-  },
-  "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump": {
-   "sym": "GTA6",
-   "qty": 17381.894967634707,
-   "entry": 0.0001511,
-   "last": 0.0001268,
-   "peak": 0.0001669,
-   "cost": 2.7070751696656403,
-   "opened": "2026-11-15T02:19:00+07:00",
-   "zoo": "w_ban_smartflow",
-   "smart": 92,
-   "kol": 5,
    "gap": 0,
    "miss": 0
   },
@@ -42,14 +28,14 @@
    "zoo": "w_ban_smartflow",
    "smart": 5,
    "kol": 0,
-   "gap": 18,
+   "gap": 5,
    "miss": 0
   },
   "HFcyhe28iLYRhac2W5FBdtDGFunWDJesCR7f6EZJpump": {
    "sym": "MRPENIS",
    "qty": 14257.510981989892,
    "entry": 0.0001349,
-   "last": 0.0001295,
+   "last": 0.0001257,
    "peak": 0.0001385,
    "cost": 1.9824141738512022,
    "opened": "2026-11-15T07:38:45+07:00",
@@ -57,6 +43,20 @@
    "smart": 86,
    "kol": 5,
    "gap": 0,
+   "miss": 0
+  },
+  "2pjcq9k2X5oSArNKiVeQ2ENB63eJt8pwCabciGQGpump": {
+   "sym": "Optimistic",
+   "qty": 57786.41993606768,
+   "entry": 3.145e-05,
+   "last": 2.783720209552304e-05,
+   "peak": 3.172e-05,
+   "cost": 1.8732043980512558,
+   "opened": "2026-11-15T10:31:45+07:00",
+   "zoo": "w_ban_smartflow",
+   "smart": 116,
+   "kol": 18,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -367,10 +367,39 @@
    "zoo": "w_ban_smartflow",
    "smart": 86,
    "kol": 5
+  },
+  {
+   "t": "2026-11-15T10:30:34+07:00",
+   "kind": "sell",
+   "mint": "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump",
+   "sym": "GTA6",
+   "price": 0.0001204,
+   "entry": 0.0001511,
+   "usd": 2.0304,
+   "pnl": -0.6767,
+   "why": "stop -20.3%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 92,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T10:31:45+07:00",
+   "kind": "buy",
+   "mint": "2pjcq9k2X5oSArNKiVeQ2ENB63eJt8pwCabciGQGpump",
+   "sym": "Optimistic",
+   "price": 3.145e-05,
+   "jup": 3.1605005868609506e-05,
+   "usd": 1.8732,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "w_ban_smartflow",
+   "smart": 116,
+   "kol": 18
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794712850.2605414,
+ "rank_t": 1794713434.0644054,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA"

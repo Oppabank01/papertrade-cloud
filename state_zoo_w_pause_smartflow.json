@@ -1,33 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.7059858197418434,
+ "cash": 4.347265460351725,
  "pos": {
   "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
    "sym": "FOOD",
    "qty": 7648.119682882018,
    "entry": 0.0003442,
-   "last": 0.0004351,
+   "last": 0.0004135,
    "peak": 0.0004611,
    "cost": 2.71334033688723,
    "opened": "2026-11-15T01:03:30+07:00",
    "zoo": "w_pause_smartflow",
    "smart": 292,
    "kol": 22,
-   "gap": 0,
-   "miss": 0
-  },
-  "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump": {
-   "sym": "GTA6",
-   "qty": 14050.598539208284,
-   "entry": 0.0001511,
-   "last": 0.0001268,
-   "peak": 0.0001669,
-   "cost": 2.1882554517361075,
-   "opened": "2026-11-15T02:19:07+07:00",
-   "zoo": "w_pause_smartflow",
-   "smart": 92,
-   "kol": 5,
    "gap": 0,
    "miss": 0
   },
@@ -42,7 +28,7 @@
    "zoo": "w_pause_smartflow",
    "smart": 5,
    "kol": 0,
-   "gap": 41,
+   "gap": 5,
    "miss": 0
   }
  },
@@ -340,10 +326,25 @@
    "t": "2026-11-15T10:12:32+07:00",
    "kind": "resume",
    "why": "ราคา WOJAK สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-15T10:30:34+07:00",
+   "kind": "sell",
+   "mint": "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump",
+   "sym": "GTA6",
+   "price": 0.0001204,
+   "entry": 0.0001511,
+   "usd": 1.6413,
+   "pnl": -0.547,
+   "why": "stop -20.3%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 92,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794712850.2605414,
+ "rank_t": 1794713434.0644054,
  "halted": "ราคา WOJAK สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-15T11:13:59+07:00"
 }
