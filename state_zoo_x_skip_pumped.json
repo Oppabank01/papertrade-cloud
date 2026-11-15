@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 0.6432764386912619,
+ "cash": 1.11529465721526,
  "pos": {
-  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
-   "sym": "CATE",
-   "qty": 137.24230273882466,
-   "entry": 0.01737,
-   "last": 0.01772,
-   "peak": 0.0179,
-   "cost": 2.4571210045077145,
-   "opened": "2026-11-16T03:46:57+07:00",
-   "zoo": "x_skip_pumped",
-   "smart": 871,
-   "kol": 110,
-   "gap": 0,
-   "miss": 0
-  },
   "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": {
    "sym": "LMAO!",
    "qty": 1711.0043850329755,
    "entry": 0.001376,
-   "last": 0.001354,
+   "last": 0.001365,
    "peak": 0.001411,
    "cost": 2.4266563943572197,
    "opened": "2026-11-16T04:34:05+07:00",
@@ -35,28 +21,42 @@
    "sym": "PAID",
    "qty": 1800.187477506838,
    "entry": 0.001287,
-   "last": 0.001229,
+   "last": 0.001221,
    "peak": 0.00136,
    "cost": 2.388003796692744,
    "opened": "2026-11-16T04:37:42+07:00",
    "zoo": "x_skip_pumped",
    "smart": 668,
    "kol": 93,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   },
   "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
    "sym": "SAPLING",
    "qty": 1142.500186431705,
    "entry": 0.001604,
-   "last": 0.001668,
-   "peak": 0.001668,
+   "last": 0.0016616696002571592,
+   "peak": 0.00168,
    "cost": 1.8888582756508503,
    "opened": "2026-11-16T05:48:17+07:00",
    "zoo": "x_skip_pumped",
    "smart": 186,
    "kol": 19,
-   "gap": 0,
+   "gap": 3,
+   "miss": 0
+  },
+  "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
+   "sym": "Rocco",
+   "qty": 1291.3948804006016,
+   "entry": 0.001418,
+   "last": 0.001319,
+   "peak": 0.001418,
+   "cost": 1.887443764592922,
+   "opened": "2026-11-16T06:48:39+07:00",
+   "zoo": "x_skip_pumped",
+   "smart": 117,
+   "kol": 9,
+   "gap": 8,
    "miss": 0
   }
  },
@@ -527,8 +527,37 @@
    "zoo": "x_skip_pumped",
    "smart": 186,
    "kol": 19
+  },
+  {
+   "t": "2026-11-16T06:47:15+07:00",
+   "kind": "sell",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.01772,
+   "entry": 0.01737,
+   "usd": 2.3595,
+   "pnl": -0.0977,
+   "why": "ครบ 3 ชม. (+2.0%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 871,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-16T06:48:39+07:00",
+   "kind": "buy",
+   "mint": "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
+   "sym": "Rocco",
+   "price": 0.001418,
+   "jup": 0.00141170437729707,
+   "usd": 1.8874,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 117,
+   "kol": 9
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794786156.6768801
+ "rank_t": 1794786435.0591862
 }
