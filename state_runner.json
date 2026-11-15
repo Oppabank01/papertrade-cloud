@@ -1,25 +1,25 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.8980277088061137,
+ "cash": 2.0356293505387413,
  "pos": {
   "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
    "sym": "SAPLING",
    "qty": 891.1216316194603,
    "entry": 0.001208,
-   "last": 0.00131,
+   "last": 0.0013190463143274765,
    "peak": 0.00146,
    "cost": 1.109539199130394,
    "opened": "2026-11-15T07:56:45+07:00",
    "source": "agents",
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 26.76591054270035,
    "entry": 0.04185,
-   "last": 0.04231,
+   "last": 0.04228,
    "peak": 0.04461,
    "cost": 1.1545592209977424,
    "opened": "2026-11-15T15:08:55+07:00",
@@ -31,22 +31,10 @@
    "sym": "Jimothy",
    "qty": 913.891600623336,
    "entry": 0.00125,
-   "last": 0.001199736390517547,
+   "last": 0.001212,
    "peak": 0.001254,
    "cost": 1.1774525878985467,
    "opened": "2026-11-15T16:38:18+07:00",
-   "source": "agents",
-   "gap": 1,
-   "miss": 0
-  },
-  "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": {
-   "sym": "rockstar",
-   "qty": 6503.2913817486415,
-   "entry": 0.0001593,
-   "last": 0.0001971,
-   "peak": 0.00023830140649528614,
-   "cost": 1.067794596075612,
-   "opened": "2026-11-15T23:32:28+07:00",
    "source": "agents",
    "gap": 0,
    "miss": 0
@@ -973,6 +961,21 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-16T00:23:24+07:00",
+   "kind": "sell",
+   "mint": "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump",
+   "sym": "rockstar",
+   "price": 0.0001803,
+   "entry": 0.0001593,
+   "usd": 1.1376,
+   "pnl": 0.0698,
+   "why": "trailing จากยอด +50% (+13.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",
