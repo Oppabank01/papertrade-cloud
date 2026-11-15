@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.5649676397889729,
+ "cash": 0.3709375896567896,
  "pos": {
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": {
    "sym": "OTC",
@@ -14,7 +14,7 @@
    "zoo": "rand",
    "smart": 524,
    "kol": 55,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump": {
@@ -28,7 +28,21 @@
    "zoo": "rand",
    "smart": 41,
    "kol": 2,
-   "gap": 2,
+   "gap": 0,
+   "miss": 0
+  },
+  "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": {
+   "sym": "WISHMAS",
+   "qty": 1336.988314192076,
+   "entry": 0.0001408,
+   "last": 0.0001408,
+   "peak": 0.0001408,
+   "cost": 0.19403005013218333,
+   "opened": "2026-11-16T01:48:30+07:00",
+   "zoo": "rand",
+   "smart": 141,
+   "kol": 9,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -2421,8 +2435,22 @@
    "cost_side": 0.03,
    "smart": 249,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T01:48:30+07:00",
+   "kind": "buy",
+   "mint": "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
+   "sym": "WISHMAS",
+   "price": 0.0001408,
+   "jup": 0.00014099397373337316,
+   "usd": 0.194,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 141,
+   "kol": 9
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794768160.3092341
+ "rank_t": 1794768443.0653577
 }
