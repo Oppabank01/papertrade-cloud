@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.21237795018510425,
+ "cash": 0.1396571375650167,
  "pos": {
   "3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": {
    "sym": "SIB",
@@ -23,6 +23,18 @@
    "peak": 0.006377,
    "cost": 0.07871788256235548,
    "opened": "2026-11-15T13:38:55+07:00",
+   "source": "agents",
+   "gap": 0,
+   "miss": 0
+  },
+  "uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY": {
+   "sym": "PAYDAY",
+   "qty": 203.38348920152478,
+   "entry": 0.0003469,
+   "last": 0.0003469,
+   "peak": 0.0003469,
+   "cost": 0.07272081262008756,
+   "opened": "2026-11-15T14:59:29+07:00",
    "source": "agents",
    "gap": 0,
    "miss": 0
@@ -3158,6 +3170,18 @@
    "cost_side": 0.03,
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T14:59:29+07:00",
+   "kind": "buy",
+   "mint": "uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY",
+   "sym": "PAYDAY",
+   "price": 0.0003469,
+   "jup": 0.00034796554430998797,
+   "usd": 0.0727,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "agents"
   }
  ],
  "label": "เร็ว ไม่มี laya",
@@ -5404,6 +5428,11 @@
   "state_agents.json:2026-11-15T14:54:22+07:00:2L9RzqPSwbRy7WaN7Qq1Dsq6ZjAU1t56bvFBafq8pump",
   "state_agents.json:2026-11-15T14:54:25+07:00:6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
   "state_agents.json:2026-11-15T14:54:28+07:00:6sZUjgnHTdezsZoMdbTcxsi58bXqnsz6mkj49Wgxpump",
-  "state_agents.json:2026-11-15T14:54:31+07:00:FP7NvFXQXoZL1nQC5QZtE1bzwgALdxj1TeA9J25epump"
+  "state_agents.json:2026-11-15T14:54:31+07:00:FP7NvFXQXoZL1nQC5QZtE1bzwgALdxj1TeA9J25epump",
+  "state_agents.json:2026-11-15T14:59:07+07:00:7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn",
+  "state_agents.json:2026-11-15T14:59:10+07:00:uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY",
+  "state_agents.json:2026-11-15T14:59:13+07:00:FibMHnUpDLQGtg51rWZotvRX2yp45SewAU4KrCNcpump",
+  "state_agents.json:2026-11-15T14:59:16+07:00:2tHPtosmh76mmJHeskid7nYUeHjGUQ4ZAYChwdGJpump",
+  "state_agents.json:2026-11-15T14:59:19+07:00:B9FgqHbtccsgcL6YPfUhNd81qveNtrTbsfLvcjxtpump"
  ]
 }
