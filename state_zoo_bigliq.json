@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 3.726356453472593,
+ "cash": 1.887572428408213,
  "pos": {
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
    "sym": "FLOAT",
    "qty": 696.6898336127501,
    "entry": 0.002623,
-   "last": 0.0027060988500422953,
-   "peak": 0.0027474802531899226,
+   "last": 0.002867351590807795,
+   "peak": 0.002867351590807795,
    "cost": 1.883547138287202,
    "opened": "2026-11-15T18:44:36+07:00",
    "zoo": "bigliq",
    "smart": 342,
    "kol": 31,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": {
    "sym": "TripleT",
    "qty": 784.4771110405281,
    "entry": 0.002314,
-   "last": 0.00225,
+   "last": 0.002271,
    "peak": 0.002314,
    "cost": 1.8710369356295424,
    "opened": "2026-11-15T19:26:40+07:00",
@@ -35,13 +35,27 @@
    "sym": "pwease",
    "qty": 874.4844150300751,
    "entry": 0.002073,
-   "last": 0.002078,
+   "last": 0.002081,
    "peak": 0.0020853437089357676,
    "cost": 1.8684871081811438,
    "opened": "2026-11-15T19:55:34+07:00",
    "zoo": "bigliq",
    "smart": 47,
    "kol": 135,
+   "gap": 0,
+   "miss": 0
+  },
+  "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
+   "sym": "CRIME",
+   "qty": 534.7686634045148,
+   "entry": 0.003336,
+   "last": 0.003336,
+   "peak": 0.003336,
+   "cost": 1.8387840250643799,
+   "opened": "2026-11-15T20:18:58+07:00",
+   "zoo": "bigliq",
+   "smart": 90,
+   "kol": 40,
    "gap": 0,
    "miss": 0
   }
@@ -934,8 +948,22 @@
    "cost_side": 0.03,
    "smart": 249,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T20:18:58+07:00",
+   "kind": "buy",
+   "mint": "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump",
+   "sym": "CRIME",
+   "price": 0.003336,
+   "jup": 0.003337172162982551,
+   "usd": 1.8388,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliq",
+   "smart": 90,
+   "kol": 40
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ มาร์เก็ตแคป 2M+",
- "rank_t": 1794748419.928642
+ "rank_t": 1794748708.746261
 }
