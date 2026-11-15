@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.963110822812488,
- "pos": {},
+ "cash": 0.7704886582499905,
+ "pos": {
+  "FG3sAP594dUmgkzYneQEv4BnEJdgS8txNT7QAPtrpump": {
+   "sym": "Brian",
+   "qty": 2211.359887096618,
+   "entry": 8.451e-05,
+   "last": 8.451e-05,
+   "peak": 8.451e-05,
+   "cost": 0.19262216456249762,
+   "opened": "2026-11-16T04:41:01+07:00",
+   "smart": 37,
+   "kol": 1,
+   "bundler": 0.1766,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T01:37:56+07:00",
@@ -34056,6 +34071,53 @@
    "buy": 0.874,
    "bull": 0.9069,
    "bear": 0.9858
+  },
+  {
+   "t": "2026-11-16T04:40:56+07:00",
+   "kind": "debate",
+   "mint": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
+   "sym": "PAID",
+   "ok": false,
+   "bundler": 0.2918,
+   "buy": 0.7785,
+   "bull": 0.906,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-16T04:40:59+07:00",
+   "kind": "debate",
+   "mint": "Cxrw8hPBcbboL18wLhHJCt1CfLe3JSdfofLrZ8ABpump",
+   "sym": "NCAT",
+   "ok": false,
+   "bundler": 0.1505,
+   "buy": 0.8245,
+   "bull": 0.913,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-16T04:41:01+07:00",
+   "kind": "debate",
+   "mint": "FG3sAP594dUmgkzYneQEv4BnEJdgS8txNT7QAPtrpump",
+   "sym": "Brian",
+   "ok": true,
+   "bundler": 0.1766,
+   "buy": 0.803,
+   "bull": 0.8086,
+   "bear": 0.0001
+  },
+  {
+   "t": "2026-11-16T04:41:01+07:00",
+   "kind": "buy",
+   "mint": "FG3sAP594dUmgkzYneQEv4BnEJdgS8txNT7QAPtrpump",
+   "sym": "Brian",
+   "price": 8.451e-05,
+   "jup": 8.434412809910673e-05,
+   "usd": 0.1926,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 37,
+   "kol": 1,
+   "bundler": 0.1766
   }
  ]
 }
