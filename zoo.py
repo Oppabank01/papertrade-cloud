@@ -231,7 +231,19 @@ def verdict(name, s, rand_ret):
         s["passed"] = f"{day}: {n} ไม้ {r:+.1%} ชนะ rand {rand_ret:+.1%} หลังหักค่าธรรมเนียม"
 
 
+def apply_repairs():
+    """One-off fixes shipped as data/repair_<name>.json {repair, state}: replace a bug-corrupted state once, under its lock, from the cloud run itself."""
+    for fx in sorted((HERE / "data").glob("repair_*.json")):
+        name, fix = fx.stem[7:], json.loads(fx.read_text())
+        with lock(name):
+            use(name)
+            if agents.STATE.exists() and agents.load().get("repair") != fix["repair"]:
+                agents.save({**fix["state"], "repair": fix["repair"]})
+                print(f"repaired {name}: {fix['repair']}")
+
+
 def cmd_tick():
+    apply_repairs()
     d = json.loads(RANK.read_text()) if RANK.exists() else None
     rand_ret = None
     if "rand" in ZOO:

@@ -241,6 +241,8 @@ def cmd_run():
                     print(f"  HALT {s['halted']}")
             elif m in pools:
                 q["gap"] = 0
+                if m not in jp:                 # no second source to confirm it: an unverified price may fall, never rise (moon INU 15 Nov: x156,000 on one bad pool)
+                    pools[m] = {**pools[m], "priceUsd": str(min(float(pools[m]["priceUsd"]), q["last"]))}
             if m not in pools:
                 q["miss"] = q.get("miss", 0) + 1
                 if q["miss"] < MISS_N:

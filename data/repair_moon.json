@@ -1,0 +1,379 @@
+{
+ "repair": "2026-11-15 moon INU fake x156000",
+ "state": {
+  "start_thb": 500.0,
+  "start_usd": 14.753614635585718,
+  "cash": 0.0,
+  "pos": {
+   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
+    "sym": "Leonida",
+    "qty": 4218.672832138303,
+    "entry": 0.0006786,
+    "last": 0.0005908,
+    "peak": 0.0008452,
+    "cost": 2.950722927117144,
+    "opened": "2026-11-14T00:45:45+07:00",
+    "zoo": "moon",
+    "smart": 72,
+    "kol": 4,
+    "miss": 0,
+    "gap": 0
+   },
+   "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd": {
+    "sym": "INU",
+    "qty": 13975718932.427958,
+    "entry": 2.007e-10,
+    "last": 2.007e-10,
+    "peak": 2.007e-10,
+    "cost": 2.8910810036469705,
+    "opened": "2026-11-14T00:53:25+07:00",
+    "zoo": "moon",
+    "smart": 0,
+    "kol": 0,
+    "miss": 0,
+    "gap": 0
+   },
+   "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
+    "sym": "JENSEN",
+    "qty": 1303.1166897514636,
+    "entry": 0.0007938,
+    "last": 0.0006783,
+    "peak": 0.0008779,
+    "cost": 1.0661863825239248,
+    "opened": "2026-11-14T20:14:17+07:00",
+    "zoo": "moon",
+    "smart": 4,
+    "kol": 0,
+    "gap": 0,
+    "miss": 0
+   }
+  },
+  "log": [
+   {
+    "t": "2026-11-14T00:42:01+07:00",
+    "kind": "init",
+    "thb": 500.0
+   },
+   {
+    "t": "2026-11-14T00:45:45+07:00",
+    "kind": "buy",
+    "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+    "sym": "Leonida",
+    "price": 0.0006786,
+    "usd": 2.9507
+   },
+   {
+    "t": "2026-11-14T00:45:45+07:00",
+    "kind": "buy",
+    "mint": "F37BKMyLrJxpHAmLcsQxza4f1uwPyCAmMmaeA2C7pump",
+    "sym": "JENSEN",
+    "price": 0.0001819,
+    "usd": 2.9331
+   },
+   {
+    "t": "2026-11-14T00:53:25+07:00",
+    "kind": "buy",
+    "mint": "G65CdG2fj79uFqmnqCGNQ3MQb2UKToNUz99uRo6WeUSd",
+    "sym": "INU",
+    "price": 2.007e-10,
+    "usd": 2.8911
+   },
+   {
+    "t": "2026-11-14T00:57:19+07:00",
+    "kind": "buy",
+    "mint": "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump",
+    "sym": "Huang",
+    "price": 0.0001975,
+    "usd": 2.9968
+   },
+   {
+    "t": "2026-11-14T01:04:53+07:00",
+    "kind": "sell",
+    "mint": "F37BKMyLrJxpHAmLcsQxza4f1uwPyCAmMmaeA2C7pump",
+    "sym": "JENSEN",
+    "price": 2.782e-06,
+    "usd": 0.0422,
+    "pnl": -2.8909,
+    "why": "stop -98.5%",
+    "smart": 2,
+    "bundler": null
+   },
+   {
+    "t": "2026-11-14T01:18:41+07:00",
+    "kind": "buy",
+    "mint": "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump",
+    "sym": "BAWSAQ",
+    "price": 5.908e-05,
+    "usd": 2.273
+   },
+   {
+    "t": "2026-11-14T01:27:10+07:00",
+    "kind": "sell",
+    "mint": "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump",
+    "sym": "BAWSAQ",
+    "price": 0.0001962,
+    "usd": 7.1053,
+    "pnl": 4.8323,
+    "why": "ถึงเป้า +232.1%",
+    "smart": 30,
+    "bundler": null
+   },
+   {
+    "t": "2026-11-14T01:31:30+07:00",
+    "kind": "buy",
+    "mint": "DzFftAYHszHZThtyC7CSRgN5eDvgyK9DUPm3z2o5pump",
+    "sym": "JENSEN",
+    "price": 8.937e-05,
+    "usd": 3.2615
+   },
+   {
+    "t": "2026-11-14T01:40:04+07:00",
+    "kind": "sell",
+    "mint": "DzFftAYHszHZThtyC7CSRgN5eDvgyK9DUPm3z2o5pump",
+    "sym": "JENSEN",
+    "price": 1.673e-06,
+    "usd": 0.0575,
+    "pnl": -3.204,
+    "why": "stop -98.1%",
+    "smart": 4,
+    "bundler": null
+   },
+   {
+    "t": "2026-11-14T01:53:11+07:00",
+    "kind": "buy",
+    "mint": "H2REP2i7Xra5jtdN81Hf4CPPRkbbNFaaFp9Gw9RZpump",
+    "sym": "Nancy",
+    "price": 6.301e-05,
+    "usd": 2.6385
+   },
+   {
+    "t": "2026-11-14T02:15:22+07:00",
+    "kind": "sell",
+    "mint": "H2REP2i7Xra5jtdN81Hf4CPPRkbbNFaaFp9Gw9RZpump",
+    "sym": "Nancy",
+    "price": 0.0001373,
+    "usd": 5.4118,
+    "pnl": 2.7733,
+    "why": "ถึงเป้า +117.9%",
+    "smart": 11,
+    "bundler": null
+   },
+   {
+    "t": "2026-11-14T02:28:09+07:00",
+    "kind": "buy",
+    "mint": "13gWn6Htjk3kisvhx8rb4YY4E6zNF8eLjwKMhv3fpump",
+    "sym": "Claude",
+    "price": 6.043e-05,
+    "usd": 3.0406
+   },
+   {
+    "t": "2026-11-14T02:32:34+07:00",
+    "kind": "sell",
+    "mint": "13gWn6Htjk3kisvhx8rb4YY4E6zNF8eLjwKMhv3fpump",
+    "sym": "Claude",
+    "price": 1.477e-06,
+    "usd": 0.07,
+    "pnl": -2.9706,
+    "why": "stop -97.6%",
+    "smart": 1,
+    "bundler": null
+   },
+   {
+    "t": "2026-11-14T02:43:43+07:00",
+    "kind": "buy",
+    "mint": "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump",
+    "sym": "LuckyCoin",
+    "price": 0.0004446,
+    "usd": 2.3227
+   },
+   {
+    "t": "2026-11-14T02:43:44+07:00",
+    "kind": "sell",
+    "mint": "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump",
+    "sym": "Huang",
+    "price": 9.769e-05,
+    "usd": 1.3953,
+    "pnl": -1.6015,
+    "why": "stop -50.5%",
+    "smart": 133,
+    "bundler": null
+   },
+   {
+    "t": "2026-11-14T02:48:16+07:00",
+    "kind": "buy",
+    "mint": "GXbhJB9Vx1n5JZ74ghk18UT59oNqKJKfLNPzKmhzpump",
+    "sym": "ZELDA",
+    "price": 4.987e-05,
+    "usd": 2.2744
+   },
+   {
+    "t": "2026-11-14T02:57:25+07:00",
+    "kind": "sell",
+    "mint": "GXbhJB9Vx1n5JZ74ghk18UT59oNqKJKfLNPzKmhzpump",
+    "sym": "ZELDA",
+    "price": 0.0001226,
+    "usd": 5.2631,
+    "pnl": 2.9887,
+    "why": "ถึงเป้า +145.8%",
+    "smart": 4,
+    "bundler": null
+   },
+   {
+    "t": "2026-11-14T03:10:39+07:00",
+    "kind": "buy",
+    "mint": "2CUsXJdV5gPu9SujUjvsXEaaJhmEk6J5wFGkh59epump",
+    "sym": "Daniela",
+    "price": 8.876e-05,
+    "usd": 2.9833
+   },
+   {
+    "t": "2026-11-14T03:19:22+07:00",
+    "kind": "sell",
+    "mint": "2CUsXJdV5gPu9SujUjvsXEaaJhmEk6J5wFGkh59epump",
+    "sym": "Daniela",
+    "price": 1.739e-06,
+    "usd": 0.055,
+    "pnl": -2.9283,
+    "why": "stop -98.0%",
+    "smart": 4,
+    "bundler": null
+   },
+   {
+    "t": "2026-11-14T03:23:38+07:00",
+    "kind": "buy",
+    "mint": "2wt4B6hskQxSEPevuoxTwSoJPv3R7xqRYoCkXUkNpump",
+    "sym": "SI",
+    "price": 7.401e-05,
+    "usd": 2.399
+   },
+   {
+    "t": "2026-11-14T03:27:46+07:00",
+    "kind": "sell",
+    "mint": "2wt4B6hskQxSEPevuoxTwSoJPv3R7xqRYoCkXUkNpump",
+    "sym": "SI",
+    "price": 1.717e-06,
+    "usd": 0.0524,
+    "pnl": -2.3466,
+    "why": "stop -97.7%",
+    "smart": 2,
+    "bundler": null
+   },
+   {
+    "t": "2026-11-14T03:49:55+07:00",
+    "kind": "buy",
+    "mint": "9oJk7eMccQchx3evoN5C5pKQD5Xodb4C1qkhemjjpump",
+    "sym": "POOR",
+    "price": 0.0001096,
+    "usd": 1.2415
+   },
+   {
+    "t": "2026-11-14T04:15:19+07:00",
+    "kind": "sell",
+    "mint": "9oJk7eMccQchx3evoN5C5pKQD5Xodb4C1qkhemjjpump",
+    "sym": "POOR",
+    "price": 5.242e-05,
+    "usd": 0.5589,
+    "pnl": -0.6826,
+    "why": "stop -52.2%",
+    "smart": 56,
+    "bundler": null
+   },
+   {
+    "t": "2026-11-14T04:36:57+07:00",
+    "kind": "buy",
+    "mint": "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump",
+    "sym": "plumber",
+    "price": 0.0001197,
+    "usd": 0.5589
+   },
+   {
+    "t": "2026-11-14T12:10:29+07:00",
+    "kind": "sell",
+    "mint": "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump",
+    "sym": "plumber",
+    "price": 5.909e-05,
+    "usd": 0.2597,
+    "pnl": -0.2992,
+    "why": "stop -50.6%",
+    "smart": 126,
+    "bundler": null
+   },
+   {
+    "t": "2026-11-14T12:15:16+07:00",
+    "kind": "buy",
+    "mint": "A5bpyAGdSPKwX3YDyF563DmbVSfM3EcYgBPjPna8pump",
+    "sym": "UP",
+    "price": 0.0001285,
+    "usd": 0.2597
+   },
+   {
+    "t": "2026-11-14T13:56:22+07:00",
+    "kind": "sell",
+    "mint": "A5bpyAGdSPKwX3YDyF563DmbVSfM3EcYgBPjPna8pump",
+    "sym": "UP",
+    "price": 5.902e-05,
+    "usd": 0.1123,
+    "pnl": -0.1474,
+    "why": "stop -54.1%",
+    "smart": 49,
+    "bundler": null
+   },
+   {
+    "t": "2026-11-14T14:05:35+07:00",
+    "kind": "buy",
+    "mint": "Hx1H9xGMuFRJcnVyzJb7VVyiFXnDh47xUYWt5JGtpump",
+    "sym": "r/acc",
+    "price": 1.697e-05,
+    "usd": 0.1123
+   },
+   {
+    "t": "2026-11-14T14:23:52+07:00",
+    "kind": "sell",
+    "mint": "Hx1H9xGMuFRJcnVyzJb7VVyiFXnDh47xUYWt5JGtpump",
+    "sym": "r/acc",
+    "price": 6.642e-06,
+    "usd": 0.0414,
+    "pnl": -0.0709,
+    "why": "stop -60.9%",
+    "smart": 39,
+    "bundler": null
+   },
+   {
+    "t": "2026-11-14T19:59:59+07:00",
+    "kind": "sell",
+    "mint": "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump",
+    "sym": "LuckyCoin",
+    "price": 0.0002084,
+    "entry": 0.0004446,
+    "usd": 1.0248,
+    "pnl": -1.2979,
+    "why": "stop -53.1%",
+    "stop_set": -0.5,
+    "cost_side": 0.03,
+    "smart": 38,
+    "bundler": null
+   },
+   {
+    "t": "2026-11-14T20:14:17+07:00",
+    "kind": "buy",
+    "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+    "sym": "JENSEN",
+    "price": 0.0007938,
+    "jup": 0.0007890037558367279,
+    "usd": 1.0662,
+    "stop_set": -0.5,
+    "cost_side": 0.03,
+    "zoo": "moon",
+    "smart": 4,
+    "kol": 0
+   },
+   {
+    "t": "2026-11-15T08:00:00+07:00",
+    "kind": "repair",
+    "why": "คืนสถานะก่อน 15 พ.ย. 00:47: INU ซื้อที่ราคาเพี้ยน 2e-10 (ก่อนมีตัวเทียบ Jupiter) แล้วขายที่ราคาที่ Jupiter ไม่ยืนยัน ได้ x156,000 ปลอม ไม้หลังจากนั้นใช้ขนาดเงินปลอม จึงตัดทิ้งทั้งหมด"
+   }
+  ],
+  "label": "สวนสัตว์: ถือยาวรอ x2 (stop -50%)",
+  "rank_t": 1794678153.9759278
+ }
+}

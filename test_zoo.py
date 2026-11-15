@@ -130,6 +130,21 @@ agents._dex.clear(); agents.WATCH_S = 20
 assert len(agents.dex_pairs(["A", "B"])) == 1 and len(agents.dex_pairs(["B", "A"])) == 1 and len(calls) == 1, calls
 agents._dex["A"] = (agents._dex["A"][0], time.time() - 20); agents.dex_pairs(["A"]); assert len(calls) == 2   # stale entry is refetched
 print("price pool ok")
+# no Jupiter price for a held coin: the DexScreener price may lower it but never raise it (moon INU fake x156,000)
+zoo.use("bigliqF"); agents.STATE = d / "state_unverified.json"; agents._dex.clear()
+agents.save(dict(start_usd=10, cash=0, log=[], pos={"U": dict(sym="U", qty=1, entry=1, last=1, peak=1, cost=1, opened=grok.now().isoformat())}))
+agents.jup_prices = lambda ms: {}
+grok.get = lambda url: [{"chainId": "solana", "baseToken": {"address": "U"}, "priceUsd": "5000", "liquidity": {"usd": 1}}]
+agents.cmd_run(); s = agents.load(); assert "U" in s["pos"] and s["pos"]["U"]["last"] == 1, s
+agents._dex.clear(); grok.get = lambda url: [{"chainId": "solana", "baseToken": {"address": "U"}, "priceUsd": "0.5", "liquidity": {"usd": 1}}]
+agents.cmd_run(); s = agents.load(); assert "U" not in s["pos"] and s["log"][-1]["why"].startswith("stop"), s["log"][-1]
+# one-off repair file replaces a corrupted state exactly once
+(d / "data").mkdir(exist_ok=True); zoo.use("rand"); agents.save(dict(start_usd=10, cash=99999, pos={}, log=[]))
+(d / "data" / "repair_rand.json").write_text(json.dumps({"repair": "r1", "state": dict(start_usd=10, cash=10, pos={}, log=[])}))
+zoo.apply_repairs(); zoo.use("rand"); s = agents.load(); assert s["cash"] == 10 and s["repair"] == "r1"
+s["cash"] = 7; agents.save(s); zoo.apply_repairs(); assert agents.load()["cash"] == 7     # applied once only
+(d / "data" / "repair_rand.json").unlink()
+print("unverified cap + repair ok")
 # agent rules: death at 20+ sells below rand, pass at 50+ sells positive and above rand
 st = lambda n, eq: dict(start_usd=10, cash=eq, pos={}, log=[{"kind": "sell", "pnl": 0}] * n)
 a = st(20, 5); zoo.verdict("x", a, -0.3); assert a.get("dead")
