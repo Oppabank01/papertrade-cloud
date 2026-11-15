@@ -1,8 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 13.3865081831131,
- "pos": {},
+ "cash": 10.709206546490481,
+ "pos": {
+  "EgyP9E9Lt9MqhreLZmzjn929XjF9tG7ERGU4YaTKpump": {
+   "sym": "FUTA",
+   "qty": 447974.8965944175,
+   "entry": 5.7024812812435976e-06,
+   "last": 5.7024812812435976e-06,
+   "peak": 5.7024812812435976e-06,
+   "cost": 2.6773016366226203,
+   "curve": "BRW51Pik4EoyTQVDY71WhvfptKQiTpL6yHkxygoHhg1j",
+   "opened": "2026-11-15T13:24:50+07:00",
+   "wallet": "2kN7bb"
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T21:07:09+07:00",
@@ -548,8 +560,31 @@
    "sym": "First",
    "wallet": "ENskGQ",
    "why": "curve 2.16 SOL"
+  },
+  {
+   "t": "2026-11-15T13:24:50+07:00",
+   "kind": "buy",
+   "mint": "EgyP9E9Lt9MqhreLZmzjn929XjF9tG7ERGU4YaTKpump",
+   "sym": "FUTA",
+   "price": 5.7024812812435976e-06,
+   "jup": 5.708154027721412e-06,
+   "usd": 2.6773,
+   "curve_sol": 21.03,
+   "wallet": "2kN7bb",
+   "wallet_usd": 681,
+   "lag_min_after_skip": 0.1,
+   "stop_set": -0.08,
+   "cost_side": 0.0325
+  },
+  {
+   "t": "2026-11-15T13:24:50+07:00",
+   "kind": "skip",
+   "mint": "4qxe4j7AVNgiBwLqNQAadrTQNbJ8C7CQPhkt714vpump",
+   "sym": "4qxe4j",
+   "wallet": "ENskGQ",
+   "why": "not on a SOL pump.fun curve"
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ บน bonding curve",
- "seen_t": "2026-11-15T13:01:52+07:00"
+ "seen_t": "2026-11-15T13:24:47+07:00"
 }
