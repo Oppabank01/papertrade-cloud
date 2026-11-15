@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 2.980042789742384,
+ "cash": 6.030498056424147,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 73.68619346141607,
    "entry": 0.03954,
-   "last": 0.04226,
+   "last": 0.04232,
    "peak": 0.04295,
    "cost": 2.9429075927015895,
    "opened": "2026-11-15T00:29:22+07:00",
@@ -21,7 +21,7 @@
    "sym": "USELESS",
    "qty": 27.695561392393326,
    "entry": 0.1051,
-   "last": 0.1015,
+   "last": 0.1018,
    "peak": 0.1057,
    "cost": 2.9401313121795294,
    "opened": "2026-11-15T00:39:07+07:00",
@@ -31,25 +31,11 @@
    "gap": 0,
    "miss": 0
   },
-  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
-   "sym": "GATO",
-   "qty": 447.6114896692368,
-   "entry": 0.006503,
-   "last": 0.00708,
-   "peak": 0.008633,
-   "cost": 2.9401454683659978,
-   "opened": "2026-11-15T01:17:00+07:00",
-   "zoo": "w_hot_mkt",
-   "smart": 61,
-   "kol": 4,
-   "gap": 0,
-   "miss": 0
-  },
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 174.47157840697793,
    "entry": 0.01652,
-   "last": 0.01633,
+   "last": 0.01635,
    "peak": 0.01726,
    "cost": 2.911310800518447,
    "opened": "2026-11-15T01:26:56+07:00",
@@ -121,8 +107,23 @@
    "zoo": "w_hot_mkt",
    "smart": 861,
    "kol": 110
+  },
+  {
+   "t": "2026-11-15T11:34:13+07:00",
+   "kind": "sell",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "price": 0.006883626111984457,
+   "entry": 0.006503,
+   "usd": 3.0505,
+   "pnl": 0.1103,
+   "why": "trailing จากยอด +33% (+5.9%)",
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "smart": 61,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ตลาดร้อน: กฎ w_aged_nostop เฉพาะรอบที่เหรียญ 74%+ ขึ้นใน 1 ชม.",
- "rank_t": 1794716813.6805449
+ "rank_t": 1794717098.6826344
 }
