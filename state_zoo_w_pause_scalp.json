@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 5.031334442497522,
+ "cash": 4.856113393193072,
  "pos": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 104.9582094522172,
    "entry": 0.006783,
-   "last": 0.006324,
+   "last": 0.006488,
    "peak": 0.006796,
    "cost": 0.7337987370793541,
    "opened": "2026-11-16T04:33:44+07:00",
@@ -21,28 +21,28 @@
    "sym": "PAID",
    "qty": 545.5315632992225,
    "entry": 0.001296,
-   "last": 0.001232,
+   "last": 0.001221,
    "peak": 0.00136,
    "cost": 0.7287249083032287,
    "opened": "2026-11-16T04:37:18+07:00",
    "zoo": "w_pause_scalp",
    "smart": 668,
    "kol": 93,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
    "qty": 564.8253361344598,
    "entry": 0.001248,
-   "last": 0.0014154486286568151,
+   "last": 0.001397,
    "peak": 0.0014297391365177936,
    "cost": 0.7265533080764851,
    "opened": "2026-11-16T04:37:18+07:00",
    "zoo": "w_pause_scalp",
    "smart": 408,
    "kol": 32,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -2298,8 +2298,37 @@
    "cost_side": 0.03,
    "smart": 3,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T05:29:01+07:00",
+   "kind": "buy",
+   "mint": "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump",
+   "sym": "GTA6",
+   "price": 0.000151,
+   "jup": 0.00015189966748970434,
+   "usd": 0.7161,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 97,
+   "kol": 5
+  },
+  {
+   "t": "2026-11-16T05:30:09+07:00",
+   "kind": "sell",
+   "mint": "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump",
+   "sym": "GTA6",
+   "price": 0.00012116561914663677,
+   "entry": 0.000151,
+   "usd": 0.5409,
+   "pnl": -0.1752,
+   "why": "stop -19.8%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 97,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794781359.1858792
+ "rank_t": 1794781637.2171621
 }
