@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.797850369846974,
+ "cash": 1.1248180230544291,
  "pos": {
   "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": {
    "sym": "fone",
    "qty": 814.6017141119243,
    "entry": 0.0009731,
-   "last": 0.001021048012198198,
+   "last": 0.001013,
    "peak": 0.001021048012198198,
    "cost": 0.8170366192561467,
    "opened": "2026-11-15T18:30:22+07:00",
    "zoo": "boosted",
    "smart": 480,
    "kol": 58,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
@@ -28,6 +28,20 @@
    "zoo": "boosted",
    "smart": 249,
    "kol": 20,
+   "gap": 0,
+   "miss": 0
+  },
+  "Gg3XUJHFoFSha6cWFDT2im8mtNuSHhCzp2D4naowpump": {
+   "sym": "BUSTED",
+   "qty": 4145.879256242077,
+   "entry": 0.0001575,
+   "last": 0.0001575,
+   "peak": 0.0001575,
+   "cost": 0.673032346792545,
+   "opened": "2026-11-15T21:29:41+07:00",
+   "zoo": "boosted",
+   "smart": 20,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -1970,8 +1984,22 @@
    "cost_side": 0.03,
    "smart": 313,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T21:29:41+07:00",
+   "kind": "buy",
+   "mint": "Gg3XUJHFoFSha6cWFDT2im8mtNuSHhCzp2D4naowpump",
+   "sym": "BUSTED",
+   "price": 0.0001575,
+   "jup": 0.0001582743737743613,
+   "usd": 0.673,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 20,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794752659.3054416
+ "rank_t": 1794752948.3072615
 }
