@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 6.030498056424147,
+ "cash": 3.050232907916209,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
@@ -21,7 +21,7 @@
    "sym": "USELESS",
    "qty": 27.695561392393326,
    "entry": 0.1051,
-   "last": 0.1013,
+   "last": 0.1014,
    "peak": 0.1057,
    "cost": 2.9401313121795294,
    "opened": "2026-11-15T00:39:07+07:00",
@@ -35,13 +35,27 @@
    "sym": "CATE",
    "qty": 174.47157840697793,
    "entry": 0.01652,
-   "last": 0.01681,
+   "last": 0.01693,
    "peak": 0.01726,
    "cost": 2.911310800518447,
    "opened": "2026-11-15T01:26:56+07:00",
    "zoo": "w_hot_mkt",
    "smart": 861,
    "kol": 110,
+   "gap": 0,
+   "miss": 0
+  },
+  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
+   "sym": "CLAUDIA",
+   "qty": 680.0039187950151,
+   "entry": 0.004339,
+   "last": 0.004357,
+   "peak": 0.004357,
+   "cost": 2.9802651485079377,
+   "opened": "2026-11-15T11:46:39+07:00",
+   "zoo": "w_hot_mkt",
+   "smart": 439,
+   "kol": 28,
    "gap": 0,
    "miss": 0
   }
@@ -122,8 +136,22 @@
    "cost_side": 0.01,
    "smart": 61,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T11:46:39+07:00",
+   "kind": "buy",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.004339,
+   "jup": 0.004377052302475422,
+   "usd": 2.9803,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_hot_mkt",
+   "smart": 439,
+   "kol": 28
   }
  ],
  "label": "สวนสัตว์: ตลาดร้อน: กฎ w_aged_nostop เฉพาะรอบที่เหรียญ 74%+ ขึ้นใน 1 ชม.",
- "rank_t": 1794717645.25518
+ "rank_t": 1794717914.6973183
 }

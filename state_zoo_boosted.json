@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.3878079593112,
+ "cash": 1.3136808434851022,
  "pos": {
   "2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump": {
    "sym": "Peekhole",
    "qty": 1575.255430397468,
    "entry": 0.0005199,
-   "last": 0.0006987,
+   "last": 0.0006809,
    "peak": 0.0007518,
    "cost": 0.8441303836978392,
    "opened": "2026-11-15T08:52:19+07:00",
@@ -43,6 +43,20 @@
    "smart": 169,
    "kol": 8,
    "gap": 0,
+   "miss": 0
+  },
+  "8655LtfvozXLSJWrzcmwVeK13s5Gvn49UXFHYcYzpump": {
+   "sym": "MIL",
+   "qty": 14702.569522777649,
+   "entry": 7.088e-05,
+   "last": 7.073904872927063e-05,
+   "peak": 7.088e-05,
+   "cost": 1.0741271158260977,
+   "opened": "2026-11-15T11:46:06+07:00",
+   "zoo": "boosted",
+   "smart": 27,
+   "kol": 2,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -1534,8 +1548,22 @@
    "cost_side": 0.03,
    "smart": 439,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T11:46:06+07:00",
+   "kind": "buy",
+   "mint": "8655LtfvozXLSJWrzcmwVeK13s5Gvn49UXFHYcYzpump",
+   "sym": "MIL",
+   "price": 7.088e-05,
+   "jup": 7.073904872927063e-05,
+   "usd": 1.0741,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 27,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794717645.25518
+ "rank_t": 1794717914.6973183
 }
