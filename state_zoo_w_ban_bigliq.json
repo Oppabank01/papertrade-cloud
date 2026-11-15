@@ -1,20 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 10.585637129391637,
+ "cash": 7.964551007809995,
  "pos": {
   "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": {
    "sym": "TripleT",
    "qty": 1110.530400403954,
    "entry": 0.002312,
-   "last": 0.002269,
+   "last": 0.002234,
    "peak": 0.002312,
    "cost": 2.6464092823479093,
    "opened": "2026-11-15T19:27:21+07:00",
    "zoo": "w_ban_bigliq",
    "smart": 611,
    "kol": 71,
-   "gap": 0,
+   "gap": 2,
+   "miss": 0
+  },
+  "CniPCE4b3s8gSUPhUiyMjXnytrEqUrMfSsnbBjLCpump": {
+   "sym": "pwease",
+   "qty": 1226.7138230383546,
+   "entry": 0.002073,
+   "last": 0.0020748146372862406,
+   "peak": 0.0020748146372862406,
+   "cost": 2.621086121581642,
+   "opened": "2026-11-15T19:56:30+07:00",
+   "zoo": "w_ban_bigliq",
+   "smart": 47,
+   "kol": 135,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -486,10 +500,24 @@
    "zoo": "w_ban_bigliq",
    "smart": 611,
    "kol": 71
+  },
+  {
+   "t": "2026-11-15T19:56:30+07:00",
+   "kind": "buy",
+   "mint": "CniPCE4b3s8gSUPhUiyMjXnytrEqUrMfSsnbBjLCpump",
+   "sym": "pwease",
+   "price": 0.002073,
+   "jup": 0.002084101159778161,
+   "usd": 2.6211,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_bigliq",
+   "smart": 47,
+   "kol": 135
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794746998.471263,
+ "rank_t": 1794747282.811333,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"

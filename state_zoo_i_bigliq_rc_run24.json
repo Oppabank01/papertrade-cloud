@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.731879787860931,
- "cash": 1.7546716918509477,
+ "cash": 4.642654144092505,
  "pos": {
-  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
-   "sym": "CLAUDIA",
-   "qty": 640.7127927325882,
-   "entry": 0.004041,
-   "last": 0.00466,
-   "peak": 0.005365,
-   "cost": 2.6152070861164005,
-   "opened": "2026-11-14T21:42:54+07:00",
-   "zoo": "i_bigliq_rc_run24",
-   "smart": 439,
-   "kol": 28,
-   "gap": 0,
-   "miss": 0
-  },
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 516.6456943076724,
    "entry": 0.004955,
-   "last": 0.005432,
+   "last": 0.005437,
    "peak": 0.005524,
    "cost": 2.5857724959415336,
    "opened": "2026-11-15T01:54:40+07:00",
@@ -35,7 +21,7 @@
    "sym": "CATE",
    "qty": 163.41183603013283,
    "entry": 0.01436,
-   "last": 0.01727,
+   "last": 0.01717,
    "peak": 0.01863,
    "cost": 2.3702370802683848,
    "opened": "2026-11-15T05:23:30+07:00",
@@ -411,9 +397,24 @@
    "zoo": "i_bigliq_rc_run24",
    "smart": 465,
    "kol": 213
+  },
+  {
+   "t": "2026-11-15T19:57:15+07:00",
+   "kind": "sell",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.004552867309044071,
+   "entry": 0.004041,
+   "usd": 2.888,
+   "pnl": 0.2728,
+   "why": "trailing จากยอด +33% (+12.7%)",
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "smart": 439,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ RugCheck ปล่อยวิ่ง 24 ชม.",
- "rank_t": 1794746998.471263,
+ "rank_t": 1794747282.811333,
  "halted": "ราคา CLAUDIA สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }
