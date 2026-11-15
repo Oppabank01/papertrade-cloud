@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 9.724913606742955,
+ "cash": 10.800417356362269,
  "pos": {
-  "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS": {
-   "sym": "BAGSPAY",
-   "qty": 2286.117112002671,
-   "entry": 0.0005339,
-   "last": 0.0004846,
-   "peak": 0.0005452,
-   "cost": 1.258047749018992,
-   "opened": "2026-11-15T06:29:07+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 187,
-   "kol": 18,
-   "gap": 0,
-   "miss": 0
-  },
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
    "sym": "FLOAT",
    "qty": 412.3021616571489,
    "entry": 0.002965,
-   "last": 0.0028664360043650834,
+   "last": 0.002796,
    "peak": 0.003071,
    "cost": 1.2600246436955747,
    "opened": "2026-11-15T06:43:12+07:00",
    "zoo": "w_pause_scalp",
    "smart": 342,
    "kol": 31,
-   "gap": 11,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -747,10 +733,25 @@
    "cost_side": 0.03,
    "smart": 24,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T08:29:14+07:00",
+   "kind": "sell",
+   "mint": "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS",
+   "sym": "BAGSPAY",
+   "price": 0.0004849,
+   "entry": 0.0005339,
+   "usd": 1.0755,
+   "pnl": -0.1825,
+   "why": "ครบ 2 ชม. (-9.2%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 187,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794705829.913224,
+ "rank_t": 1794706104.9726288,
  "halted": "ราคา FLOAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-15T09:09:07+07:00"
 }

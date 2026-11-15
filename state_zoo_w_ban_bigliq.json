@@ -1,33 +1,47 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 7.861028218803216,
+ "cash": 5.196205994334068,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 60.79452055215613,
    "entry": 0.04198,
-   "last": 0.044091336464846066,
+   "last": 0.04415,
    "peak": 0.04601,
    "cost": 2.6305441896305037,
    "opened": "2026-11-15T05:38:18+07:00",
    "zoo": "w_ban_bigliq",
    "smart": 1000,
    "kol": 186,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 730.6726222915153,
    "entry": 0.003469,
-   "last": 0.003726,
-   "peak": 0.003784,
+   "last": 0.003815,
+   "peak": 0.003815,
    "cost": 2.612557541464921,
    "opened": "2026-11-15T05:52:27+07:00",
    "zoo": "w_ban_bigliq",
    "smart": 248,
    "kol": 20,
+   "gap": 0,
+   "miss": 0
+  },
+  "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
+   "sym": "CRIME",
+   "qty": 903.357974206837,
+   "entry": 0.002862,
+   "last": 0.002862,
+   "peak": 0.002862,
+   "cost": 2.6648222244691477,
+   "opened": "2026-11-15T08:29:47+07:00",
+   "zoo": "w_ban_bigliq",
+   "smart": 88,
+   "kol": 40,
    "gap": 0,
    "miss": 0
   }
@@ -340,10 +354,24 @@
    "cost_side": 0.03,
    "smart": 865,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T08:29:47+07:00",
+   "kind": "buy",
+   "mint": "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump",
+   "sym": "CRIME",
+   "price": 0.002862,
+   "jup": 0.0028675762437037956,
+   "usd": 2.6648,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_bigliq",
+   "smart": 88,
+   "kol": 40
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794705829.913224,
+ "rank_t": 1794706104.9726288,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"
