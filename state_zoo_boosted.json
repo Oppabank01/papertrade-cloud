@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.3136808434851022,
+ "cash": 2.23173974821139,
  "pos": {
   "2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump": {
    "sym": "Peekhole",
    "qty": 1575.255430397468,
    "entry": 0.0005199,
-   "last": 0.0006809,
+   "last": 0.0006697,
    "peak": 0.0007518,
    "cost": 0.8441303836978392,
    "opened": "2026-11-15T08:52:19+07:00",
@@ -21,21 +21,21 @@
    "sym": "Jimothy",
    "qty": 705.6245865710271,
    "entry": 0.001211,
-   "last": 0.001209,
+   "last": 0.0012005802918911646,
    "peak": 0.0012370589640243973,
    "cost": 0.8807579615929847,
    "opened": "2026-11-15T09:52:51+07:00",
    "zoo": "boosted",
    "smart": 385,
    "kol": 63,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 416.0155209382795,
    "entry": 0.002538,
-   "last": 0.0024736974310842685,
+   "last": 0.002451,
    "peak": 0.002538,
    "cost": 1.0882780788923452,
    "opened": "2026-11-15T11:14:07+07:00",
@@ -43,20 +43,6 @@
    "smart": 169,
    "kol": 8,
    "gap": 0,
-   "miss": 0
-  },
-  "8655LtfvozXLSJWrzcmwVeK13s5Gvn49UXFHYcYzpump": {
-   "sym": "MIL",
-   "qty": 14702.569522777649,
-   "entry": 7.088e-05,
-   "last": 7.073904872927063e-05,
-   "peak": 7.088e-05,
-   "cost": 1.0741271158260977,
-   "opened": "2026-11-15T11:46:06+07:00",
-   "zoo": "boosted",
-   "smart": 27,
-   "kol": 2,
-   "gap": 1,
    "miss": 0
   }
  },
@@ -1562,8 +1548,23 @@
    "zoo": "boosted",
    "smart": 27,
    "kol": 2
+  },
+  {
+   "t": "2026-11-15T11:51:09+07:00",
+   "kind": "sell",
+   "mint": "8655LtfvozXLSJWrzcmwVeK13s5Gvn49UXFHYcYzpump",
+   "sym": "MIL",
+   "price": 6.436e-05,
+   "entry": 7.088e-05,
+   "usd": 0.9181,
+   "pnl": -0.1561,
+   "why": "stop -9.2%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 27,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794717914.6973183
+ "rank_t": 1794718192.6533604
 }

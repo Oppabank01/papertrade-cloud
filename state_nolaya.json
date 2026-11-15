@@ -1,8 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.4070949682260193,
- "pos": {},
+ "cash": 0.244742238137737,
+ "pos": {
+  "EsLb2XdNWVezNnhEsRVKYZ7BymiKUabzh4tdVhz4pump": {
+   "sym": "Twin",
+   "qty": 307.9637724544905,
+   "entry": 0.0002565,
+   "last": 0.0002559,
+   "peak": 0.0002565,
+   "cost": 0.08141899364520387,
+   "opened": "2026-11-15T11:50:33+07:00",
+   "source": "agents",
+   "gap": 0,
+   "miss": 0
+  },
+  "55A3VxMBfzw6uSe64zms5iMPw9k6kx9WzzusbCU6pump": {
+   "sym": "Gato",
+   "qty": 778.98721326463,
+   "entry": 0.0001008,
+   "last": 0.0001008,
+   "peak": 0.0001008,
+   "cost": 0.08093373644307844,
+   "opened": "2026-11-15T11:50:35+07:00",
+   "source": "agents",
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T09:13:32+07:00",
@@ -3028,6 +3053,30 @@
    "cost_side": 0.03,
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T11:50:33+07:00",
+   "kind": "buy",
+   "mint": "EsLb2XdNWVezNnhEsRVKYZ7BymiKUabzh4tdVhz4pump",
+   "sym": "Twin",
+   "price": 0.0002565,
+   "jup": 0.0002564802087720241,
+   "usd": 0.0814,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "agents"
+  },
+  {
+   "t": "2026-11-15T11:50:35+07:00",
+   "kind": "buy",
+   "mint": "55A3VxMBfzw6uSe64zms5iMPw9k6kx9WzzusbCU6pump",
+   "sym": "Gato",
+   "price": 0.0001008,
+   "jup": 0.00010057421739004424,
+   "usd": 0.0809,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "agents"
   }
  ],
  "label": "เร็ว ไม่มี laya",
@@ -5149,6 +5198,14 @@
   "state_agents.json:2026-11-15T11:45:25+07:00:5gmCPpuktJ7Svjgr4PPJBTosAFKB8K6Z45EGfSUmpump",
   "state_agents.json:2026-11-15T11:45:28+07:00:8655LtfvozXLSJWrzcmwVeK13s5Gvn49UXFHYcYzpump",
   "state_agents.json:2026-11-15T11:45:30+07:00:7mH4PaR9BMxAid2i1QNDBmziAwxyXBsPNKSMiWySpump",
-  "state_agents.json:2026-11-15T11:45:33+07:00:BtB54BEhTsx8syvWFUcMEe6vxASyL9zP7feXY5d1pump"
+  "state_agents.json:2026-11-15T11:45:33+07:00:BtB54BEhTsx8syvWFUcMEe6vxASyL9zP7feXY5d1pump",
+  "state_agents.json:2026-11-15T11:50:00+07:00:4qyk1uJexNRNUwfx9J4KKoJ1v5icmZNci42yDzgEpump",
+  "state_agents.json:2026-11-15T11:50:03+07:00:8655LtfvozXLSJWrzcmwVeK13s5Gvn49UXFHYcYzpump",
+  "state_agents.json:2026-11-15T11:50:06+07:00:6sZUjgnHTdezsZoMdbTcxsi58bXqnsz6mkj49Wgxpump",
+  "state_agents.json:2026-11-15T11:50:09+07:00:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
+  "state_agents.json:2026-11-15T11:50:12+07:00:EsLb2XdNWVezNnhEsRVKYZ7BymiKUabzh4tdVhz4pump",
+  "state_agents.json:2026-11-15T11:50:15+07:00:7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn",
+  "state_agents.json:2026-11-15T11:50:18+07:00:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+  "state_agents.json:2026-11-15T11:50:21+07:00:55A3VxMBfzw6uSe64zms5iMPw9k6kx9WzzusbCU6pump"
  ]
 }

@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 3.343191217326765,
+ "cash": 3.3953886613707964,
  "pos": {
-  "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
-   "sym": "neet",
-   "qty": 59.41963422050458,
-   "entry": 0.02754,
-   "last": 0.03025,
-   "peak": 0.03167,
-   "cost": 1.68667978399577,
-   "opened": "2026-11-15T08:53:02+07:00",
-   "zoo": "w_f5_aged",
-   "smart": 856,
-   "kol": 202,
-   "gap": 0,
-   "miss": 0
-  },
   "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
    "sym": "PAID",
    "qty": 1464.9138828980588,
    "entry": 0.001135,
-   "last": 0.001143,
+   "last": 0.001126,
    "peak": 0.001153,
    "cost": 1.7137469151610976,
    "opened": "2026-11-15T11:37:31+07:00",
@@ -35,13 +21,27 @@
    "sym": "GATO",
    "qty": 225.92143977525453,
    "entry": 0.007306,
-   "last": 0.007276,
+   "last": 0.007238,
    "peak": 0.007335,
    "cost": 1.7012801886188513,
    "opened": "2026-11-15T11:42:12+07:00",
    "zoo": "w_f5_aged",
    "smart": 63,
    "kol": 4,
+   "gap": 0,
+   "miss": 0
+  },
+  "EsLb2XdNWVezNnhEsRVKYZ7BymiKUabzh4tdVhz4pump": {
+   "sym": "Twin",
+   "qty": 6429.119156051942,
+   "entry": 0.0002552,
+   "last": 0.0002605,
+   "peak": 0.0002605,
+   "cost": 1.691106172566951,
+   "opened": "2026-11-15T11:51:50+07:00",
+   "zoo": "w_f5_aged",
+   "smart": 137,
+   "kol": 6,
    "gap": 0,
    "miss": 0
   }
@@ -818,8 +818,37 @@
    "zoo": "w_f5_aged",
    "smart": 63,
    "kol": 4
+  },
+  {
+   "t": "2026-11-15T11:51:50+07:00",
+   "kind": "buy",
+   "mint": "EsLb2XdNWVezNnhEsRVKYZ7BymiKUabzh4tdVhz4pump",
+   "sym": "Twin",
+   "price": 0.0002552,
+   "jup": 0.0002559539073014308,
+   "usd": 1.6911,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged",
+   "smart": 137,
+   "kol": 6
+  },
+  {
+   "t": "2026-11-15T11:53:04+07:00",
+   "kind": "sell",
+   "mint": "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump",
+   "sym": "neet",
+   "price": 0.03024,
+   "entry": 0.02754,
+   "usd": 1.7433,
+   "pnl": 0.0566,
+   "why": "ครบ 3 ชม. (+9.8%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 856,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794717914.6973183
+ "rank_t": 1794718192.6533604
 }
