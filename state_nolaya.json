@@ -1,40 +1,40 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.12147237594136825,
+ "cash": 0.11431021971054411,
  "pos": {
-  "ABSZ6rwFCcWSTB4QiGfDqNBEgeyUswQWZm5Vt5rVpump": {
-   "sym": "RINA",
-   "qty": 1398.4318045161726,
-   "entry": 4.626e-05,
-   "last": 4.457e-05,
-   "peak": 5.289e-05,
-   "cost": 0.06667847379604015,
-   "opened": "2026-11-15T16:38:28+07:00",
-   "source": "agents",
-   "gap": 0,
-   "miss": 0
-  },
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 27.33184841932959,
    "entry": 0.002197,
-   "last": 0.002155,
+   "last": 0.002151,
    "peak": 0.002197,
    "cost": 0.061892466478321084,
    "opened": "2026-11-15T18:25:44+07:00",
    "source": "agents",
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": {
    "sym": "GTA",
    "qty": 68.71229680575848,
    "entry": 0.0008572,
-   "last": 0.000856,
-   "peak": 0.0008572,
+   "last": 0.0008727,
+   "peak": 0.0008727,
    "cost": 0.0607093185136015,
    "opened": "2026-11-15T19:26:20+07:00",
+   "source": "agents",
+   "gap": 0,
+   "miss": 0
+  },
+  "77HqxiDCgYfXUsDXDD6YVefPhTTz1Z2n8jX4gTxipump": {
+   "sym": "updog",
+   "qty": 229.7079657007248,
+   "entry": 0.0002547,
+   "last": 0.0002547,
+   "peak": 0.0002547,
+   "cost": 0.06030366817560772,
+   "opened": "2026-11-15T19:31:23+07:00",
    "source": "agents",
    "gap": 0,
    "miss": 0
@@ -3398,6 +3398,33 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-15T19:31:23+07:00",
+   "kind": "buy",
+   "mint": "77HqxiDCgYfXUsDXDD6YVefPhTTz1Z2n8jX4gTxipump",
+   "sym": "updog",
+   "price": 0.0002547,
+   "jup": 0.0002529014899647447,
+   "usd": 0.0603,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "agents"
+  },
+  {
+   "t": "2026-11-15T19:31:23+07:00",
+   "kind": "sell",
+   "mint": "ABSZ6rwFCcWSTB4QiGfDqNBEgeyUswQWZm5Vt5rVpump",
+   "sym": "RINA",
+   "price": 3.916799526643033e-05,
+   "entry": 4.626e-05,
+   "usd": 0.0531,
+   "pnl": -0.0135,
+   "why": "stop -15.3%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "เร็ว ไม่มี laya",
@@ -5817,6 +5844,12 @@
   "state_agents.json:2026-11-15T18:29:53+07:00:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump",
   "state_agents.json:2026-11-15T18:29:56+07:00:4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump",
   "state_agents.json:2026-11-15T18:58:19+07:00:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump",
-  "state_agents.json:2026-11-15T19:26:18+07:00:BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump"
+  "state_agents.json:2026-11-15T19:26:18+07:00:BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump",
+  "state_agents.json:2026-11-15T19:30:59+07:00:CM65K38bqGePYkNQBjGRRDYMhyxgh9xTQg2HPQTFpump",
+  "state_agents.json:2026-11-15T19:31:02+07:00:9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump",
+  "state_agents.json:2026-11-15T19:31:04+07:00:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+  "state_agents.json:2026-11-15T19:31:07+07:00:77HqxiDCgYfXUsDXDD6YVefPhTTz1Z2n8jX4gTxipump",
+  "state_agents.json:2026-11-15T19:31:10+07:00:8UqE9m2rMoxUzrz4kBVWx5ia3PiA2aGD6kiZUoiUpump",
+  "state_agents.json:2026-11-15T19:31:12+07:00:Gv6jKrrjJW9NLZujVZdxj6D9xL21qcLbHso8LYFMpump"
  ]
 }
