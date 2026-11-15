@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 4.513200791410872,
+ "cash": 6.518960438564351,
  "pos": {
-  "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": {
-   "sym": "TripleT",
-   "qty": 932.6493669635363,
-   "entry": 0.002312,
-   "last": 0.002214,
-   "peak": 0.002325,
-   "cost": 2.2225163228403377,
-   "opened": "2026-11-15T19:27:21+07:00",
-   "zoo": "w_pause_bigliq",
-   "smart": 611,
-   "kol": 71,
-   "gap": 0,
-   "miss": 0
-  },
   "CniPCE4b3s8gSUPhUiyMjXnytrEqUrMfSsnbBjLCpump": {
    "sym": "pwease",
    "qty": 1030.2229187836535,
@@ -35,14 +21,14 @@
    "sym": "ZCAT",
    "qty": 131.43099795849562,
    "entry": 0.01606,
-   "last": 0.01661,
-   "peak": 0.01666,
+   "last": 0.016050701338527654,
+   "peak": 0.01671,
    "cost": 2.1756151589501544,
    "opened": "2026-11-15T21:50:17+07:00",
    "zoo": "w_pause_bigliq",
    "smart": 329,
    "kol": 48,
-   "gap": 0,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -558,10 +544,25 @@
    "zoo": "w_pause_bigliq",
    "smart": 329,
    "kol": 48
+  },
+  {
+   "t": "2026-11-15T22:27:23+07:00",
+   "kind": "sell",
+   "mint": "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump",
+   "sym": "TripleT",
+   "price": 0.0022166606901030074,
+   "entry": 0.002312,
+   "usd": 2.0058,
+   "pnl": -0.2168,
+   "why": "ครบ 3 ชม. (-4.1%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 611,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794756080.188828,
+ "rank_t": 1794756355.3703592,
  "halted": "ราคา ZCAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-15T23:19:47+07:00"
 }
