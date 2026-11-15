@@ -1,32 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.6371815323878662,
+ "cash": 0.9140408187858206,
  "pos": {
-  "kuPfdpRtamZcPxNF8SbdcPCzuSqzFa54Xy1vR6xpump": {
-   "sym": "Hemi",
-   "qty": 4767.175191883418,
-   "entry": 4.314e-05,
-   "last": 4.314e-05,
-   "peak": 4.314e-05,
-   "cost": 0.2119727249823239,
-   "opened": "2026-11-16T03:59:14+07:00",
-   "smart": 51,
-   "kol": 1,
-   "gap": 0,
-   "miss": 0
-  },
   "4uM1C3ncZejaYgG97k7JfQaQ7ShZLNBmkQjVM19Gpump": {
    "sym": "EFS",
    "qty": 12737.085880915554,
    "entry": 1.605e-05,
-   "last": 1.605e-05,
-   "peak": 1.605e-05,
+   "last": 2.055e-05,
+   "peak": 2.055e-05,
    "cost": 0.21070936754142924,
    "opened": "2026-11-16T03:59:17+07:00",
    "smart": 32,
    "kol": 3,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -1909,8 +1896,23 @@
    "cost_side": 0.03,
    "smart": 32,
    "kol": 3
+  },
+  {
+   "t": "2026-11-16T04:04:26+07:00",
+   "kind": "sell",
+   "mint": "kuPfdpRtamZcPxNF8SbdcPCzuSqzFa54Xy1vR6xpump",
+   "sym": "Hemi",
+   "price": 5.986e-05,
+   "entry": 4.314e-05,
+   "usd": 0.2769,
+   "pnl": 0.0649,
+   "why": "ถึงเป้า +38.8%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 51,
+   "bundler": null
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794776317.5012112
+ "rank_t": 1794776610.5411692
 }
