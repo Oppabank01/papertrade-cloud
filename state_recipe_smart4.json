@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.10741779173541545,
+ "cash": 0.043091437249950376,
  "pos": {
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
    "sym": "TROLL",
    "qty": 3.5637322279266885,
    "entry": 0.02227,
-   "last": 0.02225,
-   "peak": 0.02233,
+   "last": 0.02255,
+   "peak": 0.02255,
    "cost": 0.08180201681707623,
    "opened": "2026-11-15T07:37:28+07:00",
    "smart": 465,
@@ -20,26 +20,39 @@
    "sym": "Macca",
    "qty": 31.41087409660295,
    "entry": 0.002323,
-   "last": 0.002178,
+   "last": 0.002259,
    "peak": 0.002359,
    "cost": 0.0752086791655418,
    "opened": "2026-11-15T07:57:01+07:00",
    "smart": 169,
    "kol": 8,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": {
    "sym": "PUMPCADE",
    "qty": 4.82641907388533,
    "entry": 0.01369,
-   "last": 0.01378,
-   "peak": 0.01378,
+   "last": 0.01419,
+   "peak": 0.01419,
    "cost": 0.0681031510219441,
    "opened": "2026-11-15T08:37:50+07:00",
    "smart": 123,
    "kol": 19,
    "gap": 0,
+   "miss": 0
+  },
+  "Acgs6mb4PC7tQbDm9T4EeTfNx3ZDh5fNSjHcHZQLpump": {
+   "sym": "USDC",
+   "qty": 335.53456517095816,
+   "entry": 0.000186,
+   "last": 0.00018025651099649916,
+   "peak": 0.000186,
+   "cost": 0.06432635448546507,
+   "opened": "2026-11-15T09:19:46+07:00",
+   "smart": 91,
+   "kol": 6,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -3311,8 +3324,21 @@
    "cost_side": 0.03,
    "smart": 29,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T09:19:46+07:00",
+   "kind": "buy",
+   "mint": "Acgs6mb4PC7tQbDm9T4EeTfNx3ZDh5fNSjHcHZQLpump",
+   "sym": "USDC",
+   "price": 0.000186,
+   "jup": 0.0001847909801099999,
+   "usd": 0.0643,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 91,
+   "kol": 6
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794708896.9026945
+ "rank_t": 1794709175.9920988
 }
