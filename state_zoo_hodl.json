@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.0,
- "pos": {
-  "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
-   "sym": "JENSEN",
-   "qty": 7876.129275373968,
-   "entry": 0.0007385,
-   "last": 8.329e-05,
-   "peak": 0.0009013,
-   "cost": 5.995177767330114,
-   "opened": "2026-11-15T01:02:43+07:00",
-   "zoo": "hodl",
-   "smart": 4,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 0.6240748222777822,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T00:42:01+07:00",
@@ -129,8 +114,23 @@
    "cost_side": 0.03,
    "smart": 0,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T01:06:37+07:00",
+   "kind": "sell",
+   "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+   "sym": "JENSEN",
+   "price": 8.167e-05,
+   "entry": 0.0007385,
+   "usd": 0.6241,
+   "pnl": -5.3711,
+   "why": "ครบ 24 ชม. (-88.9%)",
+   "stop_set": -1.0,
+   "cost_side": 0.03,
+   "smart": 4,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ไม่ตั้ง stop ถือ 24 ชม.",
- "rank_t": 1794765643.4516456
+ "rank_t": 1794765922.476809
 }
