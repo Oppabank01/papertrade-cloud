@@ -1039,5 +1039,61 @@
    "MAX_HOLD_H": 6
   },
   "note": "212 tracked wallets approximated by GMGN smart count; trail size not in post"
+ },
+ {
+  "name": "x_savip2_dip1h",
+  "label": "savipww v2: pool 20k+ คะแนน 70+ ย่อ 1 ชม. 15-35% ทีละ 50% ขายครึ่ง x2 trail 40% stop -25%",
+  "source": "https://x.com/savipww/status/2121679106299285860",
+  "claim": "$33 to $3,151 overnight (94.9x), 14 coins 11 green",
+  "added": "2026-11-15",
+  "active": true,
+  "horizon": "week",
+  "exit": {
+   "STOP": -0.25,
+   "HALF_AT": 1.0,
+   "TRAIL_ON": 1.0,
+   "TRAIL": 0.4,
+   "PER_TRADE": 0.5,
+   "MAX_HOLD_H": null
+  },
+  "note": "dip timeframe not stated, so 1h and 5m twins; sizing by score fixed at 50% (video: score 75 = 50% of cash); TimesFM/Nansen layers not modelled",
+  "entry": {
+   "min": {
+    "liquidity": 20000,
+    "score": 70,
+    "price_change_percent1h": -35
+   },
+   "max": {
+    "price_change_percent1h": -15
+   }
+  }
+ },
+ {
+  "name": "x_savip2_dip5m",
+  "label": "savipww v2: pool 20k+ คะแนน 70+ ย่อ 5 นาที 15-35% ทีละ 50% ขายครึ่ง x2 trail 40% stop -25%",
+  "source": "https://x.com/savipww/status/2121679106299285860",
+  "claim": "$33 to $3,151 overnight (94.9x), 14 coins 11 green",
+  "added": "2026-11-15",
+  "active": true,
+  "horizon": "week",
+  "exit": {
+   "STOP": -0.25,
+   "HALF_AT": 1.0,
+   "TRAIL_ON": 1.0,
+   "TRAIL": 0.4,
+   "PER_TRADE": 0.5,
+   "MAX_HOLD_H": null
+  },
+  "note": "dip timeframe not stated, so 1h and 5m twins; sizing by score fixed at 50% (video: score 75 = 50% of cash); TimesFM/Nansen layers not modelled",
+  "entry": {
+   "min": {
+    "liquidity": 20000,
+    "score": 70,
+    "price_change_percent5m": -35
+   },
+   "max": {
+    "price_change_percent5m": -15
+   }
+  }
  }
 ]
