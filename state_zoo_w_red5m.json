@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.718869590815427,
- "cash": 14.476778421292241,
- "pos": {},
+ "cash": 11.581422737033794,
+ "pos": {
+  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
+   "sym": "GATO",
+   "qty": 400.2896957558959,
+   "entry": 0.007161,
+   "last": 0.00717,
+   "peak": 0.00717,
+   "cost": 2.8953556842584485,
+   "opened": "2026-11-15T09:53:25+07:00",
+   "zoo": "w_red5m",
+   "smart": 63,
+   "kol": 4,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T21:37:14+07:00",
@@ -124,8 +139,22 @@
    "cost_side": 0.01,
    "smart": 677,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T09:53:25+07:00",
+   "kind": "buy",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "price": 0.007161,
+   "jup": 0.007158887700533926,
+   "usd": 2.8954,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_red5m",
+   "smart": 63,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: สวนทาง: อายุเกิน 1 วัน pool 200k+ กำลังแดง 5 นาที",
- "rank_t": 1794710862.3328135
+ "rank_t": 1794711151.0163372
 }
