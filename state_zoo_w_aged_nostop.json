@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.718869590815427,
- "cash": 10.941616064240119,
- "pos": {
-  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
-   "sym": "GTA6",
-   "qty": 413.00903187253965,
-   "entry": 0.006567,
-   "last": 0.007007,
-   "peak": 0.007657,
-   "cost": 2.739557397345489,
-   "opened": "2026-11-15T09:53:21+07:00",
-   "zoo": "w_aged_nostop",
-   "smart": 287,
-   "kol": 23,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 13.784214246891974,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T21:37:13+07:00",
@@ -211,9 +196,24 @@
    "cost_side": 0.01,
    "smart": 869,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T21:53:34+07:00",
+   "kind": "sell",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.006952,
+   "entry": 0.006567,
+   "usd": 2.8426,
+   "pnl": 0.103,
+   "why": "ครบ 12 ชม. (+5.9%)",
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "smart": 287,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: อายุเกิน 1 วัน pool 200k+ ไม่มี stop ถือ 12 ชม.",
- "rank_t": 1794754084.3597143,
+ "rank_t": 1794754366.6445959,
  "halted": "ราคา FLOAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }

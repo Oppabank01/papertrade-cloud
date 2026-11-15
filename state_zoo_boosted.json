@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.9175155858349122,
+ "cash": 1.2633324804655965,
  "pos": {
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 192.10339597506552,
    "entry": 0.004047,
-   "last": 0.003877,
+   "last": 0.003786,
    "peak": 0.004081,
    "cost": 0.8013218341693364,
    "opened": "2026-11-15T19:45:44+07:00",
@@ -28,6 +28,20 @@
    "zoo": "boosted",
    "smart": 20,
    "kol": 0,
+   "gap": 0,
+   "miss": 0
+  },
+  "7XdCaKpqLmKE2K7yr9xaeWB1H2CVZ1oGwxB6hmd9pump": {
+   "sym": "WIZARD",
+   "qty": 1273.451943879033,
+   "entry": 0.0004984,
+   "last": 0.000498,
+   "peak": 0.0004984,
+   "cost": 0.6541831053693157,
+   "opened": "2026-11-15T21:53:33+07:00",
+   "zoo": "boosted",
+   "smart": 135,
+   "kol": 14,
    "gap": 0,
    "miss": 0
   }
@@ -1999,8 +2013,22 @@
    "cost_side": 0.03,
    "smart": 480,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T21:53:33+07:00",
+   "kind": "buy",
+   "mint": "7XdCaKpqLmKE2K7yr9xaeWB1H2CVZ1oGwxB6hmd9pump",
+   "sym": "WIZARD",
+   "price": 0.0004984,
+   "jup": 0.0004987233185310615,
+   "usd": 0.6542,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 135,
+   "kol": 14
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794754084.3597143
+ "rank_t": 1794754366.6445959
 }

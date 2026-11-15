@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.718869590815427,
- "cash": 2.853123623233749,
+ "cash": 5.493649241883139,
  "pos": {
-  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
-   "sym": "GATO",
-   "qty": 400.2896957558959,
-   "entry": 0.007161,
-   "last": 0.006735,
-   "peak": 0.008633,
-   "cost": 2.8953556842584485,
-   "opened": "2026-11-15T09:53:25+07:00",
-   "zoo": "w_red5m",
-   "smart": 63,
-   "kol": 4,
-   "gap": 0,
-   "miss": 0
-  },
   "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
    "sym": "JEANPHIL",
    "qty": 1095.0660451773683,
    "entry": 0.002587,
-   "last": 0.002536,
+   "last": 0.002564,
    "peak": 0.00282,
    "cost": 2.8614791130262893,
    "opened": "2026-11-15T10:36:01+07:00",
@@ -49,14 +35,14 @@
    "sym": "ZCAT",
    "qty": 163.0060070289455,
    "entry": 0.01742,
-   "last": 0.01606,
+   "last": 0.01616,
    "peak": 0.01882,
    "cost": 2.8681746849263714,
    "opened": "2026-11-15T10:59:47+07:00",
    "zoo": "w_red5m",
    "smart": 329,
    "kol": 48,
-   "gap": 3,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -237,9 +223,24 @@
    "zoo": "w_red5m",
    "smart": 329,
    "kol": 48
+  },
+  {
+   "t": "2026-11-15T21:53:34+07:00",
+   "kind": "sell",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "price": 0.006663,
+   "entry": 0.007161,
+   "usd": 2.6405,
+   "pnl": -0.2548,
+   "why": "ครบ 12 ชม. (-7.0%)",
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "smart": 63,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สวนทาง: อายุเกิน 1 วัน pool 200k+ กำลังแดง 5 นาที",
- "rank_t": 1794754084.3597143,
+ "rank_t": 1794754366.6445959,
  "halted": "ราคา ZCAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }

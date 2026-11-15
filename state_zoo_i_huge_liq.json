@@ -1,8 +1,37 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.731879787860931,
- "cash": 13.8227988884555,
- "pos": {},
+ "cash": 8.299194629829794,
+ "pos": {
+  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+   "sym": "USELESS",
+   "qty": 27.5738796484851,
+   "entry": 0.09926,
+   "last": 0.09944,
+   "peak": 0.09944,
+   "cost": 2.7645597776911,
+   "opened": "2026-11-15T21:53:54+07:00",
+   "zoo": "i_huge_liq",
+   "smart": 925,
+   "kol": 294,
+   "gap": 0,
+   "miss": 0
+  },
+  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
+   "sym": "STONK",
+   "qty": 63.77592837350652,
+   "entry": 0.04283,
+   "last": 0.04274,
+   "peak": 0.04283,
+   "cost": 2.7590444809346066,
+   "opened": "2026-11-15T21:53:54+07:00",
+   "zoo": "i_huge_liq",
+   "smart": 1000,
+   "kol": 174,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T17:53:10+07:00",
@@ -182,8 +211,36 @@
    "cost_side": 0.01,
    "smart": 851,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T21:53:54+07:00",
+   "kind": "buy",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.09926,
+   "jup": 0.09965267816764414,
+   "usd": 2.7646,
+   "stop_set": -0.08,
+   "cost_side": 0.01,
+   "zoo": "i_huge_liq",
+   "smart": 925,
+   "kol": 294
+  },
+  {
+   "t": "2026-11-15T21:53:54+07:00",
+   "kind": "buy",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.04283,
+   "jup": 0.04288153292482752,
+   "usd": 2.759,
+   "stop_set": -0.08,
+   "cost_side": 0.01,
+   "zoo": "i_huge_liq",
+   "smart": 1000,
+   "kol": 174
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 1M+ มาร์เก็ตแคป 5M+ ค่าธรรมเนียมใหญ่",
- "rank_t": 1794754084.3597143
+ "rank_t": 1794754366.6445959
 }
