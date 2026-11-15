@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.756615986612866,
+ "cash": 1.3642300526348936,
  "pos": {
   "MsGDybWRSNdNXkdDZhEksgzugT5CbVWUG2wkhwgpump": {
    "sym": "MeiMei",
@@ -21,7 +21,7 @@
    "sym": "CLAUDIA",
    "qty": 319.7459038512087,
    "entry": 0.00437,
-   "last": 0.004351,
+   "last": 0.004334,
    "peak": 0.00437,
    "cost": 1.4402077920323462,
    "opened": "2026-11-15T11:51:03+07:00",
@@ -35,13 +35,27 @@
    "sym": "STONK",
    "qty": 32.45739728401756,
    "entry": 0.04202,
-   "last": 0.04215,
+   "last": 0.04193,
    "peak": 0.04215,
    "cost": 1.4057512202374953,
    "opened": "2026-11-15T12:18:48+07:00",
    "zoo": "aged",
    "smart": 1000,
    "kol": 174,
+   "gap": 0,
+   "miss": 0
+  },
+  "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
+   "sym": "NIO",
+   "qty": 783.5805296667221,
+   "entry": 0.001724,
+   "last": 0.001724,
+   "peak": 0.001724,
+   "cost": 1.3923859339779725,
+   "opened": "2026-11-15T12:52:21+07:00",
+   "zoo": "aged",
+   "smart": 406,
+   "kol": 32,
    "gap": 0,
    "miss": 0
   }
@@ -1423,8 +1437,22 @@
    "cost_side": 0.03,
    "smart": 41,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T12:52:21+07:00",
+   "kind": "buy",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "price": 0.001724,
+   "jup": 0.0017238814611240608,
+   "usd": 1.3924,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "aged",
+   "smart": 406,
+   "kol": 32
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุเกิน 1 วัน ยังมีคนเล่น",
- "rank_t": 1794721610.5835714
+ "rank_t": 1794721894.053145
 }
