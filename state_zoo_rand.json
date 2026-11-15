@@ -1,33 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.3709375896567896,
+ "cash": 0.5891011991600538,
  "pos": {
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": {
    "sym": "OTC",
    "qty": 58.72301878604902,
    "entry": 0.003172,
-   "last": 0.002942,
+   "last": 0.0029559402632237885,
    "peak": 0.003184,
    "cost": 0.19199073963033136,
    "opened": "2026-11-15T23:18:22+07:00",
    "zoo": "rand",
    "smart": 524,
    "kol": 55,
-   "gap": 0,
-   "miss": 0
-  },
-  "8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump": {
-   "sym": "Nyajira",
-   "qty": 2860.4749250267055,
-   "entry": 6.295e-05,
-   "last": 9.349266696797643e-05,
-   "peak": 9.561151040173035e-05,
-   "cost": 0.18559770823585972,
-   "opened": "2026-11-16T01:29:10+07:00",
-   "zoo": "rand",
-   "smart": 41,
-   "kol": 2,
    "gap": 1,
    "miss": 0
   },
@@ -35,14 +21,14 @@
    "sym": "WISHMAS",
    "qty": 1336.988314192076,
    "entry": 0.0001408,
-   "last": 0.0001371,
+   "last": 0.00013768550218790876,
    "peak": 0.0001408,
    "cost": 0.19403005013218333,
    "opened": "2026-11-16T01:48:30+07:00",
    "zoo": "rand",
    "smart": 141,
    "kol": 9,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -2449,8 +2435,23 @@
    "zoo": "rand",
    "smart": 141,
    "kol": 9
+  },
+  {
+   "t": "2026-11-16T02:11:26+07:00",
+   "kind": "sell",
+   "mint": "8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump",
+   "sym": "Nyajira",
+   "price": 7.861092290486755e-05,
+   "entry": 6.295e-05,
+   "usd": 0.2182,
+   "pnl": 0.0326,
+   "why": "trailing จากยอด +52% (+24.9%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 41,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794769570.7937787
+ "rank_t": 1794769849.841305
 }
