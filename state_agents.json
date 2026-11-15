@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.2475104518254586,
+ "cash": 0.45647843969862556,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 5.713221218964613,
    "entry": 0.04185,
-   "last": 0.04364,
+   "last": 0.04372,
    "peak": 0.04383,
    "cost": 0.2464422882020914,
    "opened": "2026-11-15T15:08:50+07:00",
@@ -35,27 +35,13 @@
    "sym": "duh",
    "qty": 901.9343546365465,
    "entry": 0.0002618,
-   "last": 0.0002618,
+   "last": 0.0002609,
    "peak": 0.0002618,
    "cost": 0.24337911156859193,
    "opened": "2026-11-15T17:38:26+07:00",
    "smart": 75,
    "kol": 4,
    "bundler": 0.0036,
-   "gap": 0,
-   "miss": 0
-  },
-  "G8Yp5m5VmBTh1myNUyoy1Gb7uY6ek3jkcTkYGxE8jQLN": {
-   "sym": "poorcat",
-   "qty": 3140.895231047057,
-   "entry": 7.473e-05,
-   "last": 7.487e-05,
-   "peak": 7.487e-05,
-   "cost": 0.24192857206364315,
-   "opened": "2026-11-15T17:38:28+07:00",
-   "smart": 105,
-   "kol": 5,
-   "bundler": 0.1566,
    "gap": 0,
    "miss": 0
   }
@@ -28724,6 +28710,21 @@
    "cost_side": 0.03,
    "smart": 105,
    "kol": 5,
+   "bundler": 0.1566
+  },
+  {
+   "t": "2026-11-15T17:42:50+07:00",
+   "kind": "sell",
+   "mint": "G8Yp5m5VmBTh1myNUyoy1Gb7uY6ek3jkcTkYGxE8jQLN",
+   "sym": "poorcat",
+   "price": 6.857487751113134e-05,
+   "entry": 7.473e-05,
+   "usd": 0.209,
+   "pnl": -0.033,
+   "why": "stop -8.2%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 105,
    "bundler": 0.1566
   }
  ]
