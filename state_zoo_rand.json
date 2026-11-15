@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.5694914197873427,
+ "cash": 0.3775006801570114,
  "pos": {
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 53.411190122364445,
    "entry": 0.003757,
-   "last": 0.003732,
+   "last": 0.003648,
    "peak": 0.003784,
    "cost": 0.2068293561015494,
    "opened": "2026-11-15T22:40:51+07:00",
@@ -28,7 +28,21 @@
    "zoo": "rand",
    "smart": 32,
    "kol": 0,
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": {
+   "sym": "OTC",
+   "qty": 58.72301878604902,
+   "entry": 0.003172,
+   "last": 0.003172,
+   "peak": 0.003172,
+   "cost": 0.19199073963033136,
+   "opened": "2026-11-15T23:18:22+07:00",
+   "zoo": "rand",
+   "smart": 524,
+   "kol": 55,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -2363,8 +2377,22 @@
    "cost_side": 0.03,
    "smart": 83,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T23:18:22+07:00",
+   "kind": "buy",
+   "mint": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
+   "sym": "OTC",
+   "price": 0.003172,
+   "jup": 0.0031805103238879496,
+   "usd": 0.192,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 524,
+   "kol": 55
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794759196.8880596
+ "rank_t": 1794759476.4284642
 }
