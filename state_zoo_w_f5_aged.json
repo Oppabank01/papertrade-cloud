@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 6.209363883521331,
+ "cash": 4.676924706245181,
  "pos": {
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": {
    "sym": "CHOO",
    "qty": 1936.3348032246063,
    "entry": 0.0007778,
-   "last": 0.0007503,
+   "last": 0.0007603,
    "peak": 0.0007778,
    "cost": 1.5523409708803328,
    "opened": "2026-11-15T15:33:11+07:00",
    "zoo": "w_f5_aged",
    "smart": 112,
    "kol": 5,
+   "gap": 6,
+   "miss": 0
+  },
+  "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": {
+   "sym": "AURA",
+   "qty": 3175.5072400540826,
+   "entry": 0.0004682,
+   "last": 0.0004752,
+   "peak": 0.0004785,
+   "cost": 1.5324391772761508,
+   "opened": "2026-11-15T16:05:46+07:00",
+   "zoo": "w_f5_aged",
+   "smart": 104,
+   "kol": 2,
    "gap": 0,
    "miss": 0
   }
@@ -907,8 +921,22 @@
    "zoo": "w_f5_aged",
    "smart": 112,
    "kol": 5
+  },
+  {
+   "t": "2026-11-15T16:05:46+07:00",
+   "kind": "buy",
+   "mint": "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump",
+   "sym": "AURA",
+   "price": 0.0004682,
+   "jup": 0.00046943805045176866,
+   "usd": 1.5324,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged",
+   "smart": 104,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794733204.2927864
+ "rank_t": 1794733486.9395792
 }
