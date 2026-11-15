@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.5433642028687776,
+ "cash": 0.2813044350866833,
  "pos": {
   "2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump": {
    "sym": "Peekhole",
    "qty": 360.7127659276714,
    "entry": 0.0007308,
-   "last": 0.0007021,
+   "last": 0.0006964,
    "peak": 0.0007437,
    "cost": 0.27170571978967456,
    "opened": "2026-11-15T14:02:53+07:00",
@@ -42,6 +42,20 @@
    "zoo": "rand",
    "smart": 127,
    "kol": 7,
+   "gap": 0,
+   "miss": 0
+  },
+  "31HzUsjzTt7FBCGnDy68cBnELayVsnd3zYEBtsXXpump": {
+   "sym": "TrumpWars",
+   "qty": 1369.1458626935269,
+   "entry": 0.0001857,
+   "last": 0.0001841,
+   "peak": 0.0001857,
+   "cost": 0.26205976778209433,
+   "opened": "2026-11-15T15:13:18+07:00",
+   "zoo": "rand",
+   "smart": 91,
+   "kol": 2,
    "gap": 0,
    "miss": 0
   }
@@ -1985,8 +1999,22 @@
    "zoo": "rand",
    "smart": 127,
    "kol": 7
+  },
+  {
+   "t": "2026-11-15T15:13:18+07:00",
+   "kind": "buy",
+   "mint": "31HzUsjzTt7FBCGnDy68cBnELayVsnd3zYEBtsXXpump",
+   "sym": "TrumpWars",
+   "price": 0.0001857,
+   "jup": 0.0001842892499925912,
+   "usd": 0.2621,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 91,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794730103.6902971
+ "rank_t": 1794730374.6237104
 }

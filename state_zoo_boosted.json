@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.520322911397327,
+ "cash": 1.6478670711589283,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 21.10407801825959,
    "entry": 0.04704,
-   "last": 0.04695,
+   "last": 0.04696,
    "peak": 0.04727,
    "cost": 1.0232280251277375,
    "opened": "2026-11-15T13:06:08+07:00",
@@ -28,6 +28,20 @@
    "zoo": "boosted",
    "smart": 127,
    "kol": 7,
+   "gap": 0,
+   "miss": 0
+  },
+  "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
+   "sym": "WASTED",
+   "qty": 176.05171717955378,
+   "entry": 0.004808,
+   "last": 0.004808,
+   "peak": 0.004808,
+   "cost": 0.8724558402383988,
+   "opened": "2026-11-15T15:13:28+07:00",
+   "zoo": "boosted",
+   "smart": 71,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -1738,8 +1752,22 @@
    "zoo": "boosted",
    "smart": 127,
    "kol": 7
+  },
+  {
+   "t": "2026-11-15T15:13:28+07:00",
+   "kind": "buy",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "price": 0.004808,
+   "jup": 0.004768344671551238,
+   "usd": 0.8725,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 71,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794730103.6902971
+ "rank_t": 1794730374.6237104
 }
