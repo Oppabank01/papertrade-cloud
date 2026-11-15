@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 5.303685908534108,
+ "cash": 3.9620492760170456,
  "pos": {
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 351.6517911996005,
    "entry": 0.003688,
-   "last": 0.00386,
-   "peak": 0.003981,
+   "last": 0.003923816438426972,
+   "peak": 0.003994,
    "cost": 1.3367262481386586,
    "opened": "2026-11-16T00:00:44+07:00",
    "zoo": "w_f5_aged",
    "smart": 249,
    "kol": 20,
+   "gap": 9,
+   "miss": 0
+  },
+  "2afcRhtGYgp1e3xPBMu2UbnELL8AUMZzguLQsPo8pump": {
+   "sym": "VICECITY",
+   "qty": 4107.465638586475,
+   "entry": 0.0003169,
+   "last": 0.0003169,
+   "peak": 0.0003169,
+   "cost": 1.3416366325170626,
+   "opened": "2026-11-16T01:58:02+07:00",
+   "zoo": "w_f5_aged",
+   "smart": 14,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -1255,8 +1269,22 @@
    "cost_side": 0.03,
    "smart": 510,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T01:58:02+07:00",
+   "kind": "buy",
+   "mint": "2afcRhtGYgp1e3xPBMu2UbnELL8AUMZzguLQsPo8pump",
+   "sym": "VICECITY",
+   "price": 0.0003169,
+   "jup": 0.0003170143783473666,
+   "usd": 1.3416,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged",
+   "smart": 14,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794768720.7816377
+ "rank_t": 1794769005.2684014
 }
