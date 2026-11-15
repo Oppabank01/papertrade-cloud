@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.8689102860483486,
+ "cash": 2.7059858197418434,
  "pos": {
   "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
    "sym": "FOOD",
    "qty": 7648.119682882018,
    "entry": 0.0003442,
-   "last": 0.0004496392544956572,
+   "last": 0.0004083,
    "peak": 0.0004611,
    "cost": 2.71334033688723,
    "opened": "2026-11-15T01:03:30+07:00",
    "zoo": "w_pause_smartflow",
    "smart": 292,
    "kol": 22,
-   "gap": 1,
-   "miss": 0
-  },
-  "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
-   "sym": "Lucia",
-   "qty": 2363.7985329245967,
-   "entry": 0.001025,
-   "last": 0.0009334,
-   "peak": 0.001313,
-   "cost": 2.497313436660185,
-   "opened": "2026-11-15T02:14:11+07:00",
-   "zoo": "w_pause_smartflow",
-   "smart": 99,
-   "kol": 4,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   },
   "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump": {
@@ -334,10 +320,25 @@
    "t": "2026-11-15T08:57:47+07:00",
    "kind": "resume",
    "why": "ราคา Lucia สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-15T09:42:56+07:00",
+   "kind": "sell",
+   "mint": "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump",
+   "sym": "Lucia",
+   "price": 0.0008010419939102195,
+   "entry": 0.001025,
+   "usd": 1.8371,
+   "pnl": -0.6602,
+   "why": "stop -21.8%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 99,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794710296.6076088,
+ "rank_t": 1794710576.414723,
  "halted": "ราคา WOJAK สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-15T10:08:34+07:00"
 }

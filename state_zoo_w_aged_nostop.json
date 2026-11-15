@@ -1,62 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.718869590815427,
- "cash": 2.5018422658016046,
+ "cash": 11.03145033299623,
  "pos": {
-  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
-   "sym": "USELESS",
-   "qty": 27.123303922370763,
-   "entry": 0.1069,
-   "last": 0.1015,
-   "peak": 0.1103,
-   "cost": 2.928694921139804,
-   "opened": "2026-11-14T21:42:56+07:00",
-   "zoo": "w_aged_nostop",
-   "smart": 924,
-   "kol": 294,
-   "gap": 0,
-   "miss": 0
-  },
-  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
-   "sym": "ANSEM",
-   "qty": 65.60183006866419,
-   "entry": 0.04411,
-   "last": 0.04491,
-   "peak": 0.04601,
-   "cost": 2.92285217477213,
-   "opened": "2026-11-14T21:42:56+07:00",
-   "zoo": "w_aged_nostop",
-   "smart": 1000,
-   "kol": 186,
-   "gap": 0,
-   "miss": 0
-  },
-  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
-   "sym": "STONK",
-   "qty": 69.63886663524818,
-   "entry": 0.04147,
-   "last": 0.04189,
-   "peak": 0.04189,
-   "cost": 2.91702108468346,
-   "opened": "2026-11-14T21:42:57+07:00",
-   "zoo": "w_aged_nostop",
-   "smart": 1000,
-   "kol": 174,
-   "gap": 0,
-   "miss": 0
-  },
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
    "sym": "FLOAT",
    "qty": 985.4620832161792,
    "entry": 0.002787,
-   "last": 0.0027636143953156953,
+   "last": 0.002797,
    "peak": 0.002819,
    "cost": 2.774155022270641,
    "opened": "2026-11-15T09:39:03+07:00",
    "zoo": "w_aged_nostop",
    "smart": 342,
    "kol": 31,
-   "gap": 4,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -150,8 +108,53 @@
    "zoo": "w_aged_nostop",
    "smart": 342,
    "kol": 31
+  },
+  {
+   "t": "2026-11-15T09:42:56+07:00",
+   "kind": "sell",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.1015,
+   "entry": 0.1069,
+   "usd": 2.7256,
+   "pnl": -0.2031,
+   "why": "ครบ 12 ชม. (-5.1%)",
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "smart": 924,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T09:42:56+07:00",
+   "kind": "sell",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.04494,
+   "entry": 0.04411,
+   "usd": 2.9187,
+   "pnl": -0.0041,
+   "why": "ครบ 12 ชม. (+1.9%)",
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "smart": 1000,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T09:43:28+07:00",
+   "kind": "sell",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.04185,
+   "entry": 0.04147,
+   "usd": 2.8853,
+   "pnl": -0.0317,
+   "why": "ครบ 12 ชม. (+0.9%)",
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "smart": 1000,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: อายุเกิน 1 วัน pool 200k+ ไม่มี stop ถือ 12 ชม.",
- "rank_t": 1794710296.6076088
+ "rank_t": 1794710576.414723
 }
