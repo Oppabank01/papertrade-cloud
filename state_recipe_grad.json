@@ -1,8 +1,35 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.0598636249116193,
- "pos": {},
+ "cash": 0.6371815323878662,
+ "pos": {
+  "kuPfdpRtamZcPxNF8SbdcPCzuSqzFa54Xy1vR6xpump": {
+   "sym": "Hemi",
+   "qty": 4767.175191883418,
+   "entry": 4.314e-05,
+   "last": 4.314e-05,
+   "peak": 4.314e-05,
+   "cost": 0.2119727249823239,
+   "opened": "2026-11-16T03:59:14+07:00",
+   "smart": 51,
+   "kol": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "4uM1C3ncZejaYgG97k7JfQaQ7ShZLNBmkQjVM19Gpump": {
+   "sym": "EFS",
+   "qty": 12737.085880915554,
+   "entry": 1.605e-05,
+   "last": 1.605e-05,
+   "peak": 1.605e-05,
+   "cost": 0.21070936754142924,
+   "opened": "2026-11-16T03:59:17+07:00",
+   "smart": 32,
+   "kol": 3,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -1856,8 +1883,34 @@
    "cost_side": 0.03,
    "smart": 17,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T03:59:14+07:00",
+   "kind": "buy",
+   "mint": "kuPfdpRtamZcPxNF8SbdcPCzuSqzFa54Xy1vR6xpump",
+   "sym": "Hemi",
+   "price": 4.314e-05,
+   "jup": 4.314957335694993e-05,
+   "usd": 0.212,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 51,
+   "kol": 1
+  },
+  {
+   "t": "2026-11-16T03:59:17+07:00",
+   "kind": "buy",
+   "mint": "4uM1C3ncZejaYgG97k7JfQaQ7ShZLNBmkQjVM19Gpump",
+   "sym": "EFS",
+   "price": 1.605e-05,
+   "jup": 1.619843555874235e-05,
+   "usd": 0.2107,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 32,
+   "kol": 3
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794776036.3979805
+ "rank_t": 1794776317.5012112
 }
