@@ -1,65 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.718869590815427,
- "cash": 2.9789640501623484,
- "pos": {
-  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
-   "sym": "USELESS",
-   "qty": 27.26295391327791,
-   "entry": 0.1069,
-   "last": 0.09432,
-   "peak": 0.1103,
-   "cost": 2.9437739181630853,
-   "opened": "2026-11-14T21:43:01+07:00",
-   "zoo": "w_night_aged",
-   "smart": 924,
-   "kol": 294,
-   "gap": 0,
-   "miss": 0
-  },
-  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
-   "sym": "ANSEM",
-   "qty": 65.9395947819455,
-   "entry": 0.04411,
-   "last": 0.04274,
-   "peak": 0.04601,
-   "cost": 2.93790108919635,
-   "opened": "2026-11-14T21:43:01+07:00",
-   "zoo": "w_night_aged",
-   "smart": 1000,
-   "kol": 186,
-   "gap": 0,
-   "miss": 0
-  },
-  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
-   "sym": "STONK",
-   "qty": 69.99741687382644,
-   "entry": 0.04147,
-   "last": 0.03796,
-   "peak": 0.04176,
-   "cost": 2.9320399765234035,
-   "opened": "2026-11-14T21:43:01+07:00",
-   "zoo": "w_night_aged",
-   "smart": 1000,
-   "kol": 174,
-   "gap": 0,
-   "miss": 0
-  },
-  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
-   "sym": "CLAUDIA",
-   "qty": 716.9022039016222,
-   "entry": 0.004041,
-   "last": 0.0041,
-   "peak": 0.00468,
-   "cost": 2.926190556770239,
-   "opened": "2026-11-14T21:43:07+07:00",
-   "zoo": "w_night_aged",
-   "smart": 439,
-   "kol": 28,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 13.890619844845478,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T21:37:15+07:00",
@@ -121,10 +64,56 @@
    "zoo": "w_night_aged",
    "smart": 439,
    "kol": 28
+  },
+  {
+   "t": "2026-11-15T09:02:25+07:00",
+   "kind": "sell",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.09422,
+   "usd": 2.5431,
+   "pnl": -0.4007,
+   "why": "ปิดรอบเช้า"
+  },
+  {
+   "t": "2026-11-15T09:02:25+07:00",
+   "kind": "sell",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.04301,
+   "usd": 2.8078,
+   "pnl": -0.1301,
+   "why": "ปิดรอบเช้า"
+  },
+  {
+   "t": "2026-11-15T09:02:25+07:00",
+   "kind": "sell",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.03818,
+   "usd": 2.6458,
+   "pnl": -0.2862,
+   "why": "ปิดรอบเช้า"
+  },
+  {
+   "t": "2026-11-15T09:02:25+07:00",
+   "kind": "sell",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.004107,
+   "usd": 2.9149,
+   "pnl": -0.0112,
+   "why": "ปิดรอบเช้า"
   }
  ],
  "label": "สวนสัตว์: กะดึก: กฎ w_aged_nostop เทรดเฉพาะ 21:00-09:00",
- "night": "2026-11-14",
+ "night": null,
  "night_start": 14.718869590815427,
- "rank_t": 1794707782.563207
+ "rank_t": 1794707782.563207,
+ "nights": [
+  {
+   "night": "2026-11-14",
+   "ret": -0.0563
+  }
+ ]
 }

@@ -9,6 +9,15 @@
    "trades": 4,
    "wins": 0,
    "ended": "ชนเพดานขาดทุนคืนนี้ -36%"
+  },
+  {
+   "night": "2026-11-14",
+   "start_usd": 14.7275,
+   "end_usd": 12.7358,
+   "ret": -0.1352,
+   "trades": 6,
+   "wins": 1,
+   "ended": "09:00"
   }
  ],
  "log": [
@@ -223,35 +232,30 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "state_recipe_smart4.json"
+  },
+  {
+   "t": "2026-11-15T09:02:49+07:00",
+   "kind": "sell",
+   "mint": "FFGQzvcNAucVQXueT7gPZegS8fK4aghXHNzGEvxWpump",
+   "sym": "europoor",
+   "price": 0.0001026,
+   "usd": 5.3603,
+   "pnl": -0.3954,
+   "why": "ปิดรอบเช้า"
+  },
+  {
+   "t": "2026-11-15T09:02:49+07:00",
+   "kind": "sell",
+   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+   "sym": "Buttcoin",
+   "price": 0.004795,
+   "usd": 5.0353,
+   "pnl": -0.2081,
+   "why": "ปิดรอบเช้า"
   }
  ],
- "pos": {
-  "FFGQzvcNAucVQXueT7gPZegS8fK4aghXHNzGEvxWpump": {
-   "sym": "europoor",
-   "qty": 53849.255761896355,
-   "entry": 0.0001037,
-   "last": 0.0001026,
-   "peak": 0.0001037,
-   "cost": 5.755687304173009,
-   "opened": "2026-11-15T01:50:31+07:00",
-   "source": "state_recipe_smart4.json",
-   "gap": 0,
-   "miss": 0
-  },
-  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
-   "sym": "Buttcoin",
-   "qty": 1082.3774648425988,
-   "entry": 0.0047,
-   "last": 0.004803,
-   "peak": 0.005081,
-   "cost": 5.243428246506096,
-   "opened": "2026-11-15T04:22:54+07:00",
-   "source": "state_recipe_smart4.json",
-   "gap": 0,
-   "miss": 0
-  }
- },
- "cash": 2.3402087285885766,
+ "pos": {},
+ "cash": 12.735837292843698,
  "start_usd": 14.727540500736376,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
@@ -541,6 +545,7 @@
  "session": {
   "night": "2026-11-14",
   "t": "2026-11-14T21:00:55+07:00",
-  "start_usd": 14.727540500736376
+  "start_usd": 14.727540500736376,
+  "closed": true
  }
 }
