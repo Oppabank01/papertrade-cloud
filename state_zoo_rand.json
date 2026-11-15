@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.7470922261316999,
+ "cash": 0.3878483688976928,
  "pos": {
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 71.81996762118993,
    "entry": 0.004671,
-   "last": 0.005063,
+   "last": 0.00501,
    "peak": 0.00513,
    "cost": 0.34577516878847475,
    "opened": "2026-11-15T06:09:19+07:00",
@@ -21,7 +21,7 @@
    "sym": "mihao",
    "qty": 23.386869185844965,
    "entry": 0.01414,
-   "last": 0.01489,
+   "last": 0.01468,
    "peak": 0.01507,
    "cost": 0.3408475884228487,
    "opened": "2026-11-15T06:37:36+07:00",
@@ -35,12 +35,26 @@
    "sym": "WASTED",
    "qty": 61.96437291843086,
    "entry": 0.005385,
-   "last": 0.005443,
+   "last": 0.005418,
    "peak": 0.005464,
    "cost": 0.3439271780723049,
    "opened": "2026-11-15T07:19:09+07:00",
    "zoo": "rand",
    "smart": 69,
+   "kol": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
+   "sym": "STANK",
+   "qty": 259.90931415990576,
+   "entry": 0.001341,
+   "last": 0.001341,
+   "peak": 0.001341,
+   "cost": 0.3592438572340071,
+   "opened": "2026-11-15T07:57:06+07:00",
+   "zoo": "rand",
+   "smart": 77,
    "kol": 1,
    "gap": 0,
    "miss": 0
@@ -1608,8 +1622,22 @@
    "cost_side": 0.03,
    "smart": 21,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T07:57:06+07:00",
+   "kind": "buy",
+   "mint": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
+   "sym": "STANK",
+   "price": 0.001341,
+   "jup": 0.0013356231354989944,
+   "usd": 0.3592,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 77,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794703889.0599701
+ "rank_t": 1794704175.4026287
 }

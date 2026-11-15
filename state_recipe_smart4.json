@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.10317885251457917,
+ "cash": 0.02797017334903737,
  "pos": {
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 182.6171033135507,
    "entry": 0.000463,
-   "last": 0.0005379,
+   "last": 0.0005309,
    "peak": 0.0005569,
    "cost": 0.08714875163283238,
    "opened": "2026-11-15T05:18:15+07:00",
@@ -20,7 +20,7 @@
    "sym": "ZCAT",
    "qty": 6.361713386944839,
    "entry": 0.01274,
-   "last": 0.01497,
+   "last": 0.01427,
    "peak": 0.01502,
    "cost": 0.0835376505356393,
    "opened": "2026-11-15T05:55:18+07:00",
@@ -39,6 +39,19 @@
    "opened": "2026-11-15T07:37:28+07:00",
    "smart": 465,
    "kol": 213,
+   "gap": 0,
+   "miss": 0
+  },
+  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
+   "sym": "Macca",
+   "qty": 31.41087409660295,
+   "entry": 0.002323,
+   "last": 0.002318,
+   "peak": 0.002323,
+   "cost": 0.0752086791655418,
+   "opened": "2026-11-15T07:57:01+07:00",
+   "smart": 169,
+   "kol": 8,
    "gap": 0,
    "miss": 0
   }
@@ -3199,8 +3212,21 @@
    "cost_side": 0.03,
    "smart": 59,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T07:57:01+07:00",
+   "kind": "buy",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.002323,
+   "jup": 0.0023135755609596347,
+   "usd": 0.0752,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 169,
+   "kol": 8
   }
  ],
  "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
- "rank_t": 1794703889.0599701
+ "rank_t": 1794704175.4026287
 }

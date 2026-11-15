@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.9012947604420356,
+ "cash": 1.895421770886705,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 53.95663100235182,
    "entry": 0.03767,
-   "last": 0.03882,
+   "last": 0.03869,
    "peak": 0.03946,
    "cost": 2.0949765923094135,
    "opened": "2026-11-15T05:19:52+07:00",
@@ -21,21 +21,21 @@
    "sym": "WASTED",
    "qty": 387.00946572130744,
    "entry": 0.005207,
-   "last": 0.005404765163834068,
+   "last": 0.005415,
    "peak": 0.005772,
    "cost": 2.0770545124828366,
    "opened": "2026-11-15T07:34:04+07:00",
    "zoo": "w_ban_aged",
    "smart": 69,
    "kol": 1,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "3VW31dwix6k2EdzhDgZ2zB15J7FbHYQwAUqXgktRcJEX": {
    "sym": "SOLPUMP",
    "qty": 77.02204397122142,
    "entry": 0.02612,
-   "last": 0.02609,
+   "last": 0.02591,
    "peak": 0.02612,
    "cost": 2.0736093470710197,
    "opened": "2026-11-15T07:39:05+07:00",
@@ -43,6 +43,20 @@
    "smart": 30,
    "kol": 19,
    "gap": 0,
+   "miss": 0
+  },
+  "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
+   "sym": "STANK",
+   "qty": 1411.2385601643089,
+   "entry": 0.001379,
+   "last": 0.0013551238074051223,
+   "peak": 0.001379,
+   "cost": 2.0058729895553307,
+   "opened": "2026-11-15T07:58:46+07:00",
+   "zoo": "w_ban_aged",
+   "smart": 77,
+   "kol": 1,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -564,10 +578,24 @@
    "cost_side": 0.03,
    "smart": 296,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T07:58:46+07:00",
+   "kind": "buy",
+   "mint": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
+   "sym": "STANK",
+   "price": 0.001379,
+   "jup": 0.001367113494558456,
+   "usd": 2.0059,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_aged",
+   "smart": 77,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794703889.0599701,
+ "rank_t": 1794704175.4026287,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6"
  }
