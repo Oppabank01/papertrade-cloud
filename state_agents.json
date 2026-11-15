@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.22268092238825204,
+ "cash": 0.4575461435853245,
  "pos": {
   "Ge87EtsjwRQbHaqQmKRno69RFTwh9bfSsm99XNxTpump": {
    "sym": "Jimothy",
    "qty": 191.6587836706183,
    "entry": 0.001254,
-   "last": 0.001233,
+   "last": 0.001232,
    "peak": 0.001254,
    "cost": 0.2477222373973978,
    "opened": "2026-11-15T16:38:12+07:00",
@@ -17,46 +17,32 @@
    "gap": 0,
    "miss": 0
   },
-  "ngwxpGYdkauMcxLFrNTKp8qBgK7JV53zVvd7F2spump": {
-   "sym": "duh",
-   "qty": 901.9343546365465,
-   "entry": 0.0002618,
-   "last": 0.0002768,
-   "peak": 0.0003211,
-   "cost": 0.24337911156859193,
-   "opened": "2026-11-15T17:38:26+07:00",
-   "smart": 75,
-   "kol": 4,
-   "bundler": 0.0036,
-   "gap": 0,
-   "miss": 0
-  },
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 105.5928927536251,
    "entry": 0.002197,
-   "last": 0.0021721211471121818,
-   "peak": 0.002222,
+   "last": 0.002223,
+   "peak": 0.002223,
    "cost": 0.23911315747239162,
    "opened": "2026-11-15T18:25:35+07:00",
    "smart": 169,
    "kol": 8,
    "bundler": 0.0584,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": {
    "sym": "greg",
    "qty": 1515.1441482973144,
    "entry": 0.0001522,
-   "last": 0.000157,
+   "last": 0.0001604,
    "peak": 0.0001636,
    "cost": 0.2376880430538562,
    "opened": "2026-11-15T18:29:56+07:00",
    "smart": 82,
    "kol": 6,
    "bundler": 0.0537,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -29212,6 +29198,21 @@
    "smart": 82,
    "kol": 6,
    "bundler": 0.0537
+  },
+  {
+   "t": "2026-11-15T18:53:31+07:00",
+   "kind": "sell",
+   "mint": "ngwxpGYdkauMcxLFrNTKp8qBgK7JV53zVvd7F2spump",
+   "sym": "duh",
+   "price": 0.0002684,
+   "entry": 0.0002618,
+   "usd": 0.2349,
+   "pnl": -0.0085,
+   "why": "trailing จากยอด +23% (+2.5%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 75,
+   "bundler": 0.0036
   }
  ]
 }
