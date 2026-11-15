@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 9.858900489976751,
+ "cash": 7.319903447862828,
  "pos": {
   "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": {
    "sym": "BRUH",
    "qty": 640.488870955932,
    "entry": 0.004006,
-   "last": 0.004405,
+   "last": 0.004418,
    "peak": 0.004451,
    "cost": 2.6446077273237103,
    "opened": "2026-11-16T00:58:16+07:00",
@@ -15,6 +15,20 @@
    "smart": 3,
    "kol": 0,
    "gap": 0,
+   "miss": 0
+  },
+  "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
+   "sym": "JENSEN",
+   "qty": 30047.998661367757,
+   "entry": 8.198e-05,
+   "last": 8.353285807614707e-05,
+   "peak": 8.454e-05,
+   "cost": 2.5389970421139236,
+   "opened": "2026-11-16T04:27:53+07:00",
+   "zoo": "x_loofy_desk",
+   "smart": 5,
+   "kol": 0,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -269,8 +283,22 @@
    "cost_side": 0.03,
    "smart": 81,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T04:27:53+07:00",
+   "kind": "buy",
+   "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+   "sym": "JENSEN",
+   "price": 8.198e-05,
+   "jup": 8.120120428717329e-05,
+   "usd": 2.539,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_loofy_desk",
+   "smart": 5,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: 8 เอเจนต์: smart money 2+ ผ่านเช็กปลอดภัย+RugCheck stop -8% trail",
- "rank_t": 1794777727.2212121
+ "rank_t": 1794778000.371362
 }

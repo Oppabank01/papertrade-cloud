@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 2.150245519027949,
+ "cash": 4.6674904372622095,
  "pos": {
-  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
-   "sym": "GTA6",
-   "qty": 388.98993889484774,
-   "entry": 0.006948,
-   "last": 0.006545,
-   "peak": 0.007058,
-   "cost": 2.785716445517834,
-   "opened": "2026-11-16T01:30:23+07:00",
-   "zoo": "x_skip_pumped",
-   "smart": 289,
-   "kol": 23,
-   "gap": 0,
-   "miss": 0
-  },
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 51.08311830364074,
    "entry": 0.05057,
-   "last": 0.05,
+   "last": 0.05034,
    "peak": 0.05182,
    "cost": 2.6626193492219254,
    "opened": "2026-11-16T01:35:12+07:00",
@@ -49,8 +35,8 @@
    "sym": "CATE",
    "qty": 137.24230273882466,
    "entry": 0.01737,
-   "last": 0.01749,
-   "peak": 0.01759,
+   "last": 0.01761,
+   "peak": 0.01761,
    "cost": 2.4571210045077145,
    "opened": "2026-11-16T03:46:57+07:00",
    "zoo": "x_skip_pumped",
@@ -353,8 +339,23 @@
    "zoo": "x_skip_pumped",
    "smart": 871,
    "kol": 110
+  },
+  {
+   "t": "2026-11-16T04:30:25+07:00",
+   "kind": "sell",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.00667,
+   "entry": 0.006948,
+   "usd": 2.5172,
+   "pnl": -0.2685,
+   "why": "ครบ 3 ชม. (-4.0%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 289,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794777727.2212121
+ "rank_t": 1794778000.371362
 }
