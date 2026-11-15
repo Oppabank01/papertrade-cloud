@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.718869590815427,
- "cash": 13.890619844845478,
- "pos": {},
+ "cash": 11.112495875876382,
+ "pos": {
+  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
+   "sym": "GTA6",
+   "qty": 385.37371197682904,
+   "entry": 0.007137,
+   "last": 0.006967,
+   "peak": 0.007137,
+   "cost": 2.778123968969096,
+   "opened": "2026-11-15T21:02:26+07:00",
+   "zoo": "w_night_aged",
+   "smart": 289,
+   "kol": 23,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T21:37:15+07:00",
@@ -104,12 +119,26 @@
    "usd": 2.9149,
    "pnl": -0.0112,
    "why": "ปิดรอบเช้า"
+  },
+  {
+   "t": "2026-11-15T21:02:26+07:00",
+   "kind": "buy",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.007137,
+   "jup": 0.0071069124222318415,
+   "usd": 2.7781,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_night_aged",
+   "smart": 289,
+   "kol": 23
   }
  ],
  "label": "สวนสัตว์: กะดึก: กฎ w_aged_nostop เทรดเฉพาะ 21:00-09:00",
- "night": null,
- "night_start": 14.718869590815427,
- "rank_t": 1794707782.563207,
+ "night": "2026-11-15",
+ "night_start": 13.890619844845478,
+ "rank_t": 1794751248.609489,
  "nights": [
   {
    "night": "2026-11-14",
