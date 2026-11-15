@@ -1,21 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.775413711583923,
- "cash": 3.4659490468537797,
- "pos": {
-  "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": {
-   "sym": "AURA",
-   "qty": 10559.47170751307,
-   "entry": 0.0002123,
-   "last": 0.00034735159048737214,
-   "peak": 0.0004277,
-   "cost": 2.31063269790252,
-   "opened": "2026-11-15T05:59:38+07:00",
-   "source": "agents",
-   "gap": 1,
-   "miss": 0
-  }
- },
+ "cash": 6.370349691107153,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T01:40:57+07:00",
@@ -801,6 +788,21 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-15T07:23:38+07:00",
+   "kind": "sell",
+   "mint": "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump",
+   "sym": "AURA",
+   "price": 0.0002835,
+   "entry": 0.0002123,
+   "usd": 2.9044,
+   "pnl": 0.5938,
+   "why": "trailing จากยอด +101% (+33.5%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "สายโม้ (ไม้ใหญ่ ปล่อยกำไรวิ่ง)",

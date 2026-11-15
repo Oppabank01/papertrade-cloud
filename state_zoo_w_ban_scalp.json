@@ -1,34 +1,48 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 10.027129165029864,
+ "cash": 8.784932672322906,
  "pos": {
   "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": {
    "sym": "swordcat",
    "qty": 2104.3905706248534,
    "entry": 0.0005751,
-   "last": 0.0005657,
+   "last": 0.0005626444916338357,
    "peak": 0.0006325,
    "cost": 1.2474077686728027,
    "opened": "2026-11-15T06:15:27+07:00",
    "zoo": "w_ban_scalp",
    "smart": 307,
    "kol": 41,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
    "sym": "FLOAT",
    "qty": 409.26641120845704,
    "entry": 0.002965,
-   "last": 0.002944165028668134,
+   "last": 0.003003,
    "peak": 0.003071,
    "cost": 1.250747175049552,
    "opened": "2026-11-15T06:43:07+07:00",
    "zoo": "w_ban_scalp",
    "smart": 342,
    "kol": 31,
-   "gap": 20,
+   "gap": 0,
+   "miss": 0
+  },
+  "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": {
+   "sym": "bill",
+   "qty": 3254.6017748428035,
+   "entry": 0.0003703,
+   "last": 0.0003449,
+   "peak": 0.000371,
+   "cost": 1.2421964927069575,
+   "opened": "2026-11-15T07:24:51+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 86,
+   "kol": 4,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -796,10 +810,24 @@
    "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
    "sym": "FLOAT",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-15T07:24:51+07:00",
+   "kind": "buy",
+   "mint": "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
+   "sym": "bill",
+   "price": 0.0003703,
+   "jup": 0.00036999770183956336,
+   "usd": 1.2422,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 86,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794701918.0014336,
+ "rank_t": 1794702207.9799871,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
