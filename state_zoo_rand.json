@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.2813044350866833,
+ "cash": 0.527433782572962,
  "pos": {
-  "2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump": {
-   "sym": "Peekhole",
-   "qty": 360.7127659276714,
-   "entry": 0.0007308,
-   "last": 0.0007033,
-   "peak": 0.0007545,
-   "cost": 0.27170571978967456,
-   "opened": "2026-11-15T14:02:53+07:00",
-   "zoo": "rand",
-   "smart": 57,
-   "kol": 6,
-   "gap": 0,
-   "miss": 0
-  },
   "4ikwYoNvoGEwtMbziUyYBTz1zRM6nmxspsfw9G7Bpump": {
    "sym": "crypto",
    "qty": 136.3311864313095,
@@ -2013,8 +1999,23 @@
    "zoo": "rand",
    "smart": 91,
    "kol": 2
+  },
+  {
+   "t": "2026-11-15T17:06:36+07:00",
+   "kind": "sell",
+   "mint": "2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump",
+   "sym": "Peekhole",
+   "price": 0.0007033,
+   "entry": 0.0007308,
+   "usd": 0.2461,
+   "pnl": -0.0256,
+   "why": "ครบ 3 ชม. (-3.8%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 57,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794736866.9272692
+ "rank_t": 1794737150.6956127
 }

@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 8.00344568434476,
+ "cash": 5.986409263347364,
  "pos": {
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": {
    "sym": "CHOO",
@@ -14,7 +14,21 @@
    "zoo": "w_pause_aged",
    "smart": 112,
    "kol": 5,
-   "gap": 0,
+   "gap": 5,
+   "miss": 0
+  },
+  "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": {
+   "sym": "AURA",
+   "qty": 4283.994605191929,
+   "entry": 0.0004568,
+   "last": 0.0004495057499334487,
+   "peak": 0.0004664,
+   "cost": 2.0170364209973957,
+   "opened": "2026-11-15T17:07:34+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 107,
+   "kol": 2,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -787,8 +801,22 @@
    "t": "2026-11-15T17:03:08+07:00",
    "kind": "resume",
    "why": "ราคา BTC สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-15T17:07:34+07:00",
+   "kind": "buy",
+   "mint": "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump",
+   "sym": "AURA",
+   "price": 0.0004568,
+   "jup": 0.00045690973272705066,
+   "usd": 2.017,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 107,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794736866.9272692
+ "rank_t": 1794737150.6956127
 }
