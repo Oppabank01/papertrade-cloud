@@ -1,48 +1,62 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.3663040800855637,
+ "cash": 0.12904137560888368,
  "pos": {
   "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
    "sym": "Lucia",
    "qty": 323.6460073526651,
    "entry": 0.0009128,
-   "last": 0.0008786,
+   "last": 0.0008776,
    "peak": 0.0009575,
    "cost": 0.3044981194717715,
    "opened": "2026-11-15T13:19:37+07:00",
    "smart": 101,
    "kol": 4,
    "bundler": 0.1455,
-   "gap": 1,
+   "gap": 2,
    "miss": 0
   },
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 45.85724163627756,
    "entry": 0.006269,
-   "last": 0.006447,
-   "peak": 0.006447,
+   "last": 0.006549,
+   "peak": 0.006549,
    "cost": 0.29630905773842925,
    "opened": "2026-11-15T13:38:45+07:00",
    "smart": 287,
    "kol": 23,
    "bundler": 0.3199,
-   "gap": 5,
+   "gap": 6,
    "miss": 0
   },
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 5.713221218964613,
    "entry": 0.04185,
-   "last": 0.04201,
-   "peak": 0.0422,
+   "last": 0.04223,
+   "peak": 0.04223,
    "cost": 0.2464422882020914,
    "opened": "2026-11-15T15:08:50+07:00",
    "smart": 1000,
    "kol": 174,
    "bundler": 0.4841,
    "gap": 0,
+   "miss": 0
+  },
+  "FZLgwRj7k7bESGAPMitaLGCwKtVNJNtd96gj3TjApump": {
+   "sym": "SI",
+   "qty": 3579.9731863650845,
+   "entry": 6.43e-05,
+   "last": 6.383260062338964e-05,
+   "peak": 6.43e-05,
+   "cost": 0.23726270447668002,
+   "opened": "2026-11-15T15:51:01+07:00",
+   "smart": 42,
+   "kol": 1,
+   "bundler": 0.3567,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -27664,6 +27678,42 @@
    "buy": 0.8533,
    "bull": 0.9142,
    "bear": 0.9694
+  },
+  {
+   "t": "2026-11-15T15:50:59+07:00",
+   "kind": "debate",
+   "mint": "8MkPonw1EsCVyPjdVF31BnTBFzPHHMZdrvZwk6aipump",
+   "sym": "Mentat",
+   "ok": false,
+   "bundler": 0.2793,
+   "buy": 0.8104,
+   "bull": 0.9431,
+   "bear": 0.9785
+  },
+  {
+   "t": "2026-11-15T15:51:01+07:00",
+   "kind": "debate",
+   "mint": "FZLgwRj7k7bESGAPMitaLGCwKtVNJNtd96gj3TjApump",
+   "sym": "SI",
+   "ok": true,
+   "bundler": 0.3567,
+   "buy": 0.6967,
+   "bull": 0.8905,
+   "bear": 0.0003
+  },
+  {
+   "t": "2026-11-15T15:51:01+07:00",
+   "kind": "buy",
+   "mint": "FZLgwRj7k7bESGAPMitaLGCwKtVNJNtd96gj3TjApump",
+   "sym": "SI",
+   "price": 6.43e-05,
+   "jup": 6.415211540057055e-05,
+   "usd": 0.2373,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 42,
+   "kol": 1,
+   "bundler": 0.3567
   }
  ]
 }
