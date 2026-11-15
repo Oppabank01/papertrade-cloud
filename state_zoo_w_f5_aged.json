@@ -1,33 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 3.3953886613707964,
+ "cash": 4.860422009664173,
  "pos": {
   "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
    "sym": "PAID",
    "qty": 1464.9138828980588,
    "entry": 0.001135,
-   "last": 0.001133,
+   "last": 0.001152,
    "peak": 0.001153,
    "cost": 1.7137469151610976,
    "opened": "2026-11-15T11:37:31+07:00",
    "zoo": "w_f5_aged",
    "smart": 668,
    "kol": 93,
-   "gap": 26,
-   "miss": 0
-  },
-  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
-   "sym": "GATO",
-   "qty": 225.92143977525453,
-   "entry": 0.007306,
-   "last": 0.006815,
-   "peak": 0.007335,
-   "cost": 1.7012801886188513,
-   "opened": "2026-11-15T11:42:12+07:00",
-   "zoo": "w_f5_aged",
-   "smart": 63,
-   "kol": 4,
    "gap": 0,
    "miss": 0
   },
@@ -35,7 +21,7 @@
    "sym": "Twin",
    "qty": 6429.119156051942,
    "entry": 0.0002552,
-   "last": 0.0002436,
+   "last": 0.0002371,
    "peak": 0.0002605,
    "cost": 1.691106172566951,
    "opened": "2026-11-15T11:51:50+07:00",
@@ -847,8 +833,23 @@
    "cost_side": 0.03,
    "smart": 856,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T12:50:23+07:00",
+   "kind": "sell",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "price": 0.00668388229407665,
+   "entry": 0.007306,
+   "usd": 1.465,
+   "pnl": -0.2362,
+   "why": "stop -8.5%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 63,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794721331.663047
+ "rank_t": 1794721610.5835714
 }
