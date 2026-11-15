@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 2.2408340429049898,
+ "cash": 2.3348371824321132,
  "pos": {
-  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
-   "sym": "ANSEM",
-   "qty": 51.08311830364074,
-   "entry": 0.05057,
-   "last": 0.05009,
-   "peak": 0.05182,
-   "cost": 2.6626193492219254,
-   "opened": "2026-11-16T01:35:12+07:00",
-   "zoo": "x_skip_pumped",
-   "smart": 1000,
-   "kol": 186,
-   "gap": 0,
-   "miss": 0
-  },
   "CniPCE4b3s8gSUPhUiyMjXnytrEqUrMfSsnbBjLCpump": {
    "sym": "pwease",
    "qty": 1331.7861255098958,
@@ -35,7 +21,7 @@
    "sym": "CATE",
    "qty": 137.24230273882466,
    "entry": 0.01737,
-   "last": 0.01765,
+   "last": 0.01757,
    "peak": 0.01765,
    "cost": 2.4571210045077145,
    "opened": "2026-11-16T03:46:57+07:00",
@@ -49,13 +35,27 @@
    "sym": "LMAO!",
    "qty": 1711.0043850329755,
    "entry": 0.001376,
-   "last": 0.001392,
+   "last": 0.00133,
    "peak": 0.001392,
    "cost": 2.4266563943572197,
    "opened": "2026-11-16T04:34:05+07:00",
    "zoo": "x_skip_pumped",
    "smart": 786,
    "kol": 84,
+   "gap": 1,
+   "miss": 0
+  },
+  "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
+   "sym": "PAID",
+   "qty": 1800.187477506838,
+   "entry": 0.001287,
+   "last": 0.001287,
+   "peak": 0.001296,
+   "cost": 2.388003796692744,
+   "opened": "2026-11-16T04:37:42+07:00",
+   "zoo": "x_skip_pumped",
+   "smart": 668,
+   "kol": 93,
    "gap": 0,
    "miss": 0
   }
@@ -382,8 +382,37 @@
    "zoo": "x_skip_pumped",
    "smart": 786,
    "kol": 84
+  },
+  {
+   "t": "2026-11-16T04:36:02+07:00",
+   "kind": "sell",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.05008,
+   "entry": 0.05057,
+   "usd": 2.482,
+   "pnl": -0.1806,
+   "why": "ครบ 3 ชม. (-1.0%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 1000,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-16T04:37:42+07:00",
+   "kind": "buy",
+   "mint": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
+   "sym": "PAID",
+   "price": 0.001287,
+   "jup": 0.0012925446488880673,
+   "usd": 2.388,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 668,
+   "kol": 93
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794778286.5937097
+ "rank_t": 1794778562.2620287
 }
