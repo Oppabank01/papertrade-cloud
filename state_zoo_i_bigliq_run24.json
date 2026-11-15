@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 4.529245280906997,
+ "cash": 1.7693641485054674,
  "pos": {
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 743.9440143578463,
    "entry": 0.003912,
-   "last": 0.004266,
+   "last": 0.004258,
    "peak": 0.004831,
    "cost": 2.939631811487482,
    "opened": "2026-11-14T17:16:48+07:00",
    "zoo": "i_bigliq_run24",
    "smart": 439,
    "kol": 28,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 62.93504971445982,
    "entry": 0.0433,
-   "last": 0.0465,
+   "last": 0.04626,
    "peak": 0.0466,
    "cost": 2.7525442818475394,
    "opened": "2026-11-14T23:32:47+07:00",
@@ -35,13 +35,27 @@
    "sym": "CATE",
    "qty": 177.8051627896159,
    "entry": 0.01436,
-   "last": 0.01777,
-   "peak": 0.01777,
+   "last": 0.01828,
+   "peak": 0.01837,
    "cost": 2.5790077398640276,
    "opened": "2026-11-15T05:23:27+07:00",
    "zoo": "i_bigliq_run24",
    "smart": 865,
    "kol": 110,
+   "gap": 0,
+   "miss": 0
+  },
+  "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
+   "sym": "TROLL",
+   "qty": 123.69177537826275,
+   "entry": 0.02209,
+   "last": 0.02205,
+   "peak": 0.02209,
+   "cost": 2.7598811324015293,
+   "opened": "2026-11-15T12:14:53+07:00",
+   "zoo": "i_bigliq_run24",
+   "smart": 465,
+   "kol": 213,
    "gap": 0,
    "miss": 0
   }
@@ -296,8 +310,22 @@
    "cost_side": 0.01,
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T12:14:53+07:00",
+   "kind": "buy",
+   "mint": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
+   "sym": "TROLL",
+   "price": 0.02209,
+   "jup": 0.02210901765310559,
+   "usd": 2.7599,
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "zoo": "i_bigliq_run24",
+   "smart": 465,
+   "kol": 213
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ ปล่อยวิ่ง trail 20/15 ถือ 24 ชม.",
- "rank_t": 1794719336.0808787
+ "rank_t": 1794719627.4158816
 }
