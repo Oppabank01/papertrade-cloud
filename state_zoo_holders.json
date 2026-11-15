@@ -1,36 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.0291776829875796,
+ "cash": 3.5410241673305505,
  "pos": {
-  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
-   "sym": "STONK",
-   "qty": 28.233098503183374,
-   "entry": 0.04166,
-   "last": 0.04347,
-   "peak": 0.04383,
-   "cost": 1.2123179588153157,
-   "opened": "2026-11-15T14:54:53+07:00",
-   "zoo": "holders",
-   "smart": 1000,
-   "kol": 174,
-   "gap": 0,
-   "miss": 0
-  },
-  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
-   "sym": "CLAUDIA",
-   "qty": 272.9817384954726,
-   "entry": 0.004283,
-   "last": 0.00495,
-   "peak": 0.005261,
-   "cost": 1.2050925437807765,
-   "opened": "2026-11-15T14:54:53+07:00",
-   "zoo": "holders",
-   "smart": 439,
-   "kol": 28,
-   "gap": 0,
-   "miss": 0
-  },
   "BdXfLfcbDE8YvpbvvmmGTduqcDesaQVUm5xLxgUc2S5t": {
    "sym": "texcat",
    "qty": 17779.350120019568,
@@ -49,14 +21,14 @@
    "sym": "DacityCoin",
    "qty": 269.3450305014177,
    "entry": 0.004475,
-   "last": 0.004246047795997324,
+   "last": 0.004234,
    "peak": 0.004475,
    "cost": 1.2423407663304928,
    "opened": "2026-11-15T17:29:38+07:00",
    "zoo": "holders",
    "smart": 249,
    "kol": 20,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1524,8 +1496,38 @@
    "zoo": "holders",
    "smart": 249,
    "kol": 20
+  },
+  {
+   "t": "2026-11-15T17:58:00+07:00",
+   "kind": "sell",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.04384,
+   "entry": 0.04166,
+   "usd": 1.2009,
+   "pnl": -0.0115,
+   "why": "ครบ 3 ชม. (+5.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 1000,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-15T17:58:00+07:00",
+   "kind": "sell",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.00495,
+   "entry": 0.004283,
+   "usd": 1.311,
+   "pnl": 0.1059,
+   "why": "ครบ 3 ชม. (+15.6%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 439,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794739946.4106445
+ "rank_t": 1794740245.5483575
 }
