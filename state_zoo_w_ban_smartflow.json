@@ -7,14 +7,14 @@
    "sym": "FOOD",
    "qty": 7507.499732154056,
    "entry": 0.0003472,
-   "last": 0.0003495,
+   "last": 0.0003512,
    "peak": 0.0004611,
    "cost": 2.68666657081415,
    "opened": "2026-11-15T01:03:26+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 292,
    "kol": 22,
-   "gap": 4,
+   "gap": 0,
    "miss": 0
   },
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": {
@@ -28,35 +28,35 @@
    "zoo": "w_ban_smartflow",
    "smart": 5,
    "kol": 0,
-   "gap": 6,
+   "gap": 8,
    "miss": 0
   },
   "G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump": {
    "sym": "GTA",
    "qty": 21957.776870899164,
    "entry": 8.941e-05,
-   "last": 8.628501821280932e-05,
+   "last": 8.649013328377338e-05,
    "peak": 9.679e-05,
    "cost": 2.0235465162101574,
    "opened": "2026-11-15T12:43:20+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 5,
    "kol": 0,
-   "gap": 13,
+   "gap": 3,
    "miss": 0
   },
   "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": {
    "sym": "bill",
    "qty": 2526.34553128972,
    "entry": 0.000748,
-   "last": 0.0008412,
+   "last": 0.000785,
    "peak": 0.0009648722847322163,
    "cost": 1.9477493892029587,
    "opened": "2026-11-15T13:02:43+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 111,
    "kol": 6,
-   "gap": 3,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -493,12 +493,20 @@
    "zoo": "w_ban_smartflow",
    "smart": 111,
    "kol": 6
+  },
+  {
+   "t": "2026-11-15T13:48:36+07:00",
+   "kind": "ban",
+   "mint": "G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump",
+   "sym": "GTA",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794724989.1618545,
+ "rank_t": 1794725273.9977481,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
-  "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA"
+  "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
+  "G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump": "GTA"
  }
 }
