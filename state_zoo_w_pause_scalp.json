@@ -1,41 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 4.658039299670957,
+ "cash": 5.28044853559752,
  "pos": {
   "56S874EPXeXKLQJCkMCsW15z38LW9xBpq4qQLr5qpump": {
    "sym": "DAC",
    "qty": 1712.7188548419463,
    "entry": 0.0004482,
-   "last": 0.0004148,
+   "last": 0.00041487275666151035,
    "peak": 0.0004482,
    "cost": 0.7912189143889511,
    "opened": "2026-11-16T02:03:58+07:00",
    "zoo": "w_pause_scalp",
    "smart": 50,
    "kol": 2,
-   "gap": 4,
-   "miss": 0
-  },
-  "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": {
-   "sym": "BUTTHOLE",
-   "qty": 2576.6970083310875,
-   "entry": 0.0002963,
-   "last": 0.0002572,
-   "peak": 0.0002988,
-   "cost": 0.7869257097181006,
-   "opened": "2026-11-16T02:22:16+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 82,
-   "kol": 7,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
    "sym": "Dacity",
    "qty": 405.5968682368781,
    "entry": 0.001823,
-   "last": 0.001769,
+   "last": 0.001768,
    "peak": 0.001823,
    "cost": 0.7621140906986485,
    "opened": "2026-11-16T02:41:24+07:00",
@@ -49,14 +35,14 @@
    "sym": "Max",
    "qty": 771.3173800644006,
    "entry": 0.0009483,
-   "last": 0.0009368,
+   "last": 0.0009297915595773965,
    "peak": 0.0009549,
    "cost": 0.7539066909040106,
    "opened": "2026-11-16T02:47:10+07:00",
    "zoo": "w_pause_scalp",
    "smart": 454,
    "kol": 42,
-   "gap": 4,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -2123,8 +2109,23 @@
    "zoo": "w_pause_scalp",
    "smart": 454,
    "kol": 42
+  },
+  {
+   "t": "2026-11-16T02:56:54+07:00",
+   "kind": "sell",
+   "mint": "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump",
+   "sym": "BUTTHOLE",
+   "price": 0.00024897251422365235,
+   "entry": 0.0002963,
+   "usd": 0.6224,
+   "pnl": -0.1645,
+   "why": "stop -16.0%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 82,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794772127.2058463
+ "rank_t": 1794772402.5702827
 }
