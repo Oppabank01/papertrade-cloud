@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 0.23447973462443847,
+ "cash": 0.0,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 59.15170230113698,
    "entry": 0.04942,
-   "last": 0.05084,
-   "peak": 0.0509,
+   "last": 0.05113,
+   "peak": 0.05118,
    "cost": 3.013066509711595,
    "opened": "2026-11-15T22:24:18+07:00",
    "zoo": "x_cto_watch",
@@ -21,7 +21,7 @@
    "sym": "GTA6",
    "qty": 590.3416838901148,
    "entry": 0.006896,
-   "last": 0.006829,
+   "last": 0.006864,
    "peak": 0.007058,
    "cost": 4.196038190173399,
    "opened": "2026-11-15T23:05:48+07:00",
@@ -35,13 +35,27 @@
    "sym": "HODL",
    "qty": 2405.0209094882557,
    "entry": 0.001955,
-   "last": 0.001814,
+   "last": 0.001692,
    "peak": 0.001959,
    "cost": 4.84623364053756,
    "opened": "2026-11-16T01:17:22+07:00",
    "zoo": "x_cto_watch",
    "smart": 351,
    "kol": 34,
+   "gap": 0,
+   "miss": 0
+  },
+  "56S874EPXeXKLQJCkMCsW15z38LW9xBpq4qQLr5qpump": {
+   "sym": "DAC",
+   "qty": 507.5685821790054,
+   "entry": 0.0004482,
+   "last": 0.0004471,
+   "peak": 0.0004482,
+   "cost": 0.23447973462443847,
+   "opened": "2026-11-16T02:04:23+07:00",
+   "zoo": "x_cto_watch",
+   "smart": 50,
+   "kol": 2,
    "gap": 0,
    "miss": 0
   }
@@ -238,8 +252,22 @@
    "cost_side": 0.03,
    "smart": 54,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T02:04:23+07:00",
+   "kind": "buy",
+   "mint": "56S874EPXeXKLQJCkMCsW15z38LW9xBpq4qQLr5qpump",
+   "sym": "DAC",
+   "price": 0.0004482,
+   "jup": 0.00044796945720353625,
+   "usd": 0.2345,
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "zoo": "x_cto_watch",
+   "smart": 50,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: รอ dev เทหมดแล้วมี CTO: dev ถือ 0% ซื้อ 40% ขายครึ่ง x3 trail 15% stop -18%",
- "rank_t": 1794769005.2684014
+ "rank_t": 1794769284.7433314
 }

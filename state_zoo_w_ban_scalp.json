@@ -1,8 +1,37 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 8.568654682213612,
- "pos": {},
+ "cash": 6.857477204866189,
+ "pos": {
+  "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": {
+   "sym": "BUTTHOLE",
+   "qty": 2252.929206689335,
+   "entry": 0.000369,
+   "last": 0.00035599615285595107,
+   "peak": 0.000369,
+   "cost": 0.8568654682213612,
+   "opened": "2026-11-16T02:03:54+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 82,
+   "kol": 7,
+   "gap": 2,
+   "miss": 0
+  },
+  "56S874EPXeXKLQJCkMCsW15z38LW9xBpq4qQLr5qpump": {
+   "sym": "DAC",
+   "qty": 1849.2938671443662,
+   "entry": 0.0004482,
+   "last": 0.0004471,
+   "peak": 0.0004482,
+   "cost": 0.8543120091260615,
+   "opened": "2026-11-16T02:03:56+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 50,
+   "kol": 2,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-15T00:43:00+07:00",
@@ -2036,10 +2065,38 @@
    "cost_side": 0.03,
    "smart": 79,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T02:03:54+07:00",
+   "kind": "buy",
+   "mint": "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump",
+   "sym": "BUTTHOLE",
+   "price": 0.000369,
+   "jup": 0.00036986122006661047,
+   "usd": 0.8569,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 82,
+   "kol": 7
+  },
+  {
+   "t": "2026-11-16T02:03:56+07:00",
+   "kind": "buy",
+   "mint": "56S874EPXeXKLQJCkMCsW15z38LW9xBpq4qQLr5qpump",
+   "sym": "DAC",
+   "price": 0.0004482,
+   "jup": 0.0004477982136983502,
+   "usd": 0.8543,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 50,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794769005.2684014,
+ "rank_t": 1794769284.7433314,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
