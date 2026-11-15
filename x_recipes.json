@@ -857,5 +857,30 @@
    "TRAIL": null,
    "MAX_HOLD_H": 2
   }
+ },
+ {
+  "name": "x_rule5_60_25",
+  "label": "ระบบ 5 ไม้ เข้มกรอง ปลอดภัย TP +60% SL -25%",
+  "horizon": "week",
+  "source": "https://www.mexc.com/news/1066589",
+  "claim": "Medium-style memecoin system: max 5 positions, fixed size per token, exits TP +60% SL -25%, skip trades when unsure (missing a 10x costs less than buying a rug). No verified results given",
+  "added": "2026-11-15",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 50000
+   },
+   "safe": true,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.25,
+   "TP_ALL": 0.6,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 6,
+   "MAX_POS": 5
+  }
  }
 ]
