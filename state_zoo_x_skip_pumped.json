@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 1.8911014509296065,
+ "cash": 0.6432764386912619,
  "pos": {
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 137.24230273882466,
    "entry": 0.01737,
-   "last": 0.01768,
+   "last": 0.01777,
    "peak": 0.0179,
    "cost": 2.4571210045077145,
    "opened": "2026-11-16T03:46:57+07:00",
@@ -21,21 +21,21 @@
    "sym": "LMAO!",
    "qty": 1711.0043850329755,
    "entry": 0.001376,
-   "last": 0.0013428309518213244,
+   "last": 0.00138,
    "peak": 0.001411,
    "cost": 2.4266563943572197,
    "opened": "2026-11-16T04:34:05+07:00",
    "zoo": "x_skip_pumped",
    "smart": 786,
    "kol": 84,
-   "gap": 4,
+   "gap": 0,
    "miss": 0
   },
   "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
    "sym": "PAID",
    "qty": 1800.187477506838,
    "entry": 0.001287,
-   "last": 0.001227,
+   "last": 0.001228,
    "peak": 0.00136,
    "cost": 2.388003796692744,
    "opened": "2026-11-16T04:37:42+07:00",
@@ -45,18 +45,18 @@
    "gap": 0,
    "miss": 0
   },
-  "HQjXLbFPkpJP1BmF55DgXj9F6614FURvGLKuyCZQpump": {
-   "sym": "GTAVI",
-   "qty": 31436.278845184206,
-   "entry": 6.774e-05,
-   "last": 6.62e-05,
-   "peak": 6.774e-05,
-   "cost": 2.1949015965499674,
-   "opened": "2026-11-16T05:43:07+07:00",
+  "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
+   "sym": "SAPLING",
+   "qty": 1142.500186431705,
+   "entry": 0.001604,
+   "last": 0.0016083844555456624,
+   "peak": 0.0016083844555456624,
+   "cost": 1.8888582756508503,
+   "opened": "2026-11-16T05:48:17+07:00",
    "zoo": "x_skip_pumped",
-   "smart": 71,
-   "kol": 8,
-   "gap": 3,
+   "smart": 186,
+   "kol": 19,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -498,8 +498,37 @@
    "zoo": "x_skip_pumped",
    "smart": 71,
    "kol": 8
+  },
+  {
+   "t": "2026-11-16T05:46:02+07:00",
+   "kind": "sell",
+   "mint": "HQjXLbFPkpJP1BmF55DgXj9F6614FURvGLKuyCZQpump",
+   "sym": "GTAVI",
+   "price": 2.1017843943744606e-05,
+   "entry": 6.774e-05,
+   "usd": 0.641,
+   "pnl": -1.5539,
+   "why": "stop -69.0%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 71,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-16T05:48:17+07:00",
+   "kind": "buy",
+   "mint": "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W",
+   "sym": "SAPLING",
+   "price": 0.001604,
+   "jup": 0.0015995697578663572,
+   "usd": 1.8889,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 186,
+   "kol": 19
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794782485.9369729
+ "rank_t": 1794782762.1037433
 }
