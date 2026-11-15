@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 9.17236067284287,
+ "cash": 8.157336171695334,
  "pos": {
   "3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": {
    "sym": "SIB",
@@ -14,6 +14,20 @@
    "zoo": "w_ban_scalp",
    "smart": 113,
    "kol": 5,
+   "gap": 0,
+   "miss": 0
+  },
+  "CbsseJ9uLdJUr6UjPx3dL9BK5tBvTDCERuakuWEYpump": {
+   "sym": "Kodak",
+   "qty": 9051.257086519669,
+   "entry": 0.0001088,
+   "last": 0.0001093,
+   "peak": 0.0001093,
+   "cost": 1.0150245011475367,
+   "opened": "2026-11-15T14:41:30+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 23,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -1377,10 +1391,24 @@
    "cost_side": 0.03,
    "smart": 105,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T14:41:30+07:00",
+   "kind": "buy",
+   "mint": "CbsseJ9uLdJUr6UjPx3dL9BK5tBvTDCERuakuWEYpump",
+   "sym": "Kodak",
+   "price": 0.0001088,
+   "jup": 0.00010870718775439535,
+   "usd": 1.015,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 23,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794728131.990974,
+ "rank_t": 1794728415.3697126,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
