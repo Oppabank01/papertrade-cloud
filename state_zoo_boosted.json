@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.1591815589038874,
+ "cash": 0.5453688821876254,
  "pos": {
   "AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump": {
    "sym": "jobcoin",
@@ -21,7 +21,7 @@
    "sym": "CATE",
    "qty": 35.70592282734463,
    "entry": 0.01648,
-   "last": 0.0166,
+   "last": 0.01655,
    "peak": 0.0166,
    "cost": 0.6065075326681505,
    "opened": "2026-11-15T23:41:47+07:00",
@@ -35,14 +35,28 @@
    "sym": "WISHMAS",
    "qty": 5073.083641715521,
    "entry": 0.0001153,
-   "last": 0.00013538402293741884,
+   "last": 0.0001348,
    "peak": 0.0001451252682609225,
    "cost": 0.6028927477734483,
    "opened": "2026-11-15T23:46:42+07:00",
    "zoo": "boosted",
    "smart": 139,
    "kol": 9,
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": {
+   "sym": "HODL",
+   "qty": 311.3021740460624,
+   "entry": 0.001913,
+   "last": 0.001913,
+   "peak": 0.001913,
+   "cost": 0.613812676716262,
+   "opened": "2026-11-16T01:15:54+07:00",
+   "zoo": "boosted",
+   "smart": 351,
+   "kol": 34,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -2172,8 +2186,22 @@
    "cost_side": 0.03,
    "smart": 329,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T01:15:54+07:00",
+   "kind": "buy",
+   "mint": "Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump",
+   "sym": "HODL",
+   "price": 0.001913,
+   "jup": 0.00192769988811675,
+   "usd": 0.6138,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 351,
+   "kol": 34
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794766204.6066504
+ "rank_t": 1794766481.3662543
 }
