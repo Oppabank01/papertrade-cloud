@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.0527707583376102,
+ "cash": 0.8288636812783161,
  "pos": {
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 74.77534404489136,
    "entry": 0.01695,
-   "last": 0.01785,
+   "last": 0.01776,
    "peak": 0.01803,
    "cost": 1.3063719661522453,
    "opened": "2026-11-15T15:27:34+07:00",
@@ -28,20 +28,34 @@
    "zoo": "aged",
    "smart": 101,
    "kol": 4,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
    "sym": "Dacity",
    "qty": 577.2923999038636,
    "entry": 0.001999,
-   "last": 0.002013,
+   "last": 0.002003,
    "peak": 0.002025,
    "cost": 1.189453213159991,
    "opened": "2026-11-15T17:25:08+07:00",
    "zoo": "aged",
    "smart": 425,
    "kol": 38,
+   "gap": 0,
+   "miss": 0
+  },
+  "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
+   "sym": "WASTED",
+   "qty": 247.5885417353893,
+   "entry": 0.004796,
+   "last": 0.004796,
+   "peak": 0.004796,
+   "cost": 1.2239070770592941,
+   "opened": "2026-11-15T18:21:16+07:00",
+   "zoo": "aged",
+   "smart": 71,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -1655,8 +1669,22 @@
    "cost_side": 0.03,
    "smart": 249,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T18:21:16+07:00",
+   "kind": "buy",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "price": 0.004796,
+   "jup": 0.00480495152858627,
+   "usd": 1.2239,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "aged",
+   "smart": 71,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุเกิน 1 วัน ยังมีคนเล่น",
- "rank_t": 1794741365.5365682
+ "rank_t": 1794741639.8503826
 }
