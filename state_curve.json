@@ -1,8 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 10.694797957053835,
- "pos": {},
+ "cash": 8.555838365643067,
+ "pos": {
+  "DdkoMFh8vtnH91RFjgqMYk9T2MwbdPtoKCzhum23PBFV": {
+   "sym": "MECHAZILLA",
+   "qty": 305264.96279117995,
+   "entry": 6.662872300255293e-06,
+   "last": 6.662872300255293e-06,
+   "peak": 6.662872300255293e-06,
+   "cost": 2.138959591410767,
+   "curve": "HtqVZ5Qz2fQaANrvDrbcfdfHVoBVNaxJBHpcYkZmuHGj",
+   "opened": "2026-11-16T01:52:42+07:00",
+   "wallet": "FqJMNz"
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T21:07:09+07:00",
@@ -883,8 +895,31 @@
    "sym": "Pterodactyl",
    "wallet": "2kN7bb",
    "why": "not on a SOL pump.fun curve"
+  },
+  {
+   "t": "2026-11-16T01:52:42+07:00",
+   "kind": "buy",
+   "mint": "DdkoMFh8vtnH91RFjgqMYk9T2MwbdPtoKCzhum23PBFV",
+   "sym": "MECHAZILLA",
+   "price": 6.662872300255293e-06,
+   "jup": 6.613945689970575e-06,
+   "usd": 2.139,
+   "curve_sol": 24.83,
+   "wallet": "FqJMNz",
+   "wallet_usd": 200,
+   "lag_min_after_skip": 0.0,
+   "stop_set": -0.08,
+   "cost_side": 0.0325
+  },
+  {
+   "t": "2026-11-16T01:52:42+07:00",
+   "kind": "skip",
+   "mint": "9KZfmGU1jhr9oj19fP7ntZqiuWnsAjuAyZxyfmg6sRMs",
+   "sym": "MECHAZILLA",
+   "wallet": "FqJMNz",
+   "why": "not on a SOL pump.fun curve"
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ บน bonding curve",
- "seen_t": "2026-11-16T01:19:56+07:00"
+ "seen_t": "2026-11-16T01:52:40+07:00"
 }
