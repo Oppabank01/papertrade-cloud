@@ -1,20 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 10.709206546490481,
- "pos": {
-  "EgyP9E9Lt9MqhreLZmzjn929XjF9tG7ERGU4YaTKpump": {
-   "sym": "FUTA",
-   "qty": 447974.8965944175,
-   "entry": 5.7024812812435976e-06,
-   "last": 5.7024812812435976e-06,
-   "peak": 5.7024812812435976e-06,
-   "cost": 2.6773016366226203,
-   "curve": "BRW51Pik4EoyTQVDY71WhvfptKQiTpL6yHkxygoHhg1j",
-   "opened": "2026-11-15T13:24:50+07:00",
-   "wallet": "2kN7bb"
-  }
- },
+ "cash": 12.136949176494102,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T21:07:09+07:00",
@@ -583,6 +571,20 @@
    "sym": "4qxe4j",
    "wallet": "ENskGQ",
    "why": "not on a SOL pump.fun curve"
+  },
+  {
+   "t": "2026-11-15T13:29:16+07:00",
+   "kind": "sell",
+   "mint": "EgyP9E9Lt9MqhreLZmzjn929XjF9tG7ERGU4YaTKpump",
+   "sym": "FUTA",
+   "price": 3.376426241299379e-06,
+   "entry": 5.7024812812435976e-06,
+   "usd": 1.4277,
+   "pnl": -1.2496,
+   "why": "stop -40.8%",
+   "stop_set": -0.08,
+   "cost_side": 0.0325,
+   "graduated": false
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ บน bonding curve",
