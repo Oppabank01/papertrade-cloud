@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.622986093763564,
+ "cash": 0.41615673766201455,
  "pos": {
   "7R3RnGmpV9mZXwSyHyKN5LEddiZRmGsYrAZPgDJqpump": {
    "sym": "NUREMBERG",
    "qty": 3194.508090494021,
    "entry": 6.38e-05,
-   "last": 6.853e-05,
+   "last": 6.6e-05,
    "peak": 6.941e-05,
    "cost": 0.21006969302568393,
    "opened": "2026-11-15T21:48:45+07:00",
@@ -28,6 +28,20 @@
    "zoo": "rand",
    "smart": 408,
    "kol": 32,
+   "gap": 0,
+   "miss": 0
+  },
+  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
+   "sym": "DacityCoin",
+   "qty": 53.411190122364445,
+   "entry": 0.003757,
+   "last": 0.003757,
+   "peak": 0.003757,
+   "cost": 0.2068293561015494,
+   "opened": "2026-11-15T22:40:51+07:00",
+   "zoo": "rand",
+   "smart": 249,
+   "kol": 20,
    "gap": 0,
    "miss": 0
   }
@@ -2305,8 +2319,22 @@
    "cost_side": 0.03,
    "smart": 287,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T22:40:51+07:00",
+   "kind": "buy",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.003757,
+   "jup": 0.003750499362881354,
+   "usd": 0.2068,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 249,
+   "kol": 20
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794756936.9364152
+ "rank_t": 1794757232.3058672
 }

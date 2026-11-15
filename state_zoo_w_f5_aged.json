@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 2.3558453899136707,
+ "cash": 3.744324397337947,
  "pos": {
-  "JB2wezZLdzWfnaCfHxLg193RS3Rh51ThiXxEDWQDpump": {
-   "sym": "LABUBU",
-   "qty": 5656.626796415702,
-   "entry": 0.0002586,
-   "last": 0.000253,
-   "peak": 0.0002697,
-   "cost": 1.5077341677521137,
-   "opened": "2026-11-15T19:41:46+07:00",
-   "zoo": "w_f5_aged",
-   "smart": 34,
-   "kol": 116,
-   "gap": 0,
-   "miss": 0
-  },
   "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS": {
    "sym": "BAGSPAY",
    "qty": 2466.1073675461143,
    "entry": 0.0005833,
-   "last": 0.0006213,
+   "last": 0.0006208,
    "peak": 0.0006576,
    "cost": 1.4826638089977824,
    "opened": "2026-11-15T20:24:34+07:00",
@@ -35,14 +21,14 @@
    "sym": "OTC",
    "qty": 488.26406156330415,
    "entry": 0.002798,
-   "last": 0.0033175382474901196,
+   "last": 0.003294,
    "peak": 0.003383,
    "cost": 1.4081249683097559,
    "opened": "2026-11-15T22:03:38+07:00",
    "zoo": "w_f5_aged",
    "smart": 510,
    "kol": 55,
-   "gap": 18,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1224,8 +1210,23 @@
    "cost_side": 0.03,
    "smart": 134,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T22:41:53+07:00",
+   "kind": "sell",
+   "mint": "JB2wezZLdzWfnaCfHxLg193RS3Rh51ThiXxEDWQDpump",
+   "sym": "LABUBU",
+   "price": 0.000253,
+   "entry": 0.0002586,
+   "usd": 1.3885,
+   "pnl": -0.1193,
+   "why": "ครบ 3 ชม. (-2.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 34,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794756936.9364152
+ "rank_t": 1794757232.3058672
 }

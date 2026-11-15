@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 0.0,
+ "cash": 4.637716183777873,
  "pos": {
   "9zqre5sRRdFvKqyTyvEd1jcKDRF4g47s7mZSGUnQpump": {
    "sym": "boob",
    "qty": 36770.23755877762,
    "entry": 0.0001553,
-   "last": 0.000168,
+   "last": 0.0001672,
    "peak": 0.0001705,
    "cost": 5.885815185403179,
    "opened": "2026-11-15T22:24:11+07:00",
@@ -17,26 +17,12 @@
    "gap": 0,
    "miss": 0
   },
-  "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
-   "sym": "Lucia",
-   "qty": 3814.976140361769,
-   "entry": 0.001479,
-   "last": 0.0012587076026387457,
-   "peak": 0.001479,
-   "cost": 5.815656268393174,
-   "opened": "2026-11-15T22:24:12+07:00",
-   "zoo": "x_cto_watch",
-   "smart": 103,
-   "kol": 4,
-   "gap": 6,
-   "miss": 0
-  },
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 59.15170230113698,
    "entry": 0.04942,
    "last": 0.04923,
-   "peak": 0.04942,
+   "peak": 0.0495,
    "cost": 3.013066509711595,
    "opened": "2026-11-15T22:24:18+07:00",
    "zoo": "x_cto_watch",
@@ -93,8 +79,23 @@
    "zoo": "x_cto_watch",
    "smart": 1000,
    "kol": 186
+  },
+  {
+   "t": "2026-11-15T22:40:32+07:00",
+   "kind": "sell",
+   "mint": "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump",
+   "sym": "Lucia",
+   "price": 0.001253,
+   "entry": 0.001479,
+   "usd": 4.6377,
+   "pnl": -1.1779,
+   "why": "trailing จากยอด +0% (-15.3%)",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": 103,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รอ dev เทหมดแล้วมี CTO: dev ถือ 0% ซื้อ 40% ขายครึ่ง x3 trail 15% stop -18%",
- "rank_t": 1794756936.9364152
+ "rank_t": 1794757232.3058672
 }
