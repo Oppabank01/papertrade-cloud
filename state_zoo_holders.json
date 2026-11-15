@@ -1,33 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.3742878146961957,
+ "cash": 2.2391671693259565,
  "pos": {
   "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
    "sym": "FOOD",
    "qty": 4385.182850672396,
    "entry": 0.0002714,
-   "last": 0.000266,
+   "last": 0.0002588,
    "peak": 0.0002716,
    "cost": 1.2266941101551103,
    "opened": "2026-11-15T18:03:05+07:00",
    "zoo": "holders",
    "smart": 297,
    "kol": 22,
-   "gap": 0,
-   "miss": 0
-  },
-  "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": {
-   "sym": "swordcat",
-   "qty": 1651.5057554995856,
-   "entry": 0.0007129,
-   "last": 0.000662,
-   "peak": 0.0007129,
-   "cost": 1.2135213905335545,
-   "opened": "2026-11-15T18:07:39+07:00",
-   "zoo": "holders",
-   "smart": 312,
-   "kol": 43,
    "gap": 0,
    "miss": 0
   },
@@ -42,6 +28,20 @@
    "zoo": "holders",
    "smart": 71,
    "kol": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
+   "sym": "ANSEM",
+   "qty": 21.489272881499094,
+   "entry": 0.05276,
+   "last": 0.05276,
+   "peak": 0.05276,
+   "cost": 1.1685982655410143,
+   "opened": "2026-11-15T19:12:15+07:00",
+   "zoo": "holders",
+   "smart": 1000,
+   "kol": 186,
    "gap": 0,
    "miss": 0
   }
@@ -1612,8 +1612,37 @@
    "cost_side": 0.03,
    "smart": 70,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T19:12:15+07:00",
+   "kind": "buy",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.05276,
+   "jup": 0.0527984803841364,
+   "usd": 1.1686,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 1000,
+   "kol": 186
+  },
+  {
+   "t": "2026-11-15T19:12:18+07:00",
+   "kind": "sell",
+   "mint": "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump",
+   "sym": "swordcat",
+   "price": 0.000645,
+   "entry": 0.0007129,
+   "usd": 1.0335,
+   "pnl": -0.18,
+   "why": "stop -9.5%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 312,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794744440.259992
+ "rank_t": 1794744710.2431939
 }
