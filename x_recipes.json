@@ -882,5 +882,31 @@
    "MAX_HOLD_H": 6,
    "MAX_POS": 5
   }
+ },
+ {
+  "name": "i_dip200_2h",
+  "label": "สภาพคล่อง 200k+ ย่อ 1 ชม. -15 ถึง -40% ถือ 2 ชม.",
+  "horizon": "week",
+  "source": "iteration 2026-11-15 api: parent i_bigdip (1 sell/day, too few to judge by 14 Dec). rank_hist 13-15 Nov, pool 200k+ 1h -40..-15, 24h cooldown: 7 trades 7 coins, gross 1h +5.3% 2h +8.0% 6h +4.5%, 6 of 7 up, none carries it. w_deadcat live 4 trades: price at 1h was +1.4/+12.9/+8.9/+8.3% but its 6h exit gave -6.5/-25/+4.6/-10.5%, so the bounce fades after ~2h",
+  "claim": "the dip bounce on deep pools happens in the first 1-2h; widen liquidity 500k->200k to get ~5 trades/day and cut MAX_HOLD_H 6->2 to exit before the bounce fades. Pass: 50 sells, positive after 1% round trip, beats rand per trade. Die: 20 sells and per-trade mean below 0 or below rand",
+  "added": "2026-11-15",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 200000,
+    "price_change_percent1h": -40
+   },
+   "max": {
+    "price_change_percent1h": -15
+   }
+  },
+  "exit": {
+   "STOP": -0.1,
+   "TP_ALL": 0.12,
+   "TRAIL_ON": 9,
+   "MAX_HOLD_H": 2,
+   "FEE": 0.005,
+   "SLIP": 0.005
+  }
  }
 ]
