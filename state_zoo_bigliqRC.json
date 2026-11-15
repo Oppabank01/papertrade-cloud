@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.740566037735848,
- "cash": 9.185966816944273,
- "pos": {
-  "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
-   "sym": "JEANPHIL",
-   "qty": 834.0066105303744,
-   "entry": 0.002521,
-   "last": 0.002444,
-   "peak": 0.002647,
-   "cost": 2.167110559830008,
-   "opened": "2026-11-15T05:42:23+07:00",
-   "zoo": "bigliqRC",
-   "smart": 398,
-   "kol": 43,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 11.153018279051672,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T10:55:00+07:00",
@@ -574,9 +559,24 @@
    "cost_side": 0.03,
    "smart": 342,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T08:42:35+07:00",
+   "kind": "sell",
+   "mint": "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump",
+   "sym": "JEANPHIL",
+   "price": 0.002431,
+   "entry": 0.002521,
+   "usd": 1.9671,
+   "pnl": -0.2001,
+   "why": "ครบ 3 ชม. (-3.6%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 398,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ ผ่าน RugCheck เช็กราคาทุก 20 วิ",
- "rank_t": 1794706648.5465431,
+ "rank_t": 1794706935.2686765,
  "halted": "ราคา FLOAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }
