@@ -1,33 +1,47 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.355919659001086,
+ "cash": 1.5547960336271616,
  "pos": {
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": {
    "sym": "OTC",
    "qty": 275.1567344386526,
    "entry": 0.003,
-   "last": 0.00309,
+   "last": 0.0030230288107605955,
    "peak": 0.00309,
    "cost": 0.8508247818140156,
    "opened": "2026-11-16T03:17:46+07:00",
    "zoo": "holders",
    "smart": 524,
    "kol": 55,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS": {
    "sym": "BAGSPAY",
    "qty": 1127.9121874338298,
    "entry": 0.0006724,
-   "last": 0.0007088,
+   "last": 0.0007049,
    "peak": 0.0007088,
    "cost": 0.781702901288917,
    "opened": "2026-11-16T04:32:35+07:00",
    "zoo": "holders",
    "smart": 187,
    "kol": 18,
+   "gap": 0,
+   "miss": 0
+  },
+  "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
+   "sym": "SAPLING",
+   "qty": 496.96300597044836,
+   "entry": 0.001564,
+   "last": 0.001564,
+   "peak": 0.001564,
+   "cost": 0.8011236253739242,
+   "opened": "2026-11-16T05:23:11+07:00",
+   "zoo": "holders",
+   "smart": 186,
+   "kol": 19,
    "gap": 0,
    "miss": 0
   }
@@ -2048,8 +2062,22 @@
    "cost_side": 0.03,
    "smart": 668,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T05:23:11+07:00",
+   "kind": "buy",
+   "mint": "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W",
+   "sym": "SAPLING",
+   "price": 0.001564,
+   "jup": 0.001564676127615365,
+   "usd": 0.8011,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 186,
+   "kol": 19
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794781082.9935882
+ "rank_t": 1794781359.1858792
 }
