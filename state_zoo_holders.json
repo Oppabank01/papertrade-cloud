@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 3.5410241673305505,
+ "cash": 2.3143300571754404,
  "pos": {
   "BdXfLfcbDE8YvpbvvmmGTduqcDesaQVUm5xLxgUc2S5t": {
    "sym": "texcat",
    "qty": 17779.350120019568,
    "entry": 6.543e-05,
-   "last": 8.167e-05,
+   "last": 8.076e-05,
    "peak": 8.53e-05,
    "cost": 1.1990340943649558,
    "opened": "2026-11-15T15:46:31+07:00",
@@ -21,13 +21,27 @@
    "sym": "DacityCoin",
    "qty": 269.3450305014177,
    "entry": 0.004475,
-   "last": 0.004234,
+   "last": 0.004182,
    "peak": 0.004475,
    "cost": 1.2423407663304928,
    "opened": "2026-11-15T17:29:38+07:00",
    "zoo": "holders",
    "smart": 249,
    "kol": 20,
+   "gap": 1,
+   "miss": 0
+  },
+  "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
+   "sym": "FOOD",
+   "qty": 4385.182850672396,
+   "entry": 0.0002714,
+   "last": 0.0002716,
+   "peak": 0.0002716,
+   "cost": 1.2266941101551103,
+   "opened": "2026-11-15T18:03:05+07:00",
+   "zoo": "holders",
+   "smart": 297,
+   "kol": 22,
    "gap": 0,
    "miss": 0
   }
@@ -1526,8 +1540,22 @@
    "cost_side": 0.03,
    "smart": 439,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T18:03:05+07:00",
+   "kind": "buy",
+   "mint": "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
+   "sym": "FOOD",
+   "price": 0.0002714,
+   "jup": 0.00026994171076595705,
+   "usd": 1.2267,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 297,
+   "kol": 22
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794740245.5483575
+ "rank_t": 1794740529.6486075
 }
