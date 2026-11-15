@@ -142,6 +142,8 @@ def load_specs(path):
             x = {k: (off_val.get(k, STD[k]) if v is None and k not in ("TP_ALL", "HALF_AT") else v) for k, v in x.items()}
             k = 20 / x.get("WATCH_S", 20)       # faster checks: scale the round counts so "rug" and "halt" still mean ~5 min
             ov = {**x, "MISS_N": round(15 * k), "GAP_HALT_N": round(15 * k), "horizon": sp["horizon"], "off": not sp.get("active", True)}
+            if sp.get("orders"):
+                ov["orders"] = True             # buys come only from data/orders_<name>.json (Grok chat picks), never from the rule
             if p:
                 ov.update(rank_by=lambda t, k=p["by"]: val(t, k), take=int(p["take"]))
             ZOO[n] = (sp["label"], spec_rule(e), ov)
@@ -189,6 +191,8 @@ def save_hist(d):
 
 
 def picks(name, rank):
+    if ZOO[name][2].get("orders"):
+        return []
     rule = ZOO[name][1]
     hits = [t for t in rank if ok(t) and rule(t)]
     if name in ("rand", "randrun"):
@@ -242,6 +246,24 @@ def apply_repairs():
                 print(f"repaired {name}: {fix['repair']}")
 
 
+ORDER_MAX_S = 1800
+
+
+def take_orders(name, s):
+    """Grok chat picks pushed from the Mac: [{id, mint, sym, size, why, t}], each tried once, skipped if older than 30 min."""
+    fx = HERE / "data" / f"orders_{name}.json"
+    done = s.setdefault("orders_done", [])
+    for o in (json.loads(fx.read_text()) if fx.exists() else []):
+        if o["id"] in done:
+            continue
+        done.append(o["id"])
+        age = time.time() - o["t"]
+        agents.PER_TRADE = o["size"]
+        why = f"order stale {age / 60:.0f} min" if age > ORDER_MAX_S else agents.paper_buy(s, o["mint"], o.get("sym"), zoo=name, why=o["why"][:200])
+        if why:
+            agents.log(s, "skip", mint=o["mint"], sym=o.get("sym"), why=why)
+
+
 def cmd_tick():
     apply_repairs()
     d = json.loads(RANK.read_text()) if RANK.exists() else None
@@ -278,6 +300,8 @@ def tick_one(name, d, rand_ret):
                 if "size" in ZOO[name][2]:
                     agents.PER_TRADE = ZOO[name][2]["size"](t)
                 agents.paper_buy(s, t["address"], t.get("symbol"), zoo=name, smart=t.get("smart_degen_count"), kol=t.get("renowned_count"))
+        if ov.get("orders") and not s.get("dead"):
+            take_orders(name, s)
         agents.save(s)
         agents.cmd_run()
 

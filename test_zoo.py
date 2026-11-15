@@ -185,3 +185,13 @@ spec = iu.spec_from_file_location("agents_real", Path(__file__).parent / "agents
 ar.WATCH_S = 5; ar.jup_prices(["J"]); time.sleep(4.1); ar.jup_prices(["J"]); assert len(calls) == 2      # 5 s checks: 4 s cache, fresh price each check
 ar.WATCH_S = 20; ar.jup_prices(["J"]); assert len(calls) == 2                                           # 20 s accounts keep the 15 s cache
 print("5s watch ok")
+# Grok chat orders: bought once each, stale ones skipped, the rule itself never buys
+zoo.ZOO["g_test"] = ("t", lambda t: True, dict(orders=True)); assert zoo.picks("g_test", [{"address": "A"}]) == []
+bought, real_buy = [], agents.paper_buy
+agents.paper_buy = lambda s, m, sym, **kw: bought.append((m, agents.PER_TRADE)) or None
+(d / "data" / "orders_g_test.json").write_text(json.dumps([dict(id="o1", mint="M1", sym="M1", size=0.35, why="best", t=time.time()),
+                                                            dict(id="o2", mint="M2", sym="M2", size=0.1, why="old", t=time.time() - 3600)]))
+s = dict(start_usd=10, cash=10, pos={}, log=[]); zoo.take_orders("g_test", s); zoo.take_orders("g_test", s)
+assert bought == [("M1", 0.35)] and s["orders_done"] == ["o1", "o2"] and "stale" in s["log"][-1]["why"], (bought, s)
+agents.paper_buy = real_buy; del zoo.ZOO["g_test"]
+print("grok orders ok")

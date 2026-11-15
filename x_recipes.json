@@ -908,5 +908,43 @@
    "FEE": 0.005,
    "SLIP": 0.005
   }
+ },
+ {
+  "name": "g_boan_chat",
+  "label": "Grok แชทเลือกเอง: พรอมต์โต๊ะ 4 เอเจนต์ 0xboan จากเหรียญใหม่ไม่เกิน 6 ชม.",
+  "horizon": "week",
+  "source": "https://x.com/0xboan/status/2119869042223882557",
+  "claim": "$101 to $6,292 in 24h, Grok Bot desk says no to rugs; compare with x_boan_desk (same pool, fixed rules)",
+  "added": "2026-11-15",
+  "active": true,
+  "orders": true,
+  "entry": {},
+  "exit": {
+   "STOP": -0.15,
+   "HALF_AT": 0.3,
+   "TRAIL_ON": 0.3,
+   "TRAIL": 0.15,
+   "MAX_HOLD_H": 4.25,
+   "MAX_POS": 8
+  }
+ },
+ {
+  "name": "g_gmgn_chat",
+  "label": "Grok แชทตัดสินขั้นสุดท้าย: ข้อมูล GMGN smart/KOL ตอบซื้อหรือข้าม",
+  "horizon": "week",
+  "source": "https://x.com/x_insider4/status/2119793728512520373",
+  "claim": "$88 to $2,535 overnight, GMGN skills feed Grok which makes the final call",
+  "added": "2026-11-15",
+  "active": true,
+  "orders": true,
+  "entry": {},
+  "exit": {
+   "STOP": -0.15,
+   "HALF_AT": 0.3,
+   "TRAIL_ON": 0.3,
+   "TRAIL": 0.15,
+   "MAX_HOLD_H": 4.25,
+   "MAX_POS": 8
+  }
  }
 ]
