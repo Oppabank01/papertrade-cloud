@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 4.586437748000781,
+ "cash": 7.316107465657988,
  "pos": {
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 5910.4977281471665,
    "entry": 0.0004626,
-   "last": 0.0005085559099516773,
+   "last": 0.0005035,
    "peak": 0.0005205,
    "cost": 2.8181779520108012,
    "opened": "2026-11-15T22:47:23+07:00",
    "zoo": "x_loofy_desk",
    "smart": 81,
    "kol": 4,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": {
    "sym": "BRUH",
    "qty": 640.488870955932,
    "entry": 0.004006,
-   "last": 0.003973,
+   "last": 0.003998,
    "peak": 0.004061,
    "cost": 2.6446077273237103,
    "opened": "2026-11-16T00:58:16+07:00",
@@ -29,20 +29,6 @@
    "smart": 3,
    "kol": 0,
    "gap": 0,
-   "miss": 0
-  },
-  "3GN46GsmAUQSpHXtY3oasJFYAbp9RBzVoR7X8ar1pump": {
-   "sym": "BEAR",
-   "qty": 25202.631012686255,
-   "entry": 0.0001012,
-   "last": 0.0001277,
-   "peak": 0.0001348,
-   "cost": 2.628845865268861,
-   "opened": "2026-11-16T00:58:16+07:00",
-   "zoo": "x_loofy_desk",
-   "smart": 15,
-   "kol": 0,
-   "gap": 3,
    "miss": 0
   }
  },
@@ -267,8 +253,23 @@
    "cost_side": 0.03,
    "smart": 111,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T01:45:30+07:00",
+   "kind": "sell",
+   "mint": "3GN46GsmAUQSpHXtY3oasJFYAbp9RBzVoR7X8ar1pump",
+   "sym": "BEAR",
+   "price": 0.00011163566158497945,
+   "entry": 0.0001012,
+   "usd": 2.7297,
+   "pnl": 0.1008,
+   "why": "trailing จากยอด +33% (+10.3%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 15,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: 8 เอเจนต์: smart money 2+ ผ่านเช็กปลอดภัย+RugCheck stop -8% trail",
- "rank_t": 1794767876.7027557
+ "rank_t": 1794768160.3092341
 }

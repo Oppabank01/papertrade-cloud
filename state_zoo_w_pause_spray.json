@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 5.930707215227873,
+ "cash": 6.107725128894035,
  "pos": {
   "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
    "sym": "PAID",
    "qty": 385.57090845723064,
    "entry": 0.001154,
-   "last": 0.00112,
+   "last": 0.001125,
    "peak": 0.001154,
    "cost": 0.45861557241769146,
    "opened": "2026-11-15T23:34:12+07:00",
@@ -21,7 +21,7 @@
    "sym": "GATO",
    "qty": 64.1846077153118,
    "entry": 0.006922,
-   "last": 0.007067,
+   "last": 0.006941,
    "peak": 0.007451,
    "cost": 0.4579322352147891,
    "opened": "2026-11-15T23:34:14+07:00",
@@ -31,26 +31,12 @@
    "gap": 0,
    "miss": 0
   },
-  "Gg3XUJHFoFSha6cWFDT2im8mtNuSHhCzp2D4naowpump": {
-   "sym": "BUSTED",
-   "qty": 2119.5989184261953,
-   "entry": 0.0002004,
-   "last": 0.0001754,
-   "peak": 0.0002045,
-   "cost": 0.4378144952098635,
-   "opened": "2026-11-15T23:52:30+07:00",
-   "zoo": "w_pause_spray",
-   "smart": 20,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 114.74741681563255,
    "entry": 0.003695,
-   "last": 0.003846,
-   "peak": 0.003846,
+   "last": 0.003873,
+   "peak": 0.003914,
    "cost": 0.4370147445204724,
    "opened": "2026-11-16T00:01:05+07:00",
    "zoo": "w_pause_spray",
@@ -63,7 +49,7 @@
    "sym": "Max",
    "qty": 360.86770467569767,
    "entry": 0.001183,
-   "last": 0.001143,
+   "last": 0.001149,
    "peak": 0.001205,
    "cost": 0.4400190626998045,
    "opened": "2026-11-16T00:29:35+07:00",
@@ -77,7 +63,7 @@
    "sym": "HIGH",
    "qty": 538.3319418211211,
    "entry": 0.0007806,
-   "last": 0.0007639,
+   "last": 0.0006744403437137412,
    "peak": 0.0008142,
    "cost": 0.4331291628381438,
    "opened": "2026-11-16T00:48:42+07:00",
@@ -3586,10 +3572,25 @@
    "cost_side": 0.03,
    "smart": 38,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T01:46:13+07:00",
+   "kind": "sell",
+   "mint": "Gg3XUJHFoFSha6cWFDT2im8mtNuSHhCzp2D4naowpump",
+   "sym": "BUSTED",
+   "price": 8.608e-05,
+   "entry": 0.0002004,
+   "usd": 0.177,
+   "pnl": -0.2608,
+   "why": "stop -57.0%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 20,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_spray_small แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794767876.7027557,
+ "rank_t": 1794768160.3092341,
  "halted": "ราคา ZCAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-16T01:50:11+07:00"
 }
