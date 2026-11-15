@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 3.991419099918106,
+ "cash": 4.025060481784842,
  "pos": {
-  "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
-   "sym": "WASTED",
-   "qty": 388.61108074150627,
-   "entry": 0.005214,
-   "last": 0.006063,
-   "peak": 0.006063,
-   "cost": 2.088454107386326,
-   "opened": "2026-11-15T05:46:27+07:00",
-   "zoo": "bigliq",
-   "smart": 68,
-   "kol": 1,
-   "gap": 1,
-   "miss": 0
-  },
   "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
    "sym": "JEANPHIL",
    "qty": 803.5452252750706,
@@ -35,13 +21,27 @@
    "sym": "CLAUDIA",
    "qty": 460.5526036182614,
    "entry": 0.004358,
-   "last": 0.004223,
+   "last": 0.004162,
    "peak": 0.004358,
    "cost": 2.0687365971638667,
    "opened": "2026-11-15T08:24:31+07:00",
    "zoo": "bigliq",
    "smart": 439,
    "kol": 28,
+   "gap": 0,
+   "miss": 0
+  },
+  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
+   "sym": "GATO",
+   "qty": 263.788548012568,
+   "entry": 0.007535,
+   "last": 0.007474,
+   "peak": 0.007535,
+   "cost": 2.0486979069003297,
+   "opened": "2026-11-15T08:47:32+07:00",
+   "zoo": "bigliq",
+   "smart": 63,
+   "kol": 4,
    "gap": 0,
    "miss": 0
   }
@@ -673,8 +673,37 @@
    "cost_side": 0.03,
    "smart": 287,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T08:47:32+07:00",
+   "kind": "buy",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "price": 0.007535,
+   "jup": 0.007543829542813095,
+   "usd": 2.0487,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliq",
+   "smart": 63,
+   "kol": 4
+  },
+  {
+   "t": "2026-11-15T08:47:34+07:00",
+   "kind": "sell",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "price": 0.005523,
+   "entry": 0.005214,
+   "usd": 2.0823,
+   "pnl": -0.0061,
+   "why": "ครบ 3 ชม. (+5.9%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 68,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ มาร์เก็ตแคป 2M+",
- "rank_t": 1794706935.2686765
+ "rank_t": 1794707220.1256015
 }
