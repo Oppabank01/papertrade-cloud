@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.4090349040152446,
+ "cash": 2.2383481304970116,
  "pos": {
   "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
    "sym": "SAPLING",
@@ -14,21 +14,21 @@
    "zoo": "w_pause_aged",
    "smart": 186,
    "kol": 19,
-   "gap": 1,
+   "gap": 7,
    "miss": 0
   },
   "H8xQ6poBjB9DTPMDTKWzWPrnxu4bDEhybxiouF8Ppump": {
    "sym": "Tokabu",
    "qty": 957.2671016178039,
    "entry": 0.001234,
-   "last": 0.001149915472748547,
+   "last": 0.001167,
    "peak": 0.001263,
    "cost": 1.2175506116227273,
    "opened": "2026-11-16T05:34:00+07:00",
    "zoo": "w_pause_aged",
    "smart": 214,
    "kol": 84,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
@@ -1573,8 +1573,37 @@
    "cost_side": 0.03,
    "smart": 773,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T06:15:44+07:00",
+   "kind": "buy",
+   "mint": "6sBvfTnThBPUQsEWjiXdgCnHwxGZfEDqegtVu4vLpump",
+   "sym": "WANTED",
+   "price": 0.0002598,
+   "jup": 0.0002593423298215922,
+   "usd": 1.1857,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 38,
+   "kol": 1
+  },
+  {
+   "t": "2026-11-16T06:15:46+07:00",
+   "kind": "sell",
+   "mint": "6sBvfTnThBPUQsEWjiXdgCnHwxGZfEDqegtVu4vLpump",
+   "sym": "WANTED",
+   "price": 0.00023627342199743242,
+   "entry": 0.0002598,
+   "usd": 1.015,
+   "pnl": -0.1707,
+   "why": "stop -9.1%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 38,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794784170.512178
+ "rank_t": 1794784456.4386437
 }

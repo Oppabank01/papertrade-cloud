@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.4628462434915805,
+ "cash": 1.9409344616404944,
  "pos": {
   "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": {
    "sym": "LMAO!",
    "qty": 379.3584735124701,
    "entry": 0.001396,
-   "last": 0.001375,
+   "last": 0.001374919089243746,
    "peak": 0.001396,
    "cost": 0.5458507823370525,
    "opened": "2026-11-16T05:28:11+07:00",
    "zoo": "boosted",
    "smart": 788,
    "kol": 84,
-   "gap": 0,
-   "miss": 0
-  },
-  "8dbLrW3ZTTu4qeAKYYBjuuSSAPhMvABwUes3eWoXpump": {
-   "sym": "FiveM",
-   "qty": 8842.146941514848,
-   "entry": 5.526e-05,
-   "last": 6.044e-05,
-   "peak": 6.693e-05,
-   "cost": 0.5036250669842409,
-   "opened": "2026-11-16T05:56:24+07:00",
-   "zoo": "boosted",
-   "smart": 55,
-   "kol": 2,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -2405,8 +2391,23 @@
    "cost_side": 0.03,
    "smart": 85,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T06:14:59+07:00",
+   "kind": "sell",
+   "mint": "8dbLrW3ZTTu4qeAKYYBjuuSSAPhMvABwUes3eWoXpump",
+   "sym": "FiveM",
+   "price": 5.573e-05,
+   "entry": 5.526e-05,
+   "usd": 0.4781,
+   "pnl": -0.0255,
+   "why": "trailing จากยอด +21% (+0.9%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 55,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794784170.512178
+ "rank_t": 1794784456.4386437
 }
