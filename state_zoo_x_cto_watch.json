@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 0.0,
+ "cash": 3.1358196226675727,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 59.15170230113698,
    "entry": 0.04942,
-   "last": 0.05099,
+   "last": 0.05073,
    "peak": 0.05182,
    "cost": 3.013066509711595,
    "opened": "2026-11-15T22:24:18+07:00",
@@ -21,7 +21,7 @@
    "sym": "GTA6",
    "qty": 590.3416838901148,
    "entry": 0.006896,
-   "last": 0.006575,
+   "last": 0.006651,
    "peak": 0.007058,
    "cost": 4.196038190173399,
    "opened": "2026-11-15T23:05:48+07:00",
@@ -42,20 +42,6 @@
    "zoo": "x_cto_watch",
    "smart": 50,
    "kol": 2,
-   "gap": 0,
-   "miss": 0
-  },
-  "2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump": {
-   "sym": "Peekhole",
-   "qty": 4967.16968594431,
-   "entry": 0.0007568,
-   "last": 0.0007131,
-   "peak": 0.0007755,
-   "cost": 3.8746176235030445,
-   "opened": "2026-11-16T02:08:22+07:00",
-   "zoo": "x_cto_watch",
-   "smart": 57,
-   "kol": 6,
    "gap": 0,
    "miss": 0
   }
@@ -295,8 +281,23 @@
    "zoo": "x_cto_watch",
    "smart": 57,
    "kol": 6
+  },
+  {
+   "t": "2026-11-16T03:42:27+07:00",
+   "kind": "sell",
+   "mint": "2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump",
+   "sym": "Peekhole",
+   "price": 0.0006507,
+   "entry": 0.0007568,
+   "usd": 3.1358,
+   "pnl": -0.7388,
+   "why": "trailing จากยอด +2% (-14.0%)",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": 57,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รอ dev เทหมดแล้วมี CTO: dev ถือ 0% ซื้อ 40% ขายครึ่ง x3 trail 15% stop -18%",
- "rank_t": 1794774920.5058002
+ "rank_t": 1794775195.3065875
 }
