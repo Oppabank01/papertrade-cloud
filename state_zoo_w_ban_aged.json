@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 7.445195096139605,
+ "cash": 5.5558665346393,
  "pos": {
   "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
    "sym": "neet",
    "qty": 67.41150930824926,
    "entry": 0.03046,
-   "last": 0.02969,
+   "last": 0.02973,
    "peak": 0.03061,
    "cost": 2.116424008997395,
    "opened": "2026-11-15T11:33:22+07:00",
    "zoo": "w_ban_aged",
    "smart": 857,
    "kol": 202,
+   "gap": 0,
+   "miss": 0
+  },
+  "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": {
+   "sym": "CHOO",
+   "qty": 2323.2275923543675,
+   "entry": 0.000789,
+   "last": 0.0007942,
+   "peak": 0.0007942,
+   "cost": 1.8893285615003053,
+   "opened": "2026-11-15T14:13:29+07:00",
+   "zoo": "w_ban_aged",
+   "smart": 112,
+   "kol": 5,
    "gap": 0,
    "miss": 0
   }
@@ -827,10 +841,24 @@
    "cost_side": 0.03,
    "smart": 32,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T14:13:29+07:00",
+   "kind": "buy",
+   "mint": "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump",
+   "sym": "CHOO",
+   "price": 0.000789,
+   "jup": 0.0007944637887959901,
+   "usd": 1.8893,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_aged",
+   "smart": 112,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794726409.1011655,
+ "rank_t": 1794726693.9142044,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6"
  }
