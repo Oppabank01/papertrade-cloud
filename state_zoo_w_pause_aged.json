@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 4.529126327546974,
+ "cash": 2.2153407489723684,
  "pos": {
   "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
    "sym": "JOB",
    "qty": 1690.9997293290266,
    "entry": 0.001391,
-   "last": 0.001472,
+   "last": 0.001463,
    "peak": 0.001474,
    "cost": 2.4244285956469556,
    "opened": "2026-11-15T10:50:38+07:00",
@@ -35,13 +35,27 @@
    "sym": "Dacity",
    "qty": 1163.8489661783779,
    "entry": 0.001977,
-   "last": 0.002016,
+   "last": 0.002005,
    "peak": 0.002017,
    "cost": 2.3716031809262557,
    "opened": "2026-11-15T13:03:04+07:00",
    "zoo": "w_pause_aged",
    "smart": 424,
    "kol": 38,
+   "gap": 0,
+   "miss": 0
+  },
+  "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": {
+   "sym": "BRUH",
+   "qty": 553.460248602831,
+   "entry": 0.004056,
+   "last": 0.004017,
+   "peak": 0.004056,
+   "cost": 2.3137855785746058,
+   "opened": "2026-11-15T13:44:44+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 3,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -659,8 +673,22 @@
    "cost_side": 0.03,
    "smart": 130,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T13:44:44+07:00",
+   "kind": "buy",
+   "mint": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
+   "sym": "BRUH",
+   "price": 0.004056,
+   "jup": 0.0040581138198308355,
+   "usd": 2.3138,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 3,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794724704.611921
+ "rank_t": 1794724989.1618545
 }

@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 6.3206281116218666,
+ "cash": 4.72689686564543,
  "pos": {
   "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
    "sym": "PAID",
@@ -14,6 +14,20 @@
    "zoo": "w_f5_aged",
    "smart": 668,
    "kol": 93,
+   "gap": 0,
+   "miss": 0
+  },
+  "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": {
+   "sym": "BRUH",
+   "qty": 381.22240011004413,
+   "entry": 0.004056,
+   "last": 0.004022,
+   "peak": 0.004056,
+   "cost": 1.5937312459764366,
+   "opened": "2026-11-15T13:44:00+07:00",
+   "zoo": "w_f5_aged",
+   "smart": 3,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -849,8 +863,22 @@
    "cost_side": 0.03,
    "smart": 137,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T13:44:00+07:00",
+   "kind": "buy",
+   "mint": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
+   "sym": "BRUH",
+   "price": 0.004056,
+   "jup": 0.0040581138198308355,
+   "usd": 1.5937,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged",
+   "smart": 3,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794724704.611921
+ "rank_t": 1794724989.1618545
 }
