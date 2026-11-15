@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.45458706268894555,
+ "cash": 0.21373146720473737,
  "pos": {
   "5BjfgmtfqvNpAWx1CnZynoWLWNMnrwHLhTFzQ81vkEc8": {
    "sym": "ClapCat",
    "qty": 2922.0703651261238,
    "entry": 8.752e-05,
-   "last": 8.299e-05,
+   "last": 8.185e-05,
    "peak": 8.766e-05,
    "cost": 0.26359472104291737,
    "opened": "2026-11-15T15:09:27+07:00",
    "zoo": "rand",
    "smart": 127,
    "kol": 7,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "31HzUsjzTt7FBCGnDy68cBnELayVsnd3zYEBtsXXpump": {
    "sym": "TrumpWars",
    "qty": 1369.1458626935269,
    "entry": 0.0001857,
-   "last": 0.0001948,
+   "last": 0.0001904,
    "peak": 0.0001969,
    "cost": 0.26205976778209433,
    "opened": "2026-11-15T15:13:18+07:00",
@@ -35,13 +35,27 @@
    "sym": "ANSEM",
    "qty": 4.769509739737787,
    "entry": 0.05041,
-   "last": 0.05042,
-   "peak": 0.05042,
+   "last": 0.05082,
+   "peak": 0.05082,
    "cost": 0.2478158997940444,
    "opened": "2026-11-15T17:34:19+07:00",
    "zoo": "rand",
    "smart": 1000,
    "kol": 186,
+   "gap": 0,
+   "miss": 0
+  },
+  "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump": {
+   "sym": "GTA6",
+   "qty": 1432.7289928803114,
+   "entry": 0.0001631,
+   "last": 0.0001631,
+   "peak": 0.0001631,
+   "cost": 0.24085559548420818,
+   "opened": "2026-11-15T17:48:09+07:00",
+   "zoo": "rand",
+   "smart": 93,
+   "kol": 5,
    "gap": 0,
    "miss": 0
   }
@@ -2101,8 +2115,22 @@
    "cost_side": 0.03,
    "smart": 76,
    "bundler": null
+  },
+  {
+   "t": "2026-11-15T17:48:09+07:00",
+   "kind": "buy",
+   "mint": "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump",
+   "sym": "GTA6",
+   "price": 0.0001631,
+   "jup": 0.00016337624527371032,
+   "usd": 0.2409,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 93,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794739370.181366
+ "rank_t": 1794739654.5901325
 }

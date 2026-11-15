@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 4.172674132485239,
+ "cash": 4.080709914682585,
  "pos": {
   "31HzUsjzTt7FBCGnDy68cBnELayVsnd3zYEBtsXXpump": {
    "sym": "TrumpWars",
    "qty": 2218.602337969368,
    "entry": 0.0002005,
-   "last": 0.00019053615519034868,
+   "last": 0.0001903,
    "peak": 0.0002005,
    "cost": 0.4584928558677162,
    "opened": "2026-11-15T15:10:13+07:00",
    "zoo": "w_f5_spray",
    "smart": 90,
    "kol": 2,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "5BjfgmtfqvNpAWx1CnZynoWLWNMnrwHLhTFzQ81vkEc8": {
@@ -28,7 +28,7 @@
    "zoo": "w_f5_spray",
    "smart": 127,
    "kol": 7,
-   "gap": 7,
+   "gap": 25,
    "miss": 0
   },
   "8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump": {
@@ -49,7 +49,7 @@
    "sym": "GTA",
    "qty": 4350.1630172250225,
    "entry": 9.979e-05,
-   "last": 0.0001137,
+   "last": 0.0001145,
    "peak": 0.0001278,
    "cost": 0.44743637135527214,
    "opened": "2026-11-15T15:47:02+07:00",
@@ -63,35 +63,21 @@
    "sym": "Macca",
    "qty": 173.59560067199416,
    "entry": 0.002488,
-   "last": 0.002215,
+   "last": 0.002214,
    "peak": 0.002489,
    "cost": 0.44517197945982423,
    "opened": "2026-11-15T15:56:10+07:00",
    "zoo": "w_f5_spray",
    "smart": 169,
    "kol": 8,
-   "gap": 0,
-   "miss": 0
-  },
-  "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": {
-   "sym": "AURA",
-   "qty": 913.0066625664576,
-   "entry": 0.0004682,
-   "last": 0.0004108,
-   "peak": 0.0005363,
-   "cost": 0.44059958710947794,
-   "opened": "2026-11-15T16:05:50+07:00",
-   "zoo": "w_f5_spray",
-   "smart": 104,
-   "kol": 2,
-   "gap": 0,
+   "gap": 6,
    "miss": 0
   },
   "ABSZ6rwFCcWSTB4QiGfDqNBEgeyUswQWZm5Vt5rVpump": {
    "sym": "RINA",
    "qty": 9327.691685133917,
    "entry": 4.623e-05,
-   "last": 5.172e-05,
+   "last": 4.956e-05,
    "peak": 5.339e-05,
    "cost": 0.4444642203707906,
    "opened": "2026-11-15T16:39:31+07:00",
@@ -105,7 +91,7 @@
    "sym": "GTA6",
    "qty": 2430.4328275365156,
    "entry": 0.0001762,
-   "last": 0.0001614,
+   "last": 0.0001577,
    "peak": 0.0001762,
    "cost": 0.44139586086573285,
    "opened": "2026-11-15T16:48:44+07:00",
@@ -119,7 +105,7 @@
    "sym": "WASTED",
    "qty": 86.76804308416607,
    "entry": 0.0049,
-   "last": 0.004868,
+   "last": 0.004799,
    "peak": 0.0049,
    "cost": 0.43822243981902054,
    "opened": "2026-11-15T16:52:48+07:00",
@@ -133,14 +119,14 @@
    "sym": "duh",
    "qty": 1634.1293327848389,
    "entry": 0.0002642,
-   "last": 0.00025838757701631467,
+   "last": 0.0002572,
    "peak": 0.0002658,
    "cost": 0.4449979073611157,
    "opened": "2026-11-15T17:39:33+07:00",
    "zoo": "w_f5_spray",
    "smart": 75,
    "kol": 4,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "8cSCrhVpdzFHURUNPSM61FY6WxMNwccM28NrQRnFpump": {
@@ -155,6 +141,20 @@
    "smart": 2,
    "kol": 2,
    "gap": 0,
+   "miss": 0
+  },
+  "8JCsa61htnPj2af7g1KSyU1UEncruHE1Ph9aNR6rpump": {
+   "sym": "FUTA",
+   "qty": 3064.0112855716357,
+   "entry": 0.0001393,
+   "last": 0.00013559122217084393,
+   "peak": 0.0001393,
+   "cost": 0.4399265842920314,
+   "opened": "2026-11-15T17:48:39+07:00",
+   "zoo": "w_f5_spray",
+   "smart": 30,
+   "kol": 3,
+   "gap": 6,
    "miss": 0
   }
  },
@@ -3217,8 +3217,37 @@
    "zoo": "w_f5_spray",
    "smart": 2,
    "kol": 2
+  },
+  {
+   "t": "2026-11-15T17:48:39+07:00",
+   "kind": "buy",
+   "mint": "8JCsa61htnPj2af7g1KSyU1UEncruHE1Ph9aNR6rpump",
+   "sym": "FUTA",
+   "price": 0.0001393,
+   "jup": 0.00013933108638840367,
+   "usd": 0.4399,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_f5_spray",
+   "smart": 30,
+   "kol": 3
+  },
+  {
+   "t": "2026-11-15T17:48:40+07:00",
+   "kind": "sell",
+   "mint": "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump",
+   "sym": "AURA",
+   "price": 0.00039282313633235447,
+   "entry": 0.0004682,
+   "usd": 0.348,
+   "pnl": -0.0926,
+   "why": "stop -16.1%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 104,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ x_spray_small แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794739370.181366
+ "rank_t": 1794739654.5901325
 }
