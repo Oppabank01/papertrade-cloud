@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.740566037735848,
- "cash": 4.195594708505908,
+ "cash": 6.779201305023143,
  "pos": {
-  "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
-   "sym": "ZCAT",
-   "qty": 177.4125843210439,
-   "entry": 0.01215,
-   "last": 0.01491,
-   "peak": 0.015,
-   "cost": 2.2217716960427576,
-   "opened": "2026-11-15T04:45:41+07:00",
-   "zoo": "bigliqRC",
-   "smart": 329,
-   "kol": 48,
-   "gap": 6,
-   "miss": 0
-  },
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
    "sym": "FLOAT",
    "qty": 841.9008243575119,
    "entry": 0.002662,
-   "last": 0.00295,
+   "last": 0.0029584722366869883,
    "peak": 0.003071,
    "cost": 2.3099773185319483,
    "opened": "2026-11-15T04:59:44+07:00",
    "zoo": "bigliqRC",
    "smart": 342,
    "kol": 31,
-   "gap": 0,
+   "gap": 12,
    "miss": 0
   },
   "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
@@ -572,9 +558,24 @@
    "zoo": "bigliqRC",
    "smart": 398,
    "kol": 43
+  },
+  {
+   "t": "2026-11-15T07:45:41+07:00",
+   "kind": "sell",
+   "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+   "sym": "ZCAT",
+   "price": 0.01501,
+   "entry": 0.01215,
+   "usd": 2.5836,
+   "pnl": 0.3618,
+   "why": "ครบ 3 ชม. (+23.5%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 329,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ ผ่าน RugCheck เช็กราคาทุก 20 วิ",
- "rank_t": 1794703032.8724895,
+ "rank_t": 1794703314.3960226,
  "halted": "ราคา FLOAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }
