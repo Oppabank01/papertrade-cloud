@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.03656911621965442,
+ "cash": 1.1374343961613766,
  "pos": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": {
    "sym": "WOJAK",
@@ -21,7 +21,7 @@
    "sym": "HYGG",
    "qty": 5788.048491852119,
    "entry": 0.0002914,
-   "last": 0.0003823,
+   "last": 0.0003754,
    "peak": 0.0004439,
    "cost": 1.738442929834784,
    "opened": "2026-11-15T21:30:21+07:00",
@@ -42,20 +42,6 @@
    "zoo": "w_ban_smartflow",
    "smart": 91,
    "kol": 7,
-   "gap": 0,
-   "miss": 0
-  },
-  "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": {
-   "sym": "Socks",
-   "qty": 9982.104131790365,
-   "entry": 0.0001451,
-   "last": 0.0001195,
-   "peak": 0.0001682,
-   "cost": 1.4928914754924572,
-   "opened": "2026-11-16T05:52:07+07:00",
-   "zoo": "w_ban_smartflow",
-   "smart": 81,
-   "kol": 6,
    "gap": 0,
    "miss": 0
   }
@@ -821,10 +807,25 @@
    "zoo": "w_ban_smartflow",
    "smart": 81,
    "kol": 6
+  },
+  {
+   "t": "2026-11-16T11:48:43+07:00",
+   "kind": "sell",
+   "mint": "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump",
+   "sym": "Socks",
+   "price": 0.00011367129518793965,
+   "entry": 0.0001451,
+   "usd": 1.1009,
+   "pnl": -0.392,
+   "why": "stop -21.7%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 81,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794804177.762619,
+ "rank_t": 1794804451.4709804,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
