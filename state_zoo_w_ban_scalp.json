@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.659567637384009,
+ "cash": 4.089433968386892,
  "pos": {
-  "6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": {
-   "sym": "GTA$",
-   "qty": 4284.455152501842,
-   "entry": 0.0001424,
-   "last": 0.0001228,
-   "peak": 0.0001507,
-   "cost": 0.6288460252692871,
-   "opened": "2026-11-16T21:05:50+07:00",
-   "zoo": "w_ban_scalp",
-   "smart": 93,
-   "kol": 8,
-   "gap": 0,
-   "miss": 0
-  },
   "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
    "sym": "Dacity",
    "qty": 331.97336178800595,
    "entry": 0.001821,
-   "last": 0.002034,
+   "last": 0.001974,
    "peak": 0.002086,
    "cost": 0.6230916221562139,
    "opened": "2026-11-16T21:43:02+07:00",
@@ -35,7 +21,7 @@
    "sym": "fone",
    "qty": 667.8754298625847,
    "entry": 0.0008826,
-   "last": 0.0008449,
+   "last": 0.0008426,
    "peak": 0.0008826,
    "cost": 0.6075725153542747,
    "opened": "2026-11-16T22:15:06+07:00",
@@ -49,14 +35,14 @@
    "sym": "BUSTED",
    "qty": 4574.942236118053,
    "entry": 0.0001282,
-   "last": 0.0001307,
-   "peak": 0.0001307,
+   "last": 0.000133,
+   "peak": 0.000133,
    "cost": 0.6045223610289986,
    "opened": "2026-11-16T22:49:02+07:00",
    "zoo": "w_ban_scalp",
    "smart": 27,
    "kol": 0,
-   "gap": 0,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -3584,10 +3570,25 @@
    "zoo": "w_ban_scalp",
    "smart": 27,
    "kol": 0
+  },
+  {
+   "t": "2026-11-16T22:53:46+07:00",
+   "kind": "sell",
+   "mint": "6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump",
+   "sym": "GTA$",
+   "price": 0.00010341333859530427,
+   "entry": 0.0001424,
+   "usd": 0.4299,
+   "pnl": -0.199,
+   "why": "stop -27.4%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 93,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794844047.9542596,
+ "rank_t": 1794844336.749186,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
