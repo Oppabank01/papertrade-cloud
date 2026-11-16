@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.9276495883298286,
+ "cash": 4.533089051535099,
  "pos": {
   "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": {
    "sym": "fone",
@@ -17,32 +17,18 @@
    "gap": 0,
    "miss": 0
   },
-  "Gg3XUJHFoFSha6cWFDT2im8mtNuSHhCzp2D4naowpump": {
-   "sym": "BUSTED",
-   "qty": 4213.610586742668,
-   "entry": 0.0001282,
-   "last": 0.0001443,
-   "peak": 0.0001443,
-   "cost": 0.5567768266547207,
-   "opened": "2026-11-16T22:49:02+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 27,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 145.9144259793929,
    "entry": 0.003737,
-   "last": 0.003685,
+   "last": 0.003631,
    "peak": 0.003737,
    "cost": 0.5620307255050415,
    "opened": "2026-11-16T23:11:31+07:00",
    "zoo": "w_pause_scalp",
    "smart": 250,
    "kol": 20,
-   "gap": 0,
+   "gap": 7,
    "miss": 0
   }
  },
@@ -3386,8 +3372,23 @@
    "zoo": "w_pause_scalp",
    "smart": 250,
    "kol": 20
+  },
+  {
+   "t": "2026-11-16T23:18:30+07:00",
+   "kind": "sell",
+   "mint": "Gg3XUJHFoFSha6cWFDT2im8mtNuSHhCzp2D4naowpump",
+   "sym": "BUSTED",
+   "price": 0.0001481,
+   "entry": 0.0001282,
+   "usd": 0.6054,
+   "pnl": 0.0487,
+   "why": "ถึงเป้า +15.5%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 27,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794845402.3330786
+ "rank_t": 1794845686.4610376
 }
