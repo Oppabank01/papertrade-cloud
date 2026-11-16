@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.6546009304359233,
+ "cash": 3.4282290220871547,
  "pos": {
   "FS8ZSohYyG5tNm1ZAHzpvRgK2tJsCLSCDYX4xigNpump": {
    "sym": "250",
@@ -13,18 +13,6 @@
    "opened": "2026-11-16T18:23:31+07:00",
    "source": "agents",
    "gap": 0,
-   "miss": 0
-  },
-  "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": {
-   "sym": "gtacoin",
-   "qty": 2333.5976683790705,
-   "entry": 0.0003833,
-   "last": 0.00037801009513760496,
-   "peak": 0.0004486,
-   "cost": 0.9219418535247348,
-   "opened": "2026-11-16T19:48:58+07:00",
-   "source": "agents",
-   "gap": 10,
    "miss": 0
   }
  },
@@ -1191,6 +1179,21 @@
    "usd": 0.7808,
    "pnl": -0.1391,
    "why": "stop -9.8%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-16T20:50:21+07:00",
+   "kind": "sell",
+   "mint": "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK",
+   "sym": "gtacoin",
+   "price": 0.0003417,
+   "entry": 0.0003833,
+   "usd": 0.7736,
+   "pnl": -0.1483,
+   "why": "stop -10.9%",
    "stop_set": -0.08,
    "cost_side": 0.03,
    "smart": null,
