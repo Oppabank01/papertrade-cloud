@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 5.1122377427937895,
- "pos": {},
+ "cash": 4.601013968514411,
+ "pos": {
+  "GM8EysYT8NRSsoULdeYShbRsUdhoUoiB9EN4eW3YETCH": {
+   "sym": "ETCHY",
+   "qty": 815.6377336060738,
+   "entry": 0.0006081,
+   "last": 0.0006081,
+   "peak": 0.0006081,
+   "cost": 0.5112237742793789,
+   "opened": "2026-11-17T03:20:16+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 100,
+   "kol": 6,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-15T00:43:00+07:00",
@@ -3509,8 +3524,22 @@
    "cost_side": 0.03,
    "smart": 13,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T03:20:16+07:00",
+   "kind": "buy",
+   "mint": "GM8EysYT8NRSsoULdeYShbRsUdhoUoiB9EN4eW3YETCH",
+   "sym": "ETCHY",
+   "price": 0.0006081,
+   "jup": 0.0006097178872875081,
+   "usd": 0.5112,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 100,
+   "kol": 6
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794860053.7482991
+ "rank_t": 1794860326.044024
 }
