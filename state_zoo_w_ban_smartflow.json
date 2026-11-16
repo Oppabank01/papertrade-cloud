@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.0,
+ "cash": 1.6391833203994388,
  "pos": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": {
    "sym": "WOJAK",
@@ -19,17 +19,18 @@
   },
   "HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump": {
    "sym": "HYGG",
-   "qty": 5788.048491852119,
+   "qty": 2894.0242459260594,
    "entry": 0.0002914,
-   "last": 0.0005806,
-   "peak": 0.0005806,
-   "cost": 1.738442929834784,
+   "last": 0.0006069,
+   "peak": 0.0006069,
+   "cost": 0.869221464917392,
    "opened": "2026-11-15T21:30:21+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 32,
    "kol": 0,
    "gap": 0,
-   "miss": 0
+   "miss": 0,
+   "half": true
   },
   "CbmdFB7ruUfTHb1uRWC99knEni77CQKfFZL6qq2fLoat": {
    "sym": "AIRDROP",
@@ -42,14 +43,14 @@
    "zoo": "w_ban_smartflow",
    "smart": 91,
    "kol": 7,
-   "gap": 19,
+   "gap": 31,
    "miss": 0
   },
   "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": {
    "sym": "fone",
    "qty": 1128.9940046601298,
    "entry": 0.0008826,
-   "last": 0.0008321,
+   "last": 0.0008509,
    "peak": 0.0008826,
    "cost": 1.0270563889023199,
    "opened": "2026-11-16T22:14:56+07:00",
@@ -939,10 +940,20 @@
    "mint": "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump",
    "sym": "fone",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-17T00:56:19+07:00",
+   "kind": "sell",
+   "mint": "HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump",
+   "sym": "HYGG",
+   "price": 0.0005838,
+   "usd": 1.6392,
+   "pnl": 0.77,
+   "why": "ขายครึ่ง +100.3%"
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794851371.7208068,
+ "rank_t": 1794851672.6416335,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
