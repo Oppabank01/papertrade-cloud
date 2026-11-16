@@ -21,7 +21,7 @@
    "sym": "PAID",
    "qty": 1111.6609493267554,
    "entry": 0.001154,
-   "last": 0.001237,
+   "last": 0.001228,
    "peak": 0.00136,
    "cost": 1.3222600860885134,
    "opened": "2026-11-15T23:34:03+07:00",
@@ -31,25 +31,11 @@
    "gap": 0,
    "miss": 0
   },
-  "ngwxpGYdkauMcxLFrNTKp8qBgK7JV53zVvd7F2spump": {
-   "sym": "duh",
-   "qty": 2808.069066414384,
-   "entry": 0.0003525,
-   "last": 0.0002995,
-   "peak": 0.0004478598433800637,
-   "cost": 1.0202477282117814,
-   "opened": "2026-11-16T02:35:41+07:00",
-   "zoo": "w_pause_smartflow",
-   "smart": 77,
-   "kol": 4,
-   "gap": 0,
-   "miss": 0
-  },
   "7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": {
    "sym": "Snoopy",
    "qty": 2965.218453563844,
    "entry": 0.0002855,
-   "last": 0.0003184,
+   "last": 0.0003188,
    "peak": 0.0003537,
    "cost": 0.8725725298829905,
    "opened": "2026-11-16T02:50:17+07:00",
@@ -57,6 +43,20 @@
    "smart": 223,
    "kol": 14,
    "gap": 0,
+   "miss": 0
+  },
+  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
+   "sym": "Rings",
+   "qty": 992.5344559661728,
+   "entry": 0.0007473,
+   "last": 0.0006738,
+   "peak": 0.0007473,
+   "cost": 0.7645031941285518,
+   "opened": "2026-11-16T07:59:28+07:00",
+   "zoo": "w_pause_smartflow",
+   "smart": 79,
+   "kol": 5,
+   "gap": 4,
    "miss": 0
   }
  },
@@ -815,8 +815,37 @@
    "zoo": "w_pause_smartflow",
    "smart": 223,
    "kol": 14
+  },
+  {
+   "t": "2026-11-16T07:59:27+07:00",
+   "kind": "sell",
+   "mint": "ngwxpGYdkauMcxLFrNTKp8qBgK7JV53zVvd7F2spump",
+   "sym": "duh",
+   "price": 0.0002806145906709581,
+   "entry": 0.0003525,
+   "usd": 0.7645,
+   "pnl": -0.2557,
+   "why": "stop -20.4%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 77,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-16T07:59:28+07:00",
+   "kind": "buy",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.0007473,
+   "jup": 0.0007463047871557641,
+   "usd": 0.7645,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "w_pause_smartflow",
+   "smart": 79,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794790412.411766
+ "rank_t": 1794790696.059116
 }
