@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 0.9864219938987704,
+ "cash": 1.8476244036211535,
  "pos": {
   "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
    "sym": "Dacity",
    "qty": 594.1943594224837,
    "entry": 0.001733,
-   "last": 0.001832,
+   "last": 0.001831,
    "peak": 0.001884,
    "cost": 1.0613675787251744,
    "opened": "2026-11-16T11:43:52+07:00",
@@ -21,14 +21,14 @@
    "sym": "JOB",
    "qty": 795.4441967848506,
    "entry": 0.001248,
-   "last": 0.001267,
+   "last": 0.001232,
    "peak": 0.00127,
    "cost": 1.0232058932050028,
    "opened": "2026-11-16T13:05:56+07:00",
    "zoo": "w_f5_aged",
    "smart": 33,
    "kol": 0,
-   "gap": 0,
+   "gap": 4,
    "miss": 0
   },
   "Cr8kuNqKwiVVuzqLYKcJhmpSHy767837BwLFr9GDYXUf": {
@@ -43,20 +43,6 @@
    "smart": 111,
    "kol": 8,
    "gap": 0,
-   "miss": 0
-  },
-  "82Z6CcE5g3o1jW3vgtcqr95jP4XFx8jg1SJe8ikepump": {
-   "sym": "PANICSELL",
-   "qty": 3180.526621898738,
-   "entry": 0.0003041,
-   "last": 0.00031377117525267166,
-   "peak": 0.0003262,
-   "cost": 0.9969059428153024,
-   "opened": "2026-11-16T13:28:40+07:00",
-   "zoo": "w_f5_aged",
-   "smart": 27,
-   "kol": 0,
-   "gap": 3,
    "miss": 0
   }
  },
@@ -1861,8 +1847,23 @@
    "zoo": "w_f5_aged",
    "smart": 27,
    "kol": 0
+  },
+  {
+   "t": "2026-11-16T14:04:15+07:00",
+   "kind": "sell",
+   "mint": "82Z6CcE5g3o1jW3vgtcqr95jP4XFx8jg1SJe8ikepump",
+   "sym": "PANICSELL",
+   "price": 0.00027909042110674817,
+   "entry": 0.0003041,
+   "usd": 0.8612,
+   "pnl": -0.1357,
+   "why": "stop -8.2%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 27,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794812148.4747977
+ "rank_t": 1794812434.0822494
 }
