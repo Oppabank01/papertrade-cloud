@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 6.516060733287219,
+ "cash": 5.801553583250916,
  "pos": {
   "82Z6CcE5g3o1jW3vgtcqr95jP4XFx8jg1SJe8ikepump": {
    "sym": "PANICSELL",
@@ -14,6 +14,20 @@
    "zoo": "w_ban_scalp",
    "smart": 27,
    "kol": 0,
+   "gap": 2,
+   "miss": 0
+  },
+  "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
+   "sym": "Rocco",
+   "qty": 567.743519218035,
+   "entry": 0.001221,
+   "last": 0.001206,
+   "peak": 0.001221,
+   "cost": 0.7145071500363026,
+   "opened": "2026-11-16T11:30:11+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 119,
+   "kol": 9,
    "gap": 0,
    "miss": 0
   }
@@ -2703,10 +2717,24 @@
    "zoo": "w_ban_scalp",
    "smart": 27,
    "kol": 0
+  },
+  {
+   "t": "2026-11-16T11:30:11+07:00",
+   "kind": "buy",
+   "mint": "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
+   "sym": "Rocco",
+   "price": 0.001221,
+   "jup": 0.0012224032370824656,
+   "usd": 0.7145,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 119,
+   "kol": 9
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794803038.6982417,
+ "rank_t": 1794803327.8118117,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
