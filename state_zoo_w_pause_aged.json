@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.0976088428781825,
+ "cash": 3.0318531068768015,
  "pos": {
-  "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": {
-   "sym": "GTA",
-   "qty": 725.1053254441847,
-   "entry": 0.001018,
-   "last": 0.001274,
-   "peak": 0.001288,
-   "cost": 0.7608299539292724,
-   "opened": "2026-11-16T21:05:57+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 276,
-   "kol": 14,
-   "gap": 0,
-   "miss": 0
-  },
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 187.23922767491075,
    "entry": 0.003737,
-   "last": 0.003587,
+   "last": 0.003578418643160812,
    "peak": 0.00375,
    "cost": 0.7212048998362621,
    "opened": "2026-11-16T23:11:34+07:00",
    "zoo": "w_pause_aged",
    "smart": 250,
    "kol": 20,
-   "gap": 0,
+   "gap": 4,
    "miss": 0
   }
  },
@@ -2420,8 +2406,23 @@
    "cost_side": 0.03,
    "smart": 173,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T00:06:33+07:00",
+   "kind": "sell",
+   "mint": "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump",
+   "sym": "GTA",
+   "price": 0.001328,
+   "entry": 0.001018,
+   "usd": 0.9342,
+   "pnl": 0.1734,
+   "why": "ครบ 3 ชม. (+30.5%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 276,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794848516.0058289
+ "rank_t": 1794848792.8155394
 }
