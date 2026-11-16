@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.5880674259565256,
+ "cash": 1.1101315306585007,
  "pos": {
   "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
    "sym": "CBUCKS",
    "qty": 122.08171596636328,
    "entry": 0.005303,
-   "last": 0.005317,
+   "last": 0.005362,
    "peak": 0.005721,
    "cost": 0.667284415346964,
    "opened": "2026-11-16T18:14:21+07:00",
@@ -21,21 +21,21 @@
    "sym": "NIO",
    "qty": 429.54436660962523,
    "entry": 0.001504,
-   "last": 0.0015349933220598622,
-   "peak": 0.001542,
+   "last": 0.001555,
+   "peak": 0.001555,
    "cost": 0.6658778884568917,
    "opened": "2026-11-16T18:56:47+07:00",
    "zoo": "aged",
    "smart": 409,
    "kol": 32,
-   "gap": 1,
+   "gap": 2,
    "miss": 0
   },
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 143.9742273175247,
    "entry": 0.004289,
-   "last": 0.004186,
+   "last": 0.004199,
    "peak": 0.004289,
    "cost": 0.6364723365954066,
    "opened": "2026-11-16T19:11:19+07:00",
@@ -43,20 +43,6 @@
    "smart": 439,
    "kol": 28,
    "gap": 0,
-   "miss": 0
-  },
-  "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": {
-   "sym": "rockstar",
-   "qty": 471.6033907751387,
-   "entry": 0.001295,
-   "last": 0.00124,
-   "peak": 0.001295,
-   "cost": 0.6294850454069311,
-   "opened": "2026-11-16T19:49:31+07:00",
-   "zoo": "aged",
-   "smart": 67,
-   "kol": 4,
-   "gap": 1,
    "miss": 0
   }
  },
@@ -2843,8 +2829,23 @@
    "zoo": "aged",
    "smart": 67,
    "kol": 4
+  },
+  {
+   "t": "2026-11-16T20:04:00+07:00",
+   "kind": "sell",
+   "mint": "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump",
+   "sym": "rockstar",
+   "price": 0.001141,
+   "entry": 0.001295,
+   "usd": 0.5221,
+   "pnl": -0.1074,
+   "why": "stop -11.9%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 67,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุเกิน 1 วัน ยังมีคนเล่น",
- "rank_t": 1794833890.3681545
+ "rank_t": 1794834188.5947278
 }
