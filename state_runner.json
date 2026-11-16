@@ -1,20 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.5518927379025476,
+ "cash": 3.638048335785379,
  "pos": {
-  "Ge87EtsjwRQbHaqQmKRno69RFTwh9bfSsm99XNxTpump": {
-   "sym": "Jimothy",
-   "qty": 913.891600623336,
-   "entry": 0.00125,
-   "last": 0.001225,
-   "peak": 0.001273,
-   "cost": 1.1774525878985467,
-   "opened": "2026-11-15T16:38:18+07:00",
-   "source": "agents",
-   "gap": 0,
-   "miss": 0
-  },
   "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump": {
    "sym": "GTA6",
    "qty": 8365.28869182596,
@@ -24,7 +12,7 @@
    "cost": 1.0898500212809743,
    "opened": "2026-11-16T06:23:53+07:00",
    "source": "agents",
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -1110,6 +1098,21 @@
    "usd": 1.0681,
    "pnl": -0.0865,
    "why": "ครบ 24 ชม. (-1.7%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-16T16:41:19+07:00",
+   "kind": "sell",
+   "mint": "Ge87EtsjwRQbHaqQmKRno69RFTwh9bfSsm99XNxTpump",
+   "sym": "Jimothy",
+   "price": 0.001225,
+   "entry": 0.00125,
+   "usd": 1.0862,
+   "pnl": -0.0913,
+   "why": "ครบ 24 ชม. (-2.0%)",
    "stop_set": -0.08,
    "cost_side": 0.03,
    "smart": null,
