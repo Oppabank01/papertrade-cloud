@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.849606073214741,
+ "cash": 0.559319545507144,
  "pos": {
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 59.65384220778804,
    "entry": 0.005328,
-   "last": 0.005219,
+   "last": 0.005222,
    "peak": 0.005571,
    "cost": 0.32759809449917,
    "opened": "2026-11-16T21:00:30+07:00",
@@ -21,13 +21,27 @@
    "sym": "DacityCoin",
    "qty": 81.8521168894894,
    "entry": 0.003699,
-   "last": 0.003549,
+   "last": 0.003631,
    "peak": 0.003737,
    "cost": 0.31207068684211636,
    "opened": "2026-11-16T23:11:03+07:00",
    "zoo": "boosted",
    "smart": 250,
    "kol": 20,
+   "gap": 0,
+   "miss": 0
+  },
+  "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
+   "sym": "STANK",
+   "qty": 199.31775596738186,
+   "entry": 0.001413,
+   "last": 0.001413,
+   "peak": 0.001413,
+   "cost": 0.29028652770759694,
+   "opened": "2026-11-16T23:58:03+07:00",
+   "zoo": "boosted",
+   "smart": 78,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -3159,8 +3173,22 @@
    "cost_side": 0.03,
    "smart": 21,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T23:58:03+07:00",
+   "kind": "buy",
+   "mint": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
+   "sym": "STANK",
+   "price": 0.001413,
+   "jup": 0.0014251201650881012,
+   "usd": 0.2903,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 78,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794847952.2423117
+ "rank_t": 1794848234.4425962
 }
