@@ -1,28 +1,16 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.1774971111818093,
+ "cash": 2.8823367755731426,
  "pos": {
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 443.64864240677116,
    "entry": 0.001761,
-   "last": 0.002179693132355792,
+   "last": 0.002157,
    "peak": 0.0025432418526751674,
    "cost": 0.8052620689325128,
    "opened": "2026-11-16T22:23:44+07:00",
-   "source": "agents",
-   "gap": 1,
-   "miss": 0
-  },
-  "39wVWdqCJWmHwpQS4Twx9GYmmhLSSKDPPJE7DM7Zpump": {
-   "sym": "DACITY",
-   "qty": 6074.323057819797,
-   "entry": 0.0001314,
-   "last": 0.0001242,
-   "peak": 0.000143,
-   "cost": 0.8226819725804179,
-   "opened": "2026-11-17T04:35:08+07:00",
    "source": "agents",
    "gap": 0,
    "miss": 0
@@ -1380,6 +1368,21 @@
    "usd": 0.7087,
    "pnl": -0.1266,
    "why": "stop -9.9%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-17T06:00:50+07:00",
+   "kind": "sell",
+   "mint": "39wVWdqCJWmHwpQS4Twx9GYmmhLSSKDPPJE7DM7Zpump",
+   "sym": "DACITY",
+   "price": 0.0001196,
+   "entry": 0.0001314,
+   "usd": 0.7048,
+   "pnl": -0.1178,
+   "why": "stop -9.0%",
    "stop_set": -0.08,
    "cost_side": 0.03,
    "smart": null,
