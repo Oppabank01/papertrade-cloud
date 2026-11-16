@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.4751691560664104,
+ "cash": 0.8570875569129539,
  "pos": {
   "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": {
    "sym": "Socks",
    "qty": 4120.540333967124,
    "entry": 0.0001316,
-   "last": 0.0001225725380189524,
+   "last": 0.0001257,
    "peak": 0.00016051389671985268,
    "cost": 0.5589188908988596,
    "opened": "2026-11-16T04:04:47+07:00",
    "zoo": "randrun",
    "smart": 78,
    "kol": 6,
-   "gap": 1,
+   "gap": 2,
    "miss": 0
   },
   "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
    "sym": "Dacity",
    "qty": 331.01165440908704,
    "entry": 0.001622,
-   "last": 0.001921,
+   "last": 0.001907,
    "peak": 0.002121,
    "cost": 0.5533919845923925,
    "opened": "2026-11-16T04:18:20+07:00",
@@ -35,28 +35,14 @@
    "sym": "DacityCoin",
    "qty": 128.61192316184753,
    "entry": 0.004215,
-   "last": 0.004784,
+   "last": 0.004741,
    "peak": 0.004797,
    "cost": 0.5587500063153858,
    "opened": "2026-11-16T05:56:33+07:00",
    "zoo": "randrun",
    "smart": 249,
    "kol": 20,
-   "gap": 0,
-   "miss": 0
-  },
-  "Gg3XUJHFoFSha6cWFDT2im8mtNuSHhCzp2D4naowpump": {
-   "sym": "BUSTED",
-   "qty": 1678.6743939395853,
-   "entry": 0.0003275,
-   "last": 0.0002921,
-   "peak": 0.0003275,
-   "cost": 0.5666520964906352,
-   "opened": "2026-11-16T08:41:26+07:00",
-   "zoo": "randrun",
-   "smart": 24,
-   "kol": 0,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -990,8 +976,23 @@
    "zoo": "randrun",
    "smart": 24,
    "kol": 0
+  },
+  {
+   "t": "2026-11-16T10:56:23+07:00",
+   "kind": "sell",
+   "mint": "Gg3XUJHFoFSha6cWFDT2im8mtNuSHhCzp2D4naowpump",
+   "sym": "BUSTED",
+   "price": 0.0002345,
+   "entry": 0.0003275,
+   "usd": 0.3819,
+   "pnl": -0.1847,
+   "why": "stop -28.4%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 24,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1794801049.806865
+ "rank_t": 1794801330.8037949
 }

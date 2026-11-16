@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.8481736575878085,
+ "cash": 1.0171702986780595,
  "pos": {
-  "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
-   "sym": "CBUCKS",
-   "qty": 240.8244039228981,
-   "entry": 0.004663,
-   "last": 0.005125,
-   "peak": 0.005367,
-   "cost": 1.1574563960961388,
-   "opened": "2026-11-16T07:55:03+07:00",
-   "zoo": "w_ban_aged",
-   "smart": 41,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 25.66543666693156,
@@ -35,14 +21,14 @@
    "sym": "NIO",
    "qty": 719.5801528556657,
    "entry": 0.001444,
-   "last": 0.001376,
+   "last": 0.0013855346792538972,
    "peak": 0.001456,
    "cost": 1.0709892194635966,
    "opened": "2026-11-16T09:51:55+07:00",
    "zoo": "w_ban_aged",
    "smart": 409,
    "kol": 32,
-   "gap": 0,
+   "gap": 4,
    "miss": 0
   },
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
@@ -56,6 +42,20 @@
    "zoo": "w_ban_aged",
    "smart": 473,
    "kol": 48,
+   "gap": 0,
+   "miss": 0
+  },
+  "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
+   "sym": "WASTED",
+   "qty": 230.10119245866142,
+   "entry": 0.00436,
+   "last": 0.004394,
+   "peak": 0.004394,
+   "cost": 1.034056070005941,
+   "opened": "2026-11-16T10:56:52+07:00",
+   "zoo": "w_ban_aged",
+   "smart": 73,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -1947,10 +1947,39 @@
    "zoo": "w_ban_aged",
    "smart": 473,
    "kol": 48
+  },
+  {
+   "t": "2026-11-16T10:55:30+07:00",
+   "kind": "sell",
+   "mint": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+   "sym": "CBUCKS",
+   "price": 0.005149,
+   "entry": 0.004663,
+   "usd": 1.2031,
+   "pnl": 0.0456,
+   "why": "ครบ 3 ชม. (+10.4%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 41,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-16T10:56:52+07:00",
+   "kind": "buy",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "price": 0.00436,
+   "jup": 0.004369601655295129,
+   "usd": 1.0341,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_aged",
+   "smart": 73,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794801049.806865,
+ "rank_t": 1794801330.8037949,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": "CHOO",

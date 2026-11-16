@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 1.4388043004853577,
+ "cash": 2.564907161129206,
  "pos": {
-  "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
-   "sym": "MANIFEST",
-   "qty": 408.7172778942013,
-   "entry": 0.003747,
-   "last": 0.003516,
-   "peak": 0.003785,
-   "cost": 1.5785030305808827,
-   "opened": "2026-11-16T07:55:14+07:00",
-   "zoo": "x_skip_pumped",
-   "smart": 80,
-   "kol": 15,
-   "gap": 0,
-   "miss": 0
-  },
   "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": {
    "sym": "Kimchi",
    "qty": 790.3353877527734,
    "entry": 0.001893,
-   "last": 0.001818,
+   "last": 0.00185,
    "peak": 0.001893,
    "cost": 1.5420582240940015,
    "opened": "2026-11-16T08:14:06+07:00",
@@ -35,7 +21,7 @@
    "sym": "GATO",
    "qty": 197.93509067758836,
    "entry": 0.007356,
-   "last": 0.007194,
+   "last": 0.007253,
    "peak": 0.007492,
    "cost": 1.5007323510867243,
    "opened": "2026-11-16T08:52:04+07:00",
@@ -49,8 +35,8 @@
    "sym": "HOGE",
    "qty": 1850.075636821446,
    "entry": 0.0007498,
-   "last": 0.0007783,
-   "peak": 0.0007804,
+   "last": 0.0007827,
+   "peak": 0.0008004,
    "cost": 1.4297945913097507,
    "opened": "2026-11-16T10:41:55+07:00",
    "zoo": "x_skip_pumped",
@@ -875,8 +861,52 @@
    "zoo": "x_skip_pumped",
    "smart": 153,
    "kol": 9
+  },
+  {
+   "t": "2026-11-16T10:55:30+07:00",
+   "kind": "sell",
+   "mint": "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
+   "sym": "MANIFEST",
+   "price": 0.003516,
+   "entry": 0.003747,
+   "usd": 1.3942,
+   "pnl": -0.1843,
+   "why": "ครบ 3 ชม. (-6.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 80,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-16T10:57:06+07:00",
+   "kind": "buy",
+   "mint": "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump",
+   "sym": "plumber",
+   "price": 0.0003976,
+   "jup": 0.0003956499895010055,
+   "usd": 1.4225,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 170,
+   "kol": 4
+  },
+  {
+   "t": "2026-11-16T10:58:37+07:00",
+   "kind": "sell",
+   "mint": "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump",
+   "sym": "plumber",
+   "price": 0.0003427804793608887,
+   "entry": 0.0003976,
+   "usd": 1.1543,
+   "pnl": -0.2681,
+   "why": "stop -13.8%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 170,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794801049.806865
+ "rank_t": 1794801330.8037949
 }

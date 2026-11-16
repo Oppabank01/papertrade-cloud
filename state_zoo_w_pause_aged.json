@@ -1,28 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.8675422988646508,
+ "cash": 2.0284762600501884,
  "pos": {
-  "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
-   "sym": "CBUCKS",
-   "qty": 242.1523951484278,
-   "entry": 0.004663,
-   "last": 0.005125,
-   "peak": 0.005367,
-   "cost": 1.1638390214152945,
-   "opened": "2026-11-16T07:55:05+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 41,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 152.62636775452796,
    "entry": 0.006751,
-   "last": 0.007367,
-   "peak": 0.007414,
+   "last": 0.007412,
+   "peak": 0.007457,
    "cost": 1.0620290751502972,
    "opened": "2026-11-16T09:19:42+07:00",
    "zoo": "w_pause_aged",
@@ -42,6 +28,20 @@
    "zoo": "w_pause_aged",
    "smart": 473,
    "kol": 48,
+   "gap": 0,
+   "miss": 0
+  },
+  "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
+   "sym": "WASTED",
+   "qty": 235.09703691515986,
+   "entry": 0.004328,
+   "last": 0.004394,
+   "peak": 0.004394,
+   "cost": 1.0487528094916634,
+   "opened": "2026-11-16T10:56:55+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 73,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -1805,8 +1805,37 @@
    "cost_side": 0.03,
    "smart": 108,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T10:55:30+07:00",
+   "kind": "sell",
+   "mint": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+   "sym": "CBUCKS",
+   "price": 0.005149,
+   "entry": 0.004663,
+   "usd": 1.2097,
+   "pnl": 0.0458,
+   "why": "ครบ 3 ชม. (+10.4%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 41,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-16T10:56:55+07:00",
+   "kind": "buy",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "price": 0.004328,
+   "jup": 0.004369601655295129,
+   "usd": 1.0488,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 73,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794801049.806865
+ "rank_t": 1794801330.8037949
 }

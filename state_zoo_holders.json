@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.2340058562831695,
+ "cash": 0.5783427871958343,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 38.933602788909845,
    "entry": 0.01834,
-   "last": 0.01793,
+   "last": 0.01789,
    "peak": 0.01916,
    "cost": 0.735974309573909,
    "opened": "2026-11-16T08:41:19+07:00",
@@ -21,7 +21,7 @@
    "sym": "CATE",
    "qty": 40.41674745422212,
    "entry": 0.01724,
-   "last": 0.01733,
+   "last": 0.01737,
    "peak": 0.01761,
    "cost": 0.7181866894565958,
    "opened": "2026-11-16T09:09:08+07:00",
@@ -42,6 +42,20 @@
    "zoo": "holders",
    "smart": 473,
    "kol": 48,
+   "gap": 0,
+   "miss": 0
+  },
+  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
+   "sym": "GTA6",
+   "qty": 86.18402785916984,
+   "entry": 0.007381,
+   "last": 0.007395,
+   "peak": 0.007395,
+   "cost": 0.6556630690873352,
+   "opened": "2026-11-16T10:56:10+07:00",
+   "zoo": "holders",
+   "smart": 289,
+   "kol": 23,
    "gap": 0,
    "miss": 0
   }
@@ -2279,8 +2293,22 @@
    "cost_side": 0.03,
    "smart": 202,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T10:56:10+07:00",
+   "kind": "buy",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.007381,
+   "jup": 0.007408237276541253,
+   "usd": 0.6557,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 289,
+   "kol": 23
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794801049.806865
+ "rank_t": 1794801330.8037949
 }
