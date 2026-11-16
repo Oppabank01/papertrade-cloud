@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.5425769370012801,
- "pos": {
-  "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
-   "sym": "Rocco",
-   "qty": 108.76201328071114,
-   "entry": 0.00121,
-   "last": 0.001194,
-   "peak": 0.001265,
-   "cost": 0.13564423425032002,
-   "opened": "2026-11-16T10:13:35+07:00",
-   "smart": 119,
-   "kol": 9,
-   "bundler": 0.1376,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 0.6582278491935808,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T01:37:56+07:00",
@@ -37818,6 +37803,43 @@
    "buy": 0.7991,
    "bull": 0.8999,
    "bear": 1.0
+  },
+  {
+   "t": "2026-11-16T11:05:09+07:00",
+   "kind": "debate",
+   "mint": "9M6mXY89WSMj9g68rTirN2FiCqM9RfbCFeJpGxzLpump",
+   "sym": "Holden",
+   "ok": true,
+   "bundler": 0.2928,
+   "buy": 0.7728,
+   "bull": 0.9312,
+   "bear": 0.0
+  },
+  {
+   "t": "2026-11-16T11:05:11+07:00",
+   "kind": "debate",
+   "mint": "DffdPtAKvnP91k9Ct6QvZ8TwVvWbJ6CxRtGNGNh9pump",
+   "sym": "LTC",
+   "ok": false,
+   "bundler": 0.0235,
+   "buy": 0.8202,
+   "bull": 0.8897,
+   "bear": 0.9635
+  },
+  {
+   "t": "2026-11-16T11:05:12+07:00",
+   "kind": "sell",
+   "mint": "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
+   "sym": "Rocco",
+   "price": 0.001096,
+   "entry": 0.00121,
+   "usd": 0.1157,
+   "pnl": -0.02,
+   "why": "stop -9.4%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 119,
+   "bundler": 0.1376
   }
  ]
 }
