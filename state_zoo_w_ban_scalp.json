@@ -7,28 +7,28 @@
    "sym": "CBUCKS",
    "qty": 132.83636188220322,
    "entry": 0.00519,
-   "last": 0.004875,
+   "last": 0.004966,
    "peak": 0.00545,
    "cost": 0.7105964936803079,
    "opened": "2026-11-16T15:17:19+07:00",
    "zoo": "w_ban_scalp",
    "smart": 41,
    "kol": 0,
-   "gap": 1,
+   "gap": 7,
    "miss": 0
   },
   "B9FgqHbtccsgcL6YPfUhNd81qveNtrTbsfLvcjxtpump": {
    "sym": "AICoin",
    "qty": 7524.012771876245,
    "entry": 9.172e-05,
-   "last": 9.052864939922761e-05,
-   "peak": 9.172e-05,
+   "last": 9.193e-05,
+   "peak": 9.193e-05,
    "cost": 0.7112991666012052,
    "opened": "2026-11-16T15:40:53+07:00",
    "zoo": "w_ban_scalp",
    "smart": 97,
    "kol": 10,
-   "gap": 11,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -3166,10 +3166,17 @@
    "cost_side": 0.03,
    "smart": 274,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T16:13:27+07:00",
+   "kind": "ban",
+   "mint": "B9FgqHbtccsgcL6YPfUhNd81qveNtrTbsfLvcjxtpump",
+   "sym": "AICoin",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794820058.1884964,
+ "rank_t": 1794820343.0073211,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
@@ -3178,6 +3185,7 @@
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": "FLOAT",
   "XkeTXo1125vz5H9svJpGiw4JvLbN8VmMu9cmMvspump": "DREGG",
   "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS": "BAGSPAY",
-  "8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": "WEALTH"
+  "8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": "WEALTH",
+  "B9FgqHbtccsgcL6YPfUhNd81qveNtrTbsfLvcjxtpump": "AICoin"
  }
 }
