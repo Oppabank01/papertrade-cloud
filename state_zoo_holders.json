@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.490838290453396,
+ "cash": 0.995010003102859,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 12.56383595076553,
    "entry": 0.04084,
-   "last": 0.04001,
+   "last": 0.03983,
    "peak": 0.04138,
    "cost": 0.528867305946469,
    "opened": "2026-11-16T18:05:36+07:00",
@@ -21,13 +21,27 @@
    "sym": "CLAUDIA",
    "qty": 115.73500236157295,
    "entry": 0.004427,
-   "last": 0.004196,
+   "last": 0.004186,
    "peak": 0.004464,
    "cost": 0.5280961198254829,
    "opened": "2026-11-16T18:32:53+07:00",
    "zoo": "holders",
    "smart": 439,
    "kol": 28,
+   "gap": 0,
+   "miss": 0
+  },
+  "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
+   "sym": "Leonida",
+   "qty": 1701.6363791563178,
+   "entry": 0.0002827,
+   "last": 0.0002827,
+   "peak": 0.0002827,
+   "cost": 0.495828287350537,
+   "opened": "2026-11-16T20:18:00+07:00",
+   "zoo": "holders",
+   "smart": 86,
+   "kol": 4,
    "gap": 0,
    "miss": 0
   }
@@ -2628,8 +2642,22 @@
    "cost_side": 0.03,
    "smart": 225,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T20:18:00+07:00",
+   "kind": "buy",
+   "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "sym": "Leonida",
+   "price": 0.0002827,
+   "jup": 0.00028389975486738827,
+   "usd": 0.4958,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 86,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794834752.6579456
+ "rank_t": 1794835035.4477417
 }
