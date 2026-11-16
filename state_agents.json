@@ -1,28 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.1912032910437142,
+ "cash": 0.281506225385425,
  "pos": {
-  "6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": {
-   "sym": "GTA$",
-   "qty": 726.5934234546297,
-   "entry": 0.0001424,
-   "last": 0.0001322,
-   "peak": 0.0001474,
-   "cost": 0.10664492218093101,
-   "opened": "2026-11-16T21:04:33+07:00",
-   "smart": 93,
-   "kol": 8,
-   "bundler": 0.2023,
-   "gap": 2,
-   "miss": 0
-  },
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 2.4320244560274062,
    "entry": 0.04027,
-   "last": 0.04086,
-   "peak": 0.04086,
+   "last": 0.04096,
+   "peak": 0.04096,
    "cost": 0.10094580998167764,
    "opened": "2026-11-16T21:32:18+07:00",
    "smart": 1000,
@@ -35,14 +21,14 @@
    "sym": "Lucia",
    "qty": 93.08707720127148,
    "entry": 0.001028,
-   "last": 0.0010187633338233127,
+   "last": 0.0009824,
    "peak": 0.001028,
    "cost": 0.09863277196753978,
    "opened": "2026-11-16T21:41:53+07:00",
    "smart": 108,
    "kol": 4,
    "bundler": 0.1276,
-   "gap": 1,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -42719,6 +42705,43 @@
    "cost_side": 0.03,
    "smart": 291,
    "bundler": 0.1914
+  },
+  {
+   "t": "2026-11-16T21:46:34+07:00",
+   "kind": "debate",
+   "mint": "2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ",
+   "sym": "hello",
+   "ok": true,
+   "bundler": 0.2714,
+   "buy": 0.7209,
+   "bull": 0.9053,
+   "bear": 0.059
+  },
+  {
+   "t": "2026-11-16T21:46:37+07:00",
+   "kind": "debate",
+   "mint": "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump",
+   "sym": "LuckyCoin",
+   "ok": true,
+   "bundler": 0.043,
+   "buy": 0.8259,
+   "bull": 0.9497,
+   "bear": 0.5007
+  },
+  {
+   "t": "2026-11-16T21:46:38+07:00",
+   "kind": "sell",
+   "mint": "6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump",
+   "sym": "GTA$",
+   "price": 0.0001281,
+   "entry": 0.0001424,
+   "usd": 0.0903,
+   "pnl": -0.0163,
+   "why": "stop -10.0%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 93,
+   "bundler": 0.2023
   }
  ]
 }

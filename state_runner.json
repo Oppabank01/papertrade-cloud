@@ -1,28 +1,16 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.5903958592596061,
+ "cash": 2.335513741491813,
  "pos": {
   "FS8ZSohYyG5tNm1ZAHzpvRgK2tJsCLSCDYX4xigNpump": {
    "sym": "250",
    "qty": 11039.36789740072,
    "entry": 8.312e-05,
-   "last": 8.007e-05,
+   "last": 7.949e-05,
    "peak": 8.801e-05,
    "cost": 0.9457763962398968,
    "opened": "2026-11-16T18:23:31+07:00",
-   "source": "agents",
-   "gap": 0,
-   "miss": 0
-  },
-  "6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": {
-   "sym": "GTA$",
-   "qty": 5995.3506148503075,
-   "entry": 0.0001424,
-   "last": 0.0001322,
-   "peak": 0.0001474,
-   "cost": 0.8799607581474785,
-   "opened": "2026-11-16T21:04:35+07:00",
    "source": "agents",
    "gap": 0,
    "miss": 0
@@ -31,12 +19,12 @@
    "sym": "Lucia",
    "qty": 773.5301041166352,
    "entry": 0.001028,
-   "last": 0.0010187633338233127,
+   "last": 0.0009824,
    "peak": 0.001028,
    "cost": 0.819613427161308,
    "opened": "2026-11-16T21:41:54+07:00",
    "source": "agents",
-   "gap": 1,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -1273,6 +1261,21 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-16T21:46:38+07:00",
+   "kind": "sell",
+   "mint": "6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump",
+   "sym": "GTA$",
+   "price": 0.0001281,
+   "entry": 0.0001424,
+   "usd": 0.7451,
+   "pnl": -0.1348,
+   "why": "stop -10.0%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",

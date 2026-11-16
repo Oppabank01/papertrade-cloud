@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.446278219709742,
- "pos": {
-  "27oEL3YpRV2VPi5mZwQTfNqa6hEaRz3GcRNmHuvLpump": {
-   "sym": "GTA 6 Coin",
-   "qty": 2344.3745671636652,
-   "entry": 4.651e-05,
-   "last": 6.337e-05,
-   "peak": 6.337e-05,
-   "cost": 0.11238596281053606,
-   "opened": "2026-11-16T21:27:56+07:00",
-   "zoo": "rand",
-   "smart": 3,
-   "kol": 0,
-   "gap": 3,
-   "miss": 0
-  }
- },
+ "cash": 0.5540673531076391,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T00:41:59+07:00",
@@ -3205,8 +3190,23 @@
    "cost_side": 0.03,
    "smart": 39,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T21:46:56+07:00",
+   "kind": "sell",
+   "mint": "27oEL3YpRV2VPi5mZwQTfNqa6hEaRz3GcRNmHuvLpump",
+   "sym": "GTA 6 Coin",
+   "price": 4.739e-05,
+   "entry": 4.651e-05,
+   "usd": 0.1078,
+   "pnl": -0.0046,
+   "why": "trailing จากยอด +36% (+1.9%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 3,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794840101.574154
+ "rank_t": 1794840388.6423767
 }

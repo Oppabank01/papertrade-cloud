@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.9046796211490533,
+ "cash": 0.4382335209577505,
  "pos": {
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
@@ -21,14 +21,14 @@
    "sym": "GTA",
    "qty": 460.6637974739466,
    "entry": 0.001019,
-   "last": 0.001012,
+   "last": 0.001072,
    "peak": 0.001125,
    "cost": 0.4838346831848604,
    "opened": "2026-11-16T21:05:20+07:00",
    "zoo": "holders",
    "smart": 276,
    "kol": 14,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
@@ -42,6 +42,20 @@
    "zoo": "holders",
    "smart": 173,
    "kol": 9,
+   "gap": 0,
+   "miss": 0
+  },
+  "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": {
+   "sym": "LuckyCoin",
+   "qty": 2042.175119158854,
+   "entry": 0.0002216,
+   "last": 0.0002216,
+   "peak": 0.0002216,
+   "cost": 0.46644610019130284,
+   "opened": "2026-11-16T21:46:59+07:00",
+   "zoo": "holders",
+   "smart": 47,
+   "kol": 5,
    "gap": 0,
    "miss": 0
   }
@@ -2743,8 +2757,22 @@
    "cost_side": 0.03,
    "smart": 305,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T21:46:59+07:00",
+   "kind": "buy",
+   "mint": "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump",
+   "sym": "LuckyCoin",
+   "price": 0.0002216,
+   "jup": 0.0002212127106939401,
+   "usd": 0.4664,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 47,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794840101.574154
+ "rank_t": 1794840388.6423767
 }
