@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.4985466761287,
+ "cash": 0.9507227979743547,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 12.56383595076553,
    "entry": 0.04084,
-   "last": 0.03997,
+   "last": 0.03982,
    "peak": 0.04138,
    "cost": 0.528867305946469,
    "opened": "2026-11-16T18:05:36+07:00",
@@ -17,25 +17,11 @@
    "gap": 0,
    "miss": 0
   },
-  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
-   "sym": "CLAUDIA",
-   "qty": 115.73500236157295,
-   "entry": 0.004427,
-   "last": 0.004077,
-   "peak": 0.004464,
-   "cost": 0.5280961198254829,
-   "opened": "2026-11-16T18:32:53+07:00",
-   "zoo": "holders",
-   "smart": 439,
-   "kol": 28,
-   "gap": 0,
-   "miss": 0
-  },
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 1701.6363791563178,
    "entry": 0.0002827,
-   "last": 0.0002929,
+   "last": 0.00029,
    "peak": 0.00031144467321327936,
    "cost": 0.495828287350537,
    "opened": "2026-11-16T20:18:00+07:00",
@@ -49,7 +35,7 @@
    "sym": "FOOD",
    "qty": 2686.3843827681485,
    "entry": 0.0001793,
-   "last": 0.0001793,
+   "last": 0.0001767,
    "peak": 0.0001793,
    "cost": 0.496463326974159,
    "opened": "2026-11-16T20:55:49+07:00",
@@ -2684,8 +2670,23 @@
    "zoo": "holders",
    "smart": 305,
    "kol": 22
+  },
+  {
+   "t": "2026-11-16T21:00:30+07:00",
+   "kind": "sell",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.004027,
+   "entry": 0.004427,
+   "usd": 0.4522,
+   "pnl": -0.0759,
+   "why": "stop -9.0%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 439,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794837302.3268685
+ "rank_t": 1794837581.4074259
 }

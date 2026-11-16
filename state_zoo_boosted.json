@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.595529698576469,
+ "cash": 0.267931604077299,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 6.67662008415,
    "entry": 0.04944,
-   "last": 0.04848,
+   "last": 0.0483,
    "peak": 0.04947,
    "cost": 0.3402309801694248,
    "opened": "2026-11-16T18:28:13+07:00",
@@ -21,27 +21,41 @@
    "sym": "Macca",
    "qty": 178.88975000303574,
    "entry": 0.001756,
-   "last": 0.001776,
+   "last": 0.001734,
    "peak": 0.001931,
    "cost": 0.3237790156723673,
    "opened": "2026-11-16T19:20:50+07:00",
    "zoo": "boosted",
    "smart": 173,
    "kol": 8,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "Gv6jKrrjJW9NLZujVZdxj6D9xL21qcLbHso8LYFMpump": {
    "sym": "BOUNCER",
    "qty": 11652.238124183537,
    "entry": 2.648e-05,
-   "last": 3.442e-05,
-   "peak": 3.719e-05,
+   "last": 3.913e-05,
+   "peak": 3.913e-05,
    "cost": 0.3180285152838385,
    "opened": "2026-11-16T19:49:38+07:00",
    "zoo": "boosted",
    "smart": 37,
    "kol": 3,
+   "gap": 1,
+   "miss": 0
+  },
+  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
+   "sym": "Buttcoin",
+   "qty": 59.65384220778804,
+   "entry": 0.005328,
+   "last": 0.005328,
+   "peak": 0.005328,
+   "cost": 0.32759809449917,
+   "opened": "2026-11-16T21:00:30+07:00",
+   "zoo": "boosted",
+   "smart": 476,
+   "kol": 48,
    "gap": 0,
    "miss": 0
   }
@@ -3042,8 +3056,22 @@
    "cost_side": 0.03,
    "smart": 129,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T21:00:30+07:00",
+   "kind": "buy",
+   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+   "sym": "Buttcoin",
+   "price": 0.005328,
+   "jup": 0.005336081593173924,
+   "usd": 0.3276,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 476,
+   "kol": 48
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794837302.3268685
+ "rank_t": 1794837581.4074259
 }
