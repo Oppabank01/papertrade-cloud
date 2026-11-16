@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.548268263939676,
+ "cash": 1.678608102407766,
  "pos": {
   "FS8ZSohYyG5tNm1ZAHzpvRgK2tJsCLSCDYX4xigNpump": {
    "sym": "250",
    "qty": 11039.36789740072,
    "entry": 8.312e-05,
-   "last": 8.572e-05,
+   "last": 8.308e-05,
    "peak": 8.801e-05,
    "cost": 0.9457763962398968,
    "opened": "2026-11-16T18:23:31+07:00",
@@ -19,12 +19,24 @@
    "sym": "GTA$",
    "qty": 5995.3506148503075,
    "entry": 0.0001424,
-   "last": 0.0001424,
-   "peak": 0.0001424,
+   "last": 0.0001465,
+   "peak": 0.0001465,
    "cost": 0.8799607581474785,
    "opened": "2026-11-16T21:04:35+07:00",
    "source": "agents",
-   "gap": 0,
+   "gap": 1,
+   "miss": 0
+  },
+  "42t61wPi41TwWtpqBVgZN1V4hjiKwZBKwq27xME9pump": {
+   "sym": "1.0",
+   "qty": 8934.183489181058,
+   "entry": 9.444e-05,
+   "last": 9.154185469263266e-05,
+   "peak": 9.444e-05,
+   "cost": 0.8696601615319101,
+   "opened": "2026-11-16T21:09:00+07:00",
+   "source": "agents",
+   "gap": 1,
    "miss": 0
   }
  },
@@ -1222,6 +1234,18 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-16T21:09:00+07:00",
+   "kind": "buy",
+   "mint": "42t61wPi41TwWtpqBVgZN1V4hjiKwZBKwq27xME9pump",
+   "sym": "1.0",
+   "price": 9.444e-05,
+   "jup": 9.356778977271716e-05,
+   "usd": 0.8697,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "agents"
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",
@@ -1377,6 +1401,7 @@
   "state_agents.json:2026-11-16T18:41:51+07:00:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
   "state_agents.json:2026-11-16T19:48:56+07:00:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK",
   "state_agents.json:2026-11-16T19:53:40+07:00:ngwxpGYdkauMcxLFrNTKp8qBgK7JV53zVvd7F2spump",
-  "state_agents.json:2026-11-16T21:04:33+07:00:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump"
+  "state_agents.json:2026-11-16T21:04:33+07:00:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump",
+  "state_agents.json:2026-11-16T21:08:58+07:00:42t61wPi41TwWtpqBVgZN1V4hjiKwZBKwq27xME9pump"
  ]
 }
