@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 1.9586566548237057,
+ "cash": 2.0748890304730976,
  "pos": {
-  "8BMqmEFXDU6dWzU4we9Py5wRi8KpFQZSRPThQqLapump": {
-   "sym": "Pterodactyl",
-   "qty": 11864.875287985422,
-   "entry": 9.941e-05,
-   "last": 0.0001233,
-   "peak": 0.000132,
-   "cost": 1.2157155765601226,
-   "opened": "2026-11-16T14:21:06+07:00",
-   "zoo": "x_skip_pumped",
-   "smart": 57,
-   "kol": 1,
-   "gap": 0,
-   "miss": 0
-  },
   "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
    "sym": "neet",
    "qty": 40.56641994097728,
@@ -42,6 +28,20 @@
    "zoo": "x_skip_pumped",
    "smart": 925,
    "kol": 294,
+   "gap": 0,
+   "miss": 0
+  },
+  "A5xsAQhwGeKsNTKPiyB3jYydffWxPyzyWVodSA4hpump": {
+   "sym": "NEON",
+   "qty": 17330.307657203553,
+   "entry": 6.343e-05,
+   "last": 6.311e-05,
+   "peak": 6.343e-05,
+   "cost": 1.133025576887674,
+   "opened": "2026-11-16T14:58:24+07:00",
+   "zoo": "x_skip_pumped",
+   "smart": 6,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -1224,8 +1224,37 @@
    "cost_side": 0.03,
    "smart": 468,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T14:58:24+07:00",
+   "kind": "buy",
+   "mint": "A5xsAQhwGeKsNTKPiyB3jYydffWxPyzyWVodSA4hpump",
+   "sym": "NEON",
+   "price": 6.343e-05,
+   "jup": 6.339732743112074e-05,
+   "usd": 1.133,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 6,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-16T14:59:54+07:00",
+   "kind": "sell",
+   "mint": "8BMqmEFXDU6dWzU4we9Py5wRi8KpFQZSRPThQqLapump",
+   "sym": "Pterodactyl",
+   "price": 0.00010852447030398325,
+   "entry": 9.941e-05,
+   "usd": 1.2493,
+   "pnl": 0.0335,
+   "why": "trailing จากยอด +33% (+9.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 57,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794815524.168509
+ "rank_t": 1794815810.6639824
 }
