@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.6872180332684169,
+ "cash": 0.6272535425672973,
  "pos": {
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 112.58868455778475,
    "entry": 0.003839,
-   "last": 0.006104,
-   "peak": 0.006262,
+   "last": 0.007277,
+   "peak": 0.007277,
    "cost": 0.4455039785789896,
    "opened": "2026-11-17T04:25:55+07:00",
    "zoo": "holders",
@@ -21,7 +21,7 @@
    "sym": "Lucia",
    "qty": 441.03327540048684,
    "entry": 0.001019,
-   "last": 0.001092,
+   "last": 0.001022,
    "peak": 0.001092,
    "cost": 0.4632167672985942,
    "opened": "2026-11-17T06:24:20+07:00",
@@ -31,17 +31,17 @@
    "gap": 0,
    "miss": 0
   },
-  "4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": {
-   "sym": "BAWSAQ",
-   "qty": 538.8280152384729,
-   "entry": 0.0008351,
-   "last": 0.0008013,
-   "peak": 0.0008351,
-   "cost": 0.46379640849891646,
-   "opened": "2026-11-17T06:39:21+07:00",
+  "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
+   "sym": "TROLL",
+   "qty": 18.63688696557662,
+   "entry": 0.02382,
+   "last": 0.02382,
+   "peak": 0.02382,
+   "cost": 0.45756611783141105,
+   "opened": "2026-11-17T06:48:34+07:00",
    "zoo": "holders",
-   "smart": 127,
-   "kol": 5,
+   "smart": 472,
+   "kol": 214,
    "gap": 0,
    "miss": 0
   }
@@ -3091,8 +3091,37 @@
    "zoo": "holders",
    "smart": 127,
    "kol": 5
+  },
+  {
+   "t": "2026-11-17T06:48:34+07:00",
+   "kind": "buy",
+   "mint": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
+   "sym": "TROLL",
+   "price": 0.02382,
+   "jup": 0.02387572451954659,
+   "usd": 0.4576,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 472,
+   "kol": 214
+  },
+  {
+   "t": "2026-11-17T06:48:35+07:00",
+   "kind": "sell",
+   "mint": "4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump",
+   "sym": "BAWSAQ",
+   "price": 0.0007605656634968186,
+   "entry": 0.0008351,
+   "usd": 0.3976,
+   "pnl": -0.0662,
+   "why": "stop -8.9%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 127,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794872597.9263136
+ "rank_t": 1794872869.6343243
 }

@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.5934509770572015,
+ "cash": 0.38517414278463424,
  "pos": {
   "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump": {
    "sym": "Christmax",
    "qty": 1920.3779644089918,
    "entry": 0.0001213,
-   "last": 0.0001178,
+   "last": 0.0001242,
    "peak": 0.000128,
    "cost": 0.24009672962565523,
    "opened": "2026-11-17T05:23:22+07:00",
@@ -21,13 +21,27 @@
    "sym": "JOB",
    "qty": 104.82868562565282,
    "entry": 0.002153,
-   "last": 0.002115,
+   "last": 0.002092,
    "peak": 0.002183,
    "cost": 0.23262848912804635,
    "opened": "2026-11-17T05:51:42+07:00",
    "zoo": "boosted",
    "smart": 34,
    "kol": 0,
+   "gap": 0,
+   "miss": 0
+  },
+  "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
+   "sym": "TROLL",
+   "qty": 8.483215139011117,
+   "entry": 0.02382,
+   "last": 0.02382,
+   "peak": 0.02382,
+   "cost": 0.2082768342725673,
+   "opened": "2026-11-17T06:48:35+07:00",
+   "zoo": "boosted",
+   "smart": 472,
+   "kol": 214,
    "gap": 0,
    "miss": 0
   }
@@ -3536,8 +3550,22 @@
    "cost_side": 0.03,
    "smart": 126,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T06:48:35+07:00",
+   "kind": "buy",
+   "mint": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
+   "sym": "TROLL",
+   "price": 0.02382,
+   "jup": 0.02387572451954659,
+   "usd": 0.2083,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 472,
+   "kol": 214
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794872597.9263136
+ "rank_t": 1794872869.6343243
 }
