@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.08223230609643226,
+ "cash": 0.18348139475664593,
  "pos": {
   "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
    "sym": "WASTED",
    "qty": 34.78202173956852,
    "entry": 0.003091,
-   "last": 0.003225,
+   "last": 0.003209,
    "peak": 0.003262,
    "cost": 0.11081347062152783,
    "opened": "2026-11-16T22:19:24+07:00",
@@ -21,7 +21,7 @@
    "sym": "Dacity",
    "qty": 55.2678470091405,
    "entry": 0.00192,
-   "last": 0.002165,
+   "last": 0.002094,
    "peak": 0.002165,
    "cost": 0.10937359952334547,
    "opened": "2026-11-16T23:20:35+07:00",
@@ -31,25 +31,11 @@
    "gap": 0,
    "miss": 0
   },
-  "81Kgdw3WnLy3sFrkZUZHALzaU9SkqUARpkVwXuZ7pump": {
-   "sym": "Starship",
-   "qty": 9671.82450941807,
-   "entry": 1.032e-05,
-   "last": 1.3980459825636557e-05,
-   "peak": 1.3980459825636557e-05,
-   "cost": 0.10287902384786074,
-   "opened": "2026-11-17T00:16:51+07:00",
-   "zoo": "rand",
-   "smart": 1,
-   "kol": 0,
-   "gap": 1,
-   "miss": 0
-  },
   "4Ukp7Q68NhudLJfoRSY9BvjzQRvJFhPXR1W4vQ8v8tNd": {
    "sym": "BOBO",
    "qty": 2326.711724769077,
    "entry": 4.293e-05,
-   "last": 4.946e-05,
+   "last": 4.584e-05,
    "peak": 4.946e-05,
    "cost": 0.10295375628152595,
    "opened": "2026-11-17T00:21:34+07:00",
@@ -3405,8 +3391,23 @@
    "zoo": "rand",
    "smart": 11,
    "kol": 0
+  },
+  {
+   "t": "2026-11-17T00:31:30+07:00",
+   "kind": "sell",
+   "mint": "81Kgdw3WnLy3sFrkZUZHALzaU9SkqUARpkVwXuZ7pump",
+   "sym": "Starship",
+   "price": 1.079e-05,
+   "entry": 1.032e-05,
+   "usd": 0.1012,
+   "pnl": -0.0016,
+   "why": "trailing จากยอด +35% (+4.6%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 1,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794849960.8169088
+ "rank_t": 1794850247.8508086
 }

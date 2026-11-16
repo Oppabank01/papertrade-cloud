@@ -1,33 +1,47 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.8626484880652328,
+ "cash": 0.5713771894145241,
  "pos": {
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 81.8521168894894,
    "entry": 0.003699,
-   "last": 0.00363,
+   "last": 0.003629,
    "peak": 0.003737,
    "cost": 0.31207068684211636,
    "opened": "2026-11-16T23:11:03+07:00",
    "zoo": "boosted",
    "smart": 250,
    "kol": 20,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
    "sym": "STANK",
    "qty": 199.31775596738186,
    "entry": 0.001413,
-   "last": 0.001488,
+   "last": 0.0014774024504214992,
    "peak": 0.001508,
    "cost": 0.29028652770759694,
    "opened": "2026-11-16T23:58:03+07:00",
    "zoo": "boosted",
    "smart": 78,
    "kol": 1,
+   "gap": 1,
+   "miss": 0
+  },
+  "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
+   "sym": "JENSEN",
+   "qty": 1710.6017793639076,
+   "entry": 0.0001652,
+   "last": 0.0001652,
+   "peak": 0.0001652,
+   "cost": 0.29127129865070867,
+   "opened": "2026-11-17T00:31:36+07:00",
+   "zoo": "boosted",
+   "smart": 5,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -3188,8 +3202,22 @@
    "cost_side": 0.03,
    "smart": 476,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T00:31:36+07:00",
+   "kind": "buy",
+   "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+   "sym": "JENSEN",
+   "price": 0.0001652,
+   "jup": 0.00016461444494767657,
+   "usd": 0.2913,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 5,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794849960.8169088
+ "rank_t": 1794850247.8508086
 }
