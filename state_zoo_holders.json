@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.9517837849661277,
+ "cash": 0.4775021131433576,
  "pos": {
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
@@ -21,7 +21,7 @@
    "sym": "FOOD",
    "qty": 2686.3843827681485,
    "entry": 0.0001793,
-   "last": 0.0001738,
+   "last": 0.0001724,
    "peak": 0.0001793,
    "cost": 0.496463326974159,
    "opened": "2026-11-16T20:55:49+07:00",
@@ -35,13 +35,27 @@
    "sym": "GTA",
    "qty": 460.6637974739466,
    "entry": 0.001019,
-   "last": 0.001018,
-   "peak": 0.001019,
+   "last": 0.001083,
+   "peak": 0.001083,
    "cost": 0.4838346831848604,
    "opened": "2026-11-16T21:05:20+07:00",
    "zoo": "holders",
    "smart": 276,
    "kol": 14,
+   "gap": 1,
+   "miss": 0
+  },
+  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
+   "sym": "Macca",
+   "qty": 251.17253166072683,
+   "entry": 0.001832,
+   "last": 0.001832,
+   "peak": 0.001832,
+   "cost": 0.4742816718227701,
+   "opened": "2026-11-16T21:23:22+07:00",
+   "zoo": "holders",
+   "smart": 173,
+   "kol": 9,
    "gap": 0,
    "miss": 0
   }
@@ -2714,8 +2728,22 @@
    "cost_side": 0.03,
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T21:23:22+07:00",
+   "kind": "buy",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.001832,
+   "jup": 0.0018319360706074465,
+   "usd": 0.4743,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 173,
+   "kol": 9
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794838682.7070563
+ "rank_t": 1794838980.1474404
 }
