@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.757969303423847,
- "cash": 0.6632686865518472,
+ "cash": 0.0,
  "pos": {
   "9RZeokzHNXoRyJkWDFdvcQTAzUhKpXm7RrqkUM3Fpump": {
    "sym": "CHILL",
    "qty": 3276.0636642478744,
    "entry": 0.0002331,
-   "last": 0.0003781,
+   "last": 0.0003682,
    "peak": 0.0004145056709171766,
    "cost": 0.7871062050465674,
    "opened": "2026-11-16T21:00:41+07:00",
@@ -21,21 +21,21 @@
    "sym": "Lucia",
    "qty": 818.8391785461065,
    "entry": 0.0009049,
-   "last": 0.0009975,
-   "peak": 0.001036,
+   "last": 0.0010408238750377258,
+   "peak": 0.0010408238750377258,
    "cost": 0.7637266261248936,
    "opened": "2026-11-16T23:53:16+07:00",
    "zoo": "trench",
    "smart": 108,
    "kol": 4,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": {
    "sym": "BRUH",
    "qty": 158.4605922528988,
    "entry": 0.004671,
-   "last": 0.004814,
+   "last": 0.004852,
    "peak": 0.005088,
    "cost": 0.7629039645570916,
    "opened": "2026-11-17T00:11:55+07:00",
@@ -49,13 +49,27 @@
    "sym": "JASON",
    "qty": 2733.042784005605,
    "entry": 0.0002879,
-   "last": 0.0003198,
+   "last": 0.0003252,
    "peak": 0.0003339,
    "cost": 0.8110111497786164,
    "opened": "2026-11-17T01:56:37+07:00",
    "zoo": "trench",
    "smart": 34,
    "kol": 0,
+   "gap": 0,
+   "miss": 0
+  },
+  "667tvUtaFVbesmSZDYCgQzYkJW4y36PdbmacRZGipump": {
+   "sym": "BANK",
+   "qty": 2774.917118122476,
+   "entry": 0.0002319,
+   "last": 0.0002319,
+   "peak": 0.0002319,
+   "cost": 0.6632686865518472,
+   "opened": "2026-11-17T03:33:58+07:00",
+   "zoo": "trench",
+   "smart": 73,
+   "kol": 4,
    "gap": 0,
    "miss": 0
   }
@@ -1217,8 +1231,22 @@
    "zoo": "trench",
    "smart": 34,
    "kol": 0
+  },
+  {
+   "t": "2026-11-17T03:33:58+07:00",
+   "kind": "buy",
+   "mint": "667tvUtaFVbesmSZDYCgQzYkJW4y36PdbmacRZGipump",
+   "sym": "BANK",
+   "price": 0.0002319,
+   "jup": 0.00023076375383011718,
+   "usd": 0.6633,
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "zoo": "trench",
+   "smart": 73,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: crbpite8 รอบ 2: ปลอดภัย + smart 3 + V/L สูงสุด 3 ตัว",
- "rank_t": 1794860890.3105054
+ "rank_t": 1794861185.865346
 }
