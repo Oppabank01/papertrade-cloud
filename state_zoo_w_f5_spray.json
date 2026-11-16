@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 4.7098241774703045,
+ "cash": 4.928352525094646,
  "pos": {
-  "FuQASH8ps9NPeDu4h3rVtMBygKYoSiSTZ4uSiA5tpump": {
-   "sym": "Banana",
-   "qty": 9204.761543541543,
-   "entry": 2.799e-05,
-   "last": 2.447e-05,
-   "peak": 3.053e-05,
-   "cost": 0.2655548089092227,
-   "opened": "2026-11-16T05:33:27+07:00",
-   "zoo": "w_f5_spray",
-   "smart": 29,
-   "kol": 55,
-   "gap": 0,
-   "miss": 0
-  },
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 63.115134173447025,
    "entry": 0.004096,
-   "last": 0.004710237116143853,
-   "peak": 0.004809,
+   "last": 0.004729,
+   "peak": 0.004838,
    "cost": 0.2664601005714688,
    "opened": "2026-11-16T05:37:45+07:00",
    "zoo": "w_f5_spray",
    "smart": 249,
    "kol": 20,
-   "gap": 8,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -5314,9 +5300,24 @@
    "cost_side": 0.03,
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T08:33:31+07:00",
+   "kind": "sell",
+   "mint": "FuQASH8ps9NPeDu4h3rVtMBygKYoSiSTZ4uSiA5tpump",
+   "sym": "Banana",
+   "price": 2.447e-05,
+   "entry": 2.799e-05,
+   "usd": 0.2185,
+   "pnl": -0.047,
+   "why": "ครบ 3 ชม. (-12.6%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 29,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ x_spray_small แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794792369.875991,
+ "rank_t": 1794792651.407402,
  "halted": "ราคา PURR สองแหล่งต่างกันเกิน 1% ติดกัน 60 รอบ"
 }
