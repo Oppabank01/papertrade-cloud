@@ -21,14 +21,14 @@
    "sym": "HYGG",
    "qty": 5788.048491852119,
    "entry": 0.0002914,
-   "last": 0.0004532966221764976,
+   "last": 0.0004534,
    "peak": 0.0004929594357305637,
    "cost": 1.738442929834784,
    "opened": "2026-11-15T21:30:21+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 32,
    "kol": 0,
-   "gap": 2,
+   "gap": 6,
    "miss": 0
   },
   "CbmdFB7ruUfTHb1uRWC99knEni77CQKfFZL6qq2fLoat": {
@@ -49,14 +49,14 @@
    "sym": "JENSEN",
    "qty": 3042.836306060647,
    "entry": 8.422e-05,
-   "last": 0.0001843,
-   "peak": 0.0001843,
+   "last": 0.0002157,
+   "peak": 0.0002157,
    "cost": 0.2641390163846915,
    "opened": "2026-11-16T12:07:13+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 5,
    "kol": 0,
-   "gap": 9,
+   "gap": 0,
    "miss": 0,
    "half": true
   }
@@ -897,10 +897,17 @@
    "usd": 0.5361,
    "pnl": 0.272,
    "why": "ขายครึ่ง +115.6%"
+  },
+  {
+   "t": "2026-11-16T21:29:44+07:00",
+   "kind": "ban",
+   "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+   "sym": "JENSEN",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794838980.1474404,
+ "rank_t": 1794839253.6783178,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
@@ -908,6 +915,7 @@
   "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": "bill",
   "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": "rockstar",
   "CbmdFB7ruUfTHb1uRWC99knEni77CQKfFZL6qq2fLoat": "AIRDROP",
-  "HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump": "HYGG"
+  "HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump": "HYGG",
+  "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": "JENSEN"
  }
 }

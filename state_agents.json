@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.09132108407729483,
+ "cash": 0.28378918283626253,
  "pos": {
-  "FS8ZSohYyG5tNm1ZAHzpvRgK2tJsCLSCDYX4xigNpump": {
-   "sym": "250",
-   "qty": 1372.2961600702326,
-   "entry": 8.312e-05,
-   "last": 7.842e-05,
-   "peak": 8.801e-05,
-   "cost": 0.11756880728204261,
-   "opened": "2026-11-16T18:23:24+07:00",
-   "smart": 72,
-   "kol": 2,
-   "bundler": 0.048,
-   "gap": 0,
-   "miss": 0
-  },
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
    "sym": "paws",
    "qty": 196.82135372208737,
    "entry": 0.0005582,
-   "last": 0.0005894,
+   "last": 0.0005795,
    "peak": 0.0005894,
    "cost": 0.11324023876280064,
    "opened": "2026-11-16T18:41:51+07:00",
@@ -35,7 +21,7 @@
    "sym": "GTA$",
    "qty": 726.5934234546297,
    "entry": 0.0001424,
-   "last": 0.0001474,
+   "last": 0.0001471,
    "peak": 0.0001474,
    "cost": 0.10664492218093101,
    "opened": "2026-11-16T21:04:33+07:00",
@@ -43,20 +29,6 @@
    "kol": 8,
    "bundler": 0.2023,
    "gap": 0,
-   "miss": 0
-  },
-  "42t61wPi41TwWtpqBVgZN1V4hjiKwZBKwq27xME9pump": {
-   "sym": "1.0",
-   "qty": 1086.8835837010447,
-   "entry": 9.444e-05,
-   "last": 0.0001,
-   "peak": 0.0001,
-   "cost": 0.10579806807331132,
-   "opened": "2026-11-16T21:08:58+07:00",
-   "smart": 64,
-   "kol": 1,
-   "bundler": 0.1655,
-   "gap": 1,
    "miss": 0
   }
  },
@@ -42582,6 +42554,36 @@
    "cost_side": 0.03,
    "smart": 64,
    "kol": 1,
+   "bundler": 0.1655
+  },
+  {
+   "t": "2026-11-16T21:27:34+07:00",
+   "kind": "sell",
+   "mint": "FS8ZSohYyG5tNm1ZAHzpvRgK2tJsCLSCDYX4xigNpump",
+   "sym": "250",
+   "price": 7.773e-05,
+   "entry": 8.312e-05,
+   "usd": 0.1035,
+   "pnl": -0.0141,
+   "why": "ครบ 3 ชม. (-6.5%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 72,
+   "bundler": 0.048
+  },
+  {
+   "t": "2026-11-16T21:27:34+07:00",
+   "kind": "sell",
+   "mint": "42t61wPi41TwWtpqBVgZN1V4hjiKwZBKwq27xME9pump",
+   "sym": "1.0",
+   "price": 8.438e-05,
+   "entry": 9.444e-05,
+   "usd": 0.089,
+   "pnl": -0.0168,
+   "why": "stop -10.7%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 64,
    "bundler": 0.1655
   }
  ]
