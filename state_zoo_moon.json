@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.8842609059288489,
+ "cash": 0.5305757743050385,
  "pos": {
   "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
    "sym": "Lucia",
    "qty": 287.5466074654378,
    "entry": 0.0009234,
-   "last": 0.0008776,
+   "last": 0.0009231,
    "peak": 0.001467,
    "cost": 0.2736760846563443,
    "opened": "2026-11-15T09:38:40+07:00",
@@ -21,7 +21,7 @@
    "sym": "JASON",
    "qty": 1149.2736083626153,
    "entry": 0.0003636,
-   "last": 0.0002471,
+   "last": 0.0002512,
    "peak": 0.0005616,
    "cost": 0.43071107400602654,
    "opened": "2026-11-16T01:10:39+07:00",
@@ -35,13 +35,27 @@
    "sym": "Rocco",
    "qty": 385.40536382507725,
    "entry": 0.0009859,
-   "last": 0.0009025,
+   "last": 0.0008910814996552231,
    "peak": 0.00149,
    "cost": 0.3916420822460768,
    "opened": "2026-11-16T06:10:40+07:00",
    "zoo": "moon",
    "smart": 112,
    "kol": 8,
+   "gap": 1,
+   "miss": 0
+  },
+  "Gg5aWvfucyMwihDzyfCEaLgyeeNE2dkob2LTwWfHpump": {
+   "sym": "ETF",
+   "qty": 1559.7514304610036,
+   "entry": 0.00022,
+   "last": 0.00022,
+   "peak": 0.00022,
+   "cost": 0.3536851316238103,
+   "opened": "2026-11-17T06:15:18+07:00",
+   "zoo": "moon",
+   "smart": 38,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -572,9 +586,23 @@
    "cost_side": 0.03,
    "smart": 47,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T06:15:18+07:00",
+   "kind": "buy",
+   "mint": "Gg5aWvfucyMwihDzyfCEaLgyeeNE2dkob2LTwWfHpump",
+   "sym": "ETF",
+   "price": 0.00022,
+   "jup": 0.00021802564486480045,
+   "usd": 0.3537,
+   "stop_set": -0.5,
+   "cost_side": 0.03,
+   "zoo": "moon",
+   "smart": 38,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: ถือยาวรอ x2 (stop -50%)",
- "rank_t": 1794870582.5791702,
+ "rank_t": 1794870866.2103243,
  "repair": "2026-11-15 moon INU fake x156000"
 }
