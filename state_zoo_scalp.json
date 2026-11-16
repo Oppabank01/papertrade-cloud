@@ -1,19 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.5068001848361283,
+ "cash": 2.4483908019712,
  "pos": {
-  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
-   "sym": "Rings",
-   "qty": 1303.9339155736716,
-   "entry": 0.0004663,
-   "last": 0.0004432,
-   "peak": 0.0004775,
-   "cost": 0.6267000462090322,
-   "opened": "2026-11-16T07:06:36+07:00",
+  "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
+   "sym": "Rocco",
+   "qty": 426.6257342938093,
+   "entry": 0.001403,
+   "last": 0.001415,
+   "peak": 0.001415,
+   "cost": 0.616940739243676,
+   "opened": "2026-11-16T07:26:15+07:00",
    "zoo": "scalp",
-   "smart": 78,
-   "kol": 5,
+   "smart": 118,
+   "kol": 9,
    "gap": 0,
    "miss": 0
   }
@@ -1105,8 +1105,37 @@
    "zoo": "scalp",
    "smart": 78,
    "kol": 5
+  },
+  {
+   "t": "2026-11-16T07:26:15+07:00",
+   "kind": "buy",
+   "mint": "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
+   "sym": "Rocco",
+   "price": 0.001403,
+   "jup": 0.0014130108427603532,
+   "usd": 0.6169,
+   "stop_set": -0.05,
+   "cost_side": 0.03,
+   "zoo": "scalp",
+   "smart": 118,
+   "kol": 9
+  },
+  {
+   "t": "2026-11-16T07:26:20+07:00",
+   "kind": "sell",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.0004415,
+   "entry": 0.0004663,
+   "usd": 0.5585,
+   "pnl": -0.0682,
+   "why": "stop -5.3%",
+   "stop_set": -0.05,
+   "cost_side": 0.03,
+   "smart": 78,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เก็บสั้น +10% ตัด -5% 30 นาที",
- "rank_t": 1794788425.7139697
+ "rank_t": 1794788715.1600175
 }
