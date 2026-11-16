@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.498909442258777,
+ "cash": 0.713102707495325,
  "pos": {
   "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
    "sym": "Dacity",
    "qty": 452.7058518039263,
    "entry": 0.001857,
-   "last": 0.00176,
+   "last": 0.00177,
    "peak": 0.001869,
    "cost": 0.8664963582765317,
    "opened": "2026-11-16T17:33:20+07:00",
@@ -21,7 +21,7 @@
    "sym": "BULLISH",
    "qty": 2410.763203533943,
    "entry": 0.0003459,
-   "last": 0.0003429,
+   "last": 0.000337,
    "peak": 0.0003467,
    "cost": 0.8594959720700793,
    "opened": "2026-11-16T17:47:05+07:00",
@@ -35,14 +35,28 @@
    "sym": "JEANPHIL",
    "qty": 319.16061525554954,
    "entry": 0.002501,
-   "last": 0.002479,
+   "last": 0.002495,
    "peak": 0.002529,
    "cost": 0.8227383000970208,
    "opened": "2026-11-16T19:26:21+07:00",
    "zoo": "w_ban_aged",
    "smart": 398,
    "kol": 43,
-   "gap": 2,
+   "gap": 0,
+   "miss": 0
+  },
+  "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
+   "sym": "SAPLING",
+   "qty": 553.6599085457525,
+   "entry": 0.001377,
+   "last": 0.001324,
+   "peak": 0.001383,
+   "cost": 0.785806734763452,
+   "opened": "2026-11-16T20:22:52+07:00",
+   "zoo": "w_ban_aged",
+   "smart": 186,
+   "kol": 19,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -2426,10 +2440,24 @@
    "cost_side": 0.03,
    "smart": 33,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T20:22:52+07:00",
+   "kind": "buy",
+   "mint": "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W",
+   "sym": "SAPLING",
+   "price": 0.001377,
+   "jup": 0.0013727373650422893,
+   "usd": 0.7858,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_aged",
+   "smart": 186,
+   "kol": 19
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794835035.4477417,
+ "rank_t": 1794835315.1670442,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": "CHOO",
