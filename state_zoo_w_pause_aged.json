@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.4793498045652043,
+ "cash": 0.7205271057568576,
  "pos": {
   "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
    "sym": "Dacity",
    "qty": 438.3177417910061,
    "entry": 0.001857,
-   "last": 0.00177,
+   "last": 0.001765,
    "peak": 0.001869,
    "cost": 0.8389569640341149,
    "opened": "2026-11-16T17:33:25+07:00",
@@ -35,7 +35,7 @@
    "sym": "JEANPHIL",
    "qty": 306.0476433677204,
    "entry": 0.002501,
-   "last": 0.002495,
+   "last": 0.002487,
    "peak": 0.002529,
    "cost": 0.7889354319343113,
    "opened": "2026-11-16T19:26:25+07:00",
@@ -43,6 +43,20 @@
    "smart": 398,
    "kol": 43,
    "gap": 0,
+   "miss": 0
+  },
+  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
+   "sym": "Macca",
+   "qty": 414.06624431038125,
+   "entry": 0.001778,
+   "last": 0.001778,
+   "peak": 0.001778,
+   "cost": 0.7588226988083466,
+   "opened": "2026-11-16T20:27:40+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 173,
+   "kol": 9,
+   "gap": 5,
    "miss": 0
   }
  },
@@ -2269,8 +2283,22 @@
    "cost_side": 0.03,
    "smart": 33,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T20:27:40+07:00",
+   "kind": "buy",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.001778,
+   "jup": 0.001783717151638376,
+   "usd": 0.7588,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 173,
+   "kol": 9
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794835315.1670442
+ "rank_t": 1794835600.8434498
 }
