@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.4276268157650445,
+ "cash": 2.1068599906155336,
  "pos": {
   "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": {
    "sym": "gtacoin",
    "qty": 1929.3629377444113,
    "entry": 0.0004192,
-   "last": 0.0004043,
+   "last": 0.0004201643330900842,
    "peak": 0.00042972755569321673,
    "cost": 0.8336311518268988,
    "opened": "2026-11-16T14:15:10+07:00",
    "zoo": "tomcruise",
    "smart": 32,
    "kol": 0,
+   "gap": 1,
+   "miss": 0
+  },
+  "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": {
+   "sym": "Sakura",
+   "qty": 10408.293436791158,
+   "entry": 2.99e-05,
+   "last": 2.99e-05,
+   "peak": 2.99e-05,
+   "cost": 0.32076682514951105,
+   "opened": "2026-11-16T15:59:27+07:00",
+   "zoo": "tomcruise",
+   "smart": 154,
+   "kol": 6,
    "gap": 0,
    "miss": 0
   }
@@ -1462,8 +1476,22 @@
    "cost_side": 0.03,
    "smart": 5,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T15:59:27+07:00",
+   "kind": "buy",
+   "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
+   "sym": "Sakura",
+   "price": 2.99e-05,
+   "jup": 2.99704621606225e-05,
+   "usd": 0.3208,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "tomcruise",
+   "smart": 154,
+   "kol": 6
   }
  ],
  "label": "สวนสัตว์: tomcruise 6 เอเจนต์: scanner rug check sizer ตามสภาพคล่อง",
- "rank_t": 1794819221.030088
+ "rank_t": 1794819499.4860978
 }
