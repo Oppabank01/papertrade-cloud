@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.335513741491813,
+ "cash": 1.5302516725593,
  "pos": {
   "FS8ZSohYyG5tNm1ZAHzpvRgK2tJsCLSCDYX4xigNpump": {
    "sym": "250",
    "qty": 11039.36789740072,
    "entry": 8.312e-05,
-   "last": 8.26e-05,
+   "last": 8.181e-05,
    "peak": 8.801e-05,
    "cost": 0.9457763962398968,
    "opened": "2026-11-16T18:23:31+07:00",
@@ -19,12 +19,24 @@
    "sym": "Lucia",
    "qty": 773.5301041166352,
    "entry": 0.001028,
-   "last": 0.001007,
-   "peak": 0.001076,
+   "last": 0.00108,
+   "peak": 0.00108,
    "cost": 0.819613427161308,
    "opened": "2026-11-16T21:41:54+07:00",
    "source": "agents",
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
+   "sym": "Macca",
+   "qty": 443.64864240677116,
+   "entry": 0.001761,
+   "last": 0.001761,
+   "peak": 0.001761,
+   "cost": 0.8052620689325128,
+   "opened": "2026-11-16T22:23:44+07:00",
+   "source": "agents",
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1276,6 +1288,18 @@
    "cost_side": 0.03,
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T22:23:44+07:00",
+   "kind": "buy",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.001761,
+   "jup": 0.0017584871169196408,
+   "usd": 0.8053,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "agents"
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",
@@ -1434,6 +1458,7 @@
   "state_agents.json:2026-11-16T21:04:33+07:00:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump",
   "state_agents.json:2026-11-16T21:08:58+07:00:42t61wPi41TwWtpqBVgZN1V4hjiKwZBKwq27xME9pump",
   "state_agents.json:2026-11-16T21:32:18+07:00:6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
-  "state_agents.json:2026-11-16T21:41:53+07:00:HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump"
+  "state_agents.json:2026-11-16T21:41:53+07:00:HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump",
+  "state_agents.json:2026-11-16T22:23:42+07:00:AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump"
  ]
 }
