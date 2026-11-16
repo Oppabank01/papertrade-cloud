@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 3.241988352029317,
+ "cash": 4.334168755635751,
  "pos": {
-  "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
-   "sym": "CRIME",
-   "qty": 281.78399757231966,
-   "entry": 0.003969,
-   "last": 0.003995,
-   "peak": 0.004008,
-   "cost": 1.1527527173413077,
-   "opened": "2026-11-16T06:52:54+07:00",
-   "zoo": "w_f5_aged",
-   "smart": 90,
-   "kol": 40,
-   "gap": 0,
-   "miss": 0
-  },
   "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
    "sym": "CBUCKS",
    "qty": 235.9940615689322,
    "entry": 0.004698,
-   "last": 0.0050035714241827515,
+   "last": 0.005177,
    "peak": 0.005367,
    "cost": 1.1427541756862951,
    "opened": "2026-11-16T08:27:16+07:00",
    "zoo": "w_f5_aged",
    "smart": 41,
    "kol": 0,
-   "gap": 3,
+   "gap": 6,
    "miss": 0
   }
  },
@@ -1660,8 +1646,23 @@
    "cost_side": 0.03,
    "smart": 52,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T09:52:56+07:00",
+   "kind": "sell",
+   "mint": "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump",
+   "sym": "CRIME",
+   "price": 0.003995,
+   "entry": 0.003969,
+   "usd": 1.0922,
+   "pnl": -0.0606,
+   "why": "ครบ 3 ชม. (+0.7%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 90,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794797130.008566
+ "rank_t": 1794797411.0708694
 }
