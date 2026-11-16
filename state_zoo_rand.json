@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.27550020310515,
+ "cash": 0.4108398719936172,
  "pos": {
   "8JCsa61htnPj2af7g1KSyU1UEncruHE1Ph9aNR6rpump": {
    "sym": "FUTA",
@@ -28,21 +28,7 @@
    "zoo": "rand",
    "smart": 108,
    "kol": 4,
-   "gap": 1,
-   "miss": 0
-  },
-  "FiVRbrKNxzVotLBc8QMrhEJSK9qtF3uu5QkY3GcHpump": {
-   "sym": "RUDOLPH",
-   "qty": 1164.4129352575465,
-   "entry": 0.0001335,
-   "last": 0.0001308,
-   "peak": 0.0001381,
-   "cost": 0.16022379597699696,
-   "opened": "2026-11-16T07:26:06+07:00",
-   "zoo": "rand",
-   "smart": 60,
-   "kol": 3,
-   "gap": 3,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -2681,8 +2667,23 @@
    "zoo": "rand",
    "smart": 60,
    "kol": 3
+  },
+  {
+   "t": "2026-11-16T07:45:03+07:00",
+   "kind": "sell",
+   "mint": "FiVRbrKNxzVotLBc8QMrhEJSK9qtF3uu5QkY3GcHpump",
+   "sym": "RUDOLPH",
+   "price": 0.0001198,
+   "entry": 0.0001335,
+   "usd": 0.1353,
+   "pnl": -0.0249,
+   "why": "stop -10.3%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 60,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794789557.8737257
+ "rank_t": 1794789842.3594227
 }

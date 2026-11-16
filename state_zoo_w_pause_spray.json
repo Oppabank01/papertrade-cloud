@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 5.41834677225904,
+ "cash": 5.07518342557141,
  "pos": {
   "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
    "sym": "JENSEN",
    "qty": 4090.7840807396906,
    "entry": 8.662e-05,
-   "last": 8.196e-05,
+   "last": 8.274915309645099e-05,
    "peak": 8.973e-05,
    "cost": 0.36522749646843117,
    "opened": "2026-11-16T05:05:34+07:00",
    "zoo": "w_pause_spray",
    "smart": 5,
    "kol": 0,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "6sBvfTnThBPUQsEWjiXdgCnHwxGZfEDqegtVu4vLpump": {
    "sym": "WANTED",
    "qty": 1567.3522349647278,
    "entry": 0.0002114,
-   "last": 0.0001978,
+   "last": 0.0001946,
    "peak": 0.00026411267497509323,
    "cost": 0.34151542204859153,
    "opened": "2026-11-16T05:19:40+07:00",
@@ -35,7 +35,7 @@
    "sym": "Hope",
    "qty": 2080.1142030614456,
    "entry": 0.0001595,
-   "last": 0.0001604,
+   "last": 0.0001587,
    "peak": 0.0001856,
    "cost": 0.34196888825840094,
    "opened": "2026-11-16T06:29:56+07:00",
@@ -49,14 +49,28 @@
    "sym": "NEVERDOOM",
    "qty": 3857.177573181659,
    "entry": 8.581e-05,
-   "last": 0.00011934531242170696,
-   "peak": 0.00012480935050961382,
+   "last": 0.0001271,
+   "peak": 0.0001271,
    "cost": 0.34115069836602574,
    "opened": "2026-11-16T06:34:34+07:00",
    "zoo": "w_pause_spray",
    "smart": 37,
    "kol": 3,
-   "gap": 5,
+   "gap": 4,
+   "miss": 0
+  },
+  "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump": {
+   "sym": "plumber",
+   "qty": 762.044126702538,
+   "entry": 0.0004369,
+   "last": 0.00042767859222908757,
+   "peak": 0.0004394,
+   "cost": 0.34316334668763027,
+   "opened": "2026-11-16T07:45:59+07:00",
+   "zoo": "w_pause_spray",
+   "smart": 155,
+   "kol": 4,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -4415,10 +4429,27 @@
    "cost_side": 0.03,
    "smart": 786,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T07:45:53+07:00",
+   "kind": "resume",
+   "why": "ราคา NEVERDOOM สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-16T07:45:59+07:00",
+   "kind": "buy",
+   "mint": "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump",
+   "sym": "plumber",
+   "price": 0.0004369,
+   "jup": 0.0004389076106382654,
+   "usd": 0.3432,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_spray",
+   "smart": 155,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: กฎ x_spray_small แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794789557.8737257,
- "halted": "ราคา NEVERDOOM สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
- "halted_until": "2026-11-16T07:40:39+07:00"
+ "rank_t": 1794789842.3594227
 }

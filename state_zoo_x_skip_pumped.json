@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 1.5841913156415952,
+ "cash": 2.8579942535805243,
  "pos": {
   "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
    "sym": "SAPLING",
@@ -14,49 +14,35 @@
    "zoo": "x_skip_pumped",
    "smart": 186,
    "kol": 19,
-   "gap": 0,
+   "gap": 4,
    "miss": 0
   },
   "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": {
    "sym": "fone",
    "qty": 2146.4610219358797,
    "entry": 0.0007998,
-   "last": 0.0007826,
+   "last": 0.0007799,
    "peak": 0.0008058,
    "cost": 1.769469723092472,
    "opened": "2026-11-16T07:11:41+07:00",
    "zoo": "x_skip_pumped",
    "smart": 483,
    "kol": 58,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
    "sym": "Max",
    "qty": 1426.9972131196118,
    "entry": 0.001186,
-   "last": 0.001197,
+   "last": 0.001120829181564268,
    "peak": 0.001215,
    "cost": 1.7444018705007829,
    "opened": "2026-11-16T07:35:51+07:00",
    "zoo": "x_skip_pumped",
    "smart": 457,
    "kol": 42,
-   "gap": 0,
-   "miss": 0
-  },
-  "A3vB4dggaaMScchjNW9WifagMRiWaWtDAzunooDYcREQ": {
-   "sym": "BFS",
-   "qty": 23989.186885559662,
-   "entry": 6.989e-05,
-   "last": 6.58368160211457e-05,
-   "peak": 6.989e-05,
-   "cost": 1.7281017021560139,
-   "opened": "2026-11-16T07:40:58+07:00",
-   "zoo": "x_skip_pumped",
-   "smart": 117,
-   "kol": 5,
-   "gap": 5,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -672,8 +658,23 @@
    "zoo": "x_skip_pumped",
    "smart": 117,
    "kol": 5
+  },
+  {
+   "t": "2026-11-16T07:46:32+07:00",
+   "kind": "sell",
+   "mint": "A3vB4dggaaMScchjNW9WifagMRiWaWtDAzunooDYcREQ",
+   "sym": "BFS",
+   "price": 5.473e-05,
+   "entry": 6.989e-05,
+   "usd": 1.2738,
+   "pnl": -0.4543,
+   "why": "stop -21.7%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 117,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794789557.8737257
+ "rank_t": 1794789842.3594227
 }
