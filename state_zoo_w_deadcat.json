@@ -1,28 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.718869590815427,
- "cash": 2.3258831377355267,
+ "cash": 4.785903850766502,
  "pos": {
-  "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": {
-   "sym": "GTA",
-   "qty": 2060.719027833362,
-   "entry": 0.001173,
-   "last": 0.0012519748431415844,
-   "peak": 0.001427,
-   "cost": 2.453909364650052,
-   "opened": "2026-11-17T03:43:09+07:00",
-   "zoo": "w_deadcat",
-   "smart": 299,
-   "kol": 16,
-   "gap": 2,
-   "miss": 0
-  },
   "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
    "sym": "Dacity",
    "qty": 1839.3315188011456,
    "entry": 0.001348,
-   "last": 0.001421,
-   "peak": 0.001421,
+   "last": 0.0013442047249600426,
+   "peak": 0.001463,
    "cost": 2.517048766401649,
    "opened": "2026-11-17T04:45:32+07:00",
    "zoo": "w_deadcat",
@@ -35,28 +21,28 @@
    "sym": "FLOAT",
    "qty": 1009.3007727862581,
    "entry": 0.002416,
-   "last": 0.002552437498514921,
+   "last": 0.002517,
    "peak": 0.002611,
    "cost": 2.4754790792869397,
    "opened": "2026-11-17T04:54:45+07:00",
    "zoo": "w_deadcat",
    "smart": 346,
    "kol": 31,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
    "sym": "WASTED",
    "qty": 1125.2941168216878,
    "entry": 0.002186,
-   "last": 0.0023107305739363685,
+   "last": 0.002247991326868167,
    "peak": 0.0024156150056624955,
    "cost": 2.497226475176092,
    "opened": "2026-11-17T04:59:33+07:00",
    "zoo": "w_deadcat",
    "smart": 77,
    "kol": 1,
-   "gap": 4,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -382,8 +368,23 @@
    "zoo": "w_deadcat",
    "smart": 77,
    "kol": 1
+  },
+  {
+   "t": "2026-11-17T05:18:28+07:00",
+   "kind": "sell",
+   "mint": "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump",
+   "sym": "GTA",
+   "price": 0.0012118858293204211,
+   "entry": 0.001173,
+   "usd": 2.46,
+   "pnl": 0.0061,
+   "why": "trailing จากยอด +22% (+3.3%)",
+   "stop_set": -0.25,
+   "cost_side": 0.015,
+   "smart": 299,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เด้งหลังร่วง: อายุเกิน 1 วัน pool 100k+ ร่วง 1 ชม. 15% ขึ้นไป",
- "rank_t": 1794867187.7674992
+ "rank_t": 1794867466.9242823
 }
