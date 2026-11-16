@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.1025465044129987,
+ "cash": 0.6542352792537176,
  "pos": {
   "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
    "sym": "Dacity",
    "qty": 331.01165440908704,
    "entry": 0.001622,
-   "last": 0.002085,
+   "last": 0.002082,
    "peak": 0.002165,
    "cost": 0.5533919845923925,
    "opened": "2026-11-16T04:18:20+07:00",
@@ -29,6 +29,20 @@
    "smart": 524,
    "kol": 55,
    "gap": 0,
+   "miss": 0
+  },
+  "ERZS2Nyt3b321u7Q8TMz7mVcQyRPGiWxPZZgmd4tpump": {
+   "sym": "ISAAC",
+   "qty": 22454.907106326,
+   "entry": 1.937e-05,
+   "last": 1.9360551166885706e-05,
+   "peak": 1.937e-05,
+   "cost": 0.4483112251592812,
+   "opened": "2026-11-17T00:36:34+07:00",
+   "zoo": "randrun",
+   "smart": 16,
+   "kol": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -1050,8 +1064,22 @@
    "cost_side": 0.03,
    "smart": 249,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T00:36:34+07:00",
+   "kind": "buy",
+   "mint": "ERZS2Nyt3b321u7Q8TMz7mVcQyRPGiWxPZZgmd4tpump",
+   "sym": "ISAAC",
+   "price": 1.937e-05,
+   "jup": 1.9360551166885706e-05,
+   "usd": 0.4483,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "randrun",
+   "smart": 16,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1794850247.8508086
+ "rank_t": 1794850533.1038477
 }
