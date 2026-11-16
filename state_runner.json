@@ -1,25 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.7703300860207474,
+ "cash": 1.873817618044166,
  "pos": {
-  "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump": {
-   "sym": "GTA6",
-   "qty": 8365.28869182596,
-   "entry": 0.0001264,
-   "last": 0.0001269,
-   "peak": 0.000158,
-   "cost": 1.0898500212809743,
-   "opened": "2026-11-16T06:23:53+07:00",
-   "source": "agents",
-   "gap": 0,
-   "miss": 0
-  },
   "FS8ZSohYyG5tNm1ZAHzpvRgK2tJsCLSCDYX4xigNpump": {
    "sym": "250",
    "qty": 11039.36789740072,
    "entry": 8.312e-05,
-   "last": 7.907e-05,
+   "last": 7.931e-05,
    "peak": 8.312e-05,
    "cost": 0.9457763962398968,
    "opened": "2026-11-16T18:23:31+07:00",
@@ -31,10 +19,22 @@
    "sym": "gtacoin",
    "qty": 2333.5976683790705,
    "entry": 0.0003833,
-   "last": 0.0003834,
-   "peak": 0.0003834,
+   "last": 0.0004176,
+   "peak": 0.0004176,
    "cost": 0.9219418535247348,
    "opened": "2026-11-16T19:48:58+07:00",
+   "source": "agents",
+   "gap": 1,
+   "miss": 0
+  },
+  "ngwxpGYdkauMcxLFrNTKp8qBgK7JV53zVvd7F2spump": {
+   "sym": "duh",
+   "qty": 5284.079572520179,
+   "entry": 0.0001689,
+   "last": 0.0001689,
+   "peak": 0.0001689,
+   "cost": 0.9198938773434945,
+   "opened": "2026-11-16T19:53:42+07:00",
    "source": "agents",
    "gap": 0,
    "miss": 0
@@ -1165,6 +1165,33 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-16T19:53:42+07:00",
+   "kind": "buy",
+   "mint": "ngwxpGYdkauMcxLFrNTKp8qBgK7JV53zVvd7F2spump",
+   "sym": "duh",
+   "price": 0.0001689,
+   "jup": 0.0001698675280118509,
+   "usd": 0.9199,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "agents"
+  },
+  {
+   "t": "2026-11-16T19:53:42+07:00",
+   "kind": "sell",
+   "mint": "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump",
+   "sym": "GTA6",
+   "price": 0.00012609426070549,
+   "entry": 0.0001264,
+   "usd": 1.0234,
+   "pnl": -0.0665,
+   "why": "trailing จากยอด +25% (-0.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",
@@ -1318,6 +1345,7 @@
   "state_agents.json:2026-11-16T18:23:21+07:00:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump",
   "state_agents.json:2026-11-16T18:23:24+07:00:FS8ZSohYyG5tNm1ZAHzpvRgK2tJsCLSCDYX4xigNpump",
   "state_agents.json:2026-11-16T18:41:51+07:00:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
-  "state_agents.json:2026-11-16T19:48:56+07:00:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK"
+  "state_agents.json:2026-11-16T19:48:56+07:00:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK",
+  "state_agents.json:2026-11-16T19:53:40+07:00:ngwxpGYdkauMcxLFrNTKp8qBgK7JV53zVvd7F2spump"
  ]
 }
