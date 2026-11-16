@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.206764009421213,
+ "cash": 1.1510144417673334,
  "pos": {
-  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
-   "sym": "ANSEM",
-   "qty": 9.11223006327806,
-   "entry": 0.04866,
-   "last": 0.04632,
-   "peak": 0.04871,
-   "cost": 0.45702032042786067,
-   "opened": "2026-11-17T03:24:17+07:00",
-   "zoo": "holders",
-   "smart": 1000,
-   "kol": 186,
-   "gap": 0,
-   "miss": 0
-  },
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 112.58868455778475,
@@ -28,6 +14,20 @@
    "zoo": "holders",
    "smart": 250,
    "kol": 20,
+   "gap": 0,
+   "miss": 0
+  },
+  "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
+   "sym": "Lucia",
+   "qty": 441.03327540048684,
+   "entry": 0.001019,
+   "last": 0.001019,
+   "peak": 0.001019,
+   "cost": 0.4632167672985942,
+   "opened": "2026-11-17T06:24:20+07:00",
+   "zoo": "holders",
+   "smart": 110,
+   "kol": 4,
    "gap": 0,
    "miss": 0
   }
@@ -3034,8 +3034,37 @@
    "cost_side": 0.03,
    "smart": 72,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T06:24:20+07:00",
+   "kind": "buy",
+   "mint": "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump",
+   "sym": "Lucia",
+   "price": 0.001019,
+   "jup": 0.0010197168627693403,
+   "usd": 0.4632,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 110,
+   "kol": 4
+  },
+  {
+   "t": "2026-11-17T06:24:22+07:00",
+   "kind": "sell",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.04609,
+   "entry": 0.04866,
+   "usd": 0.4075,
+   "pnl": -0.0496,
+   "why": "ครบ 3 ชม. (-5.3%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 1000,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794871145.0862863
+ "rank_t": 1794871425.760604
 }
