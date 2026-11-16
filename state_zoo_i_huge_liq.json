@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.731879787860931,
- "cash": 13.467138212544317,
- "pos": {},
+ "cash": 10.773710570035453,
+ "pos": {
+  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+   "sym": "USELESS",
+   "qty": 27.733340632083596,
+   "entry": 0.09615,
+   "last": 0.09628,
+   "peak": 0.09628,
+   "cost": 2.6934276425088637,
+   "opened": "2026-11-17T02:55:37+07:00",
+   "zoo": "i_huge_liq",
+   "smart": 925,
+   "kol": 295,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T17:53:10+07:00",
@@ -356,8 +371,22 @@
    "cost_side": 0.01,
    "smart": 468,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T02:55:37+07:00",
+   "kind": "buy",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.09615,
+   "jup": 0.09638320822640961,
+   "usd": 2.6934,
+   "stop_set": -0.08,
+   "cost_side": 0.01,
+   "zoo": "i_huge_liq",
+   "smart": 925,
+   "kol": 295
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 1M+ มาร์เก็ตแคป 5M+ ค่าธรรมเนียมใหญ่",
- "rank_t": 1794858605.6142242
+ "rank_t": 1794858890.549846
 }

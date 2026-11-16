@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.36891144948885807,
- "pos": {
-  "Csu5jtHmWJFuYXP2cB3AEUwia6tYrDffdUknLuxqpump": {
-   "sym": "BELLA",
-   "qty": 624.4206006526347,
-   "entry": 0.0001433,
-   "last": 0.00019312477738327435,
-   "peak": 0.00019768058626548266,
-   "cost": 0.09222786237221453,
-   "opened": "2026-11-17T02:27:57+07:00",
-   "smart": 153,
-   "kol": 11,
-   "bundler": 0.4527,
-   "gap": 3,
-   "miss": 0
-  }
- },
+ "cash": 0.46808301577635464,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T01:37:56+07:00",
@@ -44894,6 +44879,54 @@
    "buy": 0.7815,
    "bull": 0.9257,
    "bear": 0.0001
+  },
+  {
+   "t": "2026-11-17T02:54:58+07:00",
+   "kind": "debate",
+   "mint": "Euj4Mx9GemNfFb36fAXYMKBaA2S9qgnt5qptmo8CKbX6",
+   "sym": "🌭",
+   "ok": false,
+   "bundler": 0.1904,
+   "buy": 0.7451,
+   "bull": 0.9378,
+   "bear": 0.9998
+  },
+  {
+   "t": "2026-11-17T02:55:00+07:00",
+   "kind": "debate",
+   "mint": "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump",
+   "sym": "plumber",
+   "ok": true,
+   "bundler": 0.1024,
+   "buy": 0.7804,
+   "bull": 0.8095,
+   "bear": 0.0019
+  },
+  {
+   "t": "2026-11-17T02:55:03+07:00",
+   "kind": "debate",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "ok": false,
+   "bundler": 0.0915,
+   "buy": 0.8633,
+   "bull": 0.5087,
+   "bear": 0.9568
+  },
+  {
+   "t": "2026-11-17T02:55:04+07:00",
+   "kind": "sell",
+   "mint": "Csu5jtHmWJFuYXP2cB3AEUwia6tYrDffdUknLuxqpump",
+   "sym": "BELLA",
+   "price": 0.0001637,
+   "entry": 0.0001433,
+   "usd": 0.0992,
+   "pnl": 0.0069,
+   "why": "trailing จากยอด +38% (+14.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 153,
+   "bundler": 0.4527
   }
  ]
 }
