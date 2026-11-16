@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 0.8019509921073522,
+ "cash": 0.6673882117849836,
  "pos": {
   "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
    "sym": "neet",
    "qty": 40.56641994097728,
    "entry": 0.02799,
-   "last": 0.02735,
+   "last": 0.02748,
    "peak": 0.02805,
    "cost": 1.170329925940996,
    "opened": "2026-11-16T14:30:07+07:00",
@@ -21,7 +21,7 @@
    "sym": "USELESS",
    "qty": 11.504978503079862,
    "entry": 0.09809,
-   "last": 0.09699,
+   "last": 0.0975,
    "peak": 0.09843,
    "cost": 1.163186292895386,
    "opened": "2026-11-16T14:35:12+07:00",
@@ -35,7 +35,7 @@
    "sym": "NEON",
    "qty": 17330.307657203553,
    "entry": 6.343e-05,
-   "last": 6.923e-05,
+   "last": 7.022e-05,
    "peak": 7.274e-05,
    "cost": 1.133025576887674,
    "opened": "2026-11-16T14:58:24+07:00",
@@ -45,17 +45,17 @@
    "gap": 0,
    "miss": 0
   },
-  "HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": {
-   "sym": "Marvin",
-   "qty": 2047.328094603557,
-   "entry": 0.0005031,
-   "last": 0.0004684,
-   "peak": 0.0005371,
-   "cost": 1.0616478709493398,
-   "opened": "2026-11-16T15:12:46+07:00",
+  "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
+   "sym": "JENSEN",
+   "qty": 11330.005251610284,
+   "entry": 8.773e-05,
+   "last": 8.669e-05,
+   "peak": 8.773e-05,
+   "cost": 1.0245118127435273,
+   "opened": "2026-11-16T15:41:15+07:00",
    "zoo": "x_skip_pumped",
-   "smart": 122,
-   "kol": 8,
+   "smart": 5,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -1310,8 +1310,37 @@
    "zoo": "x_skip_pumped",
    "smart": 122,
    "kol": 8
+  },
+  {
+   "t": "2026-11-16T15:39:33+07:00",
+   "kind": "sell",
+   "mint": "HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump",
+   "sym": "Marvin",
+   "price": 0.00044803961855259696,
+   "entry": 0.0005031,
+   "usd": 0.8899,
+   "pnl": -0.1717,
+   "why": "stop -10.9%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 122,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-16T15:41:15+07:00",
+   "kind": "buy",
+   "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+   "sym": "JENSEN",
+   "price": 8.773e-05,
+   "jup": 8.833131220829668e-05,
+   "usd": 1.0245,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 5,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794818088.6156435
+ "rank_t": 1794818372.9403062
 }
