@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.34658646627249046,
+ "cash": 0.2333462275096898,
  "pos": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 11.824680582845023,
    "entry": 0.009955,
-   "last": 0.009185,
+   "last": 0.009163,
    "peak": 0.01039,
    "cost": 0.12133033931377264,
    "opened": "2026-11-16T16:45:40+07:00",
@@ -28,6 +28,20 @@
    "smart": 72,
    "kol": 2,
    "bundler": 0.048,
+   "gap": 0,
+   "miss": 0
+  },
+  "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
+   "sym": "paws",
+   "qty": 196.82135372208737,
+   "entry": 0.0005582,
+   "last": 0.0005582,
+   "peak": 0.0005582,
+   "cost": 0.11324023876280064,
+   "opened": "2026-11-16T18:41:51+07:00",
+   "smart": 291,
+   "kol": 15,
+   "bundler": 0.1914,
    "gap": 0,
    "miss": 0
   }
@@ -41439,6 +41453,64 @@
    "buy": 0.8511,
    "bull": 0.9226,
    "bear": 0.9801
+  },
+  {
+   "t": "2026-11-16T18:41:45+07:00",
+   "kind": "debate",
+   "mint": "42t61wPi41TwWtpqBVgZN1V4hjiKwZBKwq27xME9pump",
+   "sym": "1.0",
+   "ok": false,
+   "bundler": 0.1749,
+   "buy": 0.7642,
+   "bull": 0.9461,
+   "bear": 0.9887
+  },
+  {
+   "t": "2026-11-16T18:41:48+07:00",
+   "kind": "debate",
+   "mint": "6ZeMsPdH2ZcP3pGSxHz5ErstowgnnW28CoxU2vcBpump",
+   "sym": "Clipper",
+   "ok": false,
+   "bundler": 0.3454,
+   "buy": 0.8426,
+   "bull": 0.9575,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-16T18:41:51+07:00",
+   "kind": "debate",
+   "mint": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
+   "sym": "paws",
+   "ok": true,
+   "bundler": 0.1914,
+   "buy": 0.7611,
+   "bull": 0.8747,
+   "bear": 0.0001
+  },
+  {
+   "t": "2026-11-16T18:41:51+07:00",
+   "kind": "buy",
+   "mint": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
+   "sym": "paws",
+   "price": 0.0005582,
+   "jup": 0.0005578133234685097,
+   "usd": 0.1132,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 291,
+   "kol": 15,
+   "bundler": 0.1914
+  },
+  {
+   "t": "2026-11-16T18:41:54+07:00",
+   "kind": "debate",
+   "mint": "8BMqmEFXDU6dWzU4we9Py5wRi8KpFQZSRPThQqLapump",
+   "sym": "Pterodactyl",
+   "ok": false,
+   "bundler": 0.1616,
+   "buy": 0.8048,
+   "bull": 0.9155,
+   "bear": 0.9992
   }
  ]
 }

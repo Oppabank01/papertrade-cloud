@@ -1,18 +1,30 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.775413711583923,
- "cash": 2.7437637836799387,
+ "cash": 0.7865048520105677,
  "pos": {
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
    "sym": "STANK",
    "qty": 1614.8636705435672,
    "entry": 0.001246,
-   "last": 0.001331,
+   "last": 0.001315,
    "peak": 0.001331,
    "cost": 2.073923040092027,
    "opened": "2026-11-16T13:27:37+07:00",
    "source": "agents",
-   "gap": 2,
+   "gap": 0,
+   "miss": 0
+  },
+  "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
+   "sym": "paws",
+   "qty": 3401.8857318266278,
+   "entry": 0.0005582,
+   "last": 0.0005582,
+   "peak": 0.0005582,
+   "cost": 1.957258931669371,
+   "opened": "2026-11-16T18:41:55+07:00",
+   "source": "agents",
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1017,6 +1029,18 @@
    "cost_side": 0.03,
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T18:41:55+07:00",
+   "kind": "buy",
+   "mint": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
+   "sym": "paws",
+   "price": 0.0005582,
+   "jup": 0.0005578133234685097,
+   "usd": 1.9573,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "agents"
   }
  ],
  "label": "สายโม้ (ไม้ใหญ่ ปล่อยกำไรวิ่ง)",
@@ -1169,6 +1193,7 @@
   "state_agents.json:2026-11-16T16:45:40+07:00:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
   "state_agents.json:2026-11-16T18:23:21+07:00:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump",
   "state_agents.json:2026-11-16T18:23:24+07:00:FS8ZSohYyG5tNm1ZAHzpvRgK2tJsCLSCDYX4xigNpump",
+  "state_agents.json:2026-11-16T18:41:51+07:00:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
   "state_grokbot.json:2026-11-14T01:57:45+07:00:9oJk7eMccQchx3evoN5C5pKQD5Xodb4C1qkhemjjpump"
  ]
 }
