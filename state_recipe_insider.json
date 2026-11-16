@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.8814366037913578,
- "pos": {
-  "4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": {
-   "sym": "BAWSAQ",
-   "qty": 455.36197710243624,
-   "entry": 0.0004695,
-   "last": 0.0004695,
-   "peak": 0.0004695,
-   "cost": 0.22035915094783945,
-   "opened": "2026-11-17T05:23:00+07:00",
-   "smart": 122,
-   "kol": 5,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 1.0407052377042696,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -839,8 +825,23 @@
    "cost_side": 0.03,
    "smart": 122,
    "kol": 5
+  },
+  {
+   "t": "2026-11-17T05:27:51+07:00",
+   "kind": "sell",
+   "mint": "4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump",
+   "sym": "BAWSAQ",
+   "price": 0.00036050577047615125,
+   "entry": 0.0004695,
+   "usd": 0.1593,
+   "pnl": -0.0611,
+   "why": "stop -23.2%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 122,
+   "bundler": null
   }
  ],
  "label": "สูตร x_insider4 (คู่ใหม่ + top trader)",
- "rank_t": 1794867750.7305791
+ "rank_t": 1794868043.4116037
 }
