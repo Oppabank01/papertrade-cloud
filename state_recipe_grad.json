@@ -1,32 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.44188587005592395,
+ "cash": 0.5322037051972693,
  "pos": {
   "88ZWKeNqsNuryefmk1uT9baccba77aet6ge3rUpEpump": {
    "sym": "SNUT",
    "qty": 1191.4999742373623,
    "entry": 0.0001197,
-   "last": 0.0001048,
-   "peak": 0.0001197,
+   "last": 0.00013807612497744056,
+   "peak": 0.00013807612497744056,
    "cost": 0.1470032435747395,
    "opened": "2026-11-16T23:48:16+07:00",
    "smart": 74,
    "kol": 4,
-   "gap": 0,
-   "miss": 0
-  },
-  "G75j1wKYFUMu5aMwwQ4vqj53rj9c4oedDJZsWM2Wpump": {
-   "sym": "XBOX",
-   "qty": 3185.8992480132956,
-   "entry": 4.45e-05,
-   "last": 3.963e-05,
-   "peak": 4.45e-05,
-   "cost": 0.14612710424303407,
-   "opened": "2026-11-16T23:48:16+07:00",
-   "smart": 17,
-   "kol": 2,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -2049,8 +2036,23 @@
    "cost_side": 0.03,
    "smart": 17,
    "kol": 2
+  },
+  {
+   "t": "2026-11-17T00:02:51+07:00",
+   "kind": "sell",
+   "mint": "G75j1wKYFUMu5aMwwQ4vqj53rj9c4oedDJZsWM2Wpump",
+   "sym": "XBOX",
+   "price": 2.922e-05,
+   "entry": 4.45e-05,
+   "usd": 0.0903,
+   "pnl": -0.0558,
+   "why": "stop -34.3%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 17,
+   "bundler": null
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794848234.4425962
+ "rank_t": 1794848516.0058289
 }

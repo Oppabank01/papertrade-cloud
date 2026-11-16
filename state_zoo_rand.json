@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.09137424776713898,
+ "cash": 0.1973921490555655,
  "pos": {
   "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
    "sym": "WASTED",
    "qty": 34.78202173956852,
    "entry": 0.003091,
-   "last": 0.0031635097249886023,
+   "last": 0.003176,
    "peak": 0.003262,
    "cost": 0.11081347062152783,
    "opened": "2026-11-16T22:19:24+07:00",
@@ -17,25 +17,11 @@
    "gap": 0,
    "miss": 0
   },
-  "G75j1wKYFUMu5aMwwQ4vqj53rj9c4oedDJZsWM2Wpump": {
-   "sym": "XBOX",
-   "qty": 3943.496018538537,
-   "entry": 2.684e-05,
-   "last": 3.969e-05,
-   "peak": 4.374007164754544e-05,
-   "cost": 0.10909444767839037,
-   "opened": "2026-11-16T22:48:19+07:00",
-   "zoo": "rand",
-   "smart": 11,
-   "kol": 2,
-   "gap": 0,
-   "miss": 0
-  },
   "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
    "sym": "Dacity",
    "qty": 55.2678470091405,
    "entry": 0.00192,
-   "last": 0.002104,
+   "last": 0.002125,
    "peak": 0.002128,
    "cost": 0.10937359952334547,
    "opened": "2026-11-16T23:20:35+07:00",
@@ -49,14 +35,14 @@
    "sym": "MEE",
    "qty": 2995.14685273323,
    "entry": 3.691e-05,
-   "last": 3.814e-05,
-   "peak": 3.814e-05,
+   "last": 5.867e-05,
+   "peak": 5.867e-05,
    "cost": 0.11394647529827201,
    "opened": "2026-11-16T23:48:26+07:00",
    "zoo": "rand",
    "smart": 17,
    "kol": 1,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -3347,8 +3333,23 @@
    "zoo": "rand",
    "smart": 17,
    "kol": 1
+  },
+  {
+   "t": "2026-11-17T00:03:04+07:00",
+   "kind": "sell",
+   "mint": "G75j1wKYFUMu5aMwwQ4vqj53rj9c4oedDJZsWM2Wpump",
+   "sym": "XBOX",
+   "price": 2.771e-05,
+   "entry": 2.684e-05,
+   "usd": 0.106,
+   "pnl": -0.0031,
+   "why": "trailing จากยอด +63% (+3.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 11,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794848234.4425962
+ "rank_t": 1794848516.0058289
 }
