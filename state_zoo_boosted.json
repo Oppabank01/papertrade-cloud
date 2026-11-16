@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.40092304735785467,
+ "cash": 0.7975886100587402,
  "pos": {
   "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": {
    "sym": "LMAO!",
    "qty": 379.3584735124701,
    "entry": 0.001396,
-   "last": 0.001306,
+   "last": 0.001304210616313356,
    "peak": 0.001396,
    "cost": 0.5458507823370525,
    "opened": "2026-11-16T05:28:11+07:00",
    "zoo": "boosted",
    "smart": 788,
    "kol": 84,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "4N4DnNo3qpPks9aQCkcWkzoir8tnvT6diS4TnnZibonk": {
@@ -31,25 +31,11 @@
    "gap": 0,
    "miss": 0
   },
-  "HQjXLbFPkpJP1BmF55DgXj9F6614FURvGLKuyCZQpump": {
-   "sym": "GTAVI",
-   "qty": 7342.8389183902555,
-   "entry": 6.269e-05,
-   "last": 5.913e-05,
-   "peak": 6.269e-05,
-   "cost": 0.47446152524622254,
-   "opened": "2026-11-16T08:13:03+07:00",
-   "zoo": "boosted",
-   "smart": 77,
-   "kol": 9,
-   "gap": 0,
-   "miss": 0
-  },
   "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
    "sym": "CBUCKS",
    "qty": 92.07034341780461,
    "entry": 0.004795,
-   "last": 0.004795,
+   "last": 0.004785,
    "peak": 0.004795,
    "cost": 0.4550374115526419,
    "opened": "2026-11-16T08:17:56+07:00",
@@ -2548,8 +2534,23 @@
    "zoo": "boosted",
    "smart": 41,
    "kol": 0
+  },
+  {
+   "t": "2026-11-16T08:22:39+07:00",
+   "kind": "sell",
+   "mint": "HQjXLbFPkpJP1BmF55DgXj9F6614FURvGLKuyCZQpump",
+   "sym": "GTAVI",
+   "price": 5.568e-05,
+   "entry": 6.269e-05,
+   "usd": 0.3967,
+   "pnl": -0.0778,
+   "why": "stop -11.2%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 77,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794791817.5658433
+ "rank_t": 1794792101.2320838
 }
