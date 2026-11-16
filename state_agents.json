@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.45035371331068347,
- "pos": {},
+ "cash": 0.36028297064854675,
+ "pos": {
+  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+   "sym": "USELESS",
+   "qty": 0.9168674276655653,
+   "entry": 0.09531,
+   "last": 0.09531,
+   "peak": 0.09531,
+   "cost": 0.0900707426621367,
+   "opened": "2026-11-17T04:15:56+07:00",
+   "smart": 925,
+   "kol": 295,
+   "bundler": 0.0914,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T01:37:56+07:00",
@@ -45506,6 +45521,75 @@
    "buy": 0.8765,
    "bull": 0.9488,
    "bear": 1.0
+  },
+  {
+   "t": "2026-11-17T04:15:47+07:00",
+   "kind": "debate",
+   "mint": "667tvUtaFVbesmSZDYCgQzYkJW4y36PdbmacRZGipump",
+   "sym": "BANK",
+   "ok": false,
+   "bundler": 0.1753,
+   "buy": 0.8238,
+   "bull": 0.9525,
+   "bear": 0.9997
+  },
+  {
+   "t": "2026-11-17T04:15:50+07:00",
+   "kind": "debate",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "ok": false,
+   "bundler": 0.0224,
+   "buy": 0.912,
+   "bull": 0.9188,
+   "bear": 0.999
+  },
+  {
+   "t": "2026-11-17T04:15:53+07:00",
+   "kind": "debate",
+   "mint": "Gg5aWvfucyMwihDzyfCEaLgyeeNE2dkob2LTwWfHpump",
+   "sym": "ETF",
+   "ok": false,
+   "bundler": 0.0943,
+   "buy": 0.8369,
+   "bull": 0.9527,
+   "bear": 0.9998
+  },
+  {
+   "t": "2026-11-17T04:15:56+07:00",
+   "kind": "debate",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "ok": true,
+   "bundler": 0.0914,
+   "buy": 0.861,
+   "bull": 0.5145,
+   "bear": 0.0086
+  },
+  {
+   "t": "2026-11-17T04:15:56+07:00",
+   "kind": "buy",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.09531,
+   "jup": 0.09560319868519394,
+   "usd": 0.0901,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 925,
+   "kol": 295,
+   "bundler": 0.0914
+  },
+  {
+   "t": "2026-11-17T04:15:59+07:00",
+   "kind": "debate",
+   "mint": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
+   "sym": "Dacity",
+   "ok": false,
+   "bundler": 0.3703,
+   "buy": 0.8528,
+   "bull": 0.9263,
+   "bear": 0.9999
   }
  ]
 }
