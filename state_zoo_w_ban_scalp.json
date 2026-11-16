@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 5.815710085928417,
+ "cash": 5.1051135922481095,
  "pos": {
   "7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": {
    "sym": "Snoopy",
    "qty": 1954.842779441611,
    "entry": 0.0003546,
-   "last": 0.0003109,
+   "last": 0.0003311,
    "peak": 0.0003546,
    "cost": 0.7144787153061176,
    "opened": "2026-11-16T14:11:05+07:00",
@@ -29,6 +29,20 @@
    "smart": 274,
    "kol": 14,
    "gap": 0,
+   "miss": 0
+  },
+  "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
+   "sym": "CBUCKS",
+   "qty": 132.83636188220322,
+   "entry": 0.00519,
+   "last": 0.005050261329174943,
+   "peak": 0.00527,
+   "cost": 0.7105964936803079,
+   "opened": "2026-11-16T15:17:19+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 41,
+   "kol": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -3108,10 +3122,24 @@
    "cost_side": 0.03,
    "smart": 124,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T15:17:19+07:00",
+   "kind": "buy",
+   "mint": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+   "sym": "CBUCKS",
+   "price": 0.00519,
+   "jup": 0.005189006079326216,
+   "usd": 0.7106,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 41,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794816677.0770743,
+ "rank_t": 1794816959.9789944,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
