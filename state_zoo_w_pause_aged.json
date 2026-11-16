@@ -1,28 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.0724953778471025,
+ "cash": 2.6690580393054497,
  "pos": {
-  "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
-   "sym": "FLOAT",
-   "qty": 274.3025202743587,
-   "entry": 0.002449,
-   "last": 0.00251,
-   "peak": 0.00261,
-   "cost": 0.6924004041969744,
-   "opened": "2026-11-17T05:05:03+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 346,
-   "kol": 31,
-   "gap": 0,
-   "miss": 0
-  },
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 201.0500811594409,
    "entry": 0.003364,
-   "last": 0.003298,
-   "peak": 0.003364,
+   "last": 0.003376,
+   "peak": 0.003376,
    "cost": 0.6971062389407948,
    "opened": "2026-11-17T05:15:02+07:00",
    "zoo": "w_pause_aged",
@@ -2623,10 +2609,25 @@
    "zoo": "w_pause_aged",
    "smart": 722,
    "kol": 80
+  },
+  {
+   "t": "2026-11-17T05:47:11+07:00",
+   "kind": "sell",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "price": 0.002241635518915808,
+   "entry": 0.002449,
+   "usd": 0.5966,
+   "pnl": -0.0958,
+   "why": "stop -8.5%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 346,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794868902.384445,
+ "rank_t": 1794869189.7583346,
  "halted": "ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-17T06:21:21+07:00"
 }
