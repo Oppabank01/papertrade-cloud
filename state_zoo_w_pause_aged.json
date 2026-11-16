@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.865676600330923,
+ "cash": 0.9331273383332245,
  "pos": {
   "5w3wVdJaESaJKyLmStM6Hv9UyUkmZ1b9DLQquAqqpump": {
    "sym": "SID",
@@ -21,7 +21,7 @@
    "sym": "USELESS",
    "qty": 9.360266925046556,
    "entry": 0.09863,
-   "last": 0.09742,
+   "last": 0.09722,
    "peak": 0.0987,
    "cost": 0.9515596029863347,
    "opened": "2026-11-16T12:37:13+07:00",
@@ -35,13 +35,27 @@
    "sym": "CLAUDIA",
    "qty": 218.3962008999311,
    "entry": 0.004202,
-   "last": 0.004305,
+   "last": 0.004293,
    "peak": 0.00434,
    "cost": 0.9458883077525361,
    "opened": "2026-11-16T12:37:15+07:00",
    "zoo": "w_pause_aged",
    "smart": 439,
    "kol": 28,
+   "gap": 0,
+   "miss": 0
+  },
+  "Gg3XUJHFoFSha6cWFDT2im8mtNuSHhCzp2D4naowpump": {
+   "sym": "BUSTED",
+   "qty": 2799.379003682448,
+   "entry": 0.0003232,
+   "last": 0.0003304,
+   "peak": 0.0003304,
+   "cost": 0.9325492619976986,
+   "opened": "2026-11-16T13:10:10+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 24,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -1950,8 +1964,22 @@
    "cost_side": 0.03,
    "smart": 473,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T13:10:10+07:00",
+   "kind": "buy",
+   "mint": "Gg3XUJHFoFSha6cWFDT2im8mtNuSHhCzp2D4naowpump",
+   "sym": "BUSTED",
+   "price": 0.0003232,
+   "jup": 0.0003211947479014528,
+   "usd": 0.9325,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 24,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794809061.6020424
+ "rank_t": 1794809337.272601
 }

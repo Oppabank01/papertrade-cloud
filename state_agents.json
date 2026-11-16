@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.3086682132436204,
+ "cash": 0.42274475964957936,
  "pos": {
-  "HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": {
-   "sym": "Marvin",
-   "qty": 176.99901193137765,
-   "entry": 0.0006465,
-   "last": 0.0007492,
-   "peak": 0.0008692,
-   "cost": 0.11794461060980793,
-   "opened": "2026-11-16T12:35:33+07:00",
-   "smart": 112,
-   "kol": 5,
-   "bundler": 0.3708,
-   "gap": 2,
-   "miss": 0
-  },
   "6hjaMcRPvB4DEGpHqgHxmgipb2vrGQWMewZBAVSLpump": {
    "sym": "STATE?",
    "qty": 1351.3937200749615,
@@ -39260,6 +39246,43 @@
    "cost_side": 0.03,
    "smart": 83,
    "bundler": 0.089
+  },
+  {
+   "t": "2026-11-16T13:09:03+07:00",
+   "kind": "debate",
+   "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+   "sym": "HOGE",
+   "ok": false,
+   "bundler": 0.2929,
+   "buy": 0.8962,
+   "bull": 0.9195,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-16T13:09:06+07:00",
+   "kind": "debate",
+   "mint": "CWKbSd7jwMXXexP3pbwLAWMzr4HXAXTvt4R9pk2Vyyyc",
+   "sym": "AnyPS5",
+   "ok": false,
+   "bundler": 0.0866,
+   "buy": 0.8166,
+   "bull": 0.9417,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-16T13:09:07+07:00",
+   "kind": "sell",
+   "mint": "HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump",
+   "sym": "Marvin",
+   "price": 0.0006643,
+   "entry": 0.0006465,
+   "usd": 0.1141,
+   "pnl": -0.0039,
+   "why": "trailing จากยอด +34% (+2.8%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 112,
+   "bundler": 0.3708
   }
  ]
 }
