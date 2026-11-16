@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 3.2720104533684946,
+ "cash": 1.6570418719568447,
  "pos": {
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
    "sym": "TROLL",
@@ -21,7 +21,7 @@
    "sym": "CATE",
    "qty": 96.94458808997726,
    "entry": 0.01662,
-   "last": 0.01655,
+   "last": 0.0165,
    "peak": 0.01688,
    "cost": 1.6607081571381386,
    "opened": "2026-11-16T13:37:13+07:00",
@@ -42,6 +42,20 @@
    "zoo": "bigliq",
    "smart": 123,
    "kol": 19,
+   "gap": 0,
+   "miss": 0
+  },
+  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+   "sym": "USELESS",
+   "qty": 16.047137624801135,
+   "entry": 0.09764,
+   "last": 0.09764,
+   "peak": 0.09764,
+   "cost": 1.61496858141165,
+   "opened": "2026-11-16T15:45:11+07:00",
+   "zoo": "bigliq",
+   "smart": 925,
+   "kol": 294,
    "gap": 0,
    "miss": 0
   }
@@ -1282,8 +1296,22 @@
    "cost_side": 0.03,
    "smart": 439,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T15:45:11+07:00",
+   "kind": "buy",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.09764,
+   "jup": 0.09796438021234438,
+   "usd": 1.615,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliq",
+   "smart": 925,
+   "kol": 294
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ มาร์เก็ตแคป 2M+",
- "rank_t": 1794818372.9403062
+ "rank_t": 1794818643.8841527
 }
