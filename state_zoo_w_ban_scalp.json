@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 6.041996965138733,
+ "cash": 5.307526037940397,
  "pos": {
   "82Z6CcE5g3o1jW3vgtcqr95jP4XFx8jg1SJe8ikepump": {
    "sym": "PANICSELL",
@@ -21,13 +21,27 @@
    "sym": "Rocco",
    "qty": 567.743519218035,
    "entry": 0.001221,
-   "last": 0.001186,
+   "last": 0.001218,
    "peak": 0.001221,
    "cost": 0.7145071500363026,
    "opened": "2026-11-16T11:30:11+07:00",
    "zoo": "w_ban_scalp",
    "smart": 119,
    "kol": 9,
+   "gap": 0,
+   "miss": 0
+  },
+  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
+   "sym": "Macca",
+   "qty": 311.17191858857024,
+   "entry": 0.00229,
+   "last": 0.002288,
+   "peak": 0.002298,
+   "cost": 0.7344709271983363,
+   "opened": "2026-11-16T11:39:48+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 170,
+   "kol": 8,
    "gap": 0,
    "miss": 0
   }
@@ -2760,10 +2774,24 @@
    "cost_side": 0.03,
    "smart": 87,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T11:39:48+07:00",
+   "kind": "buy",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.00229,
+   "jup": 0.0022899715927128562,
+   "usd": 0.7345,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 170,
+   "kol": 8
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794803611.1562471,
+ "rank_t": 1794803893.8192182,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
