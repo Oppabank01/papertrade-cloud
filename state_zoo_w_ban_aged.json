@@ -7,7 +7,7 @@
    "sym": "GTA",
    "qty": 860.7140661204155,
    "entry": 0.001001,
-   "last": 0.0009747,
+   "last": 0.000994,
    "peak": 0.001004,
    "cost": 0.8880383221877303,
    "opened": "2026-11-16T14:11:14+07:00",
@@ -21,22 +21,22 @@
    "sym": "HOGE",
    "qty": 2347.090921576807,
    "entry": 0.0003603,
-   "last": 0.0004121,
+   "last": 0.000414,
    "peak": 0.0004385,
    "cost": 0.8716314770605273,
    "opened": "2026-11-16T15:36:45+07:00",
    "zoo": "w_ban_aged",
    "smart": 164,
    "kol": 9,
-   "gap": 0,
+   "gap": 3,
    "miss": 0
   },
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 194.7972960160117,
    "entry": 0.004313,
-   "last": 0.004343,
-   "peak": 0.004385,
+   "last": 0.004387,
+   "peak": 0.004387,
    "cost": 0.8659665406277659,
    "opened": "2026-11-16T15:54:45+07:00",
    "zoo": "w_ban_aged",
@@ -49,14 +49,14 @@
    "sym": "AGI",
    "qty": 2736.665193870013,
    "entry": 0.0003151,
-   "last": 0.00030487970468918746,
-   "peak": 0.0003151,
+   "last": 0.0003048714218468012,
+   "peak": 0.0003168,
    "cost": 0.888809732620533,
    "opened": "2026-11-16T16:23:21+07:00",
    "zoo": "w_ban_aged",
    "smart": 149,
    "kol": 18,
-   "gap": 13,
+   "gap": 5,
    "miss": 0
   }
  },
@@ -2266,14 +2266,22 @@
    "zoo": "w_ban_aged",
    "smart": 149,
    "kol": 18
+  },
+  {
+   "t": "2026-11-16T16:36:47+07:00",
+   "kind": "ban",
+   "mint": "CaWZeUM4FvX9dPkjGc2xHS6tSN3qJfTWyvaG77aM5o7h",
+   "sym": "AGI",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794821490.6631532,
+ "rank_t": 1794821785.2024822,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": "CHOO",
   "4ikwYoNvoGEwtMbziUyYBTz1zRM6nmxspsfw9G7Bpump": "crypto",
-  "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"
+  "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
+  "CaWZeUM4FvX9dPkjGc2xHS6tSN3qJfTWyvaG77aM5o7h": "AGI"
  }
 }
