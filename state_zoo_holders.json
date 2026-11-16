@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.1510144417673334,
+ "cash": 0.6872180332684169,
  "pos": {
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
@@ -28,6 +28,20 @@
    "zoo": "holders",
    "smart": 110,
    "kol": 4,
+   "gap": 0,
+   "miss": 0
+  },
+  "4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": {
+   "sym": "BAWSAQ",
+   "qty": 538.8280152384729,
+   "entry": 0.0008351,
+   "last": 0.0008346,
+   "peak": 0.0008351,
+   "cost": 0.46379640849891646,
+   "opened": "2026-11-17T06:39:21+07:00",
+   "zoo": "holders",
+   "smart": 127,
+   "kol": 5,
    "gap": 0,
    "miss": 0
   }
@@ -3063,8 +3077,22 @@
    "cost_side": 0.03,
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T06:39:21+07:00",
+   "kind": "buy",
+   "mint": "4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump",
+   "sym": "BAWSAQ",
+   "price": 0.0008351,
+   "jup": 0.0008411480043906422,
+   "usd": 0.4638,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 127,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794872005.6858704
+ "rank_t": 1794872303.3014112
 }
