@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 4.17658862495594,
+ "cash": 3.7136256770092646,
  "pos": {
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
    "sym": "Rings",
    "qty": 652.2327303639727,
    "entry": 0.0006903,
-   "last": 0.000709,
-   "peak": 0.000709,
+   "last": 0.0006979060585379894,
+   "peak": 0.0007111,
    "cost": 0.4640654027728823,
    "opened": "2026-11-17T05:38:26+07:00",
    "zoo": "w_pause_scalp",
    "smart": 88,
    "kol": 6,
+   "gap": 4,
+   "miss": 0
+  },
+  "GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump": {
+   "sym": "CHILLHOUSE",
+   "qty": 879.8563214453764,
+   "entry": 0.0005105,
+   "last": 0.0005105,
+   "peak": 0.0005105,
+   "cost": 0.4629629479466756,
+   "opened": "2026-11-17T05:43:14+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 374,
+   "kol": 147,
    "gap": 0,
    "miss": 0
   }
@@ -3688,8 +3702,22 @@
    "zoo": "w_pause_scalp",
    "smart": 88,
    "kol": 6
+  },
+  {
+   "t": "2026-11-17T05:43:14+07:00",
+   "kind": "buy",
+   "mint": "GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump",
+   "sym": "CHILLHOUSE",
+   "price": 0.0005105,
+   "jup": 0.0005110766815833512,
+   "usd": 0.463,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 374,
+   "kol": 147
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794868620.659367
+ "rank_t": 1794868902.384445
 }
