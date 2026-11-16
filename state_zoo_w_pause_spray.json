@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.5598408198948506,
+ "cash": 3.00778169381016,
  "pos": {
   "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": {
    "sym": "PEAK",
@@ -21,21 +21,21 @@
    "sym": "JOB",
    "qty": 229.5682322455667,
    "entry": 0.001248,
-   "last": 0.001153,
+   "last": 0.001177,
    "peak": 0.001267,
    "cost": 0.2953011274401847,
    "opened": "2026-11-16T13:06:07+07:00",
    "zoo": "w_pause_spray",
    "smart": 33,
    "kol": 0,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   },
   "4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": {
    "sym": "greg",
    "qty": 1376.0186008813946,
    "entry": 0.0002079,
-   "last": 0.0002443,
+   "last": 0.0002435,
    "peak": 0.00026885209410017403,
    "cost": 0.29486112876029885,
    "opened": "2026-11-16T13:06:07+07:00",
@@ -70,14 +70,14 @@
    "zoo": "w_pause_spray",
    "smart": 304,
    "kol": 22,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": {
    "sym": "gtacoin",
    "qty": 652.2868901548752,
    "entry": 0.0004192,
-   "last": 0.0004013,
+   "last": 0.0004074,
    "peak": 0.0004368,
    "cost": 0.28183741945261154,
    "opened": "2026-11-16T14:15:23+07:00",
@@ -91,14 +91,42 @@
    "sym": "CLAUDIA",
    "qty": 62.579761781427145,
    "entry": 0.004288,
-   "last": 0.004288,
-   "peak": 0.004288,
+   "last": 0.004306,
+   "peak": 0.004311,
    "cost": 0.27658422852892145,
    "opened": "2026-11-16T15:22:01+07:00",
    "zoo": "w_pause_spray",
    "smart": 439,
    "kol": 28,
    "gap": 0,
+   "miss": 0
+  },
+  "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
+   "sym": "NIO",
+   "qty": 187.41506622691483,
+   "entry": 0.00143,
+   "last": 0.001422,
+   "peak": 0.00143,
+   "cost": 0.2762353583843416,
+   "opened": "2026-11-16T15:26:46+07:00",
+   "zoo": "w_pause_spray",
+   "smart": 409,
+   "kol": 32,
+   "gap": 0,
+   "miss": 0
+  },
+  "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump": {
+   "sym": "Shitcoin",
+   "qty": 4174.7928147094935,
+   "entry": 6.41e-05,
+   "last": 6.156121952951877e-05,
+   "peak": 6.41e-05,
+   "cost": 0.27582376770034894,
+   "opened": "2026-11-16T15:26:46+07:00",
+   "zoo": "w_pause_spray",
+   "smart": 66,
+   "kol": 0,
+   "gap": 5,
    "miss": 0
   }
  },
@@ -5703,8 +5731,36 @@
    "zoo": "w_pause_spray",
    "smart": 439,
    "kol": 28
+  },
+  {
+   "t": "2026-11-16T15:26:46+07:00",
+   "kind": "buy",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "price": 0.00143,
+   "jup": 0.0014345594036487576,
+   "usd": 0.2762,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_spray",
+   "smart": 409,
+   "kol": 32
+  },
+  {
+   "t": "2026-11-16T15:26:46+07:00",
+   "kind": "buy",
+   "mint": "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump",
+   "sym": "Shitcoin",
+   "price": 6.41e-05,
+   "jup": 6.416103923291307e-05,
+   "usd": 0.2758,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_spray",
+   "smart": 66,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: กฎ x_spray_small แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794817242.7038627
+ "rank_t": 1794817514.852782
 }
