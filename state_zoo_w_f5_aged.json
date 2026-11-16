@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 3.117655107504974,
+ "cash": 4.046244776179658,
  "pos": {
-  "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
-   "sym": "NIO",
-   "qty": 632.5919327040889,
-   "entry": 0.00145,
-   "last": 0.001543,
-   "peak": 0.001549,
-   "cost": 0.9454321814274673,
-   "opened": "2026-11-16T16:09:10+07:00",
-   "zoo": "w_f5_aged",
-   "smart": 409,
-   "kol": 32,
-   "gap": 0,
-   "miss": 0
-  },
   "CaWZeUM4FvX9dPkjGc2xHS6tSN3qJfTWyvaG77aM5o7h": {
    "sym": "AGI",
    "qty": 2936.772215192482,
    "entry": 0.0003151,
-   "last": 0.0003831,
-   "peak": 0.0003831,
+   "last": 0.0003795380554583661,
+   "peak": 0.0003881,
    "cost": 0.953800170075398,
    "opened": "2026-11-16T16:23:07+07:00",
    "zoo": "w_f5_aged",
    "smart": 149,
    "kol": 18,
-   "gap": 31,
+   "gap": 10,
    "miss": 0
   }
  },
@@ -2008,9 +1994,24 @@
    "cost_side": 0.03,
    "smart": 164,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T19:09:14+07:00",
+   "kind": "sell",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "price": 0.001513,
+   "entry": 0.00145,
+   "usd": 0.9286,
+   "pnl": -0.0168,
+   "why": "ครบ 3 ชม. (+4.3%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 409,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794830467.3825638,
+ "rank_t": 1794830760.9532573,
  "halted": "ราคา AGI สองแหล่งต่างกันเกิน 1% ติดกัน 60 รอบ"
 }

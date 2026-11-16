@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.4199659915598124,
+ "cash": 4.079072720268528,
  "pos": {
-  "34As1e1Kop9zBvu5e84kjg452Uigq8krcoGEJiWRpump": {
-   "sym": "UHI",
-   "qty": 1085.0525482221435,
-   "entry": 0.0006187,
-   "last": 0.0006499,
-   "peak": 0.0006869,
-   "cost": 0.6919418795970318,
-   "opened": "2026-11-16T17:09:19+07:00",
-   "zoo": "w_ban_scalp",
-   "smart": 13,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
   "C2omVhcvt3DDY77S2KZzawFJQeETZofgZ4eNWWkXpump": {
    "sym": "BULLISH",
    "qty": 1909.7145495739155,
@@ -35,7 +21,7 @@
    "sym": "Kodak",
    "qty": 6126.446123433145,
    "entry": 0.0001075,
-   "last": 9.313e-05,
+   "last": 9.37e-05,
    "peak": 0.0001075,
    "cost": 0.6788218493806051,
    "opened": "2026-11-16T17:52:07+07:00",
@@ -56,14 +42,14 @@
    "zoo": "w_ban_scalp",
    "smart": 180,
    "kol": 10,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 2114.91923914631,
    "entry": 0.0003106,
-   "last": 0.0002962,
+   "last": 0.0003021,
    "peak": 0.0003128,
    "cost": 0.6770706201596,
    "opened": "2026-11-16T18:25:02+07:00",
@@ -3351,10 +3337,25 @@
    "mint": "4Wdn6GGJLdyeMLLfzu3pPQMmf9Kivd8e9xmbLb2bpump",
    "sym": "ANT",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-16T19:09:37+07:00",
+   "kind": "sell",
+   "mint": "34As1e1Kop9zBvu5e84kjg452Uigq8krcoGEJiWRpump",
+   "sym": "UHI",
+   "price": 0.0006261,
+   "entry": 0.0006187,
+   "usd": 0.6591,
+   "pnl": -0.0328,
+   "why": "ครบ 2 ชม. (+1.2%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 13,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794830467.3825638,
+ "rank_t": 1794830760.9532573,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
