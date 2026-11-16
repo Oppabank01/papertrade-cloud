@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 4.684789617225885,
+ "cash": 5.379265849588322,
  "pos": {
-  "82Z6CcE5g3o1jW3vgtcqr95jP4XFx8jg1SJe8ikepump": {
-   "sym": "PANICSELL",
-   "qty": 2724.808867880804,
-   "entry": 0.0002277,
-   "last": 0.0002479,
-   "peak": 0.0002479,
-   "cost": 0.639495958788352,
-   "opened": "2026-11-16T10:41:45+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 27,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
   "5w3wVdJaESaJKyLmStM6Hv9UyUkmZ1b9DLQquAqqpump": {
    "sym": "SID",
    "qty": 551.5821043403326,
@@ -35,14 +21,14 @@
    "sym": "Macca",
    "qty": 274.352362660976,
    "entry": 0.00229,
-   "last": 0.002357,
+   "last": 0.0023523739006085192,
    "peak": 0.002434,
    "cost": 0.6475643274516956,
    "opened": "2026-11-16T11:39:52+07:00",
    "zoo": "w_pause_scalp",
    "smart": 170,
    "kol": 8,
-   "gap": 5,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -2796,8 +2782,23 @@
    "zoo": "w_pause_scalp",
    "smart": 170,
    "kol": 8
+  },
+  {
+   "t": "2026-11-16T12:04:35+07:00",
+   "kind": "sell",
+   "mint": "82Z6CcE5g3o1jW3vgtcqr95jP4XFx8jg1SJe8ikepump",
+   "sym": "PANICSELL",
+   "price": 0.0002627,
+   "entry": 0.0002277,
+   "usd": 0.6945,
+   "pnl": 0.055,
+   "why": "ถึงเป้า +15.4%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 27,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794805005.6646948
+ "rank_t": 1794805298.0029795
 }
