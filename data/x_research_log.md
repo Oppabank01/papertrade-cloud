@@ -104,3 +104,14 @@ night: ยังไม่พบโพสต์อวดคืนเดียว�
 
 ## 2026-11-15 ผู้ใช้ส่งมา: @savipww v2 ($33 เป็น $3,151)
 เพิ่ม: x_savip2_dip1h และ x_savip2_dip5m (โพสต์ไม่บอกกรอบเวลาของการย่อ 15-35% จึงทำทั้งสองแบบ) ขนาดไม้ 50% ตามคลิป (คะแนน 75 = 50%) บัญชี savip รุ่นแรกของคนเดียวกันตายไปแล้วที่ -87%
+
+## 2026-11-16 รอบอัตโนมัติ (Bangkok)
+ค้น: solana memecoin overnight turned $ bot, memecoin 1 month trading system, pump.fun strategy this week 30x, เทรดเหรียญมีม โซลานา คืนเดียว, "in a week" memecoin rules, site:x.com overnight, reddit my bot one month gmgn (medium.com กับ mladek.substack.com เปิดไม่ได้ ไม่ลองซ้ำ)
+ผล: ไม่เจอโพสต์ที่ให้กฎตัดสินได้ ส่วนใหญ่เป็นข่าวกำไรหลักเดียว (Gooncoin $332 เป็น $190K, 114514 $321 เป็น $2.18M ใน 11 วัน) กับเว็บขายบอท ไม่มีกฎเข้า/ออก
+- นักพัฒนา sniper บอท Claude (dev.to): ไม้ 0.5 SOL สูงสุด 5 ตำแหน่ง TP +60% SL -25% ซ้ำกับ x_rule5_60_25 ที่มีอยู่แล้ว ข้าม
+- คู่มือขายบางส่วน 25% / 50% stop -15%: ไม่มีผลลัพธ์ของคนโพสต์ ใกล้เคียง x_ladder_2x ข้าม
+- ท่า copy wallet win rate 60%+ 30 ไม้: ยังทำไม่ได้
+ยังทำไม่ได้: copy wallet จาก GMGN (ต้องมีที่อยู่กระเป๋า + ประวัติบน chain), กรองกระแสโซเชียล/influencer (ต้องข้อมูล sentiment)
+เพิ่ม: ไม่มี  เลิกใช้: ไม่มี (ยังไม่มีบัญชี x_ ถึงวันตัดสิน)
+สกอร์บอร์ด x_ (เทียบ rand -94.8%): x_smartflow_lowcap +20.9% 7 ไม้, x_boan_desk -0.9% 1 ไม้, x_lotus_5bots -1.7% 0 ไม้
+ท้ายตาราง: x_skip_pumped -49.2% 24 ไม้, x_cto_watch -31.8% 13 ไม้ 0 ชนะ, x_loofy_desk -19.4% 12 ไม้ (ยังไม่ถึงวันตัดสิน 21-22/11)
