@@ -1,8 +1,22 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.2526616433819204,
- "pos": {},
+ "cash": 1.0021293147055363,
+ "pos": {
+  "EsSzJa8xsyehSvVsNUy6t1KxMXgZYYaJKBAqyJxT3bid": {
+   "sym": "DSP",
+   "qty": 214.53350863356388,
+   "entry": 0.001133,
+   "last": 0.001133,
+   "peak": 0.001133,
+   "cost": 0.2505323286763841,
+   "opened": "2026-11-17T00:26:21+07:00",
+   "smart": 13,
+   "kol": 1,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -756,8 +770,21 @@
    "cost_side": 0.03,
    "smart": 10,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T00:26:21+07:00",
+   "kind": "buy",
+   "mint": "EsSzJa8xsyehSvVsNUy6t1KxMXgZYYaJKBAqyJxT3bid",
+   "sym": "DSP",
+   "price": 0.001133,
+   "jup": 0.0011434848349514744,
+   "usd": 0.2505,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 13,
+   "kol": 1
   }
  ],
  "label": "สูตร x_insider4 (คู่ใหม่ + top trader)",
- "rank_t": 1794849671.5967815
+ "rank_t": 1794849960.8169088
 }
