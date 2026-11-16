@@ -1,33 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.552441547229215,
+ "cash": 2.744035205880229,
  "pos": {
   "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
    "sym": "PAID",
    "qty": 1111.6609493267554,
    "entry": 0.001154,
-   "last": 0.001239,
+   "last": 0.001235,
    "peak": 0.001587,
    "cost": 1.3222600860885134,
    "opened": "2026-11-15T23:34:03+07:00",
    "zoo": "w_pause_smartflow",
    "smart": 668,
    "kol": 93,
-   "gap": 0,
-   "miss": 0
-  },
-  "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": {
-   "sym": "GTA",
-   "qty": 171.23752680593986,
-   "entry": 0.001,
-   "last": 0.001198,
-   "peak": 0.001538,
-   "cost": 0.1764971416264068,
-   "opened": "2026-11-16T14:11:04+07:00",
-   "zoo": "w_pause_smartflow",
-   "smart": 274,
-   "kol": 14,
    "gap": 0,
    "miss": 0
   },
@@ -1131,10 +1117,25 @@
    "cost_side": 0.03,
    "smart": 114,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T03:26:02+07:00",
+   "kind": "sell",
+   "mint": "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump",
+   "sym": "GTA",
+   "price": 0.0011532432299503122,
+   "entry": 0.001,
+   "usd": 0.1916,
+   "pnl": 0.0151,
+   "why": "trailing จากยอด +54% (+15.3%)",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 274,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794860326.044024,
+ "rank_t": 1794860606.103913,
  "halted": "ราคา Lemon สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-17T03:50:26+07:00"
 }

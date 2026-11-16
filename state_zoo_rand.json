@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.33694363175464837,
+ "cash": 0.25282403721826624,
  "pos": {
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
    "qty": 55.21738675066818,
    "entry": 0.00161,
-   "last": 0.001515,
+   "last": 0.001531,
    "peak": 0.00161,
    "cost": 0.09163058407398039,
    "opened": "2026-11-17T01:56:17+07:00",
    "zoo": "rand",
    "smart": 411,
    "kol": 32,
+   "gap": 1,
+   "miss": 0
+  },
+  "ANPikG3a5qKJjHeeNjDmjZvDPPVtQ8B1ii6unvg3pump": {
+   "sym": "capytrade",
+   "qty": 973.2033224326015,
+   "entry": 8.386e-05,
+   "last": 8.386e-05,
+   "peak": 8.386e-05,
+   "cost": 0.08411959453638214,
+   "opened": "2026-11-17T03:24:13+07:00",
+   "zoo": "rand",
+   "smart": 67,
+   "kol": 5,
    "gap": 0,
    "miss": 0
   }
@@ -3553,8 +3567,22 @@
    "cost_side": 0.03,
    "smart": 147,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T03:24:13+07:00",
+   "kind": "buy",
+   "mint": "ANPikG3a5qKJjHeeNjDmjZvDPPVtQ8B1ii6unvg3pump",
+   "sym": "capytrade",
+   "price": 8.386e-05,
+   "jup": 8.434972844451702e-05,
+   "usd": 0.0841,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 67,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794860326.044024
+ "rank_t": 1794860606.103913
 }
