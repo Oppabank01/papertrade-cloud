@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.4784208853849618,
+ "cash": 0.0,
  "pos": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": {
    "sym": "WOJAK",
@@ -35,14 +35,28 @@
    "sym": "GTA",
    "qty": 171.23752680593986,
    "entry": 0.001,
-   "last": 0.001063,
+   "last": 0.001085,
    "peak": 0.001146,
    "cost": 0.1764971416264068,
    "opened": "2026-11-16T14:11:04+07:00",
    "zoo": "w_pause_smartflow",
    "smart": 274,
    "kol": 14,
-   "gap": 2,
+   "gap": 0,
+   "miss": 0
+  },
+  "FYtY5KpMRBHSiCMAqkWWrY2GtNVXs1h8jubbnno7pump": {
+   "sym": "👠",
+   "qty": 7207.514642864751,
+   "entry": 6.44e-05,
+   "last": 7.04e-05,
+   "peak": 7.04e-05,
+   "cost": 0.4784208853849618,
+   "opened": "2026-11-16T23:21:09+07:00",
+   "zoo": "w_pause_smartflow",
+   "smart": 39,
+   "kol": 0,
+   "gap": 7,
    "miss": 0
   }
  },
@@ -1005,8 +1019,22 @@
    "t": "2026-11-16T23:11:18+07:00",
    "kind": "resume",
    "why": "ราคา hello สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-16T23:21:09+07:00",
+   "kind": "buy",
+   "mint": "FYtY5KpMRBHSiCMAqkWWrY2GtNVXs1h8jubbnno7pump",
+   "sym": "👠",
+   "price": 6.44e-05,
+   "jup": 6.379131451856786e-05,
+   "usd": 0.4784,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "w_pause_smartflow",
+   "smart": 39,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794845686.4610376
+ "rank_t": 1794845978.5806608
 }
