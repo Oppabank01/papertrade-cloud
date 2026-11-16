@@ -1,48 +1,48 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.2832333309073978,
+ "cash": 1.2502279513330836,
  "pos": {
-  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
-   "sym": "GTA6",
-   "qty": 102.95451956975083,
-   "entry": 0.006748,
-   "last": 0.007001,
-   "peak": 0.007434,
-   "cost": 0.716076167858873,
-   "opened": "2026-11-16T09:18:44+07:00",
-   "zoo": "aged",
-   "smart": 289,
-   "kol": 23,
-   "gap": 0,
-   "miss": 0
-  },
   "3tjPCXfx3KrgMY53yo7pa67D2QQZMbLTRaqQckJmpump": {
    "sym": "VTC",
    "qty": 2327.7225558493533,
    "entry": 0.0003003,
-   "last": 0.0004064,
+   "last": 0.0004044,
    "peak": 0.0004064,
    "cost": 0.7204855530009903,
    "opened": "2026-11-16T10:05:21+07:00",
    "zoo": "aged",
    "smart": 7,
    "kol": 0,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump": {
    "sym": "chudhaos",
    "qty": 1609.1430260921861,
    "entry": 0.0004343,
-   "last": 0.0004664,
-   "peak": 0.0004664,
+   "last": 0.0005017,
+   "peak": 0.0005017,
    "cost": 0.7203162401894831,
    "opened": "2026-11-16T12:06:50+07:00",
    "zoo": "aged",
    "smart": 32,
    "kol": 1,
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump": {
+   "sym": "ber",
+   "qty": 1886.6177182988117,
+   "entry": 0.0003806,
+   "last": 0.0003806,
+   "peak": 0.0003806,
+   "cost": 0.7401017352963593,
+   "opened": "2026-11-16T12:21:45+07:00",
+   "zoo": "aged",
+   "smart": 133,
+   "kol": 6,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -2496,8 +2496,37 @@
    "zoo": "aged",
    "smart": 32,
    "kol": 1
+  },
+  {
+   "t": "2026-11-16T12:21:45+07:00",
+   "kind": "buy",
+   "mint": "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump",
+   "sym": "ber",
+   "price": 0.0003806,
+   "jup": 0.00038113261808052384,
+   "usd": 0.7401,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "aged",
+   "smart": 133,
+   "kol": 6
+  },
+  {
+   "t": "2026-11-16T12:21:46+07:00",
+   "kind": "sell",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.007079,
+   "entry": 0.006748,
+   "usd": 0.7071,
+   "pnl": -0.009,
+   "why": "ครบ 3 ชม. (+4.9%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 289,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุเกิน 1 วัน ยังมีคนเล่น",
- "rank_t": 1794806153.6590185
+ "rank_t": 1794806429.878968
 }

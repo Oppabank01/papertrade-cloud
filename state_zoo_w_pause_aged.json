@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.9038045435289368,
+ "cash": 1.9620283907423741,
  "pos": {
-  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
-   "sym": "GTA6",
-   "qty": 152.62636775452796,
-   "entry": 0.006751,
-   "last": 0.00705,
-   "peak": 0.007457,
-   "cost": 1.0620290751502972,
-   "opened": "2026-11-16T09:19:42+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 289,
-   "kol": 23,
-   "gap": 0,
-   "miss": 0
-  },
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 181.12615374064703,
@@ -41,6 +27,20 @@
    "opened": "2026-11-16T11:11:50+07:00",
    "zoo": "w_pause_aged",
    "smart": 27,
+   "kol": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump": {
+   "sym": "chudhaos",
+   "qty": 1902.214069781523,
+   "entry": 0.0005017,
+   "last": 0.000481,
+   "peak": 0.0005017,
+   "cost": 0.9836536784264998,
+   "opened": "2026-11-16T12:22:42+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 32,
    "kol": 1,
    "gap": 0,
    "miss": 0
@@ -1863,8 +1863,37 @@
    "cost_side": 0.03,
    "smart": 73,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T12:20:30+07:00",
+   "kind": "sell",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.007036,
+   "entry": 0.006751,
+   "usd": 1.0419,
+   "pnl": -0.0202,
+   "why": "ครบ 3 ชม. (+4.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 289,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-16T12:22:42+07:00",
+   "kind": "buy",
+   "mint": "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump",
+   "sym": "chudhaos",
+   "price": 0.0005017,
+   "jup": 0.0005012043259317144,
+   "usd": 0.9837,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 32,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794806153.6590185
+ "rank_t": 1794806429.878968
 }
