@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 3.0794126974630567,
+ "cash": 1.5995879974155809,
  "pos": {
   "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
    "sym": "MANIFEST",
    "qty": 408.7172778942013,
    "entry": 0.003747,
-   "last": 0.003551,
+   "last": 0.003544,
    "peak": 0.003785,
    "cost": 1.5785030305808827,
    "opened": "2026-11-16T07:55:14+07:00",
@@ -21,7 +21,7 @@
    "sym": "Kimchi",
    "qty": 790.3353877527734,
    "entry": 0.001893,
-   "last": 0.001856,
+   "last": 0.00188,
    "peak": 0.001893,
    "cost": 1.5420582240940015,
    "opened": "2026-11-16T08:14:06+07:00",
@@ -35,13 +35,27 @@
    "sym": "GATO",
    "qty": 197.93509067758836,
    "entry": 0.007356,
-   "last": 0.006985,
+   "last": 0.00697,
    "peak": 0.007492,
    "cost": 1.5007323510867243,
    "opened": "2026-11-16T08:52:04+07:00",
    "zoo": "x_skip_pumped",
    "smart": 63,
    "kol": 4,
+   "gap": 0,
+   "miss": 0
+  },
+  "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": {
+   "sym": "PODCAT",
+   "qty": 6415.21860583584,
+   "entry": 0.0002238,
+   "last": 0.0002237,
+   "peak": 0.0002238,
+   "cost": 1.4798247000474758,
+   "opened": "2026-11-16T10:15:21+07:00",
+   "zoo": "x_skip_pumped",
+   "smart": 121,
+   "kol": 2,
    "gap": 0,
    "miss": 0
   }
@@ -818,8 +832,22 @@
    "cost_side": 0.03,
    "smart": 483,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T10:15:21+07:00",
+   "kind": "buy",
+   "mint": "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump",
+   "sym": "PODCAT",
+   "price": 0.0002238,
+   "jup": 0.00022394466975354888,
+   "usd": 1.4798,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 121,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794798525.8630981
+ "rank_t": 1794798803.063549
 }
