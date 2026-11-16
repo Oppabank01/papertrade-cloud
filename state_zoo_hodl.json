@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.15509893881716777,
+ "cash": 0.08024277510401948,
  "pos": {
   "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
    "sym": "Rocco",
    "qty": 115.57111723104204,
    "entry": 0.0009859,
-   "last": 0.0009522,
+   "last": 0.0008688,
    "peak": 0.00149,
    "cost": 0.11744131568551262,
    "opened": "2026-11-16T06:10:40+07:00",
@@ -42,6 +42,20 @@
    "zoo": "hodl",
    "smart": 73,
    "kol": 4,
+   "gap": 0,
+   "miss": 0
+  },
+  "Gg5aWvfucyMwihDzyfCEaLgyeeNE2dkob2LTwWfHpump": {
+   "sym": "ETF",
+   "qty": 327.5843483739128,
+   "entry": 0.0002217,
+   "last": 0.0002217,
+   "peak": 0.0002217,
+   "cost": 0.0748561637131483,
+   "opened": "2026-11-17T04:35:40+07:00",
+   "zoo": "hodl",
+   "smart": 36,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -301,8 +315,22 @@
    "zoo": "hodl",
    "smart": 73,
    "kol": 4
+  },
+  {
+   "t": "2026-11-17T04:35:40+07:00",
+   "kind": "buy",
+   "mint": "Gg5aWvfucyMwihDzyfCEaLgyeeNE2dkob2LTwWfHpump",
+   "sym": "ETF",
+   "price": 0.0002217,
+   "jup": 0.00022357668225911727,
+   "usd": 0.0749,
+   "stop_set": -1.0,
+   "cost_side": 0.03,
+   "zoo": "hodl",
+   "smart": 36,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: ไม่ตั้ง stop ถือ 24 ชม.",
- "rank_t": 1794864599.1251216
+ "rank_t": 1794864894.2196536
 }
