@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.9354498392212385,
+ "cash": 1.9067439345972468,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 10.45409977482821,
    "entry": 0.01487,
-   "last": 0.01417,
+   "last": 0.01403,
    "peak": 0.01498,
    "cost": 0.16022723526251856,
    "opened": "2026-11-17T03:29:23+07:00",
@@ -21,14 +21,14 @@
    "sym": "GTA",
    "qty": 947.3071216863049,
    "entry": 0.0001619,
-   "last": 0.0001692,
+   "last": 0.0001658,
    "peak": 0.0001779,
    "cost": 0.1580798010729878,
    "opened": "2026-11-17T04:21:47+07:00",
    "zoo": "w_ban_spray",
    "smart": 14,
    "kol": 0,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": {
@@ -49,7 +49,7 @@
    "sym": "DACITY",
    "qty": 1110.2450691790573,
    "entry": 0.0001318,
-   "last": 0.0001294,
+   "last": 0.0001285,
    "peak": 0.0001481,
    "cost": 0.15082488158915663,
    "opened": "2026-11-17T04:36:05+07:00",
@@ -59,26 +59,12 @@
    "gap": 0,
    "miss": 0
   },
-  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
-   "sym": "DacityCoin",
-   "qty": 23.248299236021293,
-   "entry": 0.006262,
-   "last": 0.005924,
-   "peak": 0.00643,
-   "cost": 0.15005241168415312,
-   "opened": "2026-11-17T04:59:44+07:00",
-   "zoo": "w_ban_spray",
-   "smart": 260,
-   "kol": 21,
-   "gap": 0,
-   "miss": 0
-  },
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 60.24199517187715,
    "entry": 0.002413,
-   "last": 0.002494,
-   "peak": 0.002494,
+   "last": 0.002526,
+   "peak": 0.002526,
    "cost": 0.14982883359074373,
    "opened": "2026-11-17T04:59:44+07:00",
    "zoo": "w_ban_spray",
@@ -99,6 +85,20 @@
    "smart": 111,
    "kol": 4,
    "gap": 0,
+   "miss": 0
+  },
+  "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": {
+   "sym": "HOGE",
+   "qty": 272.88915421549973,
+   "entry": 0.0005271,
+   "last": 0.000521888189172856,
+   "peak": 0.0005294,
+   "cost": 0.14825796040712214,
+   "opened": "2026-11-17T05:09:26+07:00",
+   "zoo": "w_ban_spray",
+   "smart": 169,
+   "kol": 11,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -8949,10 +8949,39 @@
    "zoo": "w_ban_spray",
    "smart": 111,
    "kol": 4
+  },
+  {
+   "t": "2026-11-17T05:09:26+07:00",
+   "kind": "buy",
+   "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+   "sym": "HOGE",
+   "price": 0.0005271,
+   "jup": 0.0005247995230390034,
+   "usd": 0.1483,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_spray",
+   "smart": 169,
+   "kol": 11
+  },
+  {
+   "t": "2026-11-17T05:10:59+07:00",
+   "kind": "sell",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.005300350522647832,
+   "entry": 0.006262,
+   "usd": 0.1196,
+   "pnl": -0.0305,
+   "why": "stop -15.4%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 260,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_spray_small แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794866593.1198676,
+ "rank_t": 1794866895.2221873,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": "BTC",

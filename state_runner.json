@@ -1,30 +1,42 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.3040533096090123,
+ "cash": 1.4687661436657156,
  "pos": {
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 443.64864240677116,
    "entry": 0.001761,
-   "last": 0.002409,
+   "last": 0.00243354448937725,
    "peak": 0.002466,
    "cost": 0.8052620689325128,
    "opened": "2026-11-16T22:23:44+07:00",
    "source": "agents",
-   "gap": 3,
+   "gap": 4,
    "miss": 0
   },
   "39wVWdqCJWmHwpQS4Twx9GYmmhLSSKDPPJE7DM7Zpump": {
    "sym": "DACITY",
    "qty": 6074.323057819797,
    "entry": 0.0001314,
-   "last": 0.0001323,
+   "last": 0.0001285,
    "peak": 0.000143,
    "cost": 0.8226819725804179,
    "opened": "2026-11-17T04:35:08+07:00",
    "source": "agents",
    "gap": 0,
+   "miss": 0
+  },
+  "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
+   "sym": "FLOAT",
+   "qty": 325.32942930477174,
+   "entry": 0.002491,
+   "last": 0.0025141662985083686,
+   "peak": 0.0025141662985083686,
+   "cost": 0.8352871659432968,
+   "opened": "2026-11-17T05:08:29+07:00",
+   "source": "agents",
+   "gap": 1,
    "miss": 0
   }
  },
@@ -1357,6 +1369,18 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-17T05:08:29+07:00",
+   "kind": "buy",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "price": 0.002491,
+   "jup": 0.0025141662985083686,
+   "usd": 0.8353,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "agents"
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",
@@ -1522,6 +1546,7 @@
   "state_agents.json:2026-11-17T02:27:57+07:00:Csu5jtHmWJFuYXP2cB3AEUwia6tYrDffdUknLuxqpump",
   "state_agents.json:2026-11-17T02:59:59+07:00:FsFqQGxCNd7dbFuimCW4hMiFRdvvM8PoLyp4WZrxAUnN",
   "state_agents.json:2026-11-17T04:15:56+07:00:Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
-  "state_agents.json:2026-11-17T04:35:04+07:00:39wVWdqCJWmHwpQS4Twx9GYmmhLSSKDPPJE7DM7Zpump"
+  "state_agents.json:2026-11-17T04:35:04+07:00:39wVWdqCJWmHwpQS4Twx9GYmmhLSSKDPPJE7DM7Zpump",
+  "state_agents.json:2026-11-17T05:08:28+07:00:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr"
  ]
 }
