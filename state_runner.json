@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.9904703002607447,
+ "cash": 1.642292698433786,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 26.76591054270035,
    "entry": 0.04185,
-   "last": 0.04255,
+   "last": 0.04269,
    "peak": 0.04461,
    "cost": 1.1545592209977424,
    "opened": "2026-11-15T15:08:55+07:00",
@@ -31,22 +31,10 @@
    "sym": "GTA6",
    "qty": 8365.28869182596,
    "entry": 0.0001264,
-   "last": 0.0001562,
+   "last": 0.0001551,
    "peak": 0.000158,
    "cost": 1.0898500212809743,
    "opened": "2026-11-16T06:23:53+07:00",
-   "source": "agents",
-   "gap": 0,
-   "miss": 0
-  },
-  "9M6mXY89WSMj9g68rTirN2FiCqM9RfbCFeJpGxzLpump": {
-   "sym": "Holden",
-   "qty": 17778.22173961217,
-   "entry": 6.227e-05,
-   "last": 6.083e-05,
-   "peak": 6.227e-05,
-   "cost": 1.1410532547161922,
-   "opened": "2026-11-16T11:10:10+07:00",
    "source": "agents",
    "gap": 0,
    "miss": 0
@@ -1081,6 +1069,21 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-16T11:24:23+07:00",
+   "kind": "sell",
+   "mint": "9M6mXY89WSMj9g68rTirN2FiCqM9RfbCFeJpGxzLpump",
+   "sym": "Holden",
+   "price": 3.779024354791767e-05,
+   "entry": 6.227e-05,
+   "usd": 0.6518,
+   "pnl": -0.4892,
+   "why": "stop -39.3%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",
