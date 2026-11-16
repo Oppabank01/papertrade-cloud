@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.8254846281585826,
+ "cash": 0.9366748955380496,
  "pos": {
   "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": {
    "sym": "GTA",
    "qty": 860.7140661204155,
    "entry": 0.001001,
-   "last": 0.0009871,
+   "last": 0.0009702,
    "peak": 0.001004,
    "cost": 0.8880383221877303,
    "opened": "2026-11-16T14:11:14+07:00",
@@ -21,27 +21,41 @@
    "sym": "HOGE",
    "qty": 2347.090921576807,
    "entry": 0.0003603,
-   "last": 0.0003944,
-   "peak": 0.0004116,
+   "last": 0.0004194,
+   "peak": 0.0004220455059861093,
    "cost": 0.8716314770605273,
    "opened": "2026-11-16T15:36:45+07:00",
    "zoo": "w_ban_aged",
    "smart": 164,
    "kol": 9,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 194.7972960160117,
    "entry": 0.004313,
-   "last": 0.00429,
+   "last": 0.004318,
    "peak": 0.004347,
    "cost": 0.8659665406277659,
    "opened": "2026-11-16T15:54:45+07:00",
    "zoo": "w_ban_aged",
    "smart": 439,
    "kol": 28,
+   "gap": 0,
+   "miss": 0
+  },
+  "CaWZeUM4FvX9dPkjGc2xHS6tSN3qJfTWyvaG77aM5o7h": {
+   "sym": "AGI",
+   "qty": 2736.665193870013,
+   "entry": 0.0003151,
+   "last": 0.0003151,
+   "peak": 0.0003151,
+   "cost": 0.888809732620533,
+   "opened": "2026-11-16T16:23:21+07:00",
+   "zoo": "w_ban_aged",
+   "smart": 149,
+   "kol": 18,
    "gap": 0,
    "miss": 0
   }
@@ -2238,10 +2252,24 @@
    "cost_side": 0.03,
    "smart": 111,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T16:23:21+07:00",
+   "kind": "buy",
+   "mint": "CaWZeUM4FvX9dPkjGc2xHS6tSN3qJfTWyvaG77aM5o7h",
+   "sym": "AGI",
+   "price": 0.0003151,
+   "jup": 0.00031424003173822373,
+   "usd": 0.8888,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_aged",
+   "smart": 149,
+   "kol": 18
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794820628.6609526,
+ "rank_t": 1794820921.8820395,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": "CHOO",

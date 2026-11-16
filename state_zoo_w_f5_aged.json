@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 1.9722713712885467,
+ "cash": 1.0184712012131487,
  "pos": {
   "34As1e1Kop9zBvu5e84kjg452Uigq8krcoGEJiWRpump": {
    "sym": "UHI",
    "qty": 1669.82396513797,
    "entry": 0.0005688,
-   "last": 0.0005752,
+   "last": 0.0005784,
    "peak": 0.0005866,
    "cost": 0.9789691521031512,
    "opened": "2026-11-16T14:05:56+07:00",
@@ -35,13 +35,27 @@
    "sym": "NIO",
    "qty": 632.5919327040889,
    "entry": 0.00145,
-   "last": 0.001498,
+   "last": 0.001475,
    "peak": 0.001498,
    "cost": 0.9454321814274673,
    "opened": "2026-11-16T16:09:10+07:00",
    "zoo": "w_f5_aged",
    "smart": 409,
    "kol": 32,
+   "gap": 0,
+   "miss": 0
+  },
+  "CaWZeUM4FvX9dPkjGc2xHS6tSN3qJfTWyvaG77aM5o7h": {
+   "sym": "AGI",
+   "qty": 2936.772215192482,
+   "entry": 0.0003151,
+   "last": 0.0003151,
+   "peak": 0.0003151,
+   "cost": 0.953800170075398,
+   "opened": "2026-11-16T16:23:07+07:00",
+   "zoo": "w_f5_aged",
+   "smart": 149,
+   "kol": 18,
    "gap": 0,
    "miss": 0
   }
@@ -1949,8 +1963,22 @@
    "cost_side": 0.03,
    "smart": 111,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T16:23:07+07:00",
+   "kind": "buy",
+   "mint": "CaWZeUM4FvX9dPkjGc2xHS6tSN3qJfTWyvaG77aM5o7h",
+   "sym": "AGI",
+   "price": 0.0003151,
+   "jup": 0.00031424003173822373,
+   "usd": 0.9538,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged",
+   "smart": 149,
+   "kol": 18
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794820628.6609526
+ "rank_t": 1794820921.8820395
 }
