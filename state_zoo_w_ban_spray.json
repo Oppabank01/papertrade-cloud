@@ -7,7 +7,7 @@
    "sym": "CATE",
    "qty": 10.000131592797466,
    "entry": 0.01735,
-   "last": 0.01719,
+   "last": 0.01707,
    "peak": 0.01735,
    "cost": 0.1788314606627871,
    "opened": "2026-11-17T00:55:28+07:00",
@@ -21,7 +21,7 @@
    "sym": "paws",
    "qty": 302.3176596272983,
    "entry": 0.0005717,
-   "last": 0.0005076,
+   "last": 0.0005016,
    "peak": 0.0006439600860580706,
    "cost": 0.1781436879086028,
    "opened": "2026-11-17T01:00:37+07:00",
@@ -35,7 +35,7 @@
    "sym": "GATO",
    "qty": 28.978813912193374,
    "entry": 0.005916,
-   "last": 0.005692,
+   "last": 0.005597,
    "peak": 0.006139,
    "cost": 0.1767044558900598,
    "opened": "2026-11-17T01:33:35+07:00",
@@ -49,7 +49,7 @@
    "sym": "JASON",
    "qty": 603.3025979249995,
    "entry": 0.0002817,
-   "last": 0.0003258,
+   "last": 0.000304,
    "peak": 0.0003342,
    "cost": 0.17517042036226793,
    "opened": "2026-11-17T01:56:59+07:00",
@@ -63,7 +63,7 @@
    "sym": "NIO",
    "qty": 106.9969204452317,
    "entry": 0.001586,
-   "last": 0.001572,
+   "last": 0.001589,
    "peak": 0.001626,
    "cost": 0.17490941643592814,
    "opened": "2026-11-17T01:57:01+07:00",
@@ -77,7 +77,7 @@
    "sym": "Dacity",
    "qty": 84.03684649033062,
    "entry": 0.001992,
-   "last": 0.002004,
+   "last": 0.002069,
    "peak": 0.002144,
    "cost": 0.17254318512547784,
    "opened": "2026-11-17T02:01:03+07:00",
@@ -91,7 +91,7 @@
    "sym": "mihao",
    "qty": 10.45409977482821,
    "entry": 0.01487,
-   "last": 0.01465,
+   "last": 0.01442,
    "peak": 0.01498,
    "cost": 0.16022723526251856,
    "opened": "2026-11-17T03:29:23+07:00",
@@ -105,14 +105,14 @@
    "sym": "Trader",
    "qty": 869.5845349067476,
    "entry": 0.0001785,
-   "last": 0.000183,
-   "peak": 0.000183,
+   "last": 0.0001866,
+   "peak": 0.00020169956942414955,
    "cost": 0.1599884966819774,
    "opened": "2026-11-17T03:29:23+07:00",
    "zoo": "w_ban_spray",
    "smart": 155,
    "kol": 13,
-   "gap": 8,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -8738,10 +8738,17 @@
    "cost_side": 0.03,
    "smart": 1,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T03:39:56+07:00",
+   "kind": "ban",
+   "mint": "7TnXXR1ytJ9PZDxgSA8VwbyKmEWZmiA2YAn55YyVpump",
+   "sym": "Trader",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ x_spray_small แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794861185.865346,
+ "rank_t": 1794861467.897812,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": "BTC",
@@ -8768,6 +8775,7 @@
   "HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump": "HYGG",
   "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": "fone",
   "Gg3XUJHFoFSha6cWFDT2im8mtNuSHhCzp2D4naowpump": "BUSTED",
-  "GPzpoXpD74E2C4CJNayuoyBqPQJEsPtdse3nhntrpump": "LOOKSMAX"
+  "GPzpoXpD74E2C4CJNayuoyBqPQJEsPtdse3nhntrpump": "LOOKSMAX",
+  "7TnXXR1ytJ9PZDxgSA8VwbyKmEWZmiA2YAn55YyVpump": "Trader"
  }
 }

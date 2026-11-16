@@ -7,14 +7,14 @@
    "sym": "HYGG",
    "qty": 2894.0242459260594,
    "entry": 0.0002914,
-   "last": 0.0005288,
+   "last": 0.0005258,
    "peak": 0.0006173,
    "cost": 0.869221464917392,
    "opened": "2026-11-15T21:30:21+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 32,
    "kol": 0,
-   "gap": 0,
+   "gap": 2,
    "miss": 0,
    "half": true
   },
@@ -36,7 +36,7 @@
    "sym": "fone",
    "qty": 1128.9940046601298,
    "entry": 0.0008826,
-   "last": 0.0008743,
+   "last": 0.0008915,
    "peak": 0.0009429,
    "cost": 1.0270563889023199,
    "opened": "2026-11-16T22:14:56+07:00",
@@ -50,14 +50,14 @@
    "sym": "Trader",
    "qty": 9326.816690017738,
    "entry": 0.0001785,
-   "last": 0.000183,
-   "peak": 0.000183,
+   "last": 0.0001866,
+   "peak": 0.00020169956942414955,
    "cost": 1.715972767643956,
    "opened": "2026-11-17T03:29:18+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 155,
    "kol": 13,
-   "gap": 8,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1047,10 +1047,17 @@
    "zoo": "w_ban_smartflow",
    "smart": 155,
    "kol": 13
+  },
+  {
+   "t": "2026-11-17T03:39:56+07:00",
+   "kind": "ban",
+   "mint": "7TnXXR1ytJ9PZDxgSA8VwbyKmEWZmiA2YAn55YyVpump",
+   "sym": "Trader",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794861185.865346,
+ "rank_t": 1794861467.897812,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
@@ -1060,6 +1067,7 @@
   "CbmdFB7ruUfTHb1uRWC99knEni77CQKfFZL6qq2fLoat": "AIRDROP",
   "HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump": "HYGG",
   "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": "JENSEN",
-  "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": "fone"
+  "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": "fone",
+  "7TnXXR1ytJ9PZDxgSA8VwbyKmEWZmiA2YAn55YyVpump": "Trader"
  }
 }
