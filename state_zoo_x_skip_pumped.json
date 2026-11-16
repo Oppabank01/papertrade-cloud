@@ -1,48 +1,62 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 2.700854631510661,
+ "cash": 1.1223516009297785,
  "pos": {
   "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
    "sym": "SAPLING",
    "qty": 1142.500186431705,
    "entry": 0.001604,
-   "last": 0.0017213611761973957,
-   "peak": 0.001728,
+   "last": 0.001742,
+   "peak": 0.001742,
    "cost": 1.8888582756508503,
    "opened": "2026-11-16T05:48:17+07:00",
    "zoo": "x_skip_pumped",
    "smart": 186,
    "kol": 19,
-   "gap": 5,
+   "gap": 0,
    "miss": 0
   },
   "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": {
    "sym": "fone",
    "qty": 2146.4610219358797,
    "entry": 0.0007998,
-   "last": 0.0007808,
-   "peak": 0.0008058,
+   "last": 0.0008249,
+   "peak": 0.0008249,
    "cost": 1.769469723092472,
    "opened": "2026-11-16T07:11:41+07:00",
    "zoo": "x_skip_pumped",
    "smart": 483,
    "kol": 58,
-   "gap": 2,
+   "gap": 1,
    "miss": 0
   },
   "2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": {
    "sym": "WIGGLES",
    "qty": 17227.744379137894,
    "entry": 9.01e-05,
-   "last": 8.483388633610315e-05,
-   "peak": 9.01e-05,
+   "last": 0.00011195130263123077,
+   "peak": 0.00012305830461589894,
    "cost": 1.5998966899199383,
    "opened": "2026-11-16T07:50:36+07:00",
    "zoo": "x_skip_pumped",
    "smart": 62,
    "kol": 1,
-   "gap": 5,
+   "gap": 6,
+   "miss": 0
+  },
+  "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
+   "sym": "MANIFEST",
+   "qty": 408.7172778942013,
+   "entry": 0.003747,
+   "last": 0.003785,
+   "peak": 0.003785,
+   "cost": 1.5785030305808827,
+   "opened": "2026-11-16T07:55:14+07:00",
+   "zoo": "x_skip_pumped",
+   "smart": 80,
+   "kol": 15,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -702,8 +716,22 @@
    "cost_side": 0.03,
    "smart": 457,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T07:55:14+07:00",
+   "kind": "buy",
+   "mint": "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
+   "sym": "MANIFEST",
+   "price": 0.003747,
+   "jup": 0.0037416117111551965,
+   "usd": 1.5785,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 80,
+   "kol": 15
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794790126.5734694
+ "rank_t": 1794790412.411766
 }

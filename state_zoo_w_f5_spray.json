@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 4.444282524311738,
+ "cash": 4.7098241774703045,
  "pos": {
-  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
-   "sym": "STONK",
-   "qty": 6.302045799230275,
-   "entry": 0.04317,
-   "last": 0.04314,
-   "peak": 0.0439,
-   "cost": 0.28041570516673986,
-   "opened": "2026-11-16T04:56:10+07:00",
-   "zoo": "w_f5_spray",
-   "smart": 1000,
-   "kol": 174,
-   "gap": 0,
-   "miss": 0
-  },
   "FuQASH8ps9NPeDu4h3rVtMBygKYoSiSTZ4uSiA5tpump": {
    "sym": "Banana",
    "qty": 9204.761543541543,
    "entry": 2.799e-05,
-   "last": 2.565e-05,
+   "last": 2.606e-05,
    "peak": 3.053e-05,
    "cost": 0.2655548089092227,
    "opened": "2026-11-16T05:33:27+07:00",
@@ -35,14 +21,14 @@
    "sym": "DacityCoin",
    "qty": 63.115134173447025,
    "entry": 0.004096,
-   "last": 0.004552,
+   "last": 0.004571287853181194,
    "peak": 0.004702,
    "cost": 0.2664601005714688,
    "opened": "2026-11-16T05:37:45+07:00",
    "zoo": "w_f5_spray",
    "smart": 249,
    "kol": 20,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -5313,9 +5299,24 @@
    "cost_side": 0.03,
    "smart": 289,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T07:56:14+07:00",
+   "kind": "sell",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.04343,
+   "entry": 0.04317,
+   "usd": 0.2655,
+   "pnl": -0.0149,
+   "why": "ครบ 3 ชม. (+0.6%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 1000,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ x_spray_small แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794790126.5734694,
+ "rank_t": 1794790412.411766,
  "halted": "ราคา PURR สองแหล่งต่างกันเกิน 1% ติดกัน 60 รอบ"
 }
