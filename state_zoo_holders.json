@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.2028118232969303,
+ "cash": 0.6072558459923395,
  "pos": {
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 86.78969354876372,
    "entry": 0.007164,
-   "last": 0.006937,
+   "last": 0.006902184393072113,
    "peak": 0.007272,
    "cost": 0.6408589616402219,
    "opened": "2026-11-16T11:24:51+07:00",
    "zoo": "holders",
    "smart": 63,
    "kol": 4,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
@@ -35,13 +35,27 @@
    "sym": "baton",
    "qty": 172.61691983964096,
    "entry": 0.003471,
-   "last": 0.003272,
+   "last": 0.003265,
    "peak": 0.003471,
    "cost": 0.6175565128462108,
    "opened": "2026-11-16T12:21:55+07:00",
    "zoo": "holders",
    "smart": 722,
    "kol": 80,
+   "gap": 0,
+   "miss": 0
+  },
+  "HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": {
+   "sym": "Marvin",
+   "qty": 1023.7569262595924,
+   "entry": 0.0005644,
+   "last": 0.0005644,
+   "peak": 0.0005644,
+   "cost": 0.5955559773045908,
+   "opened": "2026-11-16T13:32:57+07:00",
+   "zoo": "holders",
+   "smart": 115,
+   "kol": 8,
    "gap": 0,
    "miss": 0
   }
@@ -2395,8 +2409,22 @@
    "cost_side": 0.03,
    "smart": 473,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T13:32:57+07:00",
+   "kind": "buy",
+   "mint": "HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump",
+   "sym": "Marvin",
+   "price": 0.0005644,
+   "jup": 0.0005615214555565518,
+   "usd": 0.5956,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 115,
+   "kol": 8
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794810438.5582078
+ "rank_t": 1794810730.9085927
 }
