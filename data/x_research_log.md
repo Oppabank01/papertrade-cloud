@@ -115,3 +115,12 @@ night: ยังไม่พบโพสต์อวดคืนเดียว�
 เพิ่ม: ไม่มี  เลิกใช้: ไม่มี (ยังไม่มีบัญชี x_ ถึงวันตัดสิน)
 สกอร์บอร์ด x_ (เทียบ rand -94.8%): x_smartflow_lowcap +20.9% 7 ไม้, x_boan_desk -0.9% 1 ไม้, x_lotus_5bots -1.7% 0 ไม้
 ท้ายตาราง: x_skip_pumped -49.2% 24 ไม้, x_cto_watch -31.8% 13 ไม้ 0 ชนะ, x_loofy_desk -19.4% 12 ไม้ (ยังไม่ถึงวันตัดสิน 21-22/11)
+
+## 2026-11-16 รอบอัตโนมัติ รอบที่ 2 (Bangkok)
+ค้นแล้ว: solana memecoin bot turned in a week, memecoin 1 month system pump.fun take profit stop loss, เทรดเหรียญมีม โซลานา กำไร คืนเดียว, hodlhero201 Medium, madeonsol auto sell (medium.com และ madeonsol.com เปิดอ่านไม่ได้ ไม่อยู่ในโดเมนที่อนุญาต)
+เจอ: Medium hodlhero201 (Trojan กับ BonkBot 2 สัปดาห์ กำไร 11,800 ดอลลาร์) ไม่มีกฎที่ตรวจได้ใน snippet จึงข้าม
+เจอ: madeonsol/altrady บันไดขาย 25% ที่ x2 x3 x5 trail 30% stop 30-50% time exit 6-12 ชม. เป็นคู่มือผู้ขายเครื่องมือ ไม่มีผลลัพธ์ และใกล้เคียง x_ladder_2x (ระบบรองรับแค่ HALF_AT ครั้งเดียว) ข้าม
+rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN API) ยังทำไม่ได้: ต้องข้อมูล tweet/sentiment
+เพิ่ม: ไม่มี  เลิกใช้: ไม่มี (ยังไม่มีบัญชี x_ ถึงวันตัดสิน)
+สกอร์บอร์ด x_ (เทียบ rand -96.0%): x_smartflow_lowcap +20.9% 7 ไม้, x_boan_desk -0.9% 1 ไม้, x_night_tp50_sl25 -2.1% 3 ไม้
+ท้ายตาราง: x_skip_pumped -73.9% 54 ไม้, x_fresh_grad -42.3% 18 ไม้, x_cto_watch -29.6% 14 ไม้ (ยังไม่ถึงวันตัดสิน 21-22/11)
