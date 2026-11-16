@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.517126961046764,
+ "cash": 3.308085187905048,
  "pos": {
   "8k4sBtEeK4pf26noKqApv8NBTnuSJcbdwpKYknk5PbAA": {
    "sym": "CALI",
    "qty": 2075.0026122633526,
    "entry": 0.0001047,
-   "last": 0.0001127,
-   "peak": 0.0001127,
+   "last": 0.0001137,
+   "peak": 0.0001157,
    "cost": 0.22392576118735624,
    "opened": "2026-11-17T00:45:58+07:00",
    "zoo": "w_pause_spray",
@@ -21,28 +21,42 @@
    "sym": "COGE",
    "qty": 2762.0156661978494,
    "entry": 7.409e-05,
-   "last": 9.146e-05,
-   "peak": 9.146e-05,
+   "last": 7.574e-05,
+   "peak": 9.190648313849786e-05,
    "cost": 0.21092325366790218,
    "opened": "2026-11-17T01:28:21+07:00",
    "zoo": "w_pause_spray",
    "smart": 73,
    "kol": 2,
-   "gap": 2,
+   "gap": 12,
    "miss": 0
   },
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 34.46840841511247,
    "entry": 0.005916,
-   "last": 0.005931,
-   "peak": 0.005931,
+   "last": 0.005854,
+   "peak": 0.006003,
    "cost": 0.21017842113358626,
    "opened": "2026-11-17T01:33:35+07:00",
    "zoo": "w_pause_spray",
    "smart": 64,
    "kol": 4,
    "gap": 0,
+   "miss": 0
+  },
+  "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": {
+   "sym": "BTC",
+   "qty": 172.16666239566467,
+   "entry": 0.001178,
+   "last": 0.0012008659995669587,
+   "peak": 0.0012013230352261185,
+   "cost": 0.20904177314171615,
+   "opened": "2026-11-17T01:38:17+07:00",
+   "zoo": "w_pause_spray",
+   "smart": 792,
+   "kol": 70,
+   "gap": 5,
    "miss": 0
   }
  },
@@ -7153,8 +7167,22 @@
    "zoo": "w_pause_spray",
    "smart": 64,
    "kol": 4
+  },
+  {
+   "t": "2026-11-17T01:38:17+07:00",
+   "kind": "buy",
+   "mint": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+   "sym": "BTC",
+   "price": 0.001178,
+   "jup": 0.0011847290825297624,
+   "usd": 0.209,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_spray",
+   "smart": 792,
+   "kol": 70
   }
  ],
  "label": "สวนสัตว์: กฎ x_spray_small แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794853924.9892776
+ "rank_t": 1794854205.5531151
 }
