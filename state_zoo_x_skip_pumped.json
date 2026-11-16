@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 2.0748890304730976,
+ "cash": 1.863598863056692,
  "pos": {
   "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
    "sym": "neet",
    "qty": 40.56641994097728,
    "entry": 0.02799,
-   "last": 0.02759,
+   "last": 0.02764,
    "peak": 0.02805,
    "cost": 1.170329925940996,
    "opened": "2026-11-16T14:30:07+07:00",
@@ -21,7 +21,7 @@
    "sym": "USELESS",
    "qty": 11.504978503079862,
    "entry": 0.09809,
-   "last": 0.09806,
+   "last": 0.09721,
    "peak": 0.09843,
    "cost": 1.163186292895386,
    "opened": "2026-11-16T14:35:12+07:00",
@@ -35,8 +35,8 @@
    "sym": "NEON",
    "qty": 17330.307657203553,
    "entry": 6.343e-05,
-   "last": 6.311e-05,
-   "peak": 6.343e-05,
+   "last": 6.951e-05,
+   "peak": 7.143e-05,
    "cost": 1.133025576887674,
    "opened": "2026-11-16T14:58:24+07:00",
    "zoo": "x_skip_pumped",
@@ -1253,8 +1253,37 @@
    "cost_side": 0.03,
    "smart": 57,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T15:07:53+07:00",
+   "kind": "buy",
+   "mint": "3fsDbE55AJJZSdjHmujYWV7VRTJR55EPRN1ebeqspump",
+   "sym": "GTAVI",
+   "price": 2.053e-05,
+   "jup": 2.0530739506435937e-05,
+   "usd": 1.1112,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 19,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-16T15:09:01+07:00",
+   "kind": "sell",
+   "mint": "3fsDbE55AJJZSdjHmujYWV7VRTJR55EPRN1ebeqspump",
+   "sym": "GTAVI",
+   "price": 1.76635363943293e-05,
+   "entry": 2.053e-05,
+   "usd": 0.9,
+   "pnl": -0.2113,
+   "why": "stop -14.0%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 19,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794815810.6639824
+ "rank_t": 1794816389.2276714
 }
