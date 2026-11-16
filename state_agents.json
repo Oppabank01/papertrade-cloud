@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.3037640743315372,
+ "cash": 0.19711915215060616,
  "pos": {
   "FS8ZSohYyG5tNm1ZAHzpvRgK2tJsCLSCDYX4xigNpump": {
    "sym": "250",
    "qty": 1372.2961600702326,
    "entry": 8.312e-05,
-   "last": 8.801e-05,
+   "last": 8.572e-05,
    "peak": 8.801e-05,
    "cost": 0.11756880728204261,
    "opened": "2026-11-16T18:23:24+07:00",
@@ -21,13 +21,27 @@
    "sym": "paws",
    "qty": 196.82135372208737,
    "entry": 0.0005582,
-   "last": 0.0005522,
+   "last": 0.0005628,
    "peak": 0.0005775,
    "cost": 0.11324023876280064,
    "opened": "2026-11-16T18:41:51+07:00",
    "smart": 291,
    "kol": 15,
    "bundler": 0.1914,
+   "gap": 0,
+   "miss": 0
+  },
+  "6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": {
+   "sym": "GTA$",
+   "qty": 726.5934234546297,
+   "entry": 0.0001424,
+   "last": 0.0001424,
+   "peak": 0.0001424,
+   "cost": 0.10664492218093101,
+   "opened": "2026-11-16T21:04:33+07:00",
+   "smart": 93,
+   "kol": 8,
+   "bundler": 0.2023,
    "gap": 0,
    "miss": 0
   }
@@ -42472,6 +42486,64 @@
    "buy": 0.807,
    "bull": 0.9102,
    "bear": 0.9562
+  },
+  {
+   "t": "2026-11-16T21:04:25+07:00",
+   "kind": "debate",
+   "mint": "2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ",
+   "sym": "hello",
+   "ok": true,
+   "bundler": 0.3869,
+   "buy": 0.7888,
+   "bull": 0.9196,
+   "bear": 0.4352
+  },
+  {
+   "t": "2026-11-16T21:04:28+07:00",
+   "kind": "debate",
+   "mint": "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump",
+   "sym": "GTA",
+   "ok": false,
+   "bundler": 0.1272,
+   "buy": 0.8102,
+   "bull": 0.9423,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-16T21:04:31+07:00",
+   "kind": "debate",
+   "mint": "42t61wPi41TwWtpqBVgZN1V4hjiKwZBKwq27xME9pump",
+   "sym": "1.0",
+   "ok": false,
+   "bundler": 0.1698,
+   "buy": 0.846,
+   "bull": 0.946,
+   "bear": 0.9997
+  },
+  {
+   "t": "2026-11-16T21:04:33+07:00",
+   "kind": "debate",
+   "mint": "6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump",
+   "sym": "GTA$",
+   "ok": true,
+   "bundler": 0.2023,
+   "buy": 0.8375,
+   "bull": 0.9236,
+   "bear": 0.9136
+  },
+  {
+   "t": "2026-11-16T21:04:33+07:00",
+   "kind": "buy",
+   "mint": "6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump",
+   "sym": "GTA$",
+   "price": 0.0001424,
+   "jup": 0.00014230108111263983,
+   "usd": 0.1066,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 93,
+   "kol": 8,
+   "bundler": 0.2023
   }
  ]
 }

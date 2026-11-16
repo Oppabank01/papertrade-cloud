@@ -1,28 +1,16 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.0,
+ "cash": 1.418669444206039,
  "pos": {
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
    "sym": "STANK",
    "qty": 1566.5159660881986,
    "entry": 0.001246,
-   "last": 0.001262,
+   "last": 0.001281,
    "peak": 0.001323,
    "cost": 2.0118314715995624,
    "opened": "2026-11-16T13:27:51+07:00",
-   "source": "agents",
-   "gap": 0,
-   "miss": 0
-  },
-  "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": {
-   "sym": "AURA",
-   "qty": 15129.273927509936,
-   "entry": 9.875e-05,
-   "last": 0.0001058,
-   "peak": 0.0001114,
-   "cost": 1.539904968399924,
-   "opened": "2026-11-16T18:23:45+07:00",
    "source": "agents",
    "gap": 0,
    "miss": 0
@@ -564,6 +552,21 @@
    "stop_set": -0.18,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-16T21:04:43+07:00",
+   "kind": "sell",
+   "mint": "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump",
+   "sym": "AURA",
+   "price": 9.665e-05,
+   "entry": 9.875e-05,
+   "usd": 1.4187,
+   "pnl": -0.1212,
+   "why": "trailing จากยอด +13% (-2.1%)",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 Apple Card (ไม้ 60%)",
@@ -1006,6 +1009,7 @@
   "state_agents.json:2026-11-16T18:41:51+07:00:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
   "state_agents.json:2026-11-16T19:48:56+07:00:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK",
   "state_agents.json:2026-11-16T19:53:40+07:00:ngwxpGYdkauMcxLFrNTKp8qBgK7JV53zVvd7F2spump",
+  "state_agents.json:2026-11-16T21:04:33+07:00:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump",
   "state_grokbot.json:2026-11-14T01:57:45+07:00:9oJk7eMccQchx3evoN5C5pKQD5Xodb4C1qkhemjjpump",
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
   "state_recipe_grad.json:2026-11-13T10:44:45+07:00:3ZHz4gzF2AEzoyRkMe1nCbsCms5H5wg3jcphCP4opump",
