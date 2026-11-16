@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.19748796453962913,
+ "cash": 0.30929839463201597,
  "pos": {
   "6hjaMcRPvB4DEGpHqgHxmgipb2vrGQWMewZBAVSLpump": {
    "sym": "STATE?",
@@ -21,7 +21,7 @@
    "sym": "STANK",
    "qty": 84.15411752957272,
    "entry": 0.001246,
-   "last": 0.001311,
+   "last": 0.001308,
    "peak": 0.001312,
    "cost": 0.10807671659642096,
    "opened": "2026-11-16T13:27:29+07:00",
@@ -42,20 +42,6 @@
    "smart": 372,
    "kol": 63,
    "bundler": 0.0773,
-   "gap": 0,
-   "miss": 0
-  },
-  "EJvUBkKf4HKKy7m1xrSQfk6yLH2U8dsR1adREbkNpump": {
-   "sym": "Percy",
-   "qty": 1658.1974508317185,
-   "entry": 7.769e-05,
-   "last": 7.451e-05,
-   "peak": 7.769e-05,
-   "cost": 0.132782271650295,
-   "opened": "2026-11-16T14:24:16+07:00",
-   "smart": 42,
-   "kol": 2,
-   "bundler": 0.15,
    "gap": 0,
    "miss": 0
   }
@@ -39615,6 +39601,21 @@
    "cost_side": 0.03,
    "smart": 42,
    "kol": 2,
+   "bundler": 0.15
+  },
+  {
+   "t": "2026-11-16T14:28:55+07:00",
+   "kind": "sell",
+   "mint": "EJvUBkKf4HKKy7m1xrSQfk6yLH2U8dsR1adREbkNpump",
+   "sym": "Percy",
+   "price": 6.95e-05,
+   "entry": 7.769e-05,
+   "usd": 0.1118,
+   "pnl": -0.021,
+   "why": "stop -10.5%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 42,
    "bundler": 0.15
   }
  ]

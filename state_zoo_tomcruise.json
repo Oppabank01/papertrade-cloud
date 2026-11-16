@@ -1,20 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.5008934554806963,
+ "cash": 2.1718545785201253,
  "pos": {
   "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": {
    "sym": "gtacoin",
    "qty": 1929.3629377444113,
    "entry": 0.0004192,
-   "last": 0.0004092,
+   "last": 0.0004084,
    "peak": 0.0004192,
    "cost": 0.8336311518268988,
    "opened": "2026-11-16T14:15:10+07:00",
    "zoo": "tomcruise",
    "smart": 32,
    "kol": 0,
-   "gap": 1,
+   "gap": 2,
+   "miss": 0
+  },
+  "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
+   "sym": "JENSEN",
+   "qty": 3832.335155187827,
+   "entry": 8.33e-05,
+   "last": 8.33e-05,
+   "peak": 8.33e-05,
+   "cost": 0.329038876960571,
+   "opened": "2026-11-16T14:29:27+07:00",
+   "zoo": "tomcruise",
+   "smart": 5,
+   "kol": 0,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1433,8 +1447,22 @@
    "zoo": "tomcruise",
    "smart": 32,
    "kol": 0
+  },
+  {
+   "t": "2026-11-16T14:29:27+07:00",
+   "kind": "buy",
+   "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+   "sym": "JENSEN",
+   "price": 8.33e-05,
+   "jup": 8.321093596145249e-05,
+   "usd": 0.329,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "tomcruise",
+   "smart": 5,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: tomcruise 6 เอเจนต์: scanner rug check sizer ตามสภาพคล่อง",
- "rank_t": 1794813850.57358
+ "rank_t": 1794814135.3368325
 }
