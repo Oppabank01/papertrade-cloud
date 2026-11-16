@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.5658943929025724,
+ "cash": 0.849606073214741,
  "pos": {
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 59.65384220778804,
    "entry": 0.005328,
-   "last": 0.005431,
+   "last": 0.005438,
    "peak": 0.005571,
    "cost": 0.32759809449917,
    "opened": "2026-11-16T21:00:30+07:00",
@@ -17,32 +17,18 @@
    "gap": 0,
    "miss": 0
   },
-  "BARobVaVawPxpjaHLsvrdLn2SpVJQDFYx4BY2R5Kpump": {
-   "sym": "RESPECT",
-   "qty": 2430.8061043036664,
-   "entry": 0.0001197,
-   "last": 0.000131,
-   "peak": 0.0001458,
-   "cost": 0.2999046492322705,
-   "opened": "2026-11-16T22:43:26+07:00",
-   "zoo": "boosted",
-   "smart": 21,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 81.8521168894894,
    "entry": 0.003699,
-   "last": 0.0035966164880503293,
+   "last": 0.003521,
    "peak": 0.003737,
    "cost": 0.31207068684211636,
    "opened": "2026-11-16T23:11:03+07:00",
    "zoo": "boosted",
    "smart": 250,
    "kol": 20,
-   "gap": 1,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -3158,8 +3144,23 @@
    "zoo": "boosted",
    "smart": 250,
    "kol": 20
+  },
+  {
+   "t": "2026-11-16T23:34:29+07:00",
+   "kind": "sell",
+   "mint": "BARobVaVawPxpjaHLsvrdLn2SpVJQDFYx4BY2R5Kpump",
+   "sym": "RESPECT",
+   "price": 0.0001203,
+   "entry": 0.0001197,
+   "usd": 0.2837,
+   "pnl": -0.0162,
+   "why": "trailing จากยอด +22% (+0.5%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 21,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794846548.3951228
+ "rank_t": 1794846837.4953182
 }

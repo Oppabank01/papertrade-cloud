@@ -1,30 +1,18 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.775413711583923,
- "cash": 0.7865048520105677,
+ "cash": 2.4169565632975556,
  "pos": {
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
    "sym": "STANK",
    "qty": 1614.8636705435672,
    "entry": 0.001246,
-   "last": 0.0012653685817901857,
+   "last": 0.001274902877221468,
    "peak": 0.001331,
    "cost": 2.073923040092027,
    "opened": "2026-11-16T13:27:37+07:00",
    "source": "agents",
-   "gap": 4,
-   "miss": 0
-  },
-  "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
-   "sym": "paws",
-   "qty": 3401.8857318266278,
-   "entry": 0.0005582,
-   "last": 0.0005239,
-   "peak": 0.0005894,
-   "cost": 1.957258931669371,
-   "opened": "2026-11-16T18:41:55+07:00",
-   "source": "agents",
-   "gap": 0,
+   "gap": 5,
    "miss": 0
   }
  },
@@ -1041,6 +1029,21 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-16T23:34:05+07:00",
+   "kind": "sell",
+   "mint": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
+   "sym": "paws",
+   "price": 0.000494,
+   "entry": 0.0005582,
+   "usd": 1.6305,
+   "pnl": -0.3268,
+   "why": "stop -11.5%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "สายโม้ (ไม้ใหญ่ ปล่อยกำไรวิ่ง)",
