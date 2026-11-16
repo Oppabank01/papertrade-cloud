@@ -261,10 +261,35 @@
    "usd": 5.0353,
    "pnl": -0.2081,
    "why": "ปิดรอบเช้า"
+  },
+  {
+   "t": "2026-11-17T04:41:13+07:00",
+   "kind": "buy",
+   "mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+   "sym": "WBTC",
+   "price": 65125.61,
+   "jup": 65246.04318740588,
+   "usd": 5.9102,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "state_wallets.json"
   }
  ],
- "pos": {},
- "cash": 14.775413711583923,
+ "pos": {
+  "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh": {
+   "sym": "WBTC",
+   "qty": 8.804589397614072e-05,
+   "entry": 65125.61,
+   "last": 65125.61,
+   "peak": 65125.61,
+   "cost": 5.91016548463357,
+   "opened": "2026-11-17T04:41:13+07:00",
+   "source": "state_wallets.json",
+   "gap": 0,
+   "miss": 0
+  }
+ },
+ "cash": 8.865248226950353,
  "start_usd": 14.775413711583923,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
@@ -574,7 +599,8 @@
   "state_wallets.json:2026-11-15T08:51:58+07:00:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE",
   "state_wallets.json:2026-11-15T12:32:57+07:00:Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump",
   "state_wallets.json:2026-11-16T02:16:05+07:00:6hjaMcRPvB4DEGpHqgHxmgipb2vrGQWMewZBAVSLpump",
-  "state_wallets.json:2026-11-16T23:34:18+07:00:88ZWKeNqsNuryefmk1uT9baccba77aet6ge3rUpEpump"
+  "state_wallets.json:2026-11-16T23:34:18+07:00:88ZWKeNqsNuryefmk1uT9baccba77aet6ge3rUpEpump",
+  "state_wallets.json:2026-11-17T04:40:14+07:00:3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh"
  ],
  "session": {
   "night": "2026-11-16",
