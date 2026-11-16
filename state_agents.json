@@ -1,34 +1,48 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.42197623540142154,
+ "cash": 0.29474846616066075,
  "pos": {
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
    "sym": "STANK",
    "qty": 84.15411752957272,
    "entry": 0.001246,
-   "last": 0.001251,
+   "last": 0.001241,
    "peak": 0.001312,
    "cost": 0.10807671659642096,
    "opened": "2026-11-16T13:27:29+07:00",
    "smart": 78,
    "kol": 1,
    "bundler": 0.1162,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "9AvytnUKsLxPxFHFqS6VLxaxt5p6BhYNr53SD2Chpump": {
    "sym": "67",
    "qty": 96.44447278377925,
    "entry": 0.001101,
-   "last": 0.001129,
+   "last": 0.0011065579891007666,
    "peak": 0.001132,
    "cost": 0.10944688160682432,
    "opened": "2026-11-16T13:41:30+07:00",
    "smart": 372,
    "kol": 63,
    "bundler": 0.0773,
-   "gap": 0,
+   "gap": 1,
+   "miss": 0
+  },
+  "G3aDdJLXfz1YEp6rv9FY9TC1XWZi6iGbxyAze3Ngpump": {
+   "sym": "DADDY",
+   "qty": 2128.2134778859668,
+   "entry": 5.8e-05,
+   "last": 5.847e-05,
+   "peak": 5.847e-05,
+   "cost": 0.12722776924076076,
+   "opened": "2026-11-16T16:07:45+07:00",
+   "smart": 30,
+   "kol": 2,
+   "bundler": 0.2887,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -40344,6 +40358,86 @@
    "buy": 0.9178,
    "bull": 0.9155,
    "bear": 1.0
+  },
+  {
+   "t": "2026-11-16T16:07:45+07:00",
+   "kind": "debate",
+   "mint": "G3aDdJLXfz1YEp6rv9FY9TC1XWZi6iGbxyAze3Ngpump",
+   "sym": "DADDY",
+   "ok": true,
+   "bundler": 0.2887,
+   "buy": 0.8332,
+   "bull": 0.943,
+   "bear": 0.9268
+  },
+  {
+   "t": "2026-11-16T16:07:45+07:00",
+   "kind": "buy",
+   "mint": "G3aDdJLXfz1YEp6rv9FY9TC1XWZi6iGbxyAze3Ngpump",
+   "sym": "DADDY",
+   "price": 5.8e-05,
+   "jup": 5.804954504675503e-05,
+   "usd": 0.1272,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 30,
+   "kol": 2,
+   "bundler": 0.2887
+  },
+  {
+   "t": "2026-11-16T16:07:48+07:00",
+   "kind": "debate",
+   "mint": "CM65K38bqGePYkNQBjGRRDYMhyxgh9xTQg2HPQTFpump",
+   "sym": "Pois",
+   "ok": false,
+   "bundler": 0.031,
+   "buy": 0.7607,
+   "bull": 0.927,
+   "bear": 0.9999
+  },
+  {
+   "t": "2026-11-16T16:07:50+07:00",
+   "kind": "debate",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "ok": false,
+   "bundler": 0.0196,
+   "buy": 0.9187,
+   "bull": 0.8882,
+   "bear": 0.9984
+  },
+  {
+   "t": "2026-11-16T16:07:53+07:00",
+   "kind": "debate",
+   "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+   "sym": "HOGE",
+   "ok": false,
+   "bundler": 0.2556,
+   "buy": 0.8378,
+   "bull": 0.9174,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-16T16:07:56+07:00",
+   "kind": "debate",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "ok": false,
+   "bundler": 0.1871,
+   "buy": 0.8556,
+   "bull": 0.9226,
+   "bear": 0.9704
+  },
+  {
+   "t": "2026-11-16T16:07:58+07:00",
+   "kind": "debate",
+   "mint": "Fww6zaNKcjpJaB33JayvUzsofBUobX5JaHiuQBN1Jf9g",
+   "sym": "XRL",
+   "ok": false,
+   "bundler": 0.2036,
+   "buy": 0.8114,
+   "bull": 0.9123,
+   "bear": 0.9998
   }
  ]
 }
