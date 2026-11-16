@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 2.145466793315639,
+ "cash": 1.0840992145904644,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 58.6578897048877,
    "entry": 0.0184,
-   "last": 0.01817,
+   "last": 0.01811,
    "peak": 0.01916,
    "cost": 1.112456370408095,
    "opened": "2026-11-16T10:00:39+07:00",
@@ -21,7 +21,7 @@
    "sym": "Buttcoin",
    "qty": 185.85990656130133,
    "entry": 0.005758,
-   "last": 0.005676,
+   "last": 0.005677,
    "peak": 0.005758,
    "cost": 1.1030523005359443,
    "opened": "2026-11-16T10:05:47+07:00",
@@ -42,6 +42,20 @@
    "zoo": "w_f5_aged",
    "smart": 925,
    "kol": 294,
+   "gap": 0,
+   "miss": 0
+  },
+  "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
+   "sym": "Dacity",
+   "qty": 594.1943594224837,
+   "entry": 0.001733,
+   "last": 0.001735,
+   "peak": 0.001743,
+   "cost": 1.0613675787251744,
+   "opened": "2026-11-16T11:43:52+07:00",
+   "zoo": "w_f5_aged",
+   "smart": 425,
+   "kol": 38,
    "gap": 0,
    "miss": 0
   }
@@ -1746,8 +1760,22 @@
    "cost_side": 0.03,
    "smart": 41,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T11:43:52+07:00",
+   "kind": "buy",
+   "mint": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
+   "sym": "Dacity",
+   "price": 0.001733,
+   "jup": 0.0017382396254842652,
+   "usd": 1.0614,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged",
+   "smart": 425,
+   "kol": 38
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794803893.8192182
+ "rank_t": 1794804177.762619
 }
