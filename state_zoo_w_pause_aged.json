@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.3158589252620896,
+ "cash": 2.476901961227975,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 21.6751145476815,
    "entry": 0.03979,
-   "last": 0.04055,
-   "peak": 0.04071,
+   "last": 0.04061,
+   "peak": 0.04077,
    "cost": 0.8889433187510275,
    "opened": "2026-11-16T16:13:32+07:00",
    "zoo": "w_pause_aged",
    "smart": 1000,
    "kol": 174,
+   "gap": 0,
+   "miss": 0
+  },
+  "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
+   "sym": "Dacity",
+   "qty": 438.3177417910061,
+   "entry": 0.001857,
+   "last": 0.001869,
+   "peak": 0.001869,
+   "cost": 0.8389569640341149,
+   "opened": "2026-11-16T17:33:25+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 425,
+   "kol": 38,
    "gap": 0,
    "miss": 0
   }
@@ -2126,8 +2140,22 @@
    "cost_side": 0.03,
    "smart": 409,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T17:33:25+07:00",
+   "kind": "buy",
+   "mint": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
+   "sym": "Dacity",
+   "price": 0.001857,
+   "jup": 0.0018553758447545175,
+   "usd": 0.839,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 425,
+   "kol": 38
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794824817.459612
+ "rank_t": 1794825106.8381345
 }

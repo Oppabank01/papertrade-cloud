@@ -1,48 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 1.608781586631256,
+ "cash": 2.46410104280943,
  "pos": {
-  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
-   "sym": "USELESS",
-   "qty": 11.504978503079862,
-   "entry": 0.09809,
-   "last": 0.09977,
-   "peak": 0.1009,
-   "cost": 1.163186292895386,
-   "opened": "2026-11-16T14:35:12+07:00",
-   "zoo": "x_skip_pumped",
-   "smart": 925,
-   "kol": 294,
-   "gap": 0,
-   "miss": 0
-  },
   "5bzT7x5nYZx3grnRaL6cDRQuSKxEWDVwh2WUxd91pump": {
    "sym": "Angel",
    "qty": 8672.706399924418,
    "entry": 0.0001072,
-   "last": 0.0001068,
-   "peak": 0.0001095,
+   "last": 0.00010132646983879095,
+   "peak": 0.0001122,
    "cost": 0.9582705896432672,
    "opened": "2026-11-16T17:23:53+07:00",
    "zoo": "x_skip_pumped",
    "smart": 102,
    "kol": 1,
-   "gap": 0,
+   "gap": 3,
    "miss": 0
   },
   "2oxHzSUA6qz4My8qxpz3YFhtweUd15khaDhx5N7mBAGS": {
    "sym": "AUSTISM",
    "qty": 15181.96582816075,
    "entry": 5.978e-05,
-   "last": 5.8413679620625176e-05,
-   "peak": 6.021e-05,
+   "last": 5.98e-05,
+   "peak": 6.032e-05,
    "cost": 0.9354544601189958,
    "opened": "2026-11-16T17:28:50+07:00",
    "zoo": "x_skip_pumped",
    "smart": 41,
    "kol": 2,
-   "gap": 4,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1427,8 +1413,52 @@
    "cost_side": 0.03,
    "smart": 862,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T17:33:40+07:00",
+   "kind": "buy",
+   "mint": "3CacZc651RHTRk9weLRhoPCqADoqqEfgHTsyemRiFHzH",
+   "sym": "FIBDIP",
+   "price": 1.503e-05,
+   "jup": 1.5094186679689346e-05,
+   "usd": 0.9183,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 2,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-16T17:34:51+07:00",
+   "kind": "sell",
+   "mint": "3CacZc651RHTRk9weLRhoPCqADoqqEfgHTsyemRiFHzH",
+   "sym": "FIBDIP",
+   "price": 1.1551283542423383e-05,
+   "entry": 1.503e-05,
+   "usd": 0.6643,
+   "pnl": -0.254,
+   "why": "stop -23.1%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 2,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-16T17:35:12+07:00",
+   "kind": "sell",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.09938,
+   "entry": 0.09809,
+   "usd": 1.1093,
+   "pnl": -0.0539,
+   "why": "ครบ 3 ชม. (+1.3%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 925,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794824817.459612
+ "rank_t": 1794825106.8381345
 }
