@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.4687661436657156,
+ "cash": 2.1774971111818093,
  "pos": {
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 443.64864240677116,
    "entry": 0.001761,
-   "last": 0.002192,
+   "last": 0.002238,
    "peak": 0.0025432418526751674,
    "cost": 0.8052620689325128,
    "opened": "2026-11-16T22:23:44+07:00",
@@ -25,18 +25,6 @@
    "opened": "2026-11-17T04:35:08+07:00",
    "source": "agents",
    "gap": 0,
-   "miss": 0
-  },
-  "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
-   "sym": "FLOAT",
-   "qty": 325.32942930477174,
-   "entry": 0.002491,
-   "last": 0.002442,
-   "peak": 0.0025675078672251768,
-   "cost": 0.8352871659432968,
-   "opened": "2026-11-17T05:08:29+07:00",
-   "source": "agents",
-   "gap": 1,
    "miss": 0
   }
  },
@@ -1381,6 +1369,21 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-17T05:51:17+07:00",
+   "kind": "sell",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "price": 0.0022454158697166908,
+   "entry": 0.002491,
+   "usd": 0.7087,
+   "pnl": -0.1266,
+   "why": "stop -9.9%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",
