@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.27533243544288477,
+ "cash": 0.13155661865772864,
  "pos": {
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
    "sym": "STANK",
@@ -14,14 +14,14 @@
    "zoo": "rand",
    "smart": 78,
    "kol": 1,
-   "gap": 3,
+   "gap": 0,
    "miss": 0
   },
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 8.762641558394263,
    "entry": 0.01662,
-   "last": 0.01675,
+   "last": 0.01667,
    "peak": 0.01688,
    "cost": 0.1501083309632165,
    "opened": "2026-11-16T13:37:12+07:00",
@@ -35,13 +35,27 @@
    "sym": "neet",
    "qty": 5.155173209723947,
    "entry": 0.02845,
-   "last": 0.02805,
+   "last": 0.02771,
    "peak": 0.02845,
    "cost": 0.15116952980483025,
    "opened": "2026-11-16T14:00:58+07:00",
    "zoo": "rand",
    "smart": 862,
    "kol": 202,
+   "gap": 0,
+   "miss": 0
+  },
+  "ff5rD21oxjMznMZbmXoJWrrhcZtJVJQ2vgjeDYbpump": {
+   "sym": "CRIMECAT",
+   "qty": 11070.737892457024,
+   "entry": 1.26e-05,
+   "last": 1.26e-05,
+   "peak": 1.26e-05,
+   "cost": 0.14377581678515614,
+   "opened": "2026-11-16T14:48:12+07:00",
+   "zoo": "rand",
+   "smart": 13,
+   "kol": 3,
    "gap": 0,
    "miss": 0
   }
@@ -2913,8 +2927,22 @@
    "cost_side": 0.03,
    "smart": 45,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T14:48:12+07:00",
+   "kind": "buy",
+   "mint": "ff5rD21oxjMznMZbmXoJWrrhcZtJVJQ2vgjeDYbpump",
+   "sym": "CRIMECAT",
+   "price": 1.26e-05,
+   "jup": 1.2614574739829057e-05,
+   "usd": 0.1438,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 13,
+   "kol": 3
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794814968.4700534
+ "rank_t": 1794815252.0714383
 }

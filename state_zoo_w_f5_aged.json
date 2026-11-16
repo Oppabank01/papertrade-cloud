@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 1.975510997140454,
+ "cash": 1.0059626333722769,
  "pos": {
   "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
    "sym": "JOB",
    "qty": 795.4441967848506,
    "entry": 0.001248,
-   "last": 0.001234,
+   "last": 0.001205,
    "peak": 0.00127,
    "cost": 1.0232058932050028,
    "opened": "2026-11-16T13:05:56+07:00",
    "zoo": "w_f5_aged",
    "smart": 33,
    "kol": 0,
-   "gap": 0,
+   "gap": 5,
    "miss": 0
   },
   "Cr8kuNqKwiVVuzqLYKcJhmpSHy767837BwLFr9GDYXUf": {
    "sym": "b",
    "qty": 3044.0860121838446,
    "entry": 0.0003216,
-   "last": 0.0003139,
+   "last": 0.0003117,
    "peak": 0.0003216,
    "cost": 1.0090476824554984,
    "opened": "2026-11-16T13:18:59+07:00",
@@ -35,13 +35,27 @@
    "sym": "UHI",
    "qty": 1669.82396513797,
    "entry": 0.0005688,
-   "last": 0.0005664,
-   "peak": 0.0005693,
+   "last": 0.0005708,
+   "peak": 0.0005708,
    "cost": 0.9789691521031512,
    "opened": "2026-11-16T14:05:56+07:00",
    "zoo": "w_f5_aged",
    "smart": 13,
    "kol": 0,
+   "gap": 0,
+   "miss": 0
+  },
+  "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": {
+   "sym": "PUMPCADE",
+   "qty": 55.397869406824825,
+   "entry": 0.01698,
+   "last": 0.01687,
+   "peak": 0.01698,
+   "cost": 0.9695483637681772,
+   "opened": "2026-11-16T14:48:44+07:00",
+   "zoo": "w_f5_aged",
+   "smart": 123,
+   "kol": 19,
    "gap": 0,
    "miss": 0
   }
@@ -1891,8 +1905,22 @@
    "cost_side": 0.03,
    "smart": 425,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T14:48:44+07:00",
+   "kind": "buy",
+   "mint": "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu",
+   "sym": "PUMPCADE",
+   "price": 0.01698,
+   "jup": 0.01691529726170949,
+   "usd": 0.9695,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged",
+   "smart": 123,
+   "kol": 19
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794814968.4700534
+ "rank_t": 1794815252.0714383
 }

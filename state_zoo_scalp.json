@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.3100987669944817,
- "pos": {
-  "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": {
-   "sym": "gtacoin",
-   "qty": 1348.003310532917,
-   "entry": 0.0004192,
-   "last": 0.0004051,
-   "peak": 0.0004192,
-   "cost": 0.5824396905539053,
-   "opened": "2026-11-16T14:15:00+07:00",
-   "zoo": "scalp",
-   "smart": 32,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 2.872110564498646,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T00:42:01+07:00",
@@ -1221,8 +1206,23 @@
    "cost_side": 0.03,
    "smart": 3,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T14:48:30+07:00",
+   "kind": "sell",
+   "mint": "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK",
+   "sym": "gtacoin",
+   "price": 0.00042972755569321673,
+   "entry": 0.0004192,
+   "usd": 0.562,
+   "pnl": -0.0204,
+   "why": "ครบ 0.5 ชม. (+2.5%)",
+   "stop_set": -0.05,
+   "cost_side": 0.03,
+   "smart": 32,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เก็บสั้น +10% ตัด -5% 30 นาที",
- "rank_t": 1794814968.4700534
+ "rank_t": 1794815252.0714383
 }
