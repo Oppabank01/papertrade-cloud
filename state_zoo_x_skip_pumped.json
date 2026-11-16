@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 1.108294082146399,
+ "cash": 1.2005591150207466,
  "pos": {
-  "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": {
-   "sym": "Kimchi",
-   "qty": 790.3353877527734,
-   "entry": 0.001893,
-   "last": 0.001852,
-   "peak": 0.001893,
-   "cost": 1.5420582240940015,
-   "opened": "2026-11-16T08:14:06+07:00",
-   "zoo": "x_skip_pumped",
-   "smart": 650,
-   "kol": 69,
-   "gap": 0,
-   "miss": 0
-  },
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 197.93509067758836,
    "entry": 0.007356,
-   "last": 0.007114,
+   "last": 0.007119,
    "peak": 0.007492,
    "cost": 1.5007323510867243,
    "opened": "2026-11-16T08:52:04+07:00",
@@ -35,28 +21,42 @@
    "sym": "DacityCoin",
    "qty": 271.49634353916707,
    "entry": 0.004865,
-   "last": 0.004832439617259794,
-   "peak": 0.004909,
+   "last": 0.004953,
+   "peak": 0.004953,
    "cost": 1.3613994138508019,
    "opened": "2026-11-16T11:02:37+07:00",
    "zoo": "x_skip_pumped",
    "smart": 249,
    "kol": 20,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "6sBvfTnThBPUQsEWjiXdgCnHwxGZfEDqegtVu4vLpump": {
    "sym": "WANTED",
    "qty": 9724.055565369204,
    "entry": 0.0001316,
-   "last": 0.0001321,
-   "peak": 0.0001331,
+   "last": 0.0001398,
+   "peak": 0.0001416,
    "cost": 1.3189916639894737,
    "opened": "2026-11-16T11:11:59+07:00",
    "zoo": "x_skip_pumped",
    "smart": 38,
    "kol": 1,
-   "gap": 3,
+   "gap": 0,
+   "miss": 0
+  },
+  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
+   "sym": "STONK",
+   "qty": 30.276118461816623,
+   "entry": 0.04255,
+   "last": 0.04255,
+   "peak": 0.04255,
+   "cost": 1.3278178113278678,
+   "opened": "2026-11-16T11:16:13+07:00",
+   "zoo": "x_skip_pumped",
+   "smart": 1000,
+   "kol": 174,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -962,8 +962,37 @@
    "zoo": "x_skip_pumped",
    "smart": 38,
    "kol": 1
+  },
+  {
+   "t": "2026-11-16T11:14:32+07:00",
+   "kind": "sell",
+   "mint": "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
+   "sym": "Kimchi",
+   "price": 0.001852,
+   "entry": 0.001893,
+   "usd": 1.4201,
+   "pnl": -0.122,
+   "why": "ครบ 3 ชม. (-2.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 650,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-16T11:16:13+07:00",
+   "kind": "buy",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.04255,
+   "jup": 0.04259881673116882,
+   "usd": 1.3278,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 1000,
+   "kol": 174
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794802187.0152783
+ "rank_t": 1794802472.090461
 }
