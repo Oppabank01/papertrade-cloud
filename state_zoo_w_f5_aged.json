@@ -1,28 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 1.0614887598511449,
+ "cash": 1.9515392934503286,
  "pos": {
-  "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": {
-   "sym": "PUMPCADE",
-   "qty": 55.397869406824825,
-   "entry": 0.01698,
-   "last": 0.01656,
-   "peak": 0.01702,
-   "cost": 0.9695483637681772,
-   "opened": "2026-11-16T14:48:44+07:00",
-   "zoo": "w_f5_aged",
-   "smart": 123,
-   "kol": 19,
-   "gap": 0,
-   "miss": 0
-  },
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
    "qty": 632.5919327040889,
    "entry": 0.00145,
-   "last": 0.0015,
-   "peak": 0.0015,
+   "last": 0.001506,
+   "peak": 0.001506,
    "cost": 0.9454321814274673,
    "opened": "2026-11-16T16:09:10+07:00",
    "zoo": "w_f5_aged",
@@ -35,28 +21,28 @@
    "sym": "AGI",
    "qty": 2936.772215192482,
    "entry": 0.0003151,
-   "last": 0.0003214019807254119,
-   "peak": 0.0003229,
+   "last": 0.000327,
+   "peak": 0.000327,
    "cost": 0.953800170075398,
    "opened": "2026-11-16T16:23:07+07:00",
    "zoo": "w_f5_aged",
    "smart": 149,
    "kol": 18,
-   "gap": 73,
+   "gap": 3,
    "miss": 0
   },
   "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": {
    "sym": "HOGE",
    "qty": 2396.7871539912476,
    "entry": 0.0003857,
-   "last": 0.0004112,
-   "peak": 0.0004316,
+   "last": 0.0004696,
+   "peak": 0.0004696,
    "cost": 0.9528352971494787,
    "opened": "2026-11-16T17:09:08+07:00",
    "zoo": "w_f5_aged",
    "smart": 164,
    "kol": 9,
-   "gap": 0,
+   "gap": 21,
    "miss": 0
   }
  },
@@ -2006,9 +1992,24 @@
    "zoo": "w_f5_aged",
    "smart": 164,
    "kol": 9
+  },
+  {
+   "t": "2026-11-16T17:48:48+07:00",
+   "kind": "sell",
+   "mint": "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu",
+   "sym": "PUMPCADE",
+   "price": 0.01656,
+   "entry": 0.01698,
+   "usd": 0.8901,
+   "pnl": -0.0795,
+   "why": "ครบ 3 ชม. (-2.5%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 123,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794825679.5270953,
+ "rank_t": 1794825961.6745849,
  "halted": "ราคา AGI สองแหล่งต่างกันเกิน 1% ติดกัน 60 รอบ"
 }
