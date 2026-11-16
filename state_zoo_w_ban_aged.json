@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.2953210029360243,
+ "cash": 3.1910759190001836,
  "pos": {},
  "log": [
   {
@@ -2703,10 +2703,39 @@
    "cost_side": 0.03,
    "smart": 64,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T04:45:58+07:00",
+   "kind": "buy",
+   "mint": "H2yHLoC24dM5v1Vjh2Poqx7fZ9mp8EfR2MYseXScpump",
+   "sym": "BOXABL",
+   "price": 0.0005157,
+   "jup": 0.000511236539601465,
+   "usd": 0.6591,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_aged",
+   "smart": 147,
+   "kol": 34
+  },
+  {
+   "t": "2026-11-17T04:46:25+07:00",
+   "kind": "sell",
+   "mint": "H2yHLoC24dM5v1Vjh2Poqx7fZ9mp8EfR2MYseXScpump",
+   "sym": "BOXABL",
+   "price": 0.00046120954357317667,
+   "entry": 0.0005157,
+   "usd": 0.5548,
+   "pnl": -0.1042,
+   "why": "stop -10.6%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 147,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794865182.3978255,
+ "rank_t": 1794865463.4791598,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": "CHOO",

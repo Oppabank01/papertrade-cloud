@@ -1,20 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.718869590815427,
- "cash": 9.815637458600207,
+ "cash": 7.2985886921985585,
  "pos": {
   "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": {
    "sym": "GTA",
    "qty": 2060.719027833362,
    "entry": 0.001173,
-   "last": 0.00137,
-   "peak": 0.00137,
+   "last": 0.0014,
+   "peak": 0.0014,
    "cost": 2.453909364650052,
    "opened": "2026-11-17T03:43:09+07:00",
    "zoo": "w_deadcat",
    "smart": 299,
    "kol": 16,
-   "gap": 0,
+   "gap": 5,
+   "miss": 0
+  },
+  "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
+   "sym": "Dacity",
+   "qty": 1839.3315188011456,
+   "entry": 0.001348,
+   "last": 0.0012980063313365136,
+   "peak": 0.001348,
+   "cost": 2.517048766401649,
+   "opened": "2026-11-17T04:45:32+07:00",
+   "zoo": "w_deadcat",
+   "smart": 433,
+   "kol": 38,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -298,8 +312,22 @@
    "zoo": "w_deadcat",
    "smart": 299,
    "kol": 16
+  },
+  {
+   "t": "2026-11-17T04:45:32+07:00",
+   "kind": "buy",
+   "mint": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
+   "sym": "Dacity",
+   "price": 0.001348,
+   "jup": 0.0013374059501600432,
+   "usd": 2.517,
+   "stop_set": -0.25,
+   "cost_side": 0.015,
+   "zoo": "w_deadcat",
+   "smart": 433,
+   "kol": 38
   }
  ],
  "label": "สวนสัตว์: เด้งหลังร่วง: อายุเกิน 1 วัน pool 100k+ ร่วง 1 ชม. 15% ขึ้นไป",
- "rank_t": 1794865182.3978255
+ "rank_t": 1794865463.4791598
 }

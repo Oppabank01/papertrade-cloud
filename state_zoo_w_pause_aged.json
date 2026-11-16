@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.575097635261793,
+ "cash": 3.4620020209848716,
  "pos": {},
  "log": [
   {
@@ -2537,8 +2537,37 @@
    "cost_side": 0.03,
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T04:45:58+07:00",
+   "kind": "buy",
+   "mint": "H2yHLoC24dM5v1Vjh2Poqx7fZ9mp8EfR2MYseXScpump",
+   "sym": "BOXABL",
+   "price": 0.0005157,
+   "jup": 0.000511236539601465,
+   "usd": 0.715,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 147,
+   "kol": 34
+  },
+  {
+   "t": "2026-11-17T04:46:25+07:00",
+   "kind": "sell",
+   "mint": "H2yHLoC24dM5v1Vjh2Poqx7fZ9mp8EfR2MYseXScpump",
+   "sym": "BOXABL",
+   "price": 0.00046120954357317667,
+   "entry": 0.0005157,
+   "usd": 0.6019,
+   "pnl": -0.1131,
+   "why": "stop -10.6%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 147,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794865182.3978255
+ "rank_t": 1794865463.4791598
 }
