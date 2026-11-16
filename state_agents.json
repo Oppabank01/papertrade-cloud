@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.14178704189599547,
+ "cash": 0.2544155178147682,
  "pos": {
   "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump": {
    "sym": "GTA6",
    "qty": 1420.1889961953802,
    "entry": 0.0001264,
-   "last": 0.0001452,
+   "last": 0.0001488,
    "peak": 0.0001586,
    "cost": 0.18502565359626477,
    "opened": "2026-11-16T06:23:48+07:00",
@@ -31,25 +31,11 @@
    "gap": 0,
    "miss": 0
   },
-  "42Fyyi97PSgdnoaskbHDHFsCFR6hr5DtwK3hKTzXpump": {
-   "sym": "Huang",
-   "qty": 5178.576013531698,
-   "entry": 3.313e-05,
-   "last": 3.616e-05,
-   "peak": 3.616e-05,
-   "cost": 0.17683593416646584,
-   "opened": "2026-11-16T07:20:33+07:00",
-   "smart": 29,
-   "kol": 2,
-   "bundler": 0.3048,
-   "gap": 0,
-   "miss": 0
-  },
   "Cr8kuNqKwiVVuzqLYKcJhmpSHy767837BwLFr9GDYXUf": {
    "sym": "b",
    "qty": 452.1188089834148,
    "entry": 0.0003661,
-   "last": 0.0003857,
+   "last": 0.0003531,
    "peak": 0.0003857,
    "cost": 0.1706047165211587,
    "opened": "2026-11-16T07:25:36+07:00",
@@ -35671,6 +35657,21 @@
    "smart": 111,
    "kol": 8,
    "bundler": 0.0118
+  },
+  {
+   "t": "2026-11-16T07:34:36+07:00",
+   "kind": "sell",
+   "mint": "42Fyyi97PSgdnoaskbHDHFsCFR6hr5DtwK3hKTzXpump",
+   "sym": "Huang",
+   "price": 2.2416953018023137e-05,
+   "entry": 3.313e-05,
+   "usd": 0.1126,
+   "pnl": -0.0642,
+   "why": "stop -32.3%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 29,
+   "bundler": 0.3048
   }
  ]
 }

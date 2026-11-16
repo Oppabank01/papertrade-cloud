@@ -1,55 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 0.6608726089997585,
+ "cash": 3.312293017797609,
  "pos": {
-  "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": {
-   "sym": "LMAO!",
-   "qty": 1711.0043850329755,
-   "entry": 0.001376,
-   "last": 0.001345,
-   "peak": 0.001411,
-   "cost": 2.4266563943572197,
-   "opened": "2026-11-16T04:34:05+07:00",
-   "zoo": "x_skip_pumped",
-   "smart": 786,
-   "kol": 84,
-   "gap": 0,
-   "miss": 0
-  },
-  "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
-   "sym": "PAID",
-   "qty": 1800.187477506838,
-   "entry": 0.001287,
-   "last": 0.00123,
-   "peak": 0.00136,
-   "cost": 2.388003796692744,
-   "opened": "2026-11-16T04:37:42+07:00",
-   "zoo": "x_skip_pumped",
-   "smart": 668,
-   "kol": 93,
-   "gap": 1,
-   "miss": 0
-  },
   "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
    "sym": "SAPLING",
    "qty": 1142.500186431705,
    "entry": 0.001604,
-   "last": 0.001655,
+   "last": 0.001691,
    "peak": 0.001728,
    "cost": 1.8888582756508503,
    "opened": "2026-11-16T05:48:17+07:00",
    "zoo": "x_skip_pumped",
    "smart": 186,
    "kol": 19,
-   "gap": 7,
+   "gap": 0,
    "miss": 0
   },
   "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": {
    "sym": "fone",
    "qty": 2146.4610219358797,
    "entry": 0.0007998,
-   "last": 0.0007866,
+   "last": 0.0007855,
    "peak": 0.0008058,
    "cost": 1.769469723092472,
    "opened": "2026-11-16T07:11:41+07:00",
@@ -57,6 +29,20 @@
    "smart": 483,
    "kol": 58,
    "gap": 0,
+   "miss": 0
+  },
+  "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
+   "sym": "Max",
+   "qty": 1426.9972131196118,
+   "entry": 0.001186,
+   "last": 0.001147,
+   "peak": 0.001186,
+   "cost": 1.7444018705007829,
+   "opened": "2026-11-16T07:35:51+07:00",
+   "zoo": "x_skip_pumped",
+   "smart": 457,
+   "kol": 42,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -614,8 +600,52 @@
    "zoo": "x_skip_pumped",
    "smart": 483,
    "kol": 58
+  },
+  {
+   "t": "2026-11-16T07:34:36+07:00",
+   "kind": "sell",
+   "mint": "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump",
+   "sym": "LMAO!",
+   "price": 0.001355,
+   "entry": 0.001376,
+   "usd": 2.2493,
+   "pnl": -0.1773,
+   "why": "ครบ 3 ชม. (-1.5%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 786,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-16T07:35:51+07:00",
+   "kind": "buy",
+   "mint": "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump",
+   "sym": "Max",
+   "price": 0.001186,
+   "jup": 0.0011798278614328903,
+   "usd": 1.7444,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 457,
+   "kol": 42
+  },
+  {
+   "t": "2026-11-16T07:37:54+07:00",
+   "kind": "sell",
+   "mint": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
+   "sym": "PAID",
+   "price": 0.001229,
+   "entry": 0.001287,
+   "usd": 2.1465,
+   "pnl": -0.2415,
+   "why": "ครบ 3 ชม. (-4.5%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 668,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794788993.0296528
+ "rank_t": 1794789276.55657
 }
