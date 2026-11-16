@@ -7,7 +7,7 @@
    "sym": "UHI",
    "qty": 1085.0525482221435,
    "entry": 0.0006187,
-   "last": 0.0006587,
+   "last": 0.0006529,
    "peak": 0.0006869,
    "cost": 0.6919418795970318,
    "opened": "2026-11-16T17:09:19+07:00",
@@ -35,7 +35,7 @@
    "sym": "Kodak",
    "qty": 6126.446123433145,
    "entry": 0.0001075,
-   "last": 0.0001019,
+   "last": 9.969e-05,
    "peak": 0.0001075,
    "cost": 0.6788218493806051,
    "opened": "2026-11-16T17:52:07+07:00",
@@ -56,14 +56,14 @@
    "zoo": "w_ban_scalp",
    "smart": 180,
    "kol": 10,
-   "gap": 12,
+   "gap": 23,
    "miss": 0
   },
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 2114.91923914631,
    "entry": 0.0003106,
-   "last": 0.0002963,
+   "last": 0.0003086,
    "peak": 0.0003128,
    "cost": 0.6770706201596,
    "opened": "2026-11-16T18:25:02+07:00",
@@ -3344,10 +3344,17 @@
    "zoo": "w_ban_scalp",
    "smart": 85,
    "kol": 4
+  },
+  {
+   "t": "2026-11-16T18:52:08+07:00",
+   "kind": "ban",
+   "mint": "4Wdn6GGJLdyeMLLfzu3pPQMmf9Kivd8e9xmbLb2bpump",
+   "sym": "ANT",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794829578.496753,
+ "rank_t": 1794829870.4057121,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
@@ -3357,6 +3364,7 @@
   "XkeTXo1125vz5H9svJpGiw4JvLbN8VmMu9cmMvspump": "DREGG",
   "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS": "BAGSPAY",
   "8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": "WEALTH",
-  "B9FgqHbtccsgcL6YPfUhNd81qveNtrTbsfLvcjxtpump": "AICoin"
+  "B9FgqHbtccsgcL6YPfUhNd81qveNtrTbsfLvcjxtpump": "AICoin",
+  "4Wdn6GGJLdyeMLLfzu3pPQMmf9Kivd8e9xmbLb2bpump": "ANT"
  }
 }
