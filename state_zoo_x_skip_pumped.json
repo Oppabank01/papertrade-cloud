@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 3.581442705360664,
+ "cash": 1.2175392059582548,
  "pos": {
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
    "sym": "TROLL",
@@ -21,14 +21,42 @@
    "sym": "Pterodactyl",
    "qty": 11864.875287985422,
    "entry": 9.941e-05,
-   "last": 9.815e-05,
-   "peak": 9.941e-05,
+   "last": 0.0001023,
+   "peak": 0.0001023,
    "cost": 1.2157155765601226,
    "opened": "2026-11-16T14:21:06+07:00",
    "zoo": "x_skip_pumped",
    "smart": 57,
    "kol": 1,
    "gap": 0,
+   "miss": 0
+  },
+  "EJvUBkKf4HKKy7m1xrSQfk6yLH2U8dsR1adREbkNpump": {
+   "sym": "Percy",
+   "qty": 13226.27708815265,
+   "entry": 8.696e-05,
+   "last": 8.020910543484238e-05,
+   "peak": 8.696e-05,
+   "cost": 1.1854844934918103,
+   "opened": "2026-11-16T14:25:54+07:00",
+   "zoo": "x_skip_pumped",
+   "smart": 42,
+   "kol": 2,
+   "gap": 5,
+   "miss": 0
+  },
+  "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": {
+   "sym": "BTC",
+   "qty": 807.4167510836604,
+   "entry": 0.001416,
+   "last": 0.001429,
+   "peak": 0.001429,
+   "cost": 1.178419005910599,
+   "opened": "2026-11-16T14:25:56+07:00",
+   "zoo": "x_skip_pumped",
+   "smart": 787,
+   "kol": 69,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -1109,8 +1137,36 @@
    "cost_side": 0.03,
    "smart": 224,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T14:25:54+07:00",
+   "kind": "buy",
+   "mint": "EJvUBkKf4HKKy7m1xrSQfk6yLH2U8dsR1adREbkNpump",
+   "sym": "Percy",
+   "price": 8.696e-05,
+   "jup": 8.671498216780047e-05,
+   "usd": 1.1855,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 42,
+   "kol": 2
+  },
+  {
+   "t": "2026-11-16T14:25:56+07:00",
+   "kind": "buy",
+   "mint": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+   "sym": "BTC",
+   "price": 0.001416,
+   "jup": 0.0014294732292085262,
+   "usd": 1.1784,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 787,
+   "kol": 69
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794813555.7501037
+ "rank_t": 1794813850.57358
 }

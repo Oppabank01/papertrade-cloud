@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.7609344466539892,
+ "cash": 0.37205591373586105,
  "pos": {
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
@@ -21,7 +21,7 @@
    "sym": "CLAUDIA",
    "qty": 95.69843807932017,
    "entry": 0.004205,
-   "last": 0.004334,
+   "last": 0.004284,
    "peak": 0.004344,
    "cost": 0.4147721419537635,
    "opened": "2026-11-16T12:36:25+07:00",
@@ -42,7 +42,21 @@
    "zoo": "boosted",
    "smart": 57,
    "kol": 6,
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump": {
+   "sym": "GTA",
+   "qty": 2593.05809372624,
+   "entry": 0.0001455,
+   "last": 0.0001455,
+   "peak": 0.0001455,
+   "cost": 0.3888785329181282,
+   "opened": "2026-11-16T14:24:54+07:00",
+   "zoo": "boosted",
+   "smart": 13,
+   "kol": 0,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -2752,8 +2766,22 @@
    "cost_side": 0.03,
    "smart": 722,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T14:24:54+07:00",
+   "kind": "buy",
+   "mint": "G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump",
+   "sym": "GTA",
+   "price": 0.0001455,
+   "jup": 0.00014545230125707665,
+   "usd": 0.3889,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 13,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794813555.7501037
+ "rank_t": 1794813850.57358
 }

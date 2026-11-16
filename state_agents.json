@@ -1,34 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.3302702361899241,
+ "cash": 0.19748796453962913,
  "pos": {
   "6hjaMcRPvB4DEGpHqgHxmgipb2vrGQWMewZBAVSLpump": {
    "sym": "STATE?",
    "qty": 1351.3937200749615,
    "entry": 8.786e-05,
-   "last": 8.718192881904571e-05,
+   "last": 8.713e-05,
    "peak": 8.807e-05,
    "cost": 0.12238038780229449,
    "opened": "2026-11-16T12:55:22+07:00",
    "smart": 149,
    "kol": 5,
    "bundler": 0.0918,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
    "sym": "STANK",
    "qty": 84.15411752957272,
    "entry": 0.001246,
-   "last": 0.001312,
+   "last": 0.001311,
    "peak": 0.001312,
    "cost": 0.10807671659642096,
    "opened": "2026-11-16T13:27:29+07:00",
    "smart": 78,
    "kol": 1,
    "bundler": 0.1162,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "9AvytnUKsLxPxFHFqS6VLxaxt5p6BhYNr53SD2Chpump": {
@@ -42,6 +42,20 @@
    "smart": 372,
    "kol": 63,
    "bundler": 0.0773,
+   "gap": 0,
+   "miss": 0
+  },
+  "EJvUBkKf4HKKy7m1xrSQfk6yLH2U8dsR1adREbkNpump": {
+   "sym": "Percy",
+   "qty": 1658.1974508317185,
+   "entry": 7.769e-05,
+   "last": 7.451e-05,
+   "peak": 7.769e-05,
+   "cost": 0.132782271650295,
+   "opened": "2026-11-16T14:24:16+07:00",
+   "smart": 42,
+   "kol": 2,
+   "bundler": 0.15,
    "gap": 0,
    "miss": 0
   }
@@ -39577,6 +39591,31 @@
    "buy": 0.8264,
    "bull": 0.8899,
    "bear": 1.0
+  },
+  {
+   "t": "2026-11-16T14:24:16+07:00",
+   "kind": "debate",
+   "mint": "EJvUBkKf4HKKy7m1xrSQfk6yLH2U8dsR1adREbkNpump",
+   "sym": "Percy",
+   "ok": true,
+   "bundler": 0.15,
+   "buy": 0.74,
+   "bull": 0.942,
+   "bear": 0.4844
+  },
+  {
+   "t": "2026-11-16T14:24:16+07:00",
+   "kind": "buy",
+   "mint": "EJvUBkKf4HKKy7m1xrSQfk6yLH2U8dsR1adREbkNpump",
+   "sym": "Percy",
+   "price": 7.769e-05,
+   "jup": 7.724391823319477e-05,
+   "usd": 0.1328,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 42,
+   "kol": 2,
+   "bundler": 0.15
   }
  ]
 }
