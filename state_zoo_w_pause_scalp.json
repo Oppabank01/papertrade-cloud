@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 5.482199902440124,
- "pos": {
-  "B9FgqHbtccsgcL6YPfUhNd81qveNtrTbsfLvcjxtpump": {
-   "sym": "AICoin",
-   "qty": 6547.893840106302,
-   "entry": 9.172e-05,
-   "last": 8.538e-05,
-   "peak": 9.881e-05,
-   "cost": 0.6190196073124614,
-   "opened": "2026-11-16T15:40:53+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 97,
-   "kol": 10,
-   "gap": 39,
-   "miss": 0
-  }
- },
+ "cash": 6.028508621458817,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-15T00:43:00+07:00",
@@ -3122,10 +3107,25 @@
    "cost_side": 0.03,
    "smart": 41,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T17:41:19+07:00",
+   "kind": "sell",
+   "mint": "B9FgqHbtccsgcL6YPfUhNd81qveNtrTbsfLvcjxtpump",
+   "sym": "AICoin",
+   "price": 8.599540217690229e-05,
+   "entry": 9.172e-05,
+   "usd": 0.5463,
+   "pnl": -0.0727,
+   "why": "ครบ 2 ชม. (-6.2%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 97,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794825395.6511722,
+ "rank_t": 1794825679.5270953,
  "halted": "ราคา AICoin สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-16T18:29:41+07:00"
 }
