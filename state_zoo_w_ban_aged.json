@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.7325475807845616,
+ "cash": 0.8191008614094119,
  "pos": {
   "2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump": {
    "sym": "Peekhole",
    "qty": 1474.8137767079895,
    "entry": 0.0006522,
-   "last": 0.0006924,
+   "last": 0.0007001,
    "peak": 0.0007099,
    "cost": 0.9914177954740784,
    "opened": "2026-11-16T12:22:39+07:00",
@@ -21,7 +21,7 @@
    "sym": "ANSEM",
    "qty": 18.905715855490712,
    "entry": 0.04908,
-   "last": 0.0484,
+   "last": 0.04821,
    "peak": 0.04915,
    "cost": 0.9563930469877182,
    "opened": "2026-11-16T12:51:57+07:00",
@@ -35,7 +35,7 @@
    "sym": "b",
    "qty": 2827.2130575608057,
    "entry": 0.0003216,
-   "last": 0.000319,
+   "last": 0.0003182,
    "peak": 0.0003216,
    "cost": 0.9371590592780408,
    "opened": "2026-11-16T13:19:17+07:00",
@@ -43,6 +43,20 @@
    "smart": 111,
    "kol": 8,
    "gap": 0,
+   "miss": 0
+  },
+  "82Z6CcE5g3o1jW3vgtcqr95jP4XFx8jg1SJe8ikepump": {
+   "sym": "PANICSELL",
+   "qty": 2893.326827090337,
+   "entry": 0.0003063,
+   "last": 0.0003029,
+   "peak": 0.0003104,
+   "cost": 0.9134467193751498,
+   "opened": "2026-11-16T13:29:07+07:00",
+   "zoo": "w_ban_aged",
+   "smart": 27,
+   "kol": 0,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -2122,10 +2136,24 @@
    "cost_side": 0.03,
    "smart": 318,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T13:29:07+07:00",
+   "kind": "buy",
+   "mint": "82Z6CcE5g3o1jW3vgtcqr95jP4XFx8jg1SJe8ikepump",
+   "sym": "PANICSELL",
+   "price": 0.0003063,
+   "jup": 0.00030651647681159065,
+   "usd": 0.9134,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_aged",
+   "smart": 27,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794810167.7377806,
+ "rank_t": 1794810438.5582078,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": "CHOO",
