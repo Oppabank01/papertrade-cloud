@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.6616183820933483,
+ "cash": 0.3198893890660359,
  "pos": {
   "FP7NvFXQXoZL1nQC5QZtE1bzwgALdxj1TeA9J25epump": {
    "sym": "CatFu",
@@ -21,14 +21,14 @@
    "sym": "gtacoin",
    "qty": 652.9829368537538,
    "entry": 0.0005209,
-   "last": 0.0004946443373297398,
+   "last": 0.0004914,
    "peak": 0.0005696,
    "cost": 0.350586283041765,
    "opened": "2026-11-16T17:27:49+07:00",
    "zoo": "boosted",
    "smart": 33,
    "kol": 0,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "C2omVhcvt3DDY77S2KZzawFJQeETZofgZ4eNWWkXpump": {
@@ -42,6 +42,20 @@
    "zoo": "boosted",
    "smart": 129,
    "kol": 6,
+   "gap": 0,
+   "miss": 0
+  },
+  "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": {
+   "sym": "LuckyCoin",
+   "qty": 1283.5674372245394,
+   "entry": 0.0002583,
+   "last": 0.0002583,
+   "peak": 0.0002583,
+   "cost": 0.3417289930273124,
+   "opened": "2026-11-16T18:09:59+07:00",
+   "zoo": "boosted",
+   "smart": 47,
+   "kol": 5,
    "gap": 0,
    "miss": 0
   }
@@ -2926,8 +2940,22 @@
    "cost_side": 0.03,
    "smart": 123,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T18:09:59+07:00",
+   "kind": "buy",
+   "mint": "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump",
+   "sym": "LuckyCoin",
+   "price": 0.0002583,
+   "jup": 0.00025808956785816005,
+   "usd": 0.3417,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 47,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794827071.8636467
+ "rank_t": 1794827352.183018
 }
