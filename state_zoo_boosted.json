@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.7363920839430094,
+ "cash": 0.37200989423860586,
  "pos": {
   "2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump": {
    "sym": "Peekhole",
    "qty": 525.7825673547466,
    "entry": 0.0007407,
-   "last": 0.0007064,
+   "last": 0.0007158,
    "peak": 0.0007407,
    "cost": 0.40140914001201894,
    "opened": "2026-11-16T13:51:43+07:00",
@@ -35,14 +35,28 @@
    "sym": "CatFu",
    "qty": 4975.410416200136,
    "entry": 7.243e-05,
-   "last": 7.041e-05,
+   "last": 7.069e-05,
    "peak": 7.243e-05,
    "cost": 0.37143782358830735,
    "opened": "2026-11-16T15:16:47+07:00",
    "zoo": "boosted",
    "smart": 81,
    "kol": 3,
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
+   "sym": "GATO",
+   "qty": 50.604580654339,
+   "entry": 0.006986,
+   "last": 0.006986,
+   "peak": 0.006986,
+   "cost": 0.3643821897044035,
+   "opened": "2026-11-16T15:49:57+07:00",
+   "zoo": "boosted",
+   "smart": 63,
+   "kol": 4,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -2839,8 +2853,22 @@
    "cost_side": 0.03,
    "smart": 439,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T15:49:57+07:00",
+   "kind": "buy",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "price": 0.006986,
+   "jup": 0.007003954494696347,
+   "usd": 0.3644,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 63,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794818643.8841527
+ "rank_t": 1794818936.156588
 }
