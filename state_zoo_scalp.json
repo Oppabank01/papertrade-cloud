@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.718163993107183,
- "pos": {},
+ "cash": 2.174531194485746,
+ "pos": {
+  "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
+   "sym": "JENSEN",
+   "qty": 2284.246605554429,
+   "entry": 0.0002309,
+   "last": 0.0002309,
+   "peak": 0.0002309,
+   "cost": 0.5436327986214365,
+   "opened": "2026-11-16T21:37:38+07:00",
+   "zoo": "scalp",
+   "smart": 5,
+   "kol": 0,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:42:01+07:00",
@@ -1308,8 +1323,22 @@
    "cost_side": 0.03,
    "smart": 47,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T21:37:38+07:00",
+   "kind": "buy",
+   "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+   "sym": "JENSEN",
+   "price": 0.0002309,
+   "jup": 0.00023094477497707098,
+   "usd": 0.5436,
+   "stop_set": -0.05,
+   "cost_side": 0.03,
+   "zoo": "scalp",
+   "smart": 5,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: เก็บสั้น +10% ตัด -5% 30 นาที",
- "rank_t": 1794839530.2684104
+ "rank_t": 1794839820.7102895
 }
