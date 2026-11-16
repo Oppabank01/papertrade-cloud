@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 2.4272857461358726,
+ "cash": 1.108294082146399,
  "pos": {
   "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": {
    "sym": "Kimchi",
    "qty": 790.3353877527734,
    "entry": 0.001893,
-   "last": 0.001843,
+   "last": 0.001852,
    "peak": 0.001893,
    "cost": 1.5420582240940015,
    "opened": "2026-11-16T08:14:06+07:00",
@@ -21,7 +21,7 @@
    "sym": "GATO",
    "qty": 197.93509067758836,
    "entry": 0.007356,
-   "last": 0.007086,
+   "last": 0.007114,
    "peak": 0.007492,
    "cost": 1.5007323510867243,
    "opened": "2026-11-16T08:52:04+07:00",
@@ -35,14 +35,28 @@
    "sym": "DacityCoin",
    "qty": 271.49634353916707,
    "entry": 0.004865,
-   "last": 0.004867,
-   "peak": 0.004867,
+   "last": 0.004832439617259794,
+   "peak": 0.004909,
    "cost": 1.3613994138508019,
    "opened": "2026-11-16T11:02:37+07:00",
    "zoo": "x_skip_pumped",
    "smart": 249,
    "kol": 20,
-   "gap": 0,
+   "gap": 2,
+   "miss": 0
+  },
+  "6sBvfTnThBPUQsEWjiXdgCnHwxGZfEDqegtVu4vLpump": {
+   "sym": "WANTED",
+   "qty": 9724.055565369204,
+   "entry": 0.0001316,
+   "last": 0.0001321,
+   "peak": 0.0001331,
+   "cost": 1.3189916639894737,
+   "opened": "2026-11-16T11:11:59+07:00",
+   "zoo": "x_skip_pumped",
+   "smart": 38,
+   "kol": 1,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -934,8 +948,22 @@
    "cost_side": 0.03,
    "smart": 153,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T11:11:59+07:00",
+   "kind": "buy",
+   "mint": "6sBvfTnThBPUQsEWjiXdgCnHwxGZfEDqegtVu4vLpump",
+   "sym": "WANTED",
+   "price": 0.0001316,
+   "jup": 0.00013292234473699977,
+   "usd": 1.319,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 38,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794801902.1822283
+ "rank_t": 1794802187.0152783
 }

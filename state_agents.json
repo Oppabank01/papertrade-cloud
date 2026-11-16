@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.6582278491935808,
- "pos": {},
+ "cash": 0.5265822793548647,
+ "pos": {
+  "9M6mXY89WSMj9g68rTirN2FiCqM9RfbCFeJpGxzLpump": {
+   "sym": "Holden",
+   "qty": 2051.1085893290897,
+   "entry": 6.227e-05,
+   "last": 6.227e-05,
+   "peak": 6.227e-05,
+   "cost": 0.13164556983871617,
+   "opened": "2026-11-16T11:09:58+07:00",
+   "smart": 18,
+   "kol": 1,
+   "bundler": 0.2928,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T01:37:56+07:00",
@@ -37840,6 +37855,75 @@
    "cost_side": 0.03,
    "smart": 119,
    "bundler": 0.1376
+  },
+  {
+   "t": "2026-11-16T11:09:53+07:00",
+   "kind": "debate",
+   "mint": "HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump",
+   "sym": "Marvin",
+   "ok": true,
+   "bundler": 0.2654,
+   "buy": 0.8308,
+   "bull": 0.9228,
+   "bear": 0.0001
+  },
+  {
+   "t": "2026-11-16T11:09:55+07:00",
+   "kind": "debate",
+   "mint": "5w3wVdJaESaJKyLmStM6Hv9UyUkmZ1b9DLQquAqqpump",
+   "sym": "SID",
+   "ok": false,
+   "bundler": 0.0017,
+   "buy": 0.8545,
+   "bull": 0.8156,
+   "bear": 0.9983
+  },
+  {
+   "t": "2026-11-16T11:09:56+07:00",
+   "kind": "debate",
+   "mint": "Fww6zaNKcjpJaB33JayvUzsofBUobX5JaHiuQBN1Jf9g",
+   "sym": "XRL",
+   "ok": false,
+   "bundler": 0.2032,
+   "buy": 0.8221,
+   "bull": 0.9401,
+   "bear": 0.9999
+  },
+  {
+   "t": "2026-11-16T11:09:58+07:00",
+   "kind": "debate",
+   "mint": "9M6mXY89WSMj9g68rTirN2FiCqM9RfbCFeJpGxzLpump",
+   "sym": "Holden",
+   "ok": true,
+   "bundler": 0.2928,
+   "buy": 0.8128,
+   "bull": 0.9306,
+   "bear": 0.0
+  },
+  {
+   "t": "2026-11-16T11:09:58+07:00",
+   "kind": "buy",
+   "mint": "9M6mXY89WSMj9g68rTirN2FiCqM9RfbCFeJpGxzLpump",
+   "sym": "Holden",
+   "price": 6.227e-05,
+   "jup": 6.231142174093747e-05,
+   "usd": 0.1316,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 18,
+   "kol": 1,
+   "bundler": 0.2928
+  },
+  {
+   "t": "2026-11-16T11:10:00+07:00",
+   "kind": "debate",
+   "mint": "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump",
+   "sym": "AURA",
+   "ok": true,
+   "bundler": 0.0721,
+   "buy": 0.81,
+   "bull": 0.9401,
+   "bear": 0.161
   }
  ]
 }

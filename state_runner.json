@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.131523554976937,
+ "cash": 0.9904703002607447,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 26.76591054270035,
    "entry": 0.04185,
-   "last": 0.04303,
+   "last": 0.04302,
    "peak": 0.04461,
    "cost": 1.1545592209977424,
    "opened": "2026-11-15T15:08:55+07:00",
@@ -19,7 +19,7 @@
    "sym": "Jimothy",
    "qty": 913.891600623336,
    "entry": 0.00125,
-   "last": 0.0012469824984904327,
+   "last": 0.00124,
    "peak": 0.001273,
    "cost": 1.1774525878985467,
    "opened": "2026-11-15T16:38:18+07:00",
@@ -35,6 +35,18 @@
    "peak": 0.000158,
    "cost": 1.0898500212809743,
    "opened": "2026-11-16T06:23:53+07:00",
+   "source": "agents",
+   "gap": 0,
+   "miss": 0
+  },
+  "9M6mXY89WSMj9g68rTirN2FiCqM9RfbCFeJpGxzLpump": {
+   "sym": "Holden",
+   "qty": 17778.22173961217,
+   "entry": 6.227e-05,
+   "last": 6.227e-05,
+   "peak": 6.227e-05,
+   "cost": 1.1410532547161922,
+   "opened": "2026-11-16T11:10:10+07:00",
    "source": "agents",
    "gap": 0,
    "miss": 0
@@ -1057,6 +1069,18 @@
    "cost_side": 0.03,
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T11:10:10+07:00",
+   "kind": "buy",
+   "mint": "9M6mXY89WSMj9g68rTirN2FiCqM9RfbCFeJpGxzLpump",
+   "sym": "Holden",
+   "price": 6.227e-05,
+   "jup": 6.231142174093747e-05,
+   "usd": 1.1411,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "agents"
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",
@@ -1195,6 +1219,7 @@
   "state_agents.json:2026-11-16T07:25:36+07:00:Cr8kuNqKwiVVuzqLYKcJhmpSHy767837BwLFr9GDYXUf",
   "state_agents.json:2026-11-16T09:27:13+07:00:9iG6qBMgzzuYyq2kfXcAD49bkTFrpGp5gr1QHJiZMwoi",
   "state_agents.json:2026-11-16T09:50:19+07:00:5qRxJ9W45zUrUtGGDneysiRBKZaceNriEqVUei1Rpump",
-  "state_agents.json:2026-11-16T10:13:35+07:00:HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump"
+  "state_agents.json:2026-11-16T10:13:35+07:00:HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
+  "state_agents.json:2026-11-16T11:09:58+07:00:9M6mXY89WSMj9g68rTirN2FiCqM9RfbCFeJpGxzLpump"
  ]
 }
