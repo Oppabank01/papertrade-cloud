@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 4.097036611719412,
+ "cash": 3.4199659915598124,
  "pos": {
   "34As1e1Kop9zBvu5e84kjg452Uigq8krcoGEJiWRpump": {
    "sym": "UHI",
    "qty": 1085.0525482221435,
    "entry": 0.0006187,
-   "last": 0.0006822,
-   "peak": 0.0006836,
+   "last": 0.0006613,
+   "peak": 0.0006869,
    "cost": 0.6919418795970318,
    "opened": "2026-11-16T17:09:19+07:00",
    "zoo": "w_ban_scalp",
@@ -35,7 +35,7 @@
    "sym": "Kodak",
    "qty": 6126.446123433145,
    "entry": 0.0001075,
-   "last": 0.0001015,
+   "last": 0.0001035,
    "peak": 0.0001075,
    "cost": 0.6788218493806051,
    "opened": "2026-11-16T17:52:07+07:00",
@@ -49,14 +49,28 @@
    "sym": "ANT",
    "qty": 2937.0987385864432,
    "entry": 0.0002241,
-   "last": 0.00021341405087656797,
+   "last": 0.0002193,
    "peak": 0.0002273,
    "cost": 0.6784207661484456,
    "opened": "2026-11-16T17:57:08+07:00",
    "zoo": "w_ban_scalp",
    "smart": 180,
    "kol": 10,
-   "gap": 11,
+   "gap": 0,
+   "miss": 0
+  },
+  "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
+   "sym": "Leonida",
+   "qty": 2114.91923914631,
+   "entry": 0.0003106,
+   "last": 0.0003067,
+   "peak": 0.0003128,
+   "cost": 0.6770706201596,
+   "opened": "2026-11-16T18:25:02+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 85,
+   "kol": 4,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -3316,10 +3330,24 @@
    "cost_side": 0.03,
    "smart": 111,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T18:25:02+07:00",
+   "kind": "buy",
+   "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "sym": "Leonida",
+   "price": 0.0003106,
+   "jup": 0.0003095133969977292,
+   "usd": 0.6771,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 85,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794827901.2945073,
+ "rank_t": 1794828190.072622,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
