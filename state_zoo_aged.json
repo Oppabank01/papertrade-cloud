@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.2759245556469685,
+ "cash": 0.5598483877880955,
  "pos": {
   "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
    "sym": "CRIME",
@@ -42,6 +42,20 @@
    "zoo": "aged",
    "smart": 687,
    "kol": 69,
+   "gap": 0,
+   "miss": 0
+  },
+  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
+   "sym": "GTA6",
+   "qty": 102.95451956975083,
+   "entry": 0.006748,
+   "last": 0.006751,
+   "peak": 0.006751,
+   "cost": 0.716076167858873,
+   "opened": "2026-11-16T09:18:44+07:00",
+   "zoo": "aged",
+   "smart": 289,
+   "kol": 23,
    "gap": 0,
    "miss": 0
   }
@@ -2380,8 +2394,22 @@
    "cost_side": 0.03,
    "smart": 24,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T09:18:44+07:00",
+   "kind": "buy",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.006748,
+   "jup": 0.006755159613477134,
+   "usd": 0.7161,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "aged",
+   "smart": 289,
+   "kol": 23
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุเกิน 1 วัน ยังมีคนเล่น",
- "rank_t": 1794795193.3672764
+ "rank_t": 1794795468.882851
 }
