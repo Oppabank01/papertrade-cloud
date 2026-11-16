@@ -1,48 +1,48 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 4.148734629683696,
+ "cash": 4.237944094152358,
  "pos": {
-  "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
-   "sym": "Dacity",
-   "qty": 331.97336178800595,
-   "entry": 0.001821,
-   "last": 0.001982,
-   "peak": 0.002086,
-   "cost": 0.6230916221562139,
-   "opened": "2026-11-16T21:43:02+07:00",
-   "zoo": "w_ban_scalp",
-   "smart": 425,
-   "kol": 38,
-   "gap": 0,
-   "miss": 0
-  },
   "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": {
    "sym": "fone",
    "qty": 667.8754298625847,
    "entry": 0.0008826,
-   "last": 0.0008351,
+   "last": 0.0008491,
    "peak": 0.0008826,
    "cost": 0.6075725153542747,
    "opened": "2026-11-16T22:15:06+07:00",
    "zoo": "w_ban_scalp",
    "smart": 483,
    "kol": 58,
-   "gap": 9,
+   "gap": 0,
    "miss": 0
   },
   "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": {
    "sym": "rockstar",
    "qty": 625.7254577937182,
    "entry": 0.0009273,
-   "last": 0.0009664,
+   "last": 0.0009258701925168945,
    "peak": 0.0009919,
    "cost": 0.5980573253062409,
    "opened": "2026-11-16T23:15:51+07:00",
    "zoo": "w_ban_scalp",
    "smart": 68,
    "kol": 4,
-   "gap": 0,
+   "gap": 2,
+   "miss": 0
+  },
+  "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
+   "sym": "JENSEN",
+   "qty": 3633.5598501765903,
+   "entry": 0.0001591,
+   "last": 0.00015024769516713124,
+   "peak": 0.0001591,
+   "cost": 0.5958558773068393,
+   "opened": "2026-11-16T23:30:07+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 5,
+   "kol": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -3614,10 +3614,46 @@
    "cost_side": 0.03,
    "smart": 27,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T23:30:07+07:00",
+   "kind": "buy",
+   "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+   "sym": "JENSEN",
+   "price": 0.0001591,
+   "jup": 0.00015956659923442015,
+   "usd": 0.5959,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 5,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-16T23:30:34+07:00",
+   "kind": "ban",
+   "mint": "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump",
+   "sym": "fone",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-16T23:32:35+07:00",
+   "kind": "sell",
+   "mint": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
+   "sym": "Dacity",
+   "price": 0.002127,
+   "entry": 0.001821,
+   "usd": 0.6851,
+   "pnl": 0.062,
+   "why": "ถึงเป้า +16.8%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 425,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794846266.2781339,
+ "rank_t": 1794846548.3951228,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
@@ -3628,6 +3664,7 @@
   "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS": "BAGSPAY",
   "8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": "WEALTH",
   "B9FgqHbtccsgcL6YPfUhNd81qveNtrTbsfLvcjxtpump": "AICoin",
-  "4Wdn6GGJLdyeMLLfzu3pPQMmf9Kivd8e9xmbLb2bpump": "ANT"
+  "4Wdn6GGJLdyeMLLfzu3pPQMmf9Kivd8e9xmbLb2bpump": "ANT",
+  "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": "fone"
  }
 }

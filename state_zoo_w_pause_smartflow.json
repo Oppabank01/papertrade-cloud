@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.0,
+ "cash": 0.3257481019801451,
  "pos": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": {
    "sym": "WOJAK",
@@ -21,41 +21,27 @@
    "sym": "PAID",
    "qty": 1111.6609493267554,
    "entry": 0.001154,
-   "last": 0.001194,
+   "last": 0.001218,
    "peak": 0.001587,
    "cost": 1.3222600860885134,
    "opened": "2026-11-15T23:34:03+07:00",
    "zoo": "w_pause_smartflow",
    "smart": 668,
    "kol": 93,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": {
    "sym": "GTA",
    "qty": 171.23752680593986,
    "entry": 0.001,
-   "last": 0.001086,
+   "last": 0.0010733585919645973,
    "peak": 0.001146,
    "cost": 0.1764971416264068,
    "opened": "2026-11-16T14:11:04+07:00",
    "zoo": "w_pause_smartflow",
    "smart": 274,
    "kol": 14,
-   "gap": 1,
-   "miss": 0
-  },
-  "FYtY5KpMRBHSiCMAqkWWrY2GtNVXs1h8jubbnno7pump": {
-   "sym": "👠",
-   "qty": 7207.514642864751,
-   "entry": 6.44e-05,
-   "last": 5.991121427908956e-05,
-   "peak": 7.904e-05,
-   "cost": 0.4784208853849618,
-   "opened": "2026-11-16T23:21:09+07:00",
-   "zoo": "w_pause_smartflow",
-   "smart": 39,
-   "kol": 0,
    "gap": 3,
    "miss": 0
   }
@@ -1033,8 +1019,23 @@
    "zoo": "w_pause_smartflow",
    "smart": 39,
    "kol": 0
+  },
+  {
+   "t": "2026-11-16T23:29:30+07:00",
+   "kind": "sell",
+   "mint": "FYtY5KpMRBHSiCMAqkWWrY2GtNVXs1h8jubbnno7pump",
+   "sym": "👠",
+   "price": 4.6583819061844665e-05,
+   "entry": 6.44e-05,
+   "usd": 0.3257,
+   "pnl": -0.1527,
+   "why": "stop -27.7%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 39,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794846266.2781339
+ "rank_t": 1794846548.3951228
 }
