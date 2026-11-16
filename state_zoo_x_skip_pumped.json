@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 2.8188588969886963,
+ "cash": 1.2190550790548944,
  "pos": {
   "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
    "sym": "SAPLING",
@@ -21,7 +21,7 @@
    "sym": "fone",
    "qty": 2146.4610219358797,
    "entry": 0.0007998,
-   "last": 0.000824,
+   "last": 0.0008255,
    "peak": 0.0008277,
    "cost": 1.769469723092472,
    "opened": "2026-11-16T07:11:41+07:00",
@@ -35,14 +35,28 @@
    "sym": "MANIFEST",
    "qty": 408.7172778942013,
    "entry": 0.003747,
-   "last": 0.003534,
+   "last": 0.003623,
    "peak": 0.003785,
    "cost": 1.5785030305808827,
    "opened": "2026-11-16T07:55:14+07:00",
    "zoo": "x_skip_pumped",
    "smart": 80,
    "kol": 15,
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": {
+   "sym": "BUTTHOLE",
+   "qty": 2784.089083693945,
+   "entry": 0.0005575,
+   "last": 0.0005536,
+   "peak": 0.0005575,
+   "cost": 1.5998038179338019,
+   "opened": "2026-11-16T08:05:16+07:00",
+   "zoo": "x_skip_pumped",
+   "smart": 95,
+   "kol": 10,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -731,8 +745,22 @@
    "cost_side": 0.03,
    "smart": 62,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T08:05:16+07:00",
+   "kind": "buy",
+   "mint": "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump",
+   "sym": "BUTTHOLE",
+   "price": 0.0005575,
+   "jup": 0.0005536461880468043,
+   "usd": 1.5998,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 95,
+   "kol": 10
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794790696.059116
+ "rank_t": 1794790973.043165
 }

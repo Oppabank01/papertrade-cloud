@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 5.286766278499171,
+ "cash": 5.992128517082238,
  "pos": {
-  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
-   "sym": "GATO",
-   "qty": 102.67302117478293,
-   "entry": 0.007394,
-   "last": 0.007148,
-   "peak": 0.007623,
-   "cost": 0.7824822908331737,
-   "opened": "2026-11-16T06:01:49+07:00",
-   "zoo": "w_ban_scalp",
-   "smart": 63,
-   "kol": 4,
-   "gap": 0,
-   "miss": 0
-  },
   "488SaFq6wHF2z2k6NLSD3PtoSkXDNZaPkJwxze11pump": {
    "sym": "MOMO",
    "qty": 7078.135910263288,
@@ -35,14 +21,14 @@
    "sym": "GTA",
    "qty": 5398.445736512191,
    "entry": 0.0001342,
-   "last": 0.000123,
+   "last": 0.0001244,
    "peak": 0.00014820938105058286,
    "cost": 0.7467237866830922,
    "opened": "2026-11-16T07:22:37+07:00",
    "zoo": "w_ban_scalp",
    "smart": 11,
    "kol": 0,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -2614,10 +2600,25 @@
    "cost_side": 0.03,
    "smart": 0,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T08:02:53+07:00",
+   "kind": "sell",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "price": 0.007081,
+   "entry": 0.007394,
+   "usd": 0.7054,
+   "pnl": -0.0771,
+   "why": "ครบ 2 ชม. (-4.2%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 63,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794790696.059116,
+ "rank_t": 1794790973.043165,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
