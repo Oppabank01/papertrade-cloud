@@ -1,41 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 4.004530493702536,
+ "cash": 4.563786761732625,
  "pos": {
-  "HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump": {
-   "sym": "HYGG",
-   "qty": 1474.6329016829675,
-   "entry": 0.0004227,
-   "last": 0.0003959,
-   "peak": 0.0004227,
-   "cost": 0.6424730236460423,
-   "opened": "2026-11-16T12:51:51+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 39,
-   "kol": 2,
-   "gap": 0,
-   "miss": 0
-  },
   "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": {
    "sym": "bill",
    "qty": 4578.169609660932,
    "entry": 0.0001323,
-   "last": 0.0001403,
+   "last": 0.0001191,
    "peak": 0.000142,
    "cost": 0.6242958558628544,
    "opened": "2026-11-16T13:47:16+07:00",
    "zoo": "w_pause_scalp",
    "smart": 124,
    "kol": 8,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": {
    "sym": "Snoopy",
    "qty": 1717.5090622797338,
    "entry": 0.0003546,
-   "last": 0.0003232,
+   "last": 0.0003162,
    "peak": 0.0003546,
    "cost": 0.6277352231337803,
    "opened": "2026-11-16T14:11:07+07:00",
@@ -49,7 +35,7 @@
    "sym": "GTA",
    "qty": 606.6072007174927,
    "entry": 0.001001,
-   "last": 0.0009775,
+   "last": 0.001002,
    "peak": 0.001004,
    "cost": 0.6258645721688416,
    "opened": "2026-11-16T14:11:07+07:00",
@@ -3056,8 +3042,23 @@
    "cost_side": 0.03,
    "smart": 169,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T14:52:04+07:00",
+   "kind": "sell",
+   "mint": "HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump",
+   "sym": "HYGG",
+   "price": 0.0003909,
+   "entry": 0.0004227,
+   "usd": 0.5593,
+   "pnl": -0.0832,
+   "why": "ครบ 2 ชม. (-7.5%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 39,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794815252.0714383
+ "rank_t": 1794815524.168509
 }
