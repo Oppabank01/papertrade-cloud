@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 4.237944094152358,
+ "cash": 4.1239180116170155,
  "pos": {
   "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": {
    "sym": "fone",
@@ -21,28 +21,28 @@
    "sym": "rockstar",
    "qty": 625.7254577937182,
    "entry": 0.0009273,
-   "last": 0.0009134,
+   "last": 0.0008756910206687773,
    "peak": 0.0009919,
    "cost": 0.5980573253062409,
    "opened": "2026-11-16T23:15:51+07:00",
    "zoo": "w_ban_scalp",
    "smart": 68,
    "kol": 4,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
-  "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
-   "sym": "JENSEN",
-   "qty": 3633.5598501765903,
-   "entry": 0.0001591,
-   "last": 0.0001391,
-   "peak": 0.0001591,
-   "cost": 0.5958558773068393,
-   "opened": "2026-11-16T23:30:07+07:00",
+  "GPzpoXpD74E2C4CJNayuoyBqPQJEsPtdse3nhntrpump": {
+   "sym": "LOOKSMAX",
+   "qty": 5413.84536618395,
+   "entry": 0.0001049,
+   "last": 0.0001038,
+   "peak": 0.0001049,
+   "cost": 0.585355987335288,
+   "opened": "2026-11-16T23:39:53+07:00",
    "zoo": "w_ban_scalp",
-   "smart": 5,
-   "kol": 0,
-   "gap": 0,
+   "smart": 302,
+   "kol": 20,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -3650,10 +3650,39 @@
    "cost_side": 0.03,
    "smart": 425,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T23:38:32+07:00",
+   "kind": "sell",
+   "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+   "sym": "JENSEN",
+   "price": 0.0001337,
+   "entry": 0.0001591,
+   "usd": 0.4713,
+   "pnl": -0.1245,
+   "why": "stop -16.0%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 5,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-16T23:39:53+07:00",
+   "kind": "buy",
+   "mint": "GPzpoXpD74E2C4CJNayuoyBqPQJEsPtdse3nhntrpump",
+   "sym": "LOOKSMAX",
+   "price": 0.0001049,
+   "jup": 0.00010421255580624529,
+   "usd": 0.5854,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 302,
+   "kol": 20
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794846837.4953182,
+ "rank_t": 1794847112.5824573,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
