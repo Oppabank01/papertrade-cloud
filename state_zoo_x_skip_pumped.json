@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 0.717082138484276,
+ "cash": 1.5995891045038002,
  "pos": {
   "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
    "sym": "neet",
    "qty": 40.56641994097728,
    "entry": 0.02799,
-   "last": 0.02804,
-   "peak": 0.02805,
+   "last": 0.02807,
+   "peak": 0.02807,
    "cost": 1.170329925940996,
    "opened": "2026-11-16T14:30:07+07:00",
    "zoo": "x_skip_pumped",
@@ -21,7 +21,7 @@
    "sym": "USELESS",
    "qty": 11.504978503079862,
    "entry": 0.09809,
-   "last": 0.1005,
+   "last": 0.1001,
    "peak": 0.1009,
    "cost": 1.163186292895386,
    "opened": "2026-11-16T14:35:12+07:00",
@@ -31,32 +31,18 @@
    "gap": 0,
    "miss": 0
   },
-  "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
-   "sym": "JENSEN",
-   "qty": 11330.005251610284,
-   "entry": 8.773e-05,
-   "last": 8.30757136298272e-05,
-   "peak": 9.21e-05,
-   "cost": 1.0245118127435273,
-   "opened": "2026-11-16T15:41:15+07:00",
-   "zoo": "x_skip_pumped",
-   "smart": 5,
-   "kol": 0,
-   "gap": 2,
-   "miss": 0
-  },
   "fX9dKa1DVdjSvYk3f2GAcj2RjQ5DFa54QTWAsXBpump": {
    "sym": "capy",
    "qty": 10176.293608162212,
    "entry": 9.445e-05,
-   "last": 9.108798130266504e-05,
+   "last": 8.891e-05,
    "peak": 0.0001012,
    "cost": 0.9906729862821284,
    "opened": "2026-11-16T17:09:40+07:00",
    "zoo": "x_skip_pumped",
    "smart": 4,
    "kol": 0,
-   "gap": 3,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1368,8 +1354,23 @@
    "zoo": "x_skip_pumped",
    "smart": 4,
    "kol": 0
+  },
+  {
+   "t": "2026-11-16T17:19:21+07:00",
+   "kind": "sell",
+   "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+   "sym": "JENSEN",
+   "price": 8.028358562348086e-05,
+   "entry": 8.773e-05,
+   "usd": 0.8825,
+   "pnl": -0.142,
+   "why": "stop -8.5%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 5,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794823967.2136724
+ "rank_t": 1794824240.4284132
 }

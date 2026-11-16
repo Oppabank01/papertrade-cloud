@@ -1,33 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.1068599906155336,
+ "cash": 2.646041622836447,
  "pos": {
-  "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": {
-   "sym": "gtacoin",
-   "qty": 1929.3629377444113,
-   "entry": 0.0004192,
-   "last": 0.0004729,
-   "peak": 0.0004822824484501377,
-   "cost": 0.8336311518268988,
-   "opened": "2026-11-16T14:15:10+07:00",
-   "zoo": "tomcruise",
-   "smart": 32,
-   "kol": 0,
-   "gap": 8,
-   "miss": 0
-  },
   "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": {
    "sym": "Sakura",
    "qty": 10408.293436791158,
    "entry": 2.99e-05,
-   "last": 2.996e-05,
+   "last": 2.898e-05,
    "peak": 3.168e-05,
    "cost": 0.32076682514951105,
    "opened": "2026-11-16T15:59:27+07:00",
    "zoo": "tomcruise",
    "smart": 154,
    "kol": 6,
+   "gap": 0,
+   "miss": 0
+  },
+  "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
+   "sym": "Leonida",
+   "qty": 1039.8396933793254,
+   "entry": 0.0003108,
+   "last": 0.0003108,
+   "peak": 0.0003108,
+   "cost": 0.3331088195241129,
+   "opened": "2026-11-16T17:18:09+07:00",
+   "zoo": "tomcruise",
+   "smart": 84,
+   "kol": 4,
    "gap": 0,
    "miss": 0
   }
@@ -1490,8 +1490,37 @@
    "zoo": "tomcruise",
    "smart": 154,
    "kol": 6
+  },
+  {
+   "t": "2026-11-16T17:18:09+07:00",
+   "kind": "buy",
+   "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "sym": "Leonida",
+   "price": 0.0003108,
+   "jup": 0.0003127643444810204,
+   "usd": 0.3331,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "tomcruise",
+   "smart": 84,
+   "kol": 4
+  },
+  {
+   "t": "2026-11-16T17:18:11+07:00",
+   "kind": "sell",
+   "mint": "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK",
+   "sym": "gtacoin",
+   "price": 0.000466,
+   "entry": 0.0004192,
+   "usd": 0.8723,
+   "pnl": 0.0387,
+   "why": "ครบ 3 ชม. (+11.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 32,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: tomcruise 6 เอเจนต์: scanner rug check sizer ตามสภาพคล่อง",
- "rank_t": 1794823967.2136724
+ "rank_t": 1794824240.4284132
 }

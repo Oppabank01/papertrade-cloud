@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 4.915931552025484,
+ "cash": 5.482199902440124,
  "pos": {
-  "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
-   "sym": "CBUCKS",
-   "qty": 115.59941809896915,
-   "entry": 0.00519,
-   "last": 0.004993,
-   "peak": 0.00545,
-   "cost": 0.6183889712777262,
-   "opened": "2026-11-16T15:17:21+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 41,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
   "B9FgqHbtccsgcL6YPfUhNd81qveNtrTbsfLvcjxtpump": {
    "sym": "AICoin",
    "qty": 6547.893840106302,
    "entry": 9.172e-05,
-   "last": 8.463e-05,
+   "last": 8.767e-05,
    "peak": 9.881e-05,
    "cost": 0.6190196073124614,
    "opened": "2026-11-16T15:40:53+07:00",
@@ -3121,8 +3107,23 @@
    "t": "2026-11-16T17:14:13+07:00",
    "kind": "resume",
    "why": "ราคา AICoin สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-16T17:17:44+07:00",
+   "kind": "sell",
+   "mint": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+   "sym": "CBUCKS",
+   "price": 0.005049,
+   "entry": 0.00519,
+   "usd": 0.5663,
+   "pnl": -0.0521,
+   "why": "ครบ 2 ชม. (-2.7%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 41,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794823967.2136724
+ "rank_t": 1794824240.4284132
 }

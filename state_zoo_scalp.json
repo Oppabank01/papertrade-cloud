@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.872110564498646,
- "pos": {},
+ "cash": 2.297688451598917,
+ "pos": {
+  "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
+   "sym": "Leonida",
+   "qty": 1793.128487565371,
+   "entry": 0.0003108,
+   "last": 0.0003108,
+   "peak": 0.0003108,
+   "cost": 0.5744221128997292,
+   "opened": "2026-11-16T17:18:03+07:00",
+   "zoo": "scalp",
+   "smart": 84,
+   "kol": 4,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:42:01+07:00",
@@ -1221,8 +1236,22 @@
    "cost_side": 0.03,
    "smart": 32,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T17:18:03+07:00",
+   "kind": "buy",
+   "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "sym": "Leonida",
+   "price": 0.0003108,
+   "jup": 0.0003105907457964915,
+   "usd": 0.5744,
+   "stop_set": -0.05,
+   "cost_side": 0.03,
+   "zoo": "scalp",
+   "smart": 84,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: เก็บสั้น +10% ตัด -5% 30 นาที",
- "rank_t": 1794823967.2136724
+ "rank_t": 1794824240.4284132
 }
