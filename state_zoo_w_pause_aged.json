@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.4595389428825611,
+ "cash": 0.6973482983589127,
  "pos": {
   "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
    "sym": "JEANPHIL",
    "qty": 306.0476433677204,
    "entry": 0.002501,
-   "last": 0.002595,
-   "peak": 0.002598031008429065,
+   "last": 0.002585349272654184,
+   "peak": 0.002615,
    "cost": 0.7889354319343113,
    "opened": "2026-11-16T19:26:25+07:00",
    "zoo": "w_pause_aged",
    "smart": 398,
    "kol": 43,
-   "gap": 0,
+   "gap": 6,
    "miss": 0
   },
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 414.06624431038125,
    "entry": 0.001778,
-   "last": 0.001884,
+   "last": 0.001892,
    "peak": 0.001904,
    "cost": 0.7588226988083466,
    "opened": "2026-11-16T20:27:40+07:00",
@@ -35,7 +35,7 @@
    "sym": "GTA",
    "qty": 725.1053254441847,
    "entry": 0.001018,
-   "last": 0.001055,
+   "last": 0.001075,
    "peak": 0.001146,
    "cost": 0.7608299539292724,
    "opened": "2026-11-16T21:05:57+07:00",
@@ -43,6 +43,20 @@
    "smart": 276,
    "kol": 14,
    "gap": 2,
+   "miss": 0
+  },
+  "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": {
+   "sym": "BTC",
+   "qty": 621.4095490057509,
+   "entry": 0.00119,
+   "last": 0.0011460229089269938,
+   "peak": 0.00119,
+   "cost": 0.7621906445236485,
+   "opened": "2026-11-16T21:43:11+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 787,
+   "kol": 70,
+   "gap": 6,
    "miss": 0
   }
  },
@@ -2356,8 +2370,22 @@
    "cost_side": 0.03,
    "smart": 67,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T21:43:11+07:00",
+   "kind": "buy",
+   "mint": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+   "sym": "BTC",
+   "price": 0.00119,
+   "jup": 0.001189518926716527,
+   "usd": 0.7622,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 787,
+   "kol": 70
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794839820.7102895
+ "rank_t": 1794840101.574154
 }

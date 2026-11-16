@@ -1,47 +1,47 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.1828433728545849,
+ "cash": 0.1912032910437142,
  "pos": {
-  "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
-   "sym": "paws",
-   "qty": 196.82135372208737,
-   "entry": 0.0005582,
-   "last": 0.0005679,
-   "peak": 0.0005894,
-   "cost": 0.11324023876280064,
-   "opened": "2026-11-16T18:41:51+07:00",
-   "smart": 291,
-   "kol": 15,
-   "bundler": 0.1914,
-   "gap": 1,
-   "miss": 0
-  },
   "6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": {
    "sym": "GTA$",
    "qty": 726.5934234546297,
    "entry": 0.0001424,
-   "last": 0.00013839841047952393,
+   "last": 0.0001322,
    "peak": 0.0001474,
    "cost": 0.10664492218093101,
    "opened": "2026-11-16T21:04:33+07:00",
    "smart": 93,
    "kol": 8,
    "bundler": 0.2023,
-   "gap": 1,
+   "gap": 2,
    "miss": 0
   },
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 2.4320244560274062,
    "entry": 0.04027,
-   "last": 0.04029,
-   "peak": 0.04029,
+   "last": 0.04086,
+   "peak": 0.04086,
    "cost": 0.10094580998167764,
    "opened": "2026-11-16T21:32:18+07:00",
    "smart": 1000,
    "kol": 174,
    "bundler": 0.474,
+   "gap": 0,
+   "miss": 0
+  },
+  "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
+   "sym": "Lucia",
+   "qty": 93.08707720127148,
+   "entry": 0.001028,
+   "last": 0.0010187633338233127,
+   "peak": 0.001028,
+   "cost": 0.09863277196753978,
+   "opened": "2026-11-16T21:41:53+07:00",
+   "smart": 108,
+   "kol": 4,
+   "bundler": 0.1276,
    "gap": 1,
    "miss": 0
   }
@@ -42668,6 +42668,57 @@
    "buy": 0.8965,
    "bull": 0.9215,
    "bear": 1.0
+  },
+  {
+   "t": "2026-11-16T21:41:49+07:00",
+   "kind": "debate",
+   "mint": "39NMEGUC7j2RcLxpCidZYyxAVvd3VVrdhogexy8Upump",
+   "sym": "Sharkcard",
+   "ok": false,
+   "bundler": 0.3907,
+   "buy": 0.8683,
+   "bull": 0.953,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-16T21:41:53+07:00",
+   "kind": "debate",
+   "mint": "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump",
+   "sym": "Lucia",
+   "ok": true,
+   "bundler": 0.1276,
+   "buy": 0.7752,
+   "bull": 0.768,
+   "bear": 0.0629
+  },
+  {
+   "t": "2026-11-16T21:41:53+07:00",
+   "kind": "buy",
+   "mint": "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump",
+   "sym": "Lucia",
+   "price": 0.001028,
+   "jup": 0.0010187633338233127,
+   "usd": 0.0986,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 108,
+   "kol": 4,
+   "bundler": 0.1276
+  },
+  {
+   "t": "2026-11-16T21:41:54+07:00",
+   "kind": "sell",
+   "mint": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
+   "sym": "paws",
+   "price": 0.0005603,
+   "entry": 0.0005582,
+   "usd": 0.107,
+   "pnl": -0.0062,
+   "why": "ครบ 3 ชม. (+0.4%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 291,
+   "bundler": 0.1914
   }
  ]
 }

@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.4775021131433576,
+ "cash": 0.9046796211490533,
  "pos": {
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
@@ -14,21 +14,7 @@
    "zoo": "holders",
    "smart": 86,
    "kol": 4,
-   "gap": 1,
-   "miss": 0
-  },
-  "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
-   "sym": "FOOD",
-   "qty": 2686.3843827681485,
-   "entry": 0.0001793,
-   "last": 0.000173,
-   "peak": 0.0001793,
-   "cost": 0.496463326974159,
-   "opened": "2026-11-16T20:55:49+07:00",
-   "zoo": "holders",
-   "smart": 305,
-   "kol": 22,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": {
@@ -56,7 +42,7 @@
    "zoo": "holders",
    "smart": 173,
    "kol": 9,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -2742,8 +2728,23 @@
    "zoo": "holders",
    "smart": 173,
    "kol": 9
+  },
+  {
+   "t": "2026-11-16T21:42:23+07:00",
+   "kind": "sell",
+   "mint": "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
+   "sym": "FOOD",
+   "price": 0.0001639,
+   "entry": 0.0001793,
+   "usd": 0.4272,
+   "pnl": -0.0693,
+   "why": "stop -8.6%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 305,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794839820.7102895
+ "rank_t": 1794840101.574154
 }

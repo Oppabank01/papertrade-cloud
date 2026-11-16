@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.757969303423847,
- "cash": 2.36522351284236,
+ "cash": 3.0009104270124487,
  "pos": {
   "9RZeokzHNXoRyJkWDFdvcQTAzUhKpXm7RrqkUM3Fpump": {
    "sym": "CHILL",
@@ -13,20 +13,6 @@
    "opened": "2026-11-16T21:00:41+07:00",
    "zoo": "trench",
    "smart": 21,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
-  "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
-   "sym": "JENSEN",
-   "qty": 3290.8701099396308,
-   "entry": 0.0002309,
-   "last": 0.0002309,
-   "peak": 0.0002309,
-   "cost": 0.7832013073439092,
-   "opened": "2026-11-16T21:37:41+07:00",
-   "zoo": "trench",
-   "smart": 5,
    "kol": 0,
    "gap": 0,
    "miss": 0
@@ -1132,8 +1118,23 @@
    "zoo": "trench",
    "smart": 5,
    "kol": 0
+  },
+  {
+   "t": "2026-11-16T21:42:30+07:00",
+   "kind": "sell",
+   "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+   "sym": "JENSEN",
+   "price": 0.0001991,
+   "entry": 0.0002309,
+   "usd": 0.6357,
+   "pnl": -0.1475,
+   "why": "stop -13.8%",
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "smart": 5,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: crbpite8 รอบ 2: ปลอดภัย + smart 3 + V/L สูงสุด 3 ตัว",
- "rank_t": 1794839820.7102895
+ "rank_t": 1794840101.574154
 }
