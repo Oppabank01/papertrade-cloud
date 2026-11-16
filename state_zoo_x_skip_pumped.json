@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 1.2005591150207466,
+ "cash": 1.05835740539002,
  "pos": {
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 197.93509067758836,
    "entry": 0.007356,
-   "last": 0.007119,
+   "last": 0.007115,
    "peak": 0.007492,
    "cost": 1.5007323510867243,
    "opened": "2026-11-16T08:52:04+07:00",
@@ -21,8 +21,8 @@
    "sym": "DacityCoin",
    "qty": 271.49634353916707,
    "entry": 0.004865,
-   "last": 0.004953,
-   "peak": 0.004953,
+   "last": 0.005139,
+   "peak": 0.005139,
    "cost": 1.3613994138508019,
    "opened": "2026-11-16T11:02:37+07:00",
    "zoo": "x_skip_pumped",
@@ -31,31 +31,31 @@
    "gap": 0,
    "miss": 0
   },
-  "6sBvfTnThBPUQsEWjiXdgCnHwxGZfEDqegtVu4vLpump": {
-   "sym": "WANTED",
-   "qty": 9724.055565369204,
-   "entry": 0.0001316,
-   "last": 0.0001398,
-   "peak": 0.0001416,
-   "cost": 1.3189916639894737,
-   "opened": "2026-11-16T11:11:59+07:00",
-   "zoo": "x_skip_pumped",
-   "smart": 38,
-   "kol": 1,
-   "gap": 0,
-   "miss": 0
-  },
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 30.276118461816623,
    "entry": 0.04255,
-   "last": 0.04255,
-   "peak": 0.04255,
+   "last": 0.04259,
+   "peak": 0.04259,
    "cost": 1.3278178113278678,
    "opened": "2026-11-16T11:16:13+07:00",
    "zoo": "x_skip_pumped",
    "smart": 1000,
    "kol": 174,
+   "gap": 0,
+   "miss": 0
+  },
+  "7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": {
+   "sym": "Snoopy",
+   "qty": 4207.514124562341,
+   "entry": 0.000295,
+   "last": 0.000295,
+   "peak": 0.000295,
+   "cost": 1.2793410294226868,
+   "opened": "2026-11-16T11:21:39+07:00",
+   "zoo": "x_skip_pumped",
+   "smart": 224,
+   "kol": 14,
    "gap": 0,
    "miss": 0
   }
@@ -991,8 +991,37 @@
    "zoo": "x_skip_pumped",
    "smart": 1000,
    "kol": 174
+  },
+  {
+   "t": "2026-11-16T11:20:36+07:00",
+   "kind": "sell",
+   "mint": "6sBvfTnThBPUQsEWjiXdgCnHwxGZfEDqegtVu4vLpump",
+   "sym": "WANTED",
+   "price": 0.00012053272484353719,
+   "entry": 0.0001316,
+   "usd": 1.1371,
+   "pnl": -0.1819,
+   "why": "stop -8.4%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 38,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-16T11:21:39+07:00",
+   "kind": "buy",
+   "mint": "7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn",
+   "sym": "Snoopy",
+   "price": 0.000295,
+   "jup": 0.00029558299542466074,
+   "usd": 1.2793,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 224,
+   "kol": 14
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794802472.090461
+ "rank_t": 1794802748.1213279
 }
