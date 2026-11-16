@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.442024532089355,
+ "cash": 0.3997872141950233,
  "pos": {
   "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump": {
    "sym": "Christmax",
    "qty": 1920.3779644089918,
    "entry": 0.0001213,
-   "last": 0.0001194,
+   "last": 0.0001178,
    "peak": 0.000128,
    "cost": 0.24009672962565523,
    "opened": "2026-11-17T05:23:22+07:00",
@@ -17,31 +17,31 @@
    "gap": 0,
    "miss": 0
   },
-  "D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump": {
-   "sym": "BAWSAQ",
-   "qty": 122.225493089861,
-   "entry": 0.001891,
-   "last": 0.001855410443171515,
-   "peak": 0.001918277615866883,
-   "cost": 0.23822758960309953,
-   "opened": "2026-11-17T05:47:22+07:00",
-   "zoo": "boosted",
-   "smart": 3,
-   "kol": 0,
-   "gap": 1,
-   "miss": 0
-  },
   "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
    "sym": "JOB",
    "qty": 104.82868562565282,
    "entry": 0.002153,
-   "last": 0.002135,
+   "last": 0.002127,
    "peak": 0.002183,
    "cost": 0.23262848912804635,
    "opened": "2026-11-17T05:51:42+07:00",
    "zoo": "boosted",
    "smart": 34,
    "kol": 0,
+   "gap": 2,
+   "miss": 0
+  },
+  "FsFqQGxCNd7dbFuimCW4hMiFRdvvM8PoLyp4WZrxAUnN": {
+   "sym": "Lemon",
+   "qty": 2945.0015730220925,
+   "entry": 7.392e-05,
+   "last": 7.37652661115426e-05,
+   "peak": 7.392e-05,
+   "cost": 0.22438107223025466,
+   "opened": "2026-11-17T06:19:48+07:00",
+   "zoo": "boosted",
+   "smart": 126,
+   "kol": 7,
    "gap": 1,
    "miss": 0
   }
@@ -3506,8 +3506,37 @@
    "cost_side": 0.03,
    "smart": 882,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T06:19:48+07:00",
+   "kind": "buy",
+   "mint": "FsFqQGxCNd7dbFuimCW4hMiFRdvvM8PoLyp4WZrxAUnN",
+   "sym": "Lemon",
+   "price": 7.392e-05,
+   "jup": 7.37652661115426e-05,
+   "usd": 0.2244,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 126,
+   "kol": 7
+  },
+  {
+   "t": "2026-11-17T06:19:50+07:00",
+   "kind": "sell",
+   "mint": "D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump",
+   "sym": "BAWSAQ",
+   "price": 0.001536,
+   "entry": 0.001891,
+   "usd": 0.1821,
+   "pnl": -0.0561,
+   "why": "stop -18.8%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 3,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794870866.2103243
+ "rank_t": 1794871145.0862863
 }
