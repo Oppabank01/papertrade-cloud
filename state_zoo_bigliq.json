@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 5.187449860263005,
+ "cash": 3.4780607060584936,
  "pos": {
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 295.36657976730936,
    "entry": 0.005758,
-   "last": 0.005652,
+   "last": 0.005601,
    "peak": 0.005758,
    "cost": 1.7529589427954726,
    "opened": "2026-11-16T10:05:23+07:00",
@@ -21,13 +21,27 @@
    "sym": "GATO",
    "qty": 234.01883161377984,
    "entry": 0.007164,
-   "last": 0.007222,
+   "last": 0.00718,
    "peak": 0.007272,
    "cost": 1.7280054727696545,
    "opened": "2026-11-16T11:24:51+07:00",
    "zoo": "bigliq",
    "smart": 63,
    "kol": 4,
+   "gap": 0,
+   "miss": 0
+  },
+  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
+   "sym": "CLAUDIA",
+   "qty": 394.39937155986127,
+   "entry": 0.004205,
+   "last": 0.004205,
+   "peak": 0.004205,
+   "cost": 1.7093891542045112,
+   "opened": "2026-11-16T12:36:20+07:00",
+   "zoo": "bigliq",
+   "smart": 439,
+   "kol": 28,
    "gap": 0,
    "miss": 0
   }
@@ -1167,8 +1181,22 @@
    "cost_side": 0.03,
    "smart": 289,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T12:36:20+07:00",
+   "kind": "buy",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.004205,
+   "jup": 0.004194135253470035,
+   "usd": 1.7094,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliq",
+   "smart": 439,
+   "kol": 28
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ มาร์เก็ตแคป 2M+",
- "rank_t": 1794806988.8611712
+ "rank_t": 1794807327.47556
 }
