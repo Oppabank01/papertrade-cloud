@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.17797029636460862,
+ "cash": 0.08285150088412425,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 2.4320244560274062,
    "entry": 0.04027,
-   "last": 0.04098,
+   "last": 0.04096,
    "peak": 0.04117,
    "cost": 0.10094580998167764,
    "opened": "2026-11-16T21:32:18+07:00",
@@ -21,7 +21,7 @@
    "sym": "Macca",
    "qty": 52.01012076189771,
    "entry": 0.001761,
-   "last": 0.001733,
+   "last": 0.001722,
    "peak": 0.0018871476948065203,
    "cost": 0.09440303304648719,
    "opened": "2026-11-16T22:23:42+07:00",
@@ -35,14 +35,28 @@
    "sym": "hello",
    "qty": 984.9607591248908,
    "entry": 9.083e-05,
-   "last": 0.00010947215769818223,
-   "peak": 0.0001168,
+   "last": 0.0001368,
+   "peak": 0.0001368,
    "cost": 0.09221190038271884,
    "opened": "2026-11-16T23:48:04+07:00",
    "smart": 76,
    "kol": 4,
    "bundler": 0.2757,
-   "gap": 5,
+   "gap": 0,
+   "miss": 0
+  },
+  "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": {
+   "sym": "rockstar",
+   "qty": 88.39488062755358,
+   "entry": 0.001044,
+   "last": 0.001044,
+   "peak": 0.001044,
+   "cost": 0.09511879548048437,
+   "opened": "2026-11-17T00:16:27+07:00",
+   "smart": 68,
+   "kol": 4,
+   "bundler": 0.216,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -43888,6 +43902,42 @@
    "buy": 0.9053,
    "bull": 0.9348,
    "bear": 0.9999
+  },
+  {
+   "t": "2026-11-17T00:16:25+07:00",
+   "kind": "debate",
+   "mint": "FsFqQGxCNd7dbFuimCW4hMiFRdvvM8PoLyp4WZrxAUnN",
+   "sym": "Lemon",
+   "ok": true,
+   "bundler": 0.3381,
+   "buy": 0.7402,
+   "bull": 0.8658,
+   "bear": 0.0091
+  },
+  {
+   "t": "2026-11-17T00:16:27+07:00",
+   "kind": "debate",
+   "mint": "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump",
+   "sym": "rockstar",
+   "ok": true,
+   "bundler": 0.216,
+   "buy": 0.7852,
+   "bull": 0.9694,
+   "bear": 0.9441
+  },
+  {
+   "t": "2026-11-17T00:16:27+07:00",
+   "kind": "buy",
+   "mint": "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump",
+   "sym": "rockstar",
+   "price": 0.001044,
+   "jup": 0.0010348683585793934,
+   "usd": 0.0951,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 68,
+   "kol": 4,
+   "bundler": 0.216
   }
  ]
 }
