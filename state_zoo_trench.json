@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.757969303423847,
- "cash": 1.8776569409338215,
+ "cash": 0.7974686961828696,
  "pos": {
   "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
    "sym": "Rocco",
@@ -42,6 +42,20 @@
    "zoo": "trench",
    "smart": 17,
    "kol": 42,
+   "gap": 0,
+   "miss": 0
+  },
+  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
+   "sym": "Rings",
+   "qty": 1507.4778985290181,
+   "entry": 0.0006952,
+   "last": 0.0006945,
+   "peak": 0.0006952,
+   "cost": 1.0801882447509519,
+   "opened": "2026-11-16T08:08:52+07:00",
+   "zoo": "trench",
+   "smart": 79,
+   "kol": 5,
    "gap": 0,
    "miss": 0
   }
@@ -928,8 +942,22 @@
    "zoo": "trench",
    "smart": 17,
    "kol": 42
+  },
+  {
+   "t": "2026-11-16T08:08:52+07:00",
+   "kind": "buy",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.0006952,
+   "jup": 0.0006941588226863029,
+   "usd": 1.0802,
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "zoo": "trench",
+   "smart": 79,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: crbpite8 รอบ 2: ปลอดภัย + smart 3 + V/L สูงสุด 3 ตัว",
- "rank_t": 1794790973.043165
+ "rank_t": 1794791246.8563786
 }

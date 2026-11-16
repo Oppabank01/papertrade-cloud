@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 1.2190550790548944,
+ "cash": 2.5770754748475038,
  "pos": {
   "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
    "sym": "SAPLING",
    "qty": 1142.500186431705,
    "entry": 0.001604,
-   "last": 0.001685,
-   "peak": 0.001742,
+   "last": 0.001666,
+   "peak": 0.001749,
    "cost": 1.8888582756508503,
    "opened": "2026-11-16T05:48:17+07:00",
    "zoo": "x_skip_pumped",
@@ -21,41 +21,27 @@
    "sym": "fone",
    "qty": 2146.4610219358797,
    "entry": 0.0007998,
-   "last": 0.0008255,
+   "last": 0.0008187882860661925,
    "peak": 0.0008277,
    "cost": 1.769469723092472,
    "opened": "2026-11-16T07:11:41+07:00",
    "zoo": "x_skip_pumped",
    "smart": 483,
    "kol": 58,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   },
   "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
    "sym": "MANIFEST",
    "qty": 408.7172778942013,
    "entry": 0.003747,
-   "last": 0.003623,
+   "last": 0.003586,
    "peak": 0.003785,
    "cost": 1.5785030305808827,
    "opened": "2026-11-16T07:55:14+07:00",
    "zoo": "x_skip_pumped",
    "smart": 80,
    "kol": 15,
-   "gap": 0,
-   "miss": 0
-  },
-  "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": {
-   "sym": "BUTTHOLE",
-   "qty": 2784.089083693945,
-   "entry": 0.0005575,
-   "last": 0.0005536,
-   "peak": 0.0005575,
-   "cost": 1.5998038179338019,
-   "opened": "2026-11-16T08:05:16+07:00",
-   "zoo": "x_skip_pumped",
-   "smart": 95,
-   "kol": 10,
    "gap": 0,
    "miss": 0
   }
@@ -759,8 +745,23 @@
    "zoo": "x_skip_pumped",
    "smart": 95,
    "kol": 10
+  },
+  {
+   "t": "2026-11-16T08:09:45+07:00",
+   "kind": "sell",
+   "mint": "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump",
+   "sym": "BUTTHOLE",
+   "price": 0.0005027613628332826,
+   "entry": 0.0005575,
+   "usd": 1.358,
+   "pnl": -0.2418,
+   "why": "stop -9.8%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 95,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794790973.043165
+ "rank_t": 1794791246.8563786
 }
