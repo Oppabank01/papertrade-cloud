@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.5688867210118306,
- "pos": {},
+ "cash": 0.45510937680946445,
+ "pos": {
+  "39NMEGUC7j2RcLxpCidZYyxAVvd3VVrdhogexy8Upump": {
+   "sym": "Sharkcard",
+   "qty": 2830.4302396188623,
+   "entry": 3.9e-05,
+   "last": 3.9e-05,
+   "peak": 3.9e-05,
+   "cost": 0.11377734420236613,
+   "opened": "2026-11-16T21:18:25+07:00",
+   "zoo": "rand",
+   "smart": 39,
+   "kol": 2,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:41:59+07:00",
@@ -3147,8 +3162,22 @@
    "cost_side": 0.03,
    "smart": 13,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T21:18:25+07:00",
+   "kind": "buy",
+   "mint": "39NMEGUC7j2RcLxpCidZYyxAVvd3VVrdhogexy8Upump",
+   "sym": "Sharkcard",
+   "price": 3.9e-05,
+   "jup": 3.8865177375886367e-05,
+   "usd": 0.1138,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 39,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794838408.5535285
+ "rank_t": 1794838682.7070563
 }

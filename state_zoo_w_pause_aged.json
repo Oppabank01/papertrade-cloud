@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.7245337450752201,
+ "cash": 1.4595389428825611,
  "pos": {
   "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
    "sym": "JEANPHIL",
    "qty": 306.0476433677204,
    "entry": 0.002501,
-   "last": 0.00254,
+   "last": 0.002517,
    "peak": 0.00254,
    "cost": 0.7889354319343113,
    "opened": "2026-11-16T19:26:25+07:00",
@@ -21,36 +21,22 @@
    "sym": "Macca",
    "qty": 414.06624431038125,
    "entry": 0.001778,
-   "last": 0.001725847041518358,
+   "last": 0.001832,
    "peak": 0.001832,
    "cost": 0.7588226988083466,
    "opened": "2026-11-16T20:27:40+07:00",
    "zoo": "w_pause_aged",
    "smart": 173,
    "kol": 9,
-   "gap": 2,
-   "miss": 0
-  },
-  "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": {
-   "sym": "rockstar",
-   "qty": 645.4776229745346,
-   "entry": 0.001128,
-   "last": 0.001348,
-   "peak": 0.001356,
-   "cost": 0.7504625424812152,
-   "opened": "2026-11-16T20:37:14+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 67,
-   "kol": 4,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": {
    "sym": "GTA",
    "qty": 725.1053254441847,
    "entry": 0.001018,
-   "last": 0.001066,
-   "peak": 0.001066,
+   "last": 0.001103,
+   "peak": 0.001103,
    "cost": 0.7608299539292724,
    "opened": "2026-11-16T21:05:57+07:00",
    "zoo": "w_pause_aged",
@@ -2355,8 +2341,23 @@
    "zoo": "w_pause_aged",
    "smart": 276,
    "kol": 14
+  },
+  {
+   "t": "2026-11-16T21:20:39+07:00",
+   "kind": "sell",
+   "mint": "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump",
+   "sym": "rockstar",
+   "price": 0.0011736752570046629,
+   "entry": 0.001128,
+   "usd": 0.735,
+   "pnl": -0.0155,
+   "why": "trailing จากยอด +24% (+4.0%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 67,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794838408.5535285
+ "rank_t": 1794838682.7070563
 }
