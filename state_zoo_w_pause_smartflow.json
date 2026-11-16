@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.7779374612531912,
+ "cash": 0.9528652681896004,
  "pos": {
   "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
    "sym": "PAID",
    "qty": 1111.6609493267554,
    "entry": 0.001154,
-   "last": 0.001391,
-   "peak": 0.001587,
+   "last": 0.001763,
+   "peak": 0.001817040204893706,
    "cost": 1.3222600860885134,
    "opened": "2026-11-15T23:34:03+07:00",
    "zoo": "w_pause_smartflow",
    "smart": 668,
    "kol": 93,
-   "gap": 4,
-   "miss": 0
-  },
-  "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": {
-   "sym": "PEAK",
-   "qty": 896.8744597891442,
-   "entry": 0.0002544,
-   "last": 0.0002272,
-   "peak": 0.0002654,
-   "cost": 0.23517301852232356,
-   "opened": "2026-11-17T00:12:14+07:00",
-   "zoo": "w_pause_smartflow",
-   "smart": 121,
-   "kol": 10,
-   "gap": 4,
+   "gap": 1,
    "miss": 0
   },
   "39wVWdqCJWmHwpQS4Twx9GYmmhLSSKDPPJE7DM7Zpump": {
@@ -49,14 +35,14 @@
    "sym": "GTA",
    "qty": 4234.713816748107,
    "entry": 0.0001751,
-   "last": 0.0001733330918295811,
-   "peak": 0.00018313687020097617,
+   "last": 0.0001833,
+   "peak": 0.00018465495816335592,
    "cost": 0.76427374697237,
    "opened": "2026-11-17T04:45:43+07:00",
    "zoo": "w_pause_smartflow",
    "smart": 14,
    "kol": 0,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1251,10 +1237,28 @@
    "zoo": "w_pause_smartflow",
    "smart": 14,
    "kol": 0
+  },
+  {
+   "t": "2026-11-17T06:53:47+07:00",
+   "kind": "resume",
+   "why": "ราคา PAID สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-17T06:55:07+07:00",
+   "kind": "sell",
+   "mint": "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray",
+   "sym": "PEAK",
+   "price": 0.00020103233837340647,
+   "entry": 0.0002544,
+   "usd": 0.1749,
+   "pnl": -0.0602,
+   "why": "stop -21.0%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 121,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794872869.6343243,
- "halted": "ราคา PAID สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
- "halted_until": "2026-11-17T06:53:20+07:00"
+ "rank_t": 1794873149.468526
 }
