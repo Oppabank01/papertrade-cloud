@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 0.6673882117849836,
+ "cash": 1.7077551247664045,
  "pos": {
   "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
    "sym": "neet",
    "qty": 40.56641994097728,
    "entry": 0.02799,
-   "last": 0.028,
+   "last": 0.02799,
    "peak": 0.02805,
    "cost": 1.170329925940996,
    "opened": "2026-11-16T14:30:07+07:00",
@@ -21,7 +21,7 @@
    "sym": "USELESS",
    "qty": 11.504978503079862,
    "entry": 0.09809,
-   "last": 0.1003,
+   "last": 0.1,
    "peak": 0.1009,
    "cost": 1.163186292895386,
    "opened": "2026-11-16T14:35:12+07:00",
@@ -31,25 +31,11 @@
    "gap": 0,
    "miss": 0
   },
-  "A5xsAQhwGeKsNTKPiyB3jYydffWxPyzyWVodSA4hpump": {
-   "sym": "NEON",
-   "qty": 17330.307657203553,
-   "entry": 6.343e-05,
-   "last": 6.392e-05,
-   "peak": 7.394e-05,
-   "cost": 1.133025576887674,
-   "opened": "2026-11-16T14:58:24+07:00",
-   "zoo": "x_skip_pumped",
-   "smart": 6,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
   "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": {
    "sym": "JENSEN",
    "qty": 11330.005251610284,
    "entry": 8.773e-05,
-   "last": 8.438e-05,
+   "last": 8.38e-05,
    "peak": 9.21e-05,
    "cost": 1.0245118127435273,
    "opened": "2026-11-16T15:41:15+07:00",
@@ -1339,8 +1325,23 @@
    "zoo": "x_skip_pumped",
    "smart": 5,
    "kol": 0
+  },
+  {
+   "t": "2026-11-16T16:52:39+07:00",
+   "kind": "sell",
+   "mint": "A5xsAQhwGeKsNTKPiyB3jYydffWxPyzyWVodSA4hpump",
+   "sym": "NEON",
+   "price": 6.187553811087767e-05,
+   "entry": 6.343e-05,
+   "usd": 1.0404,
+   "pnl": -0.0927,
+   "why": "trailing จากยอด +17% (-2.5%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 6,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794822335.1308098
+ "rank_t": 1794822613.448955
 }
