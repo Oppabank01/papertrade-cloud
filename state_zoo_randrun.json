@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.1910305645028467,
+ "cash": 0.7248704196803795,
  "pos": {
   "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
    "sym": "Dacity",
    "qty": 331.01165440908704,
    "entry": 0.001622,
-   "last": 0.002114,
+   "last": 0.0021196893368739633,
    "peak": 0.002185,
    "cost": 0.5533919845923925,
    "opened": "2026-11-16T04:18:20+07:00",
    "zoo": "randrun",
    "smart": 425,
    "kol": 38,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": {
@@ -28,6 +28,20 @@
    "zoo": "randrun",
    "smart": 524,
    "kol": 55,
+   "gap": 0,
+   "miss": 0
+  },
+  "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": {
+   "sym": "GTA",
+   "qty": 351.41303225078303,
+   "entry": 0.001287,
+   "last": 0.001287,
+   "peak": 0.001287,
+   "cost": 0.46616014482246726,
+   "opened": "2026-11-17T01:33:10+07:00",
+   "zoo": "randrun",
+   "smart": 290,
+   "kol": 14,
    "gap": 0,
    "miss": 0
   }
@@ -1079,8 +1093,22 @@
    "cost_side": 0.03,
    "smart": 16,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T01:33:10+07:00",
+   "kind": "buy",
+   "mint": "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump",
+   "sym": "GTA",
+   "price": 0.001287,
+   "jup": 0.0012864888217593957,
+   "usd": 0.4662,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "randrun",
+   "smart": 290,
+   "kol": 14
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1794853643.737782
+ "rank_t": 1794853924.9892776
 }
