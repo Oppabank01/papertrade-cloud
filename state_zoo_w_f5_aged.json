@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 3.221712385227656,
+ "cash": 1.0221819758669615,
  "pos": {
   "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
    "sym": "CBUCKS",
    "qty": 235.9940615689322,
    "entry": 0.004698,
-   "last": 0.005207,
+   "last": 0.005227,
    "peak": 0.005367,
    "cost": 1.1427541756862951,
    "opened": "2026-11-16T08:27:16+07:00",
@@ -21,13 +21,41 @@
    "sym": "mihao",
    "qty": 58.6578897048877,
    "entry": 0.0184,
-   "last": 0.01832,
-   "peak": 0.0184,
+   "last": 0.01845,
+   "peak": 0.01845,
    "cost": 1.112456370408095,
    "opened": "2026-11-16T10:00:39+07:00",
    "zoo": "w_f5_aged",
    "smart": 687,
    "kol": 69,
+   "gap": 0,
+   "miss": 0
+  },
+  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
+   "sym": "Buttcoin",
+   "qty": 185.85990656130133,
+   "entry": 0.005758,
+   "last": 0.005758,
+   "peak": 0.005758,
+   "cost": 1.1030523005359443,
+   "opened": "2026-11-16T10:05:47+07:00",
+   "zoo": "w_f5_aged",
+   "smart": 473,
+   "kol": 48,
+   "gap": 0,
+   "miss": 0
+  },
+  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+   "sym": "USELESS",
+   "qty": 10.55360179743822,
+   "entry": 0.1008,
+   "last": 0.1008,
+   "peak": 0.1008,
+   "cost": 1.0964781088247502,
+   "opened": "2026-11-16T10:05:48+07:00",
+   "zoo": "w_f5_aged",
+   "smart": 925,
+   "kol": 294,
    "gap": 0,
    "miss": 0
   }
@@ -1689,8 +1717,36 @@
    "zoo": "w_f5_aged",
    "smart": 687,
    "kol": 69
+  },
+  {
+   "t": "2026-11-16T10:05:47+07:00",
+   "kind": "buy",
+   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+   "sym": "Buttcoin",
+   "price": 0.005758,
+   "jup": 0.0057573934402976755,
+   "usd": 1.1031,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged",
+   "smart": 473,
+   "kol": 48
+  },
+  {
+   "t": "2026-11-16T10:05:48+07:00",
+   "kind": "buy",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.1008,
+   "jup": 0.10059646388957467,
+   "usd": 1.0965,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged",
+   "smart": 925,
+   "kol": 294
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794797966.7401364
+ "rank_t": 1794798239.6830235
 }
