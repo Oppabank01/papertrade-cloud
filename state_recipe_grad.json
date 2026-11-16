@@ -1,8 +1,35 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.7350162178736975,
- "pos": {},
+ "cash": 0.44188587005592395,
+ "pos": {
+  "88ZWKeNqsNuryefmk1uT9baccba77aet6ge3rUpEpump": {
+   "sym": "SNUT",
+   "qty": 1191.4999742373623,
+   "entry": 0.0001197,
+   "last": 0.000109,
+   "peak": 0.0001197,
+   "cost": 0.1470032435747395,
+   "opened": "2026-11-16T23:48:16+07:00",
+   "smart": 74,
+   "kol": 4,
+   "gap": 1,
+   "miss": 0
+  },
+  "G75j1wKYFUMu5aMwwQ4vqj53rj9c4oedDJZsWM2Wpump": {
+   "sym": "XBOX",
+   "qty": 3185.8992480132956,
+   "entry": 4.45e-05,
+   "last": 4.45e-05,
+   "peak": 4.45e-05,
+   "cost": 0.14612710424303407,
+   "opened": "2026-11-16T23:48:16+07:00",
+   "smart": 17,
+   "kol": 2,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -1996,8 +2023,34 @@
    "cost_side": 0.03,
    "smart": 27,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T23:48:16+07:00",
+   "kind": "buy",
+   "mint": "88ZWKeNqsNuryefmk1uT9baccba77aet6ge3rUpEpump",
+   "sym": "SNUT",
+   "price": 0.0001197,
+   "jup": 0.00011894593805880429,
+   "usd": 0.147,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 74,
+   "kol": 4
+  },
+  {
+   "t": "2026-11-16T23:48:16+07:00",
+   "kind": "buy",
+   "mint": "G75j1wKYFUMu5aMwwQ4vqj53rj9c4oedDJZsWM2Wpump",
+   "sym": "XBOX",
+   "price": 4.45e-05,
+   "jup": 4.441780953081995e-05,
+   "usd": 0.1461,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 17,
+   "kol": 2
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794847391.6455698
+ "rank_t": 1794847675.7923024
 }

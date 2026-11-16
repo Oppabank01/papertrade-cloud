@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.205320723065411,
+ "cash": 0.09137424776713898,
  "pos": {
   "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
    "sym": "WASTED",
    "qty": 34.78202173956852,
    "entry": 0.003091,
-   "last": 0.003185,
+   "last": 0.00323,
    "peak": 0.003262,
    "cost": 0.11081347062152783,
    "opened": "2026-11-16T22:19:24+07:00",
@@ -21,27 +21,41 @@
    "sym": "XBOX",
    "qty": 3943.496018538537,
    "entry": 2.684e-05,
-   "last": 3.503e-05,
-   "peak": 3.503e-05,
+   "last": 4.136e-05,
+   "peak": 4.136e-05,
    "cost": 0.10909444767839037,
    "opened": "2026-11-16T22:48:19+07:00",
    "zoo": "rand",
    "smart": 11,
    "kol": 2,
-   "gap": 1,
+   "gap": 2,
    "miss": 0
   },
   "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
    "sym": "Dacity",
    "qty": 55.2678470091405,
    "entry": 0.00192,
-   "last": 0.0020896462392848043,
-   "peak": 0.0020896462392848043,
+   "last": 0.002128,
+   "peak": 0.002128,
    "cost": 0.10937359952334547,
    "opened": "2026-11-16T23:20:35+07:00",
    "zoo": "rand",
    "smart": 425,
    "kol": 38,
+   "gap": 0,
+   "miss": 0
+  },
+  "4r1ZJUx7iQtsVcM9NJz3DbqZfBAHLcb1EMCSasyapump": {
+   "sym": "MEE",
+   "qty": 2995.14685273323,
+   "entry": 3.691e-05,
+   "last": 3.724190962308691e-05,
+   "peak": 3.724190962308691e-05,
+   "cost": 0.11394647529827201,
+   "opened": "2026-11-16T23:48:26+07:00",
+   "zoo": "rand",
+   "smart": 17,
+   "kol": 1,
    "gap": 1,
    "miss": 0
   }
@@ -3319,8 +3333,22 @@
    "cost_side": 0.03,
    "smart": 18,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T23:48:26+07:00",
+   "kind": "buy",
+   "mint": "4r1ZJUx7iQtsVcM9NJz3DbqZfBAHLcb1EMCSasyapump",
+   "sym": "MEE",
+   "price": 3.691e-05,
+   "jup": 3.724190962308691e-05,
+   "usd": 0.1139,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 17,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794847391.6455698
+ "rank_t": 1794847675.7923024
 }
