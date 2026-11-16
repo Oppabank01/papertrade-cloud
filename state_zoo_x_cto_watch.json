@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 0.0,
+ "cash": 0.15614876252695145,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 59.15170230113698,
    "entry": 0.04942,
-   "last": 0.05137,
+   "last": 0.05073,
    "peak": 0.05182,
    "cost": 3.013066509711595,
    "opened": "2026-11-15T22:24:18+07:00",
@@ -21,41 +21,27 @@
    "sym": "GTA6",
    "qty": 590.3416838901148,
    "entry": 0.006896,
-   "last": 0.006469,
+   "last": 0.006866,
    "peak": 0.007058,
    "cost": 4.196038190173399,
    "opened": "2026-11-15T23:05:48+07:00",
    "zoo": "x_cto_watch",
    "smart": 289,
    "kol": 23,
-   "gap": 0,
+   "gap": 3,
    "miss": 0
   },
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 64.05599839911615,
    "entry": 0.04322,
-   "last": 0.04361,
+   "last": 0.04334,
    "peak": 0.0439,
    "cost": 2.853535612048856,
    "opened": "2026-11-16T04:02:10+07:00",
    "zoo": "x_cto_watch",
    "smart": 1000,
    "kol": 174,
-   "gap": 0,
-   "miss": 0
-  },
-  "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": {
-   "sym": "WISHMAS",
-   "qty": 909.2933399890258,
-   "entry": 0.0002056,
-   "last": 0.0001869,
-   "peak": 0.0002092,
-   "cost": 0.19269296093768679,
-   "opened": "2026-11-16T05:57:47+07:00",
-   "zoo": "x_cto_watch",
-   "smart": 163,
-   "kol": 9,
    "gap": 0,
    "miss": 0
   }
@@ -382,8 +368,23 @@
    "zoo": "x_cto_watch",
    "smart": 163,
    "kol": 9
+  },
+  {
+   "t": "2026-11-16T07:24:12+07:00",
+   "kind": "sell",
+   "mint": "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
+   "sym": "WISHMAS",
+   "price": 0.000177,
+   "entry": 0.0002056,
+   "usd": 0.1561,
+   "pnl": -0.0365,
+   "why": "trailing จากยอด +2% (-13.9%)",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": 163,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รอ dev เทหมดแล้วมี CTO: dev ถือ 0% ซื้อ 40% ขายครึ่ง x3 trail 15% stop -18%",
- "rank_t": 1794788100.8037937
+ "rank_t": 1794788425.7139697
 }

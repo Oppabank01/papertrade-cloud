@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 5.961081639373017,
+ "cash": 4.465402178096544,
  "pos": {
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 102.67302117478293,
    "entry": 0.007394,
-   "last": 0.007265,
+   "last": 0.00734,
    "peak": 0.007623,
    "cost": 0.7824822908331737,
    "opened": "2026-11-16T06:01:49+07:00",
@@ -29,6 +29,34 @@
    "smart": 193,
    "kol": 18,
    "gap": 0,
+   "miss": 0
+  },
+  "DTJbHA1ntTzsp6FXKRhwwD4E3CLcd5trkWhSV8ivpump": {
+   "sym": "BAWSAQ",
+   "qty": 2380.074665871267,
+   "entry": 0.0003053,
+   "last": 0.0002803,
+   "peak": 0.0003053,
+   "cost": 0.7489556745933804,
+   "opened": "2026-11-16T07:22:33+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 0,
+   "kol": 0,
+   "gap": 0,
+   "miss": 0
+  },
+  "G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump": {
+   "sym": "GTA",
+   "qty": 5398.445736512191,
+   "entry": 0.0001342,
+   "last": 0.00013873960906997642,
+   "peak": 0.00013873960906997642,
+   "cost": 0.7467237866830922,
+   "opened": "2026-11-16T07:22:37+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 11,
+   "kol": 0,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -2557,10 +2585,38 @@
    "cost_side": 0.03,
    "smart": 97,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T07:22:33+07:00",
+   "kind": "buy",
+   "mint": "DTJbHA1ntTzsp6FXKRhwwD4E3CLcd5trkWhSV8ivpump",
+   "sym": "BAWSAQ",
+   "price": 0.0003053,
+   "jup": 0.0003038974659427469,
+   "usd": 0.749,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 0,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-16T07:22:37+07:00",
+   "kind": "buy",
+   "mint": "G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump",
+   "sym": "GTA",
+   "price": 0.0001342,
+   "jup": 0.0001342491474024575,
+   "usd": 0.7467,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 11,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794788100.8037937,
+ "rank_t": 1794788425.7139697,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
