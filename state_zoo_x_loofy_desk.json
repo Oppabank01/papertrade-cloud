@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 9.362052468907788,
- "pos": {
-  "CboMcTUYUcy9E6B3yGdFn6aEsGUnYV6yWeoeukw6pump": {
-   "sym": "Butthole",
-   "qty": 9387.044741216203,
-   "entry": 0.0002602,
-   "last": 0.000251,
-   "peak": 0.0002627,
-   "cost": 2.5175314797613435,
-   "opened": "2026-11-16T07:50:43+07:00",
-   "zoo": "x_loofy_desk",
-   "smart": 17,
-   "kol": 42,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 11.647987481697704,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-15T22:21:46+07:00",
@@ -414,9 +399,24 @@
    "cost_side": 0.03,
    "smart": 5,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T13:51:11+07:00",
+   "kind": "sell",
+   "mint": "CboMcTUYUcy9E6B3yGdFn6aEsGUnYV6yWeoeukw6pump",
+   "sym": "Butthole",
+   "price": 0.000251,
+   "entry": 0.0002602,
+   "usd": 2.2859,
+   "pnl": -0.2316,
+   "why": "ครบ 6 ชม. (-3.5%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 17,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: 8 เอเจนต์: smart money 2+ ผ่านเช็กปลอดภัย+RugCheck stop -8% trail",
- "rank_t": 1794811571.112227,
+ "rank_t": 1794811871.6576304,
  "halted": "ราคา Butthole สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }
