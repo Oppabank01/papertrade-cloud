@@ -1,20 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 4.334168755635751,
+ "cash": 3.221712385227656,
  "pos": {
   "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
    "sym": "CBUCKS",
    "qty": 235.9940615689322,
    "entry": 0.004698,
-   "last": 0.005208965687394575,
+   "last": 0.005207,
    "peak": 0.005367,
    "cost": 1.1427541756862951,
    "opened": "2026-11-16T08:27:16+07:00",
    "zoo": "w_f5_aged",
    "smart": 41,
    "kol": 0,
-   "gap": 5,
+   "gap": 0,
+   "miss": 0
+  },
+  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
+   "sym": "mihao",
+   "qty": 58.6578897048877,
+   "entry": 0.0184,
+   "last": 0.01832,
+   "peak": 0.0184,
+   "cost": 1.112456370408095,
+   "opened": "2026-11-16T10:00:39+07:00",
+   "zoo": "w_f5_aged",
+   "smart": 687,
+   "kol": 69,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1661,8 +1675,22 @@
    "cost_side": 0.03,
    "smart": 90,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T10:00:39+07:00",
+   "kind": "buy",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.0184,
+   "jup": 0.018321273289861134,
+   "usd": 1.1125,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged",
+   "smart": 687,
+   "kol": 69
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794797695.2146587
+ "rank_t": 1794797966.7401364
 }
