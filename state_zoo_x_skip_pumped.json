@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 2.8685988917951084,
+ "cash": 1.4388043004853577,
  "pos": {
   "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
    "sym": "MANIFEST",
    "qty": 408.7172778942013,
    "entry": 0.003747,
-   "last": 0.00353,
+   "last": 0.003516,
    "peak": 0.003785,
    "cost": 1.5785030305808827,
    "opened": "2026-11-16T07:55:14+07:00",
@@ -35,7 +35,7 @@
    "sym": "GATO",
    "qty": 197.93509067758836,
    "entry": 0.007356,
-   "last": 0.007062,
+   "last": 0.007152,
    "peak": 0.007492,
    "cost": 1.5007323510867243,
    "opened": "2026-11-16T08:52:04+07:00",
@@ -43,6 +43,20 @@
    "smart": 63,
    "kol": 4,
    "gap": 0,
+   "miss": 0
+  },
+  "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": {
+   "sym": "HOGE",
+   "qty": 1850.075636821446,
+   "entry": 0.0007498,
+   "last": 0.0007456,
+   "peak": 0.0007804,
+   "cost": 1.4297945913097507,
+   "opened": "2026-11-16T10:41:55+07:00",
+   "zoo": "x_skip_pumped",
+   "smart": 153,
+   "kol": 9,
+   "gap": 5,
    "miss": 0
   }
  },
@@ -847,8 +861,22 @@
    "cost_side": 0.03,
    "smart": 121,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T10:41:55+07:00",
+   "kind": "buy",
+   "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+   "sym": "HOGE",
+   "price": 0.0007498,
+   "jup": 0.000746464708061086,
+   "usd": 1.4298,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 153,
+   "kol": 9
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794800195.987312
+ "rank_t": 1794800470.8626308
 }
