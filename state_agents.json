@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.20743325894198264,
+ "cash": 0.3086682132436204,
  "pos": {
-  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
-   "sym": "Rings",
-   "qty": 232.91164722488594,
-   "entry": 0.0004978,
-   "last": 0.0004593,
-   "peak": 0.0004978,
-   "cost": 0.1195046567599961,
-   "opened": "2026-11-16T12:11:22+07:00",
-   "smart": 83,
-   "kol": 6,
-   "bundler": 0.089,
-   "gap": 0,
-   "miss": 0
-  },
   "HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": {
    "sym": "Marvin",
    "qty": 176.99901193137765,
    "entry": 0.0006465,
-   "last": 0.0008081291289212773,
+   "last": 0.0007492,
    "peak": 0.0008692,
    "cost": 0.11794461060980793,
    "opened": "2026-11-16T12:35:33+07:00",
    "smart": 112,
    "kol": 5,
    "bundler": 0.3708,
-   "gap": 1,
+   "gap": 2,
    "miss": 0
   },
   "6hjaMcRPvB4DEGpHqgHxmgipb2vrGQWMewZBAVSLpump": {
@@ -39215,6 +39201,65 @@
    "cost_side": 0.03,
    "smart": 22,
    "bundler": 0.142
+  },
+  {
+   "t": "2026-11-16T13:04:29+07:00",
+   "kind": "debate",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "ok": false,
+   "bundler": 0.0646,
+   "buy": 0.8975,
+   "bull": 0.9055,
+   "bear": 0.9621
+  },
+  {
+   "t": "2026-11-16T13:04:32+07:00",
+   "kind": "debate",
+   "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+   "sym": "HOGE",
+   "ok": false,
+   "bundler": 0.2915,
+   "buy": 0.8837,
+   "bull": 0.9267,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-16T13:04:35+07:00",
+   "kind": "debate",
+   "mint": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
+   "sym": "STANK",
+   "ok": true,
+   "bundler": 0.1183,
+   "buy": 0.8837,
+   "bull": 0.8879,
+   "bear": 0.1433
+  },
+  {
+   "t": "2026-11-16T13:04:38+07:00",
+   "kind": "debate",
+   "mint": "qay6c14bea8Y2ebCYwDpNtMqxEE27WZFJELKPQ6cGTA",
+   "sym": "TURN",
+   "ok": false,
+   "bundler": 0.1133,
+   "buy": 0.8301,
+   "bull": 0.7222,
+   "bear": 0.9993
+  },
+  {
+   "t": "2026-11-16T13:04:39+07:00",
+   "kind": "sell",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.000448,
+   "entry": 0.0004978,
+   "usd": 0.1012,
+   "pnl": -0.0183,
+   "why": "stop -10.0%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 83,
+   "bundler": 0.089
   }
  ]
 }

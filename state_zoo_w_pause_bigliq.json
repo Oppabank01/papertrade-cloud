@@ -1,41 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.9651662693147351,
+ "cash": 3.6917497577496166,
  "pos": {
-  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
-   "sym": "Buttcoin",
-   "qty": 323.50773434362577,
-   "entry": 0.005758,
-   "last": 0.005501,
-   "peak": 0.005758,
-   "cost": 1.9199727214498012,
-   "opened": "2026-11-16T10:06:08+07:00",
-   "zoo": "w_pause_bigliq",
-   "smart": 473,
-   "kol": 48,
-   "gap": 0,
-   "miss": 0
-  },
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 364.0422613187274,
    "entry": 0.005017,
-   "last": 0.004683,
+   "last": 0.004678,
    "peak": 0.005506,
    "cost": 1.882498479732071,
    "opened": "2026-11-16T11:21:21+07:00",
    "zoo": "w_pause_bigliq",
    "smart": 249,
    "kol": 20,
-   "gap": 1,
+   "gap": 2,
    "miss": 0
   },
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 516.5151987074056,
    "entry": 0.003471,
-   "last": 0.003325,
+   "last": 0.003298,
    "peak": 0.003481,
    "cost": 1.8478914189995927,
    "opened": "2026-11-16T12:22:36+07:00",
@@ -49,7 +35,7 @@
    "sym": "ANSEM",
    "qty": 36.10744960727813,
    "entry": 0.04908,
-   "last": 0.04885,
+   "last": 0.04897,
    "peak": 0.04908,
    "cost": 1.8265858861319424,
    "opened": "2026-11-16T12:51:55+07:00",
@@ -944,8 +930,23 @@
    "zoo": "w_pause_bigliq",
    "smart": 1000,
    "kol": 186
+  },
+  {
+   "t": "2026-11-16T13:06:23+07:00",
+   "kind": "sell",
+   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+   "sym": "Buttcoin",
+   "price": 0.005501,
+   "entry": 0.005758,
+   "usd": 1.7266,
+   "pnl": -0.1934,
+   "why": "ครบ 3 ชม. (-4.5%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 473,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794808783.0131114
+ "rank_t": 1794809061.6020424
 }
