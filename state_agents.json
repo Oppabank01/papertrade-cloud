@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.33826045766269003,
+ "cash": 0.22737215165086694,
  "pos": {
   "FS8ZSohYyG5tNm1ZAHzpvRgK2tJsCLSCDYX4xigNpump": {
    "sym": "250",
    "qty": 1372.2961600702326,
    "entry": 8.312e-05,
-   "last": 7.753e-05,
+   "last": 7.907e-05,
    "peak": 8.312e-05,
    "cost": 0.11756880728204261,
    "opened": "2026-11-16T18:23:24+07:00",
@@ -21,13 +21,27 @@
    "sym": "paws",
    "qty": 196.82135372208737,
    "entry": 0.0005582,
-   "last": 0.0005578,
+   "last": 0.000545,
    "peak": 0.0005691,
    "cost": 0.11324023876280064,
    "opened": "2026-11-16T18:41:51+07:00",
    "smart": 291,
    "kol": 15,
    "bundler": 0.1914,
+   "gap": 0,
+   "miss": 0
+  },
+  "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": {
+   "sym": "gtacoin",
+   "qty": 280.67788805810267,
+   "entry": 0.0003833,
+   "last": 0.0003834,
+   "peak": 0.0003834,
+   "cost": 0.11088830601182309,
+   "opened": "2026-11-16T19:48:56+07:00",
+   "smart": 33,
+   "kol": 1,
+   "bundler": 0.0292,
    "gap": 0,
    "miss": 0
   }
@@ -41875,6 +41889,64 @@
    "buy": 0.8216,
    "bull": 0.9518,
    "bear": 1.0
+  },
+  {
+   "t": "2026-11-16T19:48:48+07:00",
+   "kind": "debate",
+   "mint": "42t61wPi41TwWtpqBVgZN1V4hjiKwZBKwq27xME9pump",
+   "sym": "1.0",
+   "ok": false,
+   "bundler": 0.17,
+   "buy": 0.7532,
+   "bull": 0.9568,
+   "bear": 0.9999
+  },
+  {
+   "t": "2026-11-16T19:48:50+07:00",
+   "kind": "debate",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "ok": false,
+   "bundler": 0.4766,
+   "buy": 0.8936,
+   "bull": 0.8713,
+   "bear": 0.9997
+  },
+  {
+   "t": "2026-11-16T19:48:53+07:00",
+   "kind": "debate",
+   "mint": "Gv6jKrrjJW9NLZujVZdxj6D9xL21qcLbHso8LYFMpump",
+   "sym": "BOUNCER",
+   "ok": false,
+   "bundler": 0.0454,
+   "buy": 0.9872,
+   "bull": 0.9491,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-16T19:48:56+07:00",
+   "kind": "debate",
+   "mint": "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK",
+   "sym": "gtacoin",
+   "ok": true,
+   "bundler": 0.0292,
+   "buy": 0.8316,
+   "bull": 0.9556,
+   "bear": 0.9498
+  },
+  {
+   "t": "2026-11-16T19:48:56+07:00",
+   "kind": "buy",
+   "mint": "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK",
+   "sym": "gtacoin",
+   "price": 0.0003833,
+   "jup": 0.0003871433456530683,
+   "usd": 0.1109,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 33,
+   "kol": 1,
+   "bundler": 0.0292
   }
  ]
 }

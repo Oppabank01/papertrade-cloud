@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.2175524713634567,
+ "cash": 0.5880674259565256,
  "pos": {
   "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
    "sym": "CBUCKS",
    "qty": 122.08171596636328,
    "entry": 0.005303,
-   "last": 0.005536,
+   "last": 0.00551,
    "peak": 0.005721,
    "cost": 0.667284415346964,
    "opened": "2026-11-16T18:14:21+07:00",
@@ -21,7 +21,7 @@
    "sym": "NIO",
    "qty": 429.54436660962523,
    "entry": 0.001504,
-   "last": 0.001508,
+   "last": 0.001478,
    "peak": 0.001542,
    "cost": 0.6658778884568917,
    "opened": "2026-11-16T18:56:47+07:00",
@@ -35,13 +35,27 @@
    "sym": "CLAUDIA",
    "qty": 143.9742273175247,
    "entry": 0.004289,
-   "last": 0.004211,
+   "last": 0.004163,
    "peak": 0.004289,
    "cost": 0.6364723365954066,
    "opened": "2026-11-16T19:11:19+07:00",
    "zoo": "aged",
    "smart": 439,
    "kol": 28,
+   "gap": 0,
+   "miss": 0
+  },
+  "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": {
+   "sym": "rockstar",
+   "qty": 471.6033907751387,
+   "entry": 0.001295,
+   "last": 0.001295,
+   "peak": 0.001295,
+   "cost": 0.6294850454069311,
+   "opened": "2026-11-16T19:49:31+07:00",
+   "zoo": "aged",
+   "smart": 67,
+   "kol": 4,
    "gap": 0,
    "miss": 0
   }
@@ -2815,8 +2829,22 @@
    "cost_side": 0.03,
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T19:49:31+07:00",
+   "kind": "buy",
+   "mint": "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump",
+   "sym": "rockstar",
+   "price": 0.001295,
+   "jup": 0.0013011561072439955,
+   "usd": 0.6295,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "aged",
+   "smart": 67,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุเกิน 1 วัน ยังมีคนเล่น",
- "rank_t": 1794833035.520242
+ "rank_t": 1794833321.55893
 }

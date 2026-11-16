@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.692271939545482,
+ "cash": 1.7703300860207474,
  "pos": {
   "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump": {
    "sym": "GTA6",
@@ -19,10 +19,22 @@
    "sym": "250",
    "qty": 11039.36789740072,
    "entry": 8.312e-05,
-   "last": 7.753e-05,
+   "last": 7.907e-05,
    "peak": 8.312e-05,
    "cost": 0.9457763962398968,
    "opened": "2026-11-16T18:23:31+07:00",
+   "source": "agents",
+   "gap": 0,
+   "miss": 0
+  },
+  "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": {
+   "sym": "gtacoin",
+   "qty": 2333.5976683790705,
+   "entry": 0.0003833,
+   "last": 0.0003834,
+   "peak": 0.0003834,
+   "cost": 0.9219418535247348,
+   "opened": "2026-11-16T19:48:58+07:00",
    "source": "agents",
    "gap": 0,
    "miss": 0
@@ -1141,6 +1153,18 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-16T19:48:58+07:00",
+   "kind": "buy",
+   "mint": "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK",
+   "sym": "gtacoin",
+   "price": 0.0003833,
+   "jup": 0.0003871433456530683,
+   "usd": 0.9219,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "agents"
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",
@@ -1293,6 +1317,7 @@
   "state_agents.json:2026-11-16T16:45:40+07:00:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
   "state_agents.json:2026-11-16T18:23:21+07:00:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump",
   "state_agents.json:2026-11-16T18:23:24+07:00:FS8ZSohYyG5tNm1ZAHzpvRgK2tJsCLSCDYX4xigNpump",
-  "state_agents.json:2026-11-16T18:41:51+07:00:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump"
+  "state_agents.json:2026-11-16T18:41:51+07:00:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
+  "state_agents.json:2026-11-16T19:48:56+07:00:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK"
  ]
 }
