@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.239647484247076,
+ "cash": 2.1068809518352483,
  "pos": {
   "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
    "sym": "CBUCKS",
    "qty": 242.1523951484278,
    "entry": 0.004663,
-   "last": 0.005105,
-   "peak": 0.005105,
+   "last": 0.005056,
+   "peak": 0.005108,
    "cost": 1.1638390214152945,
    "opened": "2026-11-16T07:55:05+07:00",
    "zoo": "w_pause_aged",
@@ -17,31 +17,31 @@
    "gap": 0,
    "miss": 0
   },
-  "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": {
-   "sym": "VEIL",
-   "qty": 1993.0927738376324,
-   "entry": 0.0005578,
-   "last": 0.0005187,
-   "peak": 0.0005578,
-   "cost": 1.1458948147254497,
-   "opened": "2026-11-16T08:05:09+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 76,
-   "kol": 5,
-   "gap": 0,
-   "miss": 0
-  },
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
    "sym": "Rings",
    "qty": 1746.2852721692427,
    "entry": 0.0006218,
-   "last": 0.0006205,
+   "last": 0.0006066,
    "peak": 0.0006218,
    "cost": 1.119192107024155,
    "opened": "2026-11-16T08:51:53+07:00",
    "zoo": "w_pause_aged",
    "smart": 79,
    "kol": 5,
+   "gap": 0,
+   "miss": 0
+  },
+  "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
+   "sym": "Lucia",
+   "qty": 904.834682598464,
+   "entry": 0.00118,
+   "last": 0.001176,
+   "peak": 0.00118,
+   "cost": 1.1004998201053262,
+   "opened": "2026-11-16T08:56:20+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 108,
+   "kol": 4,
    "gap": 0,
    "miss": 0
   }
@@ -1718,8 +1718,37 @@
    "zoo": "w_pause_aged",
    "smart": 79,
    "kol": 5
+  },
+  {
+   "t": "2026-11-16T08:54:23+07:00",
+   "kind": "sell",
+   "mint": "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump",
+   "sym": "VEIL",
+   "price": 0.0005004571462691589,
+   "entry": 0.0005578,
+   "usd": 0.9677,
+   "pnl": -0.1782,
+   "why": "stop -10.3%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 76,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-16T08:56:20+07:00",
+   "kind": "buy",
+   "mint": "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump",
+   "sym": "Lucia",
+   "price": 0.00118,
+   "jup": 0.0011807756626352661,
+   "usd": 1.1005,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 108,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794793779.0739343
+ "rank_t": 1794794063.2024782
 }
