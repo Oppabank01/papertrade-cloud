@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.7902239721582336,
+ "cash": 1.344719993579244,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
@@ -14,6 +14,20 @@
    "zoo": "holders",
    "smart": 1000,
    "kol": 186,
+   "gap": 0,
+   "miss": 0
+  },
+  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
+   "sym": "DacityCoin",
+   "qty": 112.58868455778475,
+   "entry": 0.003839,
+   "last": 0.003839,
+   "peak": 0.003839,
+   "cost": 0.4455039785789896,
+   "opened": "2026-11-17T04:25:55+07:00",
+   "zoo": "holders",
+   "smart": 250,
+   "kol": 20,
    "gap": 0,
    "miss": 0
   }
@@ -2948,8 +2962,22 @@
    "cost_side": 0.03,
    "smart": 150,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T04:25:55+07:00",
+   "kind": "buy",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.003839,
+   "jup": 0.00380858906182661,
+   "usd": 0.4455,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 250,
+   "kol": 20
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794864029.7202308
+ "rank_t": 1794864322.097336
 }
