@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.17502189692967968,
+ "cash": 0.0,
  "pos": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": {
    "sym": "WOJAK",
@@ -21,7 +21,7 @@
    "sym": "PAID",
    "qty": 1111.6609493267554,
    "entry": 0.001154,
-   "last": 0.001343,
+   "last": 0.001344,
    "peak": 0.001587,
    "cost": 1.3222600860885134,
    "opened": "2026-11-15T23:34:03+07:00",
@@ -35,7 +35,7 @@
    "sym": "Snoopy",
    "qty": 2965.218453563844,
    "entry": 0.0002855,
-   "last": 0.0002977,
+   "last": 0.0002961,
    "peak": 0.0003537,
    "cost": 0.8725725298829905,
    "opened": "2026-11-16T02:50:17+07:00",
@@ -43,6 +43,20 @@
    "smart": 223,
    "kol": 14,
    "gap": 0,
+   "miss": 0
+  },
+  "ANPikG3a5qKJjHeeNjDmjZvDPPVtQ8B1ii6unvg3pump": {
+   "sym": "capytrade",
+   "qty": 2414.421219979741,
+   "entry": 7.033e-05,
+   "last": 9.955e-05,
+   "peak": 9.981e-05,
+   "cost": 0.17502189692967968,
+   "opened": "2026-11-16T13:00:17+07:00",
+   "zoo": "w_pause_smartflow",
+   "smart": 18,
+   "kol": 2,
+   "gap": 9,
    "miss": 0
   }
  },
@@ -903,8 +917,22 @@
    "cost_side": 0.03,
    "smart": 5,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T13:00:17+07:00",
+   "kind": "buy",
+   "mint": "ANPikG3a5qKJjHeeNjDmjZvDPPVtQ8B1ii6unvg3pump",
+   "sym": "capytrade",
+   "price": 7.033e-05,
+   "jup": 7.017517661321552e-05,
+   "usd": 0.175,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "w_pause_smartflow",
+   "smart": 18,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794808507.9851542
+ "rank_t": 1794808783.0131114
 }

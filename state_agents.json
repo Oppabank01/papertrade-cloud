@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.11604262793688908,
+ "cash": 0.20743325894198264,
  "pos": {
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
    "sym": "Rings",
    "qty": 232.91164722488594,
    "entry": 0.0004978,
-   "last": 0.0004777,
+   "last": 0.0004593,
    "peak": 0.0004978,
    "cost": 0.1195046567599961,
    "opened": "2026-11-16T12:11:22+07:00",
@@ -21,14 +21,14 @@
    "sym": "Marvin",
    "qty": 176.99901193137765,
    "entry": 0.0006465,
-   "last": 0.0008692,
+   "last": 0.0008081291289212773,
    "peak": 0.0008692,
    "cost": 0.11794461060980793,
    "opened": "2026-11-16T12:35:33+07:00",
    "smart": 112,
    "kol": 5,
    "bundler": 0.3708,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "6hjaMcRPvB4DEGpHqgHxmgipb2vrGQWMewZBAVSLpump": {
@@ -42,20 +42,6 @@
    "smart": 149,
    "kol": 5,
    "bundler": 0.0918,
-   "gap": 0,
-   "miss": 0
-  },
-  "EDaMfNn3FTEXDmbdMSwuUkcHoKQFYf4vato1hjxnpump": {
-   "sym": "Marvin",
-   "qty": 1506.1996027361056,
-   "entry": 7.836e-05,
-   "last": 7.709e-05,
-   "peak": 7.836e-05,
-   "cost": 0.12165100069099283,
-   "opened": "2026-11-16T12:55:25+07:00",
-   "smart": 22,
-   "kol": 2,
-   "bundler": 0.142,
    "gap": 0,
    "miss": 0
   }
@@ -39213,6 +39199,21 @@
    "cost_side": 0.03,
    "smart": 22,
    "kol": 2,
+   "bundler": 0.142
+  },
+  {
+   "t": "2026-11-16T12:59:43+07:00",
+   "kind": "sell",
+   "mint": "EDaMfNn3FTEXDmbdMSwuUkcHoKQFYf4vato1hjxnpump",
+   "sym": "Marvin",
+   "price": 6.254e-05,
+   "entry": 7.836e-05,
+   "usd": 0.0914,
+   "pnl": -0.0303,
+   "why": "stop -20.2%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 22,
    "bundler": 0.142
   }
  ]
