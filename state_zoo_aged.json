@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.3657424293116558,
+ "cash": 0.6727555658581933,
  "pos": {
   "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
    "sym": "Rocco",
@@ -21,7 +21,7 @@
    "sym": "USELESS",
    "qty": 6.653549511693295,
    "entry": 0.09811,
-   "last": 0.1001,
+   "last": 0.1,
    "peak": 0.1009,
    "cost": 0.6728300789447837,
    "opened": "2026-11-16T15:49:52+07:00",
@@ -35,13 +35,27 @@
    "sym": "STONK",
    "qty": 16.74514644766735,
    "entry": 0.03995,
-   "last": 0.04012,
+   "last": 0.04002,
    "peak": 0.04016,
    "cost": 0.6895161828327259,
    "opened": "2026-11-16T16:37:07+07:00",
    "zoo": "aged",
    "smart": 1000,
    "kol": 174,
+   "gap": 0,
+   "miss": 0
+  },
+  "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": {
+   "sym": "gtacoin",
+   "qty": 1290.7196293387392,
+   "entry": 0.0005209,
+   "last": 0.0005193,
+   "peak": 0.0005209,
+   "cost": 0.6929868634534625,
+   "opened": "2026-11-16T17:27:42+07:00",
+   "zoo": "aged",
+   "smart": 33,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -2699,8 +2713,22 @@
    "cost_side": 0.03,
    "smart": 862,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T17:27:42+07:00",
+   "kind": "buy",
+   "mint": "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK",
+   "sym": "gtacoin",
+   "price": 0.0005209,
+   "jup": 0.0005241605926472906,
+   "usd": 0.693,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "aged",
+   "smart": 33,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุเกิน 1 วัน ยังมีคนเล่น",
- "rank_t": 1794824525.3761892
+ "rank_t": 1794824817.459612
 }

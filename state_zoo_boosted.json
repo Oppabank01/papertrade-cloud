@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.0173315732695374,
+ "cash": 0.6667452902277724,
  "pos": {
   "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": {
    "sym": "PUMPCADE",
    "qty": 21.692749647880937,
    "entry": 0.01698,
-   "last": 0.01652,
+   "last": 0.01645,
    "peak": 0.01698,
    "cost": 0.3796566574118927,
    "opened": "2026-11-16T14:48:23+07:00",
@@ -21,13 +21,27 @@
    "sym": "CatFu",
    "qty": 4975.410416200136,
    "entry": 7.243e-05,
-   "last": 7.582e-05,
-   "peak": 7.582e-05,
+   "last": 7.585e-05,
+   "peak": 7.585e-05,
    "cost": 0.37143782358830735,
    "opened": "2026-11-16T15:16:47+07:00",
    "zoo": "boosted",
    "smart": 81,
    "kol": 3,
+   "gap": 0,
+   "miss": 0
+  },
+  "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": {
+   "sym": "gtacoin",
+   "qty": 652.9829368537538,
+   "entry": 0.0005209,
+   "last": 0.0005193,
+   "peak": 0.0005209,
+   "cost": 0.350586283041765,
+   "opened": "2026-11-16T17:27:49+07:00",
+   "zoo": "boosted",
+   "smart": 33,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -2869,8 +2883,22 @@
    "cost_side": 0.03,
    "smart": 63,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T17:27:49+07:00",
+   "kind": "buy",
+   "mint": "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK",
+   "sym": "gtacoin",
+   "price": 0.0005209,
+   "jup": 0.0005241605926472906,
+   "usd": 0.3506,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 33,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794824525.3761892
+ "rank_t": 1794824817.459612
 }
