@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.4185517824289993,
+ "cash": 0.8009933884620812,
  "pos": {
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
@@ -14,42 +14,28 @@
    "zoo": "boosted",
    "smart": 409,
    "kol": 32,
-   "gap": 0,
-   "miss": 0
-  },
-  "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump": {
-   "sym": "chudhaos",
-   "qty": 931.3093569297529,
-   "entry": 0.0004343,
-   "last": 0.000444,
-   "peak": 0.0005017,
-   "cost": 0.4168910056839741,
-   "opened": "2026-11-16T12:06:53+07:00",
-   "zoo": "boosted",
-   "smart": 32,
-   "kol": 1,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 117.23298202192636,
    "entry": 0.003471,
-   "last": 0.003267,
+   "last": 0.003292,
    "peak": 0.003471,
    "cost": 0.41941422448784416,
    "opened": "2026-11-16T12:21:57+07:00",
    "zoo": "boosted",
    "smart": 722,
    "kol": 80,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 95.69843807932017,
    "entry": 0.004205,
-   "last": 0.004283,
+   "last": 0.004284,
    "peak": 0.00434,
    "cost": 0.4147721419537635,
    "opened": "2026-11-16T12:36:25+07:00",
@@ -2722,8 +2708,23 @@
    "zoo": "boosted",
    "smart": 439,
    "kol": 28
+  },
+  {
+   "t": "2026-11-16T13:46:43+07:00",
+   "kind": "sell",
+   "mint": "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump",
+   "sym": "chudhaos",
+   "price": 0.00042326260124536273,
+   "entry": 0.0004343,
+   "usd": 0.3824,
+   "pnl": -0.0344,
+   "why": "trailing จากยอด +16% (-2.5%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 32,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794811280.354673
+ "rank_t": 1794811571.112227
 }

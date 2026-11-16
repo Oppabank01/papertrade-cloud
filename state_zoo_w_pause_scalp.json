@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.8154906100916013,
+ "cash": 3.191194754228747,
  "pos": {
   "6sZUjgnHTdezsZoMdbTcxsi58bXqnsz6mkj49Wgxpump": {
    "sym": "SHIT",
    "qty": 4329.190185181719,
    "entry": 0.0001477,
-   "last": 0.0001295,
+   "last": 0.0001388,
    "peak": 0.0001536,
    "cost": 0.6590614206878375,
    "opened": "2026-11-16T12:22:31+07:00",
@@ -21,14 +21,14 @@
    "sym": "Peekhole",
    "qty": 974.5723967840551,
    "entry": 0.0006522,
-   "last": 0.0007002,
-   "peak": 0.0007099,
+   "last": 0.0007338,
+   "peak": 0.0007338,
    "cost": 0.6551392673495782,
    "opened": "2026-11-16T12:22:32+07:00",
    "zoo": "w_pause_scalp",
    "smart": 57,
    "kol": 6,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump": {
@@ -49,14 +49,28 @@
    "sym": "WISHMAS",
    "qty": 3531.078477871119,
    "entry": 0.000176,
-   "last": 0.0001635,
+   "last": 0.0001663,
    "peak": 0.00018934047780195832,
    "cost": 0.6405584540355772,
    "opened": "2026-11-16T12:51:51+07:00",
    "zoo": "w_pause_scalp",
    "smart": 169,
    "kol": 9,
-   "gap": 2,
+   "gap": 1,
+   "miss": 0
+  },
+  "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": {
+   "sym": "bill",
+   "qty": 4578.169609660932,
+   "entry": 0.0001323,
+   "last": 0.0001324,
+   "peak": 0.0001324,
+   "cost": 0.6242958558628544,
+   "opened": "2026-11-16T13:47:16+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 124,
+   "kol": 8,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -2940,8 +2954,22 @@
    "cost_side": 0.03,
    "smart": 170,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T13:47:16+07:00",
+   "kind": "buy",
+   "mint": "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
+   "sym": "bill",
+   "price": 0.0001323,
+   "jup": 0.00013219144557010098,
+   "usd": 0.6243,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 124,
+   "kol": 8
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794811280.354673
+ "rank_t": 1794811571.112227
 }
