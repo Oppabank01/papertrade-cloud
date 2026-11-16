@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.3211003389021561,
+ "cash": 0.22664348303538873,
  "pos": {
   "8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump": {
    "sym": "Nyajira",
@@ -21,13 +21,27 @@
    "sym": "Rocco",
    "qty": 115.57111723104204,
    "entry": 0.0009859,
-   "last": 0.00113,
+   "last": 0.001129,
    "peak": 0.00149,
    "cost": 0.11744131568551262,
    "opened": "2026-11-16T06:10:40+07:00",
    "zoo": "hodl",
    "smart": 112,
    "kol": 8,
+   "gap": 0,
+   "miss": 0
+  },
+  "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump": {
+   "sym": "plumber",
+   "qty": 173.8938170055744,
+   "entry": 0.000527,
+   "last": 0.000527,
+   "peak": 0.000527,
+   "cost": 0.09445685586676739,
+   "opened": "2026-11-17T01:56:28+07:00",
+   "zoo": "hodl",
+   "smart": 187,
+   "kol": 4,
    "gap": 0,
    "miss": 0
   }
@@ -244,8 +258,22 @@
    "cost_side": 0.03,
    "smart": 108,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T01:56:28+07:00",
+   "kind": "buy",
+   "mint": "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump",
+   "sym": "plumber",
+   "price": 0.000527,
+   "jup": 0.0005311704380458525,
+   "usd": 0.0945,
+   "stop_set": -1.0,
+   "cost_side": 0.03,
+   "zoo": "hodl",
+   "smart": 187,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: ไม่ตั้ง stop ถือ 24 ชม.",
- "rank_t": 1794855048.0126483
+ "rank_t": 1794855333.3038194
 }
