@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.08285150088412425,
+ "cash": 0.19273378318540665,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 2.4320244560274062,
    "entry": 0.04027,
-   "last": 0.04096,
+   "last": 0.04101,
    "peak": 0.04117,
    "cost": 0.10094580998167764,
    "opened": "2026-11-16T21:32:18+07:00",
@@ -21,7 +21,7 @@
    "sym": "Macca",
    "qty": 52.01012076189771,
    "entry": 0.001761,
-   "last": 0.001722,
+   "last": 0.001768,
    "peak": 0.0018871476948065203,
    "cost": 0.09440303304648719,
    "opened": "2026-11-16T22:23:42+07:00",
@@ -31,32 +31,18 @@
    "gap": 0,
    "miss": 0
   },
-  "2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ": {
-   "sym": "hello",
-   "qty": 984.9607591248908,
-   "entry": 9.083e-05,
-   "last": 0.0001368,
-   "peak": 0.0001368,
-   "cost": 0.09221190038271884,
-   "opened": "2026-11-16T23:48:04+07:00",
-   "smart": 76,
-   "kol": 4,
-   "bundler": 0.2757,
-   "gap": 0,
-   "miss": 0
-  },
   "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": {
    "sym": "rockstar",
    "qty": 88.39488062755358,
    "entry": 0.001044,
-   "last": 0.001044,
-   "peak": 0.001044,
+   "last": 0.001077,
+   "peak": 0.001077,
    "cost": 0.09511879548048437,
    "opened": "2026-11-17T00:16:27+07:00",
    "smart": 68,
    "kol": 4,
    "bundler": 0.216,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -43938,6 +43924,21 @@
    "smart": 68,
    "kol": 4,
    "bundler": 0.216
+  },
+  {
+   "t": "2026-11-17T00:21:11+07:00",
+   "kind": "sell",
+   "mint": "2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ",
+   "sym": "hello",
+   "price": 0.00011498666350200494,
+   "entry": 9.083e-05,
+   "usd": 0.1099,
+   "pnl": 0.0177,
+   "why": "trailing จากยอด +51% (+26.6%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 76,
+   "bundler": 0.2757
   }
  ]
 }

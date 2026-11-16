@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.848272111160651,
+ "cash": 2.1449200905901313,
  "pos": {
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 186.35348300185842,
    "entry": 0.003737,
-   "last": 0.003651,
+   "last": 0.0036624345995506635,
    "peak": 0.00375,
    "cost": 0.717793203440471,
    "opened": "2026-11-16T23:11:31+07:00",
    "zoo": "w_ban_aged",
    "smart": 250,
    "kol": 20,
+   "gap": 6,
+   "miss": 0
+  },
+  "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
+   "sym": "TROLL",
+   "qty": 28.198021915599927,
+   "entry": 0.0242,
+   "last": 0.0242,
+   "peak": 0.0242,
+   "cost": 0.7033520205705198,
+   "opened": "2026-11-17T00:22:06+07:00",
+   "zoo": "w_ban_aged",
+   "smart": 471,
+   "kol": 213,
    "gap": 0,
    "miss": 0
   }
@@ -2587,10 +2601,24 @@
    "cost_side": 0.03,
    "smart": 186,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T00:22:06+07:00",
+   "kind": "buy",
+   "mint": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
+   "sym": "TROLL",
+   "price": 0.0242,
+   "jup": 0.02437714597236971,
+   "usd": 0.7034,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_aged",
+   "smart": 471,
+   "kol": 213
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794849378.057702,
+ "rank_t": 1794849671.5967815,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": "CHOO",
