@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.2368400258217638,
+ "cash": 0.8199490201377897,
  "pos": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 63.01488681581263,
    "entry": 0.006751,
-   "last": 0.007045,
+   "last": 0.006926,
    "peak": 0.007434,
    "cost": 0.4384802111869213,
    "opened": "2026-11-16T09:18:51+07:00",
@@ -28,6 +28,20 @@
    "zoo": "boosted",
    "smart": 409,
    "kol": 32,
+   "gap": 0,
+   "miss": 0
+  },
+  "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump": {
+   "sym": "chudhaos",
+   "qty": 931.3093569297529,
+   "entry": 0.0004343,
+   "last": 0.0004343,
+   "peak": 0.0004343,
+   "cost": 0.4168910056839741,
+   "opened": "2026-11-16T12:06:53+07:00",
+   "zoo": "boosted",
+   "smart": 32,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -2637,8 +2651,22 @@
    "zoo": "boosted",
    "smart": 409,
    "kol": 32
+  },
+  {
+   "t": "2026-11-16T12:06:53+07:00",
+   "kind": "buy",
+   "mint": "4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump",
+   "sym": "chudhaos",
+   "price": 0.0004343,
+   "jup": 0.0004382228805422436,
+   "usd": 0.4169,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 32,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794805298.0029795
+ "rank_t": 1794805577.771774
 }
