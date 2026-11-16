@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 2.564907161129206,
+ "cash": 1.203507747278404,
  "pos": {
   "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": {
    "sym": "Kimchi",
    "qty": 790.3353877527734,
    "entry": 0.001893,
-   "last": 0.00185,
+   "last": 0.001847,
    "peak": 0.001893,
    "cost": 1.5420582240940015,
    "opened": "2026-11-16T08:14:06+07:00",
@@ -21,7 +21,7 @@
    "sym": "GATO",
    "qty": 197.93509067758836,
    "entry": 0.007356,
-   "last": 0.007253,
+   "last": 0.007203,
    "peak": 0.007492,
    "cost": 1.5007323510867243,
    "opened": "2026-11-16T08:52:04+07:00",
@@ -35,13 +35,27 @@
    "sym": "HOGE",
    "qty": 1850.075636821446,
    "entry": 0.0007498,
-   "last": 0.0007827,
+   "last": 0.0007103,
    "peak": 0.0008004,
    "cost": 1.4297945913097507,
    "opened": "2026-11-16T10:41:55+07:00",
    "zoo": "x_skip_pumped",
    "smart": 153,
    "kol": 9,
+   "gap": 4,
+   "miss": 0
+  },
+  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
+   "sym": "DacityCoin",
+   "qty": 271.49634353916707,
+   "entry": 0.004865,
+   "last": 0.004818,
+   "peak": 0.004865,
+   "cost": 1.3613994138508019,
+   "opened": "2026-11-16T11:02:37+07:00",
+   "zoo": "x_skip_pumped",
+   "smart": 249,
+   "kol": 20,
    "gap": 0,
    "miss": 0
   }
@@ -905,8 +919,22 @@
    "cost_side": 0.03,
    "smart": 170,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T11:02:37+07:00",
+   "kind": "buy",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.004865,
+   "jup": 0.0048668846123408,
+   "usd": 1.3614,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 249,
+   "kol": 20
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794801330.8037949
+ "rank_t": 1794801615.6517527
 }
