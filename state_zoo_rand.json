@@ -1,32 +1,46 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.36078214388321317,
+ "cash": 0.23884353589877227,
  "pos": {
   "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": {
    "sym": "GTA",
    "qty": 133.77524895306453,
    "entry": 0.000909,
-   "last": 0.000918739271061123,
+   "last": 0.0009457,
    "peak": 0.0009485,
    "cost": 0.125336736032092,
    "opened": "2026-11-16T17:56:16+07:00",
    "zoo": "rand",
    "smart": 274,
    "kol": 14,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "34As1e1Kop9zBvu5e84kjg452Uigq8krcoGEJiWRpump": {
    "sym": "UHI",
    "qty": 197.5949840517996,
    "entry": 0.0006127,
-   "last": 0.0006377,
-   "peak": 0.0006761794566372054,
+   "last": 0.0006919427948679836,
+   "peak": 0.0006919427948679836,
    "cost": 0.12478504094881221,
    "opened": "2026-11-16T18:00:26+07:00",
    "zoo": "rand",
    "smart": 13,
+   "kol": 0,
+   "gap": 1,
+   "miss": 0
+  },
+  "5JEauFGYh461xWuDpJA1gdPsciUodDNXmxriYTzpump": {
+   "sym": "Rockstar",
+   "qty": 1905.683593210447,
+   "entry": 6.208e-05,
+   "last": 6.208e-05,
+   "peak": 6.208e-05,
+   "cost": 0.1219386079844409,
+   "opened": "2026-11-16T19:58:23+07:00",
+   "zoo": "rand",
+   "smart": 1,
    "kol": 0,
    "gap": 0,
    "miss": 0
@@ -3117,8 +3131,22 @@
    "cost_side": 0.03,
    "smart": 439,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T19:58:23+07:00",
+   "kind": "buy",
+   "mint": "5JEauFGYh461xWuDpJA1gdPsciUodDNXmxriYTzpump",
+   "sym": "Rockstar",
+   "price": 6.208e-05,
+   "jup": 6.259524118099378e-05,
+   "usd": 0.1219,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 1,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794833605.679816
+ "rank_t": 1794833890.3681545
 }
