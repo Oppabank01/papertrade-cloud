@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 5.719690669711703,
+ "cash": 5.734379255350184,
  "pos": {
-  "488SaFq6wHF2z2k6NLSD3PtoSkXDNZaPkJwxze11pump": {
-   "sym": "MOMO",
-   "qty": 6288.844782311703,
-   "entry": 0.0001068,
-   "last": 0.0001072,
-   "peak": 0.0001104,
-   "cost": 0.69227852272819,
-   "opened": "2026-11-16T06:20:23+07:00",
+  "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
+   "sym": "JEANPHIL",
+   "qty": 231.03605051882042,
+   "entry": 0.002685,
+   "last": 0.002656,
+   "peak": 0.002685,
+   "cost": 0.6393854830375518,
+   "opened": "2026-11-16T08:19:00+07:00",
    "zoo": "w_pause_scalp",
-   "smart": 193,
-   "kol": 18,
-   "gap": 0,
+   "smart": 398,
+   "kol": 43,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -2595,8 +2595,37 @@
    "cost_side": 0.03,
    "smart": 0,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T08:19:00+07:00",
+   "kind": "buy",
+   "mint": "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump",
+   "sym": "JEANPHIL",
+   "price": 0.002685,
+   "jup": 0.0026606810586136263,
+   "usd": 0.6394,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 398,
+   "kol": 43
+  },
+  {
+   "t": "2026-11-16T08:20:24+07:00",
+   "kind": "sell",
+   "mint": "488SaFq6wHF2z2k6NLSD3PtoSkXDNZaPkJwxze11pump",
+   "sym": "MOMO",
+   "price": 0.0001072,
+   "entry": 0.0001068,
+   "usd": 0.6541,
+   "pnl": -0.0382,
+   "why": "ครบ 2 ชม. (+0.4%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 193,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794791539.066884
+ "rank_t": 1794791817.5658433
 }
