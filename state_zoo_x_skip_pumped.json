@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 2.378565913018596,
+ "cash": 3.581442705360664,
  "pos": {
-  "7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": {
-   "sym": "Snoopy",
-   "qty": 4207.514124562341,
-   "entry": 0.000295,
-   "last": 0.0003313,
-   "peak": 0.0003546,
-   "cost": 1.2793410294226868,
-   "opened": "2026-11-16T11:21:39+07:00",
-   "zoo": "x_skip_pumped",
-   "smart": 224,
-   "kol": 14,
-   "gap": 3,
-   "miss": 0
-  },
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
    "sym": "TROLL",
    "qty": 49.20885525522902,
    "entry": 0.02469,
-   "last": 0.02419,
+   "last": 0.02411,
    "peak": 0.02469,
    "cost": 1.252284720935482,
    "opened": "2026-11-16T11:54:17+07:00",
@@ -31,18 +17,18 @@
    "gap": 0,
    "miss": 0
   },
-  "G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump": {
-   "sym": "GTA",
-   "qty": 8935.700687423141,
-   "entry": 0.0001358,
-   "last": 0.00012606320075713798,
-   "peak": 0.0001358,
-   "cost": 1.2507402116595163,
-   "opened": "2026-11-16T14:06:29+07:00",
+  "8BMqmEFXDU6dWzU4we9Py5wRi8KpFQZSRPThQqLapump": {
+   "sym": "Pterodactyl",
+   "qty": 11864.875287985422,
+   "entry": 9.941e-05,
+   "last": 9.815e-05,
+   "peak": 9.941e-05,
+   "cost": 1.2157155765601226,
+   "opened": "2026-11-16T14:21:06+07:00",
    "zoo": "x_skip_pumped",
-   "smart": 12,
-   "kol": 0,
-   "gap": 1,
+   "smart": 57,
+   "kol": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1079,8 +1065,52 @@
    "cost_side": 0.03,
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T14:21:06+07:00",
+   "kind": "buy",
+   "mint": "8BMqmEFXDU6dWzU4we9Py5wRi8KpFQZSRPThQqLapump",
+   "sym": "Pterodactyl",
+   "price": 9.941e-05,
+   "jup": 9.922653898837794e-05,
+   "usd": 1.2157,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 57,
+   "kol": 1
+  },
+  {
+   "t": "2026-11-16T14:21:08+07:00",
+   "kind": "sell",
+   "mint": "G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump",
+   "sym": "GTA",
+   "price": 0.0001235,
+   "entry": 0.0001358,
+   "usd": 1.0707,
+   "pnl": -0.1801,
+   "why": "stop -9.1%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 12,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-16T14:21:55+07:00",
+   "kind": "sell",
+   "mint": "7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn",
+   "sym": "Snoopy",
+   "price": 0.0003302,
+   "entry": 0.000295,
+   "usd": 1.3479,
+   "pnl": 0.0686,
+   "why": "ครบ 3 ชม. (+11.9%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 224,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794813280.1949544
+ "rank_t": 1794813555.7501037
 }
