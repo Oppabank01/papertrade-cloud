@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 1.149268611008856,
+ "cash": 2.378565913018596,
  "pos": {
-  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
-   "sym": "STONK",
-   "qty": 30.276118461816623,
-   "entry": 0.04255,
-   "last": 0.04193,
-   "peak": 0.04288,
-   "cost": 1.3278178113278678,
-   "opened": "2026-11-16T11:16:13+07:00",
-   "zoo": "x_skip_pumped",
-   "smart": 1000,
-   "kol": 174,
-   "gap": 0,
-   "miss": 0
-  },
   "7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": {
    "sym": "Snoopy",
    "qty": 4207.514124562341,
    "entry": 0.000295,
-   "last": 0.0003544,
+   "last": 0.0003313,
    "peak": 0.0003546,
    "cost": 1.2793410294226868,
    "opened": "2026-11-16T11:21:39+07:00",
    "zoo": "x_skip_pumped",
    "smart": 224,
    "kol": 14,
-   "gap": 6,
+   "gap": 3,
    "miss": 0
   },
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
@@ -49,14 +35,14 @@
    "sym": "GTA",
    "qty": 8935.700687423141,
    "entry": 0.0001358,
-   "last": 0.0001293,
+   "last": 0.00012606320075713798,
    "peak": 0.0001358,
    "cost": 1.2507402116595163,
    "opened": "2026-11-16T14:06:29+07:00",
    "zoo": "x_skip_pumped",
    "smart": 12,
    "kol": 0,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -1078,8 +1064,23 @@
    "zoo": "x_skip_pumped",
    "smart": 12,
    "kol": 0
+  },
+  {
+   "t": "2026-11-16T14:16:32+07:00",
+   "kind": "sell",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.04185,
+   "entry": 0.04255,
+   "usd": 1.2293,
+   "pnl": -0.0985,
+   "why": "ครบ 3 ชม. (-1.6%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 1000,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794813001.3473308
+ "rank_t": 1794813280.1949544
 }

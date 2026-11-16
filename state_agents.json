@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.09778858208082779,
+ "cash": 0.3302702361899241,
  "pos": {
   "6hjaMcRPvB4DEGpHqgHxmgipb2vrGQWMewZBAVSLpump": {
    "sym": "STATE?",
    "qty": 1351.3937200749615,
    "entry": 8.786e-05,
-   "last": 8.807e-05,
+   "last": 8.62e-05,
    "peak": 8.807e-05,
    "cost": 0.12238038780229449,
    "opened": "2026-11-16T12:55:22+07:00",
@@ -21,28 +21,14 @@
    "sym": "STANK",
    "qty": 84.15411752957272,
    "entry": 0.001246,
-   "last": 0.001299,
-   "peak": 0.001299,
+   "last": 0.00131,
+   "peak": 0.00131,
    "cost": 0.10807671659642096,
    "opened": "2026-11-16T13:27:29+07:00",
    "smart": 78,
    "kol": 1,
    "bundler": 0.1162,
-   "gap": 5,
-   "miss": 0
-  },
-  "2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": {
-   "sym": "WIGGLES",
-   "qty": 848.7873656385523,
-   "entry": 0.0001228,
-   "last": 0.0003007,
-   "peak": 0.0003354598832210694,
-   "cost": 0.1074325793655063,
-   "opened": "2026-11-16T13:27:31+07:00",
-   "smart": 97,
-   "kol": 3,
-   "bundler": 0.317,
-   "gap": 8,
+   "gap": 0,
    "miss": 0
   },
   "9AvytnUKsLxPxFHFqS6VLxaxt5p6BhYNr53SD2Chpump": {
@@ -39532,6 +39518,21 @@
    "smart": 372,
    "kol": 63,
    "bundler": 0.0773
+  },
+  {
+   "t": "2026-11-16T14:14:40+07:00",
+   "kind": "sell",
+   "mint": "2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump",
+   "sym": "WIGGLES",
+   "price": 0.00028231146147994783,
+   "entry": 0.0001228,
+   "usd": 0.2325,
+   "pnl": 0.125,
+   "why": "trailing จากยอด +173% (+129.9%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 97,
+   "bundler": 0.317
   }
  ]
 }
