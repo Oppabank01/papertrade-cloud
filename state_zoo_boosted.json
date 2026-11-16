@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.6203230636426913,
+ "cash": 0.296544047970324,
  "pos": {
   "C2omVhcvt3DDY77S2KZzawFJQeETZofgZ4eNWWkXpump": {
    "sym": "BULLISH",
@@ -21,7 +21,7 @@
    "sym": "LuckyCoin",
    "qty": 1283.5674372245394,
    "entry": 0.0002583,
-   "last": 0.0002566,
+   "last": 0.0002555,
    "peak": 0.0002648,
    "cost": 0.3417289930273124,
    "opened": "2026-11-16T18:09:59+07:00",
@@ -42,6 +42,20 @@
    "zoo": "boosted",
    "smart": 1000,
    "kol": 186,
+   "gap": 0,
+   "miss": 0
+  },
+  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
+   "sym": "Macca",
+   "qty": 178.88975000303574,
+   "entry": 0.001756,
+   "last": 0.001742,
+   "peak": 0.001756,
+   "cost": 0.3237790156723673,
+   "opened": "2026-11-16T19:20:50+07:00",
+   "zoo": "boosted",
+   "smart": 173,
+   "kol": 8,
    "gap": 0,
    "miss": 0
   }
@@ -2984,8 +2998,22 @@
    "cost_side": 0.03,
    "smart": 33,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T19:20:50+07:00",
+   "kind": "buy",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.001756,
+   "jup": 0.0017583637945184024,
+   "usd": 0.3238,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 173,
+   "kol": 8
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794831324.3418796
+ "rank_t": 1794831607.7180278
 }

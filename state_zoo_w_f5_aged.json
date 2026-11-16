@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 4.046244776179658,
- "pos": {
-  "CaWZeUM4FvX9dPkjGc2xHS6tSN3qJfTWyvaG77aM5o7h": {
-   "sym": "AGI",
-   "qty": 2936.772215192482,
-   "entry": 0.0003151,
-   "last": 0.0003575,
-   "peak": 0.0003947,
-   "cost": 0.953800170075398,
-   "opened": "2026-11-16T16:23:07+07:00",
-   "zoo": "w_f5_aged",
-   "smart": 149,
-   "kol": 18,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 4.983403874388248,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T22:53:11+07:00",
@@ -2009,9 +1994,24 @@
    "cost_side": 0.03,
    "smart": 409,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T19:21:36+07:00",
+   "kind": "sell",
+   "mint": "CaWZeUM4FvX9dPkjGc2xHS6tSN3qJfTWyvaG77aM5o7h",
+   "sym": "AGI",
+   "price": 0.00032891357098038934,
+   "entry": 0.0003151,
+   "usd": 0.9372,
+   "pnl": -0.0166,
+   "why": "trailing จากยอด +25% (+4.4%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 149,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1794831324.3418796,
+ "rank_t": 1794831607.7180278,
  "halted": "ราคา AGI สองแหล่งต่างกันเกิน 1% ติดกัน 60 รอบ"
 }
