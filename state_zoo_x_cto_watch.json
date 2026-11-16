@@ -7,7 +7,7 @@
    "sym": "ANSEM",
    "qty": 59.15170230113698,
    "entry": 0.04942,
-   "last": 0.05154,
+   "last": 0.05117,
    "peak": 0.05182,
    "cost": 3.013066509711595,
    "opened": "2026-11-15T22:24:18+07:00",
@@ -21,7 +21,7 @@
    "sym": "GTA6",
    "qty": 590.3416838901148,
    "entry": 0.006896,
-   "last": 0.006893,
+   "last": 0.006838,
    "peak": 0.007058,
    "cost": 4.196038190173399,
    "opened": "2026-11-15T23:05:48+07:00",
@@ -35,7 +35,7 @@
    "sym": "STONK",
    "qty": 64.05599839911615,
    "entry": 0.04322,
-   "last": 0.04324,
+   "last": 0.04305,
    "peak": 0.0439,
    "cost": 2.853535612048856,
    "opened": "2026-11-16T04:02:10+07:00",
@@ -45,18 +45,18 @@
    "gap": 0,
    "miss": 0
   },
-  "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": {
-   "sym": "HOGE",
-   "qty": 497.2256547081479,
-   "entry": 0.0002897,
-   "last": 0.0002833,
-   "peak": 0.0002922,
-   "cost": 0.14847069899912435,
-   "opened": "2026-11-16T08:05:20+07:00",
+  "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": {
+   "sym": "Kimchi",
+   "qty": 61.236047490107744,
+   "entry": 0.001893,
+   "last": 0.0018240678536330245,
+   "peak": 0.001893,
+   "cost": 0.11948035240030298,
+   "opened": "2026-11-16T08:14:08+07:00",
    "zoo": "x_cto_watch",
-   "smart": 107,
-   "kol": 7,
-   "gap": 4,
+   "smart": 650,
+   "kol": 69,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -469,8 +469,37 @@
    "zoo": "x_cto_watch",
    "smart": 107,
    "kol": 7
+  },
+  {
+   "t": "2026-11-16T08:12:50+07:00",
+   "kind": "sell",
+   "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+   "sym": "HOGE",
+   "price": 0.0002476747288988599,
+   "entry": 0.0002897,
+   "usd": 0.1195,
+   "pnl": -0.029,
+   "why": "trailing จากยอด +1% (-14.5%)",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": 107,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-16T08:14:08+07:00",
+   "kind": "buy",
+   "mint": "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
+   "sym": "Kimchi",
+   "price": 0.001893,
+   "jup": 0.0018975659289759029,
+   "usd": 0.1195,
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "zoo": "x_cto_watch",
+   "smart": 650,
+   "kol": 69
   }
  ],
  "label": "สวนสัตว์: รอ dev เทหมดแล้วมี CTO: dev ถือ 0% ซื้อ 40% ขายครึ่ง x3 trail 15% stop -18%",
- "rank_t": 1794791246.8563786
+ "rank_t": 1794791539.066884
 }

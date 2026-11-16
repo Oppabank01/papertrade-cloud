@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 2.5770754748475038,
+ "cash": 1.0350172507535023,
  "pos": {
   "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
    "sym": "SAPLING",
@@ -21,28 +21,42 @@
    "sym": "fone",
    "qty": 2146.4610219358797,
    "entry": 0.0007998,
-   "last": 0.0008187882860661925,
+   "last": 0.000802,
    "peak": 0.0008277,
    "cost": 1.769469723092472,
    "opened": "2026-11-16T07:11:41+07:00",
    "zoo": "x_skip_pumped",
    "smart": 483,
    "kol": 58,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
    "sym": "MANIFEST",
    "qty": 408.7172778942013,
    "entry": 0.003747,
-   "last": 0.003586,
+   "last": 0.003583,
    "peak": 0.003785,
    "cost": 1.5785030305808827,
    "opened": "2026-11-16T07:55:14+07:00",
    "zoo": "x_skip_pumped",
    "smart": 80,
    "kol": 15,
-   "gap": 0,
+   "gap": 4,
+   "miss": 0
+  },
+  "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": {
+   "sym": "Kimchi",
+   "qty": 790.3353877527734,
+   "entry": 0.001893,
+   "last": 0.0018240678536330245,
+   "peak": 0.001893,
+   "cost": 1.5420582240940015,
+   "opened": "2026-11-16T08:14:06+07:00",
+   "zoo": "x_skip_pumped",
+   "smart": 650,
+   "kol": 69,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -760,8 +774,22 @@
    "cost_side": 0.03,
    "smart": 95,
    "bundler": null
+  },
+  {
+   "t": "2026-11-16T08:14:06+07:00",
+   "kind": "buy",
+   "mint": "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
+   "sym": "Kimchi",
+   "price": 0.001893,
+   "jup": 0.0018975659289759029,
+   "usd": 1.5421,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_skip_pumped",
+   "smart": 650,
+   "kol": 69
   }
  ],
  "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
- "rank_t": 1794791246.8563786
+ "rank_t": 1794791539.066884
 }

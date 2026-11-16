@@ -1,20 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 7.511716528998667,
- "pos": {
-  "5zWiVuC6n8tw9Sj31WZzm9PD6a3LM7dXVACNPyYypump": {
-   "sym": "t[o_o]t",
-   "qty": 85707.80243333,
-   "entry": 2.0788320687055153e-05,
-   "last": 2.0788320687055153e-05,
-   "peak": 2.0788320687055153e-05,
-   "cost": 1.877929132249667,
-   "curve": "9La1JpoXw14JtZYWfS6QvudoAsKKXX64NoCwf1js2yrh",
-   "opened": "2026-11-16T08:08:28+07:00",
-   "wallet": "FqJMNz"
-  }
- },
+ "cash": 8.789617257961204,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T21:07:09+07:00",
@@ -1187,8 +1175,30 @@
    "lag_min_after_skip": 0.1,
    "stop_set": -0.08,
    "cost_side": 0.0325
+  },
+  {
+   "t": "2026-11-16T08:12:54+07:00",
+   "kind": "sell",
+   "mint": "5zWiVuC6n8tw9Sj31WZzm9PD6a3LM7dXVACNPyYypump",
+   "sym": "t[o_o]t",
+   "price": 1.5814718829871642e-05,
+   "entry": 2.0788320687055153e-05,
+   "usd": 1.2779,
+   "pnl": -0.6,
+   "why": "stop -23.9%",
+   "stop_set": -0.08,
+   "cost_side": 0.0325,
+   "graduated": false
+  },
+  {
+   "t": "2026-11-16T08:12:54+07:00",
+   "kind": "skip",
+   "mint": "8cCEnuRndT72ubfEzcgYCBhaCCuSQeg7xudxds4Rpump",
+   "sym": "capytrade",
+   "wallet": "FqJMNz",
+   "why": "not on a SOL pump.fun curve"
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ บน bonding curve",
- "seen_t": "2026-11-16T08:08:25+07:00"
+ "seen_t": "2026-11-16T08:12:52+07:00"
 }
