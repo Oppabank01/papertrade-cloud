@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.3600740164301764,
+ "cash": 0.11604262793688908,
  "pos": {
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
    "sym": "Rings",
    "qty": 232.91164722488594,
    "entry": 0.0004978,
-   "last": 0.0004741,
+   "last": 0.0004777,
    "peak": 0.0004978,
    "cost": 0.1195046567599961,
    "opened": "2026-11-16T12:11:22+07:00",
@@ -21,14 +21,42 @@
    "sym": "Marvin",
    "qty": 176.99901193137765,
    "entry": 0.0006465,
-   "last": 0.0007989,
-   "peak": 0.0007989,
+   "last": 0.0008692,
+   "peak": 0.0008692,
    "cost": 0.11794461060980793,
    "opened": "2026-11-16T12:35:33+07:00",
    "smart": 112,
    "kol": 5,
    "bundler": 0.3708,
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "6hjaMcRPvB4DEGpHqgHxmgipb2vrGQWMewZBAVSLpump": {
+   "sym": "STATE?",
+   "qty": 1351.3937200749615,
+   "entry": 8.786e-05,
+   "last": 8.786e-05,
+   "peak": 8.786e-05,
+   "cost": 0.12238038780229449,
+   "opened": "2026-11-16T12:55:22+07:00",
+   "smart": 149,
+   "kol": 5,
+   "bundler": 0.0918,
+   "gap": 0,
+   "miss": 0
+  },
+  "EDaMfNn3FTEXDmbdMSwuUkcHoKQFYf4vato1hjxnpump": {
+   "sym": "Marvin",
+   "qty": 1506.1996027361056,
+   "entry": 7.836e-05,
+   "last": 7.709e-05,
+   "peak": 7.836e-05,
+   "cost": 0.12165100069099283,
+   "opened": "2026-11-16T12:55:25+07:00",
+   "smart": 22,
+   "kol": 2,
+   "bundler": 0.142,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -39114,6 +39142,78 @@
    "buy": 0.891,
    "bull": 0.9162,
    "bear": 1.0
+  },
+  {
+   "t": "2026-11-16T12:55:16+07:00",
+   "kind": "debate",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "ok": false,
+   "bundler": 0.1814,
+   "buy": 0.885,
+   "bull": 0.9363,
+   "bear": 0.9998
+  },
+  {
+   "t": "2026-11-16T12:55:19+07:00",
+   "kind": "debate",
+   "mint": "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray",
+   "sym": "PEAK",
+   "ok": false,
+   "bundler": 0.0434,
+   "buy": 0.9522,
+   "bull": 0.9547,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-16T12:55:22+07:00",
+   "kind": "debate",
+   "mint": "6hjaMcRPvB4DEGpHqgHxmgipb2vrGQWMewZBAVSLpump",
+   "sym": "STATE?",
+   "ok": true,
+   "bundler": 0.0918,
+   "buy": 0.7646,
+   "bull": 0.7799,
+   "bear": 0.5943
+  },
+  {
+   "t": "2026-11-16T12:55:22+07:00",
+   "kind": "buy",
+   "mint": "6hjaMcRPvB4DEGpHqgHxmgipb2vrGQWMewZBAVSLpump",
+   "sym": "STATE?",
+   "price": 8.786e-05,
+   "jup": 8.798332467486725e-05,
+   "usd": 0.1224,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 149,
+   "kol": 5,
+   "bundler": 0.0918
+  },
+  {
+   "t": "2026-11-16T12:55:25+07:00",
+   "kind": "debate",
+   "mint": "EDaMfNn3FTEXDmbdMSwuUkcHoKQFYf4vato1hjxnpump",
+   "sym": "Marvin",
+   "ok": true,
+   "bundler": 0.142,
+   "buy": 0.7907,
+   "bull": 0.9342,
+   "bear": 0.9005
+  },
+  {
+   "t": "2026-11-16T12:55:25+07:00",
+   "kind": "buy",
+   "mint": "EDaMfNn3FTEXDmbdMSwuUkcHoKQFYf4vato1hjxnpump",
+   "sym": "Marvin",
+   "price": 7.836e-05,
+   "jup": 7.769189709073953e-05,
+   "usd": 0.1217,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 22,
+   "kol": 2,
+   "bundler": 0.142
   }
  ]
 }
