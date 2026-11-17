@@ -1,28 +1,28 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.4020065418189826,
+ "cash": 0.7973337838145613,
  "pos": {
   "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
    "sym": "Lucia",
    "qty": 441.03327540048684,
    "entry": 0.001019,
-   "last": 0.001025,
+   "last": 0.000980944124619185,
    "peak": 0.001123,
    "cost": 0.4632167672985942,
    "opened": "2026-11-17T06:24:20+07:00",
    "zoo": "holders",
    "smart": 110,
    "kol": 4,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
    "sym": "TROLL",
    "qty": 18.63688696557662,
    "entry": 0.02382,
-   "last": 0.02407,
-   "peak": 0.02407,
+   "last": 0.02413,
+   "peak": 0.02413,
    "cost": 0.45756611783141105,
    "opened": "2026-11-17T06:48:34+07:00",
    "zoo": "holders",
@@ -31,32 +31,18 @@
    "gap": 0,
    "miss": 0
   },
-  "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
-   "sym": "PAID",
-   "qty": 263.9053389421729,
-   "entry": 0.001694,
-   "last": 0.00156,
-   "peak": 0.001821,
-   "cost": 0.46078709974030185,
-   "opened": "2026-11-17T07:11:56+07:00",
-   "zoo": "holders",
-   "smart": 708,
-   "kol": 96,
-   "gap": 1,
-   "miss": 0
-  },
   "D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump": {
    "sym": "BAWSAQ",
    "qty": 305.28329923440134,
    "entry": 0.001393,
-   "last": 0.001669,
+   "last": 0.001682,
    "peak": 0.001778,
    "cost": 0.43832162011288506,
    "opened": "2026-11-17T07:30:10+07:00",
    "zoo": "holders",
    "smart": 3,
    "kol": 0,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -3177,8 +3163,23 @@
    "zoo": "holders",
    "smart": 3,
    "kol": 0
+  },
+  {
+   "t": "2026-11-17T08:12:28+07:00",
+   "kind": "sell",
+   "mint": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
+   "sym": "PAID",
+   "price": 0.001544,
+   "entry": 0.001694,
+   "usd": 0.3953,
+   "pnl": -0.0655,
+   "why": "stop -8.9%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 708,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794877619.8176587
+ "rank_t": 1794877903.5341597
 }

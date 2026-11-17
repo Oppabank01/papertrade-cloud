@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.308485546825695,
+ "cash": 0.23044450969912583,
  "pos": {
   "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": {
    "sym": "LuckyCoin",
    "qty": 749.7214569463379,
    "entry": 0.0001054,
-   "last": 0.000109,
+   "last": 0.0001056,
    "peak": 0.0001141,
    "cost": 0.08144778557219544,
    "opened": "2026-11-17T07:06:31+07:00",
    "smart": 51,
    "kol": 5,
    "bundler": 0.0507,
+   "gap": 0,
+   "miss": 0
+  },
+  "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
+   "sym": "Max",
+   "qty": 86.769899404306,
+   "entry": 0.0008726,
+   "last": 0.0008726,
+   "peak": 0.0008726,
+   "cost": 0.07804103712656918,
+   "opened": "2026-11-17T08:11:57+07:00",
+   "smart": 459,
+   "kol": 42,
+   "bundler": 0.4594,
    "gap": 0,
    "miss": 0
   }
@@ -48309,6 +48323,53 @@
    "buy": 0.8259,
    "bull": 0.865,
    "bear": 0.9999
+  },
+  {
+   "t": "2026-11-17T08:11:51+07:00",
+   "kind": "debate",
+   "mint": "bawsYvWmV9FepncqVw3nYVyMAYWD8EqKMfjuFz494r6",
+   "sym": "bawsaq",
+   "ok": true,
+   "bundler": 0.1142,
+   "buy": 0.8147,
+   "bull": 0.9065,
+   "bear": 0.0271
+  },
+  {
+   "t": "2026-11-17T08:11:54+07:00",
+   "kind": "debate",
+   "mint": "HMTwjQPHbf82woGKMwDyPHAxgpwVj4boFQPMwk5Bpump",
+   "sym": "Blackout",
+   "ok": false,
+   "bundler": 0.089,
+   "buy": 0.8145,
+   "bull": 0.8889,
+   "bear": 0.9999
+  },
+  {
+   "t": "2026-11-17T08:11:57+07:00",
+   "kind": "debate",
+   "mint": "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump",
+   "sym": "Max",
+   "ok": true,
+   "bundler": 0.4594,
+   "buy": 0.8157,
+   "bull": 0.9341,
+   "bear": 0.497
+  },
+  {
+   "t": "2026-11-17T08:11:57+07:00",
+   "kind": "buy",
+   "mint": "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump",
+   "sym": "Max",
+   "price": 0.0008726,
+   "jup": 0.0008684056697400978,
+   "usd": 0.078,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 459,
+   "kol": 42,
+   "bundler": 0.4594
   }
  ]
 }
