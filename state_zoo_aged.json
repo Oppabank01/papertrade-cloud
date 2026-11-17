@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.48982411286540806,
+ "cash": 0.693957325456414,
  "pos": {
   "8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": {
    "sym": "PURR",
@@ -14,34 +14,20 @@
    "zoo": "aged",
    "smart": 206,
    "kol": 31,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump": {
    "sym": "Peekhole",
    "qty": 423.45458648507326,
    "entry": 0.0006058,
-   "last": 0.0006055,
+   "last": 0.0006012,
    "peak": 0.0006139,
    "cost": 0.2644081514045118,
    "opened": "2026-11-18T00:36:55+07:00",
    "zoo": "aged",
    "smart": 58,
    "kol": 6,
-   "gap": 0,
-   "miss": 0
-  },
-  "6ufeVaW78uhhTVRgk16ruB7GbPJn7X4Tzdi9487ppump": {
-   "sym": "ELEVEN",
-   "qty": 482.133888197823,
-   "entry": 0.0005225,
-   "last": 0.0005214,
-   "peak": 0.0005225,
-   "cost": 0.25965260418817,
-   "opened": "2026-11-18T01:10:22+07:00",
-   "zoo": "aged",
-   "smart": 42,
-   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -4091,8 +4077,23 @@
    "cost_side": 0.03,
    "smart": 143,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T01:15:05+07:00",
+   "kind": "sell",
+   "mint": "6ufeVaW78uhhTVRgk16ruB7GbPJn7X4Tzdi9487ppump",
+   "sym": "ELEVEN",
+   "price": 0.0004364,
+   "entry": 0.0005225,
+   "usd": 0.2041,
+   "pnl": -0.0555,
+   "why": "stop -16.5%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 42,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุเกิน 1 วัน ยังมีคนเล่น",
- "rank_t": 1794938986.9829779
+ "rank_t": 1794939267.1263173
 }

@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.27431895856190835,
+ "cash": 0.5362332031125212,
  "pos": {
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
    "qty": 199.59830852315082,
    "entry": 0.001709,
-   "last": 0.001928,
+   "last": 0.001901,
    "peak": 0.001947,
    "cost": 0.351590918641584,
    "opened": "2026-11-17T23:31:27+07:00",
@@ -21,7 +21,7 @@
    "sym": "ANSEM",
    "qty": 8.161681499214044,
    "entry": 0.04155,
-   "last": 0.04178,
+   "last": 0.04123,
    "peak": 0.04231,
    "cost": 0.3495339788624443,
    "opened": "2026-11-17T23:49:55+07:00",
@@ -31,32 +31,18 @@
    "gap": 0,
    "miss": 0
   },
-  "6ufeVaW78uhhTVRgk16ruB7GbPJn7X4Tzdi9487ppump": {
-   "sym": "ELEVEN",
-   "qty": 618.9581882897675,
-   "entry": 0.0005214,
-   "last": 0.0005198,
-   "peak": 0.0005214,
-   "cost": 0.3326373937067458,
-   "opened": "2026-11-18T01:10:44+07:00",
-   "zoo": "w_ban_aged",
-   "smart": 42,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 161.36889314387022,
    "entry": 0.001988,
-   "last": 0.001994,
-   "peak": 0.002039,
+   "last": 0.0020214492134628215,
+   "peak": 0.002072,
    "cost": 0.3306548748402536,
    "opened": "2026-11-18T01:10:44+07:00",
    "zoo": "w_ban_aged",
    "smart": 173,
    "kol": 11,
-   "gap": 1,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -3895,10 +3881,25 @@
    "zoo": "w_ban_aged",
    "smart": 173,
    "kol": 11
+  },
+  {
+   "t": "2026-11-18T01:14:27+07:00",
+   "kind": "sell",
+   "mint": "6ufeVaW78uhhTVRgk16ruB7GbPJn7X4Tzdi9487ppump",
+   "sym": "ELEVEN",
+   "price": 0.0004361506618004751,
+   "entry": 0.0005214,
+   "usd": 0.2619,
+   "pnl": -0.0707,
+   "why": "stop -16.4%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 42,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794938986.9829779,
+ "rank_t": 1794939267.1263173,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": "CHOO",
