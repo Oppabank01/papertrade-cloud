@@ -1,47 +1,47 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.6135181404786225,
+ "cash": 0.6058119787540717,
  "pos": {
-  "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": {
-   "sym": "CHOO",
-   "qty": 511.46314103367325,
-   "entry": 0.0005789,
-   "last": 0.0006206,
-   "peak": 0.0006206,
-   "cost": 0.3051803879039306,
-   "opened": "2026-11-18T03:17:58+07:00",
-   "zoo": "holders",
-   "smart": 116,
-   "kol": 5,
-   "gap": 0,
-   "miss": 0
-  },
   "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
    "sym": "WASTED",
    "qty": 104.95339795363512,
    "entry": 0.002856,
-   "last": 0.003201440781836632,
+   "last": 0.003189,
    "peak": 0.003562,
    "cost": 0.3089537255778003,
    "opened": "2026-11-18T03:26:59+07:00",
    "zoo": "holders",
    "smart": 101,
    "kol": 1,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
    "sym": "Dacity",
    "qty": 366.67383203900596,
    "entry": 0.0007929,
-   "last": 0.000837,
+   "last": 0.0008343,
    "peak": 0.0008417,
    "cost": 0.2996657198760337,
    "opened": "2026-11-18T03:50:44+07:00",
    "zoo": "holders",
    "smart": 436,
    "kol": 38,
+   "gap": 0,
+   "miss": 0
+  },
+  "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": {
+   "sym": "rockstar",
+   "qty": 802.1748421978111,
+   "entry": 0.0003807,
+   "last": 0.0003807,
+   "peak": 0.0003807,
+   "cost": 0.314768050324373,
+   "opened": "2026-11-18T06:20:11+07:00",
+   "zoo": "holders",
+   "smart": 87,
+   "kol": 4,
    "gap": 0,
    "miss": 0
   }
@@ -3903,8 +3903,37 @@
    "cost_side": 0.03,
    "smart": 173,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T06:20:11+07:00",
+   "kind": "buy",
+   "mint": "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump",
+   "sym": "rockstar",
+   "price": 0.0003807,
+   "jup": 0.0003804427136562564,
+   "usd": 0.3148,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 87,
+   "kol": 4
+  },
+  {
+   "t": "2026-11-18T06:20:14+07:00",
+   "kind": "sell",
+   "mint": "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump",
+   "sym": "CHOO",
+   "price": 0.0006188,
+   "entry": 0.0005789,
+   "usd": 0.3071,
+   "pnl": 0.0019,
+   "why": "ครบ 3 ชม. (+6.9%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 116,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794957288.952922
+ "rank_t": 1794957575.8197553
 }
