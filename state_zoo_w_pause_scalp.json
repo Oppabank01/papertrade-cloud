@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.9200286388545507,
+ "cash": 1.6018627753758354,
  "pos": {
   "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg": {
    "sym": "USOI",
    "qty": 53.29752016078669,
    "entry": 0.006315,
-   "last": 0.006318,
+   "last": 0.006319,
    "peak": 0.006428,
    "cost": 0.3469118118072232,
    "opened": "2026-11-18T01:52:57+07:00",
@@ -21,42 +21,56 @@
    "sym": "DacityCoin",
    "qty": 43.30346778389085,
    "entry": 0.00775,
-   "last": 0.007392,
+   "last": 0.007353744482740297,
    "peak": 0.007837,
    "cost": 0.34590999312013415,
    "opened": "2026-11-18T02:21:06+07:00",
    "zoo": "w_pause_scalp",
    "smart": 261,
    "kol": 21,
-   "gap": 0,
+   "gap": 3,
    "miss": 0
   },
   "9RZeokzHNXoRyJkWDFdvcQTAzUhKpXm7RrqkUM3Fpump": {
    "sym": "CHILL",
    "qty": 764.4217273054809,
    "entry": 0.0004154,
-   "last": 0.0003983,
+   "last": 0.0003997,
    "peak": 0.0004189,
    "cost": 0.3272941512293308,
    "opened": "2026-11-18T03:08:10+07:00",
    "zoo": "w_pause_scalp",
    "smart": 22,
    "kol": 0,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": {
    "sym": "CHOO",
    "qty": 538.5272397206637,
    "entry": 0.0005789,
-   "last": 0.0005629,
+   "last": 0.0005824,
    "peak": 0.0005832,
    "cost": 0.3213290239891695,
    "opened": "2026-11-18T03:18:17+07:00",
    "zoo": "w_pause_scalp",
    "smart": 116,
    "kol": 5,
-   "gap": 2,
+   "gap": 0,
+   "miss": 0
+  },
+  "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
+   "sym": "WASTED",
+   "qty": 108.08281538762235,
+   "entry": 0.002856,
+   "last": 0.002861,
+   "peak": 0.002865,
+   "cost": 0.31816586347871517,
+   "opened": "2026-11-18T03:27:20+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 101,
+   "kol": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -5064,8 +5078,22 @@
    "zoo": "w_pause_scalp",
    "smart": 116,
    "kol": 5
+  },
+  {
+   "t": "2026-11-18T03:27:20+07:00",
+   "kind": "buy",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "price": 0.002856,
+   "jup": 0.0028640295666800685,
+   "usd": 0.3182,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 101,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794946898.4019938
+ "rank_t": 1794947176.0880182
 }
