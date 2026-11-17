@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.694114093292955,
+ "cash": 0.6760777185265892,
  "pos": {
-  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
-   "sym": "Macca",
-   "qty": 189.0474700912571,
-   "entry": 0.002103,
-   "last": 0.002061,
-   "peak": 0.002121,
-   "cost": 0.4097782205750502,
-   "opened": "2026-11-17T08:35:46+07:00",
-   "zoo": "aged",
-   "smart": 173,
-   "kol": 10,
-   "gap": 0,
-   "miss": 0
-  },
   "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": {
    "sym": "TripleT",
    "qty": 182.3951803162765,
@@ -42,6 +28,20 @@
    "zoo": "aged",
    "smart": 88,
    "kol": 11,
+   "gap": 0,
+   "miss": 0
+  },
+  "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": {
+   "sym": "BTC",
+   "qty": 276.83792647159027,
+   "entry": 0.001352,
+   "last": 0.001352,
+   "peak": 0.001352,
+   "cost": 0.38578115500885385,
+   "opened": "2026-11-17T11:39:34+07:00",
+   "zoo": "aged",
+   "smart": 795,
+   "kol": 70,
    "gap": 0,
    "miss": 0
   }
@@ -3482,8 +3482,37 @@
    "cost_side": 0.03,
    "smart": 106,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T11:39:34+07:00",
+   "kind": "buy",
+   "mint": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+   "sym": "BTC",
+   "price": 0.001352,
+   "jup": 0.001356367828317249,
+   "usd": 0.3858,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "aged",
+   "smart": 795,
+   "kol": 70
+  },
+  {
+   "t": "2026-11-17T11:39:36+07:00",
+   "kind": "sell",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.002005,
+   "entry": 0.002103,
+   "usd": 0.3677,
+   "pnl": -0.042,
+   "why": "ครบ 3 ชม. (-4.7%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 173,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุเกิน 1 วัน ยังมีคนเล่น",
- "rank_t": 1794890036.4864767
+ "rank_t": 1794890319.837201
 }
