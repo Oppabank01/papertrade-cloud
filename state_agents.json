@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.23538795099651028,
- "pos": {
-  "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
-   "sym": "paws",
-   "qty": 95.23624556536993,
-   "entry": 0.000624,
-   "last": 0.0005874,
-   "peak": 0.0006517,
-   "cost": 0.061252749157689995,
-   "opened": "2026-11-18T00:03:03+07:00",
-   "smart": 293,
-   "kol": 15,
-   "bundler": 0.2029,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 0.28781558465564117,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T01:37:56+07:00",
@@ -58442,6 +58427,54 @@
    "buy": 0.8287,
    "bull": 0.8714,
    "bear": 0.9993
+  },
+  {
+   "t": "2026-11-18T01:56:59+07:00",
+   "kind": "debate",
+   "mint": "6EHTywfoXpDNhL4JGkeYUhiL6mumpmD7j8ByjQaXpump",
+   "sym": "CSI",
+   "ok": false,
+   "bundler": 0.2563,
+   "buy": 0.7838,
+   "bull": 0.9438,
+   "bear": 0.9751
+  },
+  {
+   "t": "2026-11-18T01:57:01+07:00",
+   "kind": "debate",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "ok": false,
+   "bundler": 0.0225,
+   "buy": 0.8514,
+   "bull": 0.91,
+   "bear": 0.9913
+  },
+  {
+   "t": "2026-11-18T01:57:04+07:00",
+   "kind": "debate",
+   "mint": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
+   "sym": "STANK",
+   "ok": true,
+   "bundler": 0.1118,
+   "buy": 0.8226,
+   "bull": 0.8494,
+   "bear": 0.0
+  },
+  {
+   "t": "2026-11-18T01:57:05+07:00",
+   "kind": "sell",
+   "mint": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
+   "sym": "paws",
+   "price": 0.0005674096526572421,
+   "entry": 0.000624,
+   "usd": 0.0524,
+   "pnl": -0.0088,
+   "why": "stop -9.1%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 293,
+   "bundler": 0.2029
   }
  ]
 }

@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.23575909144798612,
+ "cash": 0.17709083888735527,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 1.3599945997914065,
    "entry": 0.04159,
-   "last": 0.04234,
+   "last": 0.04224,
    "peak": 0.04234,
    "cost": 0.05829950052084581,
    "opened": "2026-11-18T00:12:32+07:00",
    "zoo": "rand",
    "smart": 1000,
    "kol": 186,
+   "gap": 0,
+   "miss": 0
+  },
+  "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
+   "sym": "WASTED",
+   "qty": 21.816764520630144,
+   "entry": 0.002609,
+   "last": 0.002586,
+   "peak": 0.002609,
+   "cost": 0.05866825256063085,
+   "opened": "2026-11-18T01:57:27+07:00",
+   "zoo": "rand",
+   "smart": 100,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -4568,8 +4582,22 @@
    "cost_side": 0.03,
    "smart": 95,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T01:57:27+07:00",
+   "kind": "buy",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "price": 0.002609,
+   "jup": 0.002589627041789147,
+   "usd": 0.0587,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 100,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794941524.7526045
+ "rank_t": 1794941812.6450741
 }
