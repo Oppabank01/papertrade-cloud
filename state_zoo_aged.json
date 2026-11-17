@@ -1,61 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.1984318770690693,
+ "cash": 0.6387739475495574,
  "pos": {
-  "8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": {
-   "sym": "PURR",
-   "qty": 123.92191105360958,
-   "entry": 0.002117,
-   "last": 0.002121,
-   "peak": 0.0022991782741658153,
-   "cost": 0.27040062430477374,
-   "opened": "2026-11-17T23:30:56+07:00",
-   "zoo": "aged",
-   "smart": 206,
-   "kol": 31,
-   "gap": 0,
-   "miss": 0
-  },
   "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": {
    "sym": "HOGE",
    "qty": 359.7395642080992,
    "entry": 0.0006609,
-   "last": 0.0007011,
+   "last": 0.0006735733069301983,
    "peak": 0.0007011,
    "cost": 0.24505450214917826,
    "opened": "2026-11-18T01:47:46+07:00",
    "zoo": "aged",
    "smart": 179,
    "kol": 11,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 11.786634874721631,
    "entry": 0.01999,
-   "last": 0.02002,
+   "last": 0.02007,
    "peak": 0.02013,
    "cost": 0.24285181523983246,
    "opened": "2026-11-18T01:57:28+07:00",
    "zoo": "aged",
    "smart": 884,
    "kol": 110,
-   "gap": 0,
-   "miss": 0
-  },
-  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
-   "sym": "DacityCoin",
-   "qty": 29.43133932671963,
-   "entry": 0.00775,
-   "last": 0.00716,
-   "peak": 0.00775,
-   "cost": 0.2350988247599228,
-   "opened": "2026-11-18T02:20:53+07:00",
-   "zoo": "aged",
-   "smart": 261,
-   "kol": 21,
    "gap": 0,
    "miss": 0
   }
@@ -4177,8 +4149,38 @@
    "zoo": "aged",
    "smart": 261,
    "kol": 21
+  },
+  {
+   "t": "2026-11-18T02:34:40+07:00",
+   "kind": "sell",
+   "mint": "8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ",
+   "sym": "PURR",
+   "price": 0.0020430205723194167,
+   "entry": 0.002117,
+   "usd": 0.2456,
+   "pnl": -0.0248,
+   "why": "ครบ 3 ชม. (-3.5%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 206,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-18T02:34:40+07:00",
+   "kind": "sell",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.006819,
+   "entry": 0.00775,
+   "usd": 0.1947,
+   "pnl": -0.0404,
+   "why": "stop -12.0%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 261,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุเกิน 1 วัน ยังมีคนเล่น",
- "rank_t": 1794943779.2892342
+ "rank_t": 1794944058.2598965
 }

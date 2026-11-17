@@ -1,33 +1,47 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.620466241720563,
+ "cash": 2.295417553236778,
  "pos": {
   "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg": {
    "sym": "USOI",
    "qty": 53.29752016078669,
    "entry": 0.006315,
-   "last": 0.006316911996186755,
+   "last": 0.00632,
    "peak": 0.006337,
    "cost": 0.3469118118072232,
    "opened": "2026-11-18T01:52:57+07:00",
    "zoo": "w_pause_scalp",
    "smart": 5,
    "kol": 0,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 43.30346778389085,
    "entry": 0.00775,
-   "last": 0.006965,
+   "last": 0.006994,
    "peak": 0.007761,
    "cost": 0.34590999312013415,
    "opened": "2026-11-18T02:21:06+07:00",
    "zoo": "w_pause_scalp",
    "smart": 261,
    "kol": 21,
+   "gap": 0,
+   "miss": 0
+  },
+  "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
+   "sym": "JOB",
+   "qty": 164.7660593348841,
+   "entry": 0.001914,
+   "last": 0.001925,
+   "peak": 0.001941,
+   "cost": 0.32504868848378493,
+   "opened": "2026-11-18T02:35:00+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 35,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -4950,8 +4964,22 @@
    "cost_side": 0.03,
    "smart": 27,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T02:35:00+07:00",
+   "kind": "buy",
+   "mint": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
+   "sym": "JOB",
+   "price": 0.001914,
+   "jup": 0.001914091387412393,
+   "usd": 0.325,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 35,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794943779.2892342
+ "rank_t": 1794944058.2598965
 }

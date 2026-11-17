@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.8154127097825363,
+ "cash": 1.5117077474116967,
  "pos": {
   "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": {
    "sym": "PODCAT",
@@ -14,14 +14,14 @@
    "zoo": "w_ban_scalp",
    "smart": 123,
    "kol": 2,
-   "gap": 4,
+   "gap": 8,
    "miss": 0
   },
   "8ryRQD6jWfxnSdvvVbQ8Tzwo1NgGP7w1X1nQPpb4pump": {
    "sym": "meowl",
    "qty": 756.1348447871402,
    "entry": 0.0004296,
-   "last": 0.0004141,
+   "last": 0.0004205,
    "peak": 0.0004504,
    "cost": 0.3348129553912136,
    "opened": "2026-11-18T01:05:44+07:00",
@@ -35,28 +35,42 @@
    "sym": "USOI",
    "qty": 48.28301855313515,
    "entry": 0.006315,
-   "last": 0.006316911996186755,
+   "last": 0.00632,
    "peak": 0.006337,
    "cost": 0.31427258520207013,
    "opened": "2026-11-18T01:52:57+07:00",
    "zoo": "w_ban_scalp",
    "smart": 5,
    "kol": 0,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "9RZeokzHNXoRyJkWDFdvcQTAzUhKpXm7RrqkUM3Fpump": {
    "sym": "CHILL",
    "qty": 784.4101836821822,
    "entry": 0.0003849,
-   "last": 0.00037690822257127095,
-   "peak": 0.0003854,
+   "last": 0.0003937,
+   "peak": 0.0003937,
    "cost": 0.3111930320544959,
    "opened": "2026-11-18T02:30:41+07:00",
    "zoo": "w_ban_scalp",
    "smart": 22,
    "kol": 0,
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
+   "sym": "JOB",
+   "qty": 153.9469981672877,
+   "entry": 0.001914,
+   "last": 0.001925,
+   "peak": 0.001941,
+   "cost": 0.30370496237083966,
+   "opened": "2026-11-18T02:34:56+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 35,
+   "kol": 0,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -5626,10 +5640,24 @@
    "cost_side": 0.03,
    "smart": 27,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T02:34:56+07:00",
+   "kind": "buy",
+   "mint": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
+   "sym": "JOB",
+   "price": 0.001914,
+   "jup": 0.001914091387412393,
+   "usd": 0.3037,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 35,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794943779.2892342,
+ "rank_t": 1794944058.2598965,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
