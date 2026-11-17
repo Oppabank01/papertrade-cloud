@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.30784747479971253,
- "pos": {
-  "HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": {
-   "sym": "Marvin",
-   "qty": 630.7333931623261,
-   "entry": 0.0001193,
-   "last": 0.0001195,
-   "peak": 0.0001195,
-   "cost": 0.07755771367168163,
-   "opened": "2026-11-17T13:55:36+07:00",
-   "smart": 156,
-   "kol": 9,
-   "bundler": 0.2914,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 0.3689225089072441,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T01:37:56+07:00",
@@ -51732,6 +51717,43 @@
    "cost_side": 0.03,
    "smart": 107,
    "bundler": 0.0032
+  },
+  {
+   "t": "2026-11-17T14:00:18+07:00",
+   "kind": "debate",
+   "mint": "9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump",
+   "sym": "CHAR",
+   "ok": false,
+   "bundler": 0.1365,
+   "buy": 0.8509,
+   "bull": 0.8883,
+   "bear": 0.9538
+  },
+  {
+   "t": "2026-11-17T14:00:20+07:00",
+   "kind": "debate",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "ok": false,
+   "bundler": 0.1156,
+   "buy": 0.8798,
+   "bull": 0.8825,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-17T14:00:21+07:00",
+   "kind": "sell",
+   "mint": "HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump",
+   "sym": "Marvin",
+   "price": 9.980599376619975e-05,
+   "entry": 0.0001193,
+   "usd": 0.0611,
+   "pnl": -0.0165,
+   "why": "stop -16.3%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 156,
+   "bundler": 0.2914
   }
  ]
 }

@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.115688289838538,
+ "cash": 2.680930883970053,
  "pos": {
   "CPV5kijeSj5ns5vWgH7attMfhKGQLaen2wXeqCDjpump": {
    "sym": "Fine",
@@ -11,18 +11,6 @@
    "peak": 1.148e-05,
    "cost": 0.733862148926921,
    "opened": "2026-11-17T10:51:35+07:00",
-   "source": "agents",
-   "gap": 0,
-   "miss": 0
-  },
-  "HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": {
-   "sym": "Marvin",
-   "qty": 5837.366848272975,
-   "entry": 0.0001193,
-   "last": 0.0001195,
-   "peak": 0.0001195,
-   "cost": 0.7177879457833086,
-   "opened": "2026-11-17T13:55:43+07:00",
    "source": "agents",
    "gap": 0,
    "miss": 0
@@ -1546,6 +1534,21 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-17T14:00:22+07:00",
+   "kind": "sell",
+   "mint": "HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump",
+   "sym": "Marvin",
+   "price": 9.980599376619975e-05,
+   "entry": 0.0001193,
+   "usd": 0.5652,
+   "pnl": -0.1525,
+   "why": "stop -16.3%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",
