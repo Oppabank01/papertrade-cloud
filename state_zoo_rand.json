@@ -1,18 +1,32 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.2688099391077331,
+ "cash": 0.20059421165296182,
  "pos": {
   "7mH4PaR9BMxAid2i1QNDBmziAwxyXBsPNKSMiWySpump": {
    "sym": "worth",
    "qty": 658.7848511041324,
    "entry": 0.0001007,
-   "last": 0.0001097,
+   "last": 0.0001071,
    "peak": 0.0001171,
    "cost": 0.06837727737186779,
    "opened": "2026-11-17T12:54:15+07:00",
    "zoo": "rand",
    "smart": 96,
+   "kol": 4,
+   "gap": 1,
+   "miss": 0
+  },
+  "9a5uUXxa7LzHkT6YUikttpQsUZm4Etw8qhd2HP7xpump": {
+   "sym": "KATIA",
+   "qty": 985.7446943196173,
+   "entry": 6.714e-05,
+   "last": 6.714e-05,
+   "peak": 6.714e-05,
+   "cost": 0.06821572745477128,
+   "opened": "2026-11-17T15:03:35+07:00",
+   "zoo": "rand",
+   "smart": 47,
    "kol": 4,
    "gap": 0,
    "miss": 0
@@ -4075,8 +4089,22 @@
    "cost_side": 0.03,
    "smart": 472,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T15:03:35+07:00",
+   "kind": "buy",
+   "mint": "9a5uUXxa7LzHkT6YUikttpQsUZm4Etw8qhd2HP7xpump",
+   "sym": "KATIA",
+   "price": 6.714e-05,
+   "jup": 6.765899388295968e-05,
+   "usd": 0.0682,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 47,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794902277.0875437
+ "rank_t": 1794902565.3549776
 }
