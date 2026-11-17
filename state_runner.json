@@ -1,25 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.133021125849346,
+ "cash": 1.7543358140144956,
  "pos": {
-  "CPV5kijeSj5ns5vWgH7attMfhKGQLaen2wXeqCDjpump": {
-   "sym": "Fine",
-   "qty": 65864.29758454199,
-   "entry": 1.081e-05,
-   "last": 1.078e-05,
-   "peak": 1.148e-05,
-   "cost": 0.733862148926921,
-   "opened": "2026-11-17T10:51:35+07:00",
-   "source": "agents",
-   "gap": 0,
-   "miss": 0
-  },
   "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ": {
    "sym": "Lucia",
    "qty": 1497.842454850757,
    "entry": 0.000405,
-   "last": 0.0004678,
+   "last": 0.0004756,
    "peak": 0.0004843,
    "cost": 0.625258909724342,
    "opened": "2026-11-17T17:11:40+07:00",
@@ -36,7 +24,7 @@
    "cost": 0.6217720214151611,
    "opened": "2026-11-17T17:30:41+07:00",
    "source": "agents",
-   "gap": 1,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -1678,6 +1666,21 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-17T18:37:34+07:00",
+   "kind": "sell",
+   "mint": "CPV5kijeSj5ns5vWgH7attMfhKGQLaen2wXeqCDjpump",
+   "sym": "Fine",
+   "price": 9.723e-06,
+   "entry": 1.081e-05,
+   "usd": 0.6213,
+   "pnl": -0.1125,
+   "why": "stop -10.1%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",
