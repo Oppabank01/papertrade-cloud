@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.444124593351835,
+ "cash": 0.28870476584411947,
  "pos": {
   "CM65K38bqGePYkNQBjGRRDYMhyxgh9xTQg2HPQTFpump": {
    "sym": "Pois",
@@ -21,12 +21,26 @@
    "sym": "Lucia",
    "qty": 373.25450268055135,
    "entry": 0.000405,
-   "last": 0.0004796,
+   "last": 0.0004245,
    "peak": 0.0004796,
    "cost": 0.15581124879985908,
    "opened": "2026-11-17T17:12:24+07:00",
    "zoo": "boosted",
    "smart": 19,
+   "kol": 5,
+   "gap": 0,
+   "miss": 0
+  },
+  "9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": {
+   "sym": "CHAR",
+   "qty": 1091.087674732168,
+   "entry": 0.0001382,
+   "last": 0.0001382,
+   "peak": 0.0001382,
+   "cost": 0.15541982750771555,
+   "opened": "2026-11-17T19:01:58+07:00",
+   "zoo": "boosted",
+   "smart": 131,
    "kol": 5,
    "gap": 0,
    "miss": 0
@@ -4058,8 +4072,22 @@
    "cost_side": 0.03,
    "smart": 64,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T19:01:58+07:00",
+   "kind": "buy",
+   "mint": "9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump",
+   "sym": "CHAR",
+   "price": 0.0001382,
+   "jup": 0.0001373962661067788,
+   "usd": 0.1554,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 131,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794916572.2510076
+ "rank_t": 1794916861.9216158
 }

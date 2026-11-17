@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.0,
+ "cash": 1.9539138414913855,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
@@ -11,18 +11,6 @@
    "peak": 0.0445,
    "cost": 1.418669444206039,
    "opened": "2026-11-16T21:32:31+07:00",
-   "source": "agents",
-   "gap": 0,
-   "miss": 0
-  },
-  "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ": {
-   "sym": "Lucia",
-   "qty": 4742.003587023717,
-   "entry": 0.000405,
-   "last": 0.0004796,
-   "peak": 0.0004843,
-   "cost": 1.979500569722331,
-   "opened": "2026-11-17T17:11:54+07:00",
    "source": "agents",
    "gap": 0,
    "miss": 0
@@ -645,6 +633,21 @@
    "stop_set": -0.18,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-17T19:01:27+07:00",
+   "kind": "sell",
+   "mint": "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ",
+   "sym": "Lucia",
+   "price": 0.0004247,
+   "entry": 0.000405,
+   "usd": 1.9539,
+   "pnl": -0.0256,
+   "why": "trailing จากยอด +20% (+4.9%)",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 Apple Card (ไม้ 60%)",
