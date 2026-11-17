@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.29943953605733015,
+ "cash": 0.14362828725747107,
  "pos": {
   "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
    "sym": "MANIFEST",
@@ -21,7 +21,7 @@
    "sym": "GATO",
    "qty": 22.021121732924573,
    "entry": 0.007024,
-   "last": 0.00678,
+   "last": 0.006763,
    "peak": 0.007024,
    "cost": 0.15942729236452505,
    "opened": "2026-11-17T16:24:00+07:00",
@@ -35,13 +35,27 @@
    "sym": "Pois",
    "qty": 850.6170425477906,
    "entry": 0.0001812,
-   "last": 0.0001912,
+   "last": 0.0001875297686516703,
    "peak": 0.0001973,
    "cost": 0.15886601536761458,
    "opened": "2026-11-17T16:33:50+07:00",
    "zoo": "boosted",
    "smart": 73,
    "kol": 21,
+   "gap": 1,
+   "miss": 0
+  },
+  "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ": {
+   "sym": "Lucia",
+   "qty": 373.25450268055135,
+   "entry": 0.000405,
+   "last": 0.000405,
+   "peak": 0.000405,
+   "cost": 0.15581124879985908,
+   "opened": "2026-11-17T17:12:24+07:00",
+   "zoo": "boosted",
+   "smart": 19,
+   "kol": 5,
    "gap": 0,
    "miss": 0
   }
@@ -4028,8 +4042,22 @@
    "cost_side": 0.03,
    "smart": 478,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T17:12:24+07:00",
+   "kind": "buy",
+   "mint": "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ",
+   "sym": "Lucia",
+   "price": 0.000405,
+   "jup": 0.00040455794727970145,
+   "usd": 0.1558,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 19,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794909997.8199508
+ "rank_t": 1794910276.9062653
 }
