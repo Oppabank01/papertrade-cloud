@@ -1,8 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 5.795891541577923,
- "pos": {},
+ "cash": 4.636713233262339,
+ "pos": {
+  "B3FRybsXnjUwp5aRzdK6Gf2hsH2g2FgRHLzyEfQLxojR": {
+   "sym": "CoinTeddy",
+   "qty": 100838.8575083575,
+   "entry": 1.0763668833586496e-05,
+   "last": 1.0763668833586496e-05,
+   "peak": 1.0763668833586496e-05,
+   "cost": 1.1591783083155847,
+   "curve": "7NExjNwHmjos6wCYSDWpgv2sNFhKzu2EfToo2nzyPoAs",
+   "opened": "2026-11-17T22:00:13+07:00",
+   "wallet": "FqJMNz"
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T21:07:09+07:00",
@@ -2440,8 +2452,23 @@
    "sym": "CLIFFFORD",
    "wallet": "2kN7bb",
    "why": "not on a SOL pump.fun curve"
+  },
+  {
+   "t": "2026-11-17T22:00:13+07:00",
+   "kind": "buy",
+   "mint": "B3FRybsXnjUwp5aRzdK6Gf2hsH2g2FgRHLzyEfQLxojR",
+   "sym": "CoinTeddy",
+   "price": 1.0763668833586496e-05,
+   "jup": 1.0737334776203965e-05,
+   "usd": 1.1592,
+   "curve_sol": 38.52,
+   "wallet": "FqJMNz",
+   "wallet_usd": 301,
+   "lag_min_after_skip": 0.0,
+   "stop_set": -0.08,
+   "cost_side": 0.0325
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ บน bonding curve",
- "seen_t": "2026-11-17T21:56:10+07:00"
+ "seen_t": "2026-11-17T22:00:11+07:00"
 }
