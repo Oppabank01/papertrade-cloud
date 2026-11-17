@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.0519857868451568,
- "pos": {},
+ "cash": 2.4415886294761253,
+ "pos": {
+  "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
+   "sym": "Lucia",
+   "qty": 627.4712037290044,
+   "entry": 0.0009438,
+   "last": 0.001004,
+   "peak": 0.001004,
+   "cost": 0.6103971573690314,
+   "opened": "2026-11-17T12:12:28+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 110,
+   "kol": 4,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-15T00:43:01+07:00",
@@ -2813,8 +2828,22 @@
    "cost_side": 0.03,
    "smart": 352,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T12:12:28+07:00",
+   "kind": "buy",
+   "mint": "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump",
+   "sym": "Lucia",
+   "price": 0.0009438,
+   "jup": 0.0009424411027457631,
+   "usd": 0.6104,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 110,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794892003.4206786
+ "rank_t": 1794892287.8653355
 }
