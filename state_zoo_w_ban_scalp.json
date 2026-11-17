@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.6478711948845577,
+ "cash": 2.2207180543671647,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 34.88274639858553,
    "entry": 0.01208,
-   "last": 0.01156,
+   "last": 0.011442659421020416,
    "peak": 0.01239,
    "cost": 0.43432650638519193,
    "opened": "2026-11-17T14:06:34+07:00",
    "zoo": "w_ban_scalp",
    "smart": 710,
    "kol": 69,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump": {
@@ -28,21 +28,21 @@
    "zoo": "w_ban_scalp",
    "smart": 268,
    "kol": 15,
-   "gap": 11,
+   "gap": 8,
    "miss": 0
   },
   "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
    "sym": "SAPLING",
    "qty": 343.8181098948645,
    "entry": 0.001212,
-   "last": 0.001206957238941381,
+   "last": 0.0011918534587126513,
    "peak": 0.001232,
    "cost": 0.4295068534246298,
    "opened": "2026-11-17T14:39:03+07:00",
    "zoo": "w_ban_scalp",
    "smart": 189,
    "kol": 19,
-   "gap": 30,
+   "gap": 8,
    "miss": 0
   },
   "5xA4diUxb164wVz5bdASbt344B9uW6jKh7q3Uar8pump": {
@@ -56,6 +56,20 @@
    "zoo": "w_ban_scalp",
    "smart": 103,
    "kol": 10,
+   "gap": 0,
+   "miss": 0
+  },
+  "HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump": {
+   "sym": "HYGG",
+   "qty": 1072.8034608593703,
+   "entry": 0.0003863,
+   "last": 0.0003851,
+   "peak": 0.0003863,
+   "cost": 0.42715314051739306,
+   "opened": "2026-11-17T15:46:19+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 41,
+   "kol": 2,
    "gap": 0,
    "miss": 0
   }
@@ -4757,10 +4771,24 @@
    "mint": "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W",
    "sym": "SAPLING",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-17T15:46:19+07:00",
+   "kind": "buy",
+   "mint": "HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump",
+   "sym": "HYGG",
+   "price": 0.0003863,
+   "jup": 0.0003900513181702528,
+   "usd": 0.4272,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 41,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794904861.4469037,
+ "rank_t": 1794905137.429062,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",

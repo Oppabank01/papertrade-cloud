@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.1827579281394459,
+ "cash": 0.11874063933330467,
  "pos": {
   "7mH4PaR9BMxAid2i1QNDBmziAwxyXBsPNKSMiWySpump": {
    "sym": "worth",
@@ -21,13 +21,27 @@
    "sym": "GATO",
    "qty": 9.938385715442589,
    "entry": 0.006543,
-   "last": 0.006427,
+   "last": 0.00648,
    "peak": 0.006543,
    "cost": 0.06702417824792915,
    "opened": "2026-11-17T15:12:59+07:00",
    "zoo": "rand",
    "smart": 64,
    "kol": 4,
+   "gap": 0,
+   "miss": 0
+  },
+  "38URC7aioKgWgVstAbtMmGWL5bLU56kPvjiQtYACpump": {
+   "sym": "GTA 6 Coin",
+   "qty": 1541.1804863453658,
+   "entry": 4.03e-05,
+   "last": 4.03e-05,
+   "peak": 4.03e-05,
+   "cost": 0.06401728880614124,
+   "opened": "2026-11-17T15:46:09+07:00",
+   "zoo": "rand",
+   "smart": 2,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -4161,8 +4175,22 @@
    "cost_side": 0.03,
    "smart": 115,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T15:46:09+07:00",
+   "kind": "buy",
+   "mint": "38URC7aioKgWgVstAbtMmGWL5bLU56kPvjiQtYACpump",
+   "sym": "GTA 6 Coin",
+   "price": 4.03e-05,
+   "jup": 4.051161268902874e-05,
+   "usd": 0.064,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 2,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794904861.4469037
+ "rank_t": 1794905137.429062
 }
