@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.936997717658132,
+ "cash": 3.9953647136750057,
  "pos": {
   "CbmdFB7ruUfTHb1uRWC99knEni77CQKfFZL6qq2fLoat": {
    "sym": "AIRDROP",
    "qty": 67172.19811794232,
    "entry": 2.333e-05,
-   "last": 2.168e-05,
+   "last": 2.115e-05,
    "peak": 2.916e-05,
    "cost": 1.6152621955180315,
    "opened": "2026-11-16T01:17:02+07:00",
@@ -35,30 +35,15 @@
    "sym": "BUTTHOLE",
    "qty": 3311.8177279058373,
    "entry": 0.0004533,
-   "last": 0.0003965464161796733,
+   "last": 0.0004016872633573914,
    "peak": 0.0004607,
    "cost": 1.5473582519683735,
    "opened": "2026-11-17T07:03:29+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 106,
    "kol": 11,
-   "gap": 3,
+   "gap": 2,
    "miss": 0
-  },
-  "Q1vecEMQEgDyrw1txmBgFwUrkeQurqkEe1bGMzFpump": {
-   "sym": "ca",
-   "qty": 8679.7087640196,
-   "entry": 7.536e-05,
-   "last": 0.0001550687274169062,
-   "peak": 0.0001706,
-   "cost": 0.6741938285472243,
-   "opened": "2026-11-17T11:15:56+07:00",
-   "zoo": "w_ban_smartflow",
-   "smart": 77,
-   "kol": 1,
-   "gap": 1,
-   "miss": 0,
-   "half": true
   }
  },
  "log": [
@@ -1245,10 +1230,25 @@
    "usd": 1.392,
    "pnl": 0.7178,
    "why": "ขายครึ่ง +119.3%"
+  },
+  {
+   "t": "2026-11-17T11:45:39+07:00",
+   "kind": "sell",
+   "mint": "Q1vecEMQEgDyrw1txmBgFwUrkeQurqkEe1bGMzFpump",
+   "sym": "ca",
+   "price": 0.0001256810686690589,
+   "entry": 7.536e-05,
+   "usd": 1.0584,
+   "pnl": 0.3842,
+   "why": "trailing จากยอด +126% (+66.8%)",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 77,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794890319.837201,
+ "rank_t": 1794890607.6831713,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
