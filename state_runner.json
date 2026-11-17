@@ -1,18 +1,30 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.9012272840714357,
+ "cash": 2.1694360221613187,
  "pos": {
   "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
    "sym": "Max",
    "qty": 818.1935271343793,
    "entry": 0.0008726,
-   "last": 0.0009261,
-   "peak": 0.0009378,
+   "last": 0.000987,
+   "peak": 0.000987,
    "cost": 0.7358850461528132,
    "opened": "2026-11-17T08:11:59+07:00",
    "source": "agents",
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "7mH4PaR9BMxAid2i1QNDBmziAwxyXBsPNKSMiWySpump": {
+   "sym": "worth",
+   "qty": 6448.536624025389,
+   "entry": 0.0001101,
+   "last": 0.0001101,
+   "peak": 0.0001101,
+   "cost": 0.7317912619101169,
+   "opened": "2026-11-17T09:08:49+07:00",
+   "source": "agents",
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1441,6 +1453,18 @@
    "cost_side": 0.03,
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T09:08:49+07:00",
+   "kind": "buy",
+   "mint": "7mH4PaR9BMxAid2i1QNDBmziAwxyXBsPNKSMiWySpump",
+   "sym": "worth",
+   "price": 0.0001101,
+   "jup": 0.00011016165065125388,
+   "usd": 0.7318,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "agents"
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",
@@ -1611,6 +1635,7 @@
   "state_agents.json:2026-11-17T06:28:39+07:00:8wbxHYCKbGimALpDvNkxcvzGm1tAG4GN69Jzfejtpump",
   "state_agents.json:2026-11-17T07:06:31+07:00:89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump",
   "state_agents.json:2026-11-17T07:57:47+07:00:D2uhMKwe4uLc7mhN4PKgwNPziLnrtYgz8V3j9ee5pump",
-  "state_agents.json:2026-11-17T08:11:57+07:00:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump"
+  "state_agents.json:2026-11-17T08:11:57+07:00:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump",
+  "state_agents.json:2026-11-17T09:08:47+07:00:7mH4PaR9BMxAid2i1QNDBmziAwxyXBsPNKSMiWySpump"
  ]
 }
