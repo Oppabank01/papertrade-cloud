@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.964126230372356,
- "pos": {
-  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
-   "sym": "GTA6",
-   "qty": 29.366613444421045,
-   "entry": 0.01502,
-   "last": 0.01434,
-   "peak": 0.01517,
-   "cost": 0.45463464639786033,
-   "opened": "2026-11-17T09:14:30+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 295,
-   "kol": 24,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 4.36158249304705,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-15T00:43:00+07:00",
@@ -4012,10 +3997,25 @@
    "cost_side": 0.03,
    "smart": 14,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T11:15:04+07:00",
+   "kind": "sell",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.01395,
+   "entry": 0.01502,
+   "usd": 0.3975,
+   "pnl": -0.0572,
+   "why": "ครบ 2 ชม. (-7.1%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 295,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794888624.1344652,
+ "rank_t": 1794888904.157796,
  "halted": "ราคา FLOAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-17T11:35:04+07:00"
 }
