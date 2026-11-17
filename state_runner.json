@@ -1,18 +1,30 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.8823367755731426,
+ "cash": 2.1191368215072894,
  "pos": {
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 443.64864240677116,
    "entry": 0.001761,
-   "last": 0.002104509978191411,
+   "last": 0.002098,
    "peak": 0.0025432418526751674,
    "cost": 0.8052620689325128,
    "opened": "2026-11-16T22:23:44+07:00",
    "source": "agents",
-   "gap": 3,
+   "gap": 0,
+   "miss": 0
+  },
+  "D2uhMKwe4uLc7mhN4PKgwNPziLnrtYgz8V3j9ee5pump": {
+   "sym": "Debu",
+   "qty": 13384.970994842566,
+   "entry": 5.532e-05,
+   "last": 5.532e-05,
+   "peak": 5.532e-05,
+   "cost": 0.7631999540658532,
+   "opened": "2026-11-17T07:57:50+07:00",
+   "source": "agents",
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1387,6 +1399,18 @@
    "cost_side": 0.03,
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T07:57:50+07:00",
+   "kind": "buy",
+   "mint": "D2uhMKwe4uLc7mhN4PKgwNPziLnrtYgz8V3j9ee5pump",
+   "sym": "Debu",
+   "price": 5.532e-05,
+   "jup": 5.498733145699575e-05,
+   "usd": 0.7632,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "agents"
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",
@@ -1555,6 +1579,7 @@
   "state_agents.json:2026-11-17T04:35:04+07:00:39wVWdqCJWmHwpQS4Twx9GYmmhLSSKDPPJE7DM7Zpump",
   "state_agents.json:2026-11-17T05:08:28+07:00:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
   "state_agents.json:2026-11-17T06:28:39+07:00:8wbxHYCKbGimALpDvNkxcvzGm1tAG4GN69Jzfejtpump",
-  "state_agents.json:2026-11-17T07:06:31+07:00:89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump"
+  "state_agents.json:2026-11-17T07:06:31+07:00:89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump",
+  "state_agents.json:2026-11-17T07:57:47+07:00:D2uhMKwe4uLc7mhN4PKgwNPziLnrtYgz8V3j9ee5pump"
  ]
 }

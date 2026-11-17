@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.3228434355136552,
+ "cash": 0.2423206758071061,
  "pos": {
   "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": {
    "sym": "LuckyCoin",
    "qty": 749.7214569463379,
    "entry": 0.0001054,
-   "last": 0.0001064,
+   "last": 0.0001122,
    "peak": 0.0001141,
    "cost": 0.08144778557219544,
    "opened": "2026-11-17T07:06:31+07:00",
    "smart": 51,
    "kol": 5,
    "bundler": 0.0507,
+   "gap": 0,
+   "miss": 0
+  },
+  "D2uhMKwe4uLc7mhN4PKgwNPziLnrtYgz8V3j9ee5pump": {
+   "sym": "Debu",
+   "qty": 1412.205015677765,
+   "entry": 5.532e-05,
+   "last": 5.532e-05,
+   "peak": 5.532e-05,
+   "cost": 0.08052275970654911,
+   "opened": "2026-11-17T07:57:47+07:00",
+   "smart": 93,
+   "kol": 4,
+   "bundler": 0.1698,
    "gap": 0,
    "miss": 0
   }
@@ -48126,6 +48140,75 @@
    "buy": 0.8961,
    "bull": 0.9382,
    "bear": 1.0
+  },
+  {
+   "t": "2026-11-17T07:57:42+07:00",
+   "kind": "debate",
+   "mint": "GLTriRXa9or4bMDs5yyBz52wstM7KUzXRcBsEHoupump",
+   "sym": "Smoke",
+   "ok": true,
+   "bundler": 0.2722,
+   "buy": 0.8073,
+   "bull": 0.877,
+   "bear": 0.5008
+  },
+  {
+   "t": "2026-11-17T07:57:44+07:00",
+   "kind": "debate",
+   "mint": "7TnXXR1ytJ9PZDxgSA8VwbyKmEWZmiA2YAn55YyVpump",
+   "sym": "Trader",
+   "ok": false,
+   "bundler": 0.2086,
+   "buy": 0.8017,
+   "bull": 0.9201,
+   "bear": 0.9609
+  },
+  {
+   "t": "2026-11-17T07:57:45+07:00",
+   "kind": "debate",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "ok": false,
+   "bundler": 0.2441,
+   "buy": 0.7738,
+   "bull": 0.8955,
+   "bear": 0.9952
+  },
+  {
+   "t": "2026-11-17T07:57:47+07:00",
+   "kind": "debate",
+   "mint": "D2uhMKwe4uLc7mhN4PKgwNPziLnrtYgz8V3j9ee5pump",
+   "sym": "Debu",
+   "ok": true,
+   "bundler": 0.1698,
+   "buy": 0.7678,
+   "bull": 0.8473,
+   "bear": 0.0
+  },
+  {
+   "t": "2026-11-17T07:57:47+07:00",
+   "kind": "buy",
+   "mint": "D2uhMKwe4uLc7mhN4PKgwNPziLnrtYgz8V3j9ee5pump",
+   "sym": "Debu",
+   "price": 5.532e-05,
+   "jup": 5.498733145699575e-05,
+   "usd": 0.0805,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 93,
+   "kol": 4,
+   "bundler": 0.1698
+  },
+  {
+   "t": "2026-11-17T07:57:49+07:00",
+   "kind": "debate",
+   "mint": "Gg5aWvfucyMwihDzyfCEaLgyeeNE2dkob2LTwWfHpump",
+   "sym": "ETF",
+   "ok": false,
+   "bundler": 0.071,
+   "buy": 0.7647,
+   "bull": 0.9349,
+   "bear": 0.9999
   }
  ]
 }
