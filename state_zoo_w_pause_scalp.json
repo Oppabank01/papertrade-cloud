@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.2541404130411262,
+ "cash": 3.6081119181749295,
  "pos": {
-  "4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump": {
-   "sym": "HUNG",
-   "qty": 4913.72191139462,
-   "entry": 7.822e-05,
-   "last": 7.425e-05,
-   "peak": 8.475e-05,
-   "cost": 0.39615680056615876,
-   "opened": "2026-11-17T14:15:46+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 268,
-   "kol": 15,
-   "gap": 0,
-   "miss": 0
-  },
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 63.448714666863026,
    "entry": 0.006235,
-   "last": 0.006713,
-   "peak": 0.006713,
+   "last": 0.006803,
+   "peak": 0.006809,
    "cost": 0.4077537991629468,
    "opened": "2026-11-17T14:58:45+07:00",
    "zoo": "w_pause_scalp",
    "smart": 64,
    "kol": 4,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -4398,8 +4384,23 @@
    "cost_side": 0.03,
    "smart": 710,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T16:16:05+07:00",
+   "kind": "sell",
+   "mint": "4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump",
+   "sym": "HUNG",
+   "price": 7.425e-05,
+   "entry": 7.822e-05,
+   "usd": 0.354,
+   "pnl": -0.0422,
+   "why": "ครบ 2 ชม. (-5.1%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 268,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794906555.7286808
+ "rank_t": 1794906840.664918
 }

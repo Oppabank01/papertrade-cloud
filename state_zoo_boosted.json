@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.6415346356584318,
+ "cash": 0.48060102855183007,
  "pos": {
   "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
    "sym": "MANIFEST",
@@ -14,6 +14,20 @@
    "zoo": "boosted",
    "smart": 80,
    "kol": 15,
+   "gap": 0,
+   "miss": 0
+  },
+  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
+   "sym": "CLAUDIA",
+   "qty": 20.293447571461527,
+   "entry": 0.007694,
+   "last": 0.007694,
+   "peak": 0.007694,
+   "cost": 0.16093360710660173,
+   "opened": "2026-11-17T16:14:50+07:00",
+   "zoo": "boosted",
+   "smart": 478,
+   "kol": 30,
    "gap": 0,
    "miss": 0
   }
@@ -3943,8 +3957,22 @@
    "cost_side": 0.03,
    "smart": 90,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T16:14:50+07:00",
+   "kind": "buy",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.007694,
+   "jup": 0.007657065839783068,
+   "usd": 0.1609,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 478,
+   "kol": 30
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794906555.7286808
+ "rank_t": 1794906840.664918
 }

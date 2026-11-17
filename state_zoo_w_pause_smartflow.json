@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.060154918483824,
+ "cash": 2.535588682238191,
  "pos": {
-  "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
-   "sym": "PAID",
-   "qty": 1111.6609493267554,
-   "entry": 0.001154,
-   "last": 0.001376,
-   "peak": 0.001832740886517406,
-   "cost": 1.3222600860885134,
-   "opened": "2026-11-15T23:34:03+07:00",
-   "zoo": "w_pause_smartflow",
-   "smart": 668,
-   "kol": 93,
-   "gap": 0,
-   "miss": 0
-  },
   "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": {
    "sym": "BUTTHOLE",
    "qty": 1793.1931286188221,
    "entry": 0.0004533,
-   "last": 0.000434,
+   "last": 0.000431,
    "peak": 0.000465,
    "cost": 0.8378215266985283,
    "opened": "2026-11-17T07:03:31+07:00",
@@ -1315,6 +1301,21 @@
    "stop_set": -0.2,
    "cost_side": 0.03,
    "smart": 74,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-17T16:14:00+07:00",
+   "kind": "sell",
+   "mint": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
+   "sym": "PAID",
+   "price": 0.001368,
+   "entry": 0.001154,
+   "usd": 1.4754,
+   "pnl": 0.1532,
+   "why": "trailing จากยอด +59% (+18.5%)",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 668,
    "bundler": null
   }
  ],
