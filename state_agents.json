@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.24891478411311374,
- "pos": {
-  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
-   "sym": "Rings",
-   "qty": 87.35104652002853,
-   "entry": 0.0007476,
-   "last": 0.0007689,
-   "peak": 0.0008368,
-   "cost": 0.06730946441803064,
-   "opened": "2026-11-17T20:46:39+07:00",
-   "smart": 88,
-   "kol": 6,
-   "bundler": 0.0852,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 0.30626374578844995,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T01:37:56+07:00",
@@ -56668,6 +56653,43 @@
    "buy": 0.8232,
    "bull": 0.8478,
    "bear": 0.9489
+  },
+  {
+   "t": "2026-11-17T22:56:46+07:00",
+   "kind": "debate",
+   "mint": "6EHTywfoXpDNhL4JGkeYUhiL6mumpmD7j8ByjQaXpump",
+   "sym": "CSI",
+   "ok": false,
+   "bundler": 0.1387,
+   "buy": 0.8582,
+   "bull": 0.9161,
+   "bear": 0.9615
+  },
+  {
+   "t": "2026-11-17T22:56:49+07:00",
+   "kind": "debate",
+   "mint": "DffdPtAKvnP91k9Ct6QvZ8TwVvWbJ6CxRtGNGNh9pump",
+   "sym": "LTC",
+   "ok": true,
+   "bundler": 0.0055,
+   "buy": 0.8059,
+   "bull": 0.9248,
+   "bear": 0.8903
+  },
+  {
+   "t": "2026-11-17T22:56:50+07:00",
+   "kind": "sell",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.0006767,
+   "entry": 0.0007476,
+   "usd": 0.0573,
+   "pnl": -0.01,
+   "why": "stop -9.5%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 88,
+   "bundler": 0.0852
   }
  ]
 }
