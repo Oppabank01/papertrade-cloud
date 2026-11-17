@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.7252080571406132,
+ "cash": 2.380052056988849,
  "pos": {
   "CPV5kijeSj5ns5vWgH7attMfhKGQLaen2wXeqCDjpump": {
    "sym": "Fine",
@@ -13,18 +13,6 @@
    "opened": "2026-11-17T10:51:35+07:00",
    "source": "agents",
    "gap": 0,
-   "miss": 0
-  },
-  "9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": {
-   "sym": "CHAR",
-   "qty": 3944.814380570429,
-   "entry": 0.0001644,
-   "last": 0.00017550760928746742,
-   "peak": 0.0002162,
-   "cost": 0.6684472110552242,
-   "opened": "2026-11-17T14:33:57+07:00",
-   "source": "agents",
-   "gap": 2,
    "miss": 0
   }
  },
@@ -1623,6 +1611,21 @@
    "usd": 0.5946,
    "pnl": -0.0927,
    "why": "stop -8.1%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-17T15:50:32+07:00",
+   "kind": "sell",
+   "mint": "9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump",
+   "sym": "CHAR",
+   "price": 0.0001711,
+   "entry": 0.0001644,
+   "usd": 0.6548,
+   "pnl": -0.0136,
+   "why": "trailing จากยอด +32% (+4.1%)",
    "stop_set": -0.08,
    "cost_side": 0.03,
    "smart": null,
