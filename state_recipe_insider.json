@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.5021584931690133,
+ "cash": 0.6554814397663127,
  "pos": {
   "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg": {
    "sym": "USOI",
@@ -12,19 +12,6 @@
    "cost": 0.16705428321368662,
    "opened": "2026-11-18T01:52:18+07:00",
    "smart": 5,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
-  "5xere1fCPjk8BzJCVdFHgkBVLZ4Fi7oTi5Qfor53pump": {
-   "sym": "QWENPAW",
-   "qty": 11837.62617362955,
-   "entry": 1.361e-05,
-   "last": 1.724e-05,
-   "peak": 1.724e-05,
-   "cost": 0.16605863968573303,
-   "opened": "2026-11-18T01:57:14+07:00",
-   "smart": 9,
    "kol": 0,
    "gap": 0,
    "miss": 0
@@ -921,8 +908,23 @@
    "cost_side": 0.03,
    "smart": 9,
    "kol": 0
+  },
+  {
+   "t": "2026-11-18T02:30:12+07:00",
+   "kind": "sell",
+   "mint": "5xere1fCPjk8BzJCVdFHgkBVLZ4Fi7oTi5Qfor53pump",
+   "sym": "QWENPAW",
+   "price": 1.335e-05,
+   "entry": 1.361e-05,
+   "usd": 0.1533,
+   "pnl": -0.0127,
+   "why": "trailing จากยอด +27% (-1.9%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 9,
+   "bundler": null
   }
  ],
  "label": "สูตร x_insider4 (คู่ใหม่ + top trader)",
- "rank_t": 1794943492.004825
+ "rank_t": 1794943779.2892342
 }
