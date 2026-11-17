@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.25293609805889394,
+ "cash": 0.12374941579225784,
  "pos": {
   "8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": {
    "sym": "PURR",
    "qty": 64.18981065359979,
    "entry": 0.002117,
-   "last": 0.00224,
+   "last": 0.002158380683792737,
    "peak": 0.002248,
    "cost": 0.14006372825569033,
    "opened": "2026-11-17T23:31:01+07:00",
    "zoo": "boosted",
    "smart": 206,
    "kol": 31,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 3.020842328412278,
    "entry": 0.04155,
-   "last": 0.04181,
+   "last": 0.04156,
    "peak": 0.0421,
    "cost": 0.12937126236397664,
    "opened": "2026-11-17T23:49:32+07:00",
@@ -35,13 +35,27 @@
    "sym": "Peekhole",
    "qty": 207.90040537771594,
    "entry": 0.0006058,
-   "last": 0.0005912,
+   "last": 0.0005822,
    "peak": 0.0006088,
    "cost": 0.1298145388351065,
    "opened": "2026-11-18T00:36:58+07:00",
    "zoo": "boosted",
    "smart": 58,
    "kol": 6,
+   "gap": 0,
+   "miss": 0
+  },
+  "A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm": {
+   "sym": "GROKIA",
+   "qty": 1378.6923235627582,
+   "entry": 9.091e-05,
+   "last": 9.091e-05,
+   "peak": 9.091e-05,
+   "cost": 0.1291866822666361,
+   "opened": "2026-11-18T00:47:02+07:00",
+   "zoo": "boosted",
+   "smart": 36,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -4289,8 +4303,22 @@
    "zoo": "boosted",
    "smart": 58,
    "kol": 6
+  },
+  {
+   "t": "2026-11-18T00:47:02+07:00",
+   "kind": "buy",
+   "mint": "A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm",
+   "sym": "GROKIA",
+   "price": 9.091e-05,
+   "jup": 9.130786486858034e-05,
+   "usd": 0.1292,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 36,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794937279.4465327
+ "rank_t": 1794937569.1036537
 }
