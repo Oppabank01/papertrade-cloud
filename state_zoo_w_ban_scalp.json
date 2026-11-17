@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.5899434992419357,
+ "cash": 1.7225847794605795,
  "pos": {
   "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
    "sym": "CRIME",
@@ -21,7 +21,7 @@
    "sym": "HIGH",
    "qty": 683.7009015468317,
    "entry": 0.0006527,
-   "last": 0.0006205,
+   "last": 0.0005981,
    "peak": 0.0006704,
    "cost": 0.4599583368785993,
    "opened": "2026-11-17T12:36:56+07:00",
@@ -35,8 +35,8 @@
    "sym": "DacityCoin",
    "qty": 1511.2641591058814,
    "entry": 0.0002904,
-   "last": 0.0003025,
-   "peak": 0.000304,
+   "last": 0.0003048,
+   "peak": 0.0003048,
    "cost": 0.45235117687522985,
    "opened": "2026-11-17T13:24:02+07:00",
    "zoo": "w_ban_scalp",
@@ -49,7 +49,7 @@
    "sym": "DOOM",
    "qty": 1118.746712581977,
    "entry": 0.0003847,
-   "last": 0.0003882,
+   "last": 0.000391,
    "peak": 0.0004126,
    "cost": 0.4436011753558921,
    "opened": "2026-11-17T13:42:47+07:00",
@@ -57,6 +57,34 @@
    "smart": 59,
    "kol": 5,
    "gap": 0,
+   "miss": 0
+  },
+  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
+   "sym": "mihao",
+   "qty": 34.88274639858553,
+   "entry": 0.01208,
+   "last": 0.012,
+   "peak": 0.01208,
+   "cost": 0.43432650638519193,
+   "opened": "2026-11-17T14:06:34+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 710,
+   "kol": 69,
+   "gap": 0,
+   "miss": 0
+  },
+  "HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": {
+   "sym": "Marvin",
+   "qty": 3412.898890633293,
+   "entry": 0.0001231,
+   "last": 0.00011692178911114072,
+   "peak": 0.0001233936512948574,
+   "cost": 0.4330322133961641,
+   "opened": "2026-11-17T14:06:34+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 158,
+   "kol": 9,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -4605,10 +4633,38 @@
    "cost_side": 0.03,
    "smart": 15,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T14:06:34+07:00",
+   "kind": "buy",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.01208,
+   "jup": 0.012016222972141055,
+   "usd": 0.4343,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 710,
+   "kol": 69
+  },
+  {
+   "t": "2026-11-17T14:06:34+07:00",
+   "kind": "buy",
+   "mint": "HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump",
+   "sym": "Marvin",
+   "price": 0.0001231,
+   "jup": 0.0001233936512948574,
+   "usd": 0.433,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 158,
+   "kol": 9
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794898812.470972,
+ "rank_t": 1794899104.0771585,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
