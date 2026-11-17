@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.22467870967959766,
+ "cash": 0.1506345427465004,
  "pos": {
   "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump": {
    "sym": "Punch",
@@ -21,13 +21,27 @@
    "sym": "HOTBOT",
    "qty": 197.30165831263696,
    "entry": 0.0003611,
-   "last": 0.0003467,
+   "last": 0.00036094397234682417,
    "peak": 0.00036376446428419945,
    "cost": 0.07343396085002392,
    "opened": "2026-11-17T07:44:04+07:00",
    "zoo": "rand",
    "smart": 173,
    "kol": 15,
+   "gap": 1,
+   "miss": 0
+  },
+  "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ": {
+   "sym": "Lucia",
+   "qty": 220.36089189721156,
+   "entry": 0.000326,
+   "last": 0.0003272,
+   "peak": 0.0003272,
+   "cost": 0.07404416693309727,
+   "opened": "2026-11-17T08:21:47+07:00",
+   "zoo": "rand",
+   "smart": 19,
+   "kol": 5,
    "gap": 0,
    "miss": 0
   }
@@ -3813,8 +3827,22 @@
    "cost_side": 0.03,
    "smart": 93,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T08:21:47+07:00",
+   "kind": "buy",
+   "mint": "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ",
+   "sym": "Lucia",
+   "price": 0.000326,
+   "jup": 0.00032704132070540974,
+   "usd": 0.074,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 19,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794878182.2860575
+ "rank_t": 1794878475.0878532
 }

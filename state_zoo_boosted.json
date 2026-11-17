@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.15362131493089767,
+ "cash": 0.3243511579790089,
  "pos": {
   "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump": {
    "sym": "Christmax",
@@ -14,21 +14,21 @@
    "zoo": "boosted",
    "smart": 25,
    "kol": 0,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
    "sym": "JOB",
    "qty": 104.82868562565282,
    "entry": 0.002153,
-   "last": 0.002076,
+   "last": 0.002114,
    "peak": 0.002183,
    "cost": 0.23262848912804635,
    "opened": "2026-11-17T05:51:42+07:00",
    "zoo": "boosted",
    "smart": 34,
    "kol": 0,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
@@ -42,20 +42,6 @@
    "zoo": "boosted",
    "smart": 472,
    "kol": 214,
-   "gap": 0,
-   "miss": 0
-  },
-  "Gg5aWvfucyMwihDzyfCEaLgyeeNE2dkob2LTwWfHpump": {
-   "sym": "ETF",
-   "qty": 807.9608090050975,
-   "entry": 0.0002446,
-   "last": 0.0002443,
-   "peak": 0.0002446,
-   "cost": 0.20369739629215303,
-   "opened": "2026-11-17T08:17:03+07:00",
-   "zoo": "boosted",
-   "smart": 38,
-   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -3621,8 +3607,23 @@
    "zoo": "boosted",
    "smart": 38,
    "kol": 1
+  },
+  {
+   "t": "2026-11-17T08:21:52+07:00",
+   "kind": "sell",
+   "mint": "Gg5aWvfucyMwihDzyfCEaLgyeeNE2dkob2LTwWfHpump",
+   "sym": "ETF",
+   "price": 0.0002178,
+   "entry": 0.0002446,
+   "usd": 0.1707,
+   "pnl": -0.033,
+   "why": "stop -11.0%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 38,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794878182.2860575
+ "rank_t": 1794878475.0878532
 }

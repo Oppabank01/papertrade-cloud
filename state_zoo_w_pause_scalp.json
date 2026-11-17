@@ -1,19 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 4.077862483955779,
+ "cash": 4.132683041211466,
  "pos": {
-  "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
-   "sym": "Dacity",
-   "qty": 375.5622233567566,
-   "entry": 0.001217,
-   "last": 0.00134,
-   "peak": 0.001374,
-   "cost": 0.47109794457346194,
-   "opened": "2026-11-17T06:58:27+07:00",
+  "Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": {
+   "sym": "HODL",
+   "qty": 313.2614962796307,
+   "entry": 0.001418,
+   "last": 0.001401,
+   "peak": 0.001431,
+   "cost": 0.4578486927690336,
+   "opened": "2026-11-17T08:22:18+07:00",
    "zoo": "w_pause_scalp",
-   "smart": 433,
-   "kol": 38,
+   "smart": 352,
+   "kol": 34,
    "gap": 0,
    "miss": 0
   }
@@ -3867,8 +3867,37 @@
    "cost_side": 0.03,
    "smart": 77,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T08:22:18+07:00",
+   "kind": "buy",
+   "mint": "Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump",
+   "sym": "HODL",
+   "price": 0.001418,
+   "jup": 0.0014125928230565628,
+   "usd": 0.4578,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 352,
+   "kol": 34
+  },
+  {
+   "t": "2026-11-17T08:24:51+07:00",
+   "kind": "sell",
+   "mint": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
+   "sym": "Dacity",
+   "price": 0.001407,
+   "entry": 0.001217,
+   "usd": 0.5127,
+   "pnl": 0.0416,
+   "why": "ถึงเป้า +15.6%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 433,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794878182.2860575
+ "rank_t": 1794878475.0878532
 }
