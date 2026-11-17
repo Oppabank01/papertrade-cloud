@@ -1,20 +1,18 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 6.744104317652114,
+ "cash": 5.3952834541216905,
  "pos": {
-  "FgJwTLxX5VhrZZAfg8epUHvehN3orhJLf3cN7zHbpump": {
-   "sym": "REPLAY",
-   "qty": 140674.125602255,
-   "entry": 1.1344860094107877e-05,
-   "last": 2.4889975710926786e-05,
-   "peak": 2.4889975710926786e-05,
-   "cost": 1.6860260794130284,
-   "curve": "8jxuetL2qCD8ssStk2b6mTgzjNxPPJibjtqaaH3aTU5W",
-   "opened": "2026-11-17T09:13:58+07:00",
-   "wallet": "8XzVYj",
-   "miss": 1,
-   "gap": 1
+  "3kmuNbYAdVLbJVx4sH5x8HkDiHHToR6nXjhtsH1Qpump": {
+   "sym": "Inumas",
+   "qty": 275264.499279315,
+   "entry": 4.6121845296942856e-06,
+   "last": 4.6121845296942856e-06,
+   "peak": 4.6121845296942856e-06,
+   "cost": 1.3488208635304229,
+   "curve": "DjHwxhZuc5mR56zfmyUZ5kb2tmKNQ17TDCgeCkaxXzg1",
+   "opened": "2026-11-17T09:37:41+07:00",
+   "wallet": "ENskGQ"
   }
  },
  "log": [
@@ -1903,8 +1901,37 @@
    "lag_min_after_skip": 0.0,
    "stop_set": -0.08,
    "cost_side": 0.0325
+  },
+  {
+   "t": "2026-11-17T09:37:41+07:00",
+   "kind": "sell",
+   "mint": "FgJwTLxX5VhrZZAfg8epUHvehN3orhJLf3cN7zHbpump",
+   "sym": "REPLAY",
+   "price": 0.0,
+   "entry": 1.1344860094107877e-05,
+   "usd": 0.0,
+   "pnl": -1.686,
+   "why": "curve/pool หาย ถือว่า rug",
+   "stop_set": -0.08,
+   "cost_side": 0.0325,
+   "graduated": false
+  },
+  {
+   "t": "2026-11-17T09:37:41+07:00",
+   "kind": "buy",
+   "mint": "3kmuNbYAdVLbJVx4sH5x8HkDiHHToR6nXjhtsH1Qpump",
+   "sym": "Inumas",
+   "price": 4.6121845296942856e-06,
+   "jup": 4.577973739261291e-06,
+   "usd": 1.3488,
+   "curve_sol": 15.43,
+   "wallet": "ENskGQ",
+   "wallet_usd": 235,
+   "lag_min_after_skip": 0.0,
+   "stop_set": -0.08,
+   "cost_side": 0.0325
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ บน bonding curve",
- "seen_t": "2026-11-17T09:13:57+07:00"
+ "seen_t": "2026-11-17T09:37:39+07:00"
 }
