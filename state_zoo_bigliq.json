@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 5.471781755500182,
+ "cash": 4.09517407471022,
  "pos": {
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 218.39316751000095,
    "entry": 0.00621,
-   "last": 0.006462,
+   "last": 0.006288,
    "peak": 0.006543,
    "cost": 1.3978783449155905,
    "opened": "2026-11-17T14:30:08+07:00",
    "zoo": "bigliq",
    "smart": 64,
    "kol": 4,
+   "gap": 0,
+   "miss": 0
+  },
+  "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
+   "sym": "MANIFEST",
+   "qty": 445.19492396747364,
+   "entry": 0.003,
+   "last": 0.003,
+   "peak": 0.003,
+   "cost": 1.3766076807899619,
+   "opened": "2026-11-17T15:55:53+07:00",
+   "zoo": "bigliq",
+   "smart": 80,
+   "kol": 15,
    "gap": 0,
    "miss": 0
   }
@@ -1690,8 +1704,22 @@
    "cost_side": 0.03,
    "smart": 91,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T15:55:53+07:00",
+   "kind": "buy",
+   "mint": "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
+   "sym": "MANIFEST",
+   "price": 0.003,
+   "jup": 0.0030016785061528616,
+   "usd": 1.3766,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliq",
+   "smart": 80,
+   "kol": 15
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ มาร์เก็ตแคป 2M+",
- "rank_t": 1794905417.8074496
+ "rank_t": 1794905701.0521233
 }

@@ -1,8 +1,37 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.8460789694999723,
- "pos": {},
+ "cash": 0.5086559078316274,
+ "pos": {
+  "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
+   "sym": "MANIFEST",
+   "qty": 54.72438774725821,
+   "entry": 0.003,
+   "last": 0.003,
+   "peak": 0.003,
+   "cost": 0.16921579389999447,
+   "opened": "2026-11-17T15:55:53+07:00",
+   "zoo": "boosted",
+   "smart": 80,
+   "kol": 15,
+   "gap": 0,
+   "miss": 0
+  },
+  "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": {
+   "sym": "Socks",
+   "qty": 3211.229657395783,
+   "entry": 5.082e-05,
+   "last": 5.082e-05,
+   "peak": 5.082e-05,
+   "cost": 0.16820726776835052,
+   "opened": "2026-11-17T15:55:56+07:00",
+   "zoo": "boosted",
+   "smart": 90,
+   "kol": 6,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:42:01+07:00",
@@ -3885,8 +3914,36 @@
    "cost_side": 0.03,
    "smart": 295,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T15:55:53+07:00",
+   "kind": "buy",
+   "mint": "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
+   "sym": "MANIFEST",
+   "price": 0.003,
+   "jup": 0.0030016785061528616,
+   "usd": 0.1692,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 80,
+   "kol": 15
+  },
+  {
+   "t": "2026-11-17T15:55:56+07:00",
+   "kind": "buy",
+   "mint": "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump",
+   "sym": "Socks",
+   "price": 5.082e-05,
+   "jup": 5.09745433720551e-05,
+   "usd": 0.1682,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 90,
+   "kol": 6
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794905417.8074496
+ "rank_t": 1794905701.0521233
 }

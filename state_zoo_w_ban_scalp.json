@@ -7,7 +7,7 @@
    "sym": "mihao",
    "qty": 34.88274639858553,
    "entry": 0.01208,
-   "last": 0.0115,
+   "last": 0.01143,
    "peak": 0.01239,
    "cost": 0.43432650638519193,
    "opened": "2026-11-17T14:06:34+07:00",
@@ -21,14 +21,14 @@
    "sym": "HUNG",
    "qty": 5267.502762691558,
    "entry": 7.822e-05,
-   "last": 7.595e-05,
+   "last": 7.688e-05,
    "peak": 8.475e-05,
    "cost": 0.42467951566453693,
    "opened": "2026-11-17T14:15:46+07:00",
    "zoo": "w_ban_scalp",
    "smart": 268,
    "kol": 15,
-   "gap": 7,
+   "gap": 0,
    "miss": 0
   },
   "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
@@ -42,7 +42,7 @@
    "zoo": "w_ban_scalp",
    "smart": 189,
    "kol": 19,
-   "gap": 3,
+   "gap": 15,
    "miss": 0
   },
   "5xA4diUxb164wVz5bdASbt344B9uW6jKh7q3Uar8pump": {
@@ -56,14 +56,14 @@
    "zoo": "w_ban_scalp",
    "smart": 103,
    "kol": 10,
-   "gap": 7,
+   "gap": 19,
    "miss": 0
   },
   "HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump": {
    "sym": "HYGG",
    "qty": 1072.8034608593703,
    "entry": 0.0003863,
-   "last": 0.0003847,
+   "last": 0.0003836,
    "peak": 0.0003863,
    "cost": 0.42715314051739306,
    "opened": "2026-11-17T15:46:19+07:00",
@@ -77,21 +77,21 @@
    "sym": "paws",
    "qty": 538.7622266337158,
    "entry": 0.0007652,
-   "last": 0.0007795,
-   "peak": 0.0007795,
+   "last": 0.0007623371998096519,
+   "peak": 0.0007904,
    "cost": 0.4249235784581729,
    "opened": "2026-11-17T15:51:12+07:00",
    "zoo": "w_ban_scalp",
    "smart": 292,
    "kol": 15,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": {
    "sym": ":3",
    "qty": 864.4212796420092,
    "entry": 0.0004755,
-   "last": 0.0004539,
+   "last": 0.0004795,
    "peak": 0.0004848,
    "cost": 0.42365730619436753,
    "opened": "2026-11-17T15:51:14+07:00",
@@ -4841,10 +4841,17 @@
    "zoo": "w_ban_scalp",
    "smart": 127,
    "kol": 9
+  },
+  {
+   "t": "2026-11-17T15:57:14+07:00",
+   "kind": "ban",
+   "mint": "5xA4diUxb164wVz5bdASbt344B9uW6jKh7q3Uar8pump",
+   "sym": "AudaCity",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794905417.8074496,
+ "rank_t": 1794905701.0521233,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
@@ -4861,6 +4868,7 @@
   "GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump": "CHILLHOUSE",
   "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": "BUTTHOLE",
   "5w3wVdJaESaJKyLmStM6Hv9UyUkmZ1b9DLQquAqqpump": "SID",
-  "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": "SAPLING"
+  "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": "SAPLING",
+  "5xA4diUxb164wVz5bdASbt344B9uW6jKh7q3Uar8pump": "AudaCity"
  }
 }
