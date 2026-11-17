@@ -1,20 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 5.348861569977142,
- "pos": {
-  "51azs5nw8jb43B5dTQPFsDhYyGFLkJgyVFPKxLLypump": {
-   "sym": "FERRY",
-   "qty": 220788.13867083748,
-   "entry": 5.6953347025540275e-06,
-   "last": 5.6953347025540275e-06,
-   "peak": 5.6953347025540275e-06,
-   "cost": 1.3372153924942856,
-   "curve": "9KtJps1xXbdZCncmedbmovreEksqVManDEJP9eYcsDXW",
-   "opened": "2026-11-17T21:37:04+07:00",
-   "wallet": "FqJMNz"
-  }
- },
+ "cash": 5.795891541577923,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T21:07:09+07:00",
@@ -2406,6 +2394,20 @@
    "lag_min_after_skip": 0.0,
    "stop_set": -0.08,
    "cost_side": 0.0325
+  },
+  {
+   "t": "2026-11-17T21:41:45+07:00",
+   "kind": "sell",
+   "mint": "51azs5nw8jb43B5dTQPFsDhYyGFLkJgyVFPKxLLypump",
+   "sym": "FERRY",
+   "price": 2.2654387232449733e-06,
+   "entry": 5.6953347025540275e-06,
+   "usd": 0.447,
+   "pnl": -0.8902,
+   "why": "stop -60.2%",
+   "stop_set": -0.08,
+   "cost_side": 0.0325,
+   "graduated": false
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ บน bonding curve",
