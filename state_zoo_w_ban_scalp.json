@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.5754226047687476,
+ "cash": 2.2911431452067936,
  "pos": {
   "CM65K38bqGePYkNQBjGRRDYMhyxgh9xTQg2HPQTFpump": {
    "sym": "Pois",
    "qty": 1298.5526510480404,
    "entry": 0.0002138,
-   "last": 0.0002036,
+   "last": 0.0002071,
    "peak": 0.0002138,
    "cost": 0.28615806719652753,
    "opened": "2026-11-18T06:30:18+07:00",
@@ -15,6 +15,20 @@
    "smart": 76,
    "kol": 21,
    "gap": 0,
+   "miss": 0
+  },
+  "7Evw4uxTxLGGEFEvXLUNYyc1J7PnFk9EYwTUFagARUX": {
+   "sym": "ACRUX",
+   "qty": 1206.5088874322298,
+   "entry": 0.0002286,
+   "last": 0.0002199636237843671,
+   "peak": 0.0002344,
+   "cost": 0.28427945956195394,
+   "opened": "2026-11-18T06:48:35+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 16,
+   "kol": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -5897,10 +5911,24 @@
    "zoo": "w_ban_scalp",
    "smart": 76,
    "kol": 21
+  },
+  {
+   "t": "2026-11-18T06:48:35+07:00",
+   "kind": "buy",
+   "mint": "7Evw4uxTxLGGEFEvXLUNYyc1J7PnFk9EYwTUFagARUX",
+   "sym": "ACRUX",
+   "price": 0.0002286,
+   "jup": 0.00023054937597480232,
+   "usd": 0.2843,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 16,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794958985.7592428,
+ "rank_t": 1794959278.2116528,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
