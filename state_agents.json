@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.19630675431932731,
+ "cash": 0.2587641165722931,
  "pos": {
-  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
-   "sym": "GTA6",
-   "qty": 3.8069639206341757,
-   "entry": 0.01726,
-   "last": 0.0178,
-   "peak": 0.02011,
-   "cost": 0.06772644534131712,
-   "opened": "2026-11-17T19:20:45+07:00",
-   "smart": 295,
-   "kol": 24,
-   "bundler": 0.3114,
-   "gap": 1,
-   "miss": 0
-  },
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
    "sym": "Rings",
    "qty": 87.35104652002853,
    "entry": 0.0007476,
-   "last": 0.0007213,
-   "peak": 0.0007798,
+   "last": 0.0008198,
+   "peak": 0.0008198,
    "cost": 0.06730946441803064,
    "opened": "2026-11-17T20:46:39+07:00",
    "smart": 88,
    "kol": 6,
    "bundler": 0.0852,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -55703,6 +55689,43 @@
    "buy": 0.8825,
    "bull": 0.9232,
    "bear": 1.0
+  },
+  {
+   "t": "2026-11-17T21:26:35+07:00",
+   "kind": "debate",
+   "mint": "GYZ3toP3xAc7xgHfnGBc419ksvtX1w8oP6Tc2bVupump",
+   "sym": "GEKKO",
+   "ok": false,
+   "bundler": 0.12,
+   "buy": 0.7778,
+   "bull": 0.9433,
+   "bear": 0.9702
+  },
+  {
+   "t": "2026-11-17T21:26:37+07:00",
+   "kind": "debate",
+   "mint": "A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm",
+   "sym": "GROKIA",
+   "ok": false,
+   "bundler": 0.0758,
+   "buy": 0.9264,
+   "bull": 0.9476,
+   "bear": 0.9999
+  },
+  {
+   "t": "2026-11-17T21:26:38+07:00",
+   "kind": "sell",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.01691,
+   "entry": 0.01726,
+   "usd": 0.0625,
+   "pnl": -0.0053,
+   "why": "trailing จากยอด +17% (-2.0%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 295,
+   "bundler": 0.3114
   }
  ]
 }

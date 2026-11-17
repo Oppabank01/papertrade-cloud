@@ -1,30 +1,18 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.7543358140144956,
+ "cash": 2.282285826179127,
  "pos": {
-  "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ": {
-   "sym": "Lucia",
-   "qty": 1497.842454850757,
-   "entry": 0.000405,
-   "last": 0.000401,
-   "peak": 0.0004843,
-   "cost": 0.625258909724342,
-   "opened": "2026-11-17T17:11:40+07:00",
-   "source": "agents",
-   "gap": 0,
-   "miss": 0
-  },
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 186.58930256015753,
    "entry": 0.003233,
-   "last": 0.003092,
+   "last": 0.003065,
    "peak": 0.00327,
    "cost": 0.6217720214151611,
    "opened": "2026-11-17T17:30:41+07:00",
    "source": "agents",
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1677,6 +1665,21 @@
    "usd": 0.6213,
    "pnl": -0.1125,
    "why": "stop -10.1%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-17T21:26:39+07:00",
+   "kind": "sell",
+   "mint": "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ",
+   "sym": "Lucia",
+   "price": 0.0003633,
+   "entry": 0.000405,
+   "usd": 0.528,
+   "pnl": -0.0973,
+   "why": "stop -10.3%",
    "stop_set": -0.08,
    "cost_side": 0.03,
    "smart": null,
