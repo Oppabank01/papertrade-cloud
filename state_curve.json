@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 2.486471946002687,
- "pos": {
-  "6gTPiseGsUaAnRb9qX1n9AefyNnJsKih1mWTU3Tbpump": {
-   "sym": "tap",
-   "qty": 65971.4117350925,
-   "entry": 8.578663003344925e-06,
-   "last": 2.2901206870316843e-05,
-   "peak": 2.2901206870316843e-05,
-   "cost": 0.6216179865006719,
-   "curve": "FMUpRRdcH6DEkjVcM6UnjamtkfoT2J6CcCftXDDvmmV1",
-   "opened": "2026-11-18T04:10:15+07:00",
-   "wallet": "8XzVYj",
-   "miss": 0,
-   "gap": 0
-  }
- },
+ "cash": 3.5723648854410612,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T21:07:09+07:00",
@@ -2910,8 +2896,30 @@
    "sym": "Autopilot",
    "wallet": "FqJMNz",
    "why": "not on a SOL pump.fun curve"
+  },
+  {
+   "t": "2026-11-18T04:23:53+07:00",
+   "kind": "sell",
+   "mint": "6gTPiseGsUaAnRb9qX1n9AefyNnJsKih1mWTU3Tbpump",
+   "sym": "tap",
+   "price": 1.7579972757491215e-05,
+   "entry": 8.578663003344925e-06,
+   "usd": 1.0859,
+   "pnl": 0.4643,
+   "why": "trailing จากยอด +167% (+104.9%)",
+   "stop_set": -0.08,
+   "cost_side": 0.0325,
+   "graduated": false
+  },
+  {
+   "t": "2026-11-18T04:23:53+07:00",
+   "kind": "skip",
+   "mint": "6gTPiseGsUaAnRb9qX1n9AefyNnJsKih1mWTU3Tbpump",
+   "sym": "tap",
+   "wallet": "FqJMNz",
+   "why": "sold within 24h"
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ บน bonding curve",
- "seen_t": "2026-11-18T04:18:55+07:00"
+ "seen_t": "2026-11-18T04:23:50+07:00"
 }
