@@ -1,47 +1,47 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.6691792943236492,
+ "cash": 0.6771855115947281,
  "pos": {
-  "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
-   "sym": "MANIFEST",
-   "qty": 109.59848597437352,
-   "entry": 0.00291,
-   "last": 0.003206,
-   "peak": 0.003282,
-   "cost": 0.3287276790202298,
-   "opened": "2026-11-17T18:14:43+07:00",
-   "zoo": "holders",
-   "smart": 80,
-   "kol": 15,
-   "gap": 0,
-   "miss": 0
-  },
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
    "sym": "ZCAT",
    "qty": 14.52868274696985,
    "entry": 0.02225,
-   "last": 0.023770908480994335,
-   "peak": 0.02444,
+   "last": 0.02479,
+   "peak": 0.02479,
    "cost": 0.3331923223253753,
    "opened": "2026-11-17T19:11:29+07:00",
    "zoo": "holders",
    "smart": 329,
    "kol": 48,
-   "gap": 5,
+   "gap": 6,
    "miss": 0
   },
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
    "qty": 222.91555390014153,
    "entry": 0.001439,
-   "last": 0.00143,
+   "last": 0.001434,
    "peak": 0.001467,
    "cost": 0.3306282024967055,
    "opened": "2026-11-17T19:35:20+07:00",
    "zoo": "holders",
    "smart": 413,
    "kol": 32,
+   "gap": 0,
+   "miss": 0
+  },
+  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
+   "sym": "CLAUDIA",
+   "qty": 50.705064945106805,
+   "entry": 0.006447,
+   "last": 0.006444,
+   "peak": 0.006447,
+   "cost": 0.33693625407246297,
+   "opened": "2026-11-17T21:15:55+07:00",
+   "zoo": "holders",
+   "smart": 482,
+   "kol": 30,
    "gap": 0,
    "miss": 0
   }
@@ -3642,8 +3642,37 @@
    "cost_side": 0.03,
    "smart": 883,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T21:15:55+07:00",
+   "kind": "buy",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.006447,
+   "jup": 0.0064470490868602905,
+   "usd": 0.3369,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 482,
+   "kol": 30
+  },
+  {
+   "t": "2026-11-17T21:15:55+07:00",
+   "kind": "sell",
+   "mint": "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
+   "sym": "MANIFEST",
+   "price": 0.003244,
+   "entry": 0.00291,
+   "usd": 0.3449,
+   "pnl": 0.0162,
+   "why": "ครบ 3 ชม. (+11.5%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 80,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794924625.3344984
+ "rank_t": 1794924910.2637436
 }
