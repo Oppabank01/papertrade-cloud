@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 7.149752651716875,
+ "cash": 5.36164351345448,
  "pos": {
   "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
    "sym": "MANIFEST",
    "qty": 610.5670097494365,
    "entry": 0.00291,
-   "last": 0.002935,
+   "last": 0.002933,
    "peak": 0.0029381940216351233,
    "cost": 1.831323436787116,
    "opened": "2026-11-17T18:14:58+07:00",
@@ -15,6 +15,20 @@
    "smart": 80,
    "kol": 15,
    "gap": 0,
+   "miss": 0
+  },
+  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
+   "sym": "CLAUDIA",
+   "qty": 231.03255905475763,
+   "entry": 0.007509,
+   "last": 0.007575,
+   "peak": 0.007575,
+   "cost": 1.7881091382623944,
+   "opened": "2026-11-17T18:24:34+07:00",
+   "zoo": "w_ban_bigliq",
+   "smart": 482,
+   "kol": 30,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -1276,10 +1290,24 @@
    "cost_side": 0.03,
    "smart": 261,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T18:24:34+07:00",
+   "kind": "buy",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.007509,
+   "jup": 0.007518998276739859,
+   "usd": 1.7881,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_bigliq",
+   "smart": 482,
+   "kol": 30
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794914307.607285,
+ "rank_t": 1794914585.6693053,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
