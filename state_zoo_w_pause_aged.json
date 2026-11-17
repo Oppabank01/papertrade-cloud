@@ -1,33 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.4187891044243628,
+ "cash": 1.8236148591228551,
  "pos": {
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 21.496672167953072,
    "entry": 0.02134,
-   "last": 0.0223,
+   "last": 0.02196,
    "peak": 0.02404,
    "cost": 0.4728292971182422,
    "opened": "2026-11-17T21:56:37+07:00",
    "zoo": "w_pause_aged",
    "smart": 883,
    "kol": 110,
-   "gap": 0,
-   "miss": 0
-  },
-  "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
-   "sym": "Dacity",
-   "qty": 325.2531381733926,
-   "entry": 0.001402,
-   "last": 0.001305,
-   "peak": 0.001418,
-   "cost": 0.47001123450741744,
-   "opened": "2026-11-17T21:56:37+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 434,
-   "kol": 38,
    "gap": 0,
    "miss": 0
   }
@@ -3286,10 +3272,25 @@
    "cost_side": 0.03,
    "smart": 329,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T22:44:47+07:00",
+   "kind": "sell",
+   "mint": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
+   "sym": "Dacity",
+   "price": 0.001282878032157425,
+   "entry": 0.001402,
+   "usd": 0.4048,
+   "pnl": -0.0652,
+   "why": "stop -8.5%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 434,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794929863.8363285,
+ "rank_t": 1794930144.0506225,
  "halted": "ราคา ZCAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-17T22:59:49+07:00"
 }

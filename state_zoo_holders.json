@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.6549299326739696,
+ "cash": 0.3331254666264568,
  "pos": {
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 50.705064945106805,
    "entry": 0.006447,
-   "last": 0.006259,
+   "last": 0.006099,
    "peak": 0.006646,
    "cost": 0.33693625407246297,
    "opened": "2026-11-17T21:15:55+07:00",
@@ -21,7 +21,7 @@
    "sym": "STONK",
    "qty": 7.173280234925558,
    "entry": 0.0453,
-   "last": 0.0446,
+   "last": 0.04421,
    "peak": 0.04567,
    "cost": 0.33493052426523173,
    "opened": "2026-11-17T21:37:05+07:00",
@@ -35,13 +35,27 @@
    "sym": "USELESS",
    "qty": 3.515325095367189,
    "entry": 0.09012,
-   "last": 0.09012,
+   "last": 0.08912,
    "peak": 0.09012,
    "cost": 0.32653174355235115,
    "opened": "2026-11-17T22:38:47+07:00",
    "zoo": "holders",
    "smart": 925,
    "kol": 295,
+   "gap": 0,
+   "miss": 0
+  },
+  "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
+   "sym": "STANK",
+   "qty": 435.44587581491896,
+   "entry": 0.000717,
+   "last": 0.000726,
+   "peak": 0.000726,
+   "cost": 0.3218044660475128,
+   "opened": "2026-11-17T22:42:51+07:00",
+   "zoo": "holders",
+   "smart": 78,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -3729,8 +3743,22 @@
    "cost_side": 0.03,
    "smart": 413,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T22:42:51+07:00",
+   "kind": "buy",
+   "mint": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
+   "sym": "STANK",
+   "price": 0.000717,
+   "jup": 0.0007217115925760124,
+   "usd": 0.3218,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 78,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794929863.8363285
+ "rank_t": 1794930144.0506225
 }
