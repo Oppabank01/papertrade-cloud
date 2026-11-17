@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.8385499211371442,
+ "cash": 0.44538172287378086,
  "pos": {
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 49.72913834577033,
    "entry": 0.007665,
-   "last": 0.007554,
+   "last": 0.00748,
    "peak": 0.007961,
    "cost": 0.39288172069710325,
    "opened": "2026-11-18T03:18:20+07:00",
@@ -21,7 +21,7 @@
    "sym": "CHOO",
    "qty": 654.5207277623499,
    "entry": 0.0005789,
-   "last": 0.0005888,
+   "last": 0.0005875,
    "peak": 0.0006082,
    "cost": 0.3905401456417485,
    "opened": "2026-11-18T03:18:22+07:00",
@@ -35,14 +35,28 @@
    "sym": "JOB",
    "qty": 169.67781862518746,
    "entry": 0.002198,
-   "last": 0.002229806807009885,
+   "last": 0.002179,
    "peak": 0.002472,
    "cost": 0.3844071792807277,
    "opened": "2026-11-18T03:27:23+07:00",
    "zoo": "w_pause_aged",
    "smart": 35,
    "kol": 0,
-   "gap": 4,
+   "gap": 0,
+   "miss": 0
+  },
+  "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
+   "sym": "CBUCKS",
+   "qty": 90.09253329124117,
+   "entry": 0.004234,
+   "last": 0.004172,
+   "peak": 0.004247,
+   "cost": 0.39316819826336336,
+   "opened": "2026-11-18T05:47:25+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 42,
+   "kol": 0,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -3595,8 +3609,22 @@
    "t": "2026-11-18T05:42:06+07:00",
    "kind": "resume",
    "why": "ราคา CHOO สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-18T05:47:25+07:00",
+   "kind": "buy",
+   "mint": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+   "sym": "CBUCKS",
+   "price": 0.004234,
+   "jup": 0.0042454284955750115,
+   "usd": 0.3932,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 42,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794955283.3767502
+ "rank_t": 1794955574.5367584
 }
