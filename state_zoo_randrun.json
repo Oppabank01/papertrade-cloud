@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.18126195011890495,
+ "cash": 0.4104441238936195,
  "pos": {
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": {
    "sym": "OTC",
@@ -28,7 +28,7 @@
    "zoo": "randrun",
    "smart": 290,
    "kol": 14,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
@@ -42,21 +42,7 @@
    "zoo": "randrun",
    "smart": 64,
    "kol": 4,
-   "gap": 1,
-   "miss": 0
-  },
-  "GKFSuSc9nYioKCjgUPFy2J5K6K2Ur7ZnpXH9XEiQH63R": {
-   "sym": "CC131",
-   "qty": 7055.602651201582,
-   "entry": 4.811e-05,
-   "last": 4.161e-05,
-   "peak": 4.811e-05,
-   "cost": 0.3498712054723852,
-   "opened": "2026-11-17T08:21:57+07:00",
-   "zoo": "randrun",
-   "smart": 49,
-   "kol": 1,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1280,8 +1266,23 @@
    "zoo": "randrun",
    "smart": 49,
    "kol": 1
+  },
+  {
+   "t": "2026-11-17T08:41:26+07:00",
+   "kind": "sell",
+   "mint": "GKFSuSc9nYioKCjgUPFy2J5K6K2Ur7ZnpXH9XEiQH63R",
+   "sym": "CC131",
+   "price": 3.348e-05,
+   "entry": 4.811e-05,
+   "usd": 0.2292,
+   "pnl": -0.1207,
+   "why": "stop -30.4%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 49,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1794879316.5321648
+ "rank_t": 1794879622.3862998
 }
