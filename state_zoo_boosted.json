@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.21192777040168492,
+ "cash": 0.09403796411680797,
  "pos": {
   "8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": {
    "sym": "PURR",
    "qty": 64.18981065359979,
    "entry": 0.002117,
-   "last": 0.002124,
+   "last": 0.002119,
    "peak": 0.002361,
    "cost": 0.14006372825569033,
    "opened": "2026-11-17T23:31:01+07:00",
    "zoo": "boosted",
    "smart": 206,
    "kol": 31,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 3.020842328412278,
    "entry": 0.04155,
-   "last": 0.04228,
+   "last": 0.04227,
    "peak": 0.04248,
    "cost": 0.12937126236397664,
    "opened": "2026-11-17T23:49:32+07:00",
@@ -35,13 +35,27 @@
    "sym": "meowl",
    "qty": 279.2539737858302,
    "entry": 0.0004296,
-   "last": 0.0004063,
+   "last": 0.0004126,
    "peak": 0.00044202002819275314,
    "cost": 0.12365234708141895,
    "opened": "2026-11-18T01:05:32+07:00",
    "zoo": "boosted",
    "smart": 143,
    "kol": 23,
+   "gap": 0,
+   "miss": 0
+  },
+  "HMTwjQPHbf82woGKMwDyPHAxgpwVj4boFQPMwk5Bpump": {
+   "sym": "Blackout",
+   "qty": 1056.1097881587039,
+   "entry": 0.0001083,
+   "last": 0.0001083,
+   "peak": 0.0001083,
+   "cost": 0.11788980628487696,
+   "opened": "2026-11-18T02:16:08+07:00",
+   "zoo": "boosted",
+   "smart": 124,
+   "kol": 6,
    "gap": 0,
    "miss": 0
   }
@@ -4347,8 +4361,22 @@
    "cost_side": 0.03,
    "smart": 58,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T02:16:08+07:00",
+   "kind": "buy",
+   "mint": "HMTwjQPHbf82woGKMwDyPHAxgpwVj4boFQPMwk5Bpump",
+   "sym": "Blackout",
+   "price": 0.0001083,
+   "jup": 0.00010858820842090289,
+   "usd": 0.1179,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 124,
+   "kol": 6
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794942646.0108001
+ "rank_t": 1794942935.0973434
 }
