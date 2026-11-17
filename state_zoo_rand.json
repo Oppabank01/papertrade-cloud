@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.2092778470261374,
+ "cash": 0.24662051134972637,
  "pos": {
   "FsFqQGxCNd7dbFuimCW4hMiFRdvvM8PoLyp4WZrxAUnN": {
    "sym": "Lemon",
    "qty": 1890.9928280366405,
    "entry": 3.572e-05,
-   "last": 3.86e-05,
+   "last": 3.811926145512472e-05,
    "peak": 3.882e-05,
    "cost": 0.06962096868425974,
    "opened": "2026-11-17T22:05:13+07:00",
    "zoo": "rand",
    "smart": 139,
    "kol": 7,
-   "gap": 0,
-   "miss": 0
-  },
-  "DbgQSumBVW4ovtvdbgvz45ntkbavbTRpAfyZpfYwpump": {
-   "sym": "Rockstar",
-   "qty": 699.0493293609233,
-   "entry": 9.605e-05,
-   "last": 9.605e-05,
-   "peak": 9.605e-05,
-   "cost": 0.06920602771090155,
-   "opened": "2026-11-17T22:09:57+07:00",
-   "zoo": "rand",
-   "smart": 1,
-   "kol": 0,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -4480,8 +4466,23 @@
    "zoo": "rand",
    "smart": 1,
    "kol": 0
+  },
+  {
+   "t": "2026-11-17T22:19:49+07:00",
+   "kind": "sell",
+   "mint": "DbgQSumBVW4ovtvdbgvz45ntkbavbTRpAfyZpfYwpump",
+   "sym": "Rockstar",
+   "price": 5.506e-05,
+   "entry": 9.605e-05,
+   "usd": 0.0373,
+   "pnl": -0.0319,
+   "why": "stop -42.7%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 1,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794928442.83549
+ "rank_t": 1794928729.633131
 }
