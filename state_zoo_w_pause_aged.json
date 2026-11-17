@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.275402406774763,
+ "cash": 2.0015953052475033,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 47.79253793270272,
    "entry": 0.01354,
-   "last": 0.01399,
-   "peak": 0.01405,
+   "last": 0.01412,
+   "peak": 0.0142,
    "cost": 0.6669871816211037,
    "opened": "2026-11-17T06:24:51+07:00",
    "zoo": "w_pause_aged",
@@ -21,27 +21,13 @@
    "sym": "Rocco",
    "qty": 665.9635389436653,
    "entry": 0.0009659,
-   "last": 0.0009671,
+   "last": 0.0009342,
    "peak": 0.001063,
    "cost": 0.6630119380186419,
    "opened": "2026-11-17T06:24:51+07:00",
    "zoo": "w_pause_aged",
    "smart": 122,
    "kol": 9,
-   "gap": 0,
-   "miss": 0
-  },
-  "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
-   "sym": "PAID",
-   "qty": 481.7156956810841,
-   "entry": 0.001331,
-   "last": 0.00158,
-   "peak": 0.001833,
-   "cost": 0.6608571335307389,
-   "opened": "2026-11-17T06:49:06+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 676,
-   "kol": 95,
    "gap": 0,
    "miss": 0
   }
@@ -2714,10 +2700,28 @@
    "cost_side": 0.03,
    "smart": 722,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T08:04:01+07:00",
+   "kind": "resume",
+   "why": "ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-17T08:04:34+07:00",
+   "kind": "sell",
+   "mint": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
+   "sym": "PAID",
+   "price": 0.001553817220092819,
+   "entry": 0.001331,
+   "usd": 0.7262,
+   "pnl": 0.0653,
+   "why": "trailing จากยอด +38% (+16.7%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 676,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794877056.0568876,
- "halted": "ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
- "halted_until": "2026-11-17T08:01:47+07:00"
+ "rank_t": 1794877345.8620527
 }

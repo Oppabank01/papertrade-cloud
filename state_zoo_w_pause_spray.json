@@ -1,42 +1,28 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.7383373001718914,
+ "cash": 2.7354379275772933,
  "pos": {
-  "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
-   "sym": "FLOAT",
-   "qty": 76.50996829922683,
-   "entry": 0.002449,
-   "last": 0.002277935642541053,
-   "peak": 0.002611,
-   "cost": 0.19312813065842763,
-   "opened": "2026-11-17T05:04:56+07:00",
-   "zoo": "w_pause_spray",
-   "smart": 346,
-   "kol": 31,
-   "gap": 4,
-   "miss": 0
-  },
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 55.24368106729019,
    "entry": 0.003364,
-   "last": 0.003055,
+   "last": 0.003115,
    "peak": 0.003376,
    "cost": 0.191547869625195,
    "opened": "2026-11-17T05:14:55+07:00",
    "zoo": "w_pause_spray",
    "smart": 722,
    "kol": 80,
-   "gap": 9,
+   "gap": 0,
    "miss": 0
   },
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 13.077504430987586,
    "entry": 0.01373,
-   "last": 0.01399,
-   "peak": 0.01405,
+   "last": 0.01412,
+   "peak": 0.0142,
    "cost": 0.1850691979359509,
    "opened": "2026-11-17T05:52:09+07:00",
    "zoo": "w_pause_spray",
@@ -49,14 +35,28 @@
    "sym": "WASTED",
    "qty": 53.27993109660661,
    "entry": 0.003248,
-   "last": 0.003163,
+   "last": 0.003302435763957189,
    "peak": 0.003419,
    "cost": 0.17836860049657624,
    "opened": "2026-11-17T06:58:18+07:00",
    "zoo": "w_pause_spray",
    "smart": 82,
    "kol": 1,
-   "gap": 0,
+   "gap": 3,
+   "miss": 0
+  },
+  "HR9QrcYYsiHzmPhLpdGYn3uduEkoCcZR9HN2xwxRpump": {
+   "sym": "lulu",
+   "qty": 2116.5265235456,
+   "entry": 7.889e-05,
+   "last": 7.580476153621838e-05,
+   "peak": 7.932e-05,
+   "cost": 0.17210139913678868,
+   "opened": "2026-11-17T08:03:56+07:00",
+   "zoo": "w_pause_spray",
+   "smart": 54,
+   "kol": 1,
+   "gap": 4,
    "miss": 0
   }
  },
@@ -7810,8 +7810,37 @@
    "t": "2026-11-17T07:58:58+07:00",
    "kind": "resume",
    "why": "ราคา XD สองแหล่งต่างกันเกิน 1% ติดกัน 22 รอบ"
+  },
+  {
+   "t": "2026-11-17T08:03:56+07:00",
+   "kind": "buy",
+   "mint": "HR9QrcYYsiHzmPhLpdGYn3uduEkoCcZR9HN2xwxRpump",
+   "sym": "lulu",
+   "price": 7.889e-05,
+   "jup": 7.929856551793174e-05,
+   "usd": 0.1721,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_spray",
+   "smart": 54,
+   "kol": 1
+  },
+  {
+   "t": "2026-11-17T08:05:15+07:00",
+   "kind": "sell",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "price": 0.0022794300429703094,
+   "entry": 0.002449,
+   "usd": 0.1692,
+   "pnl": -0.0239,
+   "why": "ครบ 3 ชม. (-6.9%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 346,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_spray_small แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794877056.0568876
+ "rank_t": 1794877345.8620527
 }

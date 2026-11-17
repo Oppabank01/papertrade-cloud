@@ -1,30 +1,18 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.1191368215072894,
+ "cash": 2.765065378763711,
  "pos": {
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 443.64864240677116,
    "entry": 0.001761,
-   "last": 0.002098,
+   "last": 0.002046187828602738,
    "peak": 0.0025432418526751674,
    "cost": 0.8052620689325128,
    "opened": "2026-11-16T22:23:44+07:00",
    "source": "agents",
-   "gap": 0,
-   "miss": 0
-  },
-  "D2uhMKwe4uLc7mhN4PKgwNPziLnrtYgz8V3j9ee5pump": {
-   "sym": "Debu",
-   "qty": 13384.970994842566,
-   "entry": 5.532e-05,
-   "last": 5.532e-05,
-   "peak": 5.532e-05,
-   "cost": 0.7631999540658532,
-   "opened": "2026-11-17T07:57:50+07:00",
-   "source": "agents",
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -1411,6 +1399,21 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-17T08:02:45+07:00",
+   "kind": "sell",
+   "mint": "D2uhMKwe4uLc7mhN4PKgwNPziLnrtYgz8V3j9ee5pump",
+   "sym": "Debu",
+   "price": 4.974e-05,
+   "entry": 5.532e-05,
+   "usd": 0.6459,
+   "pnl": -0.1173,
+   "why": "stop -10.1%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",
