@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.0512008881432269,
+ "cash": 1.0478584376443294,
  "pos": {
-  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
-   "sym": "USELESS",
-   "qty": 5.563566897248731,
-   "entry": 0.09201,
-   "last": 0.095,
-   "peak": 0.09559,
-   "cost": 0.5276270771138484,
-   "opened": "2026-11-17T16:10:20+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 925,
-   "kol": 295,
-   "gap": 0,
-   "miss": 0
-  },
   "2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump": {
    "sym": "Peekhole",
    "qty": 868.0524137699234,
    "entry": 0.0005884,
-   "last": 0.0005987,
+   "last": 0.0005951,
    "peak": 0.0006063,
    "cost": 0.5264502579491063,
    "opened": "2026-11-17T18:57:26+07:00",
@@ -35,14 +21,28 @@
    "sym": "GATO",
    "qty": 72.88704571257234,
    "entry": 0.006995,
-   "last": 0.007032,
-   "peak": 0.007037,
+   "last": 0.006944,
+   "peak": 0.007039,
    "cost": 0.5255049317248439,
    "opened": "2026-11-17T19:07:08+07:00",
    "zoo": "w_pause_aged",
    "smart": 64,
    "kol": 4,
    "gap": 0,
+   "miss": 0
+  },
+  "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
+   "sym": "ZCAT",
+   "qty": 22.50562465552556,
+   "entry": 0.02225,
+   "last": 0.021441662706034783,
+   "peak": 0.02225,
+   "cost": 0.5161308478514158,
+   "opened": "2026-11-17T19:11:52+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 329,
+   "kol": 48,
+   "gap": 7,
    "miss": 0
   }
  },
@@ -3159,8 +3159,37 @@
    "zoo": "w_pause_aged",
    "smart": 64,
    "kol": 4
+  },
+  {
+   "t": "2026-11-17T19:10:52+07:00",
+   "kind": "sell",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.095,
+   "entry": 0.09201,
+   "usd": 0.5128,
+   "pnl": -0.0148,
+   "why": "ครบ 3 ชม. (+3.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 925,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-17T19:11:52+07:00",
+   "kind": "buy",
+   "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+   "sym": "ZCAT",
+   "price": 0.02225,
+   "jup": 0.022084764213851398,
+   "usd": 0.5161,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 329,
+   "kol": 48
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794917169.6565433
+ "rank_t": 1794917452.5011728
 }
