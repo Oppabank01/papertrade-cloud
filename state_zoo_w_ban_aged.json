@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.43238780036140284,
+ "cash": 0.16359829035853368,
  "pos": {
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 161.36889314387022,
    "entry": 0.001988,
-   "last": 0.002183,
+   "last": 0.002175,
    "peak": 0.002423,
    "cost": 0.3306548748402536,
    "opened": "2026-11-18T01:10:44+07:00",
@@ -21,21 +21,21 @@
    "sym": "JOB",
    "qty": 134.1296833986982,
    "entry": 0.002198,
-   "last": 0.00218,
+   "last": 0.002102,
    "peak": 0.002295,
    "cost": 0.30387244290902765,
    "opened": "2026-11-18T03:27:20+07:00",
    "zoo": "w_ban_aged",
    "smart": 35,
    "kol": 0,
-   "gap": 0,
+   "gap": 4,
    "miss": 0
   },
   "6sBvfTnThBPUQsEWjiXdgCnHwxGZfEDqegtVu4vLpump": {
    "sym": "WANTED",
    "qty": 779.1940359521901,
    "entry": 0.00034,
-   "last": 0.0003353,
+   "last": 0.0003277,
    "peak": 0.0003416,
    "cost": 0.27306325729101694,
    "opened": "2026-11-18T03:45:39+07:00",
@@ -43,6 +43,20 @@
    "smart": 44,
    "kol": 1,
    "gap": 0,
+   "miss": 0
+  },
+  "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": {
+   "sym": "GTA",
+   "qty": 243.94722413918018,
+   "entry": 0.001069,
+   "last": 0.001063,
+   "peak": 0.001069,
+   "cost": 0.26878951000286916,
+   "opened": "2026-11-18T03:55:56+07:00",
+   "zoo": "w_ban_aged",
+   "smart": 300,
+   "kol": 16,
+   "gap": 7,
    "miss": 0
   }
  },
@@ -4012,10 +4026,24 @@
    "zoo": "w_ban_aged",
    "smart": 44,
    "kol": 1
+  },
+  {
+   "t": "2026-11-18T03:55:56+07:00",
+   "kind": "buy",
+   "mint": "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump",
+   "sym": "GTA",
+   "price": 0.001069,
+   "jup": 0.0010732356517883124,
+   "usd": 0.2688,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_aged",
+   "smart": 300,
+   "kol": 16
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794948581.59622,
+ "rank_t": 1794948886.5457823,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": "CHOO",
