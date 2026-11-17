@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 8.031180315306989,
+ "cash": 7.8158510015619935,
  "pos": {
-  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
-   "sym": "GATO",
-   "qty": 320.1779726294724,
-   "entry": 0.006084,
-   "last": 0.005684,
-   "peak": 0.0061,
-   "cost": 2.007795078826747,
-   "opened": "2026-11-17T08:22:21+07:00",
+  "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": {
+   "sym": "TripleT",
+   "qty": 938.4825051628028,
+   "entry": 0.00202,
+   "last": 0.002023408776167117,
+   "peak": 0.002023408776167117,
+   "cost": 1.9539627503904986,
+   "opened": "2026-11-17T09:14:30+07:00",
    "zoo": "w_ban_bigliq",
-   "smart": 64,
-   "kol": 4,
-   "gap": 0,
+   "smart": 611,
+   "kol": 72,
+   "gap": 7,
    "miss": 0
   }
  },
@@ -1073,10 +1073,39 @@
    "zoo": "w_ban_bigliq",
    "smart": 64,
    "kol": 4
+  },
+  {
+   "t": "2026-11-17T09:14:07+07:00",
+   "kind": "sell",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "price": 0.005597,
+   "entry": 0.006084,
+   "usd": 1.7386,
+   "pnl": -0.2692,
+   "why": "stop -8.0%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 64,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-17T09:14:30+07:00",
+   "kind": "buy",
+   "mint": "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump",
+   "sym": "TripleT",
+   "price": 0.00202,
+   "jup": 0.002023408776167117,
+   "usd": 1.954,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_bigliq",
+   "smart": 611,
+   "kol": 72
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794881311.7206035,
+ "rank_t": 1794881604.83787,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
