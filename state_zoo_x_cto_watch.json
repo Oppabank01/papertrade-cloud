@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 0.6998782846195608,
+ "cash": 2.2665974815505336,
  "pos": {
-  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
-   "sym": "ANSEM",
-   "qty": 59.15170230113698,
-   "entry": 0.04942,
-   "last": 0.04486,
-   "peak": 0.05182,
-   "cost": 3.013066509711595,
-   "opened": "2026-11-15T22:24:18+07:00",
-   "zoo": "x_cto_watch",
-   "smart": 1000,
-   "kol": 186,
-   "gap": 0,
-   "miss": 0
-  },
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 64.05599839911615,
    "entry": 0.04322,
-   "last": 0.04403,
+   "last": 0.04411,
    "peak": 0.04457,
    "cost": 2.853535612048856,
    "opened": "2026-11-16T04:02:10+07:00",
@@ -49,7 +35,7 @@
    "sym": "TROLL",
    "qty": 170.59302397752336,
    "entry": 0.02387,
-   "last": 0.02408,
+   "last": 0.02394,
    "peak": 0.02464,
    "cost": 4.197129955002559,
    "opened": "2026-11-16T17:42:43+07:00",
@@ -527,9 +513,24 @@
    "zoo": "x_cto_watch",
    "smart": 469,
    "kol": 213
+  },
+  {
+   "t": "2026-11-17T14:44:32+07:00",
+   "kind": "sell",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.0273,
+   "entry": 0.04942,
+   "usd": 1.5667,
+   "pnl": -1.4463,
+   "why": "stop -44.8%",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": 1000,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รอ dev เทหมดแล้วมี CTO: dev ถือ 0% ซื้อ 40% ขายครึ่ง x3 trail 15% stop -18%",
- "rank_t": 1794901096.9718244,
+ "rank_t": 1794901388.4784904,
  "halted": "ราคา Kimchi สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }
