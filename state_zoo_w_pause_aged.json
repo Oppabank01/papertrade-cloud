@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.0478584376443294,
+ "cash": 0.5371556649130684,
  "pos": {
   "2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump": {
    "sym": "Peekhole",
    "qty": 868.0524137699234,
    "entry": 0.0005884,
-   "last": 0.0005998,
+   "last": 0.0006017,
    "peak": 0.0006063,
    "cost": 0.5264502579491063,
    "opened": "2026-11-17T18:57:26+07:00",
@@ -21,28 +21,42 @@
    "sym": "GATO",
    "qty": 72.88704571257234,
    "entry": 0.006995,
-   "last": 0.00683,
+   "last": 0.0067940877403833925,
    "peak": 0.007039,
    "cost": 0.5255049317248439,
    "opened": "2026-11-17T19:07:08+07:00",
    "zoo": "w_pause_aged",
    "smart": 64,
    "kol": 4,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
    "sym": "ZCAT",
    "qty": 22.50562465552556,
    "entry": 0.02225,
-   "last": 0.02174,
+   "last": 0.021008418808085003,
    "peak": 0.02225,
    "cost": 0.5161308478514158,
    "opened": "2026-11-17T19:11:52+07:00",
    "zoo": "w_pause_aged",
    "smart": 329,
    "kol": 48,
-   "gap": 0,
+   "gap": 10,
+   "miss": 0
+  },
+  "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": {
+   "sym": "HOGE",
+   "qty": 807.1083728683326,
+   "entry": 0.0006139,
+   "last": 0.0006042,
+   "peak": 0.0006177,
+   "cost": 0.510702772731261,
+   "opened": "2026-11-17T19:35:44+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 178,
+   "kol": 11,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -3188,8 +3202,22 @@
    "zoo": "w_pause_aged",
    "smart": 329,
    "kol": 48
+  },
+  {
+   "t": "2026-11-17T19:35:44+07:00",
+   "kind": "buy",
+   "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+   "sym": "HOGE",
+   "price": 0.0006139,
+   "jup": 0.000617975004047705,
+   "usd": 0.5107,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 178,
+   "kol": 11
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794918601.1550999
+ "rank_t": 1794918886.4470105
 }

@@ -1,47 +1,47 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.2762295579478944,
+ "cash": 0.28113515056090316,
  "pos": {
-  "CM65K38bqGePYkNQBjGRRDYMhyxgh9xTQg2HPQTFpump": {
-   "sym": "Pois",
-   "qty": 850.6170425477906,
-   "entry": 0.0001812,
-   "last": 0.0001811,
-   "peak": 0.0001973,
-   "cost": 0.15886601536761458,
-   "opened": "2026-11-17T16:33:50+07:00",
-   "zoo": "boosted",
-   "smart": 73,
-   "kol": 21,
-   "gap": 0,
-   "miss": 0
-  },
   "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ": {
    "sym": "Lucia",
    "qty": 373.25450268055135,
    "entry": 0.000405,
-   "last": 0.0004124,
+   "last": 0.0004177,
    "peak": 0.0004796,
    "cost": 0.15581124879985908,
    "opened": "2026-11-17T17:12:24+07:00",
    "zoo": "boosted",
    "smart": 19,
    "kol": 5,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
    "sym": "ZCAT",
    "qty": 6.3553368114136015,
    "entry": 0.02225,
-   "last": 0.0218,
+   "last": 0.02174,
    "peak": 0.02225,
    "cost": 0.14574958158519133,
    "opened": "2026-11-17T19:11:31+07:00",
    "zoo": "boosted",
    "smart": 329,
    "kol": 48,
+   "gap": 0,
+   "miss": 0
+  },
+  "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
+   "sym": "NIO",
+   "qty": 97.45861990214003,
+   "entry": 0.001439,
+   "last": 0.001439,
+   "peak": 0.001439,
+   "cost": 0.14455056074951506,
+   "opened": "2026-11-17T19:35:25+07:00",
+   "zoo": "boosted",
+   "smart": 413,
+   "kol": 32,
    "gap": 0,
    "miss": 0
   }
@@ -4115,8 +4115,37 @@
    "zoo": "boosted",
    "smart": 329,
    "kol": 48
+  },
+  {
+   "t": "2026-11-17T19:35:25+07:00",
+   "kind": "buy",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "price": 0.001439,
+   "jup": 0.0014432374741539674,
+   "usd": 0.1446,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 413,
+   "kol": 32
+  },
+  {
+   "t": "2026-11-17T19:35:27+07:00",
+   "kind": "sell",
+   "mint": "CM65K38bqGePYkNQBjGRRDYMhyxgh9xTQg2HPQTFpump",
+   "sym": "Pois",
+   "price": 0.0001811,
+   "entry": 0.0001812,
+   "usd": 0.1495,
+   "pnl": -0.0094,
+   "why": "ครบ 3 ชม. (-0.1%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 73,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794918601.1550999
+ "rank_t": 1794918886.4470105
 }
