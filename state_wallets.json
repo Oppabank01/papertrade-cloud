@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 5.850683613776782,
- "pos": {
-  "cbADAmv9issuPfhFwyQG3xac4DGPd1LDSt1oz7vwJsg": {
-   "sym": "cbADA",
-   "qty": 9.220814233408436,
-   "entry": 0.1539,
-   "last": 0.1538,
-   "peak": 0.154,
-   "cost": 1.4626709034441956,
-   "opened": "2026-11-17T09:18:39+07:00",
-   "wallet": "ENskGQ",
-   "wallet_usd": 230,
-   "lag_min": 3.7,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 7.227478241644798,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T10:36:33+07:00",
@@ -3345,19 +3330,34 @@
    "wallet": "a8UJuW",
    "usd": 302,
    "why": "liq $0"
+  },
+  {
+   "t": "2026-11-17T12:22:02+07:00",
+   "kind": "sell",
+   "mint": "cbADAmv9issuPfhFwyQG3xac4DGPd1LDSt1oz7vwJsg",
+   "sym": "cbADA",
+   "price": 0.1539,
+   "entry": 0.1539,
+   "usd": 1.3768,
+   "pnl": -0.0859,
+   "why": "ครบ 3 ชม. (+0.0%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ ผ่าน Helius",
  "cursor": {
-  "FqJMNzzY1DHz2F1Pt6F7VqCxBWdu8cK2TbfTrYT9zQbT": "2XfViQEYbXJgGpLRDr5eYp1MKS8F9gqNyanvXiKh1XEmyALzYhA4n6XaLmw44cdoUynoT2S4bCnrU99t69v98ETJ",
+  "FqJMNzzY1DHz2F1Pt6F7VqCxBWdu8cK2TbfTrYT9zQbT": "5SfTcgJbmvo1kfvG9is8wiYYqHYL2kUmL6hgoF99B8sm8vp2KRio1MUqFm5BiuYo1uN2QTuQea4ZnFT3sLsPNSSn",
   "2kN7bb7sVKn4iBWDMpo8aAVyyQxAVpZATQ7RRkmoy6Mm": "3f2u1ipd2EjRHruhyprDdNG71hXDBNFET64cpdTu1XtPVaFTPt2Fpc3x2niGEz53R9YiYWCp7nHsdrE1jycqaJxX",
   "7NnaXghjuU92gM9kmwXysqa5HboyZuR2LTaBnvazFxSH": "2VCEopdQGp5LLXX3XBXPNnSzZYXJvxX73d8bxB3NcYm8EQNG8j8ckmThPYhMEa6gKBppkN6ErmtuDFYtvNA6VCLc",
   "7g5CJ754NboeY6D44MDdGwQmVX4Fvu59Q47c9ZKLPMkE": "4V4hvipBVmUBcddrow8wtTDER9d6iF7RQ3fYSJ39cZqMLQ3oGuqVfp1x1f9cG4whqfpyFjDxij7pjo83fzTuqahD",
   "8emnM6nfVM2ePrYDmZcMkwy8qzDhRFZ5EefCkMsmgByX": "5xoYprk81mMhPE2FQe3ujSCKX9YnjrEo6HcqzraUeBe8S1Ci6v2L2kpfXZERfRAG7YzaW5PKn8ofhNChQzDxqoFx",
   "ENskGQev2bXPjaCYPV9bUcPLv3635Y18BWzLN95x4soC": "5PJTNyzEhN1UrYQUYPeNLJdbiDvHYYjvqpC4wS7qmFUUwZV5tJn3awfngbUgyQYqYgDKMbuz8JKyjeDTCv9vQg9N",
   "chudc2GnxyW2V7nmLA9bkrzFmKkvPyTfN7V7Uu6XG6o": "2hcMdQrddG3RHVjeYpaNgzVcUwCjciDEMNoLrNaUKACsJYqk2RruGJ3ZyitJAzbGwfpgRrFNMWxmWqPdoarU6RFf",
-  "8XzVYjjVdpDoD3zBtXqMiMBRNj7eMhayr8DyWZQiRgs8": "91RuqqKZbYP5yhtHaqpcNEywVqj9CmLfWuSfEPJyuScmBLvLK3Jasyg7j1koeswiaCpkYuvohJmPXxXqdjUD1rR",
+  "8XzVYjjVdpDoD3zBtXqMiMBRNj7eMhayr8DyWZQiRgs8": "3cQVZxSh3FcF5pBq5Lpf79Nbk4cfaWLxYXdLXUHqbLCrnB1qVryEYHBvzF1qX2LmYRL2xzaYozAKthTNPgwchTQt",
   "a8UJuWKvWwQTtYbEVzA5b7SYF5j92guqJdwMY428jZN": "iJGMp5BrXt5zmSk8cu7dcxp24yrbyqXHzXqvcf1JdRtjcGeJJuQ7R32xemQvQdS21WLkQgkiMm2uW6eckDMvrDb",
-  "A9svdtSzTnMBRFWYMtu4u4gQikU4XJCZaQ9h3nijWmP2": "4NEbx13YNmji6tEfJ45DsftXk6a3uEnHGkWWpYv8jUmq8CPRC5U5Z3dYGGWteVPLXx6AtM1gb9HsGBZdZqqvtwvY"
+  "A9svdtSzTnMBRFWYMtu4u4gQikU4XJCZaQ9h3nijWmP2": "25Q4b3Mz5FXhFdjs8HbULXBfG9DFVMojhFwRLQhcUNPRMVbmGvGjq4UBtscnQBujpacepKfZwH1gVrGSdEYgd3gv"
  }
 }
