@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.30250349747754207,
+ "cash": 0.632964521831461,
  "pos": {
-  "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": {
-   "sym": "OTC",
-   "qty": 119.76485206912797,
-   "entry": 0.002939,
-   "last": 0.002784,
-   "peak": 0.002947,
-   "cost": 0.3628003506814751,
-   "opened": "2026-11-17T13:42:25+07:00",
-   "zoo": "holders",
-   "smart": 525,
-   "kol": 55,
-   "gap": 0,
-   "miss": 0
-  },
   "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
    "sym": "SAPLING",
    "qty": 301.5052308447279,
    "entry": 0.001141,
-   "last": 0.001201,
+   "last": 0.00119,
    "peak": 0.001232,
    "cost": 0.3545840737928619,
    "opened": "2026-11-17T13:47:00+07:00",
    "zoo": "holders",
    "smart": 189,
    "kol": 19,
-   "gap": 2,
+   "gap": 3,
    "miss": 0
   },
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
@@ -49,7 +35,7 @@
    "sym": "GATO",
    "qty": 52.43657712647509,
    "entry": 0.006151,
-   "last": 0.007008,
+   "last": 0.006981,
    "peak": 0.007024,
    "cost": 0.3324442237733955,
    "opened": "2026-11-17T14:53:39+07:00",
@@ -3525,8 +3511,23 @@
    "zoo": "holders",
    "smart": 64,
    "kol": 4
+  },
+  {
+   "t": "2026-11-17T16:43:25+07:00",
+   "kind": "sell",
+   "mint": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
+   "sym": "OTC",
+   "price": 0.002844,
+   "entry": 0.002939,
+   "usd": 0.3305,
+   "pnl": -0.0323,
+   "why": "ครบ 3 ชม. (-3.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 525,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794908282.7849967
+ "rank_t": 1794908571.0435402
 }
