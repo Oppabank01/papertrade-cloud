@@ -1,20 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 5.6990111743653475,
- "pos": {
-  "7sLx8C8Q7QMFzTavyTHVRnYeRxQz9YavjkxGVMS5pump": {
-   "sym": "CI",
-   "qty": 313810.13784909254,
-   "entry": 4.2784693988830504e-06,
-   "last": 4.2784693988830504e-06,
-   "peak": 4.2784693988830504e-06,
-   "cost": 1.4247527935913369,
-   "curve": "7GXmvCrkLKWq2XAaSX8aevmDYn1FLbNRfxP6zMGXwxZP",
-   "opened": "2026-11-17T11:53:18+07:00",
-   "wallet": "a8UJuW"
-  }
- },
+ "cash": 6.6918450793036595,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T21:07:09+07:00",
@@ -2116,6 +2104,20 @@
    "lag_min_after_skip": 0.1,
    "stop_set": -0.08,
    "cost_side": 0.0325
+  },
+  {
+   "t": "2026-11-17T11:57:58+07:00",
+   "kind": "sell",
+   "mint": "7sLx8C8Q7QMFzTavyTHVRnYeRxQz9YavjkxGVMS5pump",
+   "sym": "CI",
+   "price": 3.3907553157628273e-06,
+   "entry": 4.2784693988830504e-06,
+   "usd": 0.9928,
+   "pnl": -0.4319,
+   "why": "stop -20.7%",
+   "stop_set": -0.08,
+   "cost_side": 0.0325,
+   "graduated": false
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ บน bonding curve",
