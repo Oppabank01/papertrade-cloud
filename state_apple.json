@@ -1,21 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.9539138414913855,
- "pos": {
-  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
-   "sym": "STONK",
-   "qty": 34.17911832055374,
-   "entry": 0.04027,
-   "last": 0.04523,
-   "peak": 0.04527,
-   "cost": 1.418669444206039,
-   "opened": "2026-11-16T21:32:31+07:00",
-   "source": "agents",
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 3.4531036901733074,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T09:54:41+07:00",
@@ -644,6 +631,21 @@
    "usd": 1.9539,
    "pnl": -0.0256,
    "why": "trailing จากยอด +20% (+4.9%)",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-17T21:36:40+07:00",
+   "kind": "sell",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.04521,
+   "entry": 0.04027,
+   "usd": 1.4992,
+   "pnl": 0.0805,
+   "why": "ครบ 24 ชม. (+12.3%)",
    "stop_set": -0.18,
    "cost_side": 0.03,
    "smart": null,

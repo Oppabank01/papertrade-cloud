@@ -1,8 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 6.686076962471428,
- "pos": {},
+ "cash": 5.348861569977142,
+ "pos": {
+  "51azs5nw8jb43B5dTQPFsDhYyGFLkJgyVFPKxLLypump": {
+   "sym": "FERRY",
+   "qty": 220788.13867083748,
+   "entry": 5.6953347025540275e-06,
+   "last": 5.6953347025540275e-06,
+   "peak": 5.6953347025540275e-06,
+   "cost": 1.3372153924942856,
+   "curve": "9KtJps1xXbdZCncmedbmovreEksqVManDEJP9eYcsDXW",
+   "opened": "2026-11-17T21:37:04+07:00",
+   "wallet": "FqJMNz"
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T21:07:09+07:00",
@@ -2371,8 +2383,31 @@
    "stop_set": -0.08,
    "cost_side": 0.0325,
    "graduated": false
+  },
+  {
+   "t": "2026-11-17T21:37:04+07:00",
+   "kind": "skip",
+   "mint": "4UifxCCvjXSKZD3vXzRBWbBCvwhVEjPP9ur8iN1qpump",
+   "sym": "ANTHROPUNK",
+   "wallet": "FqJMNz",
+   "why": "not on a SOL pump.fun curve"
+  },
+  {
+   "t": "2026-11-17T21:37:04+07:00",
+   "kind": "buy",
+   "mint": "51azs5nw8jb43B5dTQPFsDhYyGFLkJgyVFPKxLLypump",
+   "sym": "FERRY",
+   "price": 5.6953347025540275e-06,
+   "jup": 5.744045270226131e-06,
+   "usd": 1.3372,
+   "curve_sol": 19.82,
+   "wallet": "FqJMNz",
+   "wallet_usd": 301,
+   "lag_min_after_skip": 0.0,
+   "stop_set": -0.08,
+   "cost_side": 0.0325
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ บน bonding curve",
- "seen_t": "2026-11-17T21:22:22+07:00"
+ "seen_t": "2026-11-17T21:37:02+07:00"
 }
