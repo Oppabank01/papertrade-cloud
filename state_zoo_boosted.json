@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.1925121446738604,
+ "cash": 0.49532127816646987,
  "pos": {
   "4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": {
    "sym": "greg",
    "qty": 1593.3902211057423,
    "entry": 0.0001185,
-   "last": 0.0001268,
-   "peak": 0.0001343,
+   "last": 0.0001352,
+   "peak": 0.0001352,
    "cost": 0.1946163071542264,
    "opened": "2026-11-17T08:59:54+07:00",
    "zoo": "boosted",
@@ -28,34 +28,6 @@
    "zoo": "boosted",
    "smart": 47,
    "kol": 6,
-   "gap": 0,
-   "miss": 0
-  },
-  "8WvWwttzaLfW1nbjx6wmYL5jozWpvy95WktAg5cipump": {
-   "sym": "twert",
-   "qty": 3928.432292150177,
-   "entry": 4.758e-05,
-   "last": 4.698e-05,
-   "peak": 5.35e-05,
-   "cost": 0.19265595594774834,
-   "opened": "2026-11-17T09:09:20+07:00",
-   "zoo": "boosted",
-   "smart": 75,
-   "kol": 3,
-   "gap": 0,
-   "miss": 0
-  },
-  "7pZ5HMPTFQsLP6D8Zg6VfgjbKRycitG3H4Dq7cmBpump": {
-   "sym": "DPRF",
-   "qty": 8244.685832908523,
-   "entry": 2.266e-05,
-   "last": 2.179e-05,
-   "peak": 2.320235276006612e-05,
-   "cost": 0.19256295709514237,
-   "opened": "2026-11-17T09:56:20+07:00",
-   "zoo": "boosted",
-   "smart": 14,
-   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -3737,8 +3709,38 @@
    "zoo": "boosted",
    "smart": 14,
    "kol": 0
+  },
+  {
+   "t": "2026-11-17T10:19:27+07:00",
+   "kind": "sell",
+   "mint": "8WvWwttzaLfW1nbjx6wmYL5jozWpvy95WktAg5cipump",
+   "sym": "twert",
+   "price": 4.3141114402032904e-05,
+   "entry": 4.758e-05,
+   "usd": 0.1644,
+   "pnl": -0.0282,
+   "why": "stop -9.3%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 75,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-17T10:19:27+07:00",
+   "kind": "sell",
+   "mint": "7pZ5HMPTFQsLP6D8Zg6VfgjbKRycitG3H4Dq7cmBpump",
+   "sym": "DPRF",
+   "price": 1.73e-05,
+   "entry": 2.266e-05,
+   "usd": 0.1384,
+   "pnl": -0.0542,
+   "why": "stop -23.7%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 14,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794885239.8341556
+ "rank_t": 1794885522.6538146
 }
