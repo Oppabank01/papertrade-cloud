@@ -1,28 +1,16 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.3765752996830565,
+ "cash": 2.951340769168766,
  "pos": {
   "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
    "sym": "Max",
    "qty": 818.1935271343793,
    "entry": 0.0008726,
-   "last": 0.0008862,
+   "last": 0.0008924,
    "peak": 0.000987,
    "cost": 0.7358850461528132,
    "opened": "2026-11-17T08:11:59+07:00",
-   "source": "agents",
-   "gap": 0,
-   "miss": 0
-  },
-  "7mH4PaR9BMxAid2i1QNDBmziAwxyXBsPNKSMiWySpump": {
-   "sym": "worth",
-   "qty": 6448.536624025389,
-   "entry": 0.0001101,
-   "last": 0.0001039,
-   "peak": 0.000115,
-   "cost": 0.7317912619101169,
-   "opened": "2026-11-17T09:08:49+07:00",
    "source": "agents",
    "gap": 0,
    "miss": 0
@@ -1488,6 +1476,21 @@
    "usd": 0.9459,
    "pnl": 0.2071,
    "why": "trailing จากยอด +71% (+36.0%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-17T10:00:09+07:00",
+   "kind": "sell",
+   "mint": "7mH4PaR9BMxAid2i1QNDBmziAwxyXBsPNKSMiWySpump",
+   "sym": "worth",
+   "price": 9.186883897760421e-05,
+   "entry": 0.0001101,
+   "usd": 0.5748,
+   "pnl": -0.157,
+   "why": "stop -16.6%",
    "stop_set": -0.08,
    "cost_side": 0.03,
    "smart": null,
