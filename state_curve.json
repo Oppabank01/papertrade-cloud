@@ -7,12 +7,14 @@
    "sym": "tap",
    "qty": 65971.4117350925,
    "entry": 8.578663003344925e-06,
-   "last": 8.578663003344925e-06,
-   "peak": 8.578663003344925e-06,
+   "last": 2.1287954265416826e-05,
+   "peak": 2.1287954265416826e-05,
    "cost": 0.6216179865006719,
    "curve": "FMUpRRdcH6DEkjVcM6UnjamtkfoT2J6CcCftXDDvmmV1",
    "opened": "2026-11-18T04:10:15+07:00",
-   "wallet": "8XzVYj"
+   "wallet": "8XzVYj",
+   "miss": 0,
+   "gap": 0
   }
  },
  "log": [
@@ -2884,8 +2886,24 @@
    "lag_min_after_skip": 0.0,
    "stop_set": -0.08,
    "cost_side": 0.0325
+  },
+  {
+   "t": "2026-11-18T04:14:16+07:00",
+   "kind": "skip",
+   "mint": "EMJe37WNwbuVBVbF9iJshdiag5DjYhPG1ZELEJBWpump",
+   "sym": "Sniffer",
+   "wallet": "FqJMNz",
+   "why": "not on a SOL pump.fun curve"
+  },
+  {
+   "t": "2026-11-18T04:14:16+07:00",
+   "kind": "skip",
+   "mint": "7GwY4jj7tCixpkv4CyGgbrMFnVyZcJ8L3HwJk37Fpump",
+   "sym": "7GwY4j",
+   "wallet": "ENskGQ",
+   "why": "price mismatch -38.0%"
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ บน bonding curve",
- "seen_t": "2026-11-18T04:10:14+07:00"
+ "seen_t": "2026-11-18T04:14:12+07:00"
 }

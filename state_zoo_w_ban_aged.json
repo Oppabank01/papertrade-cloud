@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.7072410817521354,
+ "cash": 0.4563649371126449,
  "pos": {
   "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
    "sym": "JOB",
    "qty": 134.1296833986982,
    "entry": 0.002198,
-   "last": 0.0022326517230253093,
+   "last": 0.002212,
    "peak": 0.002295,
    "cost": 0.30387244290902765,
    "opened": "2026-11-18T03:27:20+07:00",
@@ -21,13 +21,27 @@
    "sym": "Tokabu",
    "qty": 207.69431811278793,
    "entry": 0.001203,
-   "last": 0.001211,
+   "last": 0.0011641876182579523,
    "peak": 0.001227,
    "cost": 0.25753067892154596,
    "opened": "2026-11-18T04:00:46+07:00",
    "zoo": "w_ban_aged",
    "smart": 216,
    "kol": 85,
+   "gap": 3,
+   "miss": 0
+  },
+  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
+   "sym": "GATO",
+   "qty": 43.49536017320115,
+   "entry": 0.005596,
+   "last": 0.005659,
+   "peak": 0.005659,
+   "cost": 0.2508761446394905,
+   "opened": "2026-11-18T04:14:34+07:00",
+   "zoo": "w_ban_aged",
+   "smart": 64,
+   "kol": 4,
    "gap": 0,
    "miss": 0
   }
@@ -4071,10 +4085,24 @@
    "cost_side": 0.03,
    "smart": 173,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T04:14:34+07:00",
+   "kind": "buy",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "price": 0.005596,
+   "jup": 0.005583388623811422,
+   "usd": 0.2509,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_aged",
+   "smart": 64,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794949760.6008189,
+ "rank_t": 1794950040.169952,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": "CHOO",
