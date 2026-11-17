@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.1503995197425455,
+ "cash": 0.07696555889252159,
  "pos": {
   "8k4sBtEeK4pf26noKqApv8NBTnuSJcbdwpKYknk5PbAA": {
    "sym": "CALI",
    "qty": 541.942508272593,
    "entry": 0.0001332,
-   "last": 0.0001241,
+   "last": 0.0001236,
    "peak": 0.0001332,
    "cost": 0.07440398072759162,
    "opened": "2026-11-17T06:24:17+07:00",
@@ -35,14 +35,28 @@
    "sym": "Debu",
    "qty": 1932.1891513856572,
    "entry": 3.717e-05,
-   "last": 3.656e-05,
+   "last": 3.558e-05,
    "peak": 3.717e-05,
    "cost": 0.07402542852711284,
    "opened": "2026-11-17T07:39:28+07:00",
    "zoo": "rand",
    "smart": 93,
    "kol": 4,
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "8nnaeWCw8mUypcGAgbmSuzAT85uWx4UN12adDrMhXrGF": {
+   "sym": "HOTBOT",
+   "qty": 197.30165831263696,
+   "entry": 0.0003611,
+   "last": 0.0003611,
+   "peak": 0.0003611,
+   "cost": 0.07343396085002392,
+   "opened": "2026-11-17T07:44:04+07:00",
+   "zoo": "rand",
+   "smart": 173,
+   "kol": 15,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -3783,8 +3797,22 @@
    "zoo": "rand",
    "smart": 93,
    "kol": 4
+  },
+  {
+   "t": "2026-11-17T07:44:04+07:00",
+   "kind": "buy",
+   "mint": "8nnaeWCw8mUypcGAgbmSuzAT85uWx4UN12adDrMhXrGF",
+   "sym": "HOTBOT",
+   "price": 0.0003611,
+   "jup": 0.0003599516242647801,
+   "usd": 0.0734,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 173,
+   "kol": 15
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794875921.3439374
+ "rank_t": 1794876200.3173037
 }

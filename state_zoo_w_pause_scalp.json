@@ -1,55 +1,41 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.912102817075603,
+ "cash": 3.3460063024142057,
  "pos": {
-  "GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump": {
-   "sym": "CHILLHOUSE",
-   "qty": 879.8563214453764,
-   "entry": 0.0005105,
-   "last": 0.0005083,
-   "peak": 0.0005196,
-   "cost": 0.4629629479466756,
-   "opened": "2026-11-17T05:43:14+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 374,
-   "kol": 147,
-   "gap": 0,
-   "miss": 0
-  },
   "8wbxHYCKbGimALpDvNkxcvzGm1tAG4GN69Jzfejtpump": {
    "sym": "bro",
    "qty": 1963.2738354392895,
    "entry": 0.0002282,
-   "last": 0.0002159,
+   "last": 0.000209,
    "peak": 0.0002493,
    "cost": 0.4617801373399772,
    "opened": "2026-11-17T06:29:45+07:00",
    "zoo": "w_pause_scalp",
    "smart": 77,
    "kol": 5,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": {
    "sym": "FOOD",
    "qty": 3874.8773220245876,
    "entry": 0.0001153,
-   "last": 0.0001038,
+   "last": 0.00010355583280798903,
    "peak": 0.0001194,
    "cost": 0.4604961402076221,
    "opened": "2026-11-17T06:49:03+07:00",
    "zoo": "w_pause_scalp",
    "smart": 310,
    "kol": 22,
-   "gap": 0,
+   "gap": 3,
    "miss": 0
   },
   "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
    "sym": "Dacity",
    "qty": 375.5622233567566,
    "entry": 0.001217,
-   "last": 0.001306,
+   "last": 0.001302,
    "peak": 0.001339,
    "cost": 0.47109794457346194,
    "opened": "2026-11-17T06:58:27+07:00",
@@ -3859,10 +3845,25 @@
    "cost_side": 0.03,
    "smart": 88,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T07:43:20+07:00",
+   "kind": "sell",
+   "mint": "GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump",
+   "sym": "CHILLHOUSE",
+   "price": 0.0005083,
+   "entry": 0.0005105,
+   "usd": 0.4339,
+   "pnl": -0.0291,
+   "why": "ครบ 2 ชม. (-0.4%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 374,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794875921.3439374,
+ "rank_t": 1794876200.3173037,
  "halted": "ราคา CHILLHOUSE สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-17T08:00:45+07:00"
 }
