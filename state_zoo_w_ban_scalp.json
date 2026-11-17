@@ -7,7 +7,7 @@
    "sym": "mihao",
    "qty": 34.88274639858553,
    "entry": 0.01208,
-   "last": 0.01151,
+   "last": 0.0114,
    "peak": 0.01239,
    "cost": 0.43432650638519193,
    "opened": "2026-11-17T14:06:34+07:00",
@@ -21,7 +21,7 @@
    "sym": "HUNG",
    "qty": 5267.502762691558,
    "entry": 7.822e-05,
-   "last": 7.76e-05,
+   "last": 7.691e-05,
    "peak": 8.475e-05,
    "cost": 0.42467951566453693,
    "opened": "2026-11-17T14:15:46+07:00",
@@ -42,14 +42,14 @@
    "zoo": "w_ban_scalp",
    "smart": 189,
    "kol": 19,
-   "gap": 7,
+   "gap": 19,
    "miss": 0
   },
   "5xA4diUxb164wVz5bdASbt344B9uW6jKh7q3Uar8pump": {
    "sym": "AudaCity",
    "qty": 4306.315300956161,
    "entry": 9.742e-05,
-   "last": 9.629e-05,
+   "last": 9.373e-05,
    "peak": 9.742e-05,
    "cost": 0.43240696415084434,
    "opened": "2026-11-17T15:03:48+07:00",
@@ -4750,10 +4750,17 @@
    "cost_side": 0.03,
    "smart": 131,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T15:38:33+07:00",
+   "kind": "ban",
+   "mint": "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W",
+   "sym": "SAPLING",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794904283.4658496,
+ "rank_t": 1794904569.2303708,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
@@ -4769,6 +4776,7 @@
   "7TnXXR1ytJ9PZDxgSA8VwbyKmEWZmiA2YAn55YyVpump": "Trader",
   "GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump": "CHILLHOUSE",
   "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": "BUTTHOLE",
-  "5w3wVdJaESaJKyLmStM6Hv9UyUkmZ1b9DLQquAqqpump": "SID"
+  "5w3wVdJaESaJKyLmStM6Hv9UyUkmZ1b9DLQquAqqpump": "SID",
+  "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": "SAPLING"
  }
 }
