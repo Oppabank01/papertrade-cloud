@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.0,
+ "cash": 1.979500569722331,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
@@ -11,18 +11,6 @@
    "peak": 0.0445,
    "cost": 1.418669444206039,
    "opened": "2026-11-16T21:32:31+07:00",
-   "source": "agents",
-   "gap": 0,
-   "miss": 0
-  },
-  "8wbxHYCKbGimALpDvNkxcvzGm1tAG4GN69Jzfejtpump": {
-   "sym": "bro",
-   "qty": 8361.891623335778,
-   "entry": 0.000224,
-   "last": 0.0002458,
-   "peak": 0.0002778,
-   "cost": 1.9305954685912332,
-   "opened": "2026-11-17T06:28:51+07:00",
    "source": "agents",
    "gap": 0,
    "miss": 0
@@ -618,6 +606,21 @@
    "stop_set": -0.18,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-17T15:08:07+07:00",
+   "kind": "sell",
+   "mint": "8wbxHYCKbGimALpDvNkxcvzGm1tAG4GN69Jzfejtpump",
+   "sym": "bro",
+   "price": 0.000244,
+   "entry": 0.000224,
+   "usd": 1.9795,
+   "pnl": 0.0489,
+   "why": "trailing จากยอด +24% (+8.9%)",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 Apple Card (ไม้ 60%)",
@@ -725,6 +728,7 @@
   "../PaperTrade-cloud/state_recipe_grad.json:2026-11-17T09:08:59+07:00:2HVqzNisr463WMDpp6Q45ekuVfcjm8kEaiKd4ra8pump",
   "../PaperTrade-cloud/state_recipe_grad.json:2026-11-17T09:46:35+07:00:6aAnhook7aGqE1C4rV4c1qDXE1mEf9fdgriSnQxupump",
   "../PaperTrade-cloud/state_recipe_grad.json:2026-11-17T11:52:58+07:00:6jaz1dfgxZ2jtLm8Gxib6bhYRWHgmTPRfGTXnzqGpump",
+  "../PaperTrade-cloud/state_recipe_grad.json:2026-11-17T15:03:25+07:00:3U7MpWPPwSUBk62qmRRXv69yBUpYjKwFbKQtAv7npump",
   "../PaperTrade-cloud/state_recipe_insider.json:2026-11-13T17:20:42+07:00:3V5qFZzqFr3TivY44nA1DRQxEpgjF3EzYrD99p1Lpump",
   "../PaperTrade-cloud/state_recipe_insider.json:2026-11-13T18:47:53+07:00:2QCcwbZL7YgovUqvXmxoKJR8AZoHeGMtt4vj2YGSpump",
   "../PaperTrade-cloud/state_recipe_insider.json:2026-11-13T19:26:29+07:00:HcsZdLqWXmL7BQBhvoBvi9BDRZyiBuMvymhNwrfKpump",
