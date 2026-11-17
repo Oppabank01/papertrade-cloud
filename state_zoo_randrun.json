@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.0785780465471006,
+ "cash": 0.3152017597041438,
  "pos": {
   "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": {
    "sym": "GTA",
    "qty": 351.41303225078303,
    "entry": 0.001287,
-   "last": 0.001414,
+   "last": 0.001398,
    "peak": 0.001538,
    "cost": 0.46616014482246726,
    "opened": "2026-11-17T01:33:10+07:00",
@@ -21,7 +21,7 @@
    "sym": "GATO",
    "qty": 56.29317525618584,
    "entry": 0.006093,
-   "last": 0.006776,
+   "last": 0.006711,
    "peak": 0.007024,
    "cost": 0.3535294958111115,
    "opened": "2026-11-17T08:03:36+07:00",
@@ -42,20 +42,6 @@
    "zoo": "randrun",
    "smart": 100,
    "kol": 1,
-   "gap": 0,
-   "miss": 0
-  },
-  "BYzs3aLLGVU4mygdgemaBwgx6JhbmrocUTkUwYw2pump": {
-   "sym": "TTWO",
-   "qty": 21189.54694886266,
-   "entry": 1.368e-05,
-   "last": 1.163e-05,
-   "peak": 1.368e-05,
-   "cost": 0.2987765432492694,
-   "opened": "2026-11-17T14:30:19+07:00",
-   "zoo": "randrun",
-   "smart": 15,
-   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -1396,8 +1382,23 @@
    "zoo": "randrun",
    "smart": 15,
    "kol": 0
+  },
+  {
+   "t": "2026-11-17T17:31:16+07:00",
+   "kind": "sell",
+   "mint": "BYzs3aLLGVU4mygdgemaBwgx6JhbmrocUTkUwYw2pump",
+   "sym": "TTWO",
+   "price": 1.151e-05,
+   "entry": 1.368e-05,
+   "usd": 0.2366,
+   "pnl": -0.0622,
+   "why": "stop -15.9%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 15,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1794911139.5034251
+ "rank_t": 1794911426.7498055
 }
