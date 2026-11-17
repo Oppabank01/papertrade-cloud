@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.172032598735606,
+ "cash": 1.3431533350529894,
  "pos": {
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 53.67335533681186,
    "entry": 0.007884,
-   "last": 0.00725,
+   "last": 0.007076,
    "peak": 0.008795,
    "cost": 0.436158249304705,
    "opened": "2026-11-17T11:49:09+07:00",
@@ -35,7 +35,7 @@
    "sym": "HIGH",
    "qty": 641.515004378381,
    "entry": 0.0006527,
-   "last": 0.0006543,
+   "last": 0.0006182,
    "peak": 0.0006704,
    "cost": 0.4315778636959074,
    "opened": "2026-11-17T12:36:58+07:00",
@@ -49,7 +49,7 @@
    "sym": "SAPLING",
    "qty": 350.6928600317095,
    "entry": 0.001175,
-   "last": 0.0011381595237384182,
+   "last": 0.001113,
    "peak": 0.001175,
    "cost": 0.42472079008169317,
    "opened": "2026-11-17T13:24:11+07:00",
@@ -63,13 +63,41 @@
    "sym": "DacityCoin",
    "qty": 1414.7250671069478,
    "entry": 0.0002904,
-   "last": 0.0002797,
+   "last": 0.0002787,
    "peak": 0.0002904,
    "cost": 0.42345512212724973,
    "opened": "2026-11-17T13:24:11+07:00",
    "zoo": "w_pause_scalp",
    "smart": 131,
    "kol": 12,
+   "gap": 0,
+   "miss": 0
+  },
+  "D7ZkNHN3ESProTmshXRjAgiNjQU7SkUcXHpe13qCpump": {
+   "sym": "GTAVI",
+   "qty": 1813.0992252406438,
+   "entry": 0.0002221,
+   "last": 0.0002117360386224913,
+   "peak": 0.000224,
+   "cost": 0.4150580683631695,
+   "opened": "2026-11-17T13:42:49+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 15,
+   "kol": 0,
+   "gap": 4,
+   "miss": 0
+  },
+  "5Kjxg6X13axntM98AxJGjNQCB82YZWhSnvJVX78cpump": {
+   "sym": "DOOM",
+   "qty": 1043.6426402363602,
+   "entry": 0.0003847,
+   "last": 0.0004016,
+   "peak": 0.0004019,
+   "cost": 0.4138211953194473,
+   "opened": "2026-11-17T13:42:49+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 59,
+   "kol": 5,
    "gap": 0,
    "miss": 0
   }
@@ -4216,8 +4244,36 @@
    "zoo": "w_pause_scalp",
    "smart": 131,
    "kol": 12
+  },
+  {
+   "t": "2026-11-17T13:42:49+07:00",
+   "kind": "buy",
+   "mint": "D7ZkNHN3ESProTmshXRjAgiNjQU7SkUcXHpe13qCpump",
+   "sym": "GTAVI",
+   "price": 0.0002221,
+   "jup": 0.00022076703908944752,
+   "usd": 0.4151,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 15,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-17T13:42:49+07:00",
+   "kind": "buy",
+   "mint": "5Kjxg6X13axntM98AxJGjNQCB82YZWhSnvJVX78cpump",
+   "sym": "DOOM",
+   "price": 0.0003847,
+   "jup": 0.0003847397079621403,
+   "usd": 0.4138,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 59,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794897401.7788212
+ "rank_t": 1794897693.5992663
 }
