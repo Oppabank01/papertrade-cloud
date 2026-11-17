@@ -1,8 +1,21 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 3.2001828368329703,
- "pos": {},
+ "cash": 1.2800731347331882,
+ "pos": {
+  "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
+   "sym": "Lucia",
+   "qty": 2735.1202950773873,
+   "entry": 0.0006811,
+   "last": 0.0006811,
+   "peak": 0.0006811,
+   "cost": 1.9201097020997822,
+   "opened": "2026-11-18T02:44:31+07:00",
+   "source": "agents",
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T09:54:41+07:00",
@@ -677,6 +690,18 @@
    "cost_side": 0.03,
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T02:44:31+07:00",
+   "kind": "buy",
+   "mint": "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump",
+   "sym": "Lucia",
+   "price": 0.0006811,
+   "jup": 0.000681027861285031,
+   "usd": 1.9201,
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "source": "agents"
   }
  ],
  "label": "สูตร crbpite8 Apple Card (ไม้ 60%)",
@@ -1169,6 +1194,7 @@
   "state_agents.json:2026-11-17T21:55:34+07:00:FG3sAP594dUmgkzYneQEv4BnEJdgS8txNT7QAPtrpump",
   "state_agents.json:2026-11-18T00:03:03+07:00:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
   "state_agents.json:2026-11-18T01:05:05+07:00:8ryRQD6jWfxnSdvvVbQ8Tzwo1NgGP7w1X1nQPpb4pump",
+  "state_agents.json:2026-11-18T02:44:07+07:00:HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump",
   "state_grokbot.json:2026-11-14T01:57:45+07:00:9oJk7eMccQchx3evoN5C5pKQD5Xodb4C1qkhemjjpump",
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
   "state_recipe_grad.json:2026-11-13T10:44:45+07:00:3ZHz4gzF2AEzoyRkMe1nCbsCms5H5wg3jcphCP4opump",

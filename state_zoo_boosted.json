@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.3221466461118089,
+ "cash": 0.095519049892095,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 3.020842328412278,
    "entry": 0.04155,
-   "last": 0.04224,
+   "last": 0.04231,
    "peak": 0.04248,
    "cost": 0.12937126236397664,
    "opened": "2026-11-17T23:49:32+07:00",
@@ -21,13 +21,41 @@
    "sym": "meowl",
    "qty": 279.2539737858302,
    "entry": 0.0004296,
-   "last": 0.0004244,
+   "last": 0.0004162,
    "peak": 0.00044202002819275314,
    "cost": 0.12365234708141895,
    "opened": "2026-11-18T01:05:32+07:00",
    "zoo": "boosted",
    "smart": 143,
    "kol": 23,
+   "gap": 0,
+   "miss": 0
+  },
+  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
+   "sym": "DacityCoin",
+   "qty": 16.090126737049413,
+   "entry": 0.006853,
+   "last": 0.006853,
+   "peak": 0.006853,
+   "cost": 0.11365248250772997,
+   "opened": "2026-11-18T02:45:04+07:00",
+   "zoo": "boosted",
+   "smart": 261,
+   "kol": 21,
+   "gap": 0,
+   "miss": 0
+  },
+  "9RZeokzHNXoRyJkWDFdvcQTAzUhKpXm7RrqkUM3Fpump": {
+   "sym": "CHILL",
+   "qty": 283.66577464639437,
+   "entry": 0.0003864,
+   "last": 0.0003864,
+   "peak": 0.0003864,
+   "cost": 0.1129751137119839,
+   "opened": "2026-11-18T02:45:06+07:00",
+   "zoo": "boosted",
+   "smart": 22,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -4377,8 +4405,36 @@
    "cost_side": 0.03,
    "smart": 206,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T02:45:04+07:00",
+   "kind": "buy",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.006853,
+   "jup": 0.006864505117834168,
+   "usd": 0.1137,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 261,
+   "kol": 21
+  },
+  {
+   "t": "2026-11-18T02:45:06+07:00",
+   "kind": "buy",
+   "mint": "9RZeokzHNXoRyJkWDFdvcQTAzUhKpXm7RrqkUM3Fpump",
+   "sym": "CHILL",
+   "price": 0.0003864,
+   "jup": 0.00038840531106989926,
+   "usd": 0.113,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 22,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794944342.6242747
+ "rank_t": 1794944630.9972057
 }
