@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 7.383276734595828,
+ "cash": 5.551953297808712,
  "pos": {
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 284.18917457367826,
    "entry": 0.00634,
-   "last": 0.006228,
+   "last": 0.005921,
    "peak": 0.00634,
    "cost": 1.8571009758782937,
    "opened": "2026-11-17T16:43:47+07:00",
    "zoo": "w_ban_bigliq",
    "smart": 261,
    "kol": 21,
+   "gap": 0,
+   "miss": 0
+  },
+  "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
+   "sym": "MANIFEST",
+   "qty": 610.5670097494365,
+   "entry": 0.00291,
+   "last": 0.002923,
+   "peak": 0.002923,
+   "cost": 1.831323436787116,
+   "opened": "2026-11-17T18:14:58+07:00",
+   "zoo": "w_ban_bigliq",
+   "smart": 80,
+   "kol": 15,
    "gap": 0,
    "miss": 0
   }
@@ -1247,10 +1261,24 @@
    "cost_side": 0.03,
    "smart": 883,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T18:14:58+07:00",
+   "kind": "buy",
+   "mint": "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
+   "sym": "MANIFEST",
+   "price": 0.00291,
+   "jup": 0.002910604600766078,
+   "usd": 1.8313,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_bigliq",
+   "smart": 80,
+   "kol": 15
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794913732.5289516,
+ "rank_t": 1794914014.378382,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
