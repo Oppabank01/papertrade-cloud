@@ -1,21 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.775413711583923,
- "cash": 1.7125342394766971,
- "pos": {
-  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
-   "sym": "USELESS",
-   "qty": 18.092764243693978,
-   "entry": 0.09531,
-   "last": 0.09088,
-   "peak": 0.09557,
-   "cost": 1.7773875077988799,
-   "opened": "2026-11-17T04:16:00+07:00",
-   "source": "agents",
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 3.306050035605569,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T01:40:57+07:00",
@@ -1202,6 +1189,21 @@
    "usd": 1.2375,
    "pnl": -0.2242,
    "why": "stop -10.1%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-18T04:18:43+07:00",
+   "kind": "sell",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.09078,
+   "entry": 0.09531,
+   "usd": 1.5935,
+   "pnl": -0.1839,
+   "why": "ครบ 24 ชม. (-4.8%)",
    "stop_set": -0.08,
    "cost_side": 0.03,
    "smart": null,
