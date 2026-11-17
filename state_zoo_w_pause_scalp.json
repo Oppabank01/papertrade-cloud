@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.2553014936313889,
+ "cash": 0.9438756181419206,
  "pos": {
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 43.30346778389085,
    "entry": 0.00775,
-   "last": 0.007640042758475076,
+   "last": 0.007601,
    "peak": 0.007961,
    "cost": 0.34590999312013415,
    "opened": "2026-11-18T02:21:06+07:00",
@@ -21,7 +21,7 @@
    "sym": "CHILL",
    "qty": 764.4217273054809,
    "entry": 0.0004154,
-   "last": 0.0003832,
+   "last": 0.0003915,
    "peak": 0.0004189,
    "cost": 0.3272941512293308,
    "opened": "2026-11-18T03:08:10+07:00",
@@ -35,7 +35,7 @@
    "sym": "CHOO",
    "qty": 538.5272397206637,
    "entry": 0.0005789,
-   "last": 0.0005685,
+   "last": 0.0005668,
    "peak": 0.0005934,
    "cost": 0.3213290239891695,
    "opened": "2026-11-18T03:18:17+07:00",
@@ -49,8 +49,8 @@
    "sym": "WASTED",
    "qty": 108.08281538762235,
    "entry": 0.002856,
-   "last": 0.003051,
-   "peak": 0.003164,
+   "last": 0.003167,
+   "peak": 0.003167,
    "cost": 0.31816586347871517,
    "opened": "2026-11-18T03:27:20+07:00",
    "zoo": "w_pause_scalp",
@@ -63,27 +63,41 @@
    "sym": "GTA",
    "qty": 293.59875781158075,
    "entry": 0.001069,
-   "last": 0.001081,
+   "last": 0.0010422940459600917,
    "peak": 0.001081,
    "cost": 0.3234972913838176,
    "opened": "2026-11-18T03:55:51+07:00",
    "zoo": "w_pause_scalp",
    "smart": 300,
    "kol": 16,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
    "sym": "Rocco",
    "qty": 225.5909945736832,
    "entry": 0.001342,
-   "last": 0.001234,
+   "last": 0.001232,
    "peak": 0.001342,
    "cost": 0.31204196528332595,
    "opened": "2026-11-18T04:05:45+07:00",
    "zoo": "w_pause_scalp",
    "smart": 125,
    "kol": 9,
+   "gap": 2,
+   "miss": 0
+  },
+  "EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump": {
+   "sym": "LUNO",
+   "qty": 705.617432040827,
+   "entry": 0.0004282,
+   "last": 0.0004077,
+   "peak": 0.0004294395753284321,
+   "cost": 0.3114258754894683,
+   "opened": "2026-11-18T04:10:37+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 29,
+   "kol": 2,
    "gap": 1,
    "miss": 0
   }
@@ -5207,8 +5221,22 @@
    "zoo": "w_pause_scalp",
    "smart": 125,
    "kol": 9
+  },
+  {
+   "t": "2026-11-18T04:10:37+07:00",
+   "kind": "buy",
+   "mint": "EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump",
+   "sym": "LUNO",
+   "price": 0.0004282,
+   "jup": 0.000430863366352812,
+   "usd": 0.3114,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 29,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794949473.2412264
+ "rank_t": 1794949760.6008189
 }
