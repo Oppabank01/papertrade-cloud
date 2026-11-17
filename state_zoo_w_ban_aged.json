@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.41984901003523617,
+ "cash": 0.183775454079205,
  "pos": {
   "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
    "sym": "JOB",
    "qty": 134.1296833986982,
    "entry": 0.002198,
-   "last": 0.0021,
+   "last": 0.002151,
    "peak": 0.002472,
    "cost": 0.30387244290902765,
    "opened": "2026-11-18T03:27:20+07:00",
    "zoo": "w_ban_aged",
    "smart": 35,
    "kol": 0,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "H8xQ6poBjB9DTPMDTKWzWPrnxu4bDEhybxiouF8Ppump": {
@@ -35,13 +35,27 @@
    "sym": "GATO",
    "qty": 43.49536017320115,
    "entry": 0.005596,
-   "last": 0.005346,
+   "last": 0.005361,
    "peak": 0.005826,
    "cost": 0.2508761446394905,
    "opened": "2026-11-18T04:14:34+07:00",
    "zoo": "w_ban_aged",
    "smart": 64,
    "kol": 4,
+   "gap": 0,
+   "miss": 0
+  },
+  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
+   "sym": "mihao",
+   "qty": 22.06537225323135,
+   "entry": 0.01038,
+   "last": 0.01044,
+   "peak": 0.01049,
+   "cost": 0.23607355595603116,
+   "opened": "2026-11-18T06:02:05+07:00",
+   "zoo": "w_ban_aged",
+   "smart": 718,
+   "kol": 70,
    "gap": 0,
    "miss": 0
   }
@@ -4135,10 +4149,24 @@
    "cost_side": 0.03,
    "smart": 163,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T06:02:05+07:00",
+   "kind": "buy",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.01038,
+   "jup": 0.010338393341265387,
+   "usd": 0.2361,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_aged",
+   "smart": 718,
+   "kol": 70
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794956160.1642706,
+ "rank_t": 1794956453.793019,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": "CHOO",
