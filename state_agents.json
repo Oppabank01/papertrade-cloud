@@ -1,33 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.15971842729064345,
+ "cash": 0.20604266645154673,
  "pos": {
   "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump": {
    "sym": "plumber",
    "qty": 320.98083905456303,
    "entry": 0.0001632,
-   "last": 0.0001704,
+   "last": 0.0001722,
    "peak": 0.0001751,
    "cost": 0.053993066309734786,
    "opened": "2026-11-18T06:10:28+07:00",
    "smart": 197,
    "kol": 5,
    "bundler": 0.1269,
-   "gap": 0,
-   "miss": 0
-  },
-  "5wU7osGtkG6NP1Fxqv83mFL4uuDmjvggrkGwuZiYpump": {
-   "sym": "VI",
-   "qty": 774.4866638295377,
-   "entry": 6.734e-05,
-   "last": 6.348e-05,
-   "peak": 6.734e-05,
-   "cost": 0.05375585646493617,
-   "opened": "2026-11-18T06:19:47+07:00",
-   "smart": 89,
-   "kol": 2,
-   "bundler": 0.1343,
    "gap": 0,
    "miss": 0
   }
@@ -60947,6 +60933,43 @@
    "buy": 0.8847,
    "bull": 0.9119,
    "bear": 1.0
+  },
+  {
+   "t": "2026-11-18T06:43:14+07:00",
+   "kind": "debate",
+   "mint": "GwZaMuX8KeF6cEfQcV6oWyVhKszRpZojFzB6qTQW4UCD",
+   "sym": "NVIDIANS",
+   "ok": false,
+   "bundler": 0.1875,
+   "buy": 0.7916,
+   "bull": 0.9553,
+   "bear": 0.9998
+  },
+  {
+   "t": "2026-11-18T06:43:17+07:00",
+   "kind": "debate",
+   "mint": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
+   "sym": "PAID",
+   "ok": false,
+   "bundler": 0.2939,
+   "buy": 0.8534,
+   "bull": 0.873,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-18T06:43:18+07:00",
+   "kind": "sell",
+   "mint": "5wU7osGtkG6NP1Fxqv83mFL4uuDmjvggrkGwuZiYpump",
+   "sym": "VI",
+   "price": 6.165e-05,
+   "entry": 6.734e-05,
+   "usd": 0.0463,
+   "pnl": -0.0074,
+   "why": "stop -8.4%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 89,
+   "bundler": 0.1343
   }
  ]
 }
