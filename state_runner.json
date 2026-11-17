@@ -1,42 +1,30 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.4306302342829507,
+ "cash": 2.3765752996830565,
  "pos": {
   "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
    "sym": "Max",
    "qty": 818.1935271343793,
    "entry": 0.0008726,
-   "last": 0.0009168,
+   "last": 0.0009066,
    "peak": 0.000987,
    "cost": 0.7358850461528132,
    "opened": "2026-11-17T08:11:59+07:00",
    "source": "agents",
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "7mH4PaR9BMxAid2i1QNDBmziAwxyXBsPNKSMiWySpump": {
    "sym": "worth",
    "qty": 6448.536624025389,
    "entry": 0.0001101,
-   "last": 0.0001134,
+   "last": 0.0001105,
    "peak": 0.000115,
    "cost": 0.7317912619101169,
    "opened": "2026-11-17T09:08:49+07:00",
    "source": "agents",
    "gap": 0,
-   "miss": 0
-  },
-  "D2Zkpv4m8M9Yh7tSDDCtcyZb6WQYVKzkQjM4x5eMQDZB": {
-   "sym": "Jojo",
-   "qty": 10955.05693717855,
-   "entry": 6.543e-05,
-   "last": 0.0001119,
-   "peak": 0.0001119,
-   "cost": 0.7388057878783679,
-   "opened": "2026-11-17T09:18:18+07:00",
-   "source": "agents",
-   "gap": 2,
    "miss": 0
   }
  },
@@ -1489,6 +1477,21 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-17T09:27:28+07:00",
+   "kind": "sell",
+   "mint": "D2Zkpv4m8M9Yh7tSDDCtcyZb6WQYVKzkQjM4x5eMQDZB",
+   "sym": "Jojo",
+   "price": 8.9e-05,
+   "entry": 6.543e-05,
+   "usd": 0.9459,
+   "pnl": 0.2071,
+   "why": "trailing จากยอด +71% (+36.0%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",

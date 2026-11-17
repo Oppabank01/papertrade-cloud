@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.757969303423847,
- "cash": 1.2972857615093005,
+ "cash": 1.9970278202038285,
  "pos": {
   "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
    "sym": "Lucia",
@@ -14,31 +14,17 @@
    "zoo": "trench",
    "smart": 108,
    "kol": 4,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": {
    "sym": "BRUH",
    "qty": 158.4605922528988,
    "entry": 0.004671,
-   "last": 0.005011,
+   "last": 0.004943,
    "peak": 0.005181,
    "cost": 0.7629039645570916,
    "opened": "2026-11-17T00:11:55+07:00",
-   "zoo": "trench",
-   "smart": 3,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
-  "D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump": {
-   "sym": "BAWSAQ",
-   "qty": 526.0648121418175,
-   "entry": 0.00134,
-   "last": 0.001457,
-   "peak": 0.001815,
-   "cost": 0.7265788994743718,
-   "opened": "2026-11-17T08:46:23+07:00",
    "zoo": "trench",
    "smart": 3,
    "kol": 0,
@@ -1334,6 +1320,21 @@
    "zoo": "trench",
    "smart": 3,
    "kol": 0
+  },
+  {
+   "t": "2026-11-17T09:28:00+07:00",
+   "kind": "sell",
+   "mint": "D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump",
+   "sym": "BAWSAQ",
+   "price": 0.001371,
+   "entry": 0.00134,
+   "usd": 0.6997,
+   "pnl": -0.0268,
+   "why": "trailing จากยอด +35% (+2.3%)",
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "smart": 3,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: crbpite8 รอบ 2: ปลอดภัย + smart 3 + V/L สูงสุด 3 ตัว",

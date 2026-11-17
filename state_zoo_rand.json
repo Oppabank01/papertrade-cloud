@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.0762812451801237,
+ "cash": 0.13999141508324783,
  "pos": {
   "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump": {
    "sym": "Punch",
    "qty": 327.6875108279419,
    "entry": 0.0002167,
-   "last": 0.0002332,
+   "last": 0.000232,
    "peak": 0.0002414,
    "cost": 0.0731909746407081,
    "opened": "2026-11-17T07:11:52+07:00",
@@ -21,7 +21,7 @@
    "sym": "HOTBOT",
    "qty": 197.30165831263696,
    "entry": 0.0003611,
-   "last": 0.0003534,
+   "last": 0.0003599,
    "peak": 0.0003666,
    "cost": 0.07343396085002392,
    "opened": "2026-11-17T07:44:04+07:00",
@@ -35,27 +35,13 @@
    "sym": "Lucia",
    "qty": 220.36089189721156,
    "entry": 0.000326,
-   "last": 0.0003403,
-   "peak": 0.0003408,
+   "last": 0.0003709,
+   "peak": 0.0003709,
    "cost": 0.07404416693309727,
    "opened": "2026-11-17T08:21:47+07:00",
    "zoo": "rand",
    "smart": 19,
    "kol": 5,
-   "gap": 0,
-   "miss": 0
-  },
-  "DNuQrFj6qRnL8ajmh1u8nkfdsQ7Nf2voK9vdKcaQpump": {
-   "sym": "Mihaomas",
-   "qty": 2914.6492646019665,
-   "entry": 2.475e-05,
-   "last": 2.449e-05,
-   "peak": 2.475e-05,
-   "cost": 0.0743532975663767,
-   "opened": "2026-11-17T09:23:13+07:00",
-   "zoo": "rand",
-   "smart": 0,
-   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -3869,8 +3855,23 @@
    "zoo": "rand",
    "smart": 0,
    "kol": 0
+  },
+  {
+   "t": "2026-11-17T09:27:49+07:00",
+   "kind": "sell",
+   "mint": "DNuQrFj6qRnL8ajmh1u8nkfdsQ7Nf2voK9vdKcaQpump",
+   "sym": "Mihaomas",
+   "price": 2.253e-05,
+   "entry": 2.475e-05,
+   "usd": 0.0637,
+   "pnl": -0.0106,
+   "why": "stop -9.0%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 0,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794882171.6443336
+ "rank_t": 1794882447.1007664
 }
