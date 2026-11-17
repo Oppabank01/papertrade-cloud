@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.343485097021909,
+ "cash": 1.5673434589147148,
  "pos": {
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 43.30346778389085,
    "entry": 0.00775,
-   "last": 0.00739,
+   "last": 0.00772,
    "peak": 0.007837,
    "cost": 0.34590999312013415,
    "opened": "2026-11-18T02:21:06+07:00",
    "zoo": "w_pause_scalp",
    "smart": 261,
    "kol": 21,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "9RZeokzHNXoRyJkWDFdvcQTAzUhKpXm7RrqkUM3Fpump": {
@@ -28,14 +28,14 @@
    "zoo": "w_pause_scalp",
    "smart": 22,
    "kol": 0,
-   "gap": 1,
+   "gap": 4,
    "miss": 0
   },
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": {
    "sym": "CHOO",
    "qty": 538.5272397206637,
    "entry": 0.0005789,
-   "last": 0.0005703,
+   "last": 0.000579,
    "peak": 0.0005934,
    "cost": 0.3213290239891695,
    "opened": "2026-11-18T03:18:17+07:00",
@@ -49,7 +49,7 @@
    "sym": "WASTED",
    "qty": 108.08281538762235,
    "entry": 0.002856,
-   "last": 0.003135,
+   "last": 0.003013,
    "peak": 0.003164,
    "cost": 0.31816586347871517,
    "opened": "2026-11-18T03:27:20+07:00",
@@ -59,32 +59,18 @@
    "gap": 0,
    "miss": 0
   },
-  "6sBvfTnThBPUQsEWjiXdgCnHwxGZfEDqegtVu4vLpump": {
-   "sym": "WANTED",
-   "qty": 899.4445650890664,
-   "entry": 0.00034,
-   "last": 0.0003277,
-   "peak": 0.0003416,
-   "cost": 0.3152042384356655,
-   "opened": "2026-11-18T03:45:36+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 44,
-   "kol": 1,
-   "gap": 0,
-   "miss": 0
-  },
   "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": {
    "sym": "GTA",
    "qty": 293.59875781158075,
    "entry": 0.001069,
-   "last": 0.001063,
-   "peak": 0.001069,
+   "last": 0.001066,
+   "peak": 0.00107,
    "cost": 0.3234972913838176,
    "opened": "2026-11-18T03:55:51+07:00",
    "zoo": "w_pause_scalp",
    "smart": 300,
    "kol": 16,
-   "gap": 7,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -5178,8 +5164,23 @@
    "zoo": "w_pause_scalp",
    "smart": 300,
    "kol": 16
+  },
+  {
+   "t": "2026-11-18T04:00:46+07:00",
+   "kind": "sell",
+   "mint": "6sBvfTnThBPUQsEWjiXdgCnHwxGZfEDqegtVu4vLpump",
+   "sym": "WANTED",
+   "price": 0.00025652969762612074,
+   "entry": 0.00034,
+   "usd": 0.2239,
+   "pnl": -0.0913,
+   "why": "stop -24.6%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 44,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794948886.5457823
+ "rank_t": 1794949168.0986385
 }
