@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.11191439162880591,
+ "cash": 0.10488908929566179,
  "pos": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 3.56595255624781,
    "entry": 0.01646,
-   "last": 0.01692,
+   "last": 0.01729,
    "peak": 0.0178,
    "cost": 0.06049843236017208,
    "opened": "2026-11-17T16:14:46+07:00",
@@ -21,7 +21,7 @@
    "sym": "SID",
    "qty": 40.18539737595451,
    "entry": 0.001469,
-   "last": 0.001455,
+   "last": 0.001458,
    "peak": 0.001469,
    "cost": 0.060845546016570995,
    "opened": "2026-11-17T18:23:36+07:00",
@@ -31,17 +31,17 @@
    "gap": 0,
    "miss": 0
   },
-  "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
-   "sym": "Rocco",
-   "qty": 69.46577156458132,
-   "entry": 0.0008307,
-   "last": 0.0007857,
-   "peak": 0.0008307,
-   "cost": 0.05947765042125097,
-   "opened": "2026-11-17T18:32:52+07:00",
+  "6sBvfTnThBPUQsEWjiXdgCnHwxGZfEDqegtVu4vLpump": {
+   "sym": "WANTED",
+   "qty": 540.092486012011,
+   "entry": 0.0001025,
+   "last": 0.0001025,
+   "peak": 0.0001025,
+   "cost": 0.05705986375616484,
+   "opened": "2026-11-17T18:42:46+07:00",
    "zoo": "rand",
-   "smart": 122,
-   "kol": 9,
+   "smart": 40,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -4334,8 +4334,37 @@
    "cost_side": 0.03,
    "smart": 127,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T18:42:46+07:00",
+   "kind": "buy",
+   "mint": "6sBvfTnThBPUQsEWjiXdgCnHwxGZfEDqegtVu4vLpump",
+   "sym": "WANTED",
+   "price": 0.0001025,
+   "jup": 0.0001027260833364731,
+   "usd": 0.0571,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 40,
+   "kol": 1
+  },
+  {
+   "t": "2026-11-17T18:42:46+07:00",
+   "kind": "sell",
+   "mint": "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
+   "sym": "Rocco",
+   "price": 0.0007424,
+   "entry": 0.0008307,
+   "usd": 0.05,
+   "pnl": -0.0094,
+   "why": "stop -10.6%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 122,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794915440.7486956
+ "rank_t": 1794915726.9891436
 }
