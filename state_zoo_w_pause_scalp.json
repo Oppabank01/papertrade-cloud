@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.4617280380115343,
+ "cash": 2.7670571882979424,
  "pos": {
-  "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": {
-   "sym": "CHOO",
-   "qty": 538.5272397206637,
-   "entry": 0.0005789,
-   "last": 0.0005841974542397446,
-   "peak": 0.0006034,
-   "cost": 0.3213290239891695,
-   "opened": "2026-11-18T03:18:17+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 116,
-   "kol": 5,
-   "gap": 11,
-   "miss": 0
-  },
   "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": {
    "sym": "GTA",
    "qty": 293.59875781158075,
    "entry": 0.001069,
-   "last": 0.0010734486709076548,
+   "last": 0.001084,
    "peak": 0.0011729443784707688,
    "cost": 0.3234972913838176,
    "opened": "2026-11-18T03:55:51+07:00",
    "zoo": "w_pause_scalp",
    "smart": 300,
    "kol": 16,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -5240,10 +5226,25 @@
    "cost_side": 0.03,
    "smart": 101,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T05:18:30+07:00",
+   "kind": "sell",
+   "mint": "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump",
+   "sym": "CHOO",
+   "price": 0.0005843853542410907,
+   "entry": 0.0005789,
+   "usd": 0.3053,
+   "pnl": -0.016,
+   "why": "ครบ 2 ชม. (+0.9%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 116,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794953570.1935747,
+ "rank_t": 1794953844.3264997,
  "halted": "ราคา CHOO สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-18T05:40:57+07:00"
 }
