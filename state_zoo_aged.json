@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.9667975085470164,
+ "cash": 0.6486879357713888,
  "pos": {
   "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
    "sym": "Max",
    "qty": 425.50401778117646,
    "entry": 0.0007512,
-   "last": 0.0007277,
+   "last": 0.0007335,
    "peak": 0.0007809,
    "cost": 0.3294564194570396,
    "opened": "2026-11-17T15:36:38+07:00",
@@ -28,6 +28,20 @@
    "zoo": "aged",
    "smart": 19,
    "kol": 5,
+   "gap": 0,
+   "miss": 0
+  },
+  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
+   "sym": "Rings",
+   "qty": 466.56070673758705,
+   "entry": 0.0006615,
+   "last": 0.0006615,
+   "peak": 0.0006615,
+   "cost": 0.3181095727756275,
+   "opened": "2026-11-17T17:36:06+07:00",
+   "zoo": "aged",
+   "smart": 88,
+   "kol": 6,
    "gap": 0,
    "miss": 0
   }
@@ -3715,8 +3729,22 @@
    "cost_side": 0.03,
    "smart": 722,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T17:36:06+07:00",
+   "kind": "buy",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.0006615,
+   "jup": 0.0006598547601587085,
+   "usd": 0.3181,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "aged",
+   "smart": 88,
+   "kol": 6
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุเกิน 1 วัน ยังมีคนเล่น",
- "rank_t": 1794911426.7498055
+ "rank_t": 1794911715.4967227
 }
