@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.4773824042189102,
+ "cash": 0.6113717446673569,
  "pos": {
   "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg": {
    "sym": "USOI",
@@ -13,19 +13,6 @@
    "opened": "2026-11-18T01:52:18+07:00",
    "smart": 5,
    "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
-  "EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump": {
-   "sym": "LUNO",
-   "qty": 397.882066950488,
-   "entry": 0.0003898,
-   "last": 0.0003898,
-   "peak": 0.0003898,
-   "cost": 0.1598582041819215,
-   "opened": "2026-11-18T04:32:56+07:00",
-   "smart": 30,
-   "kol": 2,
    "gap": 0,
    "miss": 0
   }
@@ -977,8 +964,23 @@
    "cost_side": 0.03,
    "smart": 30,
    "kol": 2
+  },
+  {
+   "t": "2026-11-18T04:37:24+07:00",
+   "kind": "sell",
+   "mint": "EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump",
+   "sym": "LUNO",
+   "price": 0.0003471,
+   "entry": 0.0003898,
+   "usd": 0.134,
+   "pnl": -0.0259,
+   "why": "stop -11.0%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 30,
+   "bundler": null
   }
  ],
  "label": "สูตร x_insider4 (คู่ใหม่ + top trader)",
- "rank_t": 1794951174.7648113
+ "rank_t": 1794951442.8014896
 }
