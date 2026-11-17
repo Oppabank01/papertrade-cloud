@@ -1,8 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 3.047440103016374,
- "pos": {},
+ "cash": 2.437952082413099,
+ "pos": {
+  "BJtjsxwxaW2xP5urxhQCFnsXGuizBmwo59TdJ4xDpump": {
+   "sym": "Gumbus",
+   "qty": 111607.240849405,
+   "entry": 4.953904838680738e-06,
+   "last": 4.953904838680738e-06,
+   "peak": 4.953904838680738e-06,
+   "cost": 0.6094880206032749,
+   "curve": "iLGgWX8gEFA9sHCMCgsn7kfUVPBHm5CvveKPe34AMZX",
+   "opened": "2026-11-18T06:29:53+07:00",
+   "wallet": "ENskGQ"
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T21:07:09+07:00",
@@ -3067,8 +3079,23 @@
    "sym": "Hopium",
    "wallet": "ENskGQ",
    "why": "curve 1.05 SOL"
+  },
+  {
+   "t": "2026-11-18T06:29:53+07:00",
+   "kind": "buy",
+   "mint": "BJtjsxwxaW2xP5urxhQCFnsXGuizBmwo59TdJ4xDpump",
+   "sym": "Gumbus",
+   "price": 4.953904838680738e-06,
+   "jup": 4.946039332035773e-06,
+   "usd": 0.6095,
+   "curve_sol": 16.05,
+   "wallet": "ENskGQ",
+   "wallet_usd": 246,
+   "lag_min_after_skip": 0.0,
+   "stop_set": -0.08,
+   "cost_side": 0.0325
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ บน bonding curve",
- "seen_t": "2026-11-18T06:15:18+07:00"
+ "seen_t": "2026-11-18T06:29:52+07:00"
 }
