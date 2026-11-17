@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.5371556649130684,
+ "cash": 0.9725728956994718,
  "pos": {
   "2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump": {
    "sym": "Peekhole",
    "qty": 868.0524137699234,
    "entry": 0.0005884,
-   "last": 0.0005889,
+   "last": 0.0005923,
    "peak": 0.0006074,
    "cost": 0.5264502579491063,
    "opened": "2026-11-17T18:57:26+07:00",
@@ -17,46 +17,32 @@
    "gap": 0,
    "miss": 0
   },
-  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
-   "sym": "GATO",
-   "qty": 72.88704571257234,
-   "entry": 0.006995,
-   "last": 0.006756,
-   "peak": 0.007039,
-   "cost": 0.5255049317248439,
-   "opened": "2026-11-17T19:07:08+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 64,
-   "kol": 4,
-   "gap": 0,
-   "miss": 0
-  },
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
    "sym": "ZCAT",
    "qty": 22.50562465552556,
    "entry": 0.02225,
-   "last": 0.02214,
-   "peak": 0.02232,
+   "last": 0.02305112079349894,
+   "peak": 0.02352,
    "cost": 0.5161308478514158,
    "opened": "2026-11-17T19:11:52+07:00",
    "zoo": "w_pause_aged",
    "smart": 329,
    "kol": 48,
-   "gap": 7,
+   "gap": 9,
    "miss": 0
   },
   "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": {
    "sym": "HOGE",
    "qty": 807.1083728683326,
    "entry": 0.0006139,
-   "last": 0.0006323395701379344,
+   "last": 0.0006201,
    "peak": 0.0006522,
    "cost": 0.510702772731261,
    "opened": "2026-11-17T19:35:44+07:00",
    "zoo": "w_pause_aged",
    "smart": 178,
    "kol": 11,
-   "gap": 1,
+   "gap": 5,
    "miss": 0
   }
  },
@@ -3216,10 +3202,25 @@
    "zoo": "w_pause_aged",
    "smart": 178,
    "kol": 11
+  },
+  {
+   "t": "2026-11-17T20:02:16+07:00",
+   "kind": "sell",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "price": 0.006157352166236812,
+   "entry": 0.006995,
+   "usd": 0.4354,
+   "pnl": -0.0901,
+   "why": "stop -12.0%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 64,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794920034.189259,
+ "rank_t": 1794920324.462123,
  "halted": "ราคา ZCAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-17T20:40:48+07:00"
 }

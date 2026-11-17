@@ -1,34 +1,62 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.0546070268244114,
+ "cash": 2.2864934057297823,
  "pos": {
   "A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm": {
    "sym": "GROKIA",
    "qty": 1063.191291643319,
    "entry": 0.0003483,
-   "last": 0.0003587,
-   "peak": 0.0003613,
+   "last": 0.0003788,
+   "peak": 0.0003788,
    "cost": 0.381683701174364,
    "opened": "2026-11-17T19:50:27+07:00",
    "zoo": "w_pause_scalp",
    "smart": 22,
    "kol": 0,
-   "gap": 0,
+   "gap": 5,
    "miss": 0
   },
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 873.2403133615596,
    "entry": 0.0004228,
-   "last": 0.0004541,
-   "peak": 0.0004541,
+   "last": 0.0004547,
+   "peak": 0.0004586,
    "cost": 0.3805462837448644,
    "opened": "2026-11-17T19:50:27+07:00",
    "zoo": "w_pause_scalp",
    "smart": 86,
    "kol": 4,
-   "gap": 1,
+   "gap": 2,
+   "miss": 0
+  },
+  "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
+   "sym": "Max",
+   "qty": 483.3781577983897,
+   "entry": 0.000772,
+   "last": 0.000786,
+   "peak": 0.000786,
+   "cost": 0.38462990911189127,
+   "opened": "2026-11-17T19:59:37+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 459,
+   "kol": 42,
+   "gap": 0,
+   "miss": 0
+  },
+  "4Wdn6GGJLdyeMLLfzu3pPQMmf9Kivd8e9xmbLb2bpump": {
+   "sym": "ANT",
+   "qty": 1645.5369189104474,
+   "entry": 0.0002261,
+   "last": 0.0002261,
+   "peak": 0.0002261,
+   "cost": 0.3834837119827378,
+   "opened": "2026-11-17T19:59:37+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 180,
+   "kol": 10,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -4582,8 +4610,36 @@
    "zoo": "w_pause_scalp",
    "smart": 86,
    "kol": 4
+  },
+  {
+   "t": "2026-11-17T19:59:37+07:00",
+   "kind": "buy",
+   "mint": "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump",
+   "sym": "Max",
+   "price": 0.000772,
+   "jup": 0.0007709646087812523,
+   "usd": 0.3846,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 459,
+   "kol": 42
+  },
+  {
+   "t": "2026-11-17T19:59:37+07:00",
+   "kind": "buy",
+   "mint": "4Wdn6GGJLdyeMLLfzu3pPQMmf9Kivd8e9xmbLb2bpump",
+   "sym": "ANT",
+   "price": 0.0002261,
+   "jup": 0.00022669247420877963,
+   "usd": 0.3835,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 180,
+   "kol": 10
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794920034.189259
+ "rank_t": 1794920324.462123
 }
