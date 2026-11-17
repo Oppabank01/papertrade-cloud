@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.28113515056090316,
+ "cash": 0.13783304831030394,
  "pos": {
   "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ": {
    "sym": "Lucia",
    "qty": 373.25450268055135,
    "entry": 0.000405,
-   "last": 0.00042,
+   "last": 0.0004254,
    "peak": 0.0004796,
    "cost": 0.15581124879985908,
    "opened": "2026-11-17T17:12:24+07:00",
@@ -21,14 +21,14 @@
    "sym": "ZCAT",
    "qty": 6.3553368114136015,
    "entry": 0.02225,
-   "last": 0.02144951377939888,
+   "last": 0.02144951370134044,
    "peak": 0.02225,
    "cost": 0.14574958158519133,
    "opened": "2026-11-17T19:11:31+07:00",
    "zoo": "boosted",
    "smart": 329,
    "kol": 48,
-   "gap": 2,
+   "gap": 3,
    "miss": 0
   },
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
@@ -42,6 +42,20 @@
    "zoo": "boosted",
    "smart": 413,
    "kol": 32,
+   "gap": 0,
+   "miss": 0
+  },
+  "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
+   "sym": "Leonida",
+   "qty": 328.8356187406134,
+   "entry": 0.0004228,
+   "last": 0.0004228,
+   "peak": 0.0004228,
+   "cost": 0.14330210225059922,
+   "opened": "2026-11-17T19:50:02+07:00",
+   "zoo": "boosted",
+   "smart": 86,
+   "kol": 4,
    "gap": 0,
    "miss": 0
   }
@@ -4144,8 +4158,22 @@
    "cost_side": 0.03,
    "smart": 73,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T19:50:02+07:00",
+   "kind": "buy",
+   "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "sym": "Leonida",
+   "price": 0.0004228,
+   "jup": 0.00042478554797515565,
+   "usd": 0.1433,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 86,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794919470.6021032
+ "rank_t": 1794919745.6029966
 }

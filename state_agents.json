@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.13807928377550155,
+ "cash": 0.0702517089751133,
  "pos": {
   "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ": {
    "sym": "Lucia",
    "qty": 164.0347610920554,
    "entry": 0.000405,
-   "last": 0.00042,
+   "last": 0.0004281,
    "peak": 0.0004843,
    "cost": 0.06847462197720308,
    "opened": "2026-11-17T17:11:24+07:00",
@@ -28,20 +28,34 @@
    "smart": 722,
    "kol": 80,
    "bundler": 0.2722,
-   "gap": 9,
+   "gap": 10,
    "miss": 0
   },
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 3.8069639206341757,
    "entry": 0.01726,
-   "last": 0.01783,
+   "last": 0.01767,
    "peak": 0.01783,
    "cost": 0.06772644534131712,
    "opened": "2026-11-17T19:20:45+07:00",
    "smart": 295,
    "kol": 24,
    "bundler": 0.3114,
+   "gap": 0,
+   "miss": 0
+  },
+  "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
+   "sym": "Leonida",
+   "qty": 155.64407065122202,
+   "entry": 0.0004228,
+   "last": 0.0004228,
+   "peak": 0.0004228,
+   "cost": 0.06782757480038824,
+   "opened": "2026-11-17T19:49:21+07:00",
+   "smart": 86,
+   "kol": 4,
+   "bundler": 0.1124,
    "gap": 0,
    "miss": 0
   }
@@ -54841,6 +54855,86 @@
    "buy": 0.918,
    "bull": 0.9403,
    "bear": 1.0
+  },
+  {
+   "t": "2026-11-17T19:49:10+07:00",
+   "kind": "debate",
+   "mint": "BYPPfvV8xdFeTS43nPFRZeLdJ8STPVELg7rvagtqpump",
+   "sym": "GROKIA",
+   "ok": false,
+   "bundler": 0.0429,
+   "buy": 0.8921,
+   "bull": 0.9436,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-17T19:49:12+07:00",
+   "kind": "debate",
+   "mint": "BjFcaSPgxVmeX8RtmT4suLqDoRpB9smHtg7aRBJagpad",
+   "sym": "BRAVO",
+   "ok": false,
+   "bundler": 0.335,
+   "buy": 0.8875,
+   "bull": 0.9427,
+   "bear": 0.9997
+  },
+  {
+   "t": "2026-11-17T19:49:15+07:00",
+   "kind": "debate",
+   "mint": "4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump",
+   "sym": "BAWSAQ",
+   "ok": false,
+   "bundler": 0.2733,
+   "buy": 0.937,
+   "bull": 0.8388,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-17T19:49:17+07:00",
+   "kind": "debate",
+   "mint": "7TnXXR1ytJ9PZDxgSA8VwbyKmEWZmiA2YAn55YyVpump",
+   "sym": "Trader",
+   "ok": false,
+   "bundler": 0.1138,
+   "buy": 0.7835,
+   "bull": 0.9304,
+   "bear": 0.9998
+  },
+  {
+   "t": "2026-11-17T19:49:19+07:00",
+   "kind": "debate",
+   "mint": "D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump",
+   "sym": "BAWSAQ",
+   "ok": false,
+   "bundler": 0.0012,
+   "buy": 0.9362,
+   "bull": 0.8646,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-17T19:49:21+07:00",
+   "kind": "debate",
+   "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "sym": "Leonida",
+   "ok": true,
+   "bundler": 0.1124,
+   "buy": 0.8046,
+   "bull": 0.9328,
+   "bear": 0.0
+  },
+  {
+   "t": "2026-11-17T19:49:21+07:00",
+   "kind": "buy",
+   "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "sym": "Leonida",
+   "price": 0.0004228,
+   "jup": 0.00042668503499294344,
+   "usd": 0.0678,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 86,
+   "kol": 4,
+   "bundler": 0.1124
   }
  ]
 }
