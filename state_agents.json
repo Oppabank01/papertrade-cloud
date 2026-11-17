@@ -1,19 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.30780937751901505,
+ "cash": 0.30784747479971253,
  "pos": {
-  "CPV5kijeSj5ns5vWgH7attMfhKGQLaen2wXeqCDjpump": {
-   "sym": "Fine",
-   "qty": 6972.902427148478,
-   "entry": 1.081e-05,
-   "last": 1.147e-05,
-   "peak": 1.148e-05,
-   "cost": 0.07769230595493203,
-   "opened": "2026-11-17T10:51:31+07:00",
-   "smart": 107,
-   "kol": 13,
-   "bundler": 0.0032,
+  "HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": {
+   "sym": "Marvin",
+   "qty": 630.7333931623261,
+   "entry": 0.0001193,
+   "last": 0.0001195,
+   "peak": 0.0001195,
+   "cost": 0.07755771367168163,
+   "opened": "2026-11-17T13:55:36+07:00",
+   "smart": 156,
+   "kol": 9,
+   "bundler": 0.2914,
    "gap": 0,
    "miss": 0
   }
@@ -51659,6 +51659,79 @@
    "buy": 0.8477,
    "bull": 0.8411,
    "bear": 0.9954
+  },
+  {
+   "t": "2026-11-17T13:55:33+07:00",
+   "kind": "debate",
+   "mint": "9a5uUXxa7LzHkT6YUikttpQsUZm4Etw8qhd2HP7xpump",
+   "sym": "KATIA",
+   "ok": false,
+   "bundler": 0.1589,
+   "buy": 0.8656,
+   "bull": 0.9356,
+   "bear": 0.9363
+  },
+  {
+   "t": "2026-11-17T13:55:36+07:00",
+   "kind": "debate",
+   "mint": "HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump",
+   "sym": "Marvin",
+   "ok": true,
+   "bundler": 0.2914,
+   "buy": 0.7821,
+   "bull": 0.7991,
+   "bear": 0.0896
+  },
+  {
+   "t": "2026-11-17T13:55:36+07:00",
+   "kind": "buy",
+   "mint": "HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump",
+   "sym": "Marvin",
+   "price": 0.0001193,
+   "jup": 0.00011989874355381251,
+   "usd": 0.0776,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 156,
+   "kol": 9,
+   "bundler": 0.2914
+  },
+  {
+   "t": "2026-11-17T13:55:39+07:00",
+   "kind": "debate",
+   "mint": "9jhs5qoJnUFU7AZXbsiD1Q6De6FVsino9Ysw8QU6pump",
+   "sym": "WANTED",
+   "ok": false,
+   "bundler": 0.1339,
+   "buy": 0.7112,
+   "bull": 0.7991,
+   "bear": 0.9554
+  },
+  {
+   "t": "2026-11-17T13:55:42+07:00",
+   "kind": "debate",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "ok": false,
+   "bundler": 0.0221,
+   "buy": 0.8847,
+   "bull": 0.9245,
+   "bear": 0.9995
+  },
+  {
+   "t": "2026-11-17T13:55:43+07:00",
+   "kind": "sell",
+   "mint": "CPV5kijeSj5ns5vWgH7attMfhKGQLaen2wXeqCDjpump",
+   "sym": "Fine",
+   "price": 1.147e-05,
+   "entry": 1.081e-05,
+   "usd": 0.0776,
+   "pnl": -0.0001,
+   "why": "ครบ 3 ชม. (+6.1%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 107,
+   "bundler": 0.0032
   }
  ]
 }
