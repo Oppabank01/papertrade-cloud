@@ -1,8 +1,37 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.620806496539774,
- "pos": {},
+ "cash": 2.897724197567788,
+ "pos": {
+  "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
+   "sym": "STANK",
+   "qty": 448.761684075484,
+   "entry": 0.0007828,
+   "last": 0.0007641,
+   "peak": 0.0007828,
+   "cost": 0.36208064965397746,
+   "opened": "2026-11-17T23:16:57+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 78,
+   "kol": 1,
+   "gap": 7,
+   "miss": 0
+  },
+  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
+   "sym": "Macca",
+   "qty": 171.60401772088775,
+   "entry": 0.002041,
+   "last": 0.002035,
+   "peak": 0.002041,
+   "cost": 0.3610016493180086,
+   "opened": "2026-11-17T23:16:57+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 173,
+   "kol": 11,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-15T00:43:00+07:00",
@@ -4680,8 +4709,36 @@
    "t": "2026-11-17T23:11:44+07:00",
    "kind": "resume",
    "why": "ราคา BAGSPAY สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-17T23:16:57+07:00",
+   "kind": "buy",
+   "mint": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
+   "sym": "STANK",
+   "price": 0.0007828,
+   "jup": 0.0007758751738517645,
+   "usd": 0.3621,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 78,
+   "kol": 1
+  },
+  {
+   "t": "2026-11-17T23:16:57+07:00",
+   "kind": "buy",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.002041,
+   "jup": 0.0020358952783893435,
+   "usd": 0.361,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 173,
+   "kol": 11
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794931858.4849403
+ "rank_t": 1794932136.6346421
 }

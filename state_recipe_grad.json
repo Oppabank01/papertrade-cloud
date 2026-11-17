@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.30645946846105804,
- "pos": {
-  "6ZbWPYxFf8XyQ6dncrPAef1yz4W9nRF6rX3CYuE7pump": {
-   "sym": "攀豹豹",
-   "qty": 2032.0323694704657,
-   "entry": 3.658e-05,
-   "last": 3.658e-05,
-   "peak": 3.658e-05,
-   "cost": 0.07661486711526451,
-   "opened": "2026-11-17T23:06:32+07:00",
-   "smart": 30,
-   "kol": 1,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 0.36168056177519353,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -2331,8 +2317,23 @@
    "cost_side": 0.03,
    "smart": 30,
    "kol": 1
+  },
+  {
+   "t": "2026-11-17T23:16:12+07:00",
+   "kind": "sell",
+   "mint": "6ZbWPYxFf8XyQ6dncrPAef1yz4W9nRF6rX3CYuE7pump",
+   "sym": "攀豹豹",
+   "price": 2.801e-05,
+   "entry": 3.658e-05,
+   "usd": 0.0552,
+   "pnl": -0.0214,
+   "why": "stop -23.4%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 30,
+   "bundler": null
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794931858.4849403
+ "rank_t": 1794932136.6346421
 }
