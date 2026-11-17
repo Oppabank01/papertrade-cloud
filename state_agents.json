@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.20604266645154673,
+ "cash": 0.15342647414123822,
  "pos": {
   "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump": {
    "sym": "plumber",
    "qty": 320.98083905456303,
    "entry": 0.0001632,
-   "last": 0.0001777,
-   "peak": 0.0001777,
+   "last": 0.0001894,
+   "peak": 0.0001894,
    "cost": 0.053993066309734786,
    "opened": "2026-11-18T06:10:28+07:00",
    "smart": 197,
    "kol": 5,
    "bundler": 0.1269,
+   "gap": 0,
+   "miss": 0
+  },
+  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
+   "sym": "Macca",
+   "qty": 23.865465067536856,
+   "entry": 0.002139,
+   "last": 0.002141,
+   "peak": 0.002141,
+   "cost": 0.05261619231030852,
+   "opened": "2026-11-18T06:52:50+07:00",
+   "smart": 173,
+   "kol": 12,
+   "bundler": 0.0616,
    "gap": 0,
    "miss": 0
   }
@@ -60992,6 +61006,64 @@
    "buy": 0.792,
    "bull": 0.9514,
    "bear": 1.0
+  },
+  {
+   "t": "2026-11-18T06:52:47+07:00",
+   "kind": "debate",
+   "mint": "9Bg8sX2bnMM4KwaXAeEtqpYQAkv2vmqFD7wzJ6eopump",
+   "sym": "GrokChan",
+   "ok": false,
+   "bundler": 0.2611,
+   "buy": 0.7056,
+   "bull": 0.9163,
+   "bear": 0.9962
+  },
+  {
+   "t": "2026-11-18T06:52:50+07:00",
+   "kind": "debate",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "ok": true,
+   "bundler": 0.0616,
+   "buy": 0.8256,
+   "bull": 0.7324,
+   "bear": 0.0002
+  },
+  {
+   "t": "2026-11-18T06:52:50+07:00",
+   "kind": "buy",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.002139,
+   "jup": 0.0021408967456730864,
+   "usd": 0.0526,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 173,
+   "kol": 12,
+   "bundler": 0.0616
+  },
+  {
+   "t": "2026-11-18T06:52:53+07:00",
+   "kind": "debate",
+   "mint": "4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump",
+   "sym": "BAWSAQ",
+   "ok": false,
+   "bundler": 0.2454,
+   "buy": 0.9233,
+   "bull": 0.8622,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-18T06:52:56+07:00",
+   "kind": "debate",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "ok": false,
+   "bundler": 0.2445,
+   "buy": 0.9099,
+   "bull": 0.9257,
+   "bear": 0.9883
   }
  ]
 }
