@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.42355032452162367,
+ "cash": 0.5121218992579771,
  "pos": {
-  "GbGzZQugMJtZnhcnNyHUamXg2xGZw4C4RWy1uSvVpump": {
-   "sym": "SOYOUARE",
-   "qty": 3592.7618528551247,
-   "entry": 3.805e-05,
-   "last": 3.542267525306481e-05,
-   "peak": 3.805e-05,
-   "cost": 0.1409035131943285,
-   "opened": "2026-11-17T23:25:38+07:00",
-   "zoo": "boosted",
-   "smart": 82,
-   "kol": 5,
-   "gap": 2,
-   "miss": 0
-  },
   "8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": {
    "sym": "PURR",
    "qty": 64.18981065359979,
    "entry": 0.002117,
-   "last": 0.002117,
+   "last": 0.002099,
    "peak": 0.002117,
    "cost": 0.14006372825569033,
    "opened": "2026-11-17T23:31:01+07:00",
    "zoo": "boosted",
    "smart": 206,
    "kol": 31,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -4232,8 +4218,23 @@
    "zoo": "boosted",
    "smart": 206,
    "kol": 31
+  },
+  {
+   "t": "2026-11-17T23:39:48+07:00",
+   "kind": "sell",
+   "mint": "GbGzZQugMJtZnhcnNyHUamXg2xGZw4C4RWy1uSvVpump",
+   "sym": "SOYOUARE",
+   "price": 2.541e-05,
+   "entry": 3.805e-05,
+   "usd": 0.0886,
+   "pnl": -0.0523,
+   "why": "stop -33.2%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 82,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794933262.5473924
+ "rank_t": 1794933567.589812
 }

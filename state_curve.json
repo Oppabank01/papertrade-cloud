@@ -1,20 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 3.5179311902635155,
- "pos": {
-  "4xMaL8MMJ8Na564sfr2ms8yjHXvpq4mEoRkRy9Grpump": {
-   "sym": "PI",
-   "qty": 200306.9549596325,
-   "entry": 4.069778645852486e-06,
-   "last": 4.069778645852486e-06,
-   "peak": 4.069778645852486e-06,
-   "cost": 0.879482797565879,
-   "curve": "8c6uB8F7L47QUf9G5zJspqg83zd6Mx4L6Nn6ag2vRJs8",
-   "opened": "2026-11-17T23:35:12+07:00",
-   "wallet": "2kN7bb"
-  }
- },
+ "cash": 3.934525990753922,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T21:07:09+07:00",
@@ -2589,6 +2577,20 @@
    "sym": "BLINDAPE",
    "wallet": "a8UJuW",
    "why": "not on a SOL pump.fun curve"
+  },
+  {
+   "t": "2026-11-17T23:39:45+07:00",
+   "kind": "sell",
+   "mint": "4xMaL8MMJ8Na564sfr2ms8yjHXvpq4mEoRkRy9Grpump",
+   "sym": "PI",
+   "price": 2.3374551866685363e-06,
+   "entry": 4.069778645852486e-06,
+   "usd": 0.4166,
+   "pnl": -0.4629,
+   "why": "stop -42.6%",
+   "stop_set": -0.08,
+   "cost_side": 0.0325,
+   "graduated": false
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ บน bonding curve",
