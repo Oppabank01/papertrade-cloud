@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.3754067426300183,
+ "cash": 1.3087889569399649,
  "pos": {
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
    "sym": "paws",
    "qty": 612.7054991131182,
    "entry": 0.0007652,
-   "last": 0.0008488,
+   "last": 0.0008112,
    "peak": 0.0008746,
    "cost": 0.4832428859218285,
    "opened": "2026-11-17T15:51:22+07:00",
    "zoo": "w_ban_aged",
    "smart": 292,
    "kol": 15,
-   "gap": 7,
+   "gap": 0,
    "miss": 0
   },
   "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
@@ -3325,10 +3325,39 @@
    "cost_side": 0.03,
    "smart": 127,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T16:48:24+07:00",
+   "kind": "buy",
+   "mint": "5Kjxg6X13axntM98AxJGjNQCB82YZWhSnvJVX78cpump",
+   "sym": "DOOM",
+   "price": 0.0005506,
+   "jup": 0.0005514717880471821,
+   "usd": 0.4658,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_aged",
+   "smart": 59,
+   "kol": 5
+  },
+  {
+   "t": "2026-11-17T16:50:42+07:00",
+   "kind": "sell",
+   "mint": "5Kjxg6X13axntM98AxJGjNQCB82YZWhSnvJVX78cpump",
+   "sym": "DOOM",
+   "price": 0.0005012883067649682,
+   "entry": 0.0005506,
+   "usd": 0.3992,
+   "pnl": -0.0666,
+   "why": "stop -9.0%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 59,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794908571.0435402,
+ "rank_t": 1794908854.9044037,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": "CHOO",
