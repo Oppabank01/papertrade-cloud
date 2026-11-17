@@ -1,8 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 6.6918450793036595,
- "pos": {},
+ "cash": 5.353476063442928,
+ "pos": {
+  "BPxHMSNzbnZoncTSNUYuqnvrABxHVAxfpbDno3aWpump": {
+   "sym": "SIM",
+   "qty": 100883.58523412749,
+   "entry": 1.2477171636707811e-05,
+   "last": 1.2477171636707811e-05,
+   "peak": 1.2477171636707811e-05,
+   "cost": 1.338369015860732,
+   "curve": "52Uc1fUQcMMFrfBqofaSUd7kRRJ4w93RVFDojSdzEY1w",
+   "opened": "2026-11-17T21:22:24+07:00",
+   "wallet": "2kN7bb"
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T21:07:09+07:00",
@@ -2342,8 +2354,23 @@
    "sym": "WAKE",
    "wallet": "7g5CJ7",
    "why": "curve 0.35 SOL"
+  },
+  {
+   "t": "2026-11-17T21:22:24+07:00",
+   "kind": "buy",
+   "mint": "BPxHMSNzbnZoncTSNUYuqnvrABxHVAxfpbDno3aWpump",
+   "sym": "SIM",
+   "price": 1.2477171636707811e-05,
+   "jup": 1.249171828866108e-05,
+   "usd": 1.3384,
+   "curve_sol": 43.77,
+   "wallet": "2kN7bb",
+   "wallet_usd": 468,
+   "lag_min_after_skip": 0.0,
+   "stop_set": -0.08,
+   "cost_side": 0.0325
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ บน bonding curve",
- "seen_t": "2026-11-17T20:56:40+07:00"
+ "seen_t": "2026-11-17T21:22:22+07:00"
 }
