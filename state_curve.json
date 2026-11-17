@@ -1,8 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 5.897112057470766,
- "pos": {},
+ "cash": 4.717689645976613,
+ "pos": {
+  "3U9z9ZArc5k3hZuHZGeo45ihEP1wHh6MqhK8vhKipump": {
+   "sym": "cb",
+   "qty": 137564.2747860675,
+   "entry": 8.03885937645198e-06,
+   "last": 8.03885937645198e-06,
+   "peak": 8.03885937645198e-06,
+   "cost": 1.1794224114941532,
+   "curve": "EomTBXLEF8EzfNpPZhJQbn5tUF5v1HmbTg4SRhsbShXg",
+   "opened": "2026-11-17T09:46:46+07:00",
+   "wallet": "8XzVYj"
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T21:07:09+07:00",
@@ -1932,8 +1944,39 @@
    "stop_set": -0.08,
    "cost_side": 0.0325,
    "graduated": false
+  },
+  {
+   "t": "2026-11-17T09:46:46+07:00",
+   "kind": "skip",
+   "mint": "EmGU7hbWJkJmYZ77HRBCGtWTCbBRjFwNxuRcFVjdpump",
+   "sym": "COCK",
+   "wallet": "ENskGQ",
+   "why": "curve 0.00 SOL"
+  },
+  {
+   "t": "2026-11-17T09:46:46+07:00",
+   "kind": "skip",
+   "mint": "6Zrw4X65TfcmvB7TqbggsQGNNbVSBhNg6SU7vxWKpump",
+   "sym": "Shieldy",
+   "wallet": "ENskGQ",
+   "why": "curve 0.13 SOL"
+  },
+  {
+   "t": "2026-11-17T09:46:46+07:00",
+   "kind": "buy",
+   "mint": "3U9z9ZArc5k3hZuHZGeo45ihEP1wHh6MqhK8vhKipump",
+   "sym": "cb",
+   "price": 8.03885937645198e-06,
+   "jup": 7.995097827149297e-06,
+   "usd": 1.1794,
+   "curve_sol": 29.99,
+   "wallet": "8XzVYj",
+   "wallet_usd": 216,
+   "lag_min_after_skip": 0.1,
+   "stop_set": -0.08,
+   "cost_side": 0.0325
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ บน bonding curve",
- "seen_t": "2026-11-17T09:37:39+07:00"
+ "seen_t": "2026-11-17T09:46:42+07:00"
 }
