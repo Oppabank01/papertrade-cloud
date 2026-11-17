@@ -1,62 +1,48 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.0702517089751133,
+ "cash": 0.13240642183490298,
  "pos": {
-  "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ": {
-   "sym": "Lucia",
-   "qty": 164.0347610920554,
-   "entry": 0.000405,
-   "last": 0.0004169,
-   "peak": 0.0004843,
-   "cost": 0.06847462197720308,
-   "opened": "2026-11-17T17:11:24+07:00",
-   "smart": 19,
-   "kol": 5,
-   "bundler": 0.0017,
-   "gap": 0,
-   "miss": 0
-  },
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 20.434146173829966,
    "entry": 0.003233,
-   "last": 0.003217,
+   "last": 0.0031787505102262806,
    "peak": 0.00327,
    "cost": 0.06809275879199368,
    "opened": "2026-11-17T17:30:35+07:00",
    "smart": 722,
    "kol": 80,
    "bundler": 0.2722,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 3.8069639206341757,
    "entry": 0.01726,
-   "last": 0.01769,
-   "peak": 0.01783,
+   "last": 0.01784,
+   "peak": 0.01784,
    "cost": 0.06772644534131712,
    "opened": "2026-11-17T19:20:45+07:00",
    "smart": 295,
    "kol": 24,
    "bundler": 0.3114,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
    "sym": "Leonida",
    "qty": 155.64407065122202,
    "entry": 0.0004228,
-   "last": 0.0004586,
+   "last": 0.0004446,
    "peak": 0.0004586,
    "cost": 0.06782757480038824,
    "opened": "2026-11-17T19:49:21+07:00",
    "smart": 86,
    "kol": 4,
    "bundler": 0.1124,
-   "gap": 2,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -54935,6 +54921,21 @@
    "smart": 86,
    "kol": 4,
    "bundler": 0.1124
+  },
+  {
+   "t": "2026-11-17T20:03:23+07:00",
+   "kind": "sell",
+   "mint": "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ",
+   "sym": "Lucia",
+   "price": 0.0003905502352450584,
+   "entry": 0.000405,
+   "usd": 0.0622,
+   "pnl": -0.0063,
+   "why": "trailing จากยอด +20% (-3.6%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 19,
+   "bundler": 0.0017
   }
  ]
 }

@@ -1,41 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.13783304831030394,
+ "cash": 0.27870220900706494,
  "pos": {
-  "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ": {
-   "sym": "Lucia",
-   "qty": 373.25450268055135,
-   "entry": 0.000405,
-   "last": 0.0004168,
-   "peak": 0.0004796,
-   "cost": 0.15581124879985908,
-   "opened": "2026-11-17T17:12:24+07:00",
-   "zoo": "boosted",
-   "smart": 19,
-   "kol": 5,
-   "gap": 0,
-   "miss": 0
-  },
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
    "sym": "ZCAT",
    "qty": 6.3553368114136015,
    "entry": 0.02225,
-   "last": 0.02306,
+   "last": 0.02293681824157031,
    "peak": 0.02306,
    "cost": 0.14574958158519133,
    "opened": "2026-11-17T19:11:31+07:00",
    "zoo": "boosted",
    "smart": 329,
    "kol": 48,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
    "qty": 97.45861990214003,
    "entry": 0.001439,
-   "last": 0.001457,
+   "last": 0.001463,
    "peak": 0.001467,
    "cost": 0.14455056074951506,
    "opened": "2026-11-17T19:35:25+07:00",
@@ -49,14 +35,14 @@
    "sym": "Leonida",
    "qty": 328.8356187406134,
    "entry": 0.0004228,
-   "last": 0.00045830380573620553,
+   "last": 0.0004326,
    "peak": 0.00045830380573620553,
    "cost": 0.14330210225059922,
    "opened": "2026-11-17T19:50:02+07:00",
    "zoo": "boosted",
    "smart": 86,
    "kol": 4,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -4172,8 +4158,23 @@
    "zoo": "boosted",
    "smart": 86,
    "kol": 4
+  },
+  {
+   "t": "2026-11-17T20:04:13+07:00",
+   "kind": "sell",
+   "mint": "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ",
+   "sym": "Lucia",
+   "price": 0.000389,
+   "entry": 0.000405,
+   "usd": 0.1409,
+   "pnl": -0.0149,
+   "why": "trailing จากยอด +18% (-4.0%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 19,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794920324.462123
+ "rank_t": 1794920602.7301674
 }
