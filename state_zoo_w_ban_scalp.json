@@ -1,41 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.1872825332812371,
+ "cash": 1.7163767516991149,
  "pos": {
-  "9RZeokzHNXoRyJkWDFdvcQTAzUhKpXm7RrqkUM3Fpump": {
-   "sym": "CHILL",
-   "qty": 784.4101836821822,
-   "entry": 0.0003849,
-   "last": 0.0004013,
-   "peak": 0.0004189,
-   "cost": 0.3111930320544959,
-   "opened": "2026-11-18T02:30:41+07:00",
-   "zoo": "w_ban_scalp",
-   "smart": 22,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": {
    "sym": "CHOO",
    "qty": 498.0186227854503,
    "entry": 0.0005789,
-   "last": 0.0005871,
+   "last": 0.0005909,
    "peak": 0.0005934,
    "cost": 0.2971582980112319,
    "opened": "2026-11-18T03:18:17+07:00",
    "zoo": "w_ban_scalp",
    "smart": 116,
    "kol": 5,
-   "gap": 9,
+   "gap": 0,
    "miss": 0
   },
   "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
    "sym": "Dacity",
    "qty": 364.4842804378516,
    "entry": 0.0007851,
-   "last": 0.0008057,
+   "last": 0.0008096,
    "peak": 0.0008399095667783827,
    "cost": 0.2949459993524606,
    "opened": "2026-11-18T03:51:14+07:00",
@@ -49,35 +35,21 @@
    "sym": "GTA",
    "qty": 265.7027257524803,
    "entry": 0.001069,
-   "last": 0.001007,
+   "last": 0.001004485138617458,
    "peak": 0.001081,
    "cost": 0.29276047601463767,
    "opened": "2026-11-18T03:55:47+07:00",
    "zoo": "w_ban_scalp",
    "smart": 300,
    "kol": 16,
-   "gap": 0,
-   "miss": 0
-  },
-  "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
-   "sym": "Rocco",
-   "qty": 208.81908963638082,
-   "entry": 0.001342,
-   "last": 0.00115,
-   "peak": 0.001342,
-   "cost": 0.2888427316965812,
-   "opened": "2026-11-18T04:05:43+07:00",
-   "zoo": "w_ban_scalp",
-   "smart": 125,
-   "kol": 9,
-   "gap": 1,
+   "gap": 5,
    "miss": 0
   },
   "EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump": {
    "sym": "LUNO",
    "qty": 658.0713815120647,
    "entry": 0.0004282,
-   "last": 0.00037892037569063635,
+   "last": 0.00040024977267528127,
    "peak": 0.00042983470476495373,
    "cost": 0.2904413168042322,
    "opened": "2026-11-18T04:10:35+07:00",
@@ -5827,10 +5799,47 @@
    "zoo": "w_ban_scalp",
    "smart": 29,
    "kol": 2
+  },
+  {
+   "t": "2026-11-18T04:28:15+07:00",
+   "kind": "sell",
+   "mint": "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
+   "sym": "Rocco",
+   "price": 0.001106,
+   "entry": 0.001342,
+   "usd": 0.2241,
+   "pnl": -0.0648,
+   "why": "stop -17.6%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 125,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-18T04:29:52+07:00",
+   "kind": "ban",
+   "mint": "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump",
+   "sym": "CHOO",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-18T04:30:54+07:00",
+   "kind": "sell",
+   "mint": "9RZeokzHNXoRyJkWDFdvcQTAzUhKpXm7RrqkUM3Fpump",
+   "sym": "CHILL",
+   "price": 0.0004008,
+   "entry": 0.0003849,
+   "usd": 0.305,
+   "pnl": -0.0062,
+   "why": "ครบ 2 ชม. (+4.1%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 22,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794950610.762132,
+ "rank_t": 1794950895.0197291,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
@@ -5851,6 +5860,7 @@
   "5xA4diUxb164wVz5bdASbt344B9uW6jKh7q3Uar8pump": "AudaCity",
   "HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump": "HYGG",
   "A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm": "GROKIA",
-  "8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": "PURR"
+  "8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": "PURR",
+  "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": "CHOO"
  }
 }
