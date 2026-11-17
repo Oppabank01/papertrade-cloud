@@ -1,41 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 2.783771110805546,
+ "cash": 5.471781755500182,
  "pos": {
-  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
-   "sym": "GTA6",
-   "qty": 96.4721556223042,
-   "entry": 0.01406,
-   "last": 0.01498,
-   "peak": 0.01609,
-   "cost": 1.3980607174289807,
-   "opened": "2026-11-17T12:31:06+07:00",
-   "zoo": "bigliq",
-   "smart": 295,
-   "kol": 24,
-   "gap": 0,
-   "miss": 0
-  },
-  "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
-   "sym": "CRIME",
-   "qty": 331.4440444792579,
-   "entry": 0.004068,
-   "last": 0.003964,
-   "peak": 0.004068,
-   "cost": 1.3897282755531037,
-   "opened": "2026-11-17T12:31:06+07:00",
-   "zoo": "bigliq",
-   "smart": 91,
-   "kol": 40,
-   "gap": 0,
-   "miss": 0
-  },
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 218.39316751000095,
    "entry": 0.00621,
-   "last": 0.006447,
+   "last": 0.006457,
    "peak": 0.006543,
    "cost": 1.3978783449155905,
    "opened": "2026-11-17T14:30:08+07:00",
@@ -1688,8 +1660,38 @@
    "zoo": "bigliq",
    "smart": 64,
    "kol": 4
+  },
+  {
+   "t": "2026-11-17T15:31:45+07:00",
+   "kind": "sell",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.0151,
+   "entry": 0.01406,
+   "usd": 1.4133,
+   "pnl": 0.0153,
+   "why": "ครบ 3 ชม. (+7.4%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 295,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-17T15:31:45+07:00",
+   "kind": "sell",
+   "mint": "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump",
+   "sym": "CRIME",
+   "price": 0.003964,
+   "entry": 0.004068,
+   "usd": 1.2747,
+   "pnl": -0.115,
+   "why": "ครบ 3 ชม. (-2.6%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 91,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ มาร์เก็ตแคป 2M+",
- "rank_t": 1794903993.5383525
+ "rank_t": 1794904283.4658496
 }
