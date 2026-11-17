@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 4.062508567716068,
- "pos": {},
+ "cash": 3.656257710944461,
+ "pos": {
+  "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": {
+   "sym": "BRUH",
+   "qty": 83.84271032542287,
+   "entry": 0.004701,
+   "last": 0.004722,
+   "peak": 0.004722,
+   "cost": 0.4062508567716068,
+   "opened": "2026-11-17T16:34:06+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 3,
+   "kol": 0,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-15T00:43:00+07:00",
@@ -4399,8 +4414,22 @@
    "cost_side": 0.03,
    "smart": 64,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T16:34:06+07:00",
+   "kind": "buy",
+   "mint": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
+   "sym": "BRUH",
+   "price": 0.004701,
+   "jup": 0.004706669565858735,
+   "usd": 0.4063,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 3,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794907696.564522
+ "rank_t": 1794907995.0589182
 }
