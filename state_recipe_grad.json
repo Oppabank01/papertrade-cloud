@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.43209614473568764,
- "pos": {
-  "6aAnhook7aGqE1C4rV4c1qDXE1mEf9fdgriSnQxupump": {
-   "sym": "Nozomi",
-   "qty": 2248.0677800437807,
-   "entry": 4.662e-05,
-   "last": 4.467020623049842e-05,
-   "peak": 4.662e-05,
-   "cost": 0.10802403618392192,
-   "opened": "2026-11-17T09:46:35+07:00",
-   "smart": 43,
-   "kol": 3,
-   "gap": 1,
-   "miss": 0
-  }
- },
+ "cash": 0.49982711743699054,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -2191,8 +2177,23 @@
    "cost_side": 0.03,
    "smart": 43,
    "kol": 3
+  },
+  {
+   "t": "2026-11-17T09:55:50+07:00",
+   "kind": "sell",
+   "mint": "6aAnhook7aGqE1C4rV4c1qDXE1mEf9fdgriSnQxupump",
+   "sym": "Nozomi",
+   "price": 3.1053935108019123e-05,
+   "entry": 4.662e-05,
+   "usd": 0.0677,
+   "pnl": -0.0403,
+   "why": "stop -33.4%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 43,
+   "bundler": null
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794883840.6343184
+ "rank_t": 1794884118.1359699
 }
