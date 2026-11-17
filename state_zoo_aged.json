@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.25000852706355275,
+ "cash": 0.5521204122851785,
  "pos": {
   "4SnKwnz6DyagftnFqdxsvWvehrcbEDhxmmXNQk2Jpump": {
    "sym": "Joby",
    "qty": 440.36377194993844,
    "entry": 0.0007059,
-   "last": 0.0007131,
+   "last": 0.0007115,
    "peak": 0.0007322,
    "cost": 0.32040072832350186,
    "opened": "2026-11-17T17:59:47+07:00",
@@ -21,35 +21,21 @@
    "sym": "ZCAT",
    "qty": 13.289234326957374,
    "entry": 0.02225,
-   "last": 0.0243,
+   "last": 0.02345294788373673,
    "peak": 0.02444,
    "cost": 0.30476753635827825,
    "opened": "2026-11-17T19:11:29+07:00",
    "zoo": "aged",
    "smart": 329,
    "kol": 48,
-   "gap": 1,
-   "miss": 0
-  },
-  "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
-   "sym": "Leonida",
-   "qty": 679.152338873177,
-   "entry": 0.0004228,
-   "last": 0.0004884,
-   "peak": 0.0005644,
-   "cost": 0.29596537711356347,
-   "opened": "2026-11-17T19:49:55+07:00",
-   "zoo": "aged",
-   "smart": 86,
-   "kol": 4,
-   "gap": 1,
+   "gap": 2,
    "miss": 0
   },
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 3.09986529397778,
    "entry": 0.09397,
-   "last": 0.09272,
+   "last": 0.09233,
    "peak": 0.09404,
    "cost": 0.3002415395537951,
    "opened": "2026-11-17T20:18:43+07:00",
@@ -3887,8 +3873,23 @@
    "zoo": "aged",
    "smart": 925,
    "kol": 295
+  },
+  {
+   "t": "2026-11-17T20:37:46+07:00",
+   "kind": "sell",
+   "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "sym": "Leonida",
+   "price": 0.0004585,
+   "entry": 0.0004228,
+   "usd": 0.3021,
+   "pnl": 0.0061,
+   "why": "trailing จากยอด +33% (+8.4%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 86,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุเกิน 1 วัน ยังมีคนเล่น",
- "rank_t": 1794922335.3017309
+ "rank_t": 1794922614.8942037
 }
