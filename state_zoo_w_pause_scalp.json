@@ -1,34 +1,48 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.987206599529965,
+ "cash": 2.615656135199225,
  "pos": {
   "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
    "sym": "Max",
    "qty": 483.3781577983897,
    "entry": 0.000772,
-   "last": 0.0007384,
+   "last": 0.0007246391760918852,
    "peak": 0.000786,
    "cost": 0.38462990911189127,
    "opened": "2026-11-17T19:59:37+07:00",
    "zoo": "w_pause_scalp",
    "smart": 459,
    "kol": 42,
-   "gap": 0,
+   "gap": 7,
    "miss": 0
   },
   "4Wdn6GGJLdyeMLLfzu3pPQMmf9Kivd8e9xmbLb2bpump": {
    "sym": "ANT",
    "qty": 1645.5369189104474,
    "entry": 0.0002261,
-   "last": 0.00022568415681915776,
+   "last": 0.0002278,
    "peak": 0.0002362,
    "cost": 0.3834837119827378,
    "opened": "2026-11-17T19:59:37+07:00",
    "zoo": "w_pause_scalp",
    "smart": 180,
    "kol": 10,
-   "gap": 10,
+   "gap": 0,
+   "miss": 0
+  },
+  "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS": {
+   "sym": "BAGSPAY",
+   "qty": 748.6568234552097,
+   "entry": 0.0004815,
+   "last": 0.000486,
+   "peak": 0.000486,
+   "cost": 0.3715504643307395,
+   "opened": "2026-11-17T21:11:25+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 188,
+   "kol": 19,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -4640,10 +4654,27 @@
    "cost_side": 0.03,
    "smart": 22,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T21:11:23+07:00",
+   "kind": "resume",
+   "why": "ราคา ANT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-17T21:11:25+07:00",
+   "kind": "buy",
+   "mint": "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS",
+   "sym": "BAGSPAY",
+   "price": 0.0004815,
+   "jup": 0.000482945429412275,
+   "usd": 0.3716,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 188,
+   "kol": 19
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794924341.3031118,
- "halted": "ราคา ANT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
- "halted_until": "2026-11-17T21:08:52+07:00"
+ "rank_t": 1794924625.3344984
 }
