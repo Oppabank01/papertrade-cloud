@@ -283,10 +283,35 @@
    "usd": 8.2898,
    "pnl": -0.5755,
    "why": "ปิดรอบเช้า"
+  },
+  {
+   "t": "2026-11-18T01:53:07+07:00",
+   "kind": "buy",
+   "mint": "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg",
+   "sym": "USOI",
+   "price": 0.006315,
+   "jup": 0.00631341499000559,
+   "usd": 8.8705,
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "source": "state_recipe_insider.json"
   }
  ],
- "pos": {},
- "cash": 14.78415138971023,
+ "pos": {
+  "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg": {
+   "sym": "USOI",
+   "qty": 1362.8108007883004,
+   "entry": 0.006315,
+   "last": 0.006315,
+   "peak": 0.006315,
+   "cost": 8.870490833826137,
+   "opened": "2026-11-18T01:53:07+07:00",
+   "source": "state_recipe_insider.json",
+   "gap": 0,
+   "miss": 0
+  }
+ },
+ "cash": 5.913660555884093,
  "start_usd": 14.78415138971023,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
@@ -437,6 +462,7 @@
   "state_recipe_insider.json:2026-11-17T02:18:58+07:00:7TnXXR1ytJ9PZDxgSA8VwbyKmEWZmiA2YAn55YyVpump",
   "state_recipe_insider.json:2026-11-17T05:23:00+07:00:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump",
   "state_recipe_insider.json:2026-11-17T09:55:46+07:00:9jhs5qoJnUFU7AZXbsiD1Q6De6FVsino9Ysw8QU6pump",
+  "state_recipe_insider.json:2026-11-18T01:52:18+07:00:usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg",
   "state_recipe_smart4.json:2026-11-13T09:57:00+07:00:2uBwYfuaU2juRuLG8dty56hzPpqcgejtQDwXqFBKQETg",
   "state_recipe_smart4.json:2026-11-13T09:57:00+07:00:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
   "state_recipe_smart4.json:2026-11-13T09:57:00+07:00:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
