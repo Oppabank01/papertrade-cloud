@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.3279827114337692,
+ "cash": 2.24135766284372,
  "pos": {
   "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg": {
    "sym": "USOI",
    "qty": 53.29752016078669,
    "entry": 0.006315,
-   "last": 0.00632,
+   "last": 0.006318,
    "peak": 0.006428,
    "cost": 0.3469118118072232,
    "opened": "2026-11-18T01:52:57+07:00",
@@ -21,28 +21,28 @@
    "sym": "DacityCoin",
    "qty": 43.30346778389085,
    "entry": 0.00775,
-   "last": 0.007265,
+   "last": 0.006985343533288718,
    "peak": 0.007761,
    "cost": 0.34590999312013415,
    "opened": "2026-11-18T02:21:06+07:00",
    "zoo": "w_pause_scalp",
    "smart": 261,
    "kol": 21,
-   "gap": 0,
+   "gap": 3,
    "miss": 0
   },
-  "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": {
-   "sym": "rockstar",
-   "qty": 721.7087525616756,
-   "entry": 0.0004363,
-   "last": 0.0004165,
-   "peak": 0.0004406,
-   "cost": 0.3245532145358267,
-   "opened": "2026-11-18T02:45:27+07:00",
+  "9RZeokzHNXoRyJkWDFdvcQTAzUhKpXm7RrqkUM3Fpump": {
+   "sym": "CHILL",
+   "qty": 764.4217273054809,
+   "entry": 0.0004154,
+   "last": 0.00038247405566303153,
+   "peak": 0.0004189,
+   "cost": 0.3272941512293308,
+   "opened": "2026-11-18T03:08:10+07:00",
    "zoo": "w_pause_scalp",
-   "smart": 86,
-   "kol": 4,
-   "gap": 0,
+   "smart": 22,
+   "kol": 0,
+   "gap": 4,
    "miss": 0
   }
  },
@@ -5007,8 +5007,37 @@
    "cost_side": 0.03,
    "smart": 35,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T03:08:10+07:00",
+   "kind": "buy",
+   "mint": "9RZeokzHNXoRyJkWDFdvcQTAzUhKpXm7RrqkUM3Fpump",
+   "sym": "CHILL",
+   "price": 0.0004154,
+   "jup": 0.00041734273760854414,
+   "usd": 0.3273,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 22,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-18T03:10:22+07:00",
+   "kind": "sell",
+   "mint": "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump",
+   "sym": "rockstar",
+   "price": 0.0003437139003804401,
+   "entry": 0.0004363,
+   "usd": 0.2407,
+   "pnl": -0.0839,
+   "why": "stop -21.2%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 86,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794945756.0146196
+ "rank_t": 1794946047.545383
 }
