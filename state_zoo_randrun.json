@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.24224852204084257,
+ "cash": 0.6044523926390445,
  "pos": {
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": {
    "sym": "OTC",
    "qty": 160.70545003238834,
    "entry": 0.003182,
-   "last": 0.002784,
+   "last": 0.002786,
    "peak": 0.00326,
    "cost": 0.5270714718646256,
    "opened": "2026-11-16T11:20:23+07:00",
@@ -21,35 +21,21 @@
    "sym": "GTA",
    "qty": 351.41303225078303,
    "entry": 0.001287,
-   "last": 0.001134,
+   "last": 0.001133,
    "peak": 0.001538,
    "cost": 0.46616014482246726,
    "opened": "2026-11-17T01:33:10+07:00",
    "zoo": "randrun",
    "smart": 290,
    "kol": 14,
-   "gap": 0,
-   "miss": 0
-  },
-  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
-   "sym": "Rings",
-   "qty": 599.8217819660224,
-   "entry": 0.0007356,
-   "last": 0.0006313,
-   "peak": 0.000751,
-   "cost": 0.45478138818203057,
-   "opened": "2026-11-17T03:57:29+07:00",
-   "zoo": "randrun",
-   "smart": 86,
-   "kol": 6,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 23.03165913302188,
    "entry": 0.01551,
-   "last": 0.01536,
+   "last": 0.01509,
    "peak": 0.01551,
    "cost": 0.3681931902217783,
    "opened": "2026-11-17T07:21:18+07:00",
@@ -1222,8 +1208,23 @@
    "zoo": "randrun",
    "smart": 293,
    "kol": 24
+  },
+  {
+   "t": "2026-11-17T07:39:39+07:00",
+   "kind": "sell",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.0006224,
+   "entry": 0.0007356,
+   "usd": 0.3622,
+   "pnl": -0.0926,
+   "why": "stop -15.4%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 86,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1794875636.9577062
+ "rank_t": 1794875921.3439374
 }
