@@ -1,33 +1,47 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.17876354934937805,
+ "cash": 0.11862548939300954,
  "pos": {
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 9.938385715442589,
    "entry": 0.006543,
-   "last": 0.006288,
+   "last": 0.006191035174631022,
    "peak": 0.006543,
    "cost": 0.06702417824792915,
    "opened": "2026-11-17T15:12:59+07:00",
    "zoo": "rand",
    "smart": 64,
    "kol": 4,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
    "sym": "DacityCoin",
    "qty": 9.476113050663487,
    "entry": 0.006272,
-   "last": 0.006272,
-   "peak": 0.006272,
+   "last": 0.006312,
+   "peak": 0.006312,
    "cost": 0.06125972073156194,
    "opened": "2026-11-17T15:55:51+07:00",
    "zoo": "rand",
    "smart": 260,
    "kol": 21,
+   "gap": 0,
+   "miss": 0
+  },
+  "A3vB4dggaaMScchjNW9WifagMRiWaWtDAzunooDYcREQ": {
+   "sym": "BFS",
+   "qty": 3504.26100718731,
+   "entry": 1.665e-05,
+   "last": 1.665e-05,
+   "peak": 1.665e-05,
+   "cost": 0.0601380599563685,
+   "opened": "2026-11-17T16:00:20+07:00",
+   "zoo": "rand",
+   "smart": 127,
+   "kol": 6,
    "gap": 0,
    "miss": 0
   }
@@ -4219,8 +4233,22 @@
    "cost_side": 0.03,
    "smart": 96,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T16:00:20+07:00",
+   "kind": "buy",
+   "mint": "A3vB4dggaaMScchjNW9WifagMRiWaWtDAzunooDYcREQ",
+   "sym": "BFS",
+   "price": 1.665e-05,
+   "jup": 1.6755370408903502e-05,
+   "usd": 0.0601,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 127,
+   "kol": 6
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794905701.0521233
+ "rank_t": 1794905975.7514277
 }
