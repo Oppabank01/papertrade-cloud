@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.8508368144649621,
+ "cash": 0.40744141628723307,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
@@ -21,21 +21,21 @@
    "sym": "STANK",
    "qty": 556.5249036460468,
    "entry": 0.0007828,
-   "last": 0.0008121,
+   "last": 0.0008076,
    "peak": 0.0008821,
    "cost": 0.4490287513647965,
    "opened": "2026-11-17T23:17:01+07:00",
    "zoo": "w_pause_aged",
    "smart": 78,
    "kol": 1,
-   "gap": 0,
+   "gap": 8,
    "miss": 0
   },
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
    "qty": 248.23606503989708,
    "entry": 0.001709,
-   "last": 0.001884,
+   "last": 0.00189,
    "peak": 0.001943,
    "cost": 0.43726596078456414,
    "opened": "2026-11-17T23:31:29+07:00",
@@ -43,6 +43,20 @@
    "smart": 414,
    "kol": 32,
    "gap": 0,
+   "miss": 0
+  },
+  "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": {
+   "sym": "rockstar",
+   "qty": 837.7453073262565,
+   "entry": 0.0005135,
+   "last": 0.0005074495677174504,
+   "peak": 0.000515,
+   "cost": 0.443395398177729,
+   "opened": "2026-11-18T01:02:03+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 86,
+   "kol": 4,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -3406,10 +3420,27 @@
    "cost_side": 0.03,
    "smart": 883,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T01:02:03+07:00",
+   "kind": "resume",
+   "why": "ราคา STANK สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-18T01:02:03+07:00",
+   "kind": "buy",
+   "mint": "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump",
+   "sym": "rockstar",
+   "price": 0.0005135,
+   "jup": 0.0005117468296928449,
+   "usd": 0.4434,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 86,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794938140.1922977,
- "halted": "ราคา STANK สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
- "halted_until": "2026-11-18T00:59:11+07:00"
+ "rank_t": 1794938415.0363877
 }
