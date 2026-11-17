@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.6356839768249058,
+ "cash": 0.28109990303204396,
  "pos": {
   "7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": {
    "sym": "HIGH",
@@ -35,13 +35,27 @@
    "sym": "OTC",
    "qty": 119.76485206912797,
    "entry": 0.002939,
-   "last": 0.002939,
+   "last": 0.002901,
    "peak": 0.002939,
    "cost": 0.3628003506814751,
    "opened": "2026-11-17T13:42:25+07:00",
    "zoo": "holders",
    "smart": 525,
    "kol": 55,
+   "gap": 0,
+   "miss": 0
+  },
+  "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
+   "sym": "SAPLING",
+   "qty": 301.5052308447279,
+   "entry": 0.001141,
+   "last": 0.001141,
+   "peak": 0.001141,
+   "cost": 0.3545840737928619,
+   "opened": "2026-11-17T13:47:00+07:00",
+   "zoo": "holders",
+   "smart": 189,
+   "kol": 19,
    "gap": 0,
    "miss": 0
   }
@@ -3439,8 +3453,22 @@
    "zoo": "holders",
    "smart": 525,
    "kol": 55
+  },
+  {
+   "t": "2026-11-17T13:47:00+07:00",
+   "kind": "buy",
+   "mint": "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W",
+   "sym": "SAPLING",
+   "price": 0.001141,
+   "jup": 0.0011350556564397333,
+   "usd": 0.3546,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 189,
+   "kol": 19
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794897693.5992663
+ "rank_t": 1794897967.6842754
 }
