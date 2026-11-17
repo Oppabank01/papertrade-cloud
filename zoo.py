@@ -220,19 +220,38 @@ DIE_N, PASS_N = 20, 50       # agent rules (14 Nov): dead at 20+ sells still bel
 CONTROLS = {"rand", "randrun"}
 
 
-def ret(s):
-    return agents.equity(s) / s["start_usd"] - 1
+def trades(s):
+    """Return of each closed position (all its sells, half-sells included, over its buy cost), so accounts with
+    different trade sizes compare fairly. A position is closed once its coin is no longer held or was bought again."""
+    open_, done = {}, []
+    for x in s["log"]:
+        m = x.get("mint")
+        if x["kind"] == "buy":
+            if m in open_:
+                done.append(open_.pop(m))
+            open_[m] = [x["usd"], 0.0, 0]
+        elif x["kind"] == "sell" and m in open_:
+            open_[m][1] += x.get("pnl", 0)
+            open_[m][2] += 1
+    done += [v for m, v in open_.items() if v[2] and m not in s.get("pos", {})]
+    return [p / c for c, p, n in done if c and n]
 
 
-def verdict(name, s, rand_ret):
-    """Marks the account dead or passed once (never un-marks). Dead accounts stop buying; exits keep running."""
-    if name in CONTROLS or rand_ret is None or s.get("dead"):
+def mean(xs):
+    return sum(xs) / len(xs) if xs else None
+
+
+def verdict(name, s, rand_avg):
+    """Marks the account dead or passed once (never un-marks) on the mean return per closed position against rand's.
+    Dead accounts stop buying; exits keep running."""
+    if name in CONTROLS or rand_avg is None or s.get("dead"):
         return
-    n, r, day = sum(x["kind"] == "sell" for x in s["log"]), ret(s), agents.grok.now().date().isoformat()
-    if n >= DIE_N and r < rand_ret:
-        s["dead"] = f"{day}: {n} ไม้ {r:+.1%} แพ้ rand {rand_ret:+.1%}"
-    elif n >= PASS_N and r > 0 and r > rand_ret and not s.get("passed"):
-        s["passed"] = f"{day}: {n} ไม้ {r:+.1%} ชนะ rand {rand_ret:+.1%} หลังหักค่าธรรมเนียม"
+    tr, day = trades(s), agents.grok.now().date().isoformat()
+    n, a = len(tr), mean(tr)
+    if n >= DIE_N and a < rand_avg:
+        s["dead"] = f"{day}: {n} ไม้ เฉลี่ยต่อไม้ {a:+.1%} แพ้ rand {rand_avg:+.1%}"
+    elif n >= PASS_N and a > 0 and a > rand_avg and not s.get("passed"):
+        s["passed"] = f"{day}: {n} ไม้ เฉลี่ยต่อไม้ {a:+.1%} ชนะ rand {rand_avg:+.1%} หลังหักค่าธรรมเนียม"
 
 
 def apply_repairs():
@@ -270,7 +289,7 @@ def cmd_tick():
     rand_ret = None
     if "rand" in ZOO:
         use("rand")
-        rand_ret = ret(agents.load()) if agents.STATE.exists() else None
+        rand_ret = mean(trades(agents.load())) if agents.STATE.exists() else None
     if d:
         save_hist(d)
         breadth = sum(f(t, "price_change_percent1h") > 0 for t in d["rank"]) / max(len(d["rank"]), 1)

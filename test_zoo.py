@@ -145,12 +145,12 @@ zoo.apply_repairs(); zoo.use("rand"); s = agents.load(); assert s["cash"] == 10 
 s["cash"] = 7; agents.save(s); zoo.apply_repairs(); assert agents.load()["cash"] == 7     # applied once only
 (d / "data" / "repair_rand.json").unlink()
 print("unverified cap + repair ok")
-# agent rules: death at 20+ sells below rand, pass at 50+ sells positive and above rand
-st = lambda n, eq: dict(start_usd=10, cash=eq, pos={}, log=[{"kind": "sell", "pnl": 0}] * n)
-a = st(20, 5); zoo.verdict("x", a, -0.3); assert a.get("dead")
-b = st(19, 5); zoo.verdict("x", b, -0.3); assert not b.get("dead")
-c = st(50, 11); zoo.verdict("x", c, -0.3); assert c.get("passed") and not c.get("dead")
-r = st(30, 1); zoo.verdict("rand", r, 0.5); assert not r.get("dead")
+# agent rules: death at 20+ closed positions averaging below rand, pass at 50+ positive and above rand
+st = lambda n, pnl: dict(start_usd=10, cash=10, pos={}, log=[x for i in range(n) for x in (dict(kind="buy", mint=f"M{i}", usd=1), dict(kind="sell", mint=f"M{i}", pnl=pnl))])
+a = st(20, -0.5); zoo.verdict("x", a, -0.3); assert a.get("dead")
+b = st(19, -0.5); zoo.verdict("x", b, -0.3); assert not b.get("dead")
+c = st(50, 0.1); zoo.verdict("x", c, -0.3); assert c.get("passed") and not c.get("dead")
+r = st(30, -0.9); zoo.verdict("rand", r, 0.5); assert not r.get("dead")
 print("verdict ok")
 # null exits in a recipe mean "off", never None in the exit math; one crashing account does not stop the round
 (d / "null.json").write_text(json.dumps([dict(name="x_null", label="t", horizon="week", exit={"TRAIL_ON": None, "TRAIL": None, "TP_ALL": None})]))
@@ -195,3 +195,12 @@ s = dict(start_usd=10, cash=10, pos={}, log=[]); zoo.take_orders("g_test", s); z
 assert bought == [("M1", 0.35)] and s["orders_done"] == ["o1", "o2"] and "stale" in s["log"][-1]["why"], (bought, s)
 agents.paper_buy = real_buy; del zoo.ZOO["g_test"]
 print("grok orders ok")
+# verdict compares mean return per closed position: a half-sell and its remainder are one position, open ones are skipped
+L = [dict(kind="buy", mint="A", usd=10), dict(kind="sell", mint="A", pnl=5), dict(kind="sell", mint="A", pnl=-2),
+     dict(kind="buy", mint="B", usd=2), dict(kind="sell", mint="B", pnl=-1), dict(kind="buy", mint="C", usd=5), dict(kind="sell", mint="C", pnl=1)]
+tr = zoo.trades(dict(log=L, pos={"C": {}}))
+assert [round(x, 3) for x in tr] == [0.3, -0.5], tr
+s = dict(log=[dict(kind="buy", mint=f"M{i}", usd=1) for i in range(20)] + [dict(kind="sell", mint=f"M{i}", pnl=-0.05) for i in range(20)], pos={})
+zoo.verdict("x_v", s, -0.10); assert not s.get("dead")          # -5% per trade beats rand's -10% even if the account total looks worse
+zoo.verdict("x_v", s, -0.01); assert "แพ้ rand" in s["dead"]
+print("verdict per trade ok")
