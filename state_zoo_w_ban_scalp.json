@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.183373601639575,
+ "cash": 2.789552901255652,
  "pos": {
   "G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump": {
    "sym": "GTA",
    "qty": 2615.510602226561,
    "entry": 0.0001506,
-   "last": 0.0001447,
+   "last": 0.00014132587997096486,
    "peak": 0.0001637,
    "cost": 0.40599453380263867,
    "opened": "2026-11-17T17:50:48+07:00",
    "zoo": "w_ban_scalp",
    "smart": 14,
    "kol": 0,
-   "gap": 0,
+   "gap": 7,
    "miss": 0
   },
   "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ": {
    "sym": "Lucia",
    "qty": 800.6089077345147,
    "entry": 0.0004776,
-   "last": 0.0004764,
+   "last": 0.0004763,
    "peak": 0.0004883,
    "cost": 0.39411545488971783,
    "opened": "2026-11-17T18:24:34+07:00",
@@ -29,6 +29,20 @@
    "smart": 19,
    "kol": 5,
    "gap": 0,
+   "miss": 0
+  },
+  "A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm": {
+   "sym": "GROKIA",
+   "qty": 965.3482655696872,
+   "entry": 0.0003958,
+   "last": 0.0003635,
+   "peak": 0.00040775914861856575,
+   "cost": 0.39382070038392314,
+   "opened": "2026-11-17T18:47:47+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 16,
+   "kol": 0,
+   "gap": 6,
    "miss": 0
   }
  },
@@ -4976,10 +4990,24 @@
    "cost_side": 0.03,
    "smart": 3,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T18:47:47+07:00",
+   "kind": "buy",
+   "mint": "A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm",
+   "sym": "GROKIA",
+   "price": 0.0003958,
+   "jup": 0.00039230847221673974,
+   "usd": 0.3938,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 16,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794915726.9891436,
+ "rank_t": 1794916005.8510327,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
