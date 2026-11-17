@@ -1,47 +1,61 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.3573187112230507,
+ "cash": 0.15362131493089767,
  "pos": {
   "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump": {
    "sym": "Christmax",
    "qty": 1920.3779644089918,
    "entry": 0.0001213,
-   "last": 0.0001235,
+   "last": 0.0001219,
    "peak": 0.000128,
    "cost": 0.24009672962565523,
    "opened": "2026-11-17T05:23:22+07:00",
    "zoo": "boosted",
    "smart": 25,
    "kol": 0,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
    "sym": "JOB",
    "qty": 104.82868562565282,
    "entry": 0.002153,
-   "last": 0.002092,
+   "last": 0.002076,
    "peak": 0.002183,
    "cost": 0.23262848912804635,
    "opened": "2026-11-17T05:51:42+07:00",
    "zoo": "boosted",
    "smart": 34,
    "kol": 0,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
    "sym": "TROLL",
    "qty": 8.483215139011117,
    "entry": 0.02382,
-   "last": 0.02413,
+   "last": 0.02401,
    "peak": 0.02413,
    "cost": 0.2082768342725673,
    "opened": "2026-11-17T06:48:35+07:00",
    "zoo": "boosted",
    "smart": 472,
    "kol": 214,
+   "gap": 0,
+   "miss": 0
+  },
+  "Gg5aWvfucyMwihDzyfCEaLgyeeNE2dkob2LTwWfHpump": {
+   "sym": "ETF",
+   "qty": 807.9608090050975,
+   "entry": 0.0002446,
+   "last": 0.0002443,
+   "peak": 0.0002446,
+   "cost": 0.20369739629215303,
+   "opened": "2026-11-17T08:17:03+07:00",
+   "zoo": "boosted",
+   "smart": 38,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -3593,8 +3607,22 @@
    "cost_side": 0.03,
    "smart": 32,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T08:17:03+07:00",
+   "kind": "buy",
+   "mint": "Gg5aWvfucyMwihDzyfCEaLgyeeNE2dkob2LTwWfHpump",
+   "sym": "ETF",
+   "price": 0.0002446,
+   "jup": 0.00024575474362979207,
+   "usd": 0.2037,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 38,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794877903.5341597
+ "rank_t": 1794878182.2860575
 }
