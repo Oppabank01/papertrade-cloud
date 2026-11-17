@@ -1,48 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 4.713600496539341,
+ "cash": 12.478784166632533,
  "pos": {
-  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
-   "sym": "GTA6",
-   "qty": 233.71340835393605,
-   "entry": 0.01121,
-   "last": 0.01902,
-   "peak": 0.02008,
-   "cost": 2.700399203924576,
-   "opened": "2026-11-16T22:25:16+07:00",
-   "zoo": "x_lotus_5bots",
-   "smart": 289,
-   "kol": 23,
-   "gap": 0,
-   "miss": 0
-  },
-  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
-   "sym": "CATE",
-   "qty": 157.55066793067414,
-   "entry": 0.01653,
-   "last": 0.02186,
-   "peak": 0.02404,
-   "cost": 2.6843048246691854,
-   "opened": "2026-11-16T22:25:18+07:00",
-   "zoo": "x_lotus_5bots",
-   "smart": 880,
-   "kol": 110,
-   "gap": 2,
-   "miss": 0
-  },
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 787.7077956530749,
    "entry": 0.003282,
-   "last": 0.003012,
+   "last": 0.003131,
    "peak": 0.003531,
    "cost": 2.6646639716897464,
    "opened": "2026-11-16T22:29:50+07:00",
    "zoo": "x_lotus_5bots",
    "smart": 722,
    "kol": 80,
-   "gap": 6,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -238,9 +210,39 @@
    "cost_side": 0.03,
    "smart": 689,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T22:25:29+07:00",
+   "kind": "sell",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.01895,
+   "entry": 0.01121,
+   "usd": 4.2969,
+   "pnl": 1.5965,
+   "why": "ครบ 24 ชม. (+69.0%)",
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "smart": 289,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-17T22:25:29+07:00",
+   "kind": "sell",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.02269,
+   "entry": 0.01653,
+   "usd": 3.4683,
+   "pnl": 0.784,
+   "why": "ครบ 24 ชม. (+37.3%)",
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "smart": 880,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: 5 บอท: pool 25k+ dev ไม่เกิน 5% top10 ไม่เกิน 20% ขายครึ่ง x2 stop -25%",
- "rank_t": 1794928729.633131,
+ "rank_t": 1794929022.0024245,
  "halted": "ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }

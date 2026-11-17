@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.783074134229584,
+ "cash": 1.4198706414043243,
  "pos": {
   "CbmdFB7ruUfTHb1uRWC99knEni77CQKfFZL6qq2fLoat": {
    "sym": "AIRDROP",
@@ -21,7 +21,7 @@
    "sym": "fone",
    "qty": 1128.9940046601298,
    "entry": 0.0008826,
-   "last": 0.0008876,
+   "last": 0.0008715,
    "peak": 0.0009561,
    "cost": 1.0270563889023199,
    "opened": "2026-11-16T22:14:56+07:00",
@@ -35,14 +35,28 @@
    "sym": ":3",
    "qty": 3317.156923299101,
    "entry": 0.0003942,
-   "last": 0.0004668,
+   "last": 0.0004943,
    "peak": 0.0005309,
    "cost": 1.347787321340451,
    "opened": "2026-11-17T12:07:45+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 126,
    "kol": 9,
-   "gap": 2,
+   "gap": 0,
+   "miss": 0
+  },
+  "GYZ3toP3xAc7xgHfnGBc419ksvtX1w8oP6Tc2bVupump": {
+   "sym": "GEKKO",
+   "qty": 3804.890761619871,
+   "entry": 0.0003476,
+   "last": 0.0003325,
+   "peak": 0.0003476,
+   "cost": 1.3632034928252597,
+   "opened": "2026-11-17T22:24:58+07:00",
+   "zoo": "w_ban_smartflow",
+   "smart": 93,
+   "kol": 6,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -1303,10 +1317,24 @@
    "cost_side": 0.03,
    "smart": 106,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T22:24:58+07:00",
+   "kind": "buy",
+   "mint": "GYZ3toP3xAc7xgHfnGBc419ksvtX1w8oP6Tc2bVupump",
+   "sym": "GEKKO",
+   "price": 0.0003476,
+   "jup": 0.00035067562517146836,
+   "usd": 1.3632,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "w_ban_smartflow",
+   "smart": 93,
+   "kol": 6
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794928729.633131,
+ "rank_t": 1794929022.0024245,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
