@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.30887150451481726,
+ "cash": 0.12261902198692165,
  "pos": {
   "4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": {
    "sym": "greg",
    "qty": 1593.3902211057423,
    "entry": 0.0001185,
-   "last": 0.0001567,
+   "last": 0.0001587,
    "peak": 0.0001623,
    "cost": 0.1946163071542264,
    "opened": "2026-11-17T08:59:54+07:00",
@@ -35,13 +35,27 @@
    "sym": "BTC",
    "qty": 133.79701952428505,
    "entry": 0.001352,
-   "last": 0.001354,
-   "peak": 0.001354,
+   "last": 0.001400041181260418,
+   "peak": 0.001400041181260418,
    "cost": 0.18644977365165263,
    "opened": "2026-11-17T11:39:41+07:00",
    "zoo": "boosted",
    "smart": 795,
    "kol": 70,
+   "gap": 1,
+   "miss": 0
+  },
+  "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
+   "sym": "Dacity",
+   "qty": 134.85235712579424,
+   "entry": 0.00134,
+   "last": 0.001347,
+   "peak": 0.001347,
+   "cost": 0.1862524825278956,
+   "opened": "2026-11-17T11:48:43+07:00",
+   "zoo": "boosted",
+   "smart": 434,
+   "kol": 38,
    "gap": 0,
    "miss": 0
   }
@@ -3767,8 +3781,22 @@
    "zoo": "boosted",
    "smart": 795,
    "kol": 70
+  },
+  {
+   "t": "2026-11-17T11:48:43+07:00",
+   "kind": "buy",
+   "mint": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
+   "sym": "Dacity",
+   "price": 0.00134,
+   "jup": 0.001350765059834496,
+   "usd": 0.1863,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 434,
+   "kol": 38
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794890607.6831713
+ "rank_t": 1794890880.8473084
 }
