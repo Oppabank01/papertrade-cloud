@@ -1,65 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.718869590815427,
- "cash": 2.8180451420444963,
- "pos": {
-  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
-   "sym": "Buttcoin",
-   "qty": 525.6984939188093,
-   "entry": 0.005328,
-   "last": 0.004899,
-   "peak": 0.005614,
-   "cost": 2.8291422697400734,
-   "opened": "2026-11-16T21:00:45+07:00",
-   "zoo": "w_night_aged",
-   "smart": 476,
-   "kol": 48,
-   "gap": 0,
-   "miss": 0
-  },
-  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
-   "sym": "STONK",
-   "qty": 70.66051323510058,
-   "entry": 0.0397,
-   "last": 0.04253,
-   "peak": 0.04285,
-   "cost": 2.8334864022963995,
-   "opened": "2026-11-16T21:14:01+07:00",
-   "zoo": "w_night_aged",
-   "smart": 1000,
-   "kol": 174,
-   "gap": 0,
-   "miss": 0
-  },
-  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
-   "sym": "USELESS",
-   "qty": 28.60292348272543,
-   "entry": 0.09806,
-   "last": 0.093,
-   "peak": 0.1008,
-   "cost": 2.8330624749032154,
-   "opened": "2026-11-16T21:18:44+07:00",
-   "zoo": "w_night_aged",
-   "smart": 925,
-   "kol": 294,
-   "gap": 0,
-   "miss": 0
-  },
-  "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
-   "sym": "ZCAT",
-   "qty": 153.79737292899142,
-   "entry": 0.01823,
-   "last": 0.020754157085603204,
-   "peak": 0.02335,
-   "cost": 2.8319750597161826,
-   "opened": "2026-11-16T21:28:13+07:00",
-   "zoo": "w_night_aged",
-   "smart": 329,
-   "kol": 48,
-   "gap": 6,
-   "miss": 0
-  }
- },
+ "cash": 14.263868428564562,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T21:37:15+07:00",
@@ -313,10 +256,50 @@
    "zoo": "w_night_aged",
    "smart": 329,
    "kol": 48
+  },
+  {
+   "t": "2026-11-17T09:00:12+07:00",
+   "kind": "sell",
+   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+   "sym": "Buttcoin",
+   "price": 0.004899,
+   "usd": 2.5497,
+   "pnl": -0.2794,
+   "why": "ปิดรอบเช้า"
+  },
+  {
+   "t": "2026-11-17T09:00:12+07:00",
+   "kind": "sell",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.04253,
+   "usd": 2.9752,
+   "pnl": 0.1417,
+   "why": "ปิดรอบเช้า"
+  },
+  {
+   "t": "2026-11-17T09:00:12+07:00",
+   "kind": "sell",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.093,
+   "usd": 2.6335,
+   "pnl": -0.1995,
+   "why": "ปิดรอบเช้า"
+  },
+  {
+   "t": "2026-11-17T09:00:12+07:00",
+   "kind": "sell",
+   "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+   "sym": "ZCAT",
+   "price": 0.02159,
+   "usd": 3.2874,
+   "pnl": 0.4554,
+   "why": "ปิดรอบเช้า"
   }
  ],
  "label": "สวนสัตว์: กะดึก: กฎ w_aged_nostop เทรดเฉพาะ 21:00-09:00",
- "night": "2026-11-16",
+ "night": null,
  "night_start": 14.145711348700367,
  "rank_t": 1794880460.901712,
  "nights": [
@@ -327,6 +310,10 @@
   {
    "night": "2026-11-15",
    "ret": 0.0184
+  },
+  {
+   "night": "2026-11-16",
+   "ret": 0.0084
   }
  ],
  "halted": "ราคา ZCAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"

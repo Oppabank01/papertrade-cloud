@@ -27,6 +27,15 @@
    "trades": 0,
    "wins": 0,
    "ended": "09:00"
+  },
+  {
+   "night": "2026-11-16",
+   "start_usd": 14.7754,
+   "end_usd": 11.762,
+   "ret": -0.2039,
+   "trades": 3,
+   "wins": 0,
+   "ended": "09:00"
   }
  ],
  "log": [
@@ -327,23 +336,20 @@
    "cost_side": 0.03,
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T09:00:44+07:00",
+   "kind": "sell",
+   "mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+   "sym": "WBTC",
+   "price": 64696.71,
+   "usd": 5.5265,
+   "pnl": -0.3836,
+   "why": "ปิดรอบเช้า"
   }
  ],
- "pos": {
-  "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh": {
-   "sym": "WBTC",
-   "qty": 8.804589397614072e-05,
-   "entry": 65125.61,
-   "last": 64668.32,
-   "peak": 65530.087,
-   "cost": 5.91016548463357,
-   "opened": "2026-11-17T04:41:13+07:00",
-   "source": "state_wallets.json",
-   "gap": 0,
-   "miss": 0
-  }
- },
- "cash": 6.2354709027663,
+ "pos": {},
+ "cash": 11.762001437887323,
  "start_usd": 14.775413711583923,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
@@ -662,6 +668,7 @@
  "session": {
   "night": "2026-11-16",
   "t": "2026-11-16T21:01:16+07:00",
-  "start_usd": 14.775413711583923
+  "start_usd": 14.775413711583923,
+  "closed": true
  }
 }
