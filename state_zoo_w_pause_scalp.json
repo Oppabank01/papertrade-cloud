@@ -1,42 +1,28 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.8875701836224192,
+ "cash": 3.2541404130411262,
  "pos": {
-  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
-   "sym": "mihao",
-   "qty": 32.543458226440514,
-   "entry": 0.01208,
-   "last": 0.01148,
-   "peak": 0.01239,
-   "cost": 0.4051999333904364,
-   "opened": "2026-11-17T14:06:36+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 710,
-   "kol": 69,
-   "gap": 0,
-   "miss": 0
-  },
   "4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump": {
    "sym": "HUNG",
    "qty": 4913.72191139462,
    "entry": 7.822e-05,
-   "last": 7.45696777480502e-05,
+   "last": 7.462e-05,
    "peak": 8.475e-05,
    "cost": 0.39615680056615876,
    "opened": "2026-11-17T14:15:46+07:00",
    "zoo": "w_pause_scalp",
    "smart": 268,
    "kol": 15,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 63.448714666863026,
    "entry": 0.006235,
-   "last": 0.006184684553811478,
-   "peak": 0.006572,
+   "last": 0.006229619662156755,
+   "peak": 0.006623,
    "cost": 0.4077537991629468,
    "opened": "2026-11-17T14:58:45+07:00",
    "zoo": "w_pause_scalp",
@@ -4392,10 +4378,28 @@
    "cost_side": 0.03,
    "smart": 131,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T16:05:38+07:00",
+   "kind": "resume",
+   "why": "ราคา SAPLING สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-17T16:06:53+07:00",
+   "kind": "sell",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.01161,
+   "entry": 0.01208,
+   "usd": 0.3666,
+   "pnl": -0.0386,
+   "why": "ครบ 2 ชม. (-3.9%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 710,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794905975.7514277,
- "halted": "ราคา SAPLING สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
- "halted_until": "2026-11-17T16:03:05+07:00"
+ "rank_t": 1794906268.6658945
 }
