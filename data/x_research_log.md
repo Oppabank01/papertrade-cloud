@@ -124,3 +124,12 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 เพิ่ม: ไม่มี  เลิกใช้: ไม่มี (ยังไม่มีบัญชี x_ ถึงวันตัดสิน)
 สกอร์บอร์ด x_ (เทียบ rand -96.0%): x_smartflow_lowcap +20.9% 7 ไม้, x_boan_desk -0.9% 1 ไม้, x_night_tp50_sl25 -2.1% 3 ไม้
 ท้ายตาราง: x_skip_pumped -73.9% 54 ไม้, x_fresh_grad -42.3% 18 ไม้, x_cto_watch -29.6% 14 ไม้ (ยังไม่ถึงวันตัดสิน 21-22/11)
+
+## 2026-11-17 รอบอัตโนมัติ (Bangkok)
+ค้น: memecoin strategy in one week turned $ solana rules, เทรดเหรียญมีม โซลานา กลยุทธ์ กำไร คืนเดียว, site:x.com solana memecoin overnight bot $100 thread
+เจอ: cryptorank "100 เป็น 50k", madeonsol, trojan, notion "3 SOL เป็น 2000 SOL" ซ้ำกับรอบก่อน ไม่มีกฎที่ตรวจได้หรือผลพิสูจน์ ข้าม
+เจอ: Benzinga สรุปเธรดเทรดเดอร์ 8 กลยุทธ์ (ปี 2024) snippet ไม่มีตัวเลขกฎ ข้าม
+ยังทำไม่ได้: บอทเฝ้าทวีต/sentiment, copy wallet (ต้องที่อยู่กระเป๋าและประวัติบน chain)
+เพิ่ม: ไม่มี  เลิกใช้: ไม่มี (บัญชี x_ week ยังไม่ถึงวันตัดสิน 21/11)
+สกอร์บอร์ด x_ (เทียบ randrun -89.3%): x_smartflow_lowcap +20.9% 7 ไม้, x_boan_desk -0.9% 1 ไม้, x_night_tp50_sl25 -2.1% 3 ไม้
+ท้ายตาราง: x_skip_pumped -73.8% 55 ไม้, x_fresh_grad -42.3% 18 ไม้, x_cto_watch -29.7% 14 ไม้
