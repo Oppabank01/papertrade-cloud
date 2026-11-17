@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.5120506817592423,
+ "cash": 2.988847427153064,
  "pos": {
   "2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump": {
    "sym": "Peekhole",
    "qty": 638.3806008002621,
    "entry": 0.0005884,
-   "last": 0.0005588,
+   "last": 0.0005487,
    "peak": 0.0006074,
    "cost": 0.3871605292835232,
    "opened": "2026-11-17T18:57:20+07:00",
@@ -17,32 +17,18 @@
    "gap": 0,
    "miss": 0
   },
-  "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": {
-   "sym": "HOGE",
-   "qty": 576.5388412731078,
-   "entry": 0.0006139,
-   "last": 0.000624,
-   "peak": 0.0006522,
-   "cost": 0.3648084875876736,
-   "opened": "2026-11-17T19:35:41+07:00",
-   "zoo": "w_ban_scalp",
-   "smart": 178,
-   "kol": 11,
-   "gap": 0,
-   "miss": 0
-  },
   "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
    "sym": "Max",
    "qty": 460.0051690884585,
    "entry": 0.000772,
-   "last": 0.000736,
+   "last": 0.0007301856046396567,
    "peak": 0.000786,
    "cost": 0.36603173627735514,
    "opened": "2026-11-17T19:59:37+07:00",
    "zoo": "w_ban_scalp",
    "smart": 459,
    "kol": 42,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -5214,10 +5200,25 @@
    "cost_side": 0.03,
    "smart": 86,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T20:31:10+07:00",
+   "kind": "sell",
+   "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+   "sym": "HOGE",
+   "price": 0.0008524,
+   "entry": 0.0006139,
+   "usd": 0.4768,
+   "pnl": 0.112,
+   "why": "ถึงเป้า +38.8%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 178,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794921759.4523547,
+ "rank_t": 1794922052.1373541,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",

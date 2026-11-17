@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.10424686070501638,
+ "cash": 0.16540798019708947,
  "pos": {
   "6sBvfTnThBPUQsEWjiXdgCnHwxGZfEDqegtVu4vLpump": {
    "sym": "WANTED",
    "qty": 540.092486012011,
    "entry": 0.0001025,
-   "last": 0.0001268,
+   "last": 0.0001276,
    "peak": 0.0001283,
    "cost": 0.05705986375616484,
    "opened": "2026-11-17T18:42:46+07:00",
@@ -21,26 +21,12 @@
    "sym": "JASON",
    "qty": 151.93213349580174,
    "entry": 0.0003595,
-   "last": 0.0003448,
+   "last": 0.0003488,
    "peak": 0.000369,
    "cost": 0.05629726035017597,
    "opened": "2026-11-17T18:56:56+07:00",
    "zoo": "rand",
    "smart": 35,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
-  "DqgZtgWoDmHtgnRrMobioEGD6Q6LZeVhYn8QaKW1pump": {
-   "sym": "PEGASSI",
-   "qty": 6488.236170282096,
-   "entry": 8.403e-06,
-   "last": 1.222e-05,
-   "peak": 1.222e-05,
-   "cost": 0.0561952675106993,
-   "opened": "2026-11-17T20:04:06+07:00",
-   "zoo": "rand",
-   "smart": 6,
    "kol": 0,
    "gap": 0,
    "miss": 0
@@ -4421,8 +4407,23 @@
    "zoo": "rand",
    "smart": 6,
    "kol": 0
+  },
+  {
+   "t": "2026-11-17T20:28:10+07:00",
+   "kind": "sell",
+   "mint": "DqgZtgWoDmHtgnRrMobioEGD6Q6LZeVhYn8QaKW1pump",
+   "sym": "PEGASSI",
+   "price": 9.716e-06,
+   "entry": 8.403e-06,
+   "usd": 0.0612,
+   "pnl": 0.005,
+   "why": "trailing จากยอด +45% (+15.6%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 6,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794921759.4523547
+ "rank_t": 1794922052.1373541
 }
