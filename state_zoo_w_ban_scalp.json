@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.284858670720862,
- "pos": {
-  "GYZ3toP3xAc7xgHfnGBc419ksvtX1w8oP6Tc2bVupump": {
-   "sym": "GEKKO",
-   "qty": 1018.7219928184953,
-   "entry": 0.0003476,
-   "last": 0.0003325,
-   "peak": 0.0003476,
-   "cost": 0.36498429674676247,
-   "opened": "2026-11-17T22:24:59+07:00",
-   "zoo": "w_ban_scalp",
-   "smart": 93,
-   "kol": 6,
-   "gap": 3,
-   "miss": 0
-  }
- },
+ "cash": 3.569202836055662,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-15T00:43:00+07:00",
@@ -5245,10 +5230,25 @@
    "zoo": "w_ban_scalp",
    "smart": 93,
    "kol": 6
+  },
+  {
+   "t": "2026-11-17T22:30:01+07:00",
+   "kind": "sell",
+   "mint": "GYZ3toP3xAc7xgHfnGBc419ksvtX1w8oP6Tc2bVupump",
+   "sym": "GEKKO",
+   "price": 0.00028769172395808583,
+   "entry": 0.0003476,
+   "usd": 0.2843,
+   "pnl": -0.0806,
+   "why": "stop -17.2%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 93,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794929022.0024245,
+ "rank_t": 1794929314.0555942,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
