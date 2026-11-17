@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.6782017861349652,
+ "cash": 1.275402406774763,
  "pos": {
-  "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
-   "sym": "baton",
-   "qty": 201.0500811594409,
-   "entry": 0.003364,
-   "last": 0.0030999573581642673,
-   "peak": 0.003376,
-   "cost": 0.6971062389407948,
-   "opened": "2026-11-17T05:15:02+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 722,
-   "kol": 80,
-   "gap": 3,
-   "miss": 0
-  },
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 47.79253793270272,
    "entry": 0.01354,
-   "last": 0.01379,
+   "last": 0.01382,
    "peak": 0.014,
    "cost": 0.6669871816211037,
    "opened": "2026-11-17T06:24:51+07:00",
@@ -35,28 +21,28 @@
    "sym": "Rocco",
    "qty": 665.9635389436653,
    "entry": 0.0009659,
-   "last": 0.0009928,
+   "last": 0.0009693329047139668,
    "peak": 0.001063,
    "cost": 0.6630119380186419,
    "opened": "2026-11-17T06:24:51+07:00",
    "zoo": "w_pause_aged",
    "smart": 122,
    "kol": 9,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
    "sym": "PAID",
    "qty": 481.7156956810841,
    "entry": 0.001331,
-   "last": 0.0017419304130522786,
+   "last": 0.0017566599051147293,
    "peak": 0.001833,
    "cost": 0.6608571335307389,
    "opened": "2026-11-17T06:49:06+07:00",
    "zoo": "w_pause_aged",
    "smart": 676,
    "kol": 95,
-   "gap": 1,
+   "gap": 4,
    "miss": 0
   }
  },
@@ -2713,10 +2699,25 @@
    "zoo": "w_pause_aged",
    "smart": 676,
    "kol": 95
+  },
+  {
+   "t": "2026-11-17T07:34:37+07:00",
+   "kind": "sell",
+   "mint": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
+   "sym": "baton",
+   "price": 0.00306164425860914,
+   "entry": 0.003364,
+   "usd": 0.5972,
+   "pnl": -0.0999,
+   "why": "stop -9.0%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 722,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794875355.0088837,
+ "rank_t": 1794875636.9577062,
  "halted": "ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-17T08:01:47+07:00"
 }
