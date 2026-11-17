@@ -1,20 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.26361621873735797,
+ "cash": 0.19630675431932731,
  "pos": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 3.8069639206341757,
    "entry": 0.01726,
-   "last": 0.01915728776873884,
-   "peak": 0.01915728776873884,
+   "last": 0.01941,
+   "peak": 0.01941,
    "cost": 0.06772644534131712,
    "opened": "2026-11-17T19:20:45+07:00",
    "smart": 295,
    "kol": 24,
    "bundler": 0.3114,
-   "gap": 2,
+   "gap": 0,
+   "miss": 0
+  },
+  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
+   "sym": "Rings",
+   "qty": 87.35104652002853,
+   "entry": 0.0007476,
+   "last": 0.0007483,
+   "peak": 0.0007483,
+   "cost": 0.06730946441803064,
+   "opened": "2026-11-17T20:46:39+07:00",
+   "smart": 88,
+   "kol": 6,
+   "bundler": 0.0852,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -55301,6 +55315,53 @@
    "buy": 0.8198,
    "bull": 0.9117,
    "bear": 1.0
+  },
+  {
+   "t": "2026-11-17T20:46:33+07:00",
+   "kind": "debate",
+   "mint": "BYPPfvV8xdFeTS43nPFRZeLdJ8STPVELg7rvagtqpump",
+   "sym": "GROKIA",
+   "ok": false,
+   "bundler": 0.0257,
+   "buy": 0.9102,
+   "bull": 0.9566,
+   "bear": 0.987
+  },
+  {
+   "t": "2026-11-17T20:46:35+07:00",
+   "kind": "debate",
+   "mint": "D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump",
+   "sym": "BAWSAQ",
+   "ok": false,
+   "bundler": 0.0009,
+   "buy": 0.9397,
+   "bull": 0.8711,
+   "bear": 1.0
+  },
+  {
+   "t": "2026-11-17T20:46:39+07:00",
+   "kind": "debate",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "ok": true,
+   "bundler": 0.0852,
+   "buy": 0.7399,
+   "bull": 0.8938,
+   "bear": 0.6592
+  },
+  {
+   "t": "2026-11-17T20:46:39+07:00",
+   "kind": "buy",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.0007476,
+   "jup": 0.0007487489804528637,
+   "usd": 0.0673,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 88,
+   "kol": 6,
+   "bundler": 0.0852
   }
  ]
 }
