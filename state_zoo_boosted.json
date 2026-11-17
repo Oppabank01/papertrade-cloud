@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.3722821209004692,
+ "cash": 0.1855665739308152,
  "pos": {
   "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": {
    "sym": "BTC",
    "qty": 133.79701952428505,
    "entry": 0.001352,
-   "last": 0.001416,
+   "last": 0.0013720354301352375,
    "peak": 0.001416,
    "cost": 0.18644977365165263,
    "opened": "2026-11-17T11:39:41+07:00",
    "zoo": "boosted",
    "smart": 795,
    "kol": 70,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
    "sym": "Dacity",
    "qty": 134.85235712579424,
    "entry": 0.00134,
-   "last": 0.001382,
+   "last": 0.001389,
    "peak": 0.001408,
    "cost": 0.1862524825278956,
    "opened": "2026-11-17T11:48:43+07:00",
@@ -35,14 +35,28 @@
    "sym": "GTA6",
    "qty": 12.600073149019401,
    "entry": 0.01406,
-   "last": 0.01472,
-   "peak": 0.01472,
+   "last": 0.01523,
+   "peak": 0.01523,
    "cost": 0.18259846266255697,
    "opened": "2026-11-17T12:31:08+07:00",
    "zoo": "boosted",
    "smart": 295,
    "kol": 24,
    "gap": 0,
+   "miss": 0
+  },
+  "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": {
+   "sym": "HOGE",
+   "qty": 312.8154440855781,
+   "entry": 0.0005791,
+   "last": 0.0005701,
+   "peak": 0.0005791,
+   "cost": 0.186715546969654,
+   "opened": "2026-11-17T13:09:11+07:00",
+   "zoo": "boosted",
+   "smart": 178,
+   "kol": 11,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -3825,8 +3839,22 @@
    "zoo": "boosted",
    "smart": 295,
    "kol": 24
+  },
+  {
+   "t": "2026-11-17T13:09:11+07:00",
+   "kind": "buy",
+   "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+   "sym": "HOGE",
+   "price": 0.0005791,
+   "jup": 0.0005832613320126634,
+   "usd": 0.1867,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 178,
+   "kol": 11
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794895415.643168
+ "rank_t": 1794895704.7252462
 }
