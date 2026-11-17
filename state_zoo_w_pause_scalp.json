@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.0751968781451593,
+ "cash": 3.434656887152747,
  "pos": {
-  "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": {
-   "sym": "BRUH",
-   "qty": 83.84271032542287,
-   "entry": 0.004701,
-   "last": 0.004417,
-   "peak": 0.00485,
-   "cost": 0.4062508567716068,
-   "opened": "2026-11-17T16:34:06+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 3,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
   "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": {
    "sym": "BUTTHOLE",
    "qty": 775.8891235982012,
    "entry": 0.0004969,
-   "last": 0.0005267025687808988,
+   "last": 0.0005297108113650616,
    "peak": 0.0005418,
    "cost": 0.3973812672809175,
    "opened": "2026-11-17T17:12:34+07:00",
    "zoo": "w_pause_scalp",
    "smart": 106,
    "kol": 11,
-   "gap": 9,
+   "gap": 21,
    "miss": 0
   }
  },
@@ -4514,10 +4500,25 @@
    "cost_side": 0.03,
    "smart": 129,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T18:34:25+07:00",
+   "kind": "sell",
+   "mint": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
+   "sym": "BRUH",
+   "price": 0.004419,
+   "entry": 0.004701,
+   "usd": 0.3595,
+   "pnl": -0.0468,
+   "why": "ครบ 2 ชม. (-6.0%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 3,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794914866.510819,
+ "rank_t": 1794915148.3358853,
  "halted": "ราคา BUTTHOLE สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-17T18:33:48+07:00"
 }
