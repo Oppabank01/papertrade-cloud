@@ -1,41 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.2864934057297823,
+ "cash": 2.7037481486012993,
  "pos": {
   "A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm": {
    "sym": "GROKIA",
    "qty": 1063.191291643319,
    "entry": 0.0003483,
-   "last": 0.0003329,
+   "last": 0.0003341102348802582,
    "peak": 0.0003788,
    "cost": 0.381683701174364,
    "opened": "2026-11-17T19:50:27+07:00",
    "zoo": "w_pause_scalp",
    "smart": 22,
    "kol": 0,
-   "gap": 4,
-   "miss": 0
-  },
-  "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
-   "sym": "Leonida",
-   "qty": 873.2403133615596,
-   "entry": 0.0004228,
-   "last": 0.0004758,
-   "peak": 0.0004758,
-   "cost": 0.3805462837448644,
-   "opened": "2026-11-17T19:50:27+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 86,
-   "kol": 4,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
    "sym": "Max",
    "qty": 483.3781577983897,
    "entry": 0.000772,
-   "last": 0.0007699,
+   "last": 0.0007564,
    "peak": 0.000786,
    "cost": 0.38462990911189127,
    "opened": "2026-11-17T19:59:37+07:00",
@@ -49,14 +35,14 @@
    "sym": "ANT",
    "qty": 1645.5369189104474,
    "entry": 0.0002261,
-   "last": 0.00022754264597551276,
-   "peak": 0.00022754264597551276,
+   "last": 0.0002296,
+   "peak": 0.0002362,
    "cost": 0.3834837119827378,
    "opened": "2026-11-17T19:59:37+07:00",
    "zoo": "w_pause_scalp",
    "smart": 180,
    "kol": 10,
-   "gap": 7,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -4638,10 +4624,25 @@
    "zoo": "w_pause_scalp",
    "smart": 180,
    "kol": 10
+  },
+  {
+   "t": "2026-11-17T20:16:37+07:00",
+   "kind": "sell",
+   "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "sym": "Leonida",
+   "price": 0.0004925,
+   "entry": 0.0004228,
+   "usd": 0.4173,
+   "pnl": 0.0367,
+   "why": "ถึงเป้า +16.5%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 86,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794920911.8072145,
+ "rank_t": 1794921187.9171004,
  "halted": "ราคา ANT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-17T21:08:52+07:00"
 }
