@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.7045175659716425,
- "pos": {},
+ "cash": 0.563614052777314,
+ "pos": {
+  "GbGzZQugMJtZnhcnNyHUamXg2xGZw4C4RWy1uSvVpump": {
+   "sym": "SOYOUARE",
+   "qty": 3592.7618528551247,
+   "entry": 3.805e-05,
+   "last": 3.805e-05,
+   "peak": 3.805e-05,
+   "cost": 0.1409035131943285,
+   "opened": "2026-11-17T23:25:38+07:00",
+   "zoo": "boosted",
+   "smart": 82,
+   "kol": 5,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:42:01+07:00",
@@ -4175,8 +4190,22 @@
    "cost_side": 0.03,
    "smart": 413,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T23:25:38+07:00",
+   "kind": "buy",
+   "mint": "GbGzZQugMJtZnhcnNyHUamXg2xGZw4C4RWy1uSvVpump",
+   "sym": "SOYOUARE",
+   "price": 3.805e-05,
+   "jup": 3.789035675119979e-05,
+   "usd": 0.1409,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 82,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794932422.9787621
+ "rank_t": 1794932710.7489643
 }
