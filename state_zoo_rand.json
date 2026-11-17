@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.2111606219823481,
+ "cash": 0.21365987015914342,
  "pos": {
   "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ": {
    "sym": "Lucia",
    "qty": 220.36089189721156,
    "entry": 0.000326,
-   "last": 0.0003619,
+   "last": 0.0003605,
    "peak": 0.0003709,
    "cost": 0.07404416693309727,
    "opened": "2026-11-17T08:21:47+07:00",
@@ -17,17 +17,17 @@
    "gap": 0,
    "miss": 0
   },
-  "BDDdnX85YSmqDNHTyHjktmUd8ZzGLyXiWMAT1FLppump": {
-   "sym": "SWJ",
-   "qty": 1685.304215778182,
-   "entry": 4.266e-05,
-   "last": 5.568e-05,
-   "peak": 5.85e-05,
-   "cost": 0.07410335791084029,
-   "opened": "2026-11-17T10:14:58+07:00",
+  "8BMqmEFXDU6dWzU4we9Py5wRi8KpFQZSRPThQqLapump": {
+   "sym": "Pterodactyl",
+   "qty": 837.7053587592968,
+   "entry": 8.912e-05,
+   "last": 8.912e-05,
+   "peak": 8.912e-05,
+   "cost": 0.07694939349889562,
+   "opened": "2026-11-17T11:20:24+07:00",
    "zoo": "rand",
-   "smart": 163,
-   "kol": 9,
+   "smart": 76,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -3900,8 +3900,37 @@
    "cost_side": 0.03,
    "smart": 173,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T11:20:24+07:00",
+   "kind": "buy",
+   "mint": "8BMqmEFXDU6dWzU4we9Py5wRi8KpFQZSRPThQqLapump",
+   "sym": "Pterodactyl",
+   "price": 8.912e-05,
+   "jup": 8.918009740314266e-05,
+   "usd": 0.0769,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 76,
+   "kol": 1
+  },
+  {
+   "t": "2026-11-17T11:20:24+07:00",
+   "kind": "sell",
+   "mint": "BDDdnX85YSmqDNHTyHjktmUd8ZzGLyXiWMAT1FLppump",
+   "sym": "SWJ",
+   "price": 4.859e-05,
+   "entry": 4.266e-05,
+   "usd": 0.0794,
+   "pnl": 0.0053,
+   "why": "trailing จากยอด +37% (+13.9%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 163,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794888904.157796
+ "rank_t": 1794889188.1714075
 }
