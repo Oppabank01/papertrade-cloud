@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.8403281619318677,
+ "cash": 0.4020065418189826,
  "pos": {
   "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
    "sym": "Lucia",
    "qty": 441.03327540048684,
    "entry": 0.001019,
-   "last": 0.001080415752917485,
+   "last": 0.001058,
    "peak": 0.001123,
    "cost": 0.4632167672985942,
    "opened": "2026-11-17T06:24:20+07:00",
    "zoo": "holders",
    "smart": 110,
    "kol": 4,
-   "gap": 1,
+   "gap": 2,
    "miss": 0
   },
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
@@ -35,13 +35,27 @@
    "sym": "PAID",
    "qty": 263.9053389421729,
    "entry": 0.001694,
-   "last": 0.001622,
+   "last": 0.001677,
    "peak": 0.001694,
    "cost": 0.46078709974030185,
    "opened": "2026-11-17T07:11:56+07:00",
    "zoo": "holders",
    "smart": 708,
    "kol": 96,
+   "gap": 0,
+   "miss": 0
+  },
+  "D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump": {
+   "sym": "BAWSAQ",
+   "qty": 305.28329923440134,
+   "entry": 0.001393,
+   "last": 0.001413,
+   "peak": 0.001413,
+   "cost": 0.43832162011288506,
+   "opened": "2026-11-17T07:30:10+07:00",
+   "zoo": "holders",
+   "smart": 3,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -3149,8 +3163,22 @@
    "cost_side": 0.03,
    "smart": 250,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T07:30:10+07:00",
+   "kind": "buy",
+   "mint": "D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump",
+   "sym": "BAWSAQ",
+   "price": 0.001393,
+   "jup": 0.001406557386173305,
+   "usd": 0.4383,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 3,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794875078.213314
+ "rank_t": 1794875355.0088837
 }
