@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.2163557289999654,
+ "cash": 2.7640045521247356,
  "pos": {
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 57.100003558197265,
    "entry": 0.007884,
-   "last": 0.007186,
+   "last": 0.0069,
    "peak": 0.008795,
    "cost": 0.4640037394896179,
    "opened": "2026-11-17T11:49:09+07:00",
@@ -35,7 +35,7 @@
    "sym": "HIGH",
    "qty": 683.7009015468317,
    "entry": 0.0006527,
-   "last": 0.0006667,
+   "last": 0.0006676,
    "peak": 0.000669,
    "cost": 0.4599583368785993,
    "opened": "2026-11-17T12:36:56+07:00",
@@ -43,6 +43,20 @@
    "smart": 124,
    "kol": 8,
    "gap": 0,
+   "miss": 0
+  },
+  "4rYsDHMfKmt6VuVGcM8cGzBgkZNgQT3w2DhdEmtVpump": {
+   "sym": "DacityCoin",
+   "qty": 1511.2641591058814,
+   "entry": 0.0002904,
+   "last": 0.00029,
+   "peak": 0.0002904,
+   "cost": 0.45235117687522985,
+   "opened": "2026-11-17T13:24:02+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 131,
+   "kol": 12,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -4519,10 +4533,24 @@
    "cost_side": 0.03,
    "smart": 64,
    "bundler": null
+  },
+  {
+   "t": "2026-11-17T13:24:02+07:00",
+   "kind": "buy",
+   "mint": "4rYsDHMfKmt6VuVGcM8cGzBgkZNgQT3w2DhdEmtVpump",
+   "sym": "DacityCoin",
+   "price": 0.0002904,
+   "jup": 0.00029022260699978824,
+   "usd": 0.4524,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 131,
+   "kol": 12
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794896270.9883525,
+ "rank_t": 1794896550.5369952,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
