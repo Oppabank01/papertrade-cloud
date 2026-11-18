@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.24386595763642938,
+ "cash": 0.23122170507089523,
  "pos": {
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
    "qty": 73.56295429266527,
    "entry": 0.001589,
-   "last": 0.00154,
+   "last": 0.0015262746637765786,
    "peak": 0.001589,
    "cost": 0.12048189483719347,
    "opened": "2026-11-19T04:05:34+07:00",
    "zoo": "w_ban_aged",
    "smart": 416,
    "kol": 34,
-   "gap": 0,
+   "gap": 3,
    "miss": 0
   },
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 2.7806994112442536,
    "entry": 0.04174,
-   "last": 0.04179,
+   "last": 0.04165,
    "peak": 0.04208,
    "cost": 0.11963140942623701,
    "opened": "2026-11-19T04:10:33+07:00",
@@ -31,18 +31,18 @@
    "gap": 0,
    "miss": 0
   },
-  "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": {
-   "sym": "Kimchi",
-   "qty": 54.12199338670819,
-   "entry": 0.002123,
-   "last": 0.0020989500161861644,
-   "peak": 0.002137,
-   "cost": 0.11843021228610749,
-   "opened": "2026-11-19T04:47:11+07:00",
+  "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
+   "sym": "FLOAT",
+   "qty": 72.57669524216246,
+   "entry": 0.001535,
+   "last": 0.001535,
+   "peak": 0.001535,
+   "cost": 0.11482707400197834,
+   "opened": "2026-11-19T04:52:40+07:00",
    "zoo": "w_ban_aged",
-   "smart": 661,
-   "kol": 69,
-   "gap": 1,
+   "smart": 355,
+   "kol": 32,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -5062,10 +5062,39 @@
    "zoo": "w_ban_aged",
    "smart": 661,
    "kol": 69
+  },
+  {
+   "t": "2026-11-19T04:52:24+07:00",
+   "kind": "sell",
+   "mint": "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
+   "sym": "Kimchi",
+   "price": 0.001946,
+   "entry": 0.002123,
+   "usd": 0.1022,
+   "pnl": -0.0162,
+   "why": "stop -8.3%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 661,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-19T04:52:40+07:00",
+   "kind": "buy",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "price": 0.001535,
+   "jup": 0.0015245955660720017,
+   "usd": 0.1148,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_aged",
+   "smart": 355,
+   "kol": 32
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795038370.981741,
+ "rank_t": 1795038648.8591847,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": "CHOO",
