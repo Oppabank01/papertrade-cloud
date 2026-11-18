@@ -1,34 +1,48 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.2493697999281896,
+ "cash": 1.8980142712795218,
  "pos": {
   "35zAdop7rqmqdpLJU7swEhd3DJRqhFdSJXkBwYaDpump": {
    "sym": "VI",
    "qty": 752.63033786296,
    "entry": 0.0003623,
-   "last": 0.00034182493747433076,
+   "last": 0.0003496,
    "peak": 0.0003681,
    "cost": 0.2810533615829215,
    "opened": "2026-11-18T09:14:31+07:00",
    "zoo": "w_pause_scalp",
    "smart": 55,
    "kol": 4,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "5wSQpQfbdSKs7amvyxa2XTzWXNyionERZWdDWykYm1At": {
    "sym": "SOUVENIR",
    "qty": 1098.920997894962,
    "entry": 0.0002473,
-   "last": 0.00024296858681226025,
+   "last": 0.0002356,
    "peak": 0.0002473,
    "cost": 0.2801104543181036,
    "opened": "2026-11-18T09:19:25+07:00",
    "zoo": "w_pause_scalp",
    "smart": 47,
    "kol": 3,
-   "gap": 8,
+   "gap": 0,
+   "miss": 0
+  },
+  "5xhuX8VK8k8wGDdfFniWUzUQUSHjzKARosCGtEZypump": {
+   "sym": "KATIA",
+   "qty": 441.16512605092197,
+   "entry": 0.0006069,
+   "last": 0.0005912,
+   "peak": 0.0006069,
+   "cost": 0.2759669294993862,
+   "opened": "2026-11-18T09:24:06+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 2,
+   "kol": 0,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -5540,8 +5554,51 @@
    "zoo": "w_pause_scalp",
    "smart": 47,
    "kol": 3
+  },
+  {
+   "t": "2026-11-18T09:24:06+07:00",
+   "kind": "buy",
+   "mint": "4sTdeEFkQisRpWS9abeW8XvNFxxaTwCboFe9oDrNpump",
+   "sym": "NADJA",
+   "price": 9.998e-05,
+   "jup": 0.00010060728275005527,
+   "usd": 0.2768,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 64,
+   "kol": 8
+  },
+  {
+   "t": "2026-11-18T09:24:06+07:00",
+   "kind": "buy",
+   "mint": "5xhuX8VK8k8wGDdfFniWUzUQUSHjzKARosCGtEZypump",
+   "sym": "KATIA",
+   "price": 0.0006069,
+   "jup": 0.0006098378919928268,
+   "usd": 0.276,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 2,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-18T09:25:06+07:00",
+   "kind": "sell",
+   "mint": "4sTdeEFkQisRpWS9abeW8XvNFxxaTwCboFe9oDrNpump",
+   "sym": "NADJA",
+   "price": 7.728651456085396e-05,
+   "entry": 9.998e-05,
+   "usd": 0.2014,
+   "pnl": -0.0754,
+   "why": "stop -22.7%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 64,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794968318.4753518
+ "rank_t": 1794968592.9218495
 }

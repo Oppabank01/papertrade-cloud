@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.5361727316607094,
- "pos": {},
+ "cash": 2.2142345778673413,
+ "pos": {
+  "5xhuX8VK8k8wGDdfFniWUzUQUSHjzKARosCGtEZypump": {
+   "sym": "KATIA",
+   "qty": 404.2284086011096,
+   "entry": 0.0006069,
+   "last": 0.0005912,
+   "peak": 0.0006069,
+   "cost": 0.2528614936920361,
+   "opened": "2026-11-18T09:24:06+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 2,
+   "kol": 0,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-15T00:43:00+07:00",
@@ -6049,10 +6064,53 @@
    "cost_side": 0.03,
    "smart": 46,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T09:24:06+07:00",
+   "kind": "buy",
+   "mint": "4sTdeEFkQisRpWS9abeW8XvNFxxaTwCboFe9oDrNpump",
+   "sym": "NADJA",
+   "price": 9.998e-05,
+   "jup": 0.00010060728275005527,
+   "usd": 0.2536,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 64,
+   "kol": 8
+  },
+  {
+   "t": "2026-11-18T09:24:06+07:00",
+   "kind": "buy",
+   "mint": "5xhuX8VK8k8wGDdfFniWUzUQUSHjzKARosCGtEZypump",
+   "sym": "KATIA",
+   "price": 0.0006069,
+   "jup": 0.0006098378919928268,
+   "usd": 0.2529,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 2,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-18T09:25:06+07:00",
+   "kind": "sell",
+   "mint": "4sTdeEFkQisRpWS9abeW8XvNFxxaTwCboFe9oDrNpump",
+   "sym": "NADJA",
+   "price": 7.728651456085396e-05,
+   "entry": 9.998e-05,
+   "usd": 0.1845,
+   "pnl": -0.0691,
+   "why": "stop -22.7%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 64,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794968318.4753518,
+ "rank_t": 1794968592.9218495,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
