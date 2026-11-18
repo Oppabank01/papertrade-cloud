@@ -7,28 +7,28 @@
    "sym": "DOPE",
    "qty": 346.1406511632243,
    "entry": 0.0005865,
-   "last": 0.0005895,
+   "last": 0.0005766415606101058,
    "peak": 0.0005992,
    "cost": 0.20924705412000724,
    "opened": "2026-11-18T14:12:24+07:00",
    "zoo": "w_ban_scalp",
    "smart": 346,
    "kol": 22,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   },
   "Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump": {
    "sym": "COIL",
    "qty": 1099.036588898428,
    "entry": 0.0001841,
-   "last": 0.0001828,
+   "last": 0.00018449852287289164,
    "peak": 0.0001878,
    "cost": 0.2085473469554737,
    "opened": "2026-11-18T14:26:12+07:00",
    "zoo": "w_ban_scalp",
    "smart": 123,
    "kol": 9,
-   "gap": 0,
+   "gap": 4,
    "miss": 0
   },
   "39wVWdqCJWmHwpQS4Twx9GYmmhLSSKDPPJE7DM7Zpump": {
@@ -49,14 +49,14 @@
    "sym": "Rings",
    "qty": 346.6684024400736,
    "entry": 0.0005723,
-   "last": 0.0005586022594289536,
+   "last": 0.0005586279338793152,
    "peak": 0.0005772,
    "cost": 0.20449219410065358,
    "opened": "2026-11-18T15:27:36+07:00",
    "zoo": "w_ban_scalp",
    "smart": 88,
    "kol": 6,
-   "gap": 11,
+   "gap": 24,
    "miss": 0
   }
  },
@@ -6531,10 +6531,17 @@
    "zoo": "w_ban_scalp",
    "smart": 88,
    "kol": 6
+  },
+  {
+   "t": "2026-11-18T15:46:21+07:00",
+   "kind": "ban",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794991247.2826881,
+ "rank_t": 1794991541.181936,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
@@ -6560,6 +6567,7 @@
   "7Evw4uxTxLGGEFEvXLUNYyc1J7PnFk9EYwTUFagARUX": "ACRUX",
   "2pkr6bQnMP8jAAqFKW7orZHA783YhWaky3hZK8EUpump": "AICoin",
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": "DacityCoin",
-  "33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": "DOPE"
+  "33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": "DOPE",
+  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings"
  }
 }
