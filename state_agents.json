@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.15197758848381582,
+ "cash": 0.10133221591811362,
  "pos": {
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 23.865465067536856,
    "entry": 0.002139,
-   "last": 0.002174,
+   "last": 0.002162,
    "peak": 0.002228,
    "cost": 0.05261619231030852,
    "opened": "2026-11-18T06:52:50+07:00",
@@ -21,13 +21,27 @@
    "sym": "USELESS",
    "qty": 0.5223889236811649,
    "entry": 0.09471,
-   "last": 0.0945,
+   "last": 0.0941,
    "peak": 0.09471,
    "cost": 0.050995109216494666,
    "opened": "2026-11-18T08:16:56+07:00",
    "smart": 925,
    "kol": 295,
    "bundler": 0.0934,
+   "gap": 0,
+   "miss": 0
+  },
+  "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": {
+   "sym": "WISHMAS",
+   "qty": 224.16122474107792,
+   "entry": 0.0002192,
+   "last": 0.0002192,
+   "peak": 0.0002192,
+   "cost": 0.05064537256570221,
+   "opened": "2026-11-18T08:35:51+07:00",
+   "smart": 175,
+   "kol": 9,
+   "bundler": 0.0933,
    "gap": 0,
    "miss": 0
   }
@@ -61995,6 +62009,53 @@
    "buy": 0.8752,
    "bull": 0.8243,
    "bear": 0.9509
+  },
+  {
+   "t": "2026-11-18T08:35:48+07:00",
+   "kind": "debate",
+   "mint": "47mUZNAjSFA3nmxnRa1y7P9Jmi5WPWpVP1ACPQZqpump",
+   "sym": "Spud",
+   "ok": false,
+   "bundler": 0.2525,
+   "buy": 0.8141,
+   "bull": 0.9447,
+   "bear": 0.9999
+  },
+  {
+   "t": "2026-11-18T08:35:51+07:00",
+   "kind": "debate",
+   "mint": "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
+   "sym": "WISHMAS",
+   "ok": true,
+   "bundler": 0.0933,
+   "buy": 0.8833,
+   "bull": 0.9184,
+   "bear": 0.5292
+  },
+  {
+   "t": "2026-11-18T08:35:51+07:00",
+   "kind": "buy",
+   "mint": "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
+   "sym": "WISHMAS",
+   "price": 0.0002192,
+   "jup": 0.00021943456417680823,
+   "usd": 0.0506,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 175,
+   "kol": 9,
+   "bundler": 0.0933
+  },
+  {
+   "t": "2026-11-18T08:35:54+07:00",
+   "kind": "debate",
+   "mint": "EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump",
+   "sym": "LUNO",
+   "ok": false,
+   "bundler": 0.0741,
+   "buy": 0.9422,
+   "bull": 0.95,
+   "bear": 0.9999
   }
  ]
 }
