@@ -1,8 +1,22 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.6671764834934966,
- "pos": {},
+ "cash": 0.5337411867947972,
+ "pos": {
+  "2pkr6bQnMP8jAAqFKW7orZHA783YhWaky3hZK8EUpump": {
+   "sym": "AICoin",
+   "qty": 3164.481174702471,
+   "entry": 4.091e-05,
+   "last": 4.091e-05,
+   "peak": 4.091e-05,
+   "cost": 0.13343529669869933,
+   "opened": "2026-11-18T11:02:59+07:00",
+   "smart": 20,
+   "kol": 1,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -1008,8 +1022,21 @@
    "cost_side": 0.03,
    "smart": 12,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T11:02:59+07:00",
+   "kind": "buy",
+   "mint": "2pkr6bQnMP8jAAqFKW7orZHA783YhWaky3hZK8EUpump",
+   "sym": "AICoin",
+   "price": 4.091e-05,
+   "jup": 4.06032653902599e-05,
+   "usd": 0.1334,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 20,
+   "kol": 1
   }
  ],
  "label": "สูตร x_insider4 (คู่ใหม่ + top trader)",
- "rank_t": 1794974259.4871235
+ "rank_t": 1794974540.3997655
 }
