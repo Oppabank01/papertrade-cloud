@@ -1,47 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.5700536217993526,
+ "cash": 0.8350321799030349,
  "pos": {
-  "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
-   "sym": "Rocco",
-   "qty": 302.51890506099375,
-   "entry": 0.00105,
-   "last": 0.001048,
-   "peak": 0.001141,
-   "cost": 0.3274014124036729,
-   "opened": "2026-11-18T09:52:49+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 127,
-   "kol": 10,
-   "gap": 0,
-   "miss": 0
-  },
   "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
    "sym": "PAID",
    "qty": 217.7037264714714,
    "entry": 0.001409,
-   "last": 0.001404,
+   "last": 0.001402,
    "peak": 0.001462,
    "cost": 0.3161663065329863,
    "opened": "2026-11-18T10:49:32+07:00",
    "zoo": "w_pause_aged",
    "smart": 715,
    "kol": 96,
-   "gap": 8,
+   "gap": 0,
    "miss": 0
   },
-  "HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump": {
-   "sym": "DCI",
-   "qty": 547.9484819439466,
-   "entry": 0.0005314,
-   "last": 0.0005328,
-   "peak": 0.0005476787885545799,
-   "cost": 0.30012350371574237,
-   "opened": "2026-11-18T12:47:33+07:00",
+  "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
+   "sym": "baton",
+   "qty": 89.20548978240177,
+   "entry": 0.003213,
+   "last": 0.003213,
+   "peak": 0.003213,
+   "cost": 0.2954207778508111,
+   "opened": "2026-11-18T12:52:15+07:00",
    "zoo": "w_pause_aged",
-   "smart": 102,
-   "kol": 4,
+   "smart": 724,
+   "kol": 80,
    "gap": 0,
    "miss": 0
   }
@@ -4030,8 +4016,52 @@
    "zoo": "w_pause_aged",
    "smart": 102,
    "kol": 4
+  },
+  {
+   "t": "2026-11-18T12:52:15+07:00",
+   "kind": "buy",
+   "mint": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
+   "sym": "baton",
+   "price": 0.003213,
+   "jup": 0.0031948844239643153,
+   "usd": 0.2954,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 724,
+   "kol": 80
+  },
+  {
+   "t": "2026-11-18T12:52:50+07:00",
+   "kind": "sell",
+   "mint": "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
+   "sym": "Rocco",
+   "price": 0.001044,
+   "entry": 0.00105,
+   "usd": 0.3064,
+   "pnl": -0.021,
+   "why": "ครบ 3 ชม. (-0.6%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 127,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-18T12:54:11+07:00",
+   "kind": "sell",
+   "mint": "HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
+   "sym": "DCI",
+   "price": 0.00047775009992340254,
+   "entry": 0.0005314,
+   "usd": 0.254,
+   "pnl": -0.0461,
+   "why": "stop -10.1%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 102,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794980792.9482086
+ "rank_t": 1794981080.7186618
 }
