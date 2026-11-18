@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.20220452252642646,
+ "cash": 0.15005763780082593,
  "pos": {
   "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": {
    "sym": "GLITCH",
    "qty": 44.61120510790871,
    "entry": 0.001261,
-   "last": 0.001312,
+   "last": 0.001272,
    "peak": 0.001353,
    "cost": 0.057982611462660164,
    "opened": "2026-11-18T07:26:00+07:00",
@@ -15,6 +15,20 @@
    "smart": 45,
    "kol": 0,
    "gap": 0,
+   "miss": 0
+  },
+  "2tKjPFvzeWqBmmxjtGBb3zfb8zfFVePjpBhHbE2epump": {
+   "sym": "KIM",
+   "qty": 1686.4302520259214,
+   "entry": 3e-05,
+   "last": 2.9798820762543096e-05,
+   "peak": 3e-05,
+   "cost": 0.05214688472560054,
+   "opened": "2026-11-18T07:49:10+07:00",
+   "zoo": "rand",
+   "smart": 29,
+   "kol": 3,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -4800,8 +4814,22 @@
    "cost_side": 0.03,
    "smart": 719,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T07:49:10+07:00",
+   "kind": "buy",
+   "mint": "2tKjPFvzeWqBmmxjtGBb3zfb8zfFVePjpBhHbE2epump",
+   "sym": "KIM",
+   "price": 3e-05,
+   "jup": 2.9798820762543096e-05,
+   "usd": 0.0521,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "rand",
+   "smart": 29,
+   "kol": 3
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794962648.9455276
+ "rank_t": 1794962921.9070773
 }
