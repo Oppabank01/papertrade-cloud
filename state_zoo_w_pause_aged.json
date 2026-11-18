@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.6710435232294952,
+ "cash": 0.6347263398741916,
  "pos": {
   "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
    "sym": "CBUCKS",
    "qty": 90.09253329124117,
    "entry": 0.004234,
-   "last": 0.004323,
+   "last": 0.00425,
    "peak": 0.004447,
    "cost": 0.39316819826336336,
    "opened": "2026-11-18T05:47:25+07:00",
@@ -21,7 +21,7 @@
    "sym": "neet",
    "qty": 13.326497485897809,
    "entry": 0.0285,
-   "last": 0.02825,
+   "last": 0.02813,
    "peak": 0.0285,
    "cost": 0.3914710145826506,
    "opened": "2026-11-18T07:35:44+07:00",
@@ -31,18 +31,18 @@
    "gap": 0,
    "miss": 0
   },
-  "GM8EysYT8NRSsoULdeYShbRsUdhoUoiB9EN4eW3YETCH": {
-   "sym": "ETCHY",
-   "qty": 432.3995041365192,
-   "entry": 0.0008323,
-   "last": 0.0007803,
-   "peak": 0.0009102,
-   "cost": 0.37094012295694184,
-   "opened": "2026-11-18T07:59:03+07:00",
+  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
+   "sym": "Macca",
+   "qty": 156.7866404562589,
+   "entry": 0.002183,
+   "last": 0.002181,
+   "peak": 0.002183,
+   "cost": 0.3527780211461691,
+   "opened": "2026-11-18T08:12:52+07:00",
    "zoo": "w_pause_aged",
-   "smart": 100,
-   "kol": 6,
-   "gap": 3,
+   "smart": 173,
+   "kol": 12,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -3798,8 +3798,37 @@
    "cost_side": 0.03,
    "smart": 148,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T08:12:52+07:00",
+   "kind": "buy",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.002183,
+   "jup": 0.002181086805711176,
+   "usd": 0.3528,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 173,
+   "kol": 12
+  },
+  {
+   "t": "2026-11-18T08:13:32+07:00",
+   "kind": "sell",
+   "mint": "GM8EysYT8NRSsoULdeYShbRsUdhoUoiB9EN4eW3YETCH",
+   "sym": "ETCHY",
+   "price": 0.0007543510791312226,
+   "entry": 0.0008323,
+   "usd": 0.3165,
+   "pnl": -0.0545,
+   "why": "stop -9.4%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 100,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794964036.3496544
+ "rank_t": 1794964311.0799267
 }
