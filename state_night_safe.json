@@ -575,23 +575,25 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "state_wallets.json"
+  },
+  {
+   "t": "2026-11-19T03:36:20+07:00",
+   "kind": "sell",
+   "mint": "HFcyhe28iLYRhac2W5FBdtDGFunWDJesCR7f6EZJpump",
+   "sym": "MRPENIS",
+   "price": 6.06e-05,
+   "entry": 5.557e-05,
+   "usd": 3.0271,
+   "pnl": 0.0781,
+   "why": "trailing จากยอด +36% (+9.1%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
- "pos": {
-  "HFcyhe28iLYRhac2W5FBdtDGFunWDJesCR7f6EZJpump": {
-   "sym": "MRPENIS",
-   "qty": 51486.46606969184,
-   "entry": 5.557e-05,
-   "last": 6.635829134176445e-05,
-   "peak": 7.557994316965172e-05,
-   "cost": 2.9489826010026547,
-   "opened": "2026-11-19T01:47:15+07:00",
-   "source": "state_wallets.json",
-   "gap": 4,
-   "miss": 0
-  }
- },
- "cash": 11.795930404010617,
+ "pos": {},
+ "cash": 14.823031868488009,
  "start_usd": 14.744913005013272,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
