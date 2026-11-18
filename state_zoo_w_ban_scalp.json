@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.7166706275503745,
- "pos": {},
+ "cash": 1.4980401176418787,
+ "pos": {
+  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
+   "sym": "mihao",
+   "qty": 23.574152057315974,
+   "entry": 0.007065,
+   "last": 0.007066,
+   "peak": 0.007066,
+   "cost": 0.17166706275503746,
+   "opened": "2026-11-19T04:10:27+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 734,
+   "kol": 70,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-15T00:43:00+07:00",
@@ -7258,10 +7273,53 @@
    "cost_side": 0.03,
    "smart": 181,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T04:10:27+07:00",
+   "kind": "buy",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.007065,
+   "jup": 0.007092609131198604,
+   "usd": 0.1717,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 734,
+   "kol": 70
+  },
+  {
+   "t": "2026-11-19T04:10:29+07:00",
+   "kind": "buy",
+   "mint": "EhjRG9DDTeP9z9N8UByx1FGpXNCVKidHXsVwkQ4jpump",
+   "sym": "Mabel",
+   "price": 0.0003024,
+   "jup": 0.0003038591122842418,
+   "usd": 0.1712,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 56,
+   "kol": 2
+  },
+  {
+   "t": "2026-11-19T04:12:25+07:00",
+   "kind": "sell",
+   "mint": "EhjRG9DDTeP9z9N8UByx1FGpXNCVKidHXsVwkQ4jpump",
+   "sym": "Mabel",
+   "price": 0.00023311068882442623,
+   "entry": 0.0003024,
+   "usd": 0.1242,
+   "pnl": -0.047,
+   "why": "stop -22.9%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 56,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795035869.1909165,
+ "rank_t": 1795036151.3571754,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
