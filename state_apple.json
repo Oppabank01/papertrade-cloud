@@ -1,21 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.778627460871233,
- "pos": {
-  "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": {
-   "sym": "rockstar",
-   "qty": 3227.587990426994,
-   "entry": 0.0003657,
-   "last": 0.0004382,
-   "peak": 0.0004906793139042163,
-   "cost": 1.2165831046167306,
-   "opened": "2026-11-18T04:09:50+07:00",
-   "source": "agents",
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 2.104106982673534,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T09:54:41+07:00",
@@ -779,6 +766,21 @@
    "usd": 0.7786,
    "pnl": -0.5836,
    "why": "stop -39.3%",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-18T11:54:31+07:00",
+   "kind": "sell",
+   "mint": "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump",
+   "sym": "rockstar",
+   "price": 0.0004232857628630213,
+   "entry": 0.0003657,
+   "usd": 1.3255,
+   "pnl": 0.1089,
+   "why": "trailing จากยอด +34% (+15.7%)",
    "stop_set": -0.18,
    "cost_side": 0.03,
    "smart": null,

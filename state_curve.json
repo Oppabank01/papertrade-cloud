@@ -1,20 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 1.5942194485698518,
- "pos": {
-  "FZEGhrBuyWKi87jjhUq7gSvqHmoPMYozHawpnxrXpump": {
-   "sym": "GPACK",
-   "qty": 28876.76431136,
-   "entry": 1.208411140918593e-05,
-   "last": 1.208411140918593e-05,
-   "peak": 1.208411140918593e-05,
-   "cost": 0.39855486214246294,
-   "curve": "CyPu2ZX9CX6gnEGqUff63BcbSbn4QPHEfMRfAwsKsKx8",
-   "opened": "2026-11-18T11:50:27+07:00",
-   "wallet": "8XzVYj"
-  }
- },
+ "cash": 1.7435981565053582,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T21:07:09+07:00",
@@ -3405,6 +3393,20 @@
    "lag_min_after_skip": 0.1,
    "stop_set": -0.08,
    "cost_side": 0.0325
+  },
+  {
+   "t": "2026-11-18T11:54:54+07:00",
+   "kind": "sell",
+   "mint": "FZEGhrBuyWKi87jjhUq7gSvqHmoPMYozHawpnxrXpump",
+   "sym": "GPACK",
+   "price": 6.686791951605754e-06,
+   "entry": 1.208411140918593e-05,
+   "usd": 0.1494,
+   "pnl": -0.2492,
+   "why": "stop -44.7%",
+   "stop_set": -0.08,
+   "cost_side": 0.0325,
+   "graduated": false
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ บน bonding curve",
