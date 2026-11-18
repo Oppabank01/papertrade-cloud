@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.2340986302802204,
- "pos": {
-  "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": {
-   "sym": "BUTTHOLE",
-   "qty": 1189.9003574318567,
-   "entry": 0.0002024,
-   "last": 0.0002153,
-   "peak": 0.0002268,
-   "cost": 0.24823318114224674,
-   "opened": "2026-11-19T03:04:32+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 112,
-   "kol": 11,
-   "gap": 1,
-   "miss": 0
-  }
- },
+ "cash": 2.503776124216119,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-15T00:43:00+07:00",
@@ -6644,10 +6629,25 @@
    "zoo": "w_pause_scalp",
    "smart": 112,
    "kol": 11
+  },
+  {
+   "t": "2026-11-19T03:55:44+07:00",
+   "kind": "sell",
+   "mint": "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump",
+   "sym": "BUTTHOLE",
+   "price": 0.0002336,
+   "entry": 0.0002024,
+   "usd": 0.2697,
+   "pnl": 0.0214,
+   "why": "ถึงเป้า +15.4%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 112,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795034974.5718586,
+ "rank_t": 1795035271.5917456,
  "halted": "ราคา BUTTHOLE สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-19T04:47:09+07:00"
 }

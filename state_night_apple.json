@@ -363,10 +363,35 @@
    "cost_side": 0.03,
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T03:55:54+07:00",
+   "kind": "buy",
+   "mint": "EBCpGdXuS34WZuX13thrku2KmuLSe3Tf2gMtMKndpump",
+   "sym": "maxi",
+   "price": 7.046e-05,
+   "jup": 6.991150716846928e-05,
+   "usd": 9.6071,
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "source": "state_wallets.json"
   }
  ],
- "pos": {},
- "cash": 16.011780936538926,
+ "pos": {
+  "EBCpGdXuS34WZuX13thrku2KmuLSe3Tf2gMtMKndpump": {
+   "sym": "maxi",
+   "qty": 132284.67100167528,
+   "entry": 7.046e-05,
+   "last": 7.046e-05,
+   "peak": 7.046e-05,
+   "cost": 9.607068561923356,
+   "opened": "2026-11-19T03:55:54+07:00",
+   "source": "state_wallets.json",
+   "gap": 0,
+   "miss": 0
+  }
+ },
+ "cash": 6.4047123746155705,
  "start_usd": 14.744913005013272,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
@@ -712,7 +737,8 @@
   "state_wallets.json:2026-11-18T09:33:03+07:00:TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
   "state_wallets.json:2026-11-18T09:47:26+07:00:BPxxfRCXkUVhig4HS1Lh7kZqV6SPJhzfEk4x6fVBjPCy",
   "state_wallets.json:2026-11-19T01:08:41+07:00:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump",
-  "state_wallets.json:2026-11-19T01:46:33+07:00:HFcyhe28iLYRhac2W5FBdtDGFunWDJesCR7f6EZJpump"
+  "state_wallets.json:2026-11-19T01:46:33+07:00:HFcyhe28iLYRhac2W5FBdtDGFunWDJesCR7f6EZJpump",
+  "state_wallets.json:2026-11-19T03:55:17+07:00:EBCpGdXuS34WZuX13thrku2KmuLSe3Tf2gMtMKndpump"
  ],
  "session": {
   "night": "2026-11-18",
