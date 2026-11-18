@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.2288328392987715,
+ "cash": 4.658512241519106,
  "pos": {
   "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": {
    "sym": "fone",
    "qty": 1128.9940046601298,
    "entry": 0.0008826,
-   "last": 0.0007714,
+   "last": 0.0007635,
    "peak": 0.0009561,
    "cost": 1.0270563889023199,
    "opened": "2026-11-16T22:14:56+07:00",
@@ -17,25 +17,11 @@
    "gap": 0,
    "miss": 0
   },
-  "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
-   "sym": "Max",
-   "qty": 1005.5216700458648,
-   "entry": 0.000992,
-   "last": 0.0013809401945082498,
-   "peak": 0.001811,
-   "cost": 1.0281153336276005,
-   "opened": "2026-11-18T01:20:06+07:00",
-   "zoo": "w_ban_smartflow",
-   "smart": 460,
-   "kol": 42,
-   "gap": 1,
-   "miss": 0
-  },
   "CRKqYn9bnEZaXK6K2uk627szTFjait52RXeY6CEnpump": {
    "sym": "DOUG",
    "qty": 22142.462428909694,
    "entry": 7.381e-05,
-   "last": 7.177e-05,
+   "last": 7.256e-05,
    "peak": 9.347e-05,
    "cost": 1.6845342732197737,
    "opened": "2026-11-18T09:33:24+07:00",
@@ -43,20 +29,6 @@
    "smart": 37,
    "kol": 3,
    "gap": 0,
-   "miss": 0
-  },
-  "GwZaMuX8KeF6cEfQcV6oWyVhKszRpZojFzB6qTQW4UCD": {
-   "sym": "NVIDIANS",
-   "qty": 17645.07897983532,
-   "entry": 9.073e-05,
-   "last": 8.443e-05,
-   "peak": 0.0001073,
-   "cost": 1.6501113335811775,
-   "opened": "2026-11-18T09:42:43+07:00",
-   "zoo": "w_ban_smartflow",
-   "smart": 86,
-   "kol": 4,
-   "gap": 2,
    "miss": 0
   }
  },
@@ -1522,10 +1494,40 @@
    "zoo": "w_ban_smartflow",
    "smart": 86,
    "kol": 4
+  },
+  {
+   "t": "2026-11-18T10:50:01+07:00",
+   "kind": "sell",
+   "mint": "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump",
+   "sym": "Max",
+   "price": 0.0013565558751397894,
+   "entry": 0.000992,
+   "usd": 1.3234,
+   "pnl": 0.2953,
+   "why": "trailing จากยอด +83% (+36.7%)",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 460,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-18T10:51:43+07:00",
+   "kind": "sell",
+   "mint": "GwZaMuX8KeF6cEfQcV6oWyVhKszRpZojFzB6qTQW4UCD",
+   "sym": "NVIDIANS",
+   "price": 6.462206522872531e-05,
+   "entry": 9.073e-05,
+   "usd": 1.1063,
+   "pnl": -0.5438,
+   "why": "stop -28.8%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 86,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794973415.090743,
+ "rank_t": 1794973695.6152966,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
