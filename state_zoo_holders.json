@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.906778416501403,
+ "cash": 1.2011329951665335,
  "pos": {
-  "4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": {
-   "sym": "BAWSAQ",
-   "qty": 578.4476123762291,
-   "entry": 0.0005257,
-   "last": 0.0005489,
-   "peak": 0.0006422,
-   "cost": 0.3134301276295441,
-   "opened": "2026-11-18T07:03:12+07:00",
-   "zoo": "holders",
-   "smart": 163,
-   "kol": 8,
-   "gap": 0,
-   "miss": 0
-  },
   "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
    "sym": "Max",
    "qty": 209.26219668766922,
    "entry": 0.001424,
-   "last": 0.001424,
+   "last": 0.001389,
    "peak": 0.001424,
    "cost": 0.30714220581657486,
    "opened": "2026-11-18T08:55:24+07:00",
@@ -3991,8 +3977,23 @@
    "zoo": "holders",
    "smart": 460,
    "kol": 42
+  },
+  {
+   "t": "2026-11-18T09:00:13+07:00",
+   "kind": "sell",
+   "mint": "4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump",
+   "sym": "BAWSAQ",
+   "price": 0.0005245,
+   "entry": 0.0005257,
+   "usd": 0.2944,
+   "pnl": -0.0191,
+   "why": "trailing จากยอด +22% (-0.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 163,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794966888.079197
+ "rank_t": 1794967162.6970992
 }

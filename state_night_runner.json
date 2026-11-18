@@ -36,6 +36,15 @@
    "trades": 3,
    "wins": 0,
    "ended": "09:00"
+  },
+  {
+   "night": "2026-11-17",
+   "start_usd": 14.7842,
+   "end_usd": 14.0503,
+   "ret": -0.0496,
+   "trades": 2,
+   "wins": 0,
+   "ended": "09:00"
   }
  ],
  "log": [
@@ -370,35 +379,30 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "state_wallets.json"
+  },
+  {
+   "t": "2026-11-18T09:00:35+07:00",
+   "kind": "sell",
+   "mint": "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg",
+   "sym": "USOI",
+   "price": 0.006323,
+   "usd": 5.5735,
+   "pnl": -0.3402,
+   "why": "ปิดรอบเช้า"
+  },
+  {
+   "t": "2026-11-18T09:00:35+07:00",
+   "kind": "sell",
+   "mint": "GTA6ot7gjnojk8WwAoxKrqDkrLtCPtSfzAikk6zu2koH",
+   "sym": "GTA6",
+   "price": 1.0047,
+   "usd": 5.4524,
+   "pnl": -0.3937,
+   "why": "ปิดรอบเช้า"
   }
  ],
- "pos": {
-  "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg": {
-   "sym": "USOI",
-   "qty": 908.5405338588672,
-   "entry": 0.006315,
-   "last": 0.00632,
-   "peak": 0.006381,
-   "cost": 5.913660555884093,
-   "opened": "2026-11-18T01:53:07+07:00",
-   "source": "state_recipe_insider.json",
-   "gap": 0,
-   "miss": 0
-  },
-  "GTA6ot7gjnojk8WwAoxKrqDkrLtCPtSfzAikk6zu2koH": {
-   "sym": "GTA6",
-   "qty": 5.5935541968675215,
-   "entry": 1.014,
-   "last": 1.0013,
-   "peak": 1.027,
-   "cost": 5.8460770517663025,
-   "opened": "2026-11-18T02:54:53+07:00",
-   "source": "state_wallets.json",
-   "gap": 0,
-   "miss": 0
-  }
- },
- "cash": 3.0244137820598347,
+ "pos": {},
+ "cash": 14.050296017466213,
  "start_usd": 14.78415138971023,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
@@ -735,6 +739,7 @@
  "session": {
   "night": "2026-11-17",
   "t": "2026-11-17T21:03:18+07:00",
-  "start_usd": 14.78415138971023
+  "start_usd": 14.78415138971023,
+  "closed": true
  }
 }

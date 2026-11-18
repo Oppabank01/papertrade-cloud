@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.21427094352699458,
- "pos": {
-  "HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": {
-   "sym": "Marvin",
-   "qty": 157.87186316060917,
-   "entry": 0.0003292,
-   "last": 0.0003086,
-   "peak": 0.0003292,
-   "cost": 0.05356773588174865,
-   "opened": "2026-11-18T08:45:52+07:00",
-   "zoo": "rand",
-   "smart": 162,
-   "kol": 11,
-   "gap": 1,
-   "miss": 0
-  }
- },
+ "cash": 0.2566589640060531,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T00:41:59+07:00",
@@ -4858,8 +4843,23 @@
    "zoo": "rand",
    "smart": 162,
    "kol": 11
+  },
+  {
+   "t": "2026-11-18T09:00:07+07:00",
+   "kind": "sell",
+   "mint": "HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump",
+   "sym": "Marvin",
+   "price": 0.00027674330983507657,
+   "entry": 0.0003292,
+   "usd": 0.0424,
+   "pnl": -0.0112,
+   "why": "stop -15.9%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 162,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
- "rank_t": 1794966888.079197
+ "rank_t": 1794967162.6970992
 }
