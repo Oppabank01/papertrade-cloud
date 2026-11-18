@@ -10174,7 +10174,7 @@
 "p0": 0.04302,
 "hi": 0.04666,
 "lo": 0.04095,
-"last": 0.04095,
+"last": 0.04135,
 "out": null
 },
 {
@@ -10302,8 +10302,8 @@
 "t0": 1794938471.618397,
 "p0": 0.003708,
 "hi": 0.004269,
-"lo": 0.003457,
-"last": 0.003457,
+"lo": 0.003436,
+"last": 0.003436,
 "out": null
 },
 {
@@ -10601,7 +10601,7 @@
 "p0": 0.002946,
 "hi": 0.003223,
 "lo": 0.002773,
-"last": 0.002793,
+"last": 0.002826,
 "out": null
 },
 {
@@ -10860,7 +10860,7 @@
 "p0": 0.006504,
 "hi": 0.007498,
 "lo": 0.006022,
-"last": 0.006666,
+"last": 0.006458,
 "out": null
 },
 {
@@ -11041,7 +11041,7 @@
 "p0": 0.004707,
 "hi": 0.005061,
 "lo": 0.004691,
-"last": 0.004846,
+"last": 0.004725,
 "out": null
 },
 {
@@ -11170,7 +11170,7 @@
 "p0": 0.09521,
 "hi": 0.1012,
 "lo": 0.0924,
-"last": 0.09267,
+"last": 0.09338,
 "out": null
 },
 {
@@ -11468,7 +11468,7 @@
 "p0": 0.04386,
 "hi": 0.04404,
 "lo": 0.04149,
-"last": 0.04149,
+"last": 0.04157,
 "out": null
 },
 {
@@ -11570,9 +11570,10 @@
 "t0": 1795007056.2302175,
 "p0": 0.002828,
 "hi": 0.003103,
-"lo": 0.002625,
-"last": 0.002625,
-"out": null
+"lo": 0.002581,
+"last": 0.002581,
+"out": "stop",
+"ret": -0.08734087694483728
 },
 {
 "mint": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -11583,7 +11584,7 @@
 "p0": 0.003229,
 "hi": 0.003752,
 "lo": 0.003229,
-"last": 0.003503,
+"last": 0.003553,
 "out": null
 },
 {
@@ -11788,9 +11789,9 @@
 "why": "เทรดเดอร์ที่เป็นบอตซื้อพร้อมกัน (bundler) 28.8% เกิน 15%",
 "t0": 1795017655.720094,
 "p0": 0.001462,
-"hi": 0.001527,
+"hi": 0.001647,
 "lo": 0.001447,
-"last": 0.00148,
+"last": 0.001647,
 "out": null
 },
 {
@@ -11818,5 +11819,209 @@
 "last": 0.001138,
 "out": "stop",
 "ret": -0.20140350877192992
+},
+{
+"mint": "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump",
+"sym": "DCTY",
+"stage": "safety",
+"why": "pool หลักจับคู่กับ TTWO ไม่ใช่ SOL/USDC/USDT",
+"t0": 1795021383.8431742,
+"p0": 0.01244,
+"hi": 0.01244,
+"lo": 0.01244,
+"last": 0.01244,
+"out": null
+},
+{
+"mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+"sym": "DacityCoin",
+"stage": "safety",
+"why": "pool หลักจับคู่กับ TTWO ไม่ใช่ SOL/USDC/USDT",
+"t0": 1795021383.8431742,
+"p0": 0.0009599,
+"hi": 0.0009599,
+"lo": 0.0009599,
+"last": 0.0009599,
+"out": null
+},
+{
+"mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+"sym": "GTA6",
+"stage": "safety",
+"why": "เทรดเดอร์ที่เป็นบอตซื้อพร้อมกัน (bundler) 32.4% เกิน 15%",
+"t0": 1795021383.8431742,
+"p0": 0.008245,
+"hi": 0.008245,
+"lo": 0.008245,
+"last": 0.008245,
+"out": null
+},
+{
+"mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+"sym": "mihao",
+"stage": "safety",
+"why": "เทรดเดอร์ที่เป็นบอตซื้อพร้อมกัน (bundler) 52.9% เกิน 15%",
+"t0": 1795021383.8431742,
+"p0": 0.007371,
+"hi": 0.007371,
+"lo": 0.007371,
+"last": 0.007371,
+"out": null
+},
+{
+"mint": "3tjPCXfx3KrgMY53yo7pa67D2QQZMbLTRaqQckJmpump",
+"sym": "VTC",
+"stage": "entry",
+"why": "ซื้อ/ขาย 1 ชม. 5448/8203 ต่ำกว่า 1.3",
+"t0": 1795021383.8431742,
+"p0": 0.001881,
+"hi": 0.001881,
+"lo": 0.001881,
+"last": 0.001881,
+"out": null
+},
+{
+"mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+"sym": "WASTED",
+"stage": "safety",
+"why": "เทรดเดอร์ที่เป็นกระเป๋าล่อ (entrapment) 55.5% เกิน 50%",
+"t0": 1795021383.8431742,
+"p0": 0.001188,
+"hi": 0.001188,
+"lo": 0.001188,
+"last": 0.001188,
+"out": null
+},
+{
+"mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+"sym": "Macca",
+"stage": "safety",
+"why": "pool หลักจับคู่กับ TTWO ไม่ใช่ SOL/USDC/USDT",
+"t0": 1795021383.8431742,
+"p0": 0.0007298,
+"hi": 0.0007298,
+"lo": 0.0007298,
+"last": 0.0007298,
+"out": null
+},
+{
+"mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+"sym": "GATO",
+"stage": "safety",
+"why": "เทรดเดอร์ที่เป็นกระเป๋าล่อ (entrapment) 55.6% เกิน 50%",
+"t0": 1795021383.8431742,
+"p0": 0.00256,
+"hi": 0.00256,
+"lo": 0.00256,
+"last": 0.00256,
+"out": null
+},
+{
+"mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+"sym": "FLOAT",
+"stage": "safety",
+"why": "เทรดเดอร์ที่เป็นบอตซื้อพร้อมกัน (bundler) 49.4% เกิน 15%",
+"t0": 1795021383.8431742,
+"p0": 0.001348,
+"hi": 0.001348,
+"lo": 0.001348,
+"last": 0.001348,
+"out": null
+},
+{
+"mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+"sym": "NIO",
+"stage": "safety",
+"why": "เทรดเดอร์ที่เป็นบอตซื้อพร้อมกัน (bundler) 20.0% เกิน 15%",
+"t0": 1795021383.8431742,
+"p0": 0.001679,
+"hi": 0.001679,
+"lo": 0.001679,
+"last": 0.001679,
+"out": null
+},
+{
+"mint": "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump",
+"sym": "Max",
+"stage": "safety",
+"why": "เทรดเดอร์ที่เป็นบอตซื้อพร้อมกัน (bundler) 46.0% เกิน 15%",
+"t0": 1795021383.8431742,
+"p0": 0.001472,
+"hi": 0.001472,
+"lo": 0.001472,
+"last": 0.001472,
+"out": null
+},
+{
+"mint": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
+"sym": "JOB",
+"stage": "entry",
+"why": "แรงซื้อสุทธิ 1h ไม่เป็นบวก",
+"t0": 1795021383.8431742,
+"p0": 0.002581,
+"hi": 0.002581,
+"lo": 0.002581,
+"last": 0.002581,
+"out": null
+},
+{
+"mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+"sym": "CATE",
+"stage": "safety",
+"why": "เทรดเดอร์ที่เป็นบอตซื้อพร้อมกัน (bundler) 48.6% เกิน 15%",
+"t0": 1795021383.8431742,
+"p0": 0.01831,
+"hi": 0.01831,
+"lo": 0.01831,
+"last": 0.01831,
+"out": null
+},
+{
+"mint": "HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7",
+"sym": "MASK",
+"stage": "safety",
+"why": "pool หลักจับคู่กับ ZEC ไม่ใช่ SOL/USDC/USDT",
+"t0": 1795021383.8431742,
+"p0": 0.0163,
+"hi": 0.0163,
+"lo": 0.0163,
+"last": 0.0163,
+"out": null
+},
+{
+"mint": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
+"sym": "OTC",
+"stage": "safety",
+"why": "เทรดเดอร์ที่เป็นบอตซื้อพร้อมกัน (bundler) 17.4% เกิน 15%",
+"t0": 1795021383.8431742,
+"p0": 0.002549,
+"hi": 0.002549,
+"lo": 0.002549,
+"last": 0.002549,
+"out": null
+},
+{
+"mint": "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump",
+"sym": "BUTTHOLE",
+"stage": "safety",
+"why": "pool หลักจับคู่กับ ANTHROPIC ไม่ใช่ SOL/USDC/USDT",
+"t0": 1795021383.8431742,
+"p0": 0.0001541,
+"hi": 0.0001541,
+"lo": 0.0001541,
+"last": 0.0001541,
+"out": null
+},
+{
+"mint": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+"sym": "BTC",
+"stage": "safety",
+"why": "pool หลักจับคู่กับ WBTC ไม่ใช่ SOL/USDC/USDT",
+"t0": 1795021383.8431742,
+"p0": 0.001234,
+"hi": 0.001234,
+"lo": 0.001234,
+"last": 0.001234,
+"out": null
 }
 ]
