@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.22632897731097423,
- "pos": {
-  "79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump": {
-   "sym": "Apocrycoin",
-   "qty": 189.6238115605416,
-   "entry": 0.0002895,
-   "last": 0.0002895,
-   "peak": 0.0002895,
-   "cost": 0.05658224432774356,
-   "opened": "2026-11-18T22:55:48+07:00",
-   "smart": 58,
-   "kol": 4,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 0.242756818315715,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -2611,8 +2597,23 @@
    "cost_side": 0.03,
    "smart": 58,
    "kol": 4
+  },
+  {
+   "t": "2026-11-18T23:00:56+07:00",
+   "kind": "sell",
+   "mint": "79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump",
+   "sym": "Apocrycoin",
+   "price": 8.929483697278446e-05,
+   "entry": 0.0002895,
+   "usd": 0.0164,
+   "pnl": -0.0402,
+   "why": "stop -69.2%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 58,
+   "bundler": null
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1795017318.7991064
+ "rank_t": 1795017623.272729
 }
