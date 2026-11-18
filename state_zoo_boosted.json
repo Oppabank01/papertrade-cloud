@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.13806349898454323,
+ "cash": 0.059188227274359725,
  "pos": {
   "8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": {
    "sym": "WEALTH",
@@ -21,7 +21,7 @@
    "sym": "2027",
    "qty": 218.8501415018496,
    "entry": 0.000397,
-   "last": 0.0003862,
+   "last": 0.0003839,
    "peak": 0.0004,
    "cost": 0.08955216056095061,
    "opened": "2026-11-18T17:02:07+07:00",
@@ -35,13 +35,27 @@
    "sym": "PUMPCADE",
    "qty": 5.166499776152723,
    "entry": 0.01672,
-   "last": 0.01708,
+   "last": 0.01718,
    "peak": 0.01725,
    "cost": 0.08903718435093129,
    "opened": "2026-11-18T17:25:46+07:00",
    "zoo": "boosted",
    "smart": 123,
    "kol": 19,
+   "gap": 0,
+   "miss": 0
+  },
+  "4ULpYvaTGRq1KnaCiPhz52nyQFx86wN1vqqX3ny8refu": {
+   "sym": "REFU",
+   "qty": 294.8932123823508,
+   "entry": 0.0002595,
+   "last": 0.0002595,
+   "peak": 0.0002595,
+   "cost": 0.0788752717101835,
+   "opened": "2026-11-18T19:30:22+07:00",
+   "zoo": "boosted",
+   "smart": 34,
+   "kol": 3,
    "gap": 0,
    "miss": 0
   }
@@ -5043,8 +5057,22 @@
    "cost_side": 0.03,
    "smart": 295,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T19:30:22+07:00",
+   "kind": "buy",
+   "mint": "4ULpYvaTGRq1KnaCiPhz52nyQFx86wN1vqqX3ny8refu",
+   "sym": "REFU",
+   "price": 0.0002595,
+   "jup": 0.00025828414370908034,
+   "usd": 0.0789,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 34,
+   "kol": 3
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1795004662.236814
+ "rank_t": 1795004974.377547
 }
