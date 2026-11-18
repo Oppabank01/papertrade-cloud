@@ -1,8 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 1.241755274036909,
- "pos": {},
+ "cash": 0.9934042192295273,
+ "pos": {
+  "8mXy9f3K6cCVC2VvcEfpmUiWkeHkoPYSGR2sBrsZpump": {
+   "sym": "GTAL",
+   "qty": 23592.09197293375,
+   "entry": 8.639266897422386e-06,
+   "last": 8.639266897422386e-06,
+   "peak": 8.639266897422386e-06,
+   "cost": 0.24835105480738184,
+   "curve": "AZYVgD1KbCMfLvp3Y6AfDVXGMeuNMwxtUkEsXfJnGbRh",
+   "opened": "2026-11-18T17:44:43+07:00",
+   "wallet": "2kN7bb"
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T21:07:09+07:00",
@@ -3609,8 +3621,31 @@
    "sym": "Whitepill",
    "wallet": "7g5CJ7",
    "why": "not on a SOL pump.fun curve"
+  },
+  {
+   "t": "2026-11-18T17:44:43+07:00",
+   "kind": "skip",
+   "mint": "FfsmhbvkTZ2TBYTuLgYCWiwhqeosVyH3imuUtWWypump",
+   "sym": "clipping",
+   "wallet": "2kN7bb",
+   "why": "not on a SOL pump.fun curve"
+  },
+  {
+   "t": "2026-11-18T17:44:43+07:00",
+   "kind": "buy",
+   "mint": "8mXy9f3K6cCVC2VvcEfpmUiWkeHkoPYSGR2sBrsZpump",
+   "sym": "GTAL",
+   "price": 8.639266897422386e-06,
+   "jup": 8.587e-06,
+   "usd": 0.2484,
+   "curve_sol": 31.09,
+   "wallet": "2kN7bb",
+   "wallet_usd": 343,
+   "lag_min_after_skip": 0.1,
+   "stop_set": -0.08,
+   "cost_side": 0.0325
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ บน bonding curve",
- "seen_t": "2026-11-18T17:39:31+07:00"
+ "seen_t": "2026-11-18T17:44:39+07:00"
 }
