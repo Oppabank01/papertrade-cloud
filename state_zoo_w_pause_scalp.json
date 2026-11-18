@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.7622354115524481,
+ "cash": 1.5140514262088645,
  "pos": {
   "3wtGGWZ8wLWW6BqtC5rxmkHdqvM62atUcGTH4cw3pump": {
    "sym": "ALPHA",
@@ -21,27 +21,41 @@
    "sym": "CLAUDIA",
    "qty": 37.48756286727211,
    "entry": 0.006506,
-   "last": 0.006363840514775091,
+   "last": 0.00631,
    "peak": 0.006521,
    "cost": 0.2513853679802848,
    "opened": "2026-11-18T16:24:34+07:00",
    "zoo": "w_pause_scalp",
    "smart": 488,
    "kol": 30,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "6dhKENbCU9M9hsjvsG7GahMmxVXpRKkf3Q7zCXgUpump": {
    "sym": "DTC",
    "qty": 973.2409632785891,
    "entry": 0.0002493,
-   "last": 0.0002428,
+   "last": 0.0002144,
    "peak": 0.0002509,
    "cost": 0.2500813977997859,
    "opened": "2026-11-18T16:33:55+07:00",
    "zoo": "w_pause_scalp",
    "smart": 78,
    "kol": 5,
+   "gap": 1,
+   "miss": 0
+  },
+  "A9FBHUz352WGYC3GUpPdQe1bKUCLojvLMsa5uxatuYwn": {
+   "sym": "AFTERHOURS",
+   "qty": 1126.230601404794,
+   "entry": 0.0002138,
+   "last": 0.0002054,
+   "peak": 0.0002138,
+   "cost": 0.24818398534358377,
+   "opened": "2026-11-18T16:48:11+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 36,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -5994,8 +6008,22 @@
    "zoo": "w_pause_scalp",
    "smart": 78,
    "kol": 5
+  },
+  {
+   "t": "2026-11-18T16:48:11+07:00",
+   "kind": "buy",
+   "mint": "A9FBHUz352WGYC3GUpPdQe1bKUCLojvLMsa5uxatuYwn",
+   "sym": "AFTERHOURS",
+   "price": 0.0002138,
+   "jup": 0.00021384488900721862,
+   "usd": 0.2482,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 36,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794994949.2907202
+ "rank_t": 1794995240.2984664
 }
