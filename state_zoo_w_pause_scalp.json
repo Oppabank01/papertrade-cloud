@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.3496792552504555,
- "pos": {
-  "6FhVPctYg363pQbs4iSvqyHe2cJzfsvFD96gePy6pump": {
-   "sym": "EXFIL",
-   "qty": 95.42211648448908,
-   "entry": 0.002482,
-   "last": 0.002473,
-   "peak": 0.002576,
-   "cost": 0.2441122378009708,
-   "opened": "2026-11-18T16:57:57+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 103,
-   "kol": 9,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 2.578625978273426,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-15T00:43:00+07:00",
@@ -6083,10 +6068,25 @@
    "cost_side": 0.03,
    "smart": 72,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T18:58:14+07:00",
+   "kind": "sell",
+   "mint": "6FhVPctYg363pQbs4iSvqyHe2cJzfsvFD96gePy6pump",
+   "sym": "EXFIL",
+   "price": 0.002473,
+   "entry": 0.002482,
+   "usd": 0.2289,
+   "pnl": -0.0152,
+   "why": "ครบ 2 ชม. (-0.4%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 103,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795002678.308813,
+ "rank_t": 1795002956.6397064,
  "halted": "ราคา ALPHA สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-18T18:58:46+07:00"
 }
