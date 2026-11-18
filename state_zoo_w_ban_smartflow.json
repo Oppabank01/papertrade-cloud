@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.4759849865285766,
+ "cash": 2.5833368604331004,
  "pos": {
   "2pkr6bQnMP8jAAqFKW7orZHA783YhWaky3hZK8EUpump": {
    "sym": "AICoin",
@@ -14,6 +14,20 @@
    "zoo": "w_ban_smartflow",
    "smart": 20,
    "kol": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "HgDMWzq998ZKB61zAtfutgToKjLbiwcufoRh376Dpump": {
+   "sym": "FISH",
+   "qty": 26590.335030329472,
+   "entry": 3.257e-05,
+   "last": 3.261e-05,
+   "peak": 3.331e-05,
+   "cost": 0.8926481260954762,
+   "opened": "2026-11-19T03:41:20+07:00",
+   "zoo": "w_ban_smartflow",
+   "smart": 76,
+   "kol": 5,
    "gap": 0,
    "miss": 0
   }
@@ -2503,10 +2517,24 @@
    "cost_side": 0.03,
    "smart": 35,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T03:41:20+07:00",
+   "kind": "buy",
+   "mint": "HgDMWzq998ZKB61zAtfutgToKjLbiwcufoRh376Dpump",
+   "sym": "FISH",
+   "price": 3.257e-05,
+   "jup": 3.252933407048889e-05,
+   "usd": 0.8926,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "w_ban_smartflow",
+   "smart": 76,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795034125.4676142,
+ "rank_t": 1795034407.8392704,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
