@@ -21,21 +21,21 @@
    "sym": "HIGH",
    "qty": 2588.6627047738216,
    "entry": 0.0003973,
-   "last": 0.00036948458830351506,
+   "last": 0.0003719,
    "peak": 0.00046633838485585303,
    "cost": 1.0600656489452065,
    "opened": "2026-11-18T17:02:28+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 125,
    "kol": 8,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "ngwxpGYdkauMcxLFrNTKp8qBgK7JV53zVvd7F2spump": {
    "sym": "duh",
    "qty": 5429.578528757904,
    "entry": 0.0002436,
-   "last": 0.0002021,
+   "last": 0.0002008,
    "peak": 0.0002541,
    "cost": 1.3632707994283917,
    "opened": "2026-11-19T00:31:55+07:00",
@@ -49,14 +49,14 @@
    "sym": "DCTY",
    "qty": 4402.0435331082235,
    "entry": 0.0002532,
-   "last": 0.00025321089611048494,
+   "last": 0.000242967203776196,
    "peak": 0.00027702851139366517,
    "cost": 1.148832635109258,
    "opened": "2026-11-19T02:01:45+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 103,
    "kol": 6,
-   "gap": 8,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -2377,10 +2377,17 @@
    "zoo": "w_ban_smartflow",
    "smart": 103,
    "kol": 6
+  },
+  {
+   "t": "2026-11-19T02:11:54+07:00",
+   "kind": "ban",
+   "mint": "GgyKtbWS99pzkvqaG7wvxdKCbRxuLDLRDm4TtfDdpump",
+   "sym": "DCTY",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795028703.5815158,
+ "rank_t": 1795028998.7869642,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
@@ -2399,6 +2406,7 @@
   "45bU6dinrbqJ2y9fBrL8WrNC7avQnFYGU3fiSKfmpump": "GTA",
   "7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": "HIGH",
   "2xCd5qHX5tW6pGUo7zfgHSSAnRjJwPA7Sz1Fu4fWcJjX": "Mandy",
-  "79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump": "Apocrycoin"
+  "79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump": "Apocrycoin",
+  "GgyKtbWS99pzkvqaG7wvxdKCbRxuLDLRDm4TtfDdpump": "DCTY"
  }
 }
