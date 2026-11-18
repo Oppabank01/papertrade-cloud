@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.684287812041116,
- "cash": 14.048793936551894,
- "pos": {},
+ "cash": 11.239035149241515,
+ "pos": {
+  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
+   "sym": "DacityCoin",
+   "qty": 459.10735161032477,
+   "entry": 0.006059,
+   "last": 0.005947,
+   "peak": 0.006059,
+   "cost": 2.809758787310379,
+   "opened": "2026-11-18T17:35:32+07:00",
+   "zoo": "i_dip200_2h",
+   "smart": 264,
+   "kol": 22,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-15T09:52:43+07:00",
@@ -269,8 +284,22 @@
    "cost_side": 0.01,
    "smart": 721,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T17:35:32+07:00",
+   "kind": "buy",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.006059,
+   "jup": 0.006065417347663405,
+   "usd": 2.8098,
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "zoo": "i_dip200_2h",
+   "smart": 264,
+   "kol": 22
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ ย่อ 1 ชม. -15 ถึง -40% ถือ 2 ชม.",
- "rank_t": 1794997797.4033256
+ "rank_t": 1794998080.2990205
 }
