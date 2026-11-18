@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.1614932815243218,
+ "cash": 0.35897039573482914,
  "pos": {
   "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
    "sym": "JOB",
    "qty": 143.66705562910437,
    "entry": 0.001949,
-   "last": 0.002476,
+   "last": 0.002479,
    "peak": 0.002763,
    "cost": 0.2886075978366568,
    "opened": "2026-11-17T17:36:15+07:00",
    "zoo": "randrun",
    "smart": 35,
    "kol": 0,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 11.651457593712278,
    "entry": 0.02047,
-   "last": 0.02115,
+   "last": 0.02116,
    "peak": 0.02188,
    "cost": 0.24583110383765236,
    "opened": "2026-11-18T01:15:12+07:00",
@@ -35,27 +35,13 @@
    "sym": "CLAUDIA",
    "qty": 43.32522096045841,
    "entry": 0.005596,
-   "last": 0.006183,
+   "last": 0.006229,
    "peak": 0.007095,
    "cost": 0.24989480158186483,
    "opened": "2026-11-18T01:47:57+07:00",
    "zoo": "randrun",
    "smart": 482,
    "kol": 30,
-   "gap": 0,
-   "miss": 0
-  },
-  "5Kjxg6X13axntM98AxJGjNQCB82YZWhSnvJVX78cpump": {
-   "sym": "DOOM",
-   "qty": 490.9225599507762,
-   "entry": 0.0005266,
-   "last": 0.0005354,
-   "peak": 0.0005808,
-   "cost": 0.26646033814685505,
-   "opened": "2026-11-18T12:19:32+07:00",
-   "zoo": "randrun",
-   "smart": 59,
-   "kol": 5,
    "gap": 0,
    "miss": 0
   }
@@ -1541,8 +1527,23 @@
    "zoo": "randrun",
    "smart": 59,
    "kol": 5
+  },
+  {
+   "t": "2026-11-18T12:47:22+07:00",
+   "kind": "sell",
+   "mint": "5Kjxg6X13axntM98AxJGjNQCB82YZWhSnvJVX78cpump",
+   "sym": "DOOM",
+   "price": 0.0004146126148317498,
+   "entry": 0.0005266,
+   "usd": 0.1975,
+   "pnl": -0.069,
+   "why": "stop -21.3%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 59,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1794980510.1733792
+ "rank_t": 1794980792.9482086
 }
