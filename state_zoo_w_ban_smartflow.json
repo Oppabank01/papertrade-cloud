@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.786183428391987,
+ "cash": 1.4531428914146365,
  "pos": {
   "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": {
    "sym": "fone",
    "qty": 1128.9940046601298,
    "entry": 0.0008826,
-   "last": 0.0007781,
+   "last": 0.0007594,
    "peak": 0.0009561,
    "cost": 1.0270563889023199,
    "opened": "2026-11-16T22:14:56+07:00",
@@ -21,14 +21,14 @@
    "sym": "DOUG",
    "qty": 22142.462428909694,
    "entry": 7.381e-05,
-   "last": 7.647e-05,
+   "last": 7.65e-05,
    "peak": 9.347e-05,
    "cost": 1.6845342732197737,
    "opened": "2026-11-18T09:33:24+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 37,
    "kol": 3,
-   "gap": 0,
+   "gap": 9,
    "miss": 0
   },
   "2pkr6bQnMP8jAAqFKW7orZHA783YhWaky3hZK8EUpump": {
@@ -42,20 +42,20 @@
    "zoo": "w_ban_smartflow",
    "smart": 20,
    "kol": 1,
-   "gap": 32,
+   "gap": 44,
    "miss": 0
   },
-  "Gu5QifEERP1C6YzRPPqwmdrPpPfmn8tGF5MAiTLQpump": {
-   "sym": "DCI",
-   "qty": 45548.697028974144,
-   "entry": 2.886e-05,
-   "last": 2.598e-05,
-   "peak": 3.011963644255189e-05,
-   "cost": 1.3549117669101154,
-   "opened": "2026-11-18T14:26:10+07:00",
+  "5xhuX8VK8k8wGDdfFniWUzUQUSHjzKARosCGtEZypump": {
+   "sym": "KATIA",
+   "qty": 1988.118296966007,
+   "entry": 0.0006251,
+   "last": 0.0006792,
+   "peak": 0.0006792,
+   "cost": 1.2809449056209554,
+   "opened": "2026-11-18T14:40:09+07:00",
    "zoo": "w_ban_smartflow",
-   "smart": 38,
-   "kol": 2,
+   "smart": 4,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -1778,10 +1778,39 @@
    "zoo": "w_ban_smartflow",
    "smart": 38,
    "kol": 2
+  },
+  {
+   "t": "2026-11-18T14:39:34+07:00",
+   "kind": "sell",
+   "mint": "Gu5QifEERP1C6YzRPPqwmdrPpPfmn8tGF5MAiTLQpump",
+   "sym": "DCI",
+   "price": 2.145e-05,
+   "entry": 2.886e-05,
+   "usd": 0.9479,
+   "pnl": -0.407,
+   "why": "stop -25.7%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 38,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-18T14:40:09+07:00",
+   "kind": "buy",
+   "mint": "5xhuX8VK8k8wGDdfFniWUzUQUSHjzKARosCGtEZypump",
+   "sym": "KATIA",
+   "price": 0.0006251,
+   "jup": 0.0006204673624795019,
+   "usd": 1.2809,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "w_ban_smartflow",
+   "smart": 4,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794987288.2749267,
+ "rank_t": 1794987574.663428,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
