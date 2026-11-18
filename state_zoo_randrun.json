@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.13366777322273177,
+ "cash": 0.32150688153132223,
  "pos": {
   "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
    "sym": "CBUCKS",
    "qty": 57.47802999044324,
    "entry": 0.003208,
-   "last": 0.003342,
+   "last": 0.00334,
    "peak": 0.003735,
    "cost": 0.19005310266887437,
    "opened": "2026-11-19T01:18:26+07:00",
@@ -21,7 +21,7 @@
    "sym": "ANSEM",
    "qty": 4.267192736311415,
    "entry": 0.04267,
-   "last": 0.04155,
+   "last": 0.04178,
    "peak": 0.04313,
    "cost": 0.18767379309256654,
    "opened": "2026-11-19T01:32:33+07:00",
@@ -35,27 +35,13 @@
    "sym": "GTA",
    "qty": 492.3485864376169,
    "entry": 0.0004004,
-   "last": 0.0003879,
+   "last": 0.000413,
    "peak": 0.0004161,
    "cost": 0.20319148011711174,
    "opened": "2026-11-19T02:58:38+07:00",
    "zoo": "randrun",
    "smart": 305,
    "kol": 18,
-   "gap": 0,
-   "miss": 0
-  },
-  "2xCd5qHX5tW6pGUo7zfgHSSAnRjJwPA7Sz1Fu4fWcJjX": {
-   "sym": "Mandy",
-   "qty": 1240.815802668563,
-   "entry": 0.0001366,
-   "last": 0.0001899,
-   "peak": 0.000212,
-   "cost": 0.17470154467586657,
-   "opened": "2026-11-19T04:14:56+07:00",
-   "zoo": "randrun",
-   "smart": 68,
-   "kol": 3,
    "gap": 0,
    "miss": 0
   }
@@ -1918,8 +1904,23 @@
    "zoo": "randrun",
    "smart": 68,
    "kol": 3
+  },
+  {
+   "t": "2026-11-19T05:01:40+07:00",
+   "kind": "sell",
+   "mint": "2xCd5qHX5tW6pGUo7zfgHSSAnRjJwPA7Sz1Fu4fWcJjX",
+   "sym": "Mandy",
+   "price": 0.00015603334962510822,
+   "entry": 0.0001366,
+   "usd": 0.1878,
+   "pnl": 0.0131,
+   "why": "trailing จากยอด +55% (+14.2%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 68,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1795038936.3815978
+ "rank_t": 1795039219.1202314
 }
