@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.5672886029070711,
+ "cash": 0.4242170475321251,
  "pos": {
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 19.998537813027912,
    "entry": 0.007121,
-   "last": 0.007547,
+   "last": 0.007236,
    "peak": 0.007664,
    "cost": 0.1467837433174312,
    "opened": "2026-11-18T21:30:11+07:00",
    "zoo": "w_ban_aged",
    "smart": 519,
    "kol": 34,
+   "gap": 1,
+   "miss": 0
+  },
+  "9AvytnUKsLxPxFHFqS6VLxaxt5p6BhYNr53SD2Chpump": {
+   "sym": "67",
+   "qty": 117.93374938383393,
+   "entry": 0.001177,
+   "last": 0.001177,
+   "peak": 0.001177,
+   "cost": 0.14307155537494595,
+   "opened": "2026-11-18T22:27:52+07:00",
+   "zoo": "w_ban_aged",
+   "smart": 373,
+   "kol": 63,
    "gap": 0,
    "miss": 0
   }
@@ -4796,10 +4810,24 @@
    "cost_side": 0.03,
    "smart": 113,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T22:27:52+07:00",
+   "kind": "buy",
+   "mint": "9AvytnUKsLxPxFHFqS6VLxaxt5p6BhYNr53SD2Chpump",
+   "sym": "67",
+   "price": 0.001177,
+   "jup": 0.001174650716989452,
+   "usd": 0.1431,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_aged",
+   "smart": 373,
+   "kol": 63
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795015306.657611,
+ "rank_t": 1795015586.6703694,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": "CHOO",
