@@ -1,30 +1,18 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.0,
+ "cash": 1.3622530905217503,
  "pos": {
-  "56S874EPXeXKLQJCkMCsW15z38LW9xBpq4qQLr5qpump": {
-   "sym": "DAC",
-   "qty": 3236.73380648762,
-   "entry": 0.000547,
-   "last": 0.0004729,
-   "peak": 0.0005498,
-   "cost": 1.8248746569250958,
-   "opened": "2026-11-18T03:55:07+07:00",
-   "source": "agents",
-   "gap": 0,
-   "miss": 0
-  },
   "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": {
    "sym": "rockstar",
    "qty": 3227.587990426994,
    "entry": 0.0003657,
-   "last": 0.0004187,
+   "last": 0.00041366006263721653,
    "peak": 0.0004477,
    "cost": 1.2165831046167306,
    "opened": "2026-11-18T04:09:50+07:00",
    "source": "agents",
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -753,6 +741,21 @@
    "stop_set": -0.18,
    "cost_side": 0.03,
    "source": "agents"
+  },
+  {
+   "t": "2026-11-18T09:37:29+07:00",
+   "kind": "sell",
+   "mint": "56S874EPXeXKLQJCkMCsW15z38LW9xBpq4qQLr5qpump",
+   "sym": "DAC",
+   "price": 0.0004338,
+   "entry": 0.000547,
+   "usd": 1.3623,
+   "pnl": -0.4626,
+   "why": "stop -20.7%",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "สูตร crbpite8 Apple Card (ไม้ 60%)",
