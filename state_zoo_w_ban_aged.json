@@ -1,37 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.5152937395751873,
- "pos": {
-  "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": {
-   "sym": "HOGE",
-   "qty": 104.86480564703234,
-   "entry": 0.001586,
-   "last": 0.001642658895444573,
-   "peak": 0.001697,
-   "cost": 0.17142401747700814,
-   "opened": "2026-11-18T20:13:35+07:00",
-   "zoo": "w_ban_aged",
-   "smart": 209,
-   "kol": 12,
-   "gap": 1,
-   "miss": 0
-  },
-  "3tjPCXfx3KrgMY53yo7pa67D2QQZMbLTRaqQckJmpump": {
-   "sym": "VTC",
-   "qty": 249.58384796033576,
-   "entry": 0.0006624,
-   "last": 0.0007729,
-   "peak": 0.0007729,
-   "cost": 0.1704023303328452,
-   "opened": "2026-11-18T20:13:35+07:00",
-   "zoo": "w_ban_aged",
-   "smart": 10,
-   "kol": 0,
-   "gap": 1,
-   "miss": 0
-  }
- },
+ "cash": 0.7591044694591704,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-15T00:43:01+07:00",
@@ -4708,10 +4679,40 @@
    "zoo": "w_ban_aged",
    "smart": 10,
    "kol": 0
+  },
+  {
+   "t": "2026-11-18T20:18:23+07:00",
+   "kind": "sell",
+   "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+   "sym": "HOGE",
+   "price": 0.001415,
+   "entry": 0.001586,
+   "usd": 0.144,
+   "pnl": -0.0275,
+   "why": "stop -10.8%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 209,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-18T20:18:23+07:00",
+   "kind": "sell",
+   "mint": "3tjPCXfx3KrgMY53yo7pa67D2QQZMbLTRaqQckJmpump",
+   "sym": "VTC",
+   "price": 0.0004123494146428364,
+   "entry": 0.0006624,
+   "usd": 0.0998,
+   "pnl": -0.0706,
+   "why": "stop -37.7%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 10,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795007558.7959492,
+ "rank_t": 1795007841.6281035,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": "CHOO",
