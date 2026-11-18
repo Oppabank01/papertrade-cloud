@@ -375,23 +375,25 @@
    "stop_set": -0.18,
    "cost_side": 0.03,
    "source": "state_wallets.json"
+  },
+  {
+   "t": "2026-11-19T04:56:55+07:00",
+   "kind": "sell",
+   "mint": "EBCpGdXuS34WZuX13thrku2KmuLSe3Tf2gMtMKndpump",
+   "sym": "maxi",
+   "price": 5.692e-05,
+   "entry": 7.046e-05,
+   "usd": 7.3053,
+   "pnl": -2.3018,
+   "why": "stop -19.2%",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
- "pos": {
-  "EBCpGdXuS34WZuX13thrku2KmuLSe3Tf2gMtMKndpump": {
-   "sym": "maxi",
-   "qty": 132284.67100167528,
-   "entry": 7.046e-05,
-   "last": 5.792e-05,
-   "peak": 7.61e-05,
-   "cost": 9.607068561923356,
-   "opened": "2026-11-19T03:55:54+07:00",
-   "source": "state_wallets.json",
-   "gap": 0,
-   "miss": 0
-  }
- },
- "cash": 6.4047123746155705,
+ "pos": {},
+ "cash": 13.709972472523148,
  "start_usd": 14.744913005013272,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
