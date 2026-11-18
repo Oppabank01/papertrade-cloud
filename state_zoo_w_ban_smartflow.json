@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.9005836567228537,
+ "cash": 4.366353637354702,
  "pos": {
   "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": {
    "sym": "fone",
@@ -28,14 +28,14 @@
    "zoo": "w_ban_smartflow",
    "smart": 20,
    "kol": 1,
-   "gap": 23,
+   "gap": 10,
    "miss": 0
   },
   "7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": {
    "sym": "HIGH",
    "qty": 2588.6627047738216,
    "entry": 0.0003973,
-   "last": 0.0003896,
+   "last": 0.0003911,
    "peak": 0.0004191,
    "cost": 1.0600656489452065,
    "opened": "2026-11-18T17:02:28+07:00",
@@ -43,20 +43,6 @@
    "smart": 125,
    "kol": 8,
    "gap": 0,
-   "miss": 0
-  },
-  "45bU6dinrbqJ2y9fBrL8WrNC7avQnFYGU3fiSKfmpump": {
-   "sym": "GTA",
-   "qty": 30183.0510010908,
-   "entry": 3.03e-05,
-   "last": 4.1243035966256765e-05,
-   "peak": 4.6065476916457755e-05,
-   "cost": 0.9426370287910238,
-   "opened": "2026-11-18T19:15:43+07:00",
-   "zoo": "w_ban_smartflow",
-   "smart": 38,
-   "kol": 3,
-   "gap": 14,
    "miss": 0
   }
  },
@@ -1923,10 +1909,42 @@
    "zoo": "w_ban_smartflow",
    "smart": 38,
    "kol": 3
+  },
+  {
+   "t": "2026-11-18T19:39:21+07:00",
+   "kind": "ban",
+   "mint": "45bU6dinrbqJ2y9fBrL8WrNC7avQnFYGU3fiSKfmpump",
+   "sym": "GTA",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-18T19:40:13+07:00",
+   "kind": "sell",
+   "mint": "45bU6dinrbqJ2y9fBrL8WrNC7avQnFYGU3fiSKfmpump",
+   "sym": "GTA",
+   "price": 0.000127,
+   "usd": 1.8595,
+   "pnl": 1.3882,
+   "why": "ขายครึ่ง +319.1%"
+  },
+  {
+   "t": "2026-11-18T19:43:11+07:00",
+   "kind": "sell",
+   "mint": "45bU6dinrbqJ2y9fBrL8WrNC7avQnFYGU3fiSKfmpump",
+   "sym": "GTA",
+   "price": 0.00010970385092150381,
+   "entry": 3.03e-05,
+   "usd": 1.6063,
+   "pnl": 1.1349,
+   "why": "trailing จากยอด +394% (+262.1%)",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 38,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795005264.6338181,
+ "rank_t": 1795005561.30234,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
@@ -1941,6 +1959,7 @@
   "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": "BUTTHOLE",
   "FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": ":3",
   "2pkr6bQnMP8jAAqFKW7orZHA783YhWaky3hZK8EUpump": "AICoin",
-  "85EzCVHB16NUSPPhD2pLps8fAJ6RFcPWX2P7erPpump": "DCI"
+  "85EzCVHB16NUSPPhD2pLps8fAJ6RFcPWX2P7erPpump": "DCI",
+  "45bU6dinrbqJ2y9fBrL8WrNC7avQnFYGU3fiSKfmpump": "GTA"
  }
 }
