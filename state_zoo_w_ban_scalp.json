@@ -1,8 +1,37 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.065076546255805,
- "pos": {},
+ "cash": 1.652676629815428,
+ "pos": {
+  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
+   "sym": "CLAUDIA",
+   "qty": 28.42703270683005,
+   "entry": 0.007048,
+   "last": 0.006891,
+   "peak": 0.007048,
+   "cost": 0.20650765462558052,
+   "opened": "2026-11-18T17:59:09+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 516,
+   "kol": 34,
+   "gap": 0,
+   "miss": 0
+  },
+  "AuRhMFYgi4G3AQCy3ZfzkArVYLvozD2cH1b6R1RHpump": {
+   "sym": "DCT",
+   "qty": 1218.7716437627535,
+   "entry": 0.0001639,
+   "last": 0.000161,
+   "peak": 0.0001639,
+   "cost": 0.20589226181479625,
+   "opened": "2026-11-18T17:59:09+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 36,
+   "kol": 2,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-15T00:43:00+07:00",
@@ -6599,10 +6628,38 @@
    "cost_side": 0.03,
    "smart": 78,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T17:59:09+07:00",
+   "kind": "buy",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.007048,
+   "jup": 0.007062632377685884,
+   "usd": 0.2065,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 516,
+   "kol": 34
+  },
+  {
+   "t": "2026-11-18T17:59:09+07:00",
+   "kind": "buy",
+   "mint": "AuRhMFYgi4G3AQCy3ZfzkArVYLvozD2cH1b6R1RHpump",
+   "sym": "DCT",
+   "price": 0.0001639,
+   "jup": 0.00016414327597788294,
+   "usd": 0.2059,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 36,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794999216.931892,
+ "rank_t": 1794999499.673329,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
