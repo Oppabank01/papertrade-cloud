@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.1616650259838146,
+ "cash": 1.3406387067605436,
  "pos": {
   "2pkr6bQnMP8jAAqFKW7orZHA783YhWaky3hZK8EUpump": {
    "sym": "AICoin",
@@ -14,14 +14,14 @@
    "zoo": "w_ban_scalp",
    "smart": 20,
    "kol": 1,
-   "gap": 84,
+   "gap": 10,
    "miss": 0
   },
   "3tjPCXfx3KrgMY53yo7pa67D2QQZMbLTRaqQckJmpump": {
    "sym": "VTC",
    "qty": 808.2754004858083,
    "entry": 0.0002768,
-   "last": 0.0002678,
+   "last": 0.0002564,
    "peak": 0.0002812,
    "cost": 0.23060258797616134,
    "opened": "2026-11-18T11:50:50+07:00",
@@ -35,21 +35,21 @@
    "sym": "DacityCoin",
    "qty": 29.910032687923465,
    "entry": 0.007451,
-   "last": 0.007762,
+   "last": 0.007455,
    "peak": 0.008242,
    "cost": 0.22970485833613458,
    "opened": "2026-11-18T12:05:38+07:00",
    "zoo": "w_ban_scalp",
    "smart": 263,
    "kol": 22,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   },
   "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": {
    "sym": "bill",
    "qty": 2223.7124220676396,
    "entry": 9.925e-05,
-   "last": 0.0001107,
+   "last": 0.0001109,
    "peak": 0.0001138,
    "cost": 0.2274824344364185,
    "opened": "2026-11-18T12:10:09+07:00",
@@ -57,20 +57,6 @@
    "smart": 148,
    "kol": 8,
    "gap": 0,
-   "miss": 0
-  },
-  "EadD2LMp6EbH9PrbXUFWcrZKMhoKVrZN1gpwRhH5pump": {
-   "sym": "ANT",
-   "qty": 882.9739919166525,
-   "entry": 0.0002505,
-   "last": 0.00024392443279382518,
-   "peak": 0.0002537,
-   "cost": 0.2279787517781091,
-   "opened": "2026-11-18T12:24:02+07:00",
-   "zoo": "w_ban_scalp",
-   "smart": 58,
-   "kol": 4,
-   "gap": 4,
    "miss": 0
   }
  },
@@ -6378,10 +6364,25 @@
    "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
    "sym": "DacityCoin",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-18T12:34:26+07:00",
+   "kind": "sell",
+   "mint": "EadD2LMp6EbH9PrbXUFWcrZKMhoKVrZN1gpwRhH5pump",
+   "sym": "ANT",
+   "price": 0.0002089199859827467,
+   "entry": 0.0002505,
+   "usd": 0.179,
+   "pnl": -0.049,
+   "why": "stop -16.6%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 58,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794979663.544867,
+ "rank_t": 1794979944.647583,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
