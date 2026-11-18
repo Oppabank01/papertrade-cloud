@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.1459221126587456,
+ "cash": 1.9065031023093009,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 31.362808342054116,
    "entry": 0.007473,
-   "last": 0.007893,
-   "peak": 0.007893,
+   "last": 0.00779,
+   "peak": 0.007916,
    "cost": 0.24157314650605072,
    "opened": "2026-11-18T23:53:20+07:00",
    "zoo": "w_pause_scalp",
    "smart": 734,
    "kol": 70,
+   "gap": 0,
+   "miss": 0
+  },
+  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
+   "sym": "Macca",
+   "qty": 395.17578060740243,
+   "entry": 0.0005878,
+   "last": 0.0006235,
+   "peak": 0.0006254,
+   "cost": 0.2394190103494446,
+   "opened": "2026-11-19T01:18:44+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 181,
+   "kol": 12,
    "gap": 0,
    "miss": 0
   }
@@ -6528,8 +6542,22 @@
    "cost_side": 0.03,
    "smart": 67,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T01:18:44+07:00",
+   "kind": "buy",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.0005878,
+   "jup": 0.0005852748155459795,
+   "usd": 0.2394,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 181,
+   "kol": 12
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795025578.2945871
+ "rank_t": 1795025858.5663543
 }
