@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.684287812041116,
- "cash": 13.622540595446303,
- "pos": {},
+ "cash": 10.898032476357042,
+ "pos": {
+  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
+   "sym": "mihao",
+   "qty": 349.4857671160074,
+   "entry": 0.007718,
+   "last": 0.007705,
+   "peak": 0.007718,
+   "cost": 2.724508119089261,
+   "opened": "2026-11-18T12:05:49+07:00",
+   "zoo": "i_dip200_2h",
+   "smart": 721,
+   "kol": 70,
+   "gap": 1,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-15T09:52:43+07:00",
@@ -240,8 +255,22 @@
    "cost_side": 0.01,
    "smart": 42,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T12:05:49+07:00",
+   "kind": "buy",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.007718,
+   "jup": 0.007678840813285536,
+   "usd": 2.7245,
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "zoo": "i_dip200_2h",
+   "smart": 721,
+   "kol": 70
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ ย่อ 1 ชม. -15 ถึง -40% ถือ 2 ชม.",
- "rank_t": 1794977954.0402837
+ "rank_t": 1794978249.645039
 }
