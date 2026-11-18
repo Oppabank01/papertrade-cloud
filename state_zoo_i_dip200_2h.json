@@ -1,37 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.684287812041116,
- "cash": 8.4441322723052,
- "pos": {
-  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
-   "sym": "DacityCoin",
-   "qty": 459.10735161032477,
-   "entry": 0.006059,
-   "last": 0.005985,
-   "peak": 0.006182,
-   "cost": 2.809758787310379,
-   "opened": "2026-11-18T17:35:32+07:00",
-   "zoo": "i_dip200_2h",
-   "smart": 264,
-   "kol": 22,
-   "gap": 2,
-   "miss": 0
-  },
-  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
-   "sym": "GTA6",
-   "qty": 212.35792177581538,
-   "entry": 0.01303,
-   "last": 0.011802839084880513,
-   "peak": 0.01369,
-   "cost": 2.7949028769363142,
-   "opened": "2026-11-18T17:49:44+07:00",
-   "zoo": "i_dip200_2h",
-   "smart": 299,
-   "kol": 24,
-   "gap": 1,
-   "miss": 0
-  }
- },
+ "cash": 15.143516624283826,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-15T09:52:43+07:00",
@@ -326,8 +297,38 @@
    "zoo": "i_dip200_2h",
    "smart": 299,
    "kol": 24
+  },
+  {
+   "t": "2026-11-18T18:08:06+07:00",
+   "kind": "sell",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.011614473512077348,
+   "entry": 0.01303,
+   "usd": 2.4418,
+   "pnl": -0.3531,
+   "why": "stop -10.9%",
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "smart": 299,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-18T18:09:47+07:00",
+   "kind": "sell",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.009367,
+   "entry": 0.006059,
+   "usd": 4.2576,
+   "pnl": 1.4478,
+   "why": "ถึงเป้า +54.6%",
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "smart": 264,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ ย่อ 1 ชม. -15 ถึง -40% ถือ 2 ชม.",
- "rank_t": 1794999795.7927618
+ "rank_t": 1795000086.5860868
 }
