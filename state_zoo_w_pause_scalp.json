@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.2671339221654128,
+ "cash": 1.5813428282748132,
  "pos": {
   "4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": {
    "sym": "BAWSAQ",
    "qty": 407.1521425996914,
    "entry": 0.0006486,
-   "last": 0.0006279696153990723,
+   "last": 0.0005912041919430217,
    "peak": 0.0006983,
    "cost": 0.272190146042218,
    "opened": "2026-11-18T13:39:14+07:00",
@@ -21,7 +21,7 @@
    "sym": "GTA6",
    "qty": 15.869384909884243,
    "entry": 0.01658,
-   "last": 0.01589,
+   "last": 0.01601,
    "peak": 0.01699,
    "cost": 0.2711960439145339,
    "opened": "2026-11-18T13:48:35+07:00",
@@ -42,35 +42,21 @@
    "zoo": "w_pause_scalp",
    "smart": 346,
    "kol": 22,
-   "gap": 25,
-   "miss": 0
-  },
-  "GM8EysYT8NRSsoULdeYShbRsUdhoUoiB9EN4eW3YETCH": {
-   "sym": "ETCHY",
-   "qty": 284.3370782138277,
-   "entry": 0.000886,
-   "last": 0.0009328,
-   "peak": 0.0009328,
-   "cost": 0.2596605352478369,
-   "opened": "2026-11-18T14:21:58+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 102,
-   "kol": 6,
-   "gap": 0,
+   "gap": 10,
    "miss": 0
   },
   "Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump": {
    "sym": "COIL",
    "qty": 1343.3887673172321,
    "entry": 0.0001841,
-   "last": 0.00015894575956260676,
+   "last": 0.0001671,
    "peak": 0.0001878,
    "cost": 0.2549143187622165,
    "opened": "2026-11-18T14:26:12+07:00",
    "zoo": "w_pause_scalp",
    "smart": 123,
    "kol": 9,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -5900,10 +5886,25 @@
    "zoo": "w_pause_scalp",
    "smart": 123,
    "kol": 9
+  },
+  {
+   "t": "2026-11-18T14:59:32+07:00",
+   "kind": "sell",
+   "mint": "GM8EysYT8NRSsoULdeYShbRsUdhoUoiB9EN4eW3YETCH",
+   "sym": "ETCHY",
+   "price": 0.001139,
+   "entry": 0.000886,
+   "usd": 0.3142,
+   "pnl": 0.0545,
+   "why": "ถึงเป้า +28.6%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 102,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794988436.544327,
+ "rank_t": 1794988716.3172603,
  "halted": "ราคา DOPE สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-18T15:54:22+07:00"
 }
