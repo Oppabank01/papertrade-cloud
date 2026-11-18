@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.8749280185619916,
+ "cash": 1.6443254305858304,
  "pos": {
   "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": {
    "sym": "WISHMAS",
    "qty": 1044.6729967890294,
    "entry": 0.0002143,
-   "last": 0.000216,
+   "last": 0.000219,
    "peak": 0.0002224,
    "cost": 0.23074976624602042,
    "opened": "2026-11-18T10:21:00+07:00",
@@ -28,7 +28,21 @@
    "zoo": "w_ban_scalp",
    "smart": 20,
    "kol": 1,
-   "gap": 31,
+   "gap": 43,
+   "miss": 0
+  },
+  "3tjPCXfx3KrgMY53yo7pa67D2QQZMbLTRaqQckJmpump": {
+   "sym": "VTC",
+   "qty": 808.2754004858083,
+   "entry": 0.0002768,
+   "last": 0.0002776,
+   "peak": 0.0002777,
+   "cost": 0.23060258797616134,
+   "opened": "2026-11-18T11:50:50+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 10,
+   "kol": 0,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -6258,10 +6272,24 @@
    "cost_side": 0.03,
    "smart": 163,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T11:50:50+07:00",
+   "kind": "buy",
+   "mint": "3tjPCXfx3KrgMY53yo7pa67D2QQZMbLTRaqQckJmpump",
+   "sym": "VTC",
+   "price": 0.0002768,
+   "jup": 0.0002762920729336873,
+   "usd": 0.2306,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 10,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794977095.607668,
+ "rank_t": 1794977384.5157707,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
