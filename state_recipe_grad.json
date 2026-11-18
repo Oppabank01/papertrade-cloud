@@ -1,8 +1,22 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.3370005638217438,
- "pos": {},
+ "cash": 0.26960045105739505,
+ "pos": {
+  "rizF5PvLP9pTBT9L1pHJwLEip1BZTG5Q6wzYeWGpump": {
+   "sym": "PATTINSON",
+   "qty": 1259.225676949185,
+   "entry": 5.193e-05,
+   "last": 5.193e-05,
+   "peak": 5.193e-05,
+   "cost": 0.06740011276434876,
+   "opened": "2026-11-18T10:01:33+07:00",
+   "smart": 28,
+   "kol": 2,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -2360,8 +2374,21 @@
    "cost_side": 0.03,
    "smart": 57,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T10:01:33+07:00",
+   "kind": "buy",
+   "mint": "rizF5PvLP9pTBT9L1pHJwLEip1BZTG5Q6wzYeWGpump",
+   "sym": "PATTINSON",
+   "price": 5.193e-05,
+   "jup": 5.178334568179089e-05,
+   "usd": 0.0674,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 28,
+   "kol": 2
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794970558.5648794
+ "rank_t": 1794970862.8634481
 }
