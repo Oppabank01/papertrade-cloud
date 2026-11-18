@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.361883687871938,
+ "cash": 2.307497662460204,
  "pos": {},
  "log": [
   {
@@ -6136,10 +6136,39 @@
    "cost_side": 0.03,
    "smart": 2,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T10:11:09+07:00",
+   "kind": "buy",
+   "mint": "56S874EPXeXKLQJCkMCsW15z38LW9xBpq4qQLr5qpump",
+   "sym": "DAC",
+   "price": 0.000597,
+   "jup": 0.0005978225981969863,
+   "usd": 0.2362,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 66,
+   "kol": 2
+  },
+  {
+   "t": "2026-11-18T10:12:29+07:00",
+   "kind": "sell",
+   "mint": "56S874EPXeXKLQJCkMCsW15z38LW9xBpq4qQLr5qpump",
+   "sym": "DAC",
+   "price": 0.0004881943631815762,
+   "entry": 0.000597,
+   "usd": 0.1818,
+   "pnl": -0.0544,
+   "why": "stop -18.2%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 66,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794971147.1931086,
+ "rank_t": 1794971425.581565,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
