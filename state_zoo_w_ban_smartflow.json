@@ -35,7 +35,7 @@
    "sym": "plumber",
    "qty": 3618.8143056357953,
    "entry": 0.0001903,
-   "last": 0.0001669,
+   "last": 0.0001651,
    "peak": 0.0001992,
    "cost": 0.7098127833049803,
    "opened": "2026-11-19T04:47:07+07:00",
@@ -49,14 +49,14 @@
    "sym": "STM",
    "qty": 2668.747924581438,
    "entry": 0.0001002,
-   "last": 0.0001025,
-   "peak": 0.00010462995141094272,
+   "last": 9.008086046680986e-05,
+   "peak": 0.00010859540993705731,
    "cost": 0.2756220800278913,
    "opened": "2026-11-19T06:31:48+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 101,
    "kol": 7,
-   "gap": 7,
+   "gap": 20,
    "miss": 0
   }
  },
@@ -2855,10 +2855,17 @@
    "zoo": "w_ban_smartflow",
    "smart": 101,
    "kol": 7
+  },
+  {
+   "t": "2026-11-19T06:37:20+07:00",
+   "kind": "ban",
+   "mint": "FML39mAXYiThEb7z5drPi56J3tE8Ck6WRhspETGomqWB",
+   "sym": "STM",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795044623.9387088,
+ "rank_t": 1795044913.45845,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
@@ -2879,6 +2886,7 @@
   "2xCd5qHX5tW6pGUo7zfgHSSAnRjJwPA7Sz1Fu4fWcJjX": "Mandy",
   "79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump": "Apocrycoin",
   "GgyKtbWS99pzkvqaG7wvxdKCbRxuLDLRDm4TtfDdpump": "DCTY",
-  "96WnzbBGRm3RadEMZcn6VfGQKTk7AaNYrUmTXNx9pump": "CRIME"
+  "96WnzbBGRm3RadEMZcn6VfGQKTk7AaNYrUmTXNx9pump": "CRIME",
+  "FML39mAXYiThEb7z5drPi56J3tE8Ck6WRhspETGomqWB": "STM"
  }
 }
