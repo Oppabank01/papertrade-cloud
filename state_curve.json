@@ -2,19 +2,7 @@
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
  "cash": 1.9927743107123146,
- "pos": {
-  "9jN2wHaVcaib7eP9YLQAMHkGvYBcQgyMT8m7PNkApump": {
-   "sym": "Bye",
-   "qty": 153725.5281716525,
-   "entry": 2.896670473238865e-06,
-   "last": 2.896670473238865e-06,
-   "peak": 2.896670473238865e-06,
-   "cost": 0.49819357767807865,
-   "curve": "BbH9XLZiUBvEh3k28nnLLKFGWZ5cgFiPfUEu7bqf7cim",
-   "opened": "2026-11-18T07:58:36+07:00",
-   "wallet": "ENskGQ"
-  }
- },
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T21:07:09+07:00",
@@ -3248,6 +3236,20 @@
    "sym": "Bye",
    "wallet": "ENskGQ",
    "why": "curve 0.00 SOL"
+  },
+  {
+   "t": "2026-11-18T08:03:56+07:00",
+   "kind": "sell",
+   "mint": "9jN2wHaVcaib7eP9YLQAMHkGvYBcQgyMT8m7PNkApump",
+   "sym": "Bye",
+   "price": 2.097387886598662e-06,
+   "entry": 2.896670473238865e-06,
+   "usd": 0.0,
+   "pnl": -0.4982,
+   "why": "stop -27.6%",
+   "stop_set": -0.08,
+   "cost_side": 0.0325,
+   "graduated": false
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ บน bonding curve",

@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.621507921650897,
- "pos": {
-  "CM65K38bqGePYkNQBjGRRDYMhyxgh9xTQg2HPQTFpump": {
-   "sym": "Pois",
-   "qty": 1371.360918158115,
-   "entry": 0.0002138,
-   "last": 0.0001857,
-   "peak": 0.0002138,
-   "cost": 0.302202601836946,
-   "opened": "2026-11-18T06:30:18+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 76,
-   "kol": 21,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 2.830395536610027,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-15T00:43:00+07:00",
@@ -5391,10 +5376,25 @@
    "cost_side": 0.03,
    "smart": 42,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T08:04:55+07:00",
+   "kind": "sell",
+   "mint": "CM65K38bqGePYkNQBjGRRDYMhyxgh9xTQg2HPQTFpump",
+   "sym": "Pois",
+   "price": 0.000157,
+   "entry": 0.0002138,
+   "usd": 0.2089,
+   "pnl": -0.0933,
+   "why": "stop -26.6%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 76,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794963474.3330336,
+ "rank_t": 1794963757.9425466,
  "halted": "ราคา ACRUX สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-18T08:07:21+07:00"
 }
