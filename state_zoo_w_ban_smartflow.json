@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.2330809939353458,
+ "cash": 1.8261075923831085,
  "pos": {
   "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": {
    "sym": "fone",
    "qty": 1128.9940046601298,
    "entry": 0.0008826,
-   "last": 0.0007635,
+   "last": 0.0007777,
    "peak": 0.0009561,
    "cost": 1.0270563889023199,
    "opened": "2026-11-16T22:14:56+07:00",
@@ -21,7 +21,7 @@
    "sym": "DOUG",
    "qty": 22142.462428909694,
    "entry": 7.381e-05,
-   "last": 7.651e-05,
+   "last": 7.603e-05,
    "peak": 9.347e-05,
    "cost": 1.6845342732197737,
    "opened": "2026-11-18T09:33:24+07:00",
@@ -35,14 +35,28 @@
    "sym": "Bufo",
    "qty": 16159.773269522835,
    "entry": 8.558e-05,
-   "last": 8.549e-05,
+   "last": 7.549e-05,
    "peak": 8.558e-05,
    "cost": 1.4254312475837605,
    "opened": "2026-11-18T10:53:49+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 64,
    "kol": 5,
-   "gap": 3,
+   "gap": 0,
+   "miss": 0
+  },
+  "A8mt1ypn7fX5jidk5xNRjpNGpSGZiU6ZXKW1ZzJRpump": {
+   "sym": "AI",
+   "qty": 4160.455940828956,
+   "entry": 0.0003281,
+   "last": 0.0003053,
+   "peak": 0.0003281,
+   "cost": 1.4069734015522373,
+   "opened": "2026-11-18T10:58:21+07:00",
+   "zoo": "w_ban_smartflow",
+   "smart": 55,
+   "kol": 5,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1552,10 +1566,24 @@
    "zoo": "w_ban_smartflow",
    "smart": 64,
    "kol": 5
+  },
+  {
+   "t": "2026-11-18T10:58:21+07:00",
+   "kind": "buy",
+   "mint": "A8mt1ypn7fX5jidk5xNRjpNGpSGZiU6ZXKW1ZzJRpump",
+   "sym": "AI",
+   "price": 0.0003281,
+   "jup": 0.00032983207559618915,
+   "usd": 1.407,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "w_ban_smartflow",
+   "smart": 55,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794973984.4826715,
+ "rank_t": 1794974259.4871235,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
