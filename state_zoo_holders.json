@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.8949469517372735,
+ "cash": 0.5905857771268518,
  "pos": {
   "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
    "sym": "Max",
@@ -28,6 +28,20 @@
    "zoo": "holders",
    "smart": 159,
    "kol": 12,
+   "gap": 0,
+   "miss": 0
+  },
+  "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
+   "sym": "Rocco",
+   "qty": 281.22972534002963,
+   "entry": 0.00105,
+   "last": 0.00105,
+   "peak": 0.00105,
+   "cost": 0.30436117461042167,
+   "opened": "2026-11-18T09:52:29+07:00",
+   "zoo": "holders",
+   "smart": 127,
+   "kol": 10,
    "gap": 0,
    "miss": 0
   }
@@ -4020,8 +4034,22 @@
    "zoo": "holders",
    "smart": 159,
    "kol": 12
+  },
+  {
+   "t": "2026-11-18T09:52:29+07:00",
+   "kind": "buy",
+   "mint": "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
+   "sym": "Rocco",
+   "price": 0.00105,
+   "jup": 0.001046985106512312,
+   "usd": 0.3044,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 127,
+   "kol": 10
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794969995.4834547
+ "rank_t": 1794970284.4319024
 }
