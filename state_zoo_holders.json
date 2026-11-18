@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.22333348457738303,
+ "cash": 0.3979462453710587,
  "pos": {
   "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
    "sym": "PAID",
    "qty": 165.81685165461937,
    "entry": 0.001352,
-   "last": 0.001276,
+   "last": 0.00125,
    "peak": 0.001352,
    "cost": 0.23107027771288946,
    "opened": "2026-11-18T21:44:28+07:00",
@@ -21,7 +21,7 @@
    "sym": "CLAUDIA",
    "qty": 30.423105827384617,
    "entry": 0.006864,
-   "last": 0.006646,
+   "last": 0.006614,
    "peak": 0.006864,
    "cost": 0.2152382997311565,
    "opened": "2026-11-18T23:15:12+07:00",
@@ -35,27 +35,13 @@
    "sym": "neet",
    "qty": 7.971201014255507,
    "entry": 0.02572,
-   "last": 0.02605,
+   "last": 0.02596,
    "peak": 0.02605,
    "cost": 0.21131652245583551,
    "opened": "2026-11-18T23:29:21+07:00",
    "zoo": "holders",
    "smart": 867,
    "kol": 202,
-   "gap": 0,
-   "miss": 0
-  },
-  "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": {
-   "sym": "DCTY",
-   "qty": 16.280137519635947,
-   "entry": 0.01247,
-   "last": 0.01344,
-   "peak": 0.01344,
-   "cost": 0.20924893307551048,
-   "opened": "2026-11-19T00:03:26+07:00",
-   "zoo": "holders",
-   "smart": 337,
-   "kol": 26,
    "gap": 0,
    "miss": 0
   }
@@ -4627,8 +4613,23 @@
    "zoo": "holders",
    "smart": 337,
    "kol": 26
+  },
+  {
+   "t": "2026-11-19T00:12:20+07:00",
+   "kind": "sell",
+   "mint": "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump",
+   "sym": "DCTY",
+   "price": 0.01105494635883914,
+   "entry": 0.01247,
+   "usd": 0.1746,
+   "pnl": -0.0346,
+   "why": "stop -11.3%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 337,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1795021604.500921
+ "rank_t": 1795021895.173507
 }
