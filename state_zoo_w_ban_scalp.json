@@ -1,37 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.6694339900349586,
- "pos": {
-  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
-   "sym": "DacityCoin",
-   "qty": 29.910032687923465,
-   "entry": 0.007451,
-   "last": 0.00713,
-   "peak": 0.008242,
-   "cost": 0.22970485833613458,
-   "opened": "2026-11-18T12:05:38+07:00",
-   "zoo": "w_ban_scalp",
-   "smart": 263,
-   "kol": 22,
-   "gap": 9,
-   "miss": 0
-  },
-  "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": {
-   "sym": "bill",
-   "qty": 2223.7124220676396,
-   "entry": 9.925e-05,
-   "last": 0.0001019,
-   "peak": 0.0001138,
-   "cost": 0.2274824344364185,
-   "opened": "2026-11-18T12:10:09+07:00",
-   "zoo": "w_ban_scalp",
-   "smart": 148,
-   "kol": 8,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 2.0924705412000724,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-15T00:43:00+07:00",
@@ -6410,10 +6381,40 @@
    "cost_side": 0.03,
    "smart": 110,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T14:06:35+07:00",
+   "kind": "sell",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.007017,
+   "entry": 0.007451,
+   "usd": 0.2036,
+   "pnl": -0.0261,
+   "why": "ครบ 2 ชม. (-5.8%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 263,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-18T14:10:12+07:00",
+   "kind": "sell",
+   "mint": "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
+   "sym": "bill",
+   "price": 0.0001017,
+   "entry": 9.925e-05,
+   "usd": 0.2194,
+   "pnl": -0.0081,
+   "why": "ครบ 2 ชม. (+2.5%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 148,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1794985310.5121038,
+ "rank_t": 1794985595.2152393,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
