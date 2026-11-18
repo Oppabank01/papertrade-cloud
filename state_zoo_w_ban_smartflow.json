@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.089577501544721,
+ "cash": 0.5585859878037713,
  "pos": {
   "2pkr6bQnMP8jAAqFKW7orZHA783YhWaky3hZK8EUpump": {
    "sym": "AICoin",
@@ -21,13 +21,41 @@
    "sym": "b",
    "qty": 2548.7813269912895,
    "entry": 0.0003358,
-   "last": 0.0003005,
+   "last": 0.0002969,
    "peak": 0.0003358,
    "cost": 0.8821694182680633,
    "opened": "2026-11-19T03:55:43+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 131,
    "kol": 11,
+   "gap": 0,
+   "miss": 0
+  },
+  "Fpzcd2R1y2MPdezgMRigQuBx7aCPPn5sZBXpvtP3pump": {
+   "sym": "HUGH",
+   "qty": 4215.641180700007,
+   "entry": 0.0001767,
+   "last": 0.0001497,
+   "peak": 0.0001767,
+   "cost": 0.7677837524527842,
+   "opened": "2026-11-19T04:23:53+07:00",
+   "zoo": "w_ban_smartflow",
+   "smart": 64,
+   "kol": 4,
+   "gap": 1,
+   "miss": 0
+  },
+  "6ZeMsPdH2ZcP3pGSxHz5ErstowgnnW28CoxU2vcBpump": {
+   "sym": "Clipper",
+   "qty": 15050.084756133703,
+   "entry": 4.92e-05,
+   "last": 5.058637740774833e-05,
+   "peak": 5.118e-05,
+   "cost": 0.7632077612881656,
+   "opened": "2026-11-19T04:23:57+07:00",
+   "zoo": "w_ban_smartflow",
+   "smart": 75,
+   "kol": 3,
    "gap": 2,
    "miss": 0
   }
@@ -2589,10 +2617,38 @@
    "cost_side": 0.03,
    "smart": 7,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T04:23:53+07:00",
+   "kind": "buy",
+   "mint": "Fpzcd2R1y2MPdezgMRigQuBx7aCPPn5sZBXpvtP3pump",
+   "sym": "HUGH",
+   "price": 0.0001767,
+   "jup": 0.0001756319695688745,
+   "usd": 0.7678,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "w_ban_smartflow",
+   "smart": 64,
+   "kol": 4
+  },
+  {
+   "t": "2026-11-19T04:23:57+07:00",
+   "kind": "buy",
+   "mint": "6ZeMsPdH2ZcP3pGSxHz5ErstowgnnW28CoxU2vcBpump",
+   "sym": "Clipper",
+   "price": 4.92e-05,
+   "jup": 4.931612702982577e-05,
+   "usd": 0.7632,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "w_ban_smartflow",
+   "smart": 75,
+   "kol": 3
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795036698.504638,
+ "rank_t": 1795036974.032618,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
