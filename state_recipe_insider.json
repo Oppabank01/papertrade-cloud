@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.6148943547897383,
- "pos": {
-  "5fMcXE1Pvwp4WaQUgYNDSeb9JLF22C3VtdLDQkWTpump": {
-   "sym": "BANDANA",
-   "qty": 11846.11801066331,
-   "entry": 1.259e-05,
-   "last": 1.259e-05,
-   "peak": 1.259e-05,
-   "cost": 0.1537235886974346,
-   "opened": "2026-11-18T08:31:02+07:00",
-   "smart": 12,
-   "kol": 2,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 0.6671764834934966,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -1007,8 +993,23 @@
    "cost_side": 0.03,
    "smart": 12,
    "kol": 2
+  },
+  {
+   "t": "2026-11-18T08:45:37+07:00",
+   "kind": "sell",
+   "mint": "5fMcXE1Pvwp4WaQUgYNDSeb9JLF22C3VtdLDQkWTpump",
+   "sym": "BANDANA",
+   "price": 4.549e-06,
+   "entry": 1.259e-05,
+   "usd": 0.0523,
+   "pnl": -0.1014,
+   "why": "stop -63.9%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 12,
+   "bundler": null
   }
  ],
  "label": "สูตร x_insider4 (คู่ใหม่ + top trader)",
- "rank_t": 1794966020.6668391
+ "rank_t": 1794966310.7935083
 }
