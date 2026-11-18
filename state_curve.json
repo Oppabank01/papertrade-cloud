@@ -1,8 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 1.1367796386408089,
- "pos": {},
+ "cash": 0.9094237109126471,
+ "pos": {
+  "GmGR4KUh4GQcKJJqom8Q7mbg5eSqCGu1sEx9krBpump": {
+   "sym": "Makenzi",
+   "qty": 13385.1109632625,
+   "entry": 1.3712687570555552e-05,
+   "last": 1.3712687570555552e-05,
+   "peak": 1.3712687570555552e-05,
+   "cost": 0.2273559277281618,
+   "curve": "4yCAn9LaXfDzSdVhoyE2P5HN8KkBZjXycMsrKGExKCmR",
+   "opened": "2026-11-18T20:27:55+07:00",
+   "wallet": "7g5CJ7"
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T21:07:09+07:00",
@@ -3742,8 +3754,23 @@
    "sym": "DECETY",
    "wallet": "2kN7bb",
    "why": "not on a SOL pump.fun curve"
+  },
+  {
+   "t": "2026-11-18T20:27:55+07:00",
+   "kind": "buy",
+   "mint": "GmGR4KUh4GQcKJJqom8Q7mbg5eSqCGu1sEx9krBpump",
+   "sym": "Makenzi",
+   "price": 1.3712687570555552e-05,
+   "jup": 1.3664455756492054e-05,
+   "usd": 0.2274,
+   "curve_sol": 47.01,
+   "wallet": "7g5CJ7",
+   "wallet_usd": 298,
+   "lag_min_after_skip": 0.0,
+   "stop_set": -0.08,
+   "cost_side": 0.0325
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ บน bonding curve",
- "seen_t": "2026-11-18T20:23:10+07:00"
+ "seen_t": "2026-11-18T20:27:54+07:00"
 }
