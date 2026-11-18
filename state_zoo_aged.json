@@ -1,8 +1,37 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.7198596798705824,
- "pos": {},
+ "cash": 0.4327738806607552,
+ "pos": {
+  "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
+   "sym": "Lucia",
+   "qty": 213.74379844236847,
+   "entry": 0.0006535,
+   "last": 0.0006535,
+   "peak": 0.0006535,
+   "cost": 0.14397193597411648,
+   "opened": "2026-11-18T21:10:53+07:00",
+   "zoo": "aged",
+   "smart": 129,
+   "kol": 6,
+   "gap": 0,
+   "miss": 0
+  },
+  "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
+   "sym": "STANK",
+   "qty": 163.62134116342983,
+   "entry": 0.0008486,
+   "last": 0.0008486,
+   "peak": 0.0008486,
+   "cost": 0.14311386323571074,
+   "opened": "2026-11-18T21:10:53+07:00",
+   "zoo": "aged",
+   "smart": 80,
+   "kol": 1,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:42:00+07:00",
@@ -4934,8 +4963,36 @@
    "cost_side": 0.03,
    "smart": 10,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T21:10:53+07:00",
+   "kind": "buy",
+   "mint": "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump",
+   "sym": "Lucia",
+   "price": 0.0006535,
+   "jup": 0.0006569344210864478,
+   "usd": 0.144,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "aged",
+   "smart": 129,
+   "kol": 6
+  },
+  {
+   "t": "2026-11-18T21:10:53+07:00",
+   "kind": "buy",
+   "mint": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
+   "sym": "STANK",
+   "price": 0.0008486,
+   "jup": 0.0008537056038894933,
+   "usd": 0.1431,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "aged",
+   "smart": 80,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุเกิน 1 วัน ยังมีคนเล่น",
- "rank_t": 1795010719.8806634
+ "rank_t": 1795010998.1573215
 }

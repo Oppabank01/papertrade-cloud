@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.2457405737744392,
- "pos": {
-  "9Xhg9eRG92jZGbBZvNdcWyEoyz7kjHtA9BP6BxniUPWL": {
-   "sym": "Doubloon",
-   "qty": 899.2814750903776,
-   "entry": 6.628e-05,
-   "last": 7.673391226155152e-05,
-   "peak": 7.673391226155152e-05,
-   "cost": 0.0614351434436098,
-   "opened": "2026-11-18T20:56:11+07:00",
-   "smart": 53,
-   "kol": 3,
-   "gap": 2,
-   "miss": 0
-  }
- },
+ "cash": 0.29939827133309926,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -2555,8 +2541,23 @@
    "cost_side": 0.03,
    "smart": 53,
    "kol": 3
+  },
+  {
+   "t": "2026-11-18T21:10:37+07:00",
+   "kind": "sell",
+   "mint": "9Xhg9eRG92jZGbBZvNdcWyEoyz7kjHtA9BP6BxniUPWL",
+   "sym": "Doubloon",
+   "price": 6.15e-05,
+   "entry": 6.628e-05,
+   "usd": 0.0537,
+   "pnl": -0.0078,
+   "why": "trailing จากยอด +16% (-7.2%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 53,
+   "bundler": null
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1795010719.8806634
+ "rank_t": 1795010998.1573215
 }
