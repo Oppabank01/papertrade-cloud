@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.3131517036468447,
+ "cash": 1.4418896487873303,
  "pos": {
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 57.23801633934753,
    "entry": 0.002778,
-   "last": 0.002646,
+   "last": 0.0026194084368493012,
    "peak": 0.002801,
    "cost": 0.16389116614173102,
    "opened": "2026-11-19T00:17:50+07:00",
    "zoo": "w_ban_scalp",
    "smart": 67,
    "kol": 4,
-   "gap": 1,
-   "miss": 0
-  },
-  "ngwxpGYdkauMcxLFrNTKp8qBgK7JV53zVvd7F2spump": {
-   "sym": "duh",
-   "qty": 644.6843252799583,
-   "entry": 0.0002436,
-   "last": 0.0002257,
-   "peak": 0.0002436,
-   "cost": 0.16186879162873413,
-   "opened": "2026-11-19T00:31:58+07:00",
-   "zoo": "w_ban_scalp",
-   "smart": 129,
-   "kol": 8,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -7083,10 +7069,25 @@
    "zoo": "w_ban_scalp",
    "smart": 129,
    "kol": 8
+  },
+  {
+   "t": "2026-11-19T00:43:41+07:00",
+   "kind": "sell",
+   "mint": "ngwxpGYdkauMcxLFrNTKp8qBgK7JV53zVvd7F2spump",
+   "sym": "duh",
+   "price": 0.0002058250319710348,
+   "entry": 0.0002436,
+   "usd": 0.1287,
+   "pnl": -0.0331,
+   "why": "stop -15.5%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 129,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795023340.3924677,
+ "rank_t": 1795023626.454518,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
