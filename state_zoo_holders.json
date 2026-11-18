@@ -1,33 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.7128038779420717,
+ "cash": 0.7249534984899668,
  "pos": {
-  "7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": {
-   "sym": "HIGH",
-   "qty": 651.874013564418,
-   "entry": 0.0003973,
-   "last": 0.0004149,
-   "peak": 0.0004189,
-   "cost": 0.2669444914338727,
-   "opened": "2026-11-18T17:02:07+07:00",
-   "zoo": "holders",
-   "smart": 125,
-   "kol": 8,
-   "gap": 0,
-   "miss": 0
-  },
   "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": {
    "sym": "PUMPCADE",
    "qty": 15.089803721061298,
    "entry": 0.01672,
-   "last": 0.01697,
+   "last": 0.01691,
    "peak": 0.01725,
    "cost": 0.26005103918382283,
    "opened": "2026-11-18T17:25:46+07:00",
    "zoo": "holders",
    "smart": 123,
    "kol": 19,
+   "gap": 0,
+   "miss": 0
+  },
+  "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": {
+   "sym": "HOGE",
+   "qty": 163.59292954175936,
+   "entry": 0.00147,
+   "last": 0.00147,
+   "peak": 0.00147,
+   "cost": 0.24786807506327177,
+   "opened": "2026-11-18T20:04:48+07:00",
+   "zoo": "holders",
+   "smart": 209,
+   "kol": 12,
    "gap": 0,
    "miss": 0
   }
@@ -4397,8 +4397,37 @@
    "cost_side": 0.03,
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T20:04:48+07:00",
+   "kind": "buy",
+   "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+   "sym": "HOGE",
+   "price": 0.00147,
+   "jup": 0.0014732684764810053,
+   "usd": 0.2479,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 209,
+   "kol": 12
+  },
+  {
+   "t": "2026-11-18T20:04:51+07:00",
+   "kind": "sell",
+   "mint": "7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh",
+   "sym": "HIGH",
+   "price": 0.00041112886206910574,
+   "entry": 0.0003973,
+   "usd": 0.26,
+   "pnl": -0.0069,
+   "why": "ครบ 3 ชม. (+3.5%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 125,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1795006708.1098502
+ "rank_t": 1795006994.8048713
 }
