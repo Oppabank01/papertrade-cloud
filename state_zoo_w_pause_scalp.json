@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.545947359995282,
+ "cash": 1.5666592725295776,
  "pos": {
   "3wtGGWZ8wLWW6BqtC5rxmkHdqvM62atUcGTH4cw3pump": {
    "sym": "ALPHA",
@@ -21,35 +21,35 @@
    "sym": "CLAUDIA",
    "qty": 37.48756286727211,
    "entry": 0.006506,
-   "last": 0.0060490945062874665,
+   "last": 0.005997,
    "peak": 0.006521,
    "cost": 0.2513853679802848,
    "opened": "2026-11-18T16:24:34+07:00",
    "zoo": "w_pause_scalp",
    "smart": 488,
    "kol": 30,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "6dhKENbCU9M9hsjvsG7GahMmxVXpRKkf3Q7zCXgUpump": {
    "sym": "DTC",
    "qty": 973.2409632785891,
    "entry": 0.0002493,
-   "last": 0.00023488225256205065,
+   "last": 0.0002484,
    "peak": 0.0002717,
    "cost": 0.2500813977997859,
    "opened": "2026-11-18T16:33:55+07:00",
    "zoo": "w_pause_scalp",
    "smart": 78,
    "kol": 5,
-   "gap": 1,
+   "gap": 3,
    "miss": 0
   },
   "6FhVPctYg363pQbs4iSvqyHe2cJzfsvFD96gePy6pump": {
    "sym": "EXFIL",
    "qty": 95.42211648448908,
    "entry": 0.002482,
-   "last": 0.002488,
+   "last": 0.002431,
    "peak": 0.002576,
    "cost": 0.2441122378009708,
    "opened": "2026-11-18T16:57:57+07:00",
@@ -6051,8 +6051,37 @@
    "cost_side": 0.03,
    "smart": 36,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T17:25:57+07:00",
+   "kind": "buy",
+   "mint": "4rYsDHMfKmt6VuVGcM8cGzBgkZNgQT3w2DhdEmtVpump",
+   "sym": "DacityCoin",
+   "price": 0.0002836,
+   "jup": 0.0002839049437887367,
+   "usd": 0.2485,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 138,
+   "kol": 12
+  },
+  {
+   "t": "2026-11-18T17:28:50+07:00",
+   "kind": "sell",
+   "mint": "4rYsDHMfKmt6VuVGcM8cGzBgkZNgQT3w2DhdEmtVpump",
+   "sym": "DacityCoin",
+   "price": 0.0003264,
+   "entry": 0.0002836,
+   "usd": 0.2692,
+   "pnl": 0.0207,
+   "why": "ถึงเป้า +15.1%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 138,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794997230.8130655
+ "rank_t": 1794997507.5550423
 }

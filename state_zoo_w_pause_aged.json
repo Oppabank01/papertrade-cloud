@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.5354831948936216,
+ "cash": 0.27765576376777995,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 5.6982761319439925,
    "entry": 0.04519,
-   "last": 0.0454,
+   "last": 0.04531,
    "peak": 0.04553,
    "cost": 0.26541444898221916,
    "opened": "2026-11-18T16:29:27+07:00",
@@ -21,7 +21,7 @@
    "sym": "GTA6",
    "qty": 16.023365890319646,
    "entry": 0.01599,
-   "last": 0.01523,
+   "last": 0.01519,
    "peak": 0.016,
    "cost": 0.2640833030160907,
    "opened": "2026-11-18T16:43:22+07:00",
@@ -35,7 +35,7 @@
    "sym": "EXFIL",
    "qty": 102.45003115962653,
    "entry": 0.002482,
-   "last": 0.002488,
+   "last": 0.002431,
    "peak": 0.002576,
    "cost": 0.26209129801916414,
    "opened": "2026-11-18T16:58:04+07:00",
@@ -43,6 +43,20 @@
    "smart": 103,
    "kol": 9,
    "gap": 0,
+   "miss": 0
+  },
+  "4rYsDHMfKmt6VuVGcM8cGzBgkZNgQT3w2DhdEmtVpump": {
+   "sym": "DacityCoin",
+   "qty": 882.0316420250057,
+   "entry": 0.0002836,
+   "last": 0.0003264,
+   "peak": 0.0003264,
+   "cost": 0.25782743112584167,
+   "opened": "2026-11-18T17:26:04+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 138,
+   "kol": 12,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -4243,8 +4257,22 @@
    "zoo": "w_pause_aged",
    "smart": 103,
    "kol": 9
+  },
+  {
+   "t": "2026-11-18T17:26:04+07:00",
+   "kind": "buy",
+   "mint": "4rYsDHMfKmt6VuVGcM8cGzBgkZNgQT3w2DhdEmtVpump",
+   "sym": "DacityCoin",
+   "price": 0.0002836,
+   "jup": 0.0002839049437887367,
+   "usd": 0.2578,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 138,
+   "kol": 12
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794997230.8130655
+ "rank_t": 1794997507.5550423
 }
