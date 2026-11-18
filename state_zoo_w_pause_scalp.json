@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.2625768843721987,
+ "cash": 2.2168658239880004,
  "pos": {
-  "Cr8kuNqKwiVVuzqLYKcJhmpSHy767837BwLFr9GDYXUf": {
-   "sym": "b",
-   "qty": 445.4900239914575,
-   "entry": 0.0005475,
-   "last": 0.0005028303726304563,
-   "peak": 0.0006142257625025581,
-   "cost": 0.25139743159691097,
-   "opened": "2026-11-18T21:30:10+07:00",
+  "2xCd5qHX5tW6pGUo7zfgHSSAnRjJwPA7Sz1Fu4fWcJjX": {
+   "sym": "Mandy",
+   "qty": 1552.8143978291516,
+   "entry": 0.0001539,
+   "last": 0.000133,
+   "peak": 0.0001539,
+   "cost": 0.2463184248875556,
+   "opened": "2026-11-18T21:39:38+07:00",
    "zoo": "w_pause_scalp",
-   "smart": 130,
-   "kol": 11,
-   "gap": 7,
+   "smart": 43,
+   "kol": 2,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -6267,8 +6267,37 @@
    "zoo": "w_pause_scalp",
    "smart": 130,
    "kol": 11
+  },
+  {
+   "t": "2026-11-18T21:38:42+07:00",
+   "kind": "sell",
+   "mint": "Cr8kuNqKwiVVuzqLYKcJhmpSHy767837BwLFr9GDYXUf",
+   "sym": "b",
+   "price": 0.00046413852622242155,
+   "entry": 0.0005475,
+   "usd": 0.2006,
+   "pnl": -0.0508,
+   "why": "stop -15.2%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 130,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-18T21:39:38+07:00",
+   "kind": "buy",
+   "mint": "2xCd5qHX5tW6pGUo7zfgHSSAnRjJwPA7Sz1Fu4fWcJjX",
+   "sym": "Mandy",
+   "price": 0.0001539,
+   "jup": 0.0001554107675290348,
+   "usd": 0.2463,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 43,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795012450.1078591
+ "rank_t": 1795012722.3812156
 }
