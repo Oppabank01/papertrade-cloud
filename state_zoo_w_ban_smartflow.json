@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.5746140641105368,
+ "cash": 3.017283736213032,
  "pos": {
   "2pkr6bQnMP8jAAqFKW7orZHA783YhWaky3hZK8EUpump": {
    "sym": "AICoin",
@@ -14,49 +14,35 @@
    "zoo": "w_ban_smartflow",
    "smart": 20,
    "kol": 1,
-   "gap": 33,
+   "gap": 9,
    "miss": 0
   },
   "7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": {
    "sym": "HIGH",
    "qty": 2588.6627047738216,
    "entry": 0.0003973,
-   "last": 0.0003572713651312177,
+   "last": 0.0003541,
    "peak": 0.00046633838485585303,
    "cost": 1.0600656489452065,
    "opened": "2026-11-18T17:02:28+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 125,
    "kol": 8,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "ngwxpGYdkauMcxLFrNTKp8qBgK7JV53zVvd7F2spump": {
    "sym": "duh",
    "qty": 5429.578528757904,
    "entry": 0.0002436,
-   "last": 0.0002127,
+   "last": 0.0002329163913792811,
    "peak": 0.0002541,
    "cost": 1.3632707994283917,
    "opened": "2026-11-19T00:31:55+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 129,
    "kol": 8,
-   "gap": 3,
-   "miss": 0
-  },
-  "3GvP1rYsx5KdJ9XsfENtmsWmjkG94oj5b4MY9dx7pump": {
-   "sym": "Sniffer",
-   "qty": 27523.465452899367,
-   "entry": 4.175e-05,
-   "last": 5.817089678100276e-05,
-   "peak": 7.423270332295702e-05,
-   "cost": 1.1843997965971433,
-   "opened": "2026-11-19T00:37:01+07:00",
-   "zoo": "w_ban_smartflow",
-   "smart": 53,
-   "kol": 6,
-   "gap": 5,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -2319,10 +2305,25 @@
    "zoo": "w_ban_smartflow",
    "smart": 53,
    "kol": 6
+  },
+  {
+   "t": "2026-11-19T01:25:14+07:00",
+   "kind": "sell",
+   "mint": "3GvP1rYsx5KdJ9XsfENtmsWmjkG94oj5b4MY9dx7pump",
+   "sym": "Sniffer",
+   "price": 5.4025963050661996e-05,
+   "entry": 4.175e-05,
+   "usd": 1.4427,
+   "pnl": 0.2583,
+   "why": "trailing จากยอด +78% (+29.4%)",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 53,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795025858.5663543,
+ "rank_t": 1795026142.3457088,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
