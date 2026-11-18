@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.11158730562659083,
+ "cash": 0.659797102084871,
  "pos": {
-  "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
-   "sym": "JOB",
-   "qty": 143.66705562910437,
-   "entry": 0.001949,
-   "last": 0.002606,
-   "peak": 0.002827,
-   "cost": 0.2886075978366568,
-   "opened": "2026-11-17T17:36:15+07:00",
-   "zoo": "randrun",
-   "smart": 35,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 11.651457593712278,
@@ -35,28 +21,14 @@
    "sym": "CLAUDIA",
    "qty": 43.32522096045841,
    "entry": 0.005596,
-   "last": 0.007044,
-   "peak": 0.007095,
+   "last": 0.007489148426332794,
+   "peak": 0.007489148426332794,
    "cost": 0.24989480158186483,
    "opened": "2026-11-18T01:47:57+07:00",
    "zoo": "randrun",
    "smart": 482,
    "kol": 30,
-   "gap": 0,
-   "miss": 0
-  },
-  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
-   "sym": "GTA6",
-   "qty": 14.88902444311494,
-   "entry": 0.01612,
-   "last": 0.01475,
-   "peak": 0.01696,
-   "cost": 0.2473830901082383,
-   "opened": "2026-11-18T13:43:42+07:00",
-   "zoo": "randrun",
-   "smart": 297,
-   "kol": 24,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -1570,8 +1542,38 @@
    "zoo": "randrun",
    "smart": 297,
    "kol": 24
+  },
+  {
+   "t": "2026-11-18T17:39:44+07:00",
+   "kind": "sell",
+   "mint": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
+   "sym": "JOB",
+   "price": 0.00258,
+   "entry": 0.001949,
+   "usd": 0.3596,
+   "pnl": 0.071,
+   "why": "ครบ 24 ชม. (+32.4%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 35,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-18T17:39:44+07:00",
+   "kind": "sell",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.01305573988718276,
+   "entry": 0.01612,
+   "usd": 0.1886,
+   "pnl": -0.0588,
+   "why": "stop -19.0%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 297,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1794998080.2990205
+ "rank_t": 1794998356.7906091
 }
