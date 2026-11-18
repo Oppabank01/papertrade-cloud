@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.4150473266555714,
+ "cash": 1.326499391175582,
  "pos": {
   "2pkr6bQnMP8jAAqFKW7orZHA783YhWaky3hZK8EUpump": {
    "sym": "AICoin",
@@ -21,7 +21,7 @@
    "sym": "HIGH",
    "qty": 2588.6627047738216,
    "entry": 0.0003973,
-   "last": 0.0003616,
+   "last": 0.0003635,
    "peak": 0.00046633838485585303,
    "cost": 1.0600656489452065,
    "opened": "2026-11-18T17:02:28+07:00",
@@ -35,13 +35,27 @@
    "sym": "duh",
    "qty": 5429.578528757904,
    "entry": 0.0002436,
-   "last": 0.0002034,
+   "last": 0.0002072,
    "peak": 0.0002541,
    "cost": 1.3632707994283917,
    "opened": "2026-11-19T00:31:55+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 129,
    "kol": 8,
+   "gap": 0,
+   "miss": 0
+  },
+  "5tAB1DMgrsJKgaKcfCfj1RzumuqovQP1LuxzQ7thpump": {
+   "sym": "CDOG",
+   "qty": 33849.654070598895,
+   "entry": 3.12e-05,
+   "last": 2.986e-05,
+   "peak": 3.12e-05,
+   "cost": 1.0885479354799894,
+   "opened": "2026-11-19T02:35:01+07:00",
+   "zoo": "w_ban_smartflow",
+   "smart": 10,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -2385,10 +2399,24 @@
    "cost_side": 0.03,
    "smart": 103,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T02:35:01+07:00",
+   "kind": "buy",
+   "mint": "5tAB1DMgrsJKgaKcfCfj1RzumuqovQP1LuxzQ7thpump",
+   "sym": "CDOG",
+   "price": 3.12e-05,
+   "jup": 3.111907026434657e-05,
+   "usd": 1.0885,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "w_ban_smartflow",
+   "smart": 10,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795030136.1388276,
+ "rank_t": 1795030419.4790015,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
