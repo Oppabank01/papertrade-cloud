@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.0650768326226525,
+ "cash": 2.253278465414017,
  "pos": {
   "HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": {
    "sym": "Lucia",
    "qty": 325.83783851535276,
    "entry": 0.0007678,
-   "last": 0.0007155,
+   "last": 0.0007662,
    "peak": 0.0008495,
    "cost": 0.2578625978273426,
    "opened": "2026-11-18T19:11:23+07:00",
@@ -15,20 +15,6 @@
    "smart": 129,
    "kol": 6,
    "gap": 1,
-   "miss": 0
-  },
-  "5D7qKXqUbTiqY8roVANV5DXqTdYDrbsmQCmyHGRBpump": {
-   "sym": "Cheeky",
-   "qty": 2170.3157366429796,
-   "entry": 0.0001143,
-   "last": 0.0001118265159848372,
-   "peak": 0.0001187,
-   "cost": 0.2556865478234308,
-   "opened": "2026-11-18T19:55:22+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 74,
-   "kol": 3,
-   "gap": 2,
    "miss": 0
   }
  },
@@ -6145,8 +6131,23 @@
    "zoo": "w_pause_scalp",
    "smart": 74,
    "kol": 3
+  },
+  {
+   "t": "2026-11-18T19:58:28+07:00",
+   "kind": "sell",
+   "mint": "5D7qKXqUbTiqY8roVANV5DXqTdYDrbsmQCmyHGRBpump",
+   "sym": "Cheeky",
+   "price": 8.937976268612824e-05,
+   "entry": 0.0001143,
+   "usd": 0.1882,
+   "pnl": -0.0675,
+   "why": "stop -21.8%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 74,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795006428.1897988
+ "rank_t": 1795006708.1098502
 }
