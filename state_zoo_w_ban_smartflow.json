@@ -21,7 +21,7 @@
    "sym": "Clipper",
    "qty": 15050.084756133703,
    "entry": 4.92e-05,
-   "last": 5.061e-05,
+   "last": 5.147e-05,
    "peak": 5.772e-05,
    "cost": 0.7632077612881656,
    "opened": "2026-11-19T04:23:57+07:00",
@@ -35,28 +35,28 @@
    "sym": "plumber",
    "qty": 3618.8143056357953,
    "entry": 0.0001903,
-   "last": 0.000193,
+   "last": 0.0001817,
    "peak": 0.0001992,
    "cost": 0.7098127833049803,
    "opened": "2026-11-19T04:47:07+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 218,
    "kol": 6,
-   "gap": 0,
+   "gap": 4,
    "miss": 0
   },
   "96WnzbBGRm3RadEMZcn6VfGQKTk7AaNYrUmTXNx9pump": {
    "sym": "CRIME",
    "qty": 4871.639240068622,
    "entry": 0.0001018,
-   "last": 0.00010004778531019037,
+   "last": 9.116696007021056e-05,
    "peak": 0.00012284014403405132,
    "cost": 0.5111656098113643,
    "opened": "2026-11-19T05:49:18+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 96,
    "kol": 4,
-   "gap": 3,
+   "gap": 15,
    "miss": 0
   }
  },
@@ -2790,10 +2790,17 @@
    "zoo": "w_ban_smartflow",
    "smart": 96,
    "kol": 4
+  },
+  {
+   "t": "2026-11-19T06:19:33+07:00",
+   "kind": "ban",
+   "mint": "96WnzbBGRm3RadEMZcn6VfGQKTk7AaNYrUmTXNx9pump",
+   "sym": "CRIME",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795043478.149534,
+ "rank_t": 1795043755.631667,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
@@ -2813,6 +2820,7 @@
   "7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": "HIGH",
   "2xCd5qHX5tW6pGUo7zfgHSSAnRjJwPA7Sz1Fu4fWcJjX": "Mandy",
   "79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump": "Apocrycoin",
-  "GgyKtbWS99pzkvqaG7wvxdKCbRxuLDLRDm4TtfDdpump": "DCTY"
+  "GgyKtbWS99pzkvqaG7wvxdKCbRxuLDLRDm4TtfDdpump": "DCTY",
+  "96WnzbBGRm3RadEMZcn6VfGQKTk7AaNYrUmTXNx9pump": "CRIME"
  }
 }

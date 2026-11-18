@@ -1,8 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 0.6306628686159782,
- "pos": {},
+ "cash": 0.5045302948927826,
+ "pos": {
+  "DaQ5YL1q29j8UamDeWJJnqZr7oHZyoszfc3Wt8XVpump": {
+   "sym": "CLIPCITY",
+   "qty": 14287.5094760825,
+   "entry": 6.030856770984873e-06,
+   "last": 6.030856770984873e-06,
+   "peak": 6.030856770984873e-06,
+   "cost": 0.12613257372319564,
+   "curve": "CYYfZbDiSzWz4zGgc9mBQXijxnbgVA6BrxjP8VF9VXaR",
+   "opened": "2026-11-19T06:16:26+07:00",
+   "wallet": "8XzVYj"
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T21:07:09+07:00",
@@ -4445,8 +4457,23 @@
    "sym": "Glarzanon",
    "wallet": "2kN7bb",
    "why": "not on a SOL pump.fun curve"
+  },
+  {
+   "t": "2026-11-19T06:16:26+07:00",
+   "kind": "buy",
+   "mint": "DaQ5YL1q29j8UamDeWJJnqZr7oHZyoszfc3Wt8XVpump",
+   "sym": "CLIPCITY",
+   "price": 6.030856770984873e-06,
+   "jup": 5.999846826976923e-06,
+   "usd": 0.1261,
+   "curve_sol": 21.48,
+   "wallet": "8XzVYj",
+   "wallet_usd": 220,
+   "lag_min_after_skip": 0.0,
+   "stop_set": -0.08,
+   "cost_side": 0.0325
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ บน bonding curve",
- "seen_t": "2026-11-19T06:11:46+07:00"
+ "seen_t": "2026-11-19T06:16:25+07:00"
 }
