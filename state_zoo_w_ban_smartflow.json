@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.21298528213906953,
+ "cash": 0.6712351034115601,
  "pos": {
   "2pkr6bQnMP8jAAqFKW7orZHA783YhWaky3hZK8EUpump": {
    "sym": "AICoin",
@@ -31,32 +31,18 @@
    "gap": 0,
    "miss": 0
   },
-  "HMdJzGtSqENEDYRouQ7S9Hdg6JT7wj5G7LovbHCypump": {
-   "sym": "YUKON",
-   "qty": 21469.323160758355,
-   "entry": 3.015e-05,
-   "last": 4.106e-05,
-   "peak": 4.6412126626790015e-05,
-   "cost": 0.6671821204873886,
-   "opened": "2026-11-19T04:43:16+07:00",
-   "zoo": "w_ban_smartflow",
-   "smart": 72,
-   "kol": 7,
-   "gap": 0,
-   "miss": 0
-  },
   "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump": {
    "sym": "plumber",
    "qty": 3618.8143056357953,
    "entry": 0.0001903,
-   "last": 0.0001658,
+   "last": 0.000172,
    "peak": 0.0001903,
    "cost": 0.7098127833049803,
    "opened": "2026-11-19T04:47:07+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 218,
    "kol": 6,
-   "gap": 0,
+   "gap": 4,
    "miss": 0
   }
  },
@@ -2732,10 +2718,25 @@
    "zoo": "w_ban_smartflow",
    "smart": 218,
    "kol": 6
+  },
+  {
+   "t": "2026-11-19T05:12:19+07:00",
+   "kind": "sell",
+   "mint": "HMdJzGtSqENEDYRouQ7S9Hdg6JT7wj5G7LovbHCypump",
+   "sym": "YUKON",
+   "price": 2.2e-05,
+   "entry": 3.015e-05,
+   "usd": 0.4582,
+   "pnl": -0.2089,
+   "why": "stop -27.0%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 72,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795039500.975302,
+ "rank_t": 1795039776.2730565,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
