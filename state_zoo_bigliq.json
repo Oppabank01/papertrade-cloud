@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 4.870678815980535,
- "pos": {},
+ "cash": 3.8965430527844283,
+ "pos": {
+  "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
+   "sym": "CRIME",
+   "qty": 270.2620867751968,
+   "entry": 0.003497,
+   "last": 0.003497,
+   "peak": 0.003497,
+   "cost": 0.9741357631961072,
+   "opened": "2026-11-19T06:07:41+07:00",
+   "zoo": "bigliq",
+   "smart": 93,
+   "kol": 40,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:42:00+07:00",
@@ -2299,8 +2314,22 @@
    "cost_side": 0.03,
    "smart": 890,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T06:07:41+07:00",
+   "kind": "buy",
+   "mint": "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump",
+   "sym": "CRIME",
+   "price": 0.003497,
+   "jup": 0.003525824873000173,
+   "usd": 0.9741,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliq",
+   "smart": 93,
+   "kol": 40
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ มาร์เก็ตแคป 2M+",
- "rank_t": 1795042902.9379
+ "rank_t": 1795043190.6648378
 }
