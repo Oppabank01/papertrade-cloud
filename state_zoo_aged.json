@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.3419110333207681,
+ "cash": 0.34270714095994825,
  "pos": {
-  "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": {
-   "sym": "BRUH",
-   "qty": 35.55646328857211,
-   "entry": 0.004948,
-   "last": 0.004905,
-   "peak": 0.004986,
-   "cost": 0.18133722979989156,
-   "opened": "2026-11-18T12:23:45+07:00",
-   "zoo": "aged",
-   "smart": 3,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
   "34As1e1Kop9zBvu5e84kjg452Uigq8krcoGEJiWRpump": {
    "sym": "UHI",
    "qty": 253.7145142203697,
    "entry": 0.0006622,
-   "last": 0.00067,
+   "last": 0.00068,
    "peak": 0.000681,
    "cost": 0.17317022399168092,
    "opened": "2026-11-18T12:56:39+07:00",
@@ -42,6 +28,20 @@
    "zoo": "aged",
    "smart": 318,
    "kol": 43,
+   "gap": 0,
+   "miss": 0
+  },
+  "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
+   "sym": "JOB",
+   "qty": 58.95716141160248,
+   "entry": 0.002785,
+   "last": 0.002785,
+   "peak": 0.002785,
+   "cost": 0.1692390172452205,
+   "opened": "2026-11-18T15:27:17+07:00",
+   "zoo": "aged",
+   "smart": 37,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -4700,8 +4700,37 @@
    "cost_side": 0.03,
    "smart": 110,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T15:27:17+07:00",
+   "kind": "buy",
+   "mint": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
+   "sym": "JOB",
+   "price": 0.002785,
+   "jup": 0.0027856181247745723,
+   "usd": 0.1692,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "aged",
+   "smart": 37,
+   "kol": 1
+  },
+  {
+   "t": "2026-11-18T15:27:17+07:00",
+   "kind": "sell",
+   "mint": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
+   "sym": "BRUH",
+   "price": 0.004929,
+   "entry": 0.004948,
+   "usd": 0.17,
+   "pnl": -0.0113,
+   "why": "ครบ 3 ชม. (-0.4%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 3,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุเกิน 1 วัน ยังมีคนเล่น",
- "rank_t": 1794990122.833766
+ "rank_t": 1794990394.5859709
 }
