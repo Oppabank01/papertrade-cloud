@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.15550513749080627,
- "pos": {
-  "3yjHj9s9MukEHr7b7qhMiUfH5fSUz97Eb5J8SRjdpump": {
-   "sym": "VI",
-   "qty": 1312.4438363580798,
-   "entry": 4.759e-05,
-   "last": 4.898e-06,
-   "peak": 9.289e-05,
-   "cost": 0.06437765633094311,
-   "opened": "2026-11-17T07:25:35+07:00",
-   "zoo": "hodl",
-   "smart": 32,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 0.1616426025991731,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T00:42:01+07:00",
@@ -361,8 +346,23 @@
    "cost_side": 0.03,
    "smart": 36,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T07:26:11+07:00",
+   "kind": "sell",
+   "mint": "3yjHj9s9MukEHr7b7qhMiUfH5fSUz97Eb5J8SRjdpump",
+   "sym": "VI",
+   "price": 4.82e-06,
+   "entry": 4.759e-05,
+   "usd": 0.0061,
+   "pnl": -0.0582,
+   "why": "ครบ 24 ชม. (-89.9%)",
+   "stop_set": -1.0,
+   "cost_side": 0.03,
+   "smart": 32,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ไม่ตั้ง stop ถือ 24 ชม.",
- "rank_t": 1794961246.4963467
+ "rank_t": 1794961532.1829543
 }
