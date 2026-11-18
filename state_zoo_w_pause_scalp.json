@@ -1,41 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.005079021595207,
+ "cash": 2.621507921650897,
  "pos": {
-  "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
-   "sym": "paws",
-   "qty": 470.2428486456895,
-   "entry": 0.0006345,
-   "last": 0.0007012,
-   "peak": 0.0007192,
-   "cost": 0.30753358840001027,
-   "opened": "2026-11-18T05:47:20+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 294,
-   "kol": 15,
-   "gap": 0,
-   "miss": 0
-  },
-  "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
-   "sym": "CBUCKS",
-   "qty": 70.25978922650972,
-   "entry": 0.004234,
-   "last": 0.004352,
-   "peak": 0.004447,
-   "cost": 0.3066171383065782,
-   "opened": "2026-11-18T05:47:20+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 42,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
   "CM65K38bqGePYkNQBjGRRDYMhyxgh9xTQg2HPQTFpump": {
    "sym": "Pois",
    "qty": 1371.360918158115,
    "entry": 0.0002138,
-   "last": 0.0001899,
+   "last": 0.0001884,
    "peak": 0.0002138,
    "cost": 0.302202601836946,
    "opened": "2026-11-18T06:30:18+07:00",
@@ -5389,10 +5361,40 @@
    "cost_side": 0.03,
    "smart": 155,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T07:47:22+07:00",
+   "kind": "sell",
+   "mint": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
+   "sym": "paws",
+   "price": 0.0007003,
+   "entry": 0.0006345,
+   "usd": 0.3195,
+   "pnl": 0.012,
+   "why": "ครบ 2 ชม. (+10.4%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 294,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-18T07:47:22+07:00",
+   "kind": "sell",
+   "mint": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+   "sym": "CBUCKS",
+   "price": 0.004356,
+   "entry": 0.004234,
+   "usd": 0.2969,
+   "pnl": -0.0097,
+   "why": "ครบ 2 ชม. (+2.9%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 42,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794962371.4806123,
+ "rank_t": 1794962648.9455276,
  "halted": "ราคา ACRUX สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-18T08:07:21+07:00"
 }
