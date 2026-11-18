@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.08824796588656318,
+ "cash": 0.25578486993960436,
  "pos": {
-  "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": {
-   "sym": "swordcat",
-   "qty": 155.81121294324862,
-   "entry": 0.0006122,
-   "last": 0.0005873,
-   "peak": 0.0006122,
-   "cost": 0.09831748563580377,
-   "opened": "2026-11-18T13:10:37+07:00",
-   "zoo": "boosted",
-   "smart": 318,
-   "kol": 43,
-   "gap": 0,
-   "miss": 0
-  },
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
    "sym": "FLOAT",
    "qty": 41.38917682006937,
    "entry": 0.002283,
-   "last": 0.0021986773761834034,
+   "last": 0.0021860004944454304,
    "peak": 0.002305,
    "cost": 0.0973938267163661,
    "opened": "2026-11-18T13:20:14+07:00",
    "zoo": "boosted",
    "smart": 354,
    "kol": 32,
-   "gap": 5,
+   "gap": 6,
    "miss": 0
   },
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
@@ -42,21 +28,7 @@
    "zoo": "boosted",
    "smart": 80,
    "kol": 1,
-   "gap": 2,
-   "miss": 0
-  },
-  "BTCmcoKg6J767Bum7nXVDPLsWAZs3ZdYwTQr7YnXpump": {
-   "sym": "SIRIUS",
-   "qty": 1671.6418392318014,
-   "entry": 5.293e-05,
-   "last": 5.45e-05,
-   "peak": 5.476e-05,
-   "cost": 0.09119769382657107,
-   "opened": "2026-11-18T15:51:08+07:00",
-   "zoo": "boosted",
-   "smart": 27,
-   "kol": 2,
-   "gap": 0,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -4868,8 +4840,38 @@
    "zoo": "boosted",
    "smart": 27,
    "kol": 2
+  },
+  {
+   "t": "2026-11-18T16:14:59+07:00",
+   "kind": "sell",
+   "mint": "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump",
+   "sym": "swordcat",
+   "price": 0.0005873,
+   "entry": 0.0006122,
+   "usd": 0.0888,
+   "pnl": -0.0095,
+   "why": "ครบ 3 ชม. (-4.1%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 318,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-18T16:14:59+07:00",
+   "kind": "sell",
+   "mint": "BTCmcoKg6J767Bum7nXVDPLsWAZs3ZdYwTQr7YnXpump",
+   "sym": "SIRIUS",
+   "price": 4.856e-05,
+   "entry": 5.293e-05,
+   "usd": 0.0788,
+   "pnl": -0.0124,
+   "why": "stop -8.3%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 27,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794992978.5016358
+ "rank_t": 1794993259.5121887
 }
