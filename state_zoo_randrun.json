@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.3774463288357895,
+ "cash": 0.5728424158615808,
  "pos": {
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 11.651457593712278,
    "entry": 0.02047,
-   "last": 0.01882,
+   "last": 0.01866,
    "peak": 0.02293,
    "cost": 0.24583110383765236,
    "opened": "2026-11-18T01:15:12+07:00",
@@ -21,27 +21,13 @@
    "sym": "CLAUDIA",
    "qty": 43.32522096045841,
    "entry": 0.005596,
-   "last": 0.006864,
+   "last": 0.006766,
    "peak": 0.007612,
    "cost": 0.24989480158186483,
    "opened": "2026-11-18T01:47:57+07:00",
    "zoo": "randrun",
    "smart": 482,
    "kol": 30,
-   "gap": 0,
-   "miss": 0
-  },
-  "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
-   "sym": "paws",
-   "qty": 388.4902323862007,
-   "entry": 0.0006225,
-   "last": 0.0005805,
-   "peak": 0.000624,
-   "cost": 0.24926321342033597,
-   "opened": "2026-11-18T21:35:01+07:00",
-   "zoo": "randrun",
-   "smart": 296,
-   "kol": 15,
    "gap": 0,
    "miss": 0
   }
@@ -1687,8 +1673,23 @@
    "cost_side": 0.03,
    "smart": 440,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T23:20:05+07:00",
+   "kind": "sell",
+   "mint": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
+   "sym": "paws",
+   "price": 0.0005184113341302329,
+   "entry": 0.0006225,
+   "usd": 0.1954,
+   "pnl": -0.0539,
+   "why": "stop -16.7%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 296,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1795018451.6323428
+ "rank_t": 1795018733.0948615
 }

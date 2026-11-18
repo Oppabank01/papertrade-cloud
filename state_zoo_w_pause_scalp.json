@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.158427973287134,
- "pos": {
-  "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": {
-   "sym": "DCTY",
-   "qty": 30.519220293855334,
-   "entry": 0.007624,
-   "last": 0.007343,
-   "peak": 0.00844,
-   "cost": 0.23982533036523712,
-   "opened": "2026-11-18T23:10:52+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 210,
-   "kol": 13,
-   "gap": 6,
-   "miss": 0
-  }
- },
+ "cash": 2.415731465060507,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-15T00:43:00+07:00",
@@ -6325,8 +6310,52 @@
    "zoo": "w_pause_scalp",
    "smart": 210,
    "kol": 13
+  },
+  {
+   "t": "2026-11-18T23:20:14+07:00",
+   "kind": "buy",
+   "mint": "79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump",
+   "sym": "Apocrycoin",
+   "price": 0.000136,
+   "jup": 0.00013711381016437665,
+   "usd": 0.2364,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 62,
+   "kol": 4
+  },
+  {
+   "t": "2026-11-18T23:20:24+07:00",
+   "kind": "sell",
+   "mint": "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump",
+   "sym": "DCTY",
+   "price": 0.006097423453701809,
+   "entry": 0.007624,
+   "usd": 0.1805,
+   "pnl": -0.0593,
+   "why": "stop -20.0%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 210,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-18T23:21:45+07:00",
+   "kind": "sell",
+   "mint": "79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump",
+   "sym": "Apocrycoin",
+   "price": 0.0001914,
+   "entry": 0.000136,
+   "usd": 0.3131,
+   "pnl": 0.0768,
+   "why": "ถึงเป้า +40.7%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 62,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795018451.6323428
+ "rank_t": 1795018733.0948615
 }
