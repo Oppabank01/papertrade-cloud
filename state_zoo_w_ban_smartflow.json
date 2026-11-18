@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.701896940616681,
+ "cash": 2.797346099388744,
  "pos": {
   "2pkr6bQnMP8jAAqFKW7orZHA783YhWaky3hZK8EUpump": {
    "sym": "AICoin",
@@ -17,18 +17,18 @@
    "gap": 0,
    "miss": 0
   },
-  "VCLUBuKaUbqGogb8Z88mWtFD5w9XK8Z31iPhiLFEkpj": {
-   "sym": "VC",
-   "qty": 12396.840667586011,
-   "entry": 7.218e-05,
-   "last": 0.0001256,
-   "peak": 0.00012640329120781115,
-   "cost": 0.9222881461413712,
-   "opened": "2026-11-19T03:04:22+07:00",
+  "H4BpLUZm4r9269UXJziP9bUetMgJv5fWWPBsUP2bpump": {
+   "sym": "APCY",
+   "qty": 12992.740592918733,
+   "entry": 7.535e-05,
+   "last": 6.498822310197778e-05,
+   "peak": 7.536265243430684e-05,
+   "cost": 1.009073390719879,
+   "opened": "2026-11-19T03:13:26+07:00",
    "zoo": "w_ban_smartflow",
-   "smart": 24,
-   "kol": 1,
-   "gap": 10,
+   "smart": 35,
+   "kol": 4,
+   "gap": 4,
    "miss": 0
   }
  },
@@ -2473,10 +2473,39 @@
    "zoo": "w_ban_smartflow",
    "smart": 24,
    "kol": 1
+  },
+  {
+   "t": "2026-11-19T03:13:26+07:00",
+   "kind": "buy",
+   "mint": "H4BpLUZm4r9269UXJziP9bUetMgJv5fWWPBsUP2bpump",
+   "sym": "APCY",
+   "price": 7.535e-05,
+   "jup": 7.536265243430684e-05,
+   "usd": 1.0091,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "w_ban_smartflow",
+   "smart": 35,
+   "kol": 4
+  },
+  {
+   "t": "2026-11-19T03:14:25+07:00",
+   "kind": "sell",
+   "mint": "VCLUBuKaUbqGogb8Z88mWtFD5w9XK8Z31iPhiLFEkpj",
+   "sym": "VC",
+   "price": 9.183374535738901e-05,
+   "entry": 7.218e-05,
+   "usd": 1.1045,
+   "pnl": 0.1822,
+   "why": "trailing จากยอด +75% (+27.2%)",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 24,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795032446.6903806,
+ "rank_t": 1795032727.7268808,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
