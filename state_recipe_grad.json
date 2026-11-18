@@ -1,18 +1,18 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.222656031185062,
+ "cash": 0.2035104781794628,
  "pos": {
-  "7krcanNAgHuundojTSTLT3bhMuCeptH5TByChuxLpump": {
-   "sym": "BUCKZ",
-   "qty": 175.22784024638804,
-   "entry": 0.0003082,
-   "last": 0.0002764,
-   "peak": 0.0003082,
-   "cost": 0.055664007796265506,
-   "opened": "2026-11-18T19:24:49+07:00",
-   "smart": 112,
-   "kol": 4,
+  "3GvP1rYsx5KdJ9XsfENtmsWmjkG94oj5b4MY9dx7pump": {
+   "sym": "Sniffer",
+   "qty": 1336.7753689633269,
+   "entry": 3.935e-05,
+   "last": 3.935e-05,
+   "peak": 3.935e-05,
+   "cost": 0.05421780124583273,
+   "opened": "2026-11-18T19:44:34+07:00",
+   "smart": 36,
+   "kol": 5,
    "gap": 0,
    "miss": 0
   }
@@ -2499,8 +2499,36 @@
    "cost_side": 0.03,
    "smart": 112,
    "kol": 4
+  },
+  {
+   "t": "2026-11-18T19:44:34+07:00",
+   "kind": "buy",
+   "mint": "3GvP1rYsx5KdJ9XsfENtmsWmjkG94oj5b4MY9dx7pump",
+   "sym": "Sniffer",
+   "price": 3.935e-05,
+   "jup": 3.912143199247648e-05,
+   "usd": 0.0542,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 36,
+   "kol": 5
+  },
+  {
+   "t": "2026-11-18T19:44:36+07:00",
+   "kind": "sell",
+   "mint": "7krcanNAgHuundojTSTLT3bhMuCeptH5TByChuxLpump",
+   "sym": "BUCKZ",
+   "price": 0.0002063,
+   "entry": 0.0003082,
+   "usd": 0.0351,
+   "pnl": -0.0206,
+   "why": "stop -33.1%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 112,
+   "bundler": null
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1795005561.30234
+ "rank_t": 1795005860.7133641
 }

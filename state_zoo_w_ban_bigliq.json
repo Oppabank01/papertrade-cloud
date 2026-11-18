@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 6.44990428197079,
+ "cash": 4.8356923838540435,
  "pos": {
   "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": {
    "sym": "PUMPCADE",
@@ -14,6 +14,20 @@
    "zoo": "w_ban_bigliq",
    "smart": 123,
    "kol": 19,
+   "gap": 0,
+   "miss": 0
+  },
+  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
+   "sym": "CLAUDIA",
+   "qty": 223.15593952021476,
+   "entry": 0.007018,
+   "last": 0.006901,
+   "peak": 0.007018,
+   "cost": 1.6142118981167461,
+   "opened": "2026-11-18T19:45:15+07:00",
+   "zoo": "w_ban_bigliq",
+   "smart": 519,
+   "kol": 34,
    "gap": 0,
    "miss": 0
   }
@@ -1537,10 +1551,24 @@
    "cost_side": 0.03,
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T19:45:15+07:00",
+   "kind": "buy",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.007018,
+   "jup": 0.006960406151359236,
+   "usd": 1.6142,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_bigliq",
+   "smart": 519,
+   "kol": 34
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795005561.30234,
+ "rank_t": 1795005860.7133641,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
