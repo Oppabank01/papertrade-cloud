@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.282801797025618,
+ "cash": 3.2453128839395013,
  "pos": {
   "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": {
    "sym": "fone",
    "qty": 1128.9940046601298,
    "entry": 0.0008826,
-   "last": 0.0007348,
+   "last": 0.0007215,
    "peak": 0.0009561,
    "cost": 1.0270563889023199,
    "opened": "2026-11-16T22:14:56+07:00",
@@ -35,7 +35,7 @@
    "sym": "HIGH",
    "qty": 2588.6627047738216,
    "entry": 0.0003973,
-   "last": 0.000392,
+   "last": 0.0003924,
    "peak": 0.00046633838485585303,
    "cost": 1.0600656489452065,
    "opened": "2026-11-18T17:02:28+07:00",
@@ -43,20 +43,6 @@
    "smart": 125,
    "kol": 8,
    "gap": 0,
-   "miss": 0
-  },
-  "2xCd5qHX5tW6pGUo7zfgHSSAnRjJwPA7Sz1Fu4fWcJjX": {
-   "sym": "Mandy",
-   "qty": 10907.776377535305,
-   "entry": 0.0001154,
-   "last": 9.763389731229357e-05,
-   "peak": 0.00012203229979573564,
-   "cost": 1.2974205256313898,
-   "opened": "2026-11-18T20:52:17+07:00",
-   "zoo": "w_ban_smartflow",
-   "smart": 38,
-   "kol": 2,
-   "gap": 16,
    "miss": 0
   }
  },
@@ -2041,10 +2027,25 @@
    "mint": "2xCd5qHX5tW6pGUo7zfgHSSAnRjJwPA7Sz1Fu4fWcJjX",
    "sym": "Mandy",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-18T21:21:09+07:00",
+   "kind": "sell",
+   "mint": "2xCd5qHX5tW6pGUo7zfgHSSAnRjJwPA7Sz1Fu4fWcJjX",
+   "sym": "Mandy",
+   "price": 9.095116045453898e-05,
+   "entry": 0.0001154,
+   "usd": 0.9625,
+   "pnl": -0.3349,
+   "why": "stop -21.2%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 38,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795011289.590231,
+ "rank_t": 1795011586.1766667,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
