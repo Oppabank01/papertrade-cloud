@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.21074122913346716,
- "pos": {
-  "7TpHN3dMcvXXDwcjFkyrGMyaP81QTtbnFBeBgqtzpump": {
-   "sym": "GTA7",
-   "qty": 769.4608629583389,
-   "entry": 6.643e-05,
-   "last": 6.643e-05,
-   "peak": 6.643e-05,
-   "cost": 0.05268530728336679,
-   "opened": "2026-11-18T15:31:30+07:00",
-   "smart": 19,
-   "kol": 1,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 0.2783200389813275,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -2471,8 +2457,23 @@
    "cost_side": 0.03,
    "smart": 19,
    "kol": 1
+  },
+  {
+   "t": "2026-11-18T15:36:12+07:00",
+   "kind": "sell",
+   "mint": "7TpHN3dMcvXXDwcjFkyrGMyaP81QTtbnFBeBgqtzpump",
+   "sym": "GTA7",
+   "price": 9.052379104568517e-05,
+   "entry": 6.643e-05,
+   "usd": 0.0676,
+   "pnl": 0.0149,
+   "why": "ถึงเป้า +36.3%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 19,
+   "bundler": null
   }
  ],
  "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
- "rank_t": 1794990679.4631984
+ "rank_t": 1794990960.283672
 }
