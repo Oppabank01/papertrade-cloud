@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.3123632511703808,
+ "cash": 0.32521812151106616,
  "pos": {
-  "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
-   "sym": "Rocco",
-   "qty": 183.48221432404935,
-   "entry": 0.00105,
-   "last": 0.001045,
-   "peak": 0.001127,
-   "cost": 0.19857382502602744,
-   "opened": "2026-11-18T09:52:22+07:00",
-   "zoo": "aged",
-   "smart": 127,
-   "kol": 10,
-   "gap": 0,
-   "miss": 0
-  },
   "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
    "sym": "WASTED",
    "qty": 72.40468368922762,
    "entry": 0.002477,
-   "last": 0.002613,
+   "last": 0.002612,
    "peak": 0.002613,
    "cost": 0.18485508297074504,
    "opened": "2026-11-18T12:19:25+07:00",
@@ -35,12 +21,26 @@
    "sym": "BRUH",
    "qty": 35.55646328857211,
    "entry": 0.004948,
-   "last": 0.004853,
+   "last": 0.004831,
    "peak": 0.004986,
    "cost": 0.18133722979989156,
    "opened": "2026-11-18T12:23:45+07:00",
    "zoo": "aged",
    "smart": 3,
+   "kol": 0,
+   "gap": 0,
+   "miss": 0
+  },
+  "34As1e1Kop9zBvu5e84kjg452Uigq8krcoGEJiWRpump": {
+   "sym": "UHI",
+   "qty": 253.7145142203697,
+   "entry": 0.0006622,
+   "last": 0.0006608,
+   "peak": 0.0006622,
+   "cost": 0.17317022399168092,
+   "opened": "2026-11-18T12:56:39+07:00",
+   "zoo": "aged",
+   "smart": 16,
    "kol": 0,
    "gap": 0,
    "miss": 0
@@ -4642,8 +4642,37 @@
    "cost_side": 0.03,
    "smart": 59,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T12:56:39+07:00",
+   "kind": "buy",
+   "mint": "34As1e1Kop9zBvu5e84kjg452Uigq8krcoGEJiWRpump",
+   "sym": "UHI",
+   "price": 0.0006622,
+   "jup": 0.0006606754393950655,
+   "usd": 0.1732,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "aged",
+   "smart": 16,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-18T12:56:42+07:00",
+   "kind": "sell",
+   "mint": "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
+   "sym": "Rocco",
+   "price": 0.001045,
+   "entry": 0.00105,
+   "usd": 0.186,
+   "pnl": -0.0125,
+   "why": "ครบ 3 ชม. (-0.5%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 127,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุเกิน 1 วัน ยังมีคนเล่น",
- "rank_t": 1794981080.7186618
+ "rank_t": 1794981359.0805225
 }
