@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.2589031198273093,
+ "cash": 1.642853212987227,
  "pos": {
   "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
    "sym": "PAID",
    "qty": 176.66644332468934,
    "entry": 0.001375,
-   "last": 0.001371,
+   "last": 0.001387,
    "peak": 0.0014129491056711035,
    "cost": 0.2503776124216119,
    "opened": "2026-11-19T05:34:37+07:00",
@@ -21,27 +21,13 @@
    "sym": "JOB",
    "qty": 99.09675483630318,
    "entry": 0.002444,
-   "last": 0.002464,
+   "last": 0.002425,
    "peak": 0.002477,
    "cost": 0.2496314871365955,
    "opened": "2026-11-19T05:34:37+07:00",
    "zoo": "w_pause_scalp",
    "smart": 37,
    "kol": 1,
-   "gap": 0,
-   "miss": 0
-  },
-  "FfsmhbvkTZ2TBYTuLgYCWiwhqeosVyH3imuUtWWypump": {
-   "sym": "clipping",
-   "qty": 918.2514467946465,
-   "entry": 0.0002631,
-   "last": 0.00023323218407216584,
-   "peak": 0.0002685,
-   "cost": 0.249012529016359,
-   "opened": "2026-11-19T05:39:21+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 62,
-   "kol": 3,
    "gap": 2,
    "miss": 0
   },
@@ -49,28 +35,14 @@
    "sym": "DacityCoin",
    "qty": 257.5620312487485,
    "entry": 0.0009352,
-   "last": 0.00099,
+   "last": 0.0009604,
    "peak": 0.001004,
    "cost": 0.2482704716798903,
    "opened": "2026-11-19T05:39:21+07:00",
    "zoo": "w_pause_scalp",
    "smart": 323,
    "kol": 26,
-   "gap": 0,
-   "miss": 0
-  },
-  "96WnzbBGRm3RadEMZcn6VfGQKTk7AaNYrUmTXNx9pump": {
-   "sym": "CRIME",
-   "qty": 2359.5578898934114,
-   "entry": 0.0001018,
-   "last": 9.120044322783014e-05,
-   "peak": 0.0001018,
-   "cost": 0.247580904134353,
-   "opened": "2026-11-19T05:49:21+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 96,
-   "kol": 4,
-   "gap": 3,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -6790,8 +6762,38 @@
    "zoo": "w_pause_scalp",
    "smart": 96,
    "kol": 4
+  },
+  {
+   "t": "2026-11-19T05:53:37+07:00",
+   "kind": "sell",
+   "mint": "FfsmhbvkTZ2TBYTuLgYCWiwhqeosVyH3imuUtWWypump",
+   "sym": "clipping",
+   "price": 0.0002195287830241176,
+   "entry": 0.0002631,
+   "usd": 0.1956,
+   "pnl": -0.0534,
+   "why": "stop -16.6%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 62,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-19T05:53:37+07:00",
+   "kind": "sell",
+   "mint": "96WnzbBGRm3RadEMZcn6VfGQKTk7AaNYrUmTXNx9pump",
+   "sym": "CRIME",
+   "price": 8.228686398039877e-05,
+   "entry": 0.0001018,
+   "usd": 0.1884,
+   "pnl": -0.0592,
+   "why": "stop -19.2%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 96,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795042065.781402
+ "rank_t": 1795042340.8438735
 }
