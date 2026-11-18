@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.21346289773598603,
+ "cash": 0.10509209684504518,
  "pos": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 34.296820238708456,
    "entry": 0.003097,
-   "last": 0.003037,
+   "last": 0.002981,
    "peak": 0.003107,
    "cost": 0.10947974879332106,
    "opened": "2026-11-18T07:44:47+07:00",
@@ -28,21 +28,35 @@
    "zoo": "boosted",
    "smart": 33,
    "kol": 2,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
    "sym": "Rocco",
    "qty": 102.64893646368901,
    "entry": 0.00105,
-   "last": 0.0009983,
+   "last": 0.001006,
    "peak": 0.00105,
    "cost": 0.11109192257975001,
    "opened": "2026-11-18T09:52:31+07:00",
    "zoo": "boosted",
    "smart": 127,
    "kol": 10,
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": {
+   "sym": "GTA",
+   "qty": 122.45673308221618,
+   "entry": 0.0008586,
+   "last": 0.0008586,
+   "peak": 0.0008586,
+   "cost": 0.10837080089094085,
+   "opened": "2026-11-18T10:06:49+07:00",
+   "zoo": "boosted",
+   "smart": 301,
+   "kol": 17,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -4637,8 +4651,22 @@
    "cost_side": 0.03,
    "smart": 173,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T10:06:49+07:00",
+   "kind": "buy",
+   "mint": "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump",
+   "sym": "GTA",
+   "price": 0.0008586,
+   "jup": 0.0008629821448793709,
+   "usd": 0.1084,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 301,
+   "kol": 17
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794970862.8634481
+ "rank_t": 1794971147.1931086
 }
