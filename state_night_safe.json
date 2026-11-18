@@ -527,10 +527,35 @@
    "cost_side": 0.03,
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T08:31:47+07:00",
+   "kind": "buy",
+   "mint": "5fMcXE1Pvwp4WaQUgYNDSeb9JLF22C3VtdLDQkWTpump",
+   "sym": "BANDANA",
+   "price": 1.256e-05,
+   "jup": 1.2524544564590592e-05,
+   "usd": 2.8581,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "state_recipe_insider.json"
   }
  ],
- "pos": {},
- "cash": 14.29032299589709,
+ "pos": {
+  "5fMcXE1Pvwp4WaQUgYNDSeb9JLF22C3VtdLDQkWTpump": {
+   "sym": "BANDANA",
+   "qty": 220771.8371117732,
+   "entry": 1.256e-05,
+   "last": 1.256e-05,
+   "peak": 1.256e-05,
+   "cost": 2.8580645991794182,
+   "opened": "2026-11-18T08:31:47+07:00",
+   "source": "state_recipe_insider.json",
+   "gap": 0,
+   "miss": 0
+  }
+ },
+ "cash": 11.432258396717673,
  "start_usd": 14.78415138971023,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
@@ -686,6 +711,7 @@
   "state_recipe_insider.json:2026-11-18T01:57:14+07:00:5xere1fCPjk8BzJCVdFHgkBVLZ4Fi7oTi5Qfor53pump",
   "state_recipe_insider.json:2026-11-18T02:49:12+07:00:9Zuyqg35CMjgxQfLdY9ocwonhVN8eLEgdDtTpK2Ppump",
   "state_recipe_insider.json:2026-11-18T04:32:56+07:00:EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump",
+  "state_recipe_insider.json:2026-11-18T08:31:02+07:00:5fMcXE1Pvwp4WaQUgYNDSeb9JLF22C3VtdLDQkWTpump",
   "state_recipe_smart4.json:2026-11-13T09:57:00+07:00:2uBwYfuaU2juRuLG8dty56hzPpqcgejtQDwXqFBKQETg",
   "state_recipe_smart4.json:2026-11-13T09:57:00+07:00:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
   "state_recipe_smart4.json:2026-11-13T09:57:00+07:00:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
