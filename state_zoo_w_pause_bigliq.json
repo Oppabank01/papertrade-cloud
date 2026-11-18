@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.351438419871484,
+ "cash": 1.2064271460570923,
  "pos": {
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 207.9392394248431,
    "entry": 0.005496,
-   "last": 0.005384,
+   "last": 0.005445,
    "peak": 0.005546,
    "cost": 1.177936569654646,
    "opened": "2026-11-18T15:51:19+07:00",
@@ -28,20 +28,34 @@
    "zoo": "w_pause_bigliq",
    "smart": 725,
    "kol": 80,
-   "gap": 9,
+   "gap": 21,
    "miss": 0
   },
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 24.887139981574453,
    "entry": 0.04537,
-   "last": 0.0454,
+   "last": 0.04531,
    "peak": 0.04551,
    "cost": 1.1638111121047545,
    "opened": "2026-11-18T16:01:08+07:00",
    "zoo": "w_pause_bigliq",
    "smart": 1000,
    "kol": 174,
+   "gap": 0,
+   "miss": 0
+  },
+  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
+   "sym": "CATE",
+   "qty": 50.91154618949235,
+   "entry": 0.02182,
+   "last": 0.02196,
+   "peak": 0.02196,
+   "cost": 1.1450112738143918,
+   "opened": "2026-11-18T17:21:34+07:00",
+   "zoo": "w_pause_bigliq",
+   "smart": 887,
+   "kol": 110,
    "gap": 0,
    "miss": 0
   }
@@ -1767,8 +1781,24 @@
    "cost_side": 0.03,
    "smart": 925,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T17:21:34+07:00",
+   "kind": "buy",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.02182,
+   "jup": 0.021947640946234172,
+   "usd": 1.145,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_bigliq",
+   "smart": 887,
+   "kol": 110
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1794996949.4613683
+ "rank_t": 1794997230.8130655,
+ "halted": "ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+ "halted_until": "2026-11-18T18:22:08+07:00"
 }
