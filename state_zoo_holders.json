@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.5196829358534458,
+ "cash": 0.2397612691222587,
  "pos": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 18.23549132668845,
    "entry": 0.01642,
-   "last": 0.01597,
+   "last": 0.01583,
    "peak": 0.01686,
    "cost": 0.30862375549806675,
    "opened": "2026-11-18T13:05:47+07:00",
@@ -21,7 +21,7 @@
    "sym": "swordcat",
    "qty": 485.4922535195963,
    "entry": 0.0006122,
-   "last": 0.0005926,
+   "last": 0.0005912,
    "peak": 0.0006122,
    "cost": 0.3063475135072118,
    "opened": "2026-11-18T13:10:36+07:00",
@@ -35,7 +35,7 @@
    "sym": "mihao",
    "qty": 33.2305025258956,
    "entry": 0.008545,
-   "last": 0.009058,
+   "last": 0.009082,
    "peak": 0.009097,
    "cost": 0.2926764008284663,
    "opened": "2026-11-18T13:48:26+07:00",
@@ -43,6 +43,20 @@
    "smart": 723,
    "kol": 70,
    "gap": 0,
+   "miss": 0
+  },
+  "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": {
+   "sym": "BTC",
+   "qty": 185.00000072384046,
+   "entry": 0.001468,
+   "last": 0.001373,
+   "peak": 0.001468,
+   "cost": 0.2799216667311871,
+   "opened": "2026-11-18T15:22:34+07:00",
+   "zoo": "holders",
+   "smart": 796,
+   "kol": 70,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -4251,8 +4265,22 @@
    "cost_side": 0.03,
    "smart": 4,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T15:22:34+07:00",
+   "kind": "buy",
+   "mint": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+   "sym": "BTC",
+   "price": 0.001468,
+   "jup": 0.0014698315065491915,
+   "usd": 0.2799,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 796,
+   "kol": 70
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1794989835.5890312
+ "rank_t": 1794990122.833766
 }
