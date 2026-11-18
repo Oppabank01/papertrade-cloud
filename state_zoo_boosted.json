@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.17944565971313425,
+ "cash": 0.08824796588656318,
  "pos": {
   "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": {
    "sym": "swordcat",
    "qty": 155.81121294324862,
    "entry": 0.0006122,
-   "last": 0.0005833,
+   "last": 0.0005863,
    "peak": 0.0006122,
    "cost": 0.09831748563580377,
    "opened": "2026-11-18T13:10:37+07:00",
@@ -21,27 +21,41 @@
    "sym": "FLOAT",
    "qty": 41.38917682006937,
    "entry": 0.002283,
-   "last": 0.0022184167360111526,
+   "last": 0.0022255220780278786,
    "peak": 0.002305,
    "cost": 0.0973938267163661,
    "opened": "2026-11-18T13:20:14+07:00",
    "zoo": "boosted",
    "smart": 354,
    "kol": 32,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
    "sym": "STANK",
    "qty": 166.64835084808638,
    "entry": 0.0005608,
-   "last": 0.0005631,
+   "last": 0.0005876277655106338,
    "peak": 0.0005972,
    "cost": 0.09632693790518124,
    "opened": "2026-11-18T14:12:09+07:00",
    "zoo": "boosted",
    "smart": 80,
    "kol": 1,
+   "gap": 1,
+   "miss": 0
+  },
+  "BTCmcoKg6J767Bum7nXVDPLsWAZs3ZdYwTQr7YnXpump": {
+   "sym": "SIRIUS",
+   "qty": 1671.6418392318014,
+   "entry": 5.293e-05,
+   "last": 5.293e-05,
+   "peak": 5.293e-05,
+   "cost": 0.09119769382657107,
+   "opened": "2026-11-18T15:51:08+07:00",
+   "zoo": "boosted",
+   "smart": 27,
+   "kol": 2,
    "gap": 0,
    "miss": 0
   }
@@ -4840,8 +4854,22 @@
    "cost_side": 0.03,
    "smart": 66,
    "bundler": null
+  },
+  {
+   "t": "2026-11-18T15:51:08+07:00",
+   "kind": "buy",
+   "mint": "BTCmcoKg6J767Bum7nXVDPLsWAZs3ZdYwTQr7YnXpump",
+   "sym": "SIRIUS",
+   "price": 5.293e-05,
+   "jup": 5.3002399579142416e-05,
+   "usd": 0.0912,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 27,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1794991541.181936
+ "rank_t": 1794991835.5333796
 }
