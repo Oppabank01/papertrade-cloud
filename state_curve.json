@@ -2,19 +2,7 @@
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
  "cash": 0.29037576720247427,
- "pos": {
-  "5BPb1FHcvUAL8tAmZGg5RMyNeogRJ6wo3h1YmGLxpump": {
-   "sym": "LARP",
-   "qty": 7333.525861655,
-   "entry": 4.585281165571394e-06,
-   "last": 4.585281165571394e-06,
-   "peak": 4.585281165571394e-06,
-   "cost": 0.07259394180061857,
-   "curve": "3XBWMtT5TdsfrwxcBkexd8nDjMmeiZTcYLFBfFAK25oV",
-   "opened": "2026-11-19T20:42:19+07:00",
-   "wallet": "FqJMNz"
-  }
- },
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T21:07:09+07:00",
@@ -4863,6 +4851,20 @@
    "lag_min_after_skip": 0.1,
    "stop_set": -0.08,
    "cost_side": 0.0325
+  },
+  {
+   "t": "2026-11-19T20:47:05+07:00",
+   "kind": "sell",
+   "mint": "5BPb1FHcvUAL8tAmZGg5RMyNeogRJ6wo3h1YmGLxpump",
+   "sym": "LARP",
+   "price": 2.2911236965975753e-06,
+   "entry": 4.585281165571394e-06,
+   "usd": 0.0,
+   "pnl": -0.0726,
+   "why": "stop -50.0%",
+   "stop_set": -0.08,
+   "cost_side": 0.0325,
+   "graduated": false
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ บน bonding curve",
