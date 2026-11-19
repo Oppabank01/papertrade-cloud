@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.05096531124726554,
+ "cash": 0.12870509039529393,
  "pos": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 23.709177907847007,
    "entry": 0.002754,
-   "last": 0.002737,
+   "last": 0.002792,
    "peak": 0.002859,
    "cost": 0.06730063487756201,
    "opened": "2026-11-19T16:19:42+07:00",
@@ -17,25 +17,11 @@
    "gap": 0,
    "miss": 0
   },
-  "Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": {
-   "sym": "george",
-   "qty": 2534.0790975245877,
-   "entry": 2.437e-05,
-   "last": 3.482e-05,
-   "peak": 3.965e-05,
-   "cost": 0.06365234756408392,
-   "opened": "2026-11-19T17:32:42+07:00",
-   "zoo": "boosted",
-   "smart": 191,
-   "kol": 8,
-   "gap": 0,
-   "miss": 0
-  },
   "6zzzG49KX5nksnqfogs31dwoMYSHaJXkropKbv1QZVga": {
    "sym": "Malfoid",
    "qty": 424.0931552610479,
    "entry": 0.0001442,
-   "last": 0.0001528,
+   "last": 0.0001527,
    "peak": 0.0001689,
    "cost": 0.0630326046058989,
    "opened": "2026-11-19T17:37:14+07:00",
@@ -49,14 +35,14 @@
    "sym": "STANK",
    "qty": 246.12169184408464,
    "entry": 0.0002726,
-   "last": 0.0002726,
-   "peak": 0.0002726,
+   "last": 0.0002898,
+   "peak": 0.0002898,
    "cost": 0.06915354895557356,
    "opened": "2026-11-19T18:10:20+07:00",
    "zoo": "boosted",
    "smart": 82,
    "kol": 1,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -5941,8 +5927,23 @@
    "zoo": "boosted",
    "smart": 82,
    "kol": 1
+  },
+  {
+   "t": "2026-11-19T18:19:49+07:00",
+   "kind": "sell",
+   "mint": "Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump",
+   "sym": "george",
+   "price": 3.162e-05,
+   "entry": 2.437e-05,
+   "usd": 0.0777,
+   "pnl": 0.0141,
+   "why": "trailing จากยอด +63% (+29.7%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 191,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1795086864.730548
+ "rank_t": 1795087152.7181637
 }
