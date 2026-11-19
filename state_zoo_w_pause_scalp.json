@@ -1,20 +1,48 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.5120531550570073,
+ "cash": 1.1778083910114694,
  "pos": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 63.53513578109897,
    "entry": 0.002618,
-   "last": 0.002623473047454671,
+   "last": 0.002664,
    "peak": 0.002806,
    "cost": 0.17144401718709248,
    "opened": "2026-11-19T21:11:10+07:00",
    "zoo": "w_pause_scalp",
    "smart": 323,
    "kol": 25,
-   "gap": 2,
+   "gap": 0,
+   "miss": 0
+  },
+  "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": {
+   "sym": "HOGE",
+   "qty": 102.77473881557597,
+   "entry": 0.00158,
+   "last": 0.0015310245722915785,
+   "peak": 0.00158,
+   "cost": 0.16737176595404046,
+   "opened": "2026-11-19T22:50:56+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 217,
+   "kol": 12,
+   "gap": 6,
+   "miss": 0
+  },
+  "EadD2LMp6EbH9PrbXUFWcrZKMhoKVrZN1gpwRhH5pump": {
+   "sym": "ANT",
+   "qty": 725.6843691096851,
+   "entry": 0.0002231,
+   "last": 0.00025063999934884324,
+   "peak": 0.0002546,
+   "cost": 0.1668729980914974,
+   "opened": "2026-11-19T22:50:59+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 93,
+   "kol": 8,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -7684,8 +7712,36 @@
    "cost_side": 0.03,
    "smart": 108,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T22:50:56+07:00",
+   "kind": "buy",
+   "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+   "sym": "HOGE",
+   "price": 0.00158,
+   "jup": 0.0015771023948130507,
+   "usd": 0.1674,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 217,
+   "kol": 12
+  },
+  {
+   "t": "2026-11-19T22:50:59+07:00",
+   "kind": "buy",
+   "mint": "EadD2LMp6EbH9PrbXUFWcrZKMhoKVrZN1gpwRhH5pump",
+   "sym": "ANT",
+   "price": 0.0002231,
+   "jup": 0.00022392321929157432,
+   "usd": 0.1669,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 93,
+   "kol": 8
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795103091.4415061
+ "rank_t": 1795103379.406201
 }
