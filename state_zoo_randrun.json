@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.14314549211659694,
+ "cash": 0.3439854321982587,
  "pos": {
   "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
    "sym": "PAID",
    "qty": 125.73514701362384,
    "entry": 0.001387,
-   "last": 0.0012345402419969523,
+   "last": 0.001227,
    "peak": 0.001433,
    "cost": 0.17975123573273166,
    "opened": "2026-11-19T05:49:09+07:00",
@@ -17,26 +17,12 @@
    "gap": 0,
    "miss": 0
   },
-  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
-   "sym": "mihao",
-   "qty": 20.119952487245783,
-   "entry": 0.00814,
-   "last": 0.01114,
-   "peak": 0.01375,
-   "cost": 0.16880685760274242,
-   "opened": "2026-11-19T13:30:09+07:00",
-   "zoo": "randrun",
-   "smart": 737,
-   "kol": 70,
-   "gap": 0,
-   "miss": 0
-  },
   "7HgfXftRBBqsYtAEYcqjGLQrNJLL6Tww9ek4rE3Apump": {
    "sym": "RKC",
    "qty": 129.96627921263268,
    "entry": 0.001322,
-   "last": 0.001348,
-   "peak": 0.001348,
+   "last": 0.001374,
+   "peak": 0.001374,
    "cost": 0.17709278614625895,
    "opened": "2026-11-20T01:37:13+07:00",
    "zoo": "randrun",
@@ -49,14 +35,14 @@
    "sym": "HOGE",
    "qty": 177.76544469329056,
    "entry": 0.0009647,
-   "last": 0.0009604217018217303,
+   "last": 0.0009626806252298168,
    "peak": 0.0009647,
    "cost": 0.17675770407711544,
    "opened": "2026-11-20T01:41:44+07:00",
    "zoo": "randrun",
    "smart": 217,
    "kol": 12,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -2034,8 +2020,23 @@
    "zoo": "randrun",
    "smart": 217,
    "kol": 12
+  },
+  {
+   "t": "2026-11-20T01:50:48+07:00",
+   "kind": "sell",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.010288732168935145,
+   "entry": 0.00814,
+   "usd": 0.2008,
+   "pnl": 0.032,
+   "why": "trailing จากยอด +69% (+26.4%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 737,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1795113932.4625893
+ "rank_t": 1795114205.380419
 }

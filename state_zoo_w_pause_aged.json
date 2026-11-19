@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.1992246837250068,
+ "cash": 0.31270442425090794,
  "pos": {
   "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
    "sym": "neet",
    "qty": 4.427260056459416,
    "entry": 0.02521,
-   "last": 0.02518,
+   "last": 0.02512,
    "peak": 0.02524,
    "cost": 0.11503940014774466,
    "opened": "2026-11-19T23:15:12+07:00",
@@ -17,32 +17,18 @@
    "gap": 0,
    "miss": 0
   },
-  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
-   "sym": "GATO",
-   "qty": 62.348244490673444,
-   "entry": 0.00174,
-   "last": 0.001902,
-   "peak": 0.002211,
-   "cost": 0.11181812555532034,
-   "opened": "2026-11-19T23:28:50+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 70,
-   "kol": 5,
-   "gap": 1,
-   "miss": 0
-  },
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
    "sym": "ZCAT",
    "qty": 6.607509346003905,
    "entry": 0.01627,
-   "last": 0.01738,
+   "last": 0.016402813216649055,
    "peak": 0.01764,
    "cost": 0.11080620187536955,
    "opened": "2026-11-20T01:08:41+07:00",
    "zoo": "w_pause_aged",
    "smart": 330,
    "kol": 48,
-   "gap": 0,
+   "gap": 10,
    "miss": 0
   }
  },
@@ -5680,10 +5666,25 @@
    "zoo": "w_pause_aged",
    "smart": 330,
    "kol": 48
+  },
+  {
+   "t": "2026-11-20T01:51:44+07:00",
+   "kind": "sell",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "price": 0.001876,
+   "entry": 0.00174,
+   "usd": 0.1135,
+   "pnl": 0.0017,
+   "why": "trailing จากยอด +27% (+7.8%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 70,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795113932.4625893,
+ "rank_t": 1795114205.380419,
  "halted": "ราคา ZCAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-20T02:14:34+07:00"
 }
