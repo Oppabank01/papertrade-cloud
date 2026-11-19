@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.762326542663125,
- "cash": 5.350409411307298,
+ "cash": 8.128302311741313,
  "pos": {
-  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
-   "sym": "STONK",
-   "qty": 68.7281987488812,
-   "entry": 0.04159,
-   "last": 0.04158,
-   "peak": 0.04203,
-   "cost": 2.9462026241661197,
-   "opened": "2026-11-19T18:35:20+07:00",
-   "zoo": "v_rand",
-   "smart": 1000,
-   "kol": 174,
-   "gap": 0,
-   "miss": 0
-  },
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 25.66684422626539,
    "entry": 0.1035,
-   "last": 0.1036,
+   "last": 0.1038,
    "peak": 0.1045,
    "cost": 2.7381141799819293,
    "opened": "2026-11-19T19:50:31+07:00",
@@ -35,8 +21,8 @@
    "sym": "CATE",
    "qty": 150.7648172837004,
    "entry": 0.01749,
-   "last": 0.01758,
-   "peak": 0.01768,
+   "last": 0.0177,
+   "peak": 0.0177,
    "cost": 2.717869155114327,
    "opened": "2026-11-19T21:25:35+07:00",
    "zoo": "v_rand",
@@ -180,8 +166,23 @@
    "zoo": "v_rand",
    "smart": 892,
    "kol": 110
+  },
+  {
+   "t": "2026-11-19T21:35:33+07:00",
+   "kind": "sell",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.04166,
+   "entry": 0.04159,
+   "usd": 2.7779,
+   "pnl": -0.1683,
+   "why": "ครบ 3 ชม. (+0.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 1000,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ทดสอบ veto: กฎ + ปัดตกแบบสุ่มในอัตราเดียวกับ Grok",
- "rank_t": 1795098550.2496886
+ "rank_t": 1795098841.0823233
 }
