@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.16670790945487451,
+ "cash": 0.10928211963848097,
  "pos": {
   "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
    "sym": "Dacity",
    "qty": 379.0198449752257,
    "entry": 0.0001606,
-   "last": 0.0001597,
+   "last": 0.0001568,
    "peak": 0.0001746,
    "cost": 0.0627402464471462,
    "opened": "2026-11-19T19:12:04+07:00",
@@ -21,13 +21,27 @@
    "sym": "TripleT",
    "qty": 32.429382166093845,
    "entry": 0.001805,
-   "last": 0.001846830447703335,
+   "last": 0.001811,
    "peak": 0.001879,
    "cost": 0.060332956926200165,
    "opened": "2026-11-19T20:09:05+07:00",
    "zoo": "boosted",
    "smart": 612,
    "kol": 72,
+   "gap": 0,
+   "miss": 0
+  },
+  "2xCd5qHX5tW6pGUo7zfgHSSAnRjJwPA7Sz1Fu4fWcJjX": {
+   "sym": "Mandy",
+   "qty": 167.51203030626885,
+   "entry": 0.0003326,
+   "last": 0.0003247,
+   "peak": 0.0003326,
+   "cost": 0.05742578981639355,
+   "opened": "2026-11-19T21:15:46+07:00",
+   "zoo": "boosted",
+   "smart": 97,
+   "kol": 5,
    "gap": 1,
    "miss": 0
   }
@@ -6088,8 +6102,22 @@
    "cost_side": 0.03,
    "smart": 216,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T21:15:46+07:00",
+   "kind": "buy",
+   "mint": "2xCd5qHX5tW6pGUo7zfgHSSAnRjJwPA7Sz1Fu4fWcJjX",
+   "sym": "Mandy",
+   "price": 0.0003326,
+   "jup": 0.0003323811857936838,
+   "usd": 0.0574,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 97,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1795097412.1938703
+ "rank_t": 1795097703.7805808
 }
