@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.31270442425090794,
+ "cash": 0.4197869439808567,
  "pos": {
-  "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
-   "sym": "neet",
-   "qty": 4.427260056459416,
-   "entry": 0.02521,
-   "last": 0.0249,
-   "peak": 0.02524,
-   "cost": 0.11503940014774466,
-   "opened": "2026-11-19T23:15:12+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 883,
-   "kol": 204,
-   "gap": 0,
-   "miss": 0
-  },
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
    "sym": "ZCAT",
    "qty": 6.607509346003905,
    "entry": 0.01627,
-   "last": 0.016059873714810276,
+   "last": 0.015701861122303026,
    "peak": 0.01764,
    "cost": 0.11080620187536955,
    "opened": "2026-11-20T01:08:41+07:00",
    "zoo": "w_pause_aged",
    "smart": 330,
    "kol": 48,
-   "gap": 14,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -5681,10 +5667,25 @@
    "cost_side": 0.03,
    "smart": 70,
    "bundler": null
+  },
+  {
+   "t": "2026-11-20T02:15:22+07:00",
+   "kind": "sell",
+   "mint": "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump",
+   "sym": "neet",
+   "price": 0.02493,
+   "entry": 0.02521,
+   "usd": 0.1071,
+   "pnl": -0.008,
+   "why": "ครบ 3 ชม. (-1.1%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 883,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795115338.4060504,
+ "rank_t": 1795115619.8384905,
  "halted": "ราคา ZCAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-20T02:14:34+07:00"
 }
