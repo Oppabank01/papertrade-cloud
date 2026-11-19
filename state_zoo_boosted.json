@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.30047811810538444,
+ "cash": 0.2253290390067027,
  "pos": {
   "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
    "sym": "CBUCKS",
@@ -14,6 +14,20 @@
    "zoo": "boosted",
    "smart": 42,
    "kol": 0,
+   "gap": 0,
+   "miss": 0
+  },
+  "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
+   "sym": "Leonida",
+   "qty": 607.0744091718653,
+   "entry": 0.0001201,
+   "last": 0.0001201,
+   "peak": 0.0001201,
+   "cost": 0.07514907909868175,
+   "opened": "2026-11-19T08:23:57+07:00",
+   "zoo": "boosted",
+   "smart": 94,
+   "kol": 4,
    "gap": 0,
    "miss": 0
   }
@@ -5422,8 +5436,22 @@
    "zoo": "boosted",
    "smart": 42,
    "kol": 0
+  },
+  {
+   "t": "2026-11-19T08:23:57+07:00",
+   "kind": "buy",
+   "mint": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "sym": "Leonida",
+   "price": 0.0001201,
+   "jup": 0.00011948642503710336,
+   "usd": 0.0751,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 94,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1795051105.0823264
+ "rank_t": 1795051380.7435625
 }
