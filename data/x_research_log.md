@@ -157,3 +157,11 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 เพิ่ม: ไม่มี  เลิกใช้: ไม่มี (week ยังไม่ถึงวันตัดสิน 21-22/11, month 14/12)
 สกอร์บอร์ด x_ (เทียบ randrun -91.6%): x_smartflow_lowcap +20.9% 7 ไม้, x_lotus_5bots +1.1% 8 ไม้, x_boan_desk -0.9% 1 ไม้
 ท้ายตาราง: x_skip_pumped -73.8% 55 ไม้ (dead), x_fresh_grad -42.3% 18 ไม้, x_cto_watch -37.7% 15 ไม้
+
+## 2026-11-19 รอบอัตโนมัติ (Bangkok)
+ค้น: solana memecoin bot overnight turned $ profit strategy rules, เทรดเหรียญมีม กำไร คืนเดียว กฎเข้า ออก โซลานา, pump.fun strategy thread 1 month results rules top holders liquidity stop loss
+เจอ: dev.to gengengen (dev buy 1 SOL+ TP +30% SL -30% ถือ 120 วิ ซ้ำ x_snipe_30_30), notion 3 SOL เป็น 2000 SOL (ซ้ำ x_scalp_1020), dailycoin บอท 27,000 SOL หว่านไม้เล็ก (ซ้ำ x_spray_small), คู่มือ trojan/ตลาด ไม่มีกฎใหม่หรือผลที่ตรวจได้ ข้ามทั้งหมด
+ยังทำไม่ได้: บอทเฝ้าทวีต/sentiment, copy wallet (ต้องที่อยู่กระเป๋าและประวัติบน chain)
+เพิ่ม: ไม่มี  เลิกใช้: ไม่มี (week ยังไม่ถึงวันตัดสิน 21-22/11, month 14/12)
+สกอร์บอร์ด x_ (เทียบ randrun -94.1%): x_smartflow_lowcap +20.9% 7 ไม้, x_lotus_5bots +1.1% 8 ไม้, x_boan_desk -0.9% 1 ไม้
+ท้ายตาราง: x_skip_pumped -73.8% 55 ไม้ (dead), x_fresh_grad -42.3% 18 ไม้, x_cto_watch -40.3% 16 ไม้
