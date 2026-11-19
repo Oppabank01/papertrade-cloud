@@ -1,48 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.1804808017178322,
+ "cash": 0.25535705183269136,
  "pos": {
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 5.486400393082701,
    "entry": 0.01667,
-   "last": 0.01634,
+   "last": 0.01654,
    "peak": 0.01694,
    "cost": 0.09426746500998624,
    "opened": "2026-11-20T03:39:28+07:00",
    "zoo": "holders",
    "smart": 892,
    "kol": 110,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": {
    "sym": "BTC",
    "qty": 99.71229921842256,
    "entry": 0.0009483,
-   "last": 0.001174,
+   "last": 0.0011644445050565764,
    "peak": 0.0012551324901608893,
    "cost": 0.09746152684892817,
    "opened": "2026-11-20T04:14:05+07:00",
    "zoo": "holders",
    "smart": 802,
    "kol": 70,
-   "gap": 0,
-   "miss": 0
-  },
-  "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
-   "sym": "FIONA",
-   "qty": 63.00089618791761,
-   "entry": 0.001516,
-   "last": 0.001516,
-   "peak": 0.001516,
-   "cost": 0.09844295879291187,
-   "opened": "2026-11-20T05:29:56+07:00",
-   "zoo": "holders",
-   "smart": 180,
-   "kol": 9,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -5846,8 +5832,23 @@
    "zoo": "holders",
    "smart": 180,
    "kol": 9
+  },
+  {
+   "t": "2026-11-20T05:34:06+07:00",
+   "kind": "sell",
+   "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
+   "sym": "FIONA",
+   "price": 0.001225,
+   "entry": 0.001516,
+   "usd": 0.0749,
+   "pnl": -0.0236,
+   "why": "stop -19.2%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 180,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1795127336.048534
+ "rank_t": 1795127607.5529518
 }
