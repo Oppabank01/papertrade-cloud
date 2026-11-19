@@ -1,47 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.3524351742974078,
+ "cash": 0.6753397677541179,
  "pos": {
-  "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
-   "sym": "STANK",
-   "qty": 393.91036921282057,
-   "entry": 0.0004112,
-   "last": 0.0004479,
-   "peak": 0.0004581,
-   "cost": 0.16695108618873616,
-   "opened": "2026-11-19T08:05:30+07:00",
-   "zoo": "holders",
-   "smart": 82,
-   "kol": 1,
-   "gap": 0,
-   "miss": 0
-  },
   "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": {
    "sym": "LMAO!",
    "qty": 193.14392357746985,
    "entry": 0.0008849,
-   "last": 0.00092,
-   "peak": 0.0009423780941319886,
+   "last": 0.0009431,
+   "peak": 0.0009431,
    "cost": 0.1761627066313163,
    "opened": "2026-11-19T10:41:12+07:00",
    "zoo": "holders",
    "smart": 800,
    "kol": 84,
-   "gap": 1,
-   "miss": 0
-  },
-  "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": {
-   "sym": "rockstar",
-   "qty": 661.2581625471407,
-   "entry": 0.0002586,
-   "last": 0.0002586,
-   "peak": 0.0002586,
-   "cost": 0.17625372174262066,
-   "opened": "2026-11-19T11:05:04+07:00",
-   "zoo": "holders",
-   "smart": 98,
-   "kol": 4,
    "gap": 0,
    "miss": 0
   }
@@ -5063,8 +5035,38 @@
    "zoo": "holders",
    "smart": 98,
    "kol": 4
+  },
+  {
+   "t": "2026-11-19T11:09:03+07:00",
+   "kind": "sell",
+   "mint": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
+   "sym": "STANK",
+   "price": 0.0004516,
+   "entry": 0.0004112,
+   "usd": 0.1726,
+   "pnl": 0.0056,
+   "why": "ครบ 3 ชม. (+9.8%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 82,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-19T11:09:03+07:00",
+   "kind": "sell",
+   "mint": "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump",
+   "sym": "rockstar",
+   "price": 0.0002343,
+   "entry": 0.0002586,
+   "usd": 0.1503,
+   "pnl": -0.0259,
+   "why": "stop -9.4%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 98,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1795061022.9455335
+ "rank_t": 1795061298.9788778
 }
