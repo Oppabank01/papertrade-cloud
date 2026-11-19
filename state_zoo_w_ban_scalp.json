@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.9670249962446625,
+ "cash": 1.0874095451201402,
  "pos": {
-  "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": {
-   "sym": "VEIL",
-   "qty": 260.1303949421865,
-   "entry": 0.0004684,
-   "last": 0.0004583,
-   "peak": 0.0005017,
-   "cost": 0.12558758708608553,
-   "opened": "2026-11-19T16:24:51+07:00",
-   "zoo": "w_ban_scalp",
-   "smart": 79,
-   "kol": 5,
-   "gap": 0,
-   "miss": 0
-  },
   "FG3sAP594dUmgkzYneQEv4BnEJdgS8txNT7QAPtrpump": {
    "sym": "Brian",
    "qty": 1009.625178994663,
    "entry": 0.0001167,
-   "last": 0.0001102805210548763,
+   "last": 0.0001156328775816748,
    "peak": 0.0001276,
    "cost": 0.12144223705285216,
    "opened": "2026-11-19T17:46:38+07:00",
    "zoo": "w_ban_scalp",
    "smart": 63,
    "kol": 1,
-   "gap": 26,
+   "gap": 8,
    "miss": 0
   }
  },
@@ -8199,10 +8185,25 @@
    "mint": "FG3sAP594dUmgkzYneQEv4BnEJdgS8txNT7QAPtrpump",
    "sym": "Brian",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-19T18:25:08+07:00",
+   "kind": "sell",
+   "mint": "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump",
+   "sym": "VEIL",
+   "price": 0.000477,
+   "entry": 0.0004684,
+   "usd": 0.1204,
+   "pnl": -0.0052,
+   "why": "ครบ 2 ชม. (+1.8%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 79,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795087152.7181637,
+ "rank_t": 1795087439.2412462,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
