@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Cloud price log for every Solana mint the Grok Bot routines mention (19-20 Nov 2026), independent of what Grok reports.
 Each run (~5 min) takes a DexScreener snapshot (deepest pool) of every mint for 24 h after the cloud first sees it in
-data/grok_chat_archive.txt (LTRADE, VETO and SEEN lines, pushed by the Mac readers) and appends it to data/grok_watch.csv,
+data/grok_chat_archive.json (LTRADE, VETO and SEEN lines, pushed by the Mac readers) and appends it to data/grok_watch.csv,
 so skipped coins and other exit points can be scored later. Read-only, no keys, paper test only.
 
   python3 grokwatch.py
@@ -13,8 +13,10 @@ import time
 import urllib.request
 from pathlib import Path
 
+from grokscout import as_text   # same archive the Mac readers write
+
 HERE = Path(__file__).parent
-ARCH, SEEN, CSV = HERE / "data" / "grok_chat_archive.txt", HERE / "data" / "grok_watch_seen.json", HERE / "data" / "grok_watch.csv"
+ARCH, SEEN, CSV = HERE / "data" / "grok_chat_archive.json", HERE / "data" / "grok_watch_seen.json", HERE / "data" / "grok_watch.csv"
 MINT = re.compile(r"^(?:LTRADE S\d (?:BUY|SELL) \S+|VETO c\d+ (?:APPROVE|REJECT)|SEEN S\d \S+) ([1-9A-HJ-NP-Za-km-z]{32,44})\b", re.M)
 COLS = "t mint sym price liq fdv vol_m5 vol_h1 buys_m5 sells_m5 ch_m5 ch_h1".split()
 
@@ -46,7 +48,7 @@ def main():
         return
     now = int(time.time())
     seen = json.loads(SEEN.read_text()) if SEEN.exists() else {}
-    for m in mints(ARCH.read_text()):
+    for m in mints(as_text(json.loads(ARCH.read_text()))):
         seen.setdefault(m, now)
     SEEN.write_text(json.dumps(seen, indent=0))
     live = [m for m, t0 in seen.items() if now - t0 < 86400]

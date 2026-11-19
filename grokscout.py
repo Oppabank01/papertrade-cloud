@@ -52,24 +52,30 @@ def chat_text(start=None, js=TEXT_JS, size=3000):
     return last
 
 
-# X keeps only the last ~25 min of the bot chat in the page (scrolling does not load older messages, checked 19 Nov),
-# so the setup message drops out and anything not read in time is lost: every read is merged into an archive file.
-PANE_JS = ("(()=>{const a=[];const w=r=>{for(const e of r.querySelectorAll('*')){a.push(e);if(e.shadowRoot)w(e.shadowRoot)}};w(document);"
-           "const s=a.filter(e=>e.scrollHeight>e.clientHeight+200&&/(auto|scroll)/.test(getComputedStyle(e).overflowY))"
-           ".sort((x,y)=>y.scrollHeight-x.scrollHeight)[0];return s?s.textContent:''})()")
-ARCHIVE, LOCK = HERE / "data" / "grok_chat_archive.txt", HERE / ".grok_backfill.lock"   # same path for launchd and the shell
+# X keeps only the last ~25 min of the bot chat in the page unless someone scrolls it, so the setup message drops out and
+# anything not read in time is lost: every read is merged into an archive keyed by X's message key (t16s<seq>, in order).
+PANE = ("const a=[];const w=r=>{for(const e of r.querySelectorAll('*')){a.push(e);if(e.shadowRoot)w(e.shadowRoot)}};w(document);"
+        "const s=a.filter(e=>e.scrollHeight>e.clientHeight+200&&/(auto|scroll)/.test(getComputedStyle(e).overflowY)&&e.getBoundingClientRect().x>innerWidth*0.3)"
+        ".sort((x,y)=>y.scrollHeight-x.scrollHeight)[0];")   # the message pane, right of the chat list
+ITEMS = "JSON.stringify(s?[...s.querySelectorAll('[data-dm-item-key]')].map(e=>[e.dataset.dmItemKey,e.textContent]):[])"
+ARCHIVE, LOCK = HERE / "data" / "grok_chat_archive.json", HERE / ".grok_backfill.lock"   # lock path is the same for launchd and the shell
 REC = re.compile(r"(?=LEDGER S\d|LTRADE S\d|RESULT S\d|VETO c\d|SEEN S\d|NO DATA \d)")
+START_DAY = datetime(2026, 11, 19)     # first archived message: 19 Nov 2026 16:10
+FIRST = "Created routine “Meme 1h test v2”"
 
 
-def merge(old, new):
-    """Append the records after their overlap with the archive tail; records can repeat (e.g. two equal RESULT lines), so no set."""
-    for k in range(min(len(old), len(new)), 0, -1):
-        if old[-k:] == new[:k]:
-            return old + new[k:]
-    return old + (["GAP (reader missed messages here)"] if old else []) + new
+def seq(key):
+    """X message key t<turn>u (our message) / t<turn>s<n> (reply n) -> sort key; separators and events -> None."""
+    m = re.fullmatch(r"t(\d+)(?:u|s(\d+))", key)
+    return m and (int(m[1]), -1 if m[2] is None else int(m[2]))
 
 
-START_DAY = datetime(2026, 11, 19)     # the archive began 19 Nov 2026 about 21:00
+def as_text(msgs):
+    """Archive {key: message} -> one record per line, in message order, from the v2 setup message on."""
+    keys = sorted((k for k in msgs if seq(k)), key=seq)
+    first = max((k for k in keys if FIRST in msgs[k]), key=seq, default=None)
+    keep = [k for k in keys if (first is None or seq(k) > seq(first)) and seq(k)[1] >= 0]   # Grok's replies only, not our prompts
+    return "\n".join(r.strip() for k in keep for r in REC.split(msgs[k])[1:] if r.strip())
 
 
 def by_day(text):
@@ -87,22 +93,25 @@ def by_day(text):
     return out + [(day, "\n".join(seg))]
 
 
-PANE = ("const a=[];const w=r=>{for(const e of r.querySelectorAll('*')){a.push(e);if(e.shadowRoot)w(e.shadowRoot)}};w(document);"
-        "const s=a.filter(e=>e.scrollHeight>e.clientHeight+200&&/(auto|scroll)/.test(getComputedStyle(e).overflowY)&&e.textContent.includes('LEDGER S'))"
-        ".sort((x,y)=>y.scrollHeight-x.scrollHeight)[0];")
+def save(items):
+    msgs = json.loads(ARCHIVE.read_text()) if ARCHIVE.exists() else {}
+    msgs |= dict(items)
+    msgs = {k: v for k, v in msgs.items() if seq(k)}
+    ARCHIVE.write_text(json.dumps(dict(sorted(msgs.items(), key=lambda kv: seq(kv[0]))), ensure_ascii=False, indent=0))
+    return msgs
 
 
-def backfill(marker="Created routine “Meme 1h test v2”", limit=400):
-    """Rebuild the archive from the chat history: wheel the message pane up until `marker` loads (older messages
-    load only on a real scroll over the pane), then step down to the bottom merging each view. Moves the visible tab."""
+def backfill(limit=400):
+    """Fill the archive from the chat history: wheel the message pane up until the v2 setup message loads (older
+    messages load only on a real scroll over the pane), then step down to the bottom saving every message. Moves the tab."""
     LOCK.touch()
     try:
-        _backfill(marker, limit)
+        _backfill(limit)
     finally:
         LOCK.unlink()
 
 
-def _backfill(marker, limit):
+def _backfill(limit):
     import time
     import urllib.request
     tab = next(t for t in json.load(urllib.request.urlopen("http://127.0.0.1:9222/json", timeout=5))
@@ -118,42 +127,40 @@ def _backfill(marker, limit):
     else:
         return print("backfill: message pane not found")
     x, y = xy
+    got, flat = {}, 0
     for _ in range(limit):              # older messages load on a wheel that scrolls up into the top, not at top=0 already
-        ev("s.scrollTop=400;return '1'")
+        h0 = ev("const h=s.scrollHeight;s.scrollTop=400;return String(h)")
         for _ in range(3):
             run("Input.dispatchMouseEvent", {"type": "mouseWheel", "x": x, "y": y, "deltaX": 0, "deltaY": -1500})
             time.sleep(0.7)
         time.sleep(2)
-        top, text = ev("return JSON.stringify([s.scrollTop,s.textContent])")
-        print("up", top, re.findall(r"LEDGER S\d (\d\d:\d\d)", text)[:1], flush=True)
-        if marker in text and top == 0:
+        h, items = ev("return JSON.stringify([s.scrollHeight," + ITEMS + "])")
+        got |= dict(json.loads(items))
+        flat = flat + 1 if h == h0 else 0
+        print("up", h, len(got), flush=True)
+        if any(FIRST in v for v in got.values()) or flat >= 4:   # setup message loaded, or nothing older loads any more
             break
-    else:
-        return print("backfill: marker never loaded")
-    out = []
-    while True:
-        top, bottom, text = ev("const t=s.textContent,p=s.scrollTop;s.scrollTop=p+s.clientHeight*0.5;"
-                               "return JSON.stringify([p,p+s.clientHeight>=s.scrollHeight-5,t])")
-        if marker in text:
-            text = text[text.rindex(marker):]
-        out = merge(out, [r.strip() for r in REC.split(text)[1:] if r.strip()])
-        if bottom:
-            break
-        time.sleep(1.5)
-    ARCHIVE.write_text("\n".join(out) + "\n")
-    print(f"backfill: {len(out)} records, {sum(r.startswith('GAP') for r in out)} gaps")
+    ev("s.scrollTop=0;return '1'")
+    flat = 0
+    while flat < 4:                     # wheel down (not scrollTop jumps) so X loads the newer pages it dropped
+        n = len(got)
+        run("Input.dispatchMouseEvent", {"type": "mouseWheel", "x": x, "y": y, "deltaX": 0, "deltaY": 500})
+        time.sleep(1)
+        bottom, items = ev("return JSON.stringify([s.scrollTop+s.clientHeight>=s.scrollHeight-5," + ITEMS + "])")
+        got |= dict(json.loads(items))
+        flat = flat + 1 if bottom and len(got) == n else 0
+    keys = sorted((k for k in got if seq(k)), key=seq)
+    miss = [b for a, b in zip(keys, keys[1:]) if seq(a)[0] == seq(b)[0] and seq(b)[1] - seq(a)[1] > 1]
+    save(got.items())
+    print(f"backfill: {len(got)} messages {keys[0]}..{keys[-1]}, {len(miss)} holes in the key sequence")
 
 
 def records():
-    """Read the message pane, merge it into the archive, return the archive text (one record per line), or None."""
-    text = chat_text("LEDGER S", PANE_JS, 1500)
+    """Read the messages on the page, merge them into the archive, return the archive as records text, or None."""
+    text = chat_text('["t', "(()=>{" + PANE + "return " + ITEMS + "})()", 1500)
     if text is None:
         return None
-    new = [x.strip() for x in REC.split(text)[1:] if x.strip()]
-    old = ARCHIVE.read_text().splitlines() if ARCHIVE.exists() else []
-    out = merge(old, new)
-    ARCHIVE.write_text("\n".join(out) + "\n")
-    return "\n".join(out)
+    return as_text(save(json.loads(text)))
 
 
 def replies(text):

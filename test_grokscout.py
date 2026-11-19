@@ -6,10 +6,10 @@ r = g.replies(t); assert r[0] == "none" and r[1]["label"] == "dip buy" and len(r
 s = g.to_spec(r[1], 1); assert s["exit"]["PER_TRADE"] == 0.5 and s["entry"]["safe"] is True and s["name"] == "g_scout_1", s
 try: g.to_spec(r[2], 2); raise SystemExit("bad key accepted")
 except AssertionError: pass
-assert g.merge(["a", "b", "R"], ["b", "R", "R", "c"]) == ["a", "b", "R", "R", "c"]
-assert g.merge([], ["x"]) == ["x"] and g.merge(["a"], ["x"])[1].startswith("GAP")
-assert [x.strip() for x in g.REC.split("Grok BotLEDGER S1 20:25 cash=3 open=LEDGER S8 20:29 cash=5VETO c12 REJECT M reason=no")[1:]] == [
-    "LEDGER S1 20:25 cash=3 open=", "LEDGER S8 20:29 cash=5", "VETO c12 REJECT M reason=no"]
+m = {"t15s10": "old LEDGER S1 15:00 x", "t15s12": "Created routine “Meme 1h test v2”", "t15s9": "LEDGER S1 14:00 y", "sep-t16s1": "LEDGER S1 junk",
+     "t16s100": "LEDGER S1 20:25 cash=3 open=LEDGER S8 20:29 cash=5VETO c12 REJECT M reason=no", "t16u": "VETO c1 my prompt", "t15s13": "LTRADE S1 BUY A M price=1"}
+assert g.seq("t16u") < g.seq("t16s0") < g.seq("t16s10") and g.seq("t2s5") < g.seq("t16u") and g.seq("sep-t16s1") is None
+assert g.as_text(m).splitlines() == ["LTRADE S1 BUY A M price=1", "LEDGER S1 20:25 cash=3 open=", "LEDGER S8 20:29 cash=5", "VETO c12 REJECT M reason=no"], g.as_text(m)
 d = g.by_day("LEDGER S8 23:50 a\nLTRADE S8 x\nLEDGER S8 00:03 b\nLEDGER S8 00:01 c")
 assert [(x.day, y.count("LEDGER")) for x, y in d] == [(19, 1), (20, 2)], d
 print("grokscout ok")
