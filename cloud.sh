@@ -26,6 +26,7 @@ $PY zoo.py init 500 >/dev/null; $PY zoo.py tick       # init only creates new ac
 $PY nightly.py tick    # nightly sessions: fresh 500 THB at 21:00, settle at 09:00
 $PY funding.py init 10000 >/dev/null; $PY funding.py run || echo "funding run failed (Hyperliquid API)"   # funding carry: steps once a day, no network otherwise
 $PY daytrade.py init 500 >/dev/null; $PY daytrade.py run || echo "daytrade run failed"   # one-day accounts on big coins: grid, dip, funding spike
+$PY crash.py init 500 >/dev/null; $PY crash.py run || echo "crash run failed"   # Fable perp accounts (19 Nov): crash-day bounce, night crash short, new-listing short
 left=$((T0 + 230 - $(date +%s))); [ "$left" -gt 0 ] && sleep "$left"   # watcher keeps checking here instead of the chain step idling
 $PY zoo.py stopwatch; wait $WATCH $WATCH5
 TODAY=$(TZ=Asia/Bangkok date +%F); H=$((10#$(TZ=Asia/Bangkok date +%H)))
