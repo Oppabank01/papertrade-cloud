@@ -111,22 +111,53 @@ def backfill(limit=400):
         LOCK.unlink()
 
 
-def _backfill(limit):
+def _pane(reload):
+    """(run, ev, x, y) for the Grok Bot tab's message pane, or None. Reload first when asked (the tab stops getting messages)."""
     import time
     import urllib.request
-    tab = next(t for t in json.load(urllib.request.urlopen("http://127.0.0.1:9222/json", timeout=5))
-               if t.get("type") == "page" and CHAT in t.get("url", ""))
+    tab = next((t for t in json.load(urllib.request.urlopen("http://127.0.0.1:9222/json", timeout=5))
+                if t.get("type") == "page" and CHAT in t.get("url", "")), None)
+    if not tab:
+        return None
     run = lambda m, p: subprocess.run(["/opt/homebrew/bin/node", "-e", CDP, tab["webSocketDebuggerUrl"], m, json.dumps(p)],
                                       capture_output=True, text=True, timeout=40).stdout
     ev = lambda js: json.loads(run("Runtime.evaluate", {"expression": "(()=>{" + PANE + js + "})()", "returnByValue": True}) or "null")
+    if reload:
+        run("Page.reload", {})
     for _ in range(15):                 # the pane appears well after the page loads
-        xy = ev("if(!s)return 'null';const r=s.getBoundingClientRect();return JSON.stringify([r.x+r.width/2,r.y+r.height/2])")
-        if xy:
-            break
         time.sleep(5)
-    else:
+        xy = ev("if(!s||!s.querySelector('[data-dm-item-key]'))return 'null';const r=s.getBoundingClientRect();return JSON.stringify([r.x+r.width/2,r.y+r.height/2])")
+        if xy:
+            return run, ev, *xy
+    return None
+
+
+def _down(run, ev, x, y, got, limit=150):
+    """Wheel down to the newest message (X reopens the chat at the last-read spot and scrollTop jumps do not load newer pages)."""
+    import time
+    flat = 0
+    for _ in range(limit):
+        n = len(got)
+        r = ev("return JSON.stringify([s.scrollTop+s.clientHeight>=s.scrollHeight-5," + ITEMS + "])")
+        if not r:
+            break                       # the page went away (reload by another reader)
+        bottom, items = r
+        got |= dict(json.loads(items))
+        flat = flat + 1 if bottom and len(got) == n else 0
+        if flat >= 12:                  # a hidden tab loads newer pages slowly, about 10 s at the bottom (checked 19 Nov)
+            break
+        run("Input.dispatchMouseEvent", {"type": "mouseWheel", "x": x, "y": y, "deltaX": 0, "deltaY": 600})
+        run("Page.captureScreenshot", {"format": "jpeg", "quality": 10, "clip": {"x": 0, "y": 0, "width": 50, "height": 50, "scale": 0.2}})
+        time.sleep(1.2)                 # the screenshot forces a frame: hidden tabs do not render, so X's scroll loader never fires
+    return got
+
+
+def _backfill(limit):
+    import time
+    pane = _pane(False)
+    if not pane:
         return print("backfill: message pane not found")
-    x, y = xy
+    run, ev, x, y = pane
     got, flat = {}, 0
     for _ in range(limit):              # older messages load on a wheel that scrolls up into the top, not at top=0 already
         h0 = ev("const h=s.scrollHeight;s.scrollTop=400;return String(h)")
@@ -141,14 +172,7 @@ def _backfill(limit):
         if any(FIRST in v for v in got.values()) or flat >= 4:   # setup message loaded, or nothing older loads any more
             break
     ev("s.scrollTop=0;return '1'")
-    flat = 0
-    while flat < 4:                     # wheel down (not scrollTop jumps) so X loads the newer pages it dropped
-        n = len(got)
-        run("Input.dispatchMouseEvent", {"type": "mouseWheel", "x": x, "y": y, "deltaX": 0, "deltaY": 500})
-        time.sleep(1)
-        bottom, items = ev("return JSON.stringify([s.scrollTop+s.clientHeight>=s.scrollHeight-5," + ITEMS + "])")
-        got |= dict(json.loads(items))
-        flat = flat + 1 if bottom and len(got) == n else 0
+    _down(run, ev, x, y, got, 2000)
     keys = sorted((k for k in got if seq(k)), key=seq)
     miss = [b for a, b in zip(keys, keys[1:]) if seq(a)[0] == seq(b)[0] and seq(b)[1] - seq(a)[1] > 1]
     save(got.items())
@@ -156,11 +180,19 @@ def _backfill(limit):
 
 
 def records():
-    """Read the messages on the page, merge them into the archive, return the archive as records text, or None."""
-    text = chat_text('["t', "(()=>{" + PANE + "return " + ITEMS + "})()", 1500)
-    if text is None:
+    """Sweep the Grok Bot tab to its newest message (grok_sweep.js, one CDP session), merge into the archive, return records text."""
+    import urllib.request
+    if LOCK.exists():
+        return None                     # a backfill is scrolling the tab; a reload would undo it
+    tab = next((t for t in json.load(urllib.request.urlopen("http://127.0.0.1:9222/json", timeout=5))
+                if t.get("type") == "page" and CHAT in t.get("url", "")), None)
+    if not tab:
         return None
-    return as_text(save(json.loads(text)))
+    r = subprocess.run(["/opt/homebrew/bin/node", str(HERE / "grok_sweep.js"), tab["webSocketDebuggerUrl"], PANE, "1"],
+                       capture_output=True, text=True, timeout=170)
+    if r.returncode != 0 or not r.stdout:
+        return None
+    return as_text(save(json.loads(r.stdout).items()))
 
 
 def replies(text):
