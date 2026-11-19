@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.11986035039133197,
+ "cash": 0.24122092554365845,
  "pos": {
   "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
    "sym": "Max",
    "qty": 155.63914905409843,
    "entry": 0.0009629,
-   "last": 0.000938346753480928,
+   "last": 0.0009644,
    "peak": 0.0009828,
    "cost": 0.15446808557430566,
    "opened": "2026-11-19T13:53:55+07:00",
    "zoo": "holders",
    "smart": 464,
    "kol": 42,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
@@ -28,34 +28,20 @@
    "zoo": "holders",
    "smart": 727,
    "kol": 80,
-   "gap": 1,
+   "gap": 2,
    "miss": 0
   },
   "HgTGdc29D5bDMrDvsCLnorxz899VyDj7ZN7FPa6vpump": {
    "sym": "VEIL",
    "qty": 465.4642105679934,
    "entry": 0.0002995,
-   "last": 0.0003057,
+   "last": 0.0002794,
    "peak": 0.0003133,
    "cost": 0.14368844677913217,
    "opened": "2026-11-19T14:45:29+07:00",
    "zoo": "holders",
    "smart": 233,
    "kol": 16,
-   "gap": 0,
-   "miss": 0
-  },
-  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
-   "sym": "DacityCoin",
-   "qty": 97.76986115876453,
-   "entry": 0.001393,
-   "last": 0.001464,
-   "peak": 0.0015284184105130378,
-   "cost": 0.1403766404804772,
-   "opened": "2026-11-19T15:42:30+07:00",
-   "zoo": "holders",
-   "smart": 349,
-   "kol": 29,
    "gap": 0,
    "miss": 0
   }
@@ -5323,8 +5309,23 @@
    "zoo": "holders",
    "smart": 349,
    "kol": 29
+  },
+  {
+   "t": "2026-11-19T16:38:43+07:00",
+   "kind": "sell",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.0012794147617442458,
+   "entry": 0.001393,
+   "usd": 0.1214,
+   "pnl": -0.019,
+   "why": "stop -8.2%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 349,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1795080778.190089
+ "rank_t": 1795081073.2365844
 }
