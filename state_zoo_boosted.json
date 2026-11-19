@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.1721176710249237,
+ "cash": 0.0887382490329841,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 1.7028900897633599,
    "entry": 0.04079,
-   "last": 0.0419,
+   "last": 0.04195,
    "peak": 0.04197,
    "cost": 0.07159439987780607,
    "opened": "2026-11-19T09:02:01+07:00",
@@ -35,13 +35,27 @@
    "sym": "BTC",
    "qty": 67.85716115178627,
    "entry": 0.001198,
-   "last": 0.001334,
+   "last": 0.001311,
    "peak": 0.0014032415737387104,
    "cost": 0.08378981556363632,
    "opened": "2026-11-19T11:05:08+07:00",
    "zoo": "boosted",
    "smart": 798,
    "kol": 70,
+   "gap": 0,
+   "miss": 0
+  },
+  "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": {
+   "sym": "LMAO!",
+   "qty": 91.00541705093913,
+   "entry": 0.0008889,
+   "last": 0.0008889,
+   "peak": 0.0008889,
+   "cost": 0.0833794219919396,
+   "opened": "2026-11-19T12:01:10+07:00",
+   "zoo": "boosted",
+   "smart": 809,
+   "kol": 84,
    "gap": 0,
    "miss": 0
   }
@@ -5594,8 +5608,22 @@
    "cost_side": 0.03,
    "smart": 325,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T12:01:10+07:00",
+   "kind": "buy",
+   "mint": "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump",
+   "sym": "LMAO!",
+   "price": 0.0008889,
+   "jup": 0.0008853332331494007,
+   "usd": 0.0834,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 809,
+   "kol": 84
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1795064141.5111516
+ "rank_t": 1795064422.3413906
 }
