@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.9981667964443202,
+ "cash": 1.7771791969957706,
  "pos": {
   "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": {
    "sym": "BRUH",
    "qty": 49.90787318273811,
    "entry": 0.004316,
-   "last": 0.004184,
+   "last": 0.00419,
    "peak": 0.004358,
    "cost": 0.2220185329382578,
    "opened": "2026-11-19T09:44:30+07:00",
@@ -15,6 +15,20 @@
    "smart": 3,
    "kol": 0,
    "gap": 0,
+   "miss": 0
+  },
+  "ERDrmaqsoeLdsCMMpBKkRM4LV1mzTA2KHrVxKLpqpump": {
+   "sym": "AudaCity",
+   "qty": 1017.5708067630885,
+   "entry": 0.0002107,
+   "last": 0.0002086,
+   "peak": 0.0002121,
+   "cost": 0.2209875994485495,
+   "opened": "2026-11-19T10:08:26+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 76,
+   "kol": 8,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -6944,8 +6958,22 @@
    "zoo": "w_pause_scalp",
    "smart": 3,
    "kol": 0
+  },
+  {
+   "t": "2026-11-19T10:08:26+07:00",
+   "kind": "buy",
+   "mint": "ERDrmaqsoeLdsCMMpBKkRM4LV1mzTA2KHrVxKLpqpump",
+   "sym": "AudaCity",
+   "price": 0.0002107,
+   "jup": 0.00021209677118109793,
+   "usd": 0.221,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 76,
+   "kol": 8
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795057345.8405418
+ "rank_t": 1795057629.1747663
 }
