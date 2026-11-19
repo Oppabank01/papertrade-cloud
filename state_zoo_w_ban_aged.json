@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.22390975870166507,
+ "cash": 0.21456069047474136,
  "pos": {
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 0.7608125942460402,
    "entry": 0.1046,
-   "last": 0.1044,
+   "last": 0.1043,
    "peak": 0.1052,
    "cost": 0.08202535287377427,
    "opened": "2026-11-19T15:32:51+07:00",
@@ -17,18 +17,18 @@
    "gap": 0,
    "miss": 0
   },
-  "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
-   "sym": "Rocco",
-   "qty": 199.13167750524792,
-   "entry": 0.0003692,
-   "last": 0.0003635133449330351,
-   "peak": 0.0003704076937097222,
-   "cost": 0.07577758744066948,
-   "opened": "2026-11-19T16:19:57+07:00",
+  "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": {
+   "sym": "VEIL",
+   "qty": 152.27500613661596,
+   "entry": 0.0004684,
+   "last": 0.000466,
+   "peak": 0.0004684,
+   "cost": 0.07351640164336314,
+   "opened": "2026-11-19T16:24:51+07:00",
    "zoo": "w_ban_aged",
-   "smart": 133,
-   "kol": 11,
-   "gap": 4,
+   "smart": 79,
+   "kol": 5,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -5585,10 +5585,39 @@
    "zoo": "w_ban_aged",
    "smart": 133,
    "kol": 11
+  },
+  {
+   "t": "2026-11-19T16:24:17+07:00",
+   "kind": "sell",
+   "mint": "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
+   "sym": "Rocco",
+   "price": 0.0003321332607416324,
+   "entry": 0.0003692,
+   "usd": 0.0642,
+   "pnl": -0.0116,
+   "why": "stop -10.0%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 133,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-19T16:24:51+07:00",
+   "kind": "buy",
+   "mint": "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump",
+   "sym": "VEIL",
+   "price": 0.0004684,
+   "jup": 0.00047117130343178105,
+   "usd": 0.0735,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_aged",
+   "smart": 79,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795079937.2822385,
+ "rank_t": 1795080214.98588,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": "CHOO",
