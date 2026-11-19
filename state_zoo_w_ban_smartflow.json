@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.0,
+ "cash": 0.1325735670986026,
  "pos": {
   "fRxGeXTCXLPQyChrq5sanfUWAe2vseLBiGdDE7k4S1M": {
    "sym": "SIM",
    "qty": 1870.7571864116887,
    "entry": 7.206e-05,
-   "last": 0.0001058,
+   "last": 0.0001081,
    "peak": 0.0001181,
    "cost": 0.13894739523070118,
    "opened": "2026-11-20T01:27:23+07:00",
@@ -15,20 +15,6 @@
    "smart": 12,
    "kol": 0,
    "gap": 0,
-   "miss": 0
-  },
-  "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": {
-   "sym": "BTC",
-   "qty": 126.52370940947897,
-   "entry": 0.0009483,
-   "last": 0.0011482040679727707,
-   "peak": 0.001451,
-   "cost": 0.12366773204804052,
-   "opened": "2026-11-20T04:14:18+07:00",
-   "zoo": "w_ban_smartflow",
-   "smart": 802,
-   "kol": 70,
-   "gap": 1,
    "miss": 0
   },
   "4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": {
@@ -42,14 +28,14 @@
    "zoo": "w_ban_smartflow",
    "smart": 100,
    "kol": 8,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   },
   "GnY6RSduqXgJ3nas2CKTDkNbrm2FXYExFxP7BXYEpump": {
    "sym": "PAUL",
    "qty": 1089.611453581143,
    "entry": 9.883e-05,
-   "last": 9.823e-05,
+   "last": 9.845e-05,
    "peak": 0.0001017999255168792,
    "cost": 0.11099391873574971,
    "opened": "2026-11-20T06:21:28+07:00",
@@ -4502,10 +4488,25 @@
    "zoo": "w_ban_smartflow",
    "smart": 79,
    "kol": 4
+  },
+  {
+   "t": "2026-11-20T06:44:55+07:00",
+   "kind": "sell",
+   "mint": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+   "sym": "BTC",
+   "price": 0.00108,
+   "entry": 0.0009483,
+   "usd": 0.1326,
+   "pnl": 0.0089,
+   "why": "trailing จากยอด +53% (+13.9%)",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 802,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795131561.8281403,
+ "rank_t": 1795131838.9789696,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
