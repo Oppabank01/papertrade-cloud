@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.762326542663125,
- "cash": 2.871562337330441,
+ "cash": 5.255826082994042,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 375.54860598232875,
    "entry": 0.007582,
-   "last": 0.007745,
+   "last": 0.0076,
    "peak": 0.007902,
    "cost": 2.934868615293771,
    "opened": "2026-11-19T17:27:39+07:00",
@@ -21,7 +21,7 @@
    "sym": "STONK",
    "qty": 67.08593150826472,
    "entry": 0.04188,
-   "last": 0.04117,
+   "last": 0.04135,
    "peak": 0.04189,
    "cost": 2.8958552994909574,
    "opened": "2026-11-19T17:37:41+07:00",
@@ -31,32 +31,18 @@
    "gap": 0,
    "miss": 0
   },
-  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
-   "sym": "CLAUDIA",
-   "qty": 404.29327973918663,
-   "entry": 0.006781,
-   "last": 0.00646,
-   "peak": 0.006781,
-   "cost": 2.8257191609064365,
-   "opened": "2026-11-19T17:51:51+07:00",
-   "zoo": "v_rule",
-   "smart": 521,
-   "kol": 34,
-   "gap": 0,
-   "miss": 0
-  },
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 954.8726605478109,
    "entry": 0.002859,
-   "last": 0.002737,
+   "last": 0.00279,
    "peak": 0.002865,
    "cost": 2.813833164817761,
    "opened": "2026-11-19T18:00:59+07:00",
    "zoo": "v_rule",
    "smart": 727,
    "kol": 80,
-   "gap": 10,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -150,8 +136,24 @@
    "zoo": "v_rule",
    "smart": 727,
    "kol": 80
+  },
+  {
+   "t": "2026-11-19T18:14:24+07:00",
+   "kind": "sell",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.006078501138205022,
+   "entry": 0.006781,
+   "usd": 2.3843,
+   "pnl": -0.4415,
+   "why": "stop -10.4%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 521,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ทดสอบ veto: กฎอย่างเดียว (pool 200k+ mcap 2M+ ขึ้น)",
- "rank_t": 1795086581.125977
+ "rank_t": 1795086864.730548,
+ "halted": "ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }
