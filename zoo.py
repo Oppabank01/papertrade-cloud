@@ -144,6 +144,10 @@ def load_specs(path):
             ov = {**x, "MISS_N": round(15 * k), "GAP_HALT_N": round(15 * k), "horizon": sp["horizon"], "off": not sp.get("active", True)}
             if sp.get("orders"):
                 ov["orders"] = True             # buys come only from data/orders_<name>.json (Grok chat picks), never from the rule
+            if sp.get("queue"):
+                ov["queue"] = True              # this rule's picks go to data/veto_queue.json for the Grok Bot veto routine
+            if sp.get("veto_rand"):
+                ov["veto_rand"] = True          # keeps each pick with the Grok veto routine's running approve rate
             if p:
                 ov.update(rank_by=lambda t, k=p["by"]: val(t, k), take=int(p["take"]))
             ZOO[n] = (sp["label"], spec_rule(e), ov)
@@ -202,7 +206,28 @@ def picks(name, rank):
     ov = ZOO[name][2]
     if "rank_by" in ov:
         hits = sorted(hits, key=ov["rank_by"], reverse=True)[:ov["take"]]
+    if ov.get("veto_rand"):
+        st = json.loads(VETO_STATS.read_text()) if VETO_STATS.exists() else {}
+        n = st.get("approve", 0) + st.get("reject", 0)
+        rate = st["approve"] / n if n >= 5 else 0.5      # 50% until Grok has decided 5 candidates
+        hits = [t for t in hits if random.random() < rate]
     return hits
+
+
+VETO_QUEUE, VETO_STATS = HERE / "data" / "veto_queue.json", HERE / "data" / "veto_stats.json"
+
+
+def queue_add(ps, rank_t):
+    """Candidates of the veto test's rule for the Grok Bot routine: new mints only (one per 24 h), last 100 kept."""
+    q = json.loads(VETO_QUEUE.read_text()) if VETO_QUEUE.exists() else []
+    seen = {x["mint"] for x in q if rank_t - x["t"] < 86400}
+    for t in ps:
+        if t["address"] not in seen:
+            q.append(dict(id=f"c{int(rank_t)}{len(q) % 1000:03d}", mint=t["address"], sym=t.get("symbol"), t=int(rank_t),
+                          liq=round(f(t, "liquidity")), mcap=round(f(t, "market_cap")), h1=f(t, "price_change_percent1h"),
+                          m5=f(t, "price_change_percent5m")))
+            seen.add(t["address"])
+    VETO_QUEUE.write_text(json.dumps(q[-100:], ensure_ascii=False, indent=0))
 
 
 def cmd_init(thb):
@@ -315,7 +340,10 @@ def tick_one(name, d, rand_ret):
             night_book(s, night)
         if d and d["t"] > s.get("rank_t", 0) and not ov.get("off") and not s.get("dead") and (night or ov.get("horizon") != "night"):
             s["rank_t"] = d["t"]
-            for t in picks(name, d["rank"]):
+            ps = picks(name, d["rank"])
+            if ov.get("queue"):
+                queue_add(ps, d["t"])
+            for t in ps:
                 if "size" in ZOO[name][2]:
                     agents.PER_TRADE = ZOO[name][2]["size"](t)
                 agents.paper_buy(s, t["address"], t.get("symbol"), zoo=name, smart=t.get("smart_degen_count"), kol=t.get("renowned_count"))

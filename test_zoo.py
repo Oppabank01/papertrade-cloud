@@ -204,3 +204,17 @@ s = dict(log=[dict(kind="buy", mint=f"M{i}", usd=1) for i in range(20)] + [dict(
 zoo.verdict("x_v", s, -0.10); assert not s.get("dead")          # -5% per trade beats rand's -10% even if the account total looks worse
 zoo.verdict("x_v", s, -0.01); assert "แพ้ rand" in s["dead"]
 print("verdict per trade ok")
+# veto test: the rule account queues its picks once per mint; the random-veto twin keeps picks at Grok's approve rate
+zoo.VETO_QUEUE, zoo.VETO_STATS = d / "data" / "vq.json", d / "data" / "vs.json"
+zoo.queue_add([{"address": "Q1", "symbol": "Q1", "liquidity": 300000}, {"address": "Q2", "symbol": "Q2"}], 1000)
+zoo.queue_add([{"address": "Q1", "symbol": "Q1"}], 1300)
+q = json.loads(zoo.VETO_QUEUE.read_text()); assert [x["mint"] for x in q] == ["Q1", "Q2"] and q[0]["liq"] == 300000, q
+zoo.ZOO["x_vr"] = ("t", lambda t: True, dict(veto_rand=True))
+zoo.VETO_STATS.write_text(json.dumps({"approve": 0, "reject": 9}))
+real_ok, zoo.ok = zoo.ok, lambda t: True
+assert zoo.picks("x_vr", [{"address": "A"}] * 20) == []                    # Grok rejected all 9 -> rate 0
+zoo.VETO_STATS.write_text(json.dumps({"approve": 9, "reject": 0}))
+assert len(zoo.picks("x_vr", [{"address": "A"}] * 20)) == 20               # approved all -> rate 1
+zoo.ok = real_ok
+del zoo.ZOO["x_vr"]
+print("veto queue ok")

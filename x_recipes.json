@@ -1095,5 +1095,59 @@
     "price_change_percent5m": -15
    }
   }
+ },
+ {
+  "name": "v_rule",
+  "label": "ทดสอบ veto: กฎอย่างเดียว (pool 200k+ mcap 2M+ ขึ้น)",
+  "queue": true,
+  "note": "veto test: same candidate stream (zoo bigliq rule, chosen only because it fires ~15x/day; the rule itself is known to lose). Judge v_grok and v_rand against v_rule per trade after 50 trades. v_grok buys 10-20 min later than v_rule because of the Grok cadence.",
+  "added": "2026-11-19",
+  "active": true,
+  "horizon": "week",
+  "source": "Fable hybrid proposal 19 Nov 2026",
+  "entry": {
+   "min": {
+    "liquidity": 200000,
+    "market_cap": 2000000
+   },
+   "up": true
+  },
+  "exit": {}
+ },
+ {
+  "name": "v_grok",
+  "label": "ทดสอบ veto: กฎ + Grok Bot อนุมัติ/ปัดตก ดูข่าว X",
+  "orders": true,
+  "note": "veto test: same candidate stream (zoo bigliq rule, chosen only because it fires ~15x/day; the rule itself is known to lose). Judge v_grok and v_rand against v_rule per trade after 50 trades. v_grok buys 10-20 min later than v_rule because of the Grok cadence.",
+  "added": "2026-11-19",
+  "active": true,
+  "horizon": "week",
+  "source": "Fable hybrid proposal 19 Nov 2026",
+  "entry": {
+   "min": {
+    "liquidity": 200000,
+    "market_cap": 2000000
+   },
+   "up": true
+  },
+  "exit": {}
+ },
+ {
+  "name": "v_rand",
+  "label": "ทดสอบ veto: กฎ + ปัดตกแบบสุ่มในอัตราเดียวกับ Grok",
+  "veto_rand": true,
+  "note": "veto test: same candidate stream (zoo bigliq rule, chosen only because it fires ~15x/day; the rule itself is known to lose). Judge v_grok and v_rand against v_rule per trade after 50 trades. v_grok buys 10-20 min later than v_rule because of the Grok cadence.",
+  "added": "2026-11-19",
+  "active": true,
+  "horizon": "week",
+  "source": "Fable hybrid proposal 19 Nov 2026",
+  "entry": {
+   "min": {
+    "liquidity": 200000,
+    "market_cap": 2000000
+   },
+   "up": true
+  },
+  "exit": {}
  }
 ]
