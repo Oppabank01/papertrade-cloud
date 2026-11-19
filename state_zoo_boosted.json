@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.1575996094978691,
+ "cash": 0.07633538589545877,
  "pos": {
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 4.626500624844115,
    "entry": 0.01767,
-   "last": 0.018,
-   "peak": 0.01811,
+   "last": 0.01877,
+   "peak": 0.01877,
    "cost": 0.08426125133064886,
    "opened": "2026-11-19T10:31:38+07:00",
    "zoo": "boosted",
@@ -21,21 +21,21 @@
    "sym": "BTC",
    "qty": 67.85716115178627,
    "entry": 0.001198,
-   "last": 0.001281,
+   "last": 0.001271,
    "peak": 0.0014032415737387104,
    "cost": 0.08378981556363632,
    "opened": "2026-11-19T11:05:08+07:00",
    "zoo": "boosted",
    "smart": 798,
    "kol": 70,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": {
    "sym": "LMAO!",
    "qty": 91.00541705093913,
    "entry": 0.0008889,
-   "last": 0.0008628,
+   "last": 0.0008742,
    "peak": 0.0008889,
    "cost": 0.0833794219919396,
    "opened": "2026-11-19T12:01:10+07:00",
@@ -43,6 +43,20 @@
    "smart": 809,
    "kol": 84,
    "gap": 0,
+   "miss": 0
+  },
+  "FEaD7gWYkkuZMWtsgThbsjTZqFeNHu3L8W9ze6mNpump": {
+   "sym": "AFTERGTA6",
+   "qty": 4225.21702781664,
+   "entry": 1.866e-05,
+   "last": 1.870366283924888e-05,
+   "peak": 1.870366283924888e-05,
+   "cost": 0.08126422360241034,
+   "opened": "2026-11-19T12:20:06+07:00",
+   "zoo": "boosted",
+   "smart": 14,
+   "kol": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -5623,8 +5637,22 @@
    "cost_side": 0.03,
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T12:20:06+07:00",
+   "kind": "buy",
+   "mint": "FEaD7gWYkkuZMWtsgThbsjTZqFeNHu3L8W9ze6mNpump",
+   "sym": "AFTERGTA6",
+   "price": 1.866e-05,
+   "jup": 1.870366283924888e-05,
+   "usd": 0.0813,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 14,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1795065263.188764
+ "rank_t": 1795065544.4883714
 }
