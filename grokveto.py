@@ -24,6 +24,7 @@ from pathlib import Path
 HERE = Path(__file__).parent
 sys.path.insert(0, str(HERE))           # run with python -I from agents.sh
 import grok_check  # noqa: E402
+import jupdry  # noqa: E402
 from grokscout import ARCHIVE, by_day, records  # noqa: E402
 
 VETO, EXPERT = "“Meme veto”", "“Meme expert”"   # Grok confirmed both in one line: Created routines “Meme veto” and “Meme expert”
@@ -73,11 +74,15 @@ def main(dry):
            + expert_log(text, 8) + "\n" + expert_log(text, 9))
     if dry:
         return print(json.dumps(stats), len(orders), "orders\n" + log)
+    try:
+        jupdry.run(text)                        # dry-run Jupiter quotes for new S8/S9 trades (no wallet, nothing sent)
+    except Exception as e:
+        print(f"jupdry: {e!r}"[:160])
     ORDERS.write_text(json.dumps(orders, ensure_ascii=False, indent=0))
     STATS.write_text(json.dumps(stats))
     EXPLOG.write_text(log)
     g = ["git", "-C", str(HERE)]
-    subprocess.run(g + ["add", str(ORDERS), str(STATS), str(EXPLOG), str(ARCHIVE)], check=True)
+    subprocess.run(g + ["add", str(ORDERS), str(STATS), str(EXPLOG), str(ARCHIVE), str(jupdry.LOG)], check=True)
     if subprocess.run(g + ["diff", "--cached", "--quiet"]).returncode == 0:
         return
     subprocess.run(g + ["-c", "user.name=papertrade-bot", "-c", "user.email=papertrade-bot@users.noreply.github.com",
