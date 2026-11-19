@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.30817670823794463,
+ "cash": 0.10734769486214049,
  "pos": {
   "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": {
    "sym": "LMAO!",
    "qty": 456.5635359801485,
    "entry": 0.0008849,
-   "last": 0.0008187,
+   "last": 0.0007993,
    "peak": 0.0009674,
    "cost": 0.4164224623673814,
    "opened": "2026-11-19T10:41:22+07:00",
@@ -21,7 +21,7 @@
    "sym": "DSP",
    "qty": 129.30757494114175,
    "entry": 0.001122,
-   "last": 0.001105,
+   "last": 0.001102,
    "peak": 0.001215,
    "cost": 0.14953937238091225,
    "opened": "2026-11-19T21:48:50+07:00",
@@ -35,14 +35,28 @@
    "sym": "PIPI",
    "qty": 3154.9853144977355,
    "entry": 6.364e-05,
-   "last": 6.102418213236998e-05,
+   "last": 5.679e-05,
    "peak": 6.544e-05,
    "cost": 0.2069503869456152,
    "opened": "2026-11-20T00:49:16+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 57,
    "kol": 6,
-   "gap": 4,
+   "gap": 3,
+   "miss": 0
+  },
+  "7nqA5P4iHvxTpt4WwSeyrdfToVcqxVARCPr96xSDpump": {
+   "sym": "GTE",
+   "qty": 313.00290566619304,
+   "entry": 0.0006225,
+   "last": 0.000567029753860143,
+   "peak": 0.0006293,
+   "cost": 0.20082901337580414,
+   "opened": "2026-11-20T00:59:17+07:00",
+   "zoo": "w_ban_smartflow",
+   "smart": 3,
+   "kol": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -4090,10 +4104,24 @@
    "zoo": "w_ban_smartflow",
    "smart": 57,
    "kol": 6
+  },
+  {
+   "t": "2026-11-20T00:59:17+07:00",
+   "kind": "buy",
+   "mint": "7nqA5P4iHvxTpt4WwSeyrdfToVcqxVARCPr96xSDpump",
+   "sym": "GTE",
+   "price": 0.0006225,
+   "jup": 0.0006254960186201162,
+   "usd": 0.2008,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "w_ban_smartflow",
+   "smart": 3,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795110798.4148793,
+ "rank_t": 1795111094.2310221,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
