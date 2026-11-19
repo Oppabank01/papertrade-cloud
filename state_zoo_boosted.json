@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.37559764763173054,
- "pos": {},
+ "cash": 0.30047811810538444,
+ "pos": {
+  "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
+   "sym": "CBUCKS",
+   "qty": 21.892750840030338,
+   "entry": 0.003329,
+   "last": 0.003329,
+   "peak": 0.003329,
+   "cost": 0.07511952952634611,
+   "opened": "2026-11-19T07:36:56+07:00",
+   "zoo": "boosted",
+   "smart": 42,
+   "kol": 0,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:42:01+07:00",
@@ -5393,8 +5408,22 @@
    "cost_side": 0.03,
    "smart": 416,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T07:36:56+07:00",
+   "kind": "buy",
+   "mint": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+   "sym": "CBUCKS",
+   "price": 0.003329,
+   "jup": 0.003327644744777453,
+   "usd": 0.0751,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 42,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1795048273.9272068
+ "rank_t": 1795048554.2063117
 }

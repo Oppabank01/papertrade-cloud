@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.3172859996300418,
+ "cash": 0.21216540147458202,
  "pos": {
   "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
    "sym": "CRIME",
@@ -21,13 +21,27 @@
    "sym": "JOB",
    "qty": 38.62968171838547,
    "entry": 0.002725,
-   "last": 0.00259,
+   "last": 0.0025967074763977834,
    "peak": 0.002738,
    "cost": 0.10849915757843787,
    "opened": "2026-11-19T07:09:07+07:00",
    "zoo": "w_ban_aged",
    "smart": 37,
    "kol": 1,
+   "gap": 1,
+   "miss": 0
+  },
+  "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
+   "sym": "CBUCKS",
+   "qty": 30.636228396042974,
+   "entry": 0.003329,
+   "last": 0.003277,
+   "peak": 0.003329,
+   "cost": 0.10512059815545977,
+   "opened": "2026-11-19T07:37:17+07:00",
+   "zoo": "w_ban_aged",
+   "smart": 42,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -5179,10 +5193,24 @@
    "cost_side": 0.03,
    "smart": 445,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T07:37:17+07:00",
+   "kind": "buy",
+   "mint": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+   "sym": "CBUCKS",
+   "price": 0.003329,
+   "jup": 0.0033282309551037367,
+   "usd": 0.1051,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_aged",
+   "smart": 42,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795048273.9272068,
+ "rank_t": 1795048554.2063117,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": "CHOO",
