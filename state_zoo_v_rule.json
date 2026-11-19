@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.762326542663125,
- "cash": 5.979137319345771,
+ "cash": 8.511114663054638,
  "pos": {
-  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
-   "sym": "GTA6",
-   "qty": 686.9261012801807,
-   "entry": 0.00417,
-   "last": 0.003988,
-   "peak": 0.00417,
-   "cost": 2.9524653085326253,
-   "opened": "2026-11-19T17:27:37+07:00",
-   "zoo": "v_rule",
-   "smart": 323,
-   "kol": 25,
-   "gap": 0,
-   "miss": 0
-  },
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 375.54860598232875,
    "entry": 0.007582,
-   "last": 0.007691,
+   "last": 0.007619,
    "peak": 0.007691,
    "cost": 2.934868615293771,
    "opened": "2026-11-19T17:27:39+07:00",
@@ -35,8 +21,8 @@
    "sym": "STONK",
    "qty": 67.08593150826472,
    "entry": 0.04188,
-   "last": 0.04172,
-   "peak": 0.04188,
+   "last": 0.04189,
+   "peak": 0.04189,
    "cost": 2.8958552994909574,
    "opened": "2026-11-19T17:37:41+07:00",
    "zoo": "v_rule",
@@ -93,8 +79,23 @@
    "zoo": "v_rule",
    "smart": 1000,
    "kol": 174
+  },
+  {
+   "t": "2026-11-19T17:40:54+07:00",
+   "kind": "sell",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.00379916824262442,
+   "entry": 0.00417,
+   "usd": 2.532,
+   "pnl": -0.4205,
+   "why": "stop -8.9%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 323,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ทดสอบ veto: กฎอย่างเดียว (pool 200k+ mcap 2M+ ขึ้น)",
- "rank_t": 1795084576.6375127
+ "rank_t": 1795084854.4606125
 }
