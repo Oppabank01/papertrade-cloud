@@ -9,11 +9,9 @@ changed. Grok's own RESULT numbers are shown but only trusted for hours where ev
   python3 grok1h.py           read, check, write the log, commit and push
   python3 grok1h.py --dry     print the log only
 """
-import io
 import re
 import subprocess
 import sys
-from contextlib import redirect_stdout
 from datetime import datetime
 from pathlib import Path
 
@@ -52,8 +50,7 @@ def check_all(text):
     """grok_check.py on every LTRADE line of the v2 routine (S1-S7; S8 is the expert routine) -> [(verdict, line)]."""
     out = []
     for t in [t for day, seg in by_day(text) for t in grok_check.parse(seg, day, 7) if t["s"] <= 7]:
-        with redirect_stdout(io.StringIO()):
-            v, why = grok_check.check(t, 5, 3)
+        v, why = grok_check.cached(t)
         out.append((v, f"S{t['s']} {t['hm']} {t['side']} {t['sym']} px={t['px']:.6g} | {why}"))
     return out
 
@@ -70,7 +67,7 @@ def main(dry):
         return                                  # only the update time changed
     LOG.write_text(s)
     g = ["git", "-C", str(HERE)]
-    subprocess.run(g + ["add", str(LOG), str(ARCHIVE)], check=True)
+    subprocess.run(g + ["add", str(LOG), str(ARCHIVE), str(grok_check.CACHE)], check=True)
     subprocess.run(g + ["-c", "user.name=papertrade-bot", "-c", "user.email=papertrade-bot@users.noreply.github.com",
                         "commit", "-qm", "grok 1h test v2: results from the Grok Bot chat"], check=True)
     subprocess.run(g + ["pull", "-q", "--rebase", "--autostash"], check=True)

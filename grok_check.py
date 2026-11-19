@@ -88,6 +88,26 @@ def check(t, win, tol):
                                                    f"1h change then {h1} | liq now ${p[1]:,.0f}{'' if t['exact'] else ' | no timestamp, hour-wide check'}{sym}")
 
 
+CACHE = __import__("pathlib").Path(__file__).parent / "data" / "grok_check_cache.json"
+
+
+def cached(t, win=5, tol=3):
+    """check() once per trade: final verdicts are kept in data/grok_check_cache.json, NO_CANDLES (often a 429) retries next time."""
+    c = json.loads(CACHE.read_text()) if CACHE.exists() else {}
+    k = f"S{t['s']} {t['hm']} {t['side']} {t['mint']} {t['px']}"
+    if k not in c:
+        import io
+        from contextlib import redirect_stdout
+        with redirect_stdout(io.StringIO()):
+            v, why = check(t, win, tol)
+        if v == "NO_CANDLES":
+            return v, why
+        c = json.loads(CACHE.read_text()) if CACHE.exists() else {}   # re-read: grok1h and grokveto share the file
+        c[k] = [v, why]
+        CACHE.write_text(json.dumps(c, ensure_ascii=False, indent=0))
+    return tuple(c[k])
+
+
 def main(a):
     opt = lambda k, d: a[a.index(k) + 1] if k in a else d
     text = sys.stdin.read() if a[0] == "-" else open(a[0]).read()

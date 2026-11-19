@@ -12,12 +12,10 @@ lines; every trade price is checked against GeckoTerminal candles (grok_check.py
   python3 grokveto.py          read both, write files, commit and push
   python3 grokveto.py --dry    print only
 """
-import io
 import json
 import re
 import subprocess
 import sys
-from contextlib import redirect_stdout
 from datetime import datetime
 from pathlib import Path
 
@@ -56,8 +54,7 @@ def expert_log(text, n=8):
     led = re.findall(rf"LEDGER S{n} (\d\d:\d\d) cash=([\d.]+) equity=([\d.]+)", text)
     rows = []
     for tr in [x for day, seg in by_day(text) for x in grok_check.parse(seg, day, 7) if x["s"] == n]:
-        with redirect_stdout(io.StringIO()):
-            v, why = grok_check.check(tr, 5, 3)
+        v, why = grok_check.cached(tr)
         rows.append(f"- {v} {tr['hm']} {tr['side']} {tr['sym']} px={tr['px']:.6g} | {why}")
     seen = len(re.findall(rf"^SEEN S{n} ", text, re.M))
     eq = f"{float(led[-1][2]) / 50 - 1:+.1%} (equity ${led[-1][2]} at {led[-1][0]})" if led else "ยังไม่มีรายงาน"
@@ -70,19 +67,20 @@ def main(dry):
     if text is None:
         return print("grokveto: Grok Bot tab not open or routine message not loaded")
     orders, stats = veto_files(text)
+    if not dry:
+        ORDERS.write_text(json.dumps(orders, ensure_ascii=False, indent=0))    # first: v_grok orders expire 30 min after the candidate
+        try:
+            jupdry.run(text)                    # dry-run Jupiter quotes for new S8/S9 trades (no wallet, nothing sent)
+        except Exception as e:
+            print(f"jupdry: {e!r}"[:160])
     log = ("# Grok Bot คุมเองทั้งหมด (เงินปลอม $50 ต่อบัญชี, Grok ตัดสินใจเองจากข่าว X และกราฟ, ราคาตรวจกับ GeckoTerminal)\n\n"
            + expert_log(text, 8) + "\n" + expert_log(text, 9))
     if dry:
         return print(json.dumps(stats), len(orders), "orders\n" + log)
-    try:
-        jupdry.run(text)                        # dry-run Jupiter quotes for new S8/S9 trades (no wallet, nothing sent)
-    except Exception as e:
-        print(f"jupdry: {e!r}"[:160])
-    ORDERS.write_text(json.dumps(orders, ensure_ascii=False, indent=0))
     STATS.write_text(json.dumps(stats))
     EXPLOG.write_text(log)
     g = ["git", "-C", str(HERE)]
-    subprocess.run(g + ["add", str(ORDERS), str(STATS), str(EXPLOG), str(ARCHIVE), str(jupdry.LOG)], check=True)
+    subprocess.run(g + ["add", str(ORDERS), str(STATS), str(EXPLOG), str(ARCHIVE), str(jupdry.LOG), str(grok_check.CACHE)], check=True)
     if subprocess.run(g + ["diff", "--cached", "--quiet"]).returncode == 0:
         return
     subprocess.run(g + ["-c", "user.name=papertrade-bot", "-c", "user.email=papertrade-bot@users.noreply.github.com",
