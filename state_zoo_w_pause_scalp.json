@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.4974817983830162,
+ "cash": 1.331638581268177,
  "pos": {
   "HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump": {
    "sym": "HYGG",
@@ -14,6 +14,20 @@
    "zoo": "w_pause_scalp",
    "smart": 46,
    "kol": 2,
+   "gap": 0,
+   "miss": 0
+  },
+  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
+   "sym": "GATO",
+   "qty": 78.22123930229317,
+   "entry": 0.002057,
+   "last": 0.002025,
+   "peak": 0.002057,
+   "cost": 0.16584321711483924,
+   "opened": "2026-11-20T03:11:05+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 70,
+   "kol": 5,
    "gap": 0,
    "miss": 0
   }
@@ -8003,8 +8017,22 @@
    "zoo": "w_pause_scalp",
    "smart": 46,
    "kol": 2
+  },
+  {
+   "t": "2026-11-20T03:11:05+07:00",
+   "kind": "buy",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "price": 0.002057,
+   "jup": 0.0020588365743895586,
+   "usd": 0.1658,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 70,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795118715.581073
+ "rank_t": 1795119008.6294563
 }
