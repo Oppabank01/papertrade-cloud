@@ -7,21 +7,21 @@
    "sym": "Macca",
    "qty": 556.4080927535931,
    "entry": 0.0008119,
-   "last": 0.0007532,
+   "last": 0.0007238,
    "peak": 0.00113,
    "cost": 0.4656233049955084,
    "opened": "2026-11-19T06:55:07+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 182,
    "kol": 12,
-   "gap": 0,
+   "gap": 3,
    "miss": 0
   },
   "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": {
    "sym": "LMAO!",
    "qty": 456.5635359801485,
    "entry": 0.0008849,
-   "last": 0.0009317623827902767,
+   "last": 0.0009270227957248347,
    "peak": 0.0009674,
    "cost": 0.4164224623673814,
    "opened": "2026-11-19T10:41:22+07:00",
@@ -35,28 +35,28 @@
    "sym": "RATS",
    "qty": 3290.5208688568105,
    "entry": 0.0001001,
-   "last": 9.532e-05,
+   "last": 0.00010599885682077404,
    "peak": 0.00011615643789555249,
    "cost": 0.33949818488205186,
    "opened": "2026-11-19T11:09:16+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 40,
    "kol": 0,
-   "gap": 10,
+   "gap": 9,
    "miss": 0
   },
   "3hdXmQqZHmm7gWWweFKGdkjnxyWQZ2SWVNt1Jty5pump": {
    "sym": "PAPA",
    "qty": 4965.005636398077,
    "entry": 6.425e-05,
-   "last": 6.426e-05,
-   "peak": 6.92214224144463e-05,
+   "last": 7.144e-05,
+   "peak": 7.144e-05,
    "cost": 0.328799847596966,
    "opened": "2026-11-19T11:13:41+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 50,
    "kol": 1,
-   "gap": 6,
+   "gap": 18,
    "miss": 0
   }
  },
@@ -3321,10 +3321,17 @@
    "zoo": "w_ban_smartflow",
    "smart": 50,
    "kol": 1
+  },
+  {
+   "t": "2026-11-19T11:39:18+07:00",
+   "kind": "ban",
+   "mint": "3hdXmQqZHmm7gWWweFKGdkjnxyWQZ2SWVNt1Jty5pump",
+   "sym": "PAPA",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795062704.1914694,
+ "rank_t": 1795062999.2154515,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
@@ -3348,6 +3355,7 @@
   "96WnzbBGRm3RadEMZcn6VfGQKTk7AaNYrUmTXNx9pump": "CRIME",
   "FML39mAXYiThEb7z5drPi56J3tE8Ck6WRhspETGomqWB": "STM",
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": "Macca",
-  "76indaHnwAuKrK2oBpBcPsVe1jRbYHCRYDsYuJ1MVys4": "DACITYCOIN"
+  "76indaHnwAuKrK2oBpBcPsVe1jRbYHCRYDsYuJ1MVys4": "DACITYCOIN",
+  "3hdXmQqZHmm7gWWweFKGdkjnxyWQZ2SWVNt1Jty5pump": "PAPA"
  }
 }

@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.09998672579940515,
+ "cash": 0.1721176710249237,
  "pos": {
-  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
-   "sym": "DacityCoin",
-   "qty": 80.20115429610212,
-   "entry": 0.0008819,
-   "last": 0.0009458,
-   "peak": 0.001093,
-   "cost": 0.0729018738133709,
-   "opened": "2026-11-19T08:42:16+07:00",
-   "zoo": "boosted",
-   "smart": 325,
-   "kol": 26,
-   "gap": 0,
-   "miss": 0
-  },
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 1.7028900897633599,
    "entry": 0.04079,
-   "last": 0.04181,
+   "last": 0.0417,
    "peak": 0.04183,
    "cost": 0.07159439987780607,
    "opened": "2026-11-19T09:02:01+07:00",
@@ -35,7 +21,7 @@
    "sym": "CATE",
    "qty": 4.626500624844115,
    "entry": 0.01767,
-   "last": 0.01808,
+   "last": 0.01809,
    "peak": 0.01811,
    "cost": 0.08426125133064886,
    "opened": "2026-11-19T10:31:38+07:00",
@@ -49,14 +35,14 @@
    "sym": "BTC",
    "qty": 67.85716115178627,
    "entry": 0.001198,
-   "last": 0.0014032415737387104,
+   "last": 0.001333,
    "peak": 0.0014032415737387104,
    "cost": 0.08378981556363632,
    "opened": "2026-11-19T11:05:08+07:00",
    "zoo": "boosted",
    "smart": 798,
    "kol": 70,
-   "gap": 4,
+   "gap": 5,
    "miss": 0
   }
  },
@@ -5593,8 +5579,23 @@
    "zoo": "boosted",
    "smart": 798,
    "kol": 70
+  },
+  {
+   "t": "2026-11-19T11:37:34+07:00",
+   "kind": "sell",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.000927,
+   "entry": 0.0008819,
+   "usd": 0.0721,
+   "pnl": -0.0008,
+   "why": "trailing จากยอด +24% (+5.1%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 325,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1795062704.1914694
+ "rank_t": 1795062999.2154515
 }
