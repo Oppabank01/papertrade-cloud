@@ -35,28 +35,28 @@
    "sym": "Macca",
    "qty": 556.4080927535931,
    "entry": 0.0008119,
-   "last": 0.0010774125894697742,
-   "peak": 0.0010774125894697742,
+   "last": 0.001121,
+   "peak": 0.0011214740548612882,
    "cost": 0.4656233049955084,
    "opened": "2026-11-19T06:55:07+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 182,
    "kol": 12,
-   "gap": 4,
+   "gap": 0,
    "miss": 0
   },
   "76indaHnwAuKrK2oBpBcPsVe1jRbYHCRYDsYuJ1MVys4": {
    "sym": "DACITYCOIN",
    "qty": 11794.747485353948,
    "entry": 2.158e-05,
-   "last": 1.779e-05,
+   "last": 1.7621189842831094e-05,
    "peak": 2.158e-05,
    "cost": 0.2623486402122637,
    "opened": "2026-11-19T07:32:08+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 65,
    "kol": 8,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -2978,10 +2978,17 @@
    "zoo": "w_ban_smartflow",
    "smart": 65,
    "kol": 8
+  },
+  {
+   "t": "2026-11-19T08:02:14+07:00",
+   "kind": "ban",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795049673.641646,
+ "rank_t": 1795049950.8412635,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
@@ -3003,6 +3010,7 @@
   "79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump": "Apocrycoin",
   "GgyKtbWS99pzkvqaG7wvxdKCbRxuLDLRDm4TtfDdpump": "DCTY",
   "96WnzbBGRm3RadEMZcn6VfGQKTk7AaNYrUmTXNx9pump": "CRIME",
-  "FML39mAXYiThEb7z5drPi56J3tE8Ck6WRhspETGomqWB": "STM"
+  "FML39mAXYiThEb7z5drPi56J3tE8Ck6WRhspETGomqWB": "STM",
+  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": "Macca"
  }
 }
