@@ -26,7 +26,7 @@ sys.path.insert(0, str(HERE))           # run with python -I from agents.sh
 import grok_check  # noqa: E402
 from grokscout import chat_text  # noqa: E402
 
-VETO, EXPERT = "Created routine “Meme veto”", "Created routine “Meme expert”"
+VETO, EXPERT = "“Meme veto”", "“Meme expert”"   # Grok confirmed both in one line: Created routines “Meme veto” and “Meme expert”
 QUEUE, ORDERS, STATS = HERE / "data" / "veto_queue.json", HERE / "data" / "orders_v_grok.json", HERE / "data" / "veto_stats.json"
 EXPLOG = HERE / "data" / "grok_expert_log.md"
 LINE = re.compile(r"VETO (c\d+) (APPROVE|REJECT) (\S+) reason=(.{0,160}?)(?=VETO |LEDGER|LTRADE|$)")

@@ -42,7 +42,7 @@ def chat_text(start=None):
     for _ in range(12):                 # the chat pane loads well after the page; poll up to ~75 s for the routine message
         time.sleep(6)
         r = run("Runtime.evaluate", {"expression": TEXT_JS, "returnByValue": True})
-        if r.returncode == 0 and f"Created routine “{(start or START).split('“')[1]}" in r.stdout and len(r.stdout) > 3000:
+        if r.returncode == 0 and (start or START) in r.stdout and len(r.stdout) > 3000:
             return r.stdout
     return None
 
