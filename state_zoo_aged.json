@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.045462893157390334,
+ "cash": 0.10474987508507211,
  "pos": {
-  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
-   "sym": "Macca",
-   "qty": 118.17443499854306,
-   "entry": 0.000488,
-   "last": 0.0005325,
-   "peak": 0.0006174,
-   "cost": 0.059440449679745426,
-   "opened": "2026-11-19T19:36:30+07:00",
-   "zoo": "aged",
-   "smart": 184,
-   "kol": 12,
-   "gap": 0,
-   "miss": 0
-  },
   "739dnZEG4yaBWFsY8L8ZwrfhGG6dhtCSercW8Umspump": {
    "sym": "CLAW",
    "qty": 7.289331719610311,
    "entry": 0.007657,
-   "last": 0.007561,
+   "last": 0.007553,
    "peak": 0.007689,
    "cost": 0.05752877033297892,
    "opened": "2026-11-19T20:23:15+07:00",
@@ -35,7 +21,7 @@
    "sym": "ANSEM",
    "qty": 1.2617053642482234,
    "entry": 0.0422,
-   "last": 0.0421,
+   "last": 0.0419,
    "peak": 0.0422,
    "cost": 0.05487937164633584,
    "opened": "2026-11-19T21:58:05+07:00",
@@ -49,14 +35,14 @@
    "sym": "Rocco",
    "qty": 122.2068043917142,
    "entry": 0.0004287,
-   "last": 0.0004246272653349279,
+   "last": 0.0004119,
    "peak": 0.0004287,
    "cost": 0.05399923422256018,
    "opened": "2026-11-19T22:17:33+07:00",
    "zoo": "aged",
    "smart": 133,
    "kol": 11,
-   "gap": 1,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -6178,8 +6164,23 @@
    "zoo": "aged",
    "smart": 133,
    "kol": 11
+  },
+  {
+   "t": "2026-11-19T22:22:14+07:00",
+   "kind": "sell",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.0005171,
+   "entry": 0.000488,
+   "usd": 0.0593,
+   "pnl": -0.0002,
+   "why": "trailing จากยอด +27% (+6.0%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 184,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุเกิน 1 วัน ยังมีคนเล่น",
- "rank_t": 1795101393.6887224
+ "rank_t": 1795101685.7583408
 }
