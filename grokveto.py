@@ -48,17 +48,20 @@ def veto_files(text):
     return list(old.values()), stats
 
 
-def expert_log(text):
-    led = re.findall(r"LEDGER S8 (\d\d:\d\d) cash=([\d.]+) equity=([\d.]+)", text)
+NAMES = {8: "Meme expert (S8, 19 พ.ย. 17:20 ถึง 20 พ.ย.)", 9: "Meme expert 2 (S9 คำสั่งเดียวกับ S8 บัญชีแยก ไว้ดูว่าเป็นฝีมือหรือดวง เริ่ม 19 พ.ย. ราว 22:00)"}
+
+
+def expert_log(text, n=8):
+    led = re.findall(rf"LEDGER S{n} (\d\d:\d\d) cash=([\d.]+) equity=([\d.]+)", text)
     rows = []
-    for tr in [x for day, seg in by_day(text) for x in grok_check.parse(seg, day, 7) if x["s"] == 8]:
+    for tr in [x for day, seg in by_day(text) for x in grok_check.parse(seg, day, 7) if x["s"] == n]:
         with redirect_stdout(io.StringIO()):
             v, why = grok_check.check(tr, 5, 3)
         rows.append(f"- {v} {tr['hm']} {tr['side']} {tr['sym']} px={tr['px']:.6g} | {why}")
+    seen = len(re.findall(rf"^SEEN S{n} ", text, re.M))
     eq = f"{float(led[-1][2]) / 50 - 1:+.1%} (equity ${led[-1][2]} at {led[-1][0]})" if led else "ยังไม่มีรายงาน"
-    return (f"# Grok Bot คุมเองทั้งหมด (19-20 พ.ย. 69, เงินปลอม $50, Grok ตัดสินใจเองจากข่าว X และกราฟ)\n\n"
-            f"ผลตามที่ Grok รายงาน: {eq} | รอบที่รายงาน {len(led)} | ไม้ที่ราคาตรวจไม่ผ่าน {sum(not r.startswith('- OK') for r in rows)} จาก {len(rows)}\n\n"
-            "## ไม้ทั้งหมด พร้อมผลตรวจราคา GeckoTerminal\n\n" + "\n".join(rows) + "\n")
+    return (f"## {NAMES[n]}\n\nผลตามที่ Grok รายงาน: {eq} | รอบที่รายงาน {len(led)} | ไม้ที่ราคาตรวจไม่ผ่าน "
+            f"{sum(not r.startswith('- OK') for r in rows)} จาก {len(rows)} | เหรียญที่ดูแต่ไม่ซื้อ (SEEN) {seen} บรรทัด\n\n" + "\n".join(rows) + "\n")
 
 
 def main(dry):
@@ -66,7 +69,8 @@ def main(dry):
     if text is None:
         return print("grokveto: Grok Bot tab not open or routine message not loaded")
     orders, stats = veto_files(text)
-    log = expert_log(text)
+    log = ("# Grok Bot คุมเองทั้งหมด (เงินปลอม $50 ต่อบัญชี, Grok ตัดสินใจเองจากข่าว X และกราฟ, ราคาตรวจกับ GeckoTerminal)\n\n"
+           + expert_log(text, 8) + "\n" + expert_log(text, 9))
     if dry:
         return print(json.dumps(stats), len(orders), "orders\n" + log)
     ORDERS.write_text(json.dumps(orders, ensure_ascii=False, indent=0))

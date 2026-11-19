@@ -63,7 +63,9 @@ def candles(addr, mint, ts):
     if key not in _candles:
         end = (ts // 3600 + 2) * 3600
         d = get(f"https://api.geckoterminal.com/api/v2/networks/solana/pools/{addr}/ohlcv/minute?aggregate=1&limit=180&before_timestamp={end}&token={mint}&currency=usd")
-        _candles[key] = {int(c[0]): c[1:5] for c in (d or {}).get("data", {}).get("attributes", {}).get("ohlcv_list", [])}
+        if d is None:
+            return {}                   # fetch failed (rate limit): not cached, so the next trade on this pool retries
+        _candles[key] = {int(c[0]): c[1:5] for c in d.get("data", {}).get("attributes", {}).get("ohlcv_list", [])}
     return _candles[key]
 
 
