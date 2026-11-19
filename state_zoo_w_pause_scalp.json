@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.3635913361721872,
+ "cash": 0.9782042309829975,
  "pos": {
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
    "sym": "Rings",
    "qty": 298.9505153289484,
    "entry": 0.0006312,
-   "last": 0.0006109867410368925,
+   "last": 0.0006108399865722287,
    "peak": 0.0006312,
    "cost": 0.19449347070256878,
    "opened": "2026-11-19T14:17:35+07:00",
    "zoo": "w_pause_scalp",
    "smart": 88,
    "kol": 6,
-   "gap": 5,
+   "gap": 17,
    "miss": 0
   },
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": {
    "sym": "CHOO",
    "qty": 416.4434268376457,
    "entry": 0.0004513,
-   "last": 0.0004592,
+   "last": 0.0004622,
    "peak": 0.0004629,
    "cost": 0.19371358331460475,
    "opened": "2026-11-19T14:26:58+07:00",
@@ -35,13 +35,41 @@
    "sym": "NIO",
    "qty": 203.56420922825058,
    "entry": 0.0009205,
-   "last": 0.0009399,
+   "last": 0.0009394,
    "peak": 0.0009473,
    "cost": 0.19313631683632723,
    "opened": "2026-11-19T14:26:58+07:00",
    "zoo": "w_pause_scalp",
    "smart": 425,
    "kol": 34,
+   "gap": 0,
+   "miss": 0
+  },
+  "HgTGdc29D5bDMrDvsCLnorxz899VyDj7ZN7FPa6vpump": {
+   "sym": "VEIL",
+   "qty": 625.1427639780134,
+   "entry": 0.0002995,
+   "last": 0.000298,
+   "peak": 0.0002995,
+   "cost": 0.1929810944252886,
+   "opened": "2026-11-19T14:45:49+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 233,
+   "kol": 16,
+   "gap": 0,
+   "miss": 0
+  },
+  "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
+   "sym": "Dacity",
+   "qty": 595.6359656768889,
+   "entry": 0.0003134,
+   "last": 0.0003112,
+   "peak": 0.000314,
+   "cost": 0.19240601076390124,
+   "opened": "2026-11-19T14:45:49+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 450,
+   "kol": 38,
    "gap": 0,
    "miss": 0
   }
@@ -7406,8 +7434,38 @@
    "zoo": "w_pause_scalp",
    "smart": 425,
    "kol": 34
+  },
+  {
+   "t": "2026-11-19T14:45:49+07:00",
+   "kind": "buy",
+   "mint": "HgTGdc29D5bDMrDvsCLnorxz899VyDj7ZN7FPa6vpump",
+   "sym": "VEIL",
+   "price": 0.0002995,
+   "jup": 0.0002990456519155007,
+   "usd": 0.193,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 233,
+   "kol": 16
+  },
+  {
+   "t": "2026-11-19T14:45:49+07:00",
+   "kind": "buy",
+   "mint": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
+   "sym": "Dacity",
+   "price": 0.0003134,
+   "jup": 0.0003133742828597242,
+   "usd": 0.1924,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 450,
+   "kol": 38
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795073982.3826354
+ "rank_t": 1795074262.956774,
+ "halted": "ราคา Rings สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+ "halted_until": "2026-11-19T15:47:26+07:00"
 }
