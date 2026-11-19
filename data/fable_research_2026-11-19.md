@@ -16,5 +16,5 @@ One night (21:00-09:00 Bangkok): 55 rules on 1,022 nights, none positive OOS at 
 OOS -0.375%/night (39% green). Nearest: N1 short top-30 coins down 10%+ in 6h at 21:00: 2022-23 +1.49%/night,
 IS +1.27%, OOS -0.015%.
 
-Opened as 500 THB paper accounts on Hyperliquid prices (crash.py): M1, M2, N1, M4. Hyperliquid's coin list and prices
+Opened as 500 THB paper accounts on Hyperliquid prices (crash.py): M1, M2, N1, M4, and round-2 night rule A (n_low30short_500, measurement only: OOS +1.12%/night on 17 nights but rests on two nights and LUNA). Hyperliquid's coin list and prices
 differ from Binance, so these are the live check of the backtest, not a copy of it.

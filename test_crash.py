@@ -39,3 +39,9 @@ assert s["pos"]["NEW"]["entry"] == 2.0 and abs(s["cash"] - 90) < 1e-9, s
 c.step("l_newlist_short_500", s, {**mk, "NEW": (3.1, 0.0, 1e6)}, {}, t0 + 23 * H, False)
 assert not s["pos"] and s["log"][-1]["why"] == "stop +50%" and s["log"][-1]["pnl"] < -5, s["log"]
 print("crash ok")
+# 30-day-low night short: only the coin at its 30-day low after a 12h drop of 5%+ is shorted, with the whole account
+s = st()
+lo = {"AAA": (-0.08, 80.0, 81.0), "BBB": (-0.08, 100.0, 95.0), "BTC": (-0.02, 90.0, 95.0)}
+c.step("n_low30short_500", s, mk, {}, t21, True, lo)
+assert list(s["pos"]) == ["AAA"] and s["cash"] < 1e-9 and s["pos"]["AAA"]["side"] == -1, s
+print("low30 ok")
