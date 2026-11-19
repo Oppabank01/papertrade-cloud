@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 5.098106120985812,
+ "cash": 3.831651753708604,
  "pos": {
   "XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp": {
    "sym": "AAPLx",
    "qty": 0.0034998885954122686,
    "entry": 353.31,
-   "last": 352.63,
+   "last": 352.54,
    "peak": 353.31,
    "cost": 1.274526530246453,
    "opened": "2026-11-20T05:19:54+07:00",
    "wallet": "ENskGQ",
    "wallet_usd": 232,
    "lag_min": 0.7,
+   "gap": 0,
+   "miss": 0
+  },
+  "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn": {
+   "sym": "PUMP",
+   "qty": 465.2457505234181,
+   "entry": 0.002641,
+   "last": 0.002641,
+   "peak": 0.002641,
+   "cost": 1.2664543672772082,
+   "opened": "2026-11-20T06:21:04+07:00",
+   "wallet": "ENskGQ",
+   "wallet_usd": 235,
+   "lag_min": 2.2,
    "gap": 0,
    "miss": 0
   }
@@ -7001,6 +7015,20 @@
    "wallet": "ENskGQ",
    "usd": 235,
    "why": "repeat"
+  },
+  {
+   "t": "2026-11-20T06:21:04+07:00",
+   "kind": "buy",
+   "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "sym": "PUMP",
+   "price": 0.002641,
+   "jup": 0.002649463674800976,
+   "usd": 1.2665,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "wallet": "ENskGQ",
+   "wallet_usd": 235,
+   "lag_min": 2.2
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ ผ่าน Helius",
@@ -7010,7 +7038,7 @@
   "7NnaXghjuU92gM9kmwXysqa5HboyZuR2LTaBnvazFxSH": "4G62p6g74W2ZfR68FLqKEwXcu1xf1YfXgiFJKxzfZGEu2gkggjogU9LbeNbLByV8ENhDndeexionM4vim2WvvDFs",
   "7g5CJ754NboeY6D44MDdGwQmVX4Fvu59Q47c9ZKLPMkE": "4SwA1c1tu7ZFKiDqERjbkxs1217foD2J2r7h8u535t8Y62rW8NKRdeeT5KzgH8EAxPHTUNaikg23p4d21RXhM4dE",
   "8emnM6nfVM2ePrYDmZcMkwy8qzDhRFZ5EefCkMsmgByX": "ZS3q5dWRgcjXxJuoXdqPyhLCcZtT3qY8dfUHt2Sz79ybLiDkq1uXnKK5qmiuMxyp3EUQz5sXekqsLyLJ339dt7a",
-  "ENskGQev2bXPjaCYPV9bUcPLv3635Y18BWzLN95x4soC": "517zUfyst7yTEe3TET9ZTG6HFGpyhW9pHeMP56kHbVMAXjwUWXnQXcbNbYyduNFn1GSGkntYEzhm1uCTUvqbDVBD",
+  "ENskGQev2bXPjaCYPV9bUcPLv3635Y18BWzLN95x4soC": "35T8mPupWXUwKbMFhcuWK9wLRPdxuuRKQN7iZ6piJHQQssyABueDUBNWGgBSBBkTEAyaRFGh2Ch8pQhahsqC6woL",
   "chudc2GnxyW2V7nmLA9bkrzFmKkvPyTfN7V7Uu6XG6o": "2WikX94JcJjeHPvQSAAuLU2F6h6FNgusstWk2H2gTy379i59KD7ngKgqCtKddTqwiM5XB9N9YEFukV7SBaYH8Azf",
   "8XzVYjjVdpDoD3zBtXqMiMBRNj7eMhayr8DyWZQiRgs8": "gM52xFLCdLh2xuqZDbqkDSrieMb64F3hCy56EsJpry3Uw4Nn8gtgqkD4jViVd3QjnbnjMGBXSRxz8oSHVPpQAeT",
   "a8UJuWKvWwQTtYbEVzA5b7SYF5j92guqJdwMY428jZN": "56UDzaVyZ1f97rhEvA2xmi8gDkTC8dGq8G9hnM87yhxUdwgLJAkqx9nwfUUh3awsvmhaaiGvwPUQr9fHYc51jdf8",
