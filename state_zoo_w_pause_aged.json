@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.6264216542455803,
+ "cash": 0.4693674696322909,
  "pos": {
   "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
    "sym": "Max",
    "qty": 191.8900887058165,
    "entry": 0.0007918,
-   "last": 0.0008305,
-   "peak": 0.0008395,
+   "last": 0.0008335243108650444,
+   "peak": 0.0008438,
    "cost": 0.15660541356139507,
    "opened": "2026-11-19T09:15:59+07:00",
    "zoo": "w_pause_aged",
    "smart": 464,
    "kol": 42,
+   "gap": 2,
+   "miss": 0
+  },
+  "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": {
+   "sym": "BRUH",
+   "qty": 35.30444159217176,
+   "entry": 0.004316,
+   "last": 0.004358,
+   "peak": 0.004358,
+   "cost": 0.15705418461328938,
+   "opened": "2026-11-19T09:44:40+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 3,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -4932,8 +4946,22 @@
    "zoo": "w_pause_aged",
    "smart": 464,
    "kol": 42
+  },
+  {
+   "t": "2026-11-19T09:44:40+07:00",
+   "kind": "buy",
+   "mint": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
+   "sym": "BRUH",
+   "price": 0.004316,
+   "jup": 0.0042842843310224536,
+   "usd": 0.1571,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 3,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795055906.4941206
+ "rank_t": 1795056181.9966683
 }
