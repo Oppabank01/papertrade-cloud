@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.4827157604267426,
+ "cash": 0.32149656878724614,
  "pos": {
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
@@ -28,7 +28,21 @@
    "zoo": "holders",
    "smart": 82,
    "kol": 1,
-   "gap": 3,
+   "gap": 0,
+   "miss": 0
+  },
+  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
+   "sym": "Macca",
+   "qty": 147.28329541303148,
+   "entry": 0.001062,
+   "last": 0.001062,
+   "peak": 0.001062,
+   "cost": 0.16121919163949644,
+   "opened": "2026-11-19T08:37:54+07:00",
+   "zoo": "holders",
+   "smart": 182,
+   "kol": 12,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -4919,8 +4933,22 @@
    "cost_side": 0.03,
    "smart": 44,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T08:37:54+07:00",
+   "kind": "buy",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.001062,
+   "jup": 0.0010606296617404823,
+   "usd": 0.1612,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 182,
+   "kol": 12
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1795051953.311599
+ "rank_t": 1795052230.9900997
 }
