@@ -1,6 +1,8 @@
 # Grok Bot ทดสอบท่าเหรียญมีม 7 บัญชีพร้อมกัน (19 พ.ย. 69 16:10-22:55, เงินปลอม $15 ต่อบัญชีต่อชั่วโมง)
 
-อัปเดต 17:07 | รอบที่ Grok ตอบ NO DATA: 0 | ไม้ที่ราคาตรวจไม่ผ่าน: 1 จาก 15
+อัปเดต 21:11 | รอบที่ Grok ตอบ NO DATA: 0 | ไม้ที่ราคาตรวจไม่ผ่าน: 1 จาก 8
+
+ชั่วโมงแรก 16:00 อ่านได้ก่อนตัวอ่านพัง: S1 -7.7% S2 -2.0% S3 -2.8% S4 -2.8% S5-S7 ไม่มีไม้ (นับรวมในตารางแล้ว) | ชั่วโมง 17-19 ข้อความหลุดจากหน้าแชทก่อนอ่าน ไม่มีข้อมูล (X เก็บแชทไว้ราว 25 นาที แก้เป็นเก็บสะสมแล้ว 19 พ.ย. 21:00)
 
 | ท่า | ชั่วโมงที่จบ | เฉลี่ยต่อชั่วโมง | เทียบสุ่ม S1 |
 |---|---|---|---|
@@ -14,18 +16,11 @@
 
 ## ไม้ที่ Grok รายงาน พร้อมผลตรวจราคา GeckoTerminal
 
-- OK S1 16:10 BUY DacityCoin px=0.001638 | range 0.001562..0.001837 outside by +0.0% | vs close -8.9% | 1h change then +18% | liq now $178,938
-- OK S2 16:10 BUY GATO px=0.001728 | range 0.001689..0.001824 outside by +0.0% | vs close +0.7% | 1h change then -30% | liq now $138,309
-- OK S1 16:15 BUY GATO px=0.001741 | range 0.001713..0.001824 outside by +0.0% | vs close -1.0% | 1h change then -30% | liq now $138,309
-- OK S1 16:20 BUY pippin px=0.01675 | range 0.01672..0.01694 outside by +0.0% | vs close -1.0% | 1h change then +3% | liq now $3,307,031
-- OK S3 16:20 BUY GATO px=0.001806 | range 0.001732..0.001829 outside by +0.0% | vs close +2.3% | 1h change then -31% | liq now $138,309
-- OK S4 16:20 BUY GATO px=0.001806 | range 0.001732..0.001829 outside by +0.0% | vs close +2.3% | 1h change then -31% | liq now $138,309
-- OK S1 16:55 SELL DacityCoin px=0.001236 | range 0.001167..0.001332 outside by +0.0% | vs close -0.6% | 1h change then -7% | liq now $178,938
-- OK S1 16:55 SELL GATO px=0.001651 | range 0.001585..0.001769 outside by +0.0% | vs close -2.6% | 1h change then +2% | liq now $138,309
-- OK S1 16:55 SELL pippin px=0.01704 | range 0.01682..0.01711 outside by +0.0% | vs close +0.4% | 1h change then -0% | liq now $3,307,031
-- OK S2 16:55 SELL GATO px=0.001651 | range 0.001585..0.001769 outside by +0.0% | vs close -2.6% | 1h change then +2% | liq now $138,309
-- OK S3 16:55 SELL GATO px=0.001651 | range 0.001585..0.001769 outside by +0.0% | vs close -2.6% | 1h change then +2% | liq now $138,309
-- OK S4 16:55 SELL GATO px=0.001651 | range 0.001585..0.001769 outside by +0.0% | vs close -2.6% | 1h change then +2% | liq now $138,309
-- OK S1 17:00 BUY ANTS px=0.01402 | range 0.01364..0.0148 outside by +0.0% | vs close +0.4% | 1h change then +15% | liq now $327,138
-- OK S2 17:00 BUY DacityCoin px=0.001226 | range 0.001193..0.001284 outside by +0.0% | vs close +1.9% | 1h change then -21% | liq now $178,938
-- NO_CANDLES S2 17:00 BUY GTA6 px=0.004055 | pool 5AFbwV liq $35,355: no trades within +-5 min (illiquid or wrong time)
+- OK S1 18:05 BUY JOB px=0.00283 | range 0.002726..0.002832 outside by +0.0% | vs close +1.3% | 1h change then +6% | liq now $168,804
+- OK S1 18:15 BUY PUMP px=0.00272 | range 0.002714..0.002743 outside by +0.0% | vs close -0.3% | 1h change then +1% | liq now $18,691,765
+- OK S1 18:20 BUY DCTY px=0.01768 | range 0.01759..0.01998 outside by +0.0% | vs close -2.6% | 1h change then +35% | liq now $599,827
+- OK S1 16:02 BUY GTASZN px=0.00103213 | range 0.000902..0.001091 outside by +0.0% | vs close +3.1% | 1h change then -32% | liq now $67,146
+- OK S1 16:02 BUY GRAND px=0.000481194 | range 0.0004638..0.0005634 outside by +0.0% | vs close +3.7% | 1h change then -17% | liq now $47,342
+- NO_CANDLES S1 16:10 BUY DacityCoin px=0.001638 | pool 7Te1wX liq $94,796: no trades within +-5 min (illiquid or wrong time)
+- OK S2 16:10 BUY GATO px=0.001728 | range 0.001689..0.001824 outside by +0.0% | vs close +0.7% | 1h change then -30% | liq now $124,102
+- OK S1 16:15 BUY GATO px=0.001741 | range 0.001713..0.001824 outside by +0.0% | vs close -1.0% | 1h change then -30% | liq now $124,102
