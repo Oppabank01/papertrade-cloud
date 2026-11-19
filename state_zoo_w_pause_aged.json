@@ -1,48 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.22429337029414154,
+ "cash": 0.4450363354107045,
  "pos": {
-  "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": {
-   "sym": "VEIL",
-   "qty": 266.44258127826885,
-   "entry": 0.0004684,
-   "last": 0.0004602,
-   "peak": 0.0005017,
-   "cost": 0.12863502893294285,
-   "opened": "2026-11-19T16:24:53+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 79,
-   "kol": 5,
-   "gap": 0,
-   "miss": 0
-  },
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 40.716511921235515,
    "entry": 0.002859,
-   "last": 0.002862,
-   "peak": 0.002931,
+   "last": 0.002835,
+   "peak": 0.002937,
    "cost": 0.11998403172831616,
    "opened": "2026-11-19T18:00:51+07:00",
    "zoo": "w_pause_aged",
    "smart": 727,
    "kol": 80,
-   "gap": 5,
-   "miss": 0
-  },
-  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
-   "sym": "GTA6",
-   "qty": 31.557097811554737,
-   "entry": 0.003626,
-   "last": 0.0035847302428266936,
-   "peak": 0.004016,
-   "cost": 0.11794066858863893,
-   "opened": "2026-11-19T18:39:43+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 323,
-   "kol": 25,
-   "gap": 5,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -5433,10 +5405,40 @@
    "cost_side": 0.03,
    "smart": 117,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T19:25:33+07:00",
+   "kind": "sell",
+   "mint": "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump",
+   "sym": "VEIL",
+   "price": 0.0004602,
+   "entry": 0.0004684,
+   "usd": 0.119,
+   "pnl": -0.0097,
+   "why": "ครบ 3 ชม. (-1.8%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 79,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-19T19:27:40+07:00",
+   "kind": "sell",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.0033243322900579192,
+   "entry": 0.003626,
+   "usd": 0.1018,
+   "pnl": -0.0162,
+   "why": "stop -8.3%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 323,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795090856.5945735,
+ "rank_t": 1795091132.7554126,
  "halted": "ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-19T19:40:49+07:00"
 }

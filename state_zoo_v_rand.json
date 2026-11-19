@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.762326542663125,
- "cash": 5.541852454623199,
+ "cash": 8.065392815047788,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 377.80029574496876,
    "entry": 0.007582,
-   "last": 0.007359,
+   "last": 0.007538,
    "peak": 0.007902,
    "cost": 2.9524653085326253,
    "opened": "2026-11-19T17:27:42+07:00",
@@ -21,7 +21,7 @@
    "sym": "STONK",
    "qty": 68.7281987488812,
    "entry": 0.04159,
-   "last": 0.0417,
+   "last": 0.04156,
    "peak": 0.04185,
    "cost": 2.9462026241661197,
    "opened": "2026-11-19T18:35:20+07:00",
@@ -29,20 +29,6 @@
    "smart": 1000,
    "kol": 174,
    "gap": 0,
-   "miss": 0
-  },
-  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
-   "sym": "GTA6",
-   "qty": 782.428311663328,
-   "entry": 0.003626,
-   "last": 0.0035847302428266936,
-   "peak": 0.004016,
-   "cost": 2.9242270233881955,
-   "opened": "2026-11-19T18:39:52+07:00",
-   "zoo": "v_rand",
-   "smart": 323,
-   "kol": 25,
-   "gap": 8,
    "miss": 0
   }
  },
@@ -122,8 +108,23 @@
    "cost_side": 0.03,
    "smart": 659,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T19:27:40+07:00",
+   "kind": "sell",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.0033243322900579192,
+   "entry": 0.003626,
+   "usd": 2.5235,
+   "pnl": -0.4007,
+   "why": "stop -8.3%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 323,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ทดสอบ veto: กฎ + ปัดตกแบบสุ่มในอัตราเดียวกับ Grok",
- "rank_t": 1795090856.5945735
+ "rank_t": 1795091132.7554126
 }
