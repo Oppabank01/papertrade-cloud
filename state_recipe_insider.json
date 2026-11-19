@@ -1,8 +1,22 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.6097283803633274,
- "pos": {},
+ "cash": 0.48778270429066195,
+ "pos": {
+  "Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump": {
+   "sym": "CATMARIO",
+   "qty": 263.2073302017799,
+   "entry": 0.0004495,
+   "last": 0.0004495,
+   "peak": 0.0004495,
+   "cost": 0.12194567607266549,
+   "opened": "2026-11-19T23:51:21+07:00",
+   "smart": 161,
+   "kol": 9,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -1092,8 +1106,21 @@
    "cost_side": 0.03,
    "smart": 7,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T23:51:21+07:00",
+   "kind": "buy",
+   "mint": "Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump",
+   "sym": "CATMARIO",
+   "price": 0.0004495,
+   "jup": 0.00044577472674063877,
+   "usd": 0.1219,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 161,
+   "kol": 9
   }
  ],
  "label": "สูตร x_insider4 (คู่ใหม่ + top trader)",
- "rank_t": 1795106793.3869374
+ "rank_t": 1795107070.9859307
 }

@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.326609302394281,
+ "cash": 1.162993788140306,
  "pos": {
   "34As1e1Kop9zBvu5e84kjg452Uigq8krcoGEJiWRpump": {
    "sym": "UHI",
    "qty": 180.5460276234645,
    "entry": 0.0008876,
-   "last": 0.0008898,
+   "last": 0.0008889,
    "peak": 0.0008938,
    "cost": 0.16517486509852308,
    "opened": "2026-11-19T23:15:01+07:00",
@@ -21,13 +21,27 @@
    "sym": "DCTY",
    "qty": 11.517850825731045,
    "entry": 0.01392,
-   "last": 0.01338,
+   "last": 0.013478681209590039,
    "peak": 0.01394,
    "cost": 0.16525302359737803,
    "opened": "2026-11-19T23:42:25+07:00",
    "zoo": "w_pause_scalp",
    "smart": 679,
    "kol": 64,
+   "gap": 1,
+   "miss": 0
+  },
+  "EdhTCqUxXRWQcUd5Fonyz9rapHAB6mABAuVkmPrtpump": {
+   "sym": "UNITY",
+   "qty": 187.25937469530083,
+   "entry": 0.0008477,
+   "last": 0.0007647,
+   "peak": 0.0008518,
+   "cost": 0.163615514253975,
+   "opened": "2026-11-19T23:51:56+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 32,
+   "kol": 20,
    "gap": 0,
    "miss": 0
   }
@@ -7799,8 +7813,22 @@
    "zoo": "w_pause_scalp",
    "smart": 679,
    "kol": 64
+  },
+  {
+   "t": "2026-11-19T23:51:56+07:00",
+   "kind": "buy",
+   "mint": "EdhTCqUxXRWQcUd5Fonyz9rapHAB6mABAuVkmPrtpump",
+   "sym": "UNITY",
+   "price": 0.0008477,
+   "jup": 0.0008490634667890093,
+   "usd": 0.1636,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 32,
+   "kol": 20
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795106793.3869374
+ "rank_t": 1795107070.9859307
 }
