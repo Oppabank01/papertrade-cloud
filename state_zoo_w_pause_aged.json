@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.14225965454069833,
+ "cash": 0.2679420601019276,
  "pos": {
   "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
    "sym": "Max",
    "qty": 191.8900887058165,
    "entry": 0.0007918,
-   "last": 0.0008483,
+   "last": 0.0008398,
    "peak": 0.0008756,
    "cost": 0.15660541356139507,
    "opened": "2026-11-19T09:15:59+07:00",
    "zoo": "w_pause_aged",
    "smart": 464,
    "kol": 42,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": {
    "sym": "BRUH",
    "qty": 35.30444159217176,
    "entry": 0.004316,
-   "last": 0.004208,
+   "last": 0.004199,
    "peak": 0.004358,
    "cost": 0.15705418461328938,
    "opened": "2026-11-19T09:44:40+07:00",
@@ -31,25 +31,11 @@
    "gap": 0,
    "miss": 0
   },
-  "FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": {
-   "sym": ":3",
-   "qty": 297.37352451931105,
-   "entry": 0.0004823,
-   "last": 0.0004837,
-   "peak": 0.0004877,
-   "cost": 0.14782854140967194,
-   "opened": "2026-11-19T10:23:43+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 167,
-   "kol": 12,
-   "gap": 0,
-   "miss": 0
-  },
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 20.19325367068827,
    "entry": 0.007087,
-   "last": 0.007305,
+   "last": 0.007333,
    "peak": 0.00739,
    "cost": 0.14750524506716944,
    "opened": "2026-11-19T10:32:03+07:00",
@@ -5045,8 +5031,23 @@
    "zoo": "w_pause_aged",
    "smart": 736,
    "kol": 70
+  },
+  {
+   "t": "2026-11-19T11:02:23+07:00",
+   "kind": "sell",
+   "mint": "FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump",
+   "sym": ":3",
+   "price": 0.00043562311280762213,
+   "entry": 0.0004823,
+   "usd": 0.1257,
+   "pnl": -0.0221,
+   "why": "stop -9.7%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 167,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795060465.1843917
+ "rank_t": 1795060748.8178122
 }
