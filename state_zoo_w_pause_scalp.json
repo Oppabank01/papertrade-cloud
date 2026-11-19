@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.4317991947911395,
+ "cash": 1.5965282640016143,
  "pos": {
-  "HgTGdc29D5bDMrDvsCLnorxz899VyDj7ZN7FPa6vpump": {
-   "sym": "VEIL",
-   "qty": 625.1427639780134,
-   "entry": 0.0002995,
-   "last": 0.0002679,
-   "peak": 0.0003145,
-   "cost": 0.1929810944252886,
-   "opened": "2026-11-19T14:45:49+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 233,
-   "kol": 16,
-   "gap": 0,
-   "miss": 0
-  },
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": {
    "sym": "VEIL",
    "qty": 381.5533473703253,
@@ -28,7 +14,7 @@
    "zoo": "w_pause_scalp",
    "smart": 79,
    "kol": 5,
-   "gap": 1,
+   "gap": 13,
    "miss": 0
   }
  },
@@ -7499,10 +7485,25 @@
    "cost_side": 0.03,
    "smart": 450,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T16:45:58+07:00",
+   "kind": "sell",
+   "mint": "HgTGdc29D5bDMrDvsCLnorxz899VyDj7ZN7FPa6vpump",
+   "sym": "VEIL",
+   "price": 0.0002716,
+   "entry": 0.0002995,
+   "usd": 0.1647,
+   "pnl": -0.0283,
+   "why": "ครบ 2 ชม. (-9.3%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 233,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795081073.2365844,
+ "rank_t": 1795081356.7613177,
  "halted": "ราคา VEIL สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-19T17:31:52+07:00"
 }
