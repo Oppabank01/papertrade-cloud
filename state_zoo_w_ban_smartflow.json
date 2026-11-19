@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.0,
+ "cash": 0.2623486402122637,
  "pos": {
   "2pkr6bQnMP8jAAqFKW7orZHA783YhWaky3hZK8EUpump": {
    "sym": "AICoin",
@@ -35,28 +35,14 @@
    "sym": "Macca",
    "qty": 556.4080927535931,
    "entry": 0.0008119,
-   "last": 0.0008279612513044083,
+   "last": 0.0008488,
    "peak": 0.0009667439811580598,
    "cost": 0.4656233049955084,
    "opened": "2026-11-19T06:55:07+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 182,
    "kol": 12,
-   "gap": 3,
-   "miss": 0
-  },
-  "7qgvmEdQSp5xhAss5efBRgCgywe1PRGMgb9ZAJsBpump": {
-   "sym": "NASDUCK",
-   "qty": 2054.1603853472784,
-   "entry": 9.485e-05,
-   "last": 0.0001640211903354292,
-   "peak": 0.0001758,
-   "cost": 0.20082159611439843,
-   "opened": "2026-11-19T07:09:04+07:00",
-   "zoo": "w_ban_smartflow",
-   "smart": 39,
-   "kol": 3,
-   "gap": 9,
+   "gap": 12,
    "miss": 0
   }
  },
@@ -2949,10 +2935,25 @@
    "zoo": "w_ban_smartflow",
    "smart": 39,
    "kol": 3
+  },
+  {
+   "t": "2026-11-19T07:17:43+07:00",
+   "kind": "sell",
+   "mint": "7qgvmEdQSp5xhAss5efBRgCgywe1PRGMgb9ZAJsBpump",
+   "sym": "NASDUCK",
+   "price": 0.0001316385826735452,
+   "entry": 9.485e-05,
+   "usd": 0.2623,
+   "pnl": 0.0615,
+   "why": "trailing จากยอด +85% (+38.8%)",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 39,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795047145.9174113,
+ "rank_t": 1795047422.9158316,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
