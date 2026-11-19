@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.5415348803715865,
+ "cash": 0.36489293701632275,
  "pos": {
   "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
    "sym": "CRIME",
    "qty": 50.22592781500942,
    "entry": 0.003503,
-   "last": 0.003403,
+   "last": 0.003397,
    "peak": 0.003518,
    "cost": 0.18134552168210472,
    "opened": "2026-11-19T06:08:05+07:00",
@@ -21,14 +21,28 @@
    "sym": "JOB",
    "qty": 62.59384312692627,
    "entry": 0.002766,
-   "last": 0.00269,
+   "last": 0.0026760351778152697,
    "peak": 0.002807,
    "cost": 0.1784524531942672,
    "opened": "2026-11-19T06:31:58+07:00",
    "zoo": "w_pause_aged",
    "smart": 37,
    "kol": 1,
-   "gap": 0,
+   "gap": 2,
+   "miss": 0
+  },
+  "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
+   "sym": "NIO",
+   "qty": 107.24531504585535,
+   "entry": 0.001598,
+   "last": 0.0015907483265324236,
+   "peak": 0.001598,
+   "cost": 0.1766419433552637,
+   "opened": "2026-11-19T07:13:14+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 416,
+   "kol": 34,
+   "gap": 9,
    "miss": 0
   }
  },
@@ -4810,8 +4824,22 @@
    "zoo": "w_pause_aged",
    "smart": 37,
    "kol": 1
+  },
+  {
+   "t": "2026-11-19T07:13:14+07:00",
+   "kind": "buy",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "price": 0.001598,
+   "jup": 0.0015900200772126184,
+   "usd": 0.1766,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 416,
+   "kol": 34
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795046867.843926
+ "rank_t": 1795047145.9174113
 }
