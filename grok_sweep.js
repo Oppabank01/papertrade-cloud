@@ -1,7 +1,7 @@
 // One CDP session on the background Grok Bot tab (Mac only, read-only): reload, emulate focus, then wheel down with a tiny
 // screenshot per step (a hidden tab draws no frames, so X's scroll loader never fires without it) until the newest message
 // is loaded. Prints {key: text} of every message seen. Used by grokscout.records().
-//   node grok_sweep.js <tab ws url> <PANE js> <reload 0|1>
+//   node grok_sweep.js <tab ws url> <PANE js> <reload 0|1> [message key to wheel up to first, for filling a hole]
 const ws = new WebSocket(process.argv[2]); let id = 0; const pend = {};
 const send = (method, params = {}) => new Promise(r => { const i = ++id; pend[i] = r; ws.send(JSON.stringify({ id: i, method, params })); });
 ws.onmessage = e => { const m = JSON.parse(e.data); if (m.id && pend[m.id]) { pend[m.id](m.result || m.error); delete pend[m.id]; } };
@@ -22,7 +22,13 @@ ws.onopen = async () => {
     if (!xy) await sleep(2000);
   }
   if (!xy) process.exit(3);
-  const got = {};
+  const got = {}, want = process.argv[5];
+  for (let i = 0; want && i < 80 && !(want in got); i++) {
+    for (const [k, v] of JSON.parse(await ev(ITEMS) || "[]")) got[k] = v;
+    await send("Input.dispatchMouseEvent", { type: "mouseWheel", x: xy[0], y: xy[1], deltaX: 0, deltaY: -1200 });
+    await frame();
+    await sleep(1000);
+  }
   let flat = 0;
   for (let i = 0; i < 120 && flat < 10; i++) {
     const n = Object.keys(got).length;
