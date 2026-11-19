@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.05888154599138763,
+ "cash": 0.11369345109047836,
  "pos": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 23.709177907847007,
    "entry": 0.002754,
-   "last": 0.002873,
-   "peak": 0.002873,
+   "last": 0.0028914053035234387,
+   "peak": 0.0028914053035234387,
    "cost": 0.06730063487756201,
    "opened": "2026-11-19T16:19:42+07:00",
    "zoo": "boosted",
    "smart": 727,
    "kol": 80,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "6zzzG49KX5nksnqfogs31dwoMYSHaJXkropKbv1QZVga": {
@@ -35,28 +35,14 @@
    "sym": "GTA6",
    "qty": 17.171430625080998,
    "entry": 0.003626,
-   "last": 0.003787,
+   "last": 0.003894,
    "peak": 0.00392,
    "cost": 0.06417605385131282,
    "opened": "2026-11-19T18:39:28+07:00",
    "zoo": "boosted",
    "smart": 323,
    "kol": 25,
-   "gap": 0,
-   "miss": 0
-  },
-  "7fZK84wYShNUXKJnBkfXkeu5h2edduNkZV3p2B2LBCgC": {
-   "sym": "APCY",
-   "qty": 657.8142051315247,
-   "entry": 9.31e-05,
-   "last": 0.00010334124070387048,
-   "peak": 0.0001072,
-   "cost": 0.06312358534090388,
-   "opened": "2026-11-19T18:48:19+07:00",
-   "zoo": "boosted",
-   "smart": 76,
-   "kol": 2,
-   "gap": 2,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -5999,8 +5985,23 @@
    "zoo": "boosted",
    "smart": 76,
    "kol": 2
+  },
+  {
+   "t": "2026-11-19T19:07:20+07:00",
+   "kind": "sell",
+   "mint": "7fZK84wYShNUXKJnBkfXkeu5h2edduNkZV3p2B2LBCgC",
+   "sym": "APCY",
+   "price": 8.588362742489396e-05,
+   "entry": 9.31e-05,
+   "usd": 0.0548,
+   "pnl": -0.0083,
+   "why": "trailing จากยอด +15% (-7.8%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 76,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1795089705.6856153
+ "rank_t": 1795089987.4180238
 }
