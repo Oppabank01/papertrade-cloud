@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.20708221377682365,
- "pos": {
-  "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": {
-   "sym": "DCTY",
-   "qty": 4.221552991501932,
-   "entry": 0.01331,
-   "last": 0.01335,
-   "peak": 0.01416,
-   "cost": 0.0579147292484959,
-   "opened": "2026-11-19T23:37:45+07:00",
-   "zoo": "w_ban_aged",
-   "smart": 679,
-   "kol": 64,
-   "gap": 2,
-   "miss": 0
-  }
- },
+ "cash": 0.25640993645653354,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-15T00:43:01+07:00",
@@ -5983,6 +5968,21 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "smart": 16,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-20T00:18:07+07:00",
+   "kind": "sell",
+   "mint": "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump",
+   "sym": "DCTY",
+   "price": 0.012043634035369557,
+   "entry": 0.01331,
+   "usd": 0.0493,
+   "pnl": -0.0086,
+   "why": "stop -9.5%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 679,
    "bundler": null
   }
  ],
