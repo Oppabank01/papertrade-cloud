@@ -1,20 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.4907112275690774,
+ "cash": 0.3687924945424118,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 16.31163347451619,
    "entry": 0.007552,
-   "last": 0.007288199416078202,
+   "last": 0.007361,
    "peak": 0.007844,
    "cost": 0.12696913626009715,
    "opened": "2026-11-19T17:27:14+07:00",
    "zoo": "holders",
    "smart": 746,
    "kol": 70,
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
+   "sym": "GATO",
+   "qty": 87.87931261699181,
+   "entry": 0.001346,
+   "last": 0.001346,
+   "peak": 0.001346,
+   "cost": 0.12191873302666562,
+   "opened": "2026-11-19T19:45:21+07:00",
+   "zoo": "holders",
+   "smart": 69,
+   "kol": 5,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -5413,8 +5427,22 @@
    "cost_side": 0.03,
    "smart": 117,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T19:45:21+07:00",
+   "kind": "buy",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "price": 0.001346,
+   "jup": 0.0013470183444896813,
+   "usd": 0.1219,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 69,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1795092014.0222201
+ "rank_t": 1795092300.1169267
 }
