@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.762326542663125,
- "cash": 7.963364863655297,
+ "cash": 10.676181468486888,
  "pos": {
-  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
-   "sym": "STONK",
-   "qty": 67.08593150826472,
-   "entry": 0.04188,
-   "last": 0.0416,
-   "peak": 0.04189,
-   "cost": 2.8958552994909574,
-   "opened": "2026-11-19T17:37:41+07:00",
-   "zoo": "v_rule",
-   "smart": 1000,
-   "kol": 174,
-   "gap": 0,
-   "miss": 0
-  },
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 954.8726605478109,
@@ -28,7 +14,7 @@
    "zoo": "v_rule",
    "smart": 727,
    "kol": 80,
-   "gap": 6,
+   "gap": 8,
    "miss": 0
   }
  },
@@ -152,9 +138,24 @@
    "cost_side": 0.03,
    "smart": 746,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T20:38:06+07:00",
+   "kind": "sell",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.04168,
+   "entry": 0.04188,
+   "usd": 2.7128,
+   "pnl": -0.183,
+   "why": "ครบ 3 ชม. (-0.5%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 1000,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ทดสอบ veto: กฎอย่างเดียว (pool 200k+ mcap 2M+ ขึ้น)",
- "rank_t": 1795095121.8991728,
+ "rank_t": 1795095402.4094346,
  "halted": "ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }
