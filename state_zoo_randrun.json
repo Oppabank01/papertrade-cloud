@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.42921667028263305,
+ "cash": 0.3743705993306584,
  "pos": {
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
@@ -17,18 +17,18 @@
    "gap": 0,
    "miss": 0
   },
-  "47HUoJ3EiL1h8kej8hEcUjFrxUkohNMSSbQHidPCpump": {
-   "sym": "LOOSY",
-   "qty": 3150.4771270333417,
-   "entry": 4.443e-05,
-   "last": 4.117e-05,
-   "peak": 4.443e-05,
-   "cost": 0.14427509663377797,
-   "opened": "2026-11-20T05:57:44+07:00",
+  "B7ncNzYdp71UxqmMQZFL8o2idEZdC1ix9W79J1t8pump": {
+   "sym": "Fiona",
+   "qty": 1791.6354711938359,
+   "entry": 7.636e-05,
+   "last": 7.68e-05,
+   "peak": 7.68e-05,
+   "cost": 0.1410114250467546,
+   "opened": "2026-11-20T06:11:46+07:00",
    "zoo": "randrun",
-   "smart": 51,
-   "kol": 2,
-   "gap": 1,
+   "smart": 134,
+   "kol": 4,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -2123,8 +2123,37 @@
    "zoo": "randrun",
    "smart": 51,
    "kol": 2
+  },
+  {
+   "t": "2026-11-20T06:11:46+07:00",
+   "kind": "buy",
+   "mint": "B7ncNzYdp71UxqmMQZFL8o2idEZdC1ix9W79J1t8pump",
+   "sym": "Fiona",
+   "price": 7.636e-05,
+   "jup": 7.671982505882119e-05,
+   "usd": 0.141,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "randrun",
+   "smart": 134,
+   "kol": 4
+  },
+  {
+   "t": "2026-11-20T06:11:48+07:00",
+   "kind": "sell",
+   "mint": "47HUoJ3EiL1h8kej8hEcUjFrxUkohNMSSbQHidPCpump",
+   "sym": "LOOSY",
+   "price": 2.819e-05,
+   "entry": 4.443e-05,
+   "usd": 0.0862,
+   "pnl": -0.0581,
+   "why": "stop -36.6%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 51,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1795129570.9397473
+ "rank_t": 1795129845.287549
 }
