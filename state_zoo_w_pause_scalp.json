@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.3878023788425473,
+ "cash": 1.2332737882045577,
  "pos": {
   "GpmmQBjXxoppbELykD2PGQ4wwVR74o5sSZXVW6hVpump": {
    "sym": "EYED",
@@ -15,6 +15,20 @@
    "smart": 34,
    "kol": 3,
    "gap": 0,
+   "miss": 0
+  },
+  "7HgfXftRBBqsYtAEYcqjGLQrNJLL6Tww9ek4rE3Apump": {
+   "sym": "RKC",
+   "qty": 108.17001344659275,
+   "entry": 0.001386,
+   "last": 0.0013616621772776349,
+   "peak": 0.001386,
+   "cost": 0.15452859063798965,
+   "opened": "2026-11-20T06:02:32+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 130,
+   "kol": 41,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -8119,10 +8133,27 @@
    "cost_side": 0.03,
    "smart": 362,
    "bundler": null
+  },
+  {
+   "t": "2026-11-20T06:02:29+07:00",
+   "kind": "resume",
+   "why": "ราคา FLOAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-20T06:02:32+07:00",
+   "kind": "buy",
+   "mint": "7HgfXftRBBqsYtAEYcqjGLQrNJLL6Tww9ek4rE3Apump",
+   "sym": "RKC",
+   "price": 0.001386,
+   "jup": 0.001385247341556657,
+   "usd": 0.1545,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 130,
+   "kol": 41
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795129019.1918826,
- "halted": "ราคา FLOAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
- "halted_until": "2026-11-20T05:59:00+07:00"
+ "rank_t": 1795129295.7396498
 }
