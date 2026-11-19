@@ -1,28 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.343201233202519,
+ "cash": 1.4746116643564497,
  "pos": {
-  "34As1e1Kop9zBvu5e84kjg452Uigq8krcoGEJiWRpump": {
-   "sym": "UHI",
-   "qty": 180.5460276234645,
-   "entry": 0.0008876,
-   "last": 0.0008746,
-   "peak": 0.0008938,
-   "cost": 0.16517486509852308,
-   "opened": "2026-11-19T23:15:01+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 16,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
   "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": {
    "sym": "DCTY",
    "qty": 11.517850825731045,
    "entry": 0.01392,
-   "last": 0.01342,
-   "peak": 0.01394,
+   "last": 0.01403,
+   "peak": 0.01416,
    "cost": 0.16525302359737803,
    "opened": "2026-11-19T23:42:25+07:00",
    "zoo": "w_pause_scalp",
@@ -7828,8 +7814,23 @@
    "cost_side": 0.03,
    "smart": 32,
    "bundler": null
+  },
+  {
+   "t": "2026-11-20T00:07:38+07:00",
+   "kind": "sell",
+   "mint": "34As1e1Kop9zBvu5e84kjg452Uigq8krcoGEJiWRpump",
+   "sym": "UHI",
+   "price": 0.0007502061713119134,
+   "entry": 0.0008876,
+   "usd": 0.1314,
+   "pnl": -0.0338,
+   "why": "stop -15.5%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 16,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795107645.137462
+ "rank_t": 1795107931.9894722
 }
