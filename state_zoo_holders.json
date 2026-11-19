@@ -1,28 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.12203198650313847,
+ "cash": 0.23670737124399083,
  "pos": {
-  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
-   "sym": "GATO",
-   "qty": 87.87931261699181,
-   "entry": 0.001346,
-   "last": 0.001451,
-   "peak": 0.001585,
-   "cost": 0.12191873302666562,
-   "opened": "2026-11-19T19:45:21+07:00",
-   "zoo": "holders",
-   "smart": 69,
-   "kol": 5,
-   "gap": 0,
-   "miss": 0
-  },
   "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": {
    "sym": "TripleT",
    "qty": 65.05016812143269,
    "entry": 0.001805,
-   "last": 0.001845,
-   "peak": 0.001854,
+   "last": 0.001878,
+   "peak": 0.001878,
    "cost": 0.12102200933744178,
    "opened": "2026-11-19T20:09:05+07:00",
    "zoo": "holders",
@@ -35,8 +21,8 @@
    "sym": "CLAW",
    "qty": 15.223695749896304,
    "entry": 0.007657,
-   "last": 0.007676,
-   "peak": 0.007676,
+   "last": 0.007688,
+   "peak": 0.007688,
    "cost": 0.12014825639760462,
    "opened": "2026-11-19T20:23:21+07:00",
    "zoo": "holders",
@@ -49,14 +35,14 @@
    "sym": "HOGE",
    "qty": 97.04637413293028,
    "entry": 0.001239,
-   "last": 0.001239,
+   "last": 0.0012369758572938492,
    "peak": 0.001239,
    "cost": 0.12393368125201053,
    "opened": "2026-11-19T20:56:18+07:00",
    "zoo": "holders",
    "smart": 216,
    "kol": 12,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -5526,8 +5512,23 @@
    "zoo": "holders",
    "smart": 216,
    "kol": 12
+  },
+  {
+   "t": "2026-11-19T21:01:45+07:00",
+   "kind": "sell",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "price": 0.001345,
+   "entry": 0.001346,
+   "usd": 0.1147,
+   "pnl": -0.0072,
+   "why": "trailing จากยอด +18% (-0.1%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 69,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1795096544.507513
+ "rank_t": 1795096838.6506336
 }
