@@ -30,19 +30,14 @@ NAMES = {1: "สุ่ม 1 ตัวจากกลุ่มเดียวก�
 RES = re.compile(r"RESULT S(\d) start=([\d.]+) end=([\d.]+) trades=(\d+) wins=(\d+)")
 
 
-EARLIER = ("ชั่วโมงแรก 16:00 อ่านได้ก่อนตัวอ่านพัง: S1 -7.7% S2 -2.0% S3 -2.8% S4 -2.8% S5-S7 ไม่มีไม้ (นับรวมในตารางแล้ว) | "
-           "ชั่วโมง 17-19 ข้อความหลุดจากหน้าแชทก่อนอ่าน ไม่มีข้อมูล (X เก็บแชทไว้ราว 25 นาที แก้เป็นเก็บสะสมแล้ว 19 พ.ย. 21:00)")
-EARLY = {1: -0.077, 2: -0.020, 3: -0.028, 4: -0.028, 5: 0.0, 6: 0.0, 7: 0.0}   # hour 16 RESULTs, from the 17:07 log
-
-
 def summary(text, checks):
-    res = {k: [v] for k, v in EARLY.items()}
+    res = {}
     for m in RES.finditer(text):
         res.setdefault(int(m[1]), []).append(float(m[3]) / float(m[2]) - 1)
     base = res.get(1, [])
     out = ["# Grok Bot ทดสอบท่าเหรียญมีม 7 บัญชีพร้อมกัน (19 พ.ย. 69 16:10-22:55, เงินปลอม $15 ต่อบัญชีต่อชั่วโมง)", "",
            f"อัปเดต {datetime.now():%H:%M} | รอบที่ Grok ตอบ NO DATA: {len(re.findall(r'NO DATA \d\d:\d\d', text))} | "
-           f"ไม้ที่ราคาตรวจไม่ผ่าน: {sum(v != 'OK' for v, _ in checks)} จาก {len(checks)}", "", EARLIER, "",
+           f"ไม้ที่ราคาตรวจไม่ผ่าน: {sum(v != 'OK' for v, _ in checks)} จาก {len(checks)}", "",
            "| ท่า | ชั่วโมงที่จบ | เฉลี่ยต่อชั่วโมง | เทียบสุ่ม S1 |", "|---|---|---|---|"]
     for k, name in NAMES.items():
         r = res.get(k, [])

@@ -58,7 +58,6 @@ def expert_log(text):
     eq = f"{float(led[-1][2]) / 50 - 1:+.1%} (equity ${led[-1][2]} at {led[-1][0]})" if led else "ยังไม่มีรายงาน"
     return (f"# Grok Bot คุมเองทั้งหมด (19-20 พ.ย. 69, เงินปลอม $50, Grok ตัดสินใจเองจากข่าว X และกราฟ)\n\n"
             f"ผลตามที่ Grok รายงาน: {eq} | รอบที่รายงาน {len(led)} | ไม้ที่ราคาตรวจไม่ผ่าน {sum(not r.startswith('- OK') for r in rows)} จาก {len(rows)}\n\n"
-            "ไม้ช่วงก่อน 20:25 หายจากหน้าแชทก่อนอ่าน (X เก็บแชทไว้ราว 25 นาที) ตัวเลข equity ยังถูกเพราะ Grok รายงานยอดรวมทุกรอบ\n\n"
             "## ไม้ทั้งหมด พร้อมผลตรวจราคา GeckoTerminal\n\n" + "\n".join(rows) + "\n")
 
 
