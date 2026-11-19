@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.6177618499375501,
- "pos": {},
+ "cash": 1.479807520449785,
+ "pos": {
+  "Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump": {
+   "sym": "CATMARIO",
+   "qty": 450.84277736096783,
+   "entry": 0.0003471,
+   "last": 0.0003203,
+   "peak": 0.0003471,
+   "cost": 0.16129409196247366,
+   "opened": "2026-11-20T02:09:28+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 186,
+   "kol": 11,
+   "gap": 1,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-15T00:43:00+07:00",
@@ -7916,8 +7931,51 @@
    "cost_side": 0.03,
    "smart": 199,
    "bundler": null
+  },
+  {
+   "t": "2026-11-20T02:09:28+07:00",
+   "kind": "buy",
+   "mint": "5k8yMkEzcekeufWvTk5zvuZ8xnx2PqNdxs86E9P2bvQf",
+   "sym": "AI",
+   "price": 0.0001419,
+   "jup": 0.00014317350682691422,
+   "usd": 0.1618,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 48,
+   "kol": 3
+  },
+  {
+   "t": "2026-11-20T02:09:28+07:00",
+   "kind": "buy",
+   "mint": "Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump",
+   "sym": "CATMARIO",
+   "price": 0.0003471,
+   "jup": 0.00034416064106209115,
+   "usd": 0.1613,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 186,
+   "kol": 11
+  },
+  {
+   "t": "2026-11-20T02:11:20+07:00",
+   "kind": "sell",
+   "mint": "5k8yMkEzcekeufWvTk5zvuZ8xnx2PqNdxs86E9P2bvQf",
+   "sym": "AI",
+   "price": 0.0001725,
+   "entry": 0.0001419,
+   "usd": 0.1851,
+   "pnl": 0.0233,
+   "why": "ถึงเป้า +21.6%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 48,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795115058.7121723
+ "rank_t": 1795115338.4060504
 }
