@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.4923525610500112,
+ "cash": 0.3276269870733888,
  "pos": {
   "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
    "sym": "CRIME",
@@ -21,13 +21,27 @@
    "sym": "NIO",
    "qty": 107.24531504585535,
    "entry": 0.001598,
-   "last": 0.001504,
+   "last": 0.0014929891958123216,
    "peak": 0.001599,
    "cost": 0.1766419433552637,
    "opened": "2026-11-19T07:13:14+07:00",
    "zoo": "w_pause_aged",
    "smart": 416,
    "kol": 34,
+   "gap": 1,
+   "miss": 0
+  },
+  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
+   "sym": "DacityCoin",
+   "qty": 176.9254421256715,
+   "entry": 0.0009033,
+   "last": 0.0008767,
+   "peak": 0.0009033,
+   "cost": 0.16472557397662244,
+   "opened": "2026-11-19T08:42:36+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 325,
+   "kol": 26,
    "gap": 0,
    "miss": 0
   }
@@ -4868,10 +4882,27 @@
    "cost_side": 0.03,
    "smart": 37,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T08:42:36+07:00",
+   "kind": "resume",
+   "why": "ราคา VTC สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-19T08:42:36+07:00",
+   "kind": "buy",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.0009033,
+   "jup": 0.0008962126998033946,
+   "usd": 0.1647,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 325,
+   "kol": 26
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795052230.9900997,
- "halted": "ราคา VTC สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
- "halted_until": "2026-11-19T08:42:24+07:00"
+ "rank_t": 1795052504.2538762
 }
