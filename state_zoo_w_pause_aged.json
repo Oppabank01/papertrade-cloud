@@ -1,33 +1,61 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.33764370564467905,
+ "cash": 0.11453792235294052,
  "pos": {
   "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": {
    "sym": "TripleT",
    "qty": 60.750035574542764,
    "entry": 0.001805,
-   "last": 0.001822,
+   "last": 0.001849,
    "peak": 0.001879,
    "cost": 0.1130218658132856,
    "opened": "2026-11-19T20:09:27+07:00",
    "zoo": "w_pause_aged",
    "smart": 612,
    "kol": 72,
-   "gap": 3,
+   "gap": 1,
    "miss": 0
   },
   "739dnZEG4yaBWFsY8L8ZwrfhGG6dhtCSercW8Umspump": {
    "sym": "CLAW",
    "qty": 14.18265497140263,
    "entry": 0.007657,
-   "last": 0.007619,
+   "last": 0.007628,
    "peak": 0.007729,
    "cost": 0.1119321677139043,
    "opened": "2026-11-19T20:23:41+07:00",
    "zoo": "w_pause_aged",
    "smart": 262,
    "kol": 30,
+   "gap": 0,
+   "miss": 0
+  },
+  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
+   "sym": "ANSEM",
+   "qty": 2.5932178866462663,
+   "entry": 0.04186,
+   "last": 0.04209,
+   "peak": 0.04209,
+   "cost": 0.11188631285818668,
+   "opened": "2026-11-19T21:44:38+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 1000,
+   "kol": 186,
+   "gap": 0,
+   "miss": 0
+  },
+  "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": {
+   "sym": "HOGE",
+   "qty": 97.56340887398916,
+   "entry": 0.001106,
+   "last": 0.001107,
+   "peak": 0.001117,
+   "cost": 0.11121947043355185,
+   "opened": "2026-11-19T21:44:40+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 217,
+   "kol": 12,
    "gap": 0,
    "miss": 0
   }
@@ -5502,8 +5530,36 @@
    "t": "2026-11-19T21:25:28+07:00",
    "kind": "resume",
    "why": "ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-19T21:44:38+07:00",
+   "kind": "buy",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.04186,
+   "jup": 0.04212067623268596,
+   "usd": 0.1119,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 1000,
+   "kol": 186
+  },
+  {
+   "t": "2026-11-19T21:44:40+07:00",
+   "kind": "buy",
+   "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+   "sym": "HOGE",
+   "price": 0.001106,
+   "jup": 0.0011139048075549504,
+   "usd": 0.1112,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 217,
+   "kol": 12
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795099125.5154672
+ "rank_t": 1795099397.6978998
 }
