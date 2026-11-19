@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.17562875533958433,
+ "cash": 0.11561956593562314,
  "pos": {
   "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
    "sym": "Dacity",
    "qty": 379.0198449752257,
    "entry": 0.0001606,
-   "last": 0.0001704,
+   "last": 0.000169,
    "peak": 0.0001746,
    "cost": 0.0627402464471462,
    "opened": "2026-11-19T19:12:04+07:00",
@@ -28,6 +28,20 @@
    "zoo": "boosted",
    "smart": 612,
    "kol": 72,
+   "gap": 0,
+   "miss": 0
+  },
+  "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": {
+   "sym": "HOGE",
+   "qty": 46.99024661801707,
+   "entry": 0.001239,
+   "last": 0.001239,
+   "peak": 0.001239,
+   "cost": 0.06000918940396119,
+   "opened": "2026-11-19T20:56:21+07:00",
+   "zoo": "boosted",
+   "smart": 216,
+   "kol": 12,
    "gap": 0,
    "miss": 0
   }
@@ -6059,8 +6073,22 @@
    "cost_side": 0.03,
    "smart": 323,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T20:56:21+07:00",
+   "kind": "buy",
+   "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+   "sym": "HOGE",
+   "price": 0.001239,
+   "jup": 0.0012365576454676178,
+   "usd": 0.06,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 216,
+   "kol": 12
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1795096253.6622355
+ "rank_t": 1795096544.507513
 }
