@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.19108091858633214,
+ "cash": 0.33863592949479593,
  "pos": {
   "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
    "sym": "CRIME",
    "qty": 50.22592781500942,
    "entry": 0.003503,
-   "last": 0.003353,
+   "last": 0.003341,
    "peak": 0.003518,
    "cost": 0.18134552168210472,
    "opened": "2026-11-19T06:08:05+07:00",
@@ -21,42 +21,28 @@
    "sym": "JOB",
    "qty": 62.59384312692627,
    "entry": 0.002766,
-   "last": 0.002587,
+   "last": 0.00262,
    "peak": 0.002807,
    "cost": 0.1784524531942672,
    "opened": "2026-11-19T06:31:58+07:00",
    "zoo": "w_pause_aged",
    "smart": 37,
    "kol": 1,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
    "qty": 107.24531504585535,
    "entry": 0.001598,
-   "last": 0.001577,
-   "peak": 0.001598,
+   "last": 0.00155606036286007,
+   "peak": 0.001599,
    "cost": 0.1766419433552637,
    "opened": "2026-11-19T07:13:14+07:00",
    "zoo": "w_pause_aged",
    "smart": 416,
    "kol": 34,
-   "gap": 5,
-   "miss": 0
-  },
-  "3tjPCXfx3KrgMY53yo7pa67D2QQZMbLTRaqQckJmpump": {
-   "sym": "VTC",
-   "qty": 189.30446820922415,
-   "entry": 0.0008908,
-   "last": 0.0008843,
-   "peak": 0.0009889,
-   "cost": 0.1738120184299906,
-   "opened": "2026-11-19T07:37:19+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 23,
-   "kol": 0,
-   "gap": 6,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -4866,10 +4852,25 @@
    "zoo": "w_pause_aged",
    "smart": 23,
    "kol": 0
+  },
+  {
+   "t": "2026-11-19T07:58:12+07:00",
+   "kind": "sell",
+   "mint": "3tjPCXfx3KrgMY53yo7pa67D2QQZMbLTRaqQckJmpump",
+   "sym": "VTC",
+   "price": 0.0008034,
+   "entry": 0.0008908,
+   "usd": 0.1476,
+   "pnl": -0.0263,
+   "why": "stop -9.8%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 23,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795049393.7471375,
+ "rank_t": 1795049673.641646,
  "halted": "ราคา VTC สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-19T08:42:24+07:00"
 }
