@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.5475978194179627,
+ "cash": 1.377424413535672,
  "pos": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
    "sym": "GTA6",
    "qty": 63.53513578109897,
    "entry": 0.002618,
-   "last": 0.002361,
+   "last": 0.002393,
    "peak": 0.002618,
    "cost": 0.17144401718709248,
    "opened": "2026-11-19T21:11:10+07:00",
    "zoo": "w_pause_scalp",
    "smart": 323,
    "kol": 25,
+   "gap": 0,
+   "miss": 0
+  },
+  "8ryYEFySsfXfQskxYmykyyA6pbNKjB4s9CfcffpQpump": {
+   "sym": "Buncoin",
+   "qty": 1255.5303299391533,
+   "entry": 0.0001315,
+   "last": 0.0001428,
+   "peak": 0.0001428,
+   "cost": 0.1701734058822909,
+   "opened": "2026-11-19T21:21:16+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 108,
+   "kol": 6,
    "gap": 0,
    "miss": 0
   }
@@ -7655,8 +7669,22 @@
    "cost_side": 0.03,
    "smart": 100,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T21:21:16+07:00",
+   "kind": "buy",
+   "mint": "8ryYEFySsfXfQskxYmykyyA6pbNKjB4s9CfcffpQpump",
+   "sym": "Buncoin",
+   "price": 0.0001315,
+   "jup": 0.00013086790814733279,
+   "usd": 0.1702,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 108,
+   "kol": 6
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795097703.7805808
+ "rank_t": 1795097983.4730325
 }
