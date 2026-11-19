@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.19578704239290995,
- "pos": {
-  "DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump": {
-   "sym": "jingyu",
-   "qty": 495.34054766476305,
-   "entry": 0.0001045,
-   "last": 0.0001063,
-   "peak": 0.0001189,
-   "cost": 0.05335300683464002,
-   "opened": "2026-11-19T22:12:43+07:00",
-   "zoo": "boosted",
-   "smart": 11,
-   "kol": 0,
-   "gap": 2,
-   "miss": 0
-  }
- },
+ "cash": 0.2419851400518826,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-14T00:42:01+07:00",
@@ -6205,8 +6190,23 @@
    "cost_side": 0.03,
    "smart": 612,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T23:42:16+07:00",
+   "kind": "sell",
+   "mint": "DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump",
+   "sym": "jingyu",
+   "price": 9.613e-05,
+   "entry": 0.0001045,
+   "usd": 0.0462,
+   "pnl": -0.0072,
+   "why": "stop -8.0%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 11,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1795106219.102876
+ "rank_t": 1795106501.0161693
 }

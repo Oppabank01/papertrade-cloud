@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.33790796241028287,
+ "cash": 0.22483279783238208,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 2.667529065558159,
    "entry": 0.0419,
-   "last": 0.04326,
+   "last": 0.04323,
    "peak": 0.04362,
    "cost": 0.11520250241897223,
    "opened": "2026-11-19T21:44:07+07:00",
@@ -29,6 +29,20 @@
    "smart": 3,
    "kol": 0,
    "gap": 0,
+   "miss": 0
+  },
+  "6MKD1NkLvWRqdbFtqmgACBwUV5o6GJpZry8HkNgzpump": {
+   "sym": "PIPI",
+   "qty": 222.93339701987267,
+   "entry": 0.0004921,
+   "last": 0.0004918802397060613,
+   "peak": 0.0004921,
+   "cost": 0.11307516457790079,
+   "opened": "2026-11-19T23:42:13+07:00",
+   "zoo": "holders",
+   "smart": 56,
+   "kol": 8,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -5586,8 +5600,22 @@
    "zoo": "holders",
    "smart": 3,
    "kol": 0
+  },
+  {
+   "t": "2026-11-19T23:42:13+07:00",
+   "kind": "buy",
+   "mint": "6MKD1NkLvWRqdbFtqmgACBwUV5o6GJpZry8HkNgzpump",
+   "sym": "PIPI",
+   "price": 0.0004921,
+   "jup": 0.0004918802397060613,
+   "usd": 0.1131,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 56,
+   "kol": 8
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1795106219.102876
+ "rank_t": 1795106501.0161693
 }
