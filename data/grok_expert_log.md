@@ -2,24 +2,25 @@
 
 ## Meme expert (S8, 19 พ.ย. 17:20 ถึง 20 พ.ย.)
 
-ผลตามที่ Grok รายงาน: +12.3% (equity $56.17 at 22:11) | รอบที่รายงาน 56 | ไม้ที่ราคาตรวจไม่ผ่าน 1 จาก 12 | เหรียญที่ดูแต่ไม่ซื้อ (SEEN) 29 บรรทัด
+ผลตามที่ Grok รายงาน: +12.3% (equity $56.17 at 22:16) | รอบที่รายงาน 57 | ไม้ที่ราคาตรวจไม่ผ่าน 0 จาก 12 | เหรียญที่ดูแต่ไม่ซื้อ (SEEN) 33 บรรทัด
 
-- OK 17:29 BUY DCTY px=0.01282 | range 0.01251..0.01372 outside by +0.0% | vs close +0.4% | 1h change then +11% | liq now $504,936
-- OK 17:49 SELL DCTY px=0.01551 | range 0.01314..0.01648 outside by +0.0% | vs close -3.0% | 1h change then +31% | liq now $504,936
-- OK 19:10 SELL DCTY px=0.01742 | range 0.01683..0.01883 outside by +0.0% | vs close -1.3% | 1h change then -9% | liq now $504,936
-- OK 19:17 BUY GTASZN px=0.00183 | range 0.001497..0.002654 outside by +0.0% | vs close -3.2% | 1h change then +131% | liq now $58,265
-- OK 19:24 SELL GTASZN px=0.002376 | range 0.001858..0.003123 outside by +0.0% | vs close +1.8% | 1h change then +173% | liq now $58,265
-- OK 19:38 SELL GTASZN px=0.001454 | range 0.001256..0.002114 outside by +0.0% | vs close +3.0% | 1h change then +6% | liq now $58,265
-- OK 19:46 BUY Leonida px=0.001861 | range 0.001798..0.002072 outside by +0.0% | vs close -2.7% | 1h change then +22% | liq now $118,905
-- OK 19:56 SELL Leonida px=0.002198 | range 0.001863..0.002407 outside by +0.0% | vs close -4.7% | 1h change then +71% | liq now $118,905
-- OK 20:47 BUY DCTY px=0.02082 | range 0.01944..0.02116 outside by +0.0% | vs close +4.6% | 1h change then +12% | liq now $504,936
-- NO_CANDLES 20:59 SELL Leonida px=0.003087 | pool 6Ecx5L liq $118,905: no trades within +-5 min (illiquid or wrong time)
-- OK 21:35 SELL DCTY px=0.02018 | range 0.01938..0.02196 outside by +0.0% | vs close -3.1% | 1h change then +3% | liq now $504,936
-- OK 21:58 SELL Leonida px=0.002987 | range 0.002795..0.003039 outside by +0.0% | vs close +3.8% | 1h change then -8% | liq now $118,905
+- OK 17:29 BUY DCTY px=0.01282 | range 0.01251..0.01372 outside by +0.0% | vs close +0.4% | 1h change then +11% | liq now $498,382
+- OK 17:49 SELL DCTY px=0.01551 | range 0.01314..0.01648 outside by +0.0% | vs close -3.0% | 1h change then +31% | liq now $498,382
+- OK 19:10 SELL DCTY px=0.01742 | range 0.01683..0.01883 outside by +0.0% | vs close -1.3% | 1h change then -9% | liq now $498,382
+- OK 19:17 BUY GTASZN px=0.00183 | range 0.001497..0.002654 outside by +0.0% | vs close -3.2% | 1h change then +131% | liq now $59,261
+- OK 19:24 SELL GTASZN px=0.002376 | range 0.001858..0.003123 outside by +0.0% | vs close +1.8% | 1h change then +173% | liq now $59,261
+- OK 19:38 SELL GTASZN px=0.001454 | range 0.001256..0.002114 outside by +0.0% | vs close +3.0% | 1h change then +6% | liq now $59,261
+- OK 19:46 BUY Leonida px=0.001861 | range 0.001798..0.002072 outside by +0.0% | vs close -2.7% | 1h change then +22% | liq now $116,434
+- OK 19:56 SELL Leonida px=0.002198 | range 0.001863..0.002407 outside by +0.0% | vs close -4.7% | 1h change then +71% | liq now $116,434
+- OK 20:47 BUY DCTY px=0.02082 | range 0.01944..0.02116 outside by +0.0% | vs close +4.6% | 1h change then +12% | liq now $498,382
+- OK 20:59 SELL Leonida px=0.003087 | range 0.002723..0.003268 outside by +0.0% | vs close +5.5% | 1h change then +22% | liq now $116,434
+- OK 21:35 SELL DCTY px=0.02018 | range 0.01938..0.02196 outside by +0.0% | vs close -3.1% | 1h change then +3% | liq now $498,382
+- OK 21:58 SELL Leonida px=0.002987 | range 0.002795..0.003039 outside by +0.0% | vs close +3.8% | 1h change then -8% | liq now $116,434
 
 ## Meme expert 2 (S9 คำสั่งเดียวกับ S8 บัญชีแยก ไว้ดูว่าเป็นฝีมือหรือดวง เริ่ม 19 พ.ย. ราว 22:00)
 
-ผลตามที่ Grok รายงาน: +1.0% (equity $50.51 at 22:11) | รอบที่รายงาน 5 | ไม้ที่ราคาตรวจไม่ผ่าน 0 จาก 2 | เหรียญที่ดูแต่ไม่ซื้อ (SEEN) 22 บรรทัด
+ผลตามที่ Grok รายงาน: +0.9% (equity $50.45 at 22:16) | รอบที่รายงาน 6 | ไม้ที่ราคาตรวจไม่ผ่าน 0 จาก 3 | เหรียญที่ดูแต่ไม่ซื้อ (SEEN) 25 บรรทัด
 
-- OK 21:52 BUY ANTS px=0.007004 | range 0.006651..0.007355 outside by +0.0% | vs close -0.2% | 1h change then -18% | liq now $245,557
-- OK 21:52 BUY DIGS px=0.000455 | range 0.000432..0.0004585 outside by +0.0% | vs close +2.4% | 1h change then +4% | liq now $66,722
+- OK 21:52 BUY ANTS px=0.007004 | range 0.006651..0.007355 outside by +0.0% | vs close -0.2% | 1h change then -18% | liq now $233,770
+- OK 21:52 BUY DIGS px=0.000455 | range 0.000432..0.0004585 outside by +0.0% | vs close +2.4% | 1h change then +4% | liq now $66,748
+- OK 22:16 BUY HOGE px=0.00131 | range 0.001235..0.001453 outside by +0.0% | vs close -1.4% | 1h change then +18% | liq now $145,893
