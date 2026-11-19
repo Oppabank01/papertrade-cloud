@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.7771791969957706,
+ "cash": 1.342644700850569,
  "pos": {
   "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": {
    "sym": "BRUH",
    "qty": 49.90787318273811,
    "entry": 0.004316,
-   "last": 0.004201,
+   "last": 0.0040977491611107544,
    "peak": 0.004358,
    "cost": 0.2220185329382578,
    "opened": "2026-11-19T09:44:30+07:00",
    "zoo": "w_pause_scalp",
    "smart": 3,
    "kol": 0,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   },
   "ERDrmaqsoeLdsCMMpBKkRM4LV1mzTA2KHrVxKLpqpump": {
    "sym": "AudaCity",
    "qty": 1017.5708067630885,
    "entry": 0.0002107,
-   "last": 0.0001947,
+   "last": 0.0001871,
    "peak": 0.0002121,
    "cost": 0.2209875994485495,
    "opened": "2026-11-19T10:08:26+07:00",
@@ -29,6 +29,34 @@
    "smart": 76,
    "kol": 8,
    "gap": 0,
+   "miss": 0
+  },
+  "43Z5f8GboUfc6M6wtaGGtFciEhLXixJEwQKv8wBUpump": {
+   "sym": "BUNC",
+   "qty": 1215.3554050574926,
+   "entry": 0.0001737,
+   "last": 0.00015255485537697864,
+   "peak": 0.0001961,
+   "cost": 0.2175914593470279,
+   "opened": "2026-11-19T10:17:55+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 56,
+   "kol": 2,
+   "gap": 9,
+   "miss": 0
+  },
+  "5tAB1DMgrsJKgaKcfCfj1RzumuqovQP1LuxzQ7thpump": {
+   "sym": "CDOG",
+   "qty": 1828.6545117427293,
+   "entry": 0.0001151,
+   "last": 0.0001112,
+   "peak": 0.0001151,
+   "cost": 0.21694303679817373,
+   "opened": "2026-11-19T10:17:55+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 45,
+   "kol": 4,
+   "gap": 8,
    "miss": 0
   }
  },
@@ -6972,8 +7000,36 @@
    "zoo": "w_pause_scalp",
    "smart": 76,
    "kol": 8
+  },
+  {
+   "t": "2026-11-19T10:17:55+07:00",
+   "kind": "buy",
+   "mint": "43Z5f8GboUfc6M6wtaGGtFciEhLXixJEwQKv8wBUpump",
+   "sym": "BUNC",
+   "price": 0.0001737,
+   "jup": 0.00017226745895696776,
+   "usd": 0.2176,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 56,
+   "kol": 2
+  },
+  {
+   "t": "2026-11-19T10:17:55+07:00",
+   "kind": "buy",
+   "mint": "5tAB1DMgrsJKgaKcfCfj1RzumuqovQP1LuxzQ7thpump",
+   "sym": "CDOG",
+   "price": 0.0001151,
+   "jup": 0.00011581813553238316,
+   "usd": 0.2169,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 45,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795057918.9474232
+ "rank_t": 1795058206.8378391
 }
