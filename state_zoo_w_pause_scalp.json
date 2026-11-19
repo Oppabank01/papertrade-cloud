@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.7972198448458019,
+ "cash": 1.9736987064769536,
  "pos": {
-  "A4jXnWk1rDRDth6HmDASi45c89n1AguTHivAQPTVpump": {
-   "sym": "GTASZN",
-   "qty": 108.55838446500282,
-   "entry": 0.002007,
-   "last": 0.0019073634944494656,
-   "peak": 0.002134,
-   "cost": 0.22456882871702813,
-   "opened": "2026-11-19T08:10:05+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 4,
-   "kol": 0,
-   "gap": 3,
-   "miss": 0
-  },
   "7FxGzQZjdxL87R9hTvtghmtn1vCUc79oVvKiV31azZrQ": {
    "sym": "NEVERDOOM",
    "qty": 2345.868305852585,
    "entry": 9.26e-05,
-   "last": 9.454e-05,
-   "peak": 9.454e-05,
+   "last": 9.497e-05,
+   "peak": 9.497e-05,
    "cost": 0.22389961360745142,
    "opened": "2026-11-19T08:10:05+07:00",
    "zoo": "w_pause_scalp",
    "smart": 41,
    "kol": 3,
-   "gap": 1,
+   "gap": 14,
    "miss": 0
   }
  },
@@ -6909,8 +6895,23 @@
    "zoo": "w_pause_scalp",
    "smart": 41,
    "kol": 3
+  },
+  {
+   "t": "2026-11-19T08:15:22+07:00",
+   "kind": "sell",
+   "mint": "A4jXnWk1rDRDth6HmDASi45c89n1AguTHivAQPTVpump",
+   "sym": "GTASZN",
+   "price": 0.001675591126431413,
+   "entry": 0.002007,
+   "usd": 0.1765,
+   "pnl": -0.0481,
+   "why": "stop -16.5%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 4,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795050531.7437115
+ "rank_t": 1795050818.3052845
 }
