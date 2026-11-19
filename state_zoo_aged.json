@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.12938265254010478,
+ "cash": 0.06576022812067216,
  "pos": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": {
    "sym": "VEIL",
    "qty": 139.0188571857551,
    "entry": 0.0004684,
-   "last": 0.0004646,
+   "last": 0.0004602,
    "peak": 0.000492,
    "cost": 0.06711650454113346,
    "opened": "2026-11-19T16:24:29+07:00",
@@ -21,7 +21,7 @@
    "sym": "JOB",
    "qty": 23.013617052907843,
    "entry": 0.002725,
-   "last": 0.00281,
+   "last": 0.002784,
    "peak": 0.002924,
    "cost": 0.06463832866334145,
    "opened": "2026-11-19T17:32:41+07:00",
@@ -42,6 +42,20 @@
    "zoo": "aged",
    "smart": 746,
    "kol": 70,
+   "gap": 0,
+   "miss": 0
+  },
+  "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
+   "sym": "WASTED",
+   "qty": 66.15913844773155,
+   "entry": 0.000933,
+   "last": 0.000933,
+   "peak": 0.000933,
+   "cost": 0.06362242441943262,
+   "opened": "2026-11-19T19:22:06+07:00",
+   "zoo": "aged",
+   "smart": 117,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -5976,8 +5990,22 @@
    "cost_side": 0.03,
    "smart": 3,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T19:22:06+07:00",
+   "kind": "buy",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "price": 0.000933,
+   "jup": 0.000932333614572893,
+   "usd": 0.0636,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "aged",
+   "smart": 117,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุเกิน 1 วัน ยังมีคนเล่น",
- "rank_t": 1795090566.8066936
+ "rank_t": 1795090856.5945735
 }
