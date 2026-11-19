@@ -2,7 +2,7 @@
 
 ## Meme expert (S8, 19 พ.ย. 17:20 ถึง 20 พ.ย.)
 
-ผลตามที่ Grok รายงาน: +8.9% (equity $54.47 at 00:32) | รอบที่รายงาน 84 | ไม้ที่ราคาตรวจไม่ผ่าน 0 จาก 17 | เหรียญที่ดูแต่ไม่ซื้อ (SEEN) 136 บรรทัด
+ผลตามที่ Grok รายงาน: +9.1% (equity $54.56 at 00:38) | รอบที่รายงาน 85 | ไม้ที่ราคาตรวจไม่ผ่าน 0 จาก 17 | เหรียญที่ดูแต่ไม่ซื้อ (SEEN) 138 บรรทัด
 
 - OK 17:29 BUY DCTY px=0.01282 | range 0.01251..0.01372 outside by +0.0% | vs close +0.4% | 1h change then +11% | liq now $504,394
 - OK 17:49 SELL DCTY px=0.01551 | range 0.01314..0.01648 outside by +0.0% | vs close -3.0% | 1h change then +31% | liq now $504,394
@@ -24,7 +24,7 @@
 
 ## Meme expert 2 (S9 คำสั่งเดียวกับ S8 บัญชีแยก ไว้ดูว่าเป็นฝีมือหรือดวง เริ่ม 19 พ.ย. ราว 22:00)
 
-ผลตามที่ Grok รายงาน: -8.6% (equity $45.70 at 00:37) | รอบที่รายงาน 33 | ไม้ที่ราคาตรวจไม่ผ่าน 1 จาก 13 | เหรียญที่ดูแต่ไม่ซื้อ (SEEN) 113 บรรทัด
+ผลตามที่ Grok รายงาน: -6.6% (equity $46.70 at 00:41) | รอบที่รายงาน 34 | ไม้ที่ราคาตรวจไม่ผ่าน 1 จาก 14 | เหรียญที่ดูแต่ไม่ซื้อ (SEEN) 117 บรรทัด
 
 - OK 21:52 BUY ANTS px=0.007004 | range 0.006651..0.007355 outside by +0.0% | vs close -0.2% | 1h change then -18% | liq now $225,918
 - OK 21:52 BUY DIGS px=0.000455 | range 0.000432..0.0004585 outside by +0.0% | vs close +2.4% | 1h change then +4% | liq now $67,554
@@ -39,3 +39,4 @@
 - OK 00:18 BUY SC px=0.0009892 | range 0.0009222..0.001268 outside by +0.0% | vs close -18.1% | 1h change then +99% | liq now $73,263
 - OK 00:30 SELL SC px=0.0006322 | range 0.0004888..0.00107 outside by +0.0% | vs close +3.7% | 1h change then +30% | liq now $56,829
 - OK 00:37 BUY GTE px=0.001475 | range 0.001078..0.002045 outside by +0.0% | vs close -11.5% | 1h change then ? | liq now $91,376
+- OK 00:41 SELL GTE px=0.001978 | range 0.001027..0.002458 outside by +0.0% | vs close -3.6% | 1h change then ? | liq now $81,387
