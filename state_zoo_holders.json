@@ -1,41 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.09683596242841197,
+ "cash": 0.1788436928200981,
  "pos": {
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
    "sym": "FLOAT",
    "qty": 76.46705606972586,
    "entry": 0.001218,
-   "last": 0.001512,
+   "last": 0.001454738416997982,
    "peak": 0.001635,
    "cost": 0.09599760285809739,
    "opened": "2026-11-20T03:30:14+07:00",
    "zoo": "holders",
    "smart": 362,
    "kol": 33,
-   "gap": 0,
-   "miss": 0
-  },
-  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
-   "sym": "CLAUDIA",
-   "qty": 15.000288159776446,
-   "entry": 0.006172,
-   "last": 0.00579,
-   "peak": 0.006172,
-   "cost": 0.09542545714506312,
-   "opened": "2026-11-20T03:30:14+07:00",
-   "zoo": "holders",
-   "smart": 523,
-   "kol": 34,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 5.486400393082701,
    "entry": 0.01667,
-   "last": 0.01618,
+   "last": 0.01661,
    "peak": 0.01694,
    "cost": 0.09426746500998624,
    "opened": "2026-11-20T03:39:28+07:00",
@@ -49,14 +35,14 @@
    "sym": "BTC",
    "qty": 99.71229921842256,
    "entry": 0.0009483,
-   "last": 0.0011833532302159247,
-   "peak": 0.0011833532302159247,
+   "last": 0.001232,
+   "peak": 0.001232,
    "cost": 0.09746152684892817,
    "opened": "2026-11-20T04:14:05+07:00",
    "zoo": "holders",
    "smart": 802,
    "kol": 70,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -5816,8 +5802,23 @@
    "zoo": "holders",
    "smart": 802,
    "kol": 70
+  },
+  {
+   "t": "2026-11-20T04:56:17+07:00",
+   "kind": "sell",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.005635,
+   "entry": 0.006172,
+   "usd": 0.082,
+   "pnl": -0.0134,
+   "why": "stop -8.7%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 523,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1795125063.7341318
+ "rank_t": 1795125345.9240835
 }
