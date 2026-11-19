@@ -24,16 +24,12 @@ from pathlib import Path
 HERE = Path(__file__).parent
 sys.path.insert(0, str(HERE))           # run with python -I from agents.sh
 import grok_check  # noqa: E402
-from grokscout import chat_text  # noqa: E402
+from grokscout import ARCHIVE, by_day, records  # noqa: E402
 
 VETO, EXPERT = "“Meme veto”", "“Meme expert”"   # Grok confirmed both in one line: Created routines “Meme veto” and “Meme expert”
 QUEUE, ORDERS, STATS = HERE / "data" / "veto_queue.json", HERE / "data" / "orders_v_grok.json", HERE / "data" / "veto_stats.json"
 EXPLOG = HERE / "data" / "grok_expert_log.md"
-LINE = re.compile(r"VETO (c\d+) (APPROVE|REJECT) (\S+) reason=(.{0,160}?)(?=VETO |LEDGER|LTRADE|$)")
-
-
-def after(text, marker):
-    return text[text.rindex(marker):] if marker in text else ""
+LINE = re.compile(r"VETO (c\d+) (APPROVE|REJECT) (\S+) reason=(.{0,160}?)(?=VETO |LEDGER|LTRADE|\n|$)")
 
 
 def veto_files(text):
@@ -41,7 +37,7 @@ def veto_files(text):
     q = {x["id"]: x for x in (json.loads(QUEUE.read_text()) if QUEUE.exists() else [])}
     old = {o["id"]: o for o in (json.loads(ORDERS.read_text()) if ORDERS.exists() else [])}
     dec = {}
-    for m in LINE.finditer(after(text, VETO)):
+    for m in LINE.finditer(text):
         dec.setdefault(m[1], m)                 # first decision per candidate counts
     for i, m in dec.items():
         c = q.get(i)
@@ -53,22 +49,21 @@ def veto_files(text):
 
 
 def expert_log(text):
-    t = after(text, EXPERT)
-    led = re.findall(r"LEDGER S8 (\d\d:\d\d) cash=([\d.]+) equity=([\d.]+)", t)
-    day = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+    led = re.findall(r"LEDGER S8 (\d\d:\d\d) cash=([\d.]+) equity=([\d.]+)", text)
     rows = []
-    for tr in grok_check.parse(t, day, 7):
+    for tr in [x for day, seg in by_day(text) for x in grok_check.parse(seg, day, 7) if x["s"] == 8]:
         with redirect_stdout(io.StringIO()):
             v, why = grok_check.check(tr, 5, 3)
         rows.append(f"- {v} {tr['hm']} {tr['side']} {tr['sym']} px={tr['px']:.6g} | {why}")
     eq = f"{float(led[-1][2]) / 50 - 1:+.1%} (equity ${led[-1][2]} at {led[-1][0]})" if led else "ยังไม่มีรายงาน"
     return (f"# Grok Bot คุมเองทั้งหมด (19-20 พ.ย. 69, เงินปลอม $50, Grok ตัดสินใจเองจากข่าว X และกราฟ)\n\n"
             f"ผลตามที่ Grok รายงาน: {eq} | รอบที่รายงาน {len(led)} | ไม้ที่ราคาตรวจไม่ผ่าน {sum(not r.startswith('- OK') for r in rows)} จาก {len(rows)}\n\n"
+            "ไม้ช่วงก่อน 20:25 หายจากหน้าแชทก่อนอ่าน (X เก็บแชทไว้ราว 25 นาที) ตัวเลข equity ยังถูกเพราะ Grok รายงานยอดรวมทุกรอบ\n\n"
             "## ไม้ทั้งหมด พร้อมผลตรวจราคา GeckoTerminal\n\n" + "\n".join(rows) + "\n")
 
 
 def main(dry):
-    text = chat_text(VETO)
+    text = records()
     if text is None:
         return print("grokveto: Grok Bot tab not open or routine message not loaded")
     orders, stats = veto_files(text)
@@ -79,12 +74,12 @@ def main(dry):
     STATS.write_text(json.dumps(stats))
     EXPLOG.write_text(log)
     g = ["git", "-C", str(HERE)]
-    subprocess.run(g + ["add", str(ORDERS), str(STATS), str(EXPLOG)], check=True)
+    subprocess.run(g + ["add", str(ORDERS), str(STATS), str(EXPLOG), str(ARCHIVE)], check=True)
     if subprocess.run(g + ["diff", "--cached", "--quiet"]).returncode == 0:
         return
     subprocess.run(g + ["-c", "user.name=papertrade-bot", "-c", "user.email=papertrade-bot@users.noreply.github.com",
                         "commit", "-qm", f"grok veto {stats} + expert ledger from the Grok Bot chat"], check=True)
-    subprocess.run(g + ["pull", "-q", "--rebase"], check=True)
+    subprocess.run(g + ["pull", "-q", "--rebase", "--autostash"], check=True)
     subprocess.run(g + ["push", "-q"], check=True)
 
 

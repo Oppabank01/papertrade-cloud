@@ -12,7 +12,7 @@ import re
 import subprocess
 import sys
 import tempfile
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 HERE = Path(__file__).parent
@@ -28,10 +28,12 @@ CDP = ("const ws=new WebSocket(process.argv[1]);ws.onopen=()=>ws.send(JSON.strin
        "if(m.id===1){process.stdout.write(String(m.result?.result?.value??''));process.exit(0)}};setTimeout(()=>process.exit(2),20000)")
 
 
-def chat_text(start=None):
+def chat_text(start=None, js=TEXT_JS, size=3000):
     """Reload the background Grok Bot tab (it stops receiving messages otherwise) and return its text, or None."""
     import time
     import urllib.request
+    if LOCK.exists():
+        return None                     # a backfill is scrolling the tab; a reload would undo it
     tabs = json.load(urllib.request.urlopen("http://127.0.0.1:9222/json", timeout=5))
     tab = next((t for t in tabs if t.get("type") == "page" and CHAT in t.get("url", "")), None)
     if not tab:
@@ -39,12 +41,119 @@ def chat_text(start=None):
     run = lambda method, params: subprocess.run(["/opt/homebrew/bin/node", "-e", CDP, tab["webSocketDebuggerUrl"], method, json.dumps(params)],
                                                 capture_output=True, text=True, timeout=40)
     run("Page.reload", {})
-    for _ in range(12):                 # the chat pane loads well after the page; poll up to ~75 s for the routine message
+    last = None
+    for _ in range(12):                 # the chat pane loads well after the page; poll up to ~75 s, until it stops growing
         time.sleep(6)
-        r = run("Runtime.evaluate", {"expression": TEXT_JS, "returnByValue": True})
-        if r.returncode == 0 and (start or START) in r.stdout and len(r.stdout) > 3000:
-            return r.stdout
-    return None
+        r = run("Runtime.evaluate", {"expression": js, "returnByValue": True})
+        if r.returncode == 0 and (start or START) in r.stdout and len(r.stdout) > size:
+            if r.stdout == last:
+                return r.stdout
+            last = r.stdout
+    return last
+
+
+# X keeps only the last ~25 min of the bot chat in the page (scrolling does not load older messages, checked 19 Nov),
+# so the setup message drops out and anything not read in time is lost: every read is merged into an archive file.
+PANE_JS = ("(()=>{const a=[];const w=r=>{for(const e of r.querySelectorAll('*')){a.push(e);if(e.shadowRoot)w(e.shadowRoot)}};w(document);"
+           "const s=a.filter(e=>e.scrollHeight>e.clientHeight+200&&/(auto|scroll)/.test(getComputedStyle(e).overflowY))"
+           ".sort((x,y)=>y.scrollHeight-x.scrollHeight)[0];return s?s.textContent:''})()")
+ARCHIVE, LOCK = HERE / "data" / "grok_chat_archive.txt", HERE / ".grok_backfill.lock"   # same path for launchd and the shell
+REC = re.compile(r"(?=LEDGER S\d|LTRADE S\d|RESULT S\d|VETO c\d|SEEN S\d|NO DATA \d)")
+
+
+def merge(old, new):
+    """Append the records after their overlap with the archive tail; records can repeat (e.g. two equal RESULT lines), so no set."""
+    for k in range(min(len(old), len(new)), 0, -1):
+        if old[-k:] == new[:k]:
+            return old + new[k:]
+    return old + (["GAP (reader missed messages here)"] if old else []) + new
+
+
+START_DAY = datetime(2026, 11, 19)     # the archive began 19 Nov 2026 about 21:00
+
+
+def by_day(text):
+    """[(date, records)] split where LEDGER clock times wrap past midnight (records carry HH:MM only)."""
+    day, seg, out, prev = START_DAY, [], [], None
+    for line in text.splitlines():
+        m = re.match(r"LEDGER S\d (\d\d):(\d\d)", line)
+        if m:
+            t = int(m[1]) * 60 + int(m[2])
+            if prev is not None and t < prev - 720:
+                out.append((day, "\n".join(seg)))
+                seg, day = [], day + timedelta(days=1)
+            prev = t
+        seg.append(line)
+    return out + [(day, "\n".join(seg))]
+
+
+PANE = ("const a=[];const w=r=>{for(const e of r.querySelectorAll('*')){a.push(e);if(e.shadowRoot)w(e.shadowRoot)}};w(document);"
+        "const s=a.filter(e=>e.scrollHeight>e.clientHeight+200&&/(auto|scroll)/.test(getComputedStyle(e).overflowY)&&e.textContent.includes('LEDGER S'))"
+        ".sort((x,y)=>y.scrollHeight-x.scrollHeight)[0];")
+
+
+def backfill(marker="Created routine “Meme 1h test v2”", limit=400):
+    """Rebuild the archive from the chat history: wheel the message pane up until `marker` loads (older messages
+    load only on a real scroll over the pane), then step down to the bottom merging each view. Moves the visible tab."""
+    LOCK.touch()
+    try:
+        _backfill(marker, limit)
+    finally:
+        LOCK.unlink()
+
+
+def _backfill(marker, limit):
+    import time
+    import urllib.request
+    tab = next(t for t in json.load(urllib.request.urlopen("http://127.0.0.1:9222/json", timeout=5))
+               if t.get("type") == "page" and CHAT in t.get("url", ""))
+    run = lambda m, p: subprocess.run(["/opt/homebrew/bin/node", "-e", CDP, tab["webSocketDebuggerUrl"], m, json.dumps(p)],
+                                      capture_output=True, text=True, timeout=40).stdout
+    ev = lambda js: json.loads(run("Runtime.evaluate", {"expression": "(()=>{" + PANE + js + "})()", "returnByValue": True}) or "null")
+    for _ in range(15):                 # the pane appears well after the page loads
+        xy = ev("if(!s)return 'null';const r=s.getBoundingClientRect();return JSON.stringify([r.x+r.width/2,r.y+r.height/2])")
+        if xy:
+            break
+        time.sleep(5)
+    else:
+        return print("backfill: message pane not found")
+    x, y = xy
+    for _ in range(limit):              # older messages load on a wheel that scrolls up into the top, not at top=0 already
+        ev("s.scrollTop=400;return '1'")
+        for _ in range(3):
+            run("Input.dispatchMouseEvent", {"type": "mouseWheel", "x": x, "y": y, "deltaX": 0, "deltaY": -1500})
+            time.sleep(0.7)
+        time.sleep(2)
+        top, text = ev("return JSON.stringify([s.scrollTop,s.textContent])")
+        print("up", top, re.findall(r"LEDGER S\d (\d\d:\d\d)", text)[:1], flush=True)
+        if marker in text and top == 0:
+            break
+    else:
+        return print("backfill: marker never loaded")
+    out = []
+    while True:
+        top, bottom, text = ev("const t=s.textContent,p=s.scrollTop;s.scrollTop=p+s.clientHeight*0.5;"
+                               "return JSON.stringify([p,p+s.clientHeight>=s.scrollHeight-5,t])")
+        if marker in text:
+            text = text[text.rindex(marker):]
+        out = merge(out, [r.strip() for r in REC.split(text)[1:] if r.strip()])
+        if bottom:
+            break
+        time.sleep(1.5)
+    ARCHIVE.write_text("\n".join(out) + "\n")
+    print(f"backfill: {len(out)} records, {sum(r.startswith('GAP') for r in out)} gaps")
+
+
+def records():
+    """Read the message pane, merge it into the archive, return the archive text (one record per line), or None."""
+    text = chat_text("LEDGER S", PANE_JS, 1500)
+    if text is None:
+        return None
+    new = [x.strip() for x in REC.split(text)[1:] if x.strip()]
+    old = ARCHIVE.read_text().splitlines() if ARCHIVE.exists() else []
+    out = merge(old, new)
+    ARCHIVE.write_text("\n".join(out) + "\n")
+    return "\n".join(out)
 
 
 def replies(text):
@@ -126,5 +235,7 @@ def main(dry):
     subprocess.run(g + ["push", "-q"], check=True)
 
 
-if __name__ == "__main__":
+if __name__ == "__main__" and "--backfill" in sys.argv:
+    backfill()
+elif __name__ == "__main__":
     main("--dry" in sys.argv)

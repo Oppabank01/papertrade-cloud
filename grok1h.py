@@ -20,7 +20,7 @@ from pathlib import Path
 HERE = Path(__file__).parent
 sys.path.insert(0, str(HERE))           # run with python -I from agents.sh
 import grok_check  # noqa: E402
-from grokscout import chat_text  # noqa: E402  (same tab reader)
+from grokscout import ARCHIVE, by_day, records  # noqa: E402  (same tab reader + archive)
 
 START = "Created routine “Meme 1h test v2”"
 LOG = HERE / "data" / "grok1h_log.md"
@@ -30,15 +30,19 @@ NAMES = {1: "สุ่ม 1 ตัวจากกลุ่มเดียวก�
 RES = re.compile(r"RESULT S(\d) start=([\d.]+) end=([\d.]+) trades=(\d+) wins=(\d+)")
 
 
+EARLIER = ("ชั่วโมงแรก 16:00 อ่านได้ก่อนตัวอ่านพัง: S1 -7.7% S2 -2.0% S3 -2.8% S4 -2.8% S5-S7 ไม่มีไม้ (นับรวมในตารางแล้ว) | "
+           "ชั่วโมง 17-19 ข้อความหลุดจากหน้าแชทก่อนอ่าน ไม่มีข้อมูล (X เก็บแชทไว้ราว 25 นาที แก้เป็นเก็บสะสมแล้ว 19 พ.ย. 21:00)")
+EARLY = {1: -0.077, 2: -0.020, 3: -0.028, 4: -0.028, 5: 0.0, 6: 0.0, 7: 0.0}   # hour 16 RESULTs, from the 17:07 log
+
+
 def summary(text, checks):
-    text = text[text.rindex(START):]            # only the v2 routine's replies
-    res = {}
+    res = {k: [v] for k, v in EARLY.items()}
     for m in RES.finditer(text):
         res.setdefault(int(m[1]), []).append(float(m[3]) / float(m[2]) - 1)
     base = res.get(1, [])
     out = ["# Grok Bot ทดสอบท่าเหรียญมีม 7 บัญชีพร้อมกัน (19 พ.ย. 69 16:10-22:55, เงินปลอม $15 ต่อบัญชีต่อชั่วโมง)", "",
            f"อัปเดต {datetime.now():%H:%M} | รอบที่ Grok ตอบ NO DATA: {len(re.findall(r'NO DATA \d\d:\d\d', text))} | "
-           f"ไม้ที่ราคาตรวจไม่ผ่าน: {sum(v != 'OK' for v, _ in checks)} จาก {len(checks)}", "",
+           f"ไม้ที่ราคาตรวจไม่ผ่าน: {sum(v != 'OK' for v, _ in checks)} จาก {len(checks)}", "", EARLIER, "",
            "| ท่า | ชั่วโมงที่จบ | เฉลี่ยต่อชั่วโมง | เทียบสุ่ม S1 |", "|---|---|---|---|"]
     for k, name in NAMES.items():
         r = res.get(k, [])
@@ -50,11 +54,9 @@ def summary(text, checks):
 
 
 def check_all(text):
-    """grok_check.py on every LTRADE line of the v2 routine -> [(verdict, line)]."""
-    text = text[text.rindex(START):]
-    day = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+    """grok_check.py on every LTRADE line of the v2 routine (S1-S7; S8 is the expert routine) -> [(verdict, line)]."""
     out = []
-    for t in grok_check.parse(text, day, 7):
+    for t in [t for day, seg in by_day(text) for t in grok_check.parse(seg, day, 7) if t["s"] <= 7]:
         with redirect_stdout(io.StringIO()):
             v, why = grok_check.check(t, 5, 3)
         out.append((v, f"S{t['s']} {t['hm']} {t['side']} {t['sym']} px={t['px']:.6g} | {why}"))
@@ -62,7 +64,7 @@ def check_all(text):
 
 
 def main(dry):
-    text = chat_text(START)
+    text = records()
     if text is None:
         return print("grok1h: Grok Bot tab not open or routine message not loaded")
     s = summary(text, check_all(text))
@@ -73,10 +75,10 @@ def main(dry):
         return                                  # only the update time changed
     LOG.write_text(s)
     g = ["git", "-C", str(HERE)]
-    subprocess.run(g + ["add", str(LOG)], check=True)
+    subprocess.run(g + ["add", str(LOG), str(ARCHIVE)], check=True)
     subprocess.run(g + ["-c", "user.name=papertrade-bot", "-c", "user.email=papertrade-bot@users.noreply.github.com",
                         "commit", "-qm", "grok 1h test v2: results from the Grok Bot chat"], check=True)
-    subprocess.run(g + ["pull", "-q", "--rebase"], check=True)
+    subprocess.run(g + ["pull", "-q", "--rebase", "--autostash"], check=True)
     subprocess.run(g + ["push", "-q"], check=True)
 
 
