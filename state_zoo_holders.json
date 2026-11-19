@@ -1,41 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.27049574720805564,
+ "cash": 0.5407147206255896,
  "pos": {
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
    "sym": "STANK",
    "qty": 393.91036921282057,
    "entry": 0.0004112,
-   "last": 0.000436,
+   "last": 0.00043624936578111,
    "peak": 0.0004527,
    "cost": 0.16695108618873616,
    "opened": "2026-11-19T08:05:30+07:00",
    "zoo": "holders",
    "smart": 82,
    "kol": 1,
-   "gap": 0,
-   "miss": 0
-  },
-  "A4jXnWk1rDRDth6HmDASi45c89n1AguTHivAQPTVpump": {
-   "sym": "GTASZN",
-   "qty": 92.77775972396262,
-   "entry": 0.001642,
-   "last": 0.004997971279099883,
-   "peak": 0.004997971279099883,
-   "cost": 0.15702028598922557,
-   "opened": "2026-11-19T09:15:31+07:00",
-   "zoo": "holders",
-   "smart": 4,
-   "kol": 0,
-   "gap": 2,
+   "gap": 1,
    "miss": 0
   },
   "2bCCHQadi4QeHWPKG3w13siCyWWQPgkFtniouTqVpump": {
    "sym": "1",
    "qty": 228.37256792057073,
    "entry": 0.0007624,
-   "last": 0.0008899,
+   "last": 0.0008846,
    "peak": 0.0009028,
    "cost": 0.17945912779080925,
    "opened": "2026-11-19T09:44:11+07:00",
@@ -5005,8 +4991,23 @@
    "zoo": "holders",
    "smart": 188,
    "kol": 17
+  },
+  {
+   "t": "2026-11-19T10:03:29+07:00",
+   "kind": "sell",
+   "mint": "A4jXnWk1rDRDth6HmDASi45c89n1AguTHivAQPTVpump",
+   "sym": "GTASZN",
+   "price": 0.003002,
+   "entry": 0.001642,
+   "usd": 0.2702,
+   "pnl": 0.1132,
+   "why": "trailing จากยอด +204% (+82.8%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 4,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1795057053.0248942
+ "rank_t": 1795057345.8405418
 }

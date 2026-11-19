@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.5428178607720857,
+ "cash": 0.9327221169512158,
  "pos": {
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 556.4080927535931,
    "entry": 0.0008119,
-   "last": 0.0008355,
+   "last": 0.0008373,
    "peak": 0.00113,
    "cost": 0.4656233049955084,
    "opened": "2026-11-19T06:55:07+07:00",
@@ -28,36 +28,37 @@
    "zoo": "w_ban_smartflow",
    "smart": 65,
    "kol": 8,
-   "gap": 22,
+   "gap": 7,
    "miss": 0
   },
   "7fZK84wYShNUXKJnBkfXkeu5h2edduNkZV3p2B2LBCgC": {
    "sym": "APCY",
    "qty": 1889.3682263496796,
    "entry": 0.0002116,
-   "last": 0.00025692183396728674,
+   "last": 0.00023929107788849381,
    "peak": 0.0002791,
    "cost": 0.4120700027783881,
    "opened": "2026-11-19T09:20:51+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 68,
    "kol": 2,
-   "gap": 2,
+   "gap": 6,
    "miss": 0
   },
   "ERDrmaqsoeLdsCMMpBKkRM4LV1mzTA2KHrVxKLpqpump": {
    "sym": "AudaCity",
-   "qty": 3256.728434237607,
+   "qty": 1628.3642171188035,
    "entry": 0.0001227,
-   "last": 0.0001883848537810615,
-   "peak": 0.0001957,
-   "cost": 0.4118744371067351,
+   "last": 0.00021943565117402196,
+   "peak": 0.0002468,
+   "cost": 0.20593721855336755,
    "opened": "2026-11-19T09:34:44+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 75,
    "kol": 5,
    "gap": 2,
-   "miss": 0
+   "miss": 0,
+   "half": true
   }
  },
  "log": [
@@ -3079,10 +3080,20 @@
    "zoo": "w_ban_smartflow",
    "smart": 75,
    "kol": 5
+  },
+  {
+   "t": "2026-11-19T10:04:42+07:00",
+   "kind": "sell",
+   "mint": "ERDrmaqsoeLdsCMMpBKkRM4LV1mzTA2KHrVxKLpqpump",
+   "sym": "AudaCity",
+   "price": 0.0002468,
+   "usd": 0.3899,
+   "pnl": 0.184,
+   "why": "ขายครึ่ง +101.1%"
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795057053.0248942,
+ "rank_t": 1795057345.8405418,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
