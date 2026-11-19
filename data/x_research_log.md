@@ -165,3 +165,11 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 เพิ่ม: ไม่มี  เลิกใช้: ไม่มี (week ยังไม่ถึงวันตัดสิน 21-22/11, month 14/12)
 สกอร์บอร์ด x_ (เทียบ randrun -94.1%): x_smartflow_lowcap +20.9% 7 ไม้, x_lotus_5bots +1.1% 8 ไม้, x_boan_desk -0.9% 1 ไม้
 ท้ายตาราง: x_skip_pumped -73.8% 55 ไม้ (dead), x_fresh_grad -42.3% 18 ไม้, x_cto_watch -40.3% 16 ไม้
+
+## 2026-11-19 รอบอัตโนมัติ รอบที่ 2 (Bangkok)
+ค้น: solana memecoin bot overnight turned $100 strategy rules, memecoin strategy 1 month results system rules take profit stop loss solana 2026
+เจอ: cryptorank "100 เป็น 50k" (ซ้ำ ไม่มีกฎ), mexc 1066589 และ ketchupjl backtest (ซ้ำ x_rule5_60_25, x_night_tp50_sl25), คู่มือ dextools/altrady/trojan (บันไดขาย 2x ครึ่งหนึ่ง ซ้ำ x_ladder_2x), สไลด์งบรายเดือนแบ่ง 10 เหรียญถือ 4 สัปดาห์ (ไม่มีกฎเข้าที่ตรวจได้ ไม่มีผล)
+ยังทำไม่ได้: บอทเฝ้าทวีต/sentiment, copy wallet (ต้องที่อยู่กระเป๋าและประวัติบน chain)
+เพิ่ม: ไม่มี  เลิกใช้: ไม่มี (week ยังไม่ถึงวันตัดสิน 21-22/11, month 14/12)
+สกอร์บอร์ด x_ (เทียบ randrun -94.2%): x_smartflow_lowcap +20.9% 7 ไม้, x_lotus_5bots +1.1% 8 ไม้, x_boan_desk -0.9% 1 ไม้
+ท้ายตาราง: x_skip_pumped -73.8% 55 ไม้ (dead), x_fresh_grad -42.3% 18 ไม้, x_cto_watch -38.9% 16 ไม้
