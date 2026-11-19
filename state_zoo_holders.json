@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.19429748927734014,
+ "cash": 0.09683596242841197,
  "pos": {
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
    "sym": "FLOAT",
@@ -21,7 +21,7 @@
    "sym": "CLAUDIA",
    "qty": 15.000288159776446,
    "entry": 0.006172,
-   "last": 0.00603,
+   "last": 0.005986,
    "peak": 0.006172,
    "cost": 0.09542545714506312,
    "opened": "2026-11-20T03:30:14+07:00",
@@ -35,13 +35,27 @@
    "sym": "CATE",
    "qty": 5.486400393082701,
    "entry": 0.01667,
-   "last": 0.01685,
+   "last": 0.01676,
    "peak": 0.01694,
    "cost": 0.09426746500998624,
    "opened": "2026-11-20T03:39:28+07:00",
    "zoo": "holders",
    "smart": 892,
    "kol": 110,
+   "gap": 0,
+   "miss": 0
+  },
+  "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": {
+   "sym": "BTC",
+   "qty": 99.71229921842256,
+   "entry": 0.0009483,
+   "last": 0.0009483,
+   "peak": 0.0009483,
+   "cost": 0.09746152684892817,
+   "opened": "2026-11-20T04:14:05+07:00",
+   "zoo": "holders",
+   "smart": 802,
+   "kol": 70,
    "gap": 0,
    "miss": 0
   }
@@ -5788,8 +5802,22 @@
    "zoo": "holders",
    "smart": 892,
    "kol": 110
+  },
+  {
+   "t": "2026-11-20T04:14:05+07:00",
+   "kind": "buy",
+   "mint": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+   "sym": "BTC",
+   "price": 0.0009483,
+   "jup": 0.000955174733643609,
+   "usd": 0.0975,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 802,
+   "kol": 70
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1795122515.001816
+ "rank_t": 1795122802.23552
 }
