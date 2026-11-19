@@ -1,19 +1,47 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.750441236323119,
+ "cash": 1.3635913361721872,
  "pos": {
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
    "sym": "Rings",
    "qty": 298.9505153289484,
    "entry": 0.0006312,
-   "last": 0.0006245,
+   "last": 0.0006234,
    "peak": 0.0006312,
    "cost": 0.19449347070256878,
    "opened": "2026-11-19T14:17:35+07:00",
    "zoo": "w_pause_scalp",
    "smart": 88,
    "kol": 6,
+   "gap": 0,
+   "miss": 0
+  },
+  "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": {
+   "sym": "CHOO",
+   "qty": 416.4434268376457,
+   "entry": 0.0004513,
+   "last": 0.0004629,
+   "peak": 0.0004629,
+   "cost": 0.19371358331460475,
+   "opened": "2026-11-19T14:26:58+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 117,
+   "kol": 5,
+   "gap": 0,
+   "miss": 0
+  },
+  "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
+   "sym": "NIO",
+   "qty": 203.56420922825058,
+   "entry": 0.0009205,
+   "last": 0.000928,
+   "peak": 0.000928,
+   "cost": 0.19313631683632723,
+   "opened": "2026-11-19T14:26:58+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 425,
+   "kol": 34,
    "gap": 0,
    "miss": 0
   }
@@ -7350,8 +7378,36 @@
    "zoo": "w_pause_scalp",
    "smart": 88,
    "kol": 6
+  },
+  {
+   "t": "2026-11-19T14:26:58+07:00",
+   "kind": "buy",
+   "mint": "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump",
+   "sym": "CHOO",
+   "price": 0.0004513,
+   "jup": 0.00045153286704100343,
+   "usd": 0.1937,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 117,
+   "kol": 5
+  },
+  {
+   "t": "2026-11-19T14:26:58+07:00",
+   "kind": "buy",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "price": 0.0009205,
+   "jup": 0.0009204270758532611,
+   "usd": 0.1931,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 425,
+   "kol": 34
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795072847.9428134
+ "rank_t": 1795073131.7548065
 }

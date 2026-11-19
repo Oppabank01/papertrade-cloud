@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.1428632013505038,
+ "cash": 0.06786204271097136,
  "pos": {
   "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": {
    "sym": "LMAO!",
    "qty": 91.00541705093913,
    "entry": 0.0008889,
-   "last": 0.0008873950476678197,
+   "last": 0.0008867,
    "peak": 0.000909,
    "cost": 0.0833794219919396,
    "opened": "2026-11-19T12:01:10+07:00",
@@ -21,28 +21,42 @@
    "sym": "Macca",
    "qty": 112.47745835782382,
    "entry": 0.0006478,
-   "last": 0.0006884,
+   "last": 0.0006834,
    "peak": 0.0006884,
    "cost": 0.07510090447763171,
    "opened": "2026-11-19T13:02:49+07:00",
    "zoo": "boosted",
    "smart": 183,
    "kol": 12,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
    "sym": "JOB",
    "qty": 28.490554820881723,
    "entry": 0.002521,
-   "last": 0.0025957849391363887,
+   "last": 0.0025963889419438305,
    "peak": 0.002621,
    "cost": 0.07403080674442673,
    "opened": "2026-11-19T13:53:59+07:00",
    "zoo": "boosted",
    "smart": 37,
    "kol": 1,
-   "gap": 0,
+   "gap": 1,
+   "miss": 0
+  },
+  "FJSga8VWXAUHvQCb2gBzn7xc2EQ7wdGKw764Hdespump": {
+   "sym": "DCTY",
+   "qty": 992.1751310618265,
+   "entry": 7.334e-05,
+   "last": 7.345434898849033e-05,
+   "peak": 7.345434898849033e-05,
+   "cost": 0.07500115863953243,
+   "opened": "2026-11-19T14:26:41+07:00",
+   "zoo": "boosted",
+   "smart": 38,
+   "kol": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -5710,8 +5724,22 @@
    "cost_side": 0.03,
    "smart": 798,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T14:26:41+07:00",
+   "kind": "buy",
+   "mint": "FJSga8VWXAUHvQCb2gBzn7xc2EQ7wdGKw764Hdespump",
+   "sym": "DCTY",
+   "price": 7.334e-05,
+   "jup": 7.345434898849033e-05,
+   "usd": 0.075,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 38,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1795072847.9428134
+ "rank_t": 1795073131.7548065
 }
