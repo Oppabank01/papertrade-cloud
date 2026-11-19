@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.15434149902628636,
+ "cash": 0.09946212737995051,
  "pos": {
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 118.17443499854306,
    "entry": 0.000488,
-   "last": 0.0005454,
+   "last": 0.000532,
    "peak": 0.0006174,
    "cost": 0.059440449679745426,
    "opened": "2026-11-19T19:36:30+07:00",
@@ -28,6 +28,20 @@
    "zoo": "aged",
    "smart": 262,
    "kol": 30,
+   "gap": 0,
+   "miss": 0
+  },
+  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
+   "sym": "ANSEM",
+   "qty": 1.2617053642482234,
+   "entry": 0.0422,
+   "last": 0.0422,
+   "peak": 0.0422,
+   "cost": 0.05487937164633584,
+   "opened": "2026-11-19T21:58:05+07:00",
+   "zoo": "aged",
+   "smart": 1000,
+   "kol": 186,
    "gap": 0,
    "miss": 0
   }
@@ -6122,8 +6136,22 @@
    "cost_side": 0.03,
    "smart": 97,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T21:58:05+07:00",
+   "kind": "buy",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.0422,
+   "jup": 0.04216040678832165,
+   "usd": 0.0549,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "aged",
+   "smart": 1000,
+   "kol": 186
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุเกิน 1 วัน ยังมีคนเล่น",
- "rank_t": 1795099960.4459572
+ "rank_t": 1795100245.8164508
 }
