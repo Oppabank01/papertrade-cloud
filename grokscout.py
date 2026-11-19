@@ -28,7 +28,7 @@ CDP = ("const ws=new WebSocket(process.argv[1]);ws.onopen=()=>ws.send(JSON.strin
        "if(m.id===1){process.stdout.write(String(m.result?.result?.value??''));process.exit(0)}};setTimeout(()=>process.exit(2),20000)")
 
 
-def chat_text():
+def chat_text(start=None):
     """Reload the background Grok Bot tab (it stops receiving messages otherwise) and return its text, or None."""
     import time
     import urllib.request
@@ -41,7 +41,7 @@ def chat_text():
     run("Page.reload", {})
     time.sleep(15)
     r = run("Runtime.evaluate", {"expression": TEXT_JS, "returnByValue": True})
-    return r.stdout if r.returncode == 0 and START in r.stdout else None
+    return r.stdout if r.returncode == 0 and (start or START) in r.stdout else None
 
 
 def replies(text):
