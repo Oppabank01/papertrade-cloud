@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.14623537582653354,
+ "cash": 0.09352803898153175,
  "pos": {
   "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": {
    "sym": "TripleT",
    "qty": 32.429382166093845,
    "entry": 0.001805,
-   "last": 0.001801,
+   "last": 0.001824,
    "peak": 0.001879,
    "cost": 0.060332956926200165,
    "opened": "2026-11-19T20:09:05+07:00",
@@ -21,7 +21,7 @@
    "sym": "jingyu",
    "qty": 495.34054766476305,
    "entry": 0.0001045,
-   "last": 0.0001189,
+   "last": 0.0001172,
    "peak": 0.0001189,
    "cost": 0.05335300683464002,
    "opened": "2026-11-19T22:12:43+07:00",
@@ -29,6 +29,20 @@
    "smart": 11,
    "kol": 0,
    "gap": 0,
+   "miss": 0
+  },
+  "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
+   "sym": "FLOAT",
+   "qty": 31.31454881017803,
+   "entry": 0.001633,
+   "last": 0.0016,
+   "peak": 0.001633,
+   "cost": 0.05270733684500178,
+   "opened": "2026-11-19T22:55:29+07:00",
+   "zoo": "boosted",
+   "smart": 360,
+   "kol": 32,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -6175,8 +6189,22 @@
    "cost_side": 0.03,
    "smart": 133,
    "bundler": null
+  },
+  {
+   "t": "2026-11-19T22:55:29+07:00",
+   "kind": "buy",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "price": 0.001633,
+   "jup": 0.0016326826335774528,
+   "usd": 0.0527,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "boosted",
+   "smart": 360,
+   "kol": 32
   }
  ],
  "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
- "rank_t": 1795103379.406201
+ "rank_t": 1795103663.4024045
 }
