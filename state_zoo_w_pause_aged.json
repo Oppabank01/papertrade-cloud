@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.47881511077535216,
+ "cash": 0.35730313287815096,
  "pos": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": {
    "sym": "VEIL",
    "qty": 266.44258127826885,
    "entry": 0.0004684,
-   "last": 0.0004886,
+   "last": 0.0004827,
    "peak": 0.0005017,
    "cost": 0.12863502893294285,
    "opened": "2026-11-19T16:24:53+07:00",
    "zoo": "w_pause_aged",
    "smart": 79,
    "kol": 5,
+   "gap": 0,
+   "miss": 0
+  },
+  "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
+   "sym": "WASTED",
+   "qty": 113.68459108569394,
+   "entry": 0.001037,
+   "last": 0.001049,
+   "peak": 0.001049,
+   "cost": 0.12151197789720121,
+   "opened": "2026-11-19T17:37:37+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 117,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -5348,8 +5362,22 @@
    "t": "2026-11-19T17:33:01+07:00",
    "kind": "resume",
    "why": "ราคา VEIL สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-19T17:37:37+07:00",
+   "kind": "buy",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "price": 0.001037,
+   "jup": 0.0010448142930635233,
+   "usd": 0.1215,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 117,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795084292.842477
+ "rank_t": 1795084576.6375127
 }
