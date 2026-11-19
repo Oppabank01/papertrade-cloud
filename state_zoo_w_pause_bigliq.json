@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 3.375224843293504,
+ "cash": 2.5300723772413463,
  "pos": {
   "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
    "sym": "neet",
    "qty": 34.03511352410102,
    "entry": 0.02528,
-   "last": 0.02499,
+   "last": 0.02515,
    "peak": 0.02532,
    "cost": 0.8868353637283795,
    "opened": "2026-11-19T23:05:07+07:00",
@@ -15,6 +15,20 @@
    "smart": 881,
    "kol": 204,
    "gap": 0,
+   "miss": 0
+  },
+  "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
+   "sym": "ZCAT",
+   "qty": 50.39747526513851,
+   "entry": 0.01627,
+   "last": 0.01597205403928119,
+   "peak": 0.01628,
+   "cost": 0.8451524660521579,
+   "opened": "2026-11-20T01:08:41+07:00",
+   "zoo": "w_pause_bigliq",
+   "smart": 330,
+   "kol": 48,
+   "gap": 6,
    "miss": 0
   }
  },
@@ -2180,8 +2194,22 @@
    "cost_side": 0.03,
    "smart": 679,
    "bundler": null
+  },
+  {
+   "t": "2026-11-20T01:08:41+07:00",
+   "kind": "buy",
+   "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+   "sym": "ZCAT",
+   "price": 0.01627,
+   "jup": 0.01643252434156832,
+   "usd": 0.8452,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_bigliq",
+   "smart": 330,
+   "kol": 48
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795111371.4129853
+ "rank_t": 1795111649.561969
 }
