@@ -1,28 +1,28 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.762326542663125,
- "cash": 5.939431586576185,
+ "cash": 3.0186414934031376,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 377.80029574496876,
    "entry": 0.007582,
-   "last": 0.00758,
+   "last": 0.0074918637567841055,
    "peak": 0.007902,
    "cost": 2.9524653085326253,
    "opened": "2026-11-19T17:27:42+07:00",
    "zoo": "v_rand",
    "smart": 746,
    "kol": 70,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 68.7281987488812,
    "entry": 0.04159,
-   "last": 0.04164,
-   "peak": 0.04175,
+   "last": 0.04176,
+   "peak": 0.04176,
    "cost": 2.9462026241661197,
    "opened": "2026-11-19T18:35:20+07:00",
    "zoo": "v_rand",
@@ -35,14 +35,28 @@
    "sym": "GTA6",
    "qty": 782.428311663328,
    "entry": 0.003626,
-   "last": 0.003685,
+   "last": 0.003842,
    "peak": 0.003866,
    "cost": 2.9242270233881955,
    "opened": "2026-11-19T18:39:52+07:00",
    "zoo": "v_rand",
    "smart": 323,
    "kol": 25,
-   "gap": 0,
+   "gap": 2,
+   "miss": 0
+  },
+  "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": {
+   "sym": "DCTY",
+   "qty": 153.8409635394403,
+   "entry": 0.01842,
+   "last": 0.01978605604602729,
+   "peak": 0.019919436252775126,
+   "cost": 2.9207900931730473,
+   "opened": "2026-11-19T18:48:52+07:00",
+   "zoo": "v_rand",
+   "smart": 659,
+   "kol": 60,
+   "gap": 8,
    "miss": 0
   }
  },
@@ -93,8 +107,22 @@
    "zoo": "v_rand",
    "smart": 323,
    "kol": 25
+  },
+  {
+   "t": "2026-11-19T18:48:52+07:00",
+   "kind": "buy",
+   "mint": "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump",
+   "sym": "DCTY",
+   "price": 0.01842,
+   "jup": 0.01836918845233057,
+   "usd": 2.9208,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "v_rand",
+   "smart": 659,
+   "kol": 60
   }
  ],
  "label": "สวนสัตว์: ทดสอบ veto: กฎ + ปัดตกแบบสุ่มในอัตราเดียวกับ Grok",
- "rank_t": 1795088572.2638369
+ "rank_t": 1795088859.2763205
 }
