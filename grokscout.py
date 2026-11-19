@@ -39,9 +39,12 @@ def chat_text(start=None):
     run = lambda method, params: subprocess.run(["/opt/homebrew/bin/node", "-e", CDP, tab["webSocketDebuggerUrl"], method, json.dumps(params)],
                                                 capture_output=True, text=True, timeout=40)
     run("Page.reload", {})
-    time.sleep(15)
-    r = run("Runtime.evaluate", {"expression": TEXT_JS, "returnByValue": True})
-    return r.stdout if r.returncode == 0 and (start or START) in r.stdout else None
+    for _ in range(12):                 # the chat pane loads well after the page; poll up to ~75 s for the routine message
+        time.sleep(6)
+        r = run("Runtime.evaluate", {"expression": TEXT_JS, "returnByValue": True})
+        if r.returncode == 0 and f"Created routine “{(start or START).split('“')[1]}" in r.stdout and len(r.stdout) > 3000:
+            return r.stdout
+    return None
 
 
 def replies(text):
