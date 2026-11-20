@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.3067307727081191,
+ "cash": 0.23146159471071953,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 2.1639762909194498,
    "entry": 0.03304,
-   "last": 0.03217,
+   "last": 0.03244,
    "peak": 0.03319,
    "cost": 0.07369385348585716,
    "opened": "2026-11-21T02:47:57+07:00",
@@ -15,6 +15,20 @@
    "smart": 1000,
    "kol": 186,
    "gap": 0,
+   "miss": 0
+  },
+  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
+   "sym": "GATO",
+   "qty": 23.96657581000232,
+   "entry": 0.003047,
+   "last": 0.003149,
+   "peak": 0.003162,
+   "cost": 0.07526917799739957,
+   "opened": "2026-11-21T04:38:20+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 70,
+   "kol": 5,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -6578,8 +6592,22 @@
    "t": "2026-11-21T04:09:57+07:00",
    "kind": "resume",
    "why": "ราคา FLOAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-21T04:38:20+07:00",
+   "kind": "buy",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "price": 0.003047,
+   "jup": 0.0030193714131350486,
+   "usd": 0.0753,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 70,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795210372.4048803
+ "rank_t": 1795210648.2155068
 }
