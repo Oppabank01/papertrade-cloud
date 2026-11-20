@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.3098202854024719,
+ "cash": 0.22441893943376753,
  "pos": {
   "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": {
    "sym": "CHOO",
    "qty": 197.5829445979598,
    "entry": 0.0003936,
-   "last": 0.0005931,
+   "last": 0.0005894,
    "peak": 0.0006251,
    "cost": 0.08015733559447225,
    "opened": "2026-11-20T19:05:50+07:00",
@@ -15,6 +15,20 @@
    "smart": 117,
    "kol": 5,
    "gap": 0,
+   "miss": 0
+  },
+  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
+   "sym": "GTA6",
+   "qty": 34.42309341871084,
+   "entry": 0.002407,
+   "last": 0.0023340298014372816,
+   "peak": 0.002407,
+   "cost": 0.08540134596870438,
+   "opened": "2026-11-20T20:30:57+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 324,
+   "kol": 25,
+   "gap": 10,
    "miss": 0
   }
  },
@@ -6326,8 +6340,22 @@
    "t": "2026-11-20T20:11:45+07:00",
    "kind": "resume",
    "why": "ราคา BAGSPAY สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-20T20:30:57+07:00",
+   "kind": "buy",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.002407,
+   "jup": 0.002383317811716066,
+   "usd": 0.0854,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 324,
+   "kol": 25
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795181134.7834246
+ "rank_t": 1795181423.9280393
 }
