@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.9541256665373168,
- "pos": {
-  "AdgKxsUpJTq218bbzuSXdXVw5DvgLfM1Q8aNxC7Zpump": {
-   "sym": "DUNE3",
-   "qty": 776.2622403979076,
-   "entry": 0.0001325,
-   "last": 0.0001182,
-   "peak": 0.0001332,
-   "cost": 0.10601396294859076,
-   "opened": "2026-11-20T22:05:42+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 20,
-   "kol": 2,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 1.0381749327580767,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-15T00:43:00+07:00",
@@ -9449,8 +9434,23 @@
    "zoo": "w_pause_scalp",
    "smart": 20,
    "kol": 2
+  },
+  {
+   "t": "2026-11-20T22:19:39+07:00",
+   "kind": "sell",
+   "mint": "AdgKxsUpJTq218bbzuSXdXVw5DvgLfM1Q8aNxC7Zpump",
+   "sym": "DUNE3",
+   "price": 0.0001116,
+   "entry": 0.0001325,
+   "usd": 0.084,
+   "pnl": -0.022,
+   "why": "stop -15.8%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 20,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795187678.9894981
+ "rank_t": 1795187979.8716798
 }
