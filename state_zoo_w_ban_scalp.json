@@ -7,7 +7,7 @@
    "sym": "USOI",
    "qty": 7.751164688673493,
    "entry": 0.00788,
-   "last": 0.007905,
+   "last": 0.007897,
    "peak": 0.007994,
    "cost": 0.06295524401849838,
    "opened": "2026-11-21T03:17:12+07:00",
@@ -28,35 +28,35 @@
    "zoo": "w_ban_scalp",
    "smart": 82,
    "kol": 5,
-   "gap": 2,
+   "gap": 15,
    "miss": 0
   },
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 18.436317166389355,
    "entry": 0.003276,
-   "last": 0.00324,
+   "last": 0.0032453602348485803,
    "peak": 0.003299,
    "cost": 0.06225249952287315,
    "opened": "2026-11-21T04:43:32+07:00",
    "zoo": "w_ban_scalp",
    "smart": 70,
    "kol": 5,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   },
   "FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": {
    "sym": "PUSSY",
    "qty": 575.3982059706818,
    "entry": 0.0001053,
-   "last": 9.585527935509725e-05,
+   "last": 9.48337578726936e-05,
    "peak": 0.0001122,
    "cost": 0.06245045463689219,
    "opened": "2026-11-21T04:57:19+07:00",
    "zoo": "w_ban_scalp",
    "smart": 256,
    "kol": 15,
-   "gap": 1,
+   "gap": 5,
    "miss": 0
   },
   "HcfnJxLov6tY8i1dq9uYRRZKCvxADPpovcfkyXzdpump": {
@@ -10470,10 +10470,17 @@
    "cost_side": 0.03,
    "smart": 62,
    "bundler": null
+  },
+  {
+   "t": "2026-11-21T05:09:22+07:00",
+   "kind": "ban",
+   "mint": "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump",
+   "sym": "VEIL",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795212055.570542,
+ "rank_t": 1795212335.3530886,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
@@ -10515,6 +10522,7 @@
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
   "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": "PEAK",
-  "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg": "USOI"
+  "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg": "USOI",
+  "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL"
  }
 }
