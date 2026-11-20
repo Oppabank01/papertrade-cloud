@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.13005531499787432,
+ "cash": 0.04721749608366087,
  "pos": {
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 7.3342770564136535,
    "entry": 0.01628,
-   "last": 0.01593,
+   "last": 0.01586,
    "peak": 0.01642,
    "cost": 0.12306950162689577,
    "opened": "2026-11-20T20:59:49+07:00",
@@ -35,13 +35,27 @@
    "sym": "TROLL",
    "qty": 3.9642192104801013,
    "entry": 0.02124,
-   "last": 0.02112,
+   "last": 0.02108,
    "peak": 0.02138,
    "cost": 0.08678624616635472,
    "opened": "2026-11-20T23:17:27+07:00",
    "zoo": "randrun",
    "smart": 475,
    "kol": 214,
+   "gap": 0,
+   "miss": 0
+  },
+  "CfNmk6r5zDChpbmYtqmv5aEcPptqaqh93kBpmbDrpump": {
+   "sym": "AVENGERS",
+   "qty": 792.596172688066,
+   "entry": 0.0001014,
+   "last": 0.0001014,
+   "peak": 0.0001014,
+   "cost": 0.08283781891421345,
+   "opened": "2026-11-21T00:51:38+07:00",
+   "zoo": "randrun",
+   "smart": 17,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -2615,8 +2629,22 @@
    "cost_side": 0.03,
    "smart": 3,
    "bundler": null
+  },
+  {
+   "t": "2026-11-21T00:51:38+07:00",
+   "kind": "buy",
+   "mint": "CfNmk6r5zDChpbmYtqmv5aEcPptqaqh93kBpmbDrpump",
+   "sym": "AVENGERS",
+   "price": 0.0001014,
+   "jup": 0.00010164585835021693,
+   "usd": 0.0828,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "randrun",
+   "smart": 17,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1795196765.4946065
+ "rank_t": 1795197057.5671656
 }
