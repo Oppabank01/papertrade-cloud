@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.17248942875671205,
+ "cash": 0.16853222393642328,
  "pos": {
-  "3VW31dwix6k2EdzhDgZ2zB15J7FbHYQwAUqXgktRcJEX": {
-   "sym": "SOLPUMP",
-   "qty": 3.4508318933724147,
-   "entry": 0.02432,
-   "last": 0.0237,
-   "peak": 0.02432,
-   "cost": 0.08650199097796035,
-   "opened": "2026-11-20T07:31:26+07:00",
-   "zoo": "holders",
-   "smart": 30,
-   "kol": 19,
-   "gap": 0,
-   "miss": 0
-  },
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 2.232977602414403,
    "entry": 0.03736,
-   "last": 0.03548,
+   "last": 0.03558,
    "peak": 0.03748,
    "cost": 0.0859864391117317,
    "opened": "2026-11-20T07:40:58+07:00",
@@ -35,13 +21,27 @@
    "sym": "BP",
    "qty": 33.36957027239056,
    "entry": 0.002494,
-   "last": 0.002488,
+   "last": 0.00249,
    "peak": 0.002515,
    "cost": 0.08577995079297265,
    "opened": "2026-11-20T07:50:42+07:00",
    "zoo": "holders",
    "smart": 184,
    "kol": 33,
+   "gap": 1,
+   "miss": 0
+  },
+  "GT8WxWKEgxzZiKL89Uu288vb8jnescwpNSrvyHzcpump": {
+   "sym": "RUGGED",
+   "qty": 191.02400147158542,
+   "entry": 0.0004231,
+   "last": 0.0004231,
+   "peak": 0.0004231,
+   "cost": 0.0833047361602018,
+   "opened": "2026-11-20T10:31:46+07:00",
+   "zoo": "holders",
+   "smart": 137,
+   "kol": 11,
    "gap": 0,
    "miss": 0
   }
@@ -5991,8 +5991,37 @@
    "cost_side": 0.03,
    "smart": 174,
    "bundler": null
+  },
+  {
+   "t": "2026-11-20T10:31:46+07:00",
+   "kind": "buy",
+   "mint": "GT8WxWKEgxzZiKL89Uu288vb8jnescwpNSrvyHzcpump",
+   "sym": "RUGGED",
+   "price": 0.0004231,
+   "jup": 0.00042456607554308045,
+   "usd": 0.0833,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 137,
+   "kol": 11
+  },
+  {
+   "t": "2026-11-20T10:31:48+07:00",
+   "kind": "sell",
+   "mint": "3VW31dwix6k2EdzhDgZ2zB15J7FbHYQwAUqXgktRcJEX",
+   "sym": "SOLPUMP",
+   "price": 0.0237,
+   "entry": 0.02432,
+   "usd": 0.0793,
+   "pnl": -0.0072,
+   "why": "ครบ 3 ชม. (-2.5%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 30,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1795145184.6854672
+ "rank_t": 1795145466.786572
 }
