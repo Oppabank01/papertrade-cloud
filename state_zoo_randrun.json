@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.478003905383203,
+ "cash": 0.351886939767009,
  "pos": {
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 26.095591362710213,
    "entry": 0.00603,
-   "last": 0.005847,
+   "last": 0.005798,
    "peak": 0.00603,
    "cost": 0.1621896680242657,
    "opened": "2026-11-20T04:09:09+07:00",
    "zoo": "randrun",
    "smart": 523,
    "kol": 34,
+   "gap": 0,
+   "miss": 0
+  },
+  "H1jcPQwCX9VPiNGBUpQNJdGzZEHiisFSs1WS4fi6pump": {
+   "sym": "VINTEL",
+   "qty": 2186.9290445188803,
+   "entry": 5.595e-05,
+   "last": 5.595e-05,
+   "peak": 5.595e-05,
+   "cost": 0.12611696561619393,
+   "opened": "2026-11-20T06:58:44+07:00",
+   "zoo": "randrun",
+   "smart": 27,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -2153,8 +2167,22 @@
    "cost_side": 0.03,
    "smart": 134,
    "bundler": null
+  },
+  {
+   "t": "2026-11-20T06:58:44+07:00",
+   "kind": "buy",
+   "mint": "H1jcPQwCX9VPiNGBUpQNJdGzZEHiisFSs1WS4fi6pump",
+   "sym": "VINTEL",
+   "price": 5.595e-05,
+   "jup": 5.608252556161272e-05,
+   "usd": 0.1261,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "randrun",
+   "smart": 27,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1795132397.4261563
+ "rank_t": 1795132684.227232
 }
