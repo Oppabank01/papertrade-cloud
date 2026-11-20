@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.098604602606638,
+ "cash": 2.744315789358625,
  "pos": {
-  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
-   "sym": "USELESS",
-   "qty": 8.209503024240885,
-   "entry": 0.08827,
-   "last": 0.08221,
-   "peak": 0.08846,
-   "cost": 0.7469107729846867,
-   "opened": "2026-11-20T19:57:39+07:00",
-   "zoo": "w_pause_bigliq",
-   "smart": 927,
-   "kol": 295,
-   "gap": 0,
-   "miss": 0
-  },
   "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
    "sym": "CRIME",
    "qty": 255.43538822845017,
@@ -2542,10 +2528,25 @@
    "cost_side": 0.03,
    "smart": 730,
    "bundler": null
+  },
+  {
+   "t": "2026-11-20T22:34:52+07:00",
+   "kind": "sell",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.08107,
+   "entry": 0.08827,
+   "usd": 0.6457,
+   "pnl": -0.1012,
+   "why": "stop -8.2%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 927,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795188572.5781357,
+ "rank_t": 1795188851.6978672,
  "halted": "ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-20T22:47:35+07:00"
 }

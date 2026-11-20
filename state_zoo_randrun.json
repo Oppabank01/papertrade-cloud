@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.2091005985252032,
+ "cash": 0.2830957629799079,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 2.921118046828512,
    "entry": 0.03552,
-   "last": 0.03061386904373382,
+   "last": 0.03021,
    "peak": 0.03564,
    "cost": 0.10694507629699933,
    "opened": "2026-11-20T10:45:50+07:00",
    "zoo": "randrun",
    "smart": 1000,
    "kol": 174,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 7.3342770564136535,
    "entry": 0.01628,
-   "last": 0.01558,
+   "last": 0.01552,
    "peak": 0.01642,
    "cost": 0.12306950162689577,
    "opened": "2026-11-20T20:59:49+07:00",
@@ -29,20 +29,6 @@
    "smart": 894,
    "kol": 110,
    "gap": 0,
-   "miss": 0
-  },
-  "zK42Ztz6TdFUgd1f7cULoJMduX2B91auZpFK7hvpump": {
-   "sym": "DOOMSDAY",
-   "qty": 251.2119543649256,
-   "entry": 0.0004165,
-   "last": 0.0003587072081632543,
-   "peak": 0.0004165,
-   "cost": 0.10784351576272058,
-   "opened": "2026-11-20T22:15:23+07:00",
-   "zoo": "randrun",
-   "smart": 34,
-   "kol": 1,
-   "gap": 1,
    "miss": 0
   }
  },
@@ -2499,8 +2485,23 @@
    "cost_side": 0.03,
    "smart": 927,
    "bundler": null
+  },
+  {
+   "t": "2026-11-20T22:35:16+07:00",
+   "kind": "sell",
+   "mint": "zK42Ztz6TdFUgd1f7cULoJMduX2B91auZpFK7hvpump",
+   "sym": "DOOMSDAY",
+   "price": 0.0003036,
+   "entry": 0.0004165,
+   "usd": 0.074,
+   "pnl": -0.0338,
+   "why": "stop -27.1%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 34,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1795188572.5781357
+ "rank_t": 1795188851.6978672
 }
