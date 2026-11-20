@@ -45,3 +45,25 @@ lo = {"AAA": (-0.08, 80.0, 81.0), "BBB": (-0.08, 100.0, 95.0), "BTC": (-0.02, 90
 c.step("n_low30short_500", s, mk, {}, t21, True, lo)
 assert list(s["pos"]) == ["AAA"] and s["cash"] < 1e-9 and s["pos"]["AAA"]["side"] == -1, s
 print("low30 ok")
+# news (20 Nov): Upbit notice JSON -> tickers; first run only learns ids; a fresh notice opens; 30+ min old is logged late
+up = {"data": {"notices": [{"id": 1, "first_listed_at": "2026-11-19T15:43:51+09:00", "title": "스타크넷(STRK), 리퀘스트(REQ) 신규 거래지원 안내 (BTC, USDT 마켓)"},
+                           {"id": 2, "first_listed_at": "2026-11-19T15:00:00+09:00", "title": "카바(KAVA) 거래 유의 종목 지정 안내"}]}}
+assert c.notices("upbit", up) == [("u1", 1795070631000, ["STRK", "REQ"], up["data"]["notices"][0]["title"])], c.notices("upbit", up)
+bn = {"data": {"catalogs": [{"articles": [{"id": 9, "releaseDate": 5, "title": "Binance Will List Predict (PREDICT) with Seed Tag Applied"},
+                                          {"id": 8, "releaseDate": 5, "title": "Binance Futures Will Launch X"}]}]}}
+assert [x[:3] for x in c.notices("binance", bn)] == [("b9", 5, ["PREDICT"])]
+mk2 = {**mk, "STRK": (1.0, 0.0, 1e7), "kREQ": (2.0, 0.0, 1e7)}
+s = st()
+c.step("u_upbit_fade_500", s, mk2, {}, t0, False, news={"upbit": []}); assert s["seen"] == [] and not s["pos"]
+c.step("u_upbit_fade_500", s, mk2, {}, t0 + 60_000, False, news={"upbit": [("u5", t0, ["STRK", "REQ", "ZZZ"], "t")]})
+assert sorted(s["pos"]) == ["STRK", "kREQ"] and s["pos"]["STRK"]["side"] == -1 and s["log"][-1]["kind"] == "skip", s
+c.step("u_upbit_fade_500", s, {**mk2, "STRK": (1.3, 0.0, 1e7)}, {}, t0 + 2 * 60_000, False, news=None)   # API down: exits still run
+assert "STRK" not in s["pos"] and s["log"][-1]["why"] == "stop +25%", s["log"]
+c.step("u_upbit_fade_500", s, mk2, {}, t0 + 17 * H, False, news={"upbit": [("u6", t0, ["BBB"], "old")]})
+assert not s["pos"] and s["log"][-2]["why"] == "ครบ 16 ชม." and s["log"][-1]["kind"] == "late", s["log"]
+s = st(); c.step("u_upbit_buy_500", s, mk2, {}, t0, False, news={"upbit": []})
+c.step("u_upbit_buy_500", s, mk2, {}, t0, False, news={"upbit": [("u7", t0, ["STRK"], "t")]})
+c.step("u_upbit_buy_500", s, {**mk2, "STRK": (1.2, 0.0, 1e7)}, {}, t0 + H, False, news={"upbit": []})
+c.step("u_upbit_buy_500", s, {**mk2, "STRK": (1.01, 0.0, 1e7)}, {}, t0 + 2 * H, False, news={"upbit": []})
+assert not s["pos"] and s["log"][-1]["why"] == "trail 15%", s["log"]
+print("news ok")

@@ -11,10 +11,18 @@ perps 2022-26; Hyperliquid's coin list and prices differ a little, so these acco
                          (Fable round 2 "rule A": closest overnight near-miss, a measurement account, not a pass)
   l_newlist_short_500    a perp that newly appears on Hyperliquid: short at the first UTC day after it lists (max 10),
                          cover after 30 days or at +50% against us
+  u_upbit_buy_500        "buy only on big news" (user idea, 20 Nov): an Upbit new-listing notice (KRW or BTC/USDT market)
+                         -> long that coin's Hyperliquid perp on the next run, stop -8%, trail 15% once +15%, max 16h.
+                         Backtest of 120 Upbit notices 2024-26 (1m Binance/Bybit/OKX, entry 5 min after): 16h -6.8%, dead
+  u_upbit_fade_500       same notices, short instead ("sell the news"), cover after 16h or at +25% against us.
+                         Same backtest: +6.2% a trade, 73% win, but worst -71% and about 0 in 2026 Q3-Q4
+  b_bnlist_buy_500       "Binance Will List X" notice -> long X's Hyperliquid perp, buy exits above.
+                         Backtest only 21 notices 2023-26: 4h mean +9%, median +1%, a few big winners carry it
 
   python3 crash.py init 500 | run | report
 """
 import json
+import re
 import sys
 import time
 import urllib.request
@@ -31,7 +39,12 @@ ACCOUNTS = {   # name: (label, kind, params)
     "n_crashshort_500": ("Fable: 21:00 short เหรียญที่ร่วง 10%+ ใน 6 ชม. ปิด 09:00 (กะดึก)", "night", dict(slots=5, cost=0.0025)),
     "n_low30short_500": ("Fable: 21:00 short เหรียญปิดต่ำสุด 30 วันและร่วง 5%+ ใน 12 ชม. ปิด 09:00 (วัดผล)", "night", dict(slots=5, cost=0.0025, signal="low30")),
     "l_newlist_short_500": ("Fable: short เหรียญเพิ่งเข้า Hyperliquid ถือ 30 วัน stop +50%", "newlist", dict(slots=10, cost=0.003)),
+    "u_upbit_buy_500": ("ข่าวใหญ่: ซื้อเมื่อ Upbit ประกาศลิสต์ stop -8% trail 15% ถือไม่เกิน 16 ชม.", "news", dict(src="upbit", side=1, slots=5, cost=0.003)),
+    "u_upbit_fade_500": ("ข่าวใหญ่: short เมื่อ Upbit ประกาศลิสต์ (ขายข่าว) ปิด 16 ชม. stop +25%", "news", dict(src="upbit", side=-1, slots=5, cost=0.003)),
+    "b_bnlist_buy_500": ("ข่าวใหญ่: ซื้อเมื่อ Binance ประกาศ Will List stop -8% trail 15% ถือไม่เกิน 16 ชม.", "news", dict(src="binance", side=1, slots=5, cost=0.003)),
 }
+UPBIT = "https://api-manager.upbit.com/api/v1/announcements?os=web&page=1&per_page=20&category=trade"
+BINANCE = "https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=48&pageNo=1&pageSize=20"
 
 
 def post(body):
@@ -62,6 +75,27 @@ def low30(coin, now):
         return None                         # listed under 30 days: no 30-day low yet
     c = [float(x["c"]) for x in rows]
     return c[-1] / c[-13] - 1, c[-1], min(float(x["l"]) for x in rows[-721:-1])
+
+
+def get(url):
+    with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"}), timeout=20) as r:
+        return json.load(r)
+
+
+def notices(src, data):
+    """[(id, ms, [tickers], title)] new-listing notices from one page of the Upbit or Binance announcement API."""
+    out = []
+    if src == "upbit":
+        for n in data["data"]["notices"]:
+            t = n["title"]
+            if "신규 거래지원" in t and "안내" in t:
+                ms = int(datetime.fromisoformat(n["first_listed_at"]).timestamp() * 1000)
+                out.append((f"u{n['id']}", ms, re.findall(r"\(([A-Z0-9]{2,12})\)", t.split("신규 거래지원")[0]), t[:90]))
+    else:
+        for a in data["data"]["catalogs"][0]["articles"]:
+            if m := re.match(r"Binance Will List .*?\(([A-Z0-9]{2,12})\)", a["title"]):
+                out.append((f"b{a['id']}", a["releaseDate"], [m[1]], a["title"][:90]))
+    return out
 
 
 def ret(c, hours):
@@ -101,9 +135,9 @@ def close_pos(s, now, coin, px, cost, why):
     log(s, now, kind="sell" if p["side"] > 0 else "cover", coin=coin, price=px, pnl=round(got - p["usd"] / (1 - cost), 4), why=why)
 
 
-def step(name, s, mk, cl, now, new_hour, lo=None):
+def step(name, s, mk, cl, now, new_hour, lo=None, news=None):
     """One round for one account. mk: market(); cl: {coin: closed 1h closes} (only filled on a new hour);
-    lo: {coin: low30()} for the 21:00 round of the 30-day-low account."""
+    lo: {coin: low30()} for the 21:00 round of the 30-day-low account; news: {src: notices()} (None on an API error)."""
     kind, p = ACCOUNTS[name][1], ACCOUNTS[name][2]
     for k, q in s["pos"].items():
         if k in mk:
@@ -138,6 +172,38 @@ def step(name, s, mk, cl, now, new_hour, lo=None):
                 hits = sorted((r, c) for c in top if (r := ret(cl[c], 6)) is not None and r <= -0.10)
                 for r, c in hits[:p["slots"]]:
                     open_pos(s, now, c, -1, mk[c][0], p["cost"], p["slots"], mk, f"6 ชม. {r:+.1%}")
+    elif kind == "news":
+        for k, q in list(s["pos"].items()):
+            if k not in mk:
+                continue
+            px, age = mk[k][0], now - q["t"]
+            q["hi"] = max(q.get("hi", q["entry"]), px)
+            if p["side"] > 0:
+                why = ("stop -8%" if px <= q["entry"] * 0.92 else "trail 15%" if q["hi"] >= q["entry"] * 1.15 and px <= q["hi"] * 0.85
+                       else "ครบ 16 ชม." if age >= 16 * H else None)
+            else:
+                why = "stop +25%" if px >= q["entry"] * 1.25 else "ครบ 16 ชม." if age >= 16 * H else None
+            if why:
+                close_pos(s, now, k, px, p["cost"], why)
+        if news is None or news.get(p["src"]) is None:
+            return                                # announcement API failed this run: exits only, never guess
+        first = "seen" not in s
+        seen = s.setdefault("seen", [])
+        for nid, ms, tickers, title in news[p["src"]]:
+            if nid in seen:
+                continue
+            seen.append(nid)
+            if first:
+                continue                          # notices from before the account started are old news
+            if now - ms > 30 * 60_000:
+                log(s, now, kind="late", why=f"ประกาศเก่า {(now - ms) // 60_000} นาที", title=title)
+                continue
+            for t in tickers:
+                c = t if t in mk else "k" + t if "k" + t in mk else None
+                if c is None:
+                    log(s, now, kind="skip", coin=t, why="ไม่มี perp บน Hyperliquid", title=title)
+                elif c not in s["pos"] and len(s["pos"]) < p["slots"]:
+                    open_pos(s, now, c, p["side"], mk[c][0], p["cost"], p["slots"], mk, title)
     else:   # newlist
         if not s.get("known"):
             s["known"] = sorted(mk)               # first run: everything already listed is old, no back-filling
@@ -189,9 +255,17 @@ def cmd_run():
                 time.sleep(0.3)
     except Exception as e:                      # an API error is a missed round, never a guessed price
         return print(f"crash run error: {e!r}"[:200])
+    news = {}
+    for src, url in (("upbit", UPBIT), ("binance", BINANCE)):
+        if any(ACCOUNTS[n][1] == "news" and ACCOUNTS[n][2]["src"] == src for n in states):
+            try:
+                news[src] = notices(src, get(url))
+            except Exception as e:              # missed notices this run; the next run still sees them while under 30 min old
+                news[src] = None
+                print(f"crash news {src} error: {e!r}"[:200])
     for name, s in states.items():
         try:
-            step(name, s, mk, cl, now, s["hour"] != hour, lo)
+            step(name, s, mk, cl, now, s["hour"] != hour, lo, news)
             s["hour"] = hour
         except Exception as e:
             print(f"crash {name} error: {e!r}"[:200])
