@@ -1,33 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.07354656944351173,
+ "cash": 0.13927690700291764,
  "pos": {
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 275.0307015008107,
    "entry": 0.0002906,
-   "last": 0.00030787691186187643,
+   "last": 0.0002968,
    "peak": 0.0003357,
    "cost": 0.0823788104062416,
    "opened": "2026-11-20T10:36:08+07:00",
    "zoo": "holders",
    "smart": 193,
    "kol": 12,
-   "gap": 1,
-   "miss": 0
-  },
-  "2bCCHQadi4QeHWPKG3w13siCyWWQPgkFtniouTqVpump": {
-   "sym": "1",
-   "qty": 243.06592958763994,
-   "entry": 0.0003093,
-   "last": 0.0002872,
-   "peak": 0.0003094,
-   "cost": 0.07748947848016598,
-   "opened": "2026-11-20T10:45:46+07:00",
-   "zoo": "holders",
-   "smart": 202,
-   "kol": 17,
    "gap": 0,
    "miss": 0
   },
@@ -35,28 +21,28 @@
    "sym": "neet",
    "qty": 3.3589358097656636,
    "entry": 0.02231,
-   "last": 0.02253,
+   "last": 0.0208778381068941,
    "peak": 0.02253,
    "cost": 0.07723959793431454,
    "opened": "2026-11-20T10:59:54+07:00",
    "zoo": "holders",
    "smart": 884,
    "kol": 205,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "44DZsPNJUtUyTkELAFYdwCpe82sEt12HZKrMgK1Spump": {
    "sym": "iAgent",
    "qty": 34.75875804252527,
    "entry": 0.00212,
-   "last": 0.002281,
+   "last": 0.002273,
    "peak": 0.002281,
    "cost": 0.075951934704343,
    "opened": "2026-11-20T11:18:30+07:00",
    "zoo": "holders",
    "smart": 4,
    "kol": 0,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -6135,8 +6121,23 @@
    "zoo": "holders",
    "smart": 4,
    "kol": 0
+  },
+  {
+   "t": "2026-11-20T11:32:57+07:00",
+   "kind": "sell",
+   "mint": "2bCCHQadi4QeHWPKG3w13siCyWWQPgkFtniouTqVpump",
+   "sym": "1",
+   "price": 0.0002787279393352408,
+   "entry": 0.0003093,
+   "usd": 0.0657,
+   "pnl": -0.0118,
+   "why": "stop -9.9%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 202,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1795148860.8708372
+ "rank_t": 1795149146.324406
 }
