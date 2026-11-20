@@ -131,9 +131,9 @@
 - OFF 17:46 BUY AMC px=0.0003164 | range 0.0001951..0.0002032 outside by +55.7% | vs close +55.9% | 1h change then ? | liq now $47,670 SYMBOL MISMATCH (pool says AMC )
 - OK 18:03 SELL AMC px=0.0002449 | range 0.0002431..0.0003386 outside by +0.0% | vs close -9.3% | 1h change then ? | liq now $45,627 SYMBOL MISMATCH (pool says AMC )
 
-## Meme brag v2 (S11 Grok คุมเอง กฎปรับสดโดย Claude ดู data/brag_versions.md)
+## Meme brag v2 (S11 กฎจาก log: พูล 200k+ ห้ามไล่ราคา ไม้ละ 30% ถือ 2 ตัว เริ่ม 20 พ.ย. 18:03)
 
-ผลตามที่ Grok รายงาน: +4.2% (equity $52.08 at 21:52) | รอบที่รายงาน 47 | ไม้ที่ราคาตรวจไม่ผ่าน 0 จาก 2 | เหรียญที่ดูแต่ไม่ซื้อ (SEEN) 235 บรรทัด
+ผลตามที่ Grok รายงาน: +3.7% (equity $51.84 at 21:58) | รอบที่รายงาน 48 | ไม้ที่ราคาตรวจไม่ผ่าน 0 จาก 2 | เหรียญที่ดูแต่ไม่ซื้อ (SEEN) 240 บรรทัด
 
 - OK 18:09 BUY FLOAT px=0.001584 | range 0.001585..0.001586 outside by -0.1% | vs close -0.1% | 1h change then ? | liq now $220,551
 - OK 18:46 BUY jobcoin px=0.007615 | range 0.00757..0.007617 outside by +0.0% | vs close +0.3% | 1h change then +1% | liq now $394,246
