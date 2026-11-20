@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.9294455707887807,
+ "cash": 1.0562023528619382,
  "pos": {
-  "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": {
-   "sym": "BRUH",
-   "qty": 25.129494918152222,
-   "entry": 0.005359,
-   "last": 0.00526,
-   "peak": 0.005495,
-   "cost": 0.138805363086351,
-   "opened": "2026-11-20T12:11:34+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 3,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
   "Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": {
    "sym": "HODL",
    "qty": 102.27416224106884,
    "entry": 0.00132,
-   "last": 0.001413,
+   "last": 0.001411,
    "peak": 0.001451,
    "cost": 0.13914852005587597,
    "opened": "2026-11-20T12:35:00+07:00",
@@ -8881,10 +8867,28 @@
    "cost_side": 0.03,
    "smart": 7,
    "bundler": null
+  },
+  {
+   "t": "2026-11-20T14:09:20+07:00",
+   "kind": "resume",
+   "why": "ราคา GRINCH สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-20T14:11:51+07:00",
+   "kind": "sell",
+   "mint": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
+   "sym": "BRUH",
+   "price": 0.005199076112339924,
+   "entry": 0.005359,
+   "usd": 0.1268,
+   "pnl": -0.012,
+   "why": "ครบ 2 ชม. (-3.0%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 3,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795158251.0702238,
- "halted": "ราคา GRINCH สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
- "halted_until": "2026-11-20T14:09:04+07:00"
+ "rank_t": 1795158525.141829
 }
