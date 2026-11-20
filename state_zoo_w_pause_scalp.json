@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.0562023528619382,
+ "cash": 0.9223312787966725,
  "pos": {
   "Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": {
    "sym": "HODL",
@@ -21,7 +21,7 @@
    "sym": "AFTERHOURS",
    "qty": 478.86190183149614,
    "entry": 0.0002842,
-   "last": 0.0002893,
+   "last": 0.0002886,
    "peak": 0.0002988,
    "cost": 0.14027267831427667,
    "opened": "2026-11-20T12:39:20+07:00",
@@ -29,6 +29,20 @@
    "smart": 36,
    "kol": 1,
    "gap": 0,
+   "miss": 0
+  },
+  "79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump": {
+   "sym": "Apocrycoin",
+   "qty": 667.7723190648879,
+   "entry": 0.0001945,
+   "last": 0.0001864,
+   "peak": 0.0001945,
+   "cost": 0.13387107406526563,
+   "opened": "2026-11-20T14:14:21+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 122,
+   "kol": 6,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -8887,8 +8901,22 @@
    "cost_side": 0.03,
    "smart": 3,
    "bundler": null
+  },
+  {
+   "t": "2026-11-20T14:14:21+07:00",
+   "kind": "buy",
+   "mint": "79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump",
+   "sym": "Apocrycoin",
+   "price": 0.0001945,
+   "jup": 0.00019499899830724987,
+   "usd": 0.1339,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 122,
+   "kol": 6
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795158525.141829
+ "rank_t": 1795158819.330976
 }
