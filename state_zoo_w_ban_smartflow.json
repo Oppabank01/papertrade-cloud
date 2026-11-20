@@ -1,33 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.061293959874964866,
+ "cash": 0.11198254306032199,
  "pos": {
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
    "sym": "paws",
    "qty": 256.3564384292645,
    "entry": 0.0004357,
-   "last": 0.0005345,
+   "last": 0.0005407,
    "peak": 0.0005961,
    "cost": 0.11512523214144561,
    "opened": "2026-11-20T06:49:21+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 312,
    "kol": 15,
-   "gap": 0,
-   "miss": 0
-  },
-  "AUuqP4EADgs2ynEbGNQKf3LXG1GpDzfiLvnRdK1Npump": {
-   "sym": "CATEMAS",
-   "qty": 706.1956126425615,
-   "entry": 9.827e-05,
-   "last": 8.434e-05,
-   "peak": 0.0001008,
-   "cost": 0.07152941955718875,
-   "opened": "2026-11-20T23:32:04+07:00",
-   "zoo": "w_ban_smartflow",
-   "smart": 13,
-   "kol": 0,
    "gap": 0,
    "miss": 0
   },
@@ -4830,6 +4816,21 @@
    "stop_set": -0.2,
    "cost_side": 0.03,
    "smart": 202,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-21T02:15:20+07:00",
+   "kind": "sell",
+   "mint": "AUuqP4EADgs2ynEbGNQKf3LXG1GpDzfiLvnRdK1Npump",
+   "sym": "CATEMAS",
+   "price": 7.398162509359492e-05,
+   "entry": 9.827e-05,
+   "usd": 0.0507,
+   "pnl": -0.0208,
+   "why": "stop -24.7%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 13,
    "bundler": null
   }
  ],
