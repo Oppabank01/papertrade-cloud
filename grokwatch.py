@@ -17,7 +17,7 @@ from grokscout import as_text   # same archive the Mac readers write
 
 HERE = Path(__file__).parent
 ARCH, SEEN, CSV = HERE / "data" / "grok_chat_archive.json", HERE / "data" / "grok_watch_seen.json", HERE / "data" / "grok_watch.csv"
-MINT = re.compile(r"^(?:LTRADE S\d (?:BUY|SELL) \S+|VETO c\d+ (?:APPROVE|REJECT)|SEEN S\d \S+) ([1-9A-HJ-NP-Za-km-z]{32,44})\b", re.M)
+MINT = re.compile(r"^(?:LTRADE S\d+ (?:BUY|SELL) \S+|VETO c\d+ (?:APPROVE|REJECT)|SEEN S\d+ \S+) ([1-9A-HJ-NP-Za-km-z]{32,44})\b", re.M)
 COLS = "t mint sym price liq fdv vol_m5 vol_h1 buys_m5 sells_m5 ch_m5 ch_h1".split()
 
 

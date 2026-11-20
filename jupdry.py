@@ -15,7 +15,7 @@ HERE = Path(__file__).parent
 LOG = HERE / "data" / "jup_dry.json"
 USDC = "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
 SCALE = 8.5 / 50                # 300 THB is about $8.5 against Grok's $50 fake ledger
-TRADE = re.compile(r"^LTRADE S([89]) (BUY|SELL) (\S+) (\S+) price=([\d.]+).*?\bt=(\d\d:\d\d).*?\busd=([\d.]+)", re.M)
+TRADE = re.compile(r"^LTRADE S(8|9|10) (BUY|SELL) (\S+) (\S+) price=([\d.]+).*?\bt=(\d\d:\d\d).*?\busd=([\d.]+)", re.M)
 
 
 def get(url, body=None):

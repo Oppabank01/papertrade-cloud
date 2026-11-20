@@ -83,7 +83,7 @@ def by_day(text):
     """[(date, records)] split where LEDGER clock times wrap past midnight (records carry HH:MM only)."""
     day, seg, out, prev = START_DAY, [], [], None
     for line in text.splitlines():
-        m = re.match(r"LEDGER S\d (\d\d):(\d\d)", line)
+        m = re.match(r"LEDGER S\d+ (\d\d):(\d\d)", line)
         if m:
             t = int(m[1]) * 60 + int(m[2])
             if prev is not None and t < prev - 720:

@@ -14,7 +14,7 @@ import json, re, sys, time, urllib.request
 from datetime import datetime, timedelta, timezone
 
 UA = {"User-Agent": "Mozilla/5.0", "accept": "application/json"}
-LINE = re.compile(r"(LEDGER) S(\d) (\d\d):(\d\d)|(LTRADE) S(\d) (BUY|SELL) (\S+) (\S+) price=\$?([\d.,eE+-]+)([^\n]*?)(?=LTRADE|LEDGER|RESULT|NO DATA|\n|$)")
+LINE = re.compile(r"(LEDGER) S(\d+) (\d\d):(\d\d)|(LTRADE) S(\d+) (BUY|SELL) (\S+) (\S+) price=\$?([\d.,eE+-]+)([^\n]*?)(?=LTRADE|LEDGER|RESULT|NO DATA|\n|$)")
 _last = [0.0]
 
 
@@ -39,7 +39,7 @@ def parse(text, day, tz):
         s, tm = int(m[6]), re.search(r"\bt=(\d\d):(\d\d)", m[11])
         hm = (int(tm[1]), int(tm[2])) if tm else led.get(s)
         exact = hm is not None
-        h, mi = hm or (15 + s, 30)
+        h, mi = hm or ((15 + s) % 24, 30)   # weak guess only for the 1h test (S1-S7); S8+ always carry t=
         ts = int((day.replace(hour=h, minute=mi) - timedelta(hours=tz)).replace(tzinfo=timezone.utc).timestamp())
         out.append(dict(s=s, side=m[7], sym=m[8], mint=m[9], px=float(m[10].replace(",", "")), ts=ts, exact=exact, hm=f"{h:02d}:{mi:02d}"))
     return out
