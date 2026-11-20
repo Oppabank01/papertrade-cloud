@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.22153808763467453,
+ "cash": 0.3067307727081191,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 2.1639762909194498,
    "entry": 0.03304,
-   "last": 0.03289,
+   "last": 0.03281,
    "peak": 0.03319,
    "cost": 0.07369385348585716,
    "opened": "2026-11-21T02:47:57+07:00",
@@ -15,20 +15,6 @@
    "smart": 1000,
    "kol": 186,
    "gap": 0,
-   "miss": 0
-  },
-  "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
-   "sym": "FLOAT",
-   "qty": 30.799676629715318,
-   "entry": 0.002307,
-   "last": 0.003142397118905173,
-   "peak": 0.0034874427790605755,
-   "cost": 0.07323732630875411,
-   "opened": "2026-11-21T02:53:00+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 364,
-   "kol": 33,
-   "gap": 13,
    "miss": 0
   }
  },
@@ -6572,10 +6558,25 @@
    "zoo": "w_pause_aged",
    "smart": 364,
    "kol": 33
+  },
+  {
+   "t": "2026-11-21T03:28:48+07:00",
+   "kind": "sell",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "price": 0.002850984651840303,
+   "entry": 0.002307,
+   "usd": 0.0852,
+   "pnl": 0.012,
+   "why": "trailing จากยอด +51% (+23.6%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 364,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795206056.1103497,
+ "rank_t": 1795206340.9011116,
  "halted": "ราคา FLOAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-21T04:06:35+07:00"
 }
