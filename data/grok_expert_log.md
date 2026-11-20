@@ -124,8 +124,15 @@
 
 ## Meme brag (S10 Grok คุมเองแบบท่าโม้: ไม้ใหญ่ 40% ถือไม่เกิน 2 ตัว ปล่อยกำไรวิ่ง เริ่ม 20 พ.ย. 17:17)
 
-ผลตามที่ Grok รายงาน: +5.8% (equity $52.88 at 17:52) | รอบที่รายงาน 8 | ไม้ที่ราคาตรวจไม่ผ่าน 1 จาก 3 | เหรียญที่ดูแต่ไม่ซื้อ (SEEN) 33 บรรทัด
+ผลตามที่ Grok รายงาน: -15.9% (equity $42.07 at 18:03) | รอบที่รายงาน 9 | ไม้ที่ราคาตรวจไม่ผ่าน 1 จาก 4 | เหรียญที่ดูแต่ไม่ซื้อ (SEEN) 33 บรรทัด
 
 - OK 17:29 BUY FIONA px=0.003323 | range 0.002981..0.003519 outside by +0.0% | vs close -1.0% | 1h change then +22% | liq now $156,965
 - OK 17:35 SELL FIONA px=0.003037 | range 0.002961..0.003381 outside by +0.0% | vs close -5.0% | 1h change then +26% | liq now $159,971
 - OFF 17:46 BUY AMC px=0.0003164 | range 0.0001951..0.0002032 outside by +55.7% | vs close +55.9% | 1h change then ? | liq now $47,670 SYMBOL MISMATCH (pool says AMC )
+- OK 18:03 SELL AMC px=0.0002449 | range 0.0002431..0.0003386 outside by +0.0% | vs close -9.3% | 1h change then ? | liq now $45,627 SYMBOL MISMATCH (pool says AMC )
+
+## Meme brag v2 (S11 Grok คุมเอง กฎปรับสดโดย Claude ดู data/brag_versions.md)
+
+ผลตามที่ Grok รายงาน: +0.0% (equity $50.00 at 18:03) | รอบที่รายงาน 1 | ไม้ที่ราคาตรวจไม่ผ่าน 0 จาก 0 | เหรียญที่ดูแต่ไม่ซื้อ (SEEN) 5 บรรทัด
+
+
