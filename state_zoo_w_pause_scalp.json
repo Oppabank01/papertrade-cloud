@@ -1,33 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.8152210382166407,
+ "cash": 0.8979253339578037,
  "pos": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
    "sym": "ZCAT",
    "qty": 8.530205974336909,
    "entry": 0.01174,
-   "last": 0.01177,
+   "last": 0.01183,
    "peak": 0.01236,
    "cost": 0.10322059177356763,
    "opened": "2026-11-20T23:03:41+07:00",
    "zoo": "w_pause_scalp",
    "smart": 330,
    "kol": 48,
-   "gap": 0,
-   "miss": 0
-  },
-  "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
-   "sym": "PAID",
-   "qty": 75.10536066514557,
-   "entry": 0.001336,
-   "last": 0.00116,
-   "peak": 0.001336,
-   "cost": 0.10342276009960263,
-   "opened": "2026-11-20T23:27:21+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 723,
-   "kol": 98,
    "gap": 0,
    "miss": 0
   }
@@ -9598,8 +9584,23 @@
    "cost_side": 0.03,
    "smart": 14,
    "bundler": null
+  },
+  {
+   "t": "2026-11-21T00:58:47+07:00",
+   "kind": "sell",
+   "mint": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
+   "sym": "PAID",
+   "price": 0.001135,
+   "entry": 0.001336,
+   "usd": 0.0827,
+   "pnl": -0.0207,
+   "why": "stop -15.0%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 723,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795197057.5671656
+ "rank_t": 1795197346.744655
 }
