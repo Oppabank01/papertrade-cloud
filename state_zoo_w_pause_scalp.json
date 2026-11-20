@@ -1,41 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.6505475897418259,
+ "cash": 0.725291018295575,
  "pos": {
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 27.886168313038045,
    "entry": 0.003276,
-   "last": 0.0034183075334976846,
-   "peak": 0.003499,
+   "last": 0.0034724301176778513,
+   "peak": 0.003575,
    "cost": 0.09416108781025832,
    "opened": "2026-11-21T04:43:33+07:00",
    "zoo": "w_pause_scalp",
    "smart": 70,
    "kol": 5,
-   "gap": 2,
-   "miss": 0
-  },
-  "FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": {
-   "sym": "PUSSY",
-   "qty": 867.8517135610093,
-   "entry": 0.0001053,
-   "last": 9.013327663939073e-05,
-   "peak": 0.0001122,
-   "cost": 0.09419169803955296,
-   "opened": "2026-11-21T04:57:22+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 256,
-   "kol": 15,
-   "gap": 4,
+   "gap": 3,
    "miss": 0
   },
   "HcfnJxLov6tY8i1dq9uYRRZKCvxADPpovcfkyXzdpump": {
    "sym": "Chonketha",
    "qty": 59.404442101344905,
    "entry": 0.001524,
-   "last": 0.001539,
+   "last": 0.001522,
    "peak": 0.001539,
    "cost": 0.09331310014682502,
    "opened": "2026-11-21T05:01:57+07:00",
@@ -9921,10 +9907,25 @@
    "cost_side": 0.03,
    "smart": 82,
    "bundler": null
+  },
+  {
+   "t": "2026-11-21T05:29:34+07:00",
+   "kind": "sell",
+   "mint": "FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat",
+   "sym": "PUSSY",
+   "price": 8.877e-05,
+   "entry": 0.0001053,
+   "usd": 0.0747,
+   "pnl": -0.0194,
+   "why": "stop -15.7%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 256,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795213498.733793,
+ "rank_t": 1795213774.6915212,
  "halted": "ราคา VEIL สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-21T06:09:22+07:00"
 }
