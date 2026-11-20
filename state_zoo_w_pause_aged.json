@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.15527527085058107,
+ "cash": 0.230548332620055,
  "pos": {
-  "69LjZUUzxj3Cb3Fxeo1X4QpYEQTboApkhXTysPpbpump": {
-   "sym": "CODEC",
-   "qty": 25.354607085081152,
-   "entry": 0.003015,
-   "last": 0.00306,
-   "peak": 0.00308,
-   "cost": 0.07879214632191267,
-   "opened": "2026-11-20T22:39:38+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 108,
-   "kol": 28,
-   "gap": 32,
-   "miss": 0
-  },
   "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": {
    "sym": "DCTY",
    "qty": 40.04654762266012,
    "entry": 0.001904,
-   "last": 0.002391,
+   "last": 0.00241,
    "peak": 0.002445,
    "cost": 0.07859062736914542,
    "opened": "2026-11-21T00:32:40+07:00",
@@ -35,14 +21,14 @@
    "sym": "DOOMSDAY",
    "qty": 160.7002925626229,
    "entry": 0.00049,
-   "last": 0.00047492189012294763,
-   "peak": 0.0004928,
+   "last": 0.0005002,
+   "peak": 0.0005002,
    "cost": 0.0811617639205166,
    "opened": "2026-11-21T01:27:22+07:00",
    "zoo": "w_pause_aged",
    "smart": 34,
    "kol": 1,
-   "gap": 1,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -6479,10 +6465,25 @@
    "zoo": "w_pause_aged",
    "smart": 34,
    "kol": 1
+  },
+  {
+   "t": "2026-11-21T01:40:31+07:00",
+   "kind": "sell",
+   "mint": "69LjZUUzxj3Cb3Fxeo1X4QpYEQTboApkhXTysPpbpump",
+   "sym": "CODEC",
+   "price": 0.00306,
+   "entry": 0.003015,
+   "usd": 0.0753,
+   "pnl": -0.0035,
+   "why": "ครบ 3 ชม. (+1.5%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 108,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795199754.6841993,
+ "rank_t": 1795200031.677142,
  "halted": "ราคา CODEC สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-21T02:33:12+07:00"
 }
