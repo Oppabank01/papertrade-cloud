@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.230548332620055,
+ "cash": 0.29938873173687125,
  "pos": {
   "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": {
    "sym": "DCTY",
    "qty": 40.04654762266012,
    "entry": 0.001904,
-   "last": 0.002338,
+   "last": 0.002308,
    "peak": 0.002445,
    "cost": 0.07859062736914542,
    "opened": "2026-11-21T00:32:40+07:00",
@@ -15,20 +15,6 @@
    "smart": 730,
    "kol": 65,
    "gap": 0,
-   "miss": 0
-  },
-  "zK42Ztz6TdFUgd1f7cULoJMduX2B91auZpFK7hvpump": {
-   "sym": "DOOMSDAY",
-   "qty": 160.7002925626229,
-   "entry": 0.00049,
-   "last": 0.0004589685119447084,
-   "peak": 0.000504514331463796,
-   "cost": 0.0811617639205166,
-   "opened": "2026-11-21T01:27:22+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 34,
-   "kol": 1,
-   "gap": 4,
    "miss": 0
   }
  },
@@ -6480,10 +6466,25 @@
    "cost_side": 0.03,
    "smart": 108,
    "bundler": null
+  },
+  {
+   "t": "2026-11-21T01:49:57+07:00",
+   "kind": "sell",
+   "mint": "zK42Ztz6TdFUgd1f7cULoJMduX2B91auZpFK7hvpump",
+   "sym": "DOOMSDAY",
+   "price": 0.0004415353116496609,
+   "entry": 0.00049,
+   "usd": 0.0688,
+   "pnl": -0.0123,
+   "why": "stop -9.9%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 34,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795200317.9512,
+ "rank_t": 1795200597.3939693,
  "halted": "ราคา CODEC สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-21T02:33:12+07:00"
 }
