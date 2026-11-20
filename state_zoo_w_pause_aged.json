@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.1787514600014255,
+ "cash": 0.09047649209181718,
  "pos": {
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
@@ -21,14 +21,14 @@
    "sym": "NIO",
    "qty": 58.90941261563266,
    "entry": 0.001457,
-   "last": 0.001408,
-   "peak": 0.001457,
+   "last": 0.00156,
+   "peak": 0.001571,
    "cost": 0.08846734094101916,
    "opened": "2026-11-20T12:25:20+07:00",
    "zoo": "w_pause_aged",
    "smart": 433,
    "kol": 34,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": {
@@ -42,7 +42,21 @@
    "zoo": "w_pause_aged",
    "smart": 358,
    "kol": 34,
-   "gap": 9,
+   "gap": 21,
+   "miss": 0
+  },
+  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
+   "sym": "mihao",
+   "qty": 11.09670560584374,
+   "entry": 0.007718,
+   "last": 0.007666598879921159,
+   "peak": 0.007748,
+   "cost": 0.08827496790960832,
+   "opened": "2026-11-20T13:41:05+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 794,
+   "kol": 74,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -6077,8 +6091,24 @@
    "cost_side": 0.03,
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-20T13:41:05+07:00",
+   "kind": "buy",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.007718,
+   "jup": 0.007673068920893479,
+   "usd": 0.0883,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 794,
+   "kol": 74
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795156528.5599551
+ "rank_t": 1795156819.6547863,
+ "halted": "ราคา HODL สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+ "halted_until": "2026-11-20T14:41:54+07:00"
 }
