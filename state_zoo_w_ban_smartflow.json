@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.023605248045537985,
+ "cash": 0.07152941955718875,
  "pos": {
   "GnY6RSduqXgJ3nas2CKTDkNbrm2FXYExFxP7BXYEpump": {
    "sym": "PAUL",
@@ -21,42 +21,28 @@
    "sym": "paws",
    "qty": 256.3564384292645,
    "entry": 0.0004357,
-   "last": 0.0004741,
+   "last": 0.0004733,
    "peak": 0.0005961,
    "cost": 0.11512523214144561,
    "opened": "2026-11-20T06:49:21+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 312,
    "kol": 15,
-   "gap": 0,
-   "miss": 0
-  },
-  "2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump": {
-   "sym": "Peekhole",
-   "qty": 662.8579925423733,
-   "entry": 0.0001477,
-   "last": 0.0001316,
-   "peak": 0.0001562079883037332,
-   "cost": 0.10091128169295871,
-   "opened": "2026-11-20T18:32:42+07:00",
-   "zoo": "w_ban_smartflow",
-   "smart": 65,
-   "kol": 6,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": {
    "sym": "Huss",
    "qty": 218.88200244526948,
    "entry": 0.0003702,
-   "last": 0.0004218120592672279,
+   "last": 0.0003646,
    "peak": 0.0004656214003661795,
    "cost": 0.08351898299859696,
    "opened": "2026-11-20T22:53:57+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 85,
    "kol": 3,
-   "gap": 5,
+   "gap": 9,
    "miss": 0
   }
  },
@@ -4736,10 +4722,25 @@
    "zoo": "w_ban_smartflow",
    "smart": 85,
    "kol": 3
+  },
+  {
+   "t": "2026-11-20T23:16:39+07:00",
+   "kind": "sell",
+   "mint": "2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump",
+   "sym": "Peekhole",
+   "price": 7.452e-05,
+   "entry": 0.0001477,
+   "usd": 0.0479,
+   "pnl": -0.053,
+   "why": "stop -49.5%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 65,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795191109.0653596,
+ "rank_t": 1795191399.0783215,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
