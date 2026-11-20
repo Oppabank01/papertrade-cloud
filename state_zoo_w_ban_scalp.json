@@ -7,14 +7,14 @@
    "sym": "ber",
    "qty": 174.9095888719026,
    "entry": 0.0003509,
-   "last": 0.0003238,
+   "last": 0.0003271,
    "peak": 0.0003956442132444933,
    "cost": 0.06326095107725276,
    "opened": "2026-11-21T02:38:45+07:00",
    "zoo": "w_ban_scalp",
    "smart": 143,
    "kol": 6,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg": {
@@ -28,7 +28,7 @@
    "zoo": "w_ban_scalp",
    "smart": 5,
    "kol": 0,
-   "gap": 4,
+   "gap": 17,
    "miss": 0
   },
   "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": {
@@ -49,7 +49,7 @@
    "sym": "VEIL",
    "qty": 144.2419526300985,
    "entry": 0.0004195,
-   "last": 0.0004124,
+   "last": 0.0004078,
    "peak": 0.0004203,
    "cost": 0.0623680675410496,
    "opened": "2026-11-21T03:22:08+07:00",
@@ -10319,10 +10319,17 @@
    "mint": "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray",
    "sym": "PEAK",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-21T03:47:41+07:00",
+   "kind": "ban",
+   "mint": "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg",
+   "sym": "USOI",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795207194.2076535,
+ "rank_t": 1795207476.9863012,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
@@ -10363,6 +10370,7 @@
   "4KxtNWc5XTL3cuyc8PJMchqB6RYggvEFeMub727GBAGS": "SALVOR",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
-  "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": "PEAK"
+  "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": "PEAK",
+  "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg": "USOI"
  }
 }
