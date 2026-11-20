@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.052082193690153766,
+ "cash": 0.1349452360411642,
  "pos": {
   "GnY6RSduqXgJ3nas2CKTDkNbrm2FXYExFxP7BXYEpump": {
    "sym": "PAUL",
@@ -21,27 +21,13 @@
    "sym": "paws",
    "qty": 256.3564384292645,
    "entry": 0.0004357,
-   "last": 0.0005031,
+   "last": 0.0005015,
    "peak": 0.0005961,
    "cost": 0.11512523214144561,
    "opened": "2026-11-20T06:49:21+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 312,
    "kol": 15,
-   "gap": 2,
-   "miss": 0
-  },
-  "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": {
-   "sym": "GTA",
-   "qty": 472.3175666405642,
-   "entry": 0.0002342,
-   "last": 0.000192,
-   "peak": 0.0002677,
-   "cost": 0.11401440332634523,
-   "opened": "2026-11-20T09:35:38+07:00",
-   "zoo": "w_ban_smartflow",
-   "smart": 313,
-   "kol": 18,
    "gap": 0,
    "miss": 0
   },
@@ -49,14 +35,14 @@
    "sym": "Peekhole",
    "qty": 662.8579925423733,
    "entry": 0.0001477,
-   "last": 0.00015415606768089146,
+   "last": 0.0001535,
    "peak": 0.0001562079883037332,
    "cost": 0.10091128169295871,
    "opened": "2026-11-20T18:32:42+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 65,
    "kol": 6,
-   "gap": 10,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -4678,10 +4664,25 @@
    "zoo": "w_ban_smartflow",
    "smart": 65,
    "kol": 6
+  },
+  {
+   "t": "2026-11-20T22:11:53+07:00",
+   "kind": "sell",
+   "mint": "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump",
+   "sym": "GTA",
+   "price": 0.0001808279279651211,
+   "entry": 0.0002342,
+   "usd": 0.0829,
+   "pnl": -0.0312,
+   "why": "stop -22.8%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 313,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795187111.2914925,
+ "rank_t": 1795187399.6511426,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
