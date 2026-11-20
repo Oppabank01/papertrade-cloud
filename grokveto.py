@@ -48,7 +48,7 @@ def veto_files(text):
 
 
 NAMES = {8: "Meme expert (S8, 19 พ.ย. 17:20 ถึง 20 พ.ย.)", 9: "Meme expert 2 (S9 คำสั่งเดียวกับ S8 บัญชีแยก ไว้ดูว่าเป็นฝีมือหรือดวง เริ่ม 19 พ.ย. ราว 22:00)",
-         10: "Meme brag (S10 Grok คุมเองแบบท่าโม้: ไม้ใหญ่ 40% ถือไม่เกิน 2 ตัว ปล่อยกำไรวิ่ง เริ่ม 20 พ.ย. ราว 18:00)"}
+         10: "Meme brag (S10 Grok คุมเองแบบท่าโม้: ไม้ใหญ่ 40% ถือไม่เกิน 2 ตัว ปล่อยกำไรวิ่ง เริ่ม 20 พ.ย. 17:17)"}
 
 
 def expert_log(text, n=8):
@@ -59,7 +59,7 @@ def expert_log(text, n=8):
         rows.append(f"- {v} {tr['hm']} {tr['side']} {tr['sym']} px={tr['px']:.6g} | {why}")
     seen = len(re.findall(rf"^SEEN S{n} ", text, re.M))
     eq = f"{float(led[-1][2]) / 50 - 1:+.1%} (equity ${led[-1][2]} at {led[-1][0]})" if led else "ยังไม่มีรายงาน"
-    return (f"## {NAMES[n]}\n\nผลตามที่ Grok รายงาน: {eq} | รอบที่รายงาน {len(led)} | ไม้ที่ราคาตรวจไม่ผ่าน "
+    return (f"## {NAMES.get(n, f'Meme brag v{n - 9} (S{n} Grok คุมเอง กฎปรับสดโดย Claude ดู data/brag_versions.md)')}\n\nผลตามที่ Grok รายงาน: {eq} | รอบที่รายงาน {len(led)} | ไม้ที่ราคาตรวจไม่ผ่าน "
             f"{sum(not r.startswith('- OK') for r in rows)} จาก {len(rows)} | เหรียญที่ดูแต่ไม่ซื้อ (SEEN) {seen} บรรทัด\n\n" + "\n".join(rows) + "\n")
 
 
@@ -75,7 +75,7 @@ def main(dry):
         except Exception as e:
             print(f"jupdry: {e!r}"[:160])
     log = ("# Grok Bot คุมเองทั้งหมด (เงินปลอม $50 ต่อบัญชี, Grok ตัดสินใจเองจากข่าว X และกราฟ, ราคาตรวจกับ GeckoTerminal)\n\n"
-           + expert_log(text, 8) + "\n" + expert_log(text, 9) + "\n" + expert_log(text, 10))
+           + "\n".join(expert_log(text, n) for n in sorted({int(x) for x in re.findall(r"LEDGER S(\d+) ", text)} | {8, 9, 10}) if n >= 8))
     if dry:
         return print(json.dumps(stats), len(orders), "orders\n" + log)
     STATS.write_text(json.dumps(stats))
