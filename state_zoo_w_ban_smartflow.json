@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.07511214544840664,
+ "cash": 0.15299347538311248,
  "pos": {
   "GnY6RSduqXgJ3nas2CKTDkNbrm2FXYExFxP7BXYEpump": {
    "sym": "PAUL",
    "qty": 1089.611453581143,
    "entry": 9.883e-05,
-   "last": 9.181e-05,
+   "last": 9.481e-05,
    "peak": 0.0001095,
    "cost": 0.11099391873574971,
    "opened": "2026-11-20T06:21:28+07:00",
@@ -21,7 +21,7 @@
    "sym": "paws",
    "qty": 256.3564384292645,
    "entry": 0.0004357,
-   "last": 0.0005764,
+   "last": 0.0005646,
    "peak": 0.0005961,
    "cost": 0.11512523214144561,
    "opened": "2026-11-20T06:49:21+07:00",
@@ -35,7 +35,7 @@
    "sym": "GTA",
    "qty": 472.3175666405642,
    "entry": 0.0002342,
-   "last": 0.0002093,
+   "last": 0.0002029,
    "peak": 0.0002677,
    "cost": 0.11401440332634523,
    "opened": "2026-11-20T09:35:38+07:00",
@@ -43,20 +43,6 @@
    "smart": 313,
    "kol": 18,
    "gap": 0,
-   "miss": 0
-  },
-  "J7bLsZcpkfky92ir8k36Munz91nHKtcDNhDy8d3Qpump": {
-   "sym": "AMC ",
-   "qty": 293.4692425536364,
-   "entry": 0.0003461,
-   "last": 0.0002937768604467748,
-   "peak": 0.0003508958706553079,
-   "cost": 0.10468945047187544,
-   "opened": "2026-11-20T18:23:29+07:00",
-   "zoo": "w_ban_smartflow",
-   "smart": 42,
-   "kol": 10,
-   "gap": 9,
    "miss": 0
   }
  },
@@ -4649,10 +4635,25 @@
    "zoo": "w_ban_smartflow",
    "smart": 42,
    "kol": 10
+  },
+  {
+   "t": "2026-11-20T18:29:55+07:00",
+   "kind": "sell",
+   "mint": "J7bLsZcpkfky92ir8k36Munz91nHKtcDNhDy8d3Qpump",
+   "sym": "AMC ",
+   "price": 0.00027353285451349224,
+   "entry": 0.0003461,
+   "usd": 0.0779,
+   "pnl": -0.0268,
+   "why": "stop -21.0%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 42,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795173742.8561845,
+ "rank_t": 1795174031.256968,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
