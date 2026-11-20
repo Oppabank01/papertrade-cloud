@@ -12,4 +12,5 @@ assert g.seq("t16u") < g.seq("t16s0") < g.seq("t16s10") and g.seq("t2s5") < g.se
 assert g.as_text(m).splitlines() == ["LTRADE S1 BUY A M price=1", "LEDGER S1 20:25 cash=3 open=", "LEDGER S8 20:29 cash=5", "VETO c12 REJECT M reason=no"], g.as_text(m)
 d = g.by_day("LEDGER S8 23:50 a\nLTRADE S8 x\nLEDGER S8 00:03 b\nLEDGER S8 00:01 c")
 assert [(x.day, y.count("LEDGER")) for x, y in d] == [(19, 1), (20, 2)], d
+assert g.seq("t18s352") < g.seq("tbs763") and g.seq("tbu") is not None and g.seq("sep-tbs1") is None
 print("grokscout ok")

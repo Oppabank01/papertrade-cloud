@@ -65,9 +65,10 @@ FIRST = "Created routine “Meme 1h test v2”"
 
 
 def seq(key):
-    """X message key t<turn>u (our message) / t<turn>s<n> (reply n) -> sort key; separators and events -> None."""
-    m = re.fullmatch(r"t(\d+)(?:u|s(\d+))", key)
-    return m and (int(m[1]), -1 if m[2] is None else int(m[2]))
+    """X message key -> sort key. t<turn>u is our message, t<turn>s<n> reply n; routine posts after a reload come as
+    tbs<n> (seen 20 Nov) and sort after every numbered turn. Separators and events -> None."""
+    m = re.fullmatch(r"t(\w+?)(?:u|s(\d+))", key)
+    return m and (int(m[1]) if m[1].isdigit() else 10 ** 6, -1 if m[2] is None else int(m[2]))
 
 
 def as_text(msgs):
@@ -95,7 +96,10 @@ def by_day(text):
 
 def save(items):
     msgs = json.loads(ARCHIVE.read_text()) if ARCHIVE.exists() else {}
-    msgs |= dict(items)
+    have = set(msgs.values())
+    for k, v in items:
+        if k in msgs or v not in have:  # X can re-key an old message after a reload: keep the first copy only
+            msgs[k] = v
     msgs = {k: v for k, v in msgs.items() if seq(k)}
     ARCHIVE.write_text(json.dumps(dict(sorted(msgs.items(), key=lambda kv: seq(kv[0]))), ensure_ascii=False, indent=0))
     return msgs
