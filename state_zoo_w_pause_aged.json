@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.20169727121362402,
+ "cash": 0.26224101726226123,
  "pos": {
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 23.96657581000232,
    "entry": 0.003047,
-   "last": 0.003099,
+   "last": 0.003254708638295218,
    "peak": 0.003575,
    "cost": 0.07526917799739957,
    "opened": "2026-11-21T04:38:20+07:00",
    "zoo": "w_pause_aged",
    "smart": 70,
    "kol": 5,
-   "gap": 0,
-   "miss": 0
-  },
-  "6FhVPctYg363pQbs4iSvqyHe2cJzfsvFD96gePy6pump": {
-   "sym": "EXFIL",
-   "qty": 30.66504489747153,
-   "entry": 0.002216,
-   "last": 0.002046,
-   "peak": 0.002216,
-   "cost": 0.07004096010389292,
-   "opened": "2026-11-21T05:59:30+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 107,
-   "kol": 9,
-   "gap": 0,
+   "gap": 5,
    "miss": 0
   }
  },
@@ -6722,8 +6708,23 @@
    "zoo": "w_pause_aged",
    "smart": 107,
    "kol": 9
+  },
+  {
+   "t": "2026-11-21T06:58:34+07:00",
+   "kind": "sell",
+   "mint": "6FhVPctYg363pQbs4iSvqyHe2cJzfsvFD96gePy6pump",
+   "sym": "EXFIL",
+   "price": 0.002035,
+   "entry": 0.002216,
+   "usd": 0.0605,
+   "pnl": -0.0095,
+   "why": "stop -8.2%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 107,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795218624.7900674
+ "rank_t": 1795218902.747798
 }
