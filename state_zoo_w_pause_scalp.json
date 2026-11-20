@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.687588786344985,
+ "cash": 0.8023976703508392,
  "pos": {
-  "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": {
-   "sym": "WISHMAS",
-   "qty": 622.4896118202184,
-   "entry": 0.00022,
-   "last": 0.0001942,
-   "peak": 0.0002228,
-   "cost": 0.14115410698871167,
-   "opened": "2026-11-20T11:33:15+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 185,
-   "kol": 9,
-   "gap": 0,
-   "miss": 0
-  },
   "F2JLbzaA8tavGNpJSYGinXth3JEB8xrPXDwJ78sTpump": {
    "sym": "GRINCH",
    "qty": 2568.1548715750027,
@@ -35,7 +21,7 @@
    "sym": "BRUH",
    "qty": 25.129494918152222,
    "entry": 0.005359,
-   "last": 0.005376,
+   "last": 0.005394,
    "peak": 0.005495,
    "cost": 0.138805363086351,
    "opened": "2026-11-20T12:11:34+07:00",
@@ -49,8 +35,8 @@
    "sym": "HODL",
    "qty": 102.27416224106884,
    "entry": 0.00132,
-   "last": 0.001393,
-   "peak": 0.001393,
+   "last": 0.001426,
+   "peak": 0.001426,
    "cost": 0.13914852005587597,
    "opened": "2026-11-20T12:35:00+07:00",
    "zoo": "w_pause_scalp",
@@ -63,7 +49,7 @@
    "sym": "AFTERHOURS",
    "qty": 478.86190183149614,
    "entry": 0.0002842,
-   "last": 0.0002944,
+   "last": 0.0002899,
    "peak": 0.0002988,
    "cost": 0.14027267831427667,
    "opened": "2026-11-20T12:39:20+07:00",
@@ -8879,10 +8865,25 @@
    "cost_side": 0.03,
    "smart": 39,
    "bundler": null
+  },
+  {
+   "t": "2026-11-20T13:33:28+07:00",
+   "kind": "sell",
+   "mint": "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
+   "sym": "WISHMAS",
+   "price": 0.0001901,
+   "entry": 0.00022,
+   "usd": 0.1148,
+   "pnl": -0.0263,
+   "why": "ครบ 2 ชม. (-13.6%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 185,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795155972.196834,
+ "rank_t": 1795156249.2596486,
  "halted": "ราคา GRINCH สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-20T14:09:04+07:00"
 }
