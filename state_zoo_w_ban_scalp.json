@@ -35,28 +35,28 @@
    "sym": "baton",
    "qty": 23.020387499543116,
    "entry": 0.002985,
-   "last": 0.0032,
+   "last": 0.003292,
    "peak": 0.003379,
    "cost": 0.07082648596798206,
    "opened": "2026-11-20T19:30:09+07:00",
    "zoo": "w_ban_scalp",
    "smart": 730,
    "kol": 80,
-   "gap": 7,
+   "gap": 0,
    "miss": 0
   },
   "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
    "sym": "WASTED",
    "qty": 78.24012585004526,
    "entry": 0.0008761,
-   "last": 0.0009537,
-   "peak": 0.0009702,
+   "last": 0.0009591,
+   "peak": 0.0009777,
    "cost": 0.07065159168957395,
    "opened": "2026-11-20T19:44:02+07:00",
    "zoo": "w_ban_scalp",
    "smart": 124,
    "kol": 1,
-   "gap": 3,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -9863,10 +9863,17 @@
    "cost_side": 0.03,
    "smart": 22,
    "bundler": null
+  },
+  {
+   "t": "2026-11-20T20:22:52+07:00",
+   "kind": "ban",
+   "mint": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
+   "sym": "baton",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795180559.7995753,
+ "rank_t": 1795180846.1453586,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
@@ -9904,6 +9911,7 @@
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": "OTC",
   "F2JLbzaA8tavGNpJSYGinXth3JEB8xrPXDwJ78sTpump": "GRINCH",
   "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": "TripleT",
-  "4KxtNWc5XTL3cuyc8PJMchqB6RYggvEFeMub727GBAGS": "SALVOR"
+  "4KxtNWc5XTL3cuyc8PJMchqB6RYggvEFeMub727GBAGS": "SALVOR",
+  "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"
  }
 }
