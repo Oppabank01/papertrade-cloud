@@ -54,6 +54,15 @@
    "trades": 2,
    "wins": 1,
    "ended": "09:00"
+  },
+  {
+   "night": "2026-11-19",
+   "start_usd": 14.758,
+   "end_usd": 14.2131,
+   "ret": -0.0369,
+   "trades": 1,
+   "wins": 0,
+   "ended": "09:00"
   }
  ],
  "log": [
@@ -411,23 +420,20 @@
    "stop_set": -0.18,
    "cost_side": 0.03,
    "source": "state_wallets.json"
+  },
+  {
+   "t": "2026-11-20T09:02:52+07:00",
+   "kind": "sell",
+   "mint": "XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp",
+   "sym": "AAPLx",
+   "price": 352.15,
+   "usd": 8.3099,
+   "pnl": -0.5449,
+   "why": "ปิดรอบเช้า"
   }
  ],
- "pos": {
-  "XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp": {
-   "sym": "AAPLx",
-   "qty": 0.024322383542111175,
-   "entry": 353.21,
-   "last": 352.13,
-   "peak": 353.21,
-   "cost": 8.854781582054308,
-   "opened": "2026-11-20T05:20:32+07:00",
-   "source": "state_wallets.json",
-   "gap": 0,
-   "miss": 0
-  }
- },
- "cash": 5.903187721369539,
+ "pos": {},
+ "cash": 14.213074290266226,
  "start_usd": 14.757969303423847,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
@@ -785,6 +791,7 @@
  "session": {
   "night": "2026-11-19",
   "t": "2026-11-19T21:02:09+07:00",
-  "start_usd": 14.757969303423847
+  "start_usd": 14.757969303423847,
+  "closed": true
  }
 }
