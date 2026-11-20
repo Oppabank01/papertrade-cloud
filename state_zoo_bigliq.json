@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.8314867767505336,
+ "cash": 2.489601990672942,
  "pos": {
-  "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
-   "sym": "FLOAT",
-   "qty": 178.67991602428987,
-   "entry": 0.003359,
-   "last": 0.004095083881542197,
-   "peak": 0.004555854498632081,
-   "cost": 0.61862073585404,
-   "opened": "2026-11-21T04:19:21+07:00",
-   "zoo": "bigliq",
-   "smart": 369,
-   "kol": 33,
-   "gap": 0,
-   "miss": 0
-  },
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 102.35190826890741,
    "entry": 0.006095,
-   "last": 0.00602,
+   "last": 0.00614,
    "peak": 0.006204,
    "cost": 0.6429961666656263,
    "opened": "2026-11-21T05:06:23+07:00",
@@ -3023,8 +3009,23 @@
    "zoo": "bigliq",
    "smart": 532,
    "kol": 34
+  },
+  {
+   "t": "2026-11-21T05:59:12+07:00",
+   "kind": "sell",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "price": 0.0037963384249238047,
+   "entry": 0.003359,
+   "usd": 0.6581,
+   "pnl": 0.0395,
+   "why": "trailing จากยอด +36% (+13.0%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 369,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ มาร์เก็ตแคป 2M+",
- "rank_t": 1795215203.493513
+ "rank_t": 1795215503.3376508
 }
