@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.9651736831807798,
+ "cash": 0.941122511586879,
  "pos": {
   "4KxtNWc5XTL3cuyc8PJMchqB6RYggvEFeMub727GBAGS": {
    "sym": "SALVOR",
@@ -21,8 +21,8 @@
    "sym": "NIKO",
    "qty": 886.7817493724955,
    "entry": 0.0001313,
-   "last": 0.0001304,
-   "peak": 0.0001319,
+   "last": 0.0001323,
+   "peak": 0.0001323,
    "cost": 0.12001076447393183,
    "opened": "2026-11-20T17:53:51+07:00",
    "zoo": "w_pause_scalp",
@@ -9153,8 +9153,37 @@
    "zoo": "w_pause_scalp",
    "smart": 22,
    "kol": 1
+  },
+  {
+   "t": "2026-11-20T18:23:29+07:00",
+   "kind": "buy",
+   "mint": "J7bLsZcpkfky92ir8k36Munz91nHKtcDNhDy8d3Qpump",
+   "sym": "AMC ",
+   "price": 0.0003461,
+   "jup": 0.0003448179658696792,
+   "usd": 0.1196,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 42,
+   "kol": 10
+  },
+  {
+   "t": "2026-11-20T18:26:01+07:00",
+   "kind": "sell",
+   "mint": "J7bLsZcpkfky92ir8k36Munz91nHKtcDNhDy8d3Qpump",
+   "sym": "AMC ",
+   "price": 0.0002937768604467748,
+   "entry": 0.0003461,
+   "usd": 0.0956,
+   "pnl": -0.0241,
+   "why": "stop -15.1%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 42,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795173437.1758707
+ "rank_t": 1795173742.8561845
 }
