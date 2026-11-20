@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.21696988505960507,
+ "cash": 0.2091005985252032,
  "pos": {
-  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
-   "sym": "USELESS",
-   "qty": 1.2206486973947606,
-   "entry": 0.09944,
-   "last": 0.08625,
-   "peak": 0.1002,
-   "cost": 0.12510957170576684,
-   "opened": "2026-11-20T07:03:43+07:00",
-   "zoo": "randrun",
-   "smart": 927,
-   "kol": 295,
-   "gap": 0,
-   "miss": 0
-  },
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 2.921118046828512,
    "entry": 0.03552,
-   "last": 0.03345,
+   "last": 0.0331,
    "peak": 0.03564,
    "cost": 0.10694507629699933,
    "opened": "2026-11-20T10:45:50+07:00",
@@ -35,13 +21,27 @@
    "sym": "CATE",
    "qty": 7.3342770564136535,
    "entry": 0.01628,
-   "last": 0.01626,
+   "last": 0.01603,
    "peak": 0.01642,
    "cost": 0.12306950162689577,
    "opened": "2026-11-20T20:59:49+07:00",
    "zoo": "randrun",
    "smart": 894,
    "kol": 110,
+   "gap": 0,
+   "miss": 0
+  },
+  "zK42Ztz6TdFUgd1f7cULoJMduX2B91auZpFK7hvpump": {
+   "sym": "DOOMSDAY",
+   "qty": 251.2119543649256,
+   "entry": 0.0004165,
+   "last": 0.0004143,
+   "peak": 0.0004165,
+   "cost": 0.10784351576272058,
+   "opened": "2026-11-20T22:15:23+07:00",
+   "zoo": "randrun",
+   "smart": 34,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -2470,8 +2470,37 @@
    "cost_side": 0.03,
    "smart": 0,
    "bundler": null
+  },
+  {
+   "t": "2026-11-20T22:15:23+07:00",
+   "kind": "buy",
+   "mint": "zK42Ztz6TdFUgd1f7cULoJMduX2B91auZpFK7hvpump",
+   "sym": "DOOMSDAY",
+   "price": 0.0004165,
+   "jup": 0.0004163883658028427,
+   "usd": 0.1078,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "randrun",
+   "smart": 34,
+   "kol": 1
+  },
+  {
+   "t": "2026-11-20T22:15:23+07:00",
+   "kind": "sell",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.0844182028242866,
+   "entry": 0.09944,
+   "usd": 0.1,
+   "pnl": -0.0251,
+   "why": "stop -15.1%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 927,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1795187399.6511426
+ "rank_t": 1795187678.9894981
 }

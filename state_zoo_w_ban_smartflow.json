@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.1349452360411642,
+ "cash": 0.03936073282736724,
  "pos": {
   "GnY6RSduqXgJ3nas2CKTDkNbrm2FXYExFxP7BXYEpump": {
    "sym": "PAUL",
    "qty": 1089.611453581143,
    "entry": 9.883e-05,
-   "last": 0.0001034,
+   "last": 0.00010058430509844238,
    "peak": 0.0001135,
    "cost": 0.11099391873574971,
    "opened": "2026-11-20T06:21:28+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 79,
    "kol": 4,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
    "sym": "paws",
    "qty": 256.3564384292645,
    "entry": 0.0004357,
-   "last": 0.0005015,
+   "last": 0.000503,
    "peak": 0.0005961,
    "cost": 0.11512523214144561,
    "opened": "2026-11-20T06:49:21+07:00",
@@ -35,13 +35,27 @@
    "sym": "Peekhole",
    "qty": 662.8579925423733,
    "entry": 0.0001477,
-   "last": 0.0001535,
+   "last": 0.0001523,
    "peak": 0.0001562079883037332,
    "cost": 0.10091128169295871,
    "opened": "2026-11-20T18:32:42+07:00",
    "zoo": "w_ban_smartflow",
    "smart": 65,
    "kol": 6,
+   "gap": 0,
+   "miss": 0
+  },
+  "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump": {
+   "sym": "RUDY",
+   "qty": 696.2168544896832,
+   "entry": 0.0001332,
+   "last": 0.0001404,
+   "peak": 0.0001457063129042109,
+   "cost": 0.09558450321379697,
+   "opened": "2026-11-20T22:15:27+07:00",
+   "zoo": "w_ban_smartflow",
+   "smart": 78,
+   "kol": 5,
    "gap": 0,
    "miss": 0
   }
@@ -4679,10 +4693,24 @@
    "cost_side": 0.03,
    "smart": 313,
    "bundler": null
+  },
+  {
+   "t": "2026-11-20T22:15:27+07:00",
+   "kind": "buy",
+   "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump",
+   "sym": "RUDY",
+   "price": 0.0001332,
+   "jup": 0.00013394647137741688,
+   "usd": 0.0956,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "w_ban_smartflow",
+   "smart": 78,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795187399.6511426,
+ "rank_t": 1795187678.9894981,
  "banned": {
   "CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": "WOJAK",
   "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": "AURA",
