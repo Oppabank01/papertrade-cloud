@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.0851844476547117,
+ "cash": 0.9651736831807798,
  "pos": {
   "4KxtNWc5XTL3cuyc8PJMchqB6RYggvEFeMub727GBAGS": {
    "sym": "SALVOR",
@@ -14,6 +14,20 @@
    "zoo": "w_pause_scalp",
    "smart": 22,
    "kol": 3,
+   "gap": 0,
+   "miss": 0
+  },
+  "A2MgdY1oU6pqsREQ8eCPhR6DSMrGYaCPXUWUMRXgpump": {
+   "sym": "NIKO",
+   "qty": 886.7817493724955,
+   "entry": 0.0001313,
+   "last": 0.0001319,
+   "peak": 0.0001319,
+   "cost": 0.12001076447393183,
+   "opened": "2026-11-20T17:53:51+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 22,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -9120,10 +9134,27 @@
    "cost_side": 0.03,
    "smart": 37,
    "bundler": null
+  },
+  {
+   "t": "2026-11-20T17:53:51+07:00",
+   "kind": "resume",
+   "why": "ราคา SALVOR สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-20T17:53:51+07:00",
+   "kind": "buy",
+   "mint": "A2MgdY1oU6pqsREQ8eCPhR6DSMrGYaCPXUWUMRXgpump",
+   "sym": "NIKO",
+   "price": 0.0001313,
+   "jup": 0.0001310229173345295,
+   "usd": 0.12,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 22,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795171702.074438,
- "halted": "ราคา SALVOR สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
- "halted_until": "2026-11-20T17:51:25+07:00"
+ "rank_t": 1795171989.5057395
 }
