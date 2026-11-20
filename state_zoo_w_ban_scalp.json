@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.44362567828545324,
+ "cash": 0.3812576107444036,
  "pos": {
   "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump": {
    "sym": "ber",
    "qty": 174.9095888719026,
    "entry": 0.0003509,
-   "last": 0.00032064167274488376,
+   "last": 0.0003211,
    "peak": 0.0003956442132444933,
    "cost": 0.06326095107725276,
    "opened": "2026-11-21T02:38:45+07:00",
    "zoo": "w_ban_scalp",
    "smart": 143,
    "kol": 6,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg": {
    "sym": "USOI",
    "qty": 7.751164688673493,
    "entry": 0.00788,
-   "last": 0.00791,
+   "last": 0.007904,
    "peak": 0.00791,
    "cost": 0.06295524401849838,
    "opened": "2026-11-21T03:17:12+07:00",
@@ -35,13 +35,27 @@
    "sym": "PEAK",
    "qty": 402.22696035047437,
    "entry": 0.0001514,
-   "last": 0.0001586,
+   "last": 0.0001494281307843608,
    "peak": 0.0001586,
    "cost": 0.06276763739132325,
    "opened": "2026-11-21T03:17:12+07:00",
    "zoo": "w_ban_scalp",
    "smart": 125,
    "kol": 11,
+   "gap": 7,
+   "miss": 0
+  },
+  "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": {
+   "sym": "VEIL",
+   "qty": 144.2419526300985,
+   "entry": 0.0004195,
+   "last": 0.0004115,
+   "peak": 0.0004195,
+   "cost": 0.0623680675410496,
+   "opened": "2026-11-21T03:22:08+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 82,
+   "kol": 5,
    "gap": 0,
    "miss": 0
   }
@@ -10284,10 +10298,24 @@
    "zoo": "w_ban_scalp",
    "smart": 125,
    "kol": 11
+  },
+  {
+   "t": "2026-11-21T03:22:08+07:00",
+   "kind": "buy",
+   "mint": "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump",
+   "sym": "VEIL",
+   "price": 0.0004195,
+   "jup": 0.0004193164378288965,
+   "usd": 0.0624,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 82,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795205778.9169621,
+ "rank_t": 1795206056.1103497,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
