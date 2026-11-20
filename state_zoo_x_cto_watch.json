@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 4.84269243940966,
- "pos": {
-  "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
-   "sym": "TROLL",
-   "qty": 170.59302397752336,
-   "entry": 0.02387,
-   "last": 0.02164,
-   "peak": 0.02519,
-   "cost": 4.197129955002559,
-   "opened": "2026-11-16T17:42:43+07:00",
-   "zoo": "x_cto_watch",
-   "smart": 469,
-   "kol": 213,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 8.319430730776045,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-15T22:21:46+07:00",
@@ -530,9 +515,24 @@
    "cost_side": 0.03,
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-20T12:33:55+07:00",
+   "kind": "sell",
+   "mint": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
+   "sym": "TROLL",
+   "price": 0.021006295126117052,
+   "entry": 0.02387,
+   "usd": 3.4767,
+   "pnl": -0.7204,
+   "why": "trailing จากยอด +6% (-12.0%)",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": 469,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รอ dev เทหมดแล้วมี CTO: dev ถือ 0% ซื้อ 40% ขายครึ่ง x3 trail 15% stop -18%",
- "rank_t": 1795152558.9142408,
+ "rank_t": 1795152835.6090546,
  "halted": "ราคา Kimchi สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }
