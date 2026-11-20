@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.3812911940782595,
+ "cash": 0.3684692674292858,
  "pos": {},
  "log": [
   {
@@ -6486,8 +6486,37 @@
    "t": "2026-11-21T02:33:25+07:00",
    "kind": "resume",
    "why": "ราคา CODEC สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-21T02:38:46+07:00",
+   "kind": "buy",
+   "mint": "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump",
+   "sym": "ber",
+   "price": 0.0003509,
+   "jup": 0.0003476412822050085,
+   "usd": 0.0763,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 143,
+   "kol": 6
+  },
+  {
+   "t": "2026-11-21T02:38:55+07:00",
+   "kind": "sell",
+   "mint": "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump",
+   "sym": "ber",
+   "price": 0.000310107296034152,
+   "entry": 0.0003509,
+   "usd": 0.0634,
+   "pnl": -0.0128,
+   "why": "stop -11.6%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 143,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795203161.9155126
+ "rank_t": 1795203454.907396
 }
