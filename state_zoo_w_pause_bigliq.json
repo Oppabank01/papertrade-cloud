@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.133025850803981,
+ "cash": 1.4132151402117499,
  "pos": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 242.2313363051165,
    "entry": 0.002985,
-   "last": 0.003125,
+   "last": 0.003085,
    "peak": 0.003379,
    "cost": 0.7452695721199472,
    "opened": "2026-11-20T19:30:09+07:00",
@@ -21,13 +21,27 @@
    "sym": "USELESS",
    "qty": 8.209503024240885,
    "entry": 0.08827,
-   "last": 0.08659,
+   "last": 0.08654,
    "peak": 0.08846,
    "cost": 0.7469107729846867,
    "opened": "2026-11-20T19:57:39+07:00",
    "zoo": "w_pause_bigliq",
    "smart": 927,
    "kol": 295,
+   "gap": 0,
+   "miss": 0
+  },
+  "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
+   "sym": "CRIME",
+   "qty": 255.43538822845017,
+   "entry": 0.002734,
+   "last": 0.002755,
+   "peak": 0.002755,
+   "cost": 0.7198107105922311,
+   "opened": "2026-11-20T21:28:25+07:00",
+   "zoo": "w_pause_bigliq",
+   "smart": 93,
+   "kol": 40,
    "gap": 0,
    "miss": 0
   }
@@ -2513,8 +2527,22 @@
    "t": "2026-11-20T21:23:43+07:00",
    "kind": "resume",
    "why": "ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-20T21:28:25+07:00",
+   "kind": "buy",
+   "mint": "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump",
+   "sym": "CRIME",
+   "price": 0.002734,
+   "jup": 0.0027611681255402666,
+   "usd": 0.7198,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_bigliq",
+   "smart": 93,
+   "kol": 40
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795184559.8677301
+ "rank_t": 1795184830.9670725
 }
