@@ -1,33 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.16080993595270213,
+ "cash": 0.1538872508104444,
  "pos": {
-  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
-   "sym": "mihao",
-   "qty": 7.306198191660178,
-   "entry": 0.00737,
-   "last": 0.006981,
-   "peak": 0.00737,
-   "cost": 0.055500598508076184,
-   "opened": "2026-11-20T22:25:16+07:00",
-   "zoo": "holders",
-   "smart": 795,
-   "kol": 74,
-   "gap": 0,
-   "miss": 0
-  },
   "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": {
    "sym": "HOGE",
    "qty": 53.63017330274015,
    "entry": 0.0009611,
-   "last": 0.0009611,
+   "last": 0.0009389,
    "peak": 0.0009611,
    "cost": 0.053127148589222385,
    "opened": "2026-11-20T22:39:21+07:00",
    "zoo": "holders",
    "smart": 217,
    "kol": 12,
+   "gap": 0,
+   "miss": 0
+  },
+  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
+   "sym": "GATO",
+   "qty": 12.689862569171343,
+   "entry": 0.004027,
+   "last": 0.004027,
+   "peak": 0.004027,
+   "cost": 0.052671693017989074,
+   "opened": "2026-11-20T22:44:10+07:00",
+   "zoo": "holders",
+   "smart": 70,
+   "kol": 5,
    "gap": 0,
    "miss": 0
   }
@@ -6572,8 +6572,37 @@
    "zoo": "holders",
    "smart": 217,
    "kol": 12
+  },
+  {
+   "t": "2026-11-20T22:44:10+07:00",
+   "kind": "buy",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "price": 0.004027,
+   "jup": 0.004046244455929666,
+   "usd": 0.0527,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 70,
+   "kol": 5
+  },
+  {
+   "t": "2026-11-20T22:44:12+07:00",
+   "kind": "sell",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.006454,
+   "entry": 0.00737,
+   "usd": 0.0457,
+   "pnl": -0.0098,
+   "why": "stop -12.4%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 795,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1795189134.111857
+ "rank_t": 1795189406.30725
 }
