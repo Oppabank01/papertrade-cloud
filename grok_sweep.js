@@ -9,13 +9,12 @@ const PANE = process.argv[3], sleep = ms => new Promise(r => setTimeout(r, ms));
 const ev = async js => (await send("Runtime.evaluate", { expression: "(()=>{" + PANE + js + "})()", returnByValue: true }))?.result?.value;
 const ITEMS = "return JSON.stringify(s?[...s.querySelectorAll('[data-dm-item-key]')].map(e=>[e.dataset.dmItemKey,e.textContent]):[])";
 const frame = () => send("Page.captureScreenshot", { format: "jpeg", quality: 10, clip: { x: 0, y: 0, width: 40, height: 40, scale: 0.2 } });
-const want = process.argv[5], got = {};   // fill mode: wheel up until a message containing `want` loads, allow 15 min
-setTimeout(() => { process.stdout.write(JSON.stringify(got)); process.exit(2); }, want ? 900000 : 150000);   // keep what was read
+const want = process.argv[5], got = {};   // fill mode: wheel up until a message containing `want` loads, allow 60 min
+setTimeout(() => { process.stdout.write(JSON.stringify(got)); process.exit(2); }, want ? 3600000 : 150000);   // keep what was read
 ws.onopen = async () => {
   await send("Page.enable");
-  await send("Emulation.setFocusEmulationEnabled", { enabled: true });
-  // a minimized or tiny window (innerWidth 8 seen 20 Nov) collapses X's layout: give the page its own 1280x900 viewport
-  await send("Emulation.setDeviceMetricsOverride", { width: 1280, height: 900, deviceScaleFactor: 1, mobile: false });
+  // no Emulation.* here: grok_keeper.js holds the 1280x900 viewport, and a session that set emulation clears it for the
+  // whole tab when it disconnects (seen 20 Nov: innerWidth back to 4 px after a sweep)
   if (process.argv[4] === "1") { await send("Page.reload"); await sleep(4000); }
   let xy = null;
   for (let i = 0; i < 20 && !xy; i++) {
@@ -25,7 +24,7 @@ ws.onopen = async () => {
     if (!xy) await sleep(2000);
   }
   if (!xy) process.exit(3);
-  for (let i = 0; want && i < 400 && !Object.values(got).some(v => v.includes(want)); i++) {
+  for (let i = 0; want && i < 3000 && !Object.values(got).some(v => v.includes(want)); i++) {
     for (const [k, v] of JSON.parse(await ev(ITEMS) || "[]")) got[k] = v;
     await send("Input.dispatchMouseEvent", { type: "mouseWheel", x: xy[0], y: xy[1], deltaX: 0, deltaY: -1200 });
     await frame();
