@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.17946972749458476,
+ "cash": 0.056334094220950384,
  "pos": {
   "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": {
    "sym": "GTA",
    "qty": 290.91049061720406,
    "entry": 0.0002113,
-   "last": 0.0002283,
+   "last": 0.0002279,
    "peak": 0.0002283,
    "cost": 0.06335743832963844,
    "opened": "2026-11-20T17:01:46+07:00",
@@ -28,7 +28,35 @@
    "zoo": "holders",
    "smart": 117,
    "kol": 5,
-   "gap": 2,
+   "gap": 0,
+   "miss": 0
+  },
+  "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
+   "sym": "baton",
+   "qty": 20.295268416493627,
+   "entry": 0.002952,
+   "last": 0.002985,
+   "peak": 0.002985,
+   "cost": 0.06175183711140919,
+   "opened": "2026-11-20T19:29:50+07:00",
+   "zoo": "holders",
+   "smart": 730,
+   "kol": 80,
+   "gap": 0,
+   "miss": 0
+  },
+  "5Kjxg6X13axntM98AxJGjNQCB82YZWhSnvJVX78cpump": {
+   "sym": "DOOM",
+   "qty": 97.15262485577628,
+   "entry": 0.000613,
+   "last": 0.000613,
+   "peak": 0.000613,
+   "cost": 0.06138379616222518,
+   "opened": "2026-11-20T19:29:52+07:00",
+   "zoo": "holders",
+   "smart": 65,
+   "kol": 5,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -6427,8 +6455,36 @@
    "zoo": "holders",
    "smart": 117,
    "kol": 5
+  },
+  {
+   "t": "2026-11-20T19:29:50+07:00",
+   "kind": "buy",
+   "mint": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
+   "sym": "baton",
+   "price": 0.002952,
+   "jup": 0.002974027986226957,
+   "usd": 0.0618,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 730,
+   "kol": 80
+  },
+  {
+   "t": "2026-11-20T19:29:52+07:00",
+   "kind": "buy",
+   "mint": "5Kjxg6X13axntM98AxJGjNQCB82YZWhSnvJVX78cpump",
+   "sym": "DOOM",
+   "price": 0.000613,
+   "jup": 0.0006089747188092545,
+   "usd": 0.0614,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 65,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1795177451.120128
+ "rank_t": 1795177751.9608455
 }
