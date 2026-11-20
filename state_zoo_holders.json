@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.16853222393642328,
+ "cash": 0.08615341353018167,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 2.232977602414403,
    "entry": 0.03736,
-   "last": 0.03558,
+   "last": 0.03552,
    "peak": 0.03748,
    "cost": 0.0859864391117317,
    "opened": "2026-11-20T07:40:58+07:00",
@@ -21,28 +21,42 @@
    "sym": "BP",
    "qty": 33.36957027239056,
    "entry": 0.002494,
-   "last": 0.00249,
-   "peak": 0.002515,
+   "last": 0.002527,
+   "peak": 0.002527,
    "cost": 0.08577995079297265,
    "opened": "2026-11-20T07:50:42+07:00",
    "zoo": "holders",
    "smart": 184,
    "kol": 33,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "GT8WxWKEgxzZiKL89Uu288vb8jnescwpNSrvyHzcpump": {
    "sym": "RUGGED",
    "qty": 191.02400147158542,
    "entry": 0.0004231,
-   "last": 0.0004231,
+   "last": 0.0004211,
    "peak": 0.0004231,
    "cost": 0.0833047361602018,
    "opened": "2026-11-20T10:31:46+07:00",
    "zoo": "holders",
    "smart": 137,
    "kol": 11,
-   "gap": 0,
+   "gap": 1,
+   "miss": 0
+  },
+  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
+   "sym": "Macca",
+   "qty": 275.0307015008107,
+   "entry": 0.0002906,
+   "last": 0.0002932818527955572,
+   "peak": 0.0002932818527955572,
+   "cost": 0.0823788104062416,
+   "opened": "2026-11-20T10:36:08+07:00",
+   "zoo": "holders",
+   "smart": 193,
+   "kol": 12,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -6020,8 +6034,22 @@
    "cost_side": 0.03,
    "smart": 30,
    "bundler": null
+  },
+  {
+   "t": "2026-11-20T10:36:08+07:00",
+   "kind": "buy",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.0002906,
+   "jup": 0.0002932818527955572,
+   "usd": 0.0824,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 193,
+   "kol": 12
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1795145466.786572
+ "rank_t": 1795145746.5776525
 }
