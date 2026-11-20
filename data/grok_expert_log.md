@@ -2,7 +2,7 @@
 
 ## Meme expert (S8, 19 พ.ย. 17:20 ถึง 20 พ.ย.)
 
-ผลตามที่ Grok รายงาน: -10.5% (equity $44.73 at 15:40) | รอบที่รายงาน 210 | ไม้ที่ราคาตรวจไม่ผ่าน 0 จาก 45 | เหรียญที่ดูแต่ไม่ซื้อ (SEEN) 530 บรรทัด
+ผลตามที่ Grok รายงาน: -10.9% (equity $44.57 at 15:45) | รอบที่รายงาน 211 | ไม้ที่ราคาตรวจไม่ผ่าน 0 จาก 46 | เหรียญที่ดูแต่ไม่ซื้อ (SEEN) 534 บรรทัด
 
 - OK 17:29 BUY DCTY px=0.01282 | range 0.01251..0.01372 outside by +0.0% | vs close +0.4% | 1h change then +11% | liq now $504,394
 - OK 17:49 SELL DCTY px=0.01551 | range 0.01314..0.01648 outside by +0.0% | vs close -3.0% | 1h change then +31% | liq now $504,394
@@ -49,6 +49,7 @@
 - OK 13:18 BUY iAgent px=0.002556 | range 0.00247..0.002622 outside by +0.0% | vs close -0.7% | 1h change then +25% | liq now $97,498
 - OK 14:00 SELL iAgent px=0.002362 | range 0.002015..0.002817 outside by +0.0% | vs close +2.5% | 1h change then +2% | liq now $97,498
 - OK 14:31 BUY HOGE px=0.001255 | range 0.001108..0.001309 outside by +0.0% | vs close -0.1% | 1h change then +21% | liq now $137,134
+- OK 15:45 BUY FIONA px=0.003224 | range 0.002621..0.003327 outside by +0.0% | vs close +2.3% | 1h change then +48% | liq now $149,406
 
 ## Meme expert 2 (S9 คำสั่งเดียวกับ S8 บัญชีแยก ไว้ดูว่าเป็นฝีมือหรือดวง เริ่ม 19 พ.ย. ราว 22:00)
 
