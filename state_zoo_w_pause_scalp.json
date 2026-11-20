@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.0280800692372896,
+ "cash": 0.8812412395903269,
  "pos": {
   "8nnaeWCw8mUypcGAgbmSuzAT85uWx4UN12adDrMhXrGF": {
    "sym": "HOTBOT",
    "qty": 169.64909704519087,
    "entry": 0.0008389,
-   "last": 0.0008696,
+   "last": 0.000861,
    "peak": 0.0009423,
    "cost": 0.14668998918904413,
    "opened": "2026-11-20T07:17:54+07:00",
@@ -21,27 +21,41 @@
    "sym": "BP",
    "qty": 58.62444827385741,
    "entry": 0.002494,
-   "last": 0.002416,
+   "last": 0.002409,
    "peak": 0.002494,
    "cost": 0.15070024118223088,
    "opened": "2026-11-20T07:50:58+07:00",
    "zoo": "w_pause_scalp",
    "smart": 184,
    "kol": 33,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": {
    "sym": "Huss",
    "qty": 715.7987954653975,
    "entry": 0.0001999,
-   "last": 0.0002134,
-   "peak": 0.0002134,
+   "last": 0.000222,
+   "peak": 0.000222,
    "cost": 0.14748317791541224,
    "opened": "2026-11-20T08:38:55+07:00",
    "zoo": "w_pause_scalp",
    "smart": 66,
    "kol": 2,
+   "gap": 0,
+   "miss": 0
+  },
+  "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": {
+   "sym": "GTA",
+   "qty": 551.7545798740636,
+   "entry": 0.0002582,
+   "last": 0.0002521,
+   "peak": 0.0002582,
+   "cost": 0.1468388296469627,
+   "opened": "2026-11-20T08:43:33+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 313,
+   "kol": 18,
    "gap": 0,
    "miss": 0
   }
@@ -8470,8 +8484,22 @@
    "zoo": "w_pause_scalp",
    "smart": 66,
    "kol": 2
+  },
+  {
+   "t": "2026-11-20T08:43:33+07:00",
+   "kind": "buy",
+   "mint": "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump",
+   "sym": "GTA",
+   "price": 0.0002582,
+   "jup": 0.00025782711698185977,
+   "usd": 0.1468,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 313,
+   "kol": 18
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795138686.8900478
+ "rank_t": 1795138967.6868448
 }
