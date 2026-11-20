@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.2139370845419245,
+ "cash": 0.16080993595270213,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 7.306198191660178,
    "entry": 0.00737,
-   "last": 0.007076,
+   "last": 0.006981,
    "peak": 0.00737,
    "cost": 0.055500598508076184,
    "opened": "2026-11-20T22:25:16+07:00",
    "zoo": "holders",
    "smart": 795,
    "kol": 74,
+   "gap": 0,
+   "miss": 0
+  },
+  "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": {
+   "sym": "HOGE",
+   "qty": 53.63017330274015,
+   "entry": 0.0009611,
+   "last": 0.0009611,
+   "peak": 0.0009611,
+   "cost": 0.053127148589222385,
+   "opened": "2026-11-20T22:39:21+07:00",
+   "zoo": "holders",
+   "smart": 217,
+   "kol": 12,
    "gap": 0,
    "miss": 0
   }
@@ -6544,8 +6558,22 @@
    "cost_side": 0.03,
    "smart": 730,
    "bundler": null
+  },
+  {
+   "t": "2026-11-20T22:39:21+07:00",
+   "kind": "buy",
+   "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+   "sym": "HOGE",
+   "price": 0.0009611,
+   "jup": 0.0009690543114645869,
+   "usd": 0.0531,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 217,
+   "kol": 12
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1795188851.6978672
+ "rank_t": 1795189134.111857
 }
