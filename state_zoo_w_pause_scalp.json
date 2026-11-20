@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.1522364986376246,
+ "cash": 1.2668445787205125,
  "pos": {
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": {
    "sym": "OTC",
    "qty": 68.98738095493206,
    "entry": 0.002022,
-   "last": 0.002016,
-   "peak": 0.002046,
+   "last": 0.002032,
+   "peak": 0.002061,
    "cost": 0.1437770400854181,
    "opened": "2026-11-20T09:11:45+07:00",
    "zoo": "w_pause_scalp",
    "smart": 526,
    "kol": 55,
-   "gap": 0,
-   "miss": 0
-  },
-  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
-   "sym": "DacityCoin",
-   "qty": 345.0181014331079,
-   "entry": 0.0004031,
-   "last": 0.0003575592815180792,
-   "peak": 0.0004515,
-   "cost": 0.14334858450596352,
-   "opened": "2026-11-20T09:11:45+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 351,
-   "kol": 29,
-   "gap": 1,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -8592,8 +8578,23 @@
    "t": "2026-11-20T10:41:14+07:00",
    "kind": "resume",
    "why": "ราคา ETCHY สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-20T10:47:45+07:00",
+   "kind": "sell",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.0003423829156712399,
+   "entry": 0.0004031,
+   "usd": 0.1146,
+   "pnl": -0.0287,
+   "why": "stop -15.1%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 351,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795146019.9384162
+ "rank_t": 1795146304.6057577
 }
