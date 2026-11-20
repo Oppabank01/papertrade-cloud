@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.13927690700291764,
+ "cash": 0.06526890814556666,
  "pos": {
   "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
    "sym": "Macca",
    "qty": 275.0307015008107,
    "entry": 0.0002906,
-   "last": 0.0002968,
+   "last": 0.0002964,
    "peak": 0.0003357,
    "cost": 0.0823788104062416,
    "opened": "2026-11-20T10:36:08+07:00",
@@ -28,21 +28,35 @@
    "zoo": "holders",
    "smart": 884,
    "kol": 205,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "44DZsPNJUtUyTkELAFYdwCpe82sEt12HZKrMgK1Spump": {
    "sym": "iAgent",
    "qty": 34.75875804252527,
    "entry": 0.00212,
-   "last": 0.002273,
+   "last": 0.002121,
    "peak": 0.002281,
    "cost": 0.075951934704343,
    "opened": "2026-11-20T11:18:30+07:00",
    "zoo": "holders",
    "smart": 4,
    "kol": 0,
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+   "sym": "USELESS",
+   "qty": 0.7699180837594032,
+   "entry": 0.09326,
+   "last": 0.09319,
+   "peak": 0.09326,
+   "cost": 0.07400799885735099,
+   "opened": "2026-11-20T11:38:04+07:00",
+   "zoo": "holders",
+   "smart": 927,
+   "kol": 295,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -6136,8 +6150,22 @@
    "cost_side": 0.03,
    "smart": 202,
    "bundler": null
+  },
+  {
+   "t": "2026-11-20T11:38:04+07:00",
+   "kind": "buy",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.09326,
+   "jup": 0.09283929045921521,
+   "usd": 0.074,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 927,
+   "kol": 295
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1795149146.324406
+ "rank_t": 1795149440.1453967
 }
