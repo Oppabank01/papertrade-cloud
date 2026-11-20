@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.43376536477966193,
+ "cash": 0.42157701236785683,
  "pos": {
-  "A2MgdY1oU6pqsREQ8eCPhR6DSMrGYaCPXUWUMRXgpump": {
-   "sym": "NIKO",
-   "qty": 543.8533950513096,
-   "entry": 0.0001313,
-   "last": 0.0001125,
-   "peak": 0.0001323,
-   "cost": 0.07360126857373421,
-   "opened": "2026-11-20T17:53:50+07:00",
-   "zoo": "w_ban_scalp",
-   "smart": 22,
-   "kol": 1,
-   "gap": 0,
-   "miss": 0
-  },
   "2giC2MXhhENo4jkbRjfAgNAZboTJtXZTsSFbMZKwpump": {
    "sym": "KERMIT",
    "qty": 269.227937957246,
@@ -49,13 +35,27 @@
    "sym": "baton",
    "qty": 23.020387499543116,
    "entry": 0.002985,
-   "last": 0.003088,
-   "peak": 0.003099,
+   "last": 0.003323,
+   "peak": 0.003323,
    "cost": 0.07082648596798206,
    "opened": "2026-11-20T19:30:09+07:00",
    "zoo": "w_ban_scalp",
    "smart": 730,
    "kol": 80,
+   "gap": 0,
+   "miss": 0
+  },
+  "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
+   "sym": "WASTED",
+   "qty": 78.24012585004526,
+   "entry": 0.0008761,
+   "last": 0.0008945,
+   "peak": 0.0008945,
+   "cost": 0.07065159168957395,
+   "opened": "2026-11-20T19:44:02+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 124,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -9834,10 +9834,39 @@
    "zoo": "w_ban_scalp",
    "smart": 730,
    "kol": 80
+  },
+  {
+   "t": "2026-11-20T19:44:02+07:00",
+   "kind": "buy",
+   "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+   "sym": "WASTED",
+   "price": 0.0008761,
+   "jup": 0.0008814086563123072,
+   "usd": 0.0707,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 124,
+   "kol": 1
+  },
+  {
+   "t": "2026-11-20T19:46:35+07:00",
+   "kind": "sell",
+   "mint": "A2MgdY1oU6pqsREQ8eCPhR6DSMrGYaCPXUWUMRXgpump",
+   "sym": "NIKO",
+   "price": 0.0001108,
+   "entry": 0.0001313,
+   "usd": 0.0585,
+   "pnl": -0.0151,
+   "why": "stop -15.6%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 22,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795178298.2505846,
+ "rank_t": 1795178581.2324321,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
