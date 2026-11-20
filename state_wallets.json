@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 4.929276119553255,
- "pos": {
-  "XsCPL9dNWBMvFtTmwcCA5v3xWPSMEBCszbQdiLLq6aN": {
-   "sym": "GOOGLx",
-   "qty": 0.004389602095670015,
-   "entry": 272.37,
-   "last": 276.53,
-   "peak": 276.53,
-   "cost": 1.2323190298883138,
-   "opened": "2026-11-20T14:47:51+07:00",
-   "wallet": "ENskGQ",
-   "wallet_usd": 233,
-   "lag_min": 3.8,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 6.105213753676098,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T10:36:33+07:00",
@@ -7446,6 +7431,21 @@
    "wallet": "2kN7bb",
    "usd": 328,
    "why": "liq $11,720"
+  },
+  {
+   "t": "2026-11-20T17:49:11+07:00",
+   "kind": "sell",
+   "mint": "XsCPL9dNWBMvFtTmwcCA5v3xWPSMEBCszbQdiLLq6aN",
+   "sym": "GOOGLx",
+   "price": 276.12,
+   "entry": 272.37,
+   "usd": 1.1759,
+   "pnl": -0.0564,
+   "why": "ครบ 3 ชม. (+1.4%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ ผ่าน Helius",
