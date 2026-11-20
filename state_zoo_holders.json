@@ -1,19 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.33025429510294063,
+ "cash": 0.34682492755997835,
  "pos": {
-  "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": {
-   "sym": "BTC",
-   "qty": 99.71229921842256,
-   "entry": 0.0009483,
-   "last": 0.001164,
-   "peak": 0.0012551324901608893,
-   "cost": 0.09746152684892817,
-   "opened": "2026-11-20T04:14:05+07:00",
+  "8nnaeWCw8mUypcGAgbmSuzAT85uWx4UN12adDrMhXrGF": {
+   "sym": "HOTBOT",
+   "qty": 103.23497268653418,
+   "entry": 0.0008389,
+   "last": 0.0008389,
+   "peak": 0.0008389,
+   "cost": 0.08926388227863691,
+   "opened": "2026-11-20T07:17:41+07:00",
    "zoo": "holders",
-   "smart": 802,
-   "kol": 70,
+   "smart": 174,
+   "kol": 15,
    "gap": 0,
    "miss": 0
   }
@@ -5877,8 +5877,37 @@
    "cost_side": 0.03,
    "smart": 130,
    "bundler": null
+  },
+  {
+   "t": "2026-11-20T07:17:41+07:00",
+   "kind": "buy",
+   "mint": "8nnaeWCw8mUypcGAgbmSuzAT85uWx4UN12adDrMhXrGF",
+   "sym": "HOTBOT",
+   "price": 0.0008389,
+   "jup": 0.0008428312592938898,
+   "usd": 0.0893,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 174,
+   "kol": 15
+  },
+  {
+   "t": "2026-11-20T07:17:43+07:00",
+   "kind": "sell",
+   "mint": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+   "sym": "BTC",
+   "price": 0.001094,
+   "entry": 0.0009483,
+   "usd": 0.1058,
+   "pnl": 0.0084,
+   "why": "ครบ 3 ชม. (+15.4%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 802,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1795133527.9006226
+ "rank_t": 1795133812.6810217
 }
