@@ -1,16 +1,29 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.46384203323685486,
+ "cash": 0.3485815175197359,
  "pos": {
   "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg": {
    "sym": "USOI",
    "qty": 14.779937619758165,
    "entry": 0.007612,
-   "last": 0.007609,
+   "last": 0.007607,
    "peak": 0.007614,
    "cost": 0.11596050830921373,
    "opened": "2026-11-20T19:01:05+07:00",
+   "smart": 5,
+   "kol": 0,
+   "gap": 0,
+   "miss": 0
+  },
+  "4vKCXrsv3p4hvX9Y33Fw2eeWEsjb3Vw4waU7X7Qppump": {
+   "sym": "CAT",
+   "qty": 2202.1613302234896,
+   "entry": 5.078e-05,
+   "last": 5.078e-05,
+   "peak": 5.078e-05,
+   "cost": 0.11526051571711896,
+   "opened": "2026-11-20T20:54:58+07:00",
    "smart": 5,
    "kol": 0,
    "gap": 0,
@@ -1147,8 +1160,21 @@
    "cost_side": 0.03,
    "smart": 5,
    "kol": 0
+  },
+  {
+   "t": "2026-11-20T20:54:58+07:00",
+   "kind": "buy",
+   "mint": "4vKCXrsv3p4hvX9Y33Fw2eeWEsjb3Vw4waU7X7Qppump",
+   "sym": "CAT",
+   "price": 5.078e-05,
+   "jup": 5.036478152905999e-05,
+   "usd": 0.1153,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 5,
+   "kol": 0
   }
  ],
  "label": "สูตร x_insider4 (คู่ใหม่ + top trader)",
- "rank_t": 1795182573.543867
+ "rank_t": 1795182860.7276547
 }
