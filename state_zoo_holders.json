@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.260322936582018,
+ "cash": 0.1743364974702863,
  "pos": {
   "8nnaeWCw8mUypcGAgbmSuzAT85uWx4UN12adDrMhXrGF": {
    "sym": "HOTBOT",
    "qty": 103.23497268653418,
    "entry": 0.0008389,
-   "last": 0.00083,
+   "last": 0.0008378,
    "peak": 0.0008512,
    "cost": 0.08926388227863691,
    "opened": "2026-11-20T07:17:41+07:00",
@@ -21,13 +21,27 @@
    "sym": "SOLPUMP",
    "qty": 3.4508318933724147,
    "entry": 0.02432,
-   "last": 0.02432,
+   "last": 0.02395,
    "peak": 0.02432,
    "cost": 0.08650199097796035,
    "opened": "2026-11-20T07:31:26+07:00",
    "zoo": "holders",
    "smart": 30,
    "kol": 19,
+   "gap": 0,
+   "miss": 0
+  },
+  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
+   "sym": "STONK",
+   "qty": 2.232977602414403,
+   "entry": 0.03736,
+   "last": 0.03736,
+   "peak": 0.03736,
+   "cost": 0.0859864391117317,
+   "opened": "2026-11-20T07:40:58+07:00",
+   "zoo": "holders",
+   "smart": 1000,
+   "kol": 174,
    "gap": 0,
    "miss": 0
   }
@@ -5934,8 +5948,22 @@
    "zoo": "holders",
    "smart": 30,
    "kol": 19
+  },
+  {
+   "t": "2026-11-20T07:40:58+07:00",
+   "kind": "buy",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.03736,
+   "jup": 0.03736012608415367,
+   "usd": 0.086,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "holders",
+   "smart": 1000,
+   "kol": 174
   }
  ],
  "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
- "rank_t": 1795134923.0359747
+ "rank_t": 1795135222.4801605
 }
