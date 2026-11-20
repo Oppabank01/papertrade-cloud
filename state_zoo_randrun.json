@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.043550946835961904,
+ "cash": 0.2791188618460164,
  "pos": {
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 26.095591362710213,
    "entry": 0.00603,
-   "last": 0.00574,
+   "last": 0.005708,
    "peak": 0.00603,
    "cost": 0.1621896680242657,
    "opened": "2026-11-20T04:09:09+07:00",
@@ -21,7 +21,7 @@
    "sym": "USELESS",
    "qty": 1.2206486973947606,
    "entry": 0.09944,
-   "last": 0.09546,
+   "last": 0.0955,
    "peak": 0.1002,
    "cost": 0.12510957170576684,
    "opened": "2026-11-20T07:03:43+07:00",
@@ -31,25 +31,11 @@
    "gap": 0,
    "miss": 0
   },
-  "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": {
-   "sym": "Huss",
-   "qty": 581.4535835517194,
-   "entry": 0.0001984,
-   "last": 0.0004794,
-   "peak": 0.0005927,
-   "cost": 0.11890372188895189,
-   "opened": "2026-11-20T07:22:00+07:00",
-   "zoo": "randrun",
-   "smart": 66,
-   "kol": 2,
-   "gap": 0,
-   "miss": 0
-  },
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 2.921118046828512,
    "entry": 0.03552,
-   "last": 0.03519,
+   "last": 0.03528,
    "peak": 0.03564,
    "cost": 0.10694507629699933,
    "opened": "2026-11-20T10:45:50+07:00",
@@ -2324,8 +2310,23 @@
    "zoo": "randrun",
    "smart": 1000,
    "kol": 174
+  },
+  {
+   "t": "2026-11-20T13:17:00+07:00",
+   "kind": "sell",
+   "mint": "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump",
+   "sym": "Huss",
+   "price": 0.0004175801214898747,
+   "entry": 0.0001984,
+   "usd": 0.2356,
+   "pnl": 0.1167,
+   "why": "trailing จากยอด +199% (+110.5%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 66,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1795155118.1267083
+ "rank_t": 1795155399.0706944
 }
