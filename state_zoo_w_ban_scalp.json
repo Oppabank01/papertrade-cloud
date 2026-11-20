@@ -7,14 +7,14 @@
    "sym": "GATO",
    "qty": 18.436317166389355,
    "entry": 0.003276,
-   "last": 0.003362,
+   "last": 0.003425,
    "peak": 0.003575,
    "cost": 0.06225249952287315,
    "opened": "2026-11-21T04:43:32+07:00",
    "zoo": "w_ban_scalp",
    "smart": 70,
    "kol": 5,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "HcfnJxLov6tY8i1dq9uYRRZKCvxADPpovcfkyXzdpump": {
@@ -28,21 +28,21 @@
    "zoo": "w_ban_scalp",
    "smart": 79,
    "kol": 7,
-   "gap": 9,
+   "gap": 21,
    "miss": 0
   },
   "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX": {
    "sym": "Trader",
    "qty": 291.36364163613433,
    "entry": 0.0002052,
-   "last": 0.0002299,
-   "peak": 0.0002299,
+   "last": 0.0001864,
+   "peak": 0.00023024412672833616,
    "cost": 0.06162422105105625,
    "opened": "2026-11-21T05:25:46+07:00",
    "zoo": "w_ban_scalp",
    "smart": 75,
    "kol": 3,
-   "gap": 11,
+   "gap": 6,
    "miss": 0
   }
  },
@@ -10508,10 +10508,24 @@
    "cost_side": 0.03,
    "smart": 256,
    "bundler": null
+  },
+  {
+   "t": "2026-11-21T05:39:54+07:00",
+   "kind": "ban",
+   "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
+   "sym": "Trader",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-21T05:40:41+07:00",
+   "kind": "ban",
+   "mint": "HcfnJxLov6tY8i1dq9uYRRZKCvxADPpovcfkyXzdpump",
+   "sym": "Chonketha",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795214055.145586,
+ "rank_t": 1795214346.0497975,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
@@ -10554,6 +10568,8 @@
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
   "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": "PEAK",
   "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg": "USOI",
-  "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL"
+  "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
+  "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX": "Trader",
+  "HcfnJxLov6tY8i1dq9uYRRZKCvxADPpovcfkyXzdpump": "Chonketha"
  }
 }
