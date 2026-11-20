@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.7083991231991942,
+ "cash": 0.7220415477811423,
  "pos": {
   "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": {
    "sym": "WISHMAS",
    "qty": 622.4896118202184,
    "entry": 0.00022,
-   "last": 0.000221,
-   "peak": 0.0002224,
+   "last": 0.0002228,
+   "peak": 0.0002228,
    "cost": 0.14115410698871167,
    "opened": "2026-11-20T11:33:15+07:00",
    "zoo": "w_pause_scalp",
@@ -21,8 +21,8 @@
    "sym": "GRINCH",
    "qty": 2568.1548715750027,
    "entry": 5.25e-05,
-   "last": 5.249e-05,
-   "peak": 5.25e-05,
+   "last": 5.263e-05,
+   "peak": 5.263e-05,
    "cost": 0.1389694194575218,
    "opened": "2026-11-20T11:57:05+07:00",
    "zoo": "w_pause_scalp",
@@ -35,28 +35,14 @@
    "sym": "BRUH",
    "qty": 25.129494918152222,
    "entry": 0.005359,
-   "last": 0.005354,
-   "peak": 0.005426,
+   "last": 0.005495,
+   "peak": 0.005495,
    "cost": 0.138805363086351,
    "opened": "2026-11-20T12:11:34+07:00",
    "zoo": "w_pause_scalp",
    "smart": 3,
    "kol": 0,
    "gap": 0,
-   "miss": 0
-  },
-  "86hUfyujsZsWkWtcCumFzJNwuDAkzqGHDrFJvyGxpump": {
-   "sym": "FLOAT",
-   "qty": 484.1094110008456,
-   "entry": 0.0002797,
-   "last": 0.0003036,
-   "peak": 0.0003036,
-   "cost": 0.13956442203353592,
-   "opened": "2026-11-20T12:35:00+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 2,
-   "kol": 0,
-   "gap": 1,
    "miss": 0
   },
   "Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": {
@@ -70,6 +56,20 @@
    "zoo": "w_pause_scalp",
    "smart": 358,
    "kol": 34,
+   "gap": 0,
+   "miss": 0
+  },
+  "A9FBHUz352WGYC3GUpPdQe1bKUCLojvLMsa5uxatuYwn": {
+   "sym": "AFTERHOURS",
+   "qty": 478.86190183149614,
+   "entry": 0.0002842,
+   "last": 0.0002828,
+   "peak": 0.0002842,
+   "cost": 0.14027267831427667,
+   "opened": "2026-11-20T12:39:20+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 36,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -8821,8 +8821,37 @@
    "cost_side": 0.03,
    "smart": 0,
    "bundler": null
+  },
+  {
+   "t": "2026-11-20T12:39:20+07:00",
+   "kind": "buy",
+   "mint": "A9FBHUz352WGYC3GUpPdQe1bKUCLojvLMsa5uxatuYwn",
+   "sym": "AFTERHOURS",
+   "price": 0.0002842,
+   "jup": 0.00028375236394616137,
+   "usd": 0.1403,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 36,
+   "kol": 1
+  },
+  {
+   "t": "2026-11-20T12:39:22+07:00",
+   "kind": "sell",
+   "mint": "86hUfyujsZsWkWtcCumFzJNwuDAkzqGHDrFJvyGxpump",
+   "sym": "FLOAT",
+   "price": 0.0003277,
+   "entry": 0.0002797,
+   "usd": 0.1539,
+   "pnl": 0.0144,
+   "why": "ถึงเป้า +17.2%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 2,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795152835.6090546
+ "rank_t": 1795153110.0936885
 }
