@@ -2,7 +2,7 @@
 
 ## Meme expert (S8, 19 พ.ย. 17:20 ถึง 20 พ.ย.)
 
-ผลตามที่ Grok รายงาน: +8.8% (equity $54.40 at 00:46) | รอบที่รายงาน 87 | ไม้ที่ราคาตรวจไม่ผ่าน 0 จาก 17 | เหรียญที่ดูแต่ไม่ซื้อ (SEEN) 143 บรรทัด
+ผลตามที่ Grok รายงาน: -10.8% (equity $44.62 at 12:26) | รอบที่รายงาน 101 | ไม้ที่ราคาตรวจไม่ผ่าน 0 จาก 19 | เหรียญที่ดูแต่ไม่ซื้อ (SEEN) 160 บรรทัด
 
 - OK 17:29 BUY DCTY px=0.01282 | range 0.01251..0.01372 outside by +0.0% | vs close +0.4% | 1h change then +11% | liq now $504,394
 - OK 17:49 SELL DCTY px=0.01551 | range 0.01314..0.01648 outside by +0.0% | vs close -3.0% | 1h change then +31% | liq now $504,394
@@ -21,10 +21,12 @@
 - OK 22:50 BUY AI px=0.0004487 | range 0.0003157..0.000563 outside by +0.0% | vs close -8.2% | 1h change then ? | liq now $145,008
 - OK 22:58 SELL AI px=0.0003994 | range 0.0002228..0.0004833 outside by +0.0% | vs close +5.8% | 1h change then ? | liq now $145,008
 - OK 23:21 BUY Leonida px=0.002406 | range 0.002231..0.002625 outside by +0.0% | vs close -0.8% | 1h change then +12% | liq now $124,509
+- OK 11:30 BUY LOOSY px=0.001441 | range 0.001394..0.00165 outside by +0.0% | vs close -4.6% | 1h change then +14% | liq now $78,769
+- OK 12:14 SELL LOOSY px=0.001216 | range 0.001091..0.001476 outside by +0.0% | vs close +7.2% | 1h change then -17% | liq now $78,769
 
 ## Meme expert 2 (S9 คำสั่งเดียวกับ S8 บัญชีแยก ไว้ดูว่าเป็นฝีมือหรือดวง เริ่ม 19 พ.ย. ราว 22:00)
 
-ผลตามที่ Grok รายงาน: -10.0% (equity $44.99 at 00:50) | รอบที่รายงาน 36 | ไม้ที่ราคาตรวจไม่ผ่าน 1 จาก 15 | เหรียญที่ดูแต่ไม่ซื้อ (SEEN) 125 บรรทัด
+ผลตามที่ Grok รายงาน: -34.8% (equity $32.62 at 12:22) | รอบที่รายงาน 45 | ไม้ที่ราคาตรวจไม่ผ่าน 2 จาก 20 | เหรียญที่ดูแต่ไม่ซื้อ (SEEN) 166 บรรทัด
 
 - OK 21:52 BUY ANTS px=0.007004 | range 0.006651..0.007355 outside by +0.0% | vs close -0.2% | 1h change then -18% | liq now $225,918
 - OK 21:52 BUY DIGS px=0.000455 | range 0.000432..0.0004585 outside by +0.0% | vs close +2.4% | 1h change then +4% | liq now $67,554
@@ -41,3 +43,8 @@
 - OK 00:37 BUY GTE px=0.001475 | range 0.001078..0.002045 outside by +0.0% | vs close -11.5% | 1h change then ? | liq now $91,376
 - OK 00:41 SELL GTE px=0.001978 | range 0.001027..0.002458 outside by +0.0% | vs close -3.6% | 1h change then ? | liq now $81,387
 - OK 00:49 SELL GTE px=0.0005394 | range 0.0005125..0.002247 outside by +0.0% | vs close -6.5% | 1h change then ? | liq now $57,908
+- OK 11:19 SELL ANTS px=0.006041 | range 0.005587..0.006667 outside by +0.0% | vs close +7.7% | 1h change then -27% | liq now $207,429
+- OK 11:19 BUY iAgent px=0.002124 | range 0.001954..0.002277 outside by +0.0% | vs close -0.5% | 1h change then +9% | liq now $109,932
+- OK 11:25 BUY CBUCKS px=0.004012 | range 0.003769..0.004062 outside by +0.0% | vs close -1.2% | 1h change then +10% | liq now $240,599
+- OK 11:44 SELL CBUCKS px=0.004706 | range 0.004626..0.004822 outside by +0.0% | vs close +0.4% | 1h change then +25% | liq now $240,599
+- NO_CANDLES 12:03 BUY CBUCKS px=0.004794 | pool B4Cp45 liq $240,599: no trades within +-5 min (illiquid or wrong time)
