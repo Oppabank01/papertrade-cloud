@@ -133,7 +133,7 @@
 
 ## Meme brag v2 (S11 Grok คุมเอง กฎปรับสดโดย Claude ดู data/brag_versions.md)
 
-ผลตามที่ Grok รายงาน: -0.5% (equity $49.76 at 18:53) | รอบที่รายงาน 11 | ไม้ที่ราคาตรวจไม่ผ่าน 0 จาก 2 | เหรียญที่ดูแต่ไม่ซื้อ (SEEN) 55 บรรทัด
+ผลตามที่ Grok รายงาน: -0.5% (equity $49.77 at 19:02) | รอบที่รายงาน 13 | ไม้ที่ราคาตรวจไม่ผ่าน 0 จาก 2 | เหรียญที่ดูแต่ไม่ซื้อ (SEEN) 65 บรรทัด
 
 - OK 18:09 BUY FLOAT px=0.001584 | range 0.001585..0.001586 outside by -0.1% | vs close -0.1% | 1h change then ? | liq now $220,551
 - OK 18:46 BUY jobcoin px=0.007615 | range 0.00757..0.007617 outside by +0.0% | vs close +0.3% | 1h change then +1% | liq now $394,246
