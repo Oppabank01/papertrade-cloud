@@ -7,7 +7,7 @@
    "sym": "ber",
    "qty": 174.9095888719026,
    "entry": 0.0003509,
-   "last": 0.0003212,
+   "last": 0.0003238,
    "peak": 0.0003956442132444933,
    "cost": 0.06326095107725276,
    "opened": "2026-11-21T02:38:45+07:00",
@@ -21,35 +21,35 @@
    "sym": "USOI",
    "qty": 7.751164688673493,
    "entry": 0.00788,
-   "last": 0.0079,
+   "last": 0.007720570784358305,
    "peak": 0.007934,
    "cost": 0.06295524401849838,
    "opened": "2026-11-21T03:17:12+07:00",
    "zoo": "w_ban_scalp",
    "smart": 5,
    "kol": 0,
-   "gap": 0,
+   "gap": 4,
    "miss": 0
   },
   "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": {
    "sym": "PEAK",
    "qty": 402.22696035047437,
    "entry": 0.0001514,
-   "last": 0.0001520183460344443,
+   "last": 0.000151,
    "peak": 0.0001586,
    "cost": 0.06276763739132325,
    "opened": "2026-11-21T03:17:12+07:00",
    "zoo": "w_ban_scalp",
    "smart": 125,
    "kol": 11,
-   "gap": 13,
+   "gap": 0,
    "miss": 0
   },
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": {
    "sym": "VEIL",
    "qty": 144.2419526300985,
    "entry": 0.0004195,
-   "last": 0.0004103,
+   "last": 0.0004124,
    "peak": 0.0004203,
    "cost": 0.0623680675410496,
    "opened": "2026-11-21T03:22:08+07:00",
@@ -10312,10 +10312,17 @@
    "zoo": "w_ban_scalp",
    "smart": 82,
    "kol": 5
+  },
+  {
+   "t": "2026-11-21T03:40:20+07:00",
+   "kind": "ban",
+   "mint": "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray",
+   "sym": "PEAK",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795206907.470077,
+ "rank_t": 1795207194.2076535,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
@@ -10355,6 +10362,7 @@
   "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": "TripleT",
   "4KxtNWc5XTL3cuyc8PJMchqB6RYggvEFeMub727GBAGS": "SALVOR",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
-  "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT"
+  "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
+  "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": "PEAK"
  }
 }
