@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.46954865411951713,
+ "cash": 0.39248321312980683,
  "pos": {
   "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": {
    "sym": "TripleT",
@@ -14,29 +14,29 @@
    "zoo": "w_ban_scalp",
    "smart": 612,
    "kol": 72,
-   "gap": 12,
+   "gap": 25,
    "miss": 0
   },
   "EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump": {
    "sym": "LUNO",
    "qty": 205.46393678948277,
    "entry": 0.0003684,
-   "last": 0.0003565,
+   "last": 0.0003548711013447997,
    "peak": 0.0003709,
    "cost": 0.07801784612785555,
    "opened": "2026-11-20T15:02:53+07:00",
    "zoo": "w_ban_scalp",
    "smart": 37,
    "kol": 2,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   },
   "gHZhqEnFnitWCJ1MA2i9BzqTReFMhsGmbdL17xypump": {
    "sym": "SWJ",
    "qty": 117.64226664631941,
    "entry": 0.0006385,
-   "last": 0.0006562,
-   "peak": 0.0006666,
+   "last": 0.000679,
+   "peak": 0.000679,
    "cost": 0.07742175556965053,
    "opened": "2026-11-20T15:11:51+07:00",
    "zoo": "w_ban_scalp",
@@ -49,13 +49,27 @@
    "sym": "mihao",
    "qty": 9.97548185668891,
    "entry": 0.007526,
-   "last": 0.00736,
+   "last": 0.007329,
    "peak": 0.007527,
    "cost": 0.07738144346881132,
    "opened": "2026-11-20T15:30:35+07:00",
    "zoo": "w_ban_scalp",
    "smart": 794,
    "kol": 74,
+   "gap": 0,
+   "miss": 0
+  },
+  "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
+   "sym": "JOB",
+   "qty": 33.4836053955293,
+   "entry": 0.002233,
+   "last": 0.002228,
+   "peak": 0.002248,
+   "cost": 0.0770654409897103,
+   "opened": "2026-11-20T15:35:35+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 37,
+   "kol": 1,
    "gap": 0,
    "miss": 0
   }
@@ -9559,10 +9573,31 @@
    "zoo": "w_ban_scalp",
    "smart": 794,
    "kol": 74
+  },
+  {
+   "t": "2026-11-20T15:35:07+07:00",
+   "kind": "ban",
+   "mint": "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump",
+   "sym": "TripleT",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-20T15:35:35+07:00",
+   "kind": "buy",
+   "mint": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
+   "sym": "JOB",
+   "price": 0.002233,
+   "jup": 0.002238707789116024,
+   "usd": 0.0771,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 37,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795163375.6648548,
+ "rank_t": 1795163663.589825,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
@@ -9598,6 +9633,7 @@
   "FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": ":3",
   "GM8EysYT8NRSsoULdeYShbRsUdhoUoiB9EN4eW3YETCH": "ETCHY",
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": "OTC",
-  "F2JLbzaA8tavGNpJSYGinXth3JEB8xrPXDwJ78sTpump": "GRINCH"
+  "F2JLbzaA8tavGNpJSYGinXth3JEB8xrPXDwJ78sTpump": "GRINCH",
+  "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": "TripleT"
  }
 }
