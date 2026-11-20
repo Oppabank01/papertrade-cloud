@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.3684692674292858,
- "pos": {},
+ "cash": 0.29477541394342865,
+ "pos": {
+  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
+   "sym": "ANSEM",
+   "qty": 2.1639762909194498,
+   "entry": 0.03304,
+   "last": 0.033,
+   "peak": 0.03319,
+   "cost": 0.07369385348585716,
+   "opened": "2026-11-21T02:47:57+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 1000,
+   "kol": 186,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-15T00:43:01+07:00",
@@ -6515,8 +6530,22 @@
    "cost_side": 0.03,
    "smart": 143,
    "bundler": null
+  },
+  {
+   "t": "2026-11-21T02:47:57+07:00",
+   "kind": "buy",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.03304,
+   "jup": 0.03310682275063876,
+   "usd": 0.0737,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 1000,
+   "kol": 186
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795203756.5089734
+ "rank_t": 1795204041.723476
 }
