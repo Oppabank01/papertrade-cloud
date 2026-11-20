@@ -19,7 +19,7 @@ perps 2022-26; Hyperliquid's coin list and prices differ a little, so these acco
   b_bnlist_buy_500       "Binance Will List X" notice -> long X's Hyperliquid perp, buy exits above.
                          Backtest only 21 notices 2023-26: 4h mean +9%, median +1%, a few big winners carry it
 
-  python3 crash.py init 500 | run | report
+  python3 crash.py init 500 | run | report | upbit-pull (Mac only, see UPBIT_FILE)
 """
 import json
 import re
@@ -44,6 +44,7 @@ ACCOUNTS = {   # name: (label, kind, params)
     "b_bnlist_buy_500": ("ข่าวใหญ่: ซื้อเมื่อ Binance ประกาศ Will List stop -8% trail 15% ถือไม่เกิน 16 ชม.", "news", dict(src="binance", side=1, slots=5, cost=0.003)),
 }
 UPBIT = "https://api-manager.upbit.com/api/v1/announcements?os=web&page=1&per_page=20&category=trade"
+UPBIT_FILE = HERE / "data" / "upbit_notices.json"   # Upbit answers 403 to GitHub's US runners: the Mac fetches it (upbit-pull)
 BINANCE = "https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=48&pageNo=1&pageSize=20"
 
 
@@ -261,8 +262,8 @@ def cmd_run():
             try:
                 news[src] = notices(src, get(url))
             except Exception as e:              # missed notices this run; the next run still sees them while under 30 min old
-                news[src] = None
-                print(f"crash news {src} error: {e!r}"[:200])
+                news[src] = notices(src, json.loads(UPBIT_FILE.read_text())) if src == "upbit" and UPBIT_FILE.exists() else None
+                print(f"crash news {src} error: {e!r}, using the Mac copy: {news[src] is not None}"[:200])
     for name, s in states.items():
         try:
             step(name, s, mk, cl, now, s["hour"] != hour, lo, news)
@@ -271,6 +272,15 @@ def cmd_run():
             print(f"crash {name} error: {e!r}"[:200])
             continue
         path(name).write_text(json.dumps(s, ensure_ascii=False, indent=1))
+
+
+def cmd_upbit_pull():
+    """Mac side: save the Upbit notice page for the cloud; prints "changed" only when the listing notices differ (then push)."""
+    new = get(UPBIT)
+    old = json.loads(UPBIT_FILE.read_text()) if UPBIT_FILE.exists() else None
+    if old is None or [x[0] for x in notices("upbit", old)] != [x[0] for x in notices("upbit", new)]:
+        UPBIT_FILE.write_text(json.dumps(new, ensure_ascii=False))
+        print("changed")
 
 
 def cmd_report():
@@ -286,7 +296,7 @@ def cmd_report():
 
 if __name__ == "__main__":
     a = sys.argv[1:]
-    cmds = {"init": lambda: cmd_init(a[1]), "run": cmd_run, "report": cmd_report}
+    cmds = {"init": lambda: cmd_init(a[1]), "run": cmd_run, "report": cmd_report, "upbit-pull": cmd_upbit_pull}
     if not a or a[0] not in cmds:
         sys.exit(__doc__)
     cmds[a[0]]()
