@@ -198,3 +198,12 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 เลิกใช้: x_skip_pumped (ครบ 55 ไม้ ผลรวม -73.8% ติดลบชัด zoo ปิดเป็น dead แล้ว) ส่วนตัวอื่นที่ครบ week 21-22/11 ยังไม่ถึง 20 ไม้และชนะ rand จึงคงไว้
 สกอร์บอร์ด x_ (เทียบ randrun -97.6%): x_smartflow_lowcap +20.9% 7 ไม้, x_lotus_5bots +1.1% 8 ไม้, x_boan_desk -0.9% 1 ไม้
 ท้ายตาราง: x_fresh_grad -42.3% 18 ไม้, x_cto_watch -43.5% 18 ไม้, x_skip_pumped -73.8% 55 ไม้ (เลิกใช้)
+
+## 2026-11-21 รอบอัตโนมัติ รอบที่ 2 (Bangkok)
+ค้น: solana memecoin strategy "this week" turned $ bot rules holders liquidity stop loss, เทรดเหรียญมีม โซลานา กำไร สัปดาห์เดียว กฎ ตัดขาดทุน ซื้อตอนวอลุ่ม, memecoin "1 month" results system win rate rules migration pump.fun
+เจอ: mexc 1066589 (buy/sell ratio 1.6 TP +50% SL -25% ถือ 6 นาที ซ้ำ x_night_tp50_sl25), ketchupjl backtest (ซ้ำ), cryptorank 100 เป็น 50k (ซ้ำ ไม่มีกฎ), คู่มือ dextools/bybit/kraken/trojan (กฎกว้างๆ ไม่มีตัวเลขที่ตรวจได้), coingecko/beincrypto สถิติ pump.fun (ภาพรวมตลาด ไม่ใช่ท่า) ไม่มีกฎใหม่ ข้ามทั้งหมด
+ยังทำไม่ได้: บอทเฝ้าทวีต/sentiment, copy wallet (ต้องที่อยู่กระเป๋าและประวัติบน chain)
+เพิ่ม: ไม่มี
+เลิกใช้: ไม่มี (x_ladder_2x ครบ week 21/11 แต่ขายแค่ 5 ไม้ และ rand เงินหมดค้างอยู่ จึงยังตัดสินไม่ได้ คงไว้)
+สกอร์บอร์ด x_ (เทียบ randrun -97.4%): x_smartflow_lowcap +20.9% 7 ไม้, x_lotus_5bots +1.1% 8 ไม้, x_boan_desk -0.9% 1 ไม้
+ท้ายตาราง: x_fresh_grad -42.3% 18 ไม้, x_cto_watch -43.5% 18 ไม้, x_skip_pumped -73.8% 55 ไม้ (เลิกใช้)
