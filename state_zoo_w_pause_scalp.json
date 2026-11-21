@@ -1,19 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.7822996795032294,
+ "cash": 0.7647125305174656,
  "pos": {
-  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
-   "sym": "Rings",
-   "qty": 28.5111615995489,
-   "entry": 0.002892,
-   "last": 0.002546,
-   "peak": 0.003034,
-   "cost": 0.08498688862697941,
-   "opened": "2026-11-21T10:25:27+07:00",
+  "GM8EysYT8NRSsoULdeYShbRsUdhoUoiB9EN4eW3YETCH": {
+   "sym": "ETCHY",
+   "qty": 173.3501632756831,
+   "entry": 0.0004779,
+   "last": 0.0004546,
+   "peak": 0.0004779,
+   "cost": 0.08538862402540606,
+   "opened": "2026-11-21T10:53:51+07:00",
    "zoo": "w_pause_scalp",
-   "smart": 109,
-   "kol": 7,
+   "smart": 106,
+   "kol": 6,
    "gap": 0,
    "miss": 0
   }
@@ -10199,8 +10199,37 @@
    "cost_side": 0.03,
    "smart": 465,
    "bundler": null
+  },
+  {
+   "t": "2026-11-21T10:53:51+07:00",
+   "kind": "buy",
+   "mint": "GM8EysYT8NRSsoULdeYShbRsUdhoUoiB9EN4eW3YETCH",
+   "sym": "ETCHY",
+   "price": 0.0004779,
+   "jup": 0.0004734993554618034,
+   "usd": 0.0854,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 106,
+   "kol": 6
+  },
+  {
+   "t": "2026-11-21T10:55:02+07:00",
+   "kind": "sell",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.002451110894092235,
+   "entry": 0.002892,
+   "usd": 0.0678,
+   "pnl": -0.0172,
+   "why": "stop -15.2%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 109,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795232904.4095755
+ "rank_t": 1795233179.1698024
 }
