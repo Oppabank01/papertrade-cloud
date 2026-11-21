@@ -189,3 +189,12 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 เพิ่ม: ไม่มี  เลิกใช้: ไม่มี (ยังไม่ถึงวันตัดสิน)
 สกอร์บอร์ด x_ (เทียบ randrun -95.9%): x_smartflow_lowcap +20.9% 7 ไม้, x_lotus_5bots +1.1% 8 ไม้, x_boan_desk -0.9% 1 ไม้
 ท้ายตาราง: x_skip_pumped -73.8% 55 ไม้ (dead), x_fresh_grad -42.3% 18 ไม้, x_cto_watch -43.5% 18 ไม้
+
+## 2026-11-21 รอบอัตโนมัติ (Bangkok)
+ค้น: memecoin strategy thread "turned" solana bot rules per week, เทรดเหรียญมีม สูตร กำไร 1 เดือน โซลานา กฎ ตัดขาดทุน, "$100 to" memecoin overnight dev holds top 10 holders volume
+เจอ: mexc 1066589 (ซ้ำ x_rule5_60_25), madeonsol/Maestro บันไดขาย ครึ่งที่ +100% 30% ที่ +200% stop -25% (คล้าย x_ladder_2x จึงไม่เปิดซ้ำ), rattibha WIF/MEW "100 ดอลลาร์เป็นล้าน" (เล่าย้อนหลัง ไม่มีกฎ), notion เช็กลิสต์ memecoin rules (dev 0-5% top10 ไม่เกิน 20% ใกล้เคียง x_lotus_5bots), cryptorank/trojan (ซ้ำ)
+ยังทำไม่ได้: บอทเฝ้าทวีต/sentiment, copy wallet (ต้องที่อยู่กระเป๋าและประวัติบน chain)
+เพิ่ม: ไม่มี
+เลิกใช้: x_skip_pumped (ครบ 55 ไม้ ผลรวม -73.8% ติดลบชัด zoo ปิดเป็น dead แล้ว) ส่วนตัวอื่นที่ครบ week 21-22/11 ยังไม่ถึง 20 ไม้และชนะ rand จึงคงไว้
+สกอร์บอร์ด x_ (เทียบ randrun -97.6%): x_smartflow_lowcap +20.9% 7 ไม้, x_lotus_5bots +1.1% 8 ไม้, x_boan_desk -0.9% 1 ไม้
+ท้ายตาราง: x_fresh_grad -42.3% 18 ไม้, x_cto_watch -43.5% 18 ไม้, x_skip_pumped -73.8% 55 ไม้ (เลิกใช้)
