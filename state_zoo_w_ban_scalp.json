@@ -7,7 +7,7 @@
    "sym": "EXFIL",
    "qty": 27.053309835477194,
    "entry": 0.002216,
-   "last": 0.00201,
+   "last": 0.002027,
    "peak": 0.002216,
    "cost": 0.06179152194951294,
    "opened": "2026-11-21T05:59:30+07:00",
@@ -21,14 +21,14 @@
    "sym": "FIONA",
    "qty": 42.50421921465754,
    "entry": 0.001353,
-   "last": 0.001501,
+   "last": 0.001391,
    "peak": 0.001501,
    "cost": 0.05927459142180133,
    "opened": "2026-11-21T07:05:29+07:00",
    "zoo": "w_ban_scalp",
    "smart": 282,
    "kol": 17,
-   "gap": 2,
+   "gap": 15,
    "miss": 0
   }
  },
@@ -10610,10 +10610,17 @@
    "zoo": "w_ban_scalp",
    "smart": 282,
    "kol": 17
+  },
+  {
+   "t": "2026-11-21T07:17:36+07:00",
+   "kind": "ban",
+   "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
+   "sym": "FIONA",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795219739.9103959,
+ "rank_t": 1795220031.7535546,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
@@ -10658,6 +10665,7 @@
   "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg": "USOI",
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX": "Trader",
-  "HcfnJxLov6tY8i1dq9uYRRZKCvxADPpovcfkyXzdpump": "Chonketha"
+  "HcfnJxLov6tY8i1dq9uYRRZKCvxADPpovcfkyXzdpump": "Chonketha",
+  "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": "FIONA"
  }
 }
