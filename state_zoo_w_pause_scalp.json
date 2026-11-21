@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.7192153879119972,
+ "cash": 0.7911074493794779,
  "pos": {
-  "8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump": {
-   "sym": "PATRICK",
-   "qty": 462.54837006386197,
-   "entry": 0.0001885,
-   "last": 0.0001708,
-   "peak": 0.0001885,
-   "cost": 0.08986844749230878,
-   "opened": "2026-11-21T07:29:20+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 188,
-   "kol": 10,
-   "gap": 0,
-   "miss": 0
-  },
   "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": {
    "sym": "HOGE",
    "qty": 108.20331150251683,
    "entry": 0.0008034,
-   "last": 0.0007561,
+   "last": 0.0007464,
    "peak": 0.0008039,
    "cost": 0.08960063951878171,
    "opened": "2026-11-21T07:29:20+07:00",
    "zoo": "w_pause_scalp",
    "smart": 218,
    "kol": 13,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -9990,8 +9976,23 @@
    "zoo": "w_pause_scalp",
    "smart": 218,
    "kol": 13
+  },
+  {
+   "t": "2026-11-21T07:34:09+07:00",
+   "kind": "sell",
+   "mint": "8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump",
+   "sym": "PATRICK",
+   "price": 0.0001602,
+   "entry": 0.0001885,
+   "usd": 0.0719,
+   "pnl": -0.018,
+   "why": "stop -15.0%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 188,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795220888.2629607
+ "rank_t": 1795221163.4575338
 }
