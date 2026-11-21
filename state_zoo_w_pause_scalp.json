@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.6965934811309895,
+ "cash": 0.610027966764056,
  "pos": {
   "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
    "sym": "Max",
    "qty": 137.3365939720454,
    "entry": 0.0006192,
-   "last": 0.0006091,
+   "last": 0.0006077130344136261,
    "peak": 0.000665,
    "cost": 0.08765081322149093,
    "opened": "2026-11-21T08:50:56+07:00",
    "zoo": "w_pause_scalp",
    "smart": 465,
    "kol": 42,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
    "sym": "Rings",
    "qty": 28.5111615995489,
    "entry": 0.002892,
-   "last": 0.003034,
+   "last": 0.002779,
    "peak": 0.003034,
    "cost": 0.08498688862697941,
    "opened": "2026-11-21T10:25:27+07:00",
@@ -29,6 +29,20 @@
    "smart": 109,
    "kol": 7,
    "gap": 0,
+   "miss": 0
+  },
+  "DkHsZ1kjd2Fua8sgKE6PhHhyCdXYscbDVN7mAfiGpump": {
+   "sym": "JENSEN",
+   "qty": 54.11460182912299,
+   "entry": 0.001552,
+   "last": 0.001605,
+   "peak": 0.001605,
+   "cost": 0.0865655143669335,
+   "opened": "2026-11-21T10:39:59+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 0,
+   "kol": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -10169,8 +10183,22 @@
    "cost_side": 0.03,
    "smart": 89,
    "bundler": null
+  },
+  {
+   "t": "2026-11-21T10:39:59+07:00",
+   "kind": "buy",
+   "mint": "DkHsZ1kjd2Fua8sgKE6PhHhyCdXYscbDVN7mAfiGpump",
+   "sym": "JENSEN",
+   "price": 0.001552,
+   "jup": 0.0015563731110573987,
+   "usd": 0.0866,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 0,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795232043.8819122
+ "rank_t": 1795232321.6842546
 }
