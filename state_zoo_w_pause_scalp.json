@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.24752175557294626,
+ "cash": 0.2946041067064004,
  "pos": {
   "6d9fD5SxvN4DAG4SHQD8pebm8TM6XeSbYezPDjdapump": {
    "sym": "PINO",
    "qty": 133.08244475081386,
    "entry": 0.0004622,
-   "last": 0.0004716,
+   "last": 0.0004669,
    "peak": 0.0004838,
    "cost": 0.0634000267613133,
    "opened": "2026-11-22T00:10:41+07:00",
@@ -21,35 +21,35 @@
    "sym": "WW",
    "qty": 208.02831574241566,
    "entry": 0.0002934,
-   "last": 0.0003134,
-   "peak": 0.0003249,
+   "last": 0.0003139,
+   "peak": 0.0003371,
    "cost": 0.06291023277553572,
    "opened": "2026-11-22T00:25:20+07:00",
    "zoo": "w_pause_scalp",
    "smart": 46,
    "kol": 0,
-   "gap": 7,
+   "gap": 2,
    "miss": 0
   },
   "EkFRff9a2jKztJHML1LG9FRmEkPJDR6XAYp3uCPdpump": {
    "sym": "SLOPCORE",
    "qty": 265.27298180237597,
    "entry": 0.0002294,
-   "last": 0.000207,
+   "last": 0.00020417542532380964,
    "peak": 0.0002351,
    "cost": 0.06272276028186462,
    "opened": "2026-11-22T00:25:20+07:00",
    "zoo": "w_pause_scalp",
    "smart": 291,
    "kol": 11,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 9.797768118830078,
    "entry": 0.006119,
-   "last": 0.005941,
+   "last": 0.005951,
    "peak": 0.006221,
    "cost": 0.06179400445178443,
    "opened": "2026-11-22T00:40:34+07:00",
@@ -71,20 +71,6 @@
    "smart": 37,
    "kol": 2,
    "gap": 0,
-   "miss": 0
-  },
-  "AUuqP4EADgs2ynEbGNQKf3LXG1GpDzfiLvnRdK1Npump": {
-   "sym": "CATEMAS",
-   "qty": 294.6484100201644,
-   "entry": 0.0001995,
-   "last": 0.00018637191826074317,
-   "peak": 0.0001995,
-   "cost": 0.06058787651929788,
-   "opened": "2026-11-22T00:58:53+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 13,
-   "kol": 0,
-   "gap": 1,
    "miss": 0
   }
  },
@@ -11089,8 +11075,23 @@
    "zoo": "w_pause_scalp",
    "smart": 13,
    "kol": 0
+  },
+  {
+   "t": "2026-11-22T01:03:41+07:00",
+   "kind": "sell",
+   "mint": "AUuqP4EADgs2ynEbGNQKf3LXG1GpDzfiLvnRdK1Npump",
+   "sym": "CATEMAS",
+   "price": 0.0001646996854435657,
+   "entry": 0.0001995,
+   "usd": 0.0471,
+   "pnl": -0.0135,
+   "why": "stop -17.4%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 13,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795283881.936633
+ "rank_t": 1795284166.339262
 }
