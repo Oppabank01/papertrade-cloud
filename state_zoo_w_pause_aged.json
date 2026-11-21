@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.20877785148916916,
+ "cash": 0.1562973400792298,
  "pos": {
   "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": {
    "sym": "BRUH",
    "qty": 8.499715574659644,
    "entry": 0.006028,
-   "last": 0.006388,
-   "peak": 0.006388,
+   "last": 0.006481,
+   "peak": 0.006481,
    "cost": 0.052810024205368324,
    "opened": "2026-11-21T17:07:54+07:00",
    "zoo": "w_pause_aged",
    "smart": 3,
    "kol": 0,
+   "gap": 0,
+   "miss": 0
+  },
+  "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
+   "sym": "NIO",
+   "qty": 34.87437819857752,
+   "entry": 0.00146,
+   "last": 0.001457,
+   "peak": 0.001462,
+   "cost": 0.05248051140993937,
+   "opened": "2026-11-21T19:10:41+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 442,
+   "kol": 34,
    "gap": 0,
    "miss": 0
   }
@@ -7231,8 +7245,22 @@
    "t": "2026-11-21T18:55:56+07:00",
    "kind": "resume",
    "why": "ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-21T19:10:41+07:00",
+   "kind": "buy",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "price": 0.00146,
+   "jup": 0.0014628743515144515,
+   "usd": 0.0525,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 442,
+   "kol": 34
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795262693.421175
+ "rank_t": 1795262977.7412424
 }
