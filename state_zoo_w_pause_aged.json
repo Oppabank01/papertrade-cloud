@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.05682756134398625,
+ "cash": 0.10376122356564334,
  "pos": {
   "9AvytnUKsLxPxFHFqS6VLxaxt5p6BhYNr53SD2Chpump": {
    "sym": "67",
    "qty": 50.50218493986075,
    "entry": 0.001049,
-   "last": 0.001042,
+   "last": 0.001019,
    "peak": 0.001049,
    "cost": 0.05460399093167793,
    "opened": "2026-11-21T11:23:13+07:00",
@@ -17,26 +17,12 @@
    "gap": 0,
    "miss": 0
   },
-  "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": {
-   "sym": "VEIL",
-   "qty": 116.25869864935197,
-   "entry": 0.0004527,
-   "last": 0.0004276,
-   "peak": 0.0004527,
-   "cost": 0.05424686959241563,
-   "opened": "2026-11-21T12:01:38+07:00",
-   "zoo": "w_pause_aged",
-   "smart": 83,
-   "kol": 5,
-   "gap": 0,
-   "miss": 0
-  },
   "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": {
    "sym": "PUMPCADE",
    "qty": 5.062723271254777,
    "entry": 0.0103,
-   "last": 0.01043,
-   "peak": 0.01083,
+   "last": 0.01091,
+   "peak": 0.01091,
    "cost": 0.05374773211082684,
    "opened": "2026-11-21T12:05:50+07:00",
    "zoo": "w_pause_aged",
@@ -49,7 +35,7 @@
    "sym": "CATE",
    "qty": 3.1999083750685697,
    "entry": 0.01608,
-   "last": 0.01554,
+   "last": 0.01567,
    "peak": 0.01617,
    "cost": 0.05303496873954092,
    "opened": "2026-11-21T12:29:39+07:00",
@@ -7068,10 +7054,25 @@
    "zoo": "w_pause_aged",
    "smart": 894,
    "kol": 110
+  },
+  {
+   "t": "2026-11-21T13:32:17+07:00",
+   "kind": "sell",
+   "mint": "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump",
+   "sym": "VEIL",
+   "price": 0.0004161,
+   "entry": 0.0004527,
+   "usd": 0.0469,
+   "pnl": -0.0073,
+   "why": "stop -8.1%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 83,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795242293.2054348,
+ "rank_t": 1795242571.378897,
  "halted": "ราคา VEIL สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-21T13:39:47+07:00"
 }
