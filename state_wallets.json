@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 6.047269970644571,
- "pos": {},
+ "cash": 4.837815976515657,
+ "pos": {
+  "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr": {
+   "sym": "EURC",
+   "qty": 1.0716093745240844,
+   "entry": 1.095,
+   "last": 1.095,
+   "peak": 1.095,
+   "cost": 1.2094539941289142,
+   "opened": "2026-11-21T10:05:55+07:00",
+   "wallet": "7NnaXg",
+   "wallet_usd": 1000,
+   "lag_min": 1.2,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T10:36:33+07:00",
@@ -8105,16 +8120,93 @@
    "wallet": "ENskGQ",
    "usd": 224,
    "why": "liq $0"
+  },
+  {
+   "t": "2026-11-21T10:05:55+07:00",
+   "kind": "buy",
+   "mint": "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr",
+   "sym": "EURC",
+   "price": 1.095,
+   "jup": 1.095048216147091,
+   "usd": 1.2095,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "wallet": "7NnaXg",
+   "wallet_usd": 1000,
+   "lag_min": 1.2
+  },
+  {
+   "t": "2026-11-21T10:05:55+07:00",
+   "kind": "skip",
+   "mint": "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr",
+   "sym": "EURC",
+   "wallet": "7NnaXg",
+   "usd": 1000,
+   "why": "repeat"
+  },
+  {
+   "t": "2026-11-21T10:05:55+07:00",
+   "kind": "skip",
+   "mint": "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr",
+   "sym": "EURC",
+   "wallet": "7NnaXg",
+   "usd": 1000,
+   "why": "repeat"
+  },
+  {
+   "t": "2026-11-21T10:05:56+07:00",
+   "kind": "skip",
+   "mint": "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr",
+   "sym": "EURC",
+   "wallet": "7NnaXg",
+   "usd": 1000,
+   "why": "repeat"
+  },
+  {
+   "t": "2026-11-21T10:05:56+07:00",
+   "kind": "skip",
+   "mint": "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr",
+   "sym": "EURC",
+   "wallet": "7NnaXg",
+   "usd": 1000,
+   "why": "repeat"
+  },
+  {
+   "t": "2026-11-21T10:05:56+07:00",
+   "kind": "skip",
+   "mint": "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr",
+   "sym": "EURC",
+   "wallet": "7NnaXg",
+   "usd": 1000,
+   "why": "repeat"
+  },
+  {
+   "t": "2026-11-21T10:05:56+07:00",
+   "kind": "skip",
+   "mint": "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr",
+   "sym": "EURC",
+   "wallet": "7NnaXg",
+   "usd": 1000,
+   "why": "repeat"
+  },
+  {
+   "t": "2026-11-21T10:05:56+07:00",
+   "kind": "skip",
+   "mint": "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr",
+   "sym": "EURC",
+   "wallet": "7NnaXg",
+   "usd": 1000,
+   "why": "repeat"
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ ผ่าน Helius",
  "cursor": {
   "FqJMNzzY1DHz2F1Pt6F7VqCxBWdu8cK2TbfTrYT9zQbT": "2ktWupcmPdNHXLZMUdGSgLSEpktqro5zkGLm1F9mkukAPSYCntRy8pmpf1zjNqc7VRPV1qDxF5kUqUPZCnuEFruV",
   "2kN7bb7sVKn4iBWDMpo8aAVyyQxAVpZATQ7RRkmoy6Mm": "31B6JK84EdrjY2sQWsJHZFpQwyLf9SMtXLnVcN7tEB1CwbDod8KwucmzqrTTeJRwpesF2UFsgVE8UY6jpm7Reo18",
-  "7NnaXghjuU92gM9kmwXysqa5HboyZuR2LTaBnvazFxSH": "4fCUtmECS2ZSouYbcYTGexqKLh2KDKDF5FqtK1RfuRGuLY7awUD4byCzH11A4rt7hasFukMsp5LbQMGkcxGPK7nv",
+  "7NnaXghjuU92gM9kmwXysqa5HboyZuR2LTaBnvazFxSH": "4wBkRhzDp2hcGTmgzDp5s5opaRSckDQh4dquLrNnR3uH9Uy3GsA3woHUqBQDaTUtfbJHyyGdtM3G2DvcBfkbwaeB",
   "7g5CJ754NboeY6D44MDdGwQmVX4Fvu59Q47c9ZKLPMkE": "5TGgfqjCCqdZ9nBeYVxbUoVf2eqvSkGni5Bb4cf9wH4fwj181TziYa1XN9xf7DSUpskbPsZ4Up8BNuGsNyiKL8Hx",
   "8emnM6nfVM2ePrYDmZcMkwy8qzDhRFZ5EefCkMsmgByX": "3h6iPHBeGmptYXy6V97dSDzLcexRyBkDymPpiL4rsVLofraUNMsPSVGM4QoDMSSu9wGNBCe4GcSAnFtiHURvDGqX",
-  "ENskGQev2bXPjaCYPV9bUcPLv3635Y18BWzLN95x4soC": "2mLAtHBnnN8ZXMLyhURnBKf9Hoso336UWm8CnWuNBnuoj4c3vNnxZMPLoeHZqGVSNXT9AoixSkt7aVaGD8qMBfTv",
+  "ENskGQev2bXPjaCYPV9bUcPLv3635Y18BWzLN95x4soC": "2vJW1f1bbHqkzfPdP5iPgNy7JKvzQgZ1jK5ASFjQgWGKmCSkBPH2LAuDEf2M12Npm2viE9Q3kMcqGXAr828S6NW4",
   "chudc2GnxyW2V7nmLA9bkrzFmKkvPyTfN7V7Uu6XG6o": "4xG39SbekrS2xocEBtbiF1UyTkVSTAh4u85vs5nFCwQezzDatGN76Nku2MN7quVQZuSuyEF3pmsD23wvpdbSiap2",
   "8XzVYjjVdpDoD3zBtXqMiMBRNj7eMhayr8DyWZQiRgs8": "2b6MMPrajM8gpfQohq1KUobSbp2Jm9mkejvFEHqYpvxUrxM3hQEv3w29s5UF1q6qSuE14fCU8XP277wmmvBN5V3m",
   "a8UJuWKvWwQTtYbEVzA5b7SYF5j92guqJdwMY428jZN": "2wvwqe8gx819YyaZZjfRZBfBMKpGLVzCUVrCW91jkRYNYnQKbxwA6PedNsuyaLBibW88s5dXhA4g4zJHzni2gewE",
