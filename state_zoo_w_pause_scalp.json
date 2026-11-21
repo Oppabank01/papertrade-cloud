@@ -1,20 +1,48 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.7670681057901123,
+ "cash": 0.5968403106346988,
  "pos": {
   "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
    "sym": "Max",
    "qty": 137.3365939720454,
    "entry": 0.0006192,
-   "last": 0.0006218981440713067,
+   "last": 0.0006113,
    "peak": 0.000665,
    "cost": 0.08765081322149093,
    "opened": "2026-11-21T08:50:56+07:00",
    "zoo": "w_pause_scalp",
    "smart": 465,
    "kol": 42,
-   "gap": 4,
+   "gap": 0,
+   "miss": 0
+  },
+  "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX": {
+   "sym": "Trader",
+   "qty": 269.29575875573687,
+   "entry": 0.0003071,
+   "last": 0.0003472,
+   "peak": 0.0003472,
+   "cost": 0.08524090652843413,
+   "opened": "2026-11-21T10:25:27+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 89,
+   "kol": 3,
+   "gap": 2,
+   "miss": 0
+  },
+  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
+   "sym": "Rings",
+   "qty": 28.5111615995489,
+   "entry": 0.002892,
+   "last": 0.0028374228842983455,
+   "peak": 0.002892,
+   "cost": 0.08498688862697941,
+   "opened": "2026-11-21T10:25:27+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 109,
+   "kol": 7,
+   "gap": 6,
    "miss": 0
   }
  },
@@ -10112,8 +10140,36 @@
    "cost_side": 0.03,
    "smart": 43,
    "bundler": null
+  },
+  {
+   "t": "2026-11-21T10:25:27+07:00",
+   "kind": "buy",
+   "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
+   "sym": "Trader",
+   "price": 0.0003071,
+   "jup": 0.00030924364364313093,
+   "usd": 0.0852,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 89,
+   "kol": 3
+  },
+  {
+   "t": "2026-11-21T10:25:27+07:00",
+   "kind": "buy",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.002892,
+   "jup": 0.0028812136141404313,
+   "usd": 0.085,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 109,
+   "kol": 7
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795231194.24017
+ "rank_t": 1795231479.5052097
 }
