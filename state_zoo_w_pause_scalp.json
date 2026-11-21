@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.7911074493794779,
+ "cash": 0.7040409454888241,
  "pos": {
   "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": {
    "sym": "HOGE",
    "qty": 108.20331150251683,
    "entry": 0.0008034,
-   "last": 0.0007464,
+   "last": 0.0007261,
    "peak": 0.0008039,
    "cost": 0.08960063951878171,
    "opened": "2026-11-21T07:29:20+07:00",
@@ -15,6 +15,20 @@
    "smart": 218,
    "kol": 13,
    "gap": 1,
+   "miss": 0
+  },
+  "2KRbMf4itijwsTHb5dQtiBpfptyNmhpVzmpdj4qqN2yx": {
+   "sym": "BANDANA",
+   "qty": 355.82107023888904,
+   "entry": 0.0002374,
+   "last": 0.0002531,
+   "peak": 0.000259,
+   "cost": 0.08706650389065373,
+   "opened": "2026-11-21T07:38:29+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 49,
+   "kol": 1,
+   "gap": 9,
    "miss": 0
   }
  },
@@ -9991,8 +10005,22 @@
    "cost_side": 0.03,
    "smart": 188,
    "bundler": null
+  },
+  {
+   "t": "2026-11-21T07:38:29+07:00",
+   "kind": "buy",
+   "mint": "2KRbMf4itijwsTHb5dQtiBpfptyNmhpVzmpdj4qqN2yx",
+   "sym": "BANDANA",
+   "price": 0.0002374,
+   "jup": 0.0002378776835768095,
+   "usd": 0.0871,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 49,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795221163.4575338
+ "rank_t": 1795221449.9870086
 }
