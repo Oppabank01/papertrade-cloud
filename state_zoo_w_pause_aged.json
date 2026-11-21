@@ -1,19 +1,47 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.26224101726226123,
+ "cash": 0.1263832222439743,
  "pos": {
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 23.96657581000232,
    "entry": 0.003047,
-   "last": 0.003259,
+   "last": 0.003254279147069156,
    "peak": 0.003575,
    "cost": 0.07526917799739957,
    "opened": "2026-11-21T04:38:20+07:00",
    "zoo": "w_pause_aged",
    "smart": 70,
    "kol": 5,
+   "gap": 4,
+   "miss": 0
+  },
+  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
+   "sym": "CLAUDIA",
+   "qty": 11.30908453871253,
+   "entry": 0.005845,
+   "last": 0.005839,
+   "peak": 0.005845,
+   "cost": 0.06813193066251777,
+   "opened": "2026-11-21T07:29:20+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 532,
+   "kol": 34,
+   "gap": 0,
+   "miss": 0
+  },
+  "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": {
+   "sym": "HOGE",
+   "qty": 81.78694747070853,
+   "entry": 0.0008034,
+   "last": 0.0007561,
+   "peak": 0.0008039,
+   "cost": 0.06772586435576916,
+   "opened": "2026-11-21T07:29:20+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 218,
+   "kol": 13,
    "gap": 0,
    "miss": 0
   }
@@ -6723,8 +6751,36 @@
    "cost_side": 0.03,
    "smart": 107,
    "bundler": null
+  },
+  {
+   "t": "2026-11-21T07:29:20+07:00",
+   "kind": "buy",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.005845,
+   "jup": 0.00584013071722395,
+   "usd": 0.0681,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 532,
+   "kol": 34
+  },
+  {
+   "t": "2026-11-21T07:29:20+07:00",
+   "kind": "buy",
+   "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+   "sym": "HOGE",
+   "price": 0.0008034,
+   "jup": 0.0008027997655403683,
+   "usd": 0.0677,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 218,
+   "kol": 13
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795220601.7541375
+ "rank_t": 1795220888.2629607
 }

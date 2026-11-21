@@ -1,8 +1,37 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.8986844749230878,
- "pos": {},
+ "cash": 0.7192153879119972,
+ "pos": {
+  "8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump": {
+   "sym": "PATRICK",
+   "qty": 462.54837006386197,
+   "entry": 0.0001885,
+   "last": 0.0001708,
+   "peak": 0.0001885,
+   "cost": 0.08986844749230878,
+   "opened": "2026-11-21T07:29:20+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 188,
+   "kol": 10,
+   "gap": 0,
+   "miss": 0
+  },
+  "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": {
+   "sym": "HOGE",
+   "qty": 108.20331150251683,
+   "entry": 0.0008034,
+   "last": 0.0007561,
+   "peak": 0.0008039,
+   "cost": 0.08960063951878171,
+   "opened": "2026-11-21T07:29:20+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 218,
+   "kol": 13,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-15T00:43:00+07:00",
@@ -9933,8 +9962,36 @@
    "t": "2026-11-21T07:14:43+07:00",
    "kind": "resume",
    "why": "ราคา Chonketha สองแหล่งต่างกันเกิน 1% ติดกัน 98 รอบ"
+  },
+  {
+   "t": "2026-11-21T07:29:20+07:00",
+   "kind": "buy",
+   "mint": "8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump",
+   "sym": "PATRICK",
+   "price": 0.0001885,
+   "jup": 0.00018939466567128034,
+   "usd": 0.0899,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 188,
+   "kol": 10
+  },
+  {
+   "t": "2026-11-21T07:29:20+07:00",
+   "kind": "buy",
+   "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+   "sym": "HOGE",
+   "price": 0.0008034,
+   "jup": 0.0008027997655403683,
+   "usd": 0.0896,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 218,
+   "kol": 13
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795220601.7541375
+ "rank_t": 1795220888.2629607
 }
