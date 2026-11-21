@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.6136081002834681,
+ "cash": 0.6813210800920307,
  "pos": {
   "DD3AC2Cmr5rXzJ6ErRHeryx3ASLVMhSBALiUqeKcpump": {
    "sym": "Leafy",
    "qty": 278.2769922081089,
    "entry": 0.0003034,
-   "last": 0.0003206,
+   "last": 0.0003144,
    "peak": 0.0003206,
    "cost": 0.08702251024112578,
    "opened": "2026-11-21T07:48:17+07:00",
@@ -21,7 +21,7 @@
    "sym": "Max",
    "qty": 137.3365939720454,
    "entry": 0.0006192,
-   "last": 0.0005768,
+   "last": 0.0005877,
    "peak": 0.0006313,
    "cost": 0.08765081322149093,
    "opened": "2026-11-21T08:50:56+07:00",
@@ -29,20 +29,6 @@
    "smart": 465,
    "kol": 42,
    "gap": 0,
-   "miss": 0
-  },
-  "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
-   "sym": "FIONA",
-   "qty": 79.76042074559697,
-   "entry": 0.001057,
-   "last": 0.0009729,
-   "peak": 0.001071,
-   "cost": 0.0868962736838755,
-   "opened": "2026-11-21T09:19:44+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 285,
-   "kol": 17,
-   "gap": 3,
    "miss": 0
   }
  },
@@ -10110,8 +10096,23 @@
    "zoo": "w_pause_scalp",
    "smart": 285,
    "kol": 17
+  },
+  {
+   "t": "2026-11-21T09:27:50+07:00",
+   "kind": "sell",
+   "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
+   "sym": "FIONA",
+   "price": 0.000875030557228181,
+   "entry": 0.001057,
+   "usd": 0.0677,
+   "pnl": -0.0192,
+   "why": "stop -17.2%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 285,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795227792.2687428
+ "rank_t": 1795228069.9368205
 }
