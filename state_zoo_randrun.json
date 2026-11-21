@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.09066098251810367,
+ "cash": 0.015493255157175034,
  "pos": {
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
@@ -21,7 +21,7 @@
    "sym": "neet",
    "qty": 4.014141995157716,
    "entry": 0.02115,
-   "last": 0.02164,
+   "last": 0.02152,
    "peak": 0.0219,
    "cost": 0.08750680601688897,
    "opened": "2026-11-20T23:03:31+07:00",
@@ -43,6 +43,20 @@
    "smart": 475,
    "kol": 214,
    "gap": 0,
+   "miss": 0
+  },
+  "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": {
+   "sym": "Singularity",
+   "qty": 515.0263353500916,
+   "entry": 0.0001416,
+   "last": 0.0001397,
+   "peak": 0.0001416,
+   "cost": 0.07516772736092864,
+   "opened": "2026-11-21T07:09:42+07:00",
+   "zoo": "randrun",
+   "smart": 74,
+   "kol": 2,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -2702,8 +2716,22 @@
    "cost_side": 0.03,
    "smart": 68,
    "bundler": null
+  },
+  {
+   "t": "2026-11-21T07:09:42+07:00",
+   "kind": "buy",
+   "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump",
+   "sym": "Singularity",
+   "price": 0.0001416,
+   "jup": 0.0001425058433622067,
+   "usd": 0.0752,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "randrun",
+   "smart": 74,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1795219460.6363115
+ "rank_t": 1795219739.9103959
 }
