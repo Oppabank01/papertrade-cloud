@@ -1,20 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.6203247482239772,
+ "cash": 0.5514663502937572,
  "pos": {
   "3umHFkiMHyphCkLxtbf8Aabie8r5hxn86QeBAovTpump": {
    "sym": "HUSS",
    "qty": 295.3666424847383,
    "entry": 0.0002264,
-   "last": 0.000208,
-   "peak": 0.0002264,
+   "last": 0.0002271,
+   "peak": 0.0002399079809374583,
    "cost": 0.06892497202488636,
    "opened": "2026-11-21T22:12:01+07:00",
    "zoo": "w_pause_scalp",
    "smart": 71,
    "kol": 3,
-   "gap": 5,
+   "gap": 3,
+   "miss": 0
+  },
+  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
+   "sym": "CLAUDIA",
+   "qty": 8.580325927549378,
+   "entry": 0.007786,
+   "last": 0.007721,
+   "peak": 0.007822,
+   "cost": 0.06885839793022001,
+   "opened": "2026-11-21T22:16:58+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 533,
+   "kol": 34,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -10828,8 +10842,22 @@
    "zoo": "w_pause_scalp",
    "smart": 71,
    "kol": 3
+  },
+  {
+   "t": "2026-11-21T22:16:58+07:00",
+   "kind": "buy",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.007786,
+   "jup": 0.0077923527950427,
+   "usd": 0.0689,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 533,
+   "kol": 34
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795273859.7457533
+ "rank_t": 1795274164.1893404
 }
