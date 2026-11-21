@@ -1,34 +1,48 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.47802345383061995,
+ "cash": 0.4185742907577814,
  "pos": {
   "6FhVPctYg363pQbs4iSvqyHe2cJzfsvFD96gePy6pump": {
    "sym": "EXFIL",
    "qty": 27.053309835477194,
    "entry": 0.002216,
-   "last": 0.002027,
+   "last": 0.0020066673638521226,
    "peak": 0.002216,
    "cost": 0.06179152194951294,
    "opened": "2026-11-21T05:59:30+07:00",
    "zoo": "w_ban_scalp",
    "smart": 107,
    "kol": 9,
-   "gap": 0,
+   "gap": 4,
    "miss": 0
   },
   "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
    "sym": "FIONA",
    "qty": 42.50421921465754,
    "entry": 0.001353,
-   "last": 0.001391,
+   "last": 0.001466,
    "peak": 0.001501,
    "cost": 0.05927459142180133,
    "opened": "2026-11-21T07:05:29+07:00",
    "zoo": "w_ban_scalp",
    "smart": 282,
    "kol": 17,
-   "gap": 15,
+   "gap": 0,
+   "miss": 0
+  },
+  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
+   "sym": "Buttcoin",
+   "qty": 5.998084235988767,
+   "entry": 0.009616,
+   "last": 0.00889711927829144,
+   "peak": 0.009772,
+   "cost": 0.05944916307283857,
+   "opened": "2026-11-21T07:19:38+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 515,
+   "kol": 51,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -10617,10 +10631,24 @@
    "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
    "sym": "FIONA",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-21T07:19:38+07:00",
+   "kind": "buy",
+   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+   "sym": "Buttcoin",
+   "price": 0.009616,
+   "jup": 0.009605820542743781,
+   "usd": 0.0594,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 515,
+   "kol": 51
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795220031.7535546,
+ "rank_t": 1795220326.927982,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
