@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.28584285717047636,
+ "cash": 0.2704864565548197,
  "pos": {
-  "8SacNb6sgiAcscRe4m915B6nL9XX55dk8FS7L532pump": {
-   "sym": "AI",
-   "qty": 548.6842052663781,
-   "entry": 9.934e-05,
-   "last": 9.392e-05,
-   "peak": 0.0001081,
-   "cost": 0.05618046686370026,
-   "opened": "2026-11-21T11:23:11+07:00",
-   "zoo": "w_ban_scalp",
-   "smart": 111,
-   "kol": 4,
-   "gap": 0,
-   "miss": 0
-  },
   "F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump": {
    "sym": "Impeach",
    "qty": 299.2255590274965,
    "entry": 0.0001822,
-   "last": 0.0001705,
+   "last": 0.0001737,
    "peak": 0.0001825,
    "cost": 0.0561934620230982,
    "opened": "2026-11-21T11:32:42+07:00",
    "zoo": "w_ban_scalp",
    "smart": 157,
    "kol": 4,
-   "gap": 7,
+   "gap": 0,
    "miss": 0
   },
   "69LjZUUzxj3Cb3Fxeo1X4QpYEQTboApkhXTysPpbpump": {
@@ -49,8 +35,8 @@
    "sym": "PUMPCADE",
    "qty": 5.180773700377591,
    "entry": 0.0103,
-   "last": 0.0107,
-   "peak": 0.0107,
+   "last": 0.01067,
+   "peak": 0.01081,
    "cost": 0.05500099888052895,
    "opened": "2026-11-21T12:05:49+07:00",
    "zoo": "w_ban_scalp",
@@ -63,7 +49,7 @@
    "sym": "shiit",
    "qty": 143.51599703434903,
    "entry": 0.0003739,
-   "last": 0.0003633,
+   "last": 0.0003709,
    "peak": 0.0003739,
    "cost": 0.055308834561062774,
    "opened": "2026-11-21T12:24:47+07:00",
@@ -71,6 +57,20 @@
    "smart": 83,
    "kol": 0,
    "gap": 0,
+   "miss": 0
+  },
+  "uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY": {
+   "sym": "PAYDAY",
+   "qty": 236.8433726212827,
+   "entry": 0.0002246,
+   "last": 0.0002136,
+   "peak": 0.0002246,
+   "cost": 0.05482892340830767,
+   "opened": "2026-11-21T12:29:37+07:00",
+   "zoo": "w_ban_scalp",
+   "smart": 120,
+   "kol": 3,
+   "gap": 8,
    "miss": 0
   }
  },
@@ -10998,10 +10998,46 @@
    "zoo": "w_ban_scalp",
    "smart": 83,
    "kol": 0
+  },
+  {
+   "t": "2026-11-21T12:29:37+07:00",
+   "kind": "buy",
+   "mint": "uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY",
+   "sym": "PAYDAY",
+   "price": 0.0002246,
+   "jup": 0.000223045112922108,
+   "usd": 0.0548,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_ban_scalp",
+   "smart": 120,
+   "kol": 3
+  },
+  {
+   "t": "2026-11-21T12:29:48+07:00",
+   "kind": "sell",
+   "mint": "8SacNb6sgiAcscRe4m915B6nL9XX55dk8FS7L532pump",
+   "sym": "AI",
+   "price": 7.415e-05,
+   "entry": 9.934e-05,
+   "usd": 0.0395,
+   "pnl": -0.0167,
+   "why": "stop -25.4%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 111,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-21T12:30:28+07:00",
+   "kind": "ban",
+   "mint": "F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump",
+   "sym": "Impeach",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795238622.4344885,
+ "rank_t": 1795238905.0683236,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": "STANK",
@@ -11048,6 +11084,7 @@
   "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX": "Trader",
   "HcfnJxLov6tY8i1dq9uYRRZKCvxADPpovcfkyXzdpump": "Chonketha",
   "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": "FIONA",
-  "2KRbMf4itijwsTHb5dQtiBpfptyNmhpVzmpdj4qqN2yx": "BANDANA"
+  "2KRbMf4itijwsTHb5dQtiBpfptyNmhpVzmpdj4qqN2yx": "BANDANA",
+  "F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump": "Impeach"
  }
 }
