@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.11198254306032199,
+ "cash": 0.1628106139348153,
  "pos": {
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
    "sym": "paws",
@@ -14,20 +14,6 @@
    "zoo": "w_ban_smartflow",
    "smart": 312,
    "kol": 15,
-   "gap": 0,
-   "miss": 0
-  },
-  "5JcdnWEwuHh1v3SAARq8zH9tEwDQGpaHzBrZ81m4pump": {
-   "sym": "xing",
-   "qty": 890.6710498964571,
-   "entry": 7.447e-05,
-   "last": 6.559e-05,
-   "peak": 7.447e-05,
-   "cost": 0.06836556698184824,
-   "opened": "2026-11-21T00:19:30+07:00",
-   "zoo": "w_ban_smartflow",
-   "smart": 48,
-   "kol": 18,
    "gap": 0,
    "miss": 0
   }
@@ -4831,6 +4817,21 @@
    "stop_set": -0.2,
    "cost_side": 0.03,
    "smart": 13,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-21T11:40:47+07:00",
+   "kind": "sell",
+   "mint": "5JcdnWEwuHh1v3SAARq8zH9tEwDQGpaHzBrZ81m4pump",
+   "sym": "xing",
+   "price": 5.882e-05,
+   "entry": 7.447e-05,
+   "usd": 0.0508,
+   "pnl": -0.0175,
+   "why": "stop -21.0%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 48,
    "bundler": null
   }
  ],
