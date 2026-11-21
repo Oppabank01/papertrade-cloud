@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.5365265208789979,
+ "cash": 0.6138956091938007,
  "pos": {
-  "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": {
-   "sym": "swordcat",
-   "qty": 173.05882019154046,
-   "entry": 0.0004329,
-   "last": 0.0004274225043402696,
-   "peak": 0.0004443,
-   "cost": 0.07721826763648512,
-   "opened": "2026-11-21T14:12:58+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 318,
-   "kol": 43,
-   "gap": 1,
-   "miss": 0
-  },
   "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": {
    "sym": "WISHMAS",
    "qty": 378.05668659416784,
    "entry": 0.0001976,
-   "last": 0.0002163,
+   "last": 0.0002149,
    "peak": 0.0002176,
    "cost": 0.07699855830860397,
    "opened": "2026-11-21T14:18:15+07:00",
@@ -10521,10 +10507,25 @@
    "cost_side": 0.03,
    "smart": 93,
    "bundler": null
+  },
+  {
+   "t": "2026-11-21T16:13:00+07:00",
+   "kind": "sell",
+   "mint": "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump",
+   "sym": "swordcat",
+   "price": 0.0004608,
+   "entry": 0.0004329,
+   "usd": 0.0774,
+   "pnl": 0.0002,
+   "why": "ครบ 2 ชม. (+6.4%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 318,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795251952.9033163,
+ "rank_t": 1795252233.3121014,
  "halted": "ราคา SENSE สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-21T16:20:02+07:00"
 }
