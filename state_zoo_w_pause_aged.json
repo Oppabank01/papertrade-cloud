@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.1603377095622882,
+ "cash": 0.10609083996987259,
  "pos": {
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 0.827325557897771,
    "entry": 0.07488,
-   "last": 0.07099,
+   "last": 0.07058,
    "peak": 0.07532,
    "cost": 0.0638529558600135,
    "opened": "2026-11-21T09:28:44+07:00",
@@ -29,6 +29,20 @@
    "smart": 374,
    "kol": 63,
    "gap": 0,
+   "miss": 0
+  },
+  "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": {
+   "sym": "VEIL",
+   "qty": 116.25869864935197,
+   "entry": 0.0004527,
+   "last": 0.0004512,
+   "peak": 0.0004527,
+   "cost": 0.05424686959241563,
+   "opened": "2026-11-21T12:01:38+07:00",
+   "zoo": "w_pause_aged",
+   "smart": 83,
+   "kol": 5,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -6983,8 +6997,22 @@
    "zoo": "w_pause_aged",
    "smart": 374,
    "kol": 63
+  },
+  {
+   "t": "2026-11-21T12:01:38+07:00",
+   "kind": "buy",
+   "mint": "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump",
+   "sym": "VEIL",
+   "price": 0.0004527,
+   "jup": 0.0004512975146953588,
+   "usd": 0.0542,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_aged",
+   "smart": 83,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795236900.6777408
+ "rank_t": 1795237203.1207821
 }
