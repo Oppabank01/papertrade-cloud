@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.563488676111894,
+ "cash": 2.1103090020771242,
  "pos": {
-  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
-   "sym": "CLAUDIA",
-   "qty": 50.82200949570699,
-   "entry": 0.01038,
-   "last": 0.01109,
-   "peak": 0.01167,
-   "cost": 0.5437357849571621,
-   "opened": "2026-11-22T10:33:24+07:00",
-   "zoo": "w_pause_bigliq",
-   "smart": 539,
-   "kol": 34,
-   "gap": 0,
-   "miss": 0
-  },
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 12.700534372643423,
    "entry": 0.04005,
-   "last": 0.03994,
+   "last": 0.03965,
    "peak": 0.04063,
    "cost": 0.5242799439542044,
    "opened": "2026-11-22T12:41:33+07:00",
@@ -3195,8 +3181,23 @@
    "zoo": "w_pause_bigliq",
    "smart": 1000,
    "kol": 186
+  },
+  {
+   "t": "2026-11-22T13:33:26+07:00",
+   "kind": "sell",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.01109,
+   "entry": 0.01038,
+   "usd": 0.5468,
+   "pnl": 0.0031,
+   "why": "ครบ 3 ชม. (+6.8%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 539,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795328858.5886667
+ "rank_t": 1795329137.2711034
 }
