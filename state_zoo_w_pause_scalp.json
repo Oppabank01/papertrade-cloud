@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.3493558124088316,
+ "cash": 0.3977514256130202,
  "pos": {
-  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
-   "sym": "GATO",
-   "qty": 19.66184461078433,
-   "entry": 0.002561,
-   "last": 0.002607,
-   "peak": 0.002812,
-   "cost": 0.05190062260175084,
-   "opened": "2026-11-22T14:15:24+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 70,
-   "kol": 5,
-   "gap": 0,
-   "miss": 0
-  },
   "HXxJdaQbrYRvwTAM8M8mUPyoRPvmyuUbPFBRkiAAMASS": {
    "sym": "Ansemmas",
    "qty": 124.93346168434232,
    "entry": 0.0003959,
-   "last": 0.0003984,
+   "last": 0.0003923,
    "peak": 0.000409,
    "cost": 0.05098037258382924,
    "opened": "2026-11-22T15:21:31+07:00",
@@ -35,7 +21,7 @@
    "sym": "NIO",
    "qty": 34.28751655500902,
    "entry": 0.001441,
-   "last": 0.001449,
+   "last": 0.001444,
    "peak": 0.001509,
    "cost": 0.050925903273312714,
    "opened": "2026-11-22T15:31:10+07:00",
@@ -11861,10 +11847,25 @@
    "cost_side": 0.03,
    "smart": 351,
    "bundler": null
+  },
+  {
+   "t": "2026-11-22T16:15:41+07:00",
+   "kind": "sell",
+   "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "sym": "GATO",
+   "price": 0.002537,
+   "entry": 0.002561,
+   "usd": 0.0484,
+   "pnl": -0.0035,
+   "why": "ครบ 2 ชม. (-0.9%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 70,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795338511.1962602,
+ "rank_t": 1795338800.5494637,
  "halted": "ราคา DacityCoin สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-22T16:47:54+07:00"
 }
