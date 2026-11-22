@@ -1,0 +1,72 @@
+{
+ "start_thb": 500.0,
+ "start_usd": 14.611338398597312,
+ "cash": 8.772632963179426,
+ "pos": {
+  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
+   "sym": "mihao",
+   "qty": 327.75779535677594,
+   "entry": 0.008827,
+   "last": 0.008737,
+   "peak": 0.008827,
+   "cost": 2.9222676797194627,
+   "opened": "2026-11-22T19:53:39+07:00",
+   "zoo": "w_aged_nostop_b2",
+   "smart": 799,
+   "kol": 75,
+   "gap": 0,
+   "miss": 0
+  },
+  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+   "sym": "USELESS",
+   "qty": 35.743331135000375,
+   "entry": 0.08078,
+   "last": 0.08082,
+   "peak": 0.08082,
+   "cost": 2.9164377556984222,
+   "opened": "2026-11-22T19:53:39+07:00",
+   "zoo": "w_aged_nostop_b2",
+   "smart": 928,
+   "kol": 295,
+   "gap": 0,
+   "miss": 0
+  }
+ },
+ "log": [
+  {
+   "t": "2026-11-22T19:52:26+07:00",
+   "kind": "init",
+   "thb": 500.0
+  },
+  {
+   "t": "2026-11-22T19:53:39+07:00",
+   "kind": "buy",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.008827,
+   "jup": 0.008779861787286982,
+   "usd": 2.9223,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_aged_nostop_b2",
+   "smart": 799,
+   "kol": 75
+  },
+  {
+   "t": "2026-11-22T19:53:39+07:00",
+   "kind": "buy",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.08078,
+   "jup": 0.08101538820717614,
+   "usd": 2.9164,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_aged_nostop_b2",
+   "smart": 928,
+   "kol": 295
+  }
+ ],
+ "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: อายุเกิน 1 วัน pool 200k+ ไม่มี stop ถือ 12 ชม.",
+ "rank_t": 1795351895.7240627
+}

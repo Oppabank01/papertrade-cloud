@@ -1,0 +1,128 @@
+{
+ "start_thb": 500.0,
+ "start_usd": 14.611338398597312,
+ "cash": 3.0263533761213783,
+ "pos": {
+  "3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump": {
+   "sym": "snowball",
+   "qty": 6235.285029390418,
+   "entry": 0.0004547,
+   "last": 0.0004263,
+   "peak": 0.0004547,
+   "cost": 2.9222676797194627,
+   "opened": "2026-11-22T19:53:56+07:00",
+   "zoo": "x_lotus_5bots_b2",
+   "smart": 72,
+   "kol": 6,
+   "gap": 0,
+   "miss": 0
+  },
+  "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
+   "sym": "FIONA",
+   "qty": 1577.1048716344455,
+   "entry": 0.001787,
+   "last": 0.001755,
+   "peak": 0.001787,
+   "cost": 2.9048509643483342,
+   "opened": "2026-11-22T19:54:00+07:00",
+   "zoo": "x_lotus_5bots_b2",
+   "smart": 334,
+   "kol": 19,
+   "gap": 1,
+   "miss": 0
+  },
+  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
+   "sym": "CLAUDIA",
+   "qty": 237.81743791454278,
+   "entry": 0.01178,
+   "last": 0.01185,
+   "peak": 0.01185,
+   "cost": 2.8875380526008185,
+   "opened": "2026-11-22T19:54:00+07:00",
+   "zoo": "x_lotus_5bots_b2",
+   "smart": 542,
+   "kol": 34,
+   "gap": 0,
+   "miss": 0
+  },
+  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
+   "sym": "mihao",
+   "qty": 315.87937178973,
+   "entry": 0.008816,
+   "last": 0.008737,
+   "peak": 0.008816,
+   "cost": 2.8703283258073173,
+   "opened": "2026-11-22T19:54:04+07:00",
+   "zoo": "x_lotus_5bots_b2",
+   "smart": 799,
+   "kol": 75,
+   "gap": 0,
+   "miss": 0
+  }
+ },
+ "log": [
+  {
+   "t": "2026-11-22T19:52:28+07:00",
+   "kind": "init",
+   "thb": 500.0
+  },
+  {
+   "t": "2026-11-22T19:53:56+07:00",
+   "kind": "buy",
+   "mint": "3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump",
+   "sym": "snowball",
+   "price": 0.0004547,
+   "jup": 0.0004557276806416958,
+   "usd": 2.9223,
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "zoo": "x_lotus_5bots_b2",
+   "smart": 72,
+   "kol": 6
+  },
+  {
+   "t": "2026-11-22T19:54:00+07:00",
+   "kind": "buy",
+   "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
+   "sym": "FIONA",
+   "price": 0.001787,
+   "jup": 0.0017734857153495571,
+   "usd": 2.9049,
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "zoo": "x_lotus_5bots_b2",
+   "smart": 334,
+   "kol": 19
+  },
+  {
+   "t": "2026-11-22T19:54:00+07:00",
+   "kind": "buy",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.01178,
+   "jup": 0.01187033863112016,
+   "usd": 2.8875,
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "zoo": "x_lotus_5bots_b2",
+   "smart": 542,
+   "kol": 34
+  },
+  {
+   "t": "2026-11-22T19:54:04+07:00",
+   "kind": "buy",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.008816,
+   "jup": 0.00880154357476934,
+   "usd": 2.8703,
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "zoo": "x_lotus_5bots_b2",
+   "smart": 799,
+   "kol": 75
+  }
+ ],
+ "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: 5 บอท: pool 25k+ dev ไม่เกิน 5% top10 ไม่เกิน 20% ขายครึ่ง x2 stop -25%",
+ "rank_t": 1795351895.7240627
+}
