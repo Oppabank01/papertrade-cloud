@@ -246,3 +246,16 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ทดสอบแล้ว: trend_pullback_champion ของ Pyrochem (ราคาเหนือ SMA200 + RSI14 ไม่เกิน 42 + แท่งเขียว ฝั่ง short กลับด้านที่ 58 stop 2 ATR เป้า 4 ATR เข้าแท่งถัดไป) Binance 4 ชม. 2017 ถึง 2026 ต้นทุน 0.35% ต่อข้าง long+short ต่อไม้ BTC +0.46% (222 ไม้ มัธยฐาน -2.7%) ETH +0.94% (225) SOL +0.13% (144) จุดเข้าสุ่มคู่แฝด BTC -0.39% ETH -0.22% SOL +0.42% permutation 200 รอบ p BTC 0.010 ETH 0.015 SOL 0.498 ไม่ผ่าน p ต่ำกว่า 0.01 CI ครอบศูนย์ BTC ปี 2024 ถึง 2026 ติดลบ และ repo เลือกจาก 8 ท่า ไม่เปิดบัญชี
 ไอเดีย: arXiv 2609.05663 (เอเจนต์ LLM จริง 2 กลุ่มไม่มี edge ทิศทาง ชนะ 41% แต่ bracket ตายตัวกู้ได้ +39 bps ต่อตำแหน่ง ต้องอ่านค่า bracket ใน full text และ CSV ตำแหน่ง), arXiv 2609.34510 (วัดช่องว่าง backtest กับเงินจริง ต้อง full text)
 เพิ่ม: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
+
+## 2026-11-23 02:55 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 16 พ.ย. (trading agent, crypto strategy, funding rate), X 4 ครั้ง (grok trading bot strategy, hyperliquid bot strategy backtest, crypto strategy rules backtest win rate 4h ไม่มีผล, เทรดคริปโต กลยุทธ์ ทดสอบย้อนหลัง), เว็บ 2 ครั้ง (คลังท่าเทรดฟรีจากโพสต์ X, งานวิจัยผลตอบแทนตามช่วงเวลาของวัน)
+เจอ: thecomicopera/trading-backtest-lab (8 ท่าตำรา), Dualshok3/trade-hub (Gemma 4 เทียบ Opus บนหุ้นด้วยเงินเล่น), repo ดาวปั่นปุ่ม PowerShell 2 ตัว (ทรงมัลแวร์), repo Hyperliquid "native 64-bit" ชุดเดิม, โพสต์ Grok Bot ชนะ 74-81% ของ 0xJamino และ w1nklerr (ไม่มีกฎ), FensoryApp ตัวกรอง key level, irongiantXBT คลังท่าฟรี (ไม่เห็นชื่อ repo), machao_stock ซื้อทองที่เลขกลม, arXiv 2607.09426 Quarter-Hour Effect, MDPI แบ่งวันเป็นกลางวันกลางคืน (หน้าเว็บตอบ 403)
+ทดสอบแล้ว:
+- Bollinger breakout 20/2 ของ trading-backtest-lab บน Binance 4 ชม. 2017-2026 หลังหัก 0.35%/ข้าง long อย่างเดียว 979 ไม้ เฉลี่ย +0.44% มัธยฐาน -1.94% ชนะ 34% ตัวแฝดเข้าสุ่ม -0.08 ถึง -0.71% permutation 200 รอบ p BTC 0.010 ETH 0.080 SOL 0.284 ปี 2024+ ติดลบทุกเหรียญ
+- ทองแตะเลขกลม PAXG รายวัน 6 แบบติดลบทุกแบบ ตัวที่เลือก ($100 ถือ 5 วัน) 197 ไม้ -0.43% แพ้ซื้อวันสุ่ม -0.27% p 0.284
+- ข้ออ้างชนะ 78% ของ Grok Bot: เข้าสุ่มบน BTC 15 นาที TP 0.5% SL 1.5% ชนะ 74% TP 0.3% SL 1.0% ชนะ 77% แต่เฉลี่ย -0.10% ต่อไม้แม้ค่าธรรมเนียม 0.05%/ข้าง อัตราชนะสูงมาจากรูปทรง TP/SL ไม่ใช่ edge
+- ช่วงเวลาของวัน (แบบใกล้สุดของ MDPI): ผลตอบแทน 00-12 UTC กำหนดฝั่ง 12-24 UTC ETH ตามทิศก่อนหัก +0.18% ต่อวัน p 0.010 แต่หลังหัก -0.52% BTC และ SOL p เกิน 0.05 ต้นทุนกินหมด
+เปิดบัญชี: fwd_bbbreak.py (Bollinger breakout BTC ETH SOL 4 ชม. พร้อมตัวแฝดเข้าสุ่ม) และ fwd_goldround.py (ทองแตะเลขกลม PAXG พร้อมตัวแฝด) ทั้งสองไฟล์มี test ที่เดินทีละแท่งได้ไม้ตรงกับ backtest (18 และ 166 ไม้)
+ไอเดีย: Quarter-Hour Effect (ต้องข้อมูล 10 วินาที กำไรก่อนหักแค่ 0.51 bps), trade-hub (ต้องข่าวกับหุ้นและเรียก LLM ทุก tick), key level ของ FensoryApp (นิยามอยู่ในแอป), คลังท่าของ irongiantXBT (ต้องชื่อ repo)
+ตัดทิ้ง: repo ดาวปั่นปุ่ม PowerShell (ต้องรันไฟล์ที่ดาวน์โหลด)
+เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
