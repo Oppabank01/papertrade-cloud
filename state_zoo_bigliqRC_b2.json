@@ -7,7 +7,7 @@
    "sym": "TROLL",
    "qty": 120.8676324773255,
    "entry": 0.02048,
-   "last": 0.0208,
+   "last": 0.02067,
    "peak": 0.02082,
    "cost": 2.5514008587256507,
    "opened": "2026-11-23T03:53:06+07:00",
@@ -21,28 +21,28 @@
    "sym": "FLOAT",
    "qty": 584.5752793642657,
    "entry": 0.004222,
-   "last": 0.00407880740115562,
+   "last": 0.004178,
    "peak": 0.004231,
    "cost": 2.5438845902658525,
    "opened": "2026-11-23T04:07:06+07:00",
    "zoo": "bigliqRC_b2",
    "smart": 373,
    "kol": 34,
-   "gap": 5,
+   "gap": 0,
    "miss": 0
   },
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
    "sym": "ZCAT",
    "qty": 136.4497826235959,
    "entry": 0.01798,
-   "last": 0.0178808558446071,
+   "last": 0.01786206402395207,
    "peak": 0.01857,
    "cost": 2.5287230381078682,
    "opened": "2026-11-23T04:07:06+07:00",
    "zoo": "bigliqRC_b2",
    "smart": 330,
    "kol": 48,
-   "gap": 12,
+   "gap": 20,
    "miss": 0
   }
  },
@@ -383,8 +383,18 @@
    "cost_side": 0.03,
    "smart": 541,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T05:09:46+07:00",
+   "kind": "ban",
+   "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+   "sym": "ZCAT",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ผ่าน RugCheck เช็กราคาทุก 20 วิ",
- "rank_t": 1795385038.0276368
+ "rank_t": 1795385321.2116416,
+ "banned": {
+  "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT"
+ }
 }
