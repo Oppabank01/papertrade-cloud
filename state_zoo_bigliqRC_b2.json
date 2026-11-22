@@ -1,33 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 8.429612400436653,
+ "cash": 8.33375930560821,
  "pos": {
-  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
-   "sym": "CATE",
-   "qty": 144.00306844931703,
-   "entry": 0.0193,
-   "last": 0.01935,
-   "peak": 0.01968,
-   "cost": 2.8646250474869297,
-   "opened": "2026-11-22T20:11:44+07:00",
-   "zoo": "bigliqRC_b2",
-   "smart": 928,
-   "kol": 111,
-   "gap": 0,
-   "miss": 0
-  },
   "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
    "sym": "JEANPHIL",
    "qty": 1269.7178203995845,
    "entry": 0.00217,
-   "last": 0.002184,
-   "peak": 0.002184,
+   "last": 0.002185,
+   "peak": 0.002208,
    "cost": 2.8399172029139335,
    "opened": "2026-11-22T22:57:45+07:00",
    "zoo": "bigliqRC_b2",
    "smart": 400,
    "kol": 43,
+   "gap": 0,
+   "miss": 0
+  },
+  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
+   "sym": "Rings",
+   "qty": 765.6277935814182,
+   "entry": 0.003549,
+   "last": 0.003552,
+   "peak": 0.003552,
+   "cost": 2.8006730977328935,
+   "opened": "2026-11-22T23:11:29+07:00",
+   "zoo": "bigliqRC_b2",
+   "smart": 124,
+   "kol": 7,
    "gap": 0,
    "miss": 0
   }
@@ -152,8 +152,37 @@
    "cost_side": 0.03,
    "smart": 799,
    "bundler": null
+  },
+  {
+   "t": "2026-11-22T23:11:29+07:00",
+   "kind": "buy",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.003549,
+   "jup": 0.003544265791799805,
+   "usd": 2.8007,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliqRC_b2",
+   "smart": 124,
+   "kol": 7
+  },
+  {
+   "t": "2026-11-22T23:11:54+07:00",
+   "kind": "sell",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.01936,
+   "entry": 0.0193,
+   "usd": 2.7048,
+   "pnl": -0.1598,
+   "why": "ครบ 3 ชม. (+0.3%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 928,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ผ่าน RugCheck เช็กราคาทุก 20 วิ",
- "rank_t": 1795363547.937602
+ "rank_t": 1795363829.3426883
 }
