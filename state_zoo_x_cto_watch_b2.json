@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 4.141160693745468,
+ "cash": 0.0,
  "pos": {
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
    "sym": "Rings",
    "qty": 626.6441718446014,
    "entry": 0.003844,
-   "last": 0.003599233221885494,
+   "last": 0.0035400679591345748,
    "peak": 0.003855,
    "cost": 2.482807871130332,
    "opened": "2026-11-22T20:55:21+07:00",
@@ -29,6 +29,20 @@
    "smart": 161,
    "kol": 82,
    "gap": 0,
+   "miss": 0
+  },
+  "SPHFHU7sz2EZQYqyxMrZjgFdiYSCXJxRBE4giAjpump": {
+   "sym": "shep",
+   "qty": 41441.50701466583,
+   "entry": 9.695e-05,
+   "last": 9.54e-05,
+   "peak": 9.704214156954787e-05,
+   "cost": 4.141160693745468,
+   "opened": "2026-11-22T21:19:31+07:00",
+   "zoo": "x_cto_watch_b2",
+   "smart": 80,
+   "kol": 2,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -268,8 +282,22 @@
    "cost_side": 0.03,
    "smart": 9,
    "bundler": null
+  },
+  {
+   "t": "2026-11-22T21:19:31+07:00",
+   "kind": "buy",
+   "mint": "SPHFHU7sz2EZQYqyxMrZjgFdiYSCXJxRBE4giAjpump",
+   "sym": "shep",
+   "price": 9.695e-05,
+   "jup": 9.704214156954787e-05,
+   "usd": 4.1412,
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "zoo": "x_cto_watch_b2",
+   "smart": 80,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: รอ dev เทหมดแล้วมี CTO: dev ถือ 0% ซื้อ 40% ขายครึ่ง x3 trail 15% stop -18%",
- "rank_t": 1795356771.679451
+ "rank_t": 1795357046.1527326
 }
