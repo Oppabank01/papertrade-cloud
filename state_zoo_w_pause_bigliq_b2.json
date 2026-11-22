@@ -1,33 +1,47 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 7.35875379150192,
+ "cash": 4.830321656501919,
  "pos": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
    "sym": "ZCAT",
    "qty": 141.96432108227316,
    "entry": 0.01756,
-   "last": 0.01785786507925894,
+   "last": 0.01844,
    "peak": 0.01868,
    "cost": 2.569463490213066,
    "opened": "2026-11-23T03:54:17+07:00",
    "zoo": "w_pause_bigliq_b2",
    "smart": 330,
    "kol": 48,
-   "gap": 9,
+   "gap": 1,
    "miss": 0
   },
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
    "sym": "TROLL",
    "qty": 119.2195741469175,
    "entry": 0.0209,
-   "last": 0.02198,
+   "last": 0.02218,
    "peak": 0.02275,
    "cost": 2.5682221188111476,
    "opened": "2026-11-23T05:24:34+07:00",
    "zoo": "w_pause_bigliq_b2",
    "smart": 475,
    "kol": 214,
+   "gap": 0,
+   "miss": 0
+  },
+  "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": {
+   "sym": "MINELIUS",
+   "qty": 307.09625154944933,
+   "entry": 0.007988,
+   "last": 0.008305,
+   "peak": 0.008305,
+   "cost": 2.5284321350000014,
+   "opened": "2026-11-23T06:08:04+07:00",
+   "zoo": "w_pause_bigliq_b2",
+   "smart": 5,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -355,8 +369,22 @@
    "cost_side": 0.03,
    "smart": 373,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T06:08:04+07:00",
+   "kind": "buy",
+   "mint": "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump",
+   "sym": "MINELIUS",
+   "price": 0.007988,
+   "jup": 0.008001911678372666,
+   "usd": 2.5284,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_bigliq_b2",
+   "smart": 5,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795388492.9766772
+ "rank_t": 1795388778.5498078
 }
