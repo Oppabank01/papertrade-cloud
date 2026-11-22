@@ -1903,5 +1903,142 @@
    "MAX_HOLD_H": 2
   },
   "note": "repo has alerts only, no exit: exit copied from x_fresh_grad; liquidity 20k, age 6h, up and rugcheck also copied from x_fresh_grad so the only difference is the top10 cap of 30% from the README example."
+ },
+ {
+  "name": "x_kol_heavy",
+  "label": "ตาม KOL: มีคนดังถือ 5 คนขึ้นไป ราคาขึ้น (ไอเดียลองของ 23 พ.ย.)",
+  "horizon": "night",
+  "source": "own idea 2026-11-23 (ranking fields not used by any recipe yet)",
+  "claim": "GMGN renowned_count >= 5",
+  "added": "2026-11-23",
+  "active": true,
+  "entry": {
+   "min": {
+    "renowned_count": 5,
+    "liquidity": 20000
+   },
+   "max": {
+    "age_h": 24
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "TP_ALL": 0.35,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 2
+  },
+  "note": "exit copied from x_fresh_grad (stop -15%, take all +35%, 2 h); liquidity 20k and rugcheck as in most recipes; threshold 5 KOLs and age 24h chosen by me (the ranking often shows 0-6)."
+ },
+ {
+  "name": "x_organic",
+  "label": "คนซื้อจริง: บอทไม่เกิน 25% bundler ไม่เกิน 10% อายุไม่เกิน 24 ชม. (ไอเดียลองของ 23 พ.ย.)",
+  "horizon": "night",
+  "source": "own idea 2026-11-23 (ranking fields not used by any recipe yet)",
+  "claim": "few bots and bundles means real demand",
+  "added": "2026-11-23",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 20000
+   },
+   "max": {
+    "bot_degen_rate": 0.25,
+    "bundler_rate": 0.1,
+    "age_h": 24
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "TP_ALL": 0.35,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 2
+  },
+  "note": "exit copied from x_fresh_grad (stop -15%, take all +35%, 2 h); liquidity 20k and rugcheck as in most recipes; 25% / 10% caps chosen by me from the spread seen in the ranking (bot rate 0.2-0.7, bundler 0.09-0.47)."
+ },
+ {
+  "name": "x_hot_chase",
+  "label": "ไล่ของร้อน: GMGN hot level 3 ราคาขึ้น 5 นาที (ไอเดียลองของ 23 พ.ย.)",
+  "horizon": "night",
+  "source": "own idea 2026-11-23 (ranking fields not used by any recipe yet)",
+  "claim": "hot coins keep running",
+  "added": "2026-11-23",
+  "active": true,
+  "entry": {
+   "min": {
+    "hot_level": 3,
+    "price_change_percent5m": 3,
+    "liquidity": 20000
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "TP_ALL": 0.35,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 2
+  },
+  "note": "exit copied from x_fresh_grad (stop -15%, take all +35%, 2 h); liquidity 20k and rugcheck as in most recipes; hot_level 3 is the top value seen; 5m rise 3% chosen by me."
+ },
+ {
+  "name": "x_boost_paid",
+  "label": "dev จ่ายค่า boost DexScreener แล้ว (ซื้อตามโปรโมต) (ไอเดียลองของ 23 พ.ย.)",
+  "horizon": "night",
+  "source": "own idea 2026-11-23 (ranking fields not used by any recipe yet)",
+  "claim": "paid promotion brings buyers",
+  "added": "2026-11-23",
+  "active": true,
+  "entry": {
+   "min": {
+    "dexscr_boost_fee": 1,
+    "liquidity": 20000
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "TP_ALL": 0.35,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 2
+  },
+  "note": "exit copied from x_fresh_grad (stop -15%, take all +35%, 2 h); liquidity 20k and rugcheck as in most recipes; boost fee > 0 means the team paid DexScreener; rare in the ranking, may trade little."
+ },
+ {
+  "name": "x_no_snipers",
+  "label": "ไม่มี sniper และ rug ratio ต่ำ อายุไม่เกิน 12 ชม. (ไอเดียลองของ 23 พ.ย.)",
+  "horizon": "night",
+  "source": "own idea 2026-11-23 (ranking fields not used by any recipe yet)",
+  "claim": "clean launches without snipers do better",
+  "added": "2026-11-23",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 20000
+   },
+   "max": {
+    "sniper_count": 0,
+    "rug_ratio": 0.1,
+    "age_h": 12
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "TP_ALL": 0.35,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 2
+  },
+  "note": "exit copied from x_fresh_grad (stop -15%, take all +35%, 2 h); liquidity 20k and rugcheck as in most recipes; sniper 0, rug ratio 0.1 and 12h chosen by me."
  }
 ]
