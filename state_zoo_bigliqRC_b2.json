@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 2.4638186383284495,
+ "cash": 4.82041126642264,
  "pos": {
   "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
    "sym": "JEANPHIL",
    "qty": 1269.7178203995845,
    "entry": 0.00217,
-   "last": 0.002197,
+   "last": 0.002182,
    "peak": 0.002277,
    "cost": 2.8399172029139335,
    "opened": "2026-11-22T22:57:45+07:00",
    "zoo": "bigliqRC_b2",
    "smart": 400,
    "kol": 43,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 242.03635354145305,
    "entry": 0.0111,
-   "last": 0.01128,
+   "last": 0.01125,
    "peak": 0.01137,
    "cost": 2.769123401680199,
    "opened": "2026-11-22T23:21:13+07:00",
@@ -31,25 +31,11 @@
    "gap": 0,
    "miss": 0
   },
-  "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": {
-   "sym": "DCTY",
-   "qty": 842.5168631154253,
-   "entry": 0.003144,
-   "last": 0.003035,
-   "peak": 0.0033942831643230527,
-   "cost": 2.7302339905533883,
-   "opened": "2026-11-22T23:30:40+07:00",
-   "zoo": "bigliqRC_b2",
-   "smart": 738,
-   "kol": 65,
-   "gap": 0,
-   "miss": 0
-  },
   "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
    "sym": "neet",
    "qty": 112.21847537859227,
    "entry": 0.02335,
-   "last": 0.02315,
+   "last": 0.02316,
    "peak": 0.02367,
    "cost": 2.700784786734827,
    "opened": "2026-11-23T00:04:13+07:00",
@@ -266,8 +252,23 @@
    "zoo": "bigliqRC_b2",
    "smart": 888,
    "kol": 205
+  },
+  {
+   "t": "2026-11-23T00:57:58+07:00",
+   "kind": "sell",
+   "mint": "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump",
+   "sym": "DCTY",
+   "price": 0.002883,
+   "entry": 0.003144,
+   "usd": 2.3566,
+   "pnl": -0.3736,
+   "why": "stop -8.3%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 738,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ผ่าน RugCheck เช็กราคาทุก 20 วิ",
- "rank_t": 1795369809.6705835
+ "rank_t": 1795370101.0423899
 }

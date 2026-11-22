@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.499477905503982,
+ "cash": 4.198507070971395,
  "pos": {
   "EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump": {
    "sym": "LUNO",
    "qty": 7866.770540687633,
    "entry": 0.0003604,
-   "last": 0.0003362,
+   "last": 0.0003347,
    "peak": 0.0003766,
    "cost": 2.9222676797194627,
    "opened": "2026-11-22T19:54:26+07:00",
@@ -21,7 +21,7 @@
    "sym": "USOI",
    "qty": 252.3259058913849,
    "entry": 0.009398,
-   "last": 0.009437,
+   "last": 0.009402,
    "peak": 0.009517,
    "cost": 2.444195901429845,
    "opened": "2026-11-22T23:31:52+07:00",
@@ -29,6 +29,20 @@
    "smart": 5,
    "kol": 0,
    "gap": 0,
+   "miss": 0
+  },
+  "79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump": {
+   "sym": "Apocrycoin",
+   "qty": 89189.04928739577,
+   "entry": 2.503e-05,
+   "last": 2.521e-05,
+   "peak": 2.521e-05,
+   "cost": 2.300970834532587,
+   "opened": "2026-11-23T00:58:01+07:00",
+   "zoo": "x_loofy_desk_b2",
+   "smart": 123,
+   "kol": 6,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -268,8 +282,22 @@
    "cost_side": 0.03,
    "smart": 28,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T00:58:01+07:00",
+   "kind": "buy",
+   "mint": "79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump",
+   "sym": "Apocrycoin",
+   "price": 2.503e-05,
+   "jup": 2.5209434160330478e-05,
+   "usd": 2.301,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_loofy_desk_b2",
+   "smart": 123,
+   "kol": 6
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: 8 เอเจนต์: smart money 2+ ผ่านเช็กปลอดภัย+RugCheck stop -8% trail",
- "rank_t": 1795369809.6705835
+ "rank_t": 1795370101.0423899
 }
