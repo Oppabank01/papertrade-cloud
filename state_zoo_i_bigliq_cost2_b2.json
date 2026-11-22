@@ -7,7 +7,7 @@
    "sym": "TROLL",
    "qty": 126.90949715847829,
    "entry": 0.02048,
-   "last": 0.02039,
+   "last": 0.02042,
    "peak": 0.02054,
    "cost": 2.6252938075358054,
    "opened": "2026-11-23T03:53:48+07:00",
@@ -35,14 +35,14 @@
    "sym": "FLOAT",
    "qty": 616.9980252186448,
    "entry": 0.004185,
-   "last": 0.004183095490632612,
-   "peak": 0.004196,
+   "last": 0.004148614717153475,
+   "peak": 0.004231,
    "cost": 2.608153062336839,
    "opened": "2026-11-23T04:21:33+07:00",
    "zoo": "i_bigliq_cost2_b2",
    "smart": 373,
    "kol": 34,
-   "gap": 9,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -390,11 +390,19 @@
    "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
    "sym": "ZCAT",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-23T04:42:16+07:00",
+   "kind": "ban",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ค่าธรรมเนียมสมจริง 1% ต่อขา",
- "rank_t": 1795383283.7477837,
+ "rank_t": 1795383587.768708,
  "banned": {
-  "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT"
+  "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
+  "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": "FLOAT"
  }
 }
