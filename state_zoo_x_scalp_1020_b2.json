@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 11.982333733696443,
- "pos": {
-  "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
-   "sym": "FIONA",
-   "qty": 739.6037556622948,
-   "entry": 0.001793,
-   "last": 0.001547,
-   "peak": 0.001793,
-   "cost": 1.3668414078566222,
-   "opened": "2026-11-22T21:23:08+07:00",
-   "zoo": "x_scalp_1020_b2",
-   "smart": 336,
-   "kol": 19,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 13.041457553781935,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-22T19:52:24+07:00",
@@ -298,8 +283,23 @@
    "cost_side": 0.03,
    "smart": 43,
    "bundler": null
+  },
+  {
+   "t": "2026-11-22T22:05:17+07:00",
+   "kind": "sell",
+   "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
+   "sym": "FIONA",
+   "price": 0.001476,
+   "entry": 0.001793,
+   "usd": 1.0591,
+   "pnl": -0.3077,
+   "why": "stop -17.7%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 336,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สกัลป์ pump.fun ตัดกำไร/ขาดทุน 15% เดือนเต็ม",
- "rank_t": 1795359576.2831113
+ "rank_t": 1795359853.3510187
 }
