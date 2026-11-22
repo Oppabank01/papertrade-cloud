@@ -1,41 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 9.083732148191883,
+ "cash": 11.982333733696443,
  "pos": {
-  "GNHW5JetZmW85vAU35KyoDcYoSd3sNWtx5RPMTDJpump": {
-   "sym": "GOAT",
-   "qty": 26489.230221403453,
-   "entry": 5.316e-05,
-   "last": 5.457e-05,
-   "peak": 5.457e-05,
-   "cost": 1.4514197882599542,
-   "opened": "2026-11-22T19:57:00+07:00",
-   "zoo": "x_scalp_1020_b2",
-   "smart": 43,
-   "kol": 31,
-   "gap": 0,
-   "miss": 0
-  },
-  "6FhVPctYg363pQbs4iSvqyHe2cJzfsvFD96gePy6pump": {
-   "sym": "EXFIL",
-   "qty": 728.0999798039152,
-   "entry": 0.001841,
-   "last": 0.001982,
-   "peak": 0.002057,
-   "cost": 1.381603857780878,
-   "opened": "2026-11-22T20:50:20+07:00",
-   "zoo": "x_scalp_1020_b2",
-   "smart": 108,
-   "kol": 9,
-   "gap": 0,
-   "miss": 0
-  },
   "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
    "sym": "FIONA",
    "qty": 739.6037556622948,
    "entry": 0.001793,
-   "last": 0.001697,
+   "last": 0.00169,
    "peak": 0.001793,
    "cost": 1.3668414078566222,
    "opened": "2026-11-22T21:23:08+07:00",
@@ -296,8 +268,38 @@
    "cost_side": 0.03,
    "smart": 0,
    "bundler": null
+  },
+  {
+   "t": "2026-11-22T21:55:37+07:00",
+   "kind": "sell",
+   "mint": "6FhVPctYg363pQbs4iSvqyHe2cJzfsvFD96gePy6pump",
+   "sym": "EXFIL",
+   "price": 0.002118,
+   "entry": 0.001841,
+   "usd": 1.4962,
+   "pnl": 0.1146,
+   "why": "ถึงเป้า +15.0%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 108,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-22T21:57:11+07:00",
+   "kind": "sell",
+   "mint": "GNHW5JetZmW85vAU35KyoDcYoSd3sNWtx5RPMTDJpump",
+   "sym": "GOAT",
+   "price": 5.457e-05,
+   "entry": 5.316e-05,
+   "usd": 1.4024,
+   "pnl": -0.049,
+   "why": "ครบ 2 ชม. (+2.7%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 43,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สกัลป์ pump.fun ตัดกำไร/ขาดทุน 15% เดือนเต็ม",
- "rank_t": 1795359004.667449
+ "rank_t": 1795359284.9155693
 }
