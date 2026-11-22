@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 7.902757358755523,
+ "cash": 5.30968485580693,
  "pos": {
   "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": {
    "sym": "DCTY",
    "qty": 405.01991417027,
    "entry": 0.003124,
-   "last": 0.00337,
+   "last": 0.003328,
    "peak": 0.0033942831643230527,
    "cost": 1.3041457553781937,
    "opened": "2026-11-22T22:15:39+07:00",
@@ -21,7 +21,7 @@
    "sym": "UHI",
    "qty": 2095.186299412983,
    "entry": 0.0006021,
-   "last": 0.0005972,
+   "last": 0.0006051,
    "peak": 0.0006066,
    "cost": 1.3002594010271666,
    "opened": "2026-11-22T22:15:41+07:00",
@@ -35,8 +35,8 @@
    "sym": "1",
    "qty": 5500.67168604519,
    "entry": 0.0002234,
-   "last": 0.0002228,
-   "peak": 0.000224,
+   "last": 0.0002251,
+   "peak": 0.0002251,
    "cost": 1.2665945729359878,
    "opened": "2026-11-22T23:26:05+07:00",
    "zoo": "x_scalp_1020_b2",
@@ -56,6 +56,34 @@
    "zoo": "x_scalp_1020_b2",
    "smart": 5,
    "kol": 0,
+   "gap": 0,
+   "miss": 0
+  },
+  "412ECWXN3jGbd1kn8ck7eeupWttkmrFkNm9JqfAzpump": {
+   "sym": "shiit",
+   "qty": 1117.8141421670928,
+   "entry": 0.001127,
+   "last": 0.0009821486809493956,
+   "peak": 0.001131561318813039,
+   "cost": 1.2984709732244006,
+   "opened": "2026-11-22T23:49:57+07:00",
+   "zoo": "x_scalp_1020_b2",
+   "smart": 85,
+   "kol": 0,
+   "gap": 4,
+   "miss": 0
+  },
+  "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
+   "sym": "Rocco",
+   "qty": 14825.571342521378,
+   "entry": 8.472e-05,
+   "last": 8.336e-05,
+   "peak": 8.472e-05,
+   "cost": 1.2946015297241922,
+   "opened": "2026-11-22T23:49:57+07:00",
+   "zoo": "x_scalp_1020_b2",
+   "smart": 139,
+   "kol": 11,
    "gap": 0,
    "miss": 0
   }
@@ -498,8 +526,36 @@
    "cost_side": 0.03,
    "smart": 179,
    "bundler": null
+  },
+  {
+   "t": "2026-11-22T23:49:57+07:00",
+   "kind": "buy",
+   "mint": "412ECWXN3jGbd1kn8ck7eeupWttkmrFkNm9JqfAzpump",
+   "sym": "shiit",
+   "price": 0.001127,
+   "jup": 0.001131561318813039,
+   "usd": 1.2985,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_scalp_1020_b2",
+   "smart": 85,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-22T23:49:57+07:00",
+   "kind": "buy",
+   "mint": "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump",
+   "sym": "Rocco",
+   "price": 8.472e-05,
+   "jup": 8.484499208644754e-05,
+   "usd": 1.2946,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_scalp_1020_b2",
+   "smart": 139,
+   "kol": 11
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สกัลป์ pump.fun ตัดกำไร/ขาดทุน 15% เดือนเต็ม",
- "rank_t": 1795365819.1500304
+ "rank_t": 1795366126.3267314
 }
