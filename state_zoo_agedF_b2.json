@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 2.937841763425567,
+ "cash": 2.5736143282260127,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 79.24890180678658,
    "entry": 0.03545,
-   "last": 0.03529,
+   "last": 0.03503,
    "peak": 0.03551,
    "cost": 2.895664367192934,
    "opened": "2026-11-22T20:02:25+07:00",
@@ -21,21 +21,21 @@
    "sym": "mihao",
    "qty": 320.701548327819,
    "entry": 0.008749,
-   "last": 0.008805,
-   "peak": 0.009084,
+   "last": 0.009116,
+   "peak": 0.009405,
    "cost": 2.891999429313635,
    "opened": "2026-11-22T20:07:12+07:00",
    "zoo": "agedF_b2",
    "smart": 799,
    "kol": 75,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 147.2424381585711,
    "entry": 0.01931,
-   "last": 0.01908,
+   "last": 0.019,
    "peak": 0.01931,
    "cost": 2.9305828497650057,
    "opened": "2026-11-22T20:11:44+07:00",
@@ -45,17 +45,17 @@
    "gap": 0,
    "miss": 0
   },
-  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
-   "sym": "CLAUDIA",
-   "qty": 238.70013853531054,
-   "entry": 0.01158,
-   "last": 0.01101,
-   "peak": 0.0116,
-   "cost": 2.8490492725612206,
-   "opened": "2026-11-22T20:20:57+07:00",
+  "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
+   "sym": "FIONA",
+   "qty": 1652.3381264158224,
+   "entry": 0.001644,
+   "last": 0.001571,
+   "peak": 0.001644,
+   "cost": 2.7998803131597736,
+   "opened": "2026-11-22T20:50:01+07:00",
    "zoo": "agedF_b2",
-   "smart": 542,
-   "kol": 34,
+   "smart": 336,
+   "kol": 19,
    "gap": 0,
    "miss": 0
   }
@@ -150,8 +150,37 @@
    "zoo": "agedF_b2",
    "smart": 542,
    "kol": 34
+  },
+  {
+   "t": "2026-11-22T20:49:36+07:00",
+   "kind": "sell",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.010517231964019448,
+   "entry": 0.01158,
+   "usd": 2.4357,
+   "pnl": -0.4134,
+   "why": "stop -9.2%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 542,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-22T20:50:01+07:00",
+   "kind": "buy",
+   "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
+   "sym": "FIONA",
+   "price": 0.001644,
+   "jup": 0.001660362516037927,
+   "usd": 2.7999,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "agedF_b2",
+   "smart": 336,
+   "kol": 19
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: อายุเกิน 1 วัน เช็กราคาทุก 20 วิ",
- "rank_t": 1795355067.1437583
+ "rank_t": 1795355353.3044584
 }

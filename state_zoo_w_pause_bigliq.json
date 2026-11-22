@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.4437369093708146,
+ "cash": 1.9326825421676777,
  "pos": {
-  "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": {
-   "sym": "PUMPCADE",
-   "qty": 40.87297263788246,
-   "entry": 0.01231,
-   "last": 0.01227,
-   "peak": 0.01233,
-   "cost": 0.5186005907775026,
-   "opened": "2026-11-22T17:49:15+07:00",
-   "zoo": "w_pause_bigliq",
-   "smart": 128,
-   "kol": 19,
-   "gap": 0,
-   "miss": 0
-  },
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 57.72218753884515,
    "entry": 0.008656,
-   "last": 0.008805,
-   "peak": 0.009084,
+   "last": 0.009116,
+   "peak": 0.009405,
    "cost": 0.5149899560258129,
    "opened": "2026-11-22T17:58:50+07:00",
    "zoo": "w_pause_bigliq",
    "smart": 799,
    "kol": 75,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -3345,8 +3331,23 @@
    "t": "2026-11-22T20:35:33+07:00",
    "kind": "resume",
    "why": "ราคา MANIFEST สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-22T20:49:36+07:00",
+   "kind": "sell",
+   "mint": "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu",
+   "sym": "PUMPCADE",
+   "price": 0.01233,
+   "entry": 0.01231,
+   "usd": 0.4889,
+   "pnl": -0.0297,
+   "why": "ครบ 3 ชม. (+0.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 128,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795355067.1437583
+ "rank_t": 1795355353.3044584
 }
