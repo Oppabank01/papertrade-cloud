@@ -1,33 +1,47 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 5.165888273591552,
+ "cash": 0.0,
  "pos": {
   "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": {
    "sym": "Singularity",
    "qty": 5792.780621087025,
    "entry": 0.0009672,
-   "last": 0.001045,
-   "peak": 0.001045,
+   "last": 0.0011746129094054247,
+   "peak": 0.0011746129094054247,
    "cost": 5.7748684979544125,
    "opened": "2026-11-22T19:54:05+07:00",
    "zoo": "x_cto_watch_b2",
    "smart": 115,
    "kol": 2,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   },
   "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
    "sym": "FIONA",
    "qty": 1628.9421390999412,
    "entry": 0.001782,
-   "last": 0.001833,
-   "peak": 0.001834,
+   "last": 0.0018169623996615095,
+   "peak": 0.001852,
    "cost": 2.9919345412039737,
    "opened": "2026-11-22T19:54:05+07:00",
    "zoo": "x_cto_watch_b2",
    "smart": 334,
    "kol": 19,
+   "gap": 1,
+   "miss": 0
+  },
+  "6ZbWPYxFf8XyQ6dncrPAef1yz4W9nRF6rX3CYuE7pump": {
+   "sym": "攀豹豹",
+   "qty": 29656.478124488305,
+   "entry": 0.000169,
+   "last": 0.00018,
+   "peak": 0.00018,
+   "cost": 5.165888273591552,
+   "opened": "2026-11-22T20:12:36+07:00",
+   "zoo": "x_cto_watch_b2",
+   "smart": 84,
+   "kol": 2,
    "gap": 0,
    "miss": 0
   }
@@ -94,8 +108,22 @@
    "cost_side": 0.03,
    "smart": 72,
    "bundler": null
+  },
+  {
+   "t": "2026-11-22T20:12:36+07:00",
+   "kind": "buy",
+   "mint": "6ZbWPYxFf8XyQ6dncrPAef1yz4W9nRF6rX3CYuE7pump",
+   "sym": "攀豹豹",
+   "price": 0.000169,
+   "jup": 0.00016812018889433416,
+   "usd": 5.1659,
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "zoo": "x_cto_watch_b2",
+   "smart": 84,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: รอ dev เทหมดแล้วมี CTO: dev ถือ 0% ซื้อ 40% ขายครึ่ง x3 trail 15% stop -18%",
- "rank_t": 1795352758.144663
+ "rank_t": 1795353033.3956974
 }

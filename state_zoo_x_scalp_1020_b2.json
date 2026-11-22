@@ -1,28 +1,28 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 10.369305550659883,
+ "cash": 7.453693165515268,
  "pos": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": {
    "sym": "VEIL",
    "qty": 3243.1755923859787,
    "entry": 0.0004371,
-   "last": 0.0004444,
+   "last": 0.00044064093603161133,
    "peak": 0.0004576,
    "cost": 1.4611338398597313,
    "opened": "2026-11-22T19:53:18+07:00",
    "zoo": "x_scalp_1020_b2",
    "smart": 84,
    "kol": 5,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   },
   "6C9r2gzu8Pr54hTevHo3x5gSj9JqtpApj7obJnrtpump": {
    "sym": "ROCKET",
    "qty": 1724.8811656317357,
    "entry": 0.0008194,
-   "last": 0.0008222,
-   "peak": 0.0008223,
+   "last": 0.0008255,
+   "peak": 0.0008255,
    "cost": 1.4567796610169494,
    "opened": "2026-11-22T19:53:18+07:00",
    "zoo": "x_scalp_1020_b2",
@@ -42,6 +42,34 @@
    "zoo": "x_scalp_1020_b2",
    "smart": 43,
    "kol": 31,
+   "gap": 0,
+   "miss": 0
+  },
+  "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": {
+   "sym": "Singularity",
+   "qty": 1277.253484638598,
+   "entry": 0.001109,
+   "last": 0.0011746129094054247,
+   "peak": 0.0011746129094054247,
+   "cost": 1.4599815651043135,
+   "opened": "2026-11-22T20:11:58+07:00",
+   "zoo": "x_scalp_1020_b2",
+   "smart": 115,
+   "kol": 2,
+   "gap": 2,
+   "miss": 0
+  },
+  "USEu5qroduzuvrSZfvs3xM1MwyU83joapQF5LMyWiSP": {
+   "sym": "WiSP",
+   "qty": 7143.414373308557,
+   "entry": 0.0001977,
+   "last": 0.0001978,
+   "peak": 0.0001978,
+   "cost": 1.4556308200403028,
+   "opened": "2026-11-22T20:11:58+07:00",
+   "zoo": "x_scalp_1020_b2",
+   "smart": 50,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -122,8 +150,36 @@
    "cost_side": 0.03,
    "smart": 49,
    "bundler": null
+  },
+  {
+   "t": "2026-11-22T20:11:58+07:00",
+   "kind": "buy",
+   "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump",
+   "sym": "Singularity",
+   "price": 0.001109,
+   "jup": 0.0011159346536217221,
+   "usd": 1.46,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_scalp_1020_b2",
+   "smart": 115,
+   "kol": 2
+  },
+  {
+   "t": "2026-11-22T20:11:58+07:00",
+   "kind": "buy",
+   "mint": "USEu5qroduzuvrSZfvs3xM1MwyU83joapQF5LMyWiSP",
+   "sym": "WiSP",
+   "price": 0.0001977,
+   "jup": 0.0001978242789440918,
+   "usd": 1.4556,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_scalp_1020_b2",
+   "smart": 50,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สกัลป์ pump.fun ตัดกำไร/ขาดทุน 15% เดือนเต็ม",
- "rank_t": 1795352758.144663
+ "rank_t": 1795353033.3956974
 }
