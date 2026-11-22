@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 7.8395940970819575,
+ "cash": 8.834178309469776,
  "pos": {
   "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": {
    "sym": "DCTY",
    "qty": 405.01991417027,
    "entry": 0.003124,
-   "last": 0.003095,
+   "last": 0.003134,
    "peak": 0.003289,
    "cost": 1.3041457553781937,
    "opened": "2026-11-22T22:15:39+07:00",
@@ -21,14 +21,14 @@
    "sym": "UHI",
    "qty": 2095.186299412983,
    "entry": 0.0006021,
-   "last": 0.0005907,
+   "last": 0.0005974,
    "peak": 0.0006066,
    "cost": 1.3002594010271666,
    "opened": "2026-11-22T22:15:41+07:00",
    "zoo": "x_scalp_1020_b2",
    "smart": 16,
    "kol": 0,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": {
@@ -43,20 +43,6 @@
    "smart": 179,
    "kol": 11,
    "gap": 0,
-   "miss": 0
-  },
-  "3giek4YMpTKQn214YoNL31Xf5cE7o8ePP7Ekg6W6pump": {
-   "sym": "MUTTS",
-   "qty": 6940.644422391311,
-   "entry": 0.0001816,
-   "last": 0.0001633774215120352,
-   "peak": 0.0001833,
-   "cost": 1.299135257788355,
-   "opened": "2026-11-22T22:24:33+07:00",
-   "zoo": "x_scalp_1020_b2",
-   "smart": 132,
-   "kol": 3,
-   "gap": 2,
    "miss": 0
   }
  },
@@ -411,8 +397,23 @@
    "zoo": "x_scalp_1020_b2",
    "smart": 132,
    "kol": 3
+  },
+  {
+   "t": "2026-11-22T23:04:04+07:00",
+   "kind": "sell",
+   "mint": "3giek4YMpTKQn214YoNL31Xf5cE7o8ePP7Ekg6W6pump",
+   "sym": "MUTTS",
+   "price": 0.0001477,
+   "entry": 0.0001816,
+   "usd": 0.9946,
+   "pnl": -0.3046,
+   "why": "stop -18.7%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 132,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สกัลป์ pump.fun ตัดกำไร/ขาดทุน 15% เดือนเต็ม",
- "rank_t": 1795362992.9652402
+ "rank_t": 1795363275.0396662
 }
