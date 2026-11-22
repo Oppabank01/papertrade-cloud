@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 5.46876195559412,
+ "cash": 2.622098016511657,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 81.3440654780243,
    "entry": 0.03545,
-   "last": 0.03608,
+   "last": 0.03602,
    "peak": 0.03621,
    "cost": 2.9127013168313547,
    "opened": "2026-11-22T20:02:49+07:00",
@@ -21,7 +21,7 @@
    "sym": "CATE",
    "qty": 148.38080052881062,
    "entry": 0.0193,
-   "last": 0.01959,
+   "last": 0.01943,
    "peak": 0.01968,
    "cost": 2.8926031667948235,
    "opened": "2026-11-22T20:12:06+07:00",
@@ -35,13 +35,27 @@
    "sym": "ANSEM",
    "qty": 73.5283033231694,
    "entry": 0.03887,
-   "last": 0.03995,
+   "last": 0.03989,
    "peak": 0.04054,
    "cost": 2.886841393067442,
    "opened": "2026-11-22T21:55:44+07:00",
    "zoo": "i_bigliq_cost2_b2",
    "smart": 1000,
    "kol": 186,
+   "gap": 0,
+   "miss": 0
+  },
+  "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
+   "sym": "JEANPHIL",
+   "qty": 1298.7412287051222,
+   "entry": 0.00217,
+   "last": 0.00217,
+   "peak": 0.00217,
+   "cost": 2.846663939082463,
+   "opened": "2026-11-22T22:58:13+07:00",
+   "zoo": "i_bigliq_cost2_b2",
+   "smart": 400,
+   "kol": 43,
    "gap": 0,
    "miss": 0
   }
@@ -151,8 +165,22 @@
    "cost_side": 0.01,
    "smart": 799,
    "bundler": null
+  },
+  {
+   "t": "2026-11-22T22:58:13+07:00",
+   "kind": "buy",
+   "mint": "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump",
+   "sym": "JEANPHIL",
+   "price": 0.00217,
+   "jup": 0.0021709388841915115,
+   "usd": 2.8467,
+   "stop_set": -0.08,
+   "cost_side": 0.01,
+   "zoo": "i_bigliq_cost2_b2",
+   "smart": 400,
+   "kol": 43
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ค่าธรรมเนียมสมจริง 1% ต่อขา",
- "rank_t": 1795362700.8405402
+ "rank_t": 1795362992.9652402
 }
