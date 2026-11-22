@@ -1,15 +1,44 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.598540145985401,
- "cash": 14.598540145985401,
- "pos": {},
+ "cash": 11.678832116788321,
+ "pos": {
+  "FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump": {
+   "sym": "OpenIndex",
+   "qty": 4065.88306290657,
+   "entry": 0.0006967,
+   "last": 0.0006944928920031196,
+   "peak": 0.0007163,
+   "cost": 2.9197080291970803,
+   "opened": "2026-11-23T01:58:40+07:00",
+   "zoo": "x_crb_4agent",
+   "smart": 60,
+   "kol": 2,
+   "gap": 1,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T23:15:49+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-23T01:58:40+07:00",
+   "kind": "buy",
+   "mint": "FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump",
+   "sym": "OpenIndex",
+   "price": 0.0006967,
+   "jup": 0.0006972561311109632,
+   "usd": 2.9197,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_crb_4agent",
+   "smart": 60,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: crbpite8 โต๊ะ 4 เอเจนต์: เหรียญใหม่ไม่เกิน 6 ชม. คนถือ 300+ top10 ไม่เกิน 30% RugCheck ผ่าน แรงซื้อนำ ขายครึ่ง +30%",
- "rank_t": 1795373509.3244505
+ "rank_t": 1795373791.5708404
 }
