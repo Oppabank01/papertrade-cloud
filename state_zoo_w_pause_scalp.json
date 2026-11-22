@@ -1,33 +1,19 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.43814543307414777,
+ "cash": 0.4806432787855973,
  "pos": {
   "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
    "sym": "SAPLING",
    "qty": 47.2510498505712,
    "entry": 0.001117,
-   "last": 0.0010799343348615446,
+   "last": 0.001112,
    "peak": 0.00112,
    "cost": 0.054400559351770794,
    "opened": "2026-11-22T05:52:46+07:00",
    "zoo": "w_pause_scalp",
    "smart": 191,
    "kol": 19,
-   "gap": 4,
-   "miss": 0
-  },
-  "8nnaeWCw8mUypcGAgbmSuzAT85uWx4UN12adDrMhXrGF": {
-   "sym": "HOTBOT",
-   "qty": 91.89612261471432,
-   "entry": 0.0005705,
-   "last": 0.0005028,
-   "peak": 0.0005705,
-   "cost": 0.054037041797252654,
-   "opened": "2026-11-22T05:56:57+07:00",
-   "zoo": "w_pause_scalp",
-   "smart": 179,
-   "kol": 15,
    "gap": 0,
    "miss": 0
   }
@@ -11417,8 +11403,23 @@
    "t": "2026-11-22T07:02:57+07:00",
    "kind": "resume",
    "why": "ราคา SAPLING สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-22T07:06:16+07:00",
+   "kind": "sell",
+   "mint": "8nnaeWCw8mUypcGAgbmSuzAT85uWx4UN12adDrMhXrGF",
+   "sym": "HOTBOT",
+   "price": 0.0004766597245207323,
+   "entry": 0.0005705,
+   "usd": 0.0425,
+   "pnl": -0.0115,
+   "why": "stop -16.4%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 179,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795305701.824624
+ "rank_t": 1795305975.9802709
 }
