@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 8.018420990194883,
+ "cash": 7.493973772511481,
  "pos": {
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
    "sym": "TROLL",
    "qty": 127.13694944384439,
    "entry": 0.0209,
-   "last": 0.02217,
+   "last": 0.02204,
    "peak": 0.02275,
    "cost": 2.7387778224864436,
    "opened": "2026-11-23T05:25:12+07:00",
@@ -17,18 +17,18 @@
    "gap": 0,
    "miss": 0
   },
-  "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": {
-   "sym": "MINELIUS",
-   "qty": 280.9861856951759,
-   "entry": 0.009201,
-   "last": 0.008094,
-   "peak": 0.009982,
-   "cost": 2.664763857535883,
-   "opened": "2026-11-23T05:40:04+07:00",
+  "A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm": {
+   "sym": "GROKIA",
+   "qty": 42457.27963344628,
+   "entry": 6.007e-05,
+   "last": 6.007e-05,
+   "peak": 6.007e-05,
+   "cost": 2.6287454005165096,
+   "opened": "2026-11-23T05:54:17+07:00",
    "zoo": "x_boost_paid",
-   "smart": 4,
-   "kol": 0,
-   "gap": 2,
+   "smart": 51,
+   "kol": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -181,10 +181,39 @@
    "zoo": "x_boost_paid",
    "smart": 4,
    "kol": 0
+  },
+  {
+   "t": "2026-11-23T05:54:17+07:00",
+   "kind": "buy",
+   "mint": "A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm",
+   "sym": "GROKIA",
+   "price": 6.007e-05,
+   "jup": 5.970544944686032e-05,
+   "usd": 2.6287,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_boost_paid",
+   "smart": 51,
+   "kol": 1
+  },
+  {
+   "t": "2026-11-23T05:54:19+07:00",
+   "kind": "sell",
+   "mint": "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump",
+   "sym": "MINELIUS",
+   "price": 0.007719,
+   "entry": 0.009201,
+   "usd": 2.1043,
+   "pnl": -0.5605,
+   "why": "stop -16.1%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 4,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: dev จ่ายค่า boost DexScreener แล้ว (ซื้อตามโปรโมต) (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-22",
  "night_start": 14.624159110851126,
- "rank_t": 1795387627.548948
+ "rank_t": 1795387919.2490764
 }

@@ -1,41 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.953991783897463,
+ "cash": 1.3594243949939702,
  "pos": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
    "sym": "ZCAT",
    "qty": 26.404066611273638,
    "entry": 0.01756,
-   "last": 0.017794826278003183,
+   "last": 0.0178054393260596,
    "peak": 0.01868,
    "cost": 0.477896732317012,
    "opened": "2026-11-23T03:53:17+07:00",
    "zoo": "w_pause_bigliq",
    "smart": 330,
    "kol": 48,
-   "gap": 3,
-   "miss": 0
-  },
-  "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
-   "sym": "FLOAT",
-   "qty": 108.88191893402772,
-   "entry": 0.004222,
-   "last": 0.004057,
-   "peak": 0.004231,
-   "cost": 0.4738192761693106,
-   "opened": "2026-11-23T04:07:15+07:00",
-   "zoo": "w_pause_bigliq",
-   "smart": 373,
-   "kol": 34,
-   "gap": 0,
+   "gap": 13,
    "miss": 0
   },
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 5.552440904486617,
    "entry": 0.0825,
-   "last": 0.08113,
+   "last": 0.08111,
    "peak": 0.08297,
    "cost": 0.47214633541552864,
    "opened": "2026-11-23T04:16:33+07:00",
@@ -3518,10 +3504,25 @@
    "cost_side": 0.03,
    "smart": 187,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T05:55:02+07:00",
+   "kind": "sell",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "price": 0.0038379705843576833,
+   "entry": 0.004222,
+   "usd": 0.4054,
+   "pnl": -0.0684,
+   "why": "stop -9.1%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 373,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795387627.548948,
+ "rank_t": 1795387919.2490764,
  "halted": "ราคา ZCAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
  "halted_until": "2026-11-23T06:14:13+07:00"
 }
