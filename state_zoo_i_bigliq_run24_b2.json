@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 5.270089743799655,
+ "cash": 2.4720549924875965,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
@@ -21,7 +21,7 @@
    "sym": "CATE",
    "qty": 148.38080052881062,
    "entry": 0.0193,
-   "last": 0.01902,
+   "last": 0.01892,
    "peak": 0.01968,
    "cost": 2.8926031667948235,
    "opened": "2026-11-22T20:12:08+07:00",
@@ -35,13 +35,27 @@
    "sym": "Buttcoin",
    "qty": 506.1066890021971,
    "entry": 0.005557,
-   "last": 0.005956,
+   "last": 0.005899,
    "peak": 0.006076,
    "cost": 2.840771567167707,
    "opened": "2026-11-22T22:15:48+07:00",
    "zoo": "i_bigliq_run24_b2",
    "smart": 541,
    "kol": 51,
+   "gap": 0,
+   "miss": 0
+  },
+  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
+   "sym": "CLAUDIA",
+   "qty": 228.1815778144745,
+   "entry": 0.01214,
+   "last": 0.01211,
+   "peak": 0.01214,
+   "cost": 2.7980347513120587,
+   "opened": "2026-11-23T01:34:43+07:00",
+   "zoo": "i_bigliq_run24_b2",
+   "smart": 562,
+   "kol": 34,
    "gap": 0,
    "miss": 0
   }
@@ -151,8 +165,22 @@
    "cost_side": 0.01,
    "smart": 799,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T01:34:43+07:00",
+   "kind": "buy",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.01214,
+   "jup": 0.012055455850114461,
+   "usd": 2.798,
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "zoo": "i_bigliq_run24_b2",
+   "smart": 562,
+   "kol": 34
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ปล่อยวิ่ง trail 20/15 ถือ 24 ชม.",
- "rank_t": 1795372086.1989765
+ "rank_t": 1795372364.29557
 }
