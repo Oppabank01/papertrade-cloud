@@ -1,34 +1,48 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.628437682855472,
- "cash": 8.343480856084673,
+ "cash": 5.6961124587439045,
  "pos": {
   "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": {
    "sym": "MCAT",
    "qty": 6189.159343511198,
    "entry": 0.0004326,
-   "last": 0.0004161,
+   "last": 0.0003813,
    "peak": 0.0004326,
    "cost": 2.7596684518686296,
    "opened": "2026-11-23T05:06:12+07:00",
    "zoo": "x_blix_grad_top10",
    "smart": 77,
    "kol": 6,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": {
    "sym": "MINELIUS",
    "qty": 497.9768046921402,
    "entry": 0.005251,
-   "last": 0.004703614436103172,
-   "peak": 0.005251,
+   "last": 0.005847767413343899,
+   "peak": 0.006118,
    "cost": 2.6951929513898456,
    "opened": "2026-11-23T05:10:46+07:00",
    "zoo": "x_blix_grad_top10",
    "smart": 4,
    "kol": 0,
-   "gap": 4,
+   "gap": 5,
+   "miss": 0
+  },
+  "9WB75GUzmTT1P3bvX9WYCHaGdKdZrKiWz7LDBujLpump": {
+   "sym": "SI",
+   "qty": 52686.70398153874,
+   "entry": 4.875e-05,
+   "last": 5.021e-05,
+   "peak": 5.021e-05,
+   "cost": 2.647368397340769,
+   "opened": "2026-11-23T05:15:10+07:00",
+   "zoo": "x_blix_grad_top10",
+   "smart": 54,
+   "kol": 2,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -181,10 +195,24 @@
    "zoo": "x_blix_grad_top10",
    "smart": 4,
    "kol": 0
+  },
+  {
+   "t": "2026-11-23T05:15:10+07:00",
+   "kind": "buy",
+   "mint": "9WB75GUzmTT1P3bvX9WYCHaGdKdZrKiWz7LDBujLpump",
+   "sym": "SI",
+   "price": 4.875e-05,
+   "jup": 4.874133773010733e-05,
+   "usd": 2.6474,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_blix_grad_top10",
+   "smart": 54,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: blixtrade: เหรียญจบ curve ใหม่ top10 ถือไม่เกิน 30% (เดิมตัดทิ้งว่าซ้ำ ลองจริงก่อน)",
  "night": "2026-11-22",
  "night_start": 14.628437682855472,
- "rank_t": 1795385321.2116416
+ "rank_t": 1795385602.8827782
 }
