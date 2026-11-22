@@ -57,7 +57,7 @@ def review(path, now):
         median=statistics.median(p) if p else None, mean=statistics.mean(p) if p else None,
         pnl_wo_best=(sum(p) - best) / s["start_usd"] if p else None,
         pnl_2xfee=None if any("usd" not in x for x in sells) else (value - extra) / s["start_usd"] - 1, fee_est=est,
-        halted=s.get("halted") or ("ended" if s.get("ended") else None),
+        halted=s.get("halted") or ("ended: " + str(s["ended"]) if s.get("ended") else None), dead=s.get("dead"),
         open=len(s.get("pos") or {}), idle_h=idle_h, per_day=len(sells) / days if days else 0,
         started=first.astimezone(TZ).strftime("%d/%m %H:%M") if first else "-",
     )
@@ -77,6 +77,8 @@ def verdict(r, rand_pnl, idle_limit, rand_key="rand"):
         return "ตัวควบคุม", "สุ่มซื้อ ใช้เป็นเส้นเทียบ"
     if r["pnl"] <= BUST - 1:
         return "พอร์ตแตก", f"เหลือ {100 * (1 + r['pnl']):.0f}% ของทุน"
+    if r.get("dead"):                              # the runner's own death rule already stopped it: it will not trade again
+        return "ตาย", "ระบบตัดสินตายแล้ว ไม่เทรดต่อ: " + str(r["dead"])[:70]
     if r["halted"]:
         return "ค้าง (หยุดซื้อ)", "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: " + str(r["halted"])[:70]
     if r["idle_h"] is not None and r["idle_h"] > idle_limit and r["open"] == 0:
@@ -95,7 +97,7 @@ def verdict(r, rand_pnl, idle_limit, rand_key="rand"):
     if r["closed"] >= DEAD_TRADES and not (r["pnl"] > 0 and beat):
         return "ตาย", f"{r['closed']} ไม้แล้วยัง{'แพ้ตัวสุ่ม' if not beat else 'ไม่บวก'}"
     need = PASS_TRADES - r["closed"]
-    eta = f"อีกราว {need / r['per_day']:.0f} วันถึง 50 ไม้" if r["per_day"] > 0 else "ยังไม่มีไม้ปิด"
+    eta = f"อีกราว {need / r['per_day']:.0f} วันถึง 50 ไม้" if r["per_day"] > 0 else f"ยังไม่มีไม้ปิด เริ่ม {r['started']} รอสัญญาณ"
     return "รอข้อมูล", eta
 
 

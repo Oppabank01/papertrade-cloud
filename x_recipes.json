@@ -1149,5 +1149,668 @@
    "up": true
   },
   "exit": {}
+ },
+ {
+  "name": "x_ladder_2x_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: บันไดขาย ครึ่งที่ x2 trail 30% stop -35%",
+  "horizon": "week",
+  "source": "https://solanatools-io.pages.dev/blog/pump-fun-trading-strategy | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "staged exits: sell part at 2x, rest rides with 30% trailing stop, stop-loss 35% below entry",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 20000,
+    "volume": 50000
+   },
+   "max": {
+    "age_h": 48
+   },
+   "safe": false,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.35,
+   "HALF_AT": 1.0,
+   "TRAIL_ON": 1.0,
+   "TRAIL": 0.3,
+   "MAX_HOLD_H": 72,
+   "PER_TRADE": 0.2,
+   "MAX_POS": 4,
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "x_scalp_1020_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สกัลป์ pump.fun ตัดกำไร/ขาดทุน 15% เดือนเต็ม",
+  "horizon": "month",
+  "source": "https://app.notion.com/p/Part-4-How-to-turn-3-SOL-to-2000-SOL-in-1-MONTH-TUTORIAL-36cc586ff93680609c4adad9c976e166 | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "turn 3 SOL to 2000 SOL in 1 month; short scalps taking profit or cutting loss at 10-20%",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 30000,
+    "price_change_percent5m": 3
+   },
+   "max": {
+    "price_change_percent5m": 40
+   },
+   "safe": false,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "TP_ALL": 0.15,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 2,
+   "PER_TRADE": 0.1,
+   "MAX_POS": 8,
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "x_smartflow_lowcap_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: smart money เข้า 3+ มาร์เก็ตแคปต่ำ ขายครึ่งที่ x2",
+  "horizon": "week",
+  "source": "https://nansen.ai/post/how-to-identify-the-next-viral-memecoin-using-nansen | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "filter micro-cap Solana memecoins for smart money inflows; high inflow with low market cap is a high-potential signal; sell half at 2x",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "smart_degen_count": 3,
+    "liquidity": 15000
+   },
+   "max": {
+    "market_cap": 1000000
+   },
+   "safe": false,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.2,
+   "HALF_AT": 1.0,
+   "TRAIL_ON": 0.5,
+   "TRAIL": 0.25,
+   "MAX_HOLD_H": 48,
+   "PER_TRADE": 0.2,
+   "MAX_POS": 4,
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "x_spray_small_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: หว่านไม้เล็กหลายตัว ตัดกำไร 50% ตัดขาดทุน 15%",
+  "horizon": "month",
+  "source": "https://dailycoin.com/how-a-trading-bot-made-6-8m-on-pump-fun-memecoins/ | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "pump.fun bot made 27,000 SOL in a month with spray and pray: many small bets across many tokens",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 15000
+   },
+   "max": {},
+   "safe": false,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "TP_ALL": 0.5,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 3,
+   "PER_TRADE": 0.05,
+   "MAX_POS": 12,
+   "COOLDOWN_H": 6,
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "i_bigliq_cost2_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ค่าธรรมเนียมสมจริง 1% ต่อขา",
+  "horizon": "week",
+  "source": "iteration 14 Nov: big-pool exits are mostly 3h timeouts at -1..+2%; 6% round trip is a small-pool number | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "same rule as bigliqF, realistic big-pool cost (pool fee + priority fee + tiny slippage)",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 200000,
+    "market_cap": 2000000
+   },
+   "up": true
+  },
+  "exit": {
+   "FEE": 0.005,
+   "SLIP": 0.005,
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "i_bigliq_run24_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ปล่อยวิ่ง trail 20/15 ถือ 24 ชม.",
+  "horizon": "week",
+  "source": "iteration 14 Nov: 3h timeout cuts the few big-pool winners | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "let big-pool winners run: trail 20/15, hold up to 24h, stop -10%",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 200000,
+    "market_cap": 2000000
+   },
+   "up": true
+  },
+  "exit": {
+   "STOP": -0.1,
+   "TRAIL_ON": 0.2,
+   "TRAIL": 0.15,
+   "MAX_HOLD_H": 24,
+   "FEE": 0.005,
+   "SLIP": 0.005,
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "i_bigliq_mom1h_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ขึ้น 1 ชม. 10 ถึง 50%",
+  "horizon": "week",
+  "source": "iteration 14 Nov: momentum only on established pools (mom1h on all coins lost to rugs) | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "1h trend +10..+50% on 200k+ pools, trail 20/15, hold 12h",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 200000,
+    "market_cap": 2000000,
+    "price_change_percent1h": 10
+   },
+   "max": {
+    "price_change_percent1h": 50
+   },
+   "up": true
+  },
+  "exit": {
+   "STOP": -0.1,
+   "TRAIL_ON": 0.2,
+   "TRAIL": 0.15,
+   "MAX_HOLD_H": 12,
+   "FEE": 0.005,
+   "SLIP": 0.005,
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "i_bigliq_rc_run24_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ RugCheck ปล่อยวิ่ง 24 ชม.",
+  "horizon": "week",
+  "source": "iteration 14 Nov: bigliqRC lost least among old accounts (-10.4%, 8 sells, 7 timeouts); run24 lets winners run | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "i_bigliq_run24 plus RugCheck filter: does removing rug-flagged coins make letting winners run profitable",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 200000,
+    "market_cap": 2000000
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.1,
+   "TRAIL_ON": 0.2,
+   "TRAIL": 0.15,
+   "MAX_HOLD_H": 24,
+   "FEE": 0.005,
+   "SLIP": 0.005,
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "w_aged_nostop_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: อายุเกิน 1 วัน pool 200k+ ไม่มี stop ถือ 12 ชม.",
+  "horizon": "week",
+  "source": "user 14 Nov: 'ลองสมมติฐานแปลกๆ เปิดกระเป๋าได้เลย' (opened by Mac session, not counted in i_ cap) | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "iterate 14 Nov: aged/holders timeouts avg +5 to +6% gross but stops avg -12% eat it; remove the stop on deep aged pools and let trailing/time exit",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 24,
+    "liquidity": 200000
+   },
+   "up": true
+  },
+  "exit": {
+   "STOP": null,
+   "TRAIL_ON": 0.3,
+   "TRAIL": 0.2,
+   "MAX_HOLD_H": 12,
+   "FEE": 0.005,
+   "SLIP": 0.005,
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "w_red5m_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สวนทาง: อายุเกิน 1 วัน pool 200k+ กำลังแดง 5 นาที",
+  "horizon": "week",
+  "source": "user 14 Nov: 'ลองสมมติฐานแปลกๆ เปิดกระเป๋าได้เลย' (opened by Mac session, not counted in i_ cap) | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "every zoo rule requires 'up' and loses to or near rand; test the inverse: buy deep aged coins while 5m change <= -2%, same exits as w_aged_nostop",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 24,
+    "liquidity": 200000
+   },
+   "max": {
+    "price_change_percent5m": -2
+   }
+  },
+  "exit": {
+   "STOP": null,
+   "TRAIL_ON": 0.3,
+   "TRAIL": 0.2,
+   "MAX_HOLD_H": 12,
+   "FEE": 0.005,
+   "SLIP": 0.005,
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "w_deadcat_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: เด้งหลังร่วง: อายุเกิน 1 วัน pool 100k+ ร่วง 1 ชม. 15% ขึ้นไป",
+  "horizon": "month",
+  "source": "user 14 Nov: 'ลองสมมติฐานแปลกๆ เปิดกระเป๋าได้เลย' (opened by Mac session, not counted in i_ cap) | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "aged coins with real liquidity that dumped 15%+ in 1h mean-revert within 6h (dead cat bounce); stop -25% for true rugs",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 24,
+    "liquidity": 100000
+   },
+   "max": {
+    "price_change_percent1h": -15
+   }
+  },
+  "exit": {
+   "STOP": -0.25,
+   "TRAIL_ON": 0.2,
+   "TRAIL": 0.15,
+   "MAX_HOLD_H": 6,
+   "FEE": 0.005,
+   "SLIP": 0.01,
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "w_night_aged_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: กะดึก: กฎ w_aged_nostop เทรดเฉพาะ 21:00-09:00",
+  "horizon": "night",
+  "source": "user 14 Nov: 'ลองสมมติฐานแปลกๆ เปิดกระเป๋าได้เลย' (opened by Mac session, not counted in i_ cap) | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "same rule as w_aged_nostop but only during Bangkok night (US day) and flat by 09:00: does time of day change the result",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 24,
+    "liquidity": 200000
+   },
+   "up": true
+  },
+  "exit": {
+   "STOP": null,
+   "TRAIL_ON": 0.3,
+   "TRAIL": 0.2,
+   "MAX_HOLD_H": 12,
+   "FEE": 0.005,
+   "SLIP": 0.005,
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "w_hot_mkt_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดร้อน: กฎ w_aged_nostop เฉพาะรอบที่เหรียญ 74%+ ขึ้นใน 1 ชม.",
+  "horizon": "week",
+  "source": "Mac session 14 Nov (user: 'หาทางเข้าใกล้คนได้เปรียบ'): memecoin profitability swings by market phase (CoinGecko 30% to 73% of wallets profitable by month) | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "gate w_aged_nostop by market breadth (top 30% of rounds in rank_hist 13-14 Nov): buying only when most coins rise beats the ungated w_aged_nostop",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 24,
+    "liquidity": 200000,
+    "breadth": 0.74
+   },
+   "up": true
+  },
+  "exit": {
+   "STOP": null,
+   "TRAIL_ON": 0.3,
+   "TRAIL": 0.2,
+   "MAX_HOLD_H": 12,
+   "FEE": 0.005,
+   "SLIP": 0.005,
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "w_cold_mkt_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดเย็น: กฎ w_aged_nostop เฉพาะรอบที่เหรียญขึ้นไม่เกิน 61%",
+  "horizon": "week",
+  "source": "Mac session 14 Nov (user: 'หาทางเข้าใกล้คนได้เปรียบ'): memecoin profitability swings by market phase (CoinGecko 30% to 73% of wallets profitable by month) | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "mirror of w_hot_mkt (bottom 20% of rounds); if hot beats cold and both differ from w_aged_nostop, market phase matters",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 24,
+    "liquidity": 200000
+   },
+   "max": {
+    "breadth": 0.61
+   },
+   "up": true
+  },
+  "exit": {
+   "STOP": null,
+   "TRAIL_ON": 0.3,
+   "TRAIL": 0.2,
+   "MAX_HOLD_H": 12,
+   "FEE": 0.005,
+   "SLIP": 0.005,
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "w_f5_aged_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
+  "horizon": "week",
+  "source": "Mac session 14 Nov: speed test. stops slip past the set level (aged stops avg -12% on -8%, agedF 20 s beat aged 5 min by ~16 pts); does 5 s checking close the rest of that gap | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "identical to agedF (age 24h+, liquidity 50k+, up, standard exits) but checked every 5 s instead of 20 s: smaller stop slippage beats agedF",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 24,
+    "liquidity": 50000
+   },
+   "up": true
+  },
+  "exit": {
+   "WATCH_S": 5,
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "w_f5_bigliqRC_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ bigliqRC แต่เช็กราคาทุก 5 วิ",
+  "horizon": "week",
+  "source": "Mac session 14 Nov: speed test. stops slip past the set level (aged stops avg -12% on -8%, agedF 20 s beat aged 5 min by ~16 pts); does 5 s checking close the rest of that gap | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "identical to bigliqRC (liquidity 200k+, mcap 2M+, up, RugCheck, standard exits) checked every 5 s instead of 20 s",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 200000,
+    "market_cap": 2000000
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "WATCH_S": 5,
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "w_pause_bigliq_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
+  "horizon": "week",
+  "source": "Mac session 15 Nov: bigliqF stopped buying for good after one coin kept a >1% price gap; user asked to test both fixes | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "identical to bigliqF except the price-gap halt: mode pause keeps trading on clean coins and beats the permanent halt",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 200000,
+    "market_cap": 2000000
+   },
+   "up": true
+  },
+  "exit": {
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "x_boan_desk_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: โต๊ะ 4 เอเจนต์: เหรียญใหม่ คนถือ 300+ top10 ไม่เกิน 30% ขายเป็นช่วง",
+  "horizon": "week",
+  "source": "https://x.com/0xboan/status/2119869042223882557 | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "$101 to $6,292 in 24h, 79 of 100 green: scan new pools for liquidity, holders, top-10 share, volume; rug check; buy only a confirmed move; sell in pieces on the way up",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 0.25,
+    "liquidity": 20000,
+    "holder_count": 300,
+    "volume": 50000
+   },
+   "max": {
+    "age_h": 6,
+    "top_10_holder_rate": 0.3
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "HALF_AT": 0.3,
+   "TRAIL_ON": 0.3,
+   "TRAIL": 0.15,
+   "MAX_HOLD_H": 4.25,
+   "PER_TRADE": 0.1,
+   "MAX_POS": 8,
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "x_rule5_60_25_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ระบบ 5 ไม้ เข้มกรอง ปลอดภัย TP +60% SL -25%",
+  "horizon": "week",
+  "source": "https://www.mexc.com/news/1066589 | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "Medium-style memecoin system: max 5 positions, fixed size per token, exits TP +60% SL -25%, skip trades when unsure (missing a 10x costs less than buying a rug). No verified results given",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 50000
+   },
+   "safe": true,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.25,
+   "TP_ALL": 0.6,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 6,
+   "MAX_POS": 5,
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "i_dip200_2h_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ย่อ 1 ชม. -15 ถึง -40% ถือ 2 ชม.",
+  "horizon": "week",
+  "source": "iteration 2026-11-15 api: parent i_bigdip (1 sell/day, too few to judge by 14 Dec). rank_hist 13-15 Nov, pool 200k+ 1h -40..-15, 24h cooldown: 7 trades 7 coins, gross 1h +5.3% 2h +8.0% 6h +4.5%, 6 of 7 up, none carries it. w_deadcat live 4 trades: price at 1h was +1.4/+12.9/+8.9/+8.3% but its 6h exit gave -6.5/-25/+4.6/-10.5%, so the bounce fades after ~2h | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "the dip bounce on deep pools happens in the first 1-2h; widen liquidity 500k->200k to get ~5 trades/day and cut MAX_HOLD_H 6->2 to exit before the bounce fades. Pass: 50 sells, positive after 1% round trip, beats rand per trade. Die: 20 sells and per-trade mean below 0 or below rand",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 200000,
+    "price_change_percent1h": -40
+   },
+   "max": {
+    "price_change_percent1h": -15
+   }
+  },
+  "exit": {
+   "STOP": -0.1,
+   "TP_ALL": 0.12,
+   "TRAIL_ON": 9,
+   "MAX_HOLD_H": 2,
+   "FEE": 0.005,
+   "SLIP": 0.005,
+   "HALT_MODE": 1
+  }
+ },
+ {
+  "name": "x_lotus_5bots_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: 5 บอท: pool 25k+ dev ไม่เกิน 5% top10 ไม่เกิน 20% ขายครึ่ง x2 stop -25%",
+  "horizon": "week",
+  "source": "https://x.com/0xLotttus/status/2121983888406786144 | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "$112 to $4,194 (37.4x)",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 25000
+   },
+   "max": {
+    "dev_team_hold_rate": 0.05,
+    "top_10_holder_rate": 0.2
+   }
+  },
+  "exit": {
+   "STOP": -0.25,
+   "HALF_AT": 1.0,
+   "TRAIL_ON": 1.0,
+   "TRAIL": 0.25,
+   "MAX_HOLD_H": 24,
+   "HALT_MODE": 1
+  },
+  "note": "trail size not in post, 25% assumed; 'size by score' not modelled"
+ },
+ {
+  "name": "x_cto_watch_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: รอ dev เทหมดแล้วมี CTO: dev ถือ 0% ซื้อ 40% ขายครึ่ง x3 trail 15% stop -18%",
+  "horizon": "week",
+  "source": "https://x.com/Hrundel75/status/2121980466748129536 | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "$250 to $15,483 buying after the dev rugged",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "cto_flag": 1
+   },
+   "max": {
+    "dev_team_hold_rate": 0
+   }
+  },
+  "exit": {
+   "PER_TRADE": 0.4,
+   "HALF_AT": 2.0,
+   "TRAIL_ON": 0.0,
+   "TRAIL": 0.15,
+   "STOP": -0.18,
+   "MAX_HOLD_H": null,
+   "HALT_MODE": 1
+  },
+  "note": "post sells half at the dev's exit price (not in our data, its example was x3.4); 'holders +15% after dump' not available"
+ },
+ {
+  "name": "x_loofy_desk_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: 8 เอเจนต์: smart money 2+ ผ่านเช็กปลอดภัย+RugCheck stop -8% trail",
+  "horizon": "week",
+  "source": "https://x.com/Loofyb0i/status/2121963630346264677 | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "$2,140 to $8,619 overnight, 8 trades 6 green",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "smart_degen_count": 2
+   },
+   "safe": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.08,
+   "TRAIL_ON": 0.1,
+   "TRAIL": 0.15,
+   "MAX_HOLD_H": 6,
+   "HALT_MODE": 1
+  },
+  "note": "212 tracked wallets approximated by GMGN smart count; trail size not in post"
+ },
+ {
+  "name": "x_savip2_dip1h_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: savipww v2: pool 20k+ คะแนน 70+ ย่อ 1 ชม. 15-35% ทีละ 50% ขายครึ่ง x2 trail 40% stop -25%",
+  "source": "https://x.com/savipww/status/2121679106299285860 | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "$33 to $3,151 overnight (94.9x), 14 coins 11 green",
+  "added": "2026-11-22",
+  "active": true,
+  "horizon": "week",
+  "exit": {
+   "STOP": -0.25,
+   "HALF_AT": 1.0,
+   "TRAIL_ON": 1.0,
+   "TRAIL": 0.4,
+   "PER_TRADE": 0.5,
+   "MAX_HOLD_H": null,
+   "HALT_MODE": 1
+  },
+  "note": "dip timeframe not stated, so 1h and 5m twins; sizing by score fixed at 50% (video: score 75 = 50% of cash); TimesFM/Nansen layers not modelled",
+  "entry": {
+   "min": {
+    "liquidity": 20000,
+    "score": 70,
+    "price_change_percent1h": -35
+   },
+   "max": {
+    "price_change_percent1h": -15
+   }
+  }
+ },
+ {
+  "name": "x_savip2_dip5m_b2",
+  "label": "รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: savipww v2: pool 20k+ คะแนน 70+ ย่อ 5 นาที 15-35% ทีละ 50% ขายครึ่ง x2 trail 40% stop -25%",
+  "source": "https://x.com/savipww/status/2121679106299285860 | 22 Nov rerun: original halted for good on a price gap",
+  "claim": "$33 to $3,151 overnight (94.9x), 14 coins 11 green",
+  "added": "2026-11-22",
+  "active": true,
+  "horizon": "week",
+  "exit": {
+   "STOP": -0.25,
+   "HALF_AT": 1.0,
+   "TRAIL_ON": 1.0,
+   "TRAIL": 0.4,
+   "PER_TRADE": 0.5,
+   "MAX_HOLD_H": null,
+   "HALT_MODE": 1
+  },
+  "note": "dip timeframe not stated, so 1h and 5m twins; sizing by score fixed at 50% (video: score 75 = 50% of cash); TimesFM/Nansen layers not modelled",
+  "entry": {
+   "min": {
+    "liquidity": 20000,
+    "score": 70,
+    "price_change_percent5m": -35
+   },
+   "max": {
+    "price_change_percent5m": -15
+   }
+  }
  }
 ]

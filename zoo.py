@@ -110,6 +110,10 @@ ZOO = {   # name: (label, entry rule, exit/sizing overrides). "pick" = one token
     "bigliqRC": ("สภาพคล่อง 200k+ ผ่าน RugCheck เช็กราคาทุก 20 วิ", lambda t: big(t) and rc_clean(t), dict(MISS_N=15)),
 }
 FAST = ["bigliqF", "agedF", "bigliqRC"]   # MISS_N=15: ~5 min of missing pool before calling it a rug, same as the 5-min accounts
+# 22 Nov: rerun of the rules that a price gap halted for good, with HALT_MODE=1 (the gap bans that coin, the account keeps buying)
+for _n in ("bigliqF", "agedF", "bigliqRC"):
+    ZOO[_n + "_b2"] = ("รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: " + ZOO[_n][0], ZOO[_n][1], {**ZOO[_n][2], "HALT_MODE": 1})
+    FAST.append(_n + "_b2")
 ONE_PICK = {"rand", "randrun", "top1"}   # these take a single token per ranking; the rest buy every match (up to MAX_POS)
 SPECS = HERE / "x_recipes.json"         # X "bragging" recipes added by the daily research routine: data only, no code
 FIELDS = set(KEEP) | {"age_h", "vl", "score", "breadth"}
