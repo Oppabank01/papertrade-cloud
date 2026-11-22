@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 11.07717763215983,
- "pos": {
-  "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg": {
-   "sym": "USOI",
-   "qty": 301.751577399995,
-   "entry": 0.009404,
-   "last": 0.009403,
-   "peak": 0.009587,
-   "cost": 2.9248318221702254,
-   "opened": "2026-11-23T02:17:58+07:00",
-   "zoo": "x_no_snipers",
-   "smart": 5,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 13.831457882901644,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-23T02:11:54+07:00",
@@ -66,10 +51,25 @@
    "cost_side": 0.03,
    "smart": 72,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T04:18:18+07:00",
+   "kind": "sell",
+   "mint": "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg",
+   "sym": "USOI",
+   "price": 0.009408,
+   "entry": 0.009404,
+   "usd": 2.7543,
+   "pnl": -0.1706,
+   "why": "ครบ 2 ชม. (+0.0%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 5,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ไม่มี sniper และ rug ratio ต่ำ อายุไม่เกิน 12 ชม. (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-22",
  "night_start": 14.624159110851126,
- "rank_t": 1795381857.932992
+ "rank_t": 1795382138.405497
 }
