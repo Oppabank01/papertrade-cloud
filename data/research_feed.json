@@ -97,5 +97,86 @@
   "summary": "จากผลค้น (ยังไม่ได้อ่านฉบับเต็ม) พอร์ต ridge ที่ฝึกบน 2020-2022 ได้ผลนอกตัวอย่าง 2024-2026 ปีละ 44.6% Sharpe 1.55 หลังต้นทุน 5 bps แต่ alpha อยู่ในเหรียญเล็กและแบบถ่วงมาร์เก็ตแคปทำได้แย่",
   "verdict": "ไอเดีย",
   "action": "ต้องมีข้อมูลรายวันของเหรียญจำนวนมากแบบ cross-section และนิยาม factor จากเปเปอร์ ต้นทุนจริงของเหรียญเล็กสูงกว่า 5 bps มาก"
+ },
+ {
+  "t": "2026-11-23T01:08:17+07:00",
+  "source": "github",
+  "title": "Pyrochem/universal-quant-tournament-mcp: trend_pullback_champion",
+  "url": "https://github.com/Pyrochem/universal-quant-tournament-mcp",
+  "summary": "MCP แข่ง 8 ท่าแล้วเลือกตัวชนะต่อสินทรัพย์ ท่าแรกคือราคาเหนือ SMA200 + RSI14 ย่อถึง 42 (short ฝั่งกลับที่ 58) + แท่งปิดตามทิศ stop 2 ATR เป้า 4 ATR",
+  "verdict": "ทดสอบแล้ว",
+  "action": "Binance 4 ชม. 2017-2026 ต้นทุน 0.35% ต่อข้าง เข้าแท่งถัดไป long+short ต่อไม้ BTC +0.46% (222 ไม้ มัธยฐาน -2.7% ชนะ 40%) ETH +0.94% (225) SOL +0.13% (144) จุดเข้าสุ่มคู่แฝด BTC -0.39% ETH -0.22% SOL +0.42% permutation 200 รอบ (เลือกดีสุดของ long+short กับ long only) p BTC 0.010 ETH 0.015 SOL 0.498 ไม่ผ่านเกณฑ์ p<0.01 CI ครอบศูนย์ทุกตัว BTC 2024-2026 ติดลบ และ repo เลือกจาก 8 ท่า จึงไม่เปิดบัญชี"
+ },
+ {
+  "t": "2026-11-23T01:08:17+07:00",
+  "source": "github",
+  "title": "byttrade/bytx-skills (MCP + Claude skills ของ exchange bytx)",
+  "url": "https://github.com/byttrade/bytx-skills",
+  "summary": "เจ้าเดียวกับ free-crypto-trading-bot ทำ MCP ให้ AI สั่งเทรดบน bytx ใช้ท่า 4 ชม. ชุดเดิม",
+  "verdict": "ตัดทิ้ง",
+  "action": "ทางเข้า exchange ที่ต้องสมัคร ท่าข้างในทดสอบไปแล้วรอบ 22 พ.ย. 23:53"
+ },
+ {
+  "t": "2026-11-23T01:08:17+07:00",
+  "source": "github",
+  "title": "repo solana sniper ดาวปั่น (brown-99r5 ... portable-x64 322 ดาว และอีกหลายตัว 0 ดาว)",
+  "url": "https://github.com/brown-99r5/solana-memecoin-raydium-v4-meteora-dlmm-portable-x64",
+  "summary": "บอท sniper Raydium/Meteora แจกไฟล์ Windows สำเร็จรูป ไม่มีกฎหรือผลที่ตรวจได้",
+  "verdict": "ตัดทิ้ง",
+  "action": "รูปแบบเดียวกับ repo native 64-bit รอบก่อน เสี่ยงมัลแวร์ ไม่เปิดไฟล์"
+ },
+ {
+  "t": "2026-11-23T01:08:17+07:00",
+  "source": "github",
+  "title": "LarynaB/arcanumfleet-x402-skill (สัญญาณ momentum Solana ผ่าน x402)",
+  "url": "https://github.com/LarynaB/arcanumfleet-x402-skill",
+  "summary": "ขายสัญญาณ momentum และตรวจเหรียญแบบจ่ายเงินต่อครั้งผ่าน x402",
+  "verdict": "ตัดทิ้ง",
+  "action": "ต้องจ่ายเงินต่อสัญญาณ ไม่เปิดเผยกฎ"
+ },
+ {
+  "t": "2026-11-23T01:08:17+07:00",
+  "source": "x",
+  "title": "zostaff: ศึกษา 666 กระเป๋า pump.fun แล้วทำเครื่องมือแยก backtest ที่เป็นโชค",
+  "url": "https://x.com/zostaff/status/2122782916426248690",
+  "summary": "อ้างว่าใช้ repo ฟรี 2 ตัวกับ Codex ทำเทอร์มินัลที่เทรดเฉพาะสัญญาณที่รอดการทดสอบ",
+  "verdict": "ตัดทิ้ง",
+  "action": "โพสต์ไม่ให้กฎ ไม่ให้กระเป๋า ไม่ให้ผล เราทำ permutation gate ใน market-timeseries อยู่แล้ว"
+ },
+ {
+  "t": "2026-11-23T01:08:17+07:00",
+  "source": "x",
+  "title": "0x_exit: 6 repo ทำโต๊ะเทรด AI รอบ Grok Bot เริ่มจาก paper",
+  "url": "https://x.com/0x_exit/status/2124454367382184026",
+  "summary": "รายชื่อเครื่องมือ (CCXT ฯลฯ) ให้เอเจนต์หาไอเดีย ตรวจกราฟ ทดสอบกฎ และมีผู้คุมความเสี่ยงสั่งไม่",
+  "verdict": "ตัดทิ้ง",
+  "action": "เป็นรายการเครื่องมือ ไม่มีท่าที่ตรวจได้ โครงคล้าย x_crb_4agent ที่เปิดแล้ว"
+ },
+ {
+  "t": "2026-11-23T01:08:17+07:00",
+  "source": "x",
+  "title": "sayervonn: เอเจนต์เทรดทองหลังคุยกับคนคุมโต๊ะทอง 14 ปี",
+  "url": "https://x.com/sayervonn/status/2124141366947008751",
+  "summary": "เล่าเรื่องสร้างเอเจนต์เทรด 4 เดือน ไม่มีกฎ ไม่มีบัญชีให้ตรวจ",
+  "verdict": "ตัดทิ้ง",
+  "action": "เรื่องเล่า ไม่มีกฎหรือหลักฐาน"
+ },
+ {
+  "t": "2026-11-23T01:08:17+07:00",
+  "source": "web",
+  "title": "arXiv 2609.05663: LLM trading agent ในงานจริง 6 เดือน 2 กลุ่ม",
+  "url": "https://arxiv.org/abs/2609.05663",
+  "summary": "3,505 vault มีม Base และ 500-599 เอเจนต์ perps Hyperliquid ไม่มีกลุ่มไหนมี edge ทิศทาง ชนะ 41% เทียบรายย่อย 50% 43% ของตำแหน่งเคยบวก 3% ใน 24 ชม. แต่ครึ่งหนึ่งปิดติดลบ bracket ตายตัวกู้ได้ +39 bps ต่อตำแหน่ง",
+  "verdict": "ไอเดีย",
+  "action": "ต้องอ่านค่า bracket ใน full text และ CSV ตำแหน่งที่ github.com/ProjectDXAI/continuous-record-llm-trading-agents ก่อนจะลองกับเหรียญมีมของเรา"
+ },
+ {
+  "t": "2026-11-23T01:08:17+07:00",
+  "source": "web",
+  "title": "arXiv 2609.34510: Can AI Make Money in Crypto? ช่องว่าง backtest กับตลาดจริง",
+  "url": "https://arxiv.org/abs/2609.34510",
+  "summary": "benchmark วิธี ML, RL, LLM และเอเจนต์ 3 ขั้น backtest, paper trade และเงินจริง เพื่อวัดว่าผลหายไปเท่าไร",
+  "verdict": "ไอเดีย",
+  "action": "abstract ไม่มีตัวเลขและไม่มีกฎ ต้องอ่าน full text เพื่อดูขนาดช่องว่างไว้ตั้งความคาดหวังของบัญชี paper"
  }
 ]
