@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.926991692578734,
+ "cash": 4.57747131607136,
  "pos": {
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 437.01484957374805,
    "entry": 0.005976,
-   "last": 0.005792,
+   "last": 0.005743,
    "peak": 0.006013,
    "cost": 2.691816884201936,
    "opened": "2026-11-23T01:20:04+07:00",
@@ -21,14 +21,28 @@
    "sym": "BP",
    "qty": 603.3508900407566,
    "entry": 0.003815,
-   "last": 0.003779,
+   "last": 0.003812,
    "peak": 0.003861,
    "cost": 2.3724836585296707,
    "opened": "2026-11-23T01:48:24+07:00",
    "zoo": "bigliqF_b2",
    "smart": 187,
    "kol": 33,
-   "gap": 2,
+   "gap": 1,
+   "miss": 0
+  },
+  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
+   "sym": "Rings",
+   "qty": 733.1954549010787,
+   "entry": 0.003109,
+   "last": 0.003043708459719605,
+   "peak": 0.003109,
+   "cost": 2.3495203765073733,
+   "opened": "2026-11-23T02:46:01+07:00",
+   "zoo": "bigliqF_b2",
+   "smart": 125,
+   "kol": 7,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -297,8 +311,22 @@
    "cost_side": 0.03,
    "smart": 543,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T02:46:01+07:00",
+   "kind": "buy",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.003109,
+   "jup": 0.003129257567939208,
+   "usd": 2.3495,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliqF_b2",
+   "smart": 125,
+   "kol": 7
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ เช็กราคาทุก 20 วิ",
- "rank_t": 1795376385.5405233
+ "rank_t": 1795376670.2389405
 }
