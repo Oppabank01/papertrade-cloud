@@ -22,8 +22,11 @@ sys.path.insert(0, str(Path(__file__).parent))
 import agents  # noqa: E402
 
 HERE = Path(__file__).parent
-agents.STATE = HERE / "state_wallets.json"
-WALLETS = re.findall(r"^- ([1-9A-HJ-NP-Za-km-z]{32,44}) \|", (HERE / "research_notes" / "grokbot-wallets-2026-11-13.md").read_text(), re.M)
+# WALLET_LIST=fomo runs a second, separate account on the Fomo 30-day leaderboard wallets (22 Nov); default is the Grok list.
+LIST = {"grok": ("state_wallets.json", "grokbot-wallets-2026-11-13.md", "ตามกระเป๋า 10 ใบ ผ่าน Helius"),
+        "fomo": ("state_wallets_fomo.json", "fomo-wallets-2026-11-22.md", "ตามกระเป๋าอันดับต้น Fomo 30 วัน 10 ใบ ผ่าน Helius")}[os.environ.get("WALLET_LIST", "grok")]
+agents.STATE = HERE / LIST[0]
+WALLETS = re.findall(r"^- ([1-9A-HJ-NP-Za-km-z]{32,44}) \|", (HERE / "research_notes" / LIST[1]).read_text(), re.M)
 QUOTE = {"So11111111111111111111111111111111111111112",   # wSOL
          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",   # USDC
          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCZ8BenwNYB"}   # USDT
@@ -76,7 +79,7 @@ def buys_in(tx, wallet, sol_price):
 def cmd_init(thb):
     agents.cmd_init(thb)
     s = agents.load()
-    s["label"] = "ตามกระเป๋า 10 ใบ ผ่าน Helius"
+    s["label"] = LIST[2]
     s["cursor"] = {w: (rpc("getSignaturesForAddress", [w, {"limit": 1}]) or [{}])[0].get("signature") for w in WALLETS}
     agents.save(s)
     print(f"cursor set for {len(WALLETS)} wallets")

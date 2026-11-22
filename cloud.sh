@@ -21,6 +21,7 @@ if [ "$M" -lt 15 ] && [ "$(cat data/last_v2scan 2>/dev/null)" != "$HOUR" ]; then
 fi
 for r in insider grad smart4; do $PY recipes.py $r scan; $PY recipes.py $r run; done
 $PY wallets.py poll; $PY wallets.py run
+[ -f state_wallets_fomo.json ] || WALLET_LIST=fomo $PY wallets.py init 500 >/dev/null; WALLET_LIST=fomo $PY wallets.py poll; WALLET_LIST=fomo $PY wallets.py run   # Fomo 30d leaderboard wallets (22 Nov)
 $PY curve.py run || echo "curve run failed"   # pump.fun curve child of wallets.py: acts on the skips wallets.py just logged
 $PY zoo.py init 500 >/dev/null; $PY zoo.py tick       # init only creates new accounts (X recipes added by the routine); strategy zoo: ~20 one-rule accounts on the same ranking
 $PY nightly.py tick    # nightly sessions: fresh 500 THB at 21:00, settle at 09:00
