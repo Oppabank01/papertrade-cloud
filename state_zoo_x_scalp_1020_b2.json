@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 5.3681754584590955,
+ "cash": 6.436437382701887,
  "pos": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": {
    "sym": "VEIL",
    "qty": 3243.1755923859787,
    "entry": 0.0004371,
-   "last": 0.0004313,
+   "last": 0.0004306,
    "peak": 0.0004576,
    "cost": 1.4611338398597313,
    "opened": "2026-11-22T19:53:18+07:00",
@@ -21,14 +21,14 @@
    "sym": "ROCKET",
    "qty": 1724.8811656317357,
    "entry": 0.0008194,
-   "last": 0.0007878119400493027,
+   "last": 0.0007839,
    "peak": 0.0008305,
    "cost": 1.4567796610169494,
    "opened": "2026-11-22T19:53:18+07:00",
    "zoo": "x_scalp_1020_b2",
    "smart": 0,
    "kol": 0,
-   "gap": 6,
+   "gap": 5,
    "miss": 0
   },
   "GNHW5JetZmW85vAU35KyoDcYoSd3sNWtx5RPMTDJpump": {
@@ -59,32 +59,18 @@
    "gap": 0,
    "miss": 0
   },
-  "3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump": {
-   "sym": "snowball",
-   "qty": 4009.7375355994345,
-   "entry": 0.0003335,
-   "last": 0.0003138,
-   "peak": 0.0003423,
-   "cost": 1.3783214472504755,
-   "opened": "2026-11-22T20:59:40+07:00",
-   "zoo": "x_scalp_1020_b2",
-   "smart": 74,
-   "kol": 6,
-   "gap": 0,
-   "miss": 0
-  },
   "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
    "sym": "FIONA",
    "qty": 739.6037556622948,
    "entry": 0.001793,
-   "last": 0.001721,
+   "last": 0.001571,
    "peak": 0.001793,
    "cost": 1.3668414078566222,
    "opened": "2026-11-22T21:23:08+07:00",
    "zoo": "x_scalp_1020_b2",
    "smart": 336,
    "kol": 19,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -293,8 +279,23 @@
    "cost_side": 0.03,
    "smart": 135,
    "bundler": null
+  },
+  {
+   "t": "2026-11-22T21:42:01+07:00",
+   "kind": "sell",
+   "mint": "3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump",
+   "sym": "snowball",
+   "price": 0.0002746,
+   "entry": 0.0003335,
+   "usd": 1.0683,
+   "pnl": -0.3101,
+   "why": "stop -17.7%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 74,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สกัลป์ pump.fun ตัดกำไร/ขาดทุน 15% เดือนเต็ม",
- "rank_t": 1795358154.0377364
+ "rank_t": 1795358438.0035756
 }
