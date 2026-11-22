@@ -1,41 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 3.0263533761213783,
+ "cash": 2.4263841992823614,
  "pos": {
-  "3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump": {
-   "sym": "snowball",
-   "qty": 6235.285029390418,
-   "entry": 0.0004547,
-   "last": 0.0003473895272511297,
-   "peak": 0.0005589,
-   "cost": 2.9222676797194627,
-   "opened": "2026-11-22T19:53:56+07:00",
-   "zoo": "x_lotus_5bots_b2",
-   "smart": 72,
-   "kol": 6,
-   "gap": 1,
-   "miss": 0
-  },
   "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
    "sym": "FIONA",
    "qty": 1577.1048716344455,
    "entry": 0.001787,
-   "last": 0.001678,
+   "last": 0.001635,
    "peak": 0.001852,
    "cost": 2.9048509643483342,
    "opened": "2026-11-22T19:54:00+07:00",
    "zoo": "x_lotus_5bots_b2",
    "smart": 334,
    "kol": 19,
-   "gap": 2,
+   "gap": 1,
    "miss": 0
   },
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 237.81743791454278,
    "entry": 0.01178,
-   "last": 0.0116,
+   "last": 0.01153,
    "peak": 0.01185,
    "cost": 2.8875380526008185,
    "opened": "2026-11-22T19:54:00+07:00",
@@ -49,7 +35,7 @@
    "sym": "mihao",
    "qty": 315.87937178973,
    "entry": 0.008816,
-   "last": 0.008843,
+   "last": 0.008794,
    "peak": 0.008847,
    "cost": 2.8703283258073173,
    "opened": "2026-11-22T19:54:04+07:00",
@@ -57,6 +43,20 @@
    "smart": 799,
    "kol": 75,
    "gap": 0,
+   "miss": 0
+  },
+  "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": {
+   "sym": "DCTY",
+   "qty": 748.9610851905167,
+   "entry": 0.003422,
+   "last": 0.0033737703700109736,
+   "peak": 0.003422,
+   "cost": 2.641666495075189,
+   "opened": "2026-11-22T20:26:25+07:00",
+   "zoo": "x_lotus_5bots_b2",
+   "smart": 738,
+   "kol": 65,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -121,8 +121,37 @@
    "zoo": "x_lotus_5bots_b2",
    "smart": 799,
    "kol": 75
+  },
+  {
+   "t": "2026-11-22T20:25:43+07:00",
+   "kind": "sell",
+   "mint": "3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump",
+   "sym": "snowball",
+   "price": 0.0003375,
+   "entry": 0.0004547,
+   "usd": 2.0417,
+   "pnl": -0.8806,
+   "why": "stop -25.8%",
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "smart": 72,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-22T20:26:25+07:00",
+   "kind": "buy",
+   "mint": "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump",
+   "sym": "DCTY",
+   "price": 0.003422,
+   "jup": 0.003408891351574316,
+   "usd": 2.6417,
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "zoo": "x_lotus_5bots_b2",
+   "smart": 738,
+   "kol": 65
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: 5 บอท: pool 25k+ dev ไม่เกิน 5% top10 ไม่เกิน 20% ขายครึ่ง x2 stop -25%",
- "rank_t": 1795353607.0577118
+ "rank_t": 1795353898.545008
 }
