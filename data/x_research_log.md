@@ -271,3 +271,14 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 เปิดบัญชี: fwd_rangerev.py (v3-B BTC SOL พร้อมตัวแฝดเข้าสุ่มฝั่งสุ่ม) และ fwd_jumprev.py (ดีดกลับหลังแท่งกระโดด BTC ETH SOL พร้อมตัวแฝด) test เดินทีละแท่งได้ไม้ตรง backtest 11 และ 58 ไม้ สคริปต์ /tmp/scout_0427.py และ /tmp/scout_dipgrid.py
 ไอเดีย: token unlock และ long/short แบบ cross-section ของ IDRISK7 (ต้องตาราง unlock และแท่ง perp ทุกเหรียญรวมที่ถูกถอด), บอทของ marvketh (ต้องโพสต์เต็มหรือกระเป๋า)
 เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
+
+## 2026-11-23 06:13 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 16 พ.ย. (crypto strategy backtest), X 4 ครั้ง (pump.fun bot strategy take profit, paper trading bot results week strategy rules, สูตรเทรด bitcoin เข้าเมื่อ ออกเมื่อ ไม่มีผล, crypto strategy backtested rules entry exit 1h ไม่มีผล), เว็บ 1 ครั้ง (งานวิจัยคาดการณ์ผลตอบแทน BTC ปี 2026) แล้วอ่าน arXiv 2602.11708 ฉบับ HTML
+เจอ: Do0vm/crypto-backtest-lab (SMA momentum RSI แยก in-sample กับ out-of-sample), vicfei/dsh-jesse (เครื่องมือหาพารามิเตอร์ ไม่มีท่าใหม่), arXiv 2602.11708 AdaptiveTrend (โมเมนตัม 6 ชม. ออกด้วย trailing 2.5 ATR อ้าง Sharpe 2.41 แต่ตัวเลขไม่ตรงกับ rf ที่ระบุ), โพสต์ X แนวเดิม (rugikkk บอท 4 agents, MisterFeeman บอท -54% ใน 10 วัน, RohOnChain order flow) วิทยานิพนธ์ Sanhueza อ่าน PDF ไม่ออก
+ทดสอบแล้ว (Binance หลังหัก 0.35%/ข้าง permutation 200 รอบทั้งกริด):
+- AdaptiveTrend แกนเหรียญเดี่ยว 6 ชม. 2017-2026 กริด 6 แบบ เลือกก่อนปี 2024 ได้โมเมนตัม 12 แท่ง เกณฑ์ 5%: BTC 296 ไม้ +0.93% p 0.015, ETH 353 ไม้ +0.40% p 0.020, SOL 255 ไม้ +2.52% p 0.005 มัธยฐานราว -3% ชนะ 37% ปี 2024 ขึ้นไป -0.55/-0.38/+0.42% ตัวแฝดเข้าสุ่มออกแบบเดียวกัน -0.12/+0.08/+1.69% ผลบวกมาจากไม้ใหญ่ไม่กี่ไม้ และหายไปในช่วงหลัง
+- RSI14 รายวัน long อย่างเดียว กริด 9 แบบ เลือก 25/65 (ตัวดีสุด 20/70 มีแค่ 8 ไม้ ผมตั้งเกณฑ์ 20 ไม้หลังเห็นกริด): 31 ไม้ เฉลี่ย +12.0% มัธยฐาน +11.4% ชนะ 81% ตัวแฝดซื้อวันสุ่ม +0.3 ถึง +3.1% p 0.547/0.323/0.751 ไม่ผ่าน ไม้น้อยมาก และแพ้ถือเฉยๆ ทุกเหรียญ
+เปิดบัญชี: fwd_adtrend.py (BTC ETH SOL 6 ชม. long+short พร้อมตัวแฝดเข้าสุ่ม) และ fwd_rsi14.py (BTC ETH SOL รายวัน พร้อมตัวแฝด) test เดินทีละแท่งได้ไม้ตรง backtest 19 และ 11 ไม้ สคริปต์ /tmp/scout_0613.py
+ไอเดีย: order flow ของ RohOnChain (ต้องข้อมูล footprint), log ไม้ของ MisterFeeman (ต้องโพสต์เต็ม)
+ลองแล้วตก: บอท 4 agents ของ rugikkk (แบบเดียวกับข้ออ้าง Grok Bot ที่ลองแล้ว เฉลี่ยติดลบ)
+เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
