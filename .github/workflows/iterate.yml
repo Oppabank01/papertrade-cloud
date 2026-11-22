@@ -28,7 +28,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         # No web tools, and Bash limited to read/run/git commands: rankings and token names come from strangers.
         run: |
-          claude -p "$(cat ITERATE.md)" --model opus --max-turns 60 \
+          claude -p "$(cat ITERATE.md)" --model claude-opus-5-5 --effort high --max-turns 60 \
             --allowedTools "Read,Edit,Write,Glob,Grep,Bash(python3:*),Bash(git status:*),Bash(git diff:*),Bash(git log:*),Bash(git add:*),Bash(git checkout:*),Bash(git -c:*),Bash(ls:*),Bash(cat:*),Bash(head:*),Bash(tail:*),Bash(wc:*),Bash(jq:*)" \
             --disallowedTools "WebFetch,WebSearch" | tee iterate.out
       - name: push
