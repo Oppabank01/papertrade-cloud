@@ -1,20 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 11.527661490277769,
+ "cash": 8.698232906785805,
  "pos": {
   "3hi7qBus11Xg9Pmj7xuuK9pjmKF7UUhT5uh7SXQbhsQt": {
    "sym": "IF",
    "qty": 72301.44706547215,
    "entry": 3.922e-05,
-   "last": 3.68716052914109e-05,
-   "peak": 3.934e-05,
+   "last": 3.952e-05,
+   "peak": 3.952e-05,
    "cost": 2.9227610326817333,
    "opened": "2026-11-23T04:32:39+07:00",
    "zoo": "x_kol_heavy",
    "smart": 69,
    "kol": 5,
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": {
+   "sym": "MCAT",
+   "qty": 5266.906392371267,
+   "entry": 0.0005212,
+   "last": 0.0005040846336359134,
+   "peak": 0.0005212,
+   "cost": 2.829428583491965,
+   "opened": "2026-11-23T04:37:43+07:00",
+   "zoo": "x_kol_heavy",
+   "smart": 77,
+   "kol": 6,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -66,10 +80,24 @@
    "cost_side": 0.03,
    "smart": 79,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T04:37:43+07:00",
+   "kind": "buy",
+   "mint": "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi",
+   "sym": "MCAT",
+   "price": 0.0005212,
+   "jup": 0.0005259854377347108,
+   "usd": 2.8294,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_kol_heavy",
+   "smart": 77,
+   "kol": 6
   }
  ],
  "label": "สวนสัตว์: ตาม KOL: มีคนดังถือ 5 คนขึ้นไป ราคาขึ้น (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-22",
  "night_start": 14.624159110851126,
- "rank_t": 1795382990.8402388
+ "rank_t": 1795383283.7477837
 }

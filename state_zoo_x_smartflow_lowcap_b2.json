@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 4.4163933964676865,
+ "cash": 1.7600623119149335,
  "pos": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": {
    "sym": "VEIL",
@@ -21,14 +21,14 @@
    "sym": "LUNO",
    "qty": 7773.278076119073,
    "entry": 0.0003604,
-   "last": 0.0003697,
+   "last": 0.0003582756486451471,
    "peak": 0.0003917,
    "cost": 2.8875380526008185,
    "opened": "2026-11-22T19:53:22+07:00",
    "zoo": "x_smartflow_lowcap_b2",
    "smart": 37,
    "kol": 2,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "GNHW5JetZmW85vAU35KyoDcYoSd3sNWtx5RPMTDJpump": {
@@ -43,6 +43,20 @@
    "smart": 43,
    "kol": 31,
    "gap": 0,
+   "miss": 0
+  },
+  "zcRvzm7gAfYGde8gRwaSYxNryL47SjLVUQLAf1bdoor": {
+   "sym": "SIDOOR",
+   "qty": 10194.511148073896,
+   "entry": 0.0002528,
+   "last": 0.000249,
+   "peak": 0.0002528,
+   "cost": 2.656331084552753,
+   "opened": "2026-11-23T04:36:41+07:00",
+   "zoo": "x_smartflow_lowcap_b2",
+   "smart": 63,
+   "kol": 6,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -165,10 +179,24 @@
    "cost_side": 0.03,
    "smart": 112,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T04:36:41+07:00",
+   "kind": "buy",
+   "mint": "zcRvzm7gAfYGde8gRwaSYxNryL47SjLVUQLAf1bdoor",
+   "sym": "SIDOOR",
+   "price": 0.0002528,
+   "jup": 0.0002523660109071047,
+   "usd": 2.6563,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "x_smartflow_lowcap_b2",
+   "smart": 63,
+   "kol": 6
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: smart money เข้า 3+ มาร์เก็ตแคปต่ำ ขายครึ่งที่ x2",
- "rank_t": 1795382990.8402388,
+ "rank_t": 1795383283.7477837,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "GNHW5JetZmW85vAU35KyoDcYoSd3sNWtx5RPMTDJpump": "GOAT"
