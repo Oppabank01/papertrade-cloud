@@ -11,10 +11,12 @@ from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
 TZ = timezone(timedelta(hours=7))
-FEEDS = ["https://www.coindesk.com/arc/outboundfeeds/rss/", "https://cointelegraph.com/rss",
+FEEDS = ["https://www.coindesk.com/arc/outboundfeeds/rss", "https://cointelegraph.com/rss",
          "https://decrypt.co/feed", "https://www.theblock.co/rss.xml"]
+# Public Telegram channels (read through the t.me/s web preview, no login): the fast headline feeds traders watch.
+TELEGRAM = ["BWEnews", "WatcherGuru", "wublockchainenglish", "WalterBloomberg", "theblockbeats"]
 COINS = ["BTC", "ETH", "SOL", "XRP", "BNB", "DOGE", "ADA", "AVAX", "LINK", "SUI"]
-MODELS = ["gemini-4-hydrogen-low", "gemini-4-argon-low"]   # Argon has its own weekly quota pool: used when the Gemini pool is out
+MODELS = ["gemini-4-hydrogen-low"]   # user: never Argon (22 Nov); a quota-out run just skips
 THB, RATE = 500.0, 33.9                  # same 500 THB start as the other accounts
 SIZE, TP, SL, MAX_H, MIN_CONF = 0.20, 0.04, 0.02, 12, 70
 COST = 0.001                             # Binance spot fee per side
@@ -47,8 +49,27 @@ def price(coin):
     return float(json.loads(get(f"https://api.binance.com/api/v3/ticker/price?symbol={coin}USDT"))["price"])
 
 
+def telegram(ch):
+    html = get(f"https://t.me/s/{ch}").decode("utf-8", "replace")
+    for block in html.split('data-post="')[1:]:
+        post = block.split('"', 1)[0]
+        text = re.search(r'tgme_widget_message_text[^>]*>(.*?)</div>', block, re.S)
+        when = re.search(r'<time datetime="([^"]+)"', block)
+        if text and when:
+            plain = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", text.group(1))).strip()
+            yield f"https://t.me/{post}", plain, datetime.fromisoformat(when.group(1))
+
+
 def headlines(seen):
     out = []
+    for ch in TELEGRAM:
+        try:
+            for link, text, t in telegram(ch):
+                if link not in seen and now - t <= timedelta(minutes=FRESH_MIN):
+                    out.append({"link": link, "title": f"[{ch}] " + __import__("html").unescape(text)[:200],
+                                "t": t.astimezone(TZ).isoformat(timespec="minutes"), "desc": ""})
+        except Exception as e:
+            print("telegram failed", ch, type(e).__name__)
     for url in FEEDS:
         try:
             root = ET.fromstring(get(url))
@@ -64,7 +85,7 @@ def headlines(seen):
             if link and link not in seen and now - t <= timedelta(minutes=FRESH_MIN):
                 out.append({"link": link, "title": title, "t": t.astimezone(TZ).isoformat(timespec="minutes"),
                             "desc": re.sub(r"<[^>]+>", "", it.findtext("description") or "")[:300]})
-    return out[:15]
+    return sorted(out, key=lambda x: x["t"], reverse=True)[:25]   # newest first: the fast ones matter most
 
 
 def ask(items):
