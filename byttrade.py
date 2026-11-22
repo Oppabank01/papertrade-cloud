@@ -26,6 +26,9 @@ ACCOUNTS = {   # file: (sides, mode, label, symbol); BTC and ETH added 23 Nov 00
     "state_byt_eth_twin.json": ((1, -1), "random", "byttrade ETH ตัวควบคุม: เข้าสุ่มเวลา ฝั่งตาม EMA50 รายวัน", "ETHUSDT"),
     "state_byt_btc.json": ((1, -1), "flip", "byttrade BTC 4 ชม. long+short กฎเดียวกับ SOL", "BTCUSDT"),
     "state_byt_btc_twin.json": ((1, -1), "random", "byttrade BTC ตัวควบคุม: เข้าสุ่มเวลา ฝั่งตาม EMA50 รายวัน", "BTCUSDT"),
+    # gold (PAXG) added 23 Nov as the closest testable form of sayervonn's "gold agent" post, which gave no rules
+    "state_byt_paxg.json": ((1, -1), "flip", "byttrade ทอง (PAXG) 4 ชม. long+short แทนโพสต์เอเจนต์เทรดทองที่ไม่มีกฎ", "PAXGUSDT"),
+    "state_byt_paxg_twin.json": ((1, -1), "random", "byttrade ทอง ตัวควบคุม: เข้าสุ่มเวลา ฝั่งตาม EMA50 รายวัน", "PAXGUSDT"),
 }
 
 

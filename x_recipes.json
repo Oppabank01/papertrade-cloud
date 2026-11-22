@@ -1873,5 +1873,35 @@
    "MAX_HOLD_H": 8
   },
   "note": "post: 6 smart traders in, whale buying, dev 2.1% never sold, top10 20%, 5m volume x9; whale and volume-spike fields not in the ranking, 5m price rise used instead. Max loss in post -$11 suggests a tight stop."
+ },
+ {
+  "name": "x_blix_grad_top10",
+  "label": "blixtrade: เหรียญจบ curve ใหม่ top10 ถือไม่เกิน 30% (เดิมตัดทิ้งว่าซ้ำ ลองจริงก่อน)",
+  "horizon": "night",
+  "source": "https://github.com/blixtrade/memecoin-alert-bot",
+  "claim": "แจ้งเตือนเหรียญจบ bonding curve ที่ผ่านเช็ก top-10 wallet share (--max-top10 30)",
+  "added": "2026-11-23",
+  "active": true,
+  "entry": {
+   "min": {
+    "launchpad_status": 1,
+    "liquidity": 20000
+   },
+   "max": {
+    "launchpad_status": 1,
+    "age_h": 6,
+    "top_10_holder_rate": 0.3
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "TP_ALL": 0.35,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 2
+  },
+  "note": "repo has alerts only, no exit: exit copied from x_fresh_grad; liquidity 20k, age 6h, up and rugcheck also copied from x_fresh_grad so the only difference is the top10 cap of 30% from the README example."
  }
 ]
