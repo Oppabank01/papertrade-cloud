@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 5.919828525495507,
+ "cash": 3.070451073643248,
  "pos": {
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 150.22084880198796,
    "entry": 0.01889,
-   "last": 0.01869,
+   "last": 0.01849,
    "peak": 0.01893,
    "cost": 2.9248318221702254,
    "opened": "2026-11-23T03:15:24+07:00",
@@ -21,7 +21,7 @@
    "sym": "LUNO",
    "qty": 7117.2226112104,
    "entry": 0.0003951,
-   "last": 0.0003911,
+   "last": 0.0003848,
    "peak": 0.0003951,
    "cost": 2.8983865735819716,
    "opened": "2026-11-23T03:25:13+07:00",
@@ -35,13 +35,27 @@
    "sym": "greg",
    "qty": 9842.447346314228,
    "entry": 0.000284,
-   "last": 0.0002834,
+   "last": 0.0002828,
    "peak": 0.000284,
    "cost": 2.881112189603423,
    "opened": "2026-11-23T03:25:13+07:00",
    "zoo": "x_boost_paid",
    "smart": 167,
    "kol": 12,
+   "gap": 0,
+   "miss": 0
+  },
+  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
+   "sym": "CLAUDIA",
+   "qty": 235.2737024499627,
+   "entry": 0.01175,
+   "last": 0.01174,
+   "peak": 0.01175,
+   "cost": 2.849377451852259,
+   "opened": "2026-11-23T03:30:41+07:00",
+   "zoo": "x_boost_paid",
+   "smart": 562,
+   "kol": 34,
    "gap": 0,
    "miss": 0
   }
@@ -93,10 +107,24 @@
    "zoo": "x_boost_paid",
    "smart": 167,
    "kol": 12
+  },
+  {
+   "t": "2026-11-23T03:30:41+07:00",
+   "kind": "buy",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.01175,
+   "jup": 0.011751528828157921,
+   "usd": 2.8494,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_boost_paid",
+   "smart": 562,
+   "kol": 34
   }
  ],
  "label": "สวนสัตว์: dev จ่ายค่า boost DexScreener แล้ว (ซื้อตามโปรโมต) (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-22",
  "night_start": 14.624159110851126,
- "rank_t": 1795378928.125097
+ "rank_t": 1795379229.621563
 }
