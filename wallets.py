@@ -24,7 +24,13 @@ import agents  # noqa: E402
 HERE = Path(__file__).parent
 # WALLET_LIST=fomo runs a second, separate account on the Fomo 30-day leaderboard wallets (22 Nov); default is the Grok list.
 LIST = {"grok": ("state_wallets.json", "grokbot-wallets-2026-11-13.md", "ตามกระเป๋า 10 ใบ ผ่าน Helius"),
-        "fomo": ("state_wallets_fomo.json", "fomo-wallets-2026-11-22.md", "ตามกระเป๋าอันดับต้น Fomo 30 วัน 10 ใบ ผ่าน Helius")}[os.environ.get("WALLET_LIST", "grok")]
+        "fomo": ("state_wallets_fomo.json", "fomo-wallets-2026-11-22.md", "ตามกระเป๋าอันดับต้น Fomo 30 วัน 10 ใบ ผ่าน Helius"),
+        # savipww's copy rules (X, 16 Nov): leaders green on 24h and 7d, sell when the leader sells, own stop -25%, half size
+        "fomo_mirror": ("state_wallets_fomo_mirror.json", "fomo-mirror-wallets-2026-11-22.md",
+                        "ตามกระเป๋า Fomo กำไรทั้ง 24 ชม. และ 7 วัน ขายตามเจ้าของ stop -25% ไม้ครึ่ง")}[os.environ.get("WALLET_LIST", "grok")]
+MIRROR = LIST[0] == "state_wallets_fomo_mirror.json"
+if MIRROR:                      # exits: the leader's sell, else our own -25% stop; no trailing, 72 h safety cap
+    agents.STOP, agents.TRAIL_ON, agents.MAX_HOLD_H, agents.PER_TRADE = -0.25, 9.0, 72, 0.10
 agents.STATE = HERE / LIST[0]
 WALLETS = re.findall(r"^- ([1-9A-HJ-NP-Za-km-z]{32,44}) \|", (HERE / "research_notes" / LIST[1]).read_text(), re.M)
 QUOTE = {"So11111111111111111111111111111111111111112",   # wSOL
@@ -76,6 +82,35 @@ def buys_in(tx, wallet, sol_price):
     return [(m, spent) for m in got] if spent > 0 else []
 
 
+def sold_in(tx, wallet):
+    """Mints whose balance the wallet cut in this transaction (a sell or a transfer out): the mirror account's exit signal."""
+    meta = tx.get("meta") or {}
+    if meta.get("err"):
+        return []
+    delta = {}
+    for side, sign in (("preTokenBalances", -1), ("postTokenBalances", 1)):
+        for b in meta.get(side) or []:
+            if b.get("owner") == wallet:
+                delta[b["mint"]] = delta.get(b["mint"], 0) + sign * float((b.get("uiTokenAmount") or {}).get("uiAmount") or 0)
+    return [m for m, d in delta.items() if d < 0 and m not in QUOTE]
+
+
+def mirror_sell(s, mint, w):
+    q = s["pos"].get(mint)
+    if not q or q.get("wallet") != w[:6]:
+        return
+    p = agents.grok.pair(mint)
+    if not p or not p.get("priceUsd"):
+        return                                  # no price now: the stop and the 72 h cap still close it
+    price = min(float(p["priceUsd"]), q["last"] * 1.5)   # one bad pool print must not book a moonshot
+    got = q["qty"] * price * (1 - agents.SLIP) * (1 - agents.FEE)
+    s["cash"] += got
+    agents.log(s, "sell", mint=mint, sym=q["sym"], price=price, entry=q["entry"], usd=round(got, 4), pnl=round(got - q["cost"], 4),
+               why=f"ขายตามเจ้าของกระเป๋า {price / q['entry'] - 1:+.1%}", stop_set=agents.STOP, cost_side=agents.FEE + agents.SLIP)
+    del s["pos"][mint]
+    print(f"  MIRROR SELL {q['sym']} pnl ${got - q['cost']:+.3f}")
+
+
 def cmd_init(thb):
     agents.cmd_init(thb)
     s = agents.load()
@@ -106,6 +141,9 @@ def cmd_poll():
             except Exception as e:
                 print(f"{w[:6]} tx: {e}")
                 continue
+            if MIRROR:
+                for mint in sold_in(tx or {}, w):
+                    mirror_sell(s, mint, w)
             for mint, usd in buys_in(tx or {}, w, price):
                 if usd < MIN_USD:
                     continue

@@ -16,3 +16,21 @@ assert b == [(M, 400.0)], b
 assert wallets.buys_in(tx([tb(M, 1000)], [], 1e9, 3e9), W, 150) == []   # a sell
 assert wallets.buys_in(tx([], [tb(M, 1)], 3e9, 1e9, err={"x": 1}), W, 150) == []
 print("wallets ok")
+
+# mirror exits: a leader's sell closes only the position we copied from that leader
+import importlib, os as _os
+_os.environ["WALLET_LIST"] = "fomo_mirror"
+wm = importlib.reload(wallets)
+assert wm.MIRROR and wm.agents.STOP == -0.25 and wm.agents.PER_TRADE == 0.10
+L = "LeaderWallet1111111111111111111111111111111"
+sell_tx = {"meta": {"err": None, "preTokenBalances": [{"owner": L, "mint": "MintA", "uiTokenAmount": {"uiAmount": 100}}],
+                    "postTokenBalances": [{"owner": L, "mint": "MintA", "uiTokenAmount": {"uiAmount": 0}}]}}
+assert wm.sold_in(sell_tx, L) == ["MintA"] and wm.sold_in(sell_tx, "Other") == []
+st = {"cash": 0.0, "pos": {"MintA": dict(sym="A", qty=10.0, entry=1.0, last=1.0, peak=1.0, cost=10.0, wallet=L[:6]),
+                           "MintB": dict(sym="B", qty=10.0, entry=1.0, last=1.0, peak=1.0, cost=10.0, wallet="xxxxxx")}, "log": []}
+wm.agents.grok.pair = lambda m: {"priceUsd": "2.0"}
+wm.mirror_sell(st, "MintA", L); wm.mirror_sell(st, "MintB", L)
+assert "MintA" not in st["pos"] and "MintB" in st["pos"] and st["log"][-1]["why"].startswith("ขายตามเจ้าของ")
+assert abs(st["cash"] - 15 * (1 - wm.agents.SLIP) * (1 - wm.agents.FEE)) < 1e-9     # price capped at 1.5x the last price
+_os.environ.pop("WALLET_LIST")
+print("mirror ok")
