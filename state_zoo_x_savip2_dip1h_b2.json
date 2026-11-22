@@ -1,24 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 10.57279484082542,
- "pos": {
-  "v4GK8f24ZJJa5qLoTJ4mJ5d6jsNUXHScwGaRHdfpump": {
-   "sym": "MCAT",
-   "qty": 25260.015171630635,
-   "entry": 0.0001403,
-   "last": 0.0001819,
-   "peak": 0.0002863,
-   "cost": 3.652834599649328,
-   "opened": "2026-11-22T21:56:29+07:00",
-   "zoo": "x_savip2_dip1h_b2",
-   "smart": 84,
-   "kol": 7,
-   "gap": 3,
-   "miss": 0,
-   "half": true
-  }
- },
+ "cash": 14.685114196360212,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-22T19:52:29+07:00",
@@ -106,8 +90,23 @@
    "cost_side": 0.03,
    "smart": 120,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T01:25:20+07:00",
+   "kind": "sell",
+   "mint": "v4GK8f24ZJJa5qLoTJ4mJ5d6jsNUXHScwGaRHdfpump",
+   "sym": "MCAT",
+   "price": 0.0001678,
+   "entry": 0.0001403,
+   "usd": 4.1123,
+   "pnl": 0.4595,
+   "why": "trailing จากยอด +104% (+19.6%)",
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "smart": 84,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: savipww v2: pool 20k+ คะแนน 70+ ย่อ 1 ชม. 15-35% ทีละ 50% ขายครึ่ง x2 trail 40% stop -25%",
- "rank_t": 1795371523.3890352
+ "rank_t": 1795371807.2450418
 }
