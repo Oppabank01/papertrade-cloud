@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.4450404360484132,
+ "cash": 1.279445712614803,
  "pos": {
-  "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
-   "sym": "ZCAT",
-   "qty": 26.25214391427382,
-   "entry": 0.01736,
-   "last": 0.01845,
-   "peak": 0.01859,
-   "cost": 0.46973533122221556,
-   "opened": "2026-11-23T03:28:17+07:00",
-   "zoo": "bigliq",
-   "smart": 330,
-   "kol": 48,
-   "gap": 0,
-   "miss": 0
-  },
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 55.409403428210126,
    "entry": 0.008002,
-   "last": 0.008158,
+   "last": 0.008133,
    "peak": 0.008302,
    "cost": 0.45700478894304003,
    "opened": "2026-11-23T04:16:13+07:00",
@@ -35,27 +21,13 @@
    "sym": "DCTY",
    "qty": 163.8274093745077,
    "entry": 0.002676,
-   "last": 0.002598,
+   "last": 0.002545,
    "peak": 0.002722,
    "cost": 0.45186780816963784,
    "opened": "2026-11-23T05:38:14+07:00",
    "zoo": "bigliq",
    "smart": 738,
    "kol": 66,
-   "gap": 0,
-   "miss": 0
-  },
-  "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": {
-   "sym": "MINELIUS",
-   "qty": 54.68789872239611,
-   "entry": 0.007959,
-   "last": 0.007573,
-   "peak": 0.007959,
-   "cost": 0.4486301648438989,
-   "opened": "2026-11-23T06:07:10+07:00",
-   "zoo": "bigliq",
-   "smart": 5,
-   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -3920,8 +3892,38 @@
    "zoo": "bigliq",
    "smart": 5,
    "kol": 0
+  },
+  {
+   "t": "2026-11-23T06:30:33+07:00",
+   "kind": "sell",
+   "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+   "sym": "ZCAT",
+   "price": 0.017755401832754678,
+   "entry": 0.01736,
+   "usd": 0.4522,
+   "pnl": -0.0175,
+   "why": "ครบ 3 ชม. (+2.3%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 330,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-23T06:30:33+07:00",
+   "kind": "sell",
+   "mint": "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump",
+   "sym": "MINELIUS",
+   "price": 0.007203,
+   "entry": 0.007959,
+   "usd": 0.3822,
+   "pnl": -0.0665,
+   "why": "stop -9.5%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 5,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ มาร์เก็ตแคป 2M+",
- "rank_t": 1795389907.7391343
+ "rank_t": 1795390189.544116
 }

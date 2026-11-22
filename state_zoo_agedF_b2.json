@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 4.004449550064721,
+ "cash": 4.001120515979334,
  "pos": {
-  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
-   "sym": "GTA6",
-   "qty": 1817.7562586411343,
-   "entry": 0.00117,
-   "last": 0.001156,
-   "peak": 0.00117,
-   "cost": 2.1920993842611085,
-   "opened": "2026-11-23T03:33:18+07:00",
-   "zoo": "agedF_b2",
-   "smart": 324,
-   "kol": 25,
-   "gap": 9,
-   "miss": 0
-  },
   "412ECWXN3jGbd1kn8ck7eeupWttkmrFkNm9JqfAzpump": {
    "sym": "shiit",
    "qty": 2616.2881483495344,
    "entry": 0.0007981,
-   "last": 0.0008605,
+   "last": 0.0008365,
    "peak": 0.0008804,
    "cost": 2.1521949816509625,
    "opened": "2026-11-23T03:47:36+07:00",
@@ -35,13 +21,27 @@
    "sym": "swordcat",
    "qty": 4637.950484336138,
    "entry": 0.0004312,
-   "last": 0.0004042,
+   "last": 0.000403,
    "peak": 0.0004376,
    "cost": 2.061311326371617,
    "opened": "2026-11-23T04:55:02+07:00",
    "zoo": "agedF_b2",
    "smart": 318,
    "kol": 43,
+   "gap": 0,
+   "miss": 0
+  },
+  "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": {
+   "sym": "PUMPCADE",
+   "qty": 158.1151701518882,
+   "entry": 0.01253,
+   "last": 0.01264,
+   "peak": 0.01264,
+   "cost": 2.0420357472718607,
+   "opened": "2026-11-23T06:30:41+07:00",
+   "zoo": "agedF_b2",
+   "smart": 128,
+   "kol": 19,
    "gap": 0,
    "miss": 0
   }
@@ -564,10 +564,39 @@
    "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
    "sym": "GTA6",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-23T06:30:41+07:00",
+   "kind": "buy",
+   "mint": "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu",
+   "sym": "PUMPCADE",
+   "price": 0.01253,
+   "jup": 0.012566761687086269,
+   "usd": 2.042,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "agedF_b2",
+   "smart": 128,
+   "kol": 19
+  },
+  {
+   "t": "2026-11-23T06:33:21+07:00",
+   "kind": "sell",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.001156,
+   "entry": 0.00117,
+   "usd": 2.0387,
+   "pnl": -0.1534,
+   "why": "ครบ 3 ชม. (-1.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 324,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: อายุเกิน 1 วัน เช็กราคาทุก 20 วิ",
- "rank_t": 1795389907.7391343,
+ "rank_t": 1795390189.544116,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6"
  }
