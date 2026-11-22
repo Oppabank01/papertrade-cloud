@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 8.911468836634231,
+ "cash": 5.939615749638071,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 76.3490266235867,
    "entry": 0.03887,
-   "last": 0.03957,
+   "last": 0.03934,
    "peak": 0.04054,
    "cost": 3.0588400998338643,
    "opened": "2026-11-22T21:55:54+07:00",
@@ -21,13 +21,27 @@
    "sym": "DCTY",
    "qty": 925.3327402229626,
    "entry": 0.003134,
-   "last": 0.003153,
+   "last": 0.003161,
    "peak": 0.00322,
    "cost": 2.9890670045957175,
    "opened": "2026-11-22T23:03:05+07:00",
    "zoo": "w_f5_aged_b2",
    "smart": 738,
    "kol": 65,
+   "gap": 0,
+   "miss": 0
+  },
+  "8nnaeWCw8mUypcGAgbmSuzAT85uWx4UN12adDrMhXrGF": {
+   "sym": "HOTBOT",
+   "qty": 4716.6560853978,
+   "entry": 0.0006113,
+   "last": 0.0005998,
+   "peak": 0.0006113,
+   "cost": 2.9718530869961604,
+   "opened": "2026-11-22T23:16:48+07:00",
+   "zoo": "w_f5_aged_b2",
+   "smart": 180,
+   "kol": 15,
    "gap": 0,
    "miss": 0
   }
@@ -210,8 +224,22 @@
    "zoo": "w_f5_aged_b2",
    "smart": 738,
    "kol": 65
+  },
+  {
+   "t": "2026-11-22T23:16:48+07:00",
+   "kind": "buy",
+   "mint": "8nnaeWCw8mUypcGAgbmSuzAT85uWx4UN12adDrMhXrGF",
+   "sym": "HOTBOT",
+   "price": 0.0006113,
+   "jup": 0.0006116672980403938,
+   "usd": 2.9719,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged_b2",
+   "smart": 180,
+   "kol": 15
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1795363829.3426883
+ "rank_t": 1795364110.5367339
 }
