@@ -4,7 +4,7 @@
 # Runs in its own git worktree (../PaperTrade-scout) so the 2-minute news job's pulls never touch its files.
 cd "$(dirname "$0")/../PaperTrade-scout" || exit 1
 export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/bin:/bin" CLAUDE_CONFIG_DIR="$HOME/.claude-thanabank"
-git fetch -q origin && git checkout -q -B scout origin/main && git clean -qfd -- data x_recipes.json || { echo "worktree reset failed"; exit 1; }
+git fetch -q origin && git checkout -q -B scout origin/main 2>/dev/null; git reset -q --hard origin/main || { echo "worktree reset failed"; exit 1; }   # scout worktree only
 [ -f data/research_feed.json ] || echo "[]" > data/research_feed.json
 perl -e 'alarm 3000; exec @ARGV' claude -p "$(cat RESEARCH.md) Today (Bangkok): $(TZ=Asia/Bangkok date '+%F %H:%M')." \
   --model claude-opus-5-5 --effort high --max-turns 80 \
