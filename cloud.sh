@@ -29,6 +29,7 @@ $PY nightly.py tick    # nightly sessions: fresh 500 THB at 21:00, settle at 09:
 $PY funding.py init 10000 >/dev/null; $PY funding.py run || echo "funding run failed (Hyperliquid API)"   # funding carry: steps once a day, no network otherwise
 $PY daytrade.py init 500 >/dev/null; $PY daytrade.py run || echo "daytrade run failed"   # one-day accounts on big coins: grid, dip, funding spike
 $PY byttrade.py run || echo "byttrade run failed"   # SOL/ETH/BTC 4h byttrade st4h_ema50_1d + twin (23 Nov), acts once per closed 4h bar
+$PY pullback.py || echo "pullback run failed"   # trend_pullback_champion BTC/ETH/SOL 4h + twin (23 Nov, weak backtest, opened to try)
 $PY twocandle.py || echo "twocandle run failed"   # RohOnChain 2-candle forward (lost in backtest, opened to try)
 $PY crash.py init 500 >/dev/null; $PY crash.py run || echo "crash run failed"   # Fable perp accounts (19 Nov): crash-day bounce, night crash short, new-listing short
 $PY grokwatch.py || echo "grokwatch failed"   # 19-20 Nov: 5-min DexScreener log of every mint the Grok Bot routines mention, 24 h each
