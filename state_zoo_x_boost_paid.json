@@ -1,19 +1,47 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 11.699327288680902,
+ "cash": 5.919828525495507,
  "pos": {
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 150.22084880198796,
    "entry": 0.01889,
-   "last": 0.01859,
+   "last": 0.01869,
    "peak": 0.01893,
    "cost": 2.9248318221702254,
    "opened": "2026-11-23T03:15:24+07:00",
    "zoo": "x_boost_paid",
    "smart": 928,
    "kol": 111,
+   "gap": 0,
+   "miss": 0
+  },
+  "EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump": {
+   "sym": "LUNO",
+   "qty": 7117.2226112104,
+   "entry": 0.0003951,
+   "last": 0.0003911,
+   "peak": 0.0003951,
+   "cost": 2.8983865735819716,
+   "opened": "2026-11-23T03:25:13+07:00",
+   "zoo": "x_boost_paid",
+   "smart": 37,
+   "kol": 2,
+   "gap": 0,
+   "miss": 0
+  },
+  "4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": {
+   "sym": "greg",
+   "qty": 9842.447346314228,
+   "entry": 0.000284,
+   "last": 0.0002834,
+   "peak": 0.000284,
+   "cost": 2.881112189603423,
+   "opened": "2026-11-23T03:25:13+07:00",
+   "zoo": "x_boost_paid",
+   "smart": 167,
+   "kol": 12,
    "gap": 0,
    "miss": 0
   }
@@ -37,10 +65,38 @@
    "zoo": "x_boost_paid",
    "smart": 928,
    "kol": 111
+  },
+  {
+   "t": "2026-11-23T03:25:13+07:00",
+   "kind": "buy",
+   "mint": "EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump",
+   "sym": "LUNO",
+   "price": 0.0003951,
+   "jup": 0.00039145230663301914,
+   "usd": 2.8984,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_boost_paid",
+   "smart": 37,
+   "kol": 2
+  },
+  {
+   "t": "2026-11-23T03:25:13+07:00",
+   "kind": "buy",
+   "mint": "4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump",
+   "sym": "greg",
+   "price": 0.000284,
+   "jup": 0.0002824091591090394,
+   "usd": 2.8811,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_boost_paid",
+   "smart": 167,
+   "kol": 12
   }
  ],
  "label": "สวนสัตว์: dev จ่ายค่า boost DexScreener แล้ว (ซื้อตามโปรโมต) (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-22",
  "night_start": 14.624159110851126,
- "rank_t": 1795378649.1792314
+ "rank_t": 1795378928.125097
 }
