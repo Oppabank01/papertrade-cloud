@@ -1,41 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 2.8831791527648316,
+ "cash": 8.308715537813427,
  "pos": {
-  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
-   "sym": "mihao",
-   "qty": 321.5952929745716,
-   "entry": 0.008816,
-   "last": 0.008724,
-   "peak": 0.009405,
-   "cost": 2.9222676797194627,
-   "opened": "2026-11-22T19:53:54+07:00",
-   "zoo": "w_pause_bigliq_b2",
-   "smart": 799,
-   "kol": 75,
-   "gap": 0,
-   "miss": 0
-  },
-  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
-   "sym": "USELESS",
-   "qty": 34.88841799468623,
-   "entry": 0.08078,
-   "last": 0.08167,
-   "peak": 0.08211,
-   "cost": 2.9048509643483342,
-   "opened": "2026-11-22T19:53:54+07:00",
-   "zoo": "w_pause_bigliq_b2",
-   "smart": 928,
-   "kol": 295,
-   "gap": 0,
-   "miss": 0
-  },
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 148.85971449518735,
    "entry": 0.01922,
-   "last": 0.01961,
+   "last": 0.01959,
    "peak": 0.01968,
    "cost": 2.9489628041615137,
    "opened": "2026-11-22T21:14:35+07:00",
@@ -49,7 +21,7 @@
    "sym": "ANSEM",
    "qty": 72.51442962534331,
    "entry": 0.03887,
-   "last": 0.03982,
+   "last": 0.03995,
    "peak": 0.04054,
    "cost": 2.9052111724769065,
    "opened": "2026-11-22T21:55:59+07:00",
@@ -179,8 +151,38 @@
    "zoo": "w_pause_bigliq_b2",
    "smart": 1000,
    "kol": 186
+  },
+  {
+   "t": "2026-11-22T22:54:09+07:00",
+   "kind": "sell",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.008528875932604317,
+   "entry": 0.008816,
+   "usd": 2.6611,
+   "pnl": -0.2612,
+   "why": "ครบ 3 ชม. (-3.3%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 799,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-22T22:54:09+07:00",
+   "kind": "sell",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.08167,
+   "entry": 0.08078,
+   "usd": 2.7644,
+   "pnl": -0.1404,
+   "why": "ครบ 3 ชม. (+1.1%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 928,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795362423.421886
+ "rank_t": 1795362700.8405402
 }
