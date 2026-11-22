@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.7093934280624028,
+ "cash": 3.418649339128871,
  "pos": {
-  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
-   "sym": "CLAUDIA",
-   "qty": 91.99799288358129,
-   "entry": 0.009452,
-   "last": 0.01037,
-   "peak": 0.01139,
-   "cost": 0.8962739937493407,
-   "opened": "2026-11-22T08:17:53+07:00",
-   "zoo": "w_ban_bigliq",
-   "smart": 538,
-   "kol": 34,
-   "gap": 1,
-   "miss": 0
-  },
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 49.063522290925626,
    "entry": 0.01773,
-   "last": 0.02009,
+   "last": 0.01999,
    "peak": 0.02032,
    "cost": 0.8966153888044851,
    "opened": "2026-11-22T08:51:26+07:00",
@@ -29,20 +15,6 @@
    "smart": 895,
    "kol": 110,
    "gap": 0,
-   "miss": 0
-  },
-  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
-   "sym": "Rings",
-   "qty": 214.67521801730996,
-   "entry": 0.004067,
-   "last": 0.003944,
-   "peak": 0.004067,
-   "cost": 0.8999011664361984,
-   "opened": "2026-11-22T10:52:10+07:00",
-   "zoo": "w_ban_bigliq",
-   "smart": 124,
-   "kol": 7,
-   "gap": 3,
    "miss": 0
   }
  },
@@ -2825,10 +2797,40 @@
    "zoo": "w_ban_bigliq",
    "smart": 124,
    "kol": 7
+  },
+  {
+   "t": "2026-11-22T11:16:47+07:00",
+   "kind": "sell",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.0037283167987097673,
+   "entry": 0.004067,
+   "usd": 0.7765,
+   "pnl": -0.1234,
+   "why": "stop -8.3%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 124,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-22T11:18:08+07:00",
+   "kind": "sell",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.01045,
+   "entry": 0.009452,
+   "usd": 0.9327,
+   "pnl": 0.0365,
+   "why": "ครบ 3 ชม. (+10.6%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 538,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795320624.3537188,
+ "rank_t": 1795320903.7486122,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
