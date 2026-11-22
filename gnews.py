@@ -16,13 +16,18 @@ FEEDS = ["https://www.coindesk.com/arc/outboundfeeds/rss", "https://cointelegrap
 # Public Telegram channels (read through the t.me/s web preview, no login): the fast headline feeds traders watch.
 TELEGRAM = ["BWEnews", "WatcherGuru", "wublockchainenglish", "WalterBloomberg", "theblockbeats"]
 COINS = ["BTC", "ETH", "SOL", "XRP", "BNB", "DOGE", "ADA", "AVAX", "LINK", "SUI"]
-MODELS = ["gemini-4-hydrogen-low"]   # user: never Argon (22 Nov); a quota-out run just skips
+# One desk per model, each with its own random twin (same moments, same size). User: never Argon (22 Nov).
+# Neon high added 22 Nov as a separate desk after the memecoin replay: Hydrogen chased pumps at low and high effort alike.
+DESKS = [("gemini-4-hydrogen-low", "state_gnews.json", "state_gnews_twin.json"),
+         ("gemini-4-neon-high", "state_gnews_neon.json", "state_gnews_neon_twin.json")]
 THB, RATE = 500.0, 33.9                  # same 500 THB start as the other accounts
 SIZE, TP, SL, MAX_H, MIN_CONF = 0.20, 0.04, 0.02, 12, 70
 COST = 0.001                             # Binance spot fee per side
 FRESH_MIN = 90                           # ignore headlines older than this: the move is already priced
 ACCOUNTS = {"state_gnews.json": "ข่าว Gemini: Hydrogen อ่านข่าวคริปโตแล้วเลือกเหรียญใหญ่ ไม้ละ 20% TP +4% SL -2% ถือไม่เกิน 12 ชม.",
-            "state_gnews_twin.json": "ตัวควบคุมข่าว Gemini: สุ่มเหรียญและฝั่ง ณ เวลาเดียวกัน ขนาดและกฎออกเท่ากัน"}
+            "state_gnews_twin.json": "ตัวควบคุมข่าว Gemini: สุ่มเหรียญและฝั่ง ณ เวลาเดียวกัน ขนาดและกฎออกเท่ากัน",
+            "state_gnews_neon.json": "ข่าว Gemini Neon high: อ่านข่าวคริปโตแล้วเลือกเหรียญใหญ่ ไม้ละ 20% TP +4% SL -2% ถือไม่เกิน 12 ชม.",
+            "state_gnews_neon_twin.json": "ตัวควบคุมข่าว Neon: สุ่มเหรียญและฝั่ง ณ เวลาเดียวกับ Neon ขนาดและกฎออกเท่ากัน"}
 # Only headlines that name a tracked coin or a market-moving event go to Gemini: saves agy quota at a 2-minute poll.
 KEYWORDS = re.compile(r"\b(" + "|".join(COINS) + r")\b|bitcoin|ethereum|\bether\b|solana|ripple|binance|dogecoin|cardano|avalanche|chainlink|"
                       r"\blist(s|ed|ing)?\b|delist|hack|exploit|drain|stolen|etf|\bsec\b|lawsuit|approv|outage|halt|liquidat|"
@@ -134,7 +139,7 @@ def keep_raw(model, prompt, raw):
         f.write(json.dumps({"t": now.isoformat(timespec="seconds"), "model": model, "prompt": prompt, "raw": raw}, ensure_ascii=False) + "\n")
 
 
-def ask(items):
+def ask(items, model):
     lines = "\n".join(f"{i}. [{x['t']}] {x['title']} | {x['desc']}" for i, x in enumerate(items))
     prompt = (
         "You are a skeptical crypto news desk. For each headline below decide whether it should move one of these "
@@ -142,7 +147,7 @@ def ask(items):
         "headline is new, specific and material (listings, hacks, ETF/regulatory decisions, big flows, outages).\n"
         'Reply with ONLY a JSON array, one object per headline: {"i": <number>, "coin": "<coin or NONE>", '
         '"side": "long|short|skip", "conf": <0-100>, "why": "<max 15 words, Thai>"}\n\n' + lines)
-    for model in MODELS:
+    for model in (model,):
         try:
             r = subprocess.run(["agy", "--model", model, "-p", prompt, "--print-timeout", "180s"],
                                capture_output=True, text=True, timeout=240, stdin=subprocess.DEVNULL)
@@ -209,10 +214,13 @@ def main():
     items = headlines(set(seen))
     log = load(LOG, [])
     if items:
-        model, calls = ask(items)
-        if calls is None:
-            print("model failed: no trades this run")   # headlines stay unseen and get one more try while fresh
-        else:
+        answered = False
+        for desk_model, acct, twin in DESKS:
+            model, calls = ask(items, desk_model)
+            if calls is None:
+                print(desk_model, "failed: no trades for this desk this run")
+                continue
+            answered = True
             for c in calls:
                 if not isinstance(c, dict) or not isinstance(c.get("i"), int) or not 0 <= c["i"] < len(items):
                     continue
@@ -220,10 +228,10 @@ def main():
                 acted = ""
                 if coin in COINS and side in ("long", "short") and (c.get("conf") or 0) >= MIN_CONF:
                     try:
-                        if open_pos(accts["state_gnews.json"], coin, side, price(coin), x["title"][:120]):
+                        if open_pos(accts[acct], coin, side, price(coin), x["title"][:120]):
                             acted = "เปิด"
                             rc, rs = random.choice(COINS), random.choice(["long", "short"])
-                            open_pos(accts["state_gnews_twin.json"], rc, rs, price(rc), "สุ่ม คู่กับ " + coin)
+                            open_pos(accts[twin], rc, rs, price(rc), "สุ่ม คู่กับ " + coin)
                     except Exception as e:
                         acted = "ราคาไม่มา"
                         print("price failed", coin, type(e).__name__)
@@ -238,6 +246,7 @@ def main():
                         print("price failed", coin, type(e).__name__)
                 with open(DECISIONS, "a") as f:
                     f.write(json.dumps({**rec, "desc": x["desc"], "price": px}, ensure_ascii=False) + "\n")
+        if answered:                    # headlines stay unseen (one more try while fresh) only when every desk failed
             seen += [x["link"] for x in items]
     for f, s in accts.items():
         save(f, s)

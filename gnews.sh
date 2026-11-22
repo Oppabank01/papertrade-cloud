@@ -3,7 +3,7 @@
 # as papertrade-bot with the Oppabank01 token, so the cloud page can show them.
 cd "$(dirname "$0")" || exit 1
 export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/bin:/bin"
-FILES="state_gnews.json state_gnews_twin.json data/gnews_log.json data/gnews_seen.json data/gnews_decisions.jsonl data/gnews_raw"
+FILES="state_gnews.json state_gnews_twin.json state_gnews_neon.json state_gnews_neon_twin.json data/gnews_log.json data/gnews_seen.json data/gnews_decisions.jsonl data/gnews_raw"
 git pull -q --rebase --autostash origin main || echo "pull failed"
 /usr/bin/python3 gnews.py
 for f in $FILES; do [ -e "$f" ] && git add -A -- "$f"; done   # a missing path would make git add skip everything
