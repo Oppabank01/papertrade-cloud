@@ -1,5 +1,5 @@
 #!/bin/bash
-# Mac-only runner for gnews.py (launchd com.oppabank.gnews, every 15 min). Pushes only the Gemini news files,
+# Mac-only runner for gnews.py (launchd com.oppabank.gnews, every 2 min). Pushes only the Gemini news files,
 # as papertrade-bot with the Oppabank01 token, so the cloud page can show them.
 cd "$(dirname "$0")" || exit 1
 export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/bin:/bin"

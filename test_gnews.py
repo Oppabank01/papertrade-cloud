@@ -46,3 +46,14 @@ def test_outcomes_filled_once_due(tmp_path, monkeypatch):
     a, b = [json.loads(l) for l in f.read_text().splitlines()]
     assert a["ret_1h"] == 0.02 and a["ret_4h"] == 0.02 and "ret_12h" not in a   # 12 h not due yet
     assert "ret_1h" not in b                                                     # no coin, nothing to grade
+
+
+def test_keyword_filter():
+    k = gnews.KEYWORDS.search
+    assert k("Binance Will List XYZ") and k("Bitcoin rebounds 8%") and k("SEC approves ETF") and k("某交易所 上线 新币")
+    assert not k("Here's what happened in crypto today") and not k("Top Democrat threatens to cut funding")
+    assert not k("Solar panel stocks") and not k("establishment")        # whole words only for tickers like SOL / ETH
+
+
+def test_list_whole_word():
+    assert not gnews.KEYWORDS.search("A journalist on a playlist") and gnews.KEYWORDS.search("Upbit lists ABC")

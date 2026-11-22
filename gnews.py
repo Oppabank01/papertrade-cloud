@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gemini news desk (Mac only: needs a logged-in `agy`). Paper money only, no wallet, no orders anywhere.
+"""Gemini news desk (Mac only: needs a logged-in `agy`; launchd every 2 min). Paper money only, no wallet, no orders anywhere.
 
 Every run: read new crypto headlines from RSS, ask Gemini 4 Hydrogen (fast) for a call on each, and paper-trade
 the confident ones on big coins. state_gnews_twin.json opens a random coin and side at the same moments with the
@@ -23,6 +23,10 @@ COST = 0.001                             # Binance spot fee per side
 FRESH_MIN = 90                           # ignore headlines older than this: the move is already priced
 ACCOUNTS = {"state_gnews.json": "ข่าว Gemini: Hydrogen อ่านข่าวคริปโตแล้วเลือกเหรียญใหญ่ ไม้ละ 20% TP +4% SL -2% ถือไม่เกิน 12 ชม.",
             "state_gnews_twin.json": "ตัวควบคุมข่าว Gemini: สุ่มเหรียญและฝั่ง ณ เวลาเดียวกัน ขนาดและกฎออกเท่ากัน"}
+# Only headlines that name a tracked coin or a market-moving event go to Gemini: saves agy quota at a 2-minute poll.
+KEYWORDS = re.compile(r"\b(" + "|".join(COINS) + r")\b|bitcoin|ethereum|\bether\b|solana|ripple|binance|dogecoin|cardano|avalanche|chainlink|"
+                      r"\blist(s|ed|ing)?\b|delist|hack|exploit|drain|stolen|etf|\bsec\b|lawsuit|approv|outage|halt|liquidat|"
+                      r"reserve|treasury|tariff|\bfed\b|rate cut|比特币|以太坊|上线|上币|下架|黑客|被盗|清算|批准", re.I)
 LOG, SEEN = "data/gnews_log.json", "data/gnews_seen.json"   # LOG is the page's last 300 only
 # Permanent training record: every call agy made (skips too) with the price then, and the real move 1/4/12 h later
 # filled in by later runs, so we can grade which calls were right. Raw prompts and replies go to data/gnews_raw/.
@@ -88,7 +92,10 @@ def headlines(seen):
             if link and link not in seen and now - t <= timedelta(minutes=FRESH_MIN):
                 out.append({"link": link, "title": title, "t": t.astimezone(TZ).isoformat(timespec="minutes"),
                             "desc": re.sub(r"<[^>]+>", "", it.findtext("description") or "")[:300]})
-    return sorted(out, key=lambda x: x["t"], reverse=True)[:25]   # newest first: the fast ones matter most
+    hits = [x for x in out if KEYWORDS.search(x["title"] + " " + x["desc"])]
+    if len(hits) < len(out):
+        print(f"filtered out {len(out) - len(hits)} headlines with no coin or market keyword")
+    return sorted(hits, key=lambda x: x["t"], reverse=True)[:25]   # newest first: the fast ones matter most
 
 
 def price_at(coin, when):
