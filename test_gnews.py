@@ -33,3 +33,16 @@ def test_time_exit_and_hold():
     assert "ETH" in s["pos"]
     gnews.exits(s, {"ETH": 101.0})
     assert not s["pos"] and s["log"][-1]["why"] == "หมดเวลา"
+
+
+def test_outcomes_filled_once_due(tmp_path, monkeypatch):
+    import json
+    f = tmp_path / "d.jsonl"
+    t0 = (gnews.now - timedelta(hours=5)).isoformat(timespec="minutes")
+    f.write_text(json.dumps({"t": t0, "coin": "BTC", "price": 100.0}) + "\n" + json.dumps({"t": t0, "coin": "NONE", "price": None}) + "\n")
+    monkeypatch.setattr(gnews, "DECISIONS", str(f))
+    monkeypatch.setattr(gnews, "price_at", lambda coin, when: 102.0)
+    gnews.fill_outcomes()
+    a, b = [json.loads(l) for l in f.read_text().splitlines()]
+    assert a["ret_1h"] == 0.02 and a["ret_4h"] == 0.02 and "ret_12h" not in a   # 12 h not due yet
+    assert "ret_1h" not in b                                                     # no coin, nothing to grade

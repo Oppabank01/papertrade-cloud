@@ -23,7 +23,10 @@ COST = 0.001                             # Binance spot fee per side
 FRESH_MIN = 90                           # ignore headlines older than this: the move is already priced
 ACCOUNTS = {"state_gnews.json": "ข่าว Gemini: Hydrogen อ่านข่าวคริปโตแล้วเลือกเหรียญใหญ่ ไม้ละ 20% TP +4% SL -2% ถือไม่เกิน 12 ชม.",
             "state_gnews_twin.json": "ตัวควบคุมข่าว Gemini: สุ่มเหรียญและฝั่ง ณ เวลาเดียวกัน ขนาดและกฎออกเท่ากัน"}
-LOG, SEEN = "data/gnews_log.json", "data/gnews_seen.json"
+LOG, SEEN = "data/gnews_log.json", "data/gnews_seen.json"   # LOG is the page's last 300 only
+# Permanent training record: every call agy made (skips too) with the price then, and the real move 1/4/12 h later
+# filled in by later runs, so we can grade which calls were right. Raw prompts and replies go to data/gnews_raw/.
+DECISIONS, HORIZONS = "data/gnews_decisions.jsonl", (1, 4, 12)
 now = datetime.now(TZ)
 
 
@@ -88,6 +91,42 @@ def headlines(seen):
     return sorted(out, key=lambda x: x["t"], reverse=True)[:25]   # newest first: the fast ones matter most
 
 
+def price_at(coin, when):
+    ms = int(when.timestamp() * 1000)
+    k = json.loads(get(f"https://api.binance.com/api/v3/klines?symbol={coin}USDT&interval=1m&startTime={ms}&limit=1"))
+    return float(k[0][4]) if k else None
+
+
+def fill_outcomes():
+    try:
+        rows = [json.loads(l) for l in open(DECISIONS)]
+    except OSError:
+        return
+    changed = False
+    for r in rows:
+        for h in HORIZONS:
+            key, when = f"ret_{h}h", datetime.fromisoformat(r["t"]) + timedelta(hours=h)
+            if r.get("price") and key not in r and now >= when + timedelta(minutes=2):
+                try:
+                    px = price_at(r["coin"], when)
+                except Exception as e:
+                    print("outcome price failed", r["coin"], type(e).__name__)
+                    continue
+                if px:
+                    r[key], changed = round(px / r["price"] - 1, 5), True   # raw coin move; apply the side when grading
+    if changed:
+        tmp = DECISIONS + ".tmp"
+        with open(tmp, "w") as f:
+            f.writelines(json.dumps(r, ensure_ascii=False) + "\n" for r in rows)
+        os.replace(tmp, DECISIONS)
+
+
+def keep_raw(model, prompt, raw):
+    os.makedirs("data/gnews_raw", exist_ok=True)
+    with open(f"data/gnews_raw/{now:%Y-%m-%d}.jsonl", "a") as f:
+        f.write(json.dumps({"t": now.isoformat(timespec="seconds"), "model": model, "prompt": prompt, "raw": raw}, ensure_ascii=False) + "\n")
+
+
 def ask(items):
     lines = "\n".join(f"{i}. [{x['t']}] {x['title']} | {x['desc']}" for i, x in enumerate(items))
     prompt = (
@@ -101,6 +140,7 @@ def ask(items):
             r = subprocess.run(["agy", "--model", model, "-p", prompt, "--print-timeout", "180s"],
                                capture_output=True, text=True, timeout=240, stdin=subprocess.DEVNULL)
             m = re.search(r"\[.*\]", r.stdout, re.S)
+            keep_raw(model, prompt, r.stdout + ("\n[stderr] " + r.stderr[-500:] if r.stderr.strip() else ""))
             if m:
                 return model, json.loads(m.group(0))
             print(model, "no JSON:", (r.stdout + r.stderr).strip()[-200:])
@@ -146,6 +186,7 @@ def exits(s, prices):
 
 
 def main():
+    fill_outcomes()
     accts = {f: account(f) for f in ACCOUNTS}
     held = {c for s in accts.values() for c in s["pos"]}
     prices = {}
@@ -179,8 +220,17 @@ def main():
                     except Exception as e:
                         acted = "ราคาไม่มา"
                         print("price failed", coin, type(e).__name__)
-                log.append({"t": now.isoformat(timespec="minutes"), "news_t": x["t"], "title": x["title"], "link": x["link"],
-                            "coin": coin, "side": side, "conf": c.get("conf"), "why": c.get("why", ""), "model": model, "acted": acted})
+                rec = {"t": now.isoformat(timespec="minutes"), "news_t": x["t"], "title": x["title"], "link": x["link"],
+                       "coin": coin, "side": side, "conf": c.get("conf"), "why": c.get("why", ""), "model": model, "acted": acted}
+                log.append(rec)
+                px = None
+                if coin in COINS:
+                    try:
+                        px = price(coin)
+                    except Exception as e:
+                        print("price failed", coin, type(e).__name__)
+                with open(DECISIONS, "a") as f:
+                    f.write(json.dumps({**rec, "desc": x["desc"], "price": px}, ensure_ascii=False) + "\n")
             seen += [x["link"] for x in items]
     for f, s in accts.items():
         save(f, s)
