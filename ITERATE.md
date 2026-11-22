@@ -17,6 +17,7 @@ Then read docs/pstack/hillclimb.md, attack-the-premise.md, explain-the-number.md
 - Read data/iterate_log.md to see what earlier runs (this workflow and the claude.ai routine) tried and why, and x_recipes.json.
 - For any account with 20+ sells, compute PSR and the Deflated Sharpe Ratio of its per-trade returns with `.claude/skills/market-timeseries/scripts/stats.py` (`psr`, `dsr`, `trade_summary`). The number of trials for DSR is the total count of zoo, x_ and i_ accounts ever created (active or not).
 - data/rank_hist/ holds slim GMGN rankings every ~5 min since 14 Nov; you may backtest an idea with a small script in /tmp (never commit it).
+- Permutation gate (22 Nov): before a backtest result may justify a new account, re-run your WHOLE search (every rule and setting you tried for that idea) on shuffled copies of the same data with `permutation_test` / `permute_bars` in `.claude/skills/market-timeseries/scripts/stats.py` (bar data) or by shuffling the order of the ranking snapshots (rank_hist). 200 permutations is enough to reject; log the real result, the permuted median and 95th percentile, and p. p >= 0.05 means the idea did as well on noise: log it as rejected and do not add the account. For the majors track, `python3 .claude/skills/market-timeseries/scripts/mts.py perm binance BTCUSDT` gives gates 2 and 4 for the trend grid.
 
 ## 2. Decide
 - Daily cap: count x_recipes.json entries whose name starts with "i_", does not end with "_b2", and whose "added" is today's Bangkok date. Add new accounts only while that count is below 8 (the routine and this workflow share the cap; raised from 4 on 22 Nov by the user, and the user's "_b2" reruns never count). If the cap is reached, skip adding and still do the rest.
@@ -26,7 +27,7 @@ Then read docs/pstack/hillclimb.md, attack-the-premise.md, explain-the-number.md
 - Retire: set "active": false on i_ entries with 20+ sells that are below rand or clearly negative. Never delete entries.
 
 ## 3. Profit check
-If any account has 50+ sells, positive total return after its costs, beats rand, and DSR above 0.95, write a "FOUND" section at the top of today's log entry with the numbers. Fewer than 50 sells is only "promising".
+If any account has 50+ sells, positive total return after its costs, beats rand, DSR above 0.95, and its rule passed the permutation gate (p < 0.05 on its backtest, or on 1,000 random re-orderings of its own per-trade returns against rand's), write a "FOUND" section at the top of today's log entry with the numbers. Fewer than 50 sells is only "promising".
 
 ## 4. Log
 - Append a section to data/iterate_log.md headed with the Bangkok date and time plus "(GitHub API)", in Thai, plain style, no em/en dashes or emoji: overview against rand with trade counts and returns after costs, accounts that died, passed or have a bug, PSR/DSR for 20+ sell accounts, what you added and why, what you retired, what to watch next.

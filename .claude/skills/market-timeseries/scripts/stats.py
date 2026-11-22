@@ -4,6 +4,7 @@ Sources (see ../references/evidence.md):
   PSR / DSR  Bailey & Lopez de Prado 2014, SSRN 2460551
   PBO (CSCV) Bailey, Borwein, Lopez de Prado, Zhu 2015, SSRN 2326253
   DM test    Diebold & Mariano 1995 (one-sided, h=1 unless given)
+  Permutation test on OHLC bars: Masters, "Permutation and Randomization Tests for Trading System Development" (2020)
 """
 import math
 import random
@@ -127,3 +128,34 @@ def dm_test(err_model, err_base, h=1, power=2):
         return 0.0, 1.0
     stat = m / math.sqrt(var / t)
     return stat, N.cdf(stat)
+
+
+def permute_bars(b, start=1, rng=None):
+    """A pattern-free copy of OHLC bars: the close-to-open gaps and the intrabar moves (open to high, low, close) of the
+    bars from `start` on are shuffled separately in log space, then prices are rebuilt from the last untouched close.
+    Bars before `start` stay as they are, the final close is unchanged and every bar keeps a valid high/low.
+    Use start=1 for an in-sample test, start = end of the first training window for a walk-forward test."""
+    rng = rng or random.Random()
+    start = max(1, start)
+    tail = b[start:]
+    gaps = [math.log(x["o"] / prev["c"]) for prev, x in zip(b[start - 1:-1], tail)]
+    moves = [(math.log(x["h"] / x["o"]), math.log(x["l"] / x["o"]), math.log(x["c"] / x["o"])) for x in tail]
+    rng.shuffle(gaps)
+    rng.shuffle(moves)
+    out, c = [dict(x) for x in b[:start]], b[start - 1]["c"]
+    for x, g, (h, l, cl) in zip(tail, gaps, moves):
+        o = c * math.exp(g)
+        c = o * math.exp(cl)
+        out.append(dict(x, o=o, h=o * math.exp(h), l=o * math.exp(l), c=c))
+    return out
+
+
+def permutation_test(score, b, n=1000, start=1, seed=7):
+    """score(bars) must run the WHOLE search (every rule and setting you tried) and return its best result, so each
+    permuted path gets the same chance to look good by luck. Returns (real, p, permuted results).
+    p = (1 + paths that matched or beat the real result) / (n + 1); below 0.01 in-sample or 0.05 walk-forward (1 year)
+    means the edge is unlikely to come from noise."""
+    rng = random.Random(seed)
+    real = score(b)
+    dist = [score(permute_bars(b, start, rng)) for _ in range(n)]
+    return real, (1 + sum(v >= real for v in dist)) / (n + 1), dist

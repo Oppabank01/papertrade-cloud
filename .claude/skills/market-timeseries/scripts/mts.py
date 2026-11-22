@@ -174,6 +174,34 @@ def cmd_trend(a):
         print(f"  {y}: {math.prod(1 + x for x, _ in v) - 1:+7.1%}  vs  {math.prod(1 + z for _, z in v) - 1:+7.1%}")
 
 
+def trend_best(b, rules, lbs, cost, holdout=None):
+    """Best annualised-free Sharpe over the rule grid. holdout=None: in-sample best. holdout=x: pick on the first 1-x,
+    return the picked rule's Sharpe on the rest (the walk-forward number)."""
+    c, h, l = [x["c"] for x in b], [x["h"] for x in b], [x["l"] for x in b]
+    start = max(lbs) + 2
+    rs = [strat_returns(c, positions(c, h, l, rule, n), cost, start) for rule in rules for n in lbs]
+    if holdout is None:
+        return max(S.sharpe(r) for r in rs)
+    cut = int(len(rs[0]) * (1 - holdout))
+    return S.sharpe(max(rs, key=lambda r: S.sharpe(r[:cut]))[cut:])
+
+
+def cmd_perm(a):
+    b = bars(a.source, a.symbol, a.interval)
+    rules, lbs = a.rules.split(","), [int(x) for x in a.lookbacks.split(",")]
+    ppy = math.sqrt(periods_per_year(a.source))
+    start = max(lbs) + 2
+    first_oos = start + int((len(b) - start) * (1 - a.holdout))
+    print(f"{a.symbol} {a.interval}: {len(b)} bars, grid {len(rules) * len(lbs)} rules, {a.n} permutations each, cost {a.cost:.2%}/side")
+    for name, fn, st in (("in-sample (gate 2)", lambda x: trend_best(x, rules, lbs, a.cost), 1),
+                         ("walk-forward (gate 4)", lambda x: trend_best(x, rules, lbs, a.cost, a.holdout), first_oos)):
+        real, p, dist = S.permutation_test(fn, b, a.n, st)
+        q = sorted(dist)
+        print(f"  {name}: real Sharpe {real * ppy:5.2f}  permuted median {q[len(q) // 2] * ppy:5.2f}  "
+              f"95th pct {q[int(len(q) * 0.95)] * ppy:5.2f}  p = {p:.3f}")
+    print("  pass: gate 2 p < 0.01; gate 4 p < 0.05 for one year of out-of-sample data, p < 0.01 for two or more")
+
+
 # ---------- bracket (stop / target) on candles ----------
 
 def bracket_trade(b, i, stop, tp, hold, cost):
@@ -254,6 +282,11 @@ def main():
     br.add_argument("--stops", default="-0.08,-0.15,-0.25"); br.add_argument("--targets", default="0.2,0.4,1.0")
     br.add_argument("--hold", type=int, default=96); br.add_argument("--every", type=int, default=16)
     br.add_argument("--cost", type=float, default=0.02); br.add_argument("--sleep", type=float, default=6.0)
+    pm = sub.add_parser("perm", help="permutation test of the trend grid: in-sample and walk-forward")
+    pm.add_argument("source"); pm.add_argument("symbol"); pm.add_argument("--interval", default="1d")
+    pm.add_argument("--rules", default="tsmom,sma,breakout"); pm.add_argument("--lookbacks", default="10,20,50,100,200")
+    pm.add_argument("--cost", type=float, default=0.0035); pm.add_argument("--holdout", type=float, default=0.3)
+    pm.add_argument("--n", type=int, default=200, help="permutations (1000 for a final check; slow)")
     f = sub.add_parser("forecast")
     f.add_argument("csv")
     a = ap.parse_args()
@@ -261,7 +294,7 @@ def main():
         b = bars(a.source, a.symbol, a.interval)
         print(f"{a.symbol}: {len(b)} bars {day(b[0]['t'])} to {day(b[-1]['t'])}, cached in {CACHE}")
     else:
-        {"trend": cmd_trend, "bracket": cmd_bracket, "forecast": cmd_forecast}[a.cmd](a)
+        {"trend": cmd_trend, "bracket": cmd_bracket, "forecast": cmd_forecast, "perm": cmd_perm}[a.cmd](a)
 
 
 if __name__ == "__main__":

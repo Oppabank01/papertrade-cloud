@@ -21,6 +21,7 @@ Goal: tell the user whether a trading idea or forecast claim survives costs, bas
 2. **Always show the baseline next to the result.** Use buy-and-hold for rules. Use zero/random walk, persistence and always-guess-the-majority-direction for forecasts.
 3. **Count trials.** Report how many configurations were tried, including earlier sessions (`mts.py` keeps `~/.cache/market-timeseries/trials.jsonl`), plus the Deflated Sharpe Ratio and PBO. If PBO is above 0.05, the in-sample winner is not reliable.
 4. **Walk forward and touch the holdout once.** Choose on the early part, then test on the later part. A holdout reused across many tries stops being out of sample.
+5b. **Permutation gates before calling anything an edge.** Re-run the whole search on shuffled, pattern-free copies of the same bars (`S.permutation_test`, or `mts.py perm` for the trend grid). Gate 2, in-sample: p < 0.01. Gate 4, walk-forward (only the bars after the first training window are shuffled): p < 0.05 for one year of out-of-sample data, p < 0.01 for two or more. The score function must include every rule and setting tried, or the test flatters the result. Run gate 2 before spending the holdout.
 5. **Report the tails honestly.** Give the mean, median, the mean without the best 1%, the win rate and a CI. If the mean is positive but the median is negative, a few lucky trades are carrying the result.
 6. **Use path, not just endpoints.** Exits use bar high and low. When one bar touches both the stop and the target, count it as the stop. When price gaps through the stop, fill at the open. Mark to market every bar.
 7. **Watch for survivorship.** Coins or stocks picked because they are listed or trending today make the past look better. Say so whenever the universe was picked today.
@@ -35,11 +36,12 @@ python3 $S/mts.py data binance BTCUSDT 1d                 # cache bars (binance 
 python3 $S/mts.py trend binance BTCUSDT                   # tsmom/sma/breakout x 5 lookbacks vs B&H, DSR, PBO, walk-forward, by year
 python3 $S/mts.py trend yahoo SPY --cost 0.001
 python3 $S/mts.py bracket gecko MINT1,MINT2 --stops -0.08,-0.25 --targets 0.2,1.0   # stop/target grid on 15m candles
+python3 $S/mts.py perm binance BTCUSDT --n 200            # permutation gates 2 and 4 for the trend grid (1000 for a final check)
 python3 $S/mts.py forecast preds.csv                      # columns actual,pred: MAE vs baselines, Diebold-Mariano, hit rate vs base rate
 python3 $S/test_mts.py                                    # offline self-check
 ```
 
-For a custom rule, import `stats.py` (`psr`, `dsr`, `pbo`, `trade_summary`, `dm_test`, `max_drawdown`) and `mts.bars` / `mts.strat_returns`. Do not write a new metric when one exists here.
+For a custom rule, import `stats.py` (`psr`, `dsr`, `pbo`, `trade_summary`, `dm_test`, `max_drawdown`, `permute_bars`, `permutation_test`) and `mts.bars` / `mts.strat_returns`. Do not write a new metric when one exists here.
 
 ## Checking a claim from a post or video
 

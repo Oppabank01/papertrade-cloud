@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Offline self-check: python3 test_mts.py"""
+import math
 import random
 import sys
 from pathlib import Path
@@ -57,3 +58,23 @@ h = [x + 0.5 for x in c]
 l = [x - 0.5 for x in c]
 assert mts.positions(c, h, l, "breakout", 4) == [0, 0, 0, 0, 1, 1, 0, 0]
 print("ok")
+
+# permutation: same start and end, prefix untouched, valid bars, order destroyed
+walk, px = [], 100.0
+for i in range(400):
+    o = px * math.exp(rng.gauss(0, 0.002)); c = o * math.exp(rng.gauss(0, 0.01))
+    walk.append(dict(t=i, o=o, h=max(o, c) * 1.003, l=min(o, c) * 0.997, c=c)); px = c
+pb = S.permute_bars(walk, 50, random.Random(3))
+assert pb[:50] == walk[:50] and abs(pb[-1]["c"] - walk[-1]["c"]) < 1e-6 * walk[-1]["c"]
+assert all(x["l"] <= min(x["o"], x["c"]) + 1e-12 and x["h"] >= max(x["o"], x["c"]) - 1e-12 for x in pb)
+assert [x["c"] for x in pb[50:]] != [x["c"] for x in walk[50:]]
+# a planted pattern (tomorrow repeats today's sign) is caught; the same score on a random walk is not
+trendy, px, d = [], 100.0, 1
+for i in range(400):
+    d = d if rng.random() < 0.8 else -d
+    o = px; c = o * math.exp(d * 0.01)
+    trendy.append(dict(t=i, o=o, h=max(o, c), l=min(o, c), c=c)); px = c
+follow = lambda b: S.sharpe([(1 if b[i - 1]["c"] > b[i - 2]["c"] else -1) * (b[i]["c"] / b[i - 1]["c"] - 1) for i in range(2, len(b))])
+assert S.permutation_test(follow, trendy, 99)[1] < 0.05
+assert S.permutation_test(follow, walk, 99)[1] > 0.05
+print("permutation ok")
