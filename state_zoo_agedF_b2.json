@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 2.63808090576411,
+ "cash": 4.838266661877853,
  "pos": {
   "8nnaeWCw8mUypcGAgbmSuzAT85uWx4UN12adDrMhXrGF": {
    "sym": "HOTBOT",
    "qty": 4169.727387386922,
    "entry": 0.0006113,
-   "last": 0.0006293,
+   "last": 0.0006358,
    "peak": 0.0006478,
    "cost": 2.6272462913931407,
    "opened": "2026-11-22T23:16:11+07:00",
    "zoo": "agedF_b2",
    "smart": 180,
    "kol": 15,
-   "gap": 0,
+   "gap": 5,
    "miss": 0
   },
   "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": {
    "sym": "DCTY",
    "qty": 803.3474877719593,
    "entry": 0.003144,
-   "last": 0.003068,
+   "last": 0.003065,
    "peak": 0.0033942831643230527,
    "cost": 2.603302928834302,
    "opened": "2026-11-22T23:30:38+07:00",
@@ -35,7 +35,7 @@
    "sym": "VEIL",
    "qty": 5574.314350634484,
    "entry": 0.0004504,
-   "last": 0.0004561,
+   "last": 0.0004445,
    "peak": 0.00048261414472834695,
    "cost": 2.58778724337845,
    "opened": "2026-11-22T23:30:38+07:00",
@@ -43,20 +43,6 @@
    "smart": 89,
    "kol": 5,
    "gap": 0,
-   "miss": 0
-  },
-  "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": {
-   "sym": "Huss",
-   "qty": 3582.7792978792345,
-   "entry": 0.0006998,
-   "last": 0.0006658,
-   "peak": 0.0006998,
-   "cost": 2.584239283298174,
-   "opened": "2026-11-23T00:23:13+07:00",
-   "zoo": "agedF_b2",
-   "smart": 140,
-   "kol": 6,
-   "gap": 4,
    "miss": 0
   }
  },
@@ -324,8 +310,23 @@
    "zoo": "agedF_b2",
    "smart": 140,
    "kol": 6
+  },
+  {
+   "t": "2026-11-23T00:31:19+07:00",
+   "kind": "sell",
+   "mint": "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump",
+   "sym": "Huss",
+   "price": 0.0006329625604231454,
+   "entry": 0.0006998,
+   "usd": 2.2002,
+   "pnl": -0.3841,
+   "why": "stop -9.6%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 140,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: อายุเกิน 1 วัน เช็กราคาทุก 20 วิ",
- "rank_t": 1795368390.8947175
+ "rank_t": 1795368678.860029
 }
