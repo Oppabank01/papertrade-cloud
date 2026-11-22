@@ -1,20 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 5.144792967469301,
+ "cash": 0.0,
  "pos": {
   "v4GK8f24ZJJa5qLoTJ4mJ5d6jsNUXHScwGaRHdfpump": {
    "sym": "MCAT",
    "qty": 50520.03034326127,
    "entry": 0.0001403,
-   "last": 0.000187,
+   "last": 0.0001383,
    "peak": 0.0002564,
    "cost": 7.305669199298656,
    "opened": "2026-11-22T21:56:29+07:00",
    "zoo": "x_savip2_dip1h_b2",
    "smart": 84,
    "kol": 7,
-   "gap": 1,
+   "gap": 4,
+   "miss": 0
+  },
+  "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": {
+   "sym": "Singularity",
+   "qty": 5471.31221861089,
+   "entry": 0.0009123,
+   "last": 0.000902459295222247,
+   "peak": 0.0009123,
+   "cost": 5.144792967469301,
+   "opened": "2026-11-23T00:28:48+07:00",
+   "zoo": "x_savip2_dip1h_b2",
+   "smart": 120,
+   "kol": 3,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -66,8 +80,22 @@
    "cost_side": 0.03,
    "smart": 74,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T00:28:48+07:00",
+   "kind": "buy",
+   "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump",
+   "sym": "Singularity",
+   "price": 0.0009123,
+   "jup": 0.0009075090463539371,
+   "usd": 5.1448,
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "zoo": "x_savip2_dip1h_b2",
+   "smart": 120,
+   "kol": 3
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: savipww v2: pool 20k+ คะแนน 70+ ย่อ 1 ชม. 15-35% ทีละ 50% ขายครึ่ง x2 trail 40% stop -25%",
- "rank_t": 1795368106.031928
+ "rank_t": 1795368390.8947175
 }
