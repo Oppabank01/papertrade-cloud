@@ -58,6 +58,25 @@ def trend():
     return row("state.json", f"ตามเทรนด์เหรียญใหญ่ {s['start']:,.0f} บาท (breakout + MA50)", "รอข้อมูล", pnl, n, None, why)
 
 
+def peak(file):
+    """Highest return the account ever reached and when: daily equity history, else cumulative closed-trade P&L."""
+    try:
+        st = json.load(open(file))
+    except (OSError, ValueError):
+        return None, None
+    if not isinstance(st, dict) or not st.get("start_usd"):
+        return None, None
+    if st.get("history"):
+        pts = [(h.get("t") or h.get("day"), h["usd"] / st["start_usd"] - 1) for h in st["history"] if "usd" in h]
+    else:
+        c, pts = 0.0, []
+        for x in st.get("log", []):
+            if isinstance(x, dict) and x.get("kind") == "sell" and isinstance(x.get("pnl"), (int, float)):
+                c += x["pnl"]
+                pts.append((x.get("t"), c / st["start_usd"]))
+    return max(pts, key=lambda p: p[1]) if pts else (None, None)
+
+
 def main():
     path = "data/board.json"
     b = json.load(open(path))
@@ -67,6 +86,8 @@ def main():
             b["rows"].append(f())
         except Exception as e:                      # one broken account must not drop the others from the page
             print("board_extra", f.__name__, "failed:", repr(e)[:150])
+    for r in b["rows"]:
+        r["peak_t"], r["peak"] = peak(r["file"])
     tmp = path + ".tmp"
     json.dump(b, open(tmp, "w"), ensure_ascii=False, indent=1, default=str)
     os.replace(tmp, path)
