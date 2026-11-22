@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 7.21209383078433,
+ "cash": 4.796872853910143,
  "pos": {
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 137.38476031884613,
    "entry": 0.0188,
-   "last": 0.01846,
+   "last": 0.01848,
    "peak": 0.01893,
    "cost": 2.662166042047317,
    "opened": "2026-11-23T02:27:05+07:00",
@@ -21,14 +21,28 @@
    "sym": "GTA6",
    "qty": 2021.449886383035,
    "entry": 0.00117,
-   "last": 0.0011508954091647267,
+   "last": 0.0011473393959959219,
    "peak": 0.00117,
    "cost": 2.4377410503691515,
    "opened": "2026-11-23T03:33:56+07:00",
    "zoo": "w_f5_aged_b2",
    "smart": 324,
    "kol": 25,
-   "gap": 1,
+   "gap": 22,
+   "miss": 0
+  },
+  "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
+   "sym": "FLOAT",
+   "qty": 559.9157447463168,
+   "entry": 0.004185,
+   "last": 0.004192,
+   "peak": 0.004196,
+   "cost": 2.4152209768741866,
+   "opened": "2026-11-23T04:21:49+07:00",
+   "zoo": "w_f5_aged_b2",
+   "smart": 373,
+   "kol": 34,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -442,8 +456,22 @@
    "zoo": "w_f5_aged_b2",
    "smart": 324,
    "kol": 25
+  },
+  {
+   "t": "2026-11-23T04:21:49+07:00",
+   "kind": "buy",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "price": 0.004185,
+   "jup": 0.00415473481394165,
+   "usd": 2.4152,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged_b2",
+   "smart": 373,
+   "kol": 34
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1795382138.405497
+ "rank_t": 1795382418.9276118
 }
