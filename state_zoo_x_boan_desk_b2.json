@@ -1,15 +1,44 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 14.611338398597312,
- "pos": {},
+ "cash": 13.150204558737581,
+ "pos": {
+  "FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump": {
+   "sym": "OpenIndex",
+   "qty": 2662.1446975247163,
+   "entry": 0.0005325,
+   "last": 0.0006638,
+   "peak": 0.0006638,
+   "cost": 1.4611338398597313,
+   "opened": "2026-11-23T01:54:12+07:00",
+   "zoo": "x_boan_desk_b2",
+   "smart": 47,
+   "kol": 1,
+   "gap": 2,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T19:52:28+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-23T01:54:12+07:00",
+   "kind": "buy",
+   "mint": "FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump",
+   "sym": "OpenIndex",
+   "price": 0.0005325,
+   "jup": 0.0005314328660728733,
+   "usd": 1.4611,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_boan_desk_b2",
+   "smart": 47,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: โต๊ะ 4 เอเจนต์: เหรียญใหม่ คนถือ 300+ top10 ไม่เกิน 30% ขายเป็นช่วง",
- "rank_t": 1795373232.6749034
+ "rank_t": 1795373509.3244505
 }
