@@ -38,6 +38,7 @@ $PY grokwatch.py || echo "grokwatch failed"   # 19-20 Nov: 5-min DexScreener log
 $PY polymarket.py run || echo "polymarket run failed"   # copy top Polymarket wallets + random twin (23 Nov)
 $PY poly_arb.py run || echo "poly_arb run failed"   # Polymarket YES+NO pair under 1 after fees (jbfly46 idea, 23 Nov), ~11 s
 $PY poly_weather.py run || echo "poly_weather run failed"   # daily temperature buckets vs Open-Meteo + random-bucket twin (23 Nov); buy scan every 3 h (~30 s), settle every run
+$PY poly_fav.py run || echo "poly_fav run failed"   # favourite-longshot bias: fav 0.85-0.97 / long 0.03-0.10 ending within 48 h + random-side twin (23 Nov), ~12 s
 left=$((T0 + 230 - $(date +%s))); [ "$left" -gt 0 ] && sleep "$left"   # watcher keeps checking here instead of the chain step idling
 $PY zoo.py stopwatch; wait $WATCH $WATCH5
 TODAY=$(TZ=Asia/Bangkok date +%F); H=$((10#$(TZ=Asia/Bangkok date +%H)))
