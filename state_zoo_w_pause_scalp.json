@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.4807187318717321,
+ "cash": 0.4276302247881028,
  "pos": {
   "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
    "sym": "JEANPHIL",
@@ -14,7 +14,21 @@
    "zoo": "w_pause_scalp",
    "smart": 400,
    "kol": 43,
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS": {
+   "sym": "BAGSPAY",
+   "qty": 154.2571715260172,
+   "entry": 0.0003339,
+   "last": 0.0003339,
+   "peak": 0.0003339,
+   "cost": 0.05308850708362929,
+   "opened": "2026-11-22T09:43:46+07:00",
+   "zoo": "w_pause_scalp",
+   "smart": 189,
+   "kol": 19,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -11510,8 +11524,22 @@
    "cost_side": 0.03,
    "smart": 330,
    "bundler": null
+  },
+  {
+   "t": "2026-11-22T09:43:46+07:00",
+   "kind": "buy",
+   "mint": "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS",
+   "sym": "BAGSPAY",
+   "price": 0.0003339,
+   "jup": 0.00033352106146392865,
+   "usd": 0.0531,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "w_pause_scalp",
+   "smart": 189,
+   "kol": 19
   }
  ],
  "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795315070.8154519
+ "rank_t": 1795315362.743533
 }
