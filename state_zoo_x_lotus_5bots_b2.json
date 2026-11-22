@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 4.417053596826483,
+ "cash": 6.250371475987673,
  "pos": {
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 237.81743791454278,
    "entry": 0.01178,
-   "last": 0.01159,
+   "last": 0.01162,
    "peak": 0.01256,
    "cost": 2.8875380526008185,
    "opened": "2026-11-22T19:54:00+07:00",
@@ -21,27 +21,13 @@
    "sym": "mihao",
    "qty": 315.87937178973,
    "entry": 0.008816,
-   "last": 0.007967,
+   "last": 0.007905,
    "peak": 0.009405,
    "cost": 2.8703283258073173,
    "opened": "2026-11-22T19:54:04+07:00",
    "zoo": "x_lotus_5bots_b2",
    "smart": 799,
    "kol": 75,
-   "gap": 0,
-   "miss": 0
-  },
-  "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": {
-   "sym": "DCTY",
-   "qty": 748.9610851905167,
-   "entry": 0.003422,
-   "last": 0.002599,
-   "peak": 0.003422,
-   "cost": 2.641666495075189,
-   "opened": "2026-11-22T20:26:25+07:00",
-   "zoo": "x_lotus_5bots_b2",
-   "smart": 738,
-   "kol": 65,
    "gap": 0,
    "miss": 0
   }
@@ -150,6 +136,21 @@
    "stop_set": -0.25,
    "cost_side": 0.03,
    "smart": 334,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-23T04:08:10+07:00",
+   "kind": "sell",
+   "mint": "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump",
+   "sym": "DCTY",
+   "price": 0.002523,
+   "entry": 0.003422,
+   "usd": 1.8333,
+   "pnl": -0.8083,
+   "why": "stop -26.3%",
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "smart": 738,
    "bundler": null
   }
  ],

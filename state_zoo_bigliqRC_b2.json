@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 7.740942771024911,
+ "cash": 2.6683351426511903,
  "pos": {
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 423.9182428410201,
    "entry": 0.005976,
-   "last": 0.005899,
+   "last": 0.005911,
    "peak": 0.006013,
    "cost": 2.6111476182415343,
    "opened": "2026-11-23T01:20:06+07:00",
@@ -21,13 +21,41 @@
    "sym": "TROLL",
    "qty": 120.8676324773255,
    "entry": 0.02048,
-   "last": 0.02045,
+   "last": 0.02052,
    "peak": 0.02052,
    "cost": 2.5514008587256507,
    "opened": "2026-11-23T03:53:06+07:00",
    "zoo": "bigliqRC_b2",
    "smart": 475,
    "kol": 214,
+   "gap": 0,
+   "miss": 0
+  },
+  "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
+   "sym": "FLOAT",
+   "qty": 584.5752793642657,
+   "entry": 0.004222,
+   "last": 0.004034142960952234,
+   "peak": 0.004222,
+   "cost": 2.5438845902658525,
+   "opened": "2026-11-23T04:07:06+07:00",
+   "zoo": "bigliqRC_b2",
+   "smart": 373,
+   "kol": 34,
+   "gap": 3,
+   "miss": 0
+  },
+  "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
+   "sym": "ZCAT",
+   "qty": 136.4497826235959,
+   "entry": 0.01798,
+   "last": 0.01794,
+   "peak": 0.018,
+   "cost": 2.5287230381078682,
+   "opened": "2026-11-23T04:07:06+07:00",
+   "zoo": "bigliqRC_b2",
+   "smart": 330,
+   "kol": 48,
    "gap": 0,
    "miss": 0
   }
@@ -326,8 +354,36 @@
    "zoo": "bigliqRC_b2",
    "smart": 475,
    "kol": 214
+  },
+  {
+   "t": "2026-11-23T04:07:06+07:00",
+   "kind": "buy",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "price": 0.004222,
+   "jup": 0.004246685754134516,
+   "usd": 2.5439,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliqRC_b2",
+   "smart": 373,
+   "kol": 34
+  },
+  {
+   "t": "2026-11-23T04:07:06+07:00",
+   "kind": "buy",
+   "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+   "sym": "ZCAT",
+   "price": 0.01798,
+   "jup": 0.018133970329296784,
+   "usd": 2.5287,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliqRC_b2",
+   "smart": 330,
+   "kol": 48
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ผ่าน RugCheck เช็กราคาทุก 20 วิ",
- "rank_t": 1795381284.2142963
+ "rank_t": 1795381563.6858826
 }
