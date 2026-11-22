@@ -207,3 +207,12 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 เลิกใช้: ไม่มี (x_ladder_2x ครบ week 21/11 แต่ขายแค่ 5 ไม้ และ rand เงินหมดค้างอยู่ จึงยังตัดสินไม่ได้ คงไว้)
 สกอร์บอร์ด x_ (เทียบ randrun -97.4%): x_smartflow_lowcap +20.9% 7 ไม้, x_lotus_5bots +1.1% 8 ไม้, x_boan_desk -0.9% 1 ไม้
 ท้ายตาราง: x_fresh_grad -42.3% 18 ไม้, x_cto_watch -43.5% 18 ไม้, x_skip_pumped -73.8% 55 ไม้ (เลิกใช้)
+
+## 2026-11-22 รอบอัตโนมัติ (Bangkok)
+ค้น: solana memecoin bot strategy this week turned $ rules, site:x.com memecoin 1 month system, เทรดเหรียญมีม โซลานา คืนเดียว กฎเข้า, overnight memecoin bot $100 asia session, gmgn strategy top10 holder smart degen volume 5m
+เจอ: glama memecoin-trading-bot README (pool 50k+ TP 20% SL 5% คล้าย x_scalp_1020), mexc 1066589 และ mexc 992439/683769 (ซ้ำ), cryptorank 100 เป็น 50k (ซ้ำ ไม่มีกฎ), ClawdBot Polymarket 247% (ตลาดอื่น ไม่ใช่มีม), terminal_of_fun 100% win rate (ไม่มีกฎ), solanabins "96% win rate insider filters" (เปิดอ่านกฎไม่ได้), dextools/techflowpost คู่มือ GMGN (top10 เกิน 50% เสี่ยง ครอบคลุมโดย safe แล้ว) madeonsol เข้าไม่ได้ (โดเมนไม่อนุญาต ไม่ลองซ้ำ) ไม่มีกฎใหม่ที่ตัดสินได้ ข้ามทั้งหมด
+ยังทำไม่ได้: บอทเฝ้าทวีต/sentiment, copy wallet (ต้องที่อยู่กระเป๋าและประวัติบน chain), ท่า Polymarket (ต้องข้อมูลตลาดทำนายผล)
+เพิ่ม: ไม่มี
+เลิกใช้: ไม่มี (x_ladder_2x ครบ week แต่ขาย 5 ไม้ ยังไม่ถึง 20 ไม้ และชนะ rand คงไว้ x_cto_watch 18 ไม้ -43.5% ยังไม่ถึง 20 ไม้ ชนะ rand คงไว้ ผลตัดสินรอบหน้า)
+สกอร์บอร์ด x_ (เทียบ rand -98.3% randrun -97.4%): x_smartflow_lowcap +20.9% 7 ไม้, x_lotus_5bots +1.1% 8 ไม้, x_boan_desk -0.9% 1 ไม้
+ท้ายตาราง: x_fresh_grad -42.3% 18 ไม้, x_cto_watch -43.5% 18 ไม้, x_skip_pumped -73.8% 55 ไม้ (เลิกใช้) หมายเหตุ: หลายบัญชียัง [halted] จากราคาสองแหล่งไม่ตรง
