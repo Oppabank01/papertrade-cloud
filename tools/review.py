@@ -73,10 +73,10 @@ def add_siblings(rows):
 
 
 def verdict(r, rand_pnl, idle_limit, rand_key="rand"):
+    if r["pnl"] <= BUST - 1:                       # checked first: a busted control is no longer a usable baseline
+        return "พอร์ตแตก", f"เหลือ {100 * (1 + r['pnl']):.0f}% ของทุน" + (" (ตัวควบคุม)" if rand_key in r["file"] else "")
     if rand_key in r["file"]:
         return "ตัวควบคุม", "สุ่มซื้อ ใช้เป็นเส้นเทียบ"
-    if r["pnl"] <= BUST - 1:
-        return "พอร์ตแตก", f"เหลือ {100 * (1 + r['pnl']):.0f}% ของทุน"
     if r.get("dead"):                              # the runner's own death rule already stopped it: it will not trade again
         return "ตาย", "ระบบตัดสินตายแล้ว ไม่เทรดต่อ: " + str(r["dead"])[:70]
     if r["halted"]:
