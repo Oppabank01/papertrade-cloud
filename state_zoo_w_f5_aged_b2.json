@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 7.572671720206431,
+ "cash": 4.910505678159113,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 79.03877231688358,
    "entry": 0.03606,
-   "last": 0.03449,
+   "last": 0.03407,
    "peak": 0.03665,
    "cost": 2.93768102427007,
    "opened": "2026-11-22T23:31:24+07:00",
@@ -28,6 +28,20 @@
    "zoo": "w_f5_aged_b2",
    "smart": 543,
    "kol": 34,
+   "gap": 0,
+   "miss": 0
+  },
+  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
+   "sym": "CATE",
+   "qty": 137.38476031884613,
+   "entry": 0.0188,
+   "last": 0.01879,
+   "peak": 0.0188,
+   "cost": 2.662166042047317,
+   "opened": "2026-11-23T02:27:05+07:00",
+   "zoo": "w_f5_aged_b2",
+   "smart": 928,
+   "kol": 111,
    "gap": 0,
    "miss": 0
   }
@@ -326,8 +340,22 @@
    "cost_side": 0.03,
    "smart": 141,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T02:27:05+07:00",
+   "kind": "buy",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.0188,
+   "jup": 0.018750624999324634,
+   "usd": 2.6622,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged_b2",
+   "smart": 928,
+   "kol": 111
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1795375248.0977895
+ "rank_t": 1795375540.3159714
 }
