@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 7.5682657855847575,
+ "cash": 6.3016712126487695,
  "pos": {
   "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": {
    "sym": "DCTY",
    "qty": 405.01991417027,
    "entry": 0.003124,
-   "last": 0.003103,
+   "last": 0.003113,
    "peak": 0.003289,
    "cost": 1.3041457553781937,
    "opened": "2026-11-22T22:15:39+07:00",
    "zoo": "x_scalp_1020_b2",
    "smart": 738,
    "kol": 65,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "34As1e1Kop9zBvu5e84kjg452Uigq8krcoGEJiWRpump": {
    "sym": "UHI",
    "qty": 2095.186299412983,
    "entry": 0.0006021,
-   "last": 0.0005856,
+   "last": 0.0005823,
    "peak": 0.0006066,
    "cost": 1.3002594010271666,
    "opened": "2026-11-22T22:15:41+07:00",
@@ -42,20 +42,34 @@
    "zoo": "x_scalp_1020_b2",
    "smart": 179,
    "kol": 11,
-   "gap": 6,
+   "gap": 5,
    "miss": 0
   },
   "kPqBsUZuogprbq15ZpACwDzbUHSAxTxbhRrxmrDpump": {
    "sym": "CATEMAS",
    "qty": 11278.129758248346,
    "entry": 0.0001089,
-   "last": 0.0001143,
-   "peak": 0.0001143,
+   "last": 0.000122,
+   "peak": 0.000122,
    "cost": 1.2659125238850184,
    "opened": "2026-11-22T23:06:36+07:00",
    "zoo": "x_scalp_1020_b2",
    "smart": 57,
    "kol": 4,
+   "gap": 0,
+   "miss": 0
+  },
+  "2bCCHQadi4QeHWPKG3w13siCyWWQPgkFtniouTqVpump": {
+   "sym": "1",
+   "qty": 5500.67168604519,
+   "entry": 0.0002234,
+   "last": 0.0002222,
+   "peak": 0.0002236,
+   "cost": 1.2665945729359878,
+   "opened": "2026-11-22T23:26:05+07:00",
+   "zoo": "x_scalp_1020_b2",
+   "smart": 204,
+   "kol": 17,
    "gap": 0,
    "miss": 0
   }
@@ -440,8 +454,22 @@
    "zoo": "x_scalp_1020_b2",
    "smart": 57,
    "kol": 4
+  },
+  {
+   "t": "2026-11-22T23:26:05+07:00",
+   "kind": "buy",
+   "mint": "2bCCHQadi4QeHWPKG3w13siCyWWQPgkFtniouTqVpump",
+   "sym": "1",
+   "price": 0.0002234,
+   "jup": 0.000223436656781195,
+   "usd": 1.2666,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_scalp_1020_b2",
+   "smart": 204,
+   "kol": 17
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สกัลป์ pump.fun ตัดกำไร/ขาดทุน 15% เดือนเต็ม",
- "rank_t": 1795364402.745224
+ "rank_t": 1795364690.3862958
 }
