@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.6306054376671915,
+ "cash": 1.0867157642026648,
  "pos": {
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 54.95447766415588,
    "entry": 0.009742,
-   "last": 0.01009,
+   "last": 0.01003,
    "peak": 0.01095,
    "cost": 0.5518104735149523,
    "opened": "2026-11-22T08:36:56+07:00",
@@ -28,6 +28,20 @@
    "zoo": "bigliq",
    "smart": 1000,
    "kol": 174,
+   "gap": 0,
+   "miss": 0
+  },
+  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
+   "sym": "Rings",
+   "qty": 132.28422190907088,
+   "entry": 0.003989,
+   "last": 0.003989,
+   "peak": 0.003989,
+   "cost": 0.5438896734645267,
+   "opened": "2026-11-22T10:47:11+07:00",
+   "zoo": "bigliq",
+   "smart": 124,
+   "kol": 7,
    "gap": 0,
    "miss": 0
   }
@@ -3487,8 +3501,22 @@
    "cost_side": 0.03,
    "smart": 732,
    "bundler": null
+  },
+  {
+   "t": "2026-11-22T10:47:11+07:00",
+   "kind": "buy",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.003989,
+   "jup": 0.003995510501418819,
+   "usd": 0.5439,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliq",
+   "smart": 124,
+   "kol": 7
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ มาร์เก็ตแคป 2M+",
- "rank_t": 1795318897.6158087
+ "rank_t": 1795319186.8085315
 }
