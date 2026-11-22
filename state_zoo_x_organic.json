@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 14.452729261281537,
- "pos": {},
+ "cash": 11.562183409025229,
+ "pos": {
+  "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": {
+   "sym": "MINELIUS",
+   "qty": 1023.133011987986,
+   "entry": 0.002741,
+   "last": 0.002528,
+   "peak": 0.002741,
+   "cost": 2.8905458522563077,
+   "opened": "2026-11-23T04:52:02+07:00",
+   "zoo": "x_organic",
+   "smart": 4,
+   "kol": 0,
+   "gap": 3,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-23T02:11:54+07:00",
@@ -37,10 +52,24 @@
    "cost_side": 0.03,
    "smart": 5,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T04:52:02+07:00",
+   "kind": "buy",
+   "mint": "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump",
+   "sym": "MINELIUS",
+   "price": 0.002741,
+   "jup": 0.0027652125546921793,
+   "usd": 2.8905,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_organic",
+   "smart": 4,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: คนซื้อจริง: บอทไม่เกิน 25% bundler ไม่เกิน 10% อายุไม่เกิน 24 ชม. (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-22",
  "night_start": 14.624159110851126,
- "rank_t": 1795383878.7862532
+ "rank_t": 1795384157.9125576
 }
