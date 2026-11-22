@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 10.647612971144014,
+ "cash": 7.88111888375345,
  "pos": {
-  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
-   "sym": "Buttcoin",
-   "qty": 430.6556223987896,
-   "entry": 0.006064,
-   "last": 0.005814,
-   "peak": 0.006064,
-   "cost": 2.6378078273036136,
-   "opened": "2026-11-23T00:52:16+07:00",
+  "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
+   "sym": "TROLL",
+   "qty": 126.90949715847829,
+   "entry": 0.02048,
+   "last": 0.02048,
+   "peak": 0.02048,
+   "cost": 2.6252938075358054,
+   "opened": "2026-11-23T03:53:48+07:00",
    "zoo": "i_bigliq_cost2_b2",
-   "smart": 541,
-   "kol": 51,
+   "smart": 475,
+   "kol": 214,
+   "gap": 0,
+   "miss": 0
+  },
+  "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
+   "sym": "ZCAT",
+   "qty": 147.71761300310555,
+   "entry": 0.01756,
+   "last": 0.01756,
+   "peak": 0.01756,
+   "cost": 2.620056346389772,
+   "opened": "2026-11-23T03:53:48+07:00",
+   "zoo": "i_bigliq_cost2_b2",
+   "smart": 330,
+   "kol": 48,
    "gap": 0,
    "miss": 0
   }
@@ -298,8 +312,51 @@
    "cost_side": 0.01,
    "smart": 543,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T03:52:35+07:00",
+   "kind": "sell",
+   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+   "sym": "Buttcoin",
+   "price": 0.005814,
+   "entry": 0.006064,
+   "usd": 2.4789,
+   "pnl": -0.159,
+   "why": "ครบ 3 ชม. (-4.1%)",
+   "stop_set": -0.08,
+   "cost_side": 0.01,
+   "smart": 541,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-23T03:53:48+07:00",
+   "kind": "buy",
+   "mint": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
+   "sym": "TROLL",
+   "price": 0.02048,
+   "jup": 0.020485590601097454,
+   "usd": 2.6253,
+   "stop_set": -0.08,
+   "cost_side": 0.01,
+   "zoo": "i_bigliq_cost2_b2",
+   "smart": 475,
+   "kol": 214
+  },
+  {
+   "t": "2026-11-23T03:53:48+07:00",
+   "kind": "buy",
+   "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+   "sym": "ZCAT",
+   "price": 0.01756,
+   "jup": 0.017690933918505913,
+   "usd": 2.6201,
+   "stop_set": -0.08,
+   "cost_side": 0.01,
+   "zoo": "i_bigliq_cost2_b2",
+   "smart": 330,
+   "kol": 48
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ค่าธรรมเนียมสมจริง 1% ต่อขา",
- "rank_t": 1795380418.3076396
+ "rank_t": 1795380702.164535
 }
