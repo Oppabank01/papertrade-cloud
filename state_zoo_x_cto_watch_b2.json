@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 0.0,
+ "cash": 3.4844255527294745,
  "pos": {
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
    "sym": "Rings",
@@ -29,20 +29,6 @@
    "smart": 161,
    "kol": 82,
    "gap": 0,
-   "miss": 0
-  },
-  "SPHFHU7sz2EZQYqyxMrZjgFdiYSCXJxRBE4giAjpump": {
-   "sym": "shep",
-   "qty": 41441.50701466583,
-   "entry": 9.695e-05,
-   "last": 9.015e-05,
-   "peak": 0.0001038,
-   "cost": 4.141160693745468,
-   "opened": "2026-11-22T21:19:31+07:00",
-   "zoo": "x_cto_watch_b2",
-   "smart": 80,
-   "kol": 2,
-   "gap": 3,
    "miss": 0
   }
  },
@@ -296,8 +282,23 @@
    "zoo": "x_cto_watch_b2",
    "smart": 80,
    "kol": 2
+  },
+  {
+   "t": "2026-11-22T22:02:51+07:00",
+   "kind": "sell",
+   "mint": "SPHFHU7sz2EZQYqyxMrZjgFdiYSCXJxRBE4giAjpump",
+   "sym": "shep",
+   "price": 8.666313184233297e-05,
+   "entry": 9.695e-05,
+   "usd": 3.4844,
+   "pnl": -0.6567,
+   "why": "trailing จากยอด +7% (-10.6%)",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": 80,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: รอ dev เทหมดแล้วมี CTO: dev ถือ 0% ซื้อ 40% ขายครึ่ง x3 trail 15% stop -18%",
- "rank_t": 1795359284.9155693
+ "rank_t": 1795359576.2831113
 }
