@@ -1812,5 +1812,66 @@
     "price_change_percent5m": -15
    }
   }
+ },
+ {
+  "name": "x_crb_4agent",
+  "label": "crbpite8 โต๊ะ 4 เอเจนต์: เหรียญใหม่ไม่เกิน 6 ชม. คนถือ 300+ top10 ไม่เกิน 30% RugCheck ผ่าน แรงซื้อนำ ขายครึ่ง +30%",
+  "horizon": "week",
+  "source": "https://x.com/crbpite8/status/2122638094415352137",
+  "claim": "$101 to $6,292 in 24h, 100 trades 79 wins",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 30000,
+    "holder_count": 300,
+    "volume": 20000
+   },
+   "max": {
+    "age_h": 6,
+    "top_10_holder_rate": 0.3,
+    "dev_team_hold_rate": 0.05
+   },
+   "rugcheck": true,
+   "up": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "HALF_AT": 0.3,
+   "TRAIL_ON": 0.3,
+   "TRAIL": 0.2,
+   "MAX_HOLD_H": 5,
+   "PER_TRADE": 0.2
+  },
+  "note": "post gives the agent roles, not numbers; thresholds chosen to match 'liquidity, holders, top10, volume, momentum'. Main trade held 4h15m, so MAX_HOLD_H 5."
+ },
+ {
+  "name": "x_crb_smart_night",
+  "label": "crbpite8 คืนเดียว: smart money 6+ dev ไม่เกิน 2.1% top10 ไม่เกิน 20% ราคา 5 นาทีขึ้น stop -10%",
+  "horizon": "night",
+  "source": "https://x.com/crbpite8/status/2122231176215617834",
+  "claim": "$95 to $2,479 overnight, 146 trades, 80% win",
+  "added": "2026-11-22",
+  "active": true,
+  "entry": {
+   "min": {
+    "smart_degen_count": 6,
+    "price_change_percent5m": 5,
+    "liquidity": 20000
+   },
+   "max": {
+    "dev_team_hold_rate": 0.021,
+    "top_10_holder_rate": 0.2
+   },
+   "up": true
+  },
+  "exit": {
+   "STOP": -0.1,
+   "HALF_AT": 0.5,
+   "TRAIL_ON": 0.5,
+   "TRAIL": 0.25,
+   "MAX_HOLD_H": 8
+  },
+  "note": "post: 6 smart traders in, whale buying, dev 2.1% never sold, top10 20%, 5m volume x9; whale and volume-spike fields not in the ranking, 5m price rise used instead. Max loss in post -$11 suggests a tight stop."
  }
 ]

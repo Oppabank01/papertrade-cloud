@@ -225,3 +225,10 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 เลิกใช้: ไม่มี (x_ladder_2x ขาย 5 ไม้, x_fresh_grad และ x_cto_watch 18 ไม้ ยังไม่ถึง 20 ไม้ x_spray_small 22 ไม้ -9.0% ยังชนะ rand และยังไม่ครบ 30 วัน)
 สกอร์บอร์ด x_ (เทียบ rand -98.3%): x_smartflow_lowcap +20.9% 7 ไม้, x_lotus_5bots +1.1% 8 ไม้, x_boan_desk -0.9% 1 ไม้
 ท้ายตาราง: x_fresh_grad -42.3% 18 ไม้, x_cto_watch -43.5% 18 ไม้, x_skip_pumped -73.8% 55 ไม้ (เลิกใช้)
+
+## 22 พ.ย. 69 23:55 (ผู้ใช้ส่ง 16 โพสต์มาเอง อ่านผ่าน Canary)
+เพิ่ม: x_crb_4agent (โต๊ะ 4 เอเจนต์ของ crbpite8, week) และ x_crb_smart_night (smart money 6+ คืนเดียว, night) เกณฑ์ตัวเลขส่วนใหญ่ผมเลือกเองเพราะโพสต์ไม่ให้ตัวเลข เขียนไว้ใน note
+บัญชีอื่นที่เปิดคืนนี้นอก x_: state_wallets_fomo_mirror (กฎก๊อปของ savipww: ผู้นำกำไรทั้ง 24 ชม. และ 7 วันใน Fomo, ขายตามผู้นำ, stop -25%, ไม้ครึ่ง), state_gnews_neon (ข่าวให้ Neon high ตัดสิน)
+ทดสอบแล้วตก: ท่า 2 แท่งของ RohOnChain (แท่งวันเมื่อวาน + 4 ชม. ล่าสุดสีเดียวกัน) BTC/ETH/SOL 2017-2026 ชนะ 40-47% ไม่ใช่ 70% ขาดทุน -0.2 ถึง -0.47R ต่อไม้ (Projects/PaperTrade/backtests/twocandle_rohonchain.py บน Mac)
+ยังทำไม่ได้: Dawn bot (เงินจริงอย่างเดียว ลิงก์ ref), Cipher Edge calls (ต้องอ่านโพสต์ X ตามเวลาจริง และโพสต์เรียกย้อนหลังหลังราคาขึ้นแล้ว), สตรีมเมอร์ Kick $33 เป็น $3,161 ใน 30 วิ (ไม่มีกฎ), เดสก์ perps 9 เอเจนต์ของ A_Pirate_I (ต้องข้อมูล liquidation wall และ social mentions), เทรดตามอีเวนต์ GTA ของ Hrundel75 (ต้องปฏิทินอีเวนต์และการจัดเหรียญตามธีม), ทำตลาดแบบ Jane Street (ต้อง order book และคิวคำสั่ง ข้อมูลกระดาษไม่สมจริง), ทีมเอเจนต์ 8 ตัวของ RoundtableSpace (ไม่มีกฎ)
+รูปแบบซ้ำ: เริ่มเงินน้อย กำไรหลายสิบเท่าในคืนเดียว ไม่มีกระเป๋าให้ตรวจ แนบลิงก์ ref (gmgn.ai/r/, t.me ref, fomo ?r=)
