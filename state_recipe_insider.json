@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.349177067127836,
- "pos": {
-  "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg": {
-   "sym": "USOI",
-   "qty": 9.849156603309295,
-   "entry": 0.008599,
-   "last": 0.008597,
-   "peak": 0.008602,
-   "cost": 0.087294266781959,
-   "opened": "2026-11-22T09:28:45+07:00",
-   "smart": 5,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 0.4313556720619999,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -1231,8 +1217,23 @@
    "cost_side": 0.03,
    "smart": 5,
    "kol": 0
+  },
+  {
+   "t": "2026-11-22T12:32:18+07:00",
+   "kind": "sell",
+   "mint": "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg",
+   "sym": "USOI",
+   "price": 0.0086,
+   "entry": 0.008599,
+   "usd": 0.0822,
+   "pnl": -0.0051,
+   "why": "ครบ 3 ชม. (+0.0%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 5,
+   "bundler": null
   }
  ],
  "label": "สูตร x_insider4 (คู่ใหม่ + top trader)",
- "rank_t": 1795325209.3322144
+ "rank_t": 1795325489.7444592
 }
