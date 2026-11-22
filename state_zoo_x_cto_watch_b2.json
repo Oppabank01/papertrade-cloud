@@ -3,46 +3,46 @@
  "start_usd": 14.611338398597312,
  "cash": 0.0,
  "pos": {
-  "3iUTyNYW6xKv5kZUjtbrEDTsuJTrSVwvB3bQtxkLpump": {
-   "sym": "bukangi",
-   "qty": 264786.1184824076,
-   "entry": 2.03e-05,
-   "last": 2.288e-05,
-   "peak": 2.544e-05,
-   "cost": 5.540257890324545,
-   "opened": "2026-11-22T20:21:54+07:00",
-   "zoo": "x_cto_watch_b2",
-   "smart": 134,
-   "kol": 12,
-   "gap": 0,
-   "miss": 0
-  },
   "3XsFunPdji9U1EgJXokZysw8SB3t74un89b6KLEVpump": {
    "sym": "MIHAOMAS",
    "qty": 111884.20130655124,
    "entry": 4.233e-05,
-   "last": 5.42e-05,
-   "peak": 5.42e-05,
+   "last": 5.157e-05,
+   "peak": 5.791e-05,
    "cost": 4.881527768817063,
    "opened": "2026-11-22T20:36:12+07:00",
    "zoo": "x_cto_watch_b2",
    "smart": 26,
    "kol": 2,
-   "gap": 3,
+   "gap": 0,
    "miss": 0
   },
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
    "sym": "Rings",
    "qty": 626.6441718446014,
    "entry": 0.003844,
-   "last": 0.003801,
+   "last": 0.003704128286436769,
    "peak": 0.003855,
    "cost": 2.482807871130332,
    "opened": "2026-11-22T20:55:21+07:00",
    "zoo": "x_cto_watch_b2",
    "smart": 124,
    "kol": 7,
-   "gap": 1,
+   "gap": 6,
+   "miss": 0
+  },
+  "Bnxt5x6cdhm53gUizGDVtzfY8TscKBhsS6E1NXUJpump": {
+   "sym": "SI",
+   "qty": 137850.06591921844,
+   "entry": 3.77e-05,
+   "last": 3.268e-05,
+   "peak": 3.777e-05,
+   "cost": 5.356573371629083,
+   "opened": "2026-11-22T21:04:51+07:00",
+   "zoo": "x_cto_watch_b2",
+   "smart": 9,
+   "kol": 2,
+   "gap": 8,
    "miss": 0
   }
  },
@@ -209,8 +209,37 @@
    "zoo": "x_cto_watch_b2",
    "smart": 124,
    "kol": 7
+  },
+  {
+   "t": "2026-11-22T21:03:23+07:00",
+   "kind": "sell",
+   "mint": "3iUTyNYW6xKv5kZUjtbrEDTsuJTrSVwvB3bQtxkLpump",
+   "sym": "bukangi",
+   "price": 2.0851176977708043e-05,
+   "entry": 2.03e-05,
+   "usd": 5.3566,
+   "pnl": -0.1837,
+   "why": "trailing จากยอด +25% (+2.7%)",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": 134,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-22T21:04:51+07:00",
+   "kind": "buy",
+   "mint": "Bnxt5x6cdhm53gUizGDVtzfY8TscKBhsS6E1NXUJpump",
+   "sym": "SI",
+   "price": 3.77e-05,
+   "jup": 3.74819293650694e-05,
+   "usd": 5.3566,
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "zoo": "x_cto_watch_b2",
+   "smart": 9,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: รอ dev เทหมดแล้วมี CTO: dev ถือ 0% ซื้อ 40% ขายครึ่ง x3 trail 15% stop -18%",
- "rank_t": 1795355921.242898
+ "rank_t": 1795356203.7833173
 }
