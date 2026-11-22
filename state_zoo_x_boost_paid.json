@@ -1,17 +1,46 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 14.624159110851126,
- "pos": {},
+ "cash": 11.699327288680902,
+ "pos": {
+  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
+   "sym": "CATE",
+   "qty": 150.22084880198796,
+   "entry": 0.01889,
+   "last": 0.01886,
+   "peak": 0.01889,
+   "cost": 2.9248318221702254,
+   "opened": "2026-11-23T03:15:24+07:00",
+   "zoo": "x_boost_paid",
+   "smart": 928,
+   "kol": 111,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-23T02:11:54+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-23T03:15:24+07:00",
+   "kind": "buy",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.01889,
+   "jup": 0.018914195382006404,
+   "usd": 2.9248,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_boost_paid",
+   "smart": 928,
+   "kol": 111
   }
  ],
  "label": "สวนสัตว์: dev จ่ายค่า boost DexScreener แล้ว (ซื้อตามโปรโมต) (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-22",
  "night_start": 14.624159110851126,
- "rank_t": 1795378098.1604617
+ "rank_t": 1795378374.3262043
 }
