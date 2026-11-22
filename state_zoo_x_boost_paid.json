@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 10.683184847730766,
+ "cash": 8.018420990194883,
  "pos": {
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
    "sym": "TROLL",
    "qty": 127.13694944384439,
    "entry": 0.0209,
-   "last": 0.02087,
+   "last": 0.02088,
    "peak": 0.0209,
    "cost": 2.7387778224864436,
    "opened": "2026-11-23T05:25:12+07:00",
@@ -15,6 +15,20 @@
    "smart": 475,
    "kol": 214,
    "gap": 0,
+   "miss": 0
+  },
+  "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": {
+   "sym": "MINELIUS",
+   "qty": 280.9861856951759,
+   "entry": 0.009201,
+   "last": 0.009138,
+   "peak": 0.009217,
+   "cost": 2.664763857535883,
+   "opened": "2026-11-23T05:40:04+07:00",
+   "zoo": "x_boost_paid",
+   "smart": 4,
+   "kol": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -153,10 +167,24 @@
    "cost_side": 0.03,
    "smart": 562,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T05:40:04+07:00",
+   "kind": "buy",
+   "mint": "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump",
+   "sym": "MINELIUS",
+   "price": 0.009201,
+   "jup": 0.009221362877687957,
+   "usd": 2.6648,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_boost_paid",
+   "smart": 4,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: dev จ่ายค่า boost DexScreener แล้ว (ซื้อตามโปรโมต) (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-22",
  "night_start": 14.624159110851126,
- "rank_t": 1795386747.8843818
+ "rank_t": 1795387051.3820994
 }
