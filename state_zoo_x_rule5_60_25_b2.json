@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 5.17477033343574,
+ "cash": 7.137378495150386,
  "pos": {
   "8rjgC1GsBo4fwuXjq7Hy12SAFxgFxbtSJJSFBYkVpump": {
    "sym": "WW",
    "qty": 5474.55847788315,
    "entry": 0.0005062,
-   "last": 0.0005137,
+   "last": 0.0005054,
    "peak": 0.0006278,
    "cost": 2.856340446819677,
    "opened": "2026-11-22T19:57:26+07:00",
@@ -17,25 +17,11 @@
    "gap": 0,
    "miss": 0
   },
-  "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": {
-   "sym": "Singularity",
-   "qty": 2990.536139860391,
-   "entry": 0.0009066,
-   "last": 0.0008103697410102921,
-   "peak": 0.001348,
-   "cost": 2.794496046585684,
-   "opened": "2026-11-22T21:14:37+07:00",
-   "zoo": "x_rule5_60_25_b2",
-   "smart": 117,
-   "kol": 2,
-   "gap": 2,
-   "miss": 0
-  },
   "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg": {
    "sym": "USOI",
    "qty": 327.9333805941579,
    "entry": 0.008595,
-   "last": 0.009403,
+   "last": 0.009399,
    "peak": 0.009517,
    "cost": 2.9051612102729205,
    "opened": "2026-11-22T21:42:26+07:00",
@@ -122,8 +108,23 @@
    "zoo": "x_rule5_60_25_b2",
    "smart": 5,
    "kol": 0
+  },
+  {
+   "t": "2026-11-23T01:19:04+07:00",
+   "kind": "sell",
+   "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump",
+   "sym": "Singularity",
+   "price": 0.0006764306458184005,
+   "entry": 0.0009066,
+   "usd": 1.9626,
+   "pnl": -0.8319,
+   "why": "stop -25.4%",
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "smart": 117,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ระบบ 5 ไม้ เข้มกรอง ปลอดภัย TP +60% SL -25%",
- "rank_t": 1795371233.3447385
+ "rank_t": 1795371523.3890352
 }

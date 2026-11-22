@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 4.82041126642264,
+ "cash": 2.209263648181106,
  "pos": {
   "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
    "sym": "JEANPHIL",
@@ -14,15 +14,15 @@
    "zoo": "bigliqRC_b2",
    "smart": 400,
    "kol": 43,
-   "gap": 2,
+   "gap": 5,
    "miss": 0
   },
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 242.03635354145305,
    "entry": 0.0111,
-   "last": 0.01187,
-   "peak": 0.01187,
+   "last": 0.01204,
+   "peak": 0.01207,
    "cost": 2.769123401680199,
    "opened": "2026-11-22T23:21:13+07:00",
    "zoo": "bigliqRC_b2",
@@ -35,13 +35,27 @@
    "sym": "neet",
    "qty": 112.21847537859227,
    "entry": 0.02335,
-   "last": 0.02332,
+   "last": 0.02333,
    "peak": 0.02367,
    "cost": 2.700784786734827,
    "opened": "2026-11-23T00:04:13+07:00",
    "zoo": "bigliqRC_b2",
    "smart": 888,
    "kol": 205,
+   "gap": 0,
+   "miss": 0
+  },
+  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
+   "sym": "Buttcoin",
+   "qty": 423.9182428410201,
+   "entry": 0.005976,
+   "last": 0.006013,
+   "peak": 0.006013,
+   "cost": 2.6111476182415343,
+   "opened": "2026-11-23T01:20:06+07:00",
+   "zoo": "bigliqRC_b2",
+   "smart": 541,
+   "kol": 51,
    "gap": 0,
    "miss": 0
   }
@@ -267,8 +281,22 @@
    "cost_side": 0.03,
    "smart": 738,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T01:20:06+07:00",
+   "kind": "buy",
+   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+   "sym": "Buttcoin",
+   "price": 0.005976,
+   "jup": 0.0059847950316883475,
+   "usd": 2.6111,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliqRC_b2",
+   "smart": 541,
+   "kol": 51
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ผ่าน RugCheck เช็กราคาทุก 20 วิ",
- "rank_t": 1795371233.3447385
+ "rank_t": 1795371523.3890352
 }
