@@ -1,42 +1,42 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 3.0181965649583553,
+ "cash": 3.2918356232698236,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 321.1945284766991,
    "entry": 0.008827,
-   "last": 0.009045,
+   "last": 0.008875,
    "peak": 0.009405,
    "cost": 2.9222676797194627,
    "opened": "2026-11-22T19:53:43+07:00",
    "zoo": "w_f5_aged_b2",
    "smart": 799,
    "kol": 75,
-   "gap": 0,
+   "gap": 13,
    "miss": 0
   },
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": {
    "sym": "VEIL",
    "qty": 6447.692531710716,
    "entry": 0.0004371,
-   "last": 0.0004311,
+   "last": 0.0004269,
    "peak": 0.0004576,
    "cost": 2.9048509643483342,
    "opened": "2026-11-22T19:53:43+07:00",
    "zoo": "w_f5_aged_b2",
    "smart": 84,
    "kol": 5,
-   "gap": 9,
+   "gap": 21,
    "miss": 0
   },
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 34.6804830234379,
    "entry": 0.08078,
-   "last": 0.0818,
-   "peak": 0.0818,
+   "last": 0.08211,
+   "peak": 0.08211,
    "cost": 2.8875380526008185,
    "opened": "2026-11-22T19:53:43+07:00",
    "zoo": "w_f5_aged_b2",
@@ -45,18 +45,18 @@
    "gap": 0,
    "miss": 0
   },
-  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
-   "sym": "Rings",
-   "qty": 918.9556695915184,
-   "entry": 0.003039,
-   "last": 0.0036950209142290946,
-   "peak": 0.004264,
-   "cost": 2.8784851369703404,
-   "opened": "2026-11-22T20:07:51+07:00",
+  "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": {
+   "sym": "Singularity",
+   "qty": 3175.0130046234794,
+   "entry": 0.0009024,
+   "last": 0.0009221,
+   "peak": 0.0009372,
+   "cost": 2.953135163236681,
+   "opened": "2026-11-22T21:14:31+07:00",
    "zoo": "w_f5_aged_b2",
-   "smart": 124,
-   "kol": 7,
-   "gap": 9,
+   "smart": 117,
+   "kol": 2,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -121,8 +121,37 @@
    "zoo": "w_f5_aged_b2",
    "smart": 124,
    "kol": 7
+  },
+  {
+   "t": "2026-11-22T21:12:51+07:00",
+   "kind": "sell",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.003619201363965969,
+   "entry": 0.003039,
+   "usd": 3.2268,
+   "pnl": 0.3483,
+   "why": "trailing จากยอด +40% (+19.1%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 124,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-22T21:14:31+07:00",
+   "kind": "buy",
+   "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump",
+   "sym": "Singularity",
+   "price": 0.0009024,
+   "jup": 0.0009080929481905699,
+   "usd": 2.9531,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged_b2",
+   "smart": 117,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1795356493.5212052
+ "rank_t": 1795356771.679451
 }
