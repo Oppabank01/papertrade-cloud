@@ -17,11 +17,15 @@ from datetime import datetime, timezone
 H4, DAY = 4 * 3600 * 1000, 86400 * 1000
 THB, RATE, COST, TWIN_P = 500.0, 33.9, 0.0035, 1 / 50
 SL, TP, TR = 2, 10, 5
-URL = "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&interval=4h&limit=1000"
-ACCOUNTS = {
-    "state_byt_sol.json": ((1, -1), "flip", "byttrade SOL 4 ชม. long+short: Supertrend กลับทิศตามฝั่ง EMA50 รายวัน stop 2 ATR เป้า 10 ATR trail 5 ATR"),
-    "state_byt_sol_long.json": ((1,), "flip", "byttrade SOL 4 ชม. long อย่างเดียว กฎเดียวกัน"),
-    "state_byt_sol_twin.json": ((1, -1), "random", "byttrade SOL ตัวควบคุม: เข้าสุ่มเวลา ฝั่งตาม EMA50 รายวัน ออกแบบเดียวกัน"),
+URL = "https://data-api.binance.vision/api/v3/klines?symbol={}&interval=4h&limit=1000"
+ACCOUNTS = {   # file: (sides, mode, label, symbol); BTC and ETH added 23 Nov 00:59 (backtest p 0.109 / 0.010, opened anyway)
+    "state_byt_sol.json": ((1, -1), "flip", "byttrade SOL 4 ชม. long+short: Supertrend กลับทิศตามฝั่ง EMA50 รายวัน stop 2 ATR เป้า 10 ATR trail 5 ATR", "SOLUSDT"),
+    "state_byt_sol_long.json": ((1,), "flip", "byttrade SOL 4 ชม. long อย่างเดียว กฎเดียวกัน", "SOLUSDT"),
+    "state_byt_sol_twin.json": ((1, -1), "random", "byttrade SOL ตัวควบคุม: เข้าสุ่มเวลา ฝั่งตาม EMA50 รายวัน ออกแบบเดียวกัน", "SOLUSDT"),
+    "state_byt_eth.json": ((1, -1), "flip", "byttrade ETH 4 ชม. long+short กฎเดียวกับ SOL", "ETHUSDT"),
+    "state_byt_eth_twin.json": ((1, -1), "random", "byttrade ETH ตัวควบคุม: เข้าสุ่มเวลา ฝั่งตาม EMA50 รายวัน", "ETHUSDT"),
+    "state_byt_btc.json": ((1, -1), "flip", "byttrade BTC 4 ชม. long+short กฎเดียวกับ SOL", "BTCUSDT"),
+    "state_byt_btc_twin.json": ((1, -1), "random", "byttrade BTC ตัวควบคุม: เข้าสุ่มเวลา ฝั่งตาม EMA50 รายวัน", "BTCUSDT"),
 }
 
 
@@ -82,42 +86,42 @@ def new_state(label):
     return dict(label=label, start_thb=THB, start_usd=THB / RATE, cash=THB / RATE, pos={}, log=[], seen=None)
 
 
-def open_pos(s, side, px, t, atr, why):
+def open_pos(s, side, px, t, atr, why, sym="SOLUSDT"):
     usd = s["cash"] / (1 + COST)
     s["cash"] += (-usd if side > 0 else usd) - usd * COST       # a short books the proceeds: value = cash + qty*last
-    s["pos"]["SOLUSDT"] = dict(side="long" if side > 0 else "short", d=side, qty=side * usd / px, entry=px, last=px, usd=usd,
+    s["pos"][sym] = dict(side="long" if side > 0 else "short", d=side, qty=side * usd / px, entry=px, last=px, usd=usd,
                                atr=atr, stop=px - side * SL * atr, take=px + side * TP * atr, best=px, entry_t=t, t=iso(t), why=why)
-    s["log"].append(dict(kind="buy", t=iso(t), coin="SOL", side=s["pos"]["SOLUSDT"]["side"], px=px, usd=usd, why=why))
+    s["log"].append(dict(kind="buy", t=iso(t), coin=sym[:-4], side=s["pos"][sym]["side"], px=px, usd=usd, why=why))
 
 
-def close_pos(s, px, t, why):
-    p = s["pos"].pop("SOLUSDT")
+def close_pos(s, px, t, why, sym="SOLUSDT"):
+    p = s["pos"].pop(sym)
     ret = (px / p["entry"] - 1) * p["d"]
     s["cash"] += p["qty"] * px - abs(p["qty"]) * px * COST
-    s["log"].append(dict(kind="sell", t=iso(t), coin="SOL", side=p["side"], px=px, usd=p["usd"], ret=round(ret, 5),
+    s["log"].append(dict(kind="sell", t=iso(t), coin=sym[:-4], side=p["side"], px=px, usd=p["usd"], ret=round(ret, 5),
                          pnl=p["usd"] * ret - p["usd"] * COST - abs(p["qty"]) * px * COST, cost_side=COST, why=why))
 
 
-def exit_check(s, x):
+def exit_check(s, x, sym="SOLUSDT"):
     """One closed bar against the open position, exactly as the backtest: gap fills at the open after the entry bar."""
-    p = s["pos"]["SOLUSDT"]
+    p = s["pos"][sym]
     first, o, h, l = x["t"] == p["entry_t"], x["o"], x["h"], x["l"]
     if p["d"] > 0:
         if l <= p["stop"]:
-            return close_pos(s, p["stop"] if first else min(o, p["stop"]), x["t"] + H4, "stop/trail") or True
+            return close_pos(s, p["stop"] if first else min(o, p["stop"]), x["t"] + H4, "stop/trail", sym) or True
         if h >= p["take"]:
-            return close_pos(s, p["take"] if first else max(o, p["take"]), x["t"] + H4, "ถึงเป้า 10 ATR") or True
+            return close_pos(s, p["take"] if first else max(o, p["take"]), x["t"] + H4, "ถึงเป้า 10 ATR", sym) or True
         p["best"] = max(p["best"], h); p["stop"] = max(p["stop"], p["best"] - TR * p["atr"])
     else:
         if h >= p["stop"]:
-            return close_pos(s, p["stop"] if first else max(o, p["stop"]), x["t"] + H4, "stop/trail") or True
+            return close_pos(s, p["stop"] if first else max(o, p["stop"]), x["t"] + H4, "stop/trail", sym) or True
         if l <= p["take"]:
-            return close_pos(s, p["take"] if first else min(o, p["take"]), x["t"] + H4, "ถึงเป้า 10 ATR") or True
+            return close_pos(s, p["take"] if first else min(o, p["take"]), x["t"] + H4, "ถึงเป้า 10 ATR", sym) or True
         p["best"] = min(p["best"], l); p["stop"] = min(p["stop"], p["best"] + TR * p["atr"])
     return False
 
 
-def process(s, bars, sides, mode, rng):
+def process(s, bars, sides, mode, rng, sym="SOLUSDT"):
     """bars: oldest first, the last one may still be forming (closed=False). Walks every closed bar after s['seen']."""
     closed = [x for x in bars if x["closed"]]
     if s["seen"] is None:                       # a new account starts from the latest closed bar, no stale signal
@@ -129,9 +133,9 @@ def process(s, bars, sides, mode, rng):
             continue
         s["seen"] = x["t"]
         exited = False
-        if "SOLUSDT" in s["pos"] and x["t"] >= s["pos"]["SOLUSDT"]["entry_t"]:
-            exited = exit_check(s, x)
-        if "SOLUSDT" in s["pos"] or exited or not atr[i]:
+        if sym in s["pos"] and x["t"] >= s["pos"][sym]["entry_t"]:
+            exited = exit_check(s, x, sym)
+        if sym in s["pos"] or exited or not atr[i]:
             continue
         if mode == "flip":
             side = d[i] if d[i] and d[i - 1] and d[i] != d[i - 1] and reg[i] == d[i] else 0
@@ -139,14 +143,14 @@ def process(s, bars, sides, mode, rng):
             side = reg[i] if rng.random() < TWIN_P else 0
         if side in sides:
             open_pos(s, side, bars[i + 1]["o"], bars[i + 1]["t"], atr[i], f"{'Supertrend กลับทิศ' if mode == 'flip' else 'สุ่มเวลา'} "
-                     f"{'ขึ้น' if side > 0 else 'ลง'} EMA50 รายวัน {'บน' if reg[i] > 0 else 'ล่าง'}")
-    if "SOLUSDT" in s["pos"]:
-        s["pos"]["SOLUSDT"]["last"] = bars[-1]["c"]
+                     f"{'ขึ้น' if side > 0 else 'ลง'} EMA50 รายวัน {'บน' if reg[i] > 0 else 'ล่าง'}", sym)
+    if sym in s["pos"]:
+        s["pos"][sym]["last"] = bars[-1]["c"]
 
 
-def fetch():
+def fetch(sym):
     now = time.time() * 1000
-    raw = json.loads(urllib.request.urlopen(urllib.request.Request(URL, headers={"User-Agent": "Mozilla/5.0"}), timeout=20).read())
+    raw = json.loads(urllib.request.urlopen(urllib.request.Request(URL.format(sym), headers={"User-Agent": "Mozilla/5.0"}), timeout=20).read())
     return [dict(t=k[0], o=float(k[1]), h=float(k[2]), l=float(k[3]), c=float(k[4]), closed=k[6] < now) for k in raw]
 
 
@@ -170,17 +174,18 @@ def main(cmd):
             sells = [x for x in s["log"] if x["kind"] == "sell"]
             print(f"{f[6:-5]:<14} {v / s['start_usd'] - 1:+.1%}  ไม้ปิด {len(sells)}  เปิดอยู่ {list(s['pos'].values())[0]['side'] if s['pos'] else '-'}")
         return
-    try:
-        bars = fetch()
-    except Exception as e:
-        print("byttrade fetch failed", type(e).__name__)
-        return
-    rng = random.Random()
-    for f, (sides, mode, label) in ACCOUNTS.items():
-        s = load(f, label)
-        process(s, bars, sides, mode, rng)
-        save(f, s)
-
+    rng, cache = random.Random(), {}
+    for f, (sides, mode, label, sym) in ACCOUNTS.items():
+        if sym not in cache:
+            try:
+                cache[sym] = fetch(sym)
+            except Exception as e:
+                print("byttrade fetch failed", sym, type(e).__name__)
+                cache[sym] = None
+        if cache[sym]:
+            s = load(f, label)
+            process(s, cache[sym], sides, mode, rng, sym)
+            save(f, s)
 
 if __name__ == "__main__":
     main(sys.argv[1] if len(sys.argv) > 1 else "run")
