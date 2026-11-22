@@ -31,6 +31,7 @@ $PY daytrade.py init 500 >/dev/null; $PY daytrade.py run || echo "daytrade run f
 $PY byttrade.py run || echo "byttrade run failed"   # SOL/ETH/BTC 4h byttrade st4h_ema50_1d + twin (23 Nov), acts once per closed 4h bar
 $PY pullback.py || echo "pullback run failed"   # trend_pullback_champion BTC/ETH/SOL 4h + twin (23 Nov, weak backtest, opened to try)
 $PY twocandle.py || echo "twocandle run failed"   # RohOnChain 2-candle forward (lost in backtest, opened to try)
+$PY dxai.py || echo "dxai run failed"   # arXiv 2609.05663 DXAI: top-3 24h gainer chase + 2%/4% bracket 1h + random twin (23 Nov, backtest lost, opened to try)
 $PY crash.py init 500 >/dev/null; $PY crash.py run || echo "crash run failed"   # Fable perp accounts (19 Nov): crash-day bounce, night crash short, new-listing short
 $PY grokwatch.py || echo "grokwatch failed"   # 19-20 Nov: 5-min DexScreener log of every mint the Grok Bot routines mention, 24 h each
 $PY polymarket.py run || echo "polymarket run failed"   # copy top Polymarket wallets + random twin (23 Nov)
