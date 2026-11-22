@@ -81,6 +81,8 @@ def verdict(r, rand_pnl, idle_limit, rand_key="rand"):
         return "ตาย", "ระบบตัดสินตายแล้ว ไม่เทรดต่อ: " + str(r["dead"])[:70]
     if r["halted"]:
         return "ค้าง (หยุดซื้อ)", "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: " + str(r["halted"])[:70]
+    if r["closed"] >= DEAD_TRADES and r["pnl"] <= 0:   # dead by the trade count even if it has also gone quiet
+        return "ตาย", f"{r['closed']} ไม้แล้วยังไม่บวก"
     if r["idle_h"] is not None and r["idle_h"] > idle_limit and r["open"] == 0:
         return "เงียบ", f"ไม่มีไม้ {r['idle_h']:.0f} ชม."
     beat = rand_pnl is None or r["pnl"] > rand_pnl
