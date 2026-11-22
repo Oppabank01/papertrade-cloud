@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.13105661158612195,
+ "cash": 0.06250524892438665,
  "pos": {
   "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": {
    "sym": "TripleT",
@@ -42,6 +42,20 @@
    "zoo": "randrun",
    "smart": 928,
    "kol": 295,
+   "gap": 0,
+   "miss": 0
+  },
+  "95C2ZFW6jfMch1iEKAbbSdB56orJ2gTbxxtn2cDvpump": {
+   "sym": "Flywheel",
+   "qty": 3258.6247944348643,
+   "entry": 2.041e-05,
+   "last": 2.054e-05,
+   "peak": 2.054e-05,
+   "cost": 0.0685513626617353,
+   "opened": "2026-11-22T21:51:11+07:00",
+   "zoo": "randrun",
+   "smart": 9,
+   "kol": 2,
    "gap": 0,
    "miss": 0
   }
@@ -3021,8 +3035,22 @@
    "cost_side": 0.03,
    "smart": 128,
    "bundler": null
+  },
+  {
+   "t": "2026-11-22T21:51:11+07:00",
+   "kind": "buy",
+   "mint": "95C2ZFW6jfMch1iEKAbbSdB56orJ2gTbxxtn2cDvpump",
+   "sym": "Flywheel",
+   "price": 2.041e-05,
+   "jup": 2.0386338142891665e-05,
+   "usd": 0.0686,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "randrun",
+   "smart": 9,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1795358725.796496
+ "rank_t": 1795359004.667449
 }

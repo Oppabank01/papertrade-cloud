@@ -1,36 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.436437382701887,
+ "cash": 9.083732148191883,
  "pos": {
-  "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": {
-   "sym": "VEIL",
-   "qty": 3243.1755923859787,
-   "entry": 0.0004371,
-   "last": 0.0004337,
-   "peak": 0.0004576,
-   "cost": 1.4611338398597313,
-   "opened": "2026-11-22T19:53:18+07:00",
-   "zoo": "x_scalp_1020_b2",
-   "smart": 84,
-   "kol": 5,
-   "gap": 0,
-   "miss": 0
-  },
-  "6C9r2gzu8Pr54hTevHo3x5gSj9JqtpApj7obJnrtpump": {
-   "sym": "ROCKET",
-   "qty": 1724.8811656317357,
-   "entry": 0.0008194,
-   "last": 0.0008038,
-   "peak": 0.0008305,
-   "cost": 1.4567796610169494,
-   "opened": "2026-11-22T19:53:18+07:00",
-   "zoo": "x_scalp_1020_b2",
-   "smart": 0,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
   "GNHW5JetZmW85vAU35KyoDcYoSd3sNWtx5RPMTDJpump": {
    "sym": "GOAT",
    "qty": 26489.230221403453,
@@ -49,28 +21,28 @@
    "sym": "EXFIL",
    "qty": 728.0999798039152,
    "entry": 0.001841,
-   "last": 0.001983,
+   "last": 0.001982,
    "peak": 0.002057,
    "cost": 1.381603857780878,
    "opened": "2026-11-22T20:50:20+07:00",
    "zoo": "x_scalp_1020_b2",
    "smart": 108,
    "kol": 9,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
    "sym": "FIONA",
    "qty": 739.6037556622948,
    "entry": 0.001793,
-   "last": 0.0016403810433259735,
+   "last": 0.001697,
    "peak": 0.001793,
    "cost": 1.3668414078566222,
    "opened": "2026-11-22T21:23:08+07:00",
    "zoo": "x_scalp_1020_b2",
    "smart": 336,
    "kol": 19,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -294,8 +266,38 @@
    "cost_side": 0.03,
    "smart": 74,
    "bundler": null
+  },
+  {
+   "t": "2026-11-22T21:53:22+07:00",
+   "kind": "sell",
+   "mint": "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump",
+   "sym": "VEIL",
+   "price": 0.0004249,
+   "entry": 0.0004371,
+   "usd": 1.337,
+   "pnl": -0.1242,
+   "why": "ครบ 2 ชม. (-2.8%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 84,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-22T21:53:22+07:00",
+   "kind": "sell",
+   "mint": "6C9r2gzu8Pr54hTevHo3x5gSj9JqtpApj7obJnrtpump",
+   "sym": "ROCKET",
+   "price": 0.000783,
+   "entry": 0.0008194,
+   "usd": 1.3103,
+   "pnl": -0.1464,
+   "why": "ครบ 2 ชม. (-4.4%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 0,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สกัลป์ pump.fun ตัดกำไร/ขาดทุน 15% เดือนเต็ม",
- "rank_t": 1795358725.796496
+ "rank_t": 1795359004.667449
 }
