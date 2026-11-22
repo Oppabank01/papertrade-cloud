@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.958613284761195,
+ "cash": 2.2064971877282313,
  "pos": {
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 9.838881123832923,
    "entry": 0.08074,
-   "last": 0.08151,
+   "last": 0.08146,
    "peak": 0.08162,
    "cost": 0.8187912409176152,
    "opened": "2026-11-23T05:33:27+07:00",
@@ -15,6 +15,20 @@
    "smart": 928,
    "kol": 295,
    "gap": 0,
+   "miss": 0
+  },
+  "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": {
+   "sym": "PUMPCADE",
+   "qty": 57.72967067574216,
+   "entry": 0.01264,
+   "last": 0.01273,
+   "peak": 0.01273,
+   "cost": 0.7521160970329633,
+   "opened": "2026-11-23T06:35:26+07:00",
+   "zoo": "w_ban_bigliq",
+   "smart": 128,
+   "kol": 19,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -3088,10 +3102,24 @@
    "cost_side": 0.03,
    "smart": 373,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T06:35:26+07:00",
+   "kind": "buy",
+   "mint": "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu",
+   "sym": "PUMPCADE",
+   "price": 0.01264,
+   "jup": 0.012674482587258621,
+   "usd": 0.7521,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_bigliq",
+   "smart": 128,
+   "kol": 19
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795390189.544116,
+ "rank_t": 1795390462.275131,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
