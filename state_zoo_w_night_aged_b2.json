@@ -1,17 +1,130 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 14.611338398597312,
- "pos": {},
+ "cash": 2.957200724255258,
+ "pos": {
+  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
+   "sym": "CLAUDIA",
+   "qty": 258.7762128456405,
+   "entry": 0.01118,
+   "last": 0.0112,
+   "peak": 0.01124,
+   "cost": 2.9222676797194627,
+   "opened": "2026-11-22T21:10:53+07:00",
+   "zoo": "w_night_aged_b2",
+   "smart": 542,
+   "kol": 34,
+   "gap": 0,
+   "miss": 0
+  },
+  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
+   "sym": "STONK",
+   "qty": 81.60956159087988,
+   "entry": 0.03538,
+   "last": 0.03542,
+   "peak": 0.03542,
+   "cost": 2.9164377556984222,
+   "opened": "2026-11-22T21:10:53+07:00",
+   "zoo": "w_night_aged_b2",
+   "smart": 1000,
+   "kol": 174,
+   "gap": 0,
+   "miss": 0
+  },
+  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+   "sym": "USELESS",
+   "qty": 35.22721312027635,
+   "entry": 0.0818,
+   "last": 0.0818,
+   "peak": 0.0818,
+   "cost": 2.910619462375804,
+   "opened": "2026-11-22T21:10:53+07:00",
+   "zoo": "w_night_aged_b2",
+   "smart": 928,
+   "kol": 295,
+   "gap": 0,
+   "miss": 0
+  },
+  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
+   "sym": "CATE",
+   "qty": 149.70521963052025,
+   "entry": 0.01921,
+   "last": 0.01924,
+   "peak": 0.01924,
+   "cost": 2.904812776548364,
+   "opened": "2026-11-22T21:10:53+07:00",
+   "zoo": "w_night_aged_b2",
+   "smart": 928,
+   "kol": 111,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T19:52:26+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-22T21:10:53+07:00",
+   "kind": "buy",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.01118,
+   "jup": 0.0112036797452735,
+   "usd": 2.9223,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_night_aged_b2",
+   "smart": 542,
+   "kol": 34
+  },
+  {
+   "t": "2026-11-22T21:10:53+07:00",
+   "kind": "buy",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.03538,
+   "jup": 0.035419122820284483,
+   "usd": 2.9164,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_night_aged_b2",
+   "smart": 1000,
+   "kol": 174
+  },
+  {
+   "t": "2026-11-22T21:10:53+07:00",
+   "kind": "buy",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.0818,
+   "jup": 0.08212123196531597,
+   "usd": 2.9106,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_night_aged_b2",
+   "smart": 928,
+   "kol": 295
+  },
+  {
+   "t": "2026-11-22T21:10:53+07:00",
+   "kind": "buy",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.01921,
+   "jup": 0.019249351169338975,
+   "usd": 2.9048,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_night_aged_b2",
+   "smart": 928,
+   "kol": 111
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: กะดึก: กฎ w_aged_nostop เทรดเฉพาะ 21:00-09:00",
  "night": "2026-11-22",
  "night_start": 14.611338398597312,
- "rank_t": 1795356203.7833173
+ "rank_t": 1795356493.5212052
 }
