@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 11.699327288680902,
+ "cash": 8.791927464170811,
  "pos": {
   "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg": {
    "sym": "USOI",
    "qty": 301.751577399995,
    "entry": 0.009404,
-   "last": 0.009404,
-   "peak": 0.009404,
+   "last": 0.009445,
+   "peak": 0.009445,
    "cost": 2.9248318221702254,
    "opened": "2026-11-23T02:17:58+07:00",
    "zoo": "x_no_snipers",
    "smart": 5,
    "kol": 0,
+   "gap": 0,
+   "miss": 0
+  },
+  "FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump": {
+   "sym": "OpenIndex",
+   "qty": 5175.70515548567,
+   "entry": 0.000545,
+   "last": 0.0005419,
+   "peak": 0.000545,
+   "cost": 2.907399824510091,
+   "opened": "2026-11-23T02:23:52+07:00",
+   "zoo": "x_no_snipers",
+   "smart": 72,
+   "kol": 4,
    "gap": 0,
    "miss": 0
   }
@@ -37,10 +51,24 @@
    "zoo": "x_no_snipers",
    "smart": 5,
    "kol": 0
+  },
+  {
+   "t": "2026-11-23T02:23:52+07:00",
+   "kind": "buy",
+   "mint": "FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump",
+   "sym": "OpenIndex",
+   "price": 0.000545,
+   "jup": 0.0005432972705998655,
+   "usd": 2.9074,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_no_snipers",
+   "smart": 72,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: ไม่มี sniper และ rug ratio ต่ำ อายุไม่เกิน 12 ชม. (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-22",
  "night_start": 14.624159110851126,
- "rank_t": 1795374951.0526197
+ "rank_t": 1795375248.0977895
 }
