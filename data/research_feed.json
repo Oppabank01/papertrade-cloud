@@ -1,1 +1,101 @@
-[]
+[
+ {
+  "t": "2026-11-22T23:53:22+07:00",
+  "source": "github",
+  "title": "byttrade/free-crypto-trading-bot: st4h_ema50_1d",
+  "url": "https://github.com/byttrade/free-crypto-trading-bot",
+  "summary": "บอทตามเทรนด์ 4 ชม. 4 ท่า บน perp 20 เหรียญใหญ่ มีกฎครบ เช่น Supertrend(10,3) กลับทิศตามทิศ EMA50 รายวัน stop 2 ATR TP 10 ATR trail 5 ATR อ้าง PF 1.59 ช่วง verification",
+  "verdict": "ทดสอบแล้ว",
+  "action": "backtest st4h_ema50_1d บน Binance spot 4 ชม. BTC ETH SOL 2017-2026 ต้นทุน 0.35%/ข้าง: long+short ต่อไม้ BTC -0.25% (162 ไม้) ETH +0.80% (173) SOL +2.33% (115) มัธยฐานราว -3.5% ชนะราว 30% ช่วง selection ของผู้เขียน 3 เหรียญรวม -0.58%/ไม้ permutation 200 รอบ p BTC 0.109 ETH 0.010 SOL 0.005 long only p 0.139/0.124/0.010 จุดเข้าสุ่มฝั่งเดียวกับ regime และ exit เดียวกัน BTC -0.02% ETH +0.88% เท่ากับหรือดีกว่ากฎ (ชนะกฎ 18/30 และ 16/30 รอบ) มีแค่ SOL ที่ดีกว่าสุ่ม สรุป: ผ่านเกณฑ์ไม่ครบ ผลมาจากตัวกรอง regime กับ trail กว้าง ไม่ใช่จุดเข้า และสายเหรียญใหญ่ห้ามเปิดบัญชีใหม่ จึงไม่เปิด"
+ },
+ {
+  "t": "2026-11-22T23:53:22+07:00",
+  "source": "github",
+  "title": "repo บอท Polymarket/Hyperliquid/pump.fun แบบ \"native 64-bit portable\" หลายตัว",
+  "url": "https://github.com/mike-garcia-x2000a6/polymarket-perp-dex-hyperliquid-vault-market-maker-portabl",
+  "summary": "repo สร้างสัปดาห์นี้ ดาว 140 ถึง 311 ชื่อบัญชีสุ่ม แจกไฟล์โปรแกรม Windows สำเร็จรูป อ้างทำ market making, arbitrage, volume booster",
+  "verdict": "ตัดทิ้ง",
+  "action": "ไม่มีกฎหรือผลที่ตรวจได้ ดาวปั่นและแจกไฟล์ exe เป็นรูปแบบมัลแวร์ขโมยกระเป๋า ห้ามดาวน์โหลด"
+ },
+ {
+  "t": "2026-11-22T23:53:22+07:00",
+  "source": "github",
+  "title": "kalambyryura/ai-trading-arena",
+  "url": "https://github.com/kalambyryura/ai-trading-arena",
+  "summary": "ทีม AI 3 ชุดลองสร้างบอท perp บน OKX 7 สัปดาห์ด้วยเงินจริง ทดสอบ 770+ แบบ ไม่เจอ edge เงินจริง 86 ไม้ -1.65 USDT ค่าธรรมเนียมกินหมด ท่าตามเทรนด์ยาวแค่ได้จากตลาดขึ้น จุดเข้าสุ่มได้ราว 3 ใน 4",
+  "verdict": "ตัดทิ้ง",
+  "action": "เป็นรายงานผลลบ ไม่มีท่าใหม่ให้เพิ่ม แต่นำวิธีเทียบกับจุดเข้าสุ่มที่ exit เดียวกันไปใช้กับ byttrade แล้ว"
+ },
+ {
+  "t": "2026-11-22T23:53:22+07:00",
+  "source": "github",
+  "title": "ketchup42/pm-bot",
+  "url": "https://github.com/ketchup42/pm-bot",
+  "summary": "ชุดเครื่องมือเก็บข้อมูลตลาด up/down ของ Polymarket (ราคา order book การตัดสินผล) แล้ว replay กลยุทธ์ DOGE แบบคิดค่าธรรมเนียม latency และความลึก",
+  "verdict": "ไอเดีย",
+  "action": "ต้องมีข้อมูล order book ของตลาด up/down ใน Polymarket ย้อนหลังที่เราไม่มี และเริ่มด้วย Docker ซึ่งห้ามรัน"
+ },
+ {
+  "t": "2026-11-22T23:53:22+07:00",
+  "source": "github",
+  "title": "blixtrade/memecoin-alert-bot",
+  "url": "https://github.com/blixtrade/memecoin-alert-bot",
+  "summary": "บอทแจ้งเหรียญ pump.fun เปิดใหม่และเหรียญจบ bonding curve กรอง top10 ไม่เกิน 30% แนบลิงก์ไป terminal BLIX",
+  "verdict": "ตัดทิ้ง",
+  "action": "ไม่มีกฎออกหรือผล ตัวกรองเหรียญจบ curve ซ้ำกับ x_fresh_grad ที่ backtest แล้วติดลบ (lessons ข้อ 18) และเป็นช่องทางพาไปสมัคร BLIX"
+ },
+ {
+  "t": "2026-11-22T23:53:22+07:00",
+  "source": "x",
+  "title": "bosona: Polymarket P&L +$510K จาก 115,438 ตลาด",
+  "url": "https://x.com/0xburgerboy/status/2124446468354580903",
+  "summary": "บัญชี Polymarket เริ่ม พ.ค. 69 เทรด 115k ตลาด วอลุ่ม $32.1M กำไร $510K ไม้ใหญ่สุดแค่ $2.8K น่าจะเป็นบอททำตลาดหรือเก็บส่วนต่างเล็กๆ จำนวนมาก",
+  "verdict": "ไอเดีย",
+  "action": "ต้องมีประวัติไม้ของกระเป๋าจาก data API ของ Polymarket และ order book ย้อนหลังเพื่อดูว่ากำไรมาจาก maker rebate หรือ edge"
+ },
+ {
+  "t": "2026-11-22T23:53:22+07:00",
+  "source": "x",
+  "title": "SkyEdge terminal เทรดตลาดอากาศ",
+  "url": "https://x.com/skyedge_io/status/2124337315644613105",
+  "summary": "ขายเครื่องมือเทรดตลาดพยากรณ์อากาศใน Polymarket อ้างกำไร +$6.7k หลังหักค่าธรรมเนียม",
+  "verdict": "ตัดทิ้ง",
+  "action": "สินค้าเสียเงิน ไม่มีกฎหรือกระเป๋าให้ตรวจ"
+ },
+ {
+  "t": "2026-11-22T23:53:22+07:00",
+  "source": "x",
+  "title": "jbfly46: arbitrage YES+NO ใน Polymarket",
+  "url": "https://x.com/jbfly46/status/2124183134577246681",
+  "summary": "โพสต์แย้ง guide arbitrage YES+NO ว่าส่วนต่างที่เกินค่าธรรมเนียมเกิดน้อยและบอทเร็วเก็บไปทันที กระเป๋าที่อ้างก็ไม่ได้เทรดแบบนั้น และ guide มีลิงก์ referral",
+  "verdict": "ตัดทิ้ง",
+  "action": "กำไรขึ้นกับความเร็ว ทำบนกระดาษไม่สมจริง และต้นทางเป็น referral"
+ },
+ {
+  "t": "2026-11-22T23:53:22+07:00",
+  "source": "x",
+  "title": "DaviddDotTech: บอท TradingView + Claude short SUI +121% ALGO +39%",
+  "url": "https://x.com/DaviddDotTech/status/2124194631197786326",
+  "summary": "อ้างบอทจาก alert TradingView ที่ Claude ช่วยตั้ง ได้กำไรสัปดาห์เดียวจากการ short สองเหรียญ",
+  "verdict": "ตัดทิ้ง",
+  "action": "ผลสัปดาห์เดียว 2 ไม้ ไม่ให้กฎเข้าออกที่ตัดสินได้ในส่วนที่อ่านได้"
+ },
+ {
+  "t": "2026-11-22T23:53:22+07:00",
+  "source": "x",
+  "title": "leanxbt: ai-hedge-fund ถูก 84.6% เพราะตลาดขึ้น",
+  "url": "https://x.com/leanxbt/status/2122475208007418260",
+  "summary": "ชี้ว่าบอทที่บอกซื้อ Berkshire ทุกวันถูก 84.6% แต่เทียบ S&P ถูกแค่ 27.1% ความแม่นของ AI agent ในตลาดขาขึ้นจึงหลอกตา",
+  "verdict": "ตัดทิ้ง",
+  "action": "ไม่ใช่ท่า เป็นการเตือนเรื่อง base rate ที่ skill market-timeseries บังคับอยู่แล้ว"
+ },
+ {
+  "t": "2026-11-22T23:53:22+07:00",
+  "source": "web",
+  "title": "arXiv 2604.26747: LLM agent หา factor คริปโตแบบมีข้อจำกัด",
+  "url": "https://arxiv.org/pdf/2604.26747",
+  "summary": "จากผลค้น (ยังไม่ได้อ่านฉบับเต็ม) พอร์ต ridge ที่ฝึกบน 2020-2022 ได้ผลนอกตัวอย่าง 2024-2026 ปีละ 44.6% Sharpe 1.55 หลังต้นทุน 5 bps แต่ alpha อยู่ในเหรียญเล็กและแบบถ่วงมาร์เก็ตแคปทำได้แย่",
+  "verdict": "ไอเดีย",
+  "action": "ต้องมีข้อมูลรายวันของเหรียญจำนวนมากแบบ cross-section และนิยาม factor จากเปเปอร์ ต้นทุนจริงของเหรียญเล็กสูงกว่า 5 bps มาก"
+ }
+]
