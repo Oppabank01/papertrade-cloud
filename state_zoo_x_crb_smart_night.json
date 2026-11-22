@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.598540145985401,
- "cash": 14.103878193768915,
- "pos": {},
+ "cash": 11.283102555015132,
+ "pos": {
+  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
+   "sym": "DacityCoin",
+   "qty": 11513.321517538581,
+   "entry": 0.0002377,
+   "last": 0.0002372,
+   "peak": 0.0002377,
+   "cost": 2.8207756387537835,
+   "opened": "2026-11-23T00:24:48+07:00",
+   "zoo": "x_crb_smart_night",
+   "smart": 351,
+   "kol": 29,
+   "gap": 2,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T23:15:49+07:00",
@@ -37,10 +52,24 @@
    "cost_side": 0.03,
    "smart": 337,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T00:24:48+07:00",
+   "kind": "buy",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.0002377,
+   "jup": 0.0002376519377288777,
+   "usd": 2.8208,
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "zoo": "x_crb_smart_night",
+   "smart": 351,
+   "kol": 29
   }
  ],
  "label": "สวนสัตว์: crbpite8 คืนเดียว: smart money 6+ dev ไม่เกิน 2.1% top10 ไม่เกิน 20% ราคา 5 นาทีขึ้น stop -10%",
  "night": "2026-11-22",
  "night_start": 14.598540145985401,
- "rank_t": 1795367816.132477
+ "rank_t": 1795368106.031928
 }
