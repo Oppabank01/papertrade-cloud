@@ -259,3 +259,15 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ไอเดีย: Quarter-Hour Effect (ต้องข้อมูล 10 วินาที กำไรก่อนหักแค่ 0.51 bps), trade-hub (ต้องข่าวกับหุ้นและเรียก LLM ทุก tick), key level ของ FensoryApp (นิยามอยู่ในแอป), คลังท่าของ irongiantXBT (ต้องชื่อ repo)
 ตัดทิ้ง: repo ดาวปั่นปุ่ม PowerShell (ต้องรันไฟล์ที่ดาวน์โหลด)
 เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
+
+## 2026-11-23 04:42 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 16 พ.ย. (mean reversion crypto, grid trading bot, pairs trading, trading strategy backtest), X 4 ครั้ง (mean reversion bot crypto backtest rules, trading bot strategy RSI ATR rules ไม่มีผล, memecoin bot take profit stop loss rules, my trading bot rules backtest BTC 4h results), เว็บ 1 ครั้ง (งานวิจัยรูปแบบระหว่างวันของ BTC) แล้วอ่าน PDF ของ De Nicola 2021
+เจอ: ShuWayne/crypto-trading-intelligence-terminal (ท่า v3-B mean reversion ในกรอบ กฎครบ อ้าง 17 ไม้ PF 1.75), LBS16ST dip-grid บอทแข่ง make.fun (ซื้อย่อเป็นขั้นบนแท่ง 1 นาที), IDRISK7/crypto-strategy-backtests (11 ท่าทดสอบเข้ม ไม่รอดสักท่า), SignalIn60 (บอท AI ไวรัลคือ SMA20/50 รายวัน แพ้ 83.6% ของ 365 เหรียญ), marvketh (บอทมีม 12 ไม้ ชนะ 0 ไม่มีกฎ), งานวิจัย De Nicola (แท่งกระโดดแรงแล้วดีดกลับที่ 1 ถึง 4 ชม.) ผล X ส่วนใหญ่เป็น prompt Grok Bot และโพสต์ขายของซ้ำรอบก่อน
+ทดสอบแล้ว (Binance หลังหัก 0.35%/ข้าง permutation 200 รอบ):
+- v3-B range mean reversion 4 ชม. 2017-2026 long+short: BTC 171 ไม้ -1.17% ต่อไม้ p 0.920, ETH 127 ไม้ -1.34% p 0.891, SOL 64 ไม้ -1.78% p 0.851 ก่อนหักก็ติดลบ แพ้ตัวแฝดเข้าสุ่ม (-0.54 ถึง -0.73%) ติดลบทุกปี
+- ดีดกลับหลังแท่งกระโดด 2 SD 4 ชม. ถือ 1 แท่ง (SD ย้อนหลัง 180 แท่ง ผมเลือก): BTC 1,165 ไม้ -0.75% p 0.900, ETH 1,201 ไม้ -0.74% p 0.811, SOL 806 ไม้ -0.54% p 0.025 ก่อนหักราว 0% ผลในงานวิจัย (+0.32% ต่อไม้ช่วง 2015-2018) หายไปแล้ว
+- dip-grid BTC 1 นาที 60 วันล่าสุด 89 รอบ: ต้นทุน 0.06%/ข้างแบบ repo +0.108% ต่อรอบ ชนะ 73% p 0.010 ตัวแฝด -0.09% แต่ต้นทุนเรา -0.47% ต่อรอบ edge อยู่ได้เฉพาะค่าธรรมเนียมต่ำมาก forward test ต้องแท่ง 1 นาที ยังทำใน byttrade ไม่ได้
+- SMA20/50 รายวัน long อย่างเดียว: BTC 37 ไม้ +17.1% p 0.055, ETH 31 ไม้ +27.8% p 0.015, SOL 22 ไม้ +60.4% p 0.045 ชนะตัวแฝดแต่แพ้ B&H มัธยฐานติดลบใน BTC SOL เหรียญใหญ่ไม่แพ้ตามโพสต์ ซ้ำสายหลักจึงไม่เปิดบัญชี
+เปิดบัญชี: fwd_rangerev.py (v3-B BTC SOL พร้อมตัวแฝดเข้าสุ่มฝั่งสุ่ม) และ fwd_jumprev.py (ดีดกลับหลังแท่งกระโดด BTC ETH SOL พร้อมตัวแฝด) test เดินทีละแท่งได้ไม้ตรง backtest 11 และ 58 ไม้ สคริปต์ /tmp/scout_0427.py และ /tmp/scout_dipgrid.py
+ไอเดีย: token unlock และ long/short แบบ cross-section ของ IDRISK7 (ต้องตาราง unlock และแท่ง perp ทุกเหรียญรวมที่ถูกถอด), บอทของ marvketh (ต้องโพสต์เต็มหรือกระเป๋า)
+เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
