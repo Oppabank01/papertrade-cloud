@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.5095969226792985,
+ "cash": 1.0120987036371325,
  "pos": {
   "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": {
    "sym": "PUMPCADE",
@@ -21,13 +21,27 @@
    "sym": "JEANPHIL",
    "qty": 204.9770772362044,
    "entry": 0.002383,
-   "last": 0.002376,
+   "last": 0.002361,
    "peak": 0.002439,
    "cost": 0.503463590036977,
    "opened": "2026-11-22T19:24:14+07:00",
    "zoo": "bigliq",
    "smart": 400,
    "kol": 43,
+   "gap": 0,
+   "miss": 0
+  },
+  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
+   "sym": "ANSEM",
+   "qty": 12.681891017202036,
+   "entry": 0.03806,
+   "last": 0.03806,
+   "peak": 0.03806,
+   "cost": 0.49749821904216596,
+   "opened": "2026-11-22T20:20:44+07:00",
+   "zoo": "bigliq",
+   "smart": 1000,
+   "kol": 186,
    "gap": 0,
    "miss": 0
   }
@@ -3661,8 +3675,22 @@
    "cost_side": 0.03,
    "smart": 888,
    "bundler": null
+  },
+  {
+   "t": "2026-11-22T20:20:44+07:00",
+   "kind": "buy",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.03806,
+   "jup": 0.03811705243494439,
+   "usd": 0.4975,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliq",
+   "smart": 1000,
+   "kol": 186
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ มาร์เก็ตแคป 2M+",
- "rank_t": 1795353318.708714
+ "rank_t": 1795353607.0577118
 }
