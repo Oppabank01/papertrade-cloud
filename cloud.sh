@@ -32,6 +32,7 @@ $PY byttrade.py run || echo "byttrade run failed"   # SOL/ETH/BTC 4h byttrade st
 $PY twocandle.py || echo "twocandle run failed"   # RohOnChain 2-candle forward (lost in backtest, opened to try)
 $PY crash.py init 500 >/dev/null; $PY crash.py run || echo "crash run failed"   # Fable perp accounts (19 Nov): crash-day bounce, night crash short, new-listing short
 $PY grokwatch.py || echo "grokwatch failed"   # 19-20 Nov: 5-min DexScreener log of every mint the Grok Bot routines mention, 24 h each
+$PY polymarket.py run || echo "polymarket run failed"   # copy top Polymarket wallets + random twin (23 Nov)
 left=$((T0 + 230 - $(date +%s))); [ "$left" -gt 0 ] && sleep "$left"   # watcher keeps checking here instead of the chain step idling
 $PY zoo.py stopwatch; wait $WATCH $WATCH5
 TODAY=$(TZ=Asia/Bangkok date +%F); H=$((10#$(TZ=Asia/Bangkok date +%H)))
