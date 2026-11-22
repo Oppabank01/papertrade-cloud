@@ -1,47 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 5.794411433361949,
+ "cash": 8.154035836754918,
  "pos": {
-  "EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump": {
-   "sym": "LUNO",
-   "qty": 7117.2226112104,
-   "entry": 0.0003951,
-   "last": 0.00035578191895806015,
-   "peak": 0.0003951,
-   "cost": 2.8983865735819716,
-   "opened": "2026-11-23T03:25:13+07:00",
-   "zoo": "x_boost_paid",
-   "smart": 37,
-   "kol": 2,
-   "gap": 1,
-   "miss": 0
-  },
-  "4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": {
-   "sym": "greg",
-   "qty": 9842.447346314228,
-   "entry": 0.000284,
-   "last": 0.0002802,
-   "peak": 0.0002973,
-   "cost": 2.881112189603423,
-   "opened": "2026-11-23T03:25:13+07:00",
-   "zoo": "x_boost_paid",
-   "smart": 167,
-   "kol": 12,
-   "gap": 0,
-   "miss": 0
-  },
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 235.2737024499627,
    "entry": 0.01175,
-   "last": 0.01145,
+   "last": 0.01116,
    "peak": 0.01189,
    "cost": 2.849377451852259,
    "opened": "2026-11-23T03:30:41+07:00",
    "zoo": "x_boost_paid",
    "smart": 562,
    "kol": 34,
+   "gap": 0,
+   "miss": 0
+  },
+  "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
+   "sym": "TROLL",
+   "qty": 127.13694944384439,
+   "entry": 0.0209,
+   "last": 0.02083,
+   "peak": 0.0209,
+   "cost": 2.7387778224864436,
+   "opened": "2026-11-23T05:25:12+07:00",
+   "zoo": "x_boost_paid",
+   "smart": 475,
+   "kol": 214,
    "gap": 0,
    "miss": 0
   }
@@ -122,10 +108,54 @@
    "cost_side": 0.03,
    "smart": 928,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T05:25:12+07:00",
+   "kind": "buy",
+   "mint": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
+   "sym": "TROLL",
+   "price": 0.0209,
+   "jup": 0.020902285773016813,
+   "usd": 2.7388,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_boost_paid",
+   "smart": 475,
+   "kol": 214
+  },
+  {
+   "t": "2026-11-23T05:25:14+07:00",
+   "kind": "sell",
+   "mint": "EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump",
+   "sym": "LUNO",
+   "price": 0.0003557,
+   "entry": 0.0003951,
+   "usd": 2.4562,
+   "pnl": -0.4422,
+   "why": "ครบ 2 ชม. (-10.0%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 37,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-23T05:25:14+07:00",
+   "kind": "sell",
+   "mint": "4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump",
+   "sym": "greg",
+   "price": 0.0002767,
+   "entry": 0.000284,
+   "usd": 2.6422,
+   "pnl": -0.2389,
+   "why": "ครบ 2 ชม. (-2.6%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 167,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: dev จ่ายค่า boost DexScreener แล้ว (ซื้อตามโปรโมต) (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-22",
  "night_start": 14.624159110851126,
- "rank_t": 1795385892.2562964
+ "rank_t": 1795386174.8635738
 }
