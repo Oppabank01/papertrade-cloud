@@ -34,3 +34,4 @@ TODAY=$(TZ=Asia/Bangkok date +%F); H=$((10#$(TZ=Asia/Bangkok date +%H)))
 if [ "$H" -ge 8 ] && [ "$(cat data/last_daily 2>/dev/null)" != "$TODAY" ]; then
   $PY paper.py run; $PY dca.py run; $PY stock.py run; $PY majors.py run; echo "$TODAY" > data/last_daily
 fi
+$PY tools/review.py . --json > data/board.json.tmp && mv data/board.json.tmp data/board.json || { rm -f data/board.json.tmp; echo "board failed"; }   # status board for the live page
