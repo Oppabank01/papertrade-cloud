@@ -1,0 +1,2982 @@
+{
+ "generated": "2026-11-22T19:18+07:00",
+ "rand_pnl": -0.10797699199001443,
+ "rows": [
+  {
+   "file": "state_agents.json",
+   "label": "state_agents.json",
+   "pnl": -0.9836506897285211,
+   "start_thb": 500.0,
+   "closed": 191,
+   "wins": 28,
+   "median": -0.0303,
+   "mean": -0.07611675392670157,
+   "pnl_wo_best": -1.0952327179999999,
+   "pnl_2xfee": -1.226192100668521,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 104.02151813777778,
+   "per_day": 19.617235074551324,
+   "started": "13/11 01:37",
+   "siblings": [],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 2% ของทุน"
+  },
+  {
+   "file": "state_apple.json",
+   "label": "สูตร crbpite8 Apple Card (ไม้ 60%)",
+   "pnl": -0.8576361215523087,
+   "start_thb": 500.0,
+   "closed": 34,
+   "wins": 9,
+   "median": -0.09175,
+   "mean": -0.37280882352941175,
+   "pnl_wo_best": -0.919343782,
+   "pnl_2xfee": -1.0410257774923086,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 103.39568480444444,
+   "per_day": 3.620344627364239,
+   "started": "13/11 09:54",
+   "siblings": [
+    [
+     "night_apple",
+     0.0
+    ]
+   ],
+   "verdict": "เงียบ",
+   "why": "ไม่มีไม้ 103 ชม."
+  },
+  {
+   "file": "state_curve.json",
+   "label": "ตามกระเป๋า 10 ใบ บน bonding curve",
+   "pnl": -0.9899051445283594,
+   "start_thb": 500.0,
+   "closed": 40,
+   "wins": 3,
+   "median": -0.35409999999999997,
+   "mean": -0.364475,
+   "pnl_wo_best": -1.110844,
+   "pnl_2xfee": -1.1469017251783595,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": 59.70346258222222,
+   "per_day": 5.047713266496668,
+   "started": "14/11 21:07",
+   "siblings": [],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 1% ของทุน"
+  },
+  {
+   "file": "state_day_d_fundspike_500.json",
+   "label": "funding พุ่งเกิน 0.01%/ชม. ถือ spot + short perp",
+   "pnl": -0.013494551145232903,
+   "start_thb": 500.0,
+   "closed": 0,
+   "wins": 0,
+   "median": null,
+   "mean": null,
+   "pnl_wo_best": null,
+   "pnl_2xfee": -0.013494551145232903,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": 18.24096258222222,
+   "per_day": 0.0,
+   "started": "16/11 19:02",
+   "siblings": [],
+   "verdict": "รอข้อมูล",
+   "why": "ยังไม่มีไม้ปิด"
+  },
+  {
+   "file": "state_day_d_grid_btc_500.json",
+   "label": "กริด BTC ทุก 0.5% 8 ขั้น ปิดทุก 09:00",
+   "pnl": -0.026273218283294097,
+   "start_thb": 500.0,
+   "closed": 0,
+   "wins": 0,
+   "median": null,
+   "mean": null,
+   "pnl_wo_best": null,
+   "pnl_2xfee": -0.026273218283294097,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": null,
+   "per_day": 0,
+   "started": "-",
+   "siblings": [
+    [
+     "day_d_grid_sol_500",
+     -0.020715791981676612
+    ]
+   ],
+   "verdict": "รอข้อมูล",
+   "why": "ยังไม่มีไม้ปิด"
+  },
+  {
+   "file": "state_day_d_grid_sol_500.json",
+   "label": "กริด SOL ทุก 0.5% 8 ขั้น ปิดทุก 09:00",
+   "pnl": -0.020715791981676612,
+   "start_thb": 500.0,
+   "closed": 0,
+   "wins": 0,
+   "median": null,
+   "mean": null,
+   "pnl_wo_best": null,
+   "pnl_2xfee": -0.020715791981676612,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": null,
+   "per_day": 0,
+   "started": "-",
+   "siblings": [
+    [
+     "day_d_grid_btc_500",
+     -0.026273218283294097
+    ]
+   ],
+   "verdict": "รอข้อมูล",
+   "why": "ยังไม่มีไม้ปิด"
+  },
+  {
+   "file": "state_day_d_liqdip_500.json",
+   "label": "ช้อนเหรียญใหญ่ร่วงแรงใน 1 ชม. TP +1.5% stop -2.5%",
+   "pnl": 0.010427382473205737,
+   "start_thb": 500.0,
+   "closed": 15,
+   "wins": 11,
+   "median": 0.0636,
+   "mean": 0.010226666666666665,
+   "pnl_wo_best": 0.006009431999999999,
+   "pnl_2xfee": null,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 29.570962582222222,
+   "per_day": 2.558254245806872,
+   "started": "16/11 22:35",
+   "siblings": [],
+   "verdict": "เงียบ",
+   "why": "ไม่มีไม้ 30 ชม."
+  },
+  {
+   "file": "state_fund_fund7.json",
+   "label": "เก็บค่า funding BTC ETH SOL เปิดเมื่อค่าเฉลี่ย 7 วันเป็นบวก",
+   "pnl": -0.005669119999999972,
+   "start_thb": 10000.0,
+   "closed": 0,
+   "wins": 0,
+   "median": null,
+   "mean": null,
+   "pnl_wo_best": null,
+   "pnl_2xfee": -0.005669119999999972,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": null,
+   "per_day": 0.0,
+   "started": "14/11 19:00",
+   "siblings": [
+    [
+     "fund_fundhi_500",
+     -0.0020536000000001
+    ],
+    [
+     "fund_fundon",
+     -0.0027859199999999973
+    ],
+    [
+     "fund_fundtop3_500",
+     -0.007492000000000054
+    ]
+   ],
+   "verdict": "รอข้อมูล",
+   "why": "ยังไม่มีไม้ปิด"
+  },
+  {
+   "file": "state_fund_fundhi_500.json",
+   "label": "เก็บ funding ทุกเหรียญใน 15 perp ใหญ่ที่ค่าเฉลี่ย 7 วันเกิน 10%/ปี (สูงสุด 5)",
+   "pnl": -0.0020536000000001,
+   "start_thb": 500.0,
+   "closed": 0,
+   "wins": 0,
+   "median": null,
+   "mean": null,
+   "pnl_wo_best": null,
+   "pnl_2xfee": -0.0020536000000001,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": null,
+   "per_day": 0.0,
+   "started": "15/11 22:18",
+   "siblings": [
+    [
+     "fund_fund7",
+     -0.005669119999999972
+    ],
+    [
+     "fund_fundon",
+     -0.0027859199999999973
+    ],
+    [
+     "fund_fundtop3_500",
+     -0.007492000000000054
+    ]
+   ],
+   "verdict": "รอข้อมูล",
+   "why": "ยังไม่มีไม้ปิด"
+  },
+  {
+   "file": "state_fund_fundon.json",
+   "label": "เก็บค่า funding BTC ETH SOL เปิดตลอด (ตัวควบคุม)",
+   "pnl": -0.0027859199999999973,
+   "start_thb": 10000.0,
+   "closed": 0,
+   "wins": 0,
+   "median": null,
+   "mean": null,
+   "pnl_wo_best": null,
+   "pnl_2xfee": -0.0027859199999999973,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": null,
+   "per_day": 0.0,
+   "started": "14/11 19:00",
+   "siblings": [
+    [
+     "fund_fund7",
+     -0.005669119999999972
+    ],
+    [
+     "fund_fundhi_500",
+     -0.0020536000000001
+    ],
+    [
+     "fund_fundtop3_500",
+     -0.007492000000000054
+    ]
+   ],
+   "verdict": "รอข้อมูล",
+   "why": "ยังไม่มีไม้ปิด"
+  },
+  {
+   "file": "state_fund_fundtop3_500.json",
+   "label": "เก็บ funding 3 เหรียญที่ค่าเฉลี่ย 7 วันสูงสุดใน 15 perp ใหญ่ เลือกใหม่ทุกวัน",
+   "pnl": -0.007492000000000054,
+   "start_thb": 500.0,
+   "closed": 0,
+   "wins": 0,
+   "median": null,
+   "mean": null,
+   "pnl_wo_best": null,
+   "pnl_2xfee": -0.007492000000000054,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": null,
+   "per_day": 0.0,
+   "started": "15/11 22:18",
+   "siblings": [
+    [
+     "fund_fund7",
+     -0.005669119999999972
+    ],
+    [
+     "fund_fundhi_500",
+     -0.0020536000000001
+    ],
+    [
+     "fund_fundon",
+     -0.0027859199999999973
+    ]
+   ],
+   "verdict": "รอข้อมูล",
+   "why": "ยังไม่มีไม้ปิด"
+  },
+  {
+   "file": "state_gnews.json",
+   "label": "ข่าว Gemini: Hydrogen อ่านข่าวคริปโตแล้วเลือกเหรียญใหญ่ ไม้ละ 20% TP +4% SL -2% ถือไม่เกิน 12 ชม.",
+   "pnl": 0.0,
+   "start_thb": 500.0,
+   "closed": 0,
+   "wins": 0,
+   "median": null,
+   "mean": null,
+   "pnl_wo_best": null,
+   "pnl_2xfee": 0.0,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": null,
+   "per_day": 0,
+   "started": "-",
+   "siblings": [
+    [
+     "gnews_twin",
+     0.0
+    ]
+   ],
+   "verdict": "รอข้อมูล",
+   "why": "ยังไม่มีไม้ปิด"
+  },
+  {
+   "file": "state_gnews_twin.json",
+   "label": "ตัวควบคุมข่าว Gemini: สุ่มเหรียญและฝั่ง ณ เวลาเดียวกัน ขนาดและกฎออกเท่ากัน",
+   "pnl": 0.0,
+   "start_thb": 500.0,
+   "closed": 0,
+   "wins": 0,
+   "median": null,
+   "mean": null,
+   "pnl_wo_best": null,
+   "pnl_2xfee": 0.0,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": null,
+   "per_day": 0,
+   "started": "-",
+   "siblings": [
+    [
+     "gnews",
+     0.0
+    ]
+   ],
+   "verdict": "รอข้อมูล",
+   "why": "ยังไม่มีไม้ปิด"
+  },
+  {
+   "file": "state_grok_v2.json",
+   "label": "state_grok_v2.json",
+   "pnl": 0.0,
+   "start_thb": 500.0,
+   "closed": 0,
+   "wins": 0,
+   "median": null,
+   "mean": null,
+   "pnl_wo_best": null,
+   "pnl_2xfee": 0.0,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": null,
+   "per_day": 0.0,
+   "started": "13/11 01:37",
+   "siblings": [
+    [
+     "zoo_v_grok",
+     0.0
+    ]
+   ],
+   "verdict": "รอข้อมูล",
+   "why": "ยังไม่มีไม้ปิด"
+  },
+  {
+   "file": "state_grokbot.json",
+   "label": "Grok Bot ตามกระเป๋า",
+   "pnl": -0.03023114266136251,
+   "start_thb": 500.0,
+   "closed": 1,
+   "wins": 0,
+   "median": -0.4468,
+   "mean": -0.4468,
+   "pnl_wo_best": 0.0,
+   "pnl_2xfee": -0.033928761661362605,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 209.32401813777778,
+   "per_day": 0.10270815913390391,
+   "started": "13/11 01:37",
+   "siblings": [],
+   "verdict": "เงียบ",
+   "why": "ไม่มีไม้ 209 ชม."
+  },
+  {
+   "file": "state_grokteam.json",
+   "label": "Grok ทีมเอเจนต์",
+   "pnl": 0.0,
+   "start_thb": 500.0,
+   "closed": 0,
+   "wins": 0,
+   "median": null,
+   "mean": null,
+   "pnl_wo_best": null,
+   "pnl_2xfee": 0.0,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": null,
+   "per_day": 0.0,
+   "started": "13/11 01:37",
+   "siblings": [],
+   "verdict": "รอข้อมูล",
+   "why": "ยังไม่มีไม้ปิด"
+  },
+  {
+   "file": "state_hype.json",
+   "label": "สายโม้ (ไม้ใหญ่ ปล่อยกำไรวิ่ง)",
+   "pnl": -0.7762465335902151,
+   "start_thb": 500.0,
+   "closed": 53,
+   "wins": 10,
+   "median": -0.3621,
+   "mean": -0.21640377358490565,
+   "pnl_wo_best": -1.5767951040000003,
+   "pnl_2xfee": -1.182263591190215,
+   "fee_est": true,
+   "halted": "ราคา Fine สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 110.9923514711111,
+   "per_day": 5.444697465042066,
+   "started": "13/11 01:40",
+   "siblings": [],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา Fine สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_major_btc50.json",
+   "label": "BTC เหนือ SMA50",
+   "pnl": -7.769999999962529e-06,
+   "start_thb": 10000.0,
+   "closed": 0,
+   "wins": 0,
+   "median": null,
+   "mean": null,
+   "pnl_wo_best": null,
+   "pnl_2xfee": -7.769999999962529e-06,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": null,
+   "per_day": 0,
+   "started": "-",
+   "siblings": [
+    [
+     "major_hold6",
+     -0.12672247999999986
+    ],
+    [
+     "major_trend6",
+     -7.769999999962529e-06
+    ],
+    [
+     "major_vt6",
+     -7.769999999962529e-06
+    ]
+   ],
+   "verdict": "รอข้อมูล",
+   "why": "ยังไม่มีไม้ปิด"
+  },
+  {
+   "file": "state_major_hold6.json",
+   "label": "เหรียญใหญ่ 6 ตัว ถือเฉยๆ (ตัวควบคุม)",
+   "pnl": -0.12672247999999986,
+   "start_thb": 10000.0,
+   "closed": 0,
+   "wins": 0,
+   "median": null,
+   "mean": null,
+   "pnl_wo_best": null,
+   "pnl_2xfee": -0.12672247999999986,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": null,
+   "per_day": 0.0,
+   "started": "14/11 01:01",
+   "siblings": [
+    [
+     "major_btc50",
+     -7.769999999962529e-06
+    ],
+    [
+     "major_trend6",
+     -7.769999999962529e-06
+    ],
+    [
+     "major_vt6",
+     -7.769999999962529e-06
+    ]
+   ],
+   "verdict": "รอข้อมูล",
+   "why": "ยังไม่มีไม้ปิด"
+  },
+  {
+   "file": "state_major_trend6.json",
+   "label": "เหรียญใหญ่ ตามเทรนด์ SMA50 6 ช่อง",
+   "pnl": -7.769999999962529e-06,
+   "start_thb": 10000.0,
+   "closed": 0,
+   "wins": 0,
+   "median": null,
+   "mean": null,
+   "pnl_wo_best": null,
+   "pnl_2xfee": -7.769999999962529e-06,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": null,
+   "per_day": 0,
+   "started": "-",
+   "siblings": [
+    [
+     "major_btc50",
+     -7.769999999962529e-06
+    ],
+    [
+     "major_hold6",
+     -0.12672247999999986
+    ],
+    [
+     "major_vt6",
+     -7.769999999962529e-06
+    ]
+   ],
+   "verdict": "รอข้อมูล",
+   "why": "ยังไม่มีไม้ปิด"
+  },
+  {
+   "file": "state_major_vt6.json",
+   "label": "เหรียญใหญ่ ตามเทรนด์คุมความผันผวน 6 เหรียญ",
+   "pnl": -7.769999999962529e-06,
+   "start_thb": 10000.0,
+   "closed": 0,
+   "wins": 0,
+   "median": null,
+   "mean": null,
+   "pnl_wo_best": null,
+   "pnl_2xfee": -7.769999999962529e-06,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": null,
+   "per_day": 0,
+   "started": "-",
+   "siblings": [
+    [
+     "major_btc50",
+     -7.769999999962529e-06
+    ],
+    [
+     "major_hold6",
+     -0.12672247999999986
+    ],
+    [
+     "major_trend6",
+     -7.769999999962529e-06
+    ]
+   ],
+   "verdict": "รอข้อมูล",
+   "why": "ยังไม่มีไม้ปิด"
+  },
+  {
+   "file": "state_night_apple.json",
+   "label": "คืนละรอบ แบบ Apple Card",
+   "pnl": 0.0,
+   "start_thb": null,
+   "closed": 17,
+   "wins": 2,
+   "median": -0.5755,
+   "mean": -0.8512,
+   "pnl_wo_best": -1.077375558,
+   "pnl_2xfee": -0.25984828212,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 34.30429591555556,
+   "per_day": 1.9061648182979662,
+   "started": "13/11 21:15",
+   "siblings": [
+    [
+     "apple",
+     -0.8576361215523087
+    ]
+   ],
+   "verdict": "เงียบ",
+   "why": "ไม่มีไม้ 34 ชม."
+  },
+  {
+   "file": "state_night_runner.json",
+   "label": "คืนละรอบ ปล่อยกำไรวิ่ง",
+   "pnl": 0.0,
+   "start_thb": null,
+   "closed": 18,
+   "wins": 2,
+   "median": -0.7278,
+   "mean": -0.6992277777777778,
+   "pnl_wo_best": -0.94365264,
+   "pnl_2xfee": -0.24838691429999993,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 34.30429591555556,
+   "per_day": 2.018292160550788,
+   "started": "13/11 21:15",
+   "siblings": [],
+   "verdict": "เงียบ",
+   "why": "ไม่มีไม้ 34 ชม."
+  },
+  {
+   "file": "state_night_safe.json",
+   "label": "คืนละรอบ แบบระวัง",
+   "pnl": 0.0,
+   "start_thb": null,
+   "closed": 23,
+   "wins": 3,
+   "median": -0.196,
+   "mean": -0.3492521739130435,
+   "pnl_wo_best": -0.60333798,
+   "pnl_2xfee": -0.20605268795999998,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 36.612073693333336,
+   "per_day": 2.5789288718148957,
+   "started": "13/11 21:15",
+   "siblings": [
+    [
+     "zoo_safe",
+     -0.8791395621784548
+    ]
+   ],
+   "verdict": "เงียบ",
+   "why": "ไม่มีไม้ 37 ชม."
+  },
+  {
+   "file": "state_nolaya.json",
+   "label": "เร็ว ไม่มี laya",
+   "pnl": -0.9838300587616478,
+   "start_thb": 500.0,
+   "closed": 159,
+   "wins": 11,
+   "median": -0.0389,
+   "mean": -0.09144402515723271,
+   "pnl_wo_best": -1.064014394,
+   "pnl_2xfee": -1.1538320334816476,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 161.8226292488889,
+   "per_day": 16.879074936119746,
+   "started": "13/11 09:13",
+   "siblings": [],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 2% ของทุน"
+  },
+  {
+   "file": "state_perp_b_bnlist_buy_500.json",
+   "label": "ข่าวใหญ่: ซื้อเมื่อ Binance ประกาศ Will List stop -8% trail 15% ถือไม่เกิน 16 ชม.",
+   "pnl": 0.0,
+   "start_thb": 500.0,
+   "closed": 0,
+   "wins": 0,
+   "median": null,
+   "mean": null,
+   "pnl_wo_best": null,
+   "pnl_2xfee": 0.0,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": null,
+   "per_day": 0,
+   "started": "-",
+   "siblings": [
+    [
+     "perp_c_crashbounce_24h_500",
+     0.016574311525357377
+    ],
+    [
+     "perp_c_crashbounce_72h_500",
+     -0.9827436979640454
+    ],
+    [
+     "perp_l_newlist_short_500",
+     0.0
+    ],
+    [
+     "perp_n_crashshort_500",
+     0.0
+    ],
+    [
+     "perp_n_low30short_500",
+     0.0
+    ],
+    [
+     "perp_u_upbit_buy_500",
+     0.0
+    ],
+    [
+     "perp_u_upbit_fade_500",
+     0.0
+    ]
+   ],
+   "verdict": "รอข้อมูล",
+   "why": "ยังไม่มีไม้ปิด"
+  },
+  {
+   "file": "state_perp_c_crashbounce_24h_500.json",
+   "label": "Fable: ช้อน alt วันตลาดพัง (เหรียญ -15% และ BTC -5% ใน 24 ชม.) ถือ 24 ชม.",
+   "pnl": 0.016574311525357377,
+   "start_thb": 500.0,
+   "closed": 5,
+   "wins": 3,
+   "median": 0.0371,
+   "mean": 0.049339999999999995,
+   "pnl_wo_best": -0.0026554080000000006,
+   "pnl_2xfee": null,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 6.220962582222222,
+   "per_day": 2.71160115684542,
+   "started": "20/11 23:03",
+   "siblings": [
+    [
+     "perp_b_bnlist_buy_500",
+     0.0
+    ],
+    [
+     "perp_c_crashbounce_72h_500",
+     -0.9827436979640454
+    ],
+    [
+     "perp_l_newlist_short_500",
+     0.0
+    ],
+    [
+     "perp_n_crashshort_500",
+     0.0
+    ],
+    [
+     "perp_n_low30short_500",
+     0.0
+    ],
+    [
+     "perp_u_upbit_buy_500",
+     0.0
+    ],
+    [
+     "perp_u_upbit_fade_500",
+     0.0
+    ]
+   ],
+   "verdict": "รอข้อมูล",
+   "why": "อีกราว 17 วันถึง 50 ไม้"
+  },
+  {
+   "file": "state_perp_c_crashbounce_72h_500.json",
+   "label": "Fable: ช้อน alt วันตลาดพัง ถือ 72 ชม.",
+   "pnl": -0.9827436979640454,
+   "start_thb": 500.0,
+   "closed": 0,
+   "wins": 0,
+   "median": null,
+   "mean": null,
+   "pnl_wo_best": null,
+   "pnl_2xfee": -0.9827436979640454,
+   "fee_est": false,
+   "halted": null,
+   "open": 5,
+   "idle_h": 30.27096258222222,
+   "per_day": 0.0,
+   "started": "20/11 23:03",
+   "siblings": [
+    [
+     "perp_b_bnlist_buy_500",
+     0.0
+    ],
+    [
+     "perp_c_crashbounce_24h_500",
+     0.016574311525357377
+    ],
+    [
+     "perp_l_newlist_short_500",
+     0.0
+    ],
+    [
+     "perp_n_crashshort_500",
+     0.0
+    ],
+    [
+     "perp_n_low30short_500",
+     0.0
+    ],
+    [
+     "perp_u_upbit_buy_500",
+     0.0
+    ],
+    [
+     "perp_u_upbit_fade_500",
+     0.0
+    ]
+   ],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 2% ของทุน"
+  },
+  {
+   "file": "state_perp_l_newlist_short_500.json",
+   "label": "Fable: short เหรียญเพิ่งเข้า Hyperliquid ถือ 30 วัน stop +50%",
+   "pnl": 0.0,
+   "start_thb": 500.0,
+   "closed": 0,
+   "wins": 0,
+   "median": null,
+   "mean": null,
+   "pnl_wo_best": null,
+   "pnl_2xfee": 0.0,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": null,
+   "per_day": 0,
+   "started": "-",
+   "siblings": [
+    [
+     "perp_b_bnlist_buy_500",
+     0.0
+    ],
+    [
+     "perp_c_crashbounce_24h_500",
+     0.016574311525357377
+    ],
+    [
+     "perp_c_crashbounce_72h_500",
+     -0.9827436979640454
+    ],
+    [
+     "perp_n_crashshort_500",
+     0.0
+    ],
+    [
+     "perp_n_low30short_500",
+     0.0
+    ],
+    [
+     "perp_u_upbit_buy_500",
+     0.0
+    ],
+    [
+     "perp_u_upbit_fade_500",
+     0.0
+    ]
+   ],
+   "verdict": "รอข้อมูล",
+   "why": "ยังไม่มีไม้ปิด"
+  },
+  {
+   "file": "state_perp_n_crashshort_500.json",
+   "label": "Fable: 21:00 short เหรียญที่ร่วง 10%+ ใน 6 ชม. ปิด 09:00 (กะดึก)",
+   "pnl": 0.0,
+   "start_thb": 500.0,
+   "closed": 0,
+   "wins": 0,
+   "median": null,
+   "mean": null,
+   "pnl_wo_best": null,
+   "pnl_2xfee": 0.0,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": null,
+   "per_day": 0,
+   "started": "-",
+   "siblings": [
+    [
+     "perp_b_bnlist_buy_500",
+     0.0
+    ],
+    [
+     "perp_c_crashbounce_24h_500",
+     0.016574311525357377
+    ],
+    [
+     "perp_c_crashbounce_72h_500",
+     -0.9827436979640454
+    ],
+    [
+     "perp_l_newlist_short_500",
+     0.0
+    ],
+    [
+     "perp_n_low30short_500",
+     0.0
+    ],
+    [
+     "perp_u_upbit_buy_500",
+     0.0
+    ],
+    [
+     "perp_u_upbit_fade_500",
+     0.0
+    ]
+   ],
+   "verdict": "รอข้อมูล",
+   "why": "ยังไม่มีไม้ปิด"
+  },
+  {
+   "file": "state_perp_n_low30short_500.json",
+   "label": "Fable: 21:00 short เหรียญปิดต่ำสุด 30 วันและร่วง 5%+ ใน 12 ชม. ปิด 09:00 (วัดผล)",
+   "pnl": 0.0,
+   "start_thb": 500.0,
+   "closed": 0,
+   "wins": 0,
+   "median": null,
+   "mean": null,
+   "pnl_wo_best": null,
+   "pnl_2xfee": 0.0,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": null,
+   "per_day": 0,
+   "started": "-",
+   "siblings": [
+    [
+     "perp_b_bnlist_buy_500",
+     0.0
+    ],
+    [
+     "perp_c_crashbounce_24h_500",
+     0.016574311525357377
+    ],
+    [
+     "perp_c_crashbounce_72h_500",
+     -0.9827436979640454
+    ],
+    [
+     "perp_l_newlist_short_500",
+     0.0
+    ],
+    [
+     "perp_n_crashshort_500",
+     0.0
+    ],
+    [
+     "perp_u_upbit_buy_500",
+     0.0
+    ],
+    [
+     "perp_u_upbit_fade_500",
+     0.0
+    ]
+   ],
+   "verdict": "รอข้อมูล",
+   "why": "ยังไม่มีไม้ปิด"
+  },
+  {
+   "file": "state_perp_u_upbit_buy_500.json",
+   "label": "ข่าวใหญ่: ซื้อเมื่อ Upbit ประกาศลิสต์ stop -8% trail 15% ถือไม่เกิน 16 ชม.",
+   "pnl": 0.0,
+   "start_thb": 500.0,
+   "closed": 0,
+   "wins": 0,
+   "median": null,
+   "mean": null,
+   "pnl_wo_best": null,
+   "pnl_2xfee": 0.0,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": null,
+   "per_day": 0,
+   "started": "-",
+   "siblings": [
+    [
+     "perp_b_bnlist_buy_500",
+     0.0
+    ],
+    [
+     "perp_c_crashbounce_24h_500",
+     0.016574311525357377
+    ],
+    [
+     "perp_c_crashbounce_72h_500",
+     -0.9827436979640454
+    ],
+    [
+     "perp_l_newlist_short_500",
+     0.0
+    ],
+    [
+     "perp_n_crashshort_500",
+     0.0
+    ],
+    [
+     "perp_n_low30short_500",
+     0.0
+    ],
+    [
+     "perp_u_upbit_fade_500",
+     0.0
+    ]
+   ],
+   "verdict": "รอข้อมูล",
+   "why": "ยังไม่มีไม้ปิด"
+  },
+  {
+   "file": "state_perp_u_upbit_fade_500.json",
+   "label": "ข่าวใหญ่: short เมื่อ Upbit ประกาศลิสต์ (ขายข่าว) ปิด 16 ชม. stop +25%",
+   "pnl": 0.0,
+   "start_thb": 500.0,
+   "closed": 0,
+   "wins": 0,
+   "median": null,
+   "mean": null,
+   "pnl_wo_best": null,
+   "pnl_2xfee": 0.0,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": null,
+   "per_day": 0,
+   "started": "-",
+   "siblings": [
+    [
+     "perp_b_bnlist_buy_500",
+     0.0
+    ],
+    [
+     "perp_c_crashbounce_24h_500",
+     0.016574311525357377
+    ],
+    [
+     "perp_c_crashbounce_72h_500",
+     -0.9827436979640454
+    ],
+    [
+     "perp_l_newlist_short_500",
+     0.0
+    ],
+    [
+     "perp_n_crashshort_500",
+     0.0
+    ],
+    [
+     "perp_n_low30short_500",
+     0.0
+    ],
+    [
+     "perp_u_upbit_buy_500",
+     0.0
+    ]
+   ],
+   "verdict": "รอข้อมูล",
+   "why": "ยังไม่มีไม้ปิด"
+  },
+  {
+   "file": "state_recipe_grad.json",
+   "label": "สูตร 0xNevsky (เพิ่งจบ bonding curve)",
+   "pnl": -0.9835750736727588,
+   "start_thb": 500.0,
+   "closed": 117,
+   "wins": 30,
+   "median": -0.0772,
+   "mean": -0.12425042735042735,
+   "pnl_wo_best": -1.076768304,
+   "pnl_2xfee": -1.1115931388127587,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 92.28874036,
+   "per_day": 12.45822939338772,
+   "started": "13/11 09:54",
+   "siblings": [
+    [
+     "recipe_insider",
+     -0.9708144752282851
+    ],
+    [
+     "recipe_smart4",
+     -0.9841261387096776
+    ]
+   ],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 2% ของทุน"
+  },
+  {
+   "file": "state_recipe_insider.json",
+   "label": "สูตร x_insider4 (คู่ใหม่ + top trader)",
+   "pnl": -0.9708144752282851,
+   "start_thb": 500.0,
+   "closed": 54,
+   "wins": 7,
+   "median": -0.0732,
+   "mean": -0.26570925925925926,
+   "pnl_wo_best": -1.0660780239999998,
+   "pnl_2xfee": -1.032910049168285,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 6.765962582222222,
+   "per_day": 5.749952027717409,
+   "started": "13/11 09:54",
+   "siblings": [
+    [
+     "recipe_grad",
+     -0.9835750736727588
+    ],
+    [
+     "recipe_smart4",
+     -0.9841261387096776
+    ]
+   ],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 3% ของทุน"
+  },
+  {
+   "file": "state_recipe_smart4.json",
+   "label": "สูตร crbpite8 (วาฬ + smart 4 กระเป๋า)",
+   "pnl": -0.9841261387096776,
+   "start_thb": 500.0,
+   "closed": 156,
+   "wins": 19,
+   "median": -0.03955,
+   "mean": -0.09323910256410256,
+   "pnl_wo_best": -1.0825802979999999,
+   "pnl_2xfee": -1.1614148924496777,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 173.2576292488889,
+   "per_day": 16.610992996141803,
+   "started": "13/11 09:54",
+   "siblings": [
+    [
+     "recipe_grad",
+     -0.9835750736727588
+    ],
+    [
+     "recipe_insider",
+     -0.9708144752282851
+    ]
+   ],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 2% ของทุน"
+  },
+  {
+   "file": "state_runner.json",
+   "label": "เร็ว ปล่อยกำไรวิ่ง (ไม้ 20%)",
+   "pnl": -0.809263981122739,
+   "start_thb": 500.0,
+   "closed": 71,
+   "wins": 12,
+   "median": -0.1585,
+   "mean": -0.1684619718309859,
+   "pnl_wo_best": -0.850574158,
+   "pnl_2xfee": -1.032094342562739,
+   "fee_est": true,
+   "halted": "ราคา Fine สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 116.03707369333334,
+   "per_day": 7.537187723283294,
+   "started": "13/11 09:13",
+   "siblings": [
+    [
+     "night_runner",
+     0.0
+    ]
+   ],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา Fine สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_wallets.json",
+   "label": "ตามกระเป๋า 10 ใบ ผ่าน Helius",
+   "pnl": -0.6097088322263103,
+   "start_thb": 500.0,
+   "closed": 34,
+   "wins": 2,
+   "median": -0.10325,
+   "mean": -0.26503823529411763,
+   "pnl_wo_best": -0.613534114,
+   "pnl_2xfee": -0.7680542744863104,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 5.834295915555555,
+   "per_day": 3.631587399013613,
+   "started": "13/11 10:36",
+   "siblings": [],
+   "verdict": "ตาย",
+   "why": "34 ไม้แล้วยังแพ้ตัวสุ่ม"
+  },
+  {
+   "file": "state_zoo_aged.json",
+   "label": "สวนสัตว์: เหรียญอายุเกิน 1 วัน ยังมีคนเล่น",
+   "pnl": -0.9837508610906094,
+   "start_thb": 500.0,
+   "closed": 225,
+   "wins": 33,
+   "median": -0.0312,
+   "mean": -0.06450622222222223,
+   "pnl_wo_best": -1.055049924,
+   "pnl_2xfee": -1.5655442189906095,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 65.21707369333333,
+   "per_day": 25.64050261427335,
+   "started": "14/11 00:42",
+   "siblings": [
+    [
+     "zoo_w_ban_aged",
+     -0.9825692525196849
+    ],
+    [
+     "zoo_w_pause_aged",
+     -0.9833751942938894
+    ]
+   ],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 2% ของทุน"
+  },
+  {
+   "file": "state_zoo_agedF.json",
+   "label": "สวนสัตว์: อายุเกิน 1 วัน เช็กราคาทุก 20 วิ",
+   "pnl": -0.22488869543389534,
+   "start_thb": 500.0,
+   "closed": 16,
+   "wins": 2,
+   "median": -0.21295,
+   "mean": -0.20719375,
+   "pnl_wo_best": -0.25477312,
+   "pnl_2xfee": -0.31090065703389536,
+   "fee_est": true,
+   "halted": "ราคา GTA6 สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 191.02401813777777,
+   "per_day": 1.916285957568058,
+   "started": "14/11 10:55",
+   "siblings": [],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา GTA6 สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_allin.json",
+   "label": "สวนสัตว์: ทุ่มหมดหน้าตัก ไม้ละ 100%",
+   "pnl": -0.9994748553118967,
+   "start_thb": 500.0,
+   "closed": 6,
+   "wins": 0,
+   "median": -0.15234999999999999,
+   "mean": -2.4576333333333333,
+   "pnl_wo_best": -0.9987857460000001,
+   "pnl_2xfee": -1.0496308352718968,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 206.97929591555555,
+   "per_day": 0.6837485400489588,
+   "started": "14/11 00:42",
+   "siblings": [],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 0% ของทุน"
+  },
+  {
+   "file": "state_zoo_bigliq.json",
+   "label": "สวนสัตว์: สภาพคล่อง 200k+ มาร์เก็ตแคป 2M+",
+   "pnl": -0.8293761893364685,
+   "start_thb": 500.0,
+   "closed": 129,
+   "wins": 16,
+   "median": -0.0797,
+   "mean": -0.09448759689922481,
+   "pnl_wo_best": -0.8460841840000001,
+   "pnl_2xfee": -1.4358718326764683,
+   "fee_est": true,
+   "halted": null,
+   "open": 2,
+   "idle_h": 1.4920736933333334,
+   "per_day": 14.700554832183387,
+   "started": "14/11 00:42",
+   "siblings": [
+    [
+     "zoo_w_ban_bigliq",
+     -0.7149345478285732
+    ],
+    [
+     "zoo_w_pause_bigliq",
+     -0.8313692821298162
+    ]
+   ],
+   "verdict": "ตาย",
+   "why": "129 ไม้แล้วยังแพ้ตัวสุ่ม"
+  },
+  {
+   "file": "state_zoo_bigliqF.json",
+   "label": "สวนสัตว์: สภาพคล่อง 200k+ เช็กราคาทุก 20 วิ",
+   "pnl": -0.14645807771482655,
+   "start_thb": 500.0,
+   "closed": 12,
+   "wins": 1,
+   "median": -0.16655,
+   "mean": -0.17990833333333334,
+   "pnl_wo_best": -0.14961433600000001,
+   "pnl_2xfee": -0.22696807963482657,
+   "fee_est": true,
+   "halted": "ราคา FLOAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 190.64568480444444,
+   "per_day": 1.4372144681760435,
+   "started": "14/11 10:55",
+   "siblings": [],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา FLOAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_bigliqRC.json",
+   "label": "สวนสัตว์: สภาพคล่อง 200k+ ผ่าน RugCheck เช็กราคาทุก 20 วิ",
+   "pnl": -0.24337923994913446,
+   "start_thb": 500.0,
+   "closed": 22,
+   "wins": 3,
+   "median": -0.1855,
+   "mean": -0.1630681818181818,
+   "pnl_wo_best": -0.26792051200000006,
+   "pnl_2xfee": -0.42397562906913455,
+   "fee_est": true,
+   "halted": "ราคา FLOAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 178.59457369333333,
+   "per_day": 2.6348931916560794,
+   "started": "14/11 10:55",
+   "siblings": [],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา FLOAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_boosted.json",
+   "label": "สวนสัตว์: จ่ายโฆษณา DexScreener",
+   "pnl": -0.9835982472072834,
+   "start_thb": 500.0,
+   "closed": 226,
+   "wins": 28,
+   "median": -0.02605,
+   "mean": -0.06420840707964602,
+   "pnl_wo_best": -1.087882556,
+   "pnl_2xfee": -1.4050001309872835,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 67.59985147111111,
+   "per_day": 25.754494372712312,
+   "started": "14/11 00:42",
+   "siblings": [],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 2% ของทุน"
+  },
+  {
+   "file": "state_zoo_cto.json",
+   "label": "สวนสัตว์: community takeover",
+   "pnl": -0.88865303914189,
+   "start_thb": 500.0,
+   "closed": 64,
+   "wins": 13,
+   "median": -0.10364999999999999,
+   "mean": -0.204859375,
+   "pnl_wo_best": -0.9392681280000001,
+   "pnl_2xfee": -0.96747046990189,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 192.6326292488889,
+   "per_day": 7.293308140945079,
+   "started": "14/11 00:42",
+   "siblings": [],
+   "verdict": "เงียบ",
+   "why": "ไม่มีไม้ 193 ชม."
+  },
+  {
+   "file": "state_zoo_dip.json",
+   "label": "สวนสัตว์: ช้อนย่อ 5 นาที -15% ในขาขึ้น 1 ชม.",
+   "pnl": -0.9840545185161614,
+   "start_thb": 500.0,
+   "closed": 123,
+   "wins": 21,
+   "median": -0.1068,
+   "mean": -0.11803658536585367,
+   "pnl_wo_best": -1.314755772,
+   "pnl_2xfee": -1.1620302258161614,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 198.05846258222223,
+   "per_day": 14.01678960827547,
+   "started": "14/11 00:41",
+   "siblings": [],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 2% ของทุน"
+  },
+  {
+   "file": "state_zoo_fresh.json",
+   "label": "สวนสัตว์: เหรียญเกิดใหม่ไม่เกิน 10 นาที",
+   "pnl": -0.9849839902114591,
+   "start_thb": 500.0,
+   "closed": 35,
+   "wins": 4,
+   "median": -0.2018,
+   "mean": -0.4151971428571429,
+   "pnl_wo_best": -1.04079579,
+   "pnl_2xfee": -1.026545262831459,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 206.04790702666668,
+   "per_day": 3.988517368208467,
+   "started": "14/11 00:41",
+   "siblings": [],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 2% ของทุน"
+  },
+  {
+   "file": "state_zoo_g_boan_chat.json",
+   "label": "สวนสัตว์: Grok แชทเลือกเอง: พรอมต์โต๊ะ 4 เอเจนต์ 0xboan จากเหรียญใหม่ไม่เกิน 6 ชม.",
+   "pnl": -0.020985161494023963,
+   "start_thb": 500.0,
+   "closed": 1,
+   "wins": 0,
+   "median": -0.308,
+   "mean": -0.308,
+   "pnl_wo_best": 0.0,
+   "pnl_2xfee": -0.02635568373402397,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": 175.97874036,
+   "per_day": 0.13630717187150854,
+   "started": "15/11 11:13",
+   "siblings": [
+    [
+     "zoo_g_gmgn_chat",
+     -0.020985161494023963
+    ]
+   ],
+   "verdict": "เงียบ",
+   "why": "ไม่มีไม้ 176 ชม."
+  },
+  {
+   "file": "state_zoo_g_gmgn_chat.json",
+   "label": "สวนสัตว์: Grok แชทตัดสินขั้นสุดท้าย: ข้อมูล GMGN smart/KOL ตอบซื้อหรือข้าม",
+   "pnl": -0.020985161494023963,
+   "start_thb": 500.0,
+   "closed": 1,
+   "wins": 0,
+   "median": -0.308,
+   "mean": -0.308,
+   "pnl_wo_best": 0.0,
+   "pnl_2xfee": -0.02635568373402397,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": 175.97874036,
+   "per_day": 0.13630717187150854,
+   "started": "15/11 11:13",
+   "siblings": [
+    [
+     "zoo_g_boan_chat",
+     -0.020985161494023963
+    ]
+   ],
+   "verdict": "เงียบ",
+   "why": "ไม่มีไม้ 176 ชม."
+  },
+  {
+   "file": "state_zoo_hodl.json",
+   "label": "สวนสัตว์: ไม่ตั้ง stop ถือ 24 ชม.",
+   "pnl": -0.989043864395828,
+   "start_thb": 500.0,
+   "closed": 13,
+   "wins": 0,
+   "median": -0.0832,
+   "mean": -1.1224538461538462,
+   "pnl_wo_best": -0.9878528320000001,
+   "pnl_2xfee": -1.034928552095828,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": 107.86790702666667,
+   "per_day": 1.4814532161294693,
+   "started": "14/11 00:42",
+   "siblings": [],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 1% ของทุน"
+  },
+  {
+   "file": "state_zoo_holders.json",
+   "label": "สวนสัตว์: คนถือ 3,000 ขึ้นไป",
+   "pnl": -0.9839215475618561,
+   "start_thb": 500.0,
+   "closed": 238,
+   "wins": 37,
+   "median": -0.028749999999999998,
+   "mean": -0.06099453781512605,
+   "pnl_wo_best": -1.094674112,
+   "pnl_2xfee": -1.5134356492218561,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 41.38901813777778,
+   "per_day": 27.121953876431366,
+   "started": "14/11 00:42",
+   "siblings": [],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 2% ของทุน"
+  },
+  {
+   "file": "state_zoo_i_bigdip.json",
+   "label": "สวนสัตว์: สภาพคล่อง 500k+ ย่อ 1 ชม. -15 ถึง -40%",
+   "pnl": -0.03636215721645042,
+   "start_thb": 500.0,
+   "closed": 3,
+   "wins": 1,
+   "median": -0.3772,
+   "mean": -0.1785,
+   "pnl_wo_best": -0.0559496,
+   "pnl_2xfee": -0.04803382771645037,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": 33.369295915555554,
+   "per_day": 0.37021195468593854,
+   "started": "14/11 16:49",
+   "siblings": [],
+   "verdict": "เงียบ",
+   "why": "ไม่มีไม้ 33 ชม."
+  },
+  {
+   "file": "state_zoo_i_bigliq_cost2.json",
+   "label": "สวนสัตว์: สภาพคล่อง 200k+ ค่าธรรมเนียมสมจริง 1% ต่อขา",
+   "pnl": -0.11057793644097502,
+   "start_thb": 500.0,
+   "closed": 14,
+   "wins": 4,
+   "median": -0.12935,
+   "mean": -0.11631428571428572,
+   "pnl_wo_best": -0.12014226000000001,
+   "pnl_2xfee": -0.16327227464097505,
+   "fee_est": false,
+   "halted": "ราคา GTA6 สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 183.33374036,
+   "per_day": 1.727653320949839,
+   "started": "14/11 16:49",
+   "siblings": [
+    [
+     "zoo_bigliq",
+     -0.8293761893364685
+    ],
+    [
+     "zoo_w_ban_bigliq",
+     -0.7149345478285732
+    ],
+    [
+     "zoo_w_pause_bigliq",
+     -0.8313692821298162
+    ]
+   ],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา GTA6 สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_i_bigliq_mom1h.json",
+   "label": "สวนสัตว์: สภาพคล่อง 200k+ ขึ้น 1 ชม. 10 ถึง 50%",
+   "pnl": 0.039413181824934584,
+   "start_thb": 500.0,
+   "closed": 3,
+   "wins": 1,
+   "median": -0.0584,
+   "mean": 0.1935,
+   "pnl_wo_best": -0.027839000000000003,
+   "pnl_2xfee": 0.02722587872493465,
+   "fee_est": false,
+   "halted": "ราคา ZCAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 169.82040702666666,
+   "per_day": 0.37021142591782263,
+   "started": "14/11 16:49",
+   "siblings": [
+    [
+     "zoo_bigliq",
+     -0.8293761893364685
+    ],
+    [
+     "zoo_mom1h",
+     -0.9852722476801051
+    ],
+    [
+     "zoo_w_ban_bigliq",
+     -0.7149345478285732
+    ],
+    [
+     "zoo_w_pause_bigliq",
+     -0.8313692821298162
+    ]
+   ],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา ZCAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_i_bigliq_rc_run24.json",
+   "label": "สวนสัตว์: สภาพคล่อง 200k+ RugCheck ปล่อยวิ่ง 24 ชม.",
+   "pnl": -0.10242287595455202,
+   "start_thb": 500.0,
+   "closed": 14,
+   "wins": 5,
+   "median": -0.31555,
+   "mean": -0.10776428571428573,
+   "pnl_wo_best": -0.138095072,
+   "pnl_2xfee": -0.15249842711455208,
+   "fee_est": false,
+   "halted": "ราคา CLAUDIA สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 151.03929591555556,
+   "per_day": 1.7371686139010816,
+   "started": "14/11 17:53",
+   "siblings": [
+    [
+     "zoo_bigliq",
+     -0.8293761893364685
+    ],
+    [
+     "zoo_w_ban_bigliq",
+     -0.7149345478285732
+    ],
+    [
+     "zoo_w_pause_bigliq",
+     -0.8313692821298162
+    ]
+   ],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา CLAUDIA สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_i_bigliq_run24.json",
+   "label": "สวนสัตว์: สภาพคล่อง 200k+ ปล่อยวิ่ง trail 20/15 ถือ 24 ชม.",
+   "pnl": -0.007537248037258415,
+   "start_thb": 500.0,
+   "closed": 11,
+   "wins": 5,
+   "median": -0.3169,
+   "mean": -0.010090909090909093,
+   "pnl_wo_best": -0.05618725,
+   "pnl_2xfee": -0.04962954443725831,
+   "fee_est": false,
+   "halted": "ราคา CLAUDIA สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 151.03929591555556,
+   "per_day": 1.3574418950320164,
+   "started": "14/11 16:49",
+   "siblings": [
+    [
+     "zoo_bigliq",
+     -0.8293761893364685
+    ],
+    [
+     "zoo_w_ban_bigliq",
+     -0.7149345478285732
+    ],
+    [
+     "zoo_w_pause_bigliq",
+     -0.8313692821298162
+    ]
+   ],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา CLAUDIA สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_i_dip200_2h.json",
+   "label": "สวนสัตว์: สภาพคล่อง 200k+ ย่อ 1 ชม. -15 ถึง -40% ถือ 2 ชม.",
+   "pnl": 0.006807877766894066,
+   "start_thb": 500.0,
+   "closed": 12,
+   "wins": 5,
+   "median": -0.2168,
+   "mean": 0.008316666666666663,
+   "pnl_wo_best": -0.0917988,
+   "pnl_2xfee": -0.040039746633106055,
+   "fee_est": false,
+   "halted": "ราคา FLOAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 95.70679591555556,
+   "per_day": 1.6232148142329488,
+   "started": "15/11 09:52",
+   "siblings": [],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา FLOAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_i_huge_liq.json",
+   "label": "สวนสัตว์: สภาพคล่อง 1M+ มาร์เก็ตแคป 5M+ ค่าธรรมเนียมใหญ่",
+   "pnl": -0.11746528011497437,
+   "start_thb": 500.0,
+   "closed": 20,
+   "wins": 2,
+   "median": -0.08075,
+   "mean": -0.08652,
+   "pnl_wo_best": -0.11864066399999999,
+   "pnl_2xfee": -0.19107475939497431,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": 104.00790702666667,
+   "per_day": 2.4816694484301167,
+   "started": "14/11 17:53",
+   "siblings": [],
+   "verdict": "เงียบ",
+   "why": "ไม่มีไม้ 104 ชม."
+  },
+  {
+   "file": "state_zoo_kol2.json",
+   "label": "สวนสัตว์: KOL เข้า 2 คนขึ้นไป",
+   "pnl": -0.930808790552311,
+   "start_thb": 500.0,
+   "closed": 77,
+   "wins": 6,
+   "median": -0.1337,
+   "mean": -0.17835324675324676,
+   "pnl_wo_best": -0.98592788,
+   "pnl_2xfee": -1.030449186232311,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 192.5551292488889,
+   "per_day": 8.774749783551325,
+   "started": "14/11 00:42",
+   "siblings": [],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 7% ของทุน"
+  },
+  {
+   "file": "state_zoo_mom1h.json",
+   "label": "สวนสัตว์: พุ่งแรง 1 ชม. เกิน +100%",
+   "pnl": -0.9852722476801051,
+   "start_thb": 500.0,
+   "closed": 55,
+   "wins": 4,
+   "median": -0.111,
+   "mean": -0.2642927272727273,
+   "pnl_wo_best": -1.09817156,
+   "pnl_2xfee": -1.030807461700105,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 202.73374036,
+   "per_day": 6.2676701500418766,
+   "started": "14/11 00:41",
+   "siblings": [],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 1% ของทุน"
+  },
+  {
+   "file": "state_zoo_mom5.json",
+   "label": "สวนสัตว์: โมเมนตัม 5 นาที +10 ถึง +50%",
+   "pnl": -0.9850421822241646,
+   "start_thb": 500.0,
+   "closed": 51,
+   "wins": 6,
+   "median": -0.2082,
+   "mean": -0.2849529411764706,
+   "pnl_wo_best": -1.137633076,
+   "pnl_2xfee": -1.0468125363041647,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 206.19040702666666,
+   "per_day": 5.811839593675195,
+   "started": "14/11 00:41",
+   "siblings": [],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 1% ของทุน"
+  },
+  {
+   "file": "state_zoo_moon.json",
+   "label": "สวนสัตว์: ถือยาวรอ x2 (stop -50%)",
+   "pnl": -0.8872016850544774,
+   "start_thb": 500.0,
+   "closed": 25,
+   "wins": 6,
+   "median": -0.2458,
+   "mean": -0.523584,
+   "pnl_wo_best": -1.2147463820000002,
+   "pnl_2xfee": -0.9565334403744774,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 109.11929591555555,
+   "per_day": 2.8489484925566715,
+   "started": "14/11 00:42",
+   "siblings": [],
+   "verdict": "เงียบ",
+   "why": "ไม่มีไม้ 109 ชม."
+  },
+  {
+   "file": "state_zoo_rand.json",
+   "label": "สวนสัตว์: สุ่ม 1 ตัว (ตัวควบคุม)",
+   "pnl": -0.9834283884812267,
+   "start_thb": 500.0,
+   "closed": 187,
+   "wins": 32,
+   "median": -0.014,
+   "mean": -0.07758877005347593,
+   "pnl_wo_best": -1.218935186,
+   "pnl_2xfee": -1.1694798116612266,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 101.18401813777778,
+   "per_day": 21.310078510142382,
+   "started": "14/11 00:41",
+   "siblings": [
+    [
+     "zoo_v_rand",
+     -0.10797699199001443
+    ]
+   ],
+   "verdict": "ตัวควบคุม",
+   "why": "สุ่มซื้อ ใช้เป็นเส้นเทียบ"
+  },
+  {
+   "file": "state_zoo_randrun.json",
+   "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
+   "pnl": -0.976752331402266,
+   "start_thb": 500.0,
+   "closed": 107,
+   "wins": 19,
+   "median": -0.0539,
+   "mean": -0.13461028037383177,
+   "pnl_wo_best": -0.9950781799999999,
+   "pnl_2xfee": -1.130791802822266,
+   "fee_est": true,
+   "halted": null,
+   "open": 4,
+   "idle_h": 3.9473514711111113,
+   "per_day": 12.1935156308731,
+   "started": "14/11 00:42",
+   "siblings": [],
+   "verdict": "ตัวควบคุม",
+   "why": "สุ่มซื้อ ใช้เป็นเส้นเทียบ"
+  },
+  {
+   "file": "state_zoo_runwide.json",
+   "label": "สวนสัตว์: ปล่อยวิ่ง trail 30/25 ถือ 24 ชม.",
+   "pnl": -0.9615525114936267,
+   "start_thb": 500.0,
+   "closed": 26,
+   "wins": 3,
+   "median": -0.20029999999999998,
+   "mean": -0.5456192307692308,
+   "pnl_wo_best": -1.4882047919999999,
+   "pnl_2xfee": -1.0083125101136268,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 169.49901813777777,
+   "per_day": 2.9629064322589387,
+   "started": "14/11 00:42",
+   "siblings": [],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 4% ของทุน"
+  },
+  {
+   "file": "state_zoo_safe.json",
+   "label": "สวนสัตว์: ผ่านเช็กความปลอดภัยเข้ม",
+   "pnl": -0.8791395621784548,
+   "start_thb": 500.0,
+   "closed": 34,
+   "wins": 7,
+   "median": -0.12515,
+   "mean": -0.3814823529411765,
+   "pnl_wo_best": -0.8982273380000001,
+   "pnl_2xfee": -0.9212562918984548,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 194.40874036,
+   "per_day": 3.874564839490195,
+   "started": "14/11 00:42",
+   "siblings": [
+    [
+     "night_safe",
+     0.0
+    ]
+   ],
+   "verdict": "เงียบ",
+   "why": "ไม่มีไม้ 194 ชม."
+  },
+  {
+   "file": "state_zoo_savip.json",
+   "label": "สวนสัตว์: savipww 5 บอท: คะแนน 80+ ทุ่มหมด ขายครึ่ง +30% stop -6%",
+   "pnl": -0.8737548581190335,
+   "start_thb": 500.0,
+   "closed": 40,
+   "wins": 13,
+   "median": -0.18230000000000002,
+   "mean": -0.322285,
+   "pnl_wo_best": -0.95369849,
+   "pnl_2xfee": -0.9940175899190336,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 189.67707369333334,
+   "per_day": 4.561307625336135,
+   "started": "14/11 00:50",
+   "siblings": [],
+   "verdict": "เงียบ",
+   "why": "ไม่มีไม้ 190 ชม."
+  },
+  {
+   "file": "state_zoo_scalp.json",
+   "label": "สวนสัตว์: เก็บสั้น +10% ตัด -5% 30 นาที",
+   "pnl": -0.8411246347837947,
+   "start_thb": 500.0,
+   "closed": 63,
+   "wins": 17,
+   "median": -0.0721,
+   "mean": -0.1969793650793651,
+   "pnl_wo_best": -0.9712467320000001,
+   "pnl_2xfee": -0.9998135430837948,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 131.32874036,
+   "per_day": 7.179350201242813,
+   "started": "14/11 00:42",
+   "siblings": [
+    [
+     "zoo_w_ban_scalp",
+     -0.9660780373562344
+    ],
+    [
+     "zoo_w_pause_scalp",
+     -0.9666067871026486
+    ]
+   ],
+   "verdict": "เงียบ",
+   "why": "ไม่มีไม้ 131 ชม."
+  },
+  {
+   "file": "state_zoo_smart10.json",
+   "label": "สวนสัตว์: smart wallet 10 ขึ้นไป",
+   "pnl": -0.9685461249289435,
+   "start_thb": 500.0,
+   "closed": 96,
+   "wins": 10,
+   "median": -0.05655,
+   "mean": -0.14884583333333334,
+   "pnl_wo_best": -1.0180352659999998,
+   "pnl_2xfee": -1.0465712074889435,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 192.24124036,
+   "per_day": 10.939947782089963,
+   "started": "14/11 00:42",
+   "siblings": [],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 3% ของทุน"
+  },
+  {
+   "file": "state_zoo_tomcruise.json",
+   "label": "สวนสัตว์: tomcruise 6 เอเจนต์: scanner rug check sizer ตามสภาพคล่อง",
+   "pnl": -0.8029878972114114,
+   "start_thb": 500.0,
+   "closed": 71,
+   "wins": 11,
+   "median": -0.0808,
+   "mean": -0.16685915492957745,
+   "pnl_wo_best": -0.929900932,
+   "pnl_2xfee": -0.9293540824514114,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 127.10179591555556,
+   "per_day": 8.09633172069491,
+   "started": "14/11 00:50",
+   "siblings": [],
+   "verdict": "เงียบ",
+   "why": "ไม่มีไม้ 127 ชม."
+  },
+  {
+   "file": "state_zoo_top1.json",
+   "label": "สวนสัตว์: วอลุ่มอันดับ 1",
+   "pnl": -0.9690595615411575,
+   "start_thb": 500.0,
+   "closed": 57,
+   "wins": 6,
+   "median": -0.0946,
+   "mean": -0.2508315789473684,
+   "pnl_wo_best": -0.981671296,
+   "pnl_2xfee": -1.0149445881411576,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 193.18290702666667,
+   "per_day": 6.495585428225218,
+   "started": "14/11 00:41",
+   "siblings": [],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 3% ของทุน"
+  },
+  {
+   "file": "state_zoo_trench.json",
+   "label": "สวนสัตว์: crbpite8 รอบ 2: ปลอดภัย + smart 3 + V/L สูงสุด 3 ตัว",
+   "pnl": -0.7560698000509578,
+   "start_thb": 500.0,
+   "closed": 52,
+   "wins": 11,
+   "median": -0.19165,
+   "mean": -0.21457500000000002,
+   "pnl_wo_best": -0.7807442720000001,
+   "pnl_2xfee": -0.9340654948509578,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 127.10235147111112,
+   "per_day": 5.929699912936976,
+   "started": "14/11 00:50",
+   "siblings": [],
+   "verdict": "เงียบ",
+   "why": "ไม่มีไม้ 127 ชม."
+  },
+  {
+   "file": "state_zoo_v_grok.json",
+   "label": "สวนสัตว์: ทดสอบ veto: กฎ + Grok Bot อนุมัติ/ปัดตก ดูข่าว X",
+   "pnl": 0.0,
+   "start_thb": 500.0,
+   "closed": 0,
+   "wins": 0,
+   "median": null,
+   "mean": null,
+   "pnl_wo_best": null,
+   "pnl_2xfee": 0.0,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": null,
+   "per_day": 0.0,
+   "started": "19/11 17:22",
+   "siblings": [
+    [
+     "grok_v2",
+     0.0
+    ]
+   ],
+   "verdict": "รอข้อมูล",
+   "why": "ยังไม่มีไม้ปิด"
+  },
+  {
+   "file": "state_zoo_v_rand.json",
+   "label": "สวนสัตว์: ทดสอบ veto: กฎ + ปัดตกแบบสุ่มในอัตราเดียวกับ Grok",
+   "pnl": -0.10797699199001443,
+   "start_thb": 500.0,
+   "closed": 6,
+   "wins": 0,
+   "median": -0.22225,
+   "mean": -0.2656833333333333,
+   "pnl_wo_best": -0.096583692,
+   "pnl_2xfee": -0.17464392265001438,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": 66.87540702666666,
+   "per_day": 1.9479533814000318,
+   "started": "19/11 17:22",
+   "siblings": [
+    [
+     "zoo_rand",
+     -0.9834283884812267
+    ]
+   ],
+   "verdict": "ตัวควบคุม",
+   "why": "สุ่มซื้อ ใช้เป็นเส้นเทียบ"
+  },
+  {
+   "file": "state_zoo_v_rule.json",
+   "label": "สวนสัตว์: ทดสอบ veto: กฎอย่างเดียว (pool 200k+ mcap 2M+ ขึ้น)",
+   "pnl": -0.09003504450812183,
+   "start_thb": 500.0,
+   "closed": 5,
+   "wins": 0,
+   "median": -0.2273,
+   "mean": -0.26582,
+   "pnl_wo_best": -0.08618560199999999,
+   "pnl_2xfee": -0.14595366936812182,
+   "fee_est": false,
+   "halted": "ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 70.28790702666667,
+   "per_day": 1.6232944845000266,
+   "started": "19/11 17:22",
+   "siblings": [],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_w_aged_nostop.json",
+   "label": "สวนสัตว์: อายุเกิน 1 วัน pool 200k+ ไม่มี stop ถือ 12 ชม.",
+   "pnl": -0.06350048406615938,
+   "start_thb": 500.0,
+   "closed": 7,
+   "wins": 2,
+   "median": -0.0317,
+   "mean": -0.13351428571428572,
+   "pnl_wo_best": -0.070494544,
+   "pnl_2xfee": -0.09000292690615941,
+   "fee_est": false,
+   "halted": "ราคา FLOAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 165.4115181377778,
+   "per_day": 0.8856834732274201,
+   "started": "14/11 21:37",
+   "siblings": [
+    [
+     "zoo_aged",
+     -0.9837508610906094
+    ],
+    [
+     "zoo_w_ban_aged",
+     -0.9825692525196849
+    ],
+    [
+     "zoo_w_pause_aged",
+     -0.9833751942938894
+    ]
+   ],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา FLOAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_w_ban_aged.json",
+   "label": "สวนสัตว์: กฎ agedF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
+   "pnl": -0.9825692525196849,
+   "start_thb": 500.0,
+   "closed": 201,
+   "wins": 22,
+   "median": -0.037,
+   "mean": -0.07190646766169155,
+   "pnl_wo_best": -1.009951668,
+   "pnl_2xfee": -1.655076901959685,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": 67.00235147111111,
+   "per_day": 25.853842513793808,
+   "started": "15/11 00:43",
+   "siblings": [
+    [
+     "zoo_aged",
+     -0.9837508610906094
+    ],
+    [
+     "zoo_w_pause_aged",
+     -0.9833751942938894
+    ]
+   ],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 2% ของทุน"
+  },
+  {
+   "file": "state_zoo_w_ban_bigliq.json",
+   "label": "สวนสัตว์: กฎ bigliqF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
+   "pnl": -0.7149345478285732,
+   "start_thb": 500.0,
+   "closed": 98,
+   "wins": 14,
+   "median": -0.10364999999999999,
+   "mean": -0.10717040816326531,
+   "pnl_wo_best": -0.7319338620000001,
+   "pnl_2xfee": -1.3940598463285732,
+   "fee_est": false,
+   "halted": null,
+   "open": 1,
+   "idle_h": 0.18318480444444443,
+   "per_day": 12.605356051501458,
+   "started": "15/11 00:43",
+   "siblings": [
+    [
+     "zoo_bigliq",
+     -0.8293761893364685
+    ],
+    [
+     "zoo_w_pause_bigliq",
+     -0.8313692821298162
+    ]
+   ],
+   "verdict": "ตาย",
+   "why": "98 ไม้แล้วยังแพ้ตัวสุ่ม"
+  },
+  {
+   "file": "state_zoo_w_ban_scalp.json",
+   "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
+   "pnl": -0.9660780373562344,
+   "start_thb": 500.0,
+   "closed": 374,
+   "wins": 105,
+   "median": -0.0193,
+   "mean": -0.037998663101604276,
+   "pnl_wo_best": -0.986750094,
+   "pnl_2xfee": -1.6423918190162343,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": 26.529573693333333,
+   "per_day": 48.106083110295216,
+   "started": "15/11 00:43",
+   "siblings": [
+    [
+     "zoo_scalp",
+     -0.8411246347837947
+    ],
+    [
+     "zoo_w_pause_scalp",
+     -0.9666067871026486
+    ]
+   ],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 3% ของทุน"
+  },
+  {
+   "file": "state_zoo_w_ban_smartflow.json",
+   "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
+   "pnl": -0.9772715777617593,
+   "start_thb": 500.0,
+   "closed": 168,
+   "wins": 47,
+   "median": -0.1061,
+   "mean": -0.08556845238095238,
+   "pnl_wo_best": -1.0985975880000003,
+   "pnl_2xfee": -1.5170745854617593,
+   "fee_est": true,
+   "halted": null,
+   "open": 0,
+   "idle_h": 12.481240360000001,
+   "per_day": 21.60911746238601,
+   "started": "15/11 00:42",
+   "siblings": [],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 2% ของทุน"
+  },
+  {
+   "file": "state_zoo_w_ban_spray.json",
+   "label": "สวนสัตว์: กฎ x_spray_small แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
+   "pnl": -0.8364125851334345,
+   "start_thb": 500.0,
+   "closed": 338,
+   "wins": 60,
+   "median": -0.0355,
+   "mean": -0.03640177514792899,
+   "pnl_wo_best": -0.8569150920000002,
+   "pnl_2xfee": -1.2966778371734347,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": 125.26624036,
+   "per_day": 43.475551046202625,
+   "started": "15/11 00:43",
+   "siblings": [],
+   "verdict": "เงียบ",
+   "why": "ไม่มีไม้ 125 ชม."
+  },
+  {
+   "file": "state_zoo_w_cold_mkt.json",
+   "label": "สวนสัตว์: ตลาดเย็น: กฎ w_aged_nostop เฉพาะรอบที่เหรียญขึ้นไม่เกิน 61%",
+   "pnl": -0.03389432134030035,
+   "start_thb": 500.0,
+   "closed": 4,
+   "wins": 3,
+   "median": 0.05575,
+   "mean": -0.12467500000000002,
+   "pnl_wo_best": -0.060212560000000005,
+   "pnl_2xfee": -0.0494747629803004,
+   "fee_est": false,
+   "halted": "ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 175.97318480444446,
+   "per_day": 0.5090779189187988,
+   "started": "14/11 22:43",
+   "siblings": [],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_w_deadcat.json",
+   "label": "สวนสัตว์: เด้งหลังร่วง: อายุเกิน 1 วัน pool 100k+ ร่วง 1 ชม. 15% ขึ้นไป",
+   "pnl": -0.09372923531103017,
+   "start_thb": 500.0,
+   "closed": 13,
+   "wins": 7,
+   "median": 0.0061,
+   "mean": -0.10612307692307693,
+   "pnl_wo_best": -0.149651438,
+   "pnl_2xfee": -0.16430191031103014,
+   "fee_est": false,
+   "halted": "ราคา FLOAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 128.38762924888889,
+   "per_day": 1.6448431447411174,
+   "started": "14/11 21:37",
+   "siblings": [],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา FLOAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_w_f5_aged.json",
+   "label": "สวนสัตว์: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
+   "pnl": -0.6613278726965747,
+   "start_thb": 500.0,
+   "closed": 69,
+   "wins": 15,
+   "median": -0.1301,
+   "mean": -0.141031884057971,
+   "pnl_wo_best": -0.6832494519999999,
+   "pnl_2xfee": -1.1022885074165747,
+   "fee_est": false,
+   "halted": "ราคา AGI สองแหล่งต่างกันเกิน 1% ติดกัน 60 รอบ",
+   "open": 0,
+   "idle_h": 143.94429591555556,
+   "per_day": 8.78897354361137,
+   "started": "14/11 22:53",
+   "siblings": [
+    [
+     "zoo_aged",
+     -0.9837508610906094
+    ],
+    [
+     "zoo_w_ban_aged",
+     -0.9825692525196849
+    ],
+    [
+     "zoo_w_pause_aged",
+     -0.9833751942938894
+    ]
+   ],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา AGI สองแหล่งต่างกันเกิน 1% ติดกัน 60 รอบ"
+  },
+  {
+   "file": "state_zoo_w_f5_bigliqRC.json",
+   "label": "สวนสัตว์: ความเร็ว: กฎ bigliqRC แต่เช็กราคาทุก 5 วิ",
+   "pnl": -0.1826344521044928,
+   "start_thb": 500.0,
+   "closed": 12,
+   "wins": 1,
+   "median": -0.26549999999999996,
+   "mean": -0.22395833333333334,
+   "pnl_wo_best": -0.186767672,
+   "pnl_2xfee": -0.30973344798449287,
+   "fee_est": false,
+   "halted": "ราคา ZCAT สองแหล่งต่างกันเกิน 1% ติดกัน 60 รอบ",
+   "open": 0,
+   "idle_h": 177.7423514711111,
+   "per_day": 1.5285171380193685,
+   "started": "14/11 22:53",
+   "siblings": [],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา ZCAT สองแหล่งต่างกันเกิน 1% ติดกัน 60 รอบ"
+  },
+  {
+   "file": "state_zoo_w_f5_spray.json",
+   "label": "สวนสัตว์: ความเร็ว: กฎ x_spray_small แต่เช็กราคาทุก 5 วิ",
+   "pnl": -0.6454935452158346,
+   "start_thb": 500.0,
+   "closed": 183,
+   "wins": 24,
+   "median": -0.0657,
+   "mean": -0.0519,
+   "pnl_wo_best": -0.674781636,
+   "pnl_2xfee": -0.9951960647758346,
+   "fee_est": false,
+   "halted": "ราคา PURR สองแหล่งต่างกันเกิน 1% ติดกัน 60 รอบ",
+   "open": 0,
+   "idle_h": 154.67457369333334,
+   "per_day": 23.30988635479537,
+   "started": "14/11 22:53",
+   "siblings": [
+    [
+     "zoo_w_ban_spray",
+     -0.8364125851334345
+    ]
+   ],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา PURR สองแหล่งต่างกันเกิน 1% ติดกัน 60 รอบ"
+  },
+  {
+   "file": "state_zoo_w_hot_mkt.json",
+   "label": "สวนสัตว์: ตลาดร้อน: กฎ w_aged_nostop เฉพาะรอบที่เหรียญ 74%+ ขึ้นใน 1 ชม.",
+   "pnl": 0.015046024283743575,
+   "start_thb": 500.0,
+   "closed": 5,
+   "wins": 4,
+   "median": 0.0755,
+   "mean": 0.04427999999999999,
+   "pnl_wo_best": 0.007115411999999999,
+   "pnl_2xfee": -0.005104795316256516,
+   "fee_est": false,
+   "halted": "ราคา CLAUDIA สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 163.51651813777778,
+   "per_day": 0.6363473986484985,
+   "started": "14/11 22:43",
+   "siblings": [],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา CLAUDIA สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_w_night_aged.json",
+   "label": "สวนสัตว์: กะดึก: กฎ w_aged_nostop เทรดเฉพาะ 21:00-09:00",
+   "pnl": -0.030912778963323784,
+   "start_thb": 500.0,
+   "closed": 12,
+   "wins": 4,
+   "median": -0.07239999999999999,
+   "mean": -0.03791666666666667,
+   "pnl_wo_best": -0.06185257599999999,
+   "pnl_2xfee": -0.07690163672332373,
+   "fee_est": true,
+   "halted": "ราคา ZCAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 130.3009625822222,
+   "per_day": 1.518318972457393,
+   "started": "14/11 21:37",
+   "siblings": [
+    [
+     "zoo_aged",
+     -0.9837508610906094
+    ],
+    [
+     "zoo_w_ban_aged",
+     -0.9825692525196849
+    ],
+    [
+     "zoo_w_pause_aged",
+     -0.9833751942938894
+    ]
+   ],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา ZCAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_w_pause_aged.json",
+   "label": "สวนสัตว์: กฎ agedF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
+   "pnl": -0.9833751942938894,
+   "start_thb": 500.0,
+   "closed": 249,
+   "wins": 38,
+   "median": -0.0214,
+   "mean": -0.05809518072289157,
+   "pnl_wo_best": -1.0076131560000001,
+   "pnl_2xfee": -1.6748515070738894,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": 16.998462582222224,
+   "per_day": 32.02789445738636,
+   "started": "15/11 00:43",
+   "siblings": [
+    [
+     "zoo_aged",
+     -0.9837508610906094
+    ],
+    [
+     "zoo_w_ban_aged",
+     -0.9825692525196849
+    ]
+   ],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 2% ของทุน"
+  },
+  {
+   "file": "state_zoo_w_pause_bigliq.json",
+   "label": "สวนสัตว์: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
+   "pnl": -0.8313692821298162,
+   "start_thb": 500.0,
+   "closed": 109,
+   "wins": 9,
+   "median": -0.0891,
+   "mean": -0.11181192660550458,
+   "pnl_wo_best": -0.834434106,
+   "pnl_2xfee": -1.4104440639098161,
+   "fee_est": false,
+   "halted": null,
+   "open": 3,
+   "idle_h": 0.18318480444444443,
+   "per_day": 14.020242955241418,
+   "started": "15/11 00:43",
+   "siblings": [
+    [
+     "zoo_bigliq",
+     -0.8293761893364685
+    ],
+    [
+     "zoo_w_ban_bigliq",
+     -0.7149345478285732
+    ]
+   ],
+   "verdict": "ตาย",
+   "why": "109 ไม้แล้วยังแพ้ตัวสุ่ม"
+  },
+  {
+   "file": "state_zoo_w_pause_scalp.json",
+   "label": "สวนสัตว์: กฎ x_scalp_1020 แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
+   "pnl": -0.9666067871026486,
+   "start_thb": 500.0,
+   "closed": 400,
+   "wins": 110,
+   "median": -0.02,
+   "mean": -0.035546,
+   "pnl_wo_best": -0.9859887180000001,
+   "pnl_2xfee": -1.6111803668626488,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": 1.7815181377777778,
+   "per_day": 51.45035626769542,
+   "started": "15/11 00:43",
+   "siblings": [
+    [
+     "zoo_scalp",
+     -0.8411246347837947
+    ],
+    [
+     "zoo_w_ban_scalp",
+     -0.9660780373562344
+    ]
+   ],
+   "verdict": "พอร์ตแตก",
+   "why": "เหลือ 3% ของทุน"
+  },
+  {
+   "file": "state_zoo_w_pause_smartflow.json",
+   "label": "สวนสัตว์: กฎ x_smartflow_lowcap แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
+   "pnl": -0.7847922831913001,
+   "start_thb": 500.0,
+   "closed": 42,
+   "wins": 8,
+   "median": -0.21925,
+   "mean": -0.27486190476190475,
+   "pnl_wo_best": -0.8081190480000001,
+   "pnl_2xfee": -0.9935708276713001,
+   "fee_est": true,
+   "halted": "ราคา BUTTHOLE สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 116.97318480444444,
+   "per_day": 5.402287408108019,
+   "started": "15/11 00:43",
+   "siblings": [
+    [
+     "zoo_w_ban_smartflow",
+     -0.9772715777617593
+    ]
+   ],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา BUTTHOLE สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_w_pause_spray.json",
+   "label": "สวนสัตว์: กฎ x_spray_small แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
+   "pnl": -0.7822596268453282,
+   "start_thb": 500.0,
+   "closed": 284,
+   "wins": 48,
+   "median": -0.04235,
+   "mean": -0.04051795774647887,
+   "pnl_wo_best": -0.8098321439999999,
+   "pnl_2xfee": -1.2258321859453283,
+   "fee_est": false,
+   "halted": "ราคา SID สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 125.03624036000001,
+   "per_day": 36.529752950063745,
+   "started": "15/11 00:43",
+   "siblings": [
+    [
+     "zoo_w_ban_spray",
+     -0.8364125851334345
+    ]
+   ],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา SID สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_w_red5m.json",
+   "label": "สวนสัตว์: สวนทาง: อายุเกิน 1 วัน pool 200k+ กำลังแดง 5 นาที",
+   "pnl": -0.05384780375762899,
+   "start_thb": 500.0,
+   "closed": 8,
+   "wins": 2,
+   "median": -0.0452,
+   "mean": -0.0990625,
+   "pnl_wo_best": -0.06552812999999999,
+   "pnl_2xfee": -0.08503002173762897,
+   "fee_est": false,
+   "halted": "ราคา ZCAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 164.29679591555555,
+   "per_day": 1.0122111659945336,
+   "started": "14/11 21:37",
+   "siblings": [],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา ZCAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_x_boan_desk.json",
+   "label": "สวนสัตว์: โต๊ะ 4 เอเจนต์: เหรียญใหม่ คนถือ 300+ top10 ไม่เกิน 30% ขายเป็นช่วง",
+   "pnl": -0.009148034910580138,
+   "start_thb": 500.0,
+   "closed": 1,
+   "wins": 0,
+   "median": -0.1346,
+   "mean": -0.1346,
+   "pnl_wo_best": 0.0,
+   "pnl_2xfee": -0.014873854350580085,
+   "fee_est": false,
+   "halted": "ราคา WOJAK สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 180.5726292488889,
+   "per_day": 0.12873724189070482,
+   "started": "15/11 00:52",
+   "siblings": [
+    [
+     "zoo_g_boan_chat",
+     -0.020985161494023963
+    ]
+   ],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา WOJAK สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_x_cto_watch.json",
+   "label": "สวนสัตว์: รอ dev เทหมดแล้วมี CTO: dev ถือ 0% ซื้อ 40% ขายครึ่ง x3 trail 15% stop -18%",
+   "pnl": -0.43461148753646006,
+   "start_thb": 500.0,
+   "closed": 18,
+   "wins": 1,
+   "median": -0.1674,
+   "mean": -0.35528333333333334,
+   "pnl_wo_best": -0.48225095599999995,
+   "pnl_2xfee": -0.60110417701646,
+   "fee_est": false,
+   "halted": "ราคา Kimchi สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 54.739018137777784,
+   "per_day": 2.619110123863082,
+   "started": "15/11 22:21",
+   "siblings": [],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา Kimchi สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_x_fresh_grad.json",
+   "label": "สวนสัตว์: เพิ่งจบ bonding curve ไม่เกิน 6 ชม. TP +35% SL -15%",
+   "pnl": -0.42268124107563587,
+   "start_thb": 500.0,
+   "closed": 18,
+   "wins": 3,
+   "median": -0.52235,
+   "mean": -0.34541666666666665,
+   "pnl_wo_best": -0.4822433220000001,
+   "pnl_2xfee": -0.597706423935636,
+   "fee_est": false,
+   "halted": "ราคา Socks สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 167.4090181377778,
+   "per_day": 2.317273806803967,
+   "started": "15/11 00:52",
+   "siblings": [
+    [
+     "recipe_grad",
+     -0.9835750736727588
+    ],
+    [
+     "zoo_fresh",
+     -0.9849839902114591
+    ]
+   ],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา Socks สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_x_ladder_2x.json",
+   "label": "สวนสัตว์: บันไดขาย ครึ่งที่ x2 trail 30% stop -35%",
+   "pnl": -0.24586970791098073,
+   "start_thb": 500.0,
+   "closed": 5,
+   "wins": 2,
+   "median": -1.2071,
+   "mean": -0.7242,
+   "pnl_wo_best": -0.30723392,
+   "pnl_2xfee": -0.2693010473109807,
+   "fee_est": true,
+   "halted": "ราคา bill สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 172.97818480444445,
+   "per_day": 0.6142475877159705,
+   "started": "14/11 15:56",
+   "siblings": [],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา bill สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_x_loofy_desk.json",
+   "label": "สวนสัตว์: 8 เอเจนต์: smart money 2+ ผ่านเช็กปลอดภัย+RugCheck stop -8% trail",
+   "pnl": -0.20840277074382407,
+   "start_thb": 500.0,
+   "closed": 14,
+   "wins": 5,
+   "median": -0.2535,
+   "mean": -0.21903571428571428,
+   "pnl_wo_best": -0.21524970799999998,
+   "pnl_2xfee": -0.35508077078382405,
+   "fee_est": false,
+   "halted": "ราคา Butthole สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 149.45124036,
+   "per_day": 2.0370856518935083,
+   "started": "15/11 22:21",
+   "siblings": [],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา Butthole สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_x_lotus_5bots.json",
+   "label": "สวนสัตว์: 5 บอท: pool 25k+ dev ไม่เกิน 5% top10 ไม่เกิน 20% ขายครึ่ง x2 stop -25%",
+   "pnl": 0.010674013759713441,
+   "start_thb": 500.0,
+   "closed": 8,
+   "wins": 2,
+   "median": -0.26875,
+   "mean": 0.019650000000000015,
+   "pnl_wo_best": -0.09781482799999998,
+   "pnl_2xfee": -0.08111765536028659,
+   "fee_est": false,
+   "halted": "ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 116.80374036,
+   "per_day": 1.1640489439391477,
+   "started": "15/11 22:21",
+   "siblings": [],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_x_night_tp50_sl25.json",
+   "label": "สวนสัตว์: กะดึก TP +50% SL -25% ถือไม่เกิน 6 นาที",
+   "pnl": -0.02081879591987279,
+   "start_thb": 500.0,
+   "closed": 3,
+   "wins": 1,
+   "median": -0.2008,
+   "mean": -0.1021,
+   "pnl_wo_best": -0.028978143999999997,
+   "pnl_2xfee": -0.05592387371987273,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": 187.8765181377778,
+   "per_day": 0.3797482456478511,
+   "started": "14/11 21:42",
+   "siblings": [],
+   "verdict": "เงียบ",
+   "why": "ไม่มีไม้ 188 ชม."
+  },
+  {
+   "file": "state_zoo_x_rule5_60_25.json",
+   "label": "สวนสัตว์: ระบบ 5 ไม้ เข้มกรอง ปลอดภัย TP +60% SL -25%",
+   "pnl": -0.02575946342459401,
+   "start_thb": 500.0,
+   "closed": 1,
+   "wins": 0,
+   "median": -0.3779,
+   "mean": -0.3779,
+   "pnl_wo_best": 0.0,
+   "pnl_2xfee": -0.03698643782459399,
+   "fee_est": false,
+   "halted": "ราคา Lucia สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 171.48068480444445,
+   "per_day": 0.13502986158045305,
+   "started": "15/11 09:33",
+   "siblings": [],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา Lucia สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_x_savip2_dip1h.json",
+   "label": "สวนสัตว์: savipww v2: pool 20k+ คะแนน 70+ ย่อ 1 ชม. 15-35% ทีละ 50% ขายครึ่ง x2 trail 40% stop -25%",
+   "pnl": -0.15475325887821867,
+   "start_thb": 500.0,
+   "closed": 1,
+   "wins": 0,
+   "median": -2.2771,
+   "mean": -2.2771,
+   "pnl_wo_best": 0.0,
+   "pnl_2xfee": -0.1801104261182186,
+   "fee_est": false,
+   "halted": "ราคา gtacoin สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 162.31429591555556,
+   "per_day": 0.14578699249280014,
+   "started": "15/11 22:40",
+   "siblings": [],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา gtacoin สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_x_savip2_dip5m.json",
+   "label": "สวนสัตว์: savipww v2: pool 20k+ คะแนน 70+ ย่อ 5 นาที 15-35% ทีละ 50% ขายครึ่ง x2 trail 40% stop -25%",
+   "pnl": -0.1685196239618295,
+   "start_thb": 500.0,
+   "closed": 1,
+   "wins": 0,
+   "median": -2.193,
+   "mean": -2.193,
+   "pnl_wo_best": 0.0,
+   "pnl_2xfee": -0.19404825428182948,
+   "fee_est": false,
+   "halted": "ราคา Butthole สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 1,
+   "idle_h": 151.46707369333333,
+   "per_day": 0.14578723848681682,
+   "started": "15/11 22:40",
+   "siblings": [],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา Butthole สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_x_scalp_1020.json",
+   "label": "สวนสัตว์: สกัลป์ pump.fun ตัดกำไร/ขาดทุน 15% เดือนเต็ม",
+   "pnl": -0.08991657305183931,
+   "start_thb": 500.0,
+   "closed": 8,
+   "wins": 1,
+   "median": -0.14605,
+   "mean": -0.165525,
+   "pnl_wo_best": -0.09224894,
+   "pnl_2xfee": -0.13472079545183935,
+   "fee_est": false,
+   "halted": "ราคา FLOAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 193.18846258222223,
+   "per_day": 0.982797537755314,
+   "started": "14/11 15:56",
+   "siblings": [
+    [
+     "zoo_scalp",
+     -0.8411246347837947
+    ],
+    [
+     "zoo_w_ban_scalp",
+     -0.9660780373562344
+    ],
+    [
+     "zoo_w_pause_scalp",
+     -0.9666067871026486
+    ]
+   ],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา FLOAT สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_x_skip_pumped.json",
+   "label": "สวนสัตว์: ข้ามตัวที่ขึ้นเกิน 25% ใน 5 นาที stop -8% จากราคาที่ได้จริง",
+   "pnl": -0.7384520526520464,
+   "start_thb": 500.0,
+   "closed": 55,
+   "wins": 6,
+   "median": -0.1773,
+   "mean": -0.1975709090909091,
+   "pnl_wo_best": -0.7463774959999999,
+   "pnl_2xfee": -1.0984976084920464,
+   "fee_est": false,
+   "halted": "ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 140.05818480444444,
+   "per_day": 8.00283648958164,
+   "started": "15/11 22:21",
+   "siblings": [],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_x_smartflow_lowcap.json",
+   "label": "สวนสัตว์: smart money เข้า 3+ มาร์เก็ตแคปต่ำ ขายครึ่งที่ x2",
+   "pnl": 0.20893611697708403,
+   "start_thb": 500.0,
+   "closed": 7,
+   "wins": 2,
+   "median": -0.8175,
+   "mean": 0.4397285714285714,
+   "pnl_wo_best": -0.17492676,
+   "pnl_2xfee": 0.13023258309708385,
+   "fee_est": true,
+   "halted": "ราคา WISHMAS สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 188.87346258222223,
+   "per_day": 0.863176941924226,
+   "started": "14/11 16:40",
+   "siblings": [
+    [
+     "zoo_w_ban_smartflow",
+     -0.9772715777617593
+    ]
+   ],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา WISHMAS สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "file": "state_zoo_x_snipe_30_30.json",
+   "label": "สวนสัตว์: เหรียญใหม่ TP +30% SL -30% ถือไม่เกิน 2 นาที",
+   "pnl": -0.04959430608633941,
+   "start_thb": 500.0,
+   "closed": 1,
+   "wins": 0,
+   "median": -0.7304,
+   "mean": -0.7304,
+   "pnl_wo_best": 0.0,
+   "pnl_2xfee": -0.06010644828633949,
+   "fee_est": false,
+   "halted": null,
+   "open": 0,
+   "idle_h": 194.0426292488889,
+   "per_day": 0.12284969221941425,
+   "started": "14/11 15:56",
+   "siblings": [],
+   "verdict": "เงียบ",
+   "why": "ไม่มีไม้ 194 ชม."
+  },
+  {
+   "file": "state_zoo_x_spray_small.json",
+   "label": "สวนสัตว์: หว่านไม้เล็กหลายตัว ตัดกำไร 50% ตัดขาดทุน 15%",
+   "pnl": -0.08986270973382982,
+   "start_thb": 500.0,
+   "closed": 22,
+   "wins": 4,
+   "median": -0.06155,
+   "mean": -0.060168181818181815,
+   "pnl_wo_best": -0.112287096,
+   "pnl_2xfee": -0.15238080065382986,
+   "fee_est": false,
+   "halted": "ราคา CHOO สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
+   "open": 0,
+   "idle_h": 187.75179591555556,
+   "per_day": 2.712841817476139,
+   "started": "14/11 16:40",
+   "siblings": [
+    [
+     "zoo_w_ban_spray",
+     -0.8364125851334345
+    ]
+   ],
+   "verdict": "ค้าง (หยุดซื้อ)",
+   "why": "ผลค้างจากก่อนหยุด ห้ามนับเป็นกำไร: ราคา CHOO สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  }
+ ]
+}
