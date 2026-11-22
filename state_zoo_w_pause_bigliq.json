@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.0877686200660985,
+ "cash": 1.563488676111894,
  "pos": {
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 50.82200949570699,
    "entry": 0.01038,
-   "last": 0.01035,
-   "peak": 0.01045,
+   "last": 0.01049,
+   "peak": 0.01052,
    "cost": 0.5437357849571621,
    "opened": "2026-11-22T10:33:24+07:00",
    "zoo": "w_pause_bigliq",
    "smart": 539,
    "kol": 34,
+   "gap": 0,
+   "miss": 0
+  },
+  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
+   "sym": "ANSEM",
+   "qty": 12.700534372643423,
+   "entry": 0.04005,
+   "last": 0.04002,
+   "peak": 0.04005,
+   "cost": 0.5242799439542044,
+   "opened": "2026-11-22T12:41:33+07:00",
+   "zoo": "w_pause_bigliq",
+   "smart": 1000,
+   "kol": 186,
    "gap": 0,
    "miss": 0
   }
@@ -3167,8 +3181,22 @@
    "t": "2026-11-22T12:33:04+07:00",
    "kind": "resume",
    "why": "ราคา Rings สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-22T12:41:33+07:00",
+   "kind": "buy",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.04005,
+   "jup": 0.03999304659889601,
+   "usd": 0.5243,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_bigliq",
+   "smart": 1000,
+   "kol": 186
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795325758.7099566
+ "rank_t": 1795326038.2068396
 }
