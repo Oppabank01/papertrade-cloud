@@ -216,3 +216,12 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 เลิกใช้: ไม่มี (x_ladder_2x ครบ week แต่ขาย 5 ไม้ ยังไม่ถึง 20 ไม้ และชนะ rand คงไว้ x_cto_watch 18 ไม้ -43.5% ยังไม่ถึง 20 ไม้ ชนะ rand คงไว้ ผลตัดสินรอบหน้า)
 สกอร์บอร์ด x_ (เทียบ rand -98.3% randrun -97.4%): x_smartflow_lowcap +20.9% 7 ไม้, x_lotus_5bots +1.1% 8 ไม้, x_boan_desk -0.9% 1 ไม้
 ท้ายตาราง: x_fresh_grad -42.3% 18 ไม้, x_cto_watch -43.5% 18 ไม้, x_skip_pumped -73.8% 55 ไม้ (เลิกใช้) หมายเหตุ: หลายบัญชียัง [halted] จากราคาสองแหล่งไม่ตรง
+
+## 2026-11-22 รอบอัตโนมัติ รอบที่ 2 (Bangkok)
+ค้น: solana memecoin strategy "this week" turned $ bot rules November 2026, เทรดเหรียญมีม กำไร คืนเดียว กฎเข้า ออก
+เจอ: dextools/trojan/cryptonews คู่มือบอท (ไม่มีกฎที่ตรวจได้ ซ้ำ x_ladder_2x), mexc 1066589 และ dailycoin spray and pray (ซ้ำ x_spray_small), arxiv copy trading (ต้องที่อยู่กระเป๋า), tradingview ขายทีละขั้น 5%/10% (ไม่ใช่ท่าโม้ ไม่มีผลพิสูจน์)
+ยังทำไม่ได้: บอทเฝ้าทวีต/sentiment, copy wallet (ต้องที่อยู่กระเป๋าและประวัติบน chain)
+เพิ่ม: ไม่มี
+เลิกใช้: ไม่มี (x_ladder_2x ขาย 5 ไม้, x_fresh_grad และ x_cto_watch 18 ไม้ ยังไม่ถึง 20 ไม้ x_spray_small 22 ไม้ -9.0% ยังชนะ rand และยังไม่ครบ 30 วัน)
+สกอร์บอร์ด x_ (เทียบ rand -98.3%): x_smartflow_lowcap +20.9% 7 ไม้, x_lotus_5bots +1.1% 8 ไม้, x_boan_desk -0.9% 1 ไม้
+ท้ายตาราง: x_fresh_grad -42.3% 18 ไม้, x_cto_watch -43.5% 18 ไม้, x_skip_pumped -73.8% 55 ไม้ (เลิกใช้)
