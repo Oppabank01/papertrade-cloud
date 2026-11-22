@@ -97,7 +97,7 @@ def verdict(r, rand_pnl, idle_limit, rand_key="rand"):
     if r["closed"] >= DEAD_TRADES and not (r["pnl"] > 0 and beat):
         return "ตาย", f"{r['closed']} ไม้แล้วยัง{'แพ้ตัวสุ่ม' if not beat else 'ไม่บวก'}"
     need = PASS_TRADES - r["closed"]
-    eta = f"อีกราว {need / r['per_day']:.0f} วันถึง 50 ไม้" if r["per_day"] > 0 else f"ยังไม่มีไม้ปิด เริ่ม {r['started']} รอสัญญาณ"
+    eta = f"อีกราว {need / r['per_day']:.0f} วันถึง 50 ไม้" if r["per_day"] > 0 else f"ยังไม่มีไม้ที่ขายจบ เริ่ม {r['started']} รอสัญญาณ"
     return "รอข้อมูล", eta
 
 
