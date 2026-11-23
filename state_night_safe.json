@@ -81,6 +81,15 @@
    "trades": 0,
    "wins": 0,
    "ended": "09:00"
+  },
+  {
+   "night": "2026-11-22",
+   "start_usd": 14.5943,
+   "end_usd": 14.4106,
+   "ret": -0.0126,
+   "trades": 1,
+   "wins": 0,
+   "ended": "09:00"
   }
  ],
  "log": [
@@ -665,23 +674,20 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "state_wallets.json"
+  },
+  {
+   "t": "2026-11-23T09:03:10+07:00",
+   "kind": "sell",
+   "mint": "he1iusmfkpAdwvxLNGV8Y1iSbj4rUy6yMhEA3fotn9A",
+   "sym": "hSOL",
+   "price": 84.17,
+   "usd": 2.7351,
+   "pnl": -0.1837,
+   "why": "ปิดรอบเช้า"
   }
  ],
- "pos": {
-  "he1iusmfkpAdwvxLNGV8Y1iSbj4rUy6yMhEA3fotn9A": {
-   "sym": "hSOL",
-   "qty": 0.03349348202754669,
-   "entry": 84.55,
-   "last": 84.22,
-   "peak": 84.55,
-   "cost": 2.9188558085230594,
-   "opened": "2026-11-23T08:25:14+07:00",
-   "source": "state_wallets.json",
-   "gap": 0,
-   "miss": 0
-  }
- },
- "cash": 11.675423234092237,
+ "pos": {},
+ "cash": 14.410559054159537,
  "start_usd": 14.594279042615296,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
@@ -1052,6 +1058,7 @@
  "session": {
   "night": "2026-11-22",
   "t": "2026-11-22T21:00:34+07:00",
-  "start_usd": 14.594279042615296
+  "start_usd": 14.594279042615296,
+  "closed": true
  }
 }
