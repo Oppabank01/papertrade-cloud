@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 7.801639497962411,
+ "cash": 5.823052374919837,
  "pos": {
   "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK": {
    "sym": "Cope",
@@ -14,6 +14,20 @@
    "zoo": "x_loofy_desk_b2",
    "smart": 53,
    "kol": 39,
+   "gap": 0,
+   "miss": 0
+  },
+  "8xegBRcvNUMYTtxno5DnPLMMHRXQg9RrUVnQwEVppump": {
+   "sym": "chego",
+   "qty": 10919.369890647924,
+   "entry": 0.0001758,
+   "last": 0.0001635,
+   "peak": 0.0001758,
+   "cost": 1.9785871230425736,
+   "opened": "2026-11-23T12:36:37+07:00",
+   "zoo": "x_loofy_desk_b2",
+   "smart": 83,
+   "kol": 2,
    "gap": 0,
    "miss": 0
   }
@@ -479,10 +493,24 @@
    "cost_side": 0.03,
    "smart": 121,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T12:36:37+07:00",
+   "kind": "buy",
+   "mint": "8xegBRcvNUMYTtxno5DnPLMMHRXQg9RrUVnQwEVppump",
+   "sym": "chego",
+   "price": 0.0001758,
+   "jup": 0.00017588852410993876,
+   "usd": 1.9786,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_loofy_desk_b2",
+   "smart": 83,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: 8 เอเจนต์: smart money 2+ ผ่านเช็กปลอดภัย+RugCheck stop -8% trail",
- "rank_t": 1795411810.1347175,
+ "rank_t": 1795412111.0146334,
  "banned": {
   "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK": "Cope"
  }
