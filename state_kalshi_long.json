@@ -2,7 +2,7 @@
  "label": "Kalshi ตัวควบคุม: ซื้อตัวรอง 0.03-0.10 ตลาดแบบเดียวกัน",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 8.849557522123899,
+ "cash": 7.374631268436583,
  "pos": {
   "KXWTI-26NOV2314-T87.49:yes": {
    "qty": 22.911831697382734,
@@ -99,6 +99,30 @@
    "side": "yes",
    "close": "2026-11-23T22:00:00Z",
    "why": "long ask 0.05 ทุน 0.054 ปิด 2026-11-23T22:00:00Z"
+  },
+  "KXETH-26NOV2317-B1640:yes": {
+   "qty": 8.620057121325718,
+   "entry": 0.085552,
+   "last": 0.06,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-23T04:58:49+00:00",
+   "coin": "YES | Ethereum price at Nov 23, 2026 at 5pm EST?",
+   "ticker": "KXETH-26NOV2317-B1640",
+   "side": "yes",
+   "close": "2026-11-23T22:00:00Z",
+   "why": "long ask 0.08 ทุน 0.086 ปิด 2026-11-23T22:00:00Z"
+  },
+  "KXCOPPERD-26NOV2317-T5.82:yes": {
+   "qty": 17.195092493090325,
+   "entry": 0.042888,
+   "last": 0.01,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-23T04:58:49+00:00",
+   "coin": "YES | Will the copper close price be above 5.82 USD/Lbs on November 23, 2026 at 5:00 PM ES",
+   "ticker": "KXCOPPERD-26NOV2317-T5.82",
+   "side": "yes",
+   "close": "2026-11-23T22:00:00Z",
+   "why": "long ask 0.04 ทุน 0.043 ปิด 2026-11-23T22:00:00Z"
   }
  },
  "log": [
@@ -173,6 +197,24 @@
    "usd": 0.7374631268436579,
    "why": "long ask 0.05 ทุน 0.054 ปิด 2026-11-23T22:00:00Z",
    "ask": 0.05
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-23T04:58:49+00:00",
+   "coin": "YES | Ethereum price at Nov 23, 2026 at 5pm EST?",
+   "px": 0.08555,
+   "usd": 0.7374631268436579,
+   "why": "long ask 0.08 ทุน 0.086 ปิด 2026-11-23T22:00:00Z",
+   "ask": 0.08
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-23T04:58:49+00:00",
+   "coin": "YES | Will the copper close price be above 5.82 USD/Lbs on November 23, 2026 at 5:00 PM ES",
+   "px": 0.04289,
+   "usd": 0.7374631268436579,
+   "why": "long ask 0.04 ทุน 0.043 ปิด 2026-11-23T22:00:00Z",
+   "ask": 0.04
   }
  ],
  "seen": null,
@@ -184,6 +226,8 @@
   "KXSILVERD-26NOV2317": 1795409312,
   "KXGOLDD-26NOV2317": 1795409312,
   "KXXRPD-26NOV2317": 1795409639,
-  "KXETHD-26NOV2317": 1795409639
+  "KXETHD-26NOV2317": 1795409639,
+  "KXETH-26NOV2317": 1795409927,
+  "KXCOPPERD-26NOV2317": 1795409927
  }
 }
