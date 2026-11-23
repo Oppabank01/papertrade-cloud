@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 1.5588638904554308,
+ "cash": 0.08393763676811505,
  "pos": {
   "KXWTI-26NOV2314-T81.99:yes": {
    "qty": 0.8543610818706032,
@@ -79,7 +79,7 @@
   "KXRAIN-26NOV23-SEA:yes": {
    "qty": 0.785197647423473,
    "entry": 0.9392070000000001,
-   "last": 0.87,
+   "last": 0.88,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T05:14:16+00:00",
    "coin": "YES | Will it rain in Seattle on Nov 23, 2026?",
@@ -151,7 +151,7 @@
   "KXSOLD-26NOV2417-T67.9999:yes": {
    "qty": 0.7549113938906525,
    "entry": 0.976887,
-   "last": 0.93,
+   "last": 0.92,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:13:38+00:00",
    "coin": "YES | SOL price on Nov 24, 2026?",
@@ -175,7 +175,7 @@
   "KXSHIBAD-26NOV2417-T0.000003499:yes": {
    "qty": 0.8450091286674175,
    "entry": 0.872728,
-   "last": 0.82,
+   "last": 0.81,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:19:55+00:00",
    "coin": "YES | Shiba Inu price on Nov 24, 2026?",
@@ -199,7 +199,7 @@
   "KXCS2GAME-26NOV222000ADDEMP-EMP:yes": {
    "qty": 0.7697342346305435,
    "entry": 0.958075,
-   "last": 0.94,
+   "last": 0.93,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:25:55+00:00",
    "coin": "YES | EMPIRE wins",
@@ -219,6 +219,30 @@
    "side": "yes",
    "close": "2026-11-25T13:25:00Z",
    "why": "fav ask 0.94 ทุน 0.949 ปิด 2026-11-25T13:25:00Z"
+  },
+  "KXEIACRUDEW-26NOV25-T412:yes": {
+   "qty": 0.8358729577822337,
+   "entry": 0.8822669999999999,
+   "last": 0.86,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-23T22:31:48+00:00",
+   "coin": "YES | Will U.S. commercial crude oil inventories for the week ending Nov 20, 2026 be above",
+   "ticker": "KXEIACRUDEW-26NOV25-T412",
+   "side": "yes",
+   "close": "2026-11-25T15:29:00Z",
+   "why": "fav ask 0.87 ทุน 0.882 ปิด 2026-11-25T15:29:00Z"
+  },
+  "KXARGPREMDIVADVANCE-26NOV23GLPNOB-GLP:yes": {
+   "qty": 0.7549113938906525,
+   "entry": 0.976887,
+   "last": 0.96,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-23T22:31:48+00:00",
+   "coin": "YES | Gimnasia La Plata To Advance",
+   "ticker": "KXARGPREMDIVADVANCE-26NOV23GLPNOB-GLP",
+   "side": "yes",
+   "close": "2026-11-25T20:00:00Z",
+   "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-25T20:00:00Z"
   }
  },
  "log": [
@@ -614,6 +638,24 @@
    "usd": 0.7374631268436579,
    "why": "fav ask 0.94 ทุน 0.949 ปิด 2026-11-25T13:25:00Z",
    "ask": 0.94
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-23T22:31:48+00:00",
+   "coin": "YES | Will U.S. commercial crude oil inventories for the week ending Nov 20, 2026 be above",
+   "px": 0.88227,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.87 ทุน 0.882 ปิด 2026-11-25T15:29:00Z",
+   "ask": 0.87
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-23T22:31:48+00:00",
+   "coin": "YES | Gimnasia La Plata To Advance",
+   "px": 0.97689,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-25T20:00:00Z",
+   "ask": 0.97
   }
  ],
  "seen": null,
@@ -646,6 +688,8 @@
   "KXSHIBAD-26NOV2417": 1795472393,
   "KXBTCD-26NOV2417": 1795472393,
   "KXCS2GAME-26NOV222000ADDEMP": 1795472754,
-  "KXPCECORE-26OCT": 1795472754
+  "KXPCECORE-26OCT": 1795472754,
+  "KXEIACRUDEW-26NOV25": 1795473106,
+  "KXARGPREMDIVADVANCE-26NOV23GLPNOB": 1795473106
  }
 }
