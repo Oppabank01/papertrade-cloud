@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 7.397592166061499,
+ "cash": 9.836256673099955,
  "pos": {
-  "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
-   "sym": "CBUCKS",
-   "qty": 602.847596413593,
-   "entry": 0.004047,
-   "last": 0.004141,
-   "peak": 0.004141,
-   "cost": 2.4643056717616334,
-   "opened": "2026-11-23T18:07:40+07:00",
-   "zoo": "i_bigliq_cost2_b2",
-   "smart": 42,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
   "AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump": {
    "sym": "jobcoin",
    "qty": 300.85195287104136,
    "entry": 0.008094,
-   "last": 0.008455,
-   "peak": 0.008519,
+   "last": 0.008413086174072156,
+   "peak": 0.008547,
    "cost": 2.4596305209850344,
    "opened": "2026-11-23T18:46:19+07:00",
    "zoo": "i_bigliq_cost2_b2",
    "smart": 28,
    "kol": 46,
-   "gap": 0,
+   "gap": 7,
    "miss": 0
   }
  },
@@ -572,10 +558,25 @@
    "zoo": "i_bigliq_cost2_b2",
    "smart": 28,
    "kol": 46
+  },
+  {
+   "t": "2026-11-23T21:07:55+07:00",
+   "kind": "sell",
+   "mint": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+   "sym": "CBUCKS",
+   "price": 0.004086,
+   "entry": 0.004047,
+   "usd": 2.4387,
+   "pnl": -0.0256,
+   "why": "ครบ 3 ชม. (+1.0%)",
+   "stop_set": -0.08,
+   "cost_side": 0.01,
+   "smart": 42,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ค่าธรรมเนียมสมจริง 1% ต่อขา",
- "rank_t": 1795442300.7926986,
+ "rank_t": 1795442776.6914504,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": "FLOAT"
