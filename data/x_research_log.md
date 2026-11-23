@@ -414,3 +414,17 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ไอเดีย: quarter-hour effect (ต้อง taker buy volume นาทีแรกของชั่วโมง), order flow (ต้อง order book รายวินาที), คลัง 4,843 กลยุทธ์ (ยังไม่รู้ชื่อคลัง)
 ตัดทิ้ง: copy trade Polymarket ผ่าน gravia (ต้องสมัครบริการผ่านลิงก์ affiliate)
 เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
+
+## 2026-11-24 01:42 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 17 พ.ย. (trading agent, quant strategy, crypto backtest, hyperliquid strategy, memecoin, freqtrade strategy, pine script strategy, kalshi, bitcoin strategy ตั้งแต่ 20 พ.ย.), X 4 ครั้ง (ai trading agent backtest, memecoin sniper settings, กลยุทธ์เทรด backtest, from:Cryptonuachan_ EMA20/50 RSI), เว็บ 1 ครั้ง (anomaly ระหว่างวันของ BTC)
+เจอ: ATR_CHANNEL_2H ของ Dkpiec (กฎครบในโค้ด freqtrade อ้าง PF 3.70), clarg 5 นาที (Pine Script), เธรด NongNuea_Trojan ท่า EMA20/50 + RSI ตัดเส้นเรียบ 1 ชม., โพสต์ KhunCher 236 กลยุทธ์รอด 21, BALIA_OS Alpha Hunter +2,417% (ไม่มีกฎ), เปเปอร์ turn-of-the-candle (อ่านไม่ได้ ติดหน้ากันบอท) ส่วนผล X อื่นเป็นโฆษณา Fensory และโพสต์เก่า repo sniper หลายตัวเป็นโปรแกรม Windows ดาวปั่น
+ทดสอบแล้ว (Binance หลังหัก 0.35%/ข้าง permutation 200 รอบ):
+- ATR_CHANNEL_2H แท่ง 2 ชม. 2017-2026 long+short เลขของ repo ทั้งหมด: BTC 135 ไม้ -0.05% ETH 123 ไม้ +0.57% SOL 74 ไม้ -1.23% ต่อไม้ ชนะ 18-36% เข้าสุ่มฝั่งเทรนด์ -0.76/-0.47/-0.72% p 0.025/0.005/0.726 ETH ผ่านประตู in-sample แต่ปี 2024 และ 2026 ติดลบ ห่างจาก PF 3.70 ที่อ้างมาก
+- EMA20/50 + RSI14 เหนือ SMA14 แท่ง 1 ชม. (stop 1.5 ATR เป้า 3 ATR ถือไม่เกิน 48 แท่ง เลขออกเลือกเอง): BTC 3,686 ไม้ -0.76% ETH 3,673 ไม้ -0.69% SOL 2,562 ไม้ -0.72% ต่อไม้ ก่อนหักราว 0% เท่าเข้าสุ่ม p บน 3 ปีล่าสุด 0.866/0.622/0.124
+- turn-of-the-candle บน 1 นาที 60 วันล่าสุด: นาทีแรกของแท่ง 15 นาทีติดลบจริง BTC -0.39 bps t -4.3 ETH -0.52 bps SOL -0.50 bps แต่ต้นทุนไปกลับ 70 bps ใหญ่กว่าร้อยเท่า long นาทีที่ 14 ถึง 0 5,760 ไม้ -0.70% ต่อไม้
+- clarg 5 นาที: ATR 5 นาทีมัธยฐาน 0.22-0.27% เป้าสุดท้าย 3R เท่ากับ 0.97-1.21% ไม้ที่ถึงทั้งสองเป้าได้สุทธิแค่ราว 0% ไม้ที่โดน stop เสียเกิน 1% ต้นทุน 0.35%/ข้างกินหมด
+เปิดบัญชี: fwd_atrch.py (2 ชม. BTC ETH SOL ไม่ใช้ leverage พร้อมตัวแฝดเข้าสุ่มฝั่งเทรนด์) และ fwd_emarsi.py (1 ชม. BTC ETH SOL พร้อมตัวแฝดเข้าสุ่มฝั่งสุ่ม) test เดินทีละแท่งตรง backtest 12 และ 78 ไม้ สคริปต์ /tmp/scout_s24/
+ลองแล้วตก: turn-of-the-candle, clarg 5 นาที
+ไอเดีย: รายชื่อ 21 กลยุทธ์ที่รอดของ KhunCher (ยังไม่รู้ชื่อ), รายการไม้ของ Alpha Hunter (ต้องดูบอร์ดสาธารณะ)
+ตัดทิ้ง: กลุ่ม repo sniper แบบโปรแกรม Windows พกพา (หน้าตาเป็นมัลแวร์ ต้องรันไฟล์ที่ดาวน์โหลด)
+เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
