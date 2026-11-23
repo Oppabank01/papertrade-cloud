@@ -2,16 +2,25 @@
  "label": "ข่าว Gemini Neon high: อ่านข่าวคริปโตแล้วเลือกเหรียญใหญ่ ไม้ละ 20% TP +4% SL -2% ถือไม่เกิน 12 ชม.",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 11.620174841161433,
+ "cash": 8.667372481279427,
  "pos": {
   "BNB": {
    "side": "long",
    "qty": 0.005265431175364817,
    "entry": 560.23,
-   "last": 555.73,
+   "last": 555.77,
    "usd": 2.9498525073746316,
    "t": "2026-11-24T03:00:28.977622+07:00",
    "why": "DOJ seeks $1.17 billion in USDC tied to Binance hack; Circle could issue replacement tokens"
+  },
+  "BTC": {
+   "side": "long",
+   "qty": 4.819832998936694e-05,
+   "entry": 61202.38,
+   "last": 61202.38,
+   "usd": 2.9498525073746316,
+   "t": "2026-11-24T06:51:40.188792+07:00",
+   "why": "CFTC staff say exchanges can count Bitcoin toward operating reserves"
   }
  },
  "log": [
@@ -63,6 +72,15 @@
    "px": 560.23,
    "usd": 2.9498525073746316,
    "why": "DOJ seeks $1.17 billion in USDC tied to Binance hack; Circle could issue replacement tokens"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-24T06:51:40.188792+07:00",
+   "coin": "BTC",
+   "side": "long",
+   "px": 61202.38,
+   "usd": 2.9498525073746316,
+   "why": "CFTC staff say exchanges can count Bitcoin toward operating reserves"
   }
  ]
 }
