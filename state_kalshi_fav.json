@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 5.13863352284996,
+ "cash": 4.508716397830062,
  "pos": {
   "KXWTI-26NOV2314-T81.99:yes": {
    "qty": 0.8543610818706032,
@@ -40,34 +40,10 @@
    "close": "2026-11-23T21:00:00Z",
    "why": "fav ask 0.87 ทุน 0.882 ปิด 2026-11-23T21:00:00Z"
   },
-  "KXCOPPERD-26NOV2317-T5.52:yes": {
-   "qty": 0.8450091286674175,
-   "entry": 0.872728,
-   "last": 0.99,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-23T04:58:49+00:00",
-   "coin": "YES | Will the copper close price be above 5.52 USD/Lbs on November 23, 2026 at 5:00 PM ES",
-   "ticker": "KXCOPPERD-26NOV2317-T5.52",
-   "side": "yes",
-   "close": "2026-11-23T22:00:00Z",
-   "why": "fav ask 0.86 ทุน 0.873 ปิด 2026-11-23T22:00:00Z"
-  },
-  "KXBRENTD-26NOV2317-T88:yes": {
-   "qty": 0.8269452146281397,
-   "entry": 0.8917919999999999,
-   "last": 0.03,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-23T05:03:54+00:00",
-   "coin": "YES | Will the brent crude oil close price be above 88 USD/Bbl on November 23, 2026 at 5:0",
-   "ticker": "KXBRENTD-26NOV2317-T88",
-   "side": "yes",
-   "close": "2026-11-23T22:00:00Z",
-   "why": "fav ask 0.88 ทุน 0.892 ปิด 2026-11-23T22:00:00Z"
-  },
   "KXSTEAMTOPSELLER-26NOV24-COU:yes": {
    "qty": 0.7549113938906525,
    "entry": 0.976887,
-   "last": 0.96,
+   "last": 0.98,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T05:09:45+00:00",
    "coin": "YES | Will Counter-Strike 2 be #1 on Steam's Weekly Top Sellers - Top 100 products by reve",
@@ -151,7 +127,7 @@
   "KXXRPD-26NOV2417-T0.8999:yes": {
    "qty": 0.8013438549268626,
    "entry": 0.9202830000000001,
-   "last": 0.89,
+   "last": 0.88,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:07:17+00:00",
    "coin": "YES | Ripple price at Nov 24, 2026 at 5pm EST?",
@@ -171,6 +147,30 @@
    "side": "yes",
    "close": "2026-11-24T22:00:00Z",
    "why": "fav ask 0.89 ทุน 0.901 ปิด 2026-11-24T22:00:00Z"
+  },
+  "KXSOLD-26NOV2417-T67.9999:yes": {
+   "qty": 0.7549113938906525,
+   "entry": 0.976887,
+   "last": 0.94,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-23T22:13:38+00:00",
+   "coin": "YES | SOL price on Nov 24, 2026?",
+   "ticker": "KXSOLD-26NOV2417-T67.9999",
+   "side": "yes",
+   "close": "2026-11-24T22:00:00Z",
+   "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-24T22:00:00Z"
+  },
+  "KXETHD-26NOV2417-T1619.99:yes": {
+   "qty": 0.7773833148266354,
+   "entry": 0.9486479999999999,
+   "last": 0.93,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-23T22:13:38+00:00",
+   "coin": "YES | Ethereum price at Nov 24, 2026 at 5pm EST?",
+   "ticker": "KXETHD-26NOV2417-T1619.99",
+   "side": "yes",
+   "close": "2026-11-24T22:00:00Z",
+   "why": "fav ask 0.94 ทุน 0.949 ปิด 2026-11-24T22:00:00Z"
   }
  },
  "log": [
@@ -488,6 +488,48 @@
    "usd": 0.7374631268436579,
    "why": "fav ask 0.89 ทุน 0.901 ปิด 2026-11-24T22:00:00Z",
    "ask": 0.89
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-23T22:13:38+00:00",
+   "coin": "YES | SOL price on Nov 24, 2026?",
+   "px": 0.97689,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-24T22:00:00Z",
+   "ask": 0.97
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-23T22:13:38+00:00",
+   "coin": "YES | Ethereum price at Nov 24, 2026 at 5pm EST?",
+   "px": 0.94865,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.94 ทุน 0.949 ปิด 2026-11-24T22:00:00Z",
+   "ask": 0.94
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-23T22:13:38+00:00",
+   "coin": "YES | Will the copper close price be above 5.52 USD/Lbs on November 23, 2026 at 5:00 PM ES",
+   "px": 1.0,
+   "entry": 0.87273,
+   "usd": 0.84501,
+   "pnl": 0.10755,
+   "ret": 0.14583,
+   "cost_side": 0,
+   "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-23T22:13:38+00:00",
+   "coin": "YES | Will the brent crude oil close price be above 88 USD/Bbl on November 23, 2026 at 5:0",
+   "px": 0.0,
+   "entry": 0.89179,
+   "usd": 0.0,
+   "pnl": -0.73746,
+   "ret": -1.0,
+   "cost_side": 0,
+   "why": "ตัดสิน no"
   }
  ],
  "seen": null,
@@ -514,6 +556,8 @@
   "KXPANAMAWEEKLY-26NOV22": 1795411419,
   "KXWTI-26NOV2414": 1795468083,
   "KXXRPD-26NOV2417": 1795471635,
-  "KXGOLDD-26NOV2417": 1795471635
+  "KXGOLDD-26NOV2417": 1795471635,
+  "KXSOLD-26NOV2417": 1795472017,
+  "KXETHD-26NOV2417": 1795472017
  }
 }

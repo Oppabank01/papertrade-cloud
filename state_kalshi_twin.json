@@ -2,7 +2,7 @@
  "label": "Kalshi ตัวควบคุม: สุ่มฝั่งในตลาดเดียวกับตัวเต็ง/ตัวรอง",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 0.8505510745281403,
+ "cash": 0.11308794768448238,
  "pos": {
   "KXWTI-26NOV2314-T81.99:no": {
    "qty": 3.856379302855473,
@@ -50,30 +50,6 @@
    "ticker": "KXNASDAQDUD-26NOV23H1600-T25028.98",
    "side": "yes",
    "close": "2026-11-23T21:00:00Z",
-   "why": "สุ่มฝั่ง"
-  },
-  "KXCOPPERD-26NOV2317-T5.52:no": {
-   "qty": 4.332717186287706,
-   "entry": 0.170208,
-   "last": 0.01,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-23T04:58:49+00:00",
-   "coin": "NO | Will the copper close price be above 5.52 USD/Lbs on November 23, 2026 at 5:00 PM EST",
-   "ticker": "KXCOPPERD-26NOV2317-T5.52",
-   "side": "no",
-   "close": "2026-11-23T22:00:00Z",
-   "why": "สุ่มฝั่ง"
-  },
-  "KXBRENTD-26NOV2317-T88:yes": {
-   "qty": 0.8269452146281397,
-   "entry": 0.8917919999999999,
-   "last": 0.03,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-23T05:03:54+00:00",
-   "coin": "YES | Will the brent crude oil close price be above 88 USD/Bbl on November 23, 2026 at 5:0",
-   "ticker": "KXBRENTD-26NOV2317-T88",
-   "side": "yes",
-   "close": "2026-11-23T22:00:00Z",
    "why": "สุ่มฝั่ง"
   },
   "KXSTEAMTOPSELLER-26NOV24-COU:no": {
@@ -144,6 +120,18 @@
    "t": "2026-11-23T22:07:17+00:00",
    "coin": "YES | Will the gold close price be above 3565 USD/t.oz on November 24, 2026 at 5:00 PM EST",
    "ticker": "KXGOLDD-26NOV2417-T3565",
+   "side": "yes",
+   "close": "2026-11-24T22:00:00Z",
+   "why": "สุ่มฝั่ง"
+  },
+  "KXSOLD-26NOV2417-T67.9999:yes": {
+   "qty": 0.7549113938906525,
+   "entry": 0.976887,
+   "last": 0.94,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-23T22:13:38+00:00",
+   "coin": "YES | SOL price on Nov 24, 2026?",
+   "ticker": "KXSOLD-26NOV2417-T67.9999",
    "side": "yes",
    "close": "2026-11-24T22:00:00Z",
    "why": "สุ่มฝั่ง"
@@ -467,6 +455,39 @@
    "usd": 0.7374631268436579,
    "why": "สุ่มฝั่ง",
    "ask": 0.89
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-23T22:13:38+00:00",
+   "coin": "YES | SOL price on Nov 24, 2026?",
+   "px": 0.97689,
+   "usd": 0.7374631268436579,
+   "why": "สุ่มฝั่ง",
+   "ask": 0.97
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-23T22:13:40+00:00",
+   "coin": "NO | Will the copper close price be above 5.52 USD/Lbs on November 23, 2026 at 5:00 PM EST",
+   "px": 0.0,
+   "entry": 0.17021,
+   "usd": 0.0,
+   "pnl": -0.73746,
+   "ret": -1.0,
+   "cost_side": 0,
+   "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-23T22:13:40+00:00",
+   "coin": "YES | Will the brent crude oil close price be above 88 USD/Bbl on November 23, 2026 at 5:0",
+   "px": 0.0,
+   "entry": 0.89179,
+   "usd": 0.0,
+   "pnl": -0.73746,
+   "ret": -1.0,
+   "cost_side": 0,
+   "why": "ตัดสิน no"
   }
  ],
  "seen": null,
@@ -492,6 +513,7 @@
   "KXVOICELIMINATION-26NOV24": 1795410583,
   "KXHIGHTHOU-26NOV23": 1795410854,
   "KXXRPD-26NOV2417": 1795471635,
-  "KXGOLDD-26NOV2417": 1795471635
+  "KXGOLDD-26NOV2417": 1795471635,
+  "KXSOLD-26NOV2417": 1795472017
  }
 }
