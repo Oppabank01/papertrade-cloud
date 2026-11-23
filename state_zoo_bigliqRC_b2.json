@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 7.225150597012008,
+ "cash": 4.8587120982601295,
  "pos": {
   "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
    "sym": "CBUCKS",
@@ -21,7 +21,7 @@
    "sym": "jobcoin",
    "qty": 286.4319012441608,
    "entry": 0.008094,
-   "last": 0.008027,
+   "last": 0.008054,
    "peak": 0.008181,
    "cost": 2.389589578097545,
    "opened": "2026-11-23T18:46:00+07:00",
@@ -29,6 +29,20 @@
    "smart": 28,
    "kol": 46,
    "gap": 0,
+   "miss": 0
+  },
+  "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
+   "sym": "MANIFEST",
+   "qty": 872.9728636840579,
+   "entry": 0.00263,
+   "last": 0.002636,
+   "peak": 0.002669,
+   "cost": 2.366438498751878,
+   "opened": "2026-11-23T20:23:02+07:00",
+   "zoo": "bigliqRC_b2",
+   "smart": 89,
+   "kol": 15,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -601,10 +615,24 @@
    "zoo": "bigliqRC_b2",
    "smart": 28,
    "kol": 46
+  },
+  {
+   "t": "2026-11-23T20:23:02+07:00",
+   "kind": "buy",
+   "mint": "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
+   "sym": "MANIFEST",
+   "price": 0.00263,
+   "jup": 0.0026334962972118427,
+   "usd": 2.3664,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliqRC_b2",
+   "smart": 89,
+   "kol": 15
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ผ่าน RugCheck เช็กราคาทุก 20 วิ",
- "rank_t": 1795439755.4222956,
+ "rank_t": 1795440084.2314987,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"

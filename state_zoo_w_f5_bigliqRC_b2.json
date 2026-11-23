@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 9.657127657247168,
+ "cash": 4.879378015324608,
  "pos": {
   "AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump": {
    "sym": "jobcoin",
    "qty": 289.39168683781816,
    "entry": 0.008094,
-   "last": 0.008027,
+   "last": 0.008054,
    "peak": 0.008181,
    "cost": 2.414281914311792,
    "opened": "2026-11-23T18:46:41+07:00",
@@ -15,6 +15,34 @@
    "smart": 28,
    "kol": 46,
    "gap": 0,
+   "miss": 0
+  },
+  "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
+   "sym": "MANIFEST",
+   "qty": 875.5607156772131,
+   "entry": 0.002655,
+   "last": 0.002636,
+   "peak": 0.002669,
+   "cost": 2.396014945498867,
+   "opened": "2026-11-23T20:24:13+07:00",
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 89,
+   "kol": 15,
+   "gap": 2,
+   "miss": 0
+  },
+  "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
+   "sym": "baton",
+   "qty": 637.9787417090744,
+   "entry": 0.003622,
+   "last": 0.00361,
+   "peak": 0.003622,
+   "cost": 2.381734696423693,
+   "opened": "2026-11-23T20:24:13+07:00",
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 733,
+   "kol": 80,
+   "gap": 18,
    "miss": 0
   }
  },
@@ -501,8 +529,36 @@
    "zoo": "w_f5_bigliqRC_b2",
    "smart": 28,
    "kol": 46
+  },
+  {
+   "t": "2026-11-23T20:24:13+07:00",
+   "kind": "buy",
+   "mint": "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
+   "sym": "MANIFEST",
+   "price": 0.002655,
+   "jup": 0.002675738291689182,
+   "usd": 2.396,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 89,
+   "kol": 15
+  },
+  {
+   "t": "2026-11-23T20:24:13+07:00",
+   "kind": "buy",
+   "mint": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
+   "sym": "baton",
+   "price": 0.003622,
+   "jup": 0.0036192485267918196,
+   "usd": 2.3817,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 733,
+   "kol": 80
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ bigliqRC แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1795439755.4222956
+ "rank_t": 1795440084.2314987
 }

@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 5.329007768256592,
+ "cash": 1.8192278573464553,
  "pos": {
   "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
    "sym": "CBUCKS",
@@ -21,14 +21,42 @@
    "sym": "TripleT",
    "qty": 1042.7835471920137,
    "entry": 0.001655,
-   "last": 0.0016877489512835402,
+   "last": 0.001685,
    "peak": 0.001695,
    "cost": 1.7788154716581968,
    "opened": "2026-11-23T20:04:56+07:00",
    "zoo": "w_f5_aged_b2",
    "smart": 615,
    "kol": 72,
-   "gap": 21,
+   "gap": 0,
+   "miss": 0
+  },
+  "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
+   "sym": "MANIFEST",
+   "qty": 643.1951527350025,
+   "entry": 0.002655,
+   "last": 0.002636,
+   "peak": 0.002669,
+   "cost": 1.7601351582265836,
+   "opened": "2026-11-23T20:24:07+07:00",
+   "zoo": "w_f5_aged_b2",
+   "smart": 89,
+   "kol": 15,
+   "gap": 2,
+   "miss": 0
+  },
+  "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
+   "sym": "baton",
+   "qty": 468.66519576299925,
+   "entry": 0.003622,
+   "last": 0.00361,
+   "peak": 0.003622,
+   "cost": 1.7496447526835532,
+   "opened": "2026-11-23T20:24:09+07:00",
+   "zoo": "w_f5_aged_b2",
+   "smart": 733,
+   "kol": 80,
+   "gap": 18,
    "miss": 0
   }
  },
@@ -964,8 +992,36 @@
    "cost_side": 0.03,
    "smart": 446,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T20:24:07+07:00",
+   "kind": "buy",
+   "mint": "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
+   "sym": "MANIFEST",
+   "price": 0.002655,
+   "jup": 0.002675738291689182,
+   "usd": 1.7601,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged_b2",
+   "smart": 89,
+   "kol": 15
+  },
+  {
+   "t": "2026-11-23T20:24:09+07:00",
+   "kind": "buy",
+   "mint": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
+   "sym": "baton",
+   "price": 0.003622,
+   "jup": 0.0036192485267918196,
+   "usd": 1.7496,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged_b2",
+   "smart": 733,
+   "kol": 80
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1795439755.4222956
+ "rank_t": 1795440084.2314987
 }
