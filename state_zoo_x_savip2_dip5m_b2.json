@@ -1,20 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 5.114374562605582,
+ "cash": 0.0,
  "pos": {
   "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK": {
    "sym": "Cope",
    "qty": 88323.49230105366,
    "entry": 8.025e-05,
-   "last": 7.936689949439769e-05,
+   "last": 8.009e-05,
    "peak": 8.612e-05,
    "cost": 7.305669199298656,
    "opened": "2026-11-23T07:59:55+07:00",
    "zoo": "x_savip2_dip5m_b2",
    "smart": 53,
    "kol": 39,
-   "gap": 19,
+   "gap": 0,
+   "miss": 0
+  },
+  "BqekG1RSPUthaKfStu7Uvyvr1eR6TchrQMp1M5r5pump": {
+   "sym": "NINO",
+   "qty": 75444.21773817753,
+   "entry": 6.577e-05,
+   "last": 5.961016095828825e-05,
+   "peak": 6.577e-05,
+   "cost": 5.114374562605582,
+   "opened": "2026-11-24T05:45:57+07:00",
+   "zoo": "x_savip2_dip5m_b2",
+   "smart": 63,
+   "kol": 4,
+   "gap": 5,
    "miss": 0
   }
  },
@@ -73,10 +87,24 @@
    "cost_side": 0.03,
    "smart": 60,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T05:45:57+07:00",
+   "kind": "buy",
+   "mint": "BqekG1RSPUthaKfStu7Uvyvr1eR6TchrQMp1M5r5pump",
+   "sym": "NINO",
+   "price": 6.577e-05,
+   "jup": 6.615521680862741e-05,
+   "usd": 5.1144,
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "zoo": "x_savip2_dip5m_b2",
+   "smart": 63,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: savipww v2: pool 20k+ คะแนน 70+ ย่อ 5 นาที 15-35% ทีละ 50% ขายครึ่ง x2 trail 40% stop -25%",
- "rank_t": 1795473495.8146384,
+ "rank_t": 1795473813.939173,
  "banned": {
   "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK": "Cope"
  }

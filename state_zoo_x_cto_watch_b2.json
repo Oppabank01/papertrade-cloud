@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 0.0,
+ "cash": 1.2708644256336108,
  "pos": {
   "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm": {
    "sym": "KLED",
@@ -21,27 +21,13 @@
    "sym": "STONK",
    "qty": 94.29817771989221,
    "entry": 0.03585,
-   "last": 0.03647,
+   "last": 0.03654,
    "peak": 0.04091,
    "cost": 3.4844255527294745,
    "opened": "2026-11-22T22:05:52+07:00",
    "zoo": "x_cto_watch_b2",
    "smart": 1000,
    "kol": 174,
-   "gap": 0,
-   "miss": 0
-  },
-  "488SaFq6wHF2z2k6NLSD3PtoSkXDNZaPkJwxze11pump": {
-   "sym": "MOMO",
-   "qty": 4340.357265357428,
-   "entry": 0.000371,
-   "last": 0.0003795,
-   "peak": 0.0003795,
-   "cost": 1.6597325762189301,
-   "opened": "2026-11-24T05:39:14+07:00",
-   "zoo": "x_cto_watch_b2",
-   "smart": 226,
-   "kol": 19,
    "gap": 0,
    "miss": 0
   }
@@ -390,10 +376,25 @@
    "zoo": "x_cto_watch_b2",
    "smart": 226,
    "kol": 19
+  },
+  {
+   "t": "2026-11-24T05:46:19+07:00",
+   "kind": "sell",
+   "mint": "488SaFq6wHF2z2k6NLSD3PtoSkXDNZaPkJwxze11pump",
+   "sym": "MOMO",
+   "price": 0.00030179530129029636,
+   "entry": 0.000371,
+   "usd": 1.2709,
+   "pnl": -0.3889,
+   "why": "stop -18.7%",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": 226,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: รอ dev เทหมดแล้วมี CTO: dev ถือ 0% ซื้อ 40% ขายครึ่ง x3 trail 15% stop -18%",
- "rank_t": 1795473495.8146384,
+ "rank_t": 1795473813.939173,
  "banned": {
   "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm": "KLED"
  }
