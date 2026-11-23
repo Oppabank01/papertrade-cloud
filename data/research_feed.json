@@ -1348,5 +1348,59 @@
   "summary": "repo ใหม่ดาวสูงผิดปกติ ชื่อ sniper เหรียญมีม GMGN copytrade SunPump และชุดกลยุทธ์ FreqAI คำอธิบายแบบเดียวกันทุกตัวว่าเป็นโปรแกรม Windows พกพา",
   "verdict": "ตัดทิ้ง",
   "action": "หน้าตาเป็นมัลแวร์ (แจกไฟล์รัน Windows ดาวปั่น ข้อความซ้ำกันหลายบัญชี) ต้องรันโค้ดที่ดาวน์โหลดมา ไม่ได้เปิดดูไฟล์"
+ },
+ {
+  "t": "2026-11-24T03:33:39+07:00",
+  "source": "github",
+  "title": "Rizrekt/aiprove-eth-pnl-fixed: Donchian 240/120 แท่ง 1 นาที long+short (งาน bounty AIProve)",
+  "url": "https://github.com/Rizrekt/aiprove-eth-pnl-fixed",
+  "summary": "ทะลุราคาปิดสูงสุด 240 นาทีเข้า long ต่ำสุดเข้า short ออกเมื่อปิดสวนกรอบ 120 นาที อ้าง +$689 จาก 4 ไม้ใน 1 วันของชุดข้อมูลแข่ง ETH",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest Binance 1 นาที 90 วัน หลังหัก 0.35%/ข้าง ETH 500 ไม้ -0.69% BTC 509 ไม้ -0.72% SOL 494 ไม้ -0.73% ต่อไม้ ก่อนหัก +0.01/-0.02/-0.03% ชนะ 10-17% permutation 200 รอบ p 0.368/0.701/0.766 ตัวแฝดเข้าสุ่ม -0.72 ถึง -0.75% ไม่ต่างจากสุ่ม ผลบวกของ repo มาจากวันเดียวที่ราคาร่วงยาว เปิด fwd_don1m.py (BTC ETH SOL พร้อมตัวแฝดเข้าสุ่ม) test เดินทีละแท่งตรง backtest 24 ไม้"
+ },
+ {
+  "t": "2026-11-24T03:33:39+07:00",
+  "source": "x",
+  "title": "6vintik9: บอท Grok เฝ้าเหรียญมีม 24 ตัว สแกนทุก 15 นาที สลับโหมดตามสภาพตลาด",
+  "url": "https://x.com/6vintik9/status/2123162101447364633",
+  "summary": "โพสต์เล่าว่าปล่อยบอทข้ามคืนก่อน GTA 6 ออก สลับโหมดทุก 15 นาที ไม่บอกกฎหรือผล อ่านได้แค่ส่วนต้นของโพสต์",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "สร้างแบบใกล้ที่สุด: regime switcher ตัวเดียวกับ fwd_regime (ER 20 แท่ง 0.35 ตามโมเมนตัม ต่ำกว่านั้นสวน z 0.5) บนแท่ง 15 นาที DOGE PEPE WIF BONK 365 วัน หลังหัก 0.35%/ข้าง 7,177 ถึง 7,496 ไม้ต่อเหรียญ -0.66 ถึง -0.69% ต่อไม้ ก่อนหัก +0.01 ถึง +0.04% permutation 200 รอบ p 0.085/0.010/0.035/0.149 สัญญาณมีจริงเล็กน้อยแต่ต้นทุนใหญ่กว่าราว 20 เท่า เปิด fwd_memeregime.py พร้อมตัวแฝดสุ่มฝั่ง test ตรง backtest 580 ไม้"
+ },
+ {
+  "t": "2026-11-24T03:33:39+07:00",
+  "source": "web",
+  "title": "curupira-blog: funding_rate_signal (funding สะสม 7 วัน z-score เทียบ 28 วัน เกิน 2 ให้สวน)",
+  "url": "https://curupira-blog.pages.dev/blog/on-chain-data-alpha",
+  "summary": "บล็อกให้โค้ดสัญญาณ funding สวนทางแต่บอกเองว่ายังไม่เคย backtest ผล 89 ไม้ PF 1.52 ที่ผลค้นเว็บอ้างไม่มีในหน้านี้",
+  "verdict": "ลองแล้วตก",
+  "action": "backtest funding Binance perp 2019-2026 กับราคา 4 ชม. เข้าแท่งถัดไปหลังเวลา funding ถือ 72 ชม. (เวลาถือเลือกเอง) หลังหัก 0.35%/ข้าง BTC 105 ไม้ -1.15% ETH 102 ไม้ -1.04% SOL 86 ไม้ -1.41% ต่อไม้ ก่อนหัก -0.45/-0.34/-0.71% แย่กว่าเข้าสุ่ม -0.44/-0.45/-0.78% permutation 200 รอบ p 0.791/0.692/0.806"
+ },
+ {
+  "t": "2026-11-24T03:33:39+07:00",
+  "source": "github",
+  "title": "EthanMartinez11/crypto-cta-multifactor: trend + funding carry + relative trend บน perp 20 ตัว",
+  "url": "https://github.com/EthanMartinez11/crypto-cta-multifactor",
+  "summary": "พอร์ต long-short รายวัน 3 ปัจจัย ปรับจักรวาลรายเดือน 20 ตัวแรกตามวอลุ่มและ OI เป้าความผันผวน 50% อ้าง 2019-2026 CAGR 90% Sharpe 1.63 DD -44% ผู้เขียนบอกเองว่ายังยืนยันไม่ได้ว่าผลตรงกับโค้ด",
+  "verdict": "ไอเดีย",
+  "action": "ต้องมีราคาและ funding ย้อนหลังของ perp ราว 30 ตัวรวมตัวที่ถูกถอด และอันดับ OI รายเดือน ซึ่ง forward ที่ใช้แค่ byttrade.fetch ทำไม่ได้ ส่วน relative trend ใกล้ fwd_xsmom ที่รันอยู่แล้ว ไม่ได้รันโค้ดของ repo"
+ },
+ {
+  "t": "2026-11-24T03:33:39+07:00",
+  "source": "web",
+  "title": "dev.to quant001: ตามเทรนด์หลังการล้างพอร์ต (long liquidation แล้ว short, short liquidation แล้ว long)",
+  "url": "https://dev.to/quant001/quantitative-trading-with-liquidation-data-an-ai-automated-strategy-based-on-liquidation-signals-k37",
+  "summary": "บทความเสนอว่าราคาไปต่อหลังการล้างพอร์ตเป็นกลุ่ม ให้เข้าตามทิศของการล้าง",
+  "verdict": "ไอเดีย",
+  "action": "ต้องมีข้อมูลการล้างพอร์ตย้อนหลังราย 5 นาที ซึ่ง Binance ไม่มีย้อนหลังแบบฟรี (ได้แค่สตรีมสด) ถ้าใช้แท่ง 15 นาทีที่ขยับแรงแทนการล้างพอร์ต จะเป็นทิศตรงข้ามของ fwd_cascade ที่สวนแท่งแรงอยู่แล้ว ผลก่อนหักจึงกลับเครื่องหมายกันและเสียต้นทุนเท่ากัน รอผล fwd_cascade ก่อน"
+ },
+ {
+  "t": "2026-11-24T03:33:39+07:00",
+  "source": "x",
+  "title": "nexustradinglab: เชื่อมบอท Grok หรือ Bankr เข้า Lab ให้รันกลยุทธ์ตามกฎ",
+  "url": "https://x.com/nexustradinglab/status/2124624273713377586",
+  "summary": "บริการให้ต่อบอทเข้าแพลตฟอร์มแล้วโพสต์ thesis ไม่มีกฎหรือผลให้ทดสอบ",
+  "verdict": "ตัดทิ้ง",
+  "action": "ต้องสมัครและเชื่อมบัญชีบอทกับแพลตฟอร์ม"
  }
 ]
