@@ -2,7 +2,7 @@
  "label": "Kalshi ตัวควบคุม: ซื้อตัวรอง 0.03-0.10 ตลาดแบบเดียวกัน",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 1.474926253687319,
+ "cash": 3.3306690738754696e-15,
  "pos": {
   "KXWTI-26NOV2314-T87.49:yes": {
    "qty": 22.911831697382734,
@@ -91,7 +91,7 @@
   "KXETHD-26NOV2317-T1819.99:yes": {
    "qty": 13.765060697035144,
    "entry": 0.053575000000000005,
-   "last": 0.04,
+   "last": 0.05,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T04:54:00+00:00",
    "coin": "YES | Ethereum price at Nov 23, 2026 at 5pm EST?",
@@ -219,6 +219,30 @@
    "side": "yes",
    "close": "2026-11-24T04:59:00Z",
    "why": "long ask 0.03 ทุน 0.032 ปิด 2026-11-24T04:59:00Z"
+  },
+  "KXNETFLIXRANKMOVIERUNNERUP-26NOV23-HEA:yes": {
+   "qty": 13.765060697035144,
+   "entry": 0.053575000000000005,
+   "last": 0.04,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-23T05:23:40+00:00",
+   "coin": "YES | Will Heartland be #2 US Netflix Movie on Nov 23, 2026?",
+   "ticker": "KXNETFLIXRANKMOVIERUNNERUP-26NOV23-HEA",
+   "side": "yes",
+   "close": "2026-11-24T04:59:00Z",
+   "why": "long ask 0.05 ทุน 0.054 ปิด 2026-11-24T04:59:00Z"
+  },
+  "KXNETFLIXRANKMOVIEGLOBAL2-26NOV23-STE:yes": {
+   "qty": 17.195092493090325,
+   "entry": 0.042888,
+   "last": 0.03,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-23T05:23:40+00:00",
+   "coin": "YES | Will Steps be #2 Global Netflix Movie on Nov 23, 2026?",
+   "ticker": "KXNETFLIXRANKMOVIEGLOBAL2-26NOV23-STE",
+   "side": "yes",
+   "close": "2026-11-24T04:59:00Z",
+   "why": "long ask 0.04 ทุน 0.043 ปิด 2026-11-24T04:59:00Z"
   }
  },
  "log": [
@@ -383,6 +407,24 @@
    "usd": 0.7374631268436579,
    "why": "long ask 0.03 ทุน 0.032 ปิด 2026-11-24T04:59:00Z",
    "ask": 0.03
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-23T05:23:40+00:00",
+   "coin": "YES | Will Heartland be #2 US Netflix Movie on Nov 23, 2026?",
+   "px": 0.05358,
+   "usd": 0.7374631268436579,
+   "why": "long ask 0.05 ทุน 0.054 ปิด 2026-11-24T04:59:00Z",
+   "ask": 0.05
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-23T05:23:40+00:00",
+   "coin": "YES | Will Steps be #2 Global Netflix Movie on Nov 23, 2026?",
+   "px": 0.04289,
+   "usd": 0.7374631268436579,
+   "why": "long ask 0.04 ทุน 0.043 ปิด 2026-11-24T04:59:00Z",
+   "ask": 0.04
   }
  ],
  "seen": null,
@@ -404,6 +446,8 @@
   "KXBNBD-26NOV2317": 1795410854,
   "KXTRUTHSOCIALD-26NOV23": 1795410854,
   "KXNETFLIXTOPVIEWSMOVIE-26NOV23": 1795411172,
-  "KXNETFLIXRANKSHOWGLOBAL2-26NOV23": 1795411172
+  "KXNETFLIXRANKSHOWGLOBAL2-26NOV23": 1795411172,
+  "KXNETFLIXRANKMOVIERUNNERUP-26NOV23": 1795411419,
+  "KXNETFLIXRANKMOVIEGLOBAL2-26NOV23": 1795411419
  }
 }
