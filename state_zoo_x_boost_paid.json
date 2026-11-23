@@ -1,34 +1,48 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 7.852726266070695,
+ "cash": 5.316950865247293,
  "pos": {
   "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
    "sym": "Max",
    "qty": 6659.741580903553,
    "entry": 0.0003543,
-   "last": 0.0003829,
+   "last": 0.00036692393098196476,
    "peak": 0.0003846,
    "cost": 2.4320206577140064,
    "opened": "2026-11-23T23:52:35+07:00",
    "zoo": "x_boost_paid",
    "smart": 470,
    "kol": 43,
-   "gap": 0,
+   "gap": 3,
    "miss": 0
   },
   "CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": {
    "sym": "BURNIE",
    "qty": 3586.2352589445336,
    "entry": 0.0006524,
-   "last": 0.0006509,
+   "last": 0.0006501,
    "peak": 0.0006625,
    "cost": 2.4115232765774213,
    "opened": "2026-11-24T00:44:47+07:00",
    "zoo": "x_boost_paid",
    "smart": 372,
    "kol": 39,
-   "gap": 0,
+   "gap": 5,
+   "miss": 0
+  },
+  "4SnKwnz6DyagftnFqdxsvWvehrcbEDhxmmXNQk2Jpump": {
+   "sym": "Joby",
+   "qty": 3603.6462485408883,
+   "entry": 0.0006827,
+   "last": 0.0006723,
+   "peak": 0.0006827,
+   "cost": 2.5357754008234017,
+   "opened": "2026-11-24T01:33:37+07:00",
+   "zoo": "x_boost_paid",
+   "smart": 65,
+   "kol": 3,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -432,12 +446,26 @@
    "cost_side": 0.03,
    "smart": 346,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T01:33:37+07:00",
+   "kind": "buy",
+   "mint": "4SnKwnz6DyagftnFqdxsvWvehrcbEDhxmmXNQk2Jpump",
+   "sym": "Joby",
+   "price": 0.0006827,
+   "jup": 0.000683072590293709,
+   "usd": 2.5358,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_boost_paid",
+   "smart": 65,
+   "kol": 3
   }
  ],
  "label": "สวนสัตว์: dev จ่ายค่า boost DexScreener แล้ว (ซื้อตามโปรโมต) (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-23",
  "night_start": 12.476753905324932,
- "rank_t": 1795458290.5727255,
+ "rank_t": 1795458683.2133374,
  "nights": [
   {
    "night": "2026-11-22",
