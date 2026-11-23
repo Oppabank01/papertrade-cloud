@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 5.41326473841472,
- "pos": {},
+ "cash": 4.330611790731776,
+ "pos": {
+  "oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp": {
+   "sym": "ORE",
+   "qty": 0.01302082422018089,
+   "entry": 80.67,
+   "last": 80.67,
+   "peak": 80.67,
+   "cost": 1.082652947682944,
+   "opened": "2026-11-23T19:12:45+07:00",
+   "wallet": "ENskGQ",
+   "wallet_usd": 232,
+   "lag_min": 0.7,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T10:36:33+07:00",
@@ -10812,6 +10827,20 @@
    "wallet": "ENskGQ",
    "usd": 237,
    "why": "liq $0"
+  },
+  {
+   "t": "2026-11-23T19:12:45+07:00",
+   "kind": "buy",
+   "mint": "oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp",
+   "sym": "ORE",
+   "price": 80.67,
+   "jup": 80.58821484972756,
+   "usd": 1.0827,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "wallet": "ENskGQ",
+   "wallet_usd": 232,
+   "lag_min": 0.7
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ ผ่าน Helius",
@@ -10821,7 +10850,7 @@
   "7NnaXghjuU92gM9kmwXysqa5HboyZuR2LTaBnvazFxSH": "2xHMZiomEoRMUqXFcBHYCGykSedUwrUjBPxJcSD1q86Rz2yg9pbvf3heygKLcBdsQ5uLZz3WAG5ksjLdqAg7hVHz",
   "7g5CJ754NboeY6D44MDdGwQmVX4Fvu59Q47c9ZKLPMkE": "43DfhUJmrnt3iexQUrcMDG8EynpWVsfiwh1wptsFCPZGtLX5A5ec5Ktk68p7nBWZ2DQQGu2w2ufy4cJpQL4dsFpy",
   "8emnM6nfVM2ePrYDmZcMkwy8qzDhRFZ5EefCkMsmgByX": "4LCgegudgWxqbD9dVEXbyozsEmE5zkgFfBbQ9afp7W8cBiU3Hd1GLWyxTc8tcUsicg1A5FULYXCgnqSYXjGK7Le7",
-  "ENskGQev2bXPjaCYPV9bUcPLv3635Y18BWzLN95x4soC": "3FpsF2RDzVMBfh5P5UVrz1ZuA74J2MVV7C1gTiPeVxvcwo1fq4vaFoxdjvtq2QFALbtHZzpRENjgxF3CNfwLyPhs",
+  "ENskGQev2bXPjaCYPV9bUcPLv3635Y18BWzLN95x4soC": "27XUNn9MZJM6Z4Js6VfU7npTtbafVaME9PuZQrPsWBW1grocAsiVAuPyx7qodZQoDTeLFD2nUFpSJf3riocnKSPA",
   "chudc2GnxyW2V7nmLA9bkrzFmKkvPyTfN7V7Uu6XG6o": "4p588s9Kz4nvEtqJX9wgtHXnQ9dXLkujpaJYFhoPcLAeTEppzAkj3FnRkizJLiW6UycAHQoPxMDrxG3xNFA3v9Di",
   "8XzVYjjVdpDoD3zBtXqMiMBRNj7eMhayr8DyWZQiRgs8": "5BBVX1gddgLP9tn7rYwQb1YoMViNGW2c9HPt7uvhfNu4Q9QnPgxvqFFkDpCzeW9SwuYHoWZyf4XHApCiBpTiK3V9",
   "a8UJuWKvWwQTtYbEVzA5b7SYF5j92guqJdwMY428jZN": "MNCNVXAGZj1X9DAw3SkgJQQ4ga1PHfrFu4aTWvLTjWCVrQwxCLdhUZjvZ9SfPCk1dyccZ1SbrsNSX9p7ndqiUcg",
