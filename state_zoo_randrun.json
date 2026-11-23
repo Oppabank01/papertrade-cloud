@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.08919278404514229,
+ "cash": 0.03751497214722481,
  "pos": {
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 3.0439573265402733,
    "entry": 0.01893,
-   "last": 0.0199,
+   "last": 0.01913,
    "peak": 0.02129,
    "cost": 0.05939199360070849,
    "opened": "2026-11-23T01:33:46+07:00",
@@ -21,7 +21,7 @@
    "sym": "CLAUDIA",
    "qty": 5.3910602826650145,
    "entry": 0.01025,
-   "last": 0.01076,
+   "last": 0.01064,
    "peak": 0.01102,
    "cost": 0.056955646152665844,
    "opened": "2026-11-23T21:19:36+07:00",
@@ -42,6 +42,20 @@
    "zoo": "randrun",
    "smart": 6,
    "kol": 0,
+   "gap": 0,
+   "miss": 0
+  },
+  "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
+   "sym": "neet",
+   "qty": 2.072666932755665,
+   "entry": 0.02419,
+   "last": 0.02419,
+   "peak": 0.02419,
+   "cost": 0.05167781189791748,
+   "opened": "2026-11-23T22:52:48+07:00",
+   "zoo": "randrun",
+   "smart": 889,
+   "kol": 205,
    "gap": 0,
    "miss": 0
   }
@@ -3311,8 +3325,22 @@
    "zoo": "randrun",
    "smart": 6,
    "kol": 0
+  },
+  {
+   "t": "2026-11-23T22:52:48+07:00",
+   "kind": "buy",
+   "mint": "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump",
+   "sym": "neet",
+   "price": 0.02419,
+   "jup": 0.024235728342033698,
+   "usd": 0.0517,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "randrun",
+   "smart": 889,
+   "kol": 205
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1795448790.0282774
+ "rank_t": 1795449134.1685834
 }
