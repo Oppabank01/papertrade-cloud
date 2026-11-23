@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 7.370069298375532,
+ "cash": 4.925563726253737,
  "pos": {
   "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
    "sym": "MANIFEST",
    "qty": 875.5607156772131,
    "entry": 0.002655,
-   "last": 0.00284,
+   "last": 0.00288,
    "peak": 0.003219,
    "cost": 2.396014945498867,
    "opened": "2026-11-23T20:24:13+07:00",
@@ -21,14 +21,28 @@
    "sym": "baton",
    "qty": 637.9787417090744,
    "entry": 0.003622,
-   "last": 0.003801,
+   "last": 0.003694,
    "peak": 0.004273,
    "cost": 2.381734696423693,
    "opened": "2026-11-23T20:24:13+07:00",
    "zoo": "w_f5_bigliqRC_b2",
    "smart": 733,
    "kol": 80,
-   "gap": 0,
+   "gap": 28,
+   "miss": 0
+  },
+  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
+   "sym": "Rings",
+   "qty": 960.574850576171,
+   "entry": 0.002469,
+   "last": 0.002457,
+   "peak": 0.002475,
+   "cost": 2.4445055721217956,
+   "opened": "2026-11-23T23:13:36+07:00",
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 132,
+   "kol": 8,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -558,8 +572,22 @@
    "cost_side": 0.03,
    "smart": 28,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T23:13:36+07:00",
+   "kind": "buy",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.002469,
+   "jup": 0.002451043158650464,
+   "usd": 2.4445,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 132,
+   "kol": 8
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ bigliqRC แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1795449815.2982006
+ "rank_t": 1795450240.4817438
 }

@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 9.254015777714296,
+ "cash": 6.905776265695877,
  "pos": {
   "B3Sz1ijEqM6HBZfhFgUKPEmCyFZBCE5X1sthbVCTpump": {
    "sym": "FLOP",
@@ -15,6 +15,20 @@
    "smart": 6,
    "kol": 0,
    "gap": 0,
+   "miss": 0
+  },
+  "BqekG1RSPUthaKfStu7Uvyvr1eR6TchrQMp1M5r5pump": {
+   "sym": "NINO",
+   "qty": 35946.07091448831,
+   "entry": 6.338e-05,
+   "last": 6.288e-05,
+   "peak": 6.621766205379053e-05,
+   "cost": 2.348239512018418,
+   "opened": "2026-11-23T23:14:27+07:00",
+   "zoo": "x_hot_chase",
+   "smart": 50,
+   "kol": 3,
+   "gap": 4,
    "miss": 0
   }
  },
@@ -264,12 +278,26 @@
    "cost_side": 0.03,
    "smart": 148,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T23:14:27+07:00",
+   "kind": "buy",
+   "mint": "BqekG1RSPUthaKfStu7Uvyvr1eR6TchrQMp1M5r5pump",
+   "sym": "NINO",
+   "price": 6.338e-05,
+   "jup": 6.35150363254063e-05,
+   "usd": 2.3482,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_hot_chase",
+   "smart": 50,
+   "kol": 3
   }
  ],
  "label": "สวนสัตว์: ไล่ของร้อน: GMGN hot level 3 ราคาขึ้น 5 นาที (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-23",
  "night_start": 12.9557084751128,
- "rank_t": 1795449815.2982006,
+ "rank_t": 1795450240.4817438,
  "nights": [
   {
    "night": "2026-11-22",

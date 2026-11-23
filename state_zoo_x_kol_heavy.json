@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 10.055369360697005,
- "pos": {
-  "FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump": {
-   "sym": "OpenIndex",
-   "qty": 8502.086975059136,
-   "entry": 0.0003026,
-   "last": 0.0002770623002087434,
-   "peak": 0.0003242,
-   "cost": 2.651753781336729,
-   "opened": "2026-11-23T21:49:12+07:00",
-   "zoo": "x_kol_heavy",
-   "smart": 114,
-   "kol": 5,
-   "gap": 2,
-   "miss": 0
-  }
- },
+ "cash": 12.143946475803846,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-23T02:11:53+07:00",
@@ -153,12 +138,27 @@
    "cost_side": 0.03,
    "smart": 148,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T23:13:48+07:00",
+   "kind": "sell",
+   "mint": "FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump",
+   "sym": "OpenIndex",
+   "price": 0.0002532,
+   "entry": 0.0003026,
+   "usd": 2.0886,
+   "pnl": -0.5632,
+   "why": "stop -16.3%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 114,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ตาม KOL: มีคนดังถือ 5 คนขึ้นไป ราคาขึ้น (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-23",
  "night_start": 13.258768906683644,
- "rank_t": 1795449815.2982006,
+ "rank_t": 1795450240.4817438,
  "nights": [
   {
    "night": "2026-11-22",
