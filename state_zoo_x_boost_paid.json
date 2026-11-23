@@ -1,33 +1,47 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 7.192393226559031,
+ "cash": 4.78086994998161,
  "pos": {
   "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": {
    "sym": "Max",
    "qty": 6659.741580903553,
    "entry": 0.0003543,
-   "last": 0.0003427,
+   "last": 0.0003538,
    "peak": 0.0003741,
    "cost": 2.4320206577140064,
    "opened": "2026-11-23T23:52:35+07:00",
    "zoo": "x_boost_paid",
    "smart": 470,
    "kol": 43,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
    "sym": "FIONA",
    "qty": 1654.2368625203935,
    "entry": 0.001398,
-   "last": 0.001537,
-   "peak": 0.001537,
+   "last": 0.001593,
+   "peak": 0.001593,
    "cost": 2.3836560851407027,
    "opened": "2026-11-24T00:33:43+07:00",
    "zoo": "x_boost_paid",
    "smart": 346,
    "kol": 19,
+   "gap": 0,
+   "miss": 0
+  },
+  "CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": {
+   "sym": "BURNIE",
+   "qty": 3586.2352589445336,
+   "entry": 0.0006524,
+   "last": 0.0006612,
+   "peak": 0.0006612,
+   "cost": 2.4115232765774213,
+   "opened": "2026-11-24T00:44:47+07:00",
+   "zoo": "x_boost_paid",
+   "smart": 372,
+   "kol": 39,
    "gap": 0,
    "miss": 0
   }
@@ -403,12 +417,26 @@
    "zoo": "x_boost_paid",
    "smart": 346,
    "kol": 19
+  },
+  {
+   "t": "2026-11-24T00:44:47+07:00",
+   "kind": "buy",
+   "mint": "CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump",
+   "sym": "BURNIE",
+   "price": 0.0006524,
+   "jup": 0.0006499114102783973,
+   "usd": 2.4115,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_boost_paid",
+   "smart": 372,
+   "kol": 39
   }
  ],
  "label": "สวนสัตว์: dev จ่ายค่า boost DexScreener แล้ว (ซื้อตามโปรโมต) (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-23",
  "night_start": 12.476753905324932,
- "rank_t": 1795455421.731183,
+ "rank_t": 1795455745.8974912,
  "nights": [
   {
    "night": "2026-11-22",
