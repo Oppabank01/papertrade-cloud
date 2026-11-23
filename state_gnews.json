@@ -2,18 +2,8 @@
  "label": "ข่าว Gemini: Hydrogen อ่านข่าวคริปโตแล้วเลือกเหรียญใหญ่ ไม้ละ 20% TP +4% SL -2% ถือไม่เกิน 12 ชม.",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 17.696165191740416,
- "pos": {
-  "BTC": {
-   "side": "short",
-   "qty": -4.817895681911901e-05,
-   "entry": 61226.99,
-   "last": 62108.59,
-   "usd": 2.9498525073746316,
-   "t": "2026-11-23T20:17:00.133399+07:00",
-   "why": "[WalterBloomberg] BLACKROCK'S BITCOIN ETF POSTS RECORD $541 MILLION DAILY OUTFLOW BlackRock's iShares Bitcoin Trust reco"
-  }
- },
+ "cash": 14.63914350917525,
+ "pos": {},
  "log": [
   {
    "kind": "buy",
@@ -23,6 +13,17 @@
    "px": 61226.99,
    "usd": 2.9498525073746316,
    "why": "[WalterBloomberg] BLACKROCK'S BITCOIN ETF POSTS RECORD $541 MILLION DAILY OUTFLOW BlackRock's iShares Bitcoin Trust reco"
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-23T20:59:01.953400+07:00",
+   "coin": "BTC",
+   "side": "short",
+   "px": 63388.0,
+   "usd": 2.9498525073746316,
+   "pnl": -0.11011902769790942,
+   "cost_side": 0.001,
+   "why": "SL"
   }
  ]
 }
