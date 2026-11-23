@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 7.353853757012222,
+ "cash": 5.511372773774609,
  "pos": {
   "4Cnk9EPnW5ixfLZatCPJjDB1PUtcRpVVgTQukm9epump": {
    "sym": "DADDY",
    "qty": 344.6228739432299,
    "entry": 0.005358,
-   "last": 0.005372,
+   "last": 0.005393,
    "peak": 0.005431,
    "cost": 1.903204863520744,
    "opened": "2026-11-23T18:17:51+07:00",
@@ -15,6 +15,20 @@
    "smart": 55,
    "kol": 30,
    "gap": 0,
+   "miss": 0
+  },
+  "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": {
+   "sym": "Singularity",
+   "qty": 4717.801662541914,
+   "entry": 0.0003789,
+   "last": 0.0003545921067872393,
+   "peak": 0.0003789,
+   "cost": 1.8424809832376121,
+   "opened": "2026-11-23T20:54:56+07:00",
+   "zoo": "x_loofy_desk_b2",
+   "smart": 125,
+   "kol": 3,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -566,10 +580,24 @@
    "cost_side": 0.03,
    "smart": 51,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T20:54:56+07:00",
+   "kind": "buy",
+   "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump",
+   "sym": "Singularity",
+   "price": 0.0003789,
+   "jup": 0.000377498944413932,
+   "usd": 1.8425,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "x_loofy_desk_b2",
+   "smart": 125,
+   "kol": 3
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: 8 เอเจนต์: smart money 2+ ผ่านเช็กปลอดภัย+RugCheck stop -8% trail",
- "rank_t": 1795441677.7263534,
+ "rank_t": 1795441998.8038535,
  "banned": {
   "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK": "Cope"
  }

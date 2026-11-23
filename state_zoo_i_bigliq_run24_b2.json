@@ -1,33 +1,47 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 7.830618634822164,
+ "cash": 5.0887328710945265,
  "pos": {
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 506.1066890021971,
    "entry": 0.005557,
-   "last": 0.005971,
+   "last": 0.005954,
    "peak": 0.006244,
    "cost": 2.840771567167707,
    "opened": "2026-11-22T22:15:48+07:00",
    "zoo": "i_bigliq_run24_b2",
    "smart": 541,
    "kol": 51,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 69.83092996260338,
    "entry": 0.03822,
-   "last": 0.04065,
+   "last": 0.04049,
    "peak": 0.04143,
    "cost": 2.695829037822985,
    "opened": "2026-11-23T05:00:29+07:00",
    "zoo": "i_bigliq_run24_b2",
    "smart": 1000,
    "kol": 186,
+   "gap": 0,
+   "miss": 0
+  },
+  "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": {
+   "sym": "MINELIUS",
+   "qty": 189.6950002260276,
+   "entry": 0.01431,
+   "last": 0.01432,
+   "peak": 0.01432409573950619,
+   "cost": 2.741885763727638,
+   "opened": "2026-11-23T20:54:10+07:00",
+   "zoo": "i_bigliq_run24_b2",
+   "smart": 5,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -210,8 +224,22 @@
    "cost_side": 0.01,
    "smart": 928,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T20:54:10+07:00",
+   "kind": "buy",
+   "mint": "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump",
+   "sym": "MINELIUS",
+   "price": 0.01431,
+   "jup": 0.01432409573950619,
+   "usd": 2.7419,
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "zoo": "i_bigliq_run24_b2",
+   "smart": 5,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ปล่อยวิ่ง trail 20/15 ถือ 24 ชม.",
- "rank_t": 1795441677.7263534
+ "rank_t": 1795441998.8038535
 }
