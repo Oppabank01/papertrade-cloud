@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.645577035735208,
- "cash": 5.910499350908026,
+ "cash": 2.96233062143477,
  "pos": {
   "DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump": {
    "sym": "jingyu",
    "qty": 25464.406523423473,
    "entry": 0.0001116,
-   "last": 0.0001161,
-   "peak": 0.0001166,
+   "last": 0.00011540302422481742,
+   "peak": 0.0001167,
    "cost": 2.9291154071470418,
    "opened": "2026-11-23T13:16:04+07:00",
    "zoo": "x_trail20",
    "smart": 22,
    "kol": 0,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   },
   "FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump": {
    "sym": "OpenIndex",
    "qty": 10291.039980024394,
    "entry": 0.0002745,
-   "last": 0.0002687,
+   "last": 0.0002589,
    "peak": 0.0002756,
    "cost": 2.9116578793204457,
    "opened": "2026-11-23T13:16:08+07:00",
@@ -35,13 +35,27 @@
    "sym": "SIDOOR",
    "qty": 17216.763502689002,
    "entry": 0.0001631,
-   "last": 0.00018755956519772243,
+   "last": 0.0001875,
    "peak": 0.0001949,
    "cost": 2.8943043983596954,
    "opened": "2026-11-23T13:16:08+07:00",
    "zoo": "x_trail20",
    "smart": 78,
    "kol": 7,
+   "gap": 0,
+   "miss": 0
+  },
+  "84tAcSK5L9kuQEVM8C8vMHXnfdA83nGBT2nYfSbPUcAc": {
+   "sym": "Fly",
+   "qty": 15528.302395955227,
+   "entry": 0.0001842,
+   "last": 0.00017928603007281204,
+   "peak": 0.0001858,
+   "cost": 2.948168729473256,
+   "opened": "2026-11-23T13:25:55+07:00",
+   "zoo": "x_trail20",
+   "smart": 130,
+   "kol": 10,
    "gap": 1,
    "miss": 0
   }
@@ -93,8 +107,22 @@
    "zoo": "x_trail20",
    "smart": 78,
    "kol": 7
+  },
+  {
+   "t": "2026-11-23T13:25:55+07:00",
+   "kind": "buy",
+   "mint": "84tAcSK5L9kuQEVM8C8vMHXnfdA83nGBT2nYfSbPUcAc",
+   "sym": "Fly",
+   "price": 0.0001842,
+   "jup": 0.0001831475685070016,
+   "usd": 2.9482,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "x_trail20",
+   "smart": 130,
+   "kol": 10
   }
  ],
  "label": "สวนสัตว์: trailing stop 20% จากจุดเข้าอย่างเดียว (วิเคราะห์ 6,200 ไม้ Grok Bot desk)",
- "rank_t": 1795414732.6073294
+ "rank_t": 1795415025.354305
 }
