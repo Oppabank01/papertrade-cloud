@@ -377,3 +377,14 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ไอเดีย: graduation plays ของ meme_traderv1 (ต้อง % ความคืบหน้าของ bonding curve), ตัวเทียบ ETF โมเมนตัมของ claude-trader (ต้องรายชื่อ 46 ตัว)
 ตัดทิ้ง: ไม่มี
 เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
+
+## 2026-11-23 รอบอัตโนมัติ 2 (Bangkok)
+ค้น: solana memecoin bot turned in a week, memecoin trading system 1 month rules, เทรดเหรียญมีม โซลานา กำไร คืนเดียว, memecoin filters holders top 10 take profit, overnight memecoin bot night session backtest
+เจอ: rattibha 100 เป็น 300K และ 40,000 ใน 1 สัปดาห์ (ไม่มีกฎ), cryptorank 100 เป็น 50k (ซ้ำ ไม่มีกฎ), dev.to gengengen (ซ้ำ x_snipe_30_30), mexc 1066589 และ ketchupjl backtest (ซ้ำ), dextools เช็กลิสต์ holder 2-3% (ไม่มีผลลัพธ์ ซ้ำแนว x_ladder_2x), ketchupjl papertrading ช่วง 00-08 ติดลบ 16-24 ดีสุด (ข้อมูล 3.5 วัน ไม่ใช่กฎโม้ ไม่เพิ่ม)
+หมายเหตุ: cryptorank, rattibha, dev.to resolve ไม่ได้ในเซสชันนี้ (ไม่ได้ลองซ้ำ)
+ยังทำไม่ได้: arxiv time-of-day 15 วัน (ต้องอ่านเปเปอร์เต็มเพื่อได้กฎรายชั่วโมง)
+เพิ่ม x_: ไม่มี (ไม่เจอกฎใหม่ที่สคริปต์ตัดสินได้)
+เลิก: ไม่มี (ยังไม่มี x_ ที่เลยจุดตัดสินและแพ้ rand ทุกตัวชนะ rand ราว -98%)
+สกอร์บอร์ด: 1 คืน: x_organic +6.5% (2 ไม้), x_night_tp50_sl25 -2.1% (3 ไม้), x_crb_smart_night -19.1% (7 ไม้)
+สกอร์บอร์ด: 1 สัปดาห์: x_smartflow_lowcap +20.9% (7 ไม้ halted), x_trail20 +14.6% (6 ไม้), x_loofy_desk -20.8% (14 ไม้)
+สกอร์บอร์ด: 1 เดือน: x_spray_small -9.0% (22 ไม้), x_scalp_1020 -9.0% (8 ไม้); ตัวควบคุม rand -98.3% randrun -98.1%
