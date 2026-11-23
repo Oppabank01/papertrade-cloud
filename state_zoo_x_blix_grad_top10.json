@@ -1,20 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.628437682855472,
- "cash": 9.72439743470644,
+ "cash": 7.216569240892274,
  "pos": {
   "DJVZ9hKSLsDAPjdq73nX5bYPnjvfntUN87RRxdN2pump": {
    "sym": "JACKET",
    "qty": 71403.94556987283,
    "entry": 3.431e-05,
-   "last": 3.856e-05,
-   "peak": 3.856e-05,
+   "last": 3.975e-05,
+   "peak": 3.975e-05,
    "cost": 2.525117885489937,
    "opened": "2026-11-24T01:44:04+07:00",
    "zoo": "x_blix_grad_top10",
    "smart": 137,
    "kol": 12,
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump": {
+   "sym": "JENSEN",
+   "qty": 1912.8104666969366,
+   "entry": 0.001272,
+   "last": 0.001285,
+   "peak": 0.001285,
+   "cost": 2.5078281938141656,
+   "opened": "2026-11-24T01:49:37+07:00",
+   "zoo": "x_blix_grad_top10",
+   "smart": 10,
+   "kol": 0,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -298,12 +312,26 @@
    "cost_side": 0.03,
    "smart": 169,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T01:49:37+07:00",
+   "kind": "buy",
+   "mint": "HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump",
+   "sym": "JENSEN",
+   "price": 0.001272,
+   "jup": 0.0012615107954656452,
+   "usd": 2.5078,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_blix_grad_top10",
+   "smart": 10,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: blixtrade: เหรียญจบ curve ใหม่ top10 ถือไม่เกิน 30% (เดิมตัดทิ้งว่าซ้ำ ลองจริงก่อน)",
  "night": "2026-11-23",
  "night_start": 13.5376392389375,
- "rank_t": 1795459343.6140647,
+ "rank_t": 1795459642.453556,
  "nights": [
   {
    "night": "2026-11-22",

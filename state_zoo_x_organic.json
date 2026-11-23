@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 15.569485816932742,
- "pos": {},
+ "cash": 12.455588653546194,
+ "pos": {
+  "HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump": {
+   "sym": "JENSEN",
+   "qty": 2375.0809967905893,
+   "entry": 0.001272,
+   "last": 0.001285,
+   "peak": 0.001285,
+   "cost": 3.1138971633865484,
+   "opened": "2026-11-24T01:49:37+07:00",
+   "zoo": "x_organic",
+   "smart": 10,
+   "kol": 0,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-23T02:11:54+07:00",
@@ -66,12 +81,26 @@
    "cost_side": 0.03,
    "smart": 4,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T01:49:37+07:00",
+   "kind": "buy",
+   "mint": "HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump",
+   "sym": "JENSEN",
+   "price": 0.001272,
+   "jup": 0.0012615107954656452,
+   "usd": 3.1139,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_organic",
+   "smart": 10,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: คนซื้อจริง: บอทไม่เกิน 25% bundler ไม่เกิน 10% อายุไม่เกิน 24 ชม. (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-23",
  "night_start": 15.569485816932742,
- "rank_t": 1795459343.6140647,
+ "rank_t": 1795459642.453556,
  "nights": [
   {
    "night": "2026-11-22",
