@@ -2040,5 +2040,36 @@
    "MAX_HOLD_H": 2
   },
   "note": "exit copied from x_fresh_grad (stop -15%, take all +35%, 2 h); liquidity 20k and rugcheck as in most recipes; sniper 0, rug ratio 0.1 and 12h chosen by me."
+ },
+ {
+  "name": "x_axiom_40h",
+  "label": "ฟิลเตอร์ Axiom: pump.fun อายุไม่เกิน 1 ชม. คนถือ 40+ ราคาขึ้น",
+  "horizon": "week",
+  "source": "https://www.publish0x.com/wagmiwhiz/setting-up-your-first-profitable-filter-on-axiom-degen-editi-xeorzgv",
+  "claim": "Axiom degen filter: pump.fun only, at least 40 holders, token age 60 minutes or less (post gives filter only, no profit proof; unverified)",
+  "added": "2026-11-23",
+  "active": true,
+  "entry": {
+   "min": {
+    "holder_count": 40,
+    "liquidity": 10000
+   },
+   "max": {
+    "age_h": 1
+   },
+   "safe": false,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.2,
+   "TP_ALL": 0.5,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 2,
+   "PER_TRADE": 0.1,
+   "MAX_POS": 6
+  },
+  "note": "post gives only the filter; exits chosen by me (stop -20%, take all +50%, 2 h) in the spirit of pump.fun scalps; pump.fun-only cannot be tested on GMGN ranking so age<=1h is the proxy"
  }
 ]
