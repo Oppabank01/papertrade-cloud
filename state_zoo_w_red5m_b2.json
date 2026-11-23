@@ -7,14 +7,14 @@
    "sym": "BP",
    "qty": 694.2963758140827,
    "entry": 0.003703,
-   "last": 0.003752,
+   "last": 0.00376,
    "peak": 0.003895,
    "cost": 2.596883391469456,
    "opened": "2026-11-23T08:18:09+07:00",
    "zoo": "w_red5m_b2",
    "smart": 187,
    "kol": 33,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
@@ -35,28 +35,28 @@
    "sym": "dreams",
    "qty": 637.203047446904,
    "entry": 0.003893,
-   "last": 0.003911844087703051,
+   "last": 0.003887,
    "peak": 0.004059,
    "cost": 2.505625073822173,
    "opened": "2026-11-23T09:59:08+07:00",
    "zoo": "w_red5m_b2",
    "smart": 83,
    "kol": 85,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "J1Wpmugrooj1yMyQKrdZ2vwRXG5rhfx3vTnYE39gpump": {
    "sym": "WOULD",
    "qty": 358.9253445280374,
    "entry": 0.006975,
-   "last": 0.006795,
+   "last": 0.006781,
    "peak": 0.006975,
    "cost": 2.528728343307554,
    "opened": "2026-11-23T10:18:27+07:00",
    "zoo": "w_red5m_b2",
    "smart": 25,
    "kol": 29,
-   "gap": 14,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -237,8 +237,18 @@
    "zoo": "w_red5m_b2",
    "smart": 25,
    "kol": 29
+  },
+  {
+   "t": "2026-11-23T10:36:28+07:00",
+   "kind": "ban",
+   "mint": "J1Wpmugrooj1yMyQKrdZ2vwRXG5rhfx3vTnYE39gpump",
+   "sym": "WOULD",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สวนทาง: อายุเกิน 1 วัน pool 200k+ กำลังแดง 5 นาที",
- "rank_t": 1795404708.2631083
+ "rank_t": 1795404987.936737,
+ "banned": {
+  "J1Wpmugrooj1yMyQKrdZ2vwRXG5rhfx3vTnYE39gpump": "WOULD"
+ }
 }
