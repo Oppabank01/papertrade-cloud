@@ -1,8 +1,37 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 13.081805769339768,
- "pos": {},
+ "cash": 7.854303102105827,
+ "pos": {
+  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
+   "sym": "Rings",
+   "qty": 1002.4237427856505,
+   "entry": 0.002584,
+   "last": 0.0026227365694261144,
+   "peak": 0.0026227365694261144,
+   "cost": 2.616361153867954,
+   "opened": "2026-11-24T00:10:28+07:00",
+   "zoo": "w_hot_mkt_b2",
+   "smart": 132,
+   "kol": 9,
+   "gap": 6,
+   "miss": 0
+  },
+  "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
+   "sym": "TROLL",
+   "qty": 115.45758717151233,
+   "entry": 0.02239,
+   "last": 0.02239,
+   "peak": 0.02239,
+   "cost": 2.611141513365987,
+   "opened": "2026-11-24T00:10:28+07:00",
+   "zoo": "w_hot_mkt_b2",
+   "smart": 475,
+   "kol": 214,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T19:52:27+07:00",
@@ -240,8 +269,36 @@
    "cost_side": 0.01,
    "smart": 562,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T00:10:28+07:00",
+   "kind": "buy",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.002584,
+   "jup": 0.002588960305204428,
+   "usd": 2.6164,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_hot_mkt_b2",
+   "smart": 132,
+   "kol": 9
+  },
+  {
+   "t": "2026-11-24T00:10:28+07:00",
+   "kind": "buy",
+   "mint": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
+   "sym": "TROLL",
+   "price": 0.02239,
+   "jup": 0.022231208135974036,
+   "usd": 2.6111,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_hot_mkt_b2",
+   "smart": 475,
+   "kol": 214
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดร้อน: กฎ w_aged_nostop เฉพาะรอบที่เหรียญ 74%+ ขึ้นใน 1 ชม.",
- "rank_t": 1795453376.8645635
+ "rank_t": 1795453741.0871413
 }
