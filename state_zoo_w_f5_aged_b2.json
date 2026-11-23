@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 3.295060016045699,
+ "cash": 1.5652522799715216,
  "pos": {
   "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": {
    "sym": "TripleT",
    "qty": 1042.7835471920137,
    "entry": 0.001655,
-   "last": 0.001692,
+   "last": 0.001722,
    "peak": 0.001775,
    "cost": 1.7788154716581968,
    "opened": "2026-11-23T20:04:56+07:00",
@@ -21,7 +21,7 @@
    "sym": "MANIFEST",
    "qty": 643.1951527350025,
    "entry": 0.002655,
-   "last": 0.002887,
+   "last": 0.002877,
    "peak": 0.003219,
    "cost": 1.7601351582265836,
    "opened": "2026-11-23T20:24:07+07:00",
@@ -35,14 +35,28 @@
    "sym": "baton",
    "qty": 468.66519576299925,
    "entry": 0.003622,
-   "last": 0.003739,
+   "last": 0.003734,
    "peak": 0.004273,
    "cost": 1.7496447526835532,
    "opened": "2026-11-23T20:24:09+07:00",
    "zoo": "w_f5_aged_b2",
    "smart": 733,
    "kol": 80,
-   "gap": 2,
+   "gap": 0,
+   "miss": 0
+  },
+  "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": {
+   "sym": "Singularity",
+   "qty": 5292.524331564701,
+   "entry": 0.0003171,
+   "last": 0.0003098,
+   "peak": 0.0003178,
+   "cost": 1.7298077360741773,
+   "opened": "2026-11-23T22:59:20+07:00",
+   "zoo": "w_f5_aged_b2",
+   "smart": 126,
+   "kol": 3,
+   "gap": 8,
    "miss": 0
   }
  },
@@ -1050,8 +1064,22 @@
    "cost_side": 0.03,
    "smart": 108,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T22:59:20+07:00",
+   "kind": "buy",
+   "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump",
+   "sym": "Singularity",
+   "price": 0.0003171,
+   "jup": 0.0003175027127517892,
+   "usd": 1.7298,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged_b2",
+   "smart": 126,
+   "kol": 3
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1795449134.1685834
+ "rank_t": 1795449452.0097127
 }

@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 9.772493069390503,
+ "cash": 7.320558099036844,
  "pos": {
   "B3Sz1ijEqM6HBZfhFgUKPEmCyFZBCE5X1sthbVCTpump": {
    "sym": "FLOP",
@@ -15,6 +15,20 @@
    "smart": 6,
    "kol": 0,
    "gap": 0,
+   "miss": 0
+  },
+  "42uiGgChB5gn1817XmAytoo6hR96WsSXCA3MipCipump": {
+   "sym": "sexcoin",
+   "qty": 13798.53427051694,
+   "entry": 0.0001724,
+   "last": 0.0001554,
+   "peak": 0.0001784,
+   "cost": 2.4519349703536593,
+   "opened": "2026-11-23T23:00:09+07:00",
+   "zoo": "x_hot_chase",
+   "smart": 148,
+   "kol": 17,
+   "gap": 7,
    "miss": 0
   }
  },
@@ -235,12 +249,26 @@
    "cost_side": 0.03,
    "smart": 196,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T23:00:09+07:00",
+   "kind": "buy",
+   "mint": "42uiGgChB5gn1817XmAytoo6hR96WsSXCA3MipCipump",
+   "sym": "sexcoin",
+   "price": 0.0001724,
+   "jup": 0.0001741022612278986,
+   "usd": 2.4519,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_hot_chase",
+   "smart": 148,
+   "kol": 17
   }
  ],
  "label": "สวนสัตว์: ไล่ของร้อน: GMGN hot level 3 ราคาขึ้น 5 นาที (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-23",
  "night_start": 12.9557084751128,
- "rank_t": 1795449134.1685834,
+ "rank_t": 1795449452.0097127,
  "nights": [
   {
    "night": "2026-11-22",

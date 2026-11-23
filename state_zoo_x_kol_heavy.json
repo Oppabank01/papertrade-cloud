@@ -1,20 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 10.607015125346916,
+ "cash": 7.998222872903762,
  "pos": {
   "FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump": {
    "sym": "OpenIndex",
    "qty": 8502.086975059136,
    "entry": 0.0003026,
-   "last": 0.00029990747795502053,
+   "last": 0.0002885,
    "peak": 0.0003242,
    "cost": 2.651753781336729,
    "opened": "2026-11-23T21:49:12+07:00",
    "zoo": "x_kol_heavy",
    "smart": 114,
    "kol": 5,
-   "gap": 1,
+   "gap": 5,
+   "miss": 0
+  },
+  "42uiGgChB5gn1817XmAytoo6hR96WsSXCA3MipCipump": {
+   "sym": "sexcoin",
+   "qty": 14681.265912531018,
+   "entry": 0.0001724,
+   "last": 0.0001554,
+   "peak": 0.0001784,
+   "cost": 2.6087922524431533,
+   "opened": "2026-11-23T23:00:07+07:00",
+   "zoo": "x_kol_heavy",
+   "smart": 148,
+   "kol": 17,
+   "gap": 7,
    "miss": 0
   }
  },
@@ -124,12 +138,26 @@
    "zoo": "x_kol_heavy",
    "smart": 114,
    "kol": 5
+  },
+  {
+   "t": "2026-11-23T23:00:07+07:00",
+   "kind": "buy",
+   "mint": "42uiGgChB5gn1817XmAytoo6hR96WsSXCA3MipCipump",
+   "sym": "sexcoin",
+   "price": 0.0001724,
+   "jup": 0.0001741022612278986,
+   "usd": 2.6088,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_kol_heavy",
+   "smart": 148,
+   "kol": 17
   }
  ],
  "label": "สวนสัตว์: ตาม KOL: มีคนดังถือ 5 คนขึ้นไป ราคาขึ้น (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-23",
  "night_start": 13.258768906683644,
- "rank_t": 1795449134.1685834,
+ "rank_t": 1795449452.0097127,
  "nights": [
   {
    "night": "2026-11-22",
