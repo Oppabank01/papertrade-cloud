@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.026889244882721257,
+ "cash": 0.0913300187325504,
  "pos": {
   "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": {
    "sym": "STANK",
    "qty": 204.0831422307123,
    "entry": 0.0003076,
-   "last": 0.0002829,
+   "last": 0.0002681,
    "peak": 0.0003929965576768336,
    "cost": 0.06470415847265214,
    "opened": "2026-11-22T22:28:59+07:00",
@@ -21,27 +21,13 @@
    "sym": "CATE",
    "qty": 3.0439573265402733,
    "entry": 0.01893,
-   "last": 0.02032,
+   "last": 0.02027,
    "peak": 0.02129,
    "cost": 0.05939199360070849,
    "opened": "2026-11-23T01:33:46+07:00",
    "zoo": "randrun",
    "smart": 928,
    "kol": 111,
-   "gap": 0,
-   "miss": 0
-  },
-  "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
-   "sym": "FIONA",
-   "qty": 50.586513792532436,
-   "entry": 0.001091,
-   "last": 0.001356,
-   "peak": 0.001756,
-   "cost": 0.056885061376677884,
-   "opened": "2026-11-23T11:40:59+07:00",
-   "zoo": "randrun",
-   "smart": 343,
-   "kol": 19,
    "gap": 0,
    "miss": 0
   },
@@ -3281,8 +3267,23 @@
    "zoo": "randrun",
    "smart": 562,
    "kol": 35
+  },
+  {
+   "t": "2026-11-23T21:53:38+07:00",
+   "kind": "sell",
+   "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
+   "sym": "FIONA",
+   "price": 0.001313,
+   "entry": 0.001091,
+   "usd": 0.0644,
+   "pnl": 0.0076,
+   "why": "trailing จากยอด +61% (+20.3%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 343,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1795445235.5787396
+ "rank_t": 1795445550.8525856
 }

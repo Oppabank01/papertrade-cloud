@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 9.981403124259945,
+ "cash": 7.518574052450775,
  "pos": {
   "6FhVPctYg363pQbs4iSvqyHe2cJzfsvFD96gePy6pump": {
    "sym": "EXFIL",
    "qty": 1161.1459605703837,
    "entry": 0.002085,
-   "last": 0.002009,
+   "last": 0.00201,
    "peak": 0.002085,
    "cost": 2.4953507810649866,
    "opened": "2026-11-23T21:38:32+07:00",
    "zoo": "x_boost_paid",
    "smart": 108,
    "kol": 9,
+   "gap": 0,
+   "miss": 0
+  },
+  "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": {
+   "sym": "HOGE",
+   "qty": 3363.508960401543,
+   "entry": 0.0007104,
+   "last": 0.0007159,
+   "peak": 0.0007159,
+   "cost": 2.4628290718091694,
+   "opened": "2026-11-23T21:55:17+07:00",
+   "zoo": "x_boost_paid",
+   "smart": 222,
+   "kol": 13,
    "gap": 0,
    "miss": 0
   }
@@ -317,12 +331,26 @@
    "zoo": "x_boost_paid",
    "smart": 108,
    "kol": 9
+  },
+  {
+   "t": "2026-11-23T21:55:17+07:00",
+   "kind": "buy",
+   "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+   "sym": "HOGE",
+   "price": 0.0007104,
+   "jup": 0.0007065754906583649,
+   "usd": 2.4628,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_boost_paid",
+   "smart": 222,
+   "kol": 13
   }
  ],
  "label": "สวนสัตว์: dev จ่ายค่า boost DexScreener แล้ว (ซื้อตามโปรโมต) (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-23",
  "night_start": 12.476753905324932,
- "rank_t": 1795445235.5787396,
+ "rank_t": 1795445550.8525856,
  "nights": [
   {
    "night": "2026-11-22",

@@ -1,61 +1,47 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.645577035735208,
- "cash": 2.281394226694145,
+ "cash": 4.364390968563178,
  "pos": {
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 580.8120353492138,
    "entry": 0.006198,
-   "last": 0.006159421744534912,
+   "last": 0.006171,
    "peak": 0.006437,
    "cost": 3.710444233245133,
    "opened": "2026-11-23T15:31:49+07:00",
    "zoo": "x_trail20",
    "smart": 541,
    "kol": 51,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "3giek4YMpTKQn214YoNL31Xf5cE7o8ePP7Ekg6W6pump": {
    "sym": "MUTTS",
    "qty": 21693.277067692234,
    "entry": 0.0001536,
-   "last": 0.0001831,
+   "last": 0.00017446946168586333,
    "peak": 0.0002032,
    "cost": 3.434433475157212,
    "opened": "2026-11-23T16:14:54+07:00",
    "zoo": "x_trail20",
    "smart": 132,
    "kol": 3,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   },
   "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": {
    "sym": "MINELIUS",
    "qty": 200.19165547253905,
    "entry": 0.01627,
-   "last": 0.01617,
+   "last": 0.01572,
    "peak": 0.01721,
    "cost": 3.357161651760679,
    "opened": "2026-11-23T20:05:30+07:00",
    "zoo": "x_trail20",
    "smart": 5,
    "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
-  "CfNmk6r5zDChpbmYtqmv5aEcPptqaqh93kBpmbDrpump": {
-   "sym": "AVENGERS",
-   "qty": 15023.92354980085,
-   "entry": 0.0002084,
-   "last": 0.0002094,
-   "peak": 0.0002366,
-   "cost": 3.2271548833008623,
-   "opened": "2026-11-23T20:34:50+07:00",
-   "zoo": "x_trail20",
-   "smart": 21,
-   "kol": 1,
    "gap": 2,
    "miss": 0
   }
@@ -295,8 +281,23 @@
    "zoo": "x_trail20",
    "smart": 21,
    "kol": 1
+  },
+  {
+   "t": "2026-11-23T21:56:49+07:00",
+   "kind": "sell",
+   "mint": "CfNmk6r5zDChpbmYtqmv5aEcPptqaqh93kBpmbDrpump",
+   "sym": "AVENGERS",
+   "price": 0.00014290385855603147,
+   "entry": 0.0002084,
+   "usd": 2.083,
+   "pnl": -1.1442,
+   "why": "stop -31.4%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 21,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: trailing stop 20% จากจุดเข้าอย่างเดียว (วิเคราะห์ 6,200 ไม้ Grok Bot desk)",
- "rank_t": 1795445235.5787396
+ "rank_t": 1795445550.8525856
 }
