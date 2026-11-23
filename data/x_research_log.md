@@ -282,3 +282,16 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ไอเดีย: order flow ของ RohOnChain (ต้องข้อมูล footprint), log ไม้ของ MisterFeeman (ต้องโพสต์เต็ม)
 ลองแล้วตก: บอท 4 agents ของ rugikkk (แบบเดียวกับข้ออ้าง Grok Bot ที่ลองแล้ว เฉลี่ยติดลบ)
 เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
+
+## 2026-11-23 08:06 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 16 พ.ย. (polymarket bot, mcp trading, quant strategy, pine script strategy, bitcoin strategy, memecoin), X 4 ครั้ง (claude code trading bot strategy rules, polymarket bot strategy backtest, เหรียญมีม บอท ขายเมื่อ ไม่มีผล, memecoin bot exit rule take profit 2x ได้แต่โพสต์เก่าปี 2025), เว็บ 2 ครั้ง (ไฟล์กฎบอท Claude ของ Humbled Trader, งานวิจัยคริปโตใหม่) แล้วอ่าน arXiv 1903.06033 ฉบับ HTML
+เจอ: WickCheck/pine-strategies (3 ท่า Pine พร้อมผลหลังหักต้นทุน ท่า RSI(2) ซ้ำกับ fwd_rsi2), โพสต์ quietoraclex บอทกลับทิศตลาด BTC รายชั่วโมงของ Polymarket, 0xKorens เรื่องตลาด 5/15 นาทีตัดสินด้วยค่าเฉลี่ย 60 วินาที, Principia_X บอท Claude ของ Humbled Trader (ไม่เห็นไฟล์กฎ), DrivenByNikiG Claude แข่ง Codex 200 ไอเดียยังไม่ได้เงินจริง, ลิงก์ copy trade gravia, arXiv 1903.06033 Altcoin-Bitcoin Arbitrage, repo Polymarket/Hyperliquid "native 64-bit" ดาวปั่นชุดเดิม, ketchup42/pm-bot กับ byttrade/free-crypto-trading-bot มีในฟีดแล้ว
+ทดสอบแล้ว (Binance หลังหัก 0.35%/ข้าง permutation 200 รอบ):
+- FVG retest + EMA50 4 ชม. 2017-2026 long+short stop 1.5 ATR เป้า 3R: BTC 703 ไม้ -0.50% ETH 744 ไม้ -0.28% SOL 498 ไม้ -0.18% มัธยฐาน -2.7 ถึง -4.2% ชนะ 27-29% ตัวแฝดเข้าสุ่ม -0.50/-0.65/-0.57% p 0.065/0.015/0.050 (กริด 2R กับ 3R) ปี 2024+ -0.54/-0.21/-0.52% ติดลบหลังหักทุกเหรียญ
+- London breakout แบบใกล้สุดบน 1 ชม. (กรอบ 7 แท่ง ช่วง 07-10 UTC stop 1.5 ATR เป้า 2R): BTC 1,232 ไม้ -0.66% ETH 1,265 ไม้ -0.61% SOL 879 ไม้ -1.00% ตัวแฝด -0.72 ถึง -0.74% p 0.100/0.065/1.000
+- กลับทิศรายชั่วโมงแบบ Polymarket (แท่ง 1 ชม. ขยับเกิน 0.5% แทงชั่วโมงถัดไปกลับทิศ ราคาสมมติ 0.52 จุดคุ้มทุนชนะ 52%): BTC 21,283 ไม้ ชนะ 56.0% ETH 29,231 ไม้ 54.9% SOL 27,423 ไม้ 52.8% ตัวแฝดสุ่ม 49.9-50.1% p 0.005 ทุกเหรียญ เกณฑ์ 0.5% เลือกจากช่วงก่อนปี 2024 (กริด 0/0.5/1%) แต่ 365 วันล่าสุดเหลือ 51.9-52.8% และ 90 วัน ETH 50.6% แรงกลับทิศรายชั่วโมงอ่อนลงจนใกล้ต้นทุน ราคาจริงตอนต้นชั่วโมงยังไม่ได้เทียบ ถ้าตลาดตั้งราคาเกิน 0.52 หลังแท่งแรง กำไรจะหาย
+เปิดบัญชี: fwd_fvg.py (FVG BTC ETH SOL 4 ชม. พร้อมตัวแฝดเข้าสุ่มฝั่ง EMA50) และ fwd_hourrev.py (แทงกลับทิศรายชั่วโมง BTC ETH SOL ไม้ละ 2% ของทุน ตัดสินด้วยแท่ง 1 ชม. ของ Binance พร้อมตัวแฝดสุ่มชั่วโมงสุ่มฝั่ง) test เดินทีละแท่งได้ไม้ตรง backtest 34 และ 160 ไม้ สคริปต์ /tmp/scout_0751*.py
+ลองแล้วตก: Altcoin-Bitcoin Arbitrage บนเหรียญใหญ่ 7 ตัวเทียบ BTC รายวัน 2,523 วัน ก่อนหัก -0.10% ต่อวัน หลังหัก -1.50% p 1.0
+ไอเดีย: บอท Humbled Trader (ต้องไฟล์กฎและข้อมูลหุ้นสหรัฐฯ ก่อนตลาดเปิด), เธรด 0xKorens (ต้องราคาประวัติตลาด 5/15 นาทีกับราคาอ้างอิงรายวินาที), DrivenByNikiG (ต้องรายชื่อท่าที่ทดสอบ)
+ตัดทิ้ง: copy trade ผ่าน gravia (ต้องสมัครผ่าน referral และใช้เงินจริง)
+เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
