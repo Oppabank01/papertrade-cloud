@@ -366,3 +366,14 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ไอเดีย: order flow ของ Allencake เปิด forward ได้ถ้า fetch มีวอลุ่ม, ต้นทุน Hyperliquid 8.5 bps ต่อข้างถ้าจะมีบัญชีที่คิดต้นทุนแบบนั้น
 ตัดทิ้ง: repo บอท Hyperliquid/Polymarket แบบ portable x64 ดาวปั่น (ต้องรันไฟล์ที่ดาวน์โหลด)
 เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
+
+## 2026-11-23 20:02 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 16 พ.ย. (supertrend, ichimoku, turtle trading, vwap strategy, llm trader), X 4 ครั้ง (ai trading agent backtest win rate rules, solana memecoin filter holders liquidity backtest results และ memecoin bot settings take profit stop loss min liquidity ไม่มีผลกลับมาทั้งสองครั้ง, memecoin strategy ได้แต่ข่าวเหรียญมีมการเมืองกับ presale), เว็บ 1 ครั้ง (งาน VWAP ระหว่างวันใน bitcoin ไม่เจองานใหม่)
+เจอ: dantecoderr/vwap-nq (VWAP trend มีบัฟเฟอร์ตามความผันผวนจาก Zarattini & Aziz 2023 บน NQ), chellurikishore080-ans8260/double-supertrend-binance-backtest (Double SuperTrend 1 ชม. ATR10 x1.5 และ x3.0), m3n4ce-dev/meme_traderv1 (บอท pump.fun แบบ paper ที่หยุดเองเพราะไม่มี edge หลังต้นทุนจริงราว 4%), andinoworks/claude-trader (มีแค่คำอธิบาย ไม่มีโค้ด) ส่วนผล X เป็นโพสต์ขายแพลตฟอร์มและเรื่องที่มีในฟีดแล้ว (MisterFeeman, RohOnChain) ข้ามไป
+ทดสอบแล้ว (Binance หลังหัก 0.35%/ข้าง permutation 200 รอบ):
+- VWAP บัฟเฟอร์ แท่ง 15 นาที 2017-2026 วัน UTC (ผมเลือกเริ่มดูแท่งที่สองของวันและปิดที่เปิดแท่งแรกของวันถัดไป): บัฟเฟอร์ 0.15 เท่าของ std รายวัน 14 วันตาม repo BTC 8,857 ไม้ -0.66% ETH 8,700 ไม้ -0.58% SOL 6,708 ไม้ -0.64% ต่อไม้ ก่อนหัก +0.04/+0.12/+0.06% แบบไม่มีบัฟเฟอร์ตามงานวิจัยเดิม BTC 35,841 ไม้ -0.69% ก่อนหัก +0.01% แบบ TWAP (ไม่ใช้วอลุ่ม) ได้ผลแทบเท่ากัน ติดลบทุกปีทุกเหรียญ permutation 3 ปีล่าสุดกริด 4 แบบ p 0.184/0.005/0.234 ราวสองไม้ครึ่งต่อวันทำให้ต้นทุนไปกลับ 0.7% กินแรงหมด รอบแรกผมลืมคูณ 0.15 กับ std จับได้จากจำนวนไม้ที่น้อยผิดปกติ แก้แล้วรันใหม่ทั้งหมด
+- Double SuperTrend 1 ชม. long อย่างเดียวตามค่าเริ่มต้นของ repo: BTC 1,537 ไม้ -0.54% ETH 1,569 ไม้ -0.49% SOL 1,161 ไม้ -0.54% ต่อไม้ ก่อนหัก +0.16/+0.21/+0.16% ชนะ 28-30% มัธยฐาน -1.2 ถึง -1.7% ติดลบเกือบทุกปี permutation ทั้งช่วง p 0.095/0.095/0.726
+เปิดบัญชี: fwd_vwapbuf.py (TWAP แทน VWAP เพราะ fetch ไม่มีวอลุ่ม บัฟเฟอร์จากแท่งรายวัน พร้อมตัวแฝดสุ่มแท่งสุ่มฝั่งปิดสิ้นวัน) และ fwd_dst.py (พร้อมตัวแฝดเข้าแท่งสุ่มออกเมื่อเส้นเร็วกลับลง) test เดินทีละแท่งบนหน้าต่าง 1,000 แท่งแบบที่ fetch ให้ได้ไม้ตรง backtest 100 และ 59 ไม้ สคริปต์ /tmp/scout_1949.py
+ไอเดีย: graduation plays ของ meme_traderv1 (ต้อง % ความคืบหน้าของ bonding curve), ตัวเทียบ ETF โมเมนตัมของ claude-trader (ต้องรายชื่อ 46 ตัว)
+ตัดทิ้ง: ไม่มี
+เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
