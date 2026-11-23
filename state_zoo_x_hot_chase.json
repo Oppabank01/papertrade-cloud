@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 10.36456678009024,
+ "cash": 7.790874081329996,
  "pos": {
   "B3Sz1ijEqM6HBZfhFgUKPEmCyFZBCE5X1sthbVCTpump": {
    "sym": "FLOP",
    "qty": 1671493.1333184096,
    "entry": 1.504e-06,
-   "last": 1.499808230681031e-06,
+   "last": 1.488e-06,
    "peak": 1.506e-06,
    "cost": 2.5911416950225603,
    "opened": "2026-11-23T22:25:38+07:00",
    "zoo": "x_hot_chase",
    "smart": 6,
    "kol": 0,
+   "gap": 0,
+   "miss": 0
+  },
+  "9scVbbC7HUwXaBmo8bnYfm2Pa5oouZpjy2NvrvwLpump": {
+   "sym": "JENSEN",
+   "qty": 4695.367913383205,
+   "entry": 0.0005318,
+   "last": 0.0004914341193715414,
+   "peak": 0.0005318,
+   "cost": 2.5736926987602438,
+   "opened": "2026-11-23T22:31:25+07:00",
+   "zoo": "x_hot_chase",
+   "smart": 196,
+   "kol": 9,
    "gap": 2,
    "miss": 0
   }
@@ -206,12 +220,26 @@
    "zoo": "x_hot_chase",
    "smart": 6,
    "kol": 0
+  },
+  {
+   "t": "2026-11-23T22:31:25+07:00",
+   "kind": "buy",
+   "mint": "9scVbbC7HUwXaBmo8bnYfm2Pa5oouZpjy2NvrvwLpump",
+   "sym": "JENSEN",
+   "price": 0.0005318,
+   "jup": 0.0005266727572375677,
+   "usd": 2.5737,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_hot_chase",
+   "smart": 196,
+   "kol": 9
   }
  ],
  "label": "สวนสัตว์: ไล่ของร้อน: GMGN hot level 3 ราคาขึ้น 5 นาที (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-23",
  "night_start": 12.9557084751128,
- "rank_t": 1795447400.6597986,
+ "rank_t": 1795447744.424795,
  "nights": [
   {
    "night": "2026-11-22",
