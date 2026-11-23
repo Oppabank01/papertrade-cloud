@@ -1,37 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.515517936846848,
- "pos": {
-  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
-   "sym": "ANSEM",
-   "qty": 57.28687816460516,
-   "entry": 0.0378,
-   "last": 0.03722,
-   "peak": 0.03799,
-   "cost": 2.231956292127474,
-   "opened": "2026-11-24T03:20:29+07:00",
-   "zoo": "w_pause_bigliq_b2",
-   "smart": 1000,
-   "kol": 186,
-   "gap": 0,
-   "miss": 0
-  },
-  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
-   "sym": "CATE",
-   "qty": 120.38802843479458,
-   "entry": 0.01788,
-   "last": 0.01775,
-   "peak": 0.01822,
-   "cost": 2.218653832626394,
-   "opened": "2026-11-24T03:20:29+07:00",
-   "zoo": "w_pause_bigliq_b2",
-   "smart": 944,
-   "kol": 111,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 10.65740371457293,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-22T19:52:27+07:00",
@@ -761,8 +732,38 @@
    "cost_side": 0.03,
    "smart": 572,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T06:20:33+07:00",
+   "kind": "sell",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.03722,
+   "entry": 0.0378,
+   "usd": 2.0687,
+   "pnl": -0.1633,
+   "why": "ครบ 3 ชม. (-1.5%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 1000,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-24T06:20:33+07:00",
+   "kind": "sell",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.01775,
+   "entry": 0.01788,
+   "usd": 2.0732,
+   "pnl": -0.1454,
+   "why": "ครบ 3 ชม. (-0.7%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 944,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795475617.5914803
+ "rank_t": 1795475945.422401
 }

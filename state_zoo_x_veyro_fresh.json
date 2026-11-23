@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.645577035735208,
- "cash": 1.6554037954626928,
+ "cash": 0.9294374227653801,
  "pos": {
   "HN7N11tXStdgUcScZo4Y8N39rhkMA2meiAwgVUjnpump": {
    "sym": "ROUTA",
    "qty": 70585.04897653707,
    "entry": 1.508e-05,
-   "last": 1.524e-05,
+   "last": 1.497e-05,
    "peak": 2.447e-05,
    "cost": 1.0971166136530395,
    "opened": "2026-11-24T02:08:34+07:00",
@@ -21,14 +21,28 @@
    "sym": "GrokCorp",
    "qty": 62030.73172876158,
    "entry": 1.379e-05,
-   "last": 1.416e-05,
+   "last": 1.568e-05,
    "peak": 1.7946854179059936e-05,
    "cost": 0.8816777886411279,
    "opened": "2026-11-24T05:39:43+07:00",
    "zoo": "x_veyro_fresh",
    "smart": 4,
    "kol": 0,
-   "gap": 3,
+   "gap": 0,
+   "miss": 0
+  },
+  "65ksadfsLqqGt42imSTVSrmV578aksSFzgpGge3dpump": {
+   "sym": "AMBER",
+   "qty": 52798.54383740125,
+   "entry": 1.334e-05,
+   "last": 1.359e-05,
+   "peak": 1.359e-05,
+   "cost": 0.7259663726973127,
+   "opened": "2026-11-24T06:21:01+07:00",
+   "zoo": "x_veyro_fresh",
+   "smart": 7,
+   "kol": 0,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -442,10 +456,24 @@
    "cost_side": 0.03,
    "smart": 8,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T06:21:01+07:00",
+   "kind": "buy",
+   "mint": "65ksadfsLqqGt42imSTVSrmV578aksSFzgpGge3dpump",
+   "sym": "AMBER",
+   "price": 1.334e-05,
+   "jup": 1.3351263451701264e-05,
+   "usd": 0.726,
+   "stop_set": -0.3,
+   "cost_side": 0.03,
+   "zoo": "x_veyro_fresh",
+   "smart": 7,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุไม่เกิน 10 นาทีตอนกลางคืน ขายครึ่งที่ x10 (โพสต์ veyro)",
  "night": "2026-11-23",
  "night_start": 14.645577035735208,
- "rank_t": 1795475617.5914803
+ "rank_t": 1795475945.422401
 }

@@ -1,41 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 3.9568503424012746,
+ "cash": 7.878185255457025,
  "pos": {
-  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
-   "sym": "ANSEM",
-   "qty": 54.38782566382515,
-   "entry": 0.0378,
-   "last": 0.03722,
-   "peak": 0.03799,
-   "cost": 2.1190061946944865,
-   "opened": "2026-11-24T03:19:47+07:00",
-   "zoo": "bigliqF_b2",
-   "smart": 1000,
-   "kol": 186,
-   "gap": 0,
-   "miss": 0
-  },
-  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
-   "sym": "CATE",
-   "qty": 113.66000476220462,
-   "entry": 0.01798,
-   "last": 0.01775,
-   "peak": 0.01822,
-   "cost": 2.1063769177741074,
-   "opened": "2026-11-24T03:19:47+07:00",
-   "zoo": "bigliqF_b2",
-   "smart": 944,
-   "kol": 111,
-   "gap": 0,
-   "miss": 0
-  },
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 214.20884545898718,
    "entry": 0.009236,
-   "last": 0.009214,
+   "last": 0.009254,
    "peak": 0.009409,
    "cost": 2.0392010891148273,
    "opened": "2026-11-24T05:21:55+07:00",
@@ -854,10 +826,40 @@
    "cost_side": 0.03,
    "smart": 132,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T06:19:54+07:00",
+   "kind": "sell",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.03722,
+   "entry": 0.0378,
+   "usd": 1.964,
+   "pnl": -0.155,
+   "why": "ครบ 3 ชม. (-1.5%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 1000,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-24T06:19:54+07:00",
+   "kind": "sell",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.01775,
+   "entry": 0.01798,
+   "usd": 1.9573,
+   "pnl": -0.149,
+   "why": "ครบ 3 ชม. (-1.3%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 944,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ เช็กราคาทุก 20 วิ",
- "rank_t": 1795475617.5914803,
+ "rank_t": 1795475945.422401,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT"
  }
