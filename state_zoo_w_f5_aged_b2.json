@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 1.5652522799715216,
+ "cash": 1.556743212264454,
  "pos": {
-  "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": {
-   "sym": "TripleT",
-   "qty": 1042.7835471920137,
-   "entry": 0.001655,
-   "last": 0.001722,
-   "peak": 0.001775,
-   "cost": 1.7788154716581968,
-   "opened": "2026-11-23T20:04:56+07:00",
-   "zoo": "w_f5_aged_b2",
-   "smart": 615,
-   "kol": 72,
-   "gap": 0,
-   "miss": 0
-  },
   "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
    "sym": "MANIFEST",
    "qty": 643.1951527350025,
    "entry": 0.002655,
-   "last": 0.002877,
+   "last": 0.00284,
    "peak": 0.003219,
    "cost": 1.7601351582265836,
    "opened": "2026-11-23T20:24:07+07:00",
@@ -35,7 +21,7 @@
    "sym": "baton",
    "qty": 468.66519576299925,
    "entry": 0.003622,
-   "last": 0.003734,
+   "last": 0.003801,
    "peak": 0.004273,
    "cost": 1.7496447526835532,
    "opened": "2026-11-23T20:24:09+07:00",
@@ -49,14 +35,28 @@
    "sym": "Singularity",
    "qty": 5292.524331564701,
    "entry": 0.0003171,
-   "last": 0.0003098,
-   "peak": 0.0003178,
+   "last": 0.0003414,
+   "peak": 0.0003414,
    "cost": 1.7298077360741773,
    "opened": "2026-11-23T22:59:20+07:00",
    "zoo": "w_f5_aged_b2",
    "smart": 126,
    "kol": 3,
-   "gap": 8,
+   "gap": 0,
+   "miss": 0
+  },
+  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+   "sym": "USELESS",
+   "qty": 19.57721983343906,
+   "entry": 0.08494,
+   "last": 0.08497,
+   "peak": 0.08509,
+   "cost": 1.713965216091851,
+   "opened": "2026-11-23T23:06:02+07:00",
+   "zoo": "w_f5_aged_b2",
+   "smart": 928,
+   "kol": 295,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1078,8 +1078,37 @@
    "zoo": "w_f5_aged_b2",
    "smart": 126,
    "kol": 3
+  },
+  {
+   "t": "2026-11-23T23:05:03+07:00",
+   "kind": "sell",
+   "mint": "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump",
+   "sym": "TripleT",
+   "price": 0.0016857187461124677,
+   "entry": 0.001655,
+   "usd": 1.7055,
+   "pnl": -0.0734,
+   "why": "ครบ 3 ชม. (+1.9%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 615,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-23T23:06:02+07:00",
+   "kind": "buy",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.08494,
+   "jup": 0.08489795766834522,
+   "usd": 1.714,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged_b2",
+   "smart": 928,
+   "kol": 295
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1795449452.0097127
+ "rank_t": 1795449815.2982006
 }
