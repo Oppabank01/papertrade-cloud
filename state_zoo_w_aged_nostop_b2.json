@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 10.72764967523228,
+ "cash": 8.047018939674139,
  "pos": {
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 135.88136122693868,
    "entry": 0.01976,
-   "last": 0.01959,
+   "last": 0.01952,
    "peak": 0.01999,
    "cost": 2.7120685819492523,
    "opened": "2026-11-23T07:54:19+07:00",
    "zoo": "w_aged_nostop_b2",
    "smart": 939,
    "kol": 111,
+   "gap": 0,
+   "miss": 0
+  },
+  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
+   "sym": "Rings",
+   "qty": 744.2208199582019,
+   "entry": 0.003566,
+   "last": 0.00359,
+   "peak": 0.00359,
+   "cost": 2.680630735558141,
+   "opened": "2026-11-23T09:11:35+07:00",
+   "zoo": "w_aged_nostop_b2",
+   "smart": 129,
+   "kol": 8,
    "gap": 0,
    "miss": 0
   }
@@ -153,8 +167,22 @@
    "cost_side": 0.01,
    "smart": 738,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T09:11:35+07:00",
+   "kind": "buy",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.003566,
+   "jup": 0.003584723743347799,
+   "usd": 2.6806,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_aged_nostop_b2",
+   "smart": 129,
+   "kol": 8
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: อายุเกิน 1 วัน pool 200k+ ไม่มี stop ถือ 12 ชม.",
- "rank_t": 1795399532.7209132
+ "rank_t": 1795399808.6556165
 }
