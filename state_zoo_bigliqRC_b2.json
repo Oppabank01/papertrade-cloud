@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 9.149457841035533,
- "pos": {
-  "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": {
-   "sym": "PUMPCADE",
-   "qty": 186.32028400912014,
-   "entry": 0.01253,
-   "last": 0.01619,
-   "peak": 0.01789,
-   "cost": 2.4063009262361117,
-   "opened": "2026-11-23T06:30:43+07:00",
-   "zoo": "bigliqRC_b2",
-   "smart": 128,
-   "kol": 19,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 12.07066774409321,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-22T19:52:24+07:00",
@@ -479,10 +464,25 @@
    "cost_side": 0.03,
    "smart": 187,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T09:30:49+07:00",
+   "kind": "sell",
+   "mint": "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu",
+   "sym": "PUMPCADE",
+   "price": 0.01616,
+   "entry": 0.01253,
+   "usd": 2.9212,
+   "pnl": 0.5149,
+   "why": "ครบ 3 ชม. (+29.0%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 128,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ผ่าน RugCheck เช็กราคาทุก 20 วิ",
- "rank_t": 1795400676.1435122,
+ "rank_t": 1795400964.49558,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT"
  }
