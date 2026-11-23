@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.67688436165627,
+ "cash": 1.2605075298555242,
  "pos": {
   "GMzuntWYJLpNuCizrSR7ZXggiMdDzTNiEmSNHHunpump": {
    "sym": "dreams",
    "qty": 105.19475255778161,
    "entry": 0.0039,
-   "last": 0.00385,
+   "last": 0.003858,
    "peak": 0.004059,
    "cost": 0.42286078641037755,
    "opened": "2026-11-23T10:03:51+07:00",
    "zoo": "w_pause_bigliq",
    "smart": 83,
    "kol": 85,
+   "gap": 0,
+   "miss": 0
+  },
+  "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
+   "sym": "baton",
+   "qty": 123.53786000400113,
+   "entry": 0.00327,
+   "last": 0.00327,
+   "peak": 0.00327,
+   "cost": 0.4163768318007459,
+   "opened": "2026-11-23T12:00:33+07:00",
+   "zoo": "w_pause_bigliq",
+   "smart": 733,
+   "kol": 80,
    "gap": 0,
    "miss": 0
   }
@@ -3670,8 +3684,22 @@
    "cost_side": 0.03,
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T12:00:33+07:00",
+   "kind": "buy",
+   "mint": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
+   "sym": "baton",
+   "price": 0.00327,
+   "jup": 0.003299545364309295,
+   "usd": 0.4164,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_bigliq",
+   "smart": 733,
+   "kol": 80
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795409686.7466671
+ "rank_t": 1795409981.0515308
 }

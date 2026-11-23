@@ -2,12 +2,12 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 7.374631268436583,
+ "cash": 5.899705014749267,
  "pos": {
   "KXWTI-26NOV2314-T81.99:yes": {
    "qty": 0.8543610818706032,
    "entry": 0.8631749999999999,
-   "last": 0.82,
+   "last": 0.83,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T11:36:14+07:00",
    "coin": "YES | Will the WTI crude oil settlement price be above 81.99 USD/Bbl on Nov 23, 2026?",
@@ -91,7 +91,7 @@
   "KXETHD-26NOV2317-T1659.99:yes": {
    "qty": 0.8182188751659075,
    "entry": 0.901303,
-   "last": 0.89,
+   "last": 0.88,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T04:54:00+00:00",
    "coin": "YES | Ethereum price at Nov 23, 2026 at 5pm EST?",
@@ -103,7 +103,7 @@
   "KXCOPPERD-26NOV2317-T5.52:yes": {
    "qty": 0.8450091286674175,
    "entry": 0.872728,
-   "last": 0.84,
+   "last": 0.83,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T04:58:49+00:00",
    "coin": "YES | Will the copper close price be above 5.52 USD/Lbs on November 23, 2026 at 5:00 PM ES",
@@ -115,7 +115,7 @@
   "KXBTCD-26NOV2317-T59249.99:yes": {
    "qty": 0.8450091286674175,
    "entry": 0.872728,
-   "last": 0.85,
+   "last": 0.86,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T04:58:49+00:00",
    "coin": "YES | Bitcoin price on Nov 23, 2026?",
@@ -123,6 +123,30 @@
    "side": "yes",
    "close": "2026-11-23T22:00:00Z",
    "why": "fav ask 0.86 ทุน 0.873 ปิด 2026-11-23T22:00:00Z"
+  },
+  "KXHYPED-26NOV2317-T58.9999:yes": {
+   "qty": 0.7549113938906525,
+   "entry": 0.976887,
+   "last": 0.94,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-23T05:03:54+00:00",
+   "coin": "YES | HYPE price on Nov 23, 2026?",
+   "ticker": "KXHYPED-26NOV2317-T58.9999",
+   "side": "yes",
+   "close": "2026-11-23T22:00:00Z",
+   "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-23T22:00:00Z"
+  },
+  "KXBRENTD-26NOV2317-T88:yes": {
+   "qty": 0.8269452146281397,
+   "entry": 0.8917919999999999,
+   "last": 0.87,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-23T05:03:54+00:00",
+   "coin": "YES | Will the brent crude oil close price be above 88 USD/Bbl on November 23, 2026 at 5:0",
+   "ticker": "KXBRENTD-26NOV2317-T88",
+   "side": "yes",
+   "close": "2026-11-23T22:00:00Z",
+   "why": "fav ask 0.88 ทุน 0.892 ปิด 2026-11-23T22:00:00Z"
   }
  },
  "log": [
@@ -215,6 +239,24 @@
    "usd": 0.7374631268436579,
    "why": "fav ask 0.86 ทุน 0.873 ปิด 2026-11-23T22:00:00Z",
    "ask": 0.86
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-23T05:03:54+00:00",
+   "coin": "YES | HYPE price on Nov 23, 2026?",
+   "px": 0.97689,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-23T22:00:00Z",
+   "ask": 0.97
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-23T05:03:54+00:00",
+   "coin": "YES | Will the brent crude oil close price be above 88 USD/Bbl on November 23, 2026 at 5:0",
+   "px": 0.89179,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.88 ทุน 0.892 ปิด 2026-11-23T22:00:00Z",
+   "ask": 0.88
   }
  ],
  "seen": null,
@@ -228,6 +270,8 @@
   "KXSHIBAD-26NOV2317": 1795409639,
   "KXETHD-26NOV2317": 1795409639,
   "KXCOPPERD-26NOV2317": 1795409927,
-  "KXBTCD-26NOV2317": 1795409927
+  "KXBTCD-26NOV2317": 1795409927,
+  "KXHYPED-26NOV2317": 1795410233,
+  "KXBRENTD-26NOV2317": 1795410233
  }
 }
