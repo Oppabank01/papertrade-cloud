@@ -1,15 +1,44 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 14.611338398597312,
- "pos": {},
+ "cash": 11.689070718877849,
+ "pos": {
+  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
+   "sym": "CATE",
+   "qty": 145.30979706751688,
+   "entry": 0.01991,
+   "last": 0.01986,
+   "peak": 0.01998,
+   "cost": 2.9222676797194627,
+   "opened": "2026-11-23T08:03:25+07:00",
+   "zoo": "w_cold_mkt_b2",
+   "smart": 939,
+   "kol": 111,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T19:52:27+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-23T08:03:25+07:00",
+   "kind": "buy",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.01991,
+   "jup": 0.01979342993253576,
+   "usd": 2.9223,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_cold_mkt_b2",
+   "smart": 939,
+   "kol": 111
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดเย็น: กฎ w_aged_nostop เฉพาะรอบที่เหรียญขึ้นไม่เกิน 61%",
- "rank_t": 1795395450.0216572
+ "rank_t": 1795395732.8565922
 }
