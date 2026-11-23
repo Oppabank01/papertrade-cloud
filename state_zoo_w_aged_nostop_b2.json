@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 7.975924235448966,
+ "cash": 2.916441464710726,
  "pos": {
   "GMzuntWYJLpNuCizrSR7ZXggiMdDzTNiEmSNHHunpump": {
    "sym": "dreams",
    "qty": 666.5078673765615,
    "entry": 0.0039,
-   "last": 0.002917,
+   "last": 0.003268,
    "peak": 0.004059,
    "cost": 2.6255707510099136,
    "opened": "2026-11-23T10:04:02+07:00",
@@ -21,13 +21,41 @@
    "sym": "CLAUDIA",
    "qty": 259.61836935518966,
    "entry": 0.01026,
-   "last": 0.0102,
+   "last": 0.01038,
    "peak": 0.01099,
    "cost": 2.690522430831793,
    "opened": "2026-11-23T10:28:51+07:00",
    "zoo": "w_aged_nostop_b2",
    "smart": 562,
    "kol": 35,
+   "gap": 0,
+   "miss": 0
+  },
+  "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
+   "sym": "baton",
+   "qty": 628.0080048811774,
+   "entry": 0.003992,
+   "last": 0.004026083648077609,
+   "peak": 0.004095,
+   "cost": 2.5322673220228378,
+   "opened": "2026-11-23T21:20:18+07:00",
+   "zoo": "w_aged_nostop_b2",
+   "smart": 733,
+   "kol": 80,
+   "gap": 1,
+   "miss": 0
+  },
+  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
+   "sym": "ANSEM",
+   "qty": 59.373670493936075,
+   "entry": 0.04214,
+   "last": 0.04215,
+   "peak": 0.04242,
+   "cost": 2.527215448715402,
+   "opened": "2026-11-23T21:20:18+07:00",
+   "zoo": "w_aged_nostop_b2",
+   "smart": 1000,
+   "kol": 186,
    "gap": 0,
    "miss": 0
   }
@@ -239,8 +267,36 @@
    "cost_side": 0.01,
    "smart": 129,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T21:20:18+07:00",
+   "kind": "buy",
+   "mint": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
+   "sym": "baton",
+   "price": 0.003992,
+   "jup": 0.004011128710269338,
+   "usd": 2.5323,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_aged_nostop_b2",
+   "smart": 733,
+   "kol": 80
+  },
+  {
+   "t": "2026-11-23T21:20:18+07:00",
+   "kind": "buy",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.04214,
+   "jup": 0.042294376913221444,
+   "usd": 2.5272,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_aged_nostop_b2",
+   "smart": 1000,
+   "kol": 186
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: อายุเกิน 1 วัน pool 200k+ ไม่มี stop ถือ 12 ชม.",
- "rank_t": 1795443132.358051
+ "rank_t": 1795443486.628481
 }
