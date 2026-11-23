@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.645577035735208,
- "cash": 7.18116005471586,
+ "cash": 3.4707158214707268,
  "pos": {
   "DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump": {
    "sym": "jingyu",
    "qty": 25464.406523423473,
    "entry": 0.0001116,
-   "last": 0.0001352,
+   "last": 0.0001384,
    "peak": 0.0001519,
    "cost": 2.9291154071470418,
    "opened": "2026-11-23T13:16:04+07:00",
@@ -21,28 +21,42 @@
    "sym": "OpenIndex",
    "qty": 10291.039980024394,
    "entry": 0.0002745,
-   "last": 0.0003506,
+   "last": 0.0003821,
    "peak": 0.0003971,
    "cost": 2.9116578793204457,
    "opened": "2026-11-23T13:16:08+07:00",
    "zoo": "x_trail20",
    "smart": 113,
    "kol": 4,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "84tAcSK5L9kuQEVM8C8vMHXnfdA83nGBT2nYfSbPUcAc": {
    "sym": "Fly",
    "qty": 15528.302395955227,
    "entry": 0.0001842,
-   "last": 0.0002576,
+   "last": 0.0002402,
    "peak": 0.00028764421238727393,
    "cost": 2.948168729473256,
    "opened": "2026-11-23T13:25:55+07:00",
    "zoo": "x_trail20",
    "smart": 130,
    "kol": 10,
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
+   "sym": "Buttcoin",
+   "qty": 580.8120353492138,
+   "entry": 0.006198,
+   "last": 0.006162,
+   "peak": 0.006198,
+   "cost": 3.710444233245133,
+   "opened": "2026-11-23T15:31:49+07:00",
+   "zoo": "x_trail20",
+   "smart": 541,
+   "kol": 51,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -122,8 +136,22 @@
    "cost_side": 0.03,
    "smart": 78,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T15:31:49+07:00",
+   "kind": "buy",
+   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+   "sym": "Buttcoin",
+   "price": 0.006198,
+   "jup": 0.006195346606828728,
+   "usd": 3.7104,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "x_trail20",
+   "smart": 541,
+   "kol": 51
   }
  ],
  "label": "สวนสัตว์: trailing stop 20% จากจุดเข้าอย่างเดียว (วิเคราะห์ 6,200 ไม้ Grok Bot desk)",
- "rank_t": 1795422302.3494072
+ "rank_t": 1795422602.8177671
 }
