@@ -2,12 +2,12 @@
  "label": "Kalshi ตัวควบคุม: สุ่มฝั่งในตลาดเดียวกับตัวเต็ง/ตัวรอง",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 11.06194690265487,
+ "cash": 9.587020648967556,
  "pos": {
   "KXWTI-26NOV2314-T81.99:no": {
    "qty": 3.856379302855473,
    "entry": 0.191232,
-   "last": 0.15,
+   "last": 0.16,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T11:36:14+07:00",
    "coin": "NO | Will the WTI crude oil settlement price be above 81.99 USD/Bbl on Nov 23, 2026?",
@@ -63,6 +63,30 @@
    "side": "no",
    "close": "2026-11-23T21:00:00Z",
    "why": "สุ่มฝั่ง"
+  },
+  "KXNASDAQDUD-26NOV23H1600-T25028.98:yes": {
+   "qty": 0.8358729577822337,
+   "entry": 0.8822669999999999,
+   "last": 0.85,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-23T04:48:34+00:00",
+   "coin": "YES | Will the NASDAQ-100 be above 25028.98 on Nov 23, 2026 at 4pm EST?",
+   "ticker": "KXNASDAQDUD-26NOV23H1600-T25028.98",
+   "side": "yes",
+   "close": "2026-11-23T21:00:00Z",
+   "why": "สุ่มฝั่ง"
+  },
+  "KXGOLDD-26NOV2317-T3553:no": {
+   "qty": 4.080536537670951,
+   "entry": 0.180727,
+   "last": 0.14,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-23T04:48:34+00:00",
+   "coin": "NO | Will the gold close price be above 3553 USD/t.oz on November 23, 2026 at 5:00 PM EST?",
+   "ticker": "KXGOLDD-26NOV2317-T3553",
+   "side": "no",
+   "close": "2026-11-23T22:00:00Z",
+   "why": "สุ่มฝั่ง"
   }
  },
  "log": [
@@ -110,6 +134,24 @@
    "usd": 0.7374631268436579,
    "why": "สุ่มฝั่ง",
    "ask": 0.98
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-23T04:48:34+00:00",
+   "coin": "YES | Will the NASDAQ-100 be above 25028.98 on Nov 23, 2026 at 4pm EST?",
+   "px": 0.88227,
+   "usd": 0.7374631268436579,
+   "why": "สุ่มฝั่ง",
+   "ask": 0.87
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-23T04:48:34+00:00",
+   "coin": "NO | Will the gold close price be above 3553 USD/t.oz on November 23, 2026 at 5:00 PM EST?",
+   "px": 0.18073,
+   "usd": 0.7374631268436579,
+   "why": "สุ่มฝั่ง",
+   "ask": 0.17
   }
  ],
  "seen": null,
@@ -118,6 +160,8 @@
   "KXNASDAQ100U-26NOV23H1600": 1795408561,
   "KXINXDUD-26NOV23H1600": 1795409030,
   "KXSILVERD-26NOV2317": 1795409030,
-  "KXINXU-26NOV23H1600": 1795409030
+  "KXINXU-26NOV23H1600": 1795409030,
+  "KXNASDAQDUD-26NOV23H1600": 1795409312,
+  "KXGOLDD-26NOV2317": 1795409312
  }
 }

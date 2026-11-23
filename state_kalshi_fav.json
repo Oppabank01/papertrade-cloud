@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 11.799410029498528,
+ "cash": 10.324483775811213,
  "pos": {
   "KXWTI-26NOV2314-T81.99:yes": {
    "qty": 0.8543610818706032,
@@ -19,7 +19,7 @@
   "KXNASDAQ100U-26NOV23H1600-T24759.99:yes": {
    "qty": 0.7697342346305435,
    "entry": 0.958075,
-   "last": 0.91,
+   "last": 0.92,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T11:36:14+07:00",
    "coin": "YES | Will the Nasdaq-100 be above 24759.99 at the end of Nov 23, 2026 at 4pm EST?",
@@ -51,6 +51,30 @@
    "side": "yes",
    "close": "2026-11-23T22:00:00Z",
    "why": "fav ask 0.87 ทุน 0.882 ปิด 2026-11-23T22:00:00Z"
+  },
+  "KXNASDAQDUD-26NOV23H1600-T25028.98:yes": {
+   "qty": 0.8358729577822337,
+   "entry": 0.8822669999999999,
+   "last": 0.85,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-23T04:48:34+00:00",
+   "coin": "YES | Will the NASDAQ-100 be above 25028.98 on Nov 23, 2026 at 4pm EST?",
+   "ticker": "KXNASDAQDUD-26NOV23H1600-T25028.98",
+   "side": "yes",
+   "close": "2026-11-23T21:00:00Z",
+   "why": "fav ask 0.87 ทุน 0.882 ปิด 2026-11-23T21:00:00Z"
+  },
+  "KXGOLDD-26NOV2317-T3553:yes": {
+   "qty": 0.8450091286674175,
+   "entry": 0.872728,
+   "last": 0.83,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-23T04:48:34+00:00",
+   "coin": "YES | Will the gold close price be above 3553 USD/t.oz on November 23, 2026 at 5:00 PM EST",
+   "ticker": "KXGOLDD-26NOV2317-T3553",
+   "side": "yes",
+   "close": "2026-11-23T22:00:00Z",
+   "why": "fav ask 0.86 ทุน 0.873 ปิด 2026-11-23T22:00:00Z"
   }
  },
  "log": [
@@ -89,6 +113,24 @@
    "usd": 0.7374631268436579,
    "why": "fav ask 0.87 ทุน 0.882 ปิด 2026-11-23T22:00:00Z",
    "ask": 0.87
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-23T04:48:34+00:00",
+   "coin": "YES | Will the NASDAQ-100 be above 25028.98 on Nov 23, 2026 at 4pm EST?",
+   "px": 0.88227,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.87 ทุน 0.882 ปิด 2026-11-23T21:00:00Z",
+   "ask": 0.87
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-23T04:48:34+00:00",
+   "coin": "YES | Will the gold close price be above 3553 USD/t.oz on November 23, 2026 at 5:00 PM EST",
+   "px": 0.87273,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.86 ทุน 0.873 ปิด 2026-11-23T22:00:00Z",
+   "ask": 0.86
   }
  ],
  "seen": null,
@@ -96,6 +138,8 @@
   "KXWTI-26NOV2314": 1795408561,
   "KXNASDAQ100U-26NOV23H1600": 1795408561,
   "KXINXDUD-26NOV23H1600": 1795409030,
-  "KXSILVERD-26NOV2317": 1795409030
+  "KXSILVERD-26NOV2317": 1795409030,
+  "KXNASDAQDUD-26NOV23H1600": 1795409312,
+  "KXGOLDD-26NOV2317": 1795409312
  }
 }
