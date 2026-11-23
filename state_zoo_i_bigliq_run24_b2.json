@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 5.12568131899431,
+ "cash": 2.5162615303993086,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 69.83092996260338,
    "entry": 0.03822,
-   "last": 0.03937,
+   "last": 0.03945,
    "peak": 0.04326,
    "cost": 2.695829037822985,
    "opened": "2026-11-23T05:00:29+07:00",
@@ -21,7 +21,7 @@
    "sym": "USELESS",
    "qty": 31.17788449968381,
    "entry": 0.08629,
-   "last": 0.08181,
+   "last": 0.08153,
    "peak": 0.08751,
    "cost": 2.7174461791143822,
    "opened": "2026-11-23T22:19:03+07:00",
@@ -35,7 +35,7 @@
    "sym": "dreams",
    "qty": 856.8830268456608,
    "entry": 0.003147,
-   "last": 0.003014,
+   "last": 0.003033,
    "peak": 0.003179,
    "cost": 2.7237805969377487,
    "opened": "2026-11-23T22:24:33+07:00",
@@ -43,6 +43,20 @@
    "smart": 87,
    "kol": 85,
    "gap": 0,
+   "miss": 0
+  },
+  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
+   "sym": "Rings",
+   "qty": 993.6118562322179,
+   "entry": 0.0026,
+   "last": 0.002575297117543164,
+   "peak": 0.002624,
+   "cost": 2.6094197885950017,
+   "opened": "2026-11-24T01:07:17+07:00",
+   "zoo": "i_bigliq_run24_b2",
+   "smart": 132,
+   "kol": 9,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -332,10 +346,24 @@
    "cost_side": 0.01,
    "smart": 733,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T01:07:17+07:00",
+   "kind": "buy",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.0026,
+   "jup": 0.0025808899275146925,
+   "usd": 2.6094,
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "zoo": "i_bigliq_run24_b2",
+   "smart": 132,
+   "kol": 9
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ปล่อยวิ่ง trail 20/15 ถือ 24 ชม.",
- "rank_t": 1795456746.917428,
+ "rank_t": 1795457176.1429255,
  "banned": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"
  }
