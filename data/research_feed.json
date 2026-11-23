@@ -673,5 +673,14 @@
   "verdict": "เปิดบัญชีแล้ว",
   "action": "เปิด state_kalshi_fav, state_kalshi_long (0.03-0.10) และตัวสุ่ม ด้วย API อ่านอย่างเดียวของ Kalshi",
   "t": "2026-11-23T11:37:00+07:00"
+ },
+ {
+  "t": "2026-11-23T11:39:00+07:00",
+  "source": "web",
+  "title": "stablecoin ถูกพิมพ์เพิ่มผิดปกติ (DefiLlama) แล้วซื้อ BTC/ETH ถือ 10 วัน",
+  "url": "https://stablecoins.llama.fi/stablecoincharts/all",
+  "summary": "ยอด stablecoin รวมโต 7 วันเกิน 1.5 SD จาก 90 วัน แปลว่าเงินใหม่เข้า ซื้อแล้วถือ 10 วัน",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest 2020-2026: BTC 49 ไม้ +3.08%/ไม้ p 0.003, ETH 49 ไม้ +3.92% p 0.003 ชนะสุ่มเกือบทุกปีรวม 2026 ยกเว้น 2025 ปีละราว 7 ไม้ เปิด state_fwd_stable + ตัวสุ่ม"
  }
 ]
