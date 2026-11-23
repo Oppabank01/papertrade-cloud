@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.09337596483657312,
+ "cash": 0.03649090345989524,
  "pos": {
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 0.8237859054763154,
    "entry": 0.07995,
-   "last": 0.08095,
+   "last": 0.08096,
    "peak": 0.08313,
    "cost": 0.06788464558114966,
    "opened": "2026-11-22T15:21:25+07:00",
@@ -21,21 +21,21 @@
    "sym": "STANK",
    "qty": 204.0831422307123,
    "entry": 0.0003076,
-   "last": 0.0003239,
+   "last": 0.0003309,
    "peak": 0.0003929965576768336,
    "cost": 0.06470415847265214,
    "opened": "2026-11-22T22:28:59+07:00",
    "zoo": "randrun",
    "smart": 84,
    "kol": 1,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 3.0439573265402733,
    "entry": 0.01893,
-   "last": 0.01914,
+   "last": 0.01916,
    "peak": 0.02001,
    "cost": 0.05939199360070849,
    "opened": "2026-11-23T01:33:46+07:00",
@@ -43,6 +43,20 @@
    "smart": 928,
    "kol": 111,
    "gap": 0,
+   "miss": 0
+  },
+  "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
+   "sym": "FIONA",
+   "qty": 50.586513792532436,
+   "entry": 0.001091,
+   "last": 0.0010880362917316893,
+   "peak": 0.001091,
+   "cost": 0.056885061376677884,
+   "opened": "2026-11-23T11:40:59+07:00",
+   "zoo": "randrun",
+   "smart": 343,
+   "kol": 19,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -3166,8 +3180,22 @@
    "cost_side": 0.03,
    "smart": 798,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T11:40:59+07:00",
+   "kind": "buy",
+   "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
+   "sym": "FIONA",
+   "price": 0.001091,
+   "jup": 0.0010880362917316893,
+   "usd": 0.0569,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "randrun",
+   "smart": 343,
+   "kol": 19
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1795408504.1848197
+ "rank_t": 1795408795.6232188
 }

@@ -2,7 +2,7 @@
  "label": "Kalshi ตัวควบคุม: สุ่มฝั่งในตลาดเดียวกับตัวเต็ง/ตัวรอง",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 13.274336283185843,
+ "cash": 11.06194690265487,
  "pos": {
   "KXWTI-26NOV2314-T81.99:no": {
    "qty": 3.856379302855473,
@@ -27,6 +27,42 @@
    "side": "no",
    "close": "2026-11-23T21:00:00Z",
    "why": "สุ่มฝั่ง"
+  },
+  "KXINXDUD-26NOV23H1600-T6910.79:yes": {
+   "qty": 0.8450091286674175,
+   "entry": 0.872728,
+   "last": 0.85,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-23T04:43:52+00:00",
+   "coin": "YES | Will the S&P 500 be above 6910.79 on Nov 23, 2026 at 4pm EST?",
+   "ticker": "KXINXDUD-26NOV23H1600-T6910.79",
+   "side": "yes",
+   "close": "2026-11-23T21:00:00Z",
+   "why": "สุ่มฝั่ง"
+  },
+  "KXSILVERD-26NOV2317-T40.75:no": {
+   "qty": 4.945168760015945,
+   "entry": 0.149128,
+   "last": 0.13,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-23T04:43:52+00:00",
+   "coin": "NO | Will the silver close price be above 40.75 USD/t.oz on November 23, 2026 at 5:00 PM E",
+   "ticker": "KXSILVERD-26NOV2317-T40.75",
+   "side": "no",
+   "close": "2026-11-23T22:00:00Z",
+   "why": "สุ่มฝั่ง"
+  },
+  "KXINXU-26NOV23H1600-T7319.9999:no": {
+   "qty": 0.747727935948357,
+   "entry": 0.986272,
+   "last": 0.97,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-23T04:43:52+00:00",
+   "coin": "NO | Will the S&P 500 be above 7319.9999 on Nov 23, 2026 at 4pm EST?",
+   "ticker": "KXINXU-26NOV23H1600-T7319.9999",
+   "side": "no",
+   "close": "2026-11-23T21:00:00Z",
+   "why": "สุ่มฝั่ง"
   }
  },
  "log": [
@@ -47,11 +83,41 @@
    "usd": 0.7374631268436579,
    "why": "สุ่มฝั่ง",
    "ask": 0.08
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-23T04:43:52+00:00",
+   "coin": "YES | Will the S&P 500 be above 6910.79 on Nov 23, 2026 at 4pm EST?",
+   "px": 0.87273,
+   "usd": 0.7374631268436579,
+   "why": "สุ่มฝั่ง",
+   "ask": 0.86
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-23T04:43:52+00:00",
+   "coin": "NO | Will the silver close price be above 40.75 USD/t.oz on November 23, 2026 at 5:00 PM E",
+   "px": 0.14913,
+   "usd": 0.7374631268436579,
+   "why": "สุ่มฝั่ง",
+   "ask": 0.14
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-23T04:43:52+00:00",
+   "coin": "NO | Will the S&P 500 be above 7319.9999 on Nov 23, 2026 at 4pm EST?",
+   "px": 0.98627,
+   "usd": 0.7374631268436579,
+   "why": "สุ่มฝั่ง",
+   "ask": 0.98
   }
  ],
  "seen": null,
  "done": {
   "KXWTI-26NOV2314": 1795408561,
-  "KXNASDAQ100U-26NOV23H1600": 1795408561
+  "KXNASDAQ100U-26NOV23H1600": 1795408561,
+  "KXINXDUD-26NOV23H1600": 1795409030,
+  "KXSILVERD-26NOV2317": 1795409030,
+  "KXINXU-26NOV23H1600": 1795409030
  }
 }
