@@ -353,3 +353,16 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ไอเดีย: Graduation Sniper (ต้อง % ความคืบหน้าของ bonding curve ซึ่ง rank ของ GMGN ไม่มี), Smart DCA (ต้องกฎ dip ในโค้ดและข้อมูลพื้นฐานหุ้น), market making แบบ Jane Street (ต้อง order book)
 ตัดทิ้ง: ai-grid-bot (ให้โหลดไฟล์รันจากบัญชีอื่น), โพสต์ leaked prompt (ไม่มีกฎ และต้องผูกบัญชีกระดานจริง)
 เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
+
+## 2026-11-23 16:44 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 16 พ.ย. (hyperliquid bot, crypto strategy backtest, liquidation crypto, trading indicator strategy, agentic trading, kalman trading, orderflow, seasonality bitcoin, telegram signals backtest), X 4 ครั้ง (hyperliquid bot strategy backtest, สูตรเทรด bitcoin backtest ไม่มีผล, liquidation cascade bot strategy, from:stacyonchain liquidation cascades), เว็บ 1 ครั้ง (หางานศึกษา StacyOnChain ไม่เจอ)
+เจอ: StacyOnChain (ศึกษา 8 เดือน เฟดการล้างพอร์ตบน Hyperliquid ตัวกรอง 2% และรอแท่งกลับตัว), Allencake/orderflow-research-desk (อินดิเคเตอร์ทุบสองครั้งไม่หลุดในโซน fib), Aloento/InfinityCryptoSignals-Teardown (backtest ช่อง Telegram VIP แบบเสียเงิน 26,009 สัญญาณ), GoldRush (MACD 1 ชม. บน Hyperliquid กับค่าธรรมเนียม), กลุ่ม repo บอท Hyperliquid/Polymarket ดาวปั่นทรงมัลแวร์ ส่วนโพสต์ Grok Bot ของ 0xJamino และ w1nklerr กับ FensoryApp มีในฟีดแล้ว
+ทดสอบแล้ว (Binance หลังหัก 0.35%/ข้าง permutation 200 รอบ):
+- เฟดการล้างพอร์ต ไม่มีข้อมูลล้างพอร์ตจึงใช้แท่ง 15 นาทีที่ขยับ 1% หรือ 2% ขึ้นไป เปิดปิดการรอแท่งกลับตัว ถือ 1 ชม. (ผมเลือก) 2017-2026: แบบ 2% รอกลับตัว BTC 590 ไม้ -0.40% ETH 1,001 ไม้ -0.61% SOL 1,423 ไม้ -0.49% ก่อนหัก +0.30/+0.09/+0.21% แบบไม่กรอง 1% ก่อนหัก +0.01/-0.04/+0.05% รูปแบบตรงกับโพสต์ แต่ต้นทุนเรากินหมด ปี 2024+ -0.50/-0.77/-0.67% permutation 3 ปีล่าสุดทั้งกริด BTC p 0.02 SOL p 0.005 (ข้อมูลสลับแย่กว่า ไม่ใช่เพราะบวก)
+- order flow ของ Allencake ตาม pine ทุกตัวเลขบนแท่ง 15 นาที BTC (repo ใช้ 5 นาที) 2017-2026: 18 ไม้ -0.47% ต่อไม้ ชนะ 22% ก่อนหัก +0.23% p 0.035 ตัว pine ใช้ request.security แบบ lookahead_on กับแท่ง [1] ซึ่งไม่ดูอนาคต
+- สวนสัญญาณช่อง VIP High Leverage จากไฟล์ไม้ 7,788 ไม้ของ repo (อ่านเป็นข้อมูล): -0.71% ต่อไม้ ชนะ 34% ติดลบทุกปี ใช้ต้นทุนเขาเองก็ -0.12%
+เปิดบัญชี: fwd_cascade.py (แท่ง 15 นาทีขยับ 2% รอแท่งกลับทิศแล้วสวน ถือ 1 ชม. BTC ETH SOL long และ short พร้อมตัวแฝดสุ่มแท่งสุ่มฝั่ง) test เดินทีละแท่งได้ไม้ตรงกับ backtest
+ลองแล้วตก: สวนสัญญาณช่อง Telegram เสียเงิน
+ไอเดีย: order flow ของ Allencake เปิด forward ได้ถ้า fetch มีวอลุ่ม, ต้นทุน Hyperliquid 8.5 bps ต่อข้างถ้าจะมีบัญชีที่คิดต้นทุนแบบนั้น
+ตัดทิ้ง: repo บอท Hyperliquid/Polymarket แบบ portable x64 ดาวปั่น (ต้องรันไฟล์ที่ดาวน์โหลด)
+เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
