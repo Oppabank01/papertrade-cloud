@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.645577035735208,
- "cash": 3.4707158214707268,
+ "cash": 6.883961969844167,
  "pos": {
   "DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump": {
    "sym": "jingyu",
    "qty": 25464.406523423473,
    "entry": 0.0001116,
-   "last": 0.0001384,
-   "peak": 0.0001519,
+   "last": 0.0001533,
+   "peak": 0.0001533,
    "cost": 2.9291154071470418,
    "opened": "2026-11-23T13:16:04+07:00",
    "zoo": "x_trail20",
@@ -21,7 +21,7 @@
    "sym": "OpenIndex",
    "qty": 10291.039980024394,
    "entry": 0.0002745,
-   "last": 0.0003821,
+   "last": 0.00037108181999451017,
    "peak": 0.0003971,
    "cost": 2.9116578793204457,
    "opened": "2026-11-23T13:16:08+07:00",
@@ -31,25 +31,11 @@
    "gap": 1,
    "miss": 0
   },
-  "84tAcSK5L9kuQEVM8C8vMHXnfdA83nGBT2nYfSbPUcAc": {
-   "sym": "Fly",
-   "qty": 15528.302395955227,
-   "entry": 0.0001842,
-   "last": 0.0002402,
-   "peak": 0.00028764421238727393,
-   "cost": 2.948168729473256,
-   "opened": "2026-11-23T13:25:55+07:00",
-   "zoo": "x_trail20",
-   "smart": 130,
-   "kol": 10,
-   "gap": 0,
-   "miss": 0
-  },
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 580.8120353492138,
    "entry": 0.006198,
-   "last": 0.006162,
+   "last": 0.006174,
    "peak": 0.006198,
    "cost": 3.710444233245133,
    "opened": "2026-11-23T15:31:49+07:00",
@@ -150,8 +136,23 @@
    "zoo": "x_trail20",
    "smart": 541,
    "kol": 51
+  },
+  {
+   "t": "2026-11-23T15:36:25+07:00",
+   "kind": "sell",
+   "mint": "84tAcSK5L9kuQEVM8C8vMHXnfdA83nGBT2nYfSbPUcAc",
+   "sym": "Fly",
+   "price": 0.0002265595423224907,
+   "entry": 0.0001842,
+   "usd": 3.4132,
+   "pnl": 0.4651,
+   "why": "trailing จากยอด +56% (+23.0%)",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 130,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: trailing stop 20% จากจุดเข้าอย่างเดียว (วิเคราะห์ 6,200 ไม้ Grok Bot desk)",
- "rank_t": 1795422602.8177671
+ "rank_t": 1795422883.6528475
 }
