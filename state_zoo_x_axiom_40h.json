@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 10.26319155641243,
+ "cash": 9.116958991571847,
  "pos": {
   "2hgKSomVH4sWLFY8BT2AXVpfWvxCKseDfcnqDmkcpump": {
    "sym": "MOOHAM",
    "qty": 69757.65514795769,
    "entry": 1.616e-05,
-   "last": 1.745e-05,
+   "last": 1.5344752078161684e-05,
    "peak": 1.745e-05,
    "cost": 1.1619085829633027,
    "opened": "2026-11-23T12:18:06+07:00",
    "zoo": "x_axiom_40h",
    "smart": 1,
    "kol": 0,
+   "gap": 1,
+   "miss": 0
+  },
+  "7Kn92xBncvzp8FUrmZKFnEDd7wS3iLAugr5A8vWBpump": {
+   "sym": "P",
+   "qty": 38992.80625555165,
+   "entry": 2.852e-05,
+   "last": 2.833e-05,
+   "peak": 2.852e-05,
+   "cost": 1.1462325648405824,
+   "opened": "2026-11-23T12:32:27+07:00",
+   "zoo": "x_axiom_40h",
+   "smart": 26,
+   "kol": 5,
    "gap": 0,
    "miss": 0
   }
@@ -182,8 +196,22 @@
    "cost_side": 0.03,
    "smart": 4,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T12:32:27+07:00",
+   "kind": "buy",
+   "mint": "7Kn92xBncvzp8FUrmZKFnEDd7wS3iLAugr5A8vWBpump",
+   "sym": "P",
+   "price": 2.852e-05,
+   "jup": 2.8742504964670745e-05,
+   "usd": 1.1462,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "x_axiom_40h",
+   "smart": 26,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: ฟิลเตอร์ Axiom: pump.fun อายุไม่เกิน 1 ชม. คนถือ 40+ ราคาขึ้น",
- "rank_t": 1795411506.3107536
+ "rank_t": 1795411810.1347175
 }
