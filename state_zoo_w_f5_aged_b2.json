@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 2.6304406504492692,
+ "cash": 1.3911681472173316,
  "pos": {
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 130.2335408472988,
    "entry": 0.00971,
-   "last": 0.009313,
+   "last": 0.009232,
    "peak": 0.00975,
    "cost": 1.3034092781151012,
    "opened": "2026-11-24T03:08:44+07:00",
@@ -35,14 +35,28 @@
    "sym": "HOGE",
    "qty": 1794.464558810129,
    "entry": 0.0006838,
-   "last": 0.0006525,
+   "last": 0.0006399887435694607,
    "peak": 0.0007068,
    "cost": 1.26474424377898,
    "opened": "2026-11-24T04:33:45+07:00",
    "zoo": "w_f5_aged_b2",
    "smart": 223,
    "kol": 13,
-   "gap": 0,
+   "gap": 2,
+   "miss": 0
+  },
+  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
+   "sym": "Macca",
+   "qty": 6559.422709414215,
+   "entry": 0.0001833,
+   "last": 0.00017922713837978903,
+   "peak": 0.0001872,
+   "cost": 1.2392725032319376,
+   "opened": "2026-11-24T05:16:44+07:00",
+   "zoo": "w_f5_aged_b2",
+   "smart": 196,
+   "kol": 12,
+   "gap": 11,
    "miss": 0
   }
  },
@@ -1369,8 +1383,22 @@
    "zoo": "w_f5_aged_b2",
    "smart": 223,
    "kol": 13
+  },
+  {
+   "t": "2026-11-24T05:16:44+07:00",
+   "kind": "buy",
+   "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+   "sym": "Macca",
+   "price": 0.0001833,
+   "jup": 0.00018319293426395978,
+   "usd": 1.2393,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged_b2",
+   "smart": 196,
+   "kol": 12
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1795471697.759423
+ "rank_t": 1795472082.5199366
 }
