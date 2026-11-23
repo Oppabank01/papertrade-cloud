@@ -2,7 +2,7 @@
  "label": "Kalshi ตัวควบคุม: สุ่มฝั่งในตลาดเดียวกับตัวเต็ง/ตัวรอง",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 2.325477328215456,
+ "cash": 0.8505510745281403,
  "pos": {
   "KXWTI-26NOV2314-T81.99:no": {
    "qty": 3.856379302855473,
@@ -122,6 +122,30 @@
    "ticker": "KXHIGHTHOU-26NOV23-T68",
    "side": "yes",
    "close": "2026-11-24T07:00:00Z",
+   "why": "สุ่มฝั่ง"
+  },
+  "KXXRPD-26NOV2417-T0.8999:no": {
+   "qty": 6.281467482463463,
+   "entry": 0.117403,
+   "last": 0.09,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-23T22:07:17+00:00",
+   "coin": "NO | Ripple price at Nov 24, 2026 at 5pm EST?",
+   "ticker": "KXXRPD-26NOV2417-T0.8999",
+   "side": "no",
+   "close": "2026-11-24T22:00:00Z",
+   "why": "สุ่มฝั่ง"
+  },
+  "KXGOLDD-26NOV2417-T3565:yes": {
+   "qty": 0.8182188751659075,
+   "entry": 0.901303,
+   "last": 0.86,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-23T22:07:17+00:00",
+   "coin": "YES | Will the gold close price be above 3565 USD/t.oz on November 24, 2026 at 5:00 PM EST",
+   "ticker": "KXGOLDD-26NOV2417-T3565",
+   "side": "yes",
+   "close": "2026-11-24T22:00:00Z",
    "why": "สุ่มฝั่ง"
   }
  },
@@ -425,6 +449,24 @@
    "ret": -1.0,
    "cost_side": 0,
    "why": "ตัดสิน no"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-23T22:07:17+00:00",
+   "coin": "NO | Ripple price at Nov 24, 2026 at 5pm EST?",
+   "px": 0.1174,
+   "usd": 0.7374631268436579,
+   "why": "สุ่มฝั่ง",
+   "ask": 0.11
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-23T22:07:17+00:00",
+   "coin": "YES | Will the gold close price be above 3565 USD/t.oz on November 24, 2026 at 5:00 PM EST",
+   "px": 0.9013,
+   "usd": 0.7374631268436579,
+   "why": "สุ่มฝั่ง",
+   "ask": 0.89
   }
  ],
  "seen": null,
@@ -448,6 +490,8 @@
   "KXNETFLIXRANKMOVIERUNNERUP-26NOV23": 1795410583,
   "KXBTC-26NOV2317": 1795410583,
   "KXVOICELIMINATION-26NOV24": 1795410583,
-  "KXHIGHTHOU-26NOV23": 1795410854
+  "KXHIGHTHOU-26NOV23": 1795410854,
+  "KXXRPD-26NOV2417": 1795471635,
+  "KXGOLDD-26NOV2417": 1795471635
  }
 }
