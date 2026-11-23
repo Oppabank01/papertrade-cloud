@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.838357064481718,
+ "cash": 4.617696983609819,
  "pos": {
   "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": {
    "sym": "TripleT",
    "qty": 1335.6747528222343,
    "entry": 0.001698,
-   "last": 0.001625,
+   "last": 0.001652,
    "peak": 0.001754,
    "cost": 2.2908267268929103,
    "opened": "2026-11-23T21:26:01+07:00",
@@ -21,13 +21,27 @@
    "sym": "CATE",
    "qty": 110.78625663161705,
    "entry": 0.02053,
-   "last": 0.01862,
+   "last": 0.01851,
    "peak": 0.02063,
    "cost": 2.2973579946436686,
    "opened": "2026-11-23T21:37:45+07:00",
    "zoo": "w_red5m_b2",
    "smart": 944,
    "kol": 111,
+   "gap": 0,
+   "miss": 0
+  },
+  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
+   "sym": "ANSEM",
+   "qty": 55.41993941429801,
+   "entry": 0.03967,
+   "last": 0.03967,
+   "peak": 0.0397,
+   "cost": 2.220660080871899,
+   "opened": "2026-11-24T00:38:35+07:00",
+   "zoo": "w_red5m_b2",
+   "smart": 1000,
+   "kol": 186,
    "gap": 0,
    "miss": 0
   }
@@ -311,10 +325,24 @@
    "cost_side": 0.01,
    "smart": 25,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T00:38:35+07:00",
+   "kind": "buy",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.03967,
+   "jup": 0.03958012258850824,
+   "usd": 2.2207,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_red5m_b2",
+   "smart": 1000,
+   "kol": 186
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สวนทาง: อายุเกิน 1 วัน pool 200k+ กำลังแดง 5 นาที",
- "rank_t": 1795455105.6875775,
+ "rank_t": 1795455421.731183,
  "banned": {
   "J1Wpmugrooj1yMyQKrdZ2vwRXG5rhfx3vTnYE39gpump": "WOULD",
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings"
