@@ -1,33 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 5.283570043552885,
+ "cash": 5.329007768256592,
  "pos": {
-  "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
-   "sym": "NIO",
-   "qty": 1545.0170176958693,
-   "entry": 0.001206,
-   "last": 0.0012151552495132262,
-   "peak": 0.00126,
-   "cost": 1.920522081365923,
-   "opened": "2026-11-23T17:08:09+07:00",
-   "zoo": "w_f5_aged_b2",
-   "smart": 446,
-   "kol": 34,
-   "gap": 2,
-   "miss": 0
-  },
   "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
    "sym": "CBUCKS",
    "qty": 428.89041111095077,
    "entry": 0.004047,
-   "last": 0.004064,
+   "last": 0.004056,
    "peak": 0.004117,
    "cost": 1.78903266725007,
    "opened": "2026-11-23T18:07:55+07:00",
    "zoo": "w_f5_aged_b2",
    "smart": 42,
    "kol": 0,
+   "gap": 0,
+   "miss": 0
+  },
+  "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": {
+   "sym": "TripleT",
+   "qty": 1042.7835471920137,
+   "entry": 0.001655,
+   "last": 0.001628,
+   "peak": 0.001655,
+   "cost": 1.7788154716581968,
+   "opened": "2026-11-23T20:04:56+07:00",
+   "zoo": "w_f5_aged_b2",
+   "smart": 615,
+   "kol": 72,
    "gap": 0,
    "miss": 0
   }
@@ -935,8 +935,37 @@
    "zoo": "w_f5_aged_b2",
    "smart": 42,
    "kol": 0
+  },
+  {
+   "t": "2026-11-23T20:04:56+07:00",
+   "kind": "buy",
+   "mint": "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump",
+   "sym": "TripleT",
+   "price": 0.001655,
+   "jup": 0.001657578161963177,
+   "usd": 1.7788,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged_b2",
+   "smart": 615,
+   "kol": 72
+  },
+  {
+   "t": "2026-11-23T20:08:10+07:00",
+   "kind": "sell",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "price": 0.001217,
+   "entry": 0.001206,
+   "usd": 1.8243,
+   "pnl": -0.0963,
+   "why": "ครบ 3 ชม. (+0.9%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 446,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1795438586.3776026
+ "rank_t": 1795438945.1470108
 }

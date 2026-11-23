@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.645577035735208,
- "cash": 5.477448029158835,
+ "cash": 2.1202863773981564,
  "pos": {
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 580.8120353492138,
    "entry": 0.006198,
-   "last": 0.005915,
+   "last": 0.005908,
    "peak": 0.006203,
    "cost": 3.710444233245133,
    "opened": "2026-11-23T15:31:49+07:00",
@@ -21,21 +21,21 @@
    "sym": "FIONA",
    "qty": 2473.3245712288885,
    "entry": 0.001421,
-   "last": 0.001539,
+   "last": 0.001468,
    "peak": 0.001768,
    "cost": 3.6225460891736248,
    "opened": "2026-11-23T15:41:41+07:00",
    "zoo": "x_trail20",
    "smart": 343,
    "kol": 19,
-   "gap": 0,
+   "gap": 5,
    "miss": 0
   },
   "3giek4YMpTKQn214YoNL31Xf5cE7o8ePP7Ekg6W6pump": {
    "sym": "MUTTS",
    "qty": 21693.277067692234,
    "entry": 0.0001536,
-   "last": 0.000183,
+   "last": 0.0001857,
    "peak": 0.0002032,
    "cost": 3.434433475157212,
    "opened": "2026-11-23T16:14:54+07:00",
@@ -43,6 +43,20 @@
    "smart": 132,
    "kol": 3,
    "gap": 0,
+   "miss": 0
+  },
+  "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": {
+   "sym": "MINELIUS",
+   "qty": 200.19165547253905,
+   "entry": 0.01627,
+   "last": 0.015517654632979409,
+   "peak": 0.01627,
+   "cost": 3.357161651760679,
+   "opened": "2026-11-23T20:05:30+07:00",
+   "zoo": "x_trail20",
+   "smart": 5,
+   "kol": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -238,8 +252,22 @@
    "cost_side": 0.03,
    "smart": 113,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T20:05:30+07:00",
+   "kind": "buy",
+   "mint": "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump",
+   "sym": "MINELIUS",
+   "price": 0.01627,
+   "jup": 0.016214813804103813,
+   "usd": 3.3572,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "x_trail20",
+   "smart": 5,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: trailing stop 20% จากจุดเข้าอย่างเดียว (วิเคราะห์ 6,200 ไม้ Grok Bot desk)",
- "rank_t": 1795438586.3776026
+ "rank_t": 1795438945.1470108
 }
