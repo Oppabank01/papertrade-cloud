@@ -1,0 +1,100 @@
+{
+ "start_thb": 500.0,
+ "start_usd": 14.645577035735208,
+ "cash": 5.910499350908026,
+ "pos": {
+  "DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump": {
+   "sym": "jingyu",
+   "qty": 25464.406523423473,
+   "entry": 0.0001116,
+   "last": 0.0001142,
+   "peak": 0.0001142,
+   "cost": 2.9291154071470418,
+   "opened": "2026-11-23T13:16:04+07:00",
+   "zoo": "x_trail20",
+   "smart": 22,
+   "kol": 0,
+   "gap": 0,
+   "miss": 0
+  },
+  "FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump": {
+   "sym": "OpenIndex",
+   "qty": 10291.039980024394,
+   "entry": 0.0002745,
+   "last": 0.00026998464664752776,
+   "peak": 0.0002756,
+   "cost": 2.9116578793204457,
+   "opened": "2026-11-23T13:16:08+07:00",
+   "zoo": "x_trail20",
+   "smart": 113,
+   "kol": 4,
+   "gap": 5,
+   "miss": 0
+  },
+  "zcRvzm7gAfYGde8gRwaSYxNryL47SjLVUQLAf1bdoor": {
+   "sym": "SIDOOR",
+   "qty": 17216.763502689002,
+   "entry": 0.0001631,
+   "last": 0.0001629,
+   "peak": 0.0001633,
+   "cost": 2.8943043983596954,
+   "opened": "2026-11-23T13:16:08+07:00",
+   "zoo": "x_trail20",
+   "smart": 78,
+   "kol": 7,
+   "gap": 0,
+   "miss": 0
+  }
+ },
+ "log": [
+  {
+   "t": "2026-11-23T13:14:46+07:00",
+   "kind": "init",
+   "thb": 500.0
+  },
+  {
+   "t": "2026-11-23T13:16:04+07:00",
+   "kind": "buy",
+   "mint": "DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump",
+   "sym": "jingyu",
+   "price": 0.0001116,
+   "jup": 0.00011200922824389834,
+   "usd": 2.9291,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "x_trail20",
+   "smart": 22,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-23T13:16:08+07:00",
+   "kind": "buy",
+   "mint": "FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump",
+   "sym": "OpenIndex",
+   "price": 0.0002745,
+   "jup": 0.0002766099236636955,
+   "usd": 2.9117,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "x_trail20",
+   "smart": 113,
+   "kol": 4
+  },
+  {
+   "t": "2026-11-23T13:16:08+07:00",
+   "kind": "buy",
+   "mint": "zcRvzm7gAfYGde8gRwaSYxNryL47SjLVUQLAf1bdoor",
+   "sym": "SIDOOR",
+   "price": 0.0001631,
+   "jup": 0.00016328953364780187,
+   "usd": 2.8943,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "x_trail20",
+   "smart": 78,
+   "kol": 7
+  }
+ ],
+ "label": "สวนสัตว์: trailing stop 20% จากจุดเข้าอย่างเดียว (วิเคราะห์ 6,200 ไม้ Grok Bot desk)",
+ "rank_t": 1795414453.8414223
+}
