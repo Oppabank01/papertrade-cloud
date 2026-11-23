@@ -14,15 +14,15 @@
    "zoo": "x_cto_watch_b2",
    "smart": 161,
    "kol": 82,
-   "gap": 7,
+   "gap": 15,
    "miss": 0
   },
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 94.29817771989221,
    "entry": 0.03585,
-   "last": 0.03664,
-   "peak": 0.03665,
+   "last": 0.03677,
+   "peak": 0.03677,
    "cost": 3.4844255527294745,
    "opened": "2026-11-22T22:05:52+07:00",
    "zoo": "x_cto_watch_b2",
@@ -35,7 +35,7 @@
    "sym": "TROLL",
    "qty": 86.96341307347211,
    "entry": 0.0222,
-   "last": 0.02219,
+   "last": 0.02225,
    "peak": 0.02275,
    "cost": 1.9898863844888486,
    "opened": "2026-11-23T00:00:46+07:00",
@@ -354,8 +354,18 @@
    "zoo": "x_cto_watch_b2",
    "smart": 475,
    "kol": 214
+  },
+  {
+   "t": "2026-11-23T10:46:00+07:00",
+   "kind": "ban",
+   "mint": "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm",
+   "sym": "KLED",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: รอ dev เทหมดแล้วมี CTO: dev ถือ 0% ซื้อ 40% ขายครึ่ง x3 trail 15% stop -18%",
- "rank_t": 1795404987.936737
+ "rank_t": 1795405272.5019574,
+ "banned": {
+  "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm": "KLED"
+ }
 }
