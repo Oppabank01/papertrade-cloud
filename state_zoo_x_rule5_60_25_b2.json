@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 11.839874367442924,
- "pos": {},
+ "cash": 9.47189949395434,
+ "pos": {
+  "EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump": {
+   "sym": "LUNO",
+   "qty": 4211.56594364551,
+   "entry": 0.0005455,
+   "last": 0.0005378,
+   "peak": 0.0005481,
+   "cost": 2.367974873488585,
+   "opened": "2026-11-24T01:38:43+07:00",
+   "zoo": "x_rule5_60_25_b2",
+   "smart": 41,
+   "kol": 3,
+   "gap": 1,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T19:52:28+07:00",
@@ -153,8 +168,22 @@
    "cost_side": 0.03,
    "smart": 351,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T01:38:43+07:00",
+   "kind": "buy",
+   "mint": "EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump",
+   "sym": "LUNO",
+   "price": 0.0005455,
+   "jup": 0.0005485696574799667,
+   "usd": 2.368,
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "zoo": "x_rule5_60_25_b2",
+   "smart": 41,
+   "kol": 3
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ระบบ 5 ไม้ เข้มกรอง ปลอดภัย TP +60% SL -25%",
- "rank_t": 1795458683.2133374
+ "rank_t": 1795459028.1046362
 }
