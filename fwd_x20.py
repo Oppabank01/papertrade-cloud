@@ -4,7 +4,7 @@
 Each attempt stakes 1/50 of the start as margin on a 50x BTC perp bet (Binance 1 h bars): +2% from entry doubles the
 margin, -2% wipes it (liquidation, checked first when a bar touches both). After a win the whole margin rolls into a new
 bet at the next bar's open. The attempt ends at x20 or at zero, and counts as one trade. Fees: 0.045% taker per side on
-50x notional plus 0.2% for funding, so a win pays x1.953 and five wins in a row reach x28.
+50x notional plus 0.2% for funding (50x needs Binance; Hyperliquid caps BTC at 40x), so a win pays x1.953 and five wins in a row reach x28.
 Why: our 4,885 paper memecoin sells average -9.6% after costs and only 17 reached x2, so a bootstrap of 20,000 runs never
 reached x10. A fair coin ladder reaches x20 about 1 time in 25 to 30, which is how most of those posts happen: many try,
 the few who hit post. This account measures how often it really hits and what it costs per hit.
