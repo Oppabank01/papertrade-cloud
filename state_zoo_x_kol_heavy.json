@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 9.715157180643077,
+ "cash": 9.116870173245342,
  "pos": {
-  "4kFR6GDuAJRaqimh21uJhhfwPrGbFW34J6UXEWUhpump": {
-   "sym": "HUANG",
-   "qty": 14709.184607771404,
-   "entry": 0.0001602,
-   "last": 0.00014144057154755625,
-   "peak": 0.0001617,
-   "cost": 2.4287892951607692,
-   "opened": "2026-11-24T01:26:57+07:00",
+  "DJVZ9hKSLsDAPjdq73nX5bYPnjvfntUN87RRxdN2pump": {
+   "sym": "JACKET",
+   "qty": 66644.34771649686,
+   "entry": 3.431e-05,
+   "last": 3.856e-05,
+   "peak": 3.856e-05,
+   "cost": 2.356800216607924,
+   "opened": "2026-11-24T01:44:06+07:00",
    "zoo": "x_kol_heavy",
-   "smart": 169,
-   "kol": 11,
-   "gap": 2,
+   "smart": 137,
+   "kol": 12,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -182,12 +182,41 @@
    "zoo": "x_kol_heavy",
    "smart": 169,
    "kol": 11
+  },
+  {
+   "t": "2026-11-24T01:44:06+07:00",
+   "kind": "buy",
+   "mint": "DJVZ9hKSLsDAPjdq73nX5bYPnjvfntUN87RRxdN2pump",
+   "sym": "JACKET",
+   "price": 3.431e-05,
+   "jup": 3.4073823704537504e-05,
+   "usd": 2.3568,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_kol_heavy",
+   "smart": 137,
+   "kol": 12
+  },
+  {
+   "t": "2026-11-24T01:46:21+07:00",
+   "kind": "sell",
+   "mint": "4kFR6GDuAJRaqimh21uJhhfwPrGbFW34J6UXEWUhpump",
+   "sym": "HUANG",
+   "price": 0.00012322413153473453,
+   "entry": 0.0001602,
+   "usd": 1.7585,
+   "pnl": -0.6703,
+   "why": "stop -23.1%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 169,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ตาม KOL: มีคนดังถือ 5 คนขึ้นไป ราคาขึ้น (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-23",
  "night_start": 13.258768906683644,
- "rank_t": 1795459028.1046362,
+ "rank_t": 1795459343.6140647,
  "nights": [
   {
    "night": "2026-11-22",

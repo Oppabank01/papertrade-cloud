@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.467820377783744,
+ "cash": 7.051500938628923,
  "pos": {
-  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
-   "sym": "Rings",
-   "qty": 225.06864719990486,
-   "entry": 0.002528,
-   "last": 0.002665,
-   "peak": 0.002811,
-   "cost": 0.586449742446258,
-   "opened": "2026-11-23T22:41:30+07:00",
-   "zoo": "x_spray_small_b2",
-   "smart": 132,
-   "kol": 8,
-   "gap": 1,
-   "miss": 0
-  },
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
    "qty": 538.8961395431936,
    "entry": 0.00105,
-   "last": 0.001066,
+   "last": 0.0010760473609224839,
    "peak": 0.001137,
    "cost": 0.5832209302415515,
    "opened": "2026-11-23T23:13:02+07:00",
@@ -35,14 +21,14 @@
    "sym": "Max",
    "qty": 1598.1984733621969,
    "entry": 0.0003507,
-   "last": 0.0003685,
-   "peak": 0.0003846,
+   "last": 0.00039006144740272487,
+   "peak": 0.000398,
    "cost": 0.5777037771677206,
    "opened": "2026-11-23T23:51:24+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 470,
    "kol": 43,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": {
@@ -56,28 +42,28 @@
    "zoo": "x_spray_small_b2",
    "smart": 372,
    "kol": 39,
-   "gap": 5,
+   "gap": 15,
    "miss": 0
   },
   "ngwxpGYdkauMcxLFrNTKp8qBgK7JV53zVvd7F2spump": {
    "sym": "duh",
    "qty": 2205.084453593899,
    "entry": 0.0002433,
-   "last": 0.0002452,
+   "last": 0.00023896514650082487,
    "peak": 0.0002452,
    "cost": 0.5529757241387298,
    "opened": "2026-11-24T01:13:23+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 132,
    "kol": 10,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
    "sym": "TROLL",
    "qty": 23.995409146255927,
    "entry": 0.02127,
-   "last": 0.0214,
+   "last": 0.02144,
    "peak": 0.02145,
    "cost": 0.5260589079992409,
    "opened": "2026-11-24T01:32:24+07:00",
@@ -98,7 +84,7 @@
    "zoo": "x_spray_small_b2",
    "smart": 65,
    "kol": 3,
-   "gap": 5,
+   "gap": 15,
    "miss": 0
   }
  },
@@ -4610,10 +4596,39 @@
    "cost_side": 0.03,
    "smart": 346,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T01:42:23+07:00",
+   "kind": "sell",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.002673,
+   "entry": 0.002528,
+   "usd": 0.5837,
+   "pnl": -0.0028,
+   "why": "ครบ 3 ชม. (+5.7%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 132,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-24T01:46:21+07:00",
+   "kind": "ban",
+   "mint": "CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump",
+   "sym": "BURNIE",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-24T01:46:21+07:00",
+   "kind": "ban",
+   "mint": "4SnKwnz6DyagftnFqdxsvWvehrcbEDhxmmXNQk2Jpump",
+   "sym": "Joby",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: หว่านไม้เล็กหลายตัว ตัดกำไร 50% ตัดขาดทุน 15%",
- "rank_t": 1795459028.1046362,
+ "rank_t": 1795459343.6140647,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": "three",
@@ -4626,6 +4641,8 @@
   "7sGdNQSvUGpahh6qyXB3g5gsdK9FAzZM299KyCXspump": "https",
   "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": "swordcat",
   "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": "HOGE",
-  "42uiGgChB5gn1817XmAytoo6hR96WsSXCA3MipCipump": "sexcoin"
+  "42uiGgChB5gn1817XmAytoo6hR96WsSXCA3MipCipump": "sexcoin",
+  "CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": "BURNIE",
+  "4SnKwnz6DyagftnFqdxsvWvehrcbEDhxmmXNQk2Jpump": "Joby"
  }
 }
