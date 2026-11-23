@@ -3,7 +3,7 @@
 Fake money only: public read-only APIs, no login, no keys, no wallet, no orders anywhere.
 
 Resolution: Up when the Chainlink BTC/USD 60 s TWAP stream at the end of the title's range is >= its value at the start
-(Gamma description says "TWAP of the time range", but live prices on 23 Nov 2026 11:55 matched end-vs-start, not the average
+(Gamma description says "TWAP of the time range", but live prices on 23 Nov 2026 11:29 matched end-vs-start, not the average
 over the range: ETH 4 h market was 0.92 Up with the last price above the start and the range average below it). Model, a
 random walk with no drift: P(up) = Phi(ln(S / S0) / (vol * sqrt(tau))), S0 = Binance 1m open at the range start, S = last
 trade, tau = minutes left, vol = stdev of 1m log returns over the last 360 minutes. Binance USDT pairs stand in for

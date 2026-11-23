@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Polymarket mid favourites (opened 23 Nov 2026 11:40). Fake money only, same public read-only APIs as poly_fav.py.
+"""Polymarket mid favourites (opened 23 Nov 2026 11:25). Fake money only, same public read-only APIs as poly_fav.py.
 
 Same scan, filters, sizing and settlement as poly_fav.py (imported, not copied); only the price ranges and files differ:
   state_poly_mid.json       buys outcomes with best ask 0.60-0.85 (mid favourites)
