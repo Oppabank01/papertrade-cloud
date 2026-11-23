@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.3559335566855224,
+ "cash": 1.7951877563030765,
  "pos": {
-  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
-   "sym": "USELESS",
-   "qty": 5.552440904486617,
-   "entry": 0.0825,
-   "last": 0.08159,
-   "peak": 0.08297,
-   "cost": 0.47214633541552864,
-   "opened": "2026-11-23T04:16:33+07:00",
-   "zoo": "w_pause_bigliq",
-   "smart": 928,
-   "kol": 295,
-   "gap": 0,
-   "miss": 0
-  },
   "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": {
    "sym": "MINELIUS",
    "qty": 58.92609309410804,
    "entry": 0.007573,
-   "last": 0.008599682359138874,
+   "last": 0.008248198242804617,
    "peak": 0.008949,
    "cost": 0.45995393011923336,
    "opened": "2026-11-23T06:25:37+07:00",
    "zoo": "w_pause_bigliq",
    "smart": 5,
    "kol": 0,
-   "gap": 3,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -3553,8 +3539,23 @@
    "cost_side": 0.03,
    "smart": 330,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T07:16:44+07:00",
+   "kind": "sell",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.08154,
+   "entry": 0.0825,
+   "usd": 0.4393,
+   "pnl": -0.0329,
+   "why": "ครบ 3 ชม. (-1.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 928,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795392521.6024249
+ "rank_t": 1795392824.7470834
 }

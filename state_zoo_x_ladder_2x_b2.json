@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 8.784219754529515,
+ "cash": 8.840645636411834,
  "pos": {
-  "HhkwewG9Xm2mFdAhpTZv8s7Ms6rAaxCjXEriyv9Spump": {
-   "sym": "Hippos",
-   "qty": 26373.80560803556,
-   "entry": 0.0001075,
-   "last": 7.571895947152228e-05,
-   "peak": 0.00010803450778148505,
-   "cost": 2.9222676797194627,
-   "opened": "2026-11-23T07:10:02+07:00",
-   "zoo": "x_ladder_2x_b2",
-   "smart": 10,
-   "kol": 0,
-   "gap": 7,
-   "miss": 0
-  },
   "AQfw8J74V17erZsmMz4oK474eVLBaP44gD33vVbhtHo5": {
    "sym": "ZOL",
    "qty": 12100.843304468674,
    "entry": 0.0002329,
-   "last": 0.0002287,
+   "last": 0.0002171,
    "peak": 0.0002329,
    "cost": 2.9048509643483342,
    "opened": "2026-11-23T07:10:02+07:00",
    "zoo": "x_ladder_2x_b2",
    "smart": 106,
    "kol": 0,
-   "gap": 3,
+   "gap": 13,
    "miss": 0
   }
  },
@@ -65,8 +51,23 @@
    "zoo": "x_ladder_2x_b2",
    "smart": 106,
    "kol": 0
+  },
+  {
+   "t": "2026-11-23T07:13:44+07:00",
+   "kind": "sell",
+   "mint": "HhkwewG9Xm2mFdAhpTZv8s7Ms6rAaxCjXEriyv9Spump",
+   "sym": "Hippos",
+   "price": 2.2051812151612164e-06,
+   "entry": 0.0001075,
+   "usd": 0.0564,
+   "pnl": -2.8658,
+   "why": "stop -97.9%",
+   "stop_set": -0.35,
+   "cost_side": 0.03,
+   "smart": 10,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: บันไดขาย ครึ่งที่ x2 trail 30% stop -35%",
- "rank_t": 1795392521.6024249
+ "rank_t": 1795392824.7470834
 }
