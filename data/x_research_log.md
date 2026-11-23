@@ -342,3 +342,14 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ลองแล้วตก: z-score mean reversion แท่ง 1 ชม.
 ไอเดีย: arbitrage คู่ Up/Down (ต้อง order book สองฝั่งพร้อมกัน), กติกาคำสั่ง Polymarket ราคารวมต้องลงตัวเป็นเซนต์ (ถ้าจะทำบัญชี Polymarket ให้สมจริงขึ้น), EA ทอง (ต้องไฟล์ EA และข้อมูล tick), repo วิจัยที่ให้ agent รันเอง (README เป็นคำสั่งถึง agent ไม่ได้ทำตาม ไม่มีกฎให้ทดสอบ)
 ตัดทิ้ง: cubrik-mcp (ต้องสมัครและล็อกอินแพลตฟอร์ม)
+
+## 2026-11-23 14:53 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 16 พ.ย. (ai hedge fund, grid bot, sentiment trading, pairs trading, dca crypto), X 3 ครั้ง (claude code trading bot, memecoin strategy entry exit rule, pump.fun bot take profit stop loss), เว็บ 2 ครั้ง (pairs trading ETH/BTC แบบ mean reversion, งานวิจัยคริปโตใหม่บน arXiv ได้แต่ฉบับที่มีในฟีดแล้ว)
+เจอ: tomeelow/pairs-trading (pairs หุ้นสหรัฐฯ แบบ backtest ซื่อตรง สรุปเองว่าไม่มี edge หลังต้นทุน), รายงาน Crypto.com ปี 2024 (pairs BTC-ETH ด้วย z-score 30 วัน), petchtany/smart-dca-ai-hedge-fund (fork ของ virattt เพิ่ม dashboard DCA ไม่มีกฎ dip เป็นตัวเลข), blackbanquett/ai-grid-bot (ปุ่มดาวน์โหลดชี้ zip ของบัญชีอื่น ทรงมัลแวร์), โพสต์ Graduation Sniper (ซื้อเหรียญ pump.fun ที่ curve เต็ม 92%), โพสต์ทีมชนะ Jane Street ด้วยบอท market making (เคยจดไว้ 22 พ.ย.), โพสต์ "leaked prompt" ให้ Claude ตั้งบอท ข่าว Grok Bot ทำวอลุ่มอันดับ 1 บน Coinbase for Agents (วอลุ่มไม่ใช่ผลกำไร ไม่ได้ลงฟีด) ผล X มีมเป็นคำแนะนำทั่วไปและโพสต์เก่า
+ทดสอบแล้ว (Binance รายวัน 2017-2026 หลังหัก 0.35%/ข้าง permutation 200 รอบทั้งกริด หน้าต่าง 20/30 วัน เกณฑ์ 1.5/2):
+- pairs สวนกลับบน ratio ตรงๆ (หน้าต่าง 30 วันตามรายงาน |z| 2 ผมเลือกก่อนรัน ออกเมื่อ z กลับ 0 หรือครบ 20 วัน): ETHBTC 105 ไม้ -2.40% มัธยฐาน +1.12% SOLBTC 71 ไม้ -7.35% BNBBTC 104 ไม้ -4.39% ชนะ 54-62% แต่ไม้แพ้ใหญ่ (ฝั่ง short แย่สุด BNBBTC short 53 ไม้ -9.98%) p 0.995/0.995/1.000 แพ้ตัวแฝดสุ่มฝั่ง -1.28/-2.90/-1.91% ทุกแบบในกริดติดลบ
+- ฝั่งตรงข้าม (ตามเทรนด์ ratio ตั้งหลังเห็นผลฝั่งแรก): ETHBTC +1.00% มัธยฐาน -2.52% SOLBTC +5.95% BNBBTC +2.99% p 0.010/0.015/0.005 แต่ต้องนับว่าลองสองฝั่งแล้ว ปี 2024+ +0.27/-2.51/-1.96% ผลบวกมาจากไม้เทรนด์ใหญ่ไม่กี่ไม้
+เปิดบัญชี: fwd_pairz.py (สวนกลับ ETHBTC SOLBTC BNBBTC พร้อมตัวแฝดสุ่มฝั่ง) และ fwd_pairzmom.py (ตามเทรนด์ ratio คู่เดียวกัน พร้อมตัวแฝด) test เดินทีละแท่งได้ไม้ตรง backtest 43 ไม้ทั้งสองไฟล์ ต้นทุนคิดขาเดียว ถ้าเทรดสองขาจริงต้นทุนเป็นสองเท่า สคริปต์ /tmp/scout_1441.py และ /tmp/scout_1441_rev.py
+ไอเดีย: Graduation Sniper (ต้อง % ความคืบหน้าของ bonding curve ซึ่ง rank ของ GMGN ไม่มี), Smart DCA (ต้องกฎ dip ในโค้ดและข้อมูลพื้นฐานหุ้น), market making แบบ Jane Street (ต้อง order book)
+ตัดทิ้ง: ai-grid-bot (ให้โหลดไฟล์รันจากบัญชีอื่น), โพสต์ leaked prompt (ไม่มีกฎ และต้องผูกบัญชีกระดานจริง)
+เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
