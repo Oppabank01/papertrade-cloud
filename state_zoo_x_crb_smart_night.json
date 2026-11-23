@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.598540145985401,
- "cash": 6.213614844262541,
+ "cash": 7.941950592934997,
  "pos": {
   "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": {
    "sym": "Singularity",
    "qty": 13483.773043517695,
    "entry": 0.0001553,
-   "last": 0.000155,
+   "last": 0.0001545,
    "peak": 0.0001642,
    "cost": 2.158348746297978,
    "opened": "2026-11-24T05:45:59+07:00",
    "zoo": "x_crb_smart_night",
    "smart": 130,
    "kol": 3,
-   "gap": 0,
-   "miss": 0
-  },
-  "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
-   "sym": "FIONA",
-   "qty": 629.9321566932441,
-   "entry": 0.003191,
-   "last": 0.003185471740107126,
-   "peak": 0.003319,
-   "cost": 2.071854784588891,
-   "opened": "2026-11-24T06:36:56+07:00",
-   "zoo": "x_crb_smart_night",
-   "smart": 405,
-   "kol": 24,
-   "gap": 2,
+   "gap": 5,
    "miss": 0
   }
  },
@@ -350,12 +336,27 @@
    "zoo": "x_crb_smart_night",
    "smart": 405,
    "kol": 24
+  },
+  {
+   "t": "2026-11-24T06:41:44+07:00",
+   "kind": "sell",
+   "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
+   "sym": "FIONA",
+   "price": 0.002827958708189931,
+   "entry": 0.003191,
+   "usd": 1.7283,
+   "pnl": -0.3435,
+   "why": "stop -11.4%",
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "smart": 405,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: crbpite8 คืนเดียว: smart money 6+ dev ไม่เกิน 2.1% top10 ไม่เกิน 20% ราคา 5 นาทีขึ้น stop -10%",
  "night": "2026-11-23",
  "night_start": 11.81314892057749,
- "rank_t": 1795476910.9827545,
+ "rank_t": 1795477239.100104,
  "nights": [
   {
    "night": "2026-11-22",
