@@ -6,7 +6,7 @@ and hold the top 3, a third of the account each, until next Monday. A coin that 
 (no cost); it still books one "trade" per week so the weekly result is counted. 0.35% per side on coins that change.
 Backtest 2018-2026 (Binance daily, coins listed today, so survivorship bias in both legs): top 3 +1.38%/week after costs,
 equal-weight all 27 +1.10%, bottom 3 +0.42%; random 3 a week (paying full turnover) +0.50%, p < 0.01. But it trailed the
-equal-weight basket in 2021, 2022, 2025 and 2026 (2026: -68% vs -37%), so the recent edge is doubtful. Settings chosen by me
+equal-weight basket in 2018, 2021, 2025 and 2026 (2026: -68% vs -37%), so the recent edge is doubtful. Settings chosen by me
 (28 d, top 3) from 6 tried. The test replay of the last 139 Mondays: top 3 -80%, all coins -63%. Opened because the user wants weak ideas tried live.
   state_fwd_xsmom.json        the rule
   state_fwd_xsmom_twin.json   control: all eligible coins equal weight, same Monday schedule and cost
