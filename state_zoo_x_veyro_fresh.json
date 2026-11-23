@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.645577035735208,
- "cash": 5.141258360812067,
+ "cash": 5.2193234759639004,
  "pos": {
   "5sGXFvuS4wtkoHcQfw65zsuv3G6kLGdUYoKCNE6Qpump": {
    "sym": "Santa",
    "qty": 125000.79319622154,
    "entry": 1.959e-05,
-   "last": 1.682838089329966e-05,
+   "last": 1.549e-05,
    "peak": 2.282e-05,
    "cost": 2.523980147097485,
    "opened": "2026-11-23T22:37:38+07:00",
    "zoo": "x_veyro_fresh",
    "smart": 8,
    "kol": 0,
-   "gap": 1,
+   "gap": 3,
    "miss": 0
   },
   "49UovEPX1UMxbSczxHjTzXpxE1aZY9dBq59PJuPqpump": {
    "sym": "킹 젠슨",
    "qty": 391723.671725659,
    "entry": 6.214e-06,
-   "last": 6.846e-06,
+   "last": 6.11e-06,
    "peak": 6.846e-06,
    "cost": 2.5089372254207842,
    "opened": "2026-11-23T22:37:41+07:00",
@@ -29,20 +29,6 @@
    "smart": 18,
    "kol": 5,
    "gap": 0,
-   "miss": 0
-  },
-  "CVgbypEuPML6sYYjqeo8YpJdSDg2KHFM3zQhzUNCpump": {
-   "sym": "Lazer",
-   "qty": 51763.57759801066,
-   "entry": 4.584e-05,
-   "last": 5.359927710960312e-05,
-   "peak": 5.722e-05,
-   "cost": 2.44572500215709,
-   "opened": "2026-11-23T22:42:55+07:00",
-   "zoo": "x_veyro_fresh",
-   "smart": 4,
-   "kol": 0,
-   "gap": 1,
    "miss": 0
   }
  },
@@ -151,10 +137,25 @@
    "zoo": "x_veyro_fresh",
    "smart": 4,
    "kol": 0
+  },
+  {
+   "t": "2026-11-23T22:51:11+07:00",
+   "kind": "sell",
+   "mint": "CVgbypEuPML6sYYjqeo8YpJdSDg2KHFM3zQhzUNCpump",
+   "sym": "Lazer",
+   "price": 1.5544310034113135e-06,
+   "entry": 4.584e-05,
+   "usd": 0.0781,
+   "pnl": -2.3677,
+   "why": "stop -96.6%",
+   "stop_set": -0.3,
+   "cost_side": 0.03,
+   "smart": 4,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุไม่เกิน 10 นาทีตอนกลางคืน ขายครึ่งที่ x10 (โพสต์ veyro)",
  "night": "2026-11-23",
  "night_start": 14.645577035735208,
- "rank_t": 1795448430.1661882
+ "rank_t": 1795448790.0282774
 }

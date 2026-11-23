@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.14126598810271257,
+ "cash": 0.08919278404514229,
  "pos": {
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 3.0439573265402733,
    "entry": 0.01893,
-   "last": 0.02007,
+   "last": 0.0199,
    "peak": 0.02129,
    "cost": 0.05939199360070849,
    "opened": "2026-11-23T01:33:46+07:00",
@@ -28,6 +28,20 @@
    "zoo": "randrun",
    "smart": 562,
    "kol": 35,
+   "gap": 0,
+   "miss": 0
+  },
+  "3p5ZK9CABym6kFQALLovmyLTEofMCdfsuAYm6W4apump": {
+   "sym": "reloaded",
+   "qty": 1845.8685632683478,
+   "entry": 2.737e-05,
+   "last": 2.742e-05,
+   "peak": 2.742e-05,
+   "cost": 0.05207320405757028,
+   "opened": "2026-11-23T22:47:02+07:00",
+   "zoo": "randrun",
+   "smart": 6,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -3283,8 +3297,22 @@
    "cost_side": 0.03,
    "smart": 84,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T22:47:02+07:00",
+   "kind": "buy",
+   "mint": "3p5ZK9CABym6kFQALLovmyLTEofMCdfsuAYm6W4apump",
+   "sym": "reloaded",
+   "price": 2.737e-05,
+   "jup": 2.7194906741591978e-05,
+   "usd": 0.0521,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "randrun",
+   "smart": 6,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: สุ่ม 1 ตัว ปล่อยวิ่ง (ตัวควบคุม)",
- "rank_t": 1795448430.1661882
+ "rank_t": 1795448790.0282774
 }
