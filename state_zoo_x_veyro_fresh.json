@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.645577035735208,
- "cash": 0.7811784061771276,
+ "cash": 1.9802448739980747,
  "pos": {
   "HN7N11tXStdgUcScZo4Y8N39rhkMA2meiAwgVUjnpump": {
    "sym": "ROUTA",
    "qty": 70585.04897653707,
    "entry": 1.508e-05,
-   "last": 1.48e-05,
+   "last": 1.706e-05,
    "peak": 2.447e-05,
    "cost": 1.0971166136530395,
    "opened": "2026-11-24T02:08:34+07:00",
@@ -17,45 +17,17 @@
    "gap": 0,
    "miss": 0
   },
-  "xEK58Qa2xZ7C36Z2g3Jjq1WHY561CvvnJkLpgJspump": {
-   "sym": "Bertcoin",
-   "qty": 59112.87549634724,
-   "entry": 1.846e-05,
-   "last": 1.859e-05,
-   "peak": 4.041734822210464e-05,
-   "cost": 1.1247409623403113,
-   "opened": "2026-11-24T03:48:31+07:00",
-   "zoo": "x_veyro_fresh",
-   "smart": 3,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
   "8LxmfhrkJoeTPs271e8Z6P4AEGdb8fmc6a7jUJkRpump": {
    "sym": "RIVA128",
    "qty": 52176.37507784204,
    "entry": 2.315e-05,
-   "last": 2.665e-05,
-   "peak": 2.665e-05,
+   "last": 2.686e-05,
+   "peak": 3.034e-05,
    "cost": 1.2449835941579501,
    "opened": "2026-11-24T05:29:24+07:00",
    "zoo": "x_veyro_fresh",
    "smart": 8,
    "kol": 0,
-   "gap": 1,
-   "miss": 0
-  },
-  "4HnSZhXnqVeqijB3WczbcsbFfvcex7jk6Sz1DYNjpump": {
-   "sym": "Froggy",
-   "qty": 107491.86211970035,
-   "entry": 1.117e-05,
-   "last": 1.007e-05,
-   "peak": 1.123e-05,
-   "cost": 1.2375634919367688,
-   "opened": "2026-11-24T05:29:24+07:00",
-   "zoo": "x_veyro_fresh",
-   "smart": 9,
-   "kol": 3,
    "gap": 0,
    "miss": 0
   }
@@ -411,10 +383,40 @@
    "zoo": "x_veyro_fresh",
    "smart": 9,
    "kol": 3
+  },
+  {
+   "t": "2026-11-24T05:32:54+07:00",
+   "kind": "sell",
+   "mint": "xEK58Qa2xZ7C36Z2g3Jjq1WHY561CvvnJkLpgJspump",
+   "sym": "Bertcoin",
+   "price": 9.027694749820047e-06,
+   "entry": 1.846e-05,
+   "usd": 0.5178,
+   "pnl": -0.607,
+   "why": "stop -51.1%",
+   "stop_set": -0.3,
+   "cost_side": 0.03,
+   "smart": 3,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-24T05:34:08+07:00",
+   "kind": "sell",
+   "mint": "4HnSZhXnqVeqijB3WczbcsbFfvcex7jk6Sz1DYNjpump",
+   "sym": "Froggy",
+   "price": 6.532989234599469e-06,
+   "entry": 1.117e-05,
+   "usd": 0.6813,
+   "pnl": -0.5562,
+   "why": "stop -41.5%",
+   "stop_set": -0.3,
+   "cost_side": 0.03,
+   "smart": 9,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุไม่เกิน 10 นาทีตอนกลางคืน ขายครึ่งที่ x10 (โพสต์ veyro)",
  "night": "2026-11-23",
  "night_start": 14.645577035735208,
- "rank_t": 1795472825.8486307
+ "rank_t": 1795473174.528731
 }
