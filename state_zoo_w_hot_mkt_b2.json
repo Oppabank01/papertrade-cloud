@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 13.502697774240046,
- "pos": {},
+ "cash": 10.802158219392037,
+ "pos": {
+  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
+   "sym": "mihao",
+   "qty": 338.2593209499494,
+   "entry": 0.007904,
+   "last": 0.007921,
+   "peak": 0.007921,
+   "cost": 2.7005395548480093,
+   "opened": "2026-11-23T09:49:45+07:00",
+   "zoo": "w_hot_mkt_b2",
+   "smart": 800,
+   "kol": 75,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T19:52:27+07:00",
@@ -124,8 +139,22 @@
    "cost_side": 0.01,
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T09:49:45+07:00",
+   "kind": "buy",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.007904,
+   "jup": 0.007914934443538777,
+   "usd": 2.7005,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_hot_mkt_b2",
+   "smart": 800,
+   "kol": 75
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดร้อน: กฎ w_aged_nostop เฉพาะรอบที่เหรียญ 74%+ ขึ้นใน 1 ชม.",
- "rank_t": 1795401833.68217
+ "rank_t": 1795402116.684819
 }

@@ -1,15 +1,44 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 14.710208884966166,
- "pos": {},
+ "cash": 13.23918799646955,
+ "pos": {
+  "DAsTfxWswYnYj2e4qDxoXATZ6yhK1AnwdR9RVKwJpump": {
+   "sym": "suscat",
+   "qty": 106665.50568157081,
+   "entry": 1.338e-05,
+   "last": 1.316e-05,
+   "peak": 1.338e-05,
+   "cost": 1.4710208884966167,
+   "opened": "2026-11-23T09:50:29+07:00",
+   "zoo": "x_axiom_40h",
+   "smart": 12,
+   "kol": 2,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-23T09:44:21+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-23T09:50:29+07:00",
+   "kind": "buy",
+   "mint": "DAsTfxWswYnYj2e4qDxoXATZ6yhK1AnwdR9RVKwJpump",
+   "sym": "suscat",
+   "price": 1.338e-05,
+   "jup": 1.330797811145965e-05,
+   "usd": 1.471,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "x_axiom_40h",
+   "smart": 12,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: ฟิลเตอร์ Axiom: pump.fun อายุไม่เกิน 1 ชม. คนถือ 40+ ราคาขึ้น",
- "rank_t": 1795401833.68217
+ "rank_t": 1795402116.684819
 }
