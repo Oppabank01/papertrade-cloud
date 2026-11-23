@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 4.477563093154997,
+ "cash": 4.231961939838286,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 206.69605363803328,
    "entry": 0.007946,
-   "last": 0.008406,
+   "last": 0.00841,
    "peak": 0.008657,
    "cost": 1.692853888072369,
    "opened": "2026-11-24T00:38:46+07:00",
    "zoo": "w_f5_aged_b2",
    "smart": 801,
    "kol": 75,
-   "gap": 16,
+   "gap": 0,
    "miss": 0
   },
   "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": {
    "sym": "DCTY",
    "qty": 880.4291684166332,
    "entry": 0.001804,
-   "last": 0.001878,
+   "last": 0.001876,
    "peak": 0.001935,
    "cost": 1.6370791793687964,
    "opened": "2026-11-24T02:13:47+07:00",
@@ -1225,8 +1225,37 @@
    "cost_side": 0.03,
    "smart": 88,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T02:36:55+07:00",
+   "kind": "buy",
+   "mint": "9scVbbC7HUwXaBmo8bnYfm2Pa5oouZpjy2NvrvwLpump",
+   "sym": "JENSEN",
+   "price": 0.0003119,
+   "jup": 0.0003131520913735555,
+   "usd": 1.58,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_aged_b2",
+   "smart": 222,
+   "kol": 12
+  },
+  {
+   "t": "2026-11-24T02:39:48+07:00",
+   "kind": "sell",
+   "mint": "9scVbbC7HUwXaBmo8bnYfm2Pa5oouZpjy2NvrvwLpump",
+   "sym": "JENSEN",
+   "price": 0.00027984882460257223,
+   "entry": 0.0003119,
+   "usd": 1.3344,
+   "pnl": -0.2456,
+   "why": "stop -10.3%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 222,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ agedF แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1795462161.353765
+ "rank_t": 1795462517.7484698
 }
