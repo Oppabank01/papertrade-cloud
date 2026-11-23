@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.2301493220720363,
+ "cash": 0.824062895740985,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 10.062555282053095,
    "entry": 0.04029,
-   "last": 0.04035,
+   "last": 0.04012,
    "peak": 0.04053,
    "cost": 0.41787296672224206,
    "opened": "2026-11-23T15:59:02+07:00",
@@ -21,14 +21,28 @@
    "sym": "CBUCKS",
    "qty": 97.97681509750939,
    "entry": 0.004047,
-   "last": 0.004022477973648531,
+   "last": 0.004022,
    "peak": 0.004095,
    "cost": 0.40869116749084783,
    "opened": "2026-11-23T18:07:27+07:00",
    "zoo": "w_pause_bigliq",
    "smart": 42,
    "kol": 0,
-   "gap": 1,
+   "gap": 2,
+   "miss": 0
+  },
+  "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
+   "sym": "neet",
+   "qty": 16.15354861936802,
+   "entry": 0.02439,
+   "last": 0.02439,
+   "peak": 0.02439,
+   "cost": 0.40608642633105135,
+   "opened": "2026-11-23T18:22:09+07:00",
+   "zoo": "w_pause_bigliq",
+   "smart": 889,
+   "kol": 205,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -3824,8 +3838,22 @@
    "zoo": "w_pause_bigliq",
    "smart": 42,
    "kol": 0
+  },
+  {
+   "t": "2026-11-23T18:22:09+07:00",
+   "kind": "buy",
+   "mint": "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump",
+   "sym": "neet",
+   "price": 0.02439,
+   "jup": 0.02443066981196868,
+   "usd": 0.4061,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_bigliq",
+   "smart": 889,
+   "kol": 205
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795432569.6335728
+ "rank_t": 1795432857.824358
 }
