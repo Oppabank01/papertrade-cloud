@@ -1,37 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.250371475987673,
- "pos": {
-  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
-   "sym": "CLAUDIA",
-   "qty": 237.81743791454278,
-   "entry": 0.01178,
-   "last": 0.009669,
-   "peak": 0.01256,
-   "cost": 2.8875380526008185,
-   "opened": "2026-11-22T19:54:00+07:00",
-   "zoo": "x_lotus_5bots_b2",
-   "smart": 542,
-   "kol": 34,
-   "gap": 0,
-   "miss": 0
-  },
-  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
-   "sym": "mihao",
-   "qty": 315.87937178973,
-   "entry": 0.008816,
-   "last": 0.008126,
-   "peak": 0.009405,
-   "cost": 2.8703283258073173,
-   "opened": "2026-11-22T19:54:04+07:00",
-   "zoo": "x_lotus_5bots_b2",
-   "smart": 799,
-   "kol": 75,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 10.970186676830432,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-22T19:52:28+07:00",
@@ -151,6 +122,36 @@
    "stop_set": -0.25,
    "cost_side": 0.03,
    "smart": 738,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-23T19:54:16+07:00",
+   "kind": "sell",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.009749,
+   "entry": 0.01178,
+   "usd": 2.2494,
+   "pnl": -0.6381,
+   "why": "ครบ 24 ชม. (-17.2%)",
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "smart": 542,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-23T19:54:16+07:00",
+   "kind": "sell",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.008061,
+   "entry": 0.008816,
+   "usd": 2.4704,
+   "pnl": -0.3999,
+   "why": "ครบ 24 ชม. (-8.6%)",
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "smart": 799,
    "bundler": null
   }
  ],
