@@ -316,4 +316,16 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ลองแล้วตก: short หลังวอลุ่มพุ่ง
 ไอเดีย: ซื้อหลังวอลุ่มพุ่งรอ fetch ที่มีวอลุ่ม, วิธีตรวจ lookahead ของ TheFirm (ตัดข้อมูลหลายจุดแล้วดูว่าสัญญาณอดีตเปลี่ยนไหม) เอามาเพิ่มใน test_fwd ได้, funding ข้ามกระดาน (ต้องข้อมูล perp หลายกระดาน)
 ตัดทิ้ง: กลุ่มโพสต์ FensoryApp (ต้องสมัครแพลตฟอร์ม), skill snipe ของ GMGN (ต้องรันโค้ดที่ดาวน์โหลดและผูกกระเป๋าจริง)
+
+## 2026-11-23 11:25 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 16 พ.ย. (llm trading agent, funding rate, mean reversion, crypto strategy, trading signals bitcoin), X 3 ครั้ง (ai trading agent backtest rules, บอทเทรด ไม่มีผลเกี่ยวกับเทรด, kalshi bot strategy), เว็บ 1 ครั้ง (งานวิจัยกลยุทธ์ BTC ระหว่างวันปี 2026) แล้วอ่าน arXiv 2602.10785 กับบทความ Andrea Unger บน cryptonews.net
+เจอ: anna-johney/momentum-mean-reversion-regime-switcher (สลับโมเมนตัมกับสวนเทรนด์ด้วย efficiency ratio), sylaxai/btc-race-mean-reversion (ช้อนย่อ 1 นาทีงาน make.fun), arXiv 2602.10785 (EMA ตัดกันแท่ง 1 ชม. walk-forward), ท่าแท่งตัวเล็ก buy stop ของ Andrea Unger, แคมเปญโพสต์ FensoryApp หลายบัญชี, BALIA_OS อ้าง backtest +2,417% ไม่มีกฎ, repo market maker Hyperliquid ดาวปั่นชุดเดิม, kalambyryura/ai-trading-arena มีในฟีดแล้ว
+ทดสอบแล้ว (Binance หลังหัก 0.35%/ข้าง permutation 200 รอบ):
+- regime switcher รายวัน 2017-2026 ใช้ตัวเลขของ repo (ER 20 วัน 0.35, z 0.5): BTC 617 ไม้ -0.16% p 0.080, ETH 640 ไม้ -0.79% p 0.652, SOL 445 ไม้ -0.27% p 0.259 ก่อนหัก +0.54/-0.09/+0.43% ปี 2024+ -0.08/-0.35/-1.10% ตัวแฝดสุ่มฝั่ง -0.81 ถึง -0.86%
+- แท่งตัวเล็ก buy stop (dfac 0.75 stop 2% เป้า 10% ออกสิ้นวัน) จากแท่ง 1 ชม.: BTC 561 ไม้ -0.69% ETH 529 ไม้ -0.89% SOL 344 ไม้ -1.55% ก่อนหัก +0.01/-0.19/-0.85% ตัวแฝดซื้อวันสุ่ม -0.62 ถึง -0.70% แพ้ตัวแฝด กริด dfac 11 ค่าติดลบทุกค่า p 0.005 แต่มาจากข้อมูลสลับที่แย่กว่า ไม่ใช่ edge บวก ชั่วโมงที่เข้าถ้าแตะ stop ผมนับเป็น stop
+- EMA ตัดกัน 1 ชม. long+short กริด 12 คู่เลือกก่อนปี 2024 ได้ EMA50/200: ในตัวอย่าง BTC +0.44% (p 0.035) ETH +1.02% SOL +6.95% ปี 2024+ -0.51/-0.35/-0.41% มัธยฐานราว -3%
+- btc-race ช้อนย่อ 1 นาที BTCUSDT 60 วัน 55 ไม้: ต้นทุนเรา -0.69% ต่อไม้ ตัวแฝดสุ่ม -0.70% p 0.129 ต้นทุน 0.06%/ข้าง -0.11% ก่อนหัก +0.02%
+เปิดบัญชี: fwd_regime.py (BTC ETH SOL รายวัน long+short พร้อมตัวแฝดสุ่มฝั่ง) และ fwd_bodybreak.py (BTC ETH SOL ดึงแท่ง 1 ชม. รวมเป็นวัน พร้อมตัวแฝดซื้อวันสุ่ม) test เดินทีละแท่งได้ไม้ตรง backtest 612 และ 80 ไม้ สคริปต์ /tmp/scout_1115*.py
+ไอเดีย: กระดาน Alpha Hunter ของ BALIA_OS (ต้องกฎหรือรายการไม้), EMA50/200 1 ชม. เป็น forward test ได้ถ้าเธรดหลักอยากเปิด
+ตัดทิ้ง: FensoryApp (ต้องสมัครและล็อกอิน)
 เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
