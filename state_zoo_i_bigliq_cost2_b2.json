@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 12.321528358808166,
- "pos": {},
+ "cash": 9.857222687046534,
+ "pos": {
+  "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
+   "sym": "CBUCKS",
+   "qty": 602.847596413593,
+   "entry": 0.004047,
+   "last": 0.004039095626772068,
+   "peak": 0.004047,
+   "cost": 2.4643056717616334,
+   "opened": "2026-11-23T18:07:40+07:00",
+   "zoo": "i_bigliq_cost2_b2",
+   "smart": 42,
+   "kol": 0,
+   "gap": 1,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T19:52:25+07:00",
@@ -515,10 +530,24 @@
    "cost_side": 0.01,
    "smart": 83,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T18:07:40+07:00",
+   "kind": "buy",
+   "mint": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+   "sym": "CBUCKS",
+   "price": 0.004047,
+   "jup": 0.004046112610156392,
+   "usd": 2.4643,
+   "stop_set": -0.08,
+   "cost_side": 0.01,
+   "zoo": "i_bigliq_cost2_b2",
+   "smart": 42,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ค่าธรรมเนียมสมจริง 1% ต่อขา",
- "rank_t": 1795431628.8144147,
+ "rank_t": 1795431980.7701695,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": "FLOAT"
