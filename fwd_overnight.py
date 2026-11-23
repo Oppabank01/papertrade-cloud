@@ -25,7 +25,7 @@ def fetch(sym):
     r = json.loads(urllib.request.urlopen(urllib.request.Request(URL.format(sym), headers={"User-Agent": "Mozilla/5.0"}), timeout=20).read())
     r = r["chart"]["result"][0]
     q = r["indicators"]["quote"][0]
-    bars = [dict(t=t * 1000, o=o, c=c) for t, o, c in zip(r["timestamp"], q["open"], q["close"]) if o and c]
+    bars = [dict(t=t * 1000, o=o, h=h, l=l, c=c) for t, o, h, l, c in zip(r["timestamp"], q["open"], q["high"], q["low"], q["close"]) if o and c]
     now = time.time() * 1000
     for i, x in enumerate(bars):            # final once a later bar exists or 7 h after the open (close is 6.5 h after)
         x["closed"] = i + 1 < len(bars) or now > x["t"] + 7 * 3600 * 1000
