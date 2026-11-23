@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 9.849553219886293,
- "pos": {
-  "HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump": {
-   "sym": "JENSEN",
-   "qty": 1878.1518344995445,
-   "entry": 0.001272,
-   "last": 0.001120942328697153,
-   "peak": 0.001382,
-   "cost": 2.462388304971573,
-   "opened": "2026-11-24T01:49:37+07:00",
-   "zoo": "x_hot_chase",
-   "smart": 10,
-   "kol": 0,
-   "gap": 5,
-   "miss": 0
-  }
- },
+ "cash": 11.629643704500644,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-23T02:11:54+07:00",
@@ -322,12 +307,27 @@
    "zoo": "x_hot_chase",
    "smart": 10,
    "kol": 0
+  },
+  {
+   "t": "2026-11-24T02:07:43+07:00",
+   "kind": "sell",
+   "mint": "HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump",
+   "sym": "JENSEN",
+   "price": 0.0009769,
+   "entry": 0.001272,
+   "usd": 1.7801,
+   "pnl": -0.6823,
+   "why": "stop -23.2%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 10,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ไล่ของร้อน: GMGN hot level 3 ราคาขึ้น 5 นาที (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-23",
  "night_start": 12.9557084751128,
- "rank_t": 1795460352.654117,
+ "rank_t": 1795460749.182122,
  "nights": [
   {
    "night": "2026-11-22",
