@@ -402,3 +402,15 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ไอเดีย: arXiv 2606.00060 (ต้องเทรนโมเดล ซึ่งรอบนี้ห้าม ต้องทำบน Colab หรือได้ไฟล์คำทำนาย), สัดส่วนวอลุ่มโรบอทรายหุ้นของ SET (ยังไม่มีแหล่งข้อมูลรายวัน)
 ตัดทิ้ง: ไม่มี
 เพิ่ม x_: ไม่มี (ค้นกฎเหรียญมีมสองครั้งไม่เจอกฎที่ตัดสินได้)
+
+## 2026-11-23 23:55 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 16 พ.ย. (llm trading agent, memecoin bot, mean reversion crypto, quant strategy backtest, polymarket strategy, crypto strategy ตั้งแต่ 19 พ.ย.), X 4 ครั้ง (polymarket bot strategy backtest, เทรดเหรียญมีม, memecoin strategy market cap entry exit rules, claude code trading bot backtest results after fees), เว็บ 1 ครั้ง (arXiv anomaly ระหว่างวันของ BTC)
+เจอ: ShuWayne v3-B range mean-reversion 4 ชม. (กฎครบ), Orsonneri candle-colour momentum, ai-trading-arena ของ kalambyryura (ทีม AI 7 สัปดาห์เงินจริงไม่เจอ edge มีกฎ H10-ETH ตัวเดียวที่ผ่าน gate), order-flow-after-fees (ไม่มีโมเดลไหนจ่ายค่าธรรมเนียมได้), arXiv 2607.09426 quarter-hour effect, โพสต์ copy trade Polymarket ผ่านลิงก์ affiliate, คลัง 4,843 กลยุทธ์, Claude กับ Codex แข่งกัน 200 ไอเดีย บน X ไม่เจอกฎเหรียญมีมใหม่ ส่วนบอทกลับทิศ Polymarket รายชั่วโมงมี fwd_hourrev อยู่แล้ว
+ทดสอบแล้ว (Binance หลังหัก 0.35%/ข้าง permutation 200 รอบ):
+- v3-B 4 ชม. 2017-2026 ทั้งสองฝั่ง: BTC 171 ไม้ -1.17% ETH 127 ไม้ -1.34% SOL 64 ไม้ -1.78% ต่อไม้ ก่อนหักติดลบทุกเหรียญ p 0.92/0.89/0.85 แย่กว่าตัวเข้าสุ่ม ผล 17 ไม้ของ repo เป็นโชคช่วงสั้น
+- candle-colour momentum 15 นาที 2017-2026 stop 1% ดูราคาปิด: BTC 3,318 ไม้ -0.65% ETH -0.64% SOL 2,269 ไม้ -0.74% ต่อไม้ ก่อนหักราว 0% เท่ากับฝั่งสุ่ม p บน 3 ปีล่าสุด 0.17/0.35/0.15 ไม่มี stop p 0.70/0.70/0.17 (permutation บน 15 นาทีทั้ง 9 ปีช้าเกินไป จึงใช้ 3 ปีล่าสุด)
+- H10-ETH บนแท่ง 1 ชม. (limit ต่ำกว่า 0.25 เท่า RMS รอ 2 แท่ง stop -5% เป้า +10% ถือไม่เกิน 24 ชม.): ETH 310 ไม้ +0.08% ต่อไม้ ก่อนหัก +0.78% p 0.005 ตัวเข้าสุ่ม -0.58% แต่ 2017-2019 นอกข้อมูลพัฒนาของเขาราว -0.3% และปี 2026 -0.64% BTC 335 ไม้ -0.30% p 0.055 SOL 219 ไม้ -0.17% p 0.109 ตัวนี้น่าเปิด forward ต่อ (fwd_h10) แต่รอบนี้เปิดครบ 2 ไฟล์แล้ว
+เปิดบัญชี: fwd_v3b.py (BTC SOL พร้อมตัวแฝดเข้าสุ่มฝั่งสุ่ม) และ fwd_cmom.py (BTC ETH SOL แบบมี stop, ไม่มี stop และตัวแฝดเวลาเดียวกันฝั่งสุ่ม) test เดินทีละแท่งตรง backtest 11 และ 29 ไม้
+ไอเดีย: quarter-hour effect (ต้อง taker buy volume นาทีแรกของชั่วโมง), order flow (ต้อง order book รายวินาที), คลัง 4,843 กลยุทธ์ (ยังไม่รู้ชื่อคลัง)
+ตัดทิ้ง: copy trade Polymarket ผ่าน gravia (ต้องสมัครบริการผ่านลิงก์ affiliate)
+เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
