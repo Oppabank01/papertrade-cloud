@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.6080891553020382,
+ "cash": 1.196898549675295,
  "pos": {
   "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
    "sym": "MANIFEST",
    "qty": 148.103132550158,
    "entry": 0.00263,
-   "last": 0.003024,
+   "last": 0.003008,
    "peak": 0.003067,
    "cost": 0.40147519955361316,
    "opened": "2026-11-23T20:22:46+07:00",
    "zoo": "bigliq",
    "smart": 89,
    "kol": 15,
+   "gap": 0,
+   "miss": 0
+  },
+  "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
+   "sym": "neet",
+   "qty": 16.323122977866866,
+   "entry": 0.02444,
+   "last": 0.02444,
+   "peak": 0.02444,
+   "cost": 0.4111906056267432,
+   "opened": "2026-11-23T21:59:47+07:00",
+   "zoo": "bigliq",
+   "smart": 889,
+   "kol": 205,
    "gap": 0,
    "miss": 0
   }
@@ -4184,8 +4198,22 @@
    "cost_side": 0.03,
    "smart": 42,
    "bundler": null
+  },
+  {
+   "t": "2026-11-23T21:59:47+07:00",
+   "kind": "buy",
+   "mint": "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump",
+   "sym": "neet",
+   "price": 0.02444,
+   "jup": 0.024466903571121006,
+   "usd": 0.4112,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliq",
+   "smart": 889,
+   "kol": 205
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ มาร์เก็ตแคป 2M+",
- "rank_t": 1795445550.8525856
+ "rank_t": 1795445914.1482155
 }
