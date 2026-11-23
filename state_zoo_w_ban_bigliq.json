@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 2.2648427289905997,
+ "cash": 1.5196237463044908,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
@@ -21,13 +21,27 @@
    "sym": "dreams",
    "qty": 186.0777316991302,
    "entry": 0.0039,
-   "last": 0.003986,
+   "last": 0.003808,
    "peak": 0.004059,
    "cost": 0.7479933556242092,
    "opened": "2026-11-23T10:03:48+07:00",
    "zoo": "w_ban_bigliq",
    "smart": 83,
    "kol": 85,
+   "gap": 0,
+   "miss": 0
+  },
+  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
+   "sym": "ANSEM",
+   "qty": 18.313360106435226,
+   "entry": 0.03948,
+   "last": 0.03932,
+   "peak": 0.03948,
+   "cost": 0.7452189826861088,
+   "opened": "2026-11-23T10:58:05+07:00",
+   "zoo": "w_ban_bigliq",
+   "smart": 1000,
+   "kol": 186,
    "gap": 0,
    "miss": 0
   }
@@ -3203,10 +3217,24 @@
    "zoo": "w_ban_bigliq",
    "smart": 83,
    "kol": 85
+  },
+  {
+   "t": "2026-11-23T10:58:05+07:00",
+   "kind": "buy",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.03948,
+   "jup": 0.03939612878539895,
+   "usd": 0.7452,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_bigliq",
+   "smart": 1000,
+   "kol": 186
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795405913.4561243,
+ "rank_t": 1795406200.838134,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
