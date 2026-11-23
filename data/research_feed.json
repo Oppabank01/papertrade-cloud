@@ -682,5 +682,104 @@
   "summary": "ยอด stablecoin รวมโต 7 วันเกิน 1.5 SD จาก 90 วัน แปลว่าเงินใหม่เข้า ซื้อแล้วถือ 10 วัน",
   "verdict": "เปิดบัญชีแล้ว",
   "action": "backtest 2020-2026: BTC 49 ไม้ +3.08%/ไม้ p 0.003, ETH 49 ไม้ +3.92% p 0.003 ชนะสุ่มเกือบทุกปีรวม 2026 ยกเว้น 2025 ปีละราว 7 ไม้ เปิด state_fwd_stable + ตัวสุ่ม"
+ },
+ {
+  "t": "2026-11-23T13:09:23+07:00",
+  "source": "web",
+  "title": "Quantpedia: The Seasonality of Bitcoin (ซื้อ 21:00 ขาย 23:00 UTC ทุกวัน)",
+  "url": "https://quantpedia.com/the-seasonality-of-bitcoin/",
+  "summary": "สรุปงาน Vojtko และ Javorska 2023 บนข้อมูล Gemini 2015-2023 ว่าถือ BTC แค่ช่วง 21:00-23:00 UTC ได้ 40.6% ต่อปี drawdown -22.7% ไม่คิดต้นทุน",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest Binance 1 ชม. 2017-2026 ก่อนหัก BTC +0.085% ETH +0.097% SOL +0.049% ต่อไม้ หลังหัก 0.35%/ข้าง BTC 3,382 ไม้ -0.62% ETH -0.60% SOL 2,294 ไม้ -0.65% ตัวแฝดชั่วโมงสุ่ม -0.70% permutation 200 รอบ p 0.005/0.005/0.303 แพทเทิร์นมีจริงหลังช่วงงานวิจัยด้วย (BTC หลัง ก.ค. 2023 หลังหัก -0.64%) แต่ต้นทุนไปกลับ 0.7% ใหญ่กว่า 7 เท่า เปิด fwd_hour21.py (BTC ETH SOL พร้อมตัวแฝด) test เดินทีละแท่งตรง backtest 37 ไม้"
+ },
+ {
+  "t": "2026-11-23T13:09:23+07:00",
+  "source": "web",
+  "title": "Concretum Group: Monday Asia open effect ใน Bitcoin intraday trend",
+  "url": "https://concretumgroup.com/seasonality-in-bitcoin-intraday-trend-trading/",
+  "summary": "บล็อกบอกว่าโมเดลเทรนด์ระหว่างวันของ BTC ได้ผลดีมากช่วงอาทิตย์ 19:00 นิวยอร์กต่อไปราว 24 ชม. ไม่ให้กฎ ไม่คิดค่าธรรมเนียม",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "แปลงเป็นซื้อเปิดวันจันทร์ 00:00 UTC ขายเปิดวันอังคาร backtest Binance รายวัน 2017-2026 ก่อนหัก BTC +0.40% ETH +0.32% SOL +0.20% หลังหัก BTC 483 ไม้ -0.30% มัธยฐาน -0.63% ETH -0.38% SOL 327 ไม้ -0.50% ซื้อทุกวัน -0.39 ถึง -0.56% p 0.025/0.214/0.637 ตก ปี 2024+ ติดลบทุกเหรียญ เปิด fwd_monasia.py พร้อมตัวแฝดวันสุ่ม test ตรง backtest 128 ไม้"
+ },
+ {
+  "t": "2026-11-23T13:09:23+07:00",
+  "source": "x",
+  "title": "CryptoJagPrime: 6,200 ไม้เหรียญมีมของ Grok Bot desk ถือ -55% preset gmgn -30% trailing 20% +1%",
+  "url": "https://x.com/CryptoJagPrime/status/2124287093270622412",
+  "summary": "อ้างว่าบนไม้ซื้อเหรียญมีมจริงชุดเดียวกัน กฎออกสำคัญกว่าการเลือกเหรียญ trailing stop 20% เท่านั้นที่ไม่ขาดทุน ไม่มีข้อมูลหรือกระเป๋าให้ตรวจ",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_trail20 (week) ตัวเข้าแบบทั่วไปที่ผมเลือก สภาพคล่อง 20k ขึ้น ผ่าน rugcheck ออกด้วย trail 20% จากจุดเข้า ถือไม่เกิน 72 ชม. ตัวเลขที่เลือกเองอยู่ใน note"
+ },
+ {
+  "t": "2026-11-23T13:09:23+07:00",
+  "source": "x",
+  "title": "DEYVORI: Grok Bot 5 agents เทรดเหรียญมีม $100 เป็น $2,210.93",
+  "url": "https://x.com/DEYVORI/status/2124642220426891685",
+  "summary": "เดสก์ 5 agent: RADAR หาเหรียญเพิ่งจบ curve ข้ามสภาพคล่องต่ำกว่า 15k INSPECTOR เช็ก 7 ข้อ เจอธงแดงข้อเดียวตัดทิ้ง มีแค่ภาพหน้าจอ",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_grok_radar (week) launchpad_status 1 อายุไม่เกิน 6 ชม. สภาพคล่อง 15k ขึ้น safe และ rugcheck ออกด้วย trail 20% ถือไม่เกิน 24 ชม. ต่างจาก x_fresh_grad ที่ปิดไปตรงกฎออก (lessons ข้อเหรียญจบ curve ติดลบยังอยู่ ถือเป็นการลองกฎออกใหม่)"
+ },
+ {
+  "t": "2026-11-23T13:09:23+07:00",
+  "source": "x",
+  "title": "veyro_xbt: Grok Bot ทั้งคืน $120 เป็น $3,274 เหรียญอายุ 5-7 นาที ล็อกกำไรที่ x10",
+  "url": "https://x.com/veyro_xbt/status/2124120573429105089",
+  "summary": "โพสต์แม่แบบเดียวกันสองครั้ง (21 พ.ย.) ซื้อเหรียญอายุไม่กี่นาทีตอนกลางคืน ถึง x10 ล็อกเงินบางส่วนเป็น USDC ไม่มีหลักฐานนอกจากข้อความ",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_veyro_fresh (night) อายุไม่เกิน 10 นาที สภาพคล่อง 10k ขึ้น rugcheck ขายครึ่งที่ +900% stop -30% ถือไม่เกิน 8 ชม. ตัวเลขที่เลือกเองอยู่ใน note"
+ },
+ {
+  "t": "2026-11-23T13:09:23+07:00",
+  "source": "github",
+  "title": "l1mb0-hub/crypto_backtester: backtest ระดับ tick (aggTrades) z-score mean reversion, MA momentum, flow imbalance",
+  "url": "https://github.com/l1mb0-hub/crypto_backtester",
+  "summary": "บอททดสอบกลยุทธ์บนข้อมูลรายการซื้อขายของ Binance แยก train/test 70/30 กลยุทธ์ mean reversion ออกเมื่อ |z| ต่ำกว่า 0.5",
+  "verdict": "ลองแล้วตก",
+  "action": "ไม่รันโค้ด ทำเวอร์ชันแท่ง 1 ชม. เอง (SMA/SD 20 แท่ง เข้า |z| 2 ผมเลือก ออก |z| ต่ำกว่า 0.5 ตาม repo) 2017-2026 หลังหัก BTC 3,194 ไม้ -0.77% ETH 3,170 ไม้ -0.86% SOL 2,220 ไม้ -0.70% ก่อนหัก -0.07/-0.16/+0.00% ตัวแฝดสุ่ม -0.57 ถึง -0.76% p 0.910/0.980/0.502 ส่วน flow imbalance ต้องข้อมูล aggTrades ฝั่งผู้ซื้อผู้ขายที่เราไม่มี"
+ },
+ {
+  "t": "2026-11-23T13:09:23+07:00",
+  "source": "x",
+  "title": "lewang_teraliq: ชันสูตร arbitrage คู่ Up/Down ของบอท Polymarket",
+  "url": "https://x.com/lewang_teraliq/status/2112497759878279659",
+  "summary": "ทีมทำท่าประกอบคู่ Up/Down จากราคาที่ไม่ได้เกิดพร้อมกันตามบอทดัง ล็อกกำไรได้ $33 แต่ขาที่ค้างเปลือยขาดทุน $532",
+  "verdict": "ไอเดีย",
+  "action": "ต้องข้อมูล order book รายวินาทีของตลาด Up/Down ทั้งสองฝั่งพร้อมกัน ใช้เป็นหลักฐานว่า arbitrage คู่ไม่ฟรี"
+ },
+ {
+  "t": "2026-11-23T13:09:23+07:00",
+  "source": "x",
+  "title": "sokotix_AS: เอากลยุทธ์ Polymarket ที่ backtest แล้วไปเล่นจริงไม้ละ $10 พังอะไรบ้างใน 24 ชม.",
+  "url": "https://x.com/sokotix_AS/status/2122691235286544861",
+  "summary": "ปัญหาที่ backtest ไม่เห็น เช่น คำสั่งโดนปฏิเสธเพราะ shares x price ต้องลงตัวเป็นเซนต์ และ latency ส่งคำสั่งจริงราว 235 ms",
+  "verdict": "ไอเดีย",
+  "action": "ต้องกติกาขนาดคำสั่งและ latency ของ Polymarket ถ้าบัญชี Polymarket ของเราจะสมจริงขึ้น ควรปัดจำนวนหุ้นให้ราคารวมลงตัวเป็นเซนต์"
+ },
+ {
+  "t": "2026-11-23T13:09:23+07:00",
+  "source": "x",
+  "title": "HoutSathit: EA ทองคำ backtest +206% เปลี่ยนโหมดทดสอบแล้วกลายเป็น -99%",
+  "url": "https://x.com/HoutSathit/status/2124158367249961261",
+  "summary": "บอทเทรดทอง backtest 10 เดือน +206% drawdown 0.7% พอเปลี่ยนโหมดจำลองราคา (ความละเอียดของ tick) ผลกลายเป็นพอร์ตแตก",
+  "verdict": "ไอเดีย",
+  "action": "ต้องไฟล์ EA และข้อมูล tick ทองคำ ย้ำว่าการใช้ราคาในแท่งแบบหยาบหลอกผลได้ backtest ของเราใช้ high/low และนับ stop ก่อนเป้าแล้ว"
+ },
+ {
+  "t": "2026-11-23T13:09:23+07:00",
+  "source": "github",
+  "title": "takenthatusernameis-collab/QUANTITATIVE-FINANCE-RESEARCH: repo วิจัยที่ให้ agent รันวนเอง",
+  "url": "https://github.com/takenthatusernameis-collab/QUANTITATIVE-FINANCE-RESEARCH",
+  "summary": "README เป็นคำสั่งถึง agent ล้วน (ไม่ทำตาม) ผลที่บันทึกไว้คือ mean reversion บน spot Binance แบบ walk-forward ไม่ผ่านทั้งสองแบบ",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎหรือตัวเลขให้ทดสอบซ้ำ ใช้เป็นอีกเสียงว่าท่าสวนบน spot เหรียญใหญ่ไม่รอด"
+ },
+ {
+  "t": "2026-11-23T13:09:23+07:00",
+  "source": "github",
+  "title": "target1m/cubrik-mcp: MCP สร้าง backtest และรัน AI trading agent",
+  "url": "https://github.com/target1m/cubrik-mcp",
+  "summary": "MCP แบบ remote ของแพลตฟอร์ม cubrik อ่านพอร์ตและรันเอเจนต์บนเซิร์ฟเวอร์เขา",
+  "verdict": "ตัดทิ้ง",
+  "action": "ต้องสมัครและล็อกอินแพลตฟอร์ม"
  }
 ]

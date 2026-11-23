@@ -329,3 +329,16 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ไอเดีย: กระดาน Alpha Hunter ของ BALIA_OS (ต้องกฎหรือรายการไม้), EMA50/200 1 ชม. เป็น forward test ได้ถ้าเธรดหลักอยากเปิด
 ตัดทิ้ง: FensoryApp (ต้องสมัครและล็อกอิน)
 เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
+
+## 2026-11-23 13:09 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 16 พ.ย. (mcp trading, polymarket bot, quant agent, backtest crypto, memecoin bot), X 4 ครั้ง (grok trading bot rules, 6,200 memecoin buys trailing stop, polymarket bot strategy backtest, บอทเทรดเหรียญมีม), เว็บ 1 ครั้ง (งานวิจัยช่วงเวลาของวันใน BTC) แล้วอ่านหน้า Quantpedia กับ Concretum
+เจอ: โพสต์ Grok Bot เหรียญมีมชุดใหม่ (DEYVORI, veyro_xbt, CryptoJagPrime, 0n666x, nonepcbl) ส่วนใหญ่มีแค่ภาพหน้าจอ, Quantpedia ซื้อ BTC 21:00-23:00 UTC, Concretum Monday Asia open, l1mb0-hub/crypto_backtester (ท่าระดับ tick), lewang_teraliq ชันสูตร arbitrage คู่ Up/Down, sokotix_AS ปัญหาตอนเอาบอท Polymarket ไปเล่นจริง, HoutSathit EA ทองเปลี่ยนโหมดทดสอบแล้วพัง repo Polymarket และ market maker ดาวปั่นชุดเดิมกับ repo ที่มีในฟีดแล้ว (pm-bot, trading-backtest-lab, blixtrade, arcanumfleet, bytx-skills) ข้ามไป ผลค้นภาษาไทยเป็นข่าวโรบอทเทรดหุ้นไทย
+ทดสอบแล้ว (Binance หลังหัก 0.35%/ข้าง permutation 200 รอบ):
+- ช่วง 21:00-23:00 UTC ทุกวัน (ตัวเลขจากงานวิจัย ไม่ได้ค้นเพิ่ม) แท่ง 1 ชม. 2017-2026: ก่อนหัก BTC +0.085% ETH +0.097% SOL +0.049% ต่อไม้ หลังหัก BTC 3,382 ไม้ -0.62% ETH 3,382 ไม้ -0.60% SOL 2,294 ไม้ -0.65% ตัวแฝดชั่วโมงสุ่ม -0.70% p 0.005/0.005/0.303 แพทเทิร์นของ BTC กับ ETH ผ่านประตู และยังอยู่หลังช่วงข้อมูลของงานวิจัย แต่ต้นทุนไปกลับใหญ่กว่าแรงของมัน 7 เท่า
+- Monday Asia open (ผมแปลงเป็นซื้อเปิดวันจันทร์ 00:00 UTC ขายเปิดวันอังคาร) รายวัน 2017-2026: ก่อนหัก BTC +0.40% ETH +0.32% SOL +0.20% หลังหัก BTC 483 ไม้ -0.30% ETH -0.38% SOL 327 ไม้ -0.50% ซื้อทุกวัน -0.39 ถึง -0.56% p 0.025/0.214/0.637 ปี 2024 ขึ้นไปติดลบทุกเหรียญ
+- z-score mean reversion แบบ l1mb0 บนแท่ง 1 ชม. (SMA/SD 20 แท่ง เข้า |z| 2 ผมเลือก ออก |z| ต่ำกว่า 0.5 ตาม repo) long+short: BTC 3,194 ไม้ -0.77% ETH 3,170 ไม้ -0.86% SOL 2,220 ไม้ -0.70% ก่อนหักราว 0% ตัวแฝดสุ่ม -0.57 ถึง -0.76% p 0.910/0.980/0.502
+เปิดบัญชี: fwd_hour21.py (ซื้อ 21:00 UTC ขาย 23:00 UTC BTC ETH SOL พร้อมตัวแฝดชั่วโมงสุ่ม) และ fwd_monasia.py (ซื้อเปิดวันจันทร์ขายเปิดวันอังคาร พร้อมตัวแฝดวันสุ่ม) test เดินทีละแท่งได้ไม้ตรง backtest 37 และ 128 ไม้ สคริปต์ /tmp/scout_1258.py, /tmp/scout_1258_check.py, /tmp/scout_1258_z.py
+เพิ่ม x_: x_trail20 (trail 20% จากจุดเข้าตามโพสต์วิเคราะห์ 6,200 ไม้ ตัวเข้าทั่วไปที่ผมเลือก), x_grok_radar (เพิ่งจบ curve อายุไม่เกิน 6 ชม. สภาพคล่อง 15k ขึ้น safe และ rugcheck ออกด้วย trail 20%), x_veyro_fresh (night อายุไม่เกิน 10 นาที ขายครึ่งที่ x10 stop -30%) ตัวเลขที่เลือกเองอยู่ใน note ทุกตัว zoo โหลดได้ 112 บัญชีไม่มี skip และ test_zoo ผ่าน
+ลองแล้วตก: z-score mean reversion แท่ง 1 ชม.
+ไอเดีย: arbitrage คู่ Up/Down (ต้อง order book สองฝั่งพร้อมกัน), กติกาคำสั่ง Polymarket ราคารวมต้องลงตัวเป็นเซนต์ (ถ้าจะทำบัญชี Polymarket ให้สมจริงขึ้น), EA ทอง (ต้องไฟล์ EA และข้อมูล tick), repo วิจัยที่ให้ agent รันเอง (README เป็นคำสั่งถึง agent ไม่ได้ทำตาม ไม่มีกฎให้ทดสอบ)
+ตัดทิ้ง: cubrik-mcp (ต้องสมัครและล็อกอินแพลตฟอร์ม)

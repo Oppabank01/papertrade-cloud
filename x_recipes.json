@@ -2071,5 +2071,87 @@
    "MAX_POS": 6
   },
   "note": "post gives only the filter; exits chosen by me (stop -20%, take all +50%, 2 h) in the spirit of pump.fun scalps; pump.fun-only cannot be tested on GMGN ranking so age<=1h is the proxy"
+ },
+ {
+  "name": "x_trail20",
+  "label": "trailing stop 20% จากจุดเข้าอย่างเดียว (วิเคราะห์ 6,200 ไม้ Grok Bot desk)",
+  "horizon": "week",
+  "source": "https://x.com/CryptoJagPrime/status/2124287093270622412",
+  "claim": "on the same 6,200 real memecoin buys: hold to today -55%, gmgn take-principal preset -30%, 20% trailing stop +1% (no data or wallet shown; unverified)",
+  "added": "2026-11-23",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 20000
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.2,
+   "TP_ALL": null,
+   "TRAIL_ON": 0.0,
+   "TRAIL": 0.2,
+   "MAX_HOLD_H": 72
+  },
+  "note": "post gives only the exit (20% trailing); entry chosen by me as the generic one most recipes use (liquidity 20k, up, rugcheck); trail starts at entry so STOP -0.2 equals the first trail level; 72 h cap chosen by me so dead coins free the slot"
+ },
+ {
+  "name": "x_grok_radar",
+  "label": "Grok desk RADAR: เพิ่งจบ curve สภาพคล่อง 15k+ ผ่านเช็ก safe ออกด้วย trail 20%",
+  "horizon": "week",
+  "source": "https://x.com/DEYVORI/status/2124642220426891685",
+  "claim": "5-agent Grok memecoin desk $100 to $2,210.93: RADAR takes new graduates, skips liquidity below $15K, INSPECTOR runs 7 safety checks, one red flag kills the trade (screenshot only; unverified)",
+  "added": "2026-11-23",
+  "active": true,
+  "entry": {
+   "min": {
+    "launchpad_status": 1,
+    "liquidity": 15000
+   },
+   "max": {
+    "launchpad_status": 1,
+    "age_h": 6
+   },
+   "safe": true,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.2,
+   "TP_ALL": null,
+   "TRAIL_ON": 0.0,
+   "TRAIL": 0.2,
+   "MAX_HOLD_H": 24
+  },
+  "note": "liquidity 15k from the post; 'new graduate' read as launchpad_status 1 and age 6 h or less (my choice, as x_fresh_grad); the 7 checks mapped to safe + rugcheck; post shows no exit so I used the 20% trailing stop from x_trail20 (new reason vs retired x_fresh_grad, which used TP 35 / SL 15); 24 h cap mine"
+ },
+ {
+  "name": "x_veyro_fresh",
+  "label": "เหรียญอายุไม่เกิน 10 นาทีตอนกลางคืน ขายครึ่งที่ x10 (โพสต์ veyro)",
+  "horizon": "night",
+  "source": "https://x.com/veyro_xbt/status/2124120573429105089",
+  "claim": "$120 to $3,274 overnight with Grok Bot, 0 taps: entries 5 to 7 minutes old (COMET, MANTA), at x10 lock part in USDC (two posts with the same template; unverified)",
+  "added": "2026-11-23",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 10000
+   },
+   "max": {
+    "age_h": 0.17
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.3,
+   "HALF_AT": 9.0,
+   "TP_ALL": null,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 8
+  },
+  "note": "age 0.17 h (10 min) from the post's 5 to 7 minute examples; 'lock at x10' read as sell half at +900%; stop -30%, liquidity 10k and 8 h cap chosen by me; night horizon because the post trades while asleep"
  }
 ]
