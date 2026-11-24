@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 1.1093470789948743,
+ "cash": 0.3718839521512164,
  "pos": {
   "KXSTEAMTOPSELLER-26NOV24-COU:yes": {
    "qty": 0.7549113938906525,
@@ -43,7 +43,7 @@
   "KXRAIN-26NOV23-SEA:yes": {
    "qty": 0.785197647423473,
    "entry": 0.9392070000000001,
-   "last": 0.77,
+   "last": 0.76,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T05:14:16+00:00",
    "coin": "YES | Will it rain in Seattle on Nov 23, 2026?",
@@ -103,7 +103,7 @@
   "KXGOLDD-26NOV2417-T3565:yes": {
    "qty": 0.8182188751659075,
    "entry": 0.901303,
-   "last": 0.9,
+   "last": 0.88,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:07:17+00:00",
    "coin": "YES | Will the gold close price be above 3565 USD/t.oz on November 24, 2026 at 5:00 PM EST",
@@ -151,7 +151,7 @@
   "KXBTCD-26NOV2417-T59249.99:yes": {
    "qty": 0.8543610818706032,
    "entry": 0.8631749999999999,
-   "last": 0.72,
+   "last": 0.71,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:19:55+00:00",
    "coin": "YES | Bitcoin price on Nov 24, 2026?",
@@ -199,7 +199,7 @@
   "KXSILVERD-26NOV2417-T41.50:yes": {
    "qty": 0.7931826194981648,
    "entry": 0.9297520000000001,
-   "last": 0.91,
+   "last": 0.9,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T00:09:59+00:00",
    "coin": "YES | Will the silver close price be above 41.50 USD/t.oz on November 24, 2026 at 5:00 PM ",
@@ -211,7 +211,7 @@
   "KXNCAAMBTOTAL-26NOV23WINILL-195:yes": {
    "qty": 0.8182188751659075,
    "entry": 0.901303,
-   "last": 0.97,
+   "last": 0.98,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T02:10:28+00:00",
    "coin": "YES | Full Game: Over 194.5 points scored",
@@ -219,6 +219,18 @@
    "side": "yes",
    "close": "2026-11-26T01:00:00Z",
    "why": "fav ask 0.89 ทุน 0.901 ปิด 2026-11-26T01:00:00Z"
+  },
+  "KXNCAAMBTOTAL-26NOV23SFAUVU-129:yes": {
+   "qty": 0.785197647423473,
+   "entry": 0.9392070000000001,
+   "last": 0.91,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-24T02:50:31+00:00",
+   "coin": "YES | Full Game: Over 128.5 points scored",
+   "ticker": "KXNCAAMBTOTAL-26NOV23SFAUVU-129",
+   "side": "yes",
+   "close": "2026-11-26T01:00:00Z",
+   "why": "fav ask 0.93 ทุน 0.939 ปิด 2026-11-26T01:00:00Z"
   }
  },
  "log": [
@@ -740,6 +752,15 @@
    "ret": 0.04376,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-24T02:50:31+00:00",
+   "coin": "YES | Full Game: Over 128.5 points scored",
+   "px": 0.93921,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.93 ทุน 0.939 ปิด 2026-11-26T01:00:00Z",
+   "ask": 0.93
   }
  ],
  "seen": null,
@@ -778,6 +799,7 @@
   "KXHYPED-26NOV2417": 1795474798,
   "KXSILVERD-26NOV2417": 1795478997,
   "KXCS2GAME-26NOV231645AXEFLX": 1795478997,
-  "KXNCAAMBTOTAL-26NOV23WINILL": 1795486226
+  "KXNCAAMBTOTAL-26NOV23WINILL": 1795486226,
+  "KXNCAAMBTOTAL-26NOV23SFAUVU": 1795488630
  }
 }
