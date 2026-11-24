@@ -8,6 +8,9 @@ Same scan, sizing and settlement as poly_fav.py, only markets whose question sta
 Live books only quote exact-score No at about 0.90-0.97 (the calibration's 0.60-0.85 exact-score prices are stale history,
 none seen in the live scan log). poly_fav buys these too but at most 2 per run, soonest end first, so it skips most of them
 (140 of 172 exact-score rows in its log: not in the shortlist); this account only looks at them, so it buys more per day. It also rotates through the top 2,700 by 24 h volume instead of 900.
+Out-of-sample check on 24 Nov (396 other closed exact-score events of the last 30 days, 5,350 markets, CLOB history):
+  priced 0.85-0.93: +1% to +5% per $ (z 0.7 to 2.4 by lead); 0.93-0.97: +0.6% to +1.4% (z under 1). So the edge where
+  live asks sit (0.90-0.97) is thin, maybe +1-2%: one loss eats 15-30 wins. Kept running unchanged.
   state_poly_exact.json        buys exact-score outcomes with best ask 0.85-0.97 (in practice "No")
   state_poly_exact_long.json   control: exact-score outcomes with best ask 0.03-0.15 (in practice "Yes"), expected to lose
   state_poly_exact_twin.json   random outcome of each market the two above buy, same moment and size
