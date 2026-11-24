@@ -521,3 +521,13 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ลองแล้วตก: DipSnap (ต้นทุนกินหมด เท่ากับสุ่ม ไม่เปิดบัญชี)
 เพิ่ม x_: x_survivor_grad (week) จบ curve แล้วอายุ 24 ชม. ถึง 7 วัน pool 50k+ stop -20% ขายหมดที่ +50% ถือไม่เกิน 24 ชม. ตัวเลขทั้งหมดเลือกเองจากโพสต์ tigra_ai ที่บอกแค่ "ซื้อเหรียญที่รอดแล้ว"
 ไอเดีย: ซื้อตามผู้สร้างเหรียญของ phonezxc (ต้องข้อมูลการซื้อของผู้สร้างรายวินาที), โพสต์ theplotthick (ไม่มีกฎ)
+
+## 2026-11-24 15:44 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 17 พ.ย. (breakout strategy, momentum strategy crypto, polymarket strategy, pump.fun paper sprint ตั้งแต่ 20 พ.ย.), X 4 ครั้ง (crypto bot strategy entry exit rules ได้แต่โพสต์โฆษณา, backtested strategy BTC win rate กับ trading bot backtest win rate ได้ผลว่าง, pump.fun bot strategy ได้แต่ลิงก์สมัคร), เว็บ 1 ครั้ง (งานวิจัยคริปโตระหว่างวันเดือนนี้ ไม่เจองานใหม่)
+เจอ: วันนี้มี repo บอทแข่ง make.fun Pump.fun Replay Sprint และ Paper Sprint ราว 15 repo ที่เขียนกฎไว้ใน README ได้แก่ Breakout Rider ของ itzalisha99 (ย่อก่อนแล้วทะลุ), Surge Rider ของ hupo3661 (ไล่แรงซื้อบน curve), survivor pyramid ของ albertod12-ops, งานวิจัย longshot bias ตลาดอุณหภูมิ Polymarket ของ ella-lxy (ตกนอกตัวอย่าง), เครื่องตรวจ overfit ของ b2devv ส่วน X มีแต่ Cralliy (ลิงก์สมัคร) กับ ElioWIF (ให้คอมเมนต์รับ DM)
+ทดสอบแล้ว (Binance 4 ชม. หลังหัก 0.35%/ข้าง permutation 200 รอบ):
+- Breakout Rider ย้ายมาเหรียญมีม DOGE SHIB PEPE FLOKI BONK WIF ทั้งประวัติ จุดสูงสุดย้อนหลัง 10 วัน stop -15% trail 20% เมื่อ +15% ขายหมด +100% ถือไม่เกิน 5 วัน เกณฑ์เดิมย่อ 25% ทะลุ 7% ได้แค่ 7 ไม้ ลดเป็นย่อ 15% ทะลุ 3% (เลือกจาก 6 แบบบนแท่ง 1 ชม. และ 4 ชม.) ได้ 46 ไม้ +7.36% ต่อไม้ มัธยฐาน +0.72% ตัด 3 ไม้ดีสุด +2.01% DOGE 12 ไม้ +23.6% (9 ไม้อยู่ปี 2021) SHIB 9 +2.3% PEPE 11 +1.1% FLOKI 3 -10.0% BONK 5 +7.1% WIF 6 +3.0% ตัวแฝดเข้าแท่งสุ่ม -0.82% p 0.005/0.214/0.428/0.940/0.080/0.199 ผ่านแค่ DOGE และผลบวกกองอยู่ปีเดียว
+เปิดบัญชี: fwd_pullbreak.py (4 ชม. 6 เหรียญมีม พร้อมตัวแฝดเข้าสุ่ม 1 ใน 1,000 แท่ง) test เดินทีละแท่งตรง backtest DOGE 12 ไม้ PEPE 11 ไม้ สัญญาณเกิดน้อย ราว 1 ครั้งต่อเหรียญต่อ 7 เดือน สคริปต์ /tmp/scout_1526/
+เพิ่ม x_: x_surge_rider (night) เหรียญบน curve ขึ้น 5 นาที 15%+ up rugcheck สภาพคล่อง 10k stop -10% trail 15% เมื่อ +2% ถือไม่เกิน 0.5 ชม. ไม้ละ 2% เช็กทุก 5 วินาที เงื่อนไขอายุ 800 slot ใช้ไม่ได้เพราะ open_timestamp ของเหรียญบน curve เป็น 0 จึงตัดทิ้ง ใน rank_hist 2 วันล่าสุดเข้าเงื่อนไข 297 ครั้ง 167 เหรียญ เป็นญาติของตระกูลไล่ของร้อนที่แพ้ rand ไปแล้ว
+ไอเดีย: survivor pyramid กับ sniper ช่วงสร้างเหรียญ (ต้องข้อมูลรายธุรกรรมบน curve), longshot bias ตลาดอุณหภูมิ (ผู้เขียนทดสอบแล้วตก ต้องราคาย้อนหลังทุก bucket), ETP คริปโตยุโรประหว่างวัน (ต้องข้อมูล 1 นาทีของ Xetra), เครื่องตรวจ overfit (ไม่มีกฎเทรด)
+ตัดทิ้ง: Cralliy (ต้องสมัครและเชื่อมกระเป๋า), ElioWIF (ต้องคอมเมนต์และรับ DM)

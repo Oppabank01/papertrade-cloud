@@ -2220,5 +2220,37 @@
    "COOLDOWN_H": 24
   },
   "note": "post gives only 'already survived'; read as graduated from the bonding curve (launchpad_status 1) and 24 h to 7 days old, chosen by me; liquidity 50k, stop -20%, take all at +50%, 24 h cap, 10% per trade, 5 positions and 24 h cooldown all chosen by me; week horizon from the post's 9 days"
+ },
+ {
+  "name": "x_surge_rider",
+  "label": "เหรียญบน bonding curve อายุเกิน 5 นาที ขึ้น 5 นาที 15%+ stop -10% trail 15% (บอทแข่ง Surge Rider)",
+  "horizon": "night",
+  "source": "https://github.com/hupo3661/u-jackxyz72-pump-fun-replay-sprint-paper-bot-0b809122",
+  "claim": "Surge Rider, a make.fun Pump.fun Replay Sprint paper bot: buy mature curves (800+ slots old) whose 40-slot tape shows 3+ SOL net inflow from 5+ wallets with price up 15 to 150% near its high; stop -10%, 15% trail once up 2%, 400-slot limit (bounty entry, no result published; unverified)",
+  "added": "2026-11-24",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 10000,
+    "price_change_percent5m": 15
+   },
+   "max": {
+    "launchpad_status": 0
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.1,
+   "TP_ALL": null,
+   "HALF_AT": null,
+   "TRAIL_ON": 0.02,
+   "TRAIL": 0.15,
+   "MAX_HOLD_H": 0.5,
+   "PER_TRADE": 0.02,
+   "MAX_POS": 5,
+   "WATCH_S": 5
+  },
+  "note": "from the repo: on the curve (launchpad_status 0), price up 15%+ (its 40-slot window read as the 5 min change; 'up' caps it at 100%, the repo allows 150%), stop -10%, trail 15% armed at +2%, 5 positions, 0.2 SOL max per coin of 10 SOL read as 2% per trade; chosen by me: no age filter (the repo's 800 slots, about 5 min, cannot be judged here: open_timestamp is 0 on curve coins so zoo age is always 0), 0.5 h hold in place of 400 slots (2.7 min cannot be checked, see x_snipe_30_30), liquidity 10k (base guard), rugcheck, 5 s checks; net SOL inflow, wallet count, pyramiding and the 8 SOL single-sell exit dropped (no tape data)"
  }
 ]
