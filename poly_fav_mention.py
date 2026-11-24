@@ -23,7 +23,7 @@ F.LABELS.update({FAV: "Polymarket ทายคำพูด (จะพูดค�
                  LONG: "Polymarket ทายคำพูด ตัวควบคุม: ซื้อฝั่ง 0.05-0.30",
                  TWIN: "Polymarket ทายคำพูด ตัวควบคุม: สุ่มฝั่งในตลาดเดียวกัน"})
 F.FAV_LO, F.FAV_HI, F.LONG_LO, F.LONG_HI = 0.70, 0.95, 0.05, 0.30
-F.UNIVERSE = 2700                                      # chosen: mention markets are low volume, rotate deeper like poly_fav_exact
+F.UNIVERSE = 2100                                      # chosen: mention markets are low volume, rotate deeper like poly_fav_exact
 _tradable = F.tradable
 
 

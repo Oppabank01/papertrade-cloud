@@ -193,6 +193,7 @@ def cmd_run(fav=None, long=None, twin=None, log=None, rng=None):
     except Exception as e:
         print(f"fav scan fetch: {type(e).__name__}")
         rows, live, bk = [], [], None
+        sf["scan_off"] = 0                                 # a failing page (Gamma refuses offsets past about 2,000) must not stick
     logrows, cand = [], {"fav": [], "long": []}
     for m, tk in live:
         c, ev, end = m["conditionId"].lower(), event_of(m), P.ts_of(m["endDate"])

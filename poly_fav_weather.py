@@ -26,7 +26,7 @@ F.LABELS.update({FAV: "Polymarket อุณหภูมิรายวัน ซ
                  LONG: "Polymarket อุณหภูมิ ตัวควบคุม: ซื้อฝั่ง 0.15-0.40 (ทายช่องเดียว)",
                  TWIN: "Polymarket อุณหภูมิ ตัวควบคุม: สุ่มฝั่งในตลาดเดียวกัน"})
 F.FAV_LO, F.FAV_HI, F.LONG_LO, F.LONG_HI = 0.60, 0.93, 0.15, 0.40
-F.UNIVERSE = 2700                                      # chosen: temperature markets are low volume, rotate deeper like poly_fav_exact
+F.UNIVERSE = 2100                                      # chosen: temperature markets are low volume, rotate deeper like poly_fav_exact
 _tradable = F.tradable
 
 
