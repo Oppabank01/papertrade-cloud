@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 0.9285484310211958,
+ "cash": 4.094354560295695,
  "pos": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": {
    "sym": "VEIL",
@@ -35,7 +35,7 @@
    "sym": "swordcat",
    "qty": 5662.624936394442,
    "entry": 0.0004298,
-   "last": 0.000496,
+   "last": 0.00049,
    "peak": 0.0005997,
    "cost": 2.508551017998692,
    "opened": "2026-11-23T04:55:37+07:00",
@@ -43,20 +43,6 @@
    "smart": 318,
    "kol": 43,
    "gap": 0,
-   "miss": 0
-  },
-  "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": {
-   "sym": "Singularity",
-   "qty": 15512.328615081711,
-   "entry": 0.0001543,
-   "last": 0.00022996267703072375,
-   "peak": 0.0002811,
-   "cost": 2.4670710217554195,
-   "opened": "2026-11-24T06:30:47+07:00",
-   "zoo": "x_smartflow_lowcap_b2",
-   "smart": 130,
-   "kol": 3,
-   "gap": 2,
    "miss": 0
   }
  },
@@ -384,10 +370,25 @@
    "zoo": "x_smartflow_lowcap_b2",
    "smart": 130,
    "kol": 3
+  },
+  {
+   "t": "2026-11-24T09:43:42+07:00",
+   "kind": "sell",
+   "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump",
+   "sym": "Singularity",
+   "price": 0.00021035171103308604,
+   "entry": 0.0001543,
+   "usd": 3.1658,
+   "pnl": 0.6987,
+   "why": "trailing จากยอด +82% (+36.3%)",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 130,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: smart money เข้า 3+ มาร์เก็ตแคปต่ำ ขายครึ่งที่ x2",
- "rank_t": 1795487656.3667233,
+ "rank_t": 1795488050.9637764,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "GNHW5JetZmW85vAU35KyoDcYoSd3sNWtx5RPMTDJpump": "GOAT",
