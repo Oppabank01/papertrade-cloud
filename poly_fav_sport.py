@@ -9,6 +9,9 @@ is 91% sports. data/poly_fav_calib.json, both outcomes of each market, price bef
   other markets 6 h:                n 81 priced 0.719 won 0.790 (too few to say anything)
 poly_fav_mid's first day: 23 trades, 10 won at an average price of about 0.71 (about 16 expected), sports alone 5 of 12.
 Opened at the user's request on 24 Nov 2026 after that first day.
+Caveat found 20 min after opening: split by market type, the sports 0.60-0.85 edge is almost all exact-score history
+(priced 0.78 won 0.98), which live books never quote in that band; moneyline +1%, spread -1%, totals +2% (none clear).
+So this account mostly tests moneyline/spread/totals, where the calibration shows no edge. Kept running as a test.
   state_poly_sport.json        buys sports outcomes with best ask 0.60-0.85
   state_poly_sport_dog.json    control: sports outcomes with best ask 0.15-0.40, expected to lose
   state_poly_sport_twin.json   random outcome of each market the two above buy, same moment and size
