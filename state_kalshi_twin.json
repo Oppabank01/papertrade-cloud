@@ -2,12 +2,12 @@
  "label": "Kalshi ตัวควบคุม: สุ่มฝั่งในตลาดเดียวกับตัวเต็ง/ตัวรอง",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 4.20644994676829,
+ "cash": 2.731523693080974,
  "pos": {
   "KX30YMORTW-26NOV25-T7.20:yes": {
    "qty": 0.8543610818706032,
    "entry": 0.8631749999999999,
-   "last": 0.7,
+   "last": 0.69,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T04:53:00+00:00",
    "coin": "YES | Will the average U.S. 30-year fixed-rate mortgage rate for Nov 25, 2026 be above 7.2",
@@ -67,7 +67,7 @@
   "KXWTI-26NOV2514-T79.49:yes": {
    "qty": 0.8269452146281397,
    "entry": 0.8917919999999999,
-   "last": 0.85,
+   "last": 0.86,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T21:42:32+00:00",
    "coin": "YES | Will the WTI crude oil settlement price be above 79.49 USD/Bbl on Nov 25, 2026?",
@@ -79,7 +79,7 @@
   "KXXRPD-26NOV2517-T0.8799:no": {
    "qty": 6.281467482463463,
    "entry": 0.117403,
-   "last": 0.1,
+   "last": 0.09,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T22:10:57+00:00",
    "coin": "NO | Ripple price at Nov 25, 2026 at 5pm EST?",
@@ -91,7 +91,7 @@
   "KXHYPED-26NOV2517-T56.9999:no": {
    "qty": 4.945168760015945,
    "entry": 0.149128,
-   "last": 0.1,
+   "last": 0.09,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T22:10:57+00:00",
    "coin": "NO | HYPE price on Nov 25, 2026?",
@@ -146,6 +146,30 @@
    "ticker": "KXRAIN-26NOV25-ATL",
    "side": "no",
    "close": "2026-11-26T05:00:00Z",
+   "why": "สุ่มฝั่ง"
+  },
+  "KXHIGHTDC-26NOV25-T53:no": {
+   "qty": 5.761790790390477,
+   "entry": 0.127992,
+   "last": 0.11,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-24T22:30:13+00:00",
+   "coin": "NO | Will the maximum temperature be <53° on Nov 25, 2026?",
+   "ticker": "KXHIGHTDC-26NOV25-T53",
+   "side": "no",
+   "close": "2026-11-26T06:00:00Z",
+   "why": "สุ่มฝั่ง"
+  },
+  "KXOPENSOURCESHARE-26NOV26-T59.6:no": {
+   "qty": 13.765060697035144,
+   "entry": 0.053575000000000005,
+   "last": 0.03,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-24T22:30:13+00:00",
+   "coin": "NO | Will Open vs. Closed Token Volume (open weights share) for Nov 25, 2026 be above 59.6",
+   "ticker": "KXOPENSOURCESHARE-26NOV26-T59.6",
+   "side": "no",
+   "close": "2026-11-26T15:00:00Z",
    "why": "สุ่มฝั่ง"
   }
  },
@@ -929,6 +953,24 @@
    "ret": -1.0,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-24T22:30:13+00:00",
+   "coin": "NO | Will the maximum temperature be <53° on Nov 25, 2026?",
+   "px": 0.12799,
+   "usd": 0.7374631268436579,
+   "why": "สุ่มฝั่ง",
+   "ask": 0.12
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-24T22:30:13+00:00",
+   "coin": "NO | Will Open vs. Closed Token Volume (open weights share) for Nov 25, 2026 be above 59.6",
+   "px": 0.05358,
+   "usd": 0.7374631268436579,
+   "why": "สุ่มฝั่ง",
+   "ask": 0.05
   }
  ],
  "seen": null,
@@ -976,6 +1018,8 @@
   "KXETHD-26NOV2517": 1795558621,
   "KXBTCD-26NOV2517": 1795558621,
   "KXBNBD-26NOV2517": 1795559013,
-  "KXRAIN-26NOV25": 1795559013
+  "KXRAIN-26NOV25": 1795559013,
+  "KXHIGHTDC-26NOV25": 1795559412,
+  "KXOPENSOURCESHARE-26NOV26": 1795559412
  }
 }
