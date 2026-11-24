@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 4.406537649008326,
+ "cash": 2.931611395321011,
  "pos": {
   "KXWTI-26NOV2414-T77.99:yes": {
    "qty": 0.8269452146281397,
@@ -19,7 +19,7 @@
   "KXPCECORE-26OCT-T0.2:yes": {
    "qty": 0.7773833148266354,
    "entry": 0.9486479999999999,
-   "last": 0.8,
+   "last": 0.81,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:25:55+00:00",
    "coin": "YES | Will the rate of core PCE inflation be above 0.2% in October 2026?",
@@ -31,7 +31,7 @@
   "KXEIACRUDEW-26NOV25-T412:yes": {
    "qty": 0.8358729577822337,
    "entry": 0.8822669999999999,
-   "last": 0.95,
+   "last": 0.96,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:31:48+00:00",
    "coin": "YES | Will U.S. commercial crude oil inventories for the week ending Nov 20, 2026 be above",
@@ -43,7 +43,7 @@
   "KX30YMORTW-26NOV25-T7.20:yes": {
    "qty": 0.8543610818706032,
    "entry": 0.8631749999999999,
-   "last": 0.69,
+   "last": 0.7,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T04:53:00+00:00",
    "coin": "YES | Will the average U.S. 30-year fixed-rate mortgage rate for Nov 25, 2026 be above 7.2",
@@ -147,6 +147,30 @@
    "side": "yes",
    "close": "2026-11-25T22:00:00Z",
    "why": "fav ask 0.89 ทุน 0.901 ปิด 2026-11-25T22:00:00Z"
+  },
+  "KXETHD-26NOV2517-T1609.99:yes": {
+   "qty": 0.8269452146281397,
+   "entry": 0.8917919999999999,
+   "last": 0.87,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-24T22:17:03+00:00",
+   "coin": "YES | Ethereum price at Nov 25, 2026 at 5pm EST?",
+   "ticker": "KXETHD-26NOV2517-T1609.99",
+   "side": "yes",
+   "close": "2026-11-25T22:00:00Z",
+   "why": "fav ask 0.88 ทุน 0.892 ปิด 2026-11-25T22:00:00Z"
+  },
+  "KXBTCD-26NOV2517-T57999.99:yes": {
+   "qty": 0.8358729577822337,
+   "entry": 0.8822669999999999,
+   "last": 0.86,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-24T22:17:03+00:00",
+   "coin": "YES | Bitcoin price on Nov 25, 2026?",
+   "ticker": "KXBTCD-26NOV2517-T57999.99",
+   "side": "yes",
+   "close": "2026-11-25T22:00:00Z",
+   "why": "fav ask 0.87 ทุน 0.882 ปิด 2026-11-25T22:00:00Z"
   }
  },
  "log": [
@@ -1034,6 +1058,24 @@
    "usd": 0.7374631268436579,
    "why": "fav ask 0.89 ทุน 0.901 ปิด 2026-11-25T22:00:00Z",
    "ask": 0.89
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-24T22:17:03+00:00",
+   "coin": "YES | Ethereum price at Nov 25, 2026 at 5pm EST?",
+   "px": 0.89179,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.88 ทุน 0.892 ปิด 2026-11-25T22:00:00Z",
+   "ask": 0.88
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-24T22:17:03+00:00",
+   "coin": "YES | Bitcoin price on Nov 25, 2026?",
+   "px": 0.88227,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.87 ทุน 0.882 ปิด 2026-11-25T22:00:00Z",
+   "ask": 0.87
   }
  ],
  "seen": null,
@@ -1086,6 +1128,8 @@
   "KXHIGHTNOLA-26NOV24": 1795535684,
   "KXWTI-26NOV2514": 1795556552,
   "KXXRPD-26NOV2517": 1795558256,
-  "KXHYPED-26NOV2517": 1795558256
+  "KXHYPED-26NOV2517": 1795558256,
+  "KXETHD-26NOV2517": 1795558621,
+  "KXBTCD-26NOV2517": 1795558621
  }
 }
