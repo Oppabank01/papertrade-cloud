@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 13.830734610794046,
+ "cash": 13.493531217238704,
  "pos": {},
  "log": [
   {
@@ -160,10 +160,39 @@
    "cost_side": 0.01,
    "smart": 801,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T17:00:22+07:00",
+   "kind": "buy",
+   "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
+   "sym": "FIONA",
+   "price": 0.003731,
+   "jup": 0.003713243653912151,
+   "usd": 2.7661,
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "zoo": "i_dip200_2h_b2",
+   "smart": 432,
+   "kol": 25
+  },
+  {
+   "t": "2026-11-24T17:04:07+07:00",
+   "kind": "sell",
+   "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
+   "sym": "FIONA",
+   "price": 0.003342528356011097,
+   "entry": 0.003731,
+   "usd": 2.4289,
+   "pnl": -0.3372,
+   "why": "stop -10.4%",
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "smart": 432,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ย่อ 1 ชม. -15 ถึง -40% ถือ 2 ชม.",
- "rank_t": 1795513985.5237105,
+ "rank_t": 1795514350.2315316,
  "banned": {
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": "FLOAT"
  }
