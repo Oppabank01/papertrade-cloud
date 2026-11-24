@@ -1,15 +1,44 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.645577035735208,
- "cash": 14.645577035735208,
+ "cash": 13.770571284407298,
  "pos": {},
  "log": [
   {
    "t": "2026-11-23T13:14:46+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-25T01:31:58+07:00",
+   "kind": "buy",
+   "mint": "EWd3qbxBLSNMzFtkj26NE7rmoeWjnXSWMkAvgDQ9pump",
+   "sym": "PI",
+   "price": 6.869e-05,
+   "jup": 6.840675794551837e-05,
+   "usd": 2.9291,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "x_grok_radar",
+   "smart": 7,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-25T01:33:12+07:00",
+   "kind": "sell",
+   "mint": "EWd3qbxBLSNMzFtkj26NE7rmoeWjnXSWMkAvgDQ9pump",
+   "sym": "PI",
+   "price": 5.117503126562087e-05,
+   "entry": 6.869e-05,
+   "usd": 2.0541,
+   "pnl": -0.875,
+   "why": "stop -25.5%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 7,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: Grok desk RADAR: เพิ่งจบ curve สภาพคล่อง 15k+ ผ่านเช็ก safe ออกด้วย trail 20%",
- "rank_t": 1795544600.928063
+ "rank_t": 1795544989.9294634
 }
