@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 0.0,
+ "cash": 3.4532603974929454,
  "pos": {
   "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK": {
    "sym": "Cope",
@@ -14,21 +14,7 @@
    "zoo": "x_savip2_dip1h_b2",
    "smart": 53,
    "kol": 39,
-   "gap": 12,
-   "miss": 0
-  },
-  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
-   "sym": "Rings",
-   "qty": 1877.9425871830388,
-   "entry": 0.002555,
-   "last": 0.002028580169074748,
-   "peak": 0.0034793609800963625,
-   "cost": 4.945519800301653,
-   "opened": "2026-11-23T22:42:35+07:00",
-   "zoo": "x_savip2_dip1h_b2",
-   "smart": 132,
-   "kol": 8,
-   "gap": 1,
+   "gap": 15,
    "miss": 0
   }
  },
@@ -234,10 +220,25 @@
    "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
    "sym": "Rings",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-24T23:03:07+07:00",
+   "kind": "sell",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.0018953339721928546,
+   "entry": 0.002555,
+   "usd": 3.4533,
+   "pnl": -1.4923,
+   "why": "stop -25.8%",
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "smart": 132,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: savipww v2: pool 20k+ คะแนน 70+ ย่อ 1 ชม. 15-35% ทีละ 50% ขายครึ่ง x2 trail 40% stop -25%",
- "rank_t": 1795535750.6796918,
+ "rank_t": 1795536167.1764004,
  "banned": {
   "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK": "Cope",
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings"
