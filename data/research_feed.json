@@ -2104,5 +2104,50 @@
   "summary": "เล่าเกมตลาดจำลองของ Jane Street ที่บอทชนะด้วยการ arbitrage ETF กับหุ้นในตะกร้าและวางคำสั่งทั้งสองฝั่ง ไม่ใช่การทายทิศ",
   "verdict": "ไอเดีย",
   "action": "เป็นตลาดจำลองที่มี mispricing ใส่ไว้ตั้งใจ ของจริงต้องราคาตะกร้ากับ ETF แบบ tick และต้นทุน maker ใกล้ศูนย์ ซึ่งเราไม่มี poly_arb.py ครอบคลุมแนวคิดผลรวมราคาผิดใน Polymarket แล้ว"
+ },
+ {
+  "t": "2026-11-25T03:58:00+07:00",
+  "source": "x",
+  "title": "JeffWhiting8338: สนามบอท 66 ตัวบน order book จริง (เงินจำลอง) Fighter #03 PAPER STREET ยิงเฉพาะตอน Kaufman ER48 อยู่ช่วง 0.15-0.35",
+  "url": "https://x.com/JeffWhiting8338/status/2125012964281401750",
+  "summary": "บอท Polymarket BTC 15 นาที อ้างว่า ER48_BELL ได้ +$66.46 ชนะ 15 แพ้ 5 ด้วยไม้ละ $10 ตัวกรองคือยิงเฉพาะตลาดที่ไม่นิ่งเกินและไม่วิ่งแรงเกิน โพสต์ไม่บอกว่ายิงฝั่งไหน",
+  "verdict": "ลองแล้วตก",
+  "action": "สร้างรุ่นใกล้สุดบนแท่ง 15 นาที Binance 3 ปีล่าสุด (2023-11 ถึง 2026-11) ทายทิศแท่งถัดไปเมื่อ ER48 อยู่ 0.15-0.35 ค้น 2 แบบ (ตามทิศ 48 แท่ง หรือตามแท่งล่าสุด) ทายถูก BTC 48.2% (36,776 ครั้ง) ETH 47.8% SOL 47.7% นอกช่วงดีกว่า (49.2 ถึง 49.4%) ข้อมูลสลับได้มัธยฐาน 50.1% permutation 200 รอบ p 1.000/1.000/1.000 ผลตอบแทนเฉลี่ยต่อแท่งไม่ถึง 0.003% ก่อนหัก ต้นทุนไปกลับ 0.7% ช่วง ER นี้แย่กว่าสุ่ม จึงไม่เปิดบัญชี สคริปต์ /tmp/scout_0329/er_bell.py"
+ },
+ {
+  "t": "2026-11-25T03:58:00+07:00",
+  "source": "github",
+  "title": "bisnanjp01-spec: บอทแข่ง make.fun Pump.fun Paper Sprint ซื้อเหรียญที่ 17 ใน 20 ไม้แรกเป็นไม้ซื้อ",
+  "url": "https://github.com/bisnanjp01-spec/u-boothlord-pump-fun-paper-sprint-any-bot-can-f83c389b-entry",
+  "summary": "ซื้อเหรียญบน bonding curve ที่เทปช่วงแรกซื้อหนัก ไม้ละ 1.5% ของทุน TP +20% stop -10% trail 15% เมื่อขึ้น 10% ถือสูงสุดราว 5.5 ชม. ไม่มีผลที่เผยแพร่",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_tape17 (night) ใช้ buys 17 ขึ้นไปในหน้าต่างของ zoo กับ up แทนเทป 20 ไม้แรก (zoo ไม่มีข้อมูลไม้แรก) เลขที่เลือกเองอยู่ใน note import zoo ไม่มี skip และ test_zoo ผ่าน คาดว่าใกล้ x_surge_rider"
+ },
+ {
+  "t": "2026-11-25T03:58:00+07:00",
+  "source": "github",
+  "title": "stevensshi/quant-strategy-research: หุ้นสหรัฐรอบ index event 60 ท่า 414 รุ่น ผ่านท่าเดียว",
+  "url": "https://github.com/stevensshi/quant-strategy-research",
+  "summary": "ทดสอบท่ารอบการเข้าออกดัชนี S&P Russell Nasdaq-100 MSCI, flow ของ ETF เลเวอเรจ และช่วงก่อนเปิดหลังปิดตลาด พร้อมเกณฑ์ deflated Sharpe ผ่านแค่ short หุ้นที่ถูกย้ายจาก S&P 600 ไป 400 วันหลังประกาศ hedge ด้วย MDY (training Sharpe 1.39 จาก 94 วันประกาศ)",
+  "verdict": "ไอเดีย",
+  "action": "ต้องรายชื่อการย้ายดัชนี S&P พร้อมวันประกาศและวันมีผล กับแท่ง 1 นาทีช่วง 09:35-10:00 ซึ่งเรายังไม่มี วิธีคัดกรองของเขาเข้มแบบเดียวกับประตู permutation ของเรา"
+ },
+ {
+  "t": "2026-11-25T03:58:00+07:00",
+  "source": "github",
+  "title": "keenlocation/ai-dca-bot: TEMPO backtest DCA BTC ETH BNB",
+  "url": "https://github.com/keenlocation/ai-dca-bot",
+  "summary": "หน้าเว็บ backtest DCA ธรรมดา แต่ปุ่มดาวน์โหลดชี้ไป zip ใน release ของอีก repo (wordystepuncl/ai-arbitrage-bot) ดาว 21 ภายในสัปดาห์",
+  "verdict": "ตัดทิ้ง",
+  "action": "ต้องรันโค้ดที่ดาวน์โหลดมาและลิงก์ zip ข้าม repo เป็นทรงมัลแวร์ ส่วน DCA เองไม่ใช่ตัวเข้าที่ทดสอบ edge ได้"
+ },
+ {
+  "t": "2026-11-25T03:58:00+07:00",
+  "source": "github",
+  "title": "กลุ่ม repo sniper bot ดาว 129-133 'Standalone Windows 10/11 (x64) Release' (GerhardKlein0995, Lanm9238, FolunuSayu33 ฯลฯ)",
+  "url": "https://github.com/GerhardKlein0995/module-on-solana-sniper-bot",
+  "summary": "repo สร้างใหม่ชื่อบอท sniper หลายเชน ดาวเกือบเท่ากันหมด แจกไฟล์ exe สำหรับ Windows",
+  "verdict": "ตัดทิ้ง",
+  "action": "ต้องรันไฟล์ที่ดาวน์โหลดมา ดาวปั่นชุดเดียวกัน ทรงมัลแวร์"
  }
 ]

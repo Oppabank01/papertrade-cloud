@@ -2348,5 +2348,37 @@
    "WATCH_S": 5
   },
   "note": "from the repo: graduated coins (launchpad_status 1), stop -50%, 30% trailing from the peak, 24 h time stop; chosen by me: age 15 min max in place of 30 s (a ranking snapshot cannot see 30 s), the two 25% legs at 1.5x and 3x folded into one half sale at +50% (zoo has one partial sale), trail armed at +50%, liquidity 15k, up and rugcheck in place of the deployer, fast-curve, canonical-pool and copycat filters (zoo has no deployer history), 5% per trade (the repo stakes $25 a coin), 5 positions, 5 s checks; breakeven stop after leg A and the one dip buyback dropped"
+ },
+ {
+  "name": "x_tape17",
+  "label": "เหรียญบน bonding curve ไม้ซื้อ 17 ขึ้นไปและซื้อมากกว่าขาย TP +20% stop -10% trail 15% เมื่อขึ้น 10% (บอทแข่ง bisnanjp01)",
+  "horizon": "night",
+  "source": "https://github.com/bisnanjp01-spec/u-boothlord-pump-fun-paper-sprint-any-bot-can-f83c389b-entry",
+  "claim": "make.fun Pump.fun Paper Sprint entry: buy a curve coin once at least 17 of its first 20 trades are buys, 0.15 SOL of 10 SOL, exit +20% take-profit, -10% stop, or a 15% trail once up 10%, 50000-slot time limit, max 5 open (bounty entry, no result published; unverified)",
+  "added": "2026-11-25",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 10000,
+    "buys": 17
+   },
+   "max": {
+    "launchpad_status": 0
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.1,
+   "TP_ALL": 0.2,
+   "HALF_AT": null,
+   "TRAIL_ON": 0.1,
+   "TRAIL": 0.15,
+   "MAX_HOLD_H": 5.5,
+   "PER_TRADE": 0.015,
+   "MAX_POS": 5,
+   "WATCH_S": 5
+  },
+  "note": "from the repo: on the curve (launchpad_status 0), take-profit +20%, stop -10%, 15% trail armed at +10%, max 5 open, 0.15 SOL of 10 SOL read as 1.5% per trade; chosen by me: '17 of the first 20 trades are buys' replaced by buys >= 17 in the zoo window plus 'up' (buys > sells, 0 < 5m change <= 100%) because zoo has no first-trades tape, 5.5 h hold in place of 50000 slots (about 0.4 s a slot), liquidity 10k (base guard), rugcheck, 5 s checks; the 4800-slot freshness window and the 2-buys-per-slot cap dropped"
  }
 ]
