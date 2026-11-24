@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 10.55552756120669,
+ "cash": 7.965042147029232,
  "pos": {
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
    "sym": "TROLL",
@@ -14,6 +14,20 @@
    "zoo": "w_hot_mkt_b2",
    "smart": 475,
    "kol": 214,
+   "gap": 0,
+   "miss": 0
+  },
+  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+   "sym": "USELESS",
+   "qty": 33.674439629346594,
+   "entry": 0.07616,
+   "last": 0.07617,
+   "peak": 0.07617,
+   "cost": 2.5904854141774574,
+   "opened": "2026-11-24T09:58:17+07:00",
+   "zoo": "w_hot_mkt_b2",
+   "smart": 928,
+   "kol": 295,
    "gap": 0,
    "miss": 0
   }
@@ -298,8 +312,22 @@
    "cost_side": 0.01,
    "smart": 132,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T09:58:17+07:00",
+   "kind": "buy",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.07616,
+   "jup": 0.07641086169871926,
+   "usd": 2.5905,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_hot_mkt_b2",
+   "smart": 928,
+   "kol": 295
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดร้อน: กฎ w_aged_nostop เฉพาะรอบที่เหรียญ 74%+ ขึ้นใน 1 ชม.",
- "rank_t": 1795488687.5347114
+ "rank_t": 1795489023.6143534
 }
