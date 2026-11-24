@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 1.868285081951253,
+ "cash": 3.5821492620711313,
  "pos": {
-  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
-   "sym": "USELESS",
-   "qty": 25.45031062857832,
-   "entry": 0.06881,
-   "last": 0.0693,
-   "peak": 0.06963,
-   "cost": 1.8050256383760812,
-   "opened": "2026-11-25T03:52:41+07:00",
-   "zoo": "w_pause_bigliq_b2",
-   "smart": 936,
-   "kol": 295,
-   "gap": 0,
-   "miss": 0
-  },
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 326.1718182275352,
    "entry": 0.005336,
-   "last": 0.005367,
+   "last": 0.00523,
    "peak": 0.005558,
    "cost": 1.7939113812225598,
    "opened": "2026-11-25T04:31:46+07:00",
@@ -35,21 +21,21 @@
    "sym": "CBUCKS",
    "qty": 378.29958898569544,
    "entry": 0.004576,
-   "last": 0.004672,
-   "peak": 0.00471,
+   "last": 0.004686,
+   "peak": 0.00476,
    "cost": 1.784270170272668,
    "opened": "2026-11-25T06:21:21+07:00",
    "zoo": "w_pause_bigliq_b2",
    "smart": 42,
    "kol": 0,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 210.88009431864205,
    "entry": 0.00816,
-   "last": 0.008086,
+   "last": 0.007983,
    "peak": 0.008235,
    "cost": 1.7736359200578429,
    "opened": "2026-11-25T06:21:21+07:00",
@@ -1172,10 +1158,25 @@
    "zoo": "w_pause_bigliq_b2",
    "smart": 576,
    "kol": 37
+  },
+  {
+   "t": "2026-11-25T06:52:51+07:00",
+   "kind": "sell",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.06941,
+   "entry": 0.06881,
+   "usd": 1.7139,
+   "pnl": -0.0912,
+   "why": "ครบ 3 ชม. (+0.9%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 936,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795563554.9544692,
+ "rank_t": 1795564027.1407514,
  "banned": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"
  }
