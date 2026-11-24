@@ -566,3 +566,11 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 เปิดบัญชี: fwd_h10.py (1 ชม. ETH BTC SOL พร้อมตัวแฝดตั้ง limit ที่ชั่วโมงสุ่ม 1 ใน 120) test เดินทีละแท่งตรง backtest ETH 10 ไม้, fwd_k3.py (1 ชม. SOL ETH BTC พร้อมตัวแฝดเข้าสุ่ม 1 ใน 300) test เดินด้วยหน้าต่าง 1,000 แท่งตรง backtest ETH 22 ไม้ K3 คาดว่าแพ้ เปิดเพราะผู้ใช้ให้ลองท่าอ่อนด้วย สคริปต์ /tmp/scout_2049/
 ไอเดีย: catstrateg (ต้องข้อมูลรีพลายต่อเหรียญ และ field พักหลังขาดทุนใน zoo), AlgonikHQ (ไม่มีกฎ ต้องแท่งนาทีของดัชนีหุ้น), repo ORB หุ้น (ต้องแท่งนาทีหลายปี), btc-orderbook-predictor (ต้อง order book รายวินาที ขยับเล็กกว่าต้นทุน), crypto-8-agent-bott (ไม่มีกฎ)
 เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
+
+## 2026-11-24 22:30 รอบ routine x_ (Bangkok)
+ค้น: solana memecoin in a week turned $ filters, pump.fun overnight $100 sniper rules, เทรดเหรียญมีม โซลานา กำไร คืนเดียว, Linton Worm DEX Screener filters
+เจอ: ketchupjl, mexc 1066589, dev.to gengengen (ซ้ำที่มีอยู่แล้ว), cryptorank 100 เป็น 50k (ไม่มีกฎ), medium hodlhero (ไม่มีกฎ)
+เพิ่ม: x_linton_midcap (week) จากเธรด LintonWorm 7 ต.ค. 2024 อ้าง 500 USD เป็น 50,000 USD ใน 1 สัปดาห์ ด้วยฟิลเตอร์ DexScreener market cap 1M+ pool 250k+ volume 24 ชม. 500k+ โพสต์ไม่ให้จุดออก จึงเลือก stop -25% trail เริ่มที่ +100% ระยะ 30% ถือไม่เกิน 168 ชม. ต้นทุน 0.5% ต่อขา ตามบัญชี i_bigliq ไม่บังคับ up ต่างจาก i_bigliq (หมายเหตุ: lessons บอกว่า pool 200k+ ไม่มี edge จึงคาดว่าแพ้)
+ยังทำไม่ได้: โพสต์ต้นทาง fetch ไม่ได้ (threadreaderapp ไม่อยู่ในโดเมนที่อนุญาต) ใช้เฉพาะตัวเลขจาก snippet; เรื่อง Pine Analytics ว่า deployer ใส่เงินให้ sniper wallet ต้องข้อมูล wallet ต่อเหรียญ
+เลิกใช้: ไม่มี (ยังไม่มี x_ ถึงจุดตัดสินที่แพ้ rand เพิ่มจากรอบก่อน)
+สกอร์บอร์ด x_ (คำนวณจาก zoo.py report): x_smartflow_lowcap +20.9% 7 ไม้, x_crb_4agent +3.6% 6 ไม้, x_blix_grad_top10 +1.3% 15 ไม้

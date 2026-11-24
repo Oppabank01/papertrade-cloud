@@ -2252,5 +2252,34 @@
    "WATCH_S": 5
   },
   "note": "from the repo: on the curve (launchpad_status 0), price up 15%+ (its 40-slot window read as the 5 min change; 'up' caps it at 100%, the repo allows 150%), stop -10%, trail 15% armed at +2%, 5 positions, 0.2 SOL max per coin of 10 SOL read as 2% per trade; chosen by me: no age filter (the repo's 800 slots, about 5 min, cannot be judged here: open_timestamp is 0 on curve coins so zoo age is always 0), 0.5 h hold in place of 400 slots (2.7 min cannot be checked, see x_snipe_30_30), liquidity 10k (base guard), rugcheck, 5 s checks; net SOL inflow, wallet count, pyramiding and the 8 SOL single-sell exit dropped (no tape data)"
+ },
+ {
+  "name": "x_linton_midcap",
+  "label": "ฟิลเตอร์ DexScreener กลางแคป ถือสัปดาห์",
+  "horizon": "week",
+  "source": "https://threadreaderapp.com/thread/1843246025823371775",
+  "claim": "How I turned $500 into $50,000 (100x) on meme coins in one week: DEX Screener filters Min MC 1M, Min FDV 1M, Min Liquidity 250k, 24H Volume 500k",
+  "added": "2026-11-24",
+  "active": true,
+  "entry": {
+   "min": {
+    "market_cap": 1000000,
+    "liquidity": 250000,
+    "volume": 500000
+   },
+   "safe": false,
+   "up": false,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.25,
+   "TRAIL_ON": 1.0,
+   "TRAIL": 0.3,
+   "MAX_HOLD_H": 168,
+   "PER_TRADE": 0.2,
+   "MAX_POS": 4,
+   "FEE": 0.005,
+   "SLIP": 0.005
+  }
  }
 ]
