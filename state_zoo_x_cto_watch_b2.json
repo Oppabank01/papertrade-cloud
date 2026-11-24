@@ -1,41 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 0.0,
+ "cash": 4.395742825038201,
  "pos": {
-  "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm": {
-   "sym": "KLED",
-   "qty": 471.5578256640467,
-   "entry": 0.009554,
-   "last": 0.00992,
-   "peak": 0.01131,
-   "cost": 4.6436440593633295,
-   "opened": "2026-11-22T21:11:09+07:00",
-   "zoo": "x_cto_watch_b2",
-   "smart": 161,
-   "kol": 82,
-   "gap": 0,
-   "miss": 0
-  },
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
    "sym": "paws",
    "qty": 2763.3075440232856,
    "entry": 0.000425,
-   "last": 0.0004255919138656351,
+   "last": 0.0004288,
    "peak": 0.0004572,
    "cost": 1.2104779490928637,
    "opened": "2026-11-24T15:58:25+07:00",
    "zoo": "x_cto_watch_b2",
    "smart": 316,
    "kol": 15,
-   "gap": 8,
+   "gap": 3,
    "miss": 0
   },
   "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": {
    "sym": "Kimchi",
    "qty": 827.7849858014087,
    "entry": 0.001694,
-   "last": 0.001584,
+   "last": 0.001596,
    "peak": 0.001736,
    "cost": 1.4453388640976976,
    "opened": "2026-11-24T17:08:27+07:00",
@@ -651,10 +637,25 @@
    "zoo": "x_cto_watch_b2",
    "smart": 683,
    "kol": 69
+  },
+  {
+   "t": "2026-11-24T20:11:06+07:00",
+   "kind": "sell",
+   "mint": "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm",
+   "sym": "KLED",
+   "price": 0.009608067579988088,
+   "entry": 0.009554,
+   "usd": 4.3957,
+   "pnl": -0.2479,
+   "why": "trailing จากยอด +18% (+0.6%)",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": 161,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: รอ dev เทหมดแล้วมี CTO: dev ถือ 0% ซื้อ 40% ขายครึ่ง x3 trail 15% stop -18%",
- "rank_t": 1795525182.5794206,
+ "rank_t": 1795525544.4098697,
  "banned": {
   "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm": "KLED"
  }

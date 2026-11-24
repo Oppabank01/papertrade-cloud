@@ -2,7 +2,7 @@
  "label": "Kalshi ตัวควบคุม: สุ่มฝั่งในตลาดเดียวกับตัวเต็ง/ตัวรอง",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 4.526219371616289,
+ "cash": 3.0512931179289735,
  "pos": {
   "KXSTEAMTOPSELLER-26NOV24-COU:no": {
    "qty": 13.765060697035144,
@@ -43,7 +43,7 @@
   "KXXRPD-26NOV2417-T0.8999:no": {
    "qty": 6.281467482463463,
    "entry": 0.117403,
-   "last": 0.13,
+   "last": 0.21,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:07:17+00:00",
    "coin": "NO | Ripple price at Nov 24, 2026 at 5pm EST?",
@@ -67,7 +67,7 @@
   "KXSOLD-26NOV2417-T67.9999:yes": {
    "qty": 0.7549113938906525,
    "entry": 0.976887,
-   "last": 0.85,
+   "last": 0.8,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:13:38+00:00",
    "coin": "YES | SOL price on Nov 24, 2026?",
@@ -79,7 +79,7 @@
   "KXSILVERD-26NOV2417-T41.50:no": {
    "qty": 6.90508545733762,
    "entry": 0.1068,
-   "last": 0.11,
+   "last": 0.14,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T00:09:59+00:00",
    "coin": "NO | Will the silver close price be above 41.50 USD/t.oz on November 24, 2026 at 5:00 PM E",
@@ -98,6 +98,30 @@
    "ticker": "KX30YMORTW-26NOV25-T7.20",
    "side": "yes",
    "close": "2026-11-25T16:59:00Z",
+   "why": "สุ่มฝั่ง"
+  },
+  "KXBRENTD-26NOV2417-T85.50:yes": {
+   "qty": 0.8450091286674175,
+   "entry": 0.872728,
+   "last": 0.85,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-24T13:11:25+00:00",
+   "coin": "YES | Will the brent crude oil close price be above 85.50 USD/Bbl on November 24, 2026 at ",
+   "ticker": "KXBRENTD-26NOV2417-T85.50",
+   "side": "yes",
+   "close": "2026-11-24T22:00:00Z",
+   "why": "สุ่มฝั่ง"
+  },
+  "KXAAAGASD-26NOV25-3.5850:yes": {
+   "qty": 0.7622452442238642,
+   "entry": 0.967488,
+   "last": 0.95,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-24T13:11:25+00:00",
+   "coin": "YES | Will average **gas prices** be above $3.5850?",
+   "ticker": "KXAAAGASD-26NOV25-3.5850",
+   "side": "yes",
+   "close": "2026-11-25T04:59:00Z",
    "why": "สุ่มฝั่ง"
   }
  },
@@ -656,6 +680,24 @@
    "ret": 0.14583,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-24T13:11:25+00:00",
+   "coin": "YES | Will the brent crude oil close price be above 85.50 USD/Bbl on November 24, 2026 at ",
+   "px": 0.87273,
+   "usd": 0.7374631268436579,
+   "why": "สุ่มฝั่ง",
+   "ask": 0.86
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-24T13:11:25+00:00",
+   "coin": "YES | Will average **gas prices** be above $3.5850?",
+   "px": 0.96749,
+   "usd": 0.7374631268436579,
+   "why": "สุ่มฝั่ง",
+   "ask": 0.96
   }
  ],
  "seen": null,
@@ -690,6 +732,8 @@
   "KXNFLTOTAL-26NOV23CINWAS": 1795489953,
   "KXNCAAMBTOTAL-26NOV23VCUPROV": 1795493497,
   "KXNCAAMBTOTAL-26NOV23SEALCHI": 1795493823,
-  "KX30YMORTW-26NOV25": 1795495978
+  "KX30YMORTW-26NOV25": 1795495978,
+  "KXBRENTD-26NOV2417": 1795525884,
+  "KXAAAGASD-26NOV25": 1795525884
  }
 }
