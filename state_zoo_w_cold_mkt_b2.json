@@ -1,33 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 8.52523657822005,
+ "cash": 8.846243214461193,
  "pos": {
-  "GMzuntWYJLpNuCizrSR7ZXggiMdDzTNiEmSNHHunpump": {
-   "sym": "dreams",
-   "qty": 925.207143289116,
-   "entry": 0.003147,
-   "last": 0.003532,
-   "peak": 0.003778,
-   "cost": 2.9409629857133384,
-   "opened": "2026-11-23T22:24:51+07:00",
-   "zoo": "w_cold_mkt_b2",
-   "smart": 87,
-   "kol": 85,
-   "gap": 0,
-   "miss": 0
-  },
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 484.6818897951341,
    "entry": 0.005883,
-   "last": 0.005799,
+   "last": 0.005815,
    "peak": 0.005908,
    "cost": 2.8801126816643765,
    "opened": "2026-11-24T02:30:52+07:00",
    "zoo": "w_cold_mkt_b2",
    "smart": 541,
    "kol": 51,
+   "gap": 0,
+   "miss": 0
+  },
+  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+   "sym": "USELESS",
+   "qty": 38.44828018818857,
+   "entry": 0.07504,
+   "last": 0.07524,
+   "peak": 0.07524,
+   "cost": 2.9142283733457943,
+   "opened": "2026-11-24T10:25:52+07:00",
+   "zoo": "w_cold_mkt_b2",
+   "smart": 928,
+   "kol": 295,
    "gap": 0,
    "miss": 0
   }
@@ -217,10 +217,39 @@
    "cost_side": 0.01,
    "smart": 801,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T10:25:16+07:00",
+   "kind": "sell",
+   "mint": "GMzuntWYJLpNuCizrSR7ZXggiMdDzTNiEmSNHHunpump",
+   "sym": "dreams",
+   "price": 0.003532,
+   "entry": 0.003147,
+   "usd": 3.2352,
+   "pnl": 0.2943,
+   "why": "ครบ 12 ชม. (+12.2%)",
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "smart": 87,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-24T10:25:52+07:00",
+   "kind": "buy",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.07504,
+   "jup": 0.07511557590618861,
+   "usd": 2.9142,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_cold_mkt_b2",
+   "smart": 928,
+   "kol": 295
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดเย็น: กฎ w_aged_nostop เฉพาะรอบที่เหรียญขึ้นไม่เกิน 61%",
- "rank_t": 1795490320.1827745,
+ "rank_t": 1795490655.9114394,
  "banned": {
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings"
  }
