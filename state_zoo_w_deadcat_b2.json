@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 11.694130557298067,
- "pos": {},
+ "cash": 9.355304445838453,
+ "pos": {
+  "BiLAn35QaVqQC8f8BGrE92r2n5dcDEJmqJcx1v9Apump": {
+   "sym": "ATX",
+   "qty": 1721.8689544792917,
+   "entry": 0.001338,
+   "last": 0.001463,
+   "peak": 0.001463,
+   "cost": 2.3388261114596136,
+   "opened": "2026-11-25T02:03:14+07:00",
+   "zoo": "w_deadcat_b2",
+   "smart": 2,
+   "kol": 0,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T19:52:26+07:00",
@@ -334,10 +349,24 @@
    "cost_side": 0.015,
    "smart": 432,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T02:03:14+07:00",
+   "kind": "buy",
+   "mint": "BiLAn35QaVqQC8f8BGrE92r2n5dcDEJmqJcx1v9Apump",
+   "sym": "ATX",
+   "price": 0.001338,
+   "jup": 0.0013412243090636588,
+   "usd": 2.3388,
+   "stop_set": -0.25,
+   "cost_side": 0.015,
+   "zoo": "w_deadcat_b2",
+   "smart": 2,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: เด้งหลังร่วง: อายุเกิน 1 วัน pool 100k+ ร่วง 1 ชม. 15% ขึ้นไป",
- "rank_t": 1795546525.2067254,
+ "rank_t": 1795546898.3476505,
  "banned": {
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": "FLOAT"
  }

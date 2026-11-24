@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 4.563460999570274,
- "pos": {},
+ "cash": 3.650768799656219,
+ "pos": {
+  "2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ": {
+   "sym": "hello",
+   "qty": 6019.673503444024,
+   "entry": 0.0001471,
+   "last": 0.0001471,
+   "peak": 0.0001471,
+   "cost": 0.9126921999140548,
+   "opened": "2026-11-25T02:02:35+07:00",
+   "wallet": "FqJMNz",
+   "wallet_usd": 1000,
+   "lag_min": 6.5,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T10:36:33+07:00",
@@ -12467,11 +12482,43 @@
    "wallet": "FqJMNz",
    "usd": 500,
    "why": "liq $3,512"
+  },
+  {
+   "t": "2026-11-25T02:02:35+07:00",
+   "kind": "buy",
+   "mint": "2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ",
+   "sym": "hello",
+   "price": 0.0001471,
+   "jup": 0.00014736280478988117,
+   "usd": 0.9127,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "wallet": "FqJMNz",
+   "wallet_usd": 1000,
+   "lag_min": 6.5
+  },
+  {
+   "t": "2026-11-25T02:02:35+07:00",
+   "kind": "skip",
+   "mint": "2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ",
+   "sym": "hello",
+   "wallet": "FqJMNz",
+   "usd": 1000,
+   "why": "repeat"
+  },
+  {
+   "t": "2026-11-25T02:02:35+07:00",
+   "kind": "skip",
+   "mint": "HKJa4Y8actmpGvHpgL6DBWjsUjVt8r6bmvPaV33fpump",
+   "sym": "Catnip",
+   "wallet": "FqJMNz",
+   "usd": 500,
+   "why": "liq $7,445"
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ ผ่าน Helius",
  "cursor": {
-  "FqJMNzzY1DHz2F1Pt6F7VqCxBWdu8cK2TbfTrYT9zQbT": "3KYunqqtY7fcRAv3dWiiu5WeX2Gwd7jG22WqUn3ZSt3HYYpHCWHGYVmFXAZPcfuozxcw8HbQ36qJBt1qL2j3xJV",
+  "FqJMNzzY1DHz2F1Pt6F7VqCxBWdu8cK2TbfTrYT9zQbT": "zhv1uUZmaPBWoRCUgjriwuBwffaHc3CTuKPcpmJmqDcHnM69QsGu5BdJ7PYRHdspnwi5kU6gmvoNCd2QvgycM61",
   "2kN7bb7sVKn4iBWDMpo8aAVyyQxAVpZATQ7RRkmoy6Mm": "42vfbz9dEskLEgbXBUAk3x42KjYJxGiLxcbHDo8aUdbBhUQxcFKHsoVMQiUqhAiSYsP7LVm4ifVh5MwyuFn6N9pD",
   "7NnaXghjuU92gM9kmwXysqa5HboyZuR2LTaBnvazFxSH": "5kL6Sb28ModpgQKkDRReTZdbLRozEBFDZGDGcNjy1XFXzA4renoDKzvcpQo5BSaN33mwyc5VuSdfqWAjXGxVCnEd",
   "7g5CJ754NboeY6D44MDdGwQmVX4Fvu59Q47c9ZKLPMkE": "2vGWHsumbHJbqJ9gyFKhNK7Vw5iLP2jvuM1QuooZQndi1nfNkQBr9gy3BzN1gQHx18upLCVzno688WodPc4CWiZf",
