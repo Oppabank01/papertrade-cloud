@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 4.625480365180559,
+ "cash": 2.3336267428828013,
  "pos": {
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 290.919418999833,
    "entry": 0.007583,
-   "last": 0.007962,
+   "last": 0.008128,
    "peak": 0.008676,
    "cost": 2.2282689369215265,
    "opened": "2026-11-24T23:56:45+07:00",
@@ -21,7 +21,7 @@
    "sym": "ANSEM",
    "qty": 108.54727561528462,
    "entry": 0.02061,
-   "last": 0.02173,
+   "last": 0.02128,
    "peak": 0.0231,
    "cost": 2.2596998564995996,
    "opened": "2026-11-25T00:35:50+07:00",
@@ -35,13 +35,27 @@
    "sym": "mihao",
    "qty": 393.98203944360444,
    "entry": 0.005667,
-   "last": 0.005608,
+   "last": 0.005584,
    "peak": 0.005776,
    "cost": 2.255191755285883,
    "opened": "2026-11-25T00:35:50+07:00",
    "zoo": "w_hot_mkt_b2",
    "smart": 807,
    "kol": 75,
+   "gap": 0,
+   "miss": 0
+  },
+  "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": {
+   "sym": "OTC",
+   "qty": 1139.624501464258,
+   "entry": 0.001991,
+   "last": 0.00199,
+   "peak": 0.002002,
+   "cost": 2.291853622297758,
+   "opened": "2026-11-25T02:55:54+07:00",
+   "zoo": "w_hot_mkt_b2",
+   "smart": 534,
+   "kol": 56,
    "gap": 0,
    "miss": 0
   }
@@ -499,8 +513,22 @@
    "cost_side": 0.01,
    "smart": 429,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T02:55:54+07:00",
+   "kind": "buy",
+   "mint": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
+   "sym": "OTC",
+   "price": 0.001991,
+   "jup": 0.0020047560368489084,
+   "usd": 2.2919,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_hot_mkt_b2",
+   "smart": 534,
+   "kol": 56
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดร้อน: กฎ w_aged_nostop เฉพาะรอบที่เหรียญ 74%+ ขึ้นใน 1 ชม.",
- "rank_t": 1795549680.2812803
+ "rank_t": 1795550072.7624798
 }
