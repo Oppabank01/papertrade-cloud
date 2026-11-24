@@ -556,3 +556,13 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ไอเดีย: BTC-Fear-Greed-Indicator (ต้องอ่านสูตรใน index.html), prompt ของ SpikeCalls (ต้องได้ข้อความเต็ม)
 ตัดทิ้ง: SickNatureLimit (ต้องสมัคร Muse และเชื่อมบัญชีเงินจริง)
 เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
+
+## 2026-11-24 20:59 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 17 พ.ย. (keltner channel, parabolic sar, squeeze momentum ได้ผลว่าง, opening range breakout, llm crypto agent, paper trading agent ตั้งแต่ 20 พ.ย., orderbook imbalance), X 3 ครั้ง (paper trading bot results rules ตั้งแต่ 21 พ.ย., from:AlgonikHQ forward test, from:catstrateg grok bot), เว็บ 1 ครั้ง (breakout ปรับตามความผันผวนรายชั่วโมง BTC ETH ได้แต่งาน MDPI ช่วงกลางวันกลางคืนที่มีในฟีดแล้ว)
+เจอ: ai-trading-arena ของ kalambyryura อีกรอบ (มีในฟีดแล้ว แต่รอบ 23 พ.ย. แนะนำให้เปิด fwd_h10 แล้วยังไม่มีใครเปิด และมีการ์ด SOL-K3 ช้อนร่วงลึกที่ยังไม่ได้ลอง), catstrateg (Grok Bot ซื้อเหรียญที่คนเถียงกัน ทรงปั่นยอด), AlgonikHQ (forward test 6 ท่ากฎแช่แข็ง ไม่เปิดกฎ), repo ORB หุ้น 5 ตัว, btc-orderbook-predictor (ทาย 10 วินาทีจาก order book), crypto-8-agent-bott (dashboard ไม่มีกฎ)
+ทดสอบแล้ว (Binance 1 ชม. 2017-2026 หลังหัก 0.35%/ข้าง permutation 200 รอบ):
+- H10 ระเบิดขึ้นในขาขึ้น (แท่ง 1 ชม. ขึ้นเกิน 3 rms 168 ชม. เหนือ SMA 20 วัน limit ต่ำกว่า 0.25 rms รอ 2 แท่ง stop -5% เป้า +10% ถือ 24 ชม.): ETH 285 ไม้ +0.06% ต่อไม้ ก่อนหัก +0.76% มัธยฐาน -0.47% p 0.005 แต่ปี 2023 ถึง 2026 ติดลบทุกปี, BTC 308 ไม้ -0.24% p 0.025, SOL 200 ไม้ -0.12% p 0.065 ตัวแฝดเวลาสุ่ม -0.63 ถึง -0.69%
+- K3 ช้อนร่วงลึก (ปิดต่ำกว่าจุดสูงสุด 4 ชม. เกิน 6 sigma แท่งปิดเขียว ซื้อเปิดแท่งถัดไป stop -5% เป้า +4% ถือ 12 ชม.): SOL 118 ไม้ -1.18% ต่อไม้ ก่อนหัก -0.49% p 0.960, ETH 215 ไม้ -0.89% p 0.791, BTC 206 ไม้ -0.98% p 0.970 แย่กว่าตัวแฝดเวลาสุ่ม ก่อนหักติดลบทั้ง 3 เหรียญ
+เปิดบัญชี: fwd_h10.py (1 ชม. ETH BTC SOL พร้อมตัวแฝดตั้ง limit ที่ชั่วโมงสุ่ม 1 ใน 120) test เดินทีละแท่งตรง backtest ETH 10 ไม้, fwd_k3.py (1 ชม. SOL ETH BTC พร้อมตัวแฝดเข้าสุ่ม 1 ใน 300) test เดินด้วยหน้าต่าง 1,000 แท่งตรง backtest ETH 22 ไม้ K3 คาดว่าแพ้ เปิดเพราะผู้ใช้ให้ลองท่าอ่อนด้วย สคริปต์ /tmp/scout_2049/
+ไอเดีย: catstrateg (ต้องข้อมูลรีพลายต่อเหรียญ และ field พักหลังขาดทุนใน zoo), AlgonikHQ (ไม่มีกฎ ต้องแท่งนาทีของดัชนีหุ้น), repo ORB หุ้น (ต้องแท่งนาทีหลายปี), btc-orderbook-predictor (ต้อง order book รายวินาที ขยับเล็กกว่าต้นทุน), crypto-8-agent-bott (ไม่มีกฎ)
+เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
