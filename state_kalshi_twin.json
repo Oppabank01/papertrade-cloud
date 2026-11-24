@@ -2,12 +2,12 @@
  "label": "Kalshi ตัวควบคุม: สุ่มฝั่งในตลาดเดียวกับตัวเต็ง/ตัวรอง",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 8.631228707830239,
+ "cash": 7.1563024541429225,
  "pos": {
   "KX30YMORTW-26NOV25-T7.20:yes": {
    "qty": 0.8543610818706032,
    "entry": 0.8631749999999999,
-   "last": 0.67,
+   "last": 0.69,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T04:53:00+00:00",
    "coin": "YES | Will the average U.S. 30-year fixed-rate mortgage rate for Nov 25, 2026 be above 7.2",
@@ -79,13 +79,37 @@
   "KXWTI-26NOV2514-T79.49:yes": {
    "qty": 0.8269452146281397,
    "entry": 0.8917919999999999,
-   "last": 0.87,
+   "last": 0.86,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T21:42:32+00:00",
    "coin": "YES | Will the WTI crude oil settlement price be above 79.49 USD/Bbl on Nov 25, 2026?",
    "ticker": "KXWTI-26NOV2514-T79.49",
    "side": "yes",
    "close": "2026-11-25T19:30:00Z",
+   "why": "สุ่มฝั่ง"
+  },
+  "KXXRPD-26NOV2517-T0.8799:no": {
+   "qty": 6.281467482463463,
+   "entry": 0.117403,
+   "last": 0.1,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-24T22:10:57+00:00",
+   "coin": "NO | Ripple price at Nov 25, 2026 at 5pm EST?",
+   "ticker": "KXXRPD-26NOV2517-T0.8799",
+   "side": "no",
+   "close": "2026-11-25T22:00:00Z",
+   "why": "สุ่มฝั่ง"
+  },
+  "KXHYPED-26NOV2517-T56.9999:no": {
+   "qty": 4.945168760015945,
+   "entry": 0.149128,
+   "last": 0.11,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-24T22:10:57+00:00",
+   "coin": "NO | HYPE price on Nov 25, 2026?",
+   "ticker": "KXHYPED-26NOV2517-T56.9999",
+   "side": "no",
+   "close": "2026-11-25T22:00:00Z",
    "why": "สุ่มฝั่ง"
   }
  },
@@ -803,6 +827,24 @@
    "ret": 0.14583,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-24T22:10:57+00:00",
+   "coin": "NO | Ripple price at Nov 25, 2026 at 5pm EST?",
+   "px": 0.1174,
+   "usd": 0.7374631268436579,
+   "why": "สุ่มฝั่ง",
+   "ask": 0.11
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-24T22:10:57+00:00",
+   "coin": "NO | HYPE price on Nov 25, 2026?",
+   "px": 0.14913,
+   "usd": 0.7374631268436579,
+   "why": "สุ่มฝั่ง",
+   "ask": 0.14
   }
  ],
  "seen": null,
@@ -844,6 +886,8 @@
   "KXINXU-26NOV24H1600": 1795535314,
   "KXDIESELD-26NOV25": 1795535314,
   "KXHIGHTNOLA-26NOV24": 1795535684,
-  "KXWTI-26NOV2514": 1795556552
+  "KXWTI-26NOV2514": 1795556552,
+  "KXXRPD-26NOV2517": 1795558256,
+  "KXHYPED-26NOV2517": 1795558256
  }
 }
