@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 12.381208428965593,
+ "cash": 12.298881037596887,
  "pos": {
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 91.35171536490465,
    "entry": 0.007787,
-   "last": 0.008154,
+   "last": 0.008201,
    "peak": 0.008676,
    "cost": 0.7332053262693388,
    "opened": "2026-11-25T00:30:01+07:00",
@@ -17,32 +17,32 @@
    "gap": 0,
    "miss": 0
   },
-  "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
-   "sym": "FIONA",
-   "qty": 217.5266033692964,
-   "entry": 0.003266,
-   "last": 0.003119,
-   "peak": 0.003596,
-   "cost": 0.7322633339560111,
-   "opened": "2026-11-25T00:42:48+07:00",
-   "zoo": "x_toaster_score",
-   "smart": 433,
-   "kol": 25,
-   "gap": 0,
-   "miss": 0
-  },
   "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": {
    "sym": "MCAT",
    "qty": 4528.523133993308,
    "entry": 0.0001562,
-   "last": 0.0001593,
+   "last": 0.00015708911765601006,
    "peak": 0.0001738161342661862,
    "cost": 0.7290819558129815,
    "opened": "2026-11-25T01:32:09+07:00",
    "zoo": "x_toaster_score",
    "smart": 114,
    "kol": 8,
-   "gap": 3,
+   "gap": 4,
+   "miss": 0
+  },
+  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
+   "sym": "CATE",
+   "qty": 41.059817680004564,
+   "entry": 0.01712,
+   "last": 0.01714,
+   "peak": 0.01714,
+   "cost": 0.724535228490701,
+   "opened": "2026-11-25T02:10:58+07:00",
+   "zoo": "x_toaster_score",
+   "smart": 967,
+   "kol": 111,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -151,8 +151,37 @@
    "zoo": "x_toaster_score",
    "smart": 114,
    "kol": 8
+  },
+  {
+   "t": "2026-11-25T02:09:26+07:00",
+   "kind": "sell",
+   "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
+   "sym": "FIONA",
+   "price": 0.003043,
+   "entry": 0.003266,
+   "usd": 0.6422,
+   "pnl": -0.0901,
+   "why": "stop -6.8%",
+   "stop_set": -0.06,
+   "cost_side": 0.03,
+   "smart": 433,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-25T02:10:58+07:00",
+   "kind": "buy",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.01712,
+   "jup": 0.017137106535733596,
+   "usd": 0.7245,
+   "stop_set": -0.06,
+   "cost_side": 0.03,
+   "zoo": "x_toaster_score",
+   "smart": 967,
+   "kol": 111
   }
  ],
  "label": "สวนสัตว์: บอท paper เหรียญมีม Solana (MyToasterIsCrying): อายุ 30 นาทีขึ้นไป สภาพคล่อง 25k+ ขึ้นทั้ง 5 นาทีและ 1 ชม. stop -6% เป้า +12%",
- "rank_t": 1795546898.3476505
+ "rank_t": 1795547366.0177367
 }
