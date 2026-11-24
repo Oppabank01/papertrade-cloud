@@ -234,7 +234,8 @@ def cmd_run(fav=None, long=None, twin=None, log=None, rng=None):
                 pair = f"{c[2:10]}-{int(now)}"
                 why = P.buy(s, tok, m, oi, bk.get(tok),
                             f"{side} ask {q['ask']:.3f} เฉลี่ย {q['px']:.3f} ทุนต่อหุ้น {q['cost']:.4f} จบใน {row['end_h']} ชม. ({m.get('feeType')})",
-                            pair=pair, event=ev, end_h=row["end_h"], gamma_bid=m.get("bestBid"))
+                            pair=pair, event=ev, end_h=row["end_h"], gamma_bid=m.get("bestBid"),
+                            vol24=round(float(m.get("volume24hr") or 0)))  # logged only, to split results by volume at entry later
                 if why is None:
                     n += 1
                     s["done"][c], s["ev_done"][ev] = int(now), int(now)
