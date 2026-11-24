@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 5.934891488642551,
+ "cash": 3.9831315519038037,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 358.9144816770494,
    "entry": 0.005336,
-   "last": 0.005372,
+   "last": 0.005386,
    "peak": 0.005558,
    "cost": 1.9739926553584164,
    "opened": "2026-11-25T04:31:46+07:00",
@@ -21,13 +21,27 @@
    "sym": "CATE",
    "qty": 106.53073766147473,
    "entry": 0.01786,
-   "last": 0.01789,
+   "last": 0.01791,
    "peak": 0.01813,
    "cost": 1.961079132791114,
    "opened": "2026-11-25T04:52:38+07:00",
    "zoo": "w_f5_bigliqRC_b2",
    "smart": 968,
    "kol": 111,
+   "gap": 0,
+   "miss": 0
+  },
+  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
+   "sym": "CLAUDIA",
+   "qty": 230.47681239337055,
+   "entry": 0.008216,
+   "last": 0.008221,
+   "peak": 0.008221,
+   "cost": 1.951759936738747,
+   "opened": "2026-11-25T06:21:18+07:00",
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 576,
+   "kol": 37,
    "gap": 0,
    "miss": 0
   }
@@ -1051,8 +1065,22 @@
    "zoo": "w_f5_bigliqRC_b2",
    "smart": 968,
    "kol": 111
+  },
+  {
+   "t": "2026-11-25T06:21:18+07:00",
+   "kind": "buy",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.008216,
+   "jup": 0.008151829581492537,
+   "usd": 1.9518,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 576,
+   "kol": 37
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ bigliqRC แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1795561997.2529922
+ "rank_t": 1795562361.1812706
 }
