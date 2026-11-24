@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 8.765466362909752,
+ "cash": 11.779458289512325,
  "pos": {
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 38.44828018818857,
    "entry": 0.07504,
-   "last": 0.07417,
+   "last": 0.07452,
    "peak": 0.07836,
    "cost": 2.9142283733457943,
    "opened": "2026-11-24T10:25:52+07:00",
@@ -15,20 +15,6 @@
    "smart": 928,
    "kol": 295,
    "gap": 0,
-   "miss": 0
-  },
-  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
-   "sym": "ANSEM",
-   "qty": 153.75552584518314,
-   "entry": 0.0187,
-   "last": 0.02098602587599426,
-   "peak": 0.02483,
-   "cost": 2.904197705416454,
-   "opened": "2026-11-24T16:42:06+07:00",
-   "zoo": "w_cold_mkt_b2",
-   "smart": 1000,
-   "kol": 186,
-   "gap": 1,
    "miss": 0
   }
  },
@@ -275,10 +261,25 @@
    "zoo": "w_cold_mkt_b2",
    "smart": 1000,
    "kol": 186
+  },
+  {
+   "t": "2026-11-24T18:30:48+07:00",
+   "kind": "sell",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.0198,
+   "entry": 0.0187,
+   "usd": 3.014,
+   "pnl": 0.1098,
+   "why": "trailing จากยอด +33% (+5.9%)",
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "smart": 1000,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดเย็น: กฎ w_aged_nostop เฉพาะรอบที่เหรียญขึ้นไม่เกิน 61%",
- "rank_t": 1795519461.9397717,
+ "rank_t": 1795519799.2180793,
  "banned": {
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings"
  }
