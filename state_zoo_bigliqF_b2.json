@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 5.387906726456165,
+ "cash": 3.610059208593597,
  "pos": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 556.9078558841292,
    "entry": 0.00317,
-   "last": 0.003175,
+   "last": 0.003128395774034873,
    "peak": 0.003361,
    "cost": 1.8196226583721804,
    "opened": "2026-11-24T16:22:25+07:00",
    "zoo": "bigliqF_b2",
    "smart": 733,
    "kol": 80,
-   "gap": 0,
+   "gap": 13,
    "miss": 0
   },
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 334.03964962585843,
    "entry": 0.005227,
-   "last": 0.005256,
+   "last": 0.005207,
    "peak": 0.005256,
    "cost": 1.7996549665990127,
    "opened": "2026-11-24T18:49:27+07:00",
@@ -29,6 +29,20 @@
    "smart": 542,
    "kol": 51,
    "gap": 0,
+   "miss": 0
+  },
+  "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
+   "sym": "CRIME",
+   "qty": 577.4582061701584,
+   "entry": 0.002987,
+   "last": 0.002832,
+   "peak": 0.00302,
+   "cost": 1.7778475178625677,
+   "opened": "2026-11-24T19:08:50+07:00",
+   "zoo": "bigliqF_b2",
+   "smart": 93,
+   "kol": 40,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -1065,10 +1079,24 @@
    "cost_side": 0.03,
    "smart": 263,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T19:08:50+07:00",
+   "kind": "buy",
+   "mint": "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump",
+   "sym": "CRIME",
+   "price": 0.002987,
+   "jup": 0.002981637986939571,
+   "usd": 1.7778,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliqF_b2",
+   "smart": 93,
+   "kol": 40
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ เช็กราคาทุก 20 วิ",
- "rank_t": 1795521567.848018,
+ "rank_t": 1795522057.6091042,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"
