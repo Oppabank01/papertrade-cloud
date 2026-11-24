@@ -544,23 +544,25 @@
    "stop_set": -0.18,
    "cost_side": 0.03,
    "source": "state_wallets.json"
+  },
+  {
+   "t": "2026-11-25T02:50:04+07:00",
+   "kind": "sell",
+   "mint": "2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ",
+   "sym": "hello",
+   "price": 0.0001336,
+   "entry": 0.0001471,
+   "usd": 7.5588,
+   "pnl": -1.2829,
+   "why": "trailing จากยอด +14% (-9.2%)",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
- "pos": {
-  "2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ": {
-   "sym": "hello",
-   "qty": 58315.76707593492,
-   "entry": 0.0001471,
-   "last": 0.0001505,
-   "peak": 0.00016768730335924983,
-   "cost": 8.841732979664014,
-   "opened": "2026-11-25T02:03:45+07:00",
-   "source": "state_wallets.json",
-   "gap": 0,
-   "miss": 0
-  }
- },
- "cash": 5.8944886531093434,
+ "pos": {},
+ "cash": 13.45330373731017,
  "start_usd": 14.736221632773358,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",

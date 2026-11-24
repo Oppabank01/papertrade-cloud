@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 9.439205082459779,
- "pos": {},
+ "cash": 7.551364065967823,
+ "pos": {
+  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
+   "sym": "mihao",
+   "qty": 326.89333467793955,
+   "entry": 0.005603,
+   "last": 0.005608,
+   "peak": 0.005608,
+   "cost": 1.887841016491956,
+   "opened": "2026-11-25T02:49:18+07:00",
+   "zoo": "bigliqRC_b2",
+   "smart": 808,
+   "kol": 75,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T19:52:24+07:00",
@@ -1008,10 +1023,24 @@
    "cost_side": 0.03,
    "smart": 93,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T02:49:18+07:00",
+   "kind": "buy",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.005603,
+   "jup": 0.005550896591004877,
+   "usd": 1.8878,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliqRC_b2",
+   "smart": 808,
+   "kol": 75
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ผ่าน RugCheck เช็กราคาทุก 20 วิ",
- "rank_t": 1795549278.8766572,
+ "rank_t": 1795549680.2812803,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"
