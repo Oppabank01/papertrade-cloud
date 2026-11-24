@@ -544,3 +544,15 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ไม่เปิดบัญชี: SMA 12/60 ของ moonspiid (ครบ 2 ไฟล์ต่อรอบ ถ้าจะเปิดเหมาะกับ 1 ชม. TRX DOGE XRP ADA HBAR), ตัวกรองของ bullpaid (ต้องเป็นบัญชีหลายเหรียญที่เก็บไม้ shadow)
 ไอเดีย: prompt บอท 24/7 ของ 1budless (ต้องได้ตัว prompt หรือโค้ด), Daily-Signal-by-Grok-AI (ต้องอ่านไฟล์สูตรคะแนนก่อน)
 เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
+
+## 2026-11-24 19:18 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 17 พ.ย. (ichimoku, heikin ashi, turtle trading, grid bot, kalman trading, ai trading agent ตั้งแต่ 20 พ.ย., fear greed, rsi divergence, liquidation strategy, seasonality crypto), X 4 ครั้ง (hyperliquid bot strategy backtest ได้แต่โพสต์โปรโมต Fensory กับ Grok Bot ที่มีแล้ว, fear and greed index strategy bitcoin backtest ได้แต่โพสต์เก่า, memecoin trading rules entry exit ได้ prompt ที่ถูกตัด, kalshi bot strategy ไม่มีกฎ), เว็บ 1 ครั้ง (งานวิจัยกฎเทคนิค bitcoin ระหว่างวันเดือนนี้ ไม่เจองานใหม่ มีแต่งานเก่าปี 2018 ถึง 2024)
+เจอ: fear-greed-strategy ของ Jefersolitario (ซื้อเมื่อดัชนีกลัวสุดขีด ขายเมื่อโลภสุดขีด paper ตั้งแต่ 18 พ.ย.), divergence-trade-signals ของ zhshy (เครื่องสัญญาณ RSI/MACD divergence ที่ผู้เขียนทดสอบเองแล้วขาดทุน), BTC-Fear-Greed-Indicator ของ Clopulis (ไม่บอกสูตร), prompt เหรียญมีมของ SpikeCalls (ถูกตัด), prompt บอท Hyperliquid ของ SickNatureLimit (ต้องสมัคร Muse) repo grid และ copytrade ดาวเยอะเป็นโปรแกรม Windows ขายของ ไม่ได้แตะ
+ทดสอบแล้ว (หลังหัก 0.35%/ข้าง ตัวหลอก 200 รอบ):
+- Fear & Greed รายวัน 2018 ถึง 2026 (ข้อมูลดัชนีจากไฟล์ใน repo): ซื้อ 10 ลงมาขาย 80 69 ไม้ +59.2% ต่อไม้, ซื้อ 15 ลงมา 244 ไม้ +61.6%, ซื้อ 20 ลงมา 423 ไม้ +62.3%, ขาย 75 244 ไม้ +47.0% แต่ตัวหลอกเลื่อนดัชนีแบบวงกลมได้มัธยฐาน +23 ถึง +84% p 0.41 ถึง 0.61 และ permutation บนราคา p 0.27 ถึง 0.33 ไม้ปี 2025 ติดลบ -28 ถึง -30% กำไรมาจาก BTC ขึ้นยาว ไม่ใช่จากดัชนี
+- RSI divergence รุ่นกลไก 4 ชม. 12,000 แท่ง (จุดกลับตัวยืนยัน 3 แท่ง จุดต่ำใหม่ต่ำกว่าแต่ RSI สูงกว่า RSI จุดแรก 35 ลงมา short กลับกันที่ 65 stop ที่จุดกลับตัว เป้า 2R): BTC 118 ไม้ +0.01% ETH 121 ไม้ -0.28% SOL 116 ไม้ +0.14% BNB 96 ไม้ -0.55% XRP 86 ไม้ +0.43% ต่อไม้ มัธยฐาน -2.2 ถึง -3.7% p 0.020/0.139/0.104/0.338/0.035 ตัวแฝดเข้าสุ่ม -0.52 ถึง +0.22% ปี 2025 ถึง 2026 ติดลบเกือบทุกเหรียญ รายวันได้ 18 ถึง 36 ไม้ต่อเหรียญ p 0.10 ถึง 0.84
+เปิดบัญชี: fwd_rsidiv.py (4 ชม. BTC ETH SOL BNB XRP long+short พร้อมตัวแฝดเข้าสุ่ม 1 ใน 100 แท่ง ฝั่งสุ่ม stop 3.1% เป้า 2R) test เดินทีละแท่งตรง backtest ETH 9 ไม้ BTC 7 ไม้ คาดว่าราวเท่าทุนหรือแพ้ต้นทุนเล็กน้อย เปิดเพราะผู้ใช้ให้ลองท่าอ่อนด้วย สคริปต์ /tmp/scout_1909/
+ไม่เปิดบัญชี: Fear & Greed (byttrade.fetch ไม่มีดัชนี ถ้าเธรดหลักจะเปิด เหมาะกับบัญชีรายวันซื้อเมื่อดัชนี 15 ลงมาขายที่ 75 พร้อมตัวแฝดซื้อวันสุ่มจำนวนเท่ากัน)
+ไอเดีย: BTC-Fear-Greed-Indicator (ต้องอ่านสูตรใน index.html), prompt ของ SpikeCalls (ต้องได้ข้อความเต็ม)
+ตัดทิ้ง: SickNatureLimit (ต้องสมัคร Muse และเชื่อมบัญชีเงินจริง)
+เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
