@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 3.293656669279239,
+ "cash": 1.2479251183739763,
  "pos": {
   "Hmeju3J16Cbx1D6snGFNDGTV32AS9TYPaXyVYHBqpump": {
    "sym": "2027",
@@ -21,14 +21,14 @@
    "sym": "Huss",
    "qty": 4189.245620882508,
    "entry": 0.0004947,
-   "last": 0.0005001,
+   "last": 0.0004849,
    "peak": 0.0005364,
    "cost": 2.136074838848255,
    "opened": "2026-11-24T17:55:19+07:00",
    "zoo": "x_smartflow_lowcap_b2",
    "smart": 155,
    "kol": 7,
-   "gap": 4,
+   "gap": 0,
    "miss": 0
   },
   "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": {
@@ -42,6 +42,20 @@
    "zoo": "x_smartflow_lowcap_b2",
    "smart": 128,
    "kol": 11,
+   "gap": 0,
+   "miss": 0
+  },
+  "nVs4Ec4nCVdCQk1xKSZ8YWMUYDUAfCdZkNRPM6fTsNH": {
+   "sym": "CHARLESTONAI",
+   "qty": 32473.310711523,
+   "entry": 6.112e-05,
+   "last": 6.664e-05,
+   "peak": 6.673e-05,
+   "cost": 2.0457315509052627,
+   "opened": "2026-11-25T01:24:16+07:00",
+   "zoo": "x_smartflow_lowcap_b2",
+   "smart": 181,
+   "kol": 9,
    "gap": 0,
    "miss": 0
   }
@@ -861,10 +875,24 @@
    "mint": "Hmeju3J16Cbx1D6snGFNDGTV32AS9TYPaXyVYHBqpump",
    "sym": "2027",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-25T01:24:16+07:00",
+   "kind": "buy",
+   "mint": "nVs4Ec4nCVdCQk1xKSZ8YWMUYDUAfCdZkNRPM6fTsNH",
+   "sym": "CHARLESTONAI",
+   "price": 6.112e-05,
+   "jup": 6.127551224486203e-05,
+   "usd": 2.0457,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "x_smartflow_lowcap_b2",
+   "smart": 181,
+   "kol": 9
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: smart money เข้า 3+ มาร์เก็ตแคปต่ำ ขายครึ่งที่ x2",
- "rank_t": 1795544219.6397824,
+ "rank_t": 1795544600.928063,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "GNHW5JetZmW85vAU35KyoDcYoSd3sNWtx5RPMTDJpump": "GOAT",
