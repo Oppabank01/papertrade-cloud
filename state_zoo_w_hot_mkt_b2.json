@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 9.536509327824216,
+ "cash": 7.308240390902689,
  "pos": {
   "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
    "sym": "FIONA",
    "qty": 549.7894336359769,
    "entry": 0.004641,
-   "last": 0.002911,
+   "last": 0.002882,
    "peak": 0.004898,
    "cost": 2.577281140884896,
    "opened": "2026-11-24T14:01:42+07:00",
@@ -15,6 +15,20 @@
    "smart": 429,
    "kol": 25,
    "gap": 0,
+   "miss": 0
+  },
+  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
+   "sym": "CLAUDIA",
+   "qty": 290.919418999833,
+   "entry": 0.007583,
+   "last": 0.007479,
+   "peak": 0.007588,
+   "cost": 2.2282689369215265,
+   "opened": "2026-11-24T23:56:45+07:00",
+   "zoo": "w_hot_mkt_b2",
+   "smart": 572,
+   "kol": 37,
+   "gap": 4,
    "miss": 0
   }
  },
@@ -414,8 +428,22 @@
    "cost_side": 0.01,
    "smart": 961,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T23:56:45+07:00",
+   "kind": "buy",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.007583,
+   "jup": 0.007597466293002677,
+   "usd": 2.2283,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_hot_mkt_b2",
+   "smart": 572,
+   "kol": 37
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดร้อน: กฎ w_aged_nostop เฉพาะรอบที่เหรียญ 74%+ ขึ้นใน 1 ชม.",
- "rank_t": 1795538792.4658713
+ "rank_t": 1795539302.2879891
 }
