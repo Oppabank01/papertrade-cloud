@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.598540145985401,
- "cash": 11.37959391817732,
- "pos": {},
+ "cash": 9.103675134541856,
+ "pos": {
+  "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
+   "sym": "ZCAT",
+   "qty": 153.34002804743943,
+   "entry": 0.0144,
+   "last": 0.013975344337823837,
+   "peak": 0.01446,
+   "cost": 2.2759187836354644,
+   "opened": "2026-11-24T21:40:26+07:00",
+   "zoo": "x_crb_smart_night",
+   "smart": 330,
+   "kol": 48,
+   "gap": 6,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T23:15:49+07:00",
@@ -438,12 +453,26 @@
    "usd": 2.839,
    "pnl": 0.7084,
    "why": "ปิดรอบเช้า"
+  },
+  {
+   "t": "2026-11-24T21:40:26+07:00",
+   "kind": "buy",
+   "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+   "sym": "ZCAT",
+   "price": 0.0144,
+   "jup": 0.014527656594167545,
+   "usd": 2.2759,
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "zoo": "x_crb_smart_night",
+   "smart": 330,
+   "kol": 48
   }
  ],
  "label": "สวนสัตว์: crbpite8 คืนเดียว: smart money 6+ dev ไม่เกิน 2.1% top10 ไม่เกิน 20% ราคา 5 นาทีขึ้น stop -10%",
  "night": "2026-11-24",
  "night_start": 11.37959391817732,
- "rank_t": 1795530706.6295347,
+ "rank_t": 1795531099.7572653,
  "nights": [
   {
    "night": "2026-11-22",
