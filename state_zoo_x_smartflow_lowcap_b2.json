@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 3.433566960285339,
+ "cash": 1.0601350411402901,
  "pos": {
   "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": {
    "sym": "Huss",
    "qty": 4189.245620882508,
    "entry": 0.0004947,
-   "last": 0.0009176,
+   "last": 0.000826,
    "peak": 0.0009596,
    "cost": 2.136074838848255,
    "opened": "2026-11-24T17:55:19+07:00",
@@ -21,7 +21,7 @@
    "sym": "PEAK",
    "qty": 9501.430074929434,
    "entry": 0.0002118,
-   "last": 0.0002079,
+   "last": 0.0002038,
    "peak": 0.000241,
    "cost": 2.074214481416259,
    "opened": "2026-11-25T00:49:30+07:00",
@@ -35,7 +35,7 @@
    "sym": "HYGG",
    "qty": 18614.73887028583,
    "entry": 0.0001227,
-   "last": 0.0001405,
+   "last": 0.0001422,
    "peak": 0.0001556,
    "cost": 2.35418311624827,
    "opened": "2026-11-25T05:12:58+07:00",
@@ -43,6 +43,20 @@
    "smart": 46,
    "kol": 2,
    "gap": 0,
+   "miss": 0
+  },
+  "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump": {
+   "sym": "goldcoin",
+   "qty": 31722.050529749646,
+   "entry": 7.259e-05,
+   "last": 9.00651923605064e-05,
+   "peak": 0.00010185969277774018,
+   "cost": 2.373431919145049,
+   "opened": "2026-11-25T05:33:18+07:00",
+   "zoo": "x_smartflow_lowcap_b2",
+   "smart": 44,
+   "kol": 2,
+   "gap": 9,
    "miss": 0
   }
  },
@@ -994,10 +1008,24 @@
    "cost_side": 0.03,
    "smart": 77,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T05:33:18+07:00",
+   "kind": "buy",
+   "mint": "Cp6i5Ka8Gwzzn537KoqLyjQCFX6QBfoAC9WuxEbQpump",
+   "sym": "goldcoin",
+   "price": 7.259e-05,
+   "jup": 7.213769956100792e-05,
+   "usd": 2.3734,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "x_smartflow_lowcap_b2",
+   "smart": 44,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: smart money เข้า 3+ มาร์เก็ตแคปต่ำ ขายครึ่งที่ x2",
- "rank_t": 1795559080.4921656,
+ "rank_t": 1795559478.261426,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "GNHW5JetZmW85vAU35KyoDcYoSd3sNWtx5RPMTDJpump": "GOAT",

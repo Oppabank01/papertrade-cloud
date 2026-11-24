@@ -2,12 +2,12 @@
  "label": "Kalshi ตัวควบคุม: สุ่มฝั่งในตลาดเดียวกับตัวเต็ง/ตัวรอง",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 2.731523693080974,
+ "cash": 1.9940605662373163,
  "pos": {
   "KX30YMORTW-26NOV25-T7.20:yes": {
    "qty": 0.8543610818706032,
    "entry": 0.8631749999999999,
-   "last": 0.69,
+   "last": 0.75,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T04:53:00+00:00",
    "coin": "YES | Will the average U.S. 30-year fixed-rate mortgage rate for Nov 25, 2026 be above 7.2",
@@ -43,7 +43,7 @@
   "KXDIESELD-26NOV25-T5.760:yes": {
    "qty": 0.7773833148266354,
    "entry": 0.9486479999999999,
-   "last": 0.88,
+   "last": 0.9,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T15:48:36+00:00",
    "coin": "YES | Will Diesel Price on November 25, 2026 be above $5.760?",
@@ -115,7 +115,7 @@
   "KXBTCD-26NOV2517-T57999.99:no": {
    "qty": 4.945168760015945,
    "entry": 0.149128,
-   "last": 0.13,
+   "last": 0.12,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T22:17:03+00:00",
    "coin": "NO | Bitcoin price on Nov 25, 2026?",
@@ -127,7 +127,7 @@
   "KXBNBD-26NOV2517-T534.99:no": {
    "qty": 4.080536537670951,
    "entry": 0.180727,
-   "last": 0.14,
+   "last": 0.12,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T22:23:34+00:00",
    "coin": "NO | BNB price on Nov 25, 2026?",
@@ -168,6 +168,18 @@
    "t": "2026-11-24T22:30:13+00:00",
    "coin": "NO | Will Open vs. Closed Token Volume (open weights share) for Nov 25, 2026 be above 59.6",
    "ticker": "KXOPENSOURCESHARE-26NOV26-T59.6",
+   "side": "no",
+   "close": "2026-11-26T15:00:00Z",
+   "why": "สุ่มฝั่ง"
+  },
+  "KXMC-GTA6-98:no": {
+   "qty": 17.195092493090325,
+   "entry": 0.042888,
+   "last": 0.03,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-24T22:37:36+00:00",
+   "coin": "NO | Grand Theft Auto VI Metacritic score?",
+   "ticker": "KXMC-GTA6-98",
    "side": "no",
    "close": "2026-11-26T15:00:00Z",
    "why": "สุ่มฝั่ง"
@@ -971,6 +983,15 @@
    "usd": 0.7374631268436579,
    "why": "สุ่มฝั่ง",
    "ask": 0.05
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-24T22:37:36+00:00",
+   "coin": "NO | Grand Theft Auto VI Metacritic score?",
+   "px": 0.04289,
+   "usd": 0.7374631268436579,
+   "why": "สุ่มฝั่ง",
+   "ask": 0.04
   }
  ],
  "seen": null,
@@ -1020,6 +1041,7 @@
   "KXBNBD-26NOV2517": 1795559013,
   "KXRAIN-26NOV25": 1795559013,
   "KXHIGHTDC-26NOV25": 1795559412,
-  "KXOPENSOURCESHARE-26NOV26": 1795559412
+  "KXOPENSOURCESHARE-26NOV26": 1795559412,
+  "KXMC-GTA6": 1795559855
  }
 }
