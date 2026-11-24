@@ -1,0 +1,58 @@
+{
+ "label": "Polymarket อุณหภูมิ ตัวควบคุม: ซื้อฝั่ง 0.15-0.40 (ทายช่องเดียว)",
+ "start_thb": 500.0,
+ "start_usd": 14.749262536873157,
+ "cash": 14.0117994100295,
+ "pos": {
+  "29361003011510457724419592217027169869218621011777718431859135228995024283261": {
+   "qty": 4.548198680454767,
+   "entry": 0.16,
+   "last": 0.14,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-24T18:23:18+07:00",
+   "why": "long ask 0.160 เฉลี่ย 0.160 ทุนต่อหุ้น 0.1621 จบใน 0.6 ชม. (weather_fees)",
+   "coin": "No | Will the highest temperature in New York City be between 50-51°F on November 24?",
+   "cond": "0xf0df06497483ece164610afa4264fd9cb2bafeabda7420b53bc9e32dd23b831c",
+   "oi": 1,
+   "fee": [
+    0.01,
+    1.0
+   ],
+   "end": "2026-11-24T12:00:00Z",
+   "pair": "f0df0649-1795519396",
+   "event": "1441207",
+   "end_h": 0.6,
+   "gamma_bid": 0.84,
+   "vol24": 5359
+  }
+ },
+ "log": [
+  {
+   "kind": "buy",
+   "t": "2026-11-24T18:23:18+07:00",
+   "coin": "No | Will the highest temperature in New York City be between 50-51°F on November 24?",
+   "token": "29361003011510457724419592217027169869218621011777718431859135228995024283261",
+   "px": 0.16,
+   "usd": 0.73746,
+   "qty": 4.5482,
+   "fee_usd": 0.00611,
+   "cost_side": 0.0134,
+   "gamma_ask": 0.86,
+   "why": "long ask 0.160 เฉลี่ย 0.160 ทุนต่อหุ้น 0.1621 จบใน 0.6 ชม. (weather_fees)",
+   "pair": "f0df0649-1795519396",
+   "event": "1441207",
+   "end_h": 0.6,
+   "gamma_bid": 0.84,
+   "vol24": 5359
+  }
+ ],
+ "cursor": {},
+ "seen": {},
+ "done": {
+  "0xf0df06497483ece164610afa4264fd9cb2bafeabda7420b53bc9e32dd23b831c": 1795519396
+ },
+ "ev_done": {
+  "1441207": 1795519396
+ },
+ "scan_off": 0
+}
