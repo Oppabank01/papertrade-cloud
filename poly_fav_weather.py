@@ -8,6 +8,8 @@ Same scan, sizing, filters and settlement as poly_fav.py, only "temperature" que
   36, 12 and 6 h give the same picture (0.60-0.85 wins 82-84% at about 0.70). Mirror: buckets priced 0.15-0.40 win 15-18%.
   Who pays: buyers of a single bucket at 20-35c (a lottery ticket on one temperature), the same longshot bias Kalshi's
   temperature markets show (1-5c buckets -78%). Caveat: history prices are trades/mids, the live ask is worse by the spread.
+Stale-price check (24 Nov): buckets whose history price moved 3+ times in the 6 h before the lead point, 24 h lead:
+  0.60-0.85 n 446 at 0.698 won 0.816 (z 4.1), so the edge is not just stale quotes.
 poly_weather.py (forecast model) is a different idea and lost its first 2 buys.
   state_poly_wx.json        buys temperature outcomes with best ask 0.60-0.93
   state_poly_wx_long.json   control: temperature outcomes with best ask 0.15-0.40, expected to lose
