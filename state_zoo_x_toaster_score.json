@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 12.943585170742939,
+ "cash": 12.2247841309838,
  "pos": {
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 91.35171536490465,
    "entry": 0.007787,
-   "last": 0.008008,
+   "last": 0.007961,
    "peak": 0.008676,
    "cost": 0.7332053262693388,
    "opened": "2026-11-25T00:30:01+07:00",
@@ -21,13 +21,27 @@
    "sym": "CATE",
    "qty": 41.059817680004564,
    "entry": 0.01712,
-   "last": 0.0171,
+   "last": 0.01709,
    "peak": 0.01719,
    "cost": 0.724535228490701,
    "opened": "2026-11-25T02:10:58+07:00",
    "zoo": "x_toaster_score",
    "smart": 967,
    "kol": 111,
+   "gap": 0,
+   "miss": 0
+  },
+  "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": {
+   "sym": "OTC",
+   "qty": 350.79515531907253,
+   "entry": 0.001988,
+   "last": 0.001981,
+   "peak": 0.001997,
+   "cost": 0.7188010397591387,
+   "opened": "2026-11-25T02:43:36+07:00",
+   "zoo": "x_toaster_score",
+   "smart": 534,
+   "kol": 56,
    "gap": 0,
    "miss": 0
   }
@@ -181,8 +195,22 @@
    "cost_side": 0.03,
    "smart": 114,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T02:43:36+07:00",
+   "kind": "buy",
+   "mint": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
+   "sym": "OTC",
+   "price": 0.001988,
+   "jup": 0.0020015746451484385,
+   "usd": 0.7188,
+   "stop_set": -0.06,
+   "cost_side": 0.03,
+   "zoo": "x_toaster_score",
+   "smart": 534,
+   "kol": 56
   }
  ],
  "label": "สวนสัตว์: บอท paper เหรียญมีม Solana (MyToasterIsCrying): อายุ 30 นาทีขึ้นไป สภาพคล่อง 25k+ ขึ้นทั้ง 5 นาทีและ 1 ชม. stop -6% เป้า +12%",
- "rank_t": 1795548882.3935246
+ "rank_t": 1795549278.8766572
 }
