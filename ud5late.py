@@ -9,6 +9,9 @@ I pulled every taker trade of 600 markets (about 2 days, 1.3M trades) to check i
 6% to 23% after the fee in every part of the window (later is worse). The other side looked better only in the last minute:
 first taker buy at 0.50-0.65 at 240-290 s: n 97, +15% (t 2.0); 0.80-0.90: n 188, +4.4% (t 1.6). That is the best of about
 30 band/time combinations I tried, so it is probably partly luck; this forward test is the check.
+Out-of-sample check the same day (data not used to pick the rule): the exact rule (0.50-0.90, last 15% of the window)
+on ETH 5m (400 markets) -3.0% (t -0.5) and BTC 15m (300 markets) -2.7% (t -0.5); in-sample BTC 5m itself +3.7% (t 1.0).
+So the edge most likely is not there. Kept running unchanged as a fast forward test.
   state_ud5late.json        the rule
   state_ud5late_twin.json   control: a random outcome of the same market at the same moment, same size and fee
   python3 ud5late.py loop | once | status"""
