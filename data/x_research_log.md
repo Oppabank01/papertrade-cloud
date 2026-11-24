@@ -574,3 +574,14 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ยังทำไม่ได้: โพสต์ต้นทาง fetch ไม่ได้ (threadreaderapp ไม่อยู่ในโดเมนที่อนุญาต) ใช้เฉพาะตัวเลขจาก snippet; เรื่อง Pine Analytics ว่า deployer ใส่เงินให้ sniper wallet ต้องข้อมูล wallet ต่อเหรียญ
 เลิกใช้: ไม่มี (ยังไม่มี x_ ถึงจุดตัดสินที่แพ้ rand เพิ่มจากรอบก่อน)
 สกอร์บอร์ด x_ (คำนวณจาก zoo.py report): x_smartflow_lowcap +20.9% 7 ไม้, x_crb_4agent +3.6% 6 ไม้, x_blix_grad_top10 +1.3% 15 ไม้
+
+## 2026-11-24 22:31 (scout)
+ค้น: GitHub repo ใหม่ (stochastic crypto strategy กับ pivot points ได้ผลว่าง, mcp trading และ pine script strategy ตั้งแต่ 17 พ.ย., backtest crypto กับ llm trading ตั้งแต่ 22 พ.ย., mean reversion ตั้งแต่ 18 พ.ย.), X 4 ครั้ง (claude code trading strategy backtest, บอทเทรด กลยุทธ์, trading bot rules entry exit stop backtest ได้ผลว่าง, ai trading agent backtest results), เว็บ 1 ครั้ง (งานวิจัย anomaly ระหว่างวันของ BTC ได้แต่งานเก่าที่มีบัญชีแล้ว เช่น fwd_hour21 กับ fwd_jumprev)
+เจอ: tomorn-trading-bot ของ pumarathaworn01 (บอท Binance TH ของคนไทย 5 กลยุทธ์ 4 ชม. ผู้เขียนสรุปเองว่าไม่มีท่าไหนกำไรหลังหักต้นทุน), ท่า bollinger_rsi_mean_reversion ของ Pyrochem (ท่าที่ 3 จาก 8 ท่า ยังไม่เคยลอง), sma_strategy_backtest ของ EricPy (SMA รายวันแพ้ถือเฉยๆ), chrysopoeia ของ JMrtzsn (LLM ทายตลาด esports ใน Polymarket), X มีแต่โปรโมต Fensory กับโพสต์ซ้ำ
+ทดสอบแล้ว (Binance 4 ชม. 2017-2026 หลังหัก 0.35%/ข้าง permutation 200 รอบ):
+- Order Block SMC (FVG ขาขึ้น limit ที่ยอดแท่งแดงสุดท้าย stop ใต้แท่ง 0.3% เป้า swing high ข้ามไม้ R:R ไม่ถึง 1.5): BTC 81 ไม้ -0.42% ETH 124 ไม้ -0.37% SOL 93 ไม้ -0.86% BNB 99 ไม้ -0.41% XRP 122 ไม้ -1.17% ต่อไม้ ก่อนหัก +0.28/+0.33/-0.17/+0.29/-0.47% มัธยฐาน -2.0 ถึง -2.8% ตัวแฝดเข้าสุ่ม -0.61 ถึง -0.78% p 0.29/0.30/0.91/0.46/0.99
+- Bollinger 2 SD + RSI14 34/66 stop 1.5 ATR เป้า 2.4 ATR: long+short BTC 945 ไม้ -1.14% ETH 961 ไม้ -1.21% SOL 584 ไม้ -1.59% long อย่างเดียว -1.17/-1.30/-1.58% ก่อนหักติดลบทุกแบบ แย่กว่าตัวแฝดเข้าสุ่ม (-0.60 ถึง -0.91%) p 0.98 ถึง 1.00 ลองแล้วตก
+เปิดบัญชี: fwd_obsmc.py (4 ชม. BTC ETH SOL BNB XRP long อย่างเดียว พร้อมตัวแฝดซื้อแท่งสุ่ม 1 ใน 40 stop -2% เป้า 2R) test เดินทีละแท่งตรง backtest ETH 18 ไม้ และหน้าต่าง 1,000 แท่งตรงประวัติเต็ม คาดว่าติดลบเล็กน้อย เปิดเพราะผู้ใช้ให้ลองท่าอ่อนด้วย สคริปต์ /tmp/scout_2231/
+ไม่เปิดบัญชี: Bollinger + RSI (แย่กว่าสุ่มชัด ฝั่งตรงข้ามคือ fwd_bbbreak ที่มีแล้ว), SMA รายวันของ EricPy (อยู่ในสายหลักแล้ว)
+ไอเดีย: chrysopoeia (ต้องเรียก LLM ที่เสียเงินและราคาย้อนหลังตลาด esports), โพสต์ X ที่เจอไม่มีกฎใหม่
+เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่ที่ตัดสินได้)
