@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 0.1686013672235145,
+ "cash": 2.1483662725438366,
  "pos": {
   "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": {
    "sym": "swordcat",
    "qty": 5662.624936394442,
    "entry": 0.0004298,
-   "last": 0.0005379984725461357,
+   "last": 0.000541,
    "peak": 0.0006449,
    "cost": 2.508551017998692,
    "opened": "2026-11-23T04:55:37+07:00",
    "zoo": "x_smartflow_lowcap_b2",
    "smart": 318,
    "kol": 43,
-   "gap": 6,
+   "gap": 0,
    "miss": 0
   },
   "Hmeju3J16Cbx1D6snGFNDGTV32AS9TYPaXyVYHBqpump": {
    "sym": "2027",
    "qty": 7558.936535939488,
    "entry": 0.0003714,
-   "last": 0.0003525,
+   "last": 0.0003712,
    "peak": 0.0004779,
    "cost": 2.893618871828412,
    "opened": "2026-11-24T12:17:50+07:00",
@@ -35,7 +35,7 @@
    "sym": "Huss",
    "qty": 4189.245620882508,
    "entry": 0.0004947,
-   "last": 0.0005037,
+   "last": 0.0005073,
    "peak": 0.0005364,
    "cost": 2.136074838848255,
    "opened": "2026-11-24T17:55:19+07:00",
@@ -47,17 +47,18 @@
   },
   "4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn": {
    "sym": "Memeployed",
-   "qty": 26060.97076428425,
+   "qty": 13030.485382142126,
    "entry": 7.703e-05,
-   "last": 0.00014172245638658978,
-   "peak": 0.00014172245638658978,
-   "cost": 2.0691368562902657,
+   "last": 0.0001405,
+   "peak": 0.0001566,
+   "cost": 1.0345684281451328,
    "opened": "2026-11-24T22:06:31+07:00",
    "zoo": "x_smartflow_lowcap_b2",
    "smart": 32,
    "kol": 2,
-   "gap": 8,
-   "miss": 0
+   "gap": 1,
+   "miss": 0,
+   "half": true
   }
  },
  "log": [
@@ -785,10 +786,20 @@
    "mint": "4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn",
    "sym": "Memeployed",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-24T22:55:50+07:00",
+   "kind": "sell",
+   "mint": "4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn",
+   "sym": "Memeployed",
+   "price": 0.0001566,
+   "usd": 1.9798,
+   "pnl": 0.9452,
+   "why": "ขายครึ่ง +103.3%"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: smart money เข้า 3+ มาร์เก็ตแคปต่ำ ขายครึ่งที่ x2",
- "rank_t": 1795535382.3882184,
+ "rank_t": 1795535750.6796918,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "GNHW5JetZmW85vAU35KyoDcYoSd3sNWtx5RPMTDJpump": "GOAT",
