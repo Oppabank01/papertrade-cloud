@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 0.8173609319379276,
+ "cash": 0.07989780509426969,
  "pos": {
   "KXSTEAMTOPSELLER-26NOV24-COU:yes": {
    "qty": 0.7549113938906525,
@@ -67,7 +67,7 @@
   "KXXRPD-26NOV2417-T0.8999:yes": {
    "qty": 0.8013438549268626,
    "entry": 0.9202830000000001,
-   "last": 0.73,
+   "last": 0.69,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:07:17+00:00",
    "coin": "YES | Ripple price at Nov 24, 2026 at 5pm EST?",
@@ -79,7 +79,7 @@
   "KXGOLDD-26NOV2417-T3565:yes": {
    "qty": 0.8182188751659075,
    "entry": 0.901303,
-   "last": 0.87,
+   "last": 0.76,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:07:17+00:00",
    "coin": "YES | Will the gold close price be above 3565 USD/t.oz on November 24, 2026 at 5:00 PM EST",
@@ -91,7 +91,7 @@
   "KXSOLD-26NOV2417-T67.9999:yes": {
    "qty": 0.7549113938906525,
    "entry": 0.976887,
-   "last": 0.76,
+   "last": 0.73,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:13:38+00:00",
    "coin": "YES | SOL price on Nov 24, 2026?",
@@ -103,7 +103,7 @@
   "KXETHD-26NOV2417-T1619.99:yes": {
    "qty": 0.7773833148266354,
    "entry": 0.9486479999999999,
-   "last": 0.92,
+   "last": 0.89,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:13:38+00:00",
    "coin": "YES | Ethereum price at Nov 24, 2026 at 5pm EST?",
@@ -115,7 +115,7 @@
   "KXSHIBAD-26NOV2417-T0.000003499:yes": {
    "qty": 0.8450091286674175,
    "entry": 0.872728,
-   "last": 0.69,
+   "last": 0.58,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:19:55+00:00",
    "coin": "YES | Shiba Inu price on Nov 24, 2026?",
@@ -127,7 +127,7 @@
   "KXBTCD-26NOV2417-T59249.99:yes": {
    "qty": 0.8543610818706032,
    "entry": 0.8631749999999999,
-   "last": 0.75,
+   "last": 0.66,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:19:55+00:00",
    "coin": "YES | Bitcoin price on Nov 24, 2026?",
@@ -163,7 +163,7 @@
   "KXHYPED-26NOV2417-T59.9999:yes": {
    "qty": 0.785197647423473,
    "entry": 0.9392070000000001,
-   "last": 0.81,
+   "last": 0.76,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:59:58+00:00",
    "coin": "YES | HYPE price on Nov 24, 2026?",
@@ -175,7 +175,7 @@
   "KXSILVERD-26NOV2417-T41.50:yes": {
    "qty": 0.7931826194981648,
    "entry": 0.9297520000000001,
-   "last": 0.63,
+   "last": 0.53,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T00:09:59+00:00",
    "coin": "YES | Will the silver close price be above 41.50 USD/t.oz on November 24, 2026 at 5:00 PM ",
@@ -219,6 +219,18 @@
    "side": "yes",
    "close": "2026-11-25T04:59:00Z",
    "why": "fav ask 0.96 ทุน 0.967 ปิด 2026-11-25T04:59:00Z"
+  },
+  "KXDJI-24NOV26-GE49000P00:yes": {
+   "qty": 0.8013438549268626,
+   "entry": 0.9202830000000001,
+   "last": 0.89,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-24T15:17:13+00:00",
+   "coin": "YES | Dow Jones price: At least 49,000 November 24, 2026 at 4pm ET",
+   "ticker": "KXDJI-24NOV26-GE49000P00",
+   "side": "yes",
+   "close": "2026-11-24T20:59:00Z",
+   "why": "fav ask 0.91 ทุน 0.920 ปิด 2026-11-24T20:59:00Z"
   }
  },
  "log": [
@@ -887,6 +899,15 @@
    "ret": 0.06473,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-24T15:17:13+00:00",
+   "coin": "YES | Dow Jones price: At least 49,000 November 24, 2026 at 4pm ET",
+   "px": 0.92028,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.91 ทุน 0.920 ปิด 2026-11-24T20:59:00Z",
+   "ask": 0.91
   }
  ],
  "seen": null,
@@ -932,6 +953,7 @@
   "KXNCAAMBTOTAL-26NOV23SEALCHI": 1795493823,
   "KX30YMORTW-26NOV25": 1795495978,
   "KXBRENTD-26NOV2417": 1795525884,
-  "KXAAAGASD-26NOV25": 1795525884
+  "KXAAAGASD-26NOV25": 1795525884,
+  "KXDJI-24NOV26": 1795533431
  }
 }
