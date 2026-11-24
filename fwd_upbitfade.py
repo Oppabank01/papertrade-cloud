@@ -4,7 +4,7 @@
 Rule: when Upbit posts a new trading-support notice ("신규 거래지원") for a coin that already traded on Binance at least
 3 days before, short it at the open of the second full hour after the notice (h1) and cover at h24 (23 h later).
 1x, a quarter of the start per trade, 0.05% per side (Binance USDT perp taker), funding ignored (after a pump it is
-usually positive, which pays shorts). Prices: Binance spot 1 h opens.
+usually positive, which pays shorts). Prices: Binance spot 1 h opens. Upbit blocks GitHub's runners, so the cloud reads the Mac's relay copy of the notice page.
 Why: who loses is the late buyer chasing the Upbit pump. The pump itself is over within the first minute (long from
 +1 min loses: median -0.6% over 15 min), but the fade lasts. Backtest of all 820 Upbit trade notices (Apr 2024 - Nov 2026),
 70 listings of coins already on Binance: short h1 -> h24 mean +6.4%, median +7.5%, 81% winners (t 4.0); the same coins
@@ -16,11 +16,13 @@ chosen by me from 5 tried. About 2 or 3 trades a month, so 50 trades take well o
   python3 fwd_upbitfade.py"""
 import json, random, re, time, urllib.request
 from datetime import datetime
+from pathlib import Path
 from byttrade import iso, load, save
 
 COST, SIZE, H = 0.0005, 0.25, 3600 * 1000
 NOTICES = "https://api-manager.upbit.com/api/v1/announcements?os=web&page=1&per_page=20&category=trade"
 KL = "https://data-api.binance.vision/api/v3/klines?symbol={}USDT&interval=1h&startTime={}&limit={}"
+RELAY = Path(__file__).parent / "data" / "upbit_notices.json"   # written by the Mac (crash.py upbit-pull in ../PaperTrade/agents.sh, every 2 min)
 ALTS = "ETH SOL XRP ADA DOGE AVAX LINK DOT LTC BCH XLM ATOM NEAR UNI AAVE APT ARB OP SUI INJ".split()
 ACCOUNTS = {"state_fwd_upbitfade.json": ("rule", "short เหรียญหลัง Upbit ประกาศรับเหรียญใหม่: เข้าชั่วโมงที่ 2 หลังประกาศ ถือ 23 ชม. (backtest 70 ไม้ เฉลี่ย +6.4% ชนะ 81%)"),
             "state_fwd_upbitfade_twin.json": ("random", "short หลังประกาศ Upbit ตัวควบคุม: short เหรียญใหญ่สุ่ม ช่วงเวลาเดียวกัน")}
@@ -96,9 +98,12 @@ def main():
     now, rng = time.time() * 1000, random.Random()
     try:
         found = listings(get(NOTICES)["data"]["notices"])
-    except Exception as e:
-        print("fwd_upbitfade notices fetch failed", type(e).__name__)
-        found = None
+    except Exception as e:                              # Upbit answers 403 to GitHub's runners: read the Mac's relay copy
+        try:
+            found = listings(json.loads(RELAY.read_text())["data"]["notices"])
+        except Exception:
+            print("fwd_upbitfade notices fetch failed", type(e).__name__, "and no relay copy")
+            found = None
     for f, (mode, label) in ACCOUNTS.items():
         s = load(f, label)
         s["mode"] = mode
