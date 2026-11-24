@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.5584917064407953,
+ "cash": 1.1679022075311436,
  "pos": {
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
    "sym": "TROLL",
    "qty": 19.12049384912569,
    "entry": 0.01977,
-   "last": 0.02074,
-   "peak": 0.02074,
+   "last": 0.02077,
+   "peak": 0.02077,
    "cost": 0.3896229266101988,
    "opened": "2026-11-24T05:55:52+07:00",
    "zoo": "w_pause_bigliq",
    "smart": 476,
    "kol": 214,
+   "gap": 0,
+   "miss": 0
+  },
+  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+   "sym": "USELESS",
+   "qty": 4.841573167780043,
+   "entry": 0.07827,
+   "last": 0.07842,
+   "peak": 0.07842,
+   "cost": 0.39058949890965167,
+   "opened": "2026-11-24T08:15:05+07:00",
+   "zoo": "w_pause_bigliq",
+   "smart": 928,
+   "kol": 295,
    "gap": 0,
    "miss": 0
   }
@@ -3999,8 +4013,22 @@
    "zoo": "w_pause_bigliq",
    "smart": 476,
    "kol": 214
+  },
+  {
+   "t": "2026-11-24T08:15:05+07:00",
+   "kind": "buy",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.07827,
+   "jup": 0.07831742847975184,
+   "usd": 0.3906,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_bigliq",
+   "smart": 928,
+   "kol": 295
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795482521.5074944
+ "rank_t": 1795482862.3887997
 }
