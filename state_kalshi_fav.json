@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 0.589856308837763,
+ "cash": 1.3995435363780109,
  "pos": {
   "KXSTEAMTOPSELLER-26NOV24-COU:yes": {
    "qty": 0.7549113938906525,
@@ -43,7 +43,7 @@
   "KXRAIN-26NOV23-SEA:yes": {
    "qty": 0.785197647423473,
    "entry": 0.9392070000000001,
-   "last": 0.78,
+   "last": 0.77,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T05:14:16+00:00",
    "coin": "YES | Will it rain in Seattle on Nov 23, 2026?",
@@ -79,7 +79,7 @@
   "KXWTI-26NOV2414-T77.99:yes": {
    "qty": 0.8269452146281397,
    "entry": 0.8917919999999999,
-   "last": 0.84,
+   "last": 0.83,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T21:08:04+00:00",
    "coin": "YES | Will the WTI crude oil settlement price be above 77.99 USD/Bbl on Nov 24, 2026?",
@@ -91,7 +91,7 @@
   "KXXRPD-26NOV2417-T0.8999:yes": {
    "qty": 0.8013438549268626,
    "entry": 0.9202830000000001,
-   "last": 0.94,
+   "last": 0.93,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:07:17+00:00",
    "coin": "YES | Ripple price at Nov 24, 2026 at 5pm EST?",
@@ -103,7 +103,7 @@
   "KXGOLDD-26NOV2417-T3565:yes": {
    "qty": 0.8182188751659075,
    "entry": 0.901303,
-   "last": 0.86,
+   "last": 0.87,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:07:17+00:00",
    "coin": "YES | Will the gold close price be above 3565 USD/t.oz on November 24, 2026 at 5:00 PM EST",
@@ -151,7 +151,7 @@
   "KXBTCD-26NOV2417-T59249.99:yes": {
    "qty": 0.8543610818706032,
    "entry": 0.8631749999999999,
-   "last": 0.78,
+   "last": 0.77,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:19:55+00:00",
    "coin": "YES | Bitcoin price on Nov 24, 2026?",
@@ -187,7 +187,7 @@
   "KXHYPED-26NOV2417-T59.9999:yes": {
    "qty": 0.785197647423473,
    "entry": 0.9392070000000001,
-   "last": 0.93,
+   "last": 0.92,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:59:58+00:00",
    "coin": "YES | HYPE price on Nov 24, 2026?",
@@ -199,7 +199,7 @@
   "KXSILVERD-26NOV2417-T41.50:yes": {
    "qty": 0.7931826194981648,
    "entry": 0.9297520000000001,
-   "last": 0.86,
+   "last": 0.87,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T00:09:59+00:00",
    "coin": "YES | Will the silver close price be above 41.50 USD/t.oz on November 24, 2026 at 5:00 PM ",
@@ -207,18 +207,6 @@
    "side": "yes",
    "close": "2026-11-24T22:00:00Z",
    "why": "fav ask 0.92 ทุน 0.930 ปิด 2026-11-24T22:00:00Z"
-  },
-  "KXNCAAMBTOTAL-26NOV23SEALCHI-134:yes": {
-   "qty": 0.809687227540248,
-   "entry": 0.9107999999999999,
-   "last": 0.99,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-24T04:17:04+00:00",
-   "coin": "YES | Full Game: Over 133.5 points scored",
-   "ticker": "KXNCAAMBTOTAL-26NOV23SEALCHI-134",
-   "side": "yes",
-   "close": "2026-11-26T02:30:00Z",
-   "why": "fav ask 0.90 ทุน 0.911 ปิด 2026-11-26T02:30:00Z"
   }
  },
  "log": [
@@ -824,6 +812,18 @@
    "ret": -1.0,
    "cost_side": 0,
    "why": "ตัดสิน no"
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-24T04:45:18+00:00",
+   "coin": "YES | Full Game: Over 133.5 points scored",
+   "px": 1.0,
+   "entry": 0.9108,
+   "usd": 0.80969,
+   "pnl": 0.07222,
+   "ret": 0.09794,
+   "cost_side": 0,
+   "why": "ตัดสิน yes"
   }
  ],
  "seen": null,

@@ -2,7 +2,7 @@
  "label": "Kalshi ตัวควบคุม: สุ่มฝั่งในตลาดเดียวกับตัวเต็ง/ตัวรอง",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 3.6089861422522813,
+ "cash": 4.418673369792529,
  "pos": {
   "KXSTEAMTOPSELLER-26NOV24-COU:no": {
    "qty": 13.765060697035144,
@@ -55,7 +55,7 @@
   "KXXRPD-26NOV2417-T0.8999:no": {
    "qty": 6.281467482463463,
    "entry": 0.117403,
-   "last": 0.05,
+   "last": 0.06,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:07:17+00:00",
    "coin": "NO | Ripple price at Nov 24, 2026 at 5pm EST?",
@@ -67,7 +67,7 @@
   "KXGOLDD-26NOV2417-T3565:yes": {
    "qty": 0.8182188751659075,
    "entry": 0.901303,
-   "last": 0.86,
+   "last": 0.87,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:07:17+00:00",
    "coin": "YES | Will the gold close price be above 3565 USD/t.oz on November 24, 2026 at 5:00 PM EST",
@@ -91,25 +91,13 @@
   "KXSILVERD-26NOV2417-T41.50:no": {
    "qty": 6.90508545733762,
    "entry": 0.1068,
-   "last": 0.1,
+   "last": 0.09,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T00:09:59+00:00",
    "coin": "NO | Will the silver close price be above 41.50 USD/t.oz on November 24, 2026 at 5:00 PM E",
    "ticker": "KXSILVERD-26NOV2417-T41.50",
    "side": "no",
    "close": "2026-11-24T22:00:00Z",
-   "why": "สุ่มฝั่ง"
-  },
-  "KXNCAAMBTOTAL-26NOV23SEALCHI-134:yes": {
-   "qty": 0.809687227540248,
-   "entry": 0.9107999999999999,
-   "last": 0.99,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-24T04:17:04+00:00",
-   "coin": "YES | Full Game: Over 133.5 points scored",
-   "ticker": "KXNCAAMBTOTAL-26NOV23SEALCHI-134",
-   "side": "yes",
-   "close": "2026-11-26T02:30:00Z",
    "why": "สุ่มฝั่ง"
   }
  },
@@ -635,6 +623,18 @@
    "ret": -1.0,
    "cost_side": 0,
    "why": "ตัดสิน no"
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-24T04:45:19+00:00",
+   "coin": "YES | Full Game: Over 133.5 points scored",
+   "px": 1.0,
+   "entry": 0.9108,
+   "usd": 0.80969,
+   "pnl": 0.07222,
+   "ret": 0.09794,
+   "cost_side": 0,
+   "why": "ตัดสิน yes"
   }
  ],
  "seen": null,
