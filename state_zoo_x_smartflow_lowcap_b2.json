@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 5.280695542166217,
+ "cash": 4.583645646676715,
  "pos": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": {
    "sym": "VEIL",
    "qty": 6447.692531710716,
    "entry": 0.0004371,
-   "last": 0.0003759,
+   "last": 0.0003783,
    "peak": 0.0004765,
    "cost": 2.9048509643483342,
    "opened": "2026-11-22T19:53:20+07:00",
@@ -21,14 +21,14 @@
    "sym": "swordcat",
    "qty": 5662.624936394442,
    "entry": 0.0004298,
-   "last": 0.0005537,
+   "last": 0.0005672,
    "peak": 0.0006449,
    "cost": 2.508551017998692,
    "opened": "2026-11-23T04:55:37+07:00",
    "zoo": "x_smartflow_lowcap_b2",
    "smart": 318,
    "kol": 43,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "Hmeju3J16Cbx1D6snGFNDGTV32AS9TYPaXyVYHBqpump": {
@@ -547,10 +547,39 @@
    "cost_side": 0.03,
    "smart": 135,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T16:28:08+07:00",
+   "kind": "buy",
+   "mint": "4pf9HEnkdN3ihjVbfZg2NwbZkCJyUk4na44oysuWpump",
+   "sym": "scamsem",
+   "price": 6.769e-05,
+   "jup": 6.756399174824244e-05,
+   "usd": 2.7105,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "x_smartflow_lowcap_b2",
+   "smart": 82,
+   "kol": 7
+  },
+  {
+   "t": "2026-11-24T16:31:44+07:00",
+   "kind": "sell",
+   "mint": "4pf9HEnkdN3ihjVbfZg2NwbZkCJyUk4na44oysuWpump",
+   "sym": "scamsem",
+   "price": 5.341903995053692e-05,
+   "entry": 6.769e-05,
+   "usd": 2.0135,
+   "pnl": -0.697,
+   "why": "stop -21.1%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 82,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: smart money เข้า 3+ มาร์เก็ตแคปต่ำ ขายครึ่งที่ x2",
- "rank_t": 1795512091.626653,
+ "rank_t": 1795512437.7042034,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "GNHW5JetZmW85vAU35KyoDcYoSd3sNWtx5RPMTDJpump": "GOAT",
