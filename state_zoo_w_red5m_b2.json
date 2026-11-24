@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.213655408013082,
+ "cash": 4.087310469069735,
  "pos": {
   "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
    "sym": "FIONA",
    "qty": 558.4427701987554,
    "entry": 0.003687,
-   "last": 0.004226,
+   "last": 0.004372,
    "peak": 0.004874,
    "cost": 2.0797237380094553,
    "opened": "2026-11-24T09:29:49+07:00",
@@ -21,13 +21,27 @@
    "sym": "TROLL",
    "qty": 104.5971202906684,
    "entry": 0.01997,
-   "last": 0.01997,
+   "last": 0.0201,
    "peak": 0.02033,
    "cost": 2.109850248432765,
    "opened": "2026-11-24T11:36:06+07:00",
    "zoo": "w_red5m_b2",
    "smart": 476,
    "kol": 214,
+   "gap": 0,
+   "miss": 0
+  },
+  "Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": {
+   "sym": "HODL",
+   "qty": 1262.8282232617805,
+   "entry": 0.001667,
+   "last": 0.001683,
+   "peak": 0.001683,
+   "cost": 2.126344938943348,
+   "opened": "2026-11-24T15:10:55+07:00",
+   "zoo": "w_red5m_b2",
+   "smart": 367,
+   "kol": 35,
    "gap": 0,
    "miss": 0
   }
@@ -427,10 +441,24 @@
    "cost_side": 0.01,
    "smart": 928,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T15:10:55+07:00",
+   "kind": "buy",
+   "mint": "Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump",
+   "sym": "HODL",
+   "price": 0.001667,
+   "jup": 0.0016813803297955983,
+   "usd": 2.1263,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_red5m_b2",
+   "smart": 367,
+   "kol": 35
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สวนทาง: อายุเกิน 1 วัน pool 200k+ กำลังแดง 5 นาที",
- "rank_t": 1795507399.2687116,
+ "rank_t": 1795507782.6858144,
  "banned": {
   "J1Wpmugrooj1yMyQKrdZ2vwRXG5rhfx3vTnYE39gpump": "WOULD",
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings"
