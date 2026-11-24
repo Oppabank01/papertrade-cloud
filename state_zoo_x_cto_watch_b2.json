@@ -21,28 +21,28 @@
    "sym": "paws",
    "qty": 2763.3075440232856,
    "entry": 0.000425,
-   "last": 0.000389,
+   "last": 0.0003935692229022037,
    "peak": 0.000439,
    "cost": 1.2104779490928637,
    "opened": "2026-11-24T15:58:25+07:00",
    "zoo": "x_cto_watch_b2",
    "smart": 316,
    "kol": 15,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
-  "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": {
-   "sym": "LuckyCoin",
-   "qty": 28060.41565641465,
-   "entry": 6.311e-05,
-   "last": 6.784746025717007e-05,
-   "peak": 7.291e-05,
-   "cost": 1.8252863657764673,
-   "opened": "2026-11-24T16:17:31+07:00",
+  "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": {
+   "sym": "Kimchi",
+   "qty": 827.7849858014087,
+   "entry": 0.001694,
+   "last": 0.0016494928387430436,
+   "peak": 0.001694,
+   "cost": 1.4453388640976976,
+   "opened": "2026-11-24T17:08:27+07:00",
    "zoo": "x_cto_watch_b2",
-   "smart": 119,
-   "kol": 5,
-   "gap": 1,
+   "smart": 683,
+   "kol": 69,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -622,10 +622,39 @@
    "zoo": "x_cto_watch_b2",
    "smart": 119,
    "kol": 5
+  },
+  {
+   "t": "2026-11-24T17:05:54+07:00",
+   "kind": "sell",
+   "mint": "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump",
+   "sym": "LuckyCoin",
+   "price": 5.3090193776794796e-05,
+   "entry": 6.311e-05,
+   "usd": 1.4453,
+   "pnl": -0.3799,
+   "why": "trailing จากยอด +16% (-15.9%)",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": 119,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-24T17:08:27+07:00",
+   "kind": "buy",
+   "mint": "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
+   "sym": "Kimchi",
+   "price": 0.001694,
+   "jup": 0.0016789449284553921,
+   "usd": 1.4453,
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "zoo": "x_cto_watch_b2",
+   "smart": 683,
+   "kol": 69
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: รอ dev เทหมดแล้วมี CTO: dev ถือ 0% ซื้อ 40% ขายครึ่ง x3 trail 15% stop -18%",
- "rank_t": 1795514350.2315316,
+ "rank_t": 1795514753.9409664,
  "banned": {
   "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm": "KLED"
  }
