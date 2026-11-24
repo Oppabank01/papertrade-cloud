@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 4.31027521685726,
- "pos": {
-  "Fgmy6MpdrH8jjJ9i8RY53PVVdFdKLz6JX34tHJvcpump": {
-   "sym": "ANSEM",
-   "qty": 4401.925279363067,
-   "entry": 0.0002375,
-   "last": 0.0002375,
-   "peak": 0.0002375,
-   "cost": 1.077568804214315,
-   "opened": "2026-11-24T16:09:44+07:00",
-   "wallet": "7NnaXg",
-   "wallet_usd": 354,
-   "lag_min": 0.3,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 4.617683651133879,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T10:36:33+07:00",
@@ -12159,14 +12144,47 @@
    "wallet": "7g5CJ7",
    "usd": 283,
    "why": "liq $0"
+  },
+  {
+   "t": "2026-11-24T16:16:02+07:00",
+   "kind": "skip",
+   "mint": "Fgmy6MpdrH8jjJ9i8RY53PVVdFdKLz6JX34tHJvcpump",
+   "sym": "ANSEM",
+   "wallet": "7NnaXg",
+   "usd": 354,
+   "why": "repeat"
+  },
+  {
+   "t": "2026-11-24T16:16:02+07:00",
+   "kind": "skip",
+   "mint": "Fgmy6MpdrH8jjJ9i8RY53PVVdFdKLz6JX34tHJvcpump",
+   "sym": "ANSEM",
+   "wallet": "7NnaXg",
+   "usd": 354,
+   "why": "repeat"
+  },
+  {
+   "t": "2026-11-24T16:16:06+07:00",
+   "kind": "sell",
+   "mint": "Fgmy6MpdrH8jjJ9i8RY53PVVdFdKLz6JX34tHJvcpump",
+   "sym": "ANSEM",
+   "price": 7.198e-05,
+   "entry": 0.0002375,
+   "usd": 0.3074,
+   "pnl": -0.7702,
+   "why": "stop -69.7%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ ผ่าน Helius",
  "cursor": {
-  "FqJMNzzY1DHz2F1Pt6F7VqCxBWdu8cK2TbfTrYT9zQbT": "4srvw8d1mf4JwAUjhVNPdkeiwnWMNAeqUS1iHptWLWUDdxb6PnuiNGgG4eq1g5m8dCt1dhMjF5mW6DSoJMaPTVj6",
+  "FqJMNzzY1DHz2F1Pt6F7VqCxBWdu8cK2TbfTrYT9zQbT": "2sdbqBgMSEg6Ca3Fvrb97KW4zcsx78hJFvzqaJjH4F93AV9Xa74cWo2KxSoYS4MmN3qf9vcttrFme4j5RuuEek4r",
   "2kN7bb7sVKn4iBWDMpo8aAVyyQxAVpZATQ7RRkmoy6Mm": "4qKzii85RiZADv3e33QbZYVEcpaTSRnC2qchGXeniLaUu2cesLxbRWUFRJQo2ctqGTjbsbNEDNf7giWstuQveXbi",
-  "7NnaXghjuU92gM9kmwXysqa5HboyZuR2LTaBnvazFxSH": "tRqemsVqe1BVRqut4SyW8DFhLcHXJzYMBYcKVj3GZ9mvb3iUyMZCyAF4Hb7XVSNBedXyoJPLY7tavqUrDP4d1Dy",
-  "7g5CJ754NboeY6D44MDdGwQmVX4Fvu59Q47c9ZKLPMkE": "4vL1vLG8snEAPshe86JZeAib4FmAUnNmEKLBhncbykuyWmpMbqF76CkyxQnsTEhwQ3MHRRNGGhnXwa957ufeZpiB",
+  "7NnaXghjuU92gM9kmwXysqa5HboyZuR2LTaBnvazFxSH": "57UQmmhdPWNpuX8Nut3cKmrjTZAaoSj6Du9kWCPBAKuL1DMmUxoZJCAJmGXpWnpLqqwU71mnChu1WHkHb4ensdio",
+  "7g5CJ754NboeY6D44MDdGwQmVX4Fvu59Q47c9ZKLPMkE": "3zvLQUCp5pjMjd9KZokEAgXG6Xu13ffSB7C3tDkq1iGsmn2NiiHNGcbD2tfAKubjJw38EkiGgyS9BncxuEsHzW7m",
   "8emnM6nfVM2ePrYDmZcMkwy8qzDhRFZ5EefCkMsmgByX": "2Puz1gsWgSPoZ5mbBPWeqzihD9x2D8V5umFZbunV2KGEdSMLxVMZEreVHuuTr4HoJK6bqHJekiN9HAxnFYLHqvZy",
   "ENskGQev2bXPjaCYPV9bUcPLv3635Y18BWzLN95x4soC": "2W31JJhAUfV9bHcHNtitndPRgv2sFECXySesovUFc2qcBoxUywNjXfhvENtCoYJw4f2rBfkmWJnmGEaiZBKmNaxi",
   "chudc2GnxyW2V7nmLA9bkrzFmKkvPyTfN7V7Uu6XG6o": "476awumt4RkUbPBDVrsykshZJtWHCRs7ENReTuL9VAFjBSzXK8qEVmzKhqAXzH3ADkwiyz3vihS8Ubr3psQE3AdQ",

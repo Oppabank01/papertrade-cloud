@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 1.8252863657764673,
+ "cash": 0.0,
  "pos": {
   "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm": {
    "sym": "KLED",
@@ -14,14 +14,14 @@
    "zoo": "x_cto_watch_b2",
    "smart": 161,
    "kol": 82,
-   "gap": 6,
+   "gap": 10,
    "miss": 0
   },
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
    "sym": "paws",
    "qty": 2763.3075440232856,
    "entry": 0.000425,
-   "last": 0.0004351,
+   "last": 0.0004321,
    "peak": 0.000439,
    "cost": 1.2104779490928637,
    "opened": "2026-11-24T15:58:25+07:00",
@@ -29,6 +29,20 @@
    "smart": 316,
    "kol": 15,
    "gap": 0,
+   "miss": 0
+  },
+  "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": {
+   "sym": "LuckyCoin",
+   "qty": 28060.41565641465,
+   "entry": 6.311e-05,
+   "last": 6.256e-05,
+   "peak": 6.311e-05,
+   "cost": 1.8252863657764673,
+   "opened": "2026-11-24T16:17:31+07:00",
+   "zoo": "x_cto_watch_b2",
+   "smart": 119,
+   "kol": 5,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -594,10 +608,24 @@
    "cost_side": 0.03,
    "smart": 183,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T16:17:31+07:00",
+   "kind": "buy",
+   "mint": "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump",
+   "sym": "LuckyCoin",
+   "price": 6.311e-05,
+   "jup": 6.249965142208035e-05,
+   "usd": 1.8253,
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "zoo": "x_cto_watch_b2",
+   "smart": 119,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: รอ dev เทหมดแล้วมี CTO: dev ถือ 0% ซื้อ 40% ขายครึ่ง x3 trail 15% stop -18%",
- "rank_t": 1795511348.0688643,
+ "rank_t": 1795511729.7642276,
  "banned": {
   "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm": "KLED"
  }
