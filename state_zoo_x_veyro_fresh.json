@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.645577035735208,
- "cash": 7.074072996798456,
- "pos": {},
+ "cash": 5.659258397438765,
+ "pos": {
+  "43VZnFBaAzqbTnjJntky6Fx3r8E7K4CNnLhoTgNkpump": {
+   "sym": "PAPX",
+   "qty": 70573.42541381865,
+   "entry": 1.945e-05,
+   "last": 1.907e-05,
+   "peak": 1.957e-05,
+   "cost": 1.4148145993596914,
+   "opened": "2026-11-24T22:38:38+07:00",
+   "zoo": "x_veyro_fresh",
+   "smart": 6,
+   "kol": 2,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-23T13:14:47+07:00",
@@ -549,12 +564,26 @@
    "cost_side": 0.03,
    "smart": 35,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T22:38:38+07:00",
+   "kind": "buy",
+   "mint": "43VZnFBaAzqbTnjJntky6Fx3r8E7K4CNnLhoTgNkpump",
+   "sym": "PAPX",
+   "price": 1.945e-05,
+   "jup": 1.9551608125595355e-05,
+   "usd": 1.4148,
+   "stop_set": -0.3,
+   "cost_side": 0.03,
+   "zoo": "x_veyro_fresh",
+   "smart": 6,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุไม่เกิน 10 นาทีตอนกลางคืน ขายครึ่งที่ x10 (โพสต์ veyro)",
  "night": "2026-11-24",
  "night_start": 8.240032186660855,
- "rank_t": 1795534250.4065015,
+ "rank_t": 1795534599.5679996,
  "nights": [
   {
    "night": "2026-11-23",
