@@ -454,3 +454,15 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ลองแล้วตก: Tadex momentum 5 นาที
 ไอเดีย: บอทช้อนย่อของ heyrooksy (ต้องได้ prompt ที่ให้คะแนน), บอทอากาศของ recogard (วิธีเดียวกับ state_poly_weather ที่รันอยู่)
 เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมที่ตัดสินได้)
+
+## 2026-11-24 07:02 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 17 พ.ย. (mean reversion crypto, trading bot binance, volatility strategy, quant agent), X 4 ครั้ง (memecoin strategy rules backtest, เทรดเหรียญมีม, trading bot entry rule stop loss take profit backtest results, open source crypto trading strategy github win rate), เว็บ 1 ครั้ง (anomaly ระหว่างวันของ BTC ในเปเปอร์ล่าสุด)
+เจอ: Holy Grail ของ Raschke/Connors ใน repo Jordan-Johnson90 (กฎครบในโค้ด), บอท B_ruptura ของ acerodario (ทะลุ high 2 วันพร้อมวอลุ่ม 2 เท่า), เปเปอร์ MDPI JRFM เรื่องช่วงกลางวันกลางคืนของ BTC ETH (อ่านตัวเต็มไม่ได้ เว็บตอบ 403), repo ตรวจคำอ้างออปชันของ krstesimeonov ส่วน X ไม่มีของใหม่ ผลเป็นโพสต์ที่มีใน feed แล้ว (0xJamino, MisterFeeman) โพสต์เก่า และโฆษณา
+ทดสอบแล้ว (Binance หลังหัก 0.35%/ข้าง permutation 200 รอบ บน 3 ปีล่าสุด):
+- Holy Grail 1 ชม. 2017-2026 เลขของ repo (ADX 30 หน้าต่าง 5 แท่ง swing 100 แท่ง ถือไม่เกิน 50 แท่ง ตัด re-entry กับเพดานขาดทุนรายวัน และเช็ก stop ในแท่งที่เข้าด้วย): BTC 818 ไม้ -0.81% ETH 786 ไม้ -0.67% SOL 540 ไม้ -0.81% ต่อไม้ ก่อนหัก -0.11/+0.03/-0.11% ชนะ 26-27% เข้าสุ่ม -0.81/-0.82/-0.93% p 0.637/0.090/0.284 ติดลบทุกปี
+- B_ruptura 1 ชม. long: ตัวกรอง ATR 1 ชม. 3% ทำให้ BTC ไม่มีไม้ ETH 5 ไม้ DOGE 44 ไม้ +0.83% (ไม้น้อย) PEPE 36 ไม้ -0.43% WIF 20 ไม้ -0.78% SOL 33 ไม้ -0.74% ตัดตัวกรอง ATR ทิ้ง: BTC 376 ไม้ -0.58% ETH 391 -0.43% SOL 307 -0.11% DOGE 322 -0.44% PEPE 166 -0.38% WIF 103 -0.09% ต่อไม้ ดีกว่าเข้าสุ่ม (-0.58 ถึง -1.08%) เล็กน้อยแต่ยังติดลบ p 0.25 ถึง 0.56 ยังเปิดบัญชีไม่ได้เพราะ byttrade.fetch ไม่ส่งวอลุ่ม
+- ช่วงกลางวันกลางคืน (แบบใกล้ที่สุดของ MDPI): ถือ long 12 ชม. ต่อวัน เลือกชั่วโมงเริ่มบน 2017-2020 ETH ได้ 13:00 UTC นอกตัวอย่างก่อนหัก +0.079% ต่อวัน เทียบค่าเฉลี่ยทุกชั่วโมงเริ่ม +0.056% หลังหัก -0.62% ต่อวัน BTC ได้ 11:00 UTC หลังหัก -0.64% ต่อวัน
+เปิดบัญชี: fwd_hgrail.py (1 ชม. BTC ETH SOL long และ short พร้อมตัวแฝดตั้ง stop order แท่งสุ่ม ฝั่งสุ่ม) test เดินทีละแท่งและผ่าน json ทุกรอบตรง backtest 60 ไม้ สคริปต์ /tmp/scout_0652/
+ลองแล้วตก: ช่วงกลางวันกลางคืนของ MDPI
+ไอเดีย: options-claims-audit (ต้องมีข้อมูล chain ออปชันหุ้นสหรัฐ), B_ruptura แบบ forward (ต้องเพิ่มวอลุ่มใน byttrade.fetch)
+เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมที่ตัดสินได้)

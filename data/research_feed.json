@@ -1456,5 +1456,50 @@
   "summary": "รวม repo บอทตลาดอุณหภูมิ ใช้พยากรณ์ ensemble GFS ประเมินความน่าจะเป็นแล้วซื้อช่องที่ราคาต่ำกว่า",
   "verdict": "ไอเดีย",
   "action": "วิธีเดียวกับ state_poly_weather ที่รันอยู่แล้ว (Open-Meteo ECMWF+GEFS) ไม่ได้รันโค้ดจาก repo ไม่เปิดบัญชีซ้ำ"
+ },
+ {
+  "t": "2026-11-24T07:02:41+07:00",
+  "source": "github",
+  "title": "Jordan-Johnson90/quant-strategy-research: Holy Grail (Raschke/Connors ADX14 + EMA20 trend pullback)",
+  "url": "https://github.com/Jordan-Johnson90/quant-strategy-research",
+  "summary": "ท่าคลาสสิกจากหนังสือ Street Smarts เมื่อ ADX เกิน 30 และกำลังขึ้น รอราคาย่อแตะ EMA20 แล้วตั้ง buy stop ที่ high ของแท่งนั้น stop ที่ low เป้าที่จุดสูงสุด 100 แท่ง repo เขียนกฎครบสำหรับ futures ดัชนี",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest Binance 1 ชม. 2017-2026 เลขของ repo (ตัด re-entry กับเพดานขาดทุนรายวัน) หลังหัก 0.35%/ข้าง BTC 818 ไม้ -0.81% ETH 786 ไม้ -0.67% SOL 540 ไม้ -0.81% ต่อไม้ ก่อนหัก -0.11/+0.03/-0.11% ชนะ 26-27% เข้าสุ่ม -0.81/-0.82/-0.93% permutation 200 รอบ 3 ปีล่าสุด p 0.637/0.090/0.284 ติดลบทุกปี เปิด fwd_hgrail.py พร้อมตัวแฝดเข้าสุ่ม test เดินทีละแท่งตรง backtest 60 ไม้"
+ },
+ {
+  "t": "2026-11-24T07:02:41+07:00",
+  "source": "github",
+  "title": "acerodario/binance-trading-bot: B_ruptura (ทะลุจุดสูงสุด 2 วัน วอลุ่ม 2 เท่า) แท่ง 1 ชม.",
+  "url": "https://github.com/acerodario/binance-trading-bot",
+  "summary": "บอทสแกน perp Binance 520 ตัวทุกชั่วโมง ท่าที่ใช้จริงคือปิดเหนือ high 48 แท่งก่อนพร้อมวอลุ่มเกิน 2 เท่า คะแนน 60 ขึ้นไป BTC เหนือ EMA50 รายวัน ATR 1 ชม. 3% ขึ้นไป stop -10% trailing เริ่ม +5% คืน 2% ถือไม่เกิน 24 ชม.",
+  "verdict": "ทดสอบแล้ว",
+  "action": "backtest Binance 1 ชม. หลังหัก 0.35%/ข้าง ตัวกรอง ATR 3% แทบไม่ผ่านเหรียญใหญ่ (BTC 0 ไม้ ETH 5 ไม้) DOGE 44 ไม้ +0.83% PEPE 36 ไม้ -0.43% WIF 20 ไม้ -0.78% SOL 33 ไม้ -0.74% ไม่ใช้ตัวกรอง ATR: BTC 376 ไม้ -0.58% ETH 391 -0.43% SOL 307 -0.11% DOGE 322 -0.44% PEPE 166 -0.38% WIF 103 -0.09% ต่อไม้ เข้าสุ่มแบบเดียวกัน -0.58 ถึง -1.08% permutation 200 รอบ 3 ปี p 0.25-0.56 ทุกตัว ยังเปิดบัญชีไม่ได้เพราะ byttrade.fetch ไม่ส่งวอลุ่ม ถ้าจะ forward ให้เพิ่มวอลุ่มใน fetch แล้วเปิดบน DOGE PEPE WIF 1 ชม. แบบไม่ใช้ตัวกรอง ATR"
+ },
+ {
+  "t": "2026-11-24T07:02:41+07:00",
+  "source": "web",
+  "title": "MDPI JRFM 19(9) 692: แบ่งวันคริปโตเป็นช่วงกลางวันกลางคืน เลือกกฎบน 2016-2020 ทดสอบ 2021-2025",
+  "url": "https://www.mdpi.com/1911-8074/19/9/692",
+  "summary": "เปเปอร์บอกว่ากฎช่วงเวลาของ ETH ที่เลือกบนข้อมูล 2016-2020 ยังรอดใน 2021-2025 แต่ของ BTC แพ้การถือเฉยๆ อ่านตัวเต็มไม่ได้ (เว็บตอบ 403) จึงไม่รู้ชั่วโมงที่แบ่ง",
+  "verdict": "ลองแล้วตก",
+  "action": "แบบใกล้ที่สุด: ถือ long 12 ชม. ต่อวัน เลือกชั่วโมงเริ่มจาก 24 แบบบน 2017-2020 ETH ได้ 13:00 UTC ก่อนหักใน +0.31% ต่อวัน นอกตัวอย่าง 2021 ขึ้นไป +0.079% เทียบค่าเฉลี่ยทุกชั่วโมงเริ่ม +0.056% (แค่ drift ขาขึ้น) หลังหักไปกลับ 0.7% เหลือ -0.62% ต่อวัน BTC เลือกได้ 11:00 UTC นอกตัวอย่าง +0.064% หลังหัก -0.64% ต่อวัน"
+ },
+ {
+  "t": "2026-11-24T07:02:41+07:00",
+  "source": "github",
+  "title": "krstesimeonov/options-claims-audit: ตรวจ 5 คำอ้างกลยุทธ์ออปชันจากช่อง YouTube Volatility Vibes",
+  "url": "https://github.com/krstesimeonov/options-claims-audit",
+  "summary": "โปรเจกต์ล็อกกฎไว้ก่อนแล้วทดสอบหลังวันเผยแพร่ เช่น ขาย straddle ช่วงงบ, variance risk premium, calendar ตาม Forward Factor ตอนนี้ยังไม่ทดสอบสักข้อ",
+  "verdict": "ไอเดีย",
+  "action": "ต้องมีข้อมูล chain ออปชันหุ้นสหรัฐย้อนหลัง (repo ใช้ marketdata.app ที่ต้องมี token เสียเงิน) ตามผลเมื่อ repo ทดสอบเสร็จ"
+ },
+ {
+  "t": "2026-11-24T07:02:41+07:00",
+  "source": "x",
+  "title": "ค้น X 4 ครั้ง (memecoin strategy rules backtest, เทรดเหรียญมีม, trading bot entry rule stop loss, open source crypto strategy github win rate)",
+  "url": "https://x.com/0xJamino/status/2122383002097377624",
+  "summary": "ไม่เจอของใหม่ ผลที่ได้คือโพสต์ที่มีใน feed แล้ว (0xJamino prompt บอท Grok, MisterFeeman) โพสต์เก่าปี 2023-2024 และโพสต์โฆษณาไม่มีกฎ",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีอะไรให้ทดสอบ รอบหน้าควรค้นด้วยชื่อบัญชีหรือคำเฉพาะแทนคำกว้าง"
  }
 ]
