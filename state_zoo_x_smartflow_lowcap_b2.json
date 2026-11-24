@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 4.67238189209235,
+ "cash": 6.559700804417744,
  "pos": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": {
    "sym": "VEIL",
@@ -21,7 +21,7 @@
    "sym": "GOAT",
    "qty": 52969.93250762946,
    "entry": 5.316e-05,
-   "last": 6.405e-05,
+   "last": 6.348e-05,
    "peak": 8.378e-05,
    "cost": 2.9023723068497036,
    "opened": "2026-11-22T19:57:04+07:00",
@@ -35,30 +35,15 @@
    "sym": "swordcat",
    "qty": 5662.624936394442,
    "entry": 0.0004298,
-   "last": 0.0005306728829932585,
+   "last": 0.0005359,
    "peak": 0.0005997,
    "cost": 2.508551017998692,
    "opened": "2026-11-23T04:55:37+07:00",
    "zoo": "x_smartflow_lowcap_b2",
    "smart": 318,
    "kol": 43,
-   "gap": 8,
+   "gap": 0,
    "miss": 0
-  },
-  "4ZgqnNi53sRKKegFpYefFjsFE6zQ3T64Xkavcoh7pump": {
-   "sym": "CHIBI",
-   "qty": 15811.821753712857,
-   "entry": 8.213e-05,
-   "last": 0.00014089719213897562,
-   "peak": 0.00016757405737400895,
-   "cost": 1.3385125959930293,
-   "opened": "2026-11-24T10:41:54+07:00",
-   "zoo": "x_smartflow_lowcap_b2",
-   "smart": 103,
-   "kol": 6,
-   "gap": 6,
-   "miss": 0,
-   "half": true
   }
  },
  "log": [
@@ -460,10 +445,25 @@
    "usd": 2.5707,
    "pnl": 1.2322,
    "why": "ขายครึ่ง +104.0%"
+  },
+  {
+   "t": "2026-11-24T11:19:31+07:00",
+   "kind": "sell",
+   "mint": "4ZgqnNi53sRKKegFpYefFjsFE6zQ3T64Xkavcoh7pump",
+   "sym": "CHIBI",
+   "price": 0.0001230274752790113,
+   "entry": 8.213e-05,
+   "usd": 1.8873,
+   "pnl": 0.5488,
+   "why": "trailing จากยอด +104% (+49.8%)",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 103,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: smart money เข้า 3+ มาร์เก็ตแคปต่ำ ขายครึ่งที่ x2",
- "rank_t": 1795493554.154972,
+ "rank_t": 1795493886.1189303,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "GNHW5JetZmW85vAU35KyoDcYoSd3sNWtx5RPMTDJpump": "GOAT",
