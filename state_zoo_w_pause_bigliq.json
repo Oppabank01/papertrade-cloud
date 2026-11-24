@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.732184557110432,
+ "cash": 0.37902345392102993,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 10.200327061816838,
    "entry": 0.03453,
-   "last": 0.03434,
+   "last": 0.03463,
    "peak": 0.03486,
    "cost": 0.36303575906466234,
    "opened": "2026-11-24T15:46:23+07:00",
@@ -21,7 +21,7 @@
    "sym": "PUMPCADE",
    "qty": 24.732149225428984,
    "entry": 0.01417,
-   "last": 0.01388,
+   "last": 0.01385,
    "peak": 0.01419,
    "cost": 0.36121887706073874,
    "opened": "2026-11-24T15:52:10+07:00",
@@ -35,13 +35,27 @@
    "sym": "CLAW",
    "qty": 52.44073556505527,
    "entry": 0.006637,
-   "last": 0.006463,
+   "last": 0.006487,
    "peak": 0.0067,
    "cost": 0.3587396020874786,
    "opened": "2026-11-24T15:57:36+07:00",
    "zoo": "w_pause_bigliq",
    "smart": 263,
    "kol": 30,
+   "gap": 0,
+   "miss": 0
+  },
+  "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
+   "sym": "baton",
+   "qty": 108.08735088781005,
+   "entry": 0.00317,
+   "last": 0.003281,
+   "peak": 0.003281,
+   "cost": 0.353161103189402,
+   "opened": "2026-11-24T16:22:33+07:00",
+   "zoo": "w_pause_bigliq",
+   "smart": 733,
+   "kol": 80,
    "gap": 0,
    "miss": 0
   }
@@ -4176,8 +4190,22 @@
    "zoo": "w_pause_bigliq",
    "smart": 263,
    "kol": 30
+  },
+  {
+   "t": "2026-11-24T16:22:33+07:00",
+   "kind": "buy",
+   "mint": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
+   "sym": "baton",
+   "price": 0.00317,
+   "jup": 0.0031890085571165613,
+   "usd": 0.3532,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_bigliq",
+   "smart": 733,
+   "kol": 80
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795511729.7642276
+ "rank_t": 1795512091.626653
 }
