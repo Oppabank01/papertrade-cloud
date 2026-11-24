@@ -7,7 +7,7 @@
    "sym": "2027",
    "qty": 7558.936535939488,
    "entry": 0.0003714,
-   "last": 0.0003495,
+   "last": 0.0003487,
    "peak": 0.0004779,
    "cost": 2.893618871828412,
    "opened": "2026-11-24T12:17:50+07:00",
@@ -21,14 +21,14 @@
    "sym": "Huss",
    "qty": 4189.245620882508,
    "entry": 0.0004947,
-   "last": 0.0006501,
+   "last": 0.0006234,
    "peak": 0.0006501,
    "cost": 2.136074838848255,
    "opened": "2026-11-24T17:55:19+07:00",
    "zoo": "x_smartflow_lowcap_b2",
    "smart": 155,
    "kol": 7,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": {
@@ -42,14 +42,14 @@
    "zoo": "x_smartflow_lowcap_b2",
    "smart": 128,
    "kol": 11,
-   "gap": 4,
+   "gap": 23,
    "miss": 0
   },
   "Cocrz7BR2xE2sgKn3VbmaTXH6HTVgCiVFWTVWmyTpump": {
    "sym": "Mogmas",
    "qty": 18044.369234883736,
    "entry": 0.0001066,
-   "last": 0.000117,
+   "last": 0.0001135,
    "peak": 0.0001213,
    "cost": 1.982611585692235,
    "opened": "2026-11-25T02:42:42+07:00",
@@ -918,16 +918,24 @@
    "zoo": "x_smartflow_lowcap_b2",
    "smart": 77,
    "kol": 5
+  },
+  {
+   "t": "2026-11-25T03:04:49+07:00",
+   "kind": "ban",
+   "mint": "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray",
+   "sym": "PEAK",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: smart money เข้า 3+ มาร์เก็ตแคปต่ำ ขายครึ่งที่ x2",
- "rank_t": 1795550072.7624798,
+ "rank_t": 1795550465.7212744,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "GNHW5JetZmW85vAU35KyoDcYoSd3sNWtx5RPMTDJpump": "GOAT",
   "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": "swordcat",
   "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": "GROKIA",
   "4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn": "Memeployed",
-  "Hmeju3J16Cbx1D6snGFNDGTV32AS9TYPaXyVYHBqpump": "2027"
+  "Hmeju3J16Cbx1D6snGFNDGTV32AS9TYPaXyVYHBqpump": "2027",
+  "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": "PEAK"
  }
 }
