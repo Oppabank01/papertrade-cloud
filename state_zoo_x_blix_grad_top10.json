@@ -1,20 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.628437682855472,
- "cash": 11.860341642666038,
+ "cash": 8.905298563751833,
  "pos": {
   "4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn": {
    "sym": "Memeployed",
    "qty": 31268.759406833124,
    "entry": 9.2e-05,
-   "last": 9.848e-05,
-   "peak": 9.857e-05,
+   "last": 0.00011183664534623417,
+   "peak": 0.00011183664534623417,
    "cost": 2.9650854106665094,
    "opened": "2026-11-24T22:13:47+07:00",
    "zoo": "x_blix_grad_top10",
    "smart": 32,
    "kol": 2,
-   "gap": 2,
+   "gap": 5,
+   "miss": 0
+  },
+  "7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump": {
+   "sym": "DUVAL",
+   "qty": 22880.948085894343,
+   "entry": 0.0001253,
+   "last": 0.0001498,
+   "peak": 0.0001558,
+   "cost": 2.955043078914205,
+   "opened": "2026-11-24T22:25:59+07:00",
+   "zoo": "x_blix_grad_top10",
+   "smart": 136,
+   "kol": 6,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -472,12 +486,26 @@
    "zoo": "x_blix_grad_top10",
    "smart": 32,
    "kol": 2
+  },
+  {
+   "t": "2026-11-24T22:25:59+07:00",
+   "kind": "buy",
+   "mint": "7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump",
+   "sym": "DUVAL",
+   "price": 0.0001253,
+   "jup": 0.00012582051063100928,
+   "usd": 2.955,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_blix_grad_top10",
+   "smart": 136,
+   "kol": 6
   }
  ],
  "label": "สวนสัตว์: blixtrade: เหรียญจบ curve ใหม่ top10 ถือไม่เกิน 30% (เดิมตัดทิ้งว่าซ้ำ ลองจริงก่อน)",
  "night": "2026-11-24",
  "night_start": 14.825427053332547,
- "rank_t": 1795533493.0031078,
+ "rank_t": 1795533845.1050673,
  "nights": [
   {
    "night": "2026-11-22",
