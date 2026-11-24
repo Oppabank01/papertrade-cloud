@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.600045066548329,
+ "cash": 4.184276562205985,
  "pos": {
   "GMzuntWYJLpNuCizrSR7ZXggiMdDzTNiEmSNHHunpump": {
    "sym": "dreams",
    "qty": 856.8830268456608,
    "entry": 0.003147,
-   "last": 0.003578,
+   "last": 0.003572,
    "peak": 0.003778,
    "cost": 2.7237805969377487,
    "opened": "2026-11-23T22:24:33+07:00",
@@ -21,13 +21,27 @@
    "sym": "CLAUDIA",
    "qty": 261.3027924095314,
    "entry": 0.009209,
-   "last": 0.009107,
+   "last": 0.009185,
    "peak": 0.009419,
    "cost": 2.4305824754924115,
    "opened": "2026-11-24T06:53:08+07:00",
    "zoo": "i_bigliq_run24_b2",
    "smart": 572,
    "kol": 37,
+   "gap": 0,
+   "miss": 0
+  },
+  "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
+   "sym": "FIONA",
+   "qty": 628.8906688171257,
+   "entry": 0.003803,
+   "last": 0.003813,
+   "peak": 0.003813,
+   "cost": 2.415768504342344,
+   "opened": "2026-11-24T10:03:42+07:00",
+   "zoo": "i_bigliq_run24_b2",
+   "smart": 419,
+   "kol": 24,
    "gap": 0,
    "miss": 0
   }
@@ -449,10 +463,24 @@
    "cost_side": 0.01,
    "smart": 801,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T10:03:42+07:00",
+   "kind": "buy",
+   "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
+   "sym": "FIONA",
+   "price": 0.003803,
+   "jup": 0.0037892616079868813,
+   "usd": 2.4158,
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "zoo": "i_bigliq_run24_b2",
+   "smart": 419,
+   "kol": 24
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ปล่อยวิ่ง trail 20/15 ถือ 24 ชม.",
- "rank_t": 1795489023.6143534,
+ "rank_t": 1795489351.702602,
  "banned": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"
  }

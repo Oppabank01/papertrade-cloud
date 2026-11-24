@@ -1,35 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.001570519591472,
+ "cash": 7.37306650141526,
  "pos": {
-  "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": {
-   "sym": "GROKIA",
-   "qty": 1559.327957827574,
-   "entry": 0.0005003,
-   "last": 0.0010685479531467661,
-   "peak": 0.001318985606686889,
-   "cost": 0.8040937716977276,
-   "opened": "2026-11-24T09:23:23+07:00",
-   "zoo": "x_ladder_2x_b2",
-   "smart": 3,
-   "kol": 0,
-   "gap": 4,
-   "miss": 0,
-   "half": true
-  },
   "Gq2AuvpacDeruqVRCqyZqZJJbDgYDXYDGxWQgWXhpump": {
    "sym": "Flatulence",
    "qty": 7636.225879152796,
    "entry": 0.0002518,
-   "last": 0.0002219,
+   "last": 0.0001731,
    "peak": 0.0002518,
    "cost": 1.9818611382917688,
    "opened": "2026-11-24T09:58:05+07:00",
    "zoo": "x_ladder_2x_b2",
    "smart": 63,
    "kol": 2,
-   "gap": 0,
+   "gap": 5,
    "miss": 0
   }
  },
@@ -310,10 +295,25 @@
    "mint": "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump",
    "sym": "GROKIA",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-24T10:02:54+07:00",
+   "kind": "sell",
+   "mint": "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump",
+   "sym": "GROKIA",
+   "price": 0.0009065584361463412,
+   "entry": 0.0005003,
+   "usd": 1.3715,
+   "pnl": 0.5674,
+   "why": "trailing จากยอด +164% (+81.2%)",
+   "stop_set": -0.35,
+   "cost_side": 0.03,
+   "smart": 3,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: บันไดขาย ครึ่งที่ x2 trail 30% stop -35%",
- "rank_t": 1795489023.6143534,
+ "rank_t": 1795489351.702602,
  "banned": {
   "AQfw8J74V17erZsmMz4oK474eVLBaP44gD33vVbhtHo5": "ZOL",
   "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": "MCAT",
