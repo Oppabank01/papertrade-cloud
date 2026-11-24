@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.433171350558613,
+ "cash": 8.646955845366247,
  "pos": {
-  "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
-   "sym": "FIONA",
-   "qty": 551.9299655123582,
-   "entry": 0.003839,
-   "last": 0.00416,
-   "peak": 0.004874,
-   "cost": 2.183940566483141,
-   "opened": "2026-11-24T13:00:04+07:00",
-   "zoo": "w_f5_bigliqRC_b2",
-   "smart": 424,
-   "kol": 24,
-   "gap": 7,
-   "miss": 0
-  },
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
    "sym": "TROLL",
    "qty": 108.10507404951991,
    "entry": 0.02022,
-   "last": 0.02008,
+   "last": 0.0202,
    "peak": 0.02033,
    "cost": 2.253024734365381,
    "opened": "2026-11-24T13:39:21+07:00",
@@ -848,8 +834,23 @@
    "cost_side": 0.03,
    "smart": 889,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T14:56:33+07:00",
+   "kind": "sell",
+   "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
+   "sym": "FIONA",
+   "price": 0.004134186814724606,
+   "entry": 0.003839,
+   "usd": 2.2138,
+   "pnl": 0.0298,
+   "why": "trailing จากยอด +27% (+7.7%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 424,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ bigliqRC แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1795506363.5194516
+ "rank_t": 1795506731.270953
 }
