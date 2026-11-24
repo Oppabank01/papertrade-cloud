@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.645577035735208,
- "cash": 0.9294374227653801,
+ "cash": 1.625895442403639,
  "pos": {
-  "HN7N11tXStdgUcScZo4Y8N39rhkMA2meiAwgVUjnpump": {
-   "sym": "ROUTA",
-   "qty": 70585.04897653707,
-   "entry": 1.508e-05,
-   "last": 1.17e-05,
-   "peak": 2.447e-05,
-   "cost": 1.0971166136530395,
-   "opened": "2026-11-24T02:08:34+07:00",
-   "zoo": "x_veyro_fresh",
-   "smart": 4,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  },
   "2eJTsuynzczraB8AiJYVzwcomqPQeU8h4egirbqvpump": {
    "sym": "GrokCorp",
    "qty": 62030.73172876158,
    "entry": 1.379e-05,
-   "last": 2.099991224566714e-05,
+   "last": 2.1111106635303508e-05,
    "peak": 2.284981930267782e-05,
    "cost": 0.8816777886411279,
    "opened": "2026-11-24T05:39:43+07:00",
@@ -35,14 +21,14 @@
    "sym": "AMBER",
    "qty": 52798.54383740125,
    "entry": 1.334e-05,
-   "last": 1.378e-05,
+   "last": 1.429e-05,
    "peak": 1.513e-05,
    "cost": 0.7259663726973127,
    "opened": "2026-11-24T06:21:01+07:00",
    "zoo": "x_veyro_fresh",
    "smart": 7,
    "kol": 0,
-   "gap": 2,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -470,10 +456,25 @@
    "zoo": "x_veyro_fresh",
    "smart": 7,
    "kol": 0
+  },
+  {
+   "t": "2026-11-24T07:58:55+07:00",
+   "kind": "sell",
+   "mint": "HN7N11tXStdgUcScZo4Y8N39rhkMA2meiAwgVUjnpump",
+   "sym": "ROUTA",
+   "price": 1.017e-05,
+   "entry": 1.508e-05,
+   "usd": 0.6965,
+   "pnl": -0.4007,
+   "why": "stop -32.6%",
+   "stop_set": -0.3,
+   "cost_side": 0.03,
+   "smart": 4,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุไม่เกิน 10 นาทีตอนกลางคืน ขายครึ่งที่ x10 (โพสต์ veyro)",
  "night": "2026-11-23",
  "night_start": 14.645577035735208,
- "rank_t": 1795481384.287313
+ "rank_t": 1795481776.712126
 }
