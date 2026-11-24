@@ -2149,5 +2149,59 @@
   "summary": "repo สร้างใหม่ชื่อบอท sniper หลายเชน ดาวเกือบเท่ากันหมด แจกไฟล์ exe สำหรับ Windows",
   "verdict": "ตัดทิ้ง",
   "action": "ต้องรันไฟล์ที่ดาวน์โหลดมา ดาวปั่นชุดเดียวกัน ทรงมัลแวร์"
+ },
+ {
+  "t": "2026-11-25T05:34:00+07:00",
+  "source": "github",
+  "title": "geo302/memecoin-live: บอท Rio paper เหรียญมีม Base",
+  "url": "https://github.com/geo302/memecoin-live",
+  "summary": "บอท paper เหรียญมีมบนเชน Base เปิดกฎใน rules.json: เหรียญอายุไม่เกิน 6 ชม. ขึ้น 5 นาที +50 ถึง +150% ขึ้น 1 ชม. +100% สภาพคล่อง 26k+ ซื้อมากกว่าขาย 2.3 เท่า TP +20% stop -10% รอบ 2 อ้าง 7 ไม้ ชนะ 5 +3.5%",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_rio_pump (night) บน Solana แทน Base: 5 นาที 50 ถึง 150% 1 ชม. 100%+ อายุไม่เกิน 6 ชม. สภาพคล่อง 26k vl 0.07 buys 25 rugcheck TP +20% stop -10% trail 8% เมื่อขึ้น 10% ไม้ละ 5% ตัวเลขที่เลือกเองอยู่ใน note import zoo ไม่มี skip test_zoo ผ่าน 7 ไม้ยังไม่ยืนยัน"
+ },
+ {
+  "t": "2026-11-25T05:34:00+07:00",
+  "source": "github",
+  "title": "franco0882/TradingMemecoins: solana-desk-scanner paper desk",
+  "url": "https://github.com/franco0882/TradingMemecoins",
+  "summary": "สแกนเนอร์ paper เหรียญ Solana จาก GeckoTerminal และ DexScreener มีหลาย lane lane A ซื้อเหรียญวอลุ่ม 5 นาที 50k+ สภาพคล่อง 30k+ ที่กำลังขึ้น ขายเป็นบันได ผลของเขาเองติดลบหนัก 94 ไม้ ทุน 1 SOL เหลือ 0.07",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_desk_fullpass (night): วอลุ่ม 5 นาที 50k สภาพคล่อง 30k up 1 ชม. ไม่เกิน +200% มาร์เก็ตแคปไม่เกิน 20M stop -20% ขายครึ่งที่ +40% trail 35% ถือไม่เกิน 24 ชม. ไม้ละ 2.5% ไม่ได้รันโค้ดของ repo อ่านแค่ book.json กับ scanner.py ผลเขาเอง lane A ที่ผ่านกรอง 11 ไม้ เฉลี่ย -8.2% คาดว่าติดลบ เปิดเพื่อยืนยันบนข้อมูลเรา"
+ },
+ {
+  "t": "2026-11-25T05:34:00+07:00",
+  "source": "web",
+  "title": "Bianchi, Babiak, Dickerson: short-term reversal กับวอลุ่มต่ำในคริปโต",
+  "url": "https://www.cerge-ei.cz/pdf/wp/Wp730.pdf",
+  "summary": "งานวิจัยพบว่าผลตอบแทนกลับตัวระยะสั้น (ซื้อเหรียญที่ร่วงล่าสุด) กองอยู่ในคู่ที่วอลุ่มต่ำ อ้างวันละ +1.26% เทียบ +0.54% ในคู่วอลุ่มสูง (ชุดเหรียญกว้าง 2017-2022)",
+  "verdict": "ทดสอบแล้ว",
+  "action": "Binance รายวัน 27 เหรียญใหญ่ 2019-2026 ทุกวันเลือกครึ่งที่วอลุ่มต่ำเทียบค่าเฉลี่ย 30 วันของตัวเอง ซื้อ 3 ตัวที่ร่วงแรงสุด ถือ 1 วัน ต้นทุน 0.35%/ข้าง คิดเฉพาะตัวที่เปลี่ยน: ย้อน 1 วัน 2,838 วัน ก่อนหัก +0.18%/วัน หลังหัก -0.38% ย้อน 3 วัน ก่อนหัก +0.14% หลังหัก -0.28% ครึ่งวอลุ่มสูงก่อนหัก +0.10 และ +0.13% สุ่ม 3 ตัว -0.37% บวกแค่ปี 2021 permutation 200 รอบ p 0.73 ไม่เปิดบัญชีเพราะ byttrade.fetch ไม่ส่งวอลุ่มกลับมา ถ้าจะลอง forward ต้องให้ fetch คืนวอลุ่มก่อน แล้วทำแบบ fwd_xsmom รายสัปดาห์จะลดต้นทุนได้"
+ },
+ {
+  "t": "2026-11-25T05:34:00+07:00",
+  "source": "github",
+  "title": "กลุ่ม repo copytrade Bybit Binance ดาว 93-105 (sharonf35, niklash13, DeborahHolland99 และอีกราว 10 repo)",
+  "url": "https://github.com/sharonf35/bybit-binance-perp-copytrade-bot-v3",
+  "summary": "repo ชื่อเกือบเหมือนกันสร้างพร้อมกัน ดาวปั่นราว 100 ทุกตัว แจกไฟล์ Windows x64 แบบ Standalone Release",
+  "verdict": "ตัดทิ้ง",
+  "action": "ต้องรันโค้ดที่ดาวน์โหลดมา ทรงมัลแวร์ ไม่ได้เปิดไฟล์"
+ },
+ {
+  "t": "2026-11-25T05:34:00+07:00",
+  "source": "x",
+  "title": "BoehmeMargarete: ClawStreet นับเอเจนต์ AI 153 ตัว กำไรแค่ 21%",
+  "url": "https://x.com/BoehmeMargarete/status/2124865551642296644",
+  "summary": "ClawStreet ติดตามเอเจนต์ AI เทรดหุ้นและคริปโตด้วยเงินจำลอง 153 ตัว วันที่ 23 พ.ย. กำไร 32 ตัว เฉลี่ย -4.71%",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎให้ทดสอบ ใช้เป็นตัวเทียบภาพรวม ถ้าจะใช้ต้องดึงตารางผลรายเอเจนต์ของ ClawStreet ย้อนหลังหลายวัน"
+ },
+ {
+  "t": "2026-11-25T05:34:00+07:00",
+  "source": "x",
+  "title": "ค้น X 4 ครั้งรอบ 05:26 (tradingview strategy backtest, bot win rate stop take profit, เทรดคริปโต บอท, paper trading bot results)",
+  "url": "https://x.com/PAINTHEREALONE/status/2125307578347331779",
+  "summary": "เจอแต่โพสต์อวดผลไม่มีกฎ (PAINTHEREALONE บอท Solana +3,516% ไม้เดียว, offjayurena ไม่เปิดพารามิเตอร์, techechohq เทมเพลต Grok Valentine) โพสต์ทองของ DaviddDotTech ซ้ำ ค้นภาษาไทยได้แต่ข่าวบันเทิง",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎที่ตัดสินได้ ไม่ได้เพิ่มอะไร"
  }
 ]

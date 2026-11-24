@@ -2380,5 +2380,74 @@
    "WATCH_S": 5
   },
   "note": "from the repo: on the curve (launchpad_status 0), take-profit +20%, stop -10%, 15% trail armed at +10%, max 5 open, 0.15 SOL of 10 SOL read as 1.5% per trade; chosen by me: '17 of the first 20 trades are buys' replaced by buys >= 17 in the zoo window plus 'up' (buys > sells, 0 < 5m change <= 100%) because zoo has no first-trades tape, 5.5 h hold in place of 50000 slots (about 0.4 s a slot), liquidity 10k (base guard), rugcheck, 5 s checks; the 4800-slot freshness window and the 2-buys-per-slot cap dropped"
+ },
+ {
+  "name": "x_rio_pump",
+  "label": "บอท Rio (geo302 เหรียญมีม Base): ขึ้น 5 นาที +50 ถึง +150% และ 1 ชม. +100% อายุไม่เกิน 6 ชม. TP +20% stop -10% ล็อกกำไรเมื่อขึ้น 10%",
+  "horizon": "night",
+  "source": "https://github.com/geo302/memecoin-live",
+  "claim": "Rio paper bot on Base memecoins (rules.json on the live-data branch, 24 Nov): winner_pattern fresh < 6h, 1h >= +100%, gates 5m +50..+150%, 1h vol/liq >= 0.82, liquidity >= $26k, 1h buys/sells >= 2.3, contract safety; TP +20% full, stop -10%, stop to entry +2% after +10%, sell if not +10% within 8 min; run 2 status 25 Nov: 7 closed trades, 5 wins, +3.5% on $10k (paper, Base chain, under 30 days and 50 trades: unverified)",
+  "added": "2026-11-25",
+  "active": true,
+  "entry": {
+   "min": {
+    "price_change_percent5m": 50,
+    "price_change_percent1h": 100,
+    "liquidity": 26000,
+    "vl": 0.07,
+    "buys": 25
+   },
+   "max": {
+    "price_change_percent5m": 150,
+    "age_h": 6
+   },
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.1,
+   "TP_ALL": 0.2,
+   "HALF_AT": null,
+   "TRAIL_ON": 0.1,
+   "TRAIL": 0.08,
+   "MAX_HOLD_H": 3,
+   "PER_TRADE": 0.05,
+   "MAX_POS": 6,
+   "COOLDOWN_H": 6,
+   "WATCH_S": 5
+  },
+  "note": "from rules.json: 5m change 50 to 150%, 1h change 100%+, age under 6 h, liquidity 26k, TP +20% full sale, stop -10%, 5% equity cap per trade, 6 open, 6 h re-entry block; chosen by me: Solana GMGN rank in place of Base, vl 0.07 (zoo volume is the 5m window, Rio uses 1h vol/liq 0.82, divided by 12), buys 25+ in the 5m window in place of buys >= 25 and buys/sells >= 2.3 (zoo has no ratio field), rugcheck in place of GoPlus and honeypot.is, breakeven +2% after +10% replaced by TRAIL_ON 0.10 TRAIL 0.08 (stop about +1.2% at a +10% peak, tighter as the peak rises), 3 h hold cap (Rio has none), 5 s checks; the 8-minute no-move time stop, the 25 s recheck, the score >= 12 gate and the 1%-of-pool sizing dropped; zoo default costs 1% fee + 2% slip per side (Rio models 1% per side)"
+ },
+ {
+  "name": "x_desk_fullpass",
+  "label": "solana-desk-scanner lane A (franco0882): วอลุ่ม 5 นาที 50k+ สภาพคล่อง 30k+ กำลังขึ้น 1 ชม. ไม่เกิน +200% stop -20% ขายครึ่งที่ +40% trail 35%",
+  "horizon": "night",
+  "source": "https://github.com/franco0882/TradingMemecoins",
+  "claim": "solana-desk-scanner paper desk, lane A FULL-PASS: 5m volume >= $50k, liquidity >= $30k, price rising, price under 3x the 1h-ago price, market cap <= $20M; ladder stop -20%, sell 40% at +40% and 30% at +100%, stop to breakeven after the first sale, 35% trail, sell if not +10% within 15 min, 24 h cap; its own book.json on 24 Nov: 94 closed paper trades took 1.0 SOL to 0.073 SOL, A-FULLPASS clean mean -8.2% over 11 trades (paper, its own ledger, under 30 days: unverified)",
+  "added": "2026-11-25",
+  "active": true,
+  "entry": {
+   "min": {
+    "volume": 50000,
+    "liquidity": 30000
+   },
+   "max": {
+    "price_change_percent1h": 200,
+    "market_cap": 20000000
+   },
+   "up": true
+  },
+  "exit": {
+   "STOP": -0.2,
+   "TP_ALL": null,
+   "HALF_AT": 0.4,
+   "TRAIL_ON": 0.4,
+   "TRAIL": 0.35,
+   "MAX_HOLD_H": 24,
+   "PER_TRADE": 0.025,
+   "MAX_POS": 16,
+   "COOLDOWN_H": 6,
+   "WATCH_S": 20
+  },
+  "note": "from scanner.py: A_FULL m5 volume 50k, liquidity 30k, p1h max 200%, market cap max 20M, stop 20%, first sale at +40%, trail 35%, 24 h cap, 16 open, 6 h re-entry cooldown, size 0.025 of 1 SOL read as 2.5% per trade; chosen by me: 'rising' replaced by zoo 'up' (buys > sells, 0 < 5m change <= 100%), the 40% plus 30% ladder folded into one half sale at +40% (zoo has one partial sale), trail armed at +40%; breakeven stop after the first sale, the 15-minute no-move time stop, the copycat filter and liq/mcap 0.5 cap dropped (zoo has no such fields); zoo default costs 1% fee + 2% slip per side (the repo models 3% round trip plus 2% stop slippage)"
  }
 ]

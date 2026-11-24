@@ -615,3 +615,12 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 เปิดบัญชี: ไม่มี (ไม่เจอกฎบนแท่ง Binance ที่ยังไม่มีบัญชี ท่า ER48 แย่กว่าสุ่ม)
 ไอเดีย: short หุ้นที่ย้ายจาก S&P 600 ไป 400 ของ stevensshi (ต้องรายชื่อการย้ายดัชนีพร้อมวันประกาศและแท่ง 1 นาที), Polymarket 15 นาทีของ JeffWhiting8338 ตัวอื่น (ต้อง order book Polymarket)
 ตัดทิ้ง: ai-dca-bot (ต้องรันไฟล์ zip จาก repo อื่น ทรงมัลแวร์), กลุ่ม repo sniper ดาว 130 (แจก exe ดาวปั่น)
+
+## 2026-11-25 05:26 (scout)
+ค้น: GitHub repo ใหม่ (supertrend crypto กับ zscore trading ตั้งแต่ 18 พ.ย. ได้ผลว่าง, vwap strategy, llm trading agent ตั้งแต่ 22 พ.ย., crypto strategy backtest, memecoin และ binance bot ตั้งแต่ 23 พ.ย.), X 4 ครั้ง (tradingview strategy crypto backtest, bot strategy win rate stop loss take profit, เทรดคริปโต บอท, paper trading bot results ตั้งแต่ 23 พ.ย.), เว็บ 1 ครั้ง (งานวิจัย reversal กับวอลุ่มในคริปโต ไม่เจองาน arXiv เดือนนี้ ได้งาน Bianchi Babiak Dickerson ที่ยังไม่เคยลอง)
+เจอ: memecoin-live ของ geo302 (บอท Rio paper เหรียญมีม Base เปิดกฎครบใน rules.json รอบ 2 อ้าง 7 ไม้ ชนะ 5 +3.5%), TradingMemecoins ของ franco0882 (สแกนเนอร์ paper Solana ผลของเขาเอง 94 ไม้ ทุน 1 SOL เหลือ 0.07), กลุ่ม repo copytrade Bybit Binance ดาวราว 100 แจก exe, โพสต์ ClawStreet ว่าเอเจนต์ AI 153 ตัวกำไรแค่ 21%, โพสต์ X อื่นอวดผลไม่มีกฎ ค้นภาษาไทยได้แต่ข่าวบันเทิง
+เพิ่ม x_: x_rio_pump (night ขึ้น 5 นาที 50 ถึง 150% และ 1 ชม. 100%+ อายุไม่เกิน 6 ชม. สภาพคล่อง 26k TP +20% stop -10% trail 8% เมื่อขึ้น 10% ไม้ละ 5%), x_desk_fullpass (night วอลุ่ม 5 นาที 50k สภาพคล่อง 30k up stop -20% ขายครึ่งที่ +40% trail 35% ถือไม่เกิน 24 ชม. ไม้ละ 2.5%) ตัวเลขที่เลือกเองอยู่ใน note import zoo ไม่มี skip และ test_zoo ผ่าน
+ทดสอบแล้ว: reversal ในเหรียญวอลุ่มต่ำ Binance รายวัน 27 เหรียญใหญ่ 2019-2026 เลือกครึ่งที่วอลุ่มต่ำเทียบค่าเฉลี่ย 30 วันของตัวเอง ซื้อ 3 ตัวที่ร่วงแรงสุด ถือ 1 วัน ต้นทุน 0.35%/ข้างเฉพาะตัวที่เปลี่ยน ค้น 2 แบบ (ย้อน 1 หรือ 3 วัน): ก่อนหัก +0.18% และ +0.14% ต่อวัน หลังหัก -0.38% และ -0.28% ครึ่งวอลุ่มสูงก่อนหัก +0.10 และ +0.13% สุ่ม 3 ตัว -0.37% บวกแค่ปี 2021 permutation 200 รอบ p 0.73 ลองแล้วตก สคริปต์ /tmp/scout_0526/lowvolrev.py
+เปิดบัญชี: ไม่มี (ท่า reversal ต้องใช้วอลุ่ม แต่ byttrade.fetch ไม่คืนวอลุ่ม ถ้าจะลอง forward ต้องเพิ่มวอลุ่มใน fetch ก่อน แล้วทำรายสัปดาห์แบบ fwd_xsmom)
+ไอเดีย: ClawStreet (ต้องตารางผลรายเอเจนต์ย้อนหลัง), โพสต์ X ที่เจอไม่มีกฎ
+ตัดทิ้ง: กลุ่ม repo copytrade Bybit Binance ดาว 93 ถึง 105 (ต้องรันไฟล์ exe ที่ดาวน์โหลดมา ทรงมัลแวร์)
