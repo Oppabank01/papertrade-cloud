@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 9.025128191880405,
- "pos": {},
+ "cash": 7.220102553504324,
+ "pos": {
+  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+   "sym": "USELESS",
+   "qty": 25.45031062857832,
+   "entry": 0.06881,
+   "last": 0.06881,
+   "peak": 0.06881,
+   "cost": 1.8050256383760812,
+   "opened": "2026-11-25T03:52:41+07:00",
+   "zoo": "w_pause_bigliq_b2",
+   "smart": 936,
+   "kol": 295,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T19:52:27+07:00",
@@ -1059,10 +1074,24 @@
    "cost_side": 0.03,
    "smart": 542,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T03:52:41+07:00",
+   "kind": "buy",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.06881,
+   "jup": 0.06906698485660426,
+   "usd": 1.805,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_bigliq_b2",
+   "smart": 936,
+   "kol": 295
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795553046.2836504,
+ "rank_t": 1795553450.6439824,
  "banned": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"
  }
