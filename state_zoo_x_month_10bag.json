@@ -1,15 +1,44 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.714537963507947,
- "cash": 14.714537963507947,
- "pos": {},
+ "cash": 13.243084167157152,
+ "pos": {
+  "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": {
+   "sym": "GROKIA",
+   "qty": 737.0183134845335,
+   "entry": 0.001937,
+   "last": 0.001881355950177945,
+   "peak": 0.00195,
+   "cost": 1.4714537963507948,
+   "opened": "2026-11-25T03:58:51+07:00",
+   "zoo": "x_month_10bag",
+   "smart": 4,
+   "kol": 0,
+   "gap": 4,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-24T09:47:04+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-25T03:58:51+07:00",
+   "kind": "buy",
+   "mint": "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump",
+   "sym": "GROKIA",
+   "price": 0.001937,
+   "jup": 0.0019422949455441332,
+   "usd": 1.4715,
+   "stop_set": -1.0,
+   "cost_side": 0.03,
+   "zoo": "x_month_10bag",
+   "smart": 4,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: งบเดือนแบ่ง 10 เหรียญใหม่ ถือครบ 4 สัปดาห์ ไม่ตั้ง stop",
- "rank_t": 1795553450.6439824
+ "rank_t": 1795553846.6497052
 }
