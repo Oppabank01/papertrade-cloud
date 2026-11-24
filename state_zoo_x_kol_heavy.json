@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 6.776716376400408,
+ "cash": 8.551600011520383,
  "pos": {
-  "Cocrz7BR2xE2sgKn3VbmaTXH6HTVgCiVFWTVWmyTpump": {
-   "sym": "Mogmas",
-   "qty": 18451.219770636268,
-   "entry": 0.0001184,
-   "last": 0.0001135,
-   "peak": 0.00012,
-   "cost": 2.2517258512093736,
-   "opened": "2026-11-25T02:49:55+07:00",
-   "zoo": "x_kol_heavy",
-   "smart": 77,
-   "kol": 5,
-   "gap": 0,
-   "miss": 0
-  },
   "4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn": {
    "sym": "Memeployed",
    "qty": 17735.470942538203,
    "entry": 0.000122,
-   "last": 0.0001144,
+   "last": 0.00010722033265862933,
    "peak": 0.0001234705682474634,
    "cost": 2.230187028437086,
    "opened": "2026-11-25T03:03:00+07:00",
    "zoo": "x_kol_heavy",
    "smart": 59,
    "kol": 5,
-   "gap": 14,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -326,12 +312,27 @@
    "zoo": "x_kol_heavy",
    "smart": 59,
    "kol": 5
+  },
+  {
+   "t": "2026-11-25T03:10:43+07:00",
+   "kind": "sell",
+   "mint": "Cocrz7BR2xE2sgKn3VbmaTXH6HTVgCiVFWTVWmyTpump",
+   "sym": "Mogmas",
+   "price": 9.914790297548572e-05,
+   "entry": 0.0001184,
+   "usd": 1.7749,
+   "pnl": -0.4768,
+   "why": "stop -16.3%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 77,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ตาม KOL: มีคนดังถือ 5 คนขึ้นไป ราคาขึ้น (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-24",
  "night_start": 10.880103272879792,
- "rank_t": 1795550465.7212744,
+ "rank_t": 1795550918.373609,
  "nights": [
   {
    "night": "2026-11-22",
@@ -341,5 +342,6 @@
    "night": "2026-11-23",
    "ret": -0.1794
   }
- ]
+ ],
+ "halted": "ราคา Memeployed สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }

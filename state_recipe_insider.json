@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.26758163088583997,
- "pos": {
-  "AUuqgkd7faeXdkt4gWQ8iUrP7RmE5XeGiaJrPZn9pump": {
-   "sym": "EHOUSE",
-   "qty": 773.6550789290797,
-   "entry": 8.389e-05,
-   "last": 0.0001698,
-   "peak": 0.0001698,
-   "cost": 0.06689540772145999,
-   "opened": "2026-11-25T02:22:05+07:00",
-   "smart": 7,
-   "kol": 0,
-   "gap": 2,
-   "miss": 0
-  }
- },
+ "cash": 0.34177845646232574,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -1343,8 +1329,23 @@
    "cost_side": 0.03,
    "smart": 7,
    "kol": 0
+  },
+  {
+   "t": "2026-11-25T03:08:51+07:00",
+   "kind": "sell",
+   "mint": "AUuqgkd7faeXdkt4gWQ8iUrP7RmE5XeGiaJrPZn9pump",
+   "sym": "EHOUSE",
+   "price": 9.885e-05,
+   "entry": 8.389e-05,
+   "usd": 0.0742,
+   "pnl": 0.0073,
+   "why": "trailing จากยอด +102% (+17.8%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 7,
+   "bundler": null
   }
  ],
  "label": "สูตร x_insider4 (คู่ใหม่ + top trader)",
- "rank_t": 1795550465.7212744
+ "rank_t": 1795550918.373609
 }
