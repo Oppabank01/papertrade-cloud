@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.645577035735208,
- "cash": 3.747792867050752,
+ "cash": 4.670234470915069,
  "pos": {
-  "43VZnFBaAzqbTnjJntky6Fx3r8E7K4CNnLhoTgNkpump": {
-   "sym": "PAPX",
-   "qty": 70573.42541381865,
-   "entry": 1.945e-05,
-   "last": 1.600560298634488e-05,
-   "peak": 2.5e-05,
-   "cost": 1.4148145993596914,
-   "opened": "2026-11-24T22:38:38+07:00",
-   "zoo": "x_veyro_fresh",
-   "smart": 6,
-   "kol": 2,
-   "gap": 1,
-   "miss": 0
-  },
   "BoGkuR3drddPvf9kDxLMTXq1UQnashReTC9kM9wCqmVT": {
    "sym": "ADYTUM",
    "qty": 39219.024504163026,
@@ -28,7 +14,7 @@
    "zoo": "x_veyro_fresh",
    "smart": 12,
    "kol": 1,
-   "gap": 21,
+   "gap": 38,
    "miss": 0
   }
  },
@@ -635,12 +621,27 @@
    "cost_side": 0.03,
    "smart": 10,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T01:22:11+07:00",
+   "kind": "sell",
+   "mint": "43VZnFBaAzqbTnjJntky6Fx3r8E7K4CNnLhoTgNkpump",
+   "sym": "PAPX",
+   "price": 1.347213464614788e-05,
+   "entry": 1.945e-05,
+   "usd": 0.9224,
+   "pnl": -0.4924,
+   "why": "stop -30.7%",
+   "stop_set": -0.3,
+   "cost_side": 0.03,
+   "smart": 6,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุไม่เกิน 10 นาทีตอนกลางคืน ขายครึ่งที่ x10 (โพสต์ veyro)",
  "night": "2026-11-24",
  "night_start": 8.240032186660855,
- "rank_t": 1795543739.813877,
+ "rank_t": 1795544219.6397824,
  "nights": [
   {
    "night": "2026-11-23",
