@@ -2,56 +2,8 @@
  "label": "Kalshi ตัวควบคุม: สุ่มฝั่งในตลาดเดียวกับตัวเต็ง/ตัวรอง",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 0.1262227279345487,
+ "cash": 8.631228707830239,
  "pos": {
-  "KXXRPD-26NOV2417-T0.8999:no": {
-   "qty": 6.281467482463463,
-   "entry": 0.117403,
-   "last": 0.01,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-23T22:07:17+00:00",
-   "coin": "NO | Ripple price at Nov 24, 2026 at 5pm EST?",
-   "ticker": "KXXRPD-26NOV2417-T0.8999",
-   "side": "no",
-   "close": "2026-11-24T22:00:00Z",
-   "why": "สุ่มฝั่ง"
-  },
-  "KXGOLDD-26NOV2417-T3565:yes": {
-   "qty": 0.8182188751659075,
-   "entry": 0.901303,
-   "last": 0.01,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-23T22:07:17+00:00",
-   "coin": "YES | Will the gold close price be above 3565 USD/t.oz on November 24, 2026 at 5:00 PM EST",
-   "ticker": "KXGOLDD-26NOV2417-T3565",
-   "side": "yes",
-   "close": "2026-11-24T22:00:00Z",
-   "why": "สุ่มฝั่ง"
-  },
-  "KXSOLD-26NOV2417-T67.9999:yes": {
-   "qty": 0.7549113938906525,
-   "entry": 0.976887,
-   "last": 0.99,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-23T22:13:38+00:00",
-   "coin": "YES | SOL price on Nov 24, 2026?",
-   "ticker": "KXSOLD-26NOV2417-T67.9999",
-   "side": "yes",
-   "close": "2026-11-24T22:00:00Z",
-   "why": "สุ่มฝั่ง"
-  },
-  "KXSILVERD-26NOV2417-T41.50:no": {
-   "qty": 6.90508545733762,
-   "entry": 0.1068,
-   "last": 0.99,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-24T00:09:59+00:00",
-   "coin": "NO | Will the silver close price be above 41.50 USD/t.oz on November 24, 2026 at 5:00 PM E",
-   "ticker": "KXSILVERD-26NOV2417-T41.50",
-   "side": "no",
-   "close": "2026-11-24T22:00:00Z",
-   "why": "สุ่มฝั่ง"
-  },
   "KX30YMORTW-26NOV25-T7.20:yes": {
    "qty": 0.8543610818706032,
    "entry": 0.8631749999999999,
@@ -62,18 +14,6 @@
    "ticker": "KX30YMORTW-26NOV25-T7.20",
    "side": "yes",
    "close": "2026-11-25T16:59:00Z",
-   "why": "สุ่มฝั่ง"
-  },
-  "KXBRENTD-26NOV2417-T85.50:yes": {
-   "qty": 0.8450091286674175,
-   "entry": 0.872728,
-   "last": 0.99,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-24T13:11:25+00:00",
-   "coin": "YES | Will the brent crude oil close price be above 85.50 USD/Bbl on November 24, 2026 at ",
-   "ticker": "KXBRENTD-26NOV2417-T85.50",
-   "side": "yes",
-   "close": "2026-11-24T22:00:00Z",
    "why": "สุ่มฝั่ง"
   },
   "KXAAAGASD-26NOV25-3.5850:yes": {
@@ -139,7 +79,7 @@
   "KXWTI-26NOV2514-T79.49:yes": {
    "qty": 0.8269452146281397,
    "entry": 0.8917919999999999,
-   "last": 0.88,
+   "last": 0.87,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T21:42:32+00:00",
    "coin": "YES | Will the WTI crude oil settlement price be above 79.49 USD/Bbl on Nov 25, 2026?",
@@ -803,6 +743,66 @@
    "usd": 0.7374631268436579,
    "why": "สุ่มฝั่ง",
    "ask": 0.88
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-24T22:03:34+00:00",
+   "coin": "NO | Ripple price at Nov 24, 2026 at 5pm EST?",
+   "px": 0.0,
+   "entry": 0.1174,
+   "usd": 0.0,
+   "pnl": -0.73746,
+   "ret": -1.0,
+   "cost_side": 0,
+   "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-24T22:03:34+00:00",
+   "coin": "YES | Will the gold close price be above 3565 USD/t.oz on November 24, 2026 at 5:00 PM EST",
+   "px": 0.0,
+   "entry": 0.9013,
+   "usd": 0.0,
+   "pnl": -0.73746,
+   "ret": -1.0,
+   "cost_side": 0,
+   "why": "ตัดสิน no"
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-24T22:03:34+00:00",
+   "coin": "YES | SOL price on Nov 24, 2026?",
+   "px": 1.0,
+   "entry": 0.97689,
+   "usd": 0.75491,
+   "pnl": 0.01745,
+   "ret": 0.02366,
+   "cost_side": 0,
+   "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-24T22:03:34+00:00",
+   "coin": "NO | Will the silver close price be above 41.50 USD/t.oz on November 24, 2026 at 5:00 PM E",
+   "px": 1.0,
+   "entry": 0.1068,
+   "usd": 6.90509,
+   "pnl": 6.16762,
+   "ret": 8.3633,
+   "cost_side": 0,
+   "why": "ตัดสิน no"
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-24T22:03:35+00:00",
+   "coin": "YES | Will the brent crude oil close price be above 85.50 USD/Bbl on November 24, 2026 at ",
+   "px": 1.0,
+   "entry": 0.87273,
+   "usd": 0.84501,
+   "pnl": 0.10755,
+   "ret": 0.14583,
+   "cost_side": 0,
+   "why": "ตัดสิน yes"
   }
  ],
  "seen": null,
