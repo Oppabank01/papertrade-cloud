@@ -1,20 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 10.38005553824,
+ "cash": 7.771293252222954,
  "pos": {
   "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
    "sym": "GATO",
    "qty": 1762.9092599902265,
    "entry": 0.00145,
-   "last": 0.0015137244440572013,
-   "peak": 0.001536,
+   "last": 0.001577,
+   "peak": 0.001577,
    "cost": 2.59501388456,
    "opened": "2026-11-24T06:48:27+07:00",
    "zoo": "w_deadcat_b2",
    "smart": 71,
    "kol": 5,
-   "gap": 3,
+   "gap": 0,
+   "miss": 0
+  },
+  "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": {
+   "sym": "Kimchi",
+   "qty": 1377.8880910676098,
+   "entry": 0.001865,
+   "last": 0.001849,
+   "peak": 0.001865,
+   "cost": 2.608762286017047,
+   "opened": "2026-11-24T07:12:29+07:00",
+   "zoo": "w_deadcat_b2",
+   "smart": 680,
+   "kol": 69,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -218,10 +232,24 @@
    "zoo": "w_deadcat_b2",
    "smart": 71,
    "kol": 5
+  },
+  {
+   "t": "2026-11-24T07:12:29+07:00",
+   "kind": "buy",
+   "mint": "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
+   "sym": "Kimchi",
+   "price": 0.001865,
+   "jup": 0.0018547857125937994,
+   "usd": 2.6088,
+   "stop_set": -0.25,
+   "cost_side": 0.015,
+   "zoo": "w_deadcat_b2",
+   "smart": 680,
+   "kol": 69
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: เด้งหลังร่วง: อายุเกิน 1 วัน pool 100k+ ร่วง 1 ชม. 15% ขึ้นไป",
- "rank_t": 1795478664.6781232,
+ "rank_t": 1795479066.4981346,
  "banned": {
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": "FLOAT"
  }
