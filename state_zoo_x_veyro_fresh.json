@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.645577035735208,
- "cash": 4.234950443036148,
+ "cash": 3.747792867050752,
  "pos": {
   "43VZnFBaAzqbTnjJntky6Fx3r8E7K4CNnLhoTgNkpump": {
    "sym": "PAPX",
    "qty": 70573.42541381865,
    "entry": 1.945e-05,
-   "last": 1.813e-05,
+   "last": 1.858e-05,
    "peak": 2.5e-05,
    "cost": 1.4148145993596914,
    "opened": "2026-11-24T22:38:38+07:00",
@@ -17,18 +17,18 @@
    "gap": 0,
    "miss": 0
   },
-  "DiaLLB3UDAH7M3qEgCkAzSMc1k5Gt8ccPTYVLoErnqRZ": {
-   "sym": "DIALED",
-   "qty": 98634.08831987291,
-   "entry": 1.401e-05,
-   "last": 1.391e-05,
-   "peak": 1.925e-05,
-   "cost": 1.4243079544026176,
-   "opened": "2026-11-24T23:57:06+07:00",
+  "BoGkuR3drddPvf9kDxLMTXq1UQnashReTC9kM9wCqmVT": {
+   "sym": "ADYTUM",
+   "qty": 39219.024504163026,
+   "entry": 3.462e-05,
+   "last": 3.462e-05,
+   "peak": 3.462e-05,
+   "cost": 1.3994667370996947,
+   "opened": "2026-11-25T00:50:04+07:00",
    "zoo": "x_veyro_fresh",
-   "smart": 10,
-   "kol": 2,
-   "gap": 2,
+   "smart": 12,
+   "kol": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -606,12 +606,41 @@
    "zoo": "x_veyro_fresh",
    "smart": 10,
    "kol": 2
+  },
+  {
+   "t": "2026-11-25T00:50:04+07:00",
+   "kind": "buy",
+   "mint": "BoGkuR3drddPvf9kDxLMTXq1UQnashReTC9kM9wCqmVT",
+   "sym": "ADYTUM",
+   "price": 3.462e-05,
+   "jup": 3.452919642570801e-05,
+   "usd": 1.3995,
+   "stop_set": -0.3,
+   "cost_side": 0.03,
+   "zoo": "x_veyro_fresh",
+   "smart": 12,
+   "kol": 1
+  },
+  {
+   "t": "2026-11-25T00:52:56+07:00",
+   "kind": "sell",
+   "mint": "DiaLLB3UDAH7M3qEgCkAzSMc1k5Gt8ccPTYVLoErnqRZ",
+   "sym": "DIALED",
+   "price": 9.533529854607989e-06,
+   "entry": 1.401e-05,
+   "usd": 0.9123,
+   "pnl": -0.512,
+   "why": "stop -32.0%",
+   "stop_set": -0.3,
+   "cost_side": 0.03,
+   "smart": 10,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญอายุไม่เกิน 10 นาทีตอนกลางคืน ขายครึ่งที่ x10 (โพสต์ veyro)",
  "night": "2026-11-24",
  "night_start": 8.240032186660855,
- "rank_t": 1795542093.7512403,
+ "rank_t": 1795542497.8467765,
  "nights": [
   {
    "night": "2026-11-23",
