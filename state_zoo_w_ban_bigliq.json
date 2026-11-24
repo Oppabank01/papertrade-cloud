@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.2355553736352949,
+ "cash": 0.6218518495810552,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 17.985404259262328,
    "entry": 0.03453,
-   "last": 0.03435,
+   "last": 0.03409,
    "peak": 0.03486,
    "cost": 0.640111326605162,
    "opened": "2026-11-24T15:46:23+07:00",
@@ -21,7 +21,7 @@
    "sym": "CLAUDIA",
    "qty": 71.7454425725371,
    "entry": 0.008605,
-   "last": 0.008576,
+   "last": 0.008607,
    "peak": 0.00873,
    "cost": 0.6363322339071137,
    "opened": "2026-11-24T15:57:36+07:00",
@@ -35,13 +35,27 @@
    "sym": "CLAW",
    "qty": 92.46497075757047,
    "entry": 0.006637,
-   "last": 0.006455,
+   "last": 0.006499,
    "peak": 0.0067,
    "cost": 0.6325396937930274,
    "opened": "2026-11-24T15:57:36+07:00",
    "zoo": "w_ban_bigliq",
    "smart": 263,
    "kol": 30,
+   "gap": 0,
+   "miss": 0
+  },
+  "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
+   "sym": "CRIME",
+   "qty": 227.43130597304173,
+   "entry": 0.002618,
+   "last": 0.002618,
+   "peak": 0.002618,
+   "cost": 0.6137035240542397,
+   "opened": "2026-11-24T16:53:57+07:00",
+   "zoo": "w_ban_bigliq",
+   "smart": 93,
+   "kol": 40,
    "gap": 0,
    "miss": 0
   }
@@ -3666,10 +3680,24 @@
    "cost_side": 0.03,
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T16:53:57+07:00",
+   "kind": "buy",
+   "mint": "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump",
+   "sym": "CRIME",
+   "price": 0.002618,
+   "jup": 0.002617687046926994,
+   "usd": 0.6137,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_bigliq",
+   "smart": 93,
+   "kol": 40
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795513579.5547965,
+ "rank_t": 1795513985.5237105,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",

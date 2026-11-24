@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.0472746895401075,
+ "cash": 0.7014598002809467,
  "pos": {
   "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": {
    "sym": "PUMPCADE",
    "qty": 23.87399483236285,
    "entry": 0.01417,
-   "last": 0.01438,
+   "last": 0.01414,
    "peak": 0.01438,
    "cost": 0.34868532959655907,
    "opened": "2026-11-24T15:51:49+07:00",
@@ -28,6 +28,20 @@
    "zoo": "bigliq",
    "smart": 1000,
    "kol": 174,
+   "gap": 0,
+   "miss": 0
+  },
+  "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
+   "sym": "CRIME",
+   "qty": 128.1549295489831,
+   "entry": 0.002618,
+   "last": 0.002618,
+   "peak": 0.002618,
+   "cost": 0.34581488925916076,
+   "opened": "2026-11-24T16:53:25+07:00",
+   "zoo": "bigliq",
+   "smart": 93,
+   "kol": 40,
    "gap": 0,
    "miss": 0
   }
@@ -4444,8 +4458,22 @@
    "zoo": "bigliq",
    "smart": 1000,
    "kol": 174
+  },
+  {
+   "t": "2026-11-24T16:53:25+07:00",
+   "kind": "buy",
+   "mint": "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump",
+   "sym": "CRIME",
+   "price": 0.002618,
+   "jup": 0.002617687046926994,
+   "usd": 0.3458,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliq",
+   "smart": 93,
+   "kol": 40
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ มาร์เก็ตแคป 2M+",
- "rank_t": 1795513579.5547965
+ "rank_t": 1795513985.5237105
 }
