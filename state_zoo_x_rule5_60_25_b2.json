@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 8.754851981657419,
+ "cash": 6.440798187895584,
  "pos": {
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
    "sym": "Rings",
    "qty": 904.6969753058344,
    "entry": 0.002322,
-   "last": 0.003112,
+   "last": 0.003014,
    "peak": 0.0034793609800963625,
    "cost": 2.1652302377449466,
    "opened": "2026-11-24T07:52:05+07:00",
    "zoo": "x_rule5_60_25_b2",
    "smart": 133,
    "kol": 10,
+   "gap": 4,
+   "miss": 0
+  },
+  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
+   "sym": "DacityCoin",
+   "qty": 12031.591590073593,
+   "entry": 0.0001866,
+   "last": 0.000187,
+   "peak": 0.00018763028424623984,
+   "cost": 2.3140537937618353,
+   "opened": "2026-11-24T12:34:48+07:00",
+   "zoo": "x_rule5_60_25_b2",
+   "smart": 351,
+   "kol": 29,
    "gap": 0,
    "miss": 0
   }
@@ -240,8 +254,22 @@
    "cost_side": 0.03,
    "smart": 52,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T12:34:48+07:00",
+   "kind": "buy",
+   "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "sym": "DacityCoin",
+   "price": 0.0001866,
+   "jup": 0.00018763028424623984,
+   "usd": 2.3141,
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "zoo": "x_rule5_60_25_b2",
+   "smart": 351,
+   "kol": 29
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ระบบ 5 ไม้ เข้มกรอง ปลอดภัย TP +60% SL -25%",
- "rank_t": 1795498088.5266232
+ "rank_t": 1795498405.7190833
 }
