@@ -1,37 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 6.674899290889527,
- "pos": {
-  "H3iGq7KSqdzw7QG3xZo2mF4eaYsvihZqqoAkdXripump": {
-   "sym": "CROWD",
-   "qty": 6742.648466394114,
-   "entry": 0.0003202,
-   "last": 0.00031275824306391996,
-   "peak": 0.0003614,
-   "cost": 2.225310285445676,
-   "opened": "2026-11-24T21:05:22+07:00",
-   "zoo": "x_hot_chase",
-   "smart": 10,
-   "kol": 0,
-   "gap": 6,
-   "miss": 0
-  },
-  "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": {
-   "sym": "GROKIA",
-   "qty": 478.8288325729458,
-   "entry": 0.004511,
-   "last": 0.00436,
-   "peak": 0.004839,
-   "cost": 2.226341850893175,
-   "opened": "2026-11-24T21:12:56+07:00",
-   "zoo": "x_hot_chase",
-   "smart": 4,
-   "kol": 0,
-   "gap": 1,
-   "miss": 0
-  }
- },
+ "cash": 9.942228879171484,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-23T02:11:54+07:00",
@@ -495,12 +466,42 @@
    "zoo": "x_hot_chase",
    "smart": 4,
    "kol": 0
+  },
+  {
+   "t": "2026-11-24T21:34:52+07:00",
+   "kind": "sell",
+   "mint": "H3iGq7KSqdzw7QG3xZo2mF4eaYsvihZqqoAkdXripump",
+   "sym": "CROWD",
+   "price": 0.00026319641609791154,
+   "entry": 0.0003202,
+   "usd": 1.7218,
+   "pnl": -0.5036,
+   "why": "stop -17.8%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 10,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-24T21:35:33+07:00",
+   "kind": "sell",
+   "mint": "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump",
+   "sym": "GROKIA",
+   "price": 0.0033269628533911266,
+   "entry": 0.004511,
+   "usd": 1.5456,
+   "pnl": -0.6808,
+   "why": "stop -26.2%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 4,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ไล่ของร้อน: GMGN hot level 3 ราคาขึ้น 5 นาที (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-24",
  "night_start": 11.126551427228378,
- "rank_t": 1795530278.7013159,
+ "rank_t": 1795530706.6295347,
  "nights": [
   {
    "night": "2026-11-22",
