@@ -477,3 +477,11 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ลองแล้วตก: บอท 4 ขาของ fauzinfau4
 ไอเดีย: nautilus-quant-research (ต้องมีข้อมูล trades/L2 และ OI ของ Hyperliquid ที่เสียเงิน)
 เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมที่ตัดสินได้)
+
+## 2026-11-24 รอบ routine x_ (Bangkok)
+ค้น: 5 ครั้ง (solana memecoin bot overnight rules, เทรดเหรียญมีม โซลานา กลยุทธ์ 1 เดือน บอท, $100 to in a week pump.fun filters, site:x.com my bot 30x this month, reddit 1 month results rules) dev.to กับ ketchupjl.github.io เปิดไม่ได้ (โดเมนไม่อยู่ในรายการที่อนุญาต) ใช้ข้อความจากผลค้นหาแทน
+เจอ: dev.to gengengen (dev buy 1 SOL+ TP +30% SL -30% ถือ 120 วิ ซ้ำ x_snipe_30_30 และต้องมีข้อมูล dev buy), ketchupjl backtest (ซ้ำ x_rule5_60_25), cryptorank "100 เป็น 50k" (ไม่มีกฎ), medium hodlhero201 กับ fxmbrand (เรื่องเล่า ไม่มีกฎ), rattibha thread $150 ใน 1 สัปดาห์ (ไม่มีกฎ), jumpbit บอทปั่น volume (ข้าม เป็นการปั่นตลาด), สไลด์คอร์ส: แบ่งงบรายเดือนซื้อเหรียญใหม่ราว 10 ตัว ถือ 4 สัปดาห์
+เพิ่ม: x_month_10bag (month) เหรียญอายุไม่เกิน 24 ชม. pool 30k+ ผ่าน safe, up, RugCheck ไม้ละ 10% สูงสุด 10 ตัว ถือ 672 ชม. ไม่ตั้ง stop (ค่า STD ของ STOP, TRAIL ที่ว่างไว้เทียบเท่าไม่มี) ตัวเลขจำนวน 10 ตัวกับ 4 สัปดาห์มาจากสไลด์ ส่วน pool 30k และอายุ 24 ชม. เป็นค่าที่เลือกเอง ใช้ป้าย "ยังไม่ยืนยัน" เพราะเป็นสไลด์ขายคอร์ส ตอนนี้ยังไม่มีท่า month ในกลุ่ม x_
+ยังทำไม่ได้: dev buy 1 SOL+ ตอนเปิดเหรียญ (ต้องข้อมูลการซื้อของ dev ตอนเปิด), ซื้อที่ย่อ 80 ถึง 90% จาก ATH ของ FASOL (ต้อง ATH ย้อนหลังต่อเหรียญ), watchlist pool 30 SOL ของบอท Claude Code (ไม่มีกฎส่วนอื่น)
+ปิด: ไม่มี (x_ ที่เลย 22/11 คือ x_loofy_desk, x_fresh_grad, x_cto_watch ไม่ถึง 20 ไม้หรือยังไม่แพ้ rand จึงรอต่อ ส่วน x_loofy_desk_b2 กับ x_scalp_1020_b2 zoo.py ปิดเองแล้วแต่ยังไม่ถึงวันตัดสิน)
+สกอร์บอร์ด: rand -98.3% (187 ไม้) | x_ ที่ดีสุด x_smartflow_lowcap +20.9% (7 ไม้), x_blix_grad_top10 +1.3% (15 ไม้), x_lotus_5bots +1.1% (8 ไม้) | x_ ที่แย่สุด x_skip_pumped -73.8% (55 ไม้ dead), x_veyro_fresh -43.7% (17 ไม้), x_cto_watch -43.5% (18 ไม้) เกือบทุกตัวชนะ rand แต่ rand ตกต่ำผิดปกติจึงไม่ใช่สัญญาณดี

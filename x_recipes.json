@@ -2153,5 +2153,37 @@
    "MAX_HOLD_H": 8
   },
   "note": "age 0.17 h (10 min) from the post's 5 to 7 minute examples; 'lock at x10' read as sell half at +900%; stop -30%, liquidity 10k and 8 h cap chosen by me; night horizon because the post trades while asleep"
+ },
+ {
+  "name": "x_month_10bag",
+  "label": "งบเดือนแบ่ง 10 เหรียญใหม่ ถือครบ 4 สัปดาห์ ไม่ตั้ง stop",
+  "horizon": "month",
+  "source": "https://docs.google.com/presentation/d/1Hml4cGA0EN8AxBN4SEoi4NzLI7bv6KDimzH7PLhza9s/htmlpresent",
+  "claim": "แบ่งงบรายเดือนซื้อเหรียญมีมใหม่ราว 10 ตัว ปล่อยให้แต่ละตัววิ่งอย่างน้อย 4 สัปดาห์ (สไลด์ขายคอร์ส ไม่มีผลจริง ยังไม่ยืนยัน)",
+  "added": "2026-11-24",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 30000,
+    "age_h": 0
+   },
+   "max": {
+    "age_h": 24
+   },
+   "safe": true,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": null,
+   "TP_ALL": null,
+   "HALF_AT": null,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 672,
+   "PER_TRADE": 0.1,
+   "MAX_POS": 10,
+   "COOLDOWN_H": null
+  }
  }
 ]
