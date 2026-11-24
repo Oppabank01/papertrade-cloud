@@ -2185,5 +2185,40 @@
    "MAX_POS": 10,
    "COOLDOWN_H": null
   }
+ },
+ {
+  "name": "x_survivor_grad",
+  "label": "ไม่ซื้อเหรียญใหม่ ซื้อเฉพาะเหรียญที่จบ curve แล้วรอดเกิน 1 วัน (โพสต์ tigra_ai)",
+  "horizon": "week",
+  "source": "https://x.com/tigra_ai/status/2120825264473022619",
+  "claim": "The bot never buys a new coin, only ones that already survived; 9 days later 15 SOL had turned into 168 (story post with no wallet or trade log; unverified)",
+  "added": "2026-11-24",
+  "active": true,
+  "entry": {
+   "min": {
+    "launchpad_status": 1,
+    "liquidity": 50000,
+    "age_h": 24
+   },
+   "max": {
+    "launchpad_status": 1,
+    "age_h": 168
+   },
+   "safe": true,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.2,
+   "TP_ALL": 0.5,
+   "HALF_AT": null,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 24,
+   "PER_TRADE": 0.1,
+   "MAX_POS": 5,
+   "COOLDOWN_H": 24
+  },
+  "note": "post gives only 'already survived'; read as graduated from the bonding curve (launchpad_status 1) and 24 h to 7 days old, chosen by me; liquidity 50k, stop -20%, take all at +50%, 24 h cap, 10% per trade, 5 positions and 24 h cooldown all chosen by me; week horizon from the post's 9 days"
  }
 ]
