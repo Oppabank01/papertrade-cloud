@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.216541039354848,
+ "cash": 4.195863535463882,
  "pos": {
   "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
    "sym": "FIONA",
    "qty": 606.1867184200198,
    "entry": 0.003845,
-   "last": 0.002756,
+   "last": 0.002808170410798558,
    "peak": 0.004898,
    "cost": 2.3542717934647874,
    "opened": "2026-11-24T12:53:54+07:00",
    "zoo": "w_aged_nostop_b2",
    "smart": 424,
    "kol": 24,
-   "gap": 0,
+   "gap": 3,
    "miss": 0
   },
   "GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump": {
@@ -28,6 +28,20 @@
    "zoo": "w_aged_nostop_b2",
    "smart": 374,
    "kol": 147,
+   "gap": 0,
+   "miss": 0
+  },
+  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
+   "sym": "STONK",
+   "qty": 61.3845119910909,
+   "entry": 0.03259,
+   "last": 0.03259,
+   "peak": 0.03272,
+   "cost": 2.020677503890965,
+   "opened": "2026-11-24T22:00:16+07:00",
+   "zoo": "w_aged_nostop_b2",
+   "smart": 1000,
+   "kol": 174,
    "gap": 0,
    "miss": 0
   }
@@ -485,10 +499,24 @@
    "cost_side": 0.01,
    "smart": 801,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T22:00:16+07:00",
+   "kind": "buy",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.03259,
+   "jup": 0.032688839103872075,
+   "usd": 2.0207,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_aged_nostop_b2",
+   "smart": 1000,
+   "kol": 174
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: อายุเกิน 1 วัน pool 200k+ ไม่มี stop ถือ 12 ชม.",
- "rank_t": 1795531942.2471075,
+ "rank_t": 1795532301.4316976,
  "banned": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
   "GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump": "CHILLHOUSE"
