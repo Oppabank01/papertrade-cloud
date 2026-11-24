@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.168655318010214,
+ "cash": 1.4988955921005358,
  "pos": {
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
@@ -15,20 +15,6 @@
    "smart": 928,
    "kol": 295,
    "gap": 0,
-   "miss": 0
-  },
-  "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
-   "sym": "FIONA",
-   "qty": 98.05563340805018,
-   "entry": 0.003803,
-   "last": 0.0036796561700910254,
-   "peak": 0.003846,
-   "cost": 0.384359486550005,
-   "opened": "2026-11-24T10:03:32+07:00",
-   "zoo": "w_pause_bigliq",
-   "smart": 419,
-   "kol": 24,
-   "gap": 1,
    "miss": 0
   }
  },
@@ -4056,8 +4042,23 @@
    "zoo": "w_pause_bigliq",
    "smart": 419,
    "kol": 24
+  },
+  {
+   "t": "2026-11-24T10:15:52+07:00",
+   "kind": "sell",
+   "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
+   "sym": "FIONA",
+   "price": 0.003471332515800768,
+   "entry": 0.003803,
+   "usd": 0.3302,
+   "pnl": -0.0541,
+   "why": "stop -8.7%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 419,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795489684.8049855
+ "rank_t": 1795490012.7053268
 }
