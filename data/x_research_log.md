@@ -466,3 +466,14 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ลองแล้วตก: ช่วงกลางวันกลางคืนของ MDPI
 ไอเดีย: options-claims-audit (ต้องมีข้อมูล chain ออปชันหุ้นสหรัฐ), B_ruptura แบบ forward (ต้องเพิ่มวอลุ่มใน byttrade.fetch)
 เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมที่ตัดสินได้)
+
+## 2026-11-24 08:34 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 17 พ.ย. (llm trading, polymarket bot, crypto strategy backtest ตั้งแต่ 20 พ.ย., mean reversion bitcoin), X 4 ครั้ง (ai trading agent backtest rules, breakout retest strategy bot backtest win rate, hyperliquid bot strategy rules open source, pump.fun bot take profit stop loss liquidity filter), เว็บ 2 ครั้ง (งานวิจัย intraday predictability ของคริปโต, ท่าบอทใหม่ พ.ย. 69)
+เจอ: บอทแข่ง make.fun 4 ขาของ fauzinfau4 (กฎครบใน main.py), โพสต์ dev.to ของ maymay5692 ที่ backtest 49 ท่าบน BTC รายวัน (ท่าชนะ EMA 12/26), skill วิจัย factor บน NautilusTrader ของ zhengui666 (ไม่มีท่า) ส่วน X เป็นโฆษณา FensoryApp ที่เคยเจอแล้วกับโพสต์ Grok Bot ที่อยู่ในฟีดแล้ว ไม่มีกฎเหรียญมีมใหม่ งาน Lee และ Wang (เหรียญแกว่งมากผลตอบแทนสัปดาห์ถัดไปต่ำ) ตรงกับท่า low volatility ที่ลองตกไปแล้ว 23 พ.ย. จึงไม่ลงซ้ำ
+ทดสอบแล้ว (Binance หลังหัก 0.35%/ข้าง permutation 200 รอบ):
+- EMA 12/26 รายวัน long อย่างเดียว 2017-2026: BTC 50 ไม้ +16.3% ETH 48 ไม้ +13.3% SOL 32 ไม้ +52.9% ต่อไม้ มัธยฐานติดลบ ชนะ 34-40% ตัวแฝดเข้าวันสุ่มถือ 35 วัน +4.3/+4.8/+13.9% ทบรวมชนะถือเฉยๆ ทั้งสามเหรียญและ drawdown ต่ำกว่า แต่ 3 ปีล่าสุดแทบเท่าถือเฉยๆ PSAR 0.02/0.2 แพ้ถือเฉยๆ ที่ BTC ETH permutation (เลือกดีสุดจากสองท่า) p 0.015/0.050/0.005 ไม่ผ่าน 0.01
+- บอท 4 ขาของ fauzinfau4 แท่ง 1 นาที 60 วัน: BTC 229 ไม้ -0.71% ETH 373 ไม้ -0.74% SOL 491 ไม้ -0.74% ต่อไม้ ก่อนหักราว 0% ตัวแฝดเข้าสุ่ม -0.71 ถึง -0.78% p 0.284/0.687/0.741 เท่ากับสุ่ม
+เปิดบัญชี: fwd_ema1226.py (รายวัน BTC ETH SOL พร้อมตัวแฝดเข้าวันสุ่มถือ 35 วัน) test เดินทีละแท่งบนหน้าต่าง 1,000 แท่งตรง backtest BTC 25 ไม้ SOL 23 ไม้ ตอนนี้ EMA12 อยู่ใต้ EMA26 ทั้งสามเหรียญ สคริปต์ /tmp/scout_0834/bt.py
+ลองแล้วตก: บอท 4 ขาของ fauzinfau4
+ไอเดีย: nautilus-quant-research (ต้องมีข้อมูล trades/L2 และ OI ของ Hyperliquid ที่เสียเงิน)
+เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมที่ตัดสินได้)
