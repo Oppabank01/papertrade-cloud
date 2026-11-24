@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 8.134628236593308,
+ "cash": 6.086178989984999,
  "pos": {
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": {
    "sym": "OTC",
    "qty": 1101.7344466535467,
    "entry": 0.001892,
-   "last": 0.001914,
+   "last": 0.001913,
    "peak": 0.002006,
    "cost": 2.1054837737112804,
    "opened": "2026-11-25T01:56:36+07:00",
@@ -15,6 +15,20 @@
    "smart": 532,
    "kol": 55,
    "gap": 0,
+   "miss": 0
+  },
+  "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
+   "sym": "CBUCKS",
+   "qty": 448.67609853393606,
+   "entry": 0.00452,
+   "last": 0.004601,
+   "peak": 0.004662,
+   "cost": 2.0484492466083086,
+   "opened": "2026-11-25T06:14:29+07:00",
+   "zoo": "w_red5m_b2",
+   "smart": 42,
+   "kol": 0,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -565,10 +579,24 @@
    "mint": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
    "sym": "OTC",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-25T06:14:29+07:00",
+   "kind": "buy",
+   "mint": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+   "sym": "CBUCKS",
+   "price": 0.00452,
+   "jup": 0.004517632961951061,
+   "usd": 2.0484,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_red5m_b2",
+   "smart": 42,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สวนทาง: อายุเกิน 1 วัน pool 200k+ กำลังแดง 5 นาที",
- "rank_t": 1795561583.7975557,
+ "rank_t": 1795561997.2529922,
  "banned": {
   "J1Wpmugrooj1yMyQKrdZ2vwRXG5rhfx3vTnYE39gpump": "WOULD",
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings",
