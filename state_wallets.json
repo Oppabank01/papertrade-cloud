@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 4.617683651133879,
- "pos": {},
+ "cash": 3.694146920907103,
+ "pos": {
+  "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr": {
+   "sym": "EURC",
+   "qty": 0.8175322405711841,
+   "entry": 1.096,
+   "last": 1.096,
+   "peak": 1.096,
+   "cost": 0.9235367302267758,
+   "opened": "2026-11-24T20:13:09+07:00",
+   "wallet": "7NnaXg",
+   "wallet_usd": 2500,
+   "lag_min": 5.6,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T10:36:33+07:00",
@@ -12303,13 +12318,36 @@
    "wallet": "7g5CJ7",
    "usd": 565,
    "why": "liq $0"
+  },
+  {
+   "t": "2026-11-24T20:13:09+07:00",
+   "kind": "buy",
+   "mint": "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr",
+   "sym": "EURC",
+   "price": 1.096,
+   "jup": 1.0957719526533432,
+   "usd": 0.9235,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "wallet": "7NnaXg",
+   "wallet_usd": 2500,
+   "lag_min": 5.6
+  },
+  {
+   "t": "2026-11-24T20:13:09+07:00",
+   "kind": "skip",
+   "mint": "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr",
+   "sym": "EURC",
+   "wallet": "7NnaXg",
+   "usd": 2500,
+   "why": "repeat"
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ ผ่าน Helius",
  "cursor": {
   "FqJMNzzY1DHz2F1Pt6F7VqCxBWdu8cK2TbfTrYT9zQbT": "4oJyD3ekW5xtmHhrfcbZKxnUY7VtnUFnUnq3mdmNXbuARDr55i2uVLcLp8HXmUK8n5jH6HxVaH45tr1KXm85txpN",
   "2kN7bb7sVKn4iBWDMpo8aAVyyQxAVpZATQ7RRkmoy6Mm": "449HyC5RvV8So7WUBvEKZxG3CU4ErvEpLVet2TG6N2KLaVqB5aEMXZvzEXFvBuidbnHp6vk2HaSLAWj66pUeVfJB",
-  "7NnaXghjuU92gM9kmwXysqa5HboyZuR2LTaBnvazFxSH": "LmQJRJcaGbBFUdUnbjjo4SmsoYZ8KmXnuNgXTcJDtUXhhDW8GFGDYB3MwACaxFiQudhX5xnyWRdcTTBjpgKcGdK",
+  "7NnaXghjuU92gM9kmwXysqa5HboyZuR2LTaBnvazFxSH": "24QkRHrWApeXWU7YLVwjaHsvYYpFayCTpWyee5uoYkx9cLZd91zNsyUNp7XSYDEJhEdNUh7yoUeC5Y2vMH7vYuHw",
   "7g5CJ754NboeY6D44MDdGwQmVX4Fvu59Q47c9ZKLPMkE": "5QVdNHyH8EH7hyh2hQtNAEojSohTyAZLrfbnXxo3c5UxzZpRxPYBS4d8UVAPHztFB4Kn8wHTYmrncFJaN9krdPuX",
   "8emnM6nfVM2ePrYDmZcMkwy8qzDhRFZ5EefCkMsmgByX": "4oakmqqQWufs2pHXrtVLxSjMhdm2XSvko4awpqEJYkTS7K4PXE1VUcGwLNbyu4DUjXcdGY6a75Gn3a8C4erFHEa2",
   "ENskGQev2bXPjaCYPV9bUcPLv3635Y18BWzLN95x4soC": "466j3DPkfzL4VPWHrnLe2ZDT5jFkBU6e4DK6nKCt2p64VYseFYfx9vNvUpwi9Z5Ja3pMVASnZeNR22KiePnYAUkE",
