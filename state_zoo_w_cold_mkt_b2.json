@@ -1,19 +1,61 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 11.779458289512325,
+ "cash": 3.0661476019067075,
  "pos": {
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 38.44828018818857,
    "entry": 0.07504,
-   "last": 0.07197,
+   "last": 0.07241,
    "peak": 0.07836,
    "cost": 2.9142283733457943,
    "opened": "2026-11-24T10:25:52+07:00",
    "zoo": "w_cold_mkt_b2",
    "smart": 928,
    "kol": 295,
+   "gap": 0,
+   "miss": 0
+  },
+  "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
+   "sym": "TROLL",
+   "qty": 155.99400801371152,
+   "entry": 0.01847,
+   "last": 0.01858,
+   "peak": 0.01858,
+   "cost": 2.910238961655768,
+   "opened": "2026-11-24T20:39:18+07:00",
+   "zoo": "w_cold_mkt_b2",
+   "smart": 476,
+   "kol": 214,
+   "gap": 0,
+   "miss": 0
+  },
+  "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
+   "sym": "ZCAT",
+   "qty": 210.81094687711624,
+   "entry": 0.01364,
+   "last": 0.01367,
+   "peak": 0.01367,
+   "cost": 2.9044330349272647,
+   "opened": "2026-11-24T20:39:18+07:00",
+   "zoo": "w_cold_mkt_b2",
+   "smart": 330,
+   "kol": 48,
+   "gap": 0,
+   "miss": 0
+  },
+  "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
+   "sym": "CRIME",
+   "qty": 948.6693454808709,
+   "entry": 0.003025,
+   "last": 0.003051,
+   "peak": 0.003054,
+   "cost": 2.898638691022585,
+   "opened": "2026-11-24T20:39:20+07:00",
+   "zoo": "w_cold_mkt_b2",
+   "smart": 93,
+   "kol": 40,
    "gap": 0,
    "miss": 0
   }
@@ -276,10 +318,52 @@
    "cost_side": 0.01,
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T20:39:18+07:00",
+   "kind": "buy",
+   "mint": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
+   "sym": "TROLL",
+   "price": 0.01847,
+   "jup": 0.018412327809220204,
+   "usd": 2.9102,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_cold_mkt_b2",
+   "smart": 476,
+   "kol": 214
+  },
+  {
+   "t": "2026-11-24T20:39:18+07:00",
+   "kind": "buy",
+   "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+   "sym": "ZCAT",
+   "price": 0.01364,
+   "jup": 0.013749781964328831,
+   "usd": 2.9044,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_cold_mkt_b2",
+   "smart": 330,
+   "kol": 48
+  },
+  {
+   "t": "2026-11-24T20:39:20+07:00",
+   "kind": "buy",
+   "mint": "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump",
+   "sym": "CRIME",
+   "price": 0.003025,
+   "jup": 0.003031248964761239,
+   "usd": 2.8986,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_cold_mkt_b2",
+   "smart": 93,
+   "kol": 40
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดเย็น: กฎ w_aged_nostop เฉพาะรอบที่เหรียญขึ้นไม่เกิน 61%",
- "rank_t": 1795527027.8719437,
+ "rank_t": 1795527438.5467954,
  "banned": {
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings"
  }
