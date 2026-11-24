@@ -42,6 +42,7 @@ $PY poly_fav.py run || echo "poly_fav run failed"   # favourite-longshot bias: f
 $PY poly_fav_mid.py run || echo "poly_fav_mid run failed"   # mid favourites 0.60-0.85 / mid dogs 0.15-0.40 + twin (23 Nov), ~12 s
 $PY poly_fav_sport.py run || echo "poly_fav_sport run failed"   # same as mid, sports feeType only + dog + twin (24 Nov)
 $PY poly_fav_exact.py run || echo "poly_fav_exact run failed"   # exact-score No 0.85-0.97 + Yes control + twin (24 Nov), ~12 s
+$PY poly_fav_sure.py run || echo "poly_fav_sure run failed"   # near-certain outcomes ask 0.985-0.995 + 0.005-0.015 control + twin (24 Nov), ~12 s
 $PY poly_updown.py run || echo "poly_updown run failed"   # crypto Up or Down vs a Binance random-walk model + twin (23 Nov), ~5 s
 $PY kalshi_fav.py run || echo "kalshi_fav run failed"   # Kalshi favourites 0.85-0.97 / longshots 0.03-0.10 + twin (23 Nov), ~10 s
 left=$((T0 + 230 - $(date +%s))); [ "$left" -gt 0 ] && sleep "$left"   # watcher keeps checking here instead of the chain step idling
