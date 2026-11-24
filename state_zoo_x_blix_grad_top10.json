@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.628437682855472,
- "cash": 16.67810397378208,
- "pos": {},
+ "cash": 12.137047878336844,
+ "pos": {
+  "6jmhyHEy1rDyYHyRkr1rbVVQnckKpMYWh3zoX7zLpump": {
+   "sym": "CHRISTMAS",
+   "qty": 14783.692224604969,
+   "entry": 0.0002176,
+   "last": 0.0002333,
+   "peak": 0.0002454,
+   "cost": 3.315740494819668,
+   "opened": "2026-11-25T01:02:49+07:00",
+   "zoo": "x_blix_grad_top10",
+   "smart": 69,
+   "kol": 2,
+   "gap": 1,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-23T01:38:31+07:00",
@@ -501,12 +516,55 @@
    "cost_side": 0.03,
    "smart": 32,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T01:02:49+07:00",
+   "kind": "buy",
+   "mint": "55RwtHpoNB81SgfiNvogeZTMfik2SfMGa5FaxKcXpump",
+   "sym": "Holders",
+   "price": 0.0001248,
+   "jup": 0.00012358138994671895,
+   "usd": 3.3356,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_blix_grad_top10",
+   "smart": 45,
+   "kol": 1
+  },
+  {
+   "t": "2026-11-25T01:02:49+07:00",
+   "kind": "buy",
+   "mint": "6jmhyHEy1rDyYHyRkr1rbVVQnckKpMYWh3zoX7zLpump",
+   "sym": "CHRISTMAS",
+   "price": 0.0002176,
+   "jup": 0.00021606673829088142,
+   "usd": 3.3157,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_blix_grad_top10",
+   "smart": 69,
+   "kol": 2
+  },
+  {
+   "t": "2026-11-25T01:07:11+07:00",
+   "kind": "sell",
+   "mint": "55RwtHpoNB81SgfiNvogeZTMfik2SfMGa5FaxKcXpump",
+   "sym": "Holders",
+   "price": 8.388042843004214e-05,
+   "entry": 0.0001248,
+   "usd": 2.1103,
+   "pnl": -1.2253,
+   "why": "stop -32.8%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 45,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: blixtrade: เหรียญจบ curve ใหม่ top10 ถือไม่เกิน 30% (เดิมตัดทิ้งว่าซ้ำ ลองจริงก่อน)",
  "night": "2026-11-24",
  "night_start": 14.825427053332547,
- "rank_t": 1795542868.6458797,
+ "rank_t": 1795543260.1742113,
  "nights": [
   {
    "night": "2026-11-22",
