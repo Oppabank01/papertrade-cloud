@@ -1600,5 +1600,50 @@
   "summary": "โพสต์ยกผลกระเป๋า Polymarket ที่เทรดตลาด BTC 5 นาทีราว 10 ถึง 12 ครั้งต่อชั่วโมง ไม่ให้กฎ บอกแค่ชื่อโมเดล",
   "verdict": "ไอเดีย",
   "action": "ไม่มีกฎ แบบใกล้ที่สุด (โมเดลราคา Binance เทียบราคา Up/Down) ทดสอบไปแล้วในฟีด ต้องประวัติไม้ของกระเป๋าทั้งหมดพร้อมเวลาและราคาถึงจะแกะกฎได้"
+ },
+ {
+  "t": "2026-11-24T12:40:00+07:00",
+  "source": "github",
+  "title": "iralekseev-hub/freqtrade-bybit-bot: SimpleTrendOpt 4 ชม. (EMA9/21 + Supertrend + RSI + MACD + BB กลาง)",
+  "url": "https://github.com/iralekseev-hub/freqtrade-bybit-bot",
+  "summary": "บอท freqtrade บน Bybit futures 3x long+short เลขจาก hyperopt ใน SimpleTrendOpt.json ครบทั้งตัวเข้า ตาราง ROI stop -15.2% trailing และสัญญาณออก รันแบบ dry_run",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest Binance 4 ชม. 2017-2026 หลังหัก 0.35%/ข้าง (แปลงเลข ROI stop trailing เป็นราคาด้วยการหาร 3 ตามเลเวอเรจ): BTC 1,253 ไม้ -0.64% ETH 1,452 ไม้ -0.64% SOL 1,262 ไม้ -0.62% DOGE 1,288 ไม้ -0.70% XRP 1,437 ไม้ -0.74% ต่อไม้ มัธยฐาน +0.5 ถึง +0.6% ชนะ 57-58% ก่อนหักราว 0% ตัวแฝดเข้าสุ่ม -0.60 ถึง -0.69% permutation 200 รอบ p 0.045/0.129/0.040/0.189/0.507 ติดลบทุกปีทุกเหรียญ เปิด fwd_simpletrend.py (5 เหรียญ พร้อมตัวแฝดสุ่ม) test เดินทีละแท่งตรง backtest ETH 48 ไม้ SOL 58 ไม้"
+ },
+ {
+  "t": "2026-11-24T12:40:00+07:00",
+  "source": "github",
+  "title": "Germoso/freqtrade-strategy-research: EMACrossDet EMA10/20 ตัดกัน + ตัวกรอง EMA200 TP 1.5% SL 2% แท่ง 5 นาที",
+  "url": "https://github.com/Germoso/freqtrade-strategy-research",
+  "summary": "ท่า EMA10 ตัด EMA20 บนแท่ง 5 นาที long+short กรองด้วย EMA200 (แบบปกติและแบบกลับด้าน) ออกที่ TP 1.5% หรือ SL 2% ผลของ repo เองขาดทุนรวม 10 เหรียญ",
+  "verdict": "ลองแล้วตก",
+  "action": "backtest Binance 5 นาที 180 วันล่าสุด หลังหัก 0.35%/ข้าง: ไม่กรอง/กรองปกติ/กลับด้าน BTC -0.66/-0.59/-0.75% ETH -0.76/-0.67/-0.78% SOL -0.67/-0.69/-0.70% LINK -0.76/-0.58/-0.73% ต่อไม้ (159 ถึง 404 ไม้) เข้าสุ่ม -0.68 ถึง -0.74% permutation 200 รอบ (เลือกดีสุดจาก 3 แบบ) p 0.338/0.692/0.756/0.159 ชนะ 55-61% แต่ TP เล็กกว่า SL ต้นทุนกินหมด ไม่เปิดบัญชีเพราะแท่ง 5 นาทีไม่มีใน byttrade.fetch และเท่ากับสุ่ม"
+ },
+ {
+  "t": "2026-11-24T12:40:00+07:00",
+  "source": "github",
+  "title": "Flexpro23/trading-system: แล็บ paper futures (level, order flow, OI, long/short ratio crowd fade)",
+  "url": "https://github.com/Flexpro23/trading-system",
+  "summary": "แล็บทดสอบที่รายงานผลตรงไปตรงมา level method กับ order flow ตกหมดหลังหักค่าธรรมเนียม มีแค่ crowd fade ของ long/short ratio 24 ชม. ที่ผ่าน PF 1.43/1.32 ช่วงเทรน 1.15 ช่วงกันไว้",
+  "verdict": "ไอเดีย",
+  "action": "crowd fade ต้องมีประวัติ long/short ratio ของ Binance futures ย้อนหลังหลายปี (API สาธารณะให้แค่ 30 วัน) ยังไม่มีในระบบ ไม่ได้ทดสอบ ท่าอื่นใน repo ตกแล้วตามผลของเขาเอง"
+ },
+ {
+  "t": "2026-11-24T12:40:00+07:00",
+  "source": "github",
+  "title": "VasitoTa77/freqtrade-2026-ai-ml-strategies: FreqAI LightGBM/RL แบบ 'native 64-bit Windows portable'",
+  "url": "https://github.com/VasitoTa77/freqtrade-2026-ai-ml-strategies",
+  "summary": "ใช้คำบรรยายแบบเดียวกับกลุ่ม repo ปลอมที่แจก exe ที่เคยเจอ (MariviPa23, Roger86476) ดาวขึ้นเร็วผิดปกติ",
+  "verdict": "ตัดทิ้ง",
+  "action": "ต้องรันโปรแกรมที่ดาวน์โหลด หน้าตาเหมือนมัลแวร์ ไม่ได้เปิดดูโค้ด"
+ },
+ {
+  "t": "2026-11-24T12:40:00+07:00",
+  "source": "x",
+  "title": "Sypronus: เดโม Grok Bot 12 เอเจนต์ $10 เป็น $14,382 ใน 24 ชม.",
+  "url": "https://x.com/Sypronus/status/2124969063848009963",
+  "summary": "คลิปแดชบอร์ดเร่งความเร็วของบอท Grok 12 ตัว ไม่มีกฎ ไม่มีกระเป๋าหรือประวัติไม้ให้ตรวจ",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎหรือกระเป๋าให้ทำเป็นท่ากลไก บอท Grok เฝ้าเหรียญมีมแบบใกล้ที่สุดเปิดไปแล้วเมื่อ 03:33 (6vintik9) จึงไม่เปิดซ้ำ ต้องมีที่อยู่กระเป๋าหรือ log ไม้ถึงจะตรวจได้"
  }
 ]

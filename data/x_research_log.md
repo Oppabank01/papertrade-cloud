@@ -498,3 +498,15 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ไอเดีย: z-score ทองสองตลาด (ต้อง COMEX 1 นาทีย้อนหลัง), ซื้อทั้งสองฝั่ง Up or Down ของ 0xKorens (ต้อง ask สองฝั่งรายวินาที), Quant Kalman ของ Dan1ro0 (ต้องประวัติไม้ของกระเป๋า)
 ตัดทิ้ง: omni-agent-traderx (ต้อง credential และรันโค้ดที่ดาวน์โหลด), pumpstriker-bot (ต้อง private key)
 เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมที่ตัดสินได้)
+
+## 2026-11-24 12:40 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 17 พ.ย. (quant agent, freqtrade strategy, grid bot, solana sniper), X 3 ครั้ง (supertrend bot backtest crypto ได้แต่โพสต์ปี 2020, trading bot strategy rules ตั้งแต่ 20 พ.ย., memecoin bot settings ตั้งแต่ 18 พ.ย.), เว็บ 1 ครั้ง (งานวิจัยกฎเทคนิคคริปโตใหม่ ได้แต่งานเก่าปี 2019 ถึง 2024)
+เจอ: SimpleTrendOpt ของ iralekseev-hub (freqtrade 4 ชม. เลขจาก hyperopt ครบ), EMACrossDet ของ Germoso (EMA10/20 กับ EMA200 แท่ง 5 นาที TP 1.5% SL 2%), แล็บของ Flexpro23 (ท่าเดียวที่ผ่านคือ crowd fade ของ long/short ratio), VasitoTa77 กลุ่ม repo แจกโปรแกรม Windows ส่วน X มีแต่โฆษณากับคลิปเดโม Grok Bot ของ Sypronus ที่ไม่มีกฎ ส่วน sniper กับ grid เป็นกลุ่ม repo ขายบอทที่เคยเจอแล้ว
+ทดสอบแล้ว (Binance หลังหัก 0.35%/ข้าง permutation 200 รอบ):
+- SimpleTrendOpt 4 ชม. 2017-2026 long+short (ROI stop trailing หาร 3 ตามเลเวอเรจ 3x ของบอท): BTC 1,253 ไม้ -0.64% ETH 1,452 ไม้ -0.64% SOL 1,262 ไม้ -0.62% DOGE 1,288 ไม้ -0.70% XRP 1,437 ไม้ -0.74% ต่อไม้ ชนะ 57-58% มัธยฐานบวกเล็กน้อย ก่อนหักราว 0% ตัวแฝดเข้าสุ่ม -0.60 ถึง -0.69% p 0.045/0.129/0.040/0.189/0.507 ติดลบทุกปีทุกเหรียญ
+- EMACrossDet 5 นาที 180 วันล่าสุด ไม่กรอง/กรองปกติ/กลับด้าน: BTC -0.66/-0.59/-0.75% ETH -0.76/-0.67/-0.78% SOL -0.67/-0.69/-0.70% LINK -0.76/-0.58/-0.73% ต่อไม้ เข้าสุ่ม -0.68 ถึง -0.74% p (ดีสุดจาก 3 แบบ) 0.338/0.692/0.756/0.159
+เปิดบัญชี: fwd_simpletrend.py (4 ชม. BTC ETH SOL DOGE XRP long+short พร้อมตัวแฝดเข้าสุ่ม 1 ใน 30 แท่ง ฝั่งตาม EMA9/21) test เดินทีละแท่งตรง backtest ETH 48 ไม้ SOL 58 ไม้ เปิดทั้งที่ติดลบเพราะผู้ใช้ให้ลองท่าอ่อนด้วย คาดว่าจะแพ้ต้นทุนราว 0.6% ต่อไม้ สคริปต์ /tmp/scout_1202/
+ลองแล้วตก: EMACrossDet ของ Germoso (ไม่เปิดบัญชีเพราะ byttrade.fetch ไม่มีแท่ง 5 นาที และเท่ากับสุ่ม)
+ไอเดีย: crowd fade long/short ratio ของ Flexpro23 (ต้องประวัติ long/short ratio ของ Binance futures เกิน 30 วัน), เดโม Grok Bot ของ Sypronus (ต้องกระเป๋าหรือ log ไม้)
+ตัดทิ้ง: VasitoTa77/freqtrade-2026-ai-ml-strategies (ต้องรันโปรแกรมที่ดาวน์โหลด)
+เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมที่ตัดสินได้)
