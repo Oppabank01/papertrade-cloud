@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 9.06876540588138,
- "pos": {
-  "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": {
-   "sym": "GROKIA",
-   "qty": 705.6878566559283,
-   "entry": 0.003117,
-   "last": 0.0029242987261403107,
-   "peak": 0.004134878376022512,
-   "cost": 2.267191351470345,
-   "opened": "2026-11-25T05:34:02+07:00",
-   "zoo": "x_rule5_60_25_b2",
-   "smart": 4,
-   "kol": 0,
-   "gap": 2,
-   "miss": 0
-  }
- },
+ "cash": 10.504798132868935,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-22T19:52:28+07:00",
@@ -305,10 +290,25 @@
    "zoo": "x_rule5_60_25_b2",
    "smart": 4,
    "kol": 0
+  },
+  {
+   "t": "2026-11-25T06:54:20+07:00",
+   "kind": "sell",
+   "mint": "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump",
+   "sym": "GROKIA",
+   "price": 0.002097444234925971,
+   "entry": 0.003117,
+   "usd": 1.436,
+   "pnl": -0.8312,
+   "why": "stop -32.7%",
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "smart": 4,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ระบบ 5 ไม้ เข้มกรอง ปลอดภัย TP +60% SL -25%",
- "rank_t": 1795564027.1407514,
+ "rank_t": 1795564437.483542,
  "banned": {
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": "DacityCoin"
  }
