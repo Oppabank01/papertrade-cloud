@@ -2,7 +2,7 @@
  "label": "Kalshi ตัวควบคุม: สุ่มฝั่งในตลาดเดียวกับตัวเต็ง/ตัวรอง",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 6.3980772729379645,
+ "cash": 4.923151019250648,
  "pos": {
   "KXSTEAMTOPSELLER-26NOV24-COU:no": {
    "qty": 13.765060697035144,
@@ -67,7 +67,7 @@
   "KXGOLDD-26NOV2417-T3565:yes": {
    "qty": 0.8182188751659075,
    "entry": 0.901303,
-   "last": 0.85,
+   "last": 0.82,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:07:17+00:00",
    "coin": "YES | Will the gold close price be above 3565 USD/t.oz on November 24, 2026 at 5:00 PM EST",
@@ -79,13 +79,37 @@
   "KXSOLD-26NOV2417-T67.9999:yes": {
    "qty": 0.7549113938906525,
    "entry": 0.976887,
-   "last": 0.85,
+   "last": 0.87,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:13:38+00:00",
    "coin": "YES | SOL price on Nov 24, 2026?",
    "ticker": "KXSOLD-26NOV2417-T67.9999",
    "side": "yes",
    "close": "2026-11-24T22:00:00Z",
+   "why": "สุ่มฝั่ง"
+  },
+  "KXSILVERD-26NOV2417-T41.50:no": {
+   "qty": 6.90508545733762,
+   "entry": 0.1068,
+   "last": 0.08,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-24T00:09:59+00:00",
+   "coin": "NO | Will the silver close price be above 41.50 USD/t.oz on November 24, 2026 at 5:00 PM E",
+   "ticker": "KXSILVERD-26NOV2417-T41.50",
+   "side": "no",
+   "close": "2026-11-24T22:00:00Z",
+   "why": "สุ่มฝั่ง"
+  },
+  "KXCS2GAME-26NOV231645AXEFLX-AXE:yes": {
+   "qty": 0.7697342346305435,
+   "entry": 0.958075,
+   "last": 0.92,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-24T00:09:59+00:00",
+   "coin": "YES | AXE wins",
+   "ticker": "KXCS2GAME-26NOV231645AXEFLX-AXE",
+   "side": "yes",
+   "close": "2026-11-25T21:45:00Z",
    "why": "สุ่มฝั่ง"
   }
  },
@@ -488,6 +512,24 @@
    "ret": 0.13344,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-24T00:09:59+00:00",
+   "coin": "NO | Will the silver close price be above 41.50 USD/t.oz on November 24, 2026 at 5:00 PM E",
+   "px": 0.1068,
+   "usd": 0.7374631268436579,
+   "why": "สุ่มฝั่ง",
+   "ask": 0.1
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-24T00:09:59+00:00",
+   "coin": "YES | AXE wins",
+   "px": 0.95808,
+   "usd": 0.7374631268436579,
+   "why": "สุ่มฝั่ง",
+   "ask": 0.95
   }
  ],
  "seen": null,
@@ -514,6 +556,8 @@
   "KXHIGHTHOU-26NOV23": 1795410854,
   "KXXRPD-26NOV2417": 1795471635,
   "KXGOLDD-26NOV2417": 1795471635,
-  "KXSOLD-26NOV2417": 1795472017
+  "KXSOLD-26NOV2417": 1795472017,
+  "KXSILVERD-26NOV2417": 1795478997,
+  "KXCS2GAME-26NOV231645AXEFLX": 1795478997
  }
 }
