@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 3.248860061192618,
+ "cash": 0.0,
  "pos": {
   "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm": {
    "sym": "KLED",
@@ -21,14 +21,28 @@
    "sym": "paws",
    "qty": 2763.3075440232856,
    "entry": 0.000425,
-   "last": 0.0004274,
+   "last": 0.0004264,
    "peak": 0.0004359,
    "cost": 1.2104779490928637,
    "opened": "2026-11-24T15:58:25+07:00",
    "zoo": "x_cto_watch_b2",
    "smart": 316,
    "kol": 15,
-   "gap": 0,
+   "gap": 3,
+   "miss": 0
+  },
+  "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
+   "sym": "FIONA",
+   "qty": 685.3759581146071,
+   "entry": 0.004599,
+   "last": 0.004236431490181384,
+   "peak": 0.004599,
+   "cost": 3.248860061192618,
+   "opened": "2026-11-24T16:04:38+07:00",
+   "zoo": "x_cto_watch_b2",
+   "smart": 432,
+   "kol": 25,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -536,10 +550,24 @@
    "cost_side": 0.03,
    "smart": 153,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T16:04:38+07:00",
+   "kind": "buy",
+   "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
+   "sym": "FIONA",
+   "price": 0.004599,
+   "jup": 0.004556739321768449,
+   "usd": 3.2489,
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "zoo": "x_cto_watch_b2",
+   "smart": 432,
+   "kol": 25
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: รอ dev เทหมดแล้วมี CTO: dev ถือ 0% ซื้อ 40% ขายครึ่ง x3 trail 15% stop -18%",
- "rank_t": 1795510602.5273776,
+ "rank_t": 1795510979.0984976,
  "banned": {
   "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm": "KLED"
  }
