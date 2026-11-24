@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 3.5063247084174103,
+ "cash": 1.2083629756275052,
  "pos": {
   "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": {
    "sym": "swordcat",
    "qty": 5662.624936394442,
    "entry": 0.0004298,
-   "last": 0.0005402,
+   "last": 0.0005400809988187894,
    "peak": 0.0006449,
    "cost": 2.508551017998692,
    "opened": "2026-11-23T04:55:37+07:00",
    "zoo": "x_smartflow_lowcap_b2",
    "smart": 318,
    "kol": 43,
-   "gap": 0,
+   "gap": 13,
    "miss": 0
   },
   "Hmeju3J16Cbx1D6snGFNDGTV32AS9TYPaXyVYHBqpump": {
    "sym": "2027",
    "qty": 7558.936535939488,
    "entry": 0.0003714,
-   "last": 0.0003758,
+   "last": 0.0003779,
    "peak": 0.0004779,
    "cost": 2.893618871828412,
    "opened": "2026-11-24T12:17:50+07:00",
@@ -35,13 +35,27 @@
    "sym": "Huss",
    "qty": 4189.245620882508,
    "entry": 0.0004947,
-   "last": 0.0004935,
+   "last": 0.0004978,
    "peak": 0.0005364,
    "cost": 2.136074838848255,
    "opened": "2026-11-24T17:55:19+07:00",
    "zoo": "x_smartflow_lowcap_b2",
    "smart": 155,
    "kol": 7,
+   "gap": 0,
+   "miss": 0
+  },
+  "H3iGq7KSqdzw7QG3xZo2mF4eaYsvihZqqoAkdXripump": {
+   "sym": "CROWD",
+   "qty": 5333.690127159728,
+   "entry": 0.000418,
+   "last": 0.0004331,
+   "peak": 0.0004352,
+   "cost": 2.297961732789905,
+   "opened": "2026-11-24T23:11:23+07:00",
+   "zoo": "x_smartflow_lowcap_b2",
+   "smart": 10,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -796,10 +810,24 @@
    "cost_side": 0.03,
    "smart": 32,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T23:11:23+07:00",
+   "kind": "buy",
+   "mint": "H3iGq7KSqdzw7QG3xZo2mF4eaYsvihZqqoAkdXripump",
+   "sym": "CROWD",
+   "price": 0.000418,
+   "jup": 0.0004173492855105802,
+   "usd": 2.298,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "x_smartflow_lowcap_b2",
+   "smart": 10,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: smart money เข้า 3+ มาร์เก็ตแคปต่ำ ขายครึ่งที่ x2",
- "rank_t": 1795536167.1764004,
+ "rank_t": 1795536599.1919696,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "GNHW5JetZmW85vAU35KyoDcYoSd3sNWtx5RPMTDJpump": "GOAT",
