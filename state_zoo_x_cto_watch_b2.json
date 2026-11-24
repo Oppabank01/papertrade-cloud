@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 4.395742825038201,
+ "cash": 5.434615204482615,
  "pos": {
-  "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
-   "sym": "paws",
-   "qty": 2763.3075440232856,
-   "entry": 0.000425,
-   "last": 0.0003936,
-   "peak": 0.0004572,
-   "cost": 1.2104779490928637,
-   "opened": "2026-11-24T15:58:25+07:00",
-   "zoo": "x_cto_watch_b2",
-   "smart": 316,
-   "kol": 15,
-   "gap": 0,
-   "miss": 0
-  },
   "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": {
    "sym": "Kimchi",
    "qty": 827.7849858014087,
    "entry": 0.001694,
-   "last": 0.001556,
+   "last": 0.001542,
    "peak": 0.001736,
    "cost": 1.4453388640976976,
    "opened": "2026-11-24T17:08:27+07:00",
@@ -659,6 +645,21 @@
    "mint": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
    "sym": "paws",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-24T22:51:03+07:00",
+   "kind": "sell",
+   "mint": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
+   "sym": "paws",
+   "price": 0.0003875,
+   "entry": 0.000425,
+   "usd": 1.0389,
+   "pnl": -0.1716,
+   "why": "trailing จากยอด +8% (-8.8%)",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": 316,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: รอ dev เทหมดแล้วมี CTO: dev ถือ 0% ซื้อ 40% ขายครึ่ง x3 trail 15% stop -18%",
