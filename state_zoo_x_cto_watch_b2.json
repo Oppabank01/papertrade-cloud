@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 1.6211124703728237,
+ "cash": 0.0,
  "pos": {
   "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm": {
    "sym": "KLED",
@@ -21,7 +21,7 @@
    "sym": "STONK",
    "qty": 94.29817771989221,
    "entry": 0.03585,
-   "last": 0.03577,
+   "last": 0.03558,
    "peak": 0.04091,
    "cost": 3.4844255527294745,
    "opened": "2026-11-22T22:05:52+07:00",
@@ -29,6 +29,20 @@
    "smart": 1000,
    "kol": 174,
    "gap": 0,
+   "miss": 0
+  },
+  "4ZgqnNi53sRKKegFpYefFjsFE6zQ3T64Xkavcoh7pump": {
+   "sym": "CHIBI",
+   "qty": 25745.675540280135,
+   "entry": 6.109e-05,
+   "last": 6.499e-05,
+   "peak": 6.499e-05,
+   "cost": 1.6211124703728237,
+   "opened": "2026-11-24T09:52:44+07:00",
+   "zoo": "x_cto_watch_b2",
+   "smart": 103,
+   "kol": 6,
+   "gap": 2,
    "miss": 0
   }
  },
@@ -420,10 +434,24 @@
    "cost_side": 0.03,
    "smart": 132,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T09:52:44+07:00",
+   "kind": "buy",
+   "mint": "4ZgqnNi53sRKKegFpYefFjsFE6zQ3T64Xkavcoh7pump",
+   "sym": "CHIBI",
+   "price": 6.109e-05,
+   "jup": 6.148295929016441e-05,
+   "usd": 1.6211,
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "zoo": "x_cto_watch_b2",
+   "smart": 103,
+   "kol": 6
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: รอ dev เทหมดแล้วมี CTO: dev ถือ 0% ซื้อ 40% ขายครึ่ง x3 trail 15% stop -18%",
- "rank_t": 1795488391.6775494,
+ "rank_t": 1795488687.5347114,
  "banned": {
   "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm": "KLED"
  }
