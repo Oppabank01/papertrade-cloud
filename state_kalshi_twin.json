@@ -2,7 +2,7 @@
  "label": "Kalshi ตัวควบคุม: สุ่มฝั่งในตลาดเดียวกับตัวเต็ง/ตัวรอง",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 5.083912395939597,
+ "cash": 4.346449269095939,
  "pos": {
   "KXSTEAMTOPSELLER-26NOV24-COU:no": {
    "qty": 13.765060697035144,
@@ -19,7 +19,7 @@
   "KXNETFLIXRANKMOVIERUNNERUP-26NOV23-OBS:no": {
    "qty": 17.195092493090325,
    "entry": 0.042888,
-   "last": 0.02,
+   "last": 0.01,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T05:09:45+00:00",
    "coin": "NO | Will Obsession be #2 US Netflix Movie on Nov 23, 2026?",
@@ -55,7 +55,7 @@
   "KXXRPD-26NOV2417-T0.8999:no": {
    "qty": 6.281467482463463,
    "entry": 0.117403,
-   "last": 0.05,
+   "last": 0.04,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:07:17+00:00",
    "coin": "NO | Ripple price at Nov 24, 2026 at 5pm EST?",
@@ -67,7 +67,7 @@
   "KXGOLDD-26NOV2417-T3565:yes": {
    "qty": 0.8182188751659075,
    "entry": 0.901303,
-   "last": 0.85,
+   "last": 0.86,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:07:17+00:00",
    "coin": "YES | Will the gold close price be above 3565 USD/t.oz on November 24, 2026 at 5:00 PM EST",
@@ -100,16 +100,16 @@
    "close": "2026-11-24T22:00:00Z",
    "why": "สุ่มฝั่ง"
   },
-  "KXNFLTOTAL-26NOV23CINWAS-35:no": {
-   "qty": 5.32206894025026,
-   "entry": 0.13856700000000002,
-   "last": 0.08,
+  "KXNCAAMBTOTAL-26NOV23VCUPROV-140:yes": {
+   "qty": 0.7697342346305435,
+   "entry": 0.958075,
+   "last": 0.93,
    "usd": 0.7374631268436579,
-   "t": "2026-11-24T03:12:34+00:00",
-   "coin": "NO | Full Game: over 34.5 points scored?",
-   "ticker": "KXNFLTOTAL-26NOV23CINWAS-35",
-   "side": "no",
-   "close": "2026-11-26T01:15:00Z",
+   "t": "2026-11-24T04:11:39+00:00",
+   "coin": "YES | Full Game: Over 139.5 points scored",
+   "ticker": "KXNCAAMBTOTAL-26NOV23VCUPROV-140",
+   "side": "yes",
+   "close": "2026-11-26T02:00:00Z",
    "why": "สุ่มฝั่ง"
   }
  },
@@ -593,6 +593,27 @@
    "ret": 0.06473,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-24T04:11:39+00:00",
+   "coin": "YES | Full Game: Over 139.5 points scored",
+   "px": 0.95808,
+   "usd": 0.7374631268436579,
+   "why": "สุ่มฝั่ง",
+   "ask": 0.95
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-24T04:11:42+00:00",
+   "coin": "NO | Full Game: over 34.5 points scored?",
+   "px": 0.0,
+   "entry": 0.13857,
+   "usd": 0.0,
+   "pnl": -0.73746,
+   "ret": -1.0,
+   "cost_side": 0,
+   "why": "ตัดสิน yes"
   }
  ],
  "seen": null,
@@ -624,6 +645,7 @@
   "KXCS2GAME-26NOV231645AXEFLX": 1795478997,
   "KXNCAAMBTOTAL-26NOV23WINILL": 1795486226,
   "KXNCAAMBTOTAL-26NOV23SFAUVU": 1795488630,
-  "KXNFLTOTAL-26NOV23CINWAS": 1795489953
+  "KXNFLTOTAL-26NOV23CINWAS": 1795489953,
+  "KXNCAAMBTOTAL-26NOV23VCUPROV": 1795493497
  }
 }
