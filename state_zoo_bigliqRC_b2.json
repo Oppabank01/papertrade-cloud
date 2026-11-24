@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 3.7337388721439044,
+ "cash": 1.9034551832523672,
  "pos": {
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 26.328440678267864,
    "entry": 0.06881,
-   "last": 0.0693,
+   "last": 0.06898,
    "peak": 0.06963,
    "cost": 1.8673057133288102,
    "opened": "2026-11-25T03:52:01+07:00",
@@ -21,8 +21,8 @@
    "sym": "WOULD",
    "qty": 615.8742155281129,
    "entry": 0.002908,
-   "last": 0.002954,
-   "peak": 0.002954,
+   "last": 0.002974,
+   "peak": 0.002974,
    "cost": 1.8459721900182977,
    "opened": "2026-11-25T04:23:51+07:00",
    "zoo": "bigliqRC_b2",
@@ -35,13 +35,27 @@
    "sym": "CATE",
    "qty": 100.25449420951668,
    "entry": 0.01774,
-   "last": 0.01773,
+   "last": 0.01779,
    "peak": 0.01813,
    "cost": 1.833142369899841,
    "opened": "2026-11-25T04:51:47+07:00",
    "zoo": "bigliqRC_b2",
    "smart": 968,
    "kol": 111,
+   "gap": 0,
+   "miss": 0
+  },
+  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
+   "sym": "STONK",
+   "qty": 55.33628030422466,
+   "entry": 0.03209,
+   "last": 0.03214,
+   "peak": 0.03214,
+   "cost": 1.8302836888915373,
+   "opened": "2026-11-25T06:34:19+07:00",
+   "zoo": "bigliqRC_b2",
+   "smart": 1000,
+   "kol": 174,
    "gap": 0,
    "miss": 0
   }
@@ -1122,10 +1136,24 @@
    "cost_side": 0.03,
    "smart": 808,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T06:34:19+07:00",
+   "kind": "buy",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.03209,
+   "jup": 0.03206209547274459,
+   "usd": 1.8303,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliqRC_b2",
+   "smart": 1000,
+   "kol": 174
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ผ่าน RugCheck เช็กราคาทุก 20 วิ",
- "rank_t": 1795562783.9439104,
+ "rank_t": 1795563202.74842,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"
