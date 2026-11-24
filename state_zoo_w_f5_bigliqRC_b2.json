@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 8.646955845366247,
+ "cash": 6.481685017725333,
  "pos": {
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
    "sym": "TROLL",
@@ -14,6 +14,20 @@
    "zoo": "w_f5_bigliqRC_b2",
    "smart": 476,
    "kol": 214,
+   "gap": 0,
+   "miss": 0
+  },
+  "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": {
+   "sym": "PUMPCADE",
+   "qty": 148.25305271539975,
+   "entry": 0.01417,
+   "last": 0.01417,
+   "peak": 0.01417,
+   "cost": 2.1652708276409136,
+   "opened": "2026-11-24T15:52:31+07:00",
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 128,
+   "kol": 19,
    "gap": 0,
    "miss": 0
   }
@@ -849,8 +863,22 @@
    "cost_side": 0.03,
    "smart": 424,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T15:52:31+07:00",
+   "kind": "buy",
+   "mint": "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu",
+   "sym": "PUMPCADE",
+   "price": 0.01417,
+   "jup": 0.014201066193435313,
+   "usd": 2.1653,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 128,
+   "kol": 19
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ bigliqRC แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1795509891.662723
+ "rank_t": 1795510262.8321822
 }
