@@ -485,3 +485,16 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ยังทำไม่ได้: dev buy 1 SOL+ ตอนเปิดเหรียญ (ต้องข้อมูลการซื้อของ dev ตอนเปิด), ซื้อที่ย่อ 80 ถึง 90% จาก ATH ของ FASOL (ต้อง ATH ย้อนหลังต่อเหรียญ), watchlist pool 30 SOL ของบอท Claude Code (ไม่มีกฎส่วนอื่น)
 ปิด: ไม่มี (x_ ที่เลย 22/11 คือ x_loofy_desk, x_fresh_grad, x_cto_watch ไม่ถึง 20 ไม้หรือยังไม่แพ้ rand จึงรอต่อ ส่วน x_loofy_desk_b2 กับ x_scalp_1020_b2 zoo.py ปิดเองแล้วแต่ยังไม่ถึงวันตัดสิน)
 สกอร์บอร์ด: rand -98.3% (187 ไม้) | x_ ที่ดีสุด x_smartflow_lowcap +20.9% (7 ไม้), x_blix_grad_top10 +1.3% (15 ไม้), x_lotus_5bots +1.1% (8 ไม้) | x_ ที่แย่สุด x_skip_pumped -73.8% (55 ไม้ dead), x_veyro_fresh -43.7% (17 ไม้), x_cto_watch -43.5% (18 ไม้) เกือบทุกตัวชนะ rand แต่ rand ตกต่ำผิดปกติจึงไม่ใช่สัญญาณดี
+
+## 2026-11-24 10:25 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 17 พ.ย. (trading agent, mcp trading, memecoin, strategy backtest ตั้งแต่ 20 พ.ย.), X 3 ครั้ง (claude code trading bot backtest, บอทเทรด กลยุทธ์, polymarket bot strategy win rate), เว็บ 1 ครั้ง (งานวิจัยความคาดเดาได้ของผลตอบแทนคริปโต 2569)
+เจอ: hsw-stock-bot ของ bruce-quant (บอทหุ้น 2 ท่า Swing กับ Steady กฎครบใน config.toml และรายงานเองว่าแพ้ SPY), เปเปอร์นาฬิกา halving ของ Josh Molnar ผ่าน Quantpedia, repo z-score ส่วนต่างทอง Binance กับ COMEX, omni-agent-traderx (ต้อง credential), pumpstriker-bot (ต้อง private key) ส่วน X เป็นโพสต์ที่มีในฟีดแล้วเกือบทั้งหมด ของใหม่คือ 0xKorens (ซื้อทั้งสองฝั่งตลาด Up or Down) กับ Dan1ro0 (Quant Kalman ไม่มีกฎ) คำค้นภาษาไทยได้แต่ข่าวหุ้นกับโฆษณาสัมมนา
+ทดสอบแล้ว:
+- HSW Swing ย้ายมาเหรียญ Binance รายวัน 2017-2026 (เลขทุกตัวจาก repo หลังหัก 0.35%/ข้าง): รวม 112 ไม้ +1.40% ต่อไม้ มัธยฐาน +4.2% ชนะ 64% ก่อนหัก +2.1% BTC 26 ไม้ -0.08% ETH 30 ไม้ +3.27% SOL 18 ไม้ +1.41% BNB 21 ไม้ +0.84% XRP 17 ไม้ +1.06% ตัวแฝดเข้าวันสุ่มออกกฎเดียวกัน -0.09 ถึง -0.42% permutation 200 รอบ p 0.622/0.318/0.547/0.701/0.478 ไม้น้อยและช่วงเชื่อมั่นคร่อมศูนย์ทุกเหรียญ
+- HSW Steady บน ETF สหรัฐ Yahoo 2002-2026 ต้นทุน 0.05%/ข้าง: 8.3% ต่อปี เทียบ SPY 10.9% drawdown -32.8% เทียบ -55.2% ตั้งแต่ 2015 6.5% เทียบ 12.9% สุ่มเลือก 3 ตัว มัธยฐาน 6.9% permutation p 0.224
+- นาฬิกา halving แบบกลไก (ออกจาก BTC วันที่ 535 ถึง 905 หลัง halving): x263 เทียบถือเฉยๆ x14.4 drawdown -63% เทียบ -83% p 0.005 แต่เลขมาจากจุดกลับตัวของข้อมูลชุดเดียวกัน มีแค่ 3 รอบออก จึงไม่ใช่หลักฐาน ไม้ล่าสุดเข้า 13 ต.ค. 69 ตอนนี้ -25.7%
+เปิดบัญชี: fwd_hswswing.py (รายวัน BTC ETH SOL BNB XRP พร้อมตัวแฝดเข้าวันสุ่ม) test เดินทีละแท่งบนหน้าต่าง 1,000 แท่งตรง backtest BTC 18 ไม้ ETH 20 ไม้ ตอนนี้ทั้ง 5 เหรียญอยู่ใต้ SMA200 จึงยังไม่เข้าเงื่อนไข สคริปต์ /tmp/scout_1015/
+ไม่เปิดบัญชี: นาฬิกา halving (forward คือถือ BTC ถึงราว ก.ย. 2572 ซ้ำกับตัวเทียบถือ BTC), Steady (byttrade.fetch ไม่มีข้อมูล ETF สหรัฐ)
+ไอเดีย: z-score ทองสองตลาด (ต้อง COMEX 1 นาทีย้อนหลัง), ซื้อทั้งสองฝั่ง Up or Down ของ 0xKorens (ต้อง ask สองฝั่งรายวินาที), Quant Kalman ของ Dan1ro0 (ต้องประวัติไม้ของกระเป๋า)
+ตัดทิ้ง: omni-agent-traderx (ต้อง credential และรันโค้ดที่ดาวน์โหลด), pumpstriker-bot (ต้อง private key)
+เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมที่ตัดสินได้)
