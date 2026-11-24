@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 3.838086162620715,
+ "cash": 2.0049437927208738,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 326.89333467793955,
    "entry": 0.005603,
-   "last": 0.005413,
+   "last": 0.005363,
    "peak": 0.00561,
    "cost": 1.887841016491956,
    "opened": "2026-11-25T02:49:18+07:00",
    "zoo": "bigliqRC_b2",
    "smart": 808,
    "kol": 75,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   },
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 26.328440678267864,
    "entry": 0.06881,
-   "last": 0.06831,
+   "last": 0.06832,
    "peak": 0.0694,
    "cost": 1.8673057133288102,
    "opened": "2026-11-25T03:52:01+07:00",
@@ -35,13 +35,27 @@
    "sym": "WOULD",
    "qty": 615.8742155281129,
    "entry": 0.002908,
-   "last": 0.002906,
+   "last": 0.002903,
    "peak": 0.002908,
    "cost": 1.8459721900182977,
    "opened": "2026-11-25T04:23:51+07:00",
    "zoo": "bigliqRC_b2",
    "smart": 27,
    "kol": 29,
+   "gap": 0,
+   "miss": 0
+  },
+  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
+   "sym": "CATE",
+   "qty": 100.25449420951668,
+   "entry": 0.01774,
+   "last": 0.01791,
+   "peak": 0.01791,
+   "cost": 1.833142369899841,
+   "opened": "2026-11-25T04:51:47+07:00",
+   "zoo": "bigliqRC_b2",
+   "smart": 968,
+   "kol": 111,
    "gap": 0,
    "miss": 0
   }
@@ -1093,10 +1107,24 @@
    "zoo": "bigliqRC_b2",
    "smart": 27,
    "kol": 29
+  },
+  {
+   "t": "2026-11-25T04:51:47+07:00",
+   "kind": "buy",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.01774,
+   "jup": 0.01786950430922251,
+   "usd": 1.8331,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliqRC_b2",
+   "smart": 968,
+   "kol": 111
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ผ่าน RugCheck เช็กราคาทุก 20 วิ",
- "rank_t": 1795556617.2614174,
+ "rank_t": 1795557009.3202124,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"
