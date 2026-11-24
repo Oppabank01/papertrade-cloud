@@ -1,42 +1,28 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 4.008026506279595,
+ "cash": 5.819118524197718,
  "pos": {
-  "739dnZEG4yaBWFsY8L8ZwrfhGG6dhtCSercW8Umspump": {
-   "sym": "CLAW",
-   "qty": 291.9944130035357,
-   "entry": 0.006637,
-   "last": 0.006307,
-   "peak": 0.006641,
-   "cost": 1.9974921862548616,
-   "opened": "2026-11-24T15:58:11+07:00",
-   "zoo": "w_pause_bigliq_b2",
-   "smart": 263,
-   "kol": 30,
-   "gap": 2,
-   "miss": 0
-  },
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 602.2906817378023,
    "entry": 0.00317,
-   "last": 0.003071881481350273,
+   "last": 0.0031057247309836424,
    "peak": 0.003361,
    "cost": 1.967905031033636,
    "opened": "2026-11-24T16:22:51+07:00",
    "zoo": "w_pause_bigliq_b2",
    "smart": 733,
    "kol": 80,
-   "gap": 2,
+   "gap": 7,
    "miss": 0
   },
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 361.0659894603963,
    "entry": 0.005227,
-   "last": 0.005221,
-   "peak": 0.005227,
+   "last": 0.005196,
+   "peak": 0.005233,
    "cost": 1.94526069563955,
    "opened": "2026-11-24T18:50:03+07:00",
    "zoo": "w_pause_bigliq_b2",
@@ -999,10 +985,25 @@
    "cost_side": 0.03,
    "smart": 128,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T18:58:22+07:00",
+   "kind": "sell",
+   "mint": "739dnZEG4yaBWFsY8L8ZwrfhGG6dhtCSercW8Umspump",
+   "sym": "CLAW",
+   "price": 0.006393,
+   "entry": 0.006637,
+   "usd": 1.8111,
+   "pnl": -0.1864,
+   "why": "ครบ 3 ชม. (-3.7%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 263,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795520902.2014415,
+ "rank_t": 1795521270.65566,
  "banned": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"
  }
