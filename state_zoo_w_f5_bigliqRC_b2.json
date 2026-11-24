@@ -1,33 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.4521621113563254,
+ "cash": 6.37282056881646,
  "pos": {
-  "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": {
-   "sym": "PUMPCADE",
-   "qty": 148.25305271539975,
-   "entry": 0.01417,
-   "last": 0.01412,
-   "peak": 0.01438,
-   "cost": 2.1652708276409136,
-   "opened": "2026-11-24T15:52:31+07:00",
-   "zoo": "w_f5_bigliqRC_b2",
-   "smart": 128,
-   "kol": 19,
-   "gap": 0,
-   "miss": 0
-  },
   "739dnZEG4yaBWFsY8L8ZwrfhGG6dhtCSercW8Umspump": {
    "sym": "CLAW",
    "qty": 314.6339177739386,
    "entry": 0.006637,
-   "last": 0.00629,
+   "last": 0.006393,
    "peak": 0.006641,
    "cost": 2.152365813508174,
    "opened": "2026-11-24T15:58:08+07:00",
    "zoo": "w_f5_bigliqRC_b2",
    "smart": 263,
    "kol": 30,
+   "gap": 0,
+   "miss": 0
+  },
+  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
+   "sym": "Buttcoin",
+   "qty": 390.8972861416523,
+   "entry": 0.005227,
+   "last": 0.005221,
+   "peak": 0.005227,
+   "cost": 2.1059782670196,
+   "opened": "2026-11-24T18:50:01+07:00",
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 542,
+   "kol": 51,
    "gap": 0,
    "miss": 0
   }
@@ -906,8 +906,37 @@
    "cost_side": 0.03,
    "smart": 476,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T18:50:01+07:00",
+   "kind": "buy",
+   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+   "sym": "Buttcoin",
+   "price": 0.005227,
+   "jup": 0.005225049479732968,
+   "usd": 2.106,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 542,
+   "kol": 51
+  },
+  {
+   "t": "2026-11-24T18:52:35+07:00",
+   "kind": "sell",
+   "mint": "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu",
+   "sym": "PUMPCADE",
+   "price": 0.01409,
+   "entry": 0.01417,
+   "usd": 2.0266,
+   "pnl": -0.1386,
+   "why": "ครบ 3 ชม. (-0.6%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 128,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ bigliqRC แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1795520494.4844832
+ "rank_t": 1795520902.2014415
 }

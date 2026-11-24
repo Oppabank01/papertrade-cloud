@@ -1,47 +1,47 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 4.072477259613283,
+ "cash": 4.008026506279595,
  "pos": {
-  "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": {
-   "sym": "PUMPCADE",
-   "qty": 137.5854943099878,
-   "entry": 0.01417,
-   "last": 0.01412,
-   "peak": 0.01438,
-   "cost": 2.0094686192254456,
-   "opened": "2026-11-24T15:52:34+07:00",
-   "zoo": "w_pause_bigliq_b2",
-   "smart": 128,
-   "kol": 19,
-   "gap": 0,
-   "miss": 0
-  },
   "739dnZEG4yaBWFsY8L8ZwrfhGG6dhtCSercW8Umspump": {
    "sym": "CLAW",
    "qty": 291.9944130035357,
    "entry": 0.006637,
-   "last": 0.00629,
+   "last": 0.006307,
    "peak": 0.006641,
    "cost": 1.9974921862548616,
    "opened": "2026-11-24T15:58:11+07:00",
    "zoo": "w_pause_bigliq_b2",
    "smart": 263,
    "kol": 30,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   },
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 602.2906817378023,
    "entry": 0.00317,
-   "last": 0.003098,
+   "last": 0.003071881481350273,
    "peak": 0.003361,
    "cost": 1.967905031033636,
    "opened": "2026-11-24T16:22:51+07:00",
    "zoo": "w_pause_bigliq_b2",
    "smart": 733,
    "kol": 80,
+   "gap": 2,
+   "miss": 0
+  },
+  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
+   "sym": "Buttcoin",
+   "qty": 361.0659894603963,
+   "entry": 0.005227,
+   "last": 0.005221,
+   "peak": 0.005227,
+   "cost": 1.94526069563955,
+   "opened": "2026-11-24T18:50:03+07:00",
+   "zoo": "w_pause_bigliq_b2",
+   "smart": 542,
+   "kol": 51,
    "gap": 0,
    "miss": 0
   }
@@ -970,10 +970,39 @@
    "mint": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
    "sym": "baton",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-24T18:50:03+07:00",
+   "kind": "buy",
+   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+   "sym": "Buttcoin",
+   "price": 0.005227,
+   "jup": 0.005225049479732968,
+   "usd": 1.9453,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_bigliq_b2",
+   "smart": 542,
+   "kol": 51
+  },
+  {
+   "t": "2026-11-24T18:52:49+07:00",
+   "kind": "sell",
+   "mint": "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu",
+   "sym": "PUMPCADE",
+   "price": 0.01409,
+   "entry": 0.01417,
+   "usd": 1.8808,
+   "pnl": -0.1287,
+   "why": "ครบ 3 ชม. (-0.6%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 128,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795520494.4844832,
+ "rank_t": 1795520902.2014415,
  "banned": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"
  }
