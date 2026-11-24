@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 14.70666282386313,
- "pos": {},
+ "cash": 11.765330259090504,
+ "pos": {
+  "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": {
+   "sym": "GROKIA",
+   "qty": 632.6049333501222,
+   "entry": 0.004511,
+   "last": 0.004484,
+   "peak": 0.004513,
+   "cost": 2.941332564772626,
+   "opened": "2026-11-24T21:12:54+07:00",
+   "zoo": "x_organic",
+   "smart": 4,
+   "kol": 0,
+   "gap": 1,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-23T02:11:54+07:00",
@@ -95,12 +110,26 @@
    "cost_side": 0.03,
    "smart": 10,
    "bundler": null
+  },
+  {
+   "t": "2026-11-24T21:12:54+07:00",
+   "kind": "buy",
+   "mint": "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump",
+   "sym": "GROKIA",
+   "price": 0.004511,
+   "jup": 0.004518902499531211,
+   "usd": 2.9413,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_organic",
+   "smart": 4,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: คนซื้อจริง: บอทไม่เกิน 25% bundler ไม่เกิน 10% อายุไม่เกิน 24 ชม. (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-24",
  "night_start": 14.70666282386313,
- "rank_t": 1795528965.4949296,
+ "rank_t": 1795529464.6129317,
  "nights": [
   {
    "night": "2026-11-22",
