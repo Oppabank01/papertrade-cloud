@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 8.14225901167797,
+ "cash": 6.118826224685877,
  "pos": {
   "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": {
    "sym": "PUMPCADE",
@@ -14,6 +14,20 @@
    "zoo": "bigliqRC_b2",
    "smart": 128,
    "kol": 19,
+   "gap": 0,
+   "miss": 0
+  },
+  "739dnZEG4yaBWFsY8L8ZwrfhGG6dhtCSercW8Umspump": {
+   "sym": "CLAW",
+   "qty": 293.0051477521982,
+   "entry": 0.0067,
+   "last": 0.006505,
+   "peak": 0.0067,
+   "cost": 2.023432786992092,
+   "opened": "2026-11-24T15:57:25+07:00",
+   "zoo": "bigliqRC_b2",
+   "smart": 263,
+   "kol": 30,
    "gap": 0,
    "miss": 0
   }
@@ -921,10 +935,24 @@
    "zoo": "bigliqRC_b2",
    "smart": 128,
    "kol": 19
+  },
+  {
+   "t": "2026-11-24T15:57:25+07:00",
+   "kind": "buy",
+   "mint": "739dnZEG4yaBWFsY8L8ZwrfhGG6dhtCSercW8Umspump",
+   "sym": "CLAW",
+   "price": 0.0067,
+   "jup": 0.0066423073895250425,
+   "usd": 2.0234,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliqRC_b2",
+   "smart": 263,
+   "kol": 30
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ผ่าน RugCheck เช็กราคาทุก 20 วิ",
- "rank_t": 1795510262.8321822,
+ "rank_t": 1795510602.5273776,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"

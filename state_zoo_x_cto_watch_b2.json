@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 0.0,
+ "cash": 3.248860061192618,
  "pos": {
   "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm": {
    "sym": "KLED",
@@ -17,31 +17,17 @@
    "gap": 0,
    "miss": 0
   },
-  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
-   "sym": "ANSEM",
-   "qty": 45.61821434480098,
-   "entry": 0.03606,
-   "last": 0.03681,
-   "peak": 0.03714,
-   "cost": 1.6955192839347801,
-   "opened": "2026-11-24T10:09:11+07:00",
+  "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
+   "sym": "paws",
+   "qty": 2763.3075440232856,
+   "entry": 0.000425,
+   "last": 0.0004274,
+   "peak": 0.0004359,
+   "cost": 1.2104779490928637,
+   "opened": "2026-11-24T15:58:25+07:00",
    "zoo": "x_cto_watch_b2",
-   "smart": 1000,
-   "kol": 186,
-   "gap": 0,
-   "miss": 0
-  },
-  "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": {
-   "sym": "Huss",
-   "qty": 6294.014778872057,
-   "entry": 0.0004895,
-   "last": 0.0005409,
-   "peak": 0.0006296,
-   "cost": 3.1755516741474663,
-   "opened": "2026-11-24T10:26:03+07:00",
-   "zoo": "x_cto_watch_b2",
-   "smart": 153,
-   "kol": 7,
+   "smart": 316,
+   "kol": 15,
    "gap": 0,
    "miss": 0
   }
@@ -506,10 +492,54 @@
    "zoo": "x_cto_watch_b2",
    "smart": 153,
    "kol": 7
+  },
+  {
+   "t": "2026-11-24T15:58:13+07:00",
+   "kind": "sell",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.02735,
+   "entry": 0.03606,
+   "usd": 1.2105,
+   "pnl": -0.485,
+   "why": "stop -24.2%",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": 1000,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-24T15:58:25+07:00",
+   "kind": "buy",
+   "mint": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
+   "sym": "paws",
+   "price": 0.000425,
+   "jup": 0.0004238738962015975,
+   "usd": 1.2105,
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "zoo": "x_cto_watch_b2",
+   "smart": 316,
+   "kol": 15
+  },
+  {
+   "t": "2026-11-24T15:59:11+07:00",
+   "kind": "sell",
+   "mint": "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump",
+   "sym": "Huss",
+   "price": 0.000532037172402025,
+   "entry": 0.0004895,
+   "usd": 3.2489,
+   "pnl": 0.0733,
+   "why": "trailing จากยอด +29% (+8.7%)",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": 153,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: รอ dev เทหมดแล้วมี CTO: dev ถือ 0% ซื้อ 40% ขายครึ่ง x3 trail 15% stop -18%",
- "rank_t": 1795510262.8321822,
+ "rank_t": 1795510602.5273776,
  "banned": {
   "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm": "KLED"
  }
