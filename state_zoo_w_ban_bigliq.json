@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.6682872188980353,
+ "cash": 1.2355553736352949,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 17.985404259262328,
    "entry": 0.03453,
-   "last": 0.03424,
+   "last": 0.03435,
    "peak": 0.03486,
    "cost": 0.640111326605162,
    "opened": "2026-11-24T15:46:23+07:00",
@@ -21,7 +21,7 @@
    "sym": "CLAUDIA",
    "qty": 71.7454425725371,
    "entry": 0.008605,
-   "last": 0.008427,
+   "last": 0.008576,
    "peak": 0.00873,
    "cost": 0.6363322339071137,
    "opened": "2026-11-24T15:57:36+07:00",
@@ -35,7 +35,7 @@
    "sym": "CLAW",
    "qty": 92.46497075757047,
    "entry": 0.006637,
-   "last": 0.00646,
+   "last": 0.006455,
    "peak": 0.0067,
    "cost": 0.6325396937930274,
    "opened": "2026-11-24T15:57:36+07:00",
@@ -43,20 +43,6 @@
    "smart": 263,
    "kol": 30,
    "gap": 0,
-   "miss": 0
-  },
-  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
-   "sym": "ANSEM",
-   "qty": 32.33755252725998,
-   "entry": 0.0187,
-   "last": 0.01972569269773702,
-   "peak": 0.02081,
-   "cost": 0.6232861598224713,
-   "opened": "2026-11-24T16:41:37+07:00",
-   "zoo": "w_ban_bigliq",
-   "smart": 1000,
-   "kol": 186,
-   "gap": 6,
    "miss": 0
   }
  },
@@ -3665,10 +3651,25 @@
    "zoo": "w_ban_bigliq",
    "smart": 1000,
    "kol": 186
+  },
+  {
+   "t": "2026-11-24T16:50:32+07:00",
+   "kind": "sell",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.018080897591664244,
+   "entry": 0.0187,
+   "usd": 0.5673,
+   "pnl": -0.056,
+   "why": "trailing จากยอด +16% (-3.3%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 1000,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795513224.0944645,
+ "rank_t": 1795513579.5547965,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",

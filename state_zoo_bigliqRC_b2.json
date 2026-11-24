@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.118826224685877,
+ "cash": 4.115663709279083,
  "pos": {
   "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": {
    "sym": "PUMPCADE",
    "qty": 139.37225993524993,
    "entry": 0.01417,
-   "last": 0.01438,
+   "last": 0.0141,
    "peak": 0.01438,
    "cost": 2.0355647529194925,
    "opened": "2026-11-24T15:51:59+07:00",
@@ -21,13 +21,27 @@
    "sym": "CLAW",
    "qty": 293.0051477521982,
    "entry": 0.0067,
-   "last": 0.00646,
+   "last": 0.006455,
    "peak": 0.0067,
    "cost": 2.023432786992092,
    "opened": "2026-11-24T15:57:25+07:00",
    "zoo": "bigliqRC_b2",
    "smart": 263,
    "kol": 30,
+   "gap": 0,
+   "miss": 0
+  },
+  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
+   "sym": "Buttcoin",
+   "qty": 342.70292231487775,
+   "entry": 0.005671,
+   "last": 0.005672,
+   "peak": 0.005672,
+   "cost": 2.0031625154067942,
+   "opened": "2026-11-24T16:47:51+07:00",
+   "zoo": "bigliqRC_b2",
+   "smart": 542,
+   "kol": 51,
    "gap": 0,
    "miss": 0
   }
@@ -949,10 +963,24 @@
    "zoo": "bigliqRC_b2",
    "smart": 263,
    "kol": 30
+  },
+  {
+   "t": "2026-11-24T16:47:51+07:00",
+   "kind": "buy",
+   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+   "sym": "Buttcoin",
+   "price": 0.005671,
+   "jup": 0.005671831840799895,
+   "usd": 2.0032,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliqRC_b2",
+   "smart": 542,
+   "kol": 51
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ผ่าน RugCheck เช็กราคาทุก 20 วิ",
- "rank_t": 1795513224.0944645,
+ "rank_t": 1795513579.5547965,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"
