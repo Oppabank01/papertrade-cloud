@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.740566037735848,
- "cash": 14.375786181829692,
- "pos": {},
+ "cash": 12.938207563646722,
+ "pos": {
+  "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": {
+   "sym": "JIMMY",
+   "qty": 1279.576858129465,
+   "entry": 0.00109,
+   "last": 0.001002,
+   "peak": 0.001099,
+   "cost": 1.4375786181829693,
+   "opened": "2026-11-25T04:32:06+07:00",
+   "zoo": "x_survivor_grad",
+   "smart": 137,
+   "kol": 6,
+   "gap": 7,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-24T14:00:35+07:00",
@@ -37,8 +52,22 @@
    "cost_side": 0.03,
    "smart": 54,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T04:32:06+07:00",
+   "kind": "buy",
+   "mint": "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump",
+   "sym": "JIMMY",
+   "price": 0.00109,
+   "jup": 0.0010920005022014702,
+   "usd": 1.4376,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "x_survivor_grad",
+   "smart": 137,
+   "kol": 6
   }
  ],
  "label": "สวนสัตว์: ไม่ซื้อเหรียญใหม่ ซื้อเฉพาะเหรียญที่จบ curve แล้วรอดเกิน 1 วัน (โพสต์ tigra_ai)",
- "rank_t": 1795555368.8779855
+ "rank_t": 1795555782.7907977
 }
