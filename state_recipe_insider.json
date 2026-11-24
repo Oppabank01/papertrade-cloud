@@ -1,8 +1,22 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.34177845646232574,
- "pos": {},
+ "cash": 0.2734227651698606,
+ "pos": {
+  "7EmoVZALwZhZ2bb8gijF6JTJKybUhV2kuRVHiATZpump": {
+   "sym": "GOYBEAM",
+   "qty": 1258.896956946653,
+   "entry": 5.268e-05,
+   "last": 5.268e-05,
+   "peak": 5.268e-05,
+   "cost": 0.06835569129246515,
+   "opened": "2026-11-25T04:10:01+07:00",
+   "smart": 6,
+   "kol": 0,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -1344,8 +1358,21 @@
    "cost_side": 0.03,
    "smart": 7,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T04:10:01+07:00",
+   "kind": "buy",
+   "mint": "7EmoVZALwZhZ2bb8gijF6JTJKybUhV2kuRVHiATZpump",
+   "sym": "GOYBEAM",
+   "price": 5.268e-05,
+   "jup": 5.22116982805391e-05,
+   "usd": 0.0684,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 6,
+   "kol": 0
   }
  ],
  "label": "สูตร x_insider4 (คู่ใหม่ + top trader)",
- "rank_t": 1795554194.2442148
+ "rank_t": 1795554585.1591856
 }
