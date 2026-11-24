@@ -2,44 +2,8 @@
  "label": "Kalshi ตัวควบคุม: สุ่มฝั่งในตลาดเดียวกับตัวเต็ง/ตัวรอง",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 3.9694672505399557,
+ "cash": 6.3980772729379645,
  "pos": {
-  "KXINXDUD-26NOV23H1600-T6910.79:yes": {
-   "qty": 0.8450091286674175,
-   "entry": 0.872728,
-   "last": 0.99,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-23T04:43:52+00:00",
-   "coin": "YES | Will the S&P 500 be above 6910.79 on Nov 23, 2026 at 4pm EST?",
-   "ticker": "KXINXDUD-26NOV23H1600-T6910.79",
-   "side": "yes",
-   "close": "2026-11-23T21:00:00Z",
-   "why": "สุ่มฝั่ง"
-  },
-  "KXINXU-26NOV23H1600-T7319.9999:no": {
-   "qty": 0.747727935948357,
-   "entry": 0.986272,
-   "last": 0.99,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-23T04:43:52+00:00",
-   "coin": "NO | Will the S&P 500 be above 7319.9999 on Nov 23, 2026 at 4pm EST?",
-   "ticker": "KXINXU-26NOV23H1600-T7319.9999",
-   "side": "no",
-   "close": "2026-11-23T21:00:00Z",
-   "why": "สุ่มฝั่ง"
-  },
-  "KXNASDAQDUD-26NOV23H1600-T25028.98:yes": {
-   "qty": 0.8358729577822337,
-   "entry": 0.8822669999999999,
-   "last": 0.99,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-23T04:48:34+00:00",
-   "coin": "YES | Will the NASDAQ-100 be above 25028.98 on Nov 23, 2026 at 4pm EST?",
-   "ticker": "KXNASDAQDUD-26NOV23H1600-T25028.98",
-   "side": "yes",
-   "close": "2026-11-23T21:00:00Z",
-   "why": "สุ่มฝั่ง"
-  },
   "KXSTEAMTOPSELLER-26NOV24-COU:no": {
    "qty": 13.765060697035144,
    "entry": 0.053575000000000005,
@@ -91,7 +55,7 @@
   "KXXRPD-26NOV2417-T0.8999:no": {
    "qty": 6.281467482463463,
    "entry": 0.117403,
-   "last": 0.1,
+   "last": 0.09,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:07:17+00:00",
    "coin": "NO | Ripple price at Nov 24, 2026 at 5pm EST?",
@@ -103,7 +67,7 @@
   "KXGOLDD-26NOV2417-T3565:yes": {
    "qty": 0.8182188751659075,
    "entry": 0.901303,
-   "last": 0.82,
+   "last": 0.85,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:07:17+00:00",
    "coin": "YES | Will the gold close price be above 3565 USD/t.oz on November 24, 2026 at 5:00 PM EST",
@@ -115,7 +79,7 @@
   "KXSOLD-26NOV2417-T67.9999:yes": {
    "qty": 0.7549113938906525,
    "entry": 0.976887,
-   "last": 0.89,
+   "last": 0.85,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:13:38+00:00",
    "coin": "YES | SOL price on Nov 24, 2026?",
@@ -488,6 +452,42 @@
    "ret": 4.22925,
    "cost_side": 0,
    "why": "ตัดสิน no"
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-24T00:03:30+00:00",
+   "coin": "YES | Will the S&P 500 be above 6910.79 on Nov 23, 2026 at 4pm EST?",
+   "px": 1.0,
+   "entry": 0.87273,
+   "usd": 0.84501,
+   "pnl": 0.10755,
+   "ret": 0.14583,
+   "cost_side": 0,
+   "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-24T00:03:30+00:00",
+   "coin": "NO | Will the S&P 500 be above 7319.9999 on Nov 23, 2026 at 4pm EST?",
+   "px": 1.0,
+   "entry": 0.98627,
+   "usd": 0.74773,
+   "pnl": 0.01026,
+   "ret": 0.01392,
+   "cost_side": 0,
+   "why": "ตัดสิน no"
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-24T00:03:30+00:00",
+   "coin": "YES | Will the NASDAQ-100 be above 25028.98 on Nov 23, 2026 at 4pm EST?",
+   "px": 1.0,
+   "entry": 0.88227,
+   "usd": 0.83587,
+   "pnl": 0.09841,
+   "ret": 0.13344,
+   "cost_side": 0,
+   "why": "ตัดสิน yes"
   }
  ],
  "seen": null,
