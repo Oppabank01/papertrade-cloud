@@ -2,7 +2,7 @@
  "label": "Kalshi ตัวควบคุม: สุ่มฝั่งในตลาดเดียวกับตัวเต็ง/ตัวรอง",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 4.418673369792529,
+ "cash": 3.6812102429488713,
  "pos": {
   "KXSTEAMTOPSELLER-26NOV24-COU:no": {
    "qty": 13.765060697035144,
@@ -67,7 +67,7 @@
   "KXGOLDD-26NOV2417-T3565:yes": {
    "qty": 0.8182188751659075,
    "entry": 0.901303,
-   "last": 0.87,
+   "last": 0.88,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:07:17+00:00",
    "coin": "YES | Will the gold close price be above 3565 USD/t.oz on November 24, 2026 at 5:00 PM EST",
@@ -91,13 +91,25 @@
   "KXSILVERD-26NOV2417-T41.50:no": {
    "qty": 6.90508545733762,
    "entry": 0.1068,
-   "last": 0.09,
+   "last": 0.08,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T00:09:59+00:00",
    "coin": "NO | Will the silver close price be above 41.50 USD/t.oz on November 24, 2026 at 5:00 PM E",
    "ticker": "KXSILVERD-26NOV2417-T41.50",
    "side": "no",
    "close": "2026-11-24T22:00:00Z",
+   "why": "สุ่มฝั่ง"
+  },
+  "KX30YMORTW-26NOV25-T7.20:yes": {
+   "qty": 0.8543610818706032,
+   "entry": 0.8631749999999999,
+   "last": 0.84,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-24T04:53:00+00:00",
+   "coin": "YES | Will the average U.S. 30-year fixed-rate mortgage rate for Nov 25, 2026 be above 7.2",
+   "ticker": "KX30YMORTW-26NOV25-T7.20",
+   "side": "yes",
+   "close": "2026-11-25T16:59:00Z",
    "why": "สุ่มฝั่ง"
   }
  },
@@ -635,6 +647,15 @@
    "ret": 0.09794,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-24T04:53:00+00:00",
+   "coin": "YES | Will the average U.S. 30-year fixed-rate mortgage rate for Nov 25, 2026 be above 7.2",
+   "px": 0.86317,
+   "usd": 0.7374631268436579,
+   "why": "สุ่มฝั่ง",
+   "ask": 0.85
   }
  ],
  "seen": null,
@@ -668,6 +689,7 @@
   "KXNCAAMBTOTAL-26NOV23SFAUVU": 1795488630,
   "KXNFLTOTAL-26NOV23CINWAS": 1795489953,
   "KXNCAAMBTOTAL-26NOV23VCUPROV": 1795493497,
-  "KXNCAAMBTOTAL-26NOV23SEALCHI": 1795493823
+  "KXNCAAMBTOTAL-26NOV23SEALCHI": 1795493823,
+  "KX30YMORTW-26NOV25": 1795495978
  }
 }
