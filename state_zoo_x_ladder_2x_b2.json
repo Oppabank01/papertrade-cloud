@@ -1,35 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 4.967438594305905,
+ "cash": 6.1141891759142215,
  "pos": {
-  "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump": {
-   "sym": "4CHAN",
-   "qty": 3665.4243427052324,
-   "entry": 0.0002088,
-   "last": 0.0004531,
-   "peak": 0.0005114,
-   "cost": 0.7888482815469517,
-   "opened": "2026-11-25T06:40:59+07:00",
-   "zoo": "x_ladder_2x_b2",
-   "smart": 83,
-   "kol": 4,
-   "gap": 3,
-   "miss": 0,
-   "half": true
-  },
   "E2MJUFBMaTH7j21P2HncB96erJ4dM3FPL2W6i8Dpump": {
    "sym": "WIKI",
    "qty": 7911.727838124189,
    "entry": 0.000168,
-   "last": 0.0001607,
+   "last": 0.0001948,
    "peak": 0.0002497,
    "cost": 1.369996162445747,
    "opened": "2026-11-25T07:34:09+07:00",
    "zoo": "x_ladder_2x_b2",
    "smart": 74,
    "kol": 2,
-   "gap": 4,
+   "gap": 10,
    "miss": 0
   }
  },
@@ -450,10 +435,25 @@
    "mint": "E2MJUFBMaTH7j21P2HncB96erJ4dM3FPL2W6i8Dpump",
    "sym": "WIKI",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-25T08:23:26+07:00",
+   "kind": "sell",
+   "mint": "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump",
+   "sym": "4CHAN",
+   "price": 0.00032246563510185606,
+   "entry": 0.0002088,
+   "usd": 1.1468,
+   "pnl": 0.3579,
+   "why": "trailing จากยอด +145% (+54.4%)",
+   "stop_set": -0.35,
+   "cost_side": 0.03,
+   "smart": 83,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: บันไดขาย ครึ่งที่ x2 trail 30% stop -35%",
- "rank_t": 1795569184.5275464,
+ "rank_t": 1795569581.2357,
  "banned": {
   "AQfw8J74V17erZsmMz4oK474eVLBaP44gD33vVbhtHo5": "ZOL",
   "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": "MCAT",
