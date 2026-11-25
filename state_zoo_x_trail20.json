@@ -3,25 +3,11 @@
  "start_usd": 14.645577035735208,
  "cash": 1.5186474124434657,
  "pos": {
-  "B3Sz1ijEqM6HBZfhFgUKPEmCyFZBCE5X1sthbVCTpump": {
-   "sym": "FLOP",
-   "qty": 1810762.956162086,
-   "entry": 1.506e-06,
-   "last": 1.329e-06,
-   "peak": 1.506e-06,
-   "cost": 2.8107699566894473,
-   "opened": "2026-11-23T22:25:45+07:00",
-   "zoo": "x_trail20",
-   "smart": 6,
-   "kol": 0,
-   "gap": 0,
-   "miss": 4
-  },
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 122.03956531787583,
    "entry": 0.01753,
-   "last": 0.01609,
+   "last": 0.01604,
    "peak": 0.01818,
    "cost": 2.2050645021875526,
    "opened": "2026-11-24T10:20:14+07:00",
@@ -35,7 +21,7 @@
    "sym": "neet",
    "qty": 92.917028574655,
    "entry": 0.02134,
-   "last": 0.01832,
+   "last": 0.01778,
    "peak": 0.02173,
    "cost": 2.0437532362225705,
    "opened": "2026-11-24T20:26:06+07:00",
@@ -49,7 +35,7 @@
    "sym": "CLAUDIA",
    "qty": 237.04339728365775,
    "entry": 0.008066,
-   "last": 0.007391,
+   "last": 0.007396,
    "peak": 0.008676,
    "cost": 1.9707194830859445,
    "opened": "2026-11-24T22:57:43+07:00",
@@ -527,9 +513,24 @@
    "zoo": "x_trail20",
    "smart": 572,
    "kol": 37
+  },
+  {
+   "t": "2026-11-25T21:36:42+07:00",
+   "kind": "sell",
+   "mint": "B3Sz1ijEqM6HBZfhFgUKPEmCyFZBCE5X1sthbVCTpump",
+   "sym": "FLOP",
+   "price": 0.0,
+   "entry": 1.506e-06,
+   "usd": 0.0,
+   "pnl": -2.8108,
+   "why": "pool หาย ถือว่า rug",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 6,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: trailing stop 20% จากจุดเข้าอย่างเดียว (วิเคราะห์ 6,200 ไม้ Grok Bot desk)",
- "rank_t": 1795616671.285084,
+ "rank_t": 1795617161.2531345,
  "halted": "ราคา neet สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }

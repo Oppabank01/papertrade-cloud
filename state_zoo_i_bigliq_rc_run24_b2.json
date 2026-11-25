@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 7.639033057645951,
- "pos": {
-  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
-   "sym": "USELESS",
-   "qty": 30.97317163733958,
-   "entry": 0.07081,
-   "last": 0.06412,
-   "peak": 0.0713,
-   "cost": 2.2153079807479767,
-   "opened": "2026-11-24T22:38:04+07:00",
-   "zoo": "i_bigliq_rc_run24_b2",
-   "smart": 928,
-   "kol": 295,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 9.590810294674815,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-22T19:52:25+07:00",
@@ -695,6 +680,21 @@
    "stop_set": -0.1,
    "cost_side": 0.01,
    "smart": 1000,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-25T21:36:01+07:00",
+   "kind": "sell",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.06365,
+   "entry": 0.07081,
+   "usd": 1.9518,
+   "pnl": -0.2635,
+   "why": "stop -10.1%",
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "smart": 928,
    "bundler": null
   }
  ],

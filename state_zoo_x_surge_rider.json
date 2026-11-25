@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.731879787860931,
- "cash": 14.497094585073585,
- "pos": {},
+ "cash": 14.161333103462598,
+ "pos": {
+  "7fzde96CJUaMNHXsNyCCMvpwK9YgyBHjXevDPBJ2pump": {
+   "sym": "INUF",
+   "qty": 25958.815102609777,
+   "entry": 1.083e-05,
+   "last": 1.3833398968612125e-05,
+   "peak": 1.453e-05,
+   "cost": 0.2897690863340176,
+   "opened": "2026-11-25T21:34:58+07:00",
+   "zoo": "x_surge_rider",
+   "smart": 4,
+   "kol": 0,
+   "gap": 1,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-24T15:51:38+07:00",
@@ -153,12 +168,55 @@
    "cost_side": 0.03,
    "smart": 12,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T21:34:56+07:00",
+   "kind": "buy",
+   "mint": "34CnWTrTGm87vvfVTiCEajpQ7GNDc2iVwo9eAxC4pump",
+   "sym": "FRANK",
+   "price": 5.792e-06,
+   "jup": 5.73481235300356e-06,
+   "usd": 0.2899,
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "zoo": "x_surge_rider",
+   "smart": 2,
+   "kol": 1
+  },
+  {
+   "t": "2026-11-25T21:34:58+07:00",
+   "kind": "buy",
+   "mint": "7fzde96CJUaMNHXsNyCCMvpwK9YgyBHjXevDPBJ2pump",
+   "sym": "INUF",
+   "price": 1.083e-05,
+   "jup": 1.0847319481916496e-05,
+   "usd": 0.2898,
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "zoo": "x_surge_rider",
+   "smart": 4,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-25T21:37:03+07:00",
+   "kind": "sell",
+   "mint": "34CnWTrTGm87vvfVTiCEajpQ7GNDc2iVwo9eAxC4pump",
+   "sym": "FRANK",
+   "price": 5.177200333319222e-06,
+   "entry": 5.792e-06,
+   "usd": 0.2439,
+   "pnl": -0.046,
+   "why": "stop -10.6%",
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "smart": 2,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญบน bonding curve อายุเกิน 5 นาที ขึ้น 5 นาที 15%+ stop -10% trail 15% (บอทแข่ง Surge Rider)",
  "night": "2026-11-25",
  "night_start": 14.497094585073585,
- "rank_t": 1795616671.285084,
+ "rank_t": 1795617161.2531345,
  "nights": [
   {
    "night": "2026-11-24",
