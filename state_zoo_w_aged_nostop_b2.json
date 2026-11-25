@@ -1,33 +1,47 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.0693608170725595,
+ "cash": 4.145285440040787,
  "pos": {
   "Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": {
    "sym": "HODL",
    "qty": 1130.421452783334,
    "entry": 0.001822,
-   "last": 0.0014841937423830847,
+   "last": 0.00148,
    "peak": 0.001857,
    "cost": 2.080379674221595,
    "opened": "2026-11-25T01:31:31+07:00",
    "zoo": "w_aged_nostop_b2",
    "smart": 367,
    "kol": 35,
-   "gap": 12,
+   "gap": 0,
    "miss": 0
   },
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 238.75243711568734,
    "entry": 0.00841,
-   "last": 0.007883,
+   "last": 0.007761,
    "peak": 0.00854,
    "cost": 2.02813867947065,
    "opened": "2026-11-25T04:11:00+07:00",
    "zoo": "w_aged_nostop_b2",
    "smart": 574,
    "kol": 37,
+   "gap": 1,
+   "miss": 0
+  },
+  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
+   "sym": "Rings",
+   "qty": 821.0701401490865,
+   "entry": 0.00232,
+   "last": 0.002384,
+   "peak": 0.002384,
+   "cost": 1.9240753770317724,
+   "opened": "2026-11-25T12:02:34+07:00",
+   "zoo": "w_aged_nostop_b2",
+   "smart": 136,
+   "kol": 10,
    "gap": 0,
    "miss": 0
   }
@@ -615,10 +629,24 @@
    "cost_side": 0.01,
    "smart": 129,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T12:02:34+07:00",
+   "kind": "buy",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.00232,
+   "jup": 0.0023322057852376244,
+   "usd": 1.9241,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_aged_nostop_b2",
+   "smart": 136,
+   "kol": 10
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: อายุเกิน 1 วัน pool 200k+ ไม่มี stop ถือ 12 ชม.",
- "rank_t": 1795582427.5111,
+ "rank_t": 1795582843.2597473,
  "banned": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
   "GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump": "CHILLHOUSE",
