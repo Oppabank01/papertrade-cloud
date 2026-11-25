@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 13.926776752810984,
- "pos": {},
+ "cash": 11.141421402248787,
+ "pos": {
+  "2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy": {
+   "sym": "JaoJiu",
+   "qty": 25114.79331891676,
+   "entry": 0.0001076,
+   "last": 0.0001111,
+   "peak": 0.0001111,
+   "cost": 2.785355350562197,
+   "opened": "2026-11-25T21:43:18+07:00",
+   "zoo": "x_no_snipers",
+   "smart": 78,
+   "kol": 3,
+   "gap": 9,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-23T02:11:54+07:00",
@@ -206,12 +221,26 @@
    "usd": 3.3353,
    "pnl": 0.6875,
    "why": "ปิดรอบเช้า"
+  },
+  {
+   "t": "2026-11-25T21:43:18+07:00",
+   "kind": "buy",
+   "mint": "2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy",
+   "sym": "JaoJiu",
+   "price": 0.0001076,
+   "jup": 0.00010781164319247888,
+   "usd": 2.7854,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_no_snipers",
+   "smart": 78,
+   "kol": 3
   }
  ],
  "label": "สวนสัตว์: ไม่มี sniper และ rug ratio ต่ำ อายุไม่เกิน 12 ชม. (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-25",
  "night_start": 13.926776752810984,
- "rank_t": 1795617161.2531345,
+ "rank_t": 1795617651.1517057,
  "nights": [
   {
    "night": "2026-11-22",
