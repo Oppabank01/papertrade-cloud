@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 2.357769635391148,
+ "cash": 2.6764130133525974,
  "pos": {
   "4Di56UJzpnb7E4D7aLXFf7aLF5TrpJYv9Q3mR398pump": {
    "sym": "PERRO",
    "qty": 1432.5558349487494,
    "entry": 0.0001578,
-   "last": 0.0001630117467670257,
+   "last": 0.0001752,
    "peak": 0.0002216,
    "cost": 0.2330007325859747,
    "opened": "2026-11-25T16:12:26+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 103,
    "kol": 5,
-   "gap": 14,
+   "gap": 1,
    "miss": 0
   },
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
    "sym": "TROLL",
    "qty": 11.863803823143664,
    "entry": 0.0192,
-   "last": 0.01898,
+   "last": 0.01895,
    "peak": 0.01921,
    "cost": 0.2347815227833007,
    "opened": "2026-11-25T16:24:09+07:00",
@@ -35,49 +35,35 @@
    "sym": "MANIFEST",
    "qty": 104.28830250313992,
    "entry": 0.002107,
-   "last": 0.002443,
+   "last": 0.0024179308498154433,
    "peak": 0.0025,
    "cost": 0.22648469735530385,
    "opened": "2026-11-25T17:03:00+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 91,
    "kol": 15,
-   "gap": 1,
+   "gap": 8,
    "miss": 0
   },
   "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": {
    "sym": "DCTY",
    "qty": 193.59127891159702,
    "entry": 0.00113,
-   "last": 0.0010667713309551856,
+   "last": 0.0010747798816800075,
    "peak": 0.001152,
    "cost": 0.22547737082055722,
    "opened": "2026-11-25T17:10:38+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 740,
    "kol": 69,
-   "gap": 14,
-   "miss": 0
-  },
-  "2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ": {
-   "sym": "hello",
-   "qty": 1556.5431760366487,
-   "entry": 0.00014,
-   "last": 0.000201,
-   "peak": 0.000201,
-   "cost": 0.22460940491149328,
-   "opened": "2026-11-25T17:30:38+07:00",
-   "zoo": "x_spray_small_b2",
-   "smart": 129,
-   "kol": 4,
-   "gap": 14,
+   "gap": 32,
    "miss": 0
   },
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 3.2699861141143276,
    "entry": 0.06612,
-   "last": 0.06564,
+   "last": 0.06585,
    "peak": 0.0664,
    "cost": 0.22285248594644336,
    "opened": "2026-11-25T17:48:39+07:00",
@@ -98,21 +84,21 @@
    "zoo": "x_spray_small_b2",
    "smart": 68,
    "kol": 4,
-   "gap": 0,
+   "gap": 8,
    "miss": 0
   },
   "2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy": {
    "sym": "JaoJiu",
    "qty": 1638.5777494110816,
    "entry": 0.0001335,
-   "last": 0.0001347,
-   "peak": 0.0001436577657004302,
+   "last": 0.0001475,
+   "peak": 0.0001519,
    "cost": 0.2254691089944129,
    "opened": "2026-11-25T18:27:19+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 71,
    "kol": 2,
-   "gap": 14,
+   "gap": 0,
    "miss": 0
   },
   "8SymmzsWdQBweqCK1p35MGNCwgw8FgPRdL4KPckdata": {
@@ -10227,10 +10213,32 @@
    "mint": "2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ",
    "sym": "hello",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-25T18:52:31+07:00",
+   "kind": "ban",
+   "mint": "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump",
+   "sym": "DCTY",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-25T18:56:49+07:00",
+   "kind": "sell",
+   "mint": "2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ",
+   "sym": "hello",
+   "price": 0.000211,
+   "entry": 0.00014,
+   "usd": 0.3186,
+   "pnl": 0.094,
+   "why": "ถึงเป้า +50.7%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 129,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: หว่านไม้เล็กหลายตัว ตัดกำไร 50% ตัดขาดทุน 15%",
- "rank_t": 1795607121.9812458,
+ "rank_t": 1795607551.9768543,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": "three",
@@ -10271,6 +10279,7 @@
   "5wSQpQfbdSKs7amvyxa2XTzWXNyionERZWdDWykYm1At": "SOUVENIR",
   "4Di56UJzpnb7E4D7aLXFf7aLF5TrpJYv9Q3mR398pump": "PERRO",
   "2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy": "JaoJiu",
-  "2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ": "hello"
+  "2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ": "hello",
+  "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": "DCTY"
  }
 }
