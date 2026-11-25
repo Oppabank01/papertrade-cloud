@@ -1,33 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 5.288825879696091,
+ "cash": 5.289133145194883,
  "pos": {
-  "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
-   "sym": "baton",
-   "qty": 599.424388045996,
-   "entry": 0.002899,
-   "last": 0.002996,
-   "peak": 0.003032,
-   "cost": 1.7911062677235028,
-   "opened": "2026-11-25T21:34:38+07:00",
-   "zoo": "w_f5_bigliqRC_b2",
-   "smart": 737,
-   "kol": 80,
-   "gap": 0,
-   "miss": 0
-  },
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 338.69660467962535,
    "entry": 0.005006,
-   "last": 0.005033,
+   "last": 0.005071,
    "peak": 0.005075,
    "cost": 1.7475934889983558,
    "opened": "2026-11-25T22:28:46+07:00",
    "zoo": "w_f5_bigliqRC_b2",
    "smart": 542,
    "kol": 51,
+   "gap": 0,
+   "miss": 0
+  },
+  "AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump": {
+   "sym": "jobcoin",
+   "qty": 151.05472218348896,
+   "entry": 0.01123,
+   "last": 0.01125,
+   "peak": 0.01126,
+   "cost": 1.7484482891368593,
+   "opened": "2026-11-26T00:36:25+07:00",
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 31,
+   "kol": 46,
    "gap": 0,
    "miss": 0
   }
@@ -1254,8 +1254,37 @@
    "zoo": "w_f5_bigliqRC_b2",
    "smart": 542,
    "kol": 51
+  },
+  {
+   "t": "2026-11-26T00:34:38+07:00",
+   "kind": "sell",
+   "mint": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
+   "sym": "baton",
+   "price": 0.003007,
+   "entry": 0.002899,
+   "usd": 1.7488,
+   "pnl": -0.0424,
+   "why": "ครบ 3 ชม. (+3.7%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 737,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-26T00:36:25+07:00",
+   "kind": "buy",
+   "mint": "AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump",
+   "sym": "jobcoin",
+   "price": 0.01123,
+   "jup": 0.011283008719199841,
+   "usd": 1.7484,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 31,
+   "kol": 46
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ bigliqRC แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1795627683.2072606
+ "rank_t": 1795628043.117221
 }
