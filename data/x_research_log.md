@@ -647,3 +647,11 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 เพิ่ม x_: x_grokdesk_rules (night pool อายุไม่เกิน 24 ชม. สภาพคล่อง 10k top10 ไม่เกิน 30% rugcheck stop -25% TP +50% ถือ 4 ชม. ไม้ละ 10%), x_memescope_8gate (night สภาพคล่อง 20k อายุ 6 ชม.+ up top10 ไม่เกิน 20% rugcheck stop -15% TP +30% ถือ 6 ชม. ไม้ละ 3% กฎออกเลือกเองทั้งหมด) เลขที่เลือกเองอยู่ใน note import zoo ไม่มี skip และ test_zoo ผ่าน
 ไอเดีย: ตลาดอุณหภูมิ Polymarket (ต้องประวัติราคารายชั่วโมงกับ ensemble forecast), ValueManIsrael (บทเรียนราคาเข้า ไม่มีกฎ), BALIA_OS (ไม่มีกฎหรือรายการไม้)
 ตัดทิ้ง: Demir426/hyperliquid-perp-market-maker-bot กับ Klausa67264/dextools-dexscreener-trending-bot (ต้องรันไฟล์ที่ดาวน์โหลดมา ทรงมัลแวร์)
+
+## 2026-11-25 รอบค้นเพิ่ม (เวลากรุงเทพ)
+- คำค้น: solana memecoin bot turned $ overnight, pump.fun strategy in a week stop loss, second pump breakout 1 month, ภาษาไทย เทรดเหรียญมีม คืนเดียว
+- ผล: ได้แต่บทความรวมของผู้ขายบอท (trojan, dextools, coincodecap, madeonsol) กฎกว้างๆ เช่น ขายครึ่งที่ x2, stop 30 ถึง 50% ซึ่งตรงกับ x_ladder_2x และ x_trail20 ที่มีอยู่แล้ว ไม่มีโพสต์ที่ให้กฎเข้าที่สคริปต์ตัดสินได้
+- bnext.com.tw (10 SOL เป็น 1000 SOL ใน 2 เดือน) ดึงไม่ได้ เพราะโดเมนไม่อยู่ใน network ที่อนุญาต ไม่ลองซ้ำ
+- เพิ่มท่าใหม่: ไม่มี (ไม่ฝืนเดา)
+- ปลดท่า: ไม่มี ยังไม่มี x_ ถึงจุดตัดสิน
+- ยังทำไม่ได้: second pump breakout (ต้องประวัติราคารายแท่งต่อเหรียญเพื่อนับรอบพุ่ง)
