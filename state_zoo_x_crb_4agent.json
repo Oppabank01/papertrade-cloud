@@ -1,24 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.598540145985401,
- "cash": 14.008331358465384,
- "pos": {
-  "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump": {
-   "sym": "4CHAN",
-   "qty": 4115.976524867376,
-   "entry": 0.0003566,
-   "last": 0.0004359,
-   "peak": 0.0004784,
-   "cost": 1.5128398564911425,
-   "opened": "2026-11-25T08:52:13+07:00",
-   "zoo": "x_crb_4agent",
-   "smart": 125,
-   "kol": 4,
-   "gap": 1,
-   "miss": 0,
-   "half": true
-  }
- },
+ "cash": 15.525371615092737,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-22T23:15:49+07:00",
@@ -184,8 +168,23 @@
    "usd": 1.9056,
    "pnl": 0.3928,
    "why": "ขายครึ่ง +33.8%"
+  },
+  {
+   "t": "2026-11-25T09:11:27+07:00",
+   "kind": "sell",
+   "mint": "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump",
+   "sym": "4CHAN",
+   "price": 0.0003798944475749873,
+   "entry": 0.0003566,
+   "usd": 1.517,
+   "pnl": 0.0042,
+   "why": "trailing จากยอด +34% (+6.5%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 125,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: crbpite8 โต๊ะ 4 เอเจนต์: เหรียญใหม่ไม่เกิน 6 ชม. คนถือ 300+ top10 ไม่เกิน 30% RugCheck ผ่าน แรงซื้อนำ ขายครึ่ง +30%",
- "rank_t": 1795572220.8255885
+ "rank_t": 1795572664.6624875
 }
