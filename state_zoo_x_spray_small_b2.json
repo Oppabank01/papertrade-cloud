@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 2.5823153283794205,
+ "cash": 2.357769635391148,
  "pos": {
   "4Di56UJzpnb7E4D7aLXFf7aLF5TrpJYv9Q3mR398pump": {
    "sym": "PERRO",
    "qty": 1432.5558349487494,
    "entry": 0.0001578,
-   "last": 0.00017884092258846994,
+   "last": 0.00015408758955916694,
    "peak": 0.0002216,
    "cost": 0.2330007325859747,
    "opened": "2026-11-25T16:12:26+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 103,
    "kol": 5,
-   "gap": 11,
+   "gap": 15,
    "miss": 0
   },
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
@@ -35,7 +35,7 @@
    "sym": "MANIFEST",
    "qty": 104.28830250313992,
    "entry": 0.002107,
-   "last": 0.002448,
+   "last": 0.002446,
    "peak": 0.0025,
    "cost": 0.22648469735530385,
    "opened": "2026-11-25T17:03:00+07:00",
@@ -49,35 +49,35 @@
    "sym": "DCTY",
    "qty": 193.59127891159702,
    "entry": 0.00113,
-   "last": 0.001115,
+   "last": 0.0010854874100363894,
    "peak": 0.001152,
    "cost": 0.22547737082055722,
    "opened": "2026-11-25T17:10:38+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 740,
    "kol": 69,
-   "gap": 0,
+   "gap": 6,
    "miss": 0
   },
   "2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ": {
    "sym": "hello",
    "qty": 1556.5431760366487,
    "entry": 0.00014,
-   "last": 0.0001964,
+   "last": 0.0001938,
    "peak": 0.000198,
    "cost": 0.22460940491149328,
    "opened": "2026-11-25T17:30:38+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 129,
    "kol": 4,
-   "gap": 11,
+   "gap": 15,
    "miss": 0
   },
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 3.2699861141143276,
    "entry": 0.06612,
-   "last": 0.06582,
+   "last": 0.06564,
    "peak": 0.0664,
    "cost": 0.22285248594644336,
    "opened": "2026-11-25T17:48:39+07:00",
@@ -98,21 +98,35 @@
    "zoo": "x_spray_small_b2",
    "smart": 68,
    "kol": 4,
-   "gap": 11,
+   "gap": 15,
    "miss": 0
   },
   "2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy": {
    "sym": "JaoJiu",
    "qty": 1638.5777494110816,
    "entry": 0.0001335,
-   "last": 0.00013669858603737034,
+   "last": 0.0001321,
    "peak": 0.0001436577657004302,
    "cost": 0.2254691089944129,
    "opened": "2026-11-25T18:27:19+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 71,
    "kol": 2,
-   "gap": 19,
+   "gap": 15,
+   "miss": 0
+  },
+  "8SymmzsWdQBweqCK1p35MGNCwgw8FgPRdL4KPckdata": {
+   "sym": "DATALOOM",
+   "qty": 4289.3134738574945,
+   "entry": 5.079e-05,
+   "last": 5.236e-05,
+   "peak": 5.236e-05,
+   "cost": 0.22454569298827268,
+   "opened": "2026-11-25T18:39:16+07:00",
+   "zoo": "x_spray_small_b2",
+   "smart": 33,
+   "kol": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -10192,10 +10206,31 @@
    "mint": "2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy",
    "sym": "JaoJiu",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-25T18:39:16+07:00",
+   "kind": "buy",
+   "mint": "8SymmzsWdQBweqCK1p35MGNCwgw8FgPRdL4KPckdata",
+   "sym": "DATALOOM",
+   "price": 5.079e-05,
+   "jup": 5.071641816232891e-05,
+   "usd": 0.2245,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_spray_small_b2",
+   "smart": 33,
+   "kol": 1
+  },
+  {
+   "t": "2026-11-25T18:44:18+07:00",
+   "kind": "ban",
+   "mint": "2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ",
+   "sym": "hello",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: หว่านไม้เล็กหลายตัว ตัดกำไร 50% ตัดขาดทุน 15%",
- "rank_t": 1795606356.0499828,
+ "rank_t": 1795606683.6358776,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": "three",
@@ -10235,6 +10270,7 @@
   "Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": "HODL",
   "5wSQpQfbdSKs7amvyxa2XTzWXNyionERZWdDWykYm1At": "SOUVENIR",
   "4Di56UJzpnb7E4D7aLXFf7aLF5TrpJYv9Q3mR398pump": "PERRO",
-  "2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy": "JaoJiu"
+  "2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy": "JaoJiu",
+  "2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ": "hello"
  }
 }
