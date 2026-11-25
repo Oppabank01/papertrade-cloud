@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 1.8334959682826195,
+ "cash": 3.47588131913282,
  "pos": {
-  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
-   "sym": "mihao",
-   "qty": 326.1718182275352,
-   "entry": 0.005336,
-   "last": 0.005263,
-   "peak": 0.005558,
-   "cost": 1.7939113812225598,
-   "opened": "2026-11-25T04:31:46+07:00",
-   "zoo": "w_pause_bigliq_b2",
-   "smart": 808,
-   "kol": 75,
-   "gap": 0,
-   "miss": 0
-  },
   "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
    "sym": "CBUCKS",
    "qty": 378.29958898569544,
    "entry": 0.004576,
-   "last": 0.004658,
+   "last": 0.004576,
    "peak": 0.004773,
    "cost": 1.784270170272668,
    "opened": "2026-11-25T06:21:21+07:00",
@@ -35,22 +21,22 @@
    "sym": "CLAUDIA",
    "qty": 210.88009431864205,
    "entry": 0.00816,
-   "last": 0.0082,
-   "peak": 0.008235,
+   "last": 0.00827,
+   "peak": 0.008338,
    "cost": 1.7736359200578429,
    "opened": "2026-11-25T06:21:21+07:00",
    "zoo": "w_pause_bigliq_b2",
    "smart": 576,
    "kol": 37,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 83.61475730081884,
    "entry": 0.02029,
-   "last": 0.02026,
-   "peak": 0.02035,
+   "last": 0.02022,
+   "peak": 0.02042,
    "cost": 1.7486532937885118,
    "opened": "2026-11-25T07:19:27+07:00",
    "zoo": "w_pause_bigliq_b2",
@@ -1201,10 +1187,25 @@
    "zoo": "w_pause_bigliq_b2",
    "smart": 1000,
    "kol": 187
+  },
+  {
+   "t": "2026-11-25T07:31:52+07:00",
+   "kind": "sell",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.00519,
+   "entry": 0.005336,
+   "usd": 1.6424,
+   "pnl": -0.1515,
+   "why": "ครบ 3 ชม. (-2.7%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 808,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795565848.2464633,
+ "rank_t": 1795566344.5264335,
  "banned": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"
  }
