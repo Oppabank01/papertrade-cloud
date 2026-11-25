@@ -1,17 +1,46 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.662756598240469,
- "cash": 14.662756598240469,
+ "cash": 14.535439486127975,
  "pos": {},
  "log": [
   {
    "t": "2026-11-26T00:50:12+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-26T02:39:23+07:00",
+   "kind": "buy",
+   "mint": "7qkxiVHZtK7uLqnXDa1RUuVcpV4fbUd62uH5p61Ljupx",
+   "sym": "DRD",
+   "price": 8.444e-05,
+   "jup": 8.462728553645672e-05,
+   "usd": 0.4399,
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "zoo": "x_runner_dip",
+   "smart": 1,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-26T02:43:27+07:00",
+   "kind": "sell",
+   "mint": "7qkxiVHZtK7uLqnXDa1RUuVcpV4fbUd62uH5p61Ljupx",
+   "sym": "DRD",
+   "price": 6.374262782267575e-05,
+   "entry": 8.444e-05,
+   "usd": 0.3126,
+   "pnl": -0.1273,
+   "why": "stop -24.5%",
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "smart": 1,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ช้อนย่อของเหรียญที่เพิ่งพุ่ง (jehan771 บอทแข่ง make.fun) แบบที่ zoo เช็กได้: ยังอยู่บน bonding curve อายุไม่เกิน 1 ชม. ขึ้น 1 ชม. 100%+ แต่ 5 นาทีย่อ 20%+ stop -10% TP +30% ถือ 10 นาที",
  "night": "2026-11-25",
  "night_start": 14.662756598240469,
- "rank_t": 1795635005.1656961
+ "rank_t": 1795635436.078115
 }
