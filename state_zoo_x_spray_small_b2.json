@@ -1,41 +1,41 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 3.0864759328961746,
+ "cash": 2.8649223674883717,
  "pos": {
   "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
    "sym": "MANIFEST",
    "qty": 104.28830250313992,
    "entry": 0.002107,
-   "last": 0.002428,
+   "last": 0.002433,
    "peak": 0.0025,
    "cost": 0.22648469735530385,
    "opened": "2026-11-25T17:03:00+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 91,
    "kol": 15,
-   "gap": 0,
+   "gap": 10,
    "miss": 0
   },
   "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": {
    "sym": "DCTY",
    "qty": 193.59127891159702,
    "entry": 0.00113,
-   "last": 0.001048,
+   "last": 0.001071,
    "peak": 0.001152,
    "cost": 0.22547737082055722,
    "opened": "2026-11-25T17:10:38+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 740,
    "kol": 69,
-   "gap": 15,
+   "gap": 0,
    "miss": 0
   },
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 3.2699861141143276,
    "entry": 0.06612,
-   "last": 0.06558,
+   "last": 0.06547,
    "peak": 0.0664,
    "cost": 0.22285248594644336,
    "opened": "2026-11-25T17:48:39+07:00",
@@ -63,7 +63,7 @@
    "sym": "DATALOOM",
    "qty": 4289.3134738574945,
    "entry": 5.079e-05,
-   "last": 6.036e-05,
+   "last": 6.029e-05,
    "peak": 6.036e-05,
    "cost": 0.22454569298827268,
    "opened": "2026-11-25T18:39:16+07:00",
@@ -85,6 +85,20 @@
    "smart": 809,
    "kol": 75,
    "gap": 0,
+   "miss": 0
+  },
+  "7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump": {
+   "sym": "DUVAL",
+   "qty": 2769.2768507942583,
+   "entry": 7.762e-05,
+   "last": 6.956314810219853e-05,
+   "peak": 7.829e-05,
+   "cost": 0.22155356540780288,
+   "opened": "2026-11-25T19:46:28+07:00",
+   "zoo": "x_spray_small_b2",
+   "smart": 151,
+   "kol": 6,
+   "gap": 8,
    "miss": 0
   }
  },
@@ -10273,10 +10287,24 @@
    "cost_side": 0.03,
    "smart": 476,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T19:46:28+07:00",
+   "kind": "buy",
+   "mint": "7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump",
+   "sym": "DUVAL",
+   "price": 7.762e-05,
+   "jup": 7.716665054610836e-05,
+   "usd": 0.2216,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_spray_small_b2",
+   "smart": 151,
+   "kol": 6
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: หว่านไม้เล็กหลายตัว ตัดกำไร 50% ตัดขาดทุน 15%",
- "rank_t": 1795610265.710355,
+ "rank_t": 1795610717.1806538,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": "three",
