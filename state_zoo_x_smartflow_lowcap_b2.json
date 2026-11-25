@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 1.0454828566288445,
+ "cash": 2.362985745416034,
  "pos": {
   "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": {
    "sym": "PEAK",
    "qty": 9501.430074929434,
    "entry": 0.0002118,
-   "last": 0.0001797,
+   "last": 0.0001796,
    "peak": 0.000241,
    "cost": 2.074214481416259,
    "opened": "2026-11-25T00:49:30+07:00",
@@ -21,7 +21,7 @@
    "sym": "HYGG",
    "qty": 18614.73887028583,
    "entry": 0.0001227,
-   "last": 0.000102,
+   "last": 0.0001058,
    "peak": 0.0001556,
    "cost": 2.35418311624827,
    "opened": "2026-11-25T05:12:58+07:00",
@@ -35,27 +35,13 @@
    "sym": "paws",
    "qty": 5845.822752464019,
    "entry": 0.0003469,
-   "last": 0.00037380265689770215,
+   "last": 0.0003748,
    "peak": 0.0004169,
    "cost": 2.0902039917849597,
    "opened": "2026-11-25T07:40:40+07:00",
    "zoo": "x_smartflow_lowcap_b2",
    "smart": 317,
    "kol": 15,
-   "gap": 20,
-   "miss": 0
-  },
-  "7mH4PaR9BMxAid2i1QNDBmziAwxyXBsPNKSMiWySpump": {
-   "sym": "worth",
-   "qty": 7723.031481473148,
-   "entry": 0.0002231,
-   "last": 0.0001822,
-   "peak": 0.0002231,
-   "cost": 1.775931069384312,
-   "opened": "2026-11-25T10:10:30+07:00",
-   "zoo": "x_smartflow_lowcap_b2",
-   "smart": 115,
-   "kol": 5,
    "gap": 0,
    "miss": 0
   }
@@ -1241,10 +1227,25 @@
    "mint": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
    "sym": "paws",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-25T21:10:23+07:00",
+   "kind": "sell",
+   "mint": "7mH4PaR9BMxAid2i1QNDBmziAwxyXBsPNKSMiWySpump",
+   "sym": "worth",
+   "price": 0.00017583385619634608,
+   "entry": 0.0002231,
+   "usd": 1.3175,
+   "pnl": -0.4584,
+   "why": "stop -21.2%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 115,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: smart money เข้า 3+ มาร์เก็ตแคปต่ำ ขายครึ่งที่ x2",
- "rank_t": 1795615108.8044033,
+ "rank_t": 1795615690.2774026,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "GNHW5JetZmW85vAU35KyoDcYoSd3sNWtx5RPMTDJpump": "GOAT",
