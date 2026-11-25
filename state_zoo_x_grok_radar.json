@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.645577035735208,
- "cash": 13.080254161709751,
+ "cash": 12.4058646278747,
  "pos": {},
  "log": [
   {
@@ -66,8 +66,37 @@
    "cost_side": 0.03,
    "smart": 129,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T15:51:04+07:00",
+   "kind": "buy",
+   "mint": "96qfge1RkUWhSsv8i9V4QZFANGypKEe1u7pzCDGGpump",
+   "sym": "HELIORA",
+   "price": 0.0001632,
+   "jup": 0.0001625250562107607,
+   "usd": 2.6161,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "x_grok_radar",
+   "smart": 30,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-25T15:52:40+07:00",
+   "kind": "sell",
+   "mint": "96qfge1RkUWhSsv8i9V4QZFANGypKEe1u7pzCDGGpump",
+   "sym": "HELIORA",
+   "price": 0.00012868410596558952,
+   "entry": 0.0001632,
+   "usd": 1.9417,
+   "pnl": -0.6744,
+   "why": "stop -21.1%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 30,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: Grok desk RADAR: เพิ่งจบ curve สภาพคล่อง 15k+ ผ่านเช็ก safe ออกด้วย trail 20%",
- "rank_t": 1795596174.695342
+ "rank_t": 1795596557.7602189
 }
