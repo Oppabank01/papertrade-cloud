@@ -7,7 +7,7 @@
    "sym": "PEAK",
    "qty": 9501.430074929434,
    "entry": 0.0002118,
-   "last": 0.0002047,
+   "last": 0.0002045,
    "peak": 0.000241,
    "cost": 2.074214481416259,
    "opened": "2026-11-25T00:49:30+07:00",
@@ -21,7 +21,7 @@
    "sym": "paws",
    "qty": 5845.822752464019,
    "entry": 0.0003469,
-   "last": 0.00037,
+   "last": 0.0003654,
    "peak": 0.0004169,
    "cost": 2.0902039917849597,
    "opened": "2026-11-25T07:40:40+07:00",
@@ -35,14 +35,14 @@
    "sym": "MCAT",
    "qty": 23340.709247245242,
    "entry": 6.897e-05,
-   "last": 6.701579907834549e-05,
+   "last": 6.16e-05,
    "peak": 8.303e-05,
    "cost": 1.6592545009096107,
    "opened": "2026-11-25T21:59:06+07:00",
    "zoo": "x_smartflow_lowcap_b2",
    "smart": 114,
    "kol": 8,
-   "gap": 2,
+   "gap": 6,
    "miss": 0
   },
   "8nnaeWCw8mUypcGAgbmSuzAT85uWx4UN12adDrMhXrGF": {
@@ -56,7 +56,7 @@
    "zoo": "x_smartflow_lowcap_b2",
    "smart": 180,
    "kol": 15,
-   "gap": 12,
+   "gap": 11,
    "miss": 0
   }
  },
@@ -1364,10 +1364,17 @@
    "zoo": "x_smartflow_lowcap_b2",
    "smart": 180,
    "kol": 15
+  },
+  {
+   "t": "2026-11-26T02:16:51+07:00",
+   "kind": "ban",
+   "mint": "8nnaeWCw8mUypcGAgbmSuzAT85uWx4UN12adDrMhXrGF",
+   "sym": "HOTBOT",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: smart money เข้า 3+ มาร์เก็ตแคปต่ำ ขายครึ่งที่ x2",
- "rank_t": 1795633656.8065293,
+ "rank_t": 1795634155.6468139,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "GNHW5JetZmW85vAU35KyoDcYoSd3sNWtx5RPMTDJpump": "GOAT",
@@ -1381,6 +1388,7 @@
   "HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump": "HYGG",
   "7mH4PaR9BMxAid2i1QNDBmziAwxyXBsPNKSMiWySpump": "worth",
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": "paws",
-  "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": "MCAT"
+  "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": "MCAT",
+  "8nnaeWCw8mUypcGAgbmSuzAT85uWx4UN12adDrMhXrGF": "HOTBOT"
  }
 }

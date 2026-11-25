@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 8.009218997421533,
- "pos": {
-  "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg": {
-   "sym": "USOI",
-   "qty": 185.65689498437783,
-   "entry": 0.01047,
-   "last": 0.01048,
-   "peak": 0.01058,
-   "cost": 2.0035329730843494,
-   "opened": "2026-11-25T20:17:47+07:00",
-   "zoo": "x_rule5_60_25_b2",
-   "smart": 5,
-   "kol": 0,
-   "gap": 14,
-   "miss": 0
-  }
- },
+ "cash": 9.896921865926611,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-22T19:52:28+07:00",
@@ -377,10 +362,25 @@
    "mint": "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg",
    "sym": "USOI",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-26T02:18:17+07:00",
+   "kind": "sell",
+   "mint": "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg",
+   "sym": "USOI",
+   "price": 0.01048,
+   "entry": 0.01047,
+   "usd": 1.8877,
+   "pnl": -0.1158,
+   "why": "ครบ 6 ชม. (+0.1%)",
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "smart": 5,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ระบบ 5 ไม้ เข้มกรอง ปลอดภัย TP +60% SL -25%",
- "rank_t": 1795633656.8065293,
+ "rank_t": 1795634155.6468139,
  "banned": {
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": "DacityCoin",
   "8rjgC1GsBo4fwuXjq7Hy12SAFxgFxbtSJJSFBYkVpump": "WW",
