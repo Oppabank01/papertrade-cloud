@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 7.4292484192463615,
+ "cash": 7.3115580400513815,
  "pos": {
-  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
-   "sym": "USELESS",
-   "qty": 26.3869410468327,
-   "entry": 0.06829,
-   "last": 0.06732,
-   "peak": 0.06858,
-   "cost": 1.8573121048115906,
-   "opened": "2026-11-25T09:49:59+07:00",
+  "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
+   "sym": "FLOAT",
+   "qty": 673.805348567459,
+   "entry": 0.002651,
+   "last": 0.002633,
+   "peak": 0.002696,
+   "cost": 1.841123458103828,
+   "opened": "2026-11-25T12:48:22+07:00",
    "zoo": "w_f5_bigliqRC_b2",
-   "smart": 936,
-   "kol": 295,
-   "gap": 0,
+   "smart": 380,
+   "kol": 35,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -1139,8 +1139,37 @@
    "zoo": "w_f5_bigliqRC_b2",
    "smart": 936,
    "kol": 295
+  },
+  {
+   "t": "2026-11-25T12:48:22+07:00",
+   "kind": "buy",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "price": 0.002651,
+   "jup": 0.002663909345303744,
+   "usd": 1.8411,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 380,
+   "kol": 35
+  },
+  {
+   "t": "2026-11-25T12:50:02+07:00",
+   "kind": "sell",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.06732,
+   "entry": 0.06829,
+   "usd": 1.7234,
+   "pnl": -0.1339,
+   "why": "ครบ 3 ชม. (-1.4%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 936,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ bigliqRC แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1795585185.195294
+ "rank_t": 1795585628.357218
 }

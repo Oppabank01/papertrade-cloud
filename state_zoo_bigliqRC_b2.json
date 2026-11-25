@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 7.090601639457944,
+ "cash": 5.357737460554136,
  "pos": {
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 204.6981341130456,
    "entry": 0.008139,
-   "last": 0.007661,
+   "last": 0.007673,
    "peak": 0.00831,
    "cost": 1.7172110013874233,
    "opened": "2026-11-25T10:09:59+07:00",
@@ -15,6 +15,20 @@
    "smart": 576,
    "kol": 37,
    "gap": 0,
+   "miss": 0
+  },
+  "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
+   "sym": "FLOAT",
+   "qty": 640.7106807821929,
+   "entry": 0.002624,
+   "last": 0.002633,
+   "peak": 0.002696,
+   "cost": 1.7328641789038077,
+   "opened": "2026-11-25T12:47:43+07:00",
+   "zoo": "bigliqRC_b2",
+   "smart": 380,
+   "kol": 35,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -1240,10 +1254,24 @@
    "cost_side": 0.03,
    "smart": 42,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T12:47:43+07:00",
+   "kind": "buy",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "price": 0.002624,
+   "jup": 0.002618667891972851,
+   "usd": 1.7329,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliqRC_b2",
+   "smart": 380,
+   "kol": 35
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ผ่าน RugCheck เช็กราคาทุก 20 วิ",
- "rank_t": 1795585185.195294,
+ "rank_t": 1795585628.357218,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"
