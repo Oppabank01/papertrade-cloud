@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.740566037735848,
- "cash": 13.52368695637291,
- "pos": {
-  "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": {
-   "sym": "GROKIA",
-   "qty": 466.8118648405379,
-   "entry": 0.003123,
-   "last": 0.002729,
-   "peak": 0.004415,
-   "cost": 1.5026318840414346,
-   "opened": "2026-11-25T10:02:57+07:00",
-   "zoo": "x_survivor_grad",
-   "smart": 4,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 14.583811782386276,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-24T14:00:35+07:00",
@@ -95,9 +80,24 @@
    "zoo": "x_survivor_grad",
    "smart": 4,
    "kol": 0
+  },
+  {
+   "t": "2026-11-25T11:33:42+07:00",
+   "kind": "sell",
+   "mint": "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump",
+   "sym": "GROKIA",
+   "price": 0.00234074362242807,
+   "entry": 0.003123,
+   "usd": 1.0601,
+   "pnl": -0.4425,
+   "why": "stop -25.0%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 4,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ไม่ซื้อเหรียญใหม่ ซื้อเฉพาะเหรียญที่จบ curve แล้วรอดเกิน 1 วัน (โพสต์ tigra_ai)",
- "rank_t": 1795580819.1197174,
+ "rank_t": 1795581222.080961,
  "halted": "ราคา GROKIA สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }
