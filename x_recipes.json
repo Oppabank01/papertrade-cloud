@@ -2582,5 +2582,41 @@
    "WATCH_S": 20
   },
   "note": "from scanner.py CFG: liquidity 15k, market cap 50k to 20M, age 15 min, 1 h change at most +120% (its overextended line), insider and danger risks via rugcheck, mint/freeze renounced (zoo base_guard), stop -18%, take profit 2x, trail 25% from the peak after the take profit, realert_hours 3 read as a 3 h re-entry block; chosen by me: 'take profit 2x then trail' read as sell half at +100% and trail the rest 25% once up 100% (the scanner only alerts, it does not say how much to sell), 6 h hold from its watch_hours, 3% per trade (its stake is $2), max 5 open, 20 s checks; the 40 txns per hour gate (zoo buys/sells cover a 5-minute window), the score-65 gate (its own score), the dip-buy WAIT cards (no 2 h high field) and the dev-selling exit (no such field) dropped; GMGN rank in place of DexScreener/GeckoTerminal trending; zoo default costs 1% fee + 2% slip per side (its paper P&L has none)"
+ },
+ {
+  "name": "x_tapescalp",
+  "label": "tape-scalper (theo1603 บอทแข่ง make.fun) แบบที่ zoo เช็กได้: อายุไม่เกิน 1 ชม. สภาพคล่อง 3k ถึง 40k ขึ้น 5 นาที 3 ถึง 80% ขึ้น 1 นาที up buys 4+ stop -12% TP +45% trail 12% เมื่อขึ้น 20% ถือ 16 นาที",
+  "horizon": "night",
+  "source": "https://github.com/theo1603/makefun-pump-sharpe",
+  "claim": "Steady tape-scalper paper bot for pump.fun (make.fun Pump.fun Sharpe Sprint entry, Nov 2026): buys new bonding curves at least 25 slots old with 0.3 to 40 SOL real reserves, net buy inflow of 0.6 SOL+ over 300 slots from 4+ buys by 4 distinct buyers, price up 3 to 80% over the window and within 8% of the window high; fixed 0.08 SOL stake, at most 5 open; exits take profit +45%, stop -12%, trailing 12% from the peak once up 20%, fade exit on net flow below -0.5 SOL, 2400-slot time limit (no results published; unverified)",
+  "added": "2026-11-25",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 3000,
+    "price_change_percent5m": 3,
+    "price_change_percent1m": 0.0,
+    "buys": 4
+   },
+   "max": {
+    "age_h": 1,
+    "liquidity": 40000,
+    "price_change_percent5m": 80
+   },
+   "up": true
+  },
+  "exit": {
+   "STOP": -0.12,
+   "TP_ALL": 0.45,
+   "HALF_AT": null,
+   "TRAIL_ON": 0.2,
+   "TRAIL": 0.12,
+   "MAX_HOLD_H": 0.27,
+   "PER_TRADE": 0.03,
+   "MAX_POS": 5,
+   "COOLDOWN_H": 24,
+   "WATCH_S": 5
+  },
+  "note": "from the README: take profit +45%, stop -12%, trailing 12% once up 20%, at most 5 open, 4 buys, price up 3 to 80% over the window; chosen by me: the bot reads seconds-old bonding curves but the zoo only sees GMGN 5-minute ranks, so 'new curve' became age at most 1 h, the 300-slot (about 2 min) window became the 5m change 3 to 80%, 'within 8% of the window high' became 1m change at least 0 (no window-high field), 'net inflow 0.6 SOL from 4 distinct buyers' became zoo 'up' (buys > sells) plus at least 4 buys (no SOL-flow or distinct-buyer field), 0.3 to 40 SOL real reserves became liquidity 3k to 40k USD (my conversion, SOL price not fixed), the 2400-slot limit read as 0.27 h (0.4 s per slot), never re-enter read as a 24 h block, 3% per trade in place of 0.08 SOL, 5 s checks; the fade exit on net outflow dropped (no such field); zoo default costs 1% fee + 2% slip per side"
  }
 ]

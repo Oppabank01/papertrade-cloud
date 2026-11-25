@@ -1,0 +1,35 @@
+"""fwd_ema140.py walking 1m bars one at a time, each time on only the last 1000 bars like byttrade.fetch returns, gives the
+same entries and exits as its backtest fwd_ema140.trades() (checked equal to the scout's /tmp/scout_1351/bt.py run_b on
+60 days of 1m bars). mts.bars would pull all 1m history since 2017, so this takes the last 6 days through mts.get."""
+import random, sys, time
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent / ".claude/skills/market-timeseries/scripts"))
+import mts
+import fwd_ema140 as F, byttrade as B
+
+SYM = "BTCUSDT"
+start, raw = int((time.time() - 6 * 86400) * 1000), []
+while True:
+    k = mts.get(f"https://api.binance.com/api/v3/klines?symbol={SYM}&interval=1m&limit=1000&startTime={start}")
+    raw += k
+    if len(k) < 1000:
+        break
+    start = k[-1][0] + 1
+full = [dict(t=x[0], o=float(x[1]), h=float(x[2]), l=float(x[3]), c=float(x[4]), closed=True) for x in raw[:-1]]
+all_tr = F.trades(full)
+xi0 = next(xi for ei, e, xi, px in all_tr if xi >= 1000)   # start the walk flat, right after a backtest exit fill
+want = [(round(e, 6), round(px, 6)) for ei, e, xi, px in all_tr if ei > xi0]
+s = B.new_state("t"); s["seen"] = {SYM: full[xi0]["t"]}; s["cool"] = {SYM: full[xi0 - 1]["t"]}
+for k in range(xi0 + 2, len(full) + 1):
+    w = full[max(0, k - 1000):k]
+    F.step(s, SYM, w[:-1] + [dict(w[-1], closed=False)], "rule", random.Random(1))
+buys = [x["px"] for x in s["log"] if x["kind"] == "buy"]; sells = [x["px"] for x in s["log"] if x["kind"] == "sell"]
+got = [(round(e, 6), round(p, 6)) for e, p in zip(buys, sells)]
+assert got == want[:len(got)] and len(want) - len(got) <= 1, (len(got), len(want), got[:3], want[:3])
+assert len(got) >= 3, len(got)
+t = B.new_state("t"); t["seen"] = {SYM: full[-3000]["t"]}
+for k in range(len(full) - 2998, len(full) + 1):
+    w = full[max(0, k - 1000):k]
+    F.step(t, SYM, w[:-1] + [dict(w[-1], closed=False)], "random", random.Random(k))
+assert any(x["kind"] == "sell" for x in t["log"])
+print(f"{len(got)} trades match the backtest; ok")
