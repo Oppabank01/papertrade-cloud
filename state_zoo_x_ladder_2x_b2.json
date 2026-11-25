@@ -1,20 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 5.463682011254081,
+ "cash": 4.1428055992194,
  "pos": {
   "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": {
    "sym": "JIMMY",
    "qty": 610.9802083124378,
    "entry": 0.002169,
-   "last": 0.001899,
+   "last": 0.001837040448347361,
    "peak": 0.002169,
    "cost": 1.3659205028135204,
    "opened": "2026-11-25T10:17:46+07:00",
    "zoo": "x_ladder_2x_b2",
    "smart": 173,
    "kol": 8,
-   "gap": 0,
+   "gap": 1,
+   "miss": 0
+  },
+  "4Di56UJzpnb7E4D7aLXFf7aLF5TrpJYv9Q3mR398pump": {
+   "sym": "PERRO",
+   "qty": 6199.8756408129975,
+   "entry": 0.0002067,
+   "last": 0.00019694473228425784,
+   "peak": 0.0002113,
+   "cost": 1.3208764120346803,
+   "opened": "2026-11-25T10:30:28+07:00",
+   "zoo": "x_ladder_2x_b2",
+   "smart": 83,
+   "kol": 5,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -479,10 +493,24 @@
    "zoo": "x_ladder_2x_b2",
    "smart": 173,
    "kol": 8
+  },
+  {
+   "t": "2026-11-25T10:30:28+07:00",
+   "kind": "buy",
+   "mint": "4Di56UJzpnb7E4D7aLXFf7aLF5TrpJYv9Q3mR398pump",
+   "sym": "PERRO",
+   "price": 0.0002067,
+   "jup": 0.00020832165933773404,
+   "usd": 1.3209,
+   "stop_set": -0.35,
+   "cost_side": 0.03,
+   "zoo": "x_ladder_2x_b2",
+   "smart": 83,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: บันไดขาย ครึ่งที่ x2 trail 30% stop -35%",
- "rank_t": 1795576964.5930882,
+ "rank_t": 1795577359.1553729,
  "banned": {
   "AQfw8J74V17erZsmMz4oK474eVLBaP44gD33vVbhtHo5": "ZOL",
   "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": "MCAT",
