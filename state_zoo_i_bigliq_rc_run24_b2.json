@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 2.168185642542116,
+ "cash": 4.1555240012032275,
  "pos": {
   "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": {
    "sym": "PUMPCADE",
    "qty": 159.72406821793646,
    "entry": 0.01417,
-   "last": 0.01284,
+   "last": 0.0128,
    "peak": 0.0145,
    "cost": 2.28609383262863,
    "opened": "2026-11-24T15:52:20+07:00",
@@ -17,25 +17,11 @@
    "gap": 0,
    "miss": 0
   },
-  "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
-   "sym": "CRIME",
-   "qty": 739.6322006417522,
-   "entry": 0.00302,
-   "last": 0.002724,
-   "peak": 0.003304,
-   "cost": 2.2561947889579472,
-   "opened": "2026-11-24T19:09:35+07:00",
-   "zoo": "i_bigliq_rc_run24_b2",
-   "smart": 93,
-   "kol": 40,
-   "gap": 0,
-   "miss": 0
-  },
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 68.62575395953417,
    "entry": 0.03253,
-   "last": 0.03112,
+   "last": 0.03128,
    "peak": 0.03272,
    "cost": 2.2548882869661337,
    "opened": "2026-11-24T22:00:13+07:00",
@@ -49,7 +35,7 @@
    "sym": "USELESS",
    "qty": 30.97317163733958,
    "entry": 0.07081,
-   "last": 0.06782,
+   "last": 0.06757,
    "peak": 0.0713,
    "cost": 2.2153079807479767,
    "opened": "2026-11-24T22:38:04+07:00",
@@ -628,10 +614,25 @@
    "mint": "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu",
    "sym": "PUMPCADE",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-25T11:13:54+07:00",
+   "kind": "sell",
+   "mint": "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump",
+   "sym": "CRIME",
+   "price": 0.002714,
+   "entry": 0.00302,
+   "usd": 1.9873,
+   "pnl": -0.2689,
+   "why": "stop -10.1%",
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "smart": 93,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ RugCheck ปล่อยวิ่ง 24 ชม.",
- "rank_t": 1795579286.836627,
+ "rank_t": 1795579734.8947377,
  "banned": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
   "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": "PUMPCADE"
