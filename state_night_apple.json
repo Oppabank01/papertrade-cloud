@@ -568,10 +568,35 @@
    "cost_side": 0.03,
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T04:05:14+07:00",
+   "kind": "buy",
+   "mint": "PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S",
+   "sym": "NEURALINK",
+   "price": 426.34,
+   "jup": 425.803777234275,
+   "usd": 8.8028,
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "source": "state_wallets.json"
   }
  ],
- "pos": {},
- "cash": 14.671361502347418,
+ "pos": {
+  "PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S": {
+   "sym": "NEURALINK",
+   "qty": 0.020032117459648353,
+   "entry": 426.34,
+   "last": 426.34,
+   "peak": 426.34,
+   "cost": 8.80281690140845,
+   "opened": "2026-11-26T04:05:14+07:00",
+   "source": "state_wallets.json",
+   "gap": 0,
+   "miss": 0
+  }
+ },
+ "cash": 5.868544600938968,
  "start_usd": 14.671361502347418,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
@@ -951,7 +976,8 @@
   "state_wallets.json:2026-11-24T16:09:44+07:00:Fgmy6MpdrH8jjJ9i8RY53PVVdFdKLz6JX34tHJvcpump",
   "state_wallets.json:2026-11-24T20:13:09+07:00:HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr",
   "state_wallets.json:2026-11-25T02:02:35+07:00:2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ",
-  "state_wallets.json:2026-11-25T18:52:50+07:00:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump"
+  "state_wallets.json:2026-11-25T18:52:50+07:00:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+  "state_wallets.json:2026-11-26T04:03:36+07:00:PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S"
  ],
  "session": {
   "night": "2026-11-25",
