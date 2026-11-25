@@ -2748,5 +2748,40 @@
    "COOLDOWN_H": 24
   },
   "note": "from the post: liquidity 40k USD+, volume 50k USD+, mint and freeze authority revoked (read as zoo rugcheck), new Solana pairs; chosen by me: volume read as the GMGN rank volume field, new read as age at most 24 h, rules 3 to 5 unknown so zoo up stands in for them, stop -20%, sell half at +50% then trail 25%, max hold 24 h, 10% of the account per trade, at most 5 open, 24 h block before the same coin is bought again (the post gives no exits or sizes)"
+ },
+ {
+  "name": "x_picky_mom",
+  "label": "โมเมนตัมช่างเลือก (Drssptra บอทแข่ง make.fun pump.fun Sharpe sprint) แบบที่ zoo เช็กได้: ยังอยู่บน bonding curve อายุไม่เกิน 6 นาที ขึ้น 1 ชม. 50 ถึง 80% ขึ้น 5 นาที 3%+ up stop -2% TP +15% ถือ 8 นาที",
+  "horizon": "night",
+  "source": "https://github.com/Drssptra/u-jackxyz72-pump-fun-sharpe-sprint-cleanest-03e4f532-entry",
+  "claim": "Selective-momentum pump.fun replay paper bot (make.fun Sharpe sprint entry, Nov 2026): buy only a coin already up 50% to 80% from its first seen price, 5+ SOL real reserves, 5+ trades, still climbing 3%+ over its last 10 samples and net buying this batch, within 200 slots of first sight; stake 0.02 SOL, take +15%, stop -2%, trail 15% after +30%, sell a coin quiet for 1200 slots unless up 3%; the code comments say winners are about 1 trade in 4 averaging +20% and only just cover losers plus ~3% round-trip fees (its own replay, no results shown, unverified)",
+  "added": "2026-11-26",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 1000,
+    "price_change_percent1h": 50,
+    "price_change_percent5m": 3
+   },
+   "max": {
+    "launchpad_status": 0,
+    "age_h": 0.1,
+    "price_change_percent1h": 80
+   },
+   "up": true
+  },
+  "exit": {
+   "STOP": -0.02,
+   "TP_ALL": 0.15,
+   "HALF_AT": null,
+   "TRAIL_ON": 0.3,
+   "TRAIL": 0.15,
+   "MAX_HOLD_H": 0.13,
+   "PER_TRADE": 0.03,
+   "MAX_POS": 5,
+   "COOLDOWN_H": 24,
+   "WATCH_S": 5
+  },
+  "note": "from strategy.ts: up 50% to 80% from the first price, take profit +15%, stop -2%, trail 15% once +30%, 5 position slots, still on the curve; chosen by me: 'up from first seen price' read as 1h change 50 to 80% (for a coin minutes old the 1h change is roughly the change since creation), 'climbing 3% over the last 10 samples' read as 5m change at least +3%, 'within 200 slots (about 80 s) of first sight' read as age at most 0.1 h (6 min, zoo sees coins later than the bot), '5 SOL real reserves' read as liquidity 1k USD+ (same conversion as x_runner_dip), net buying and 5+ trades read as zoo up (buys > sells), the 1200-slot stale exit read as a flat 0.13 h (8 min) max hold without the 'unless up 3%' clause, 3% of the account per trade in place of 0.02 SOL, a coin is never re-entered read as a 24 h block; zoo default costs 1% fee + 2% slip per side (the bot's replay paid about 3% a round trip)"
  }
 ]
