@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 7.54438366688751,
- "pos": {},
+ "cash": 6.035506933510009,
+ "pos": {
+  "5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump": {
+   "sym": "Pompom",
+   "qty": 2318.150762823203,
+   "entry": 0.0006315,
+   "last": 0.0006093009622340154,
+   "peak": 0.0006617,
+   "cost": 1.5088767333775022,
+   "opened": "2026-11-26T01:15:05+07:00",
+   "zoo": "x_ladder_2x_b2",
+   "smart": 102,
+   "kol": 10,
+   "gap": 15,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T19:52:24+07:00",
@@ -554,16 +569,38 @@
    "cost_side": 0.03,
    "smart": 66,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T01:15:05+07:00",
+   "kind": "buy",
+   "mint": "5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump",
+   "sym": "Pompom",
+   "price": 0.0006315,
+   "jup": 0.0006276299493633363,
+   "usd": 1.5089,
+   "stop_set": -0.35,
+   "cost_side": 0.03,
+   "zoo": "x_ladder_2x_b2",
+   "smart": 102,
+   "kol": 10
+  },
+  {
+   "t": "2026-11-26T01:20:54+07:00",
+   "kind": "ban",
+   "mint": "5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump",
+   "sym": "Pompom",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: บันไดขาย ครึ่งที่ x2 trail 30% stop -35%",
- "rank_t": 1795629825.5663092,
+ "rank_t": 1795630402.8273695,
  "banned": {
   "AQfw8J74V17erZsmMz4oK474eVLBaP44gD33vVbhtHo5": "ZOL",
   "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": "MCAT",
   "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": "GROKIA",
   "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump": "4CHAN",
   "E2MJUFBMaTH7j21P2HncB96erJ4dM3FPL2W6i8Dpump": "WIKI",
-  "3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": "BASKET"
+  "3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": "BASKET",
+  "5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump": "Pompom"
  }
 }
