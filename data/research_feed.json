@@ -2,33 +2,6 @@
  {
   "t": "2026-11-22T23:53:22+07:00",
   "source": "github",
-  "title": "byttrade/free-crypto-trading-bot: st4h_ema50_1d",
-  "url": "https://github.com/byttrade/free-crypto-trading-bot",
-  "summary": "บอทตามเทรนด์ 4 ชม. 4 ท่า บน perp 20 เหรียญใหญ่ มีกฎครบ เช่น Supertrend(10,3) กลับทิศตามทิศ EMA50 รายวัน stop 2 ATR TP 10 ATR trail 5 ATR อ้าง PF 1.59 ช่วง verification",
-  "verdict": "ทดสอบแล้ว",
-  "action": "backtest st4h_ema50_1d บน Binance spot 4 ชม. BTC ETH SOL 2017-2026 ต้นทุน 0.35%/ข้าง: long+short ต่อไม้ BTC -0.25% (162 ไม้) ETH +0.80% (173) SOL +2.33% (115) มัธยฐานราว -3.5% ชนะราว 30% ช่วง selection ของผู้เขียน 3 เหรียญรวม -0.58%/ไม้ permutation 200 รอบ p BTC 0.109 ETH 0.010 SOL 0.005 long only p 0.139/0.124/0.010 จุดเข้าสุ่มฝั่งเดียวกับ regime และ exit เดียวกัน BTC -0.02% ETH +0.88% เท่ากับหรือดีกว่ากฎ (ชนะกฎ 18/30 และ 16/30 รอบ) มีแค่ SOL ที่ดีกว่าสุ่ม สรุป: ผ่านเกณฑ์ไม่ครบ ผลมาจากตัวกรอง regime กับ trail กว้าง ไม่ใช่จุดเข้า และสายเหรียญใหญ่ห้ามเปิดบัญชีใหม่ จึงไม่เปิด"
- },
- {
-  "t": "2026-11-22T23:53:22+07:00",
-  "source": "github",
-  "title": "repo บอท Polymarket/Hyperliquid/pump.fun แบบ \"native 64-bit portable\" หลายตัว",
-  "url": "https://github.com/mike-garcia-x2000a6/polymarket-perp-dex-hyperliquid-vault-market-maker-portabl",
-  "summary": "repo สร้างสัปดาห์นี้ ดาว 140 ถึง 311 ชื่อบัญชีสุ่ม แจกไฟล์โปรแกรม Windows สำเร็จรูป อ้างทำ market making, arbitrage, volume booster",
-  "verdict": "ตัดทิ้ง",
-  "action": "ลองไม่ได้อย่างปลอดภัย: ต้องรันไฟล์ exe ที่ดาวน์โหลดมา ทรงมัลแวร์ขโมยกระเป๋า"
- },
- {
-  "t": "2026-11-22T23:53:22+07:00",
-  "source": "github",
-  "title": "kalambyryura/ai-trading-arena",
-  "url": "https://github.com/kalambyryura/ai-trading-arena",
-  "summary": "ทีม AI 3 ชุดลองสร้างบอท perp บน OKX 7 สัปดาห์ด้วยเงินจริง ทดสอบ 770+ แบบ ไม่เจอ edge เงินจริง 86 ไม้ -1.65 USDT ค่าธรรมเนียมกินหมด ท่าตามเทรนด์ยาวแค่ได้จากตลาดขึ้น จุดเข้าสุ่มได้ราว 3 ใน 4",
-  "verdict": "กำลังลอง",
-  "action": "ใช้บัญชี x_crb_4agent ที่รันอยู่ (ทีมเอเจนต์หลายตัวตัดสินร่วมกัน) เป็นตัวแทน ตัดสินจากผลบัญชีนั้นหลัง 20 ไม้"
- },
- {
-  "t": "2026-11-22T23:53:22+07:00",
-  "source": "github",
   "title": "ketchup42/pm-bot",
   "url": "https://github.com/ketchup42/pm-bot",
   "summary": "ชุดเครื่องมือเก็บข้อมูลตลาด up/down ของ Polymarket (ราคา order book การตัดสินผล) แล้ว replay กลยุทธ์ DOGE แบบคิดค่าธรรมเนียม latency และความลึก",
@@ -2662,5 +2635,68 @@
   "summary": "ไม่เจองานใหม่เดือนนี้ ผลใหม่สุดคือ AdaptiveTrend (ก.พ. 69) ที่ลงฟีดแล้ว ที่เหลือเป็นงานปี 2564 ถึง 2565",
   "verdict": "ไอเดีย",
   "action": "ไม่มีอะไรใหม่ให้ทดสอบ รอบหน้าลองหน้า q-fin.TR โดยตรง"
+ },
+ {
+  "t": "2026-11-26T02:33:00+07:00",
+  "source": "github",
+  "title": "dy6z/supertrend-binance-bot: Supertrend + BB mid 15 นาที scalper 26 เหรียญ",
+  "url": "https://github.com/dy6z/supertrend-binance-bot",
+  "summary": "บอท futures 15 นาที เข้าเมื่อ Supertrend กลับทิศพร้อมราคาตัด SMA20 ภายใน 3 แท่ง ห่างเส้น 2%+ RSI 55-65 (short 35-45) เป้า +1.8% stop ตามเส้น Supertrend หรือ 3% README อ้าง 30 วัน 428 ไม้ +99% ชนะ 60.5% PF 1.27 ที่ x10",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest Binance spot 15 นาที 180 วัน 22 เหรียญ หลังหัก 0.35%/ข้าง 1,374 ไม้ -0.67% ต่อไม้ มัธยฐาน +1.1% ก่อนหัก +0.03% ชนะ 52% ตัวแฝดเข้าสุ่มตามทิศ -0.71% 30 วันล่าสุด 266 ไม้ ก่อนหัก +0.33% ชนะ 60% (ตรงกับ README เพราะเขาจ่ายค่าธรรมเนียม futures ต่ำ) หลังหัก -0.38% ถือเฉยๆ เฉลี่ย -11% กริด 9 แบบ -0.61 ถึง -0.73% permutation 200 รอบ 6 เหรียญ p 0.57 ไม่ผ่าน เปิด fwd_stbb.py (22 เหรียญ ไม้ละ 1 ใน 22 ตัวแฝด 1 ใน 250 แท่ง) test เดินทีละแท่งตรง backtest 9 ไม้ และโค้ดบัญชีให้ไม้ตรง backtest ครบ 1,374 ไม้"
+ },
+ {
+  "t": "2026-11-26T02:33:00+07:00",
+  "source": "github",
+  "title": "aman25singh/crypto-mean-reversion-backtest: ซื้อเมื่อปิดต่ำกว่า SMA20 0.5% (XRP 1 ชม.)",
+  "url": "https://github.com/aman25singh/crypto-mean-reversion-backtest",
+  "summary": "งานทดสอบของเจ้าของเองว่าบอทช้อนใต้ SMA20 บน XRP 1 ชม. กำไร +16% เพราะเช็ก stop แค่ราคาปิด พอเช็กในแท่งเหลือ -36% ก่อนค่าธรรมเนียม และแพ้ถือเฉยๆ",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest Binance 1 ชม. 2017-2026 หลังหัก 0.35%/ข้าง XRP 4,359 ไม้ -0.80% BTC 3,468 ไม้ -0.72% ETH 4,570 ไม้ -0.80% ต่อไม้ ก่อนหัก -0.10/-0.02/-0.10% ตัวแฝดเข้าสุ่ม -0.78/-0.69/-0.76% ติดลบทุกปี กริด 6 แบบ (ระยะ 0.3/0.5/1% stop 2.5/5%) ติดลบทุกแบบ permutation 200 รอบ 365 วัน p 0.91/0.43/0.91 ไม่ผ่าน ตรงกับที่เจ้าของสรุป เปิด fwd_sma20mr.py (XRP BTC ETH ไม้ละ 1 ใน 3 ตัวแฝด 1 ใน 30 แท่ง) เพราะผู้ใช้ให้ลองท่าอ่อน test เดินทีละแท่งตรง backtest 79 ไม้"
+ },
+ {
+  "t": "2026-11-26T02:33:00+07:00",
+  "source": "github",
+  "title": "adammhijazi/ai-trading-agent: Claude Sonnet ตัดสินใจเทรด Binance futures มี risk layer เขียนตายตัว",
+  "url": "https://github.com/adammhijazi/ai-trading-agent",
+  "summary": "เอเจนต์ LLM (Haiku คัดกรองทุก 30 นาที Sonnet ตัดสินใจ) ใช้ข่าว funding OI liquidation ปฏิทินเศรษฐกิจ ไม่มีกฎเข้าออกตายตัว มีแค่กฎความเสี่ยงในโค้ด",
+  "verdict": "ไอเดีย",
+  "action": "ไม่ได้ทดสอบ ต้องมีข้อมูลข่าวกับ OI และ long/short ratio ย้อนหลัง และต้องเรียก LLM ทุกรอบ ซึ่งเรายังไม่มีบัญชีแบบนี้นอกจาก grok ที่มีอยู่"
+ },
+ {
+  "t": "2026-11-26T02:33:00+07:00",
+  "source": "x",
+  "title": "Route2FI: Obzidian กระจาย 10 SOL ลงมีม 5 ตัวที่แข็งแรงสุด ปรับสมดุลทุกเดือน",
+  "url": "https://x.com/Route2FI/status/2125295002792444183",
+  "summary": "โพสต์โปรโมตโต๊ะเทรด AI ตัวอย่างกลยุทธ์คือแบ่งเงินเท่ากันลงมีม Solana 5 ตัวที่แข็งแรงสุดแล้วเปลี่ยนตัวทุกเดือน ไม่มีผลจริง",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_obz_top5_month (month pool 500k+ มาร์เก็ตแคป 20M+ อายุ 30 วัน+ up ถือ 720 ชม. ไม่มี stop ไม้ละ 20% สูงสุด 5 ตัว) เลขที่เลือกเองอยู่ใน note import zoo ไม่มี skip และ test_zoo ผ่าน ระวังบทเรียนเดิมว่าเหรียญ pool ใหญ่ถือข้ามวันติดลบ"
+ },
+ {
+  "t": "2026-11-26T02:33:00+07:00",
+  "source": "x",
+  "title": "ค้น X 3 ครั้งรอบ 02:16 (memecoin strategy rules stop loss, hyperliquid bot strategy backtest, บอทเทรด supertrend)",
+  "url": "https://x.com/search",
+  "summary": "ได้แต่โพสต์โปรโมต FensoryApp OctoTools และโพสต์ Grok bot ของ 0xJamino ที่ลงฟีดแล้ว ภาษาไทยได้แต่โพสต์เก่าปี 2565 ถึง 2568",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎเข้าออกใหม่นอกจาก Obzidian ที่เพิ่มแล้ว ท่า BTC pullback ของ Girlgym67 ข้อความถูกตัด ไม่ได้ลอง"
+ },
+ {
+  "t": "2026-11-26T02:33:00+07:00",
+  "source": "web",
+  "title": "ค้นงานวิจัยกลยุทธ์คริปโต พ.ย. 69 บน Binance",
+  "url": "https://arxiv.org/pdf/2602.11708.pdf",
+  "summary": "ไม่เจองานใหม่ของเดือนนี้ ได้ AdaptiveTrend (ก.พ. 69) ซึ่งมี fwd_adtrend อยู่แล้ว และบทความ CoinPaprika ว่า RSI 88 แบบชนะถือเฉยๆ แค่ 2 แบบ",
+  "verdict": "ไอเดีย",
+  "action": "ไม่ได้ทดสอบเพิ่ม ไม่มีกฎใหม่"
+ },
+ {
+  "t": "2026-11-26T02:33:00+07:00",
+  "source": "github",
+  "title": "bettysuzuki/okx-agent-trade-kit-mcp-grid-dca-bot (ดาว 128) และ Isabela3497/bitget-futures-copytrade-grid-bot (ดาว 23)",
+  "url": "https://github.com/bettysuzuki/okx-agent-trade-kit-mcp-grid-dca-bot",
+  "summary": "repo บอท grid/DCA ที่ให้โหลดโปรแกรม Windows สำเร็จรูป ดาวขึ้นเร็วผิดปกติ ไม่มีซอร์สของกลยุทธ์",
+  "verdict": "ตัดทิ้ง",
+  "action": "ต้องรันโปรแกรมที่โหลดมา ดูเป็นมัลแวร์ ไม่ได้เปิดดูไฟล์"
  }
 ]

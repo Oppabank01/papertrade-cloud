@@ -2686,5 +2686,35 @@
    "WATCH_S": 5
   },
   "note": "from the README: age at most 60 min, take profit +30%, stop -10%, 600 s hold (0.17 h), once per coin, at most 5 open, still on the curve; chosen by me: 'spiked 2x from creation' read as 1h change at least +100% (for a coin under 1 h old the 1h change is roughly the change since creation), 'pulled back to 80% of the peak' read as 5m change at most -20% (no peak field), '5 SOL real reserves' read as liquidity 1k USD+ (my conversion, curve liquidity counts both sides), once per coin read as a 24 h block, one size of 3% per trade in place of its 4x-spike tiering, trailing stop off; zoo default costs 1% fee + 2% slip per side (its replay used the harness fees)"
+ },
+ {
+  "name": "x_obz_top5_month",
+  "label": "พอร์ตมีม 5 ตัวที่แข็งแรงสุดบน Solana ถือครบเดือนแล้วเปลี่ยนตัว (Obzidian ของ Route2FI) แบบที่ zoo เช็กได้: pool 500k+ มาร์เก็ตแคป 20M+ อายุ 30 วันขึ้นไป up ไม่ตั้ง stop ไม้ละ 20% สูงสุด 5 ตัว",
+  "horizon": "month",
+  "source": "https://x.com/Route2FI/status/2125295002792444183",
+  "claim": "Obzidian agent demo: spread 10 SOL across the 5 strongest memecoins on Solana and rebalance monthly (a promo post for an AI trading desk, no results shown, unverified)",
+  "added": "2026-11-26",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 500000,
+    "market_cap": 20000000,
+    "age_h": 720
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": null,
+   "TP_ALL": null,
+   "HALF_AT": null,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 720,
+   "PER_TRADE": 0.2,
+   "MAX_POS": 5,
+   "COOLDOWN_H": 720
+  },
+  "note": "from the post: 5 coins, equal split, monthly rebalance, Solana memecoins; chosen by me: strongest read as pool 500k+ USD, market cap 20M+ USD, age 30 days+ and zoo up (the post gives no ranking), rebalance read as a 720 h (30 day) hold then sell, 20% of the account per coin (10 SOL / 5), no stop or target because the post sets none, a 720 h block before the same coin is bought again"
  }
 ]
