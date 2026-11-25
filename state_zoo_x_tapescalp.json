@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.701558365186711,
- "cash": 14.706552713412902,
- "pos": {},
+ "cash": 14.265356132010515,
+ "pos": {
+  "ErfdcsXZSZHZYkT35jZRG7nBW4uLE5vAZP3gUtenpump": {
+   "sym": "BEASTGAMES",
+   "qty": 7269.8526371704465,
+   "entry": 5.888e-05,
+   "last": 6.711e-05,
+   "peak": 6.711e-05,
+   "cost": 0.44119658140238704,
+   "opened": "2026-11-26T03:33:50+07:00",
+   "zoo": "x_tapescalp",
+   "smart": 18,
+   "kol": 0,
+   "gap": 1,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-25T14:10:14+07:00",
@@ -124,10 +139,24 @@
    "cost_side": 0.03,
    "smart": 7,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T03:33:50+07:00",
+   "kind": "buy",
+   "mint": "ErfdcsXZSZHZYkT35jZRG7nBW4uLE5vAZP3gUtenpump",
+   "sym": "BEASTGAMES",
+   "price": 5.888e-05,
+   "jup": 5.936516579912263e-05,
+   "usd": 0.4412,
+   "stop_set": -0.12,
+   "cost_side": 0.03,
+   "zoo": "x_tapescalp",
+   "smart": 18,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: tape-scalper (theo1603 บอทแข่ง make.fun) แบบที่ zoo เช็กได้: อายุไม่เกิน 1 ชม. สภาพคล่อง 3k ถึง 40k ขึ้น 5 นาที 3 ถึง 80% ขึ้น 1 นาที up buys 4+ stop -12% TP +45% trail 12% เมื่อขึ้น 20% ถือ 16 นาที",
  "night": "2026-11-25",
  "night_start": 14.701558365186711,
- "rank_t": 1795638204.382389
+ "rank_t": 1795638688.3542144
 }
