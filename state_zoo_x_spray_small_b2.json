@@ -7,7 +7,7 @@
    "sym": "GOAT",
    "qty": 827.8395410173658,
    "entry": 0.0002145,
-   "last": 0.0002028148851277303,
+   "last": 0.00020286187144790525,
    "peak": 0.0002302,
    "cost": 0.1830257488643836,
    "opened": "2026-11-26T04:52:23+07:00",
@@ -21,7 +21,7 @@
    "sym": "STONK",
    "qty": 5.806171572183755,
    "entry": 0.03011,
-   "last": 0.03018,
+   "last": 0.03009,
    "peak": 0.03023,
    "cost": 0.18019359517465766,
    "opened": "2026-11-26T06:23:07+07:00",
@@ -35,14 +35,14 @@
    "sym": "EXFIL",
    "qty": 146.9961398280703,
    "entry": 0.001172,
-   "last": 0.001171,
-   "peak": 0.001173,
+   "last": 0.001218,
+   "peak": 0.001218,
    "cost": 0.17757109449443254,
    "opened": "2026-11-26T06:39:46+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 112,
    "kol": 9,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -11362,10 +11362,17 @@
    "zoo": "x_spray_small_b2",
    "smart": 112,
    "kol": 9
+  },
+  {
+   "t": "2026-11-26T06:51:22+07:00",
+   "kind": "ban",
+   "mint": "6FhVPctYg363pQbs4iSvqyHe2cJzfsvFD96gePy6pump",
+   "sym": "EXFIL",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: หว่านไม้เล็กหลายตัว ตัดกำไร 50% ตัดขาดทุน 15%",
- "rank_t": 1795649879.6788578,
+ "rank_t": 1795650409.303156,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": "three",
@@ -11414,6 +11421,7 @@
   "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": "Huss",
   "8nnaeWCw8mUypcGAgbmSuzAT85uWx4UN12adDrMhXrGF": "HOTBOT",
   "7cPKubouxwsSy4aAKHtDKUETZ6uxVZDntRuy7Cappump": "GOAT",
-  "9wYTmf9HcHKKKEiesazLUaCp1Y7LHTMc66dfmgFcFZf3": "PI"
+  "9wYTmf9HcHKKKEiesazLUaCp1Y7LHTMc66dfmgFcFZf3": "PI",
+  "6FhVPctYg363pQbs4iSvqyHe2cJzfsvFD96gePy6pump": "EXFIL"
  }
 }

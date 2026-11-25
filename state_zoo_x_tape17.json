@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.731879787860931,
- "cash": 14.539113573139934,
+ "cash": 14.470286723411649,
  "pos": {},
  "log": [
   {
@@ -327,12 +327,70 @@
    "cost_side": 0.03,
    "smart": 8,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T06:48:22+07:00",
+   "kind": "buy",
+   "mint": "DxyxM6zCgefa74SDQuh2k78pcb4mPfKPtrHNEmbtpump",
+   "sym": "buni",
+   "price": 1.923e-05,
+   "jup": 1.94133286942036e-05,
+   "usd": 0.2181,
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "zoo": "x_tape17",
+   "smart": 12,
+   "kol": 1
+  },
+  {
+   "t": "2026-11-26T06:48:24+07:00",
+   "kind": "buy",
+   "mint": "4VYg6PKqqb4hi9c49d7YD78217ehHxZpaXwGTD2Gpump",
+   "sym": "SAGEMAN",
+   "price": 1.462e-05,
+   "jup": 1.4518887086535747e-05,
+   "usd": 0.218,
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "zoo": "x_tape17",
+   "smart": 14,
+   "kol": 4
+  },
+  {
+   "t": "2026-11-26T06:49:11+07:00",
+   "kind": "sell",
+   "mint": "4VYg6PKqqb4hi9c49d7YD78217ehHxZpaXwGTD2Gpump",
+   "sym": "SAGEMAN",
+   "price": 1.3044249735549388e-05,
+   "entry": 1.462e-05,
+   "usd": 0.1831,
+   "pnl": -0.0349,
+   "why": "stop -10.8%",
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "smart": 14,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-26T06:50:23+07:00",
+   "kind": "sell",
+   "mint": "DxyxM6zCgefa74SDQuh2k78pcb4mPfKPtrHNEmbtpump",
+   "sym": "buni",
+   "price": 1.725264967322453e-05,
+   "entry": 1.923e-05,
+   "usd": 0.1842,
+   "pnl": -0.0339,
+   "why": "stop -10.3%",
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "smart": 12,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญบน bonding curve ไม้ซื้อ 17 ขึ้นไปและซื้อมากกว่าขาย TP +20% stop -10% trail 15% เมื่อขึ้น 10% (บอทแข่ง bisnanjp01)",
  "night": "2026-11-25",
  "night_start": 14.632268934144141,
- "rank_t": 1795649879.6788578,
+ "rank_t": 1795650409.303156,
  "nights": [
   {
    "night": "2026-11-24",
