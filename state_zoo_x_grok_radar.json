@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.645577035735208,
- "cash": 9.924691702299759,
- "pos": {
-  "2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy": {
-   "sym": "JaoJiu",
-   "qty": 18031.71514900979,
-   "entry": 0.0001335,
-   "last": 0.00014353621480531857,
-   "peak": 0.00016,
-   "cost": 2.48117292557494,
-   "opened": "2026-11-25T18:27:30+07:00",
-   "zoo": "x_grok_radar",
-   "smart": 71,
-   "kol": 2,
-   "gap": 7,
-   "miss": 0
-  }
- },
+ "cash": 11.995652528613164,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-23T13:14:46+07:00",
@@ -124,9 +109,24 @@
    "zoo": "x_grok_radar",
    "smart": 71,
    "kol": 2
+  },
+  {
+   "t": "2026-11-25T19:11:41+07:00",
+   "kind": "sell",
+   "mint": "2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy",
+   "sym": "JaoJiu",
+   "price": 0.00011837870251206532,
+   "entry": 0.0001335,
+   "usd": 2.071,
+   "pnl": -0.4102,
+   "why": "trailing จากยอด +20% (-11.3%)",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 71,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: Grok desk RADAR: เพิ่งจบ curve สภาพคล่อง 15k+ ผ่านเช็ก safe ออกด้วย trail 20%",
- "rank_t": 1795607980.9906318,
+ "rank_t": 1795608419.7600734,
  "halted": "ราคา JaoJiu สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }
