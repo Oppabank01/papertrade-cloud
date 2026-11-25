@@ -2449,5 +2449,70 @@
    "WATCH_S": 20
   },
   "note": "from scanner.py: A_FULL m5 volume 50k, liquidity 30k, p1h max 200%, market cap max 20M, stop 20%, first sale at +40%, trail 35%, 24 h cap, 16 open, 6 h re-entry cooldown, size 0.025 of 1 SOL read as 2.5% per trade; chosen by me: 'rising' replaced by zoo 'up' (buys > sells, 0 < 5m change <= 100%), the 40% plus 30% ladder folded into one half sale at +40% (zoo has one partial sale), trail armed at +40%; breakeven stop after the first sale, the 15-minute no-move time stop, the copycat filter and liq/mcap 0.5 cap dropped (zoo has no such fields); zoo default costs 1% fee + 2% slip per side (the repo models 3% round trip plus 2% stop slippage)"
+ },
+ {
+  "name": "x_grokdesk_rules",
+  "label": "โต๊ะเทรด Grok (talharauf739739) เฉพาะกฎความเสี่ยง: pool อายุไม่เกิน 24 ชม. RugCheck ไม่มี danger top10 ไม่เกิน 30% สภาพคล่อง 10k+ stop -25% TP +50% ถือ 4 ชม.",
+  "horizon": "night",
+  "source": "https://github.com/talharauf739739/grok-trading-desk",
+  "claim": "Grok multi-agent paper desk for new Solana tokens (README, Nov 2026): scanner keeps DexScreener token profiles whose main pool is under 24 h old; risk agent blocks RugCheck rugged/danger/no report, mint or freeze authority enabled, top 10 holders over 30%, LP locked under 90%, liquidity under $10k, Grok verdict not 'candidate' or confidence under 60%; $100 of a $1,000 paper bankroll per trade, max 5 open, each token traded once; exits stop -25%, take profit +50%, time exit 240 min, 1% slippage each way (no results published; unverified)",
+  "added": "2026-11-25",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 10000
+   },
+   "max": {
+    "age_h": 24,
+    "top_10_holder_rate": 0.3
+   },
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.25,
+   "TP_ALL": 0.5,
+   "HALF_AT": null,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 4,
+   "PER_TRADE": 0.1,
+   "MAX_POS": 5,
+   "COOLDOWN_H": 24,
+   "WATCH_S": 20
+  },
+  "note": "from the README: pool age under 24 h, top 10 holders at most 30%, liquidity 10k, RugCheck danger blocks, mint/freeze renounced (zoo base_guard), stop -25%, take profit +50%, 240-minute time exit, $100 of $1,000 read as 10% per trade, max 5 open; chosen by me: the Grok verdict and confidence gate dropped (paid LLM call, the point is to see the risk rules alone), the 90% LP-lock check folded into rugcheck (RugCheck flags unlocked LP as danger), GMGN rank in place of DexScreener new profiles, 'traded once' read as a 24 h re-entry block, 20 s checks; zoo default costs 1% fee + 2% slip per side (the repo models 1% per side)"
+ },
+ {
+  "name": "x_memescope_8gate",
+  "label": "MemeScope 8 ด่าน (gaplek15) แบบที่ zoo เช็กได้: สภาพคล่อง 20k+ อายุ 6 ชม.+ ซื้อมากกว่าขาย top10 ไม่เกิน 20% RugCheck stop -15% TP +30% ถือ 6 ชม.",
+  "horizon": "night",
+  "source": "https://github.com/gaplek15/memescope",
+  "claim": "MemeScope (Kiroween 2026) 8-gate meme-coin screener: liquidity >= $20k, 24h volume >= $5k, buys > sells over 1 h, age >= 6 h, GoPlus contract security (no honeypot, tax <= 5%, no hidden owner, not mintable), owner renounced, LP locked or burned >= 95%, top holder < 5% and top 5 < 15%, clean deployer, $1 sell returns >= $0.50, 6 h change > -50%; one failed gate = fail; a screener only, no exits, no results ('a pass is not a buy signal')",
+  "added": "2026-11-25",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 20000,
+    "age_h": 6
+   },
+   "max": {
+    "top_10_holder_rate": 0.2
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "TP_ALL": 0.3,
+   "HALF_AT": null,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 6,
+   "PER_TRADE": 0.03,
+   "MAX_POS": 5,
+   "COOLDOWN_H": 24,
+   "WATCH_S": 20
+  },
+  "note": "from the README: liquidity 20k, age 6 h, buys > sells, owner/mint renounced and no honeypot or sell tax (zoo base_guard), LP lock and holder risks via rugcheck; chosen by me: the repo has no trade rules, so stop -15%, take profit +30%, 6 h hold, 3% per trade, max 5 open, 24 h re-entry block and 20 s checks are all mine; 'buys > sells over 1 h' replaced by zoo 'up' (buys > sells in the zoo window, 0 < 5m change <= 100%); 'top holder < 5% and top 5 < 15%' replaced by top_10_holder_rate <= 0.20 (zoo has only the top-10 share); the 24h volume gate (zoo volume is a 5-minute window), the deployer, sell-path and 6 h change gates dropped (no such fields); zoo default costs 1% fee + 2% slip per side"
  }
 ]

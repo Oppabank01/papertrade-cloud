@@ -2257,5 +2257,77 @@
   "summary": "repo สร้างใหม่ดาว 133 แจกตัวรัน Windows 10/11 x64 อ้างรัน grid DCA บน OKX 170 คู่",
   "verdict": "ตัดทิ้ง",
   "action": "ต้องรันไฟล์ที่ดาวน์โหลดมาและใส่ API key ของ exchange ทรงมัลแวร์แบบกลุ่ม repo ดาวปั่นที่เจอก่อนหน้า"
+ },
+ {
+  "t": "2026-11-25T08:56:00+07:00",
+  "source": "github",
+  "title": "fransratlabala/ZLEMA-Trend-Martingale-Levels-H4-Crypto-Backtest-: dual ZLEMA 4 ชม. + บันได Martingale 10 เหรียญ",
+  "url": "https://github.com/fransratlabala/ZLEMA-Trend-Martingale-Levels-H4-Crypto-Backtest-",
+  "summary": "ZLEMA เร็ว/ช้ากลับทิศเข้าตามทิศ stop เป็น ATR เป้าเป็น R โดน stop เติมไม้ระดับถัดไปขนาดเท่าระดับ เลขแยกต่อเหรียญ 10 เหรียญ อ้าง 3,874 ไม้ +0.17R ต่อไม้ 2018-2026 อ่านกฎจาก notebook ผ่าน gh api (ไม่ได้รัน)",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest Binance 4 ชม. 2017-2026 เข้าแท่งถัดไป หลังหัก 0.35%/ข้าง ขนาดเท่ากันทุกไม้: LTC 379 ไม้ +0.94% ADA 472 ไม้ +0.95% DOGE 340 ไม้ +1.10% SOL 302 ไม้ +1.04% LINK +0.65% XRP +0.28% BNB +0.01% ETH -0.14% BTC -0.21% TRX -0.55% ต่อไม้ มัธยฐาน -2.3 ถึง -4.6% ชนะ 32 ถึง 48% permutation 200 รอบเลขคงที่ p 0.005 ถึง 0.02 (TRX 0.30) ตัวแฝดเข้าสุ่ม -0.84 ถึง +0.01% แต่เลขของแต่ละเหรียญคือชุดที่ดีสุดของเหรียญนั้นจาก 10 ชุดใน repo ใช้ชุดเดียว 25/70/1.75/2.0/3 ทุกเหรียญติดลบ 8 ใน 10 มัธยฐานของ 10 ชุดติดลบ 9 ใน 10 permutation แบบเลือกดีสุดจาก 10 ชุด 100 รอบ SOL p 0.020 BTC p 0.119 น่าจะ overfit เปิด fwd_zlemamart.py (10 เหรียญ ไม้ระดับ 1 เท่ากับ 1 ใน 30 ของทุน พร้อมตัวแฝดเข้าแท่งสุ่มฝั่งสุ่มบันไดเดียวกัน) test เดินทีละแท่งตรง backtest LTC 15 ไม้ (เติมไม้ 8 ครั้ง) สคริปต์ /tmp/scout_0844/"
+ },
+ {
+  "t": "2026-11-25T08:56:00+07:00",
+  "source": "github",
+  "title": "talharauf739739/grok-trading-desk: โต๊ะเทรดหลายเอเจนต์ Grok เหรียญ Solana ใหม่ (paper)",
+  "url": "https://github.com/talharauf739739/grok-trading-desk",
+  "summary": "สแกนเหรียญ Solana ที่ pool อายุไม่เกิน 24 ชม. กฎความเสี่ยงตายตัว (RugCheck, mint/freeze, top10 ไม่เกิน 30%, LP lock 90%, สภาพคล่อง 10k) แล้วให้ Grok ให้คะแนน ไม้ละ $100 จาก $1,000 stop -25% TP +50% ถือ 4 ชม. ไม่มีผล",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_grokdesk_rules (night) อายุไม่เกิน 24 ชม. สภาพคล่อง 10k top10 ไม่เกิน 30% rugcheck stop -25% TP +50% ถือ 4 ชม. ไม้ละ 10% สูงสุด 5 ตัว ตัดด่าน Grok ออกเพื่อดูกฎความเสี่ยงล้วน เลขที่เลือกเองอยู่ใน note import zoo ไม่มี skip และ test_zoo ผ่าน"
+ },
+ {
+  "t": "2026-11-25T08:56:00+07:00",
+  "source": "github",
+  "title": "gaplek15/memescope: MemeScope ตัวกรองเหรียญมีม 8 ด่าน (Kiroween 2026)",
+  "url": "https://github.com/gaplek15/memescope",
+  "summary": "ตัวกรองเหรียญมีม 8 ด่าน (สภาพคล่อง 20k อายุ 6 ชม. ซื้อมากกว่าขาย GoPlus owner renounced LP ล็อก 95% คนถือกระจุกต่ำ ขายได้จริง) ไม่ผ่านด่านเดียวตก ไม่มีกฎออกและไม่มีผล",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_memescope_8gate (night) สภาพคล่อง 20k อายุ 6 ชม.+ up top10 ไม่เกิน 20% rugcheck กฎออกเลือกเองทั้งหมด stop -15% TP +30% ถือ 6 ชม. ไม้ละ 3% ด่านที่ zoo ไม่มีข้อมูลตัดออก ทั้งหมดอยู่ใน note import zoo ไม่มี skip และ test_zoo ผ่าน"
+ },
+ {
+  "t": "2026-11-25T08:56:00+07:00",
+  "source": "github",
+  "title": "abizarfd/btc-race-24h-20261118-1444: sharp-dip bounce (บอทแข่ง make.fun)",
+  "url": "https://github.com/abizarfd/btc-race-24h-20261118-1444",
+  "summary": "บอทแข่ง make.fun แท่ง 1 นาที ซื้อเมื่อราคาปิดต่ำกว่า 60 แท่งก่อน 1.2% และเด้งจากต่ำสุด 10 แท่ง 0.2% ขายครึ่งที่ +1.2% ที่เหลือ +1.75% stop -1.5% อ้างช่วง dev ไม้เดียว +$13.74",
+  "verdict": "ลองแล้วตก",
+  "action": "Binance BTCUSDT 1 นาที 60 วันล่าสุด (ถือเฉยๆ -24.9%) เลขของ repo ทุกตัว ตัดกฎชั่วโมงสุดท้ายกับไม้ fallback ของงานแข่ง: 40 ไม้ หลังหัก 0.35%/ข้าง -1.14% ต่อไม้ มัธยฐาน -2.2% ชนะ 30% ก่อนหัก -0.44% ต้นทุน 0.06%/ข้าง -0.56% ตัวแฝดเข้าสุ่ม -0.99% permutation 200 รอบ p 0.68 ไม่เปิดบัญชี ซ้ำตระกูลช้อนย่อ 1 นาทีที่ตกมาแล้ว 5 ตัว"
+ },
+ {
+  "t": "2026-11-25T08:56:00+07:00",
+  "source": "github",
+  "title": "chase-bratt/polymarket-temperature-study และ QdanF/polymarket-weather-sim: บอท paper ตลาดอุณหภูมิ Polymarket",
+  "url": "https://github.com/chase-bratt/polymarket-temperature-study",
+  "summary": "chase-bratt ใช้โมเดลต้นไม้ 300 ต้นจากโมเดลอากาศ 9 ตัว ทายอุณหภูมิแม่นกว่าโมเดลดิบ แต่หลังค่าธรรมเนียม 5% กับ spread ไม่มี edge (ดีสุด +2.4% ช่วง -5.6 ถึง +10.9%) QdanF ซื้อฝั่ง 1 ถึง 12 เซนต์ที่โมเดลให้เกิน 30% และห่างราคา 10 จุดขึ้นไป เฉพาะตลาดพรุ่งนี้",
+  "verdict": "ไอเดีย",
+  "action": "ต้องประวัติราคาตลาดอุณหภูมิ Polymarket รายชั่วโมงกับ ensemble forecast และ METAR ย้อนหลัง ซึ่ง repo นี้ไม่มี ผลของ chase-bratt ที่ทดสอบแบบตั้งเกณฑ์ก่อนบอกว่าไม่มี edge หลังต้นทุน"
+ },
+ {
+  "t": "2026-11-25T08:56:00+07:00",
+  "source": "x",
+  "title": "ValueManIsrael: บันทึกบอท Polymarket ตลาดอากาศ เงินจริงลง $1,003 แล้วกลับมา +$637 ใน 66 วัน",
+  "url": "https://x.com/ValueManIsrael/status/2125152137466314813",
+  "summary": "เล่าว่าบอท paper ตลาดอากาศได้ win rate 97% เพราะจดราคาเข้าคงที่ 60 เซนต์ ทั้งที่ bid จริงมัธยฐาน 81 เซนต์ และ 53% ของไม้ bid เกิน 80 เซนต์แล้ว พอใช้จริงต้องจ่ายราคา ask",
+  "verdict": "ไอเดีย",
+  "action": "บทเรียนเรื่องราคาเข้าในบัญชี paper ตรงกับกฎของเราที่เทียบราคาสองแหล่ง ไม่มีกฎที่ทดสอบได้ และต้อง order book Polymarket"
+ },
+ {
+  "t": "2026-11-25T08:56:00+07:00",
+  "source": "x",
+  "title": "BALIA_OS: Alpha Hunter backtest Solana ทุก DEX +2,413% $2,000 เป็น $50,274",
+  "url": "https://x.com/BALIA_OS/status/2125397257013154058",
+  "summary": "โพสต์ผล backtest ซ้ำทุกวันว่ากลยุทธ์ Alpha Hunter ทำกำไร +2,413% บน public board ไม่บอกกฎเข้าออก",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎหรือรายการไม้ให้ตรวจ ตัวเลขกำไรรับรู้แล้วไม่ขยับระหว่าง 23 ถึง 25 พ.ย. ($47,778.56 เท่าเดิม) ต้องรายการไม้หรือกฎก่อนจึงจะลองได้"
+ },
+ {
+  "t": "2026-11-25T08:56:00+07:00",
+  "source": "github",
+  "title": "Demir426/hyperliquid-perp-market-maker-bot (ดาว 176) และ Klausa67264/dextools-dexscreener-trending-bot (ดาว 34)",
+  "url": "https://github.com/Demir426/hyperliquid-perp-market-maker-bot",
+  "summary": "repo ทรงเดียวกับกลุ่มที่ตัดไปก่อนหน้า ชื่อ [2026] คำอธิบาย Standalone Windows Release ดาวสูงผิดปกติสำหรับ repo อายุไม่กี่วัน",
+  "verdict": "ตัดทิ้ง",
+  "action": "ต้องรันไฟล์ที่ดาวน์โหลดมา ทรงมัลแวร์"
  }
 ]
