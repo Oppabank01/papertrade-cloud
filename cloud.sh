@@ -39,6 +39,7 @@ $PY polymarket.py run || echo "polymarket run failed"   # copy top Polymarket wa
 $PY poly_arb.py run || echo "poly_arb run failed"   # Polymarket YES+NO pair under 1 after fees (jbfly46 idea, 23 Nov), ~11 s
 $PY poly_weather.py run || echo "poly_weather run failed"   # daily temperature buckets vs Open-Meteo + random-bucket twin (23 Nov); buy scan every 3 h (~30 s), settle every run
 $PY poly_fav.py run || echo "poly_fav run failed"   # favourite-longshot bias: fav 0.85-0.97 / long 0.03-0.10 ending within 48 h + random-side twin (23 Nov), ~12 s
+$PY poly_fav_twin2.py || echo "poly_fav_twin2 failed"   # second random-side control for poly_fav (first twin ran out of cash 25 Nov)
 $PY poly_fav_mid.py run || echo "poly_fav_mid run failed"   # mid favourites 0.60-0.85 / mid dogs 0.15-0.40 + twin (23 Nov), ~12 s
 $PY poly_fav_sport.py run || echo "poly_fav_sport run failed"   # same as mid, sports feeType only + dog + twin (24 Nov)
 $PY poly_fav_exact.py run || echo "poly_fav_exact run failed"   # exact-score No 0.85-0.97 + Yes control + twin (24 Nov), ~12 s
