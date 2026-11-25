@@ -1,51 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 5.736009769641568,
- "pos": {
-  "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
-   "sym": "TROLL",
-   "qty": 155.99400801371152,
-   "entry": 0.01847,
-   "last": 0.019,
-   "peak": 0.01937,
-   "cost": 2.910238961655768,
-   "opened": "2026-11-24T20:39:18+07:00",
-   "zoo": "w_cold_mkt_b2",
-   "smart": 476,
-   "kol": 214,
-   "gap": 0,
-   "miss": 0
-  },
-  "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
-   "sym": "ZCAT",
-   "qty": 210.81094687711624,
-   "entry": 0.01364,
-   "last": 0.01607,
-   "peak": 0.01681,
-   "cost": 2.9044330349272647,
-   "opened": "2026-11-24T20:39:18+07:00",
-   "zoo": "w_cold_mkt_b2",
-   "smart": 330,
-   "kol": 48,
-   "gap": 0,
-   "miss": 0
-  },
-  "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
-   "sym": "CRIME",
-   "qty": 948.6693454808709,
-   "entry": 0.003025,
-   "last": 0.00297,
-   "peak": 0.003304,
-   "cost": 2.898638691022585,
-   "opened": "2026-11-24T20:39:20+07:00",
-   "zoo": "w_cold_mkt_b2",
-   "smart": 93,
-   "kol": 40,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 14.793636427387717,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-22T19:52:27+07:00",
@@ -368,10 +325,55 @@
    "cost_side": 0.01,
    "smart": 928,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T08:39:39+07:00",
+   "kind": "sell",
+   "mint": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
+   "sym": "TROLL",
+   "price": 0.01887,
+   "entry": 0.01847,
+   "usd": 2.9142,
+   "pnl": 0.004,
+   "why": "ครบ 12 ชม. (+2.2%)",
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "smart": 476,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-25T08:39:39+07:00",
+   "kind": "sell",
+   "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+   "sym": "ZCAT",
+   "price": 0.01607,
+   "entry": 0.01364,
+   "usd": 3.3539,
+   "pnl": 0.4495,
+   "why": "ครบ 12 ชม. (+17.8%)",
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "smart": 330,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-25T08:39:39+07:00",
+   "kind": "sell",
+   "mint": "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump",
+   "sym": "CRIME",
+   "price": 0.00297,
+   "entry": 0.003025,
+   "usd": 2.7894,
+   "pnl": -0.1092,
+   "why": "ครบ 12 ชม. (-1.8%)",
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "smart": 93,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดเย็น: กฎ w_aged_nostop เฉพาะรอบที่เหรียญขึ้นไม่เกิน 61%",
- "rank_t": 1795570315.2645211,
+ "rank_t": 1795570688.9257715,
  "banned": {
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings",
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT"
