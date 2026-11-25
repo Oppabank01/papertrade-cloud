@@ -1,33 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 3.248801718393123,
+ "cash": 3.2096261958385623,
  "pos": {
   "7cPKubouxwsSy4aAKHtDKUETZ6uxVZDntRuy7Cappump": {
    "sym": "GOAT",
    "qty": 827.8395410173658,
    "entry": 0.0002145,
-   "last": 0.0002073,
+   "last": 0.00020838054810524132,
    "peak": 0.0002302,
    "cost": 0.1830257488643836,
    "opened": "2026-11-26T04:52:23+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 24,
    "kol": 3,
-   "gap": 0,
+   "gap": 5,
    "miss": 0
   },
-  "9wYTmf9HcHKKKEiesazLUaCp1Y7LHTMc66dfmgFcFZf3": {
-   "sym": "PI",
-   "qty": 1580.8174698489888,
-   "entry": 0.0001108,
-   "last": 0.0001426,
-   "peak": 0.0001559,
-   "cost": 0.18053450387473507,
-   "opened": "2026-11-26T06:05:51+07:00",
+  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
+   "sym": "STONK",
+   "qty": 5.806171572183755,
+   "entry": 0.03011,
+   "last": 0.03018,
+   "peak": 0.03023,
+   "cost": 0.18019359517465766,
+   "opened": "2026-11-26T06:23:07+07:00",
    "zoo": "x_spray_small_b2",
-   "smart": 82,
-   "kol": 3,
+   "smart": 1000,
+   "kol": 174,
    "gap": 0,
    "miss": 0
   }
@@ -11305,10 +11305,39 @@
    "cost_side": 0.03,
    "smart": 937,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T06:23:07+07:00",
+   "kind": "buy",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.03011,
+   "jup": 0.030208135114000983,
+   "usd": 0.1802,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_spray_small_b2",
+   "smart": 1000,
+   "kol": 174
+  },
+  {
+   "t": "2026-11-26T06:23:14+07:00",
+   "kind": "sell",
+   "mint": "9wYTmf9HcHKKKEiesazLUaCp1Y7LHTMc66dfmgFcFZf3",
+   "sym": "PI",
+   "price": 9.194577496464575e-05,
+   "entry": 0.0001108,
+   "usd": 0.141,
+   "pnl": -0.0395,
+   "why": "stop -17.0%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 82,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: หว่านไม้เล็กหลายตัว ตัดกำไร 50% ตัดขาดทุน 15%",
- "rank_t": 1795648403.4776351,
+ "rank_t": 1795648834.2031798,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": "three",

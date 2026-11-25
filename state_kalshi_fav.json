@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 1.560547127675803,
+ "cash": 0.08562087398848717,
  "pos": {
   "KXWTI-26NOV2514-T79.49:yes": {
    "qty": 0.8269452146281397,
@@ -79,7 +79,7 @@
   "KXXRPD-26NOV2617-T0.8999:yes": {
    "qty": 0.809687227540248,
    "entry": 0.9107999999999999,
-   "last": 0.85,
+   "last": 0.84,
    "usd": 0.7374631268436579,
    "t": "2026-11-25T22:15:17+00:00",
    "coin": "YES | Ripple price at Nov 26, 2026 at 5pm EST?",
@@ -115,7 +115,7 @@
   "KXHYPED-26NOV2617-T56.9999:yes": {
    "qty": 0.7697342346305435,
    "entry": 0.958075,
-   "last": 0.92,
+   "last": 0.91,
    "usd": 0.7374631268436579,
    "t": "2026-11-25T22:23:39+00:00",
    "coin": "YES | HYPE price on Nov 26, 2026?",
@@ -127,7 +127,7 @@
   "KXHIGHTLV-26NOV25-B63.5:yes": {
    "qty": 0.8543610818706032,
    "entry": 0.8631749999999999,
-   "last": 0.83,
+   "last": 0.82,
    "usd": 0.7374631268436579,
    "t": "2026-11-25T22:31:58+00:00",
    "coin": "YES | Will the maximum temperature be 63-64° on Nov 25, 2026?",
@@ -219,6 +219,30 @@
    "side": "yes",
    "close": "2026-11-27T04:59:00Z",
    "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-27T04:59:00Z"
+  },
+  "KXLOWTDEN-26NOV25-B25.5:yes": {
+   "qty": 0.7622452442238642,
+   "entry": 0.967488,
+   "last": 0.93,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-25T23:28:48+00:00",
+   "coin": "YES | Will the minimum temperature be 25-26° on Nov 25, 2026?",
+   "ticker": "KXLOWTDEN-26NOV25-B25.5",
+   "side": "yes",
+   "close": "2026-11-26T08:00:00Z",
+   "why": "fav ask 0.96 ทุน 0.967 ปิด 2026-11-26T08:00:00Z"
+  },
+  "KXOPENVSPEND-26NOV26-T11P2:yes": {
+   "qty": 0.8543610818706032,
+   "entry": 0.8631749999999999,
+   "last": 0.84,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-25T23:28:48+00:00",
+   "coin": "YES | OpenAI Vercel share of AI Gateway spend across the top labs above 11.2%",
+   "ticker": "KXOPENVSPEND-26NOV26-T11P2",
+   "side": "yes",
+   "close": "2026-11-27T04:59:00Z",
+   "why": "fav ask 0.85 ทุน 0.863 ปิด 2026-11-27T04:59:00Z"
   }
  },
  "log": [
@@ -1601,6 +1625,24 @@
    "usd": 0.7374631268436579,
    "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-27T04:59:00Z",
    "ask": 0.97
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-25T23:28:48+00:00",
+   "coin": "YES | Will the minimum temperature be 25-26° on Nov 25, 2026?",
+   "px": 0.96749,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.96 ทุน 0.967 ปิด 2026-11-26T08:00:00Z",
+   "ask": 0.96
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-25T23:28:48+00:00",
+   "coin": "YES | OpenAI Vercel share of AI Gateway spend across the top labs above 11.2%",
+   "px": 0.86317,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.85 ทุน 0.863 ปิด 2026-11-27T04:59:00Z",
+   "ask": 0.85
   }
  ],
  "seen": null,
@@ -1680,6 +1722,8 @@
   "KXHIGHDEN-26NOV25": 1795646794,
   "KXHIGHTSFO-26NOV25": 1795646794,
   "KXGOLDD-26NOV2614": 1795648768,
-  "KXRAINTHANKSGIVING-26NOV26": 1795648768
+  "KXRAINTHANKSGIVING-26NOV26": 1795648768,
+  "KXLOWTDEN-26NOV25": 1795649326,
+  "KXOPENVSPEND-26NOV26": 1795649326
  }
 }
