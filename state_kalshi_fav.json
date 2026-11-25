@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 2.06115367821611,
+ "cash": 0.5862274245287943,
  "pos": {
   "KXWTI-26NOV2514-T79.49:yes": {
    "qty": 0.8269452146281397,
@@ -207,6 +207,30 @@
    "side": "yes",
    "close": "2026-11-27T04:59:00Z",
    "why": "fav ask 0.91 ทุน 0.920 ปิด 2026-11-27T04:59:00Z"
+  },
+  "KXHIGHDEN-26NOV25-T49:yes": {
+   "qty": 0.7549113938906525,
+   "entry": 0.976887,
+   "last": 0.95,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-25T22:46:36+00:00",
+   "coin": "YES | Will the maximum temperature be <49° on Nov 25, 2026?",
+   "ticker": "KXHIGHDEN-26NOV25-T49",
+   "side": "yes",
+   "close": "2026-11-26T08:00:00Z",
+   "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-26T08:00:00Z"
+  },
+  "KXHIGHTSFO-26NOV25-B62.5:yes": {
+   "qty": 0.8182188751659075,
+   "entry": 0.901303,
+   "last": 0.88,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-25T22:46:36+00:00",
+   "coin": "YES | Will the maximum temperature be 62-63° on Nov 25, 2026?",
+   "ticker": "KXHIGHTSFO-26NOV25-B62.5",
+   "side": "yes",
+   "close": "2026-11-26T09:00:00Z",
+   "why": "fav ask 0.89 ทุน 0.901 ปิด 2026-11-26T09:00:00Z"
   }
  },
  "log": [
@@ -1517,6 +1541,24 @@
    "usd": 0.7374631268436579,
    "why": "fav ask 0.91 ทุน 0.920 ปิด 2026-11-27T04:59:00Z",
    "ask": 0.91
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-25T22:46:36+00:00",
+   "coin": "YES | Will the maximum temperature be <49° on Nov 25, 2026?",
+   "px": 0.97689,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-26T08:00:00Z",
+   "ask": 0.97
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-25T22:46:36+00:00",
+   "coin": "YES | Will the maximum temperature be 62-63° on Nov 25, 2026?",
+   "px": 0.9013,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.89 ทุน 0.901 ปิด 2026-11-26T09:00:00Z",
+   "ask": 0.89
   }
  ],
  "seen": null,
@@ -1592,6 +1634,8 @@
   "KXHIGHTLV-26NOV25": 1795645917,
   "KXBTCD-26NOV2617": 1795645917,
   "KXBNBD-26NOV2617": 1795646354,
-  "KXZAIVREQ-26NOV26": 1795646354
+  "KXZAIVREQ-26NOV26": 1795646354,
+  "KXHIGHDEN-26NOV25": 1795646794,
+  "KXHIGHTSFO-26NOV25": 1795646794
  }
 }

@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 2.917396535438035,
+ "cash": 3.061735240766761,
  "pos": {
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 11.005327063859008,
    "entry": 0.01736,
-   "last": 0.0171,
+   "last": 0.0172,
    "peak": 0.01748,
    "cost": 0.19692071513975715,
    "opened": "2026-11-26T02:59:03+07:00",
@@ -21,8 +21,8 @@
    "sym": "USELESS",
    "qty": 2.7143716258232673,
    "entry": 0.06972,
-   "last": 0.07105,
-   "peak": 0.07105,
+   "last": 0.0713,
+   "peak": 0.07174,
    "cost": 0.19505874021067637,
    "opened": "2026-11-26T03:15:43+07:00",
    "zoo": "x_spray_small_b2",
@@ -31,32 +31,18 @@
    "gap": 0,
    "miss": 0
   },
-  "Cocrz7BR2xE2sgKn3VbmaTXH6HTVgCiVFWTVWmyTpump": {
-   "sym": "Mogmas",
-   "qty": 1974.7675125942635,
-   "entry": 9.013e-05,
-   "last": 7.759e-05,
-   "peak": 9.323e-05,
-   "cost": 0.18345268595147493,
-   "opened": "2026-11-26T04:44:10+07:00",
-   "zoo": "x_spray_small_b2",
-   "smart": 110,
-   "kol": 6,
-   "gap": 1,
-   "miss": 0
-  },
   "7cPKubouxwsSy4aAKHtDKUETZ6uxVZDntRuy7Cappump": {
    "sym": "GOAT",
    "qty": 827.8395410173658,
    "entry": 0.0002145,
-   "last": 0.00021471428712416043,
+   "last": 0.0002077407395260059,
    "peak": 0.0002302,
    "cost": 0.1830257488643836,
    "opened": "2026-11-26T04:52:23+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 24,
    "kol": 3,
-   "gap": 5,
+   "gap": 14,
    "miss": 0
   }
  },
@@ -11267,10 +11253,25 @@
    "mint": "7cPKubouxwsSy4aAKHtDKUETZ6uxVZDntRuy7Cappump",
    "sym": "GOAT",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-26T05:46:14+07:00",
+   "kind": "sell",
+   "mint": "Cocrz7BR2xE2sgKn3VbmaTXH6HTVgCiVFWTVWmyTpump",
+   "sym": "Mogmas",
+   "price": 7.533652107760978e-05,
+   "entry": 9.013e-05,
+   "usd": 0.1443,
+   "pnl": -0.0391,
+   "why": "stop -16.4%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 110,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: หว่านไม้เล็กหลายตัว ตัดกำไร 50% ตัดขาดทุน 15%",
- "rank_t": 1795645979.3699067,
+ "rank_t": 1795646409.0737739,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": "three",
