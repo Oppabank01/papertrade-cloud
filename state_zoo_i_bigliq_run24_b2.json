@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 3.9247203020434043,
+ "cash": 5.742611359219418,
  "pos": {
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 129.06681272544162,
    "entry": 0.01677,
-   "last": 0.01601,
+   "last": 0.01586,
    "peak": 0.01813,
    "cost": 2.186258376713372,
    "opened": "2026-11-24T22:25:37+07:00",
@@ -21,27 +21,13 @@
    "sym": "USELESS",
    "qty": 31.31172796725008,
    "entry": 0.06829,
-   "last": 0.06481,
+   "last": 0.06397,
    "peak": 0.06866,
    "cost": 2.159822128616457,
    "opened": "2026-11-25T09:49:46+07:00",
    "zoo": "i_bigliq_run24_b2",
    "smart": 936,
    "kol": 295,
-   "gap": 0,
-   "miss": 0
-  },
-  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
-   "sym": "mihao",
-   "qty": 418.2522659568363,
-   "entry": 0.004952,
-   "last": 0.004671,
-   "peak": 0.005014,
-   "cost": 2.0920534542241387,
-   "opened": "2026-11-25T14:17:58+07:00",
-   "zoo": "i_bigliq_run24_b2",
-   "smart": 809,
-   "kol": 75,
    "gap": 0,
    "miss": 0
   }
@@ -694,6 +680,21 @@
    "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
    "sym": "mihao",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-25T21:04:04+07:00",
+   "kind": "sell",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.00439019073820698,
+   "entry": 0.004952,
+   "usd": 1.8179,
+   "pnl": -0.2742,
+   "why": "stop -11.3%",
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "smart": 809,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ปล่อยวิ่ง trail 20/15 ถือ 24 ชม.",

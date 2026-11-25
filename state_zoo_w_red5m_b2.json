@@ -1,41 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 3.888966402252041,
+ "cash": 5.95824204911592,
  "pos": {
-  "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
-   "sym": "FLOAT",
-   "qty": 800.8776961532565,
-   "entry": 0.002543,
-   "last": 0.002673,
-   "peak": 0.002909,
-   "cost": 2.057152073248384,
-   "opened": "2026-11-25T08:58:45+07:00",
-   "zoo": "w_red5m_b2",
-   "smart": 380,
-   "kol": 35,
-   "gap": 0,
-   "miss": 0
-  },
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 664.1411716197127,
    "entry": 0.003166,
-   "last": 0.002902,
+   "last": 0.002889,
    "peak": 0.003202,
    "cost": 2.12385641710867,
    "opened": "2026-11-25T10:49:55+07:00",
    "zoo": "w_red5m_b2",
    "smart": 735,
    "kol": 80,
-   "gap": 0,
+   "gap": 11,
    "miss": 0
   },
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 96.82458175802144,
    "entry": 0.01978,
-   "last": 0.01916,
+   "last": 0.01896,
    "peak": 0.02018,
    "cost": 1.9344867323286423,
    "opened": "2026-11-25T17:54:46+07:00",
@@ -700,10 +686,25 @@
    "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
    "sym": "ANSEM",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-25T20:58:49+07:00",
+   "kind": "sell",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "price": 0.002609792544090778,
+   "entry": 0.002543,
+   "usd": 2.0693,
+   "pnl": 0.0121,
+   "why": "ครบ 12 ชม. (+2.6%)",
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "smart": 380,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สวนทาง: อายุเกิน 1 วัน pool 200k+ กำลังแดง 5 นาที",
- "rank_t": 1795614724.8971677,
+ "rank_t": 1795615108.8044033,
  "banned": {
   "J1Wpmugrooj1yMyQKrdZ2vwRXG5rhfx3vTnYE39gpump": "WOULD",
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings",

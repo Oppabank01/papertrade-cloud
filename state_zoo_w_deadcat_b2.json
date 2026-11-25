@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.702212324762918,
+ "cash": 8.975656455668386,
  "pos": {
-  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
-   "sym": "Rings",
-   "qty": 1290.7986313198126,
-   "entry": 0.001747,
-   "last": 0.0017541972981902584,
-   "peak": 0.002056,
-   "cost": 2.289249488772867,
-   "opened": "2026-11-25T15:01:18+07:00",
-   "zoo": "w_deadcat_b2",
-   "smart": 136,
-   "kol": 10,
-   "gap": 2,
-   "miss": 0
-  },
   "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
    "sym": "MANIFEST",
    "qty": 1150.0739293242314,
    "entry": 0.001994,
-   "last": 0.0023619739743522975,
+   "last": 0.002362,
    "peak": 0.0025,
    "cost": 2.328051789322895,
    "opened": "2026-11-25T16:12:36+07:00",
    "zoo": "w_deadcat_b2",
    "smart": 91,
    "kol": 15,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -615,10 +601,25 @@
    "mint": "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
    "sym": "MANIFEST",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-25T21:01:38+07:00",
+   "kind": "sell",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.001788,
+   "entry": 0.001747,
+   "usd": 2.2734,
+   "pnl": -0.0158,
+   "why": "ครบ 6 ชม. (+2.3%)",
+   "stop_set": -0.25,
+   "cost_side": 0.015,
+   "smart": 136,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: เด้งหลังร่วง: อายุเกิน 1 วัน pool 100k+ ร่วง 1 ชม. 15% ขึ้นไป",
- "rank_t": 1795614724.8971677,
+ "rank_t": 1795615108.8044033,
  "banned": {
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": "FLOAT",
   "5w3wVdJaESaJKyLmStM6Hv9UyUkmZ1b9DLQquAqqpump": "SID",
