@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.645577035735208,
- "cash": 12.4058646278747,
- "pos": {},
+ "cash": 9.924691702299759,
+ "pos": {
+  "2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy": {
+   "sym": "JaoJiu",
+   "qty": 18031.71514900979,
+   "entry": 0.0001335,
+   "last": 0.0001313,
+   "peak": 0.00013533491893748297,
+   "cost": 2.48117292557494,
+   "opened": "2026-11-25T18:27:30+07:00",
+   "zoo": "x_grok_radar",
+   "smart": 71,
+   "kol": 2,
+   "gap": 6,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-23T13:14:46+07:00",
@@ -95,8 +110,22 @@
    "cost_side": 0.03,
    "smart": 30,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T18:27:30+07:00",
+   "kind": "buy",
+   "mint": "2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy",
+   "sym": "JaoJiu",
+   "price": 0.0001335,
+   "jup": 0.00013426496699294797,
+   "usd": 2.4812,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "x_grok_radar",
+   "smart": 71,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: Grok desk RADAR: เพิ่งจบ curve สภาพคล่อง 15k+ ผ่านเช็ก safe ออกด้วย trail 20%",
- "rank_t": 1795605592.1977804
+ "rank_t": 1795605980.240185
 }
