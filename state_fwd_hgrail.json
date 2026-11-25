@@ -6,9 +6,9 @@
  "pos": {},
  "log": [],
  "seen": {
-  "BTCUSDT": 1795618800000,
-  "ETHUSDT": 1795618800000,
-  "SOLUSDT": 1795618800000
+  "BTCUSDT": 1795622400000,
+  "ETHUSDT": 1795622400000,
+  "SOLUSDT": 1795622400000
  },
  "hg": {
   "BTCUSDT": {
@@ -21,7 +21,7 @@
    "wait": false,
    "pend": {
     "d": -1,
-    "entry": 1624.39,
+    "entry": 1630.0,
     "stop": 1671.62,
     "tgt": 1608.86,
     "exp_t": 1795636800000,
@@ -31,7 +31,14 @@
   "SOLUSDT": {
    "armed": true,
    "wait": false,
-   "pend": null
+   "pend": {
+    "d": -1,
+    "entry": 67.23,
+    "stop": 68.42,
+    "tgt": 65.84,
+    "exp_t": 1795640400000,
+    "ext": 68.42
+   }
   }
  }
 }
