@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 3.6237856225831586,
- "pos": {
-  "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": {
-   "sym": "HOGE",
-   "qty": 1398.9323615431244,
-   "entry": 0.0006283,
-   "last": 0.000626105469427292,
-   "peak": 0.0006468675842610471,
-   "cost": 0.9059464056457897,
-   "opened": "2026-11-25T18:52:50+07:00",
-   "wallet": "A9svdt",
-   "wallet_usd": 203,
-   "lag_min": 4.3,
-   "gap": 1,
-   "miss": 0
-  }
- },
+ "cash": 4.530831906185295,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T10:36:33+07:00",
@@ -12993,12 +12978,36 @@
    "wallet": "A9svdt",
    "usd": 201,
    "why": "repeat"
+  },
+  {
+   "t": "2026-11-25T21:58:34+07:00",
+   "kind": "skip",
+   "mint": "49t6L26yayxWr7NMoNw8QdwmJ5QUNFjBziea65fFWmmE",
+   "sym": "Plush",
+   "wallet": "2kN7bb",
+   "usd": 536,
+   "why": "liq $11,125"
+  },
+  {
+   "t": "2026-11-25T21:58:35+07:00",
+   "kind": "sell",
+   "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+   "sym": "HOGE",
+   "price": 0.0006683,
+   "entry": 0.0006283,
+   "usd": 0.907,
+   "pnl": 0.0011,
+   "why": "ครบ 3 ชม. (+6.4%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ ผ่าน Helius",
  "cursor": {
-  "FqJMNzzY1DHz2F1Pt6F7VqCxBWdu8cK2TbfTrYT9zQbT": "4Qi351L4LGNrgQHdMkQxXNLxUPYNEykc6NLigJ9re89A1eNA6HzBXF92wiu1gv178zz9MkdoBGprnXfYB1JSpKTT",
-  "2kN7bb7sVKn4iBWDMpo8aAVyyQxAVpZATQ7RRkmoy6Mm": "4D3fC6mRPrseH6EaP17gkoraVtUeHMNiU4PGCbZ4T8F7X6VhX7WoJkf5cNb1iTFsJncGpCHiLSo69RRMXdhasGgw",
+  "FqJMNzzY1DHz2F1Pt6F7VqCxBWdu8cK2TbfTrYT9zQbT": "3xEyCHY5DifpKui1VnWfzxjA8t39FNEfzC72QinnBzoF2hwHcwDsRyXRDBVWP2kJ9m6gJyVYbddDJfVzoehQ9CoZ",
+  "2kN7bb7sVKn4iBWDMpo8aAVyyQxAVpZATQ7RRkmoy6Mm": "nhcRyVKxs3DTUAAbxJy535XfMfEeqi6SKeVs1zWTUELMx4uYQkVm19cskc8mLtaDK9baasg3obqecSFQYwRoxWB",
   "7NnaXghjuU92gM9kmwXysqa5HboyZuR2LTaBnvazFxSH": "5ozeWRRjFUYNZA9pLqrgvfEajfdj33VkAFiWMnDQm5GNXK9c2XYaTC7A6NbZbdJovQbosbxVdsdu7iu7TQps8Anx",
   "7g5CJ754NboeY6D44MDdGwQmVX4Fvu59Q47c9ZKLPMkE": "3edMsmFxwgujD4cbr96MfDKtCyjWG4GKcAGiDWxi4iiq9rCZYiMqDoZ5CwHwYn2RLMEPZj3hH1q8hPqUCy16nvpH",
   "8emnM6nfVM2ePrYDmZcMkwy8qzDhRFZ5EefCkMsmgByX": "4AzmbvbS4WFcEgx74iGxV8KUvLxrtCmtq2npoqJggjWyYbnSDTWg1hGmJfqBEA6kroT2i5dhGBbDMJoSXwB2EHc5",

@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 7.215399743285426,
- "pos": {
-  "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": {
-   "sym": "GROKIA",
-   "qty": 6705.3456235014555,
-   "entry": 0.000261,
-   "last": 0.0002535,
-   "peak": 0.000261,
-   "cost": 1.8038499358213564,
-   "opened": "2026-11-25T21:51:33+07:00",
-   "zoo": "x_hot_chase",
-   "smart": 4,
-   "kol": 0,
-   "gap": 14,
-   "miss": 0
-  }
- },
+ "cash": 8.516807085678192,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-23T02:11:54+07:00",
@@ -583,12 +568,27 @@
    "zoo": "x_hot_chase",
    "smart": 4,
    "kol": 0
+  },
+  {
+   "t": "2026-11-25T22:01:42+07:00",
+   "kind": "sell",
+   "mint": "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump",
+   "sym": "GROKIA",
+   "price": 0.00020004643399987985,
+   "entry": 0.000261,
+   "usd": 1.3014,
+   "pnl": -0.5024,
+   "why": "stop -23.4%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 4,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ไล่ของร้อน: GMGN hot level 3 ราคาขึ้น 5 นาที (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-25",
  "night_start": 9.019249679106782,
- "rank_t": 1795618159.0181508,
+ "rank_t": 1795618665.3207932,
  "nights": [
   {
    "night": "2026-11-22",
@@ -602,5 +602,6 @@
    "night": "2026-11-24",
    "ret": -0.1894
   }
- ]
+ ],
+ "halted": "ราคา GROKIA สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }

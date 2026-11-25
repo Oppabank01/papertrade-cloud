@@ -1,42 +1,42 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.727540500736376,
- "cash": 12.519178151556767,
+ "cash": 12.83774625900714,
  "pos": {
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 59.58573725527286,
    "entry": 0.007194,
-   "last": 0.007248,
+   "last": 0.007225241810333282,
    "peak": 0.007441,
    "cost": 0.4418262150220913,
    "opened": "2026-11-25T21:10:45+07:00",
    "zoo": "x_memescope_8gate",
    "smart": 576,
    "kol": 37,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   },
   "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": {
    "sym": "DCTY",
    "qty": 487.5089037663777,
    "entry": 0.0008785,
-   "last": 0.000955,
+   "last": 0.000952,
    "peak": 0.0009796,
    "cost": 0.4414312223858615,
    "opened": "2026-11-25T21:10:47+07:00",
    "zoo": "x_memescope_8gate",
    "smart": 740,
    "kol": 69,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 148.01235631501407,
    "entry": 0.002899,
-   "last": 0.002858,
-   "peak": 0.002901,
+   "last": 0.00288,
+   "peak": 0.002912,
    "cost": 0.4422673891540155,
    "opened": "2026-11-25T21:35:18+07:00",
    "zoo": "x_memescope_8gate",
@@ -49,28 +49,14 @@
    "sym": "CATE",
    "qty": 26.695078009640824,
    "entry": 0.01605,
-   "last": 0.01614,
-   "peak": 0.01619,
+   "last": 0.01627,
+   "peak": 0.01627,
    "cost": 0.44161616373400864,
    "opened": "2026-11-25T21:51:50+07:00",
    "zoo": "x_memescope_8gate",
    "smart": 971,
    "kol": 111,
    "gap": 0,
-   "miss": 0
-  },
-  "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": {
-   "sym": "GROKIA",
-   "qty": 1641.3840582396406,
-   "entry": 0.0002608,
-   "last": 0.0002535,
-   "peak": 0.0002609,
-   "cost": 0.44122135888363045,
-   "opened": "2026-11-25T21:51:50+07:00",
-   "zoo": "x_memescope_8gate",
-   "smart": 4,
-   "kol": 0,
-   "gap": 14,
    "miss": 0
   }
  },
@@ -149,10 +135,26 @@
    "zoo": "x_memescope_8gate",
    "smart": 4,
    "kol": 0
+  },
+  {
+   "t": "2026-11-25T22:01:42+07:00",
+   "kind": "sell",
+   "mint": "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump",
+   "sym": "GROKIA",
+   "price": 0.00020004643399987985,
+   "entry": 0.0002608,
+   "usd": 0.3186,
+   "pnl": -0.1227,
+   "why": "stop -23.3%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 4,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: MemeScope 8 ด่าน (gaplek15) แบบที่ zoo เช็กได้: สภาพคล่อง 20k+ อายุ 6 ชม.+ ซื้อมากกว่าขาย top10 ไม่เกิน 20% RugCheck stop -15% TP +30% ถือ 6 ชม.",
  "night": "2026-11-25",
  "night_start": 14.727540500736376,
- "rank_t": 1795618159.0181508
+ "rank_t": 1795618665.3207932,
+ "halted": "ราคา GROKIA สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }
