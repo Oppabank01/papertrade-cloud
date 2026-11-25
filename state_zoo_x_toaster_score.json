@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 12.795658338178287,
+ "cash": 13.25791098929476,
  "pos": {
-  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
-   "sym": "CLAUDIA",
-   "qty": 91.35171536490465,
-   "entry": 0.007787,
-   "last": 0.007355,
-   "peak": 0.008676,
-   "cost": 0.7332053262693388,
-   "opened": "2026-11-25T00:30:01+07:00",
-   "zoo": "x_toaster_score",
-   "smart": 572,
-   "kol": 37,
-   "gap": 0,
-   "miss": 0
-  },
   "34As1e1Kop9zBvu5e84kjg452Uigq8krcoGEJiWRpump": {
    "sym": "UHI",
    "qty": 1120.9340289993095,
    "entry": 0.0006201,
-   "last": 0.0005897,
+   "last": 0.0005993,
    "peak": 0.0006304,
    "cost": 0.7164411372732136,
    "opened": "2026-11-25T10:24:25+07:00",
@@ -384,8 +370,52 @@
    "cost_side": 0.03,
    "smart": 967,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T16:31:02+07:00",
+   "kind": "buy",
+   "mint": "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump",
+   "sym": "4CHAN",
+   "price": 0.0003811,
+   "jup": 0.00038421082370400963,
+   "usd": 0.7075,
+   "stop_set": -0.06,
+   "cost_side": 0.03,
+   "zoo": "x_toaster_score",
+   "smart": 227,
+   "kol": 11
+  },
+  {
+   "t": "2026-11-25T16:31:35+07:00",
+   "kind": "sell",
+   "mint": "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump",
+   "sym": "4CHAN",
+   "price": 0.00029828270319755046,
+   "entry": 0.0003811,
+   "usd": 0.5212,
+   "pnl": -0.1862,
+   "why": "stop -21.7%",
+   "stop_set": -0.06,
+   "cost_side": 0.03,
+   "smart": 227,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-25T16:34:59+07:00",
+   "kind": "sell",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.007317,
+   "entry": 0.007787,
+   "usd": 0.6485,
+   "pnl": -0.0847,
+   "why": "stop -6.0%",
+   "stop_set": -0.06,
+   "cost_side": 0.03,
+   "smart": 572,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: บอท paper เหรียญมีม Solana (MyToasterIsCrying): อายุ 30 นาทีขึ้นไป สภาพคล่อง 25k+ ขึ้นทั้ง 5 นาทีและ 1 ชม. stop -6% เป้า +12%",
- "rank_t": 1795598614.0054474
+ "rank_t": 1795598936.790158
 }
