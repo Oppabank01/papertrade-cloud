@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.401880083469264,
- "pos": {
-  "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
-   "sym": "TROLL",
-   "qty": 83.84086781338624,
-   "entry": 0.0192,
-   "last": 0.01898,
-   "peak": 0.01921,
-   "cost": 1.6591884786817315,
-   "opened": "2026-11-25T16:24:05+07:00",
-   "zoo": "bigliqF_b2",
-   "smart": 476,
-   "kol": 214,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 7.945759024368613,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-22T19:52:23+07:00",
@@ -1457,10 +1442,25 @@
    "mint": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
    "sym": "TROLL",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-25T19:24:05+07:00",
+   "kind": "sell",
+   "mint": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
+   "sym": "TROLL",
+   "price": 0.01898,
+   "entry": 0.0192,
+   "usd": 1.5439,
+   "pnl": -0.1153,
+   "why": "ครบ 3 ชม. (-1.1%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 476,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ เช็กราคาทุก 20 วิ",
- "rank_t": 1795608908.4393477,
+ "rank_t": 1795609377.704546,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
