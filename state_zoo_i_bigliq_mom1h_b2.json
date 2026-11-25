@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 12.342765866062667,
- "pos": {},
+ "cash": 9.874212692850133,
+ "pos": {
+  "AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump": {
+   "sym": "jobcoin",
+   "qty": 223.5982941728946,
+   "entry": 0.01093,
+   "last": 0.01077,
+   "peak": 0.01093,
+   "cost": 2.4685531732125336,
+   "opened": "2026-11-25T23:50:31+07:00",
+   "zoo": "i_bigliq_mom1h_b2",
+   "smart": 29,
+   "kol": 46,
+   "gap": 2,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T19:52:25+07:00",
@@ -240,8 +255,22 @@
    "cost_side": 0.01,
    "smart": 93,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T23:50:31+07:00",
+   "kind": "buy",
+   "mint": "AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump",
+   "sym": "jobcoin",
+   "price": 0.01093,
+   "jup": 0.010891974669162259,
+   "usd": 2.4686,
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "zoo": "i_bigliq_mom1h_b2",
+   "smart": 29,
+   "kol": 46
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ขึ้น 1 ชม. 10 ถึง 50%",
- "rank_t": 1795624982.3957546
+ "rank_t": 1795625334.1411903
 }
