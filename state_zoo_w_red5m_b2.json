@@ -7,7 +7,7 @@
    "sym": "CBUCKS",
    "qty": 448.67609853393606,
    "entry": 0.00452,
-   "last": 0.005501,
+   "last": 0.005465,
    "peak": 0.00628,
    "cost": 2.0484492466083086,
    "opened": "2026-11-25T06:14:29+07:00",
@@ -21,21 +21,21 @@
    "sym": "FLOAT",
    "qty": 800.8776961532565,
    "entry": 0.002543,
-   "last": 0.002706424859491559,
+   "last": 0.0027681658576480233,
    "peak": 0.002866,
    "cost": 2.057152073248384,
    "opened": "2026-11-25T08:58:45+07:00",
    "zoo": "w_red5m_b2",
    "smart": 380,
    "kol": 35,
-   "gap": 12,
+   "gap": 4,
    "miss": 0
   },
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 664.1411716197127,
    "entry": 0.003166,
-   "last": 0.003005,
+   "last": 0.002949,
    "peak": 0.003202,
    "cost": 2.12385641710867,
    "opened": "2026-11-25T10:49:55+07:00",
@@ -657,16 +657,24 @@
    "cost_side": 0.01,
    "smart": 532,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T15:57:09+07:00",
+   "kind": "ban",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สวนทาง: อายุเกิน 1 วัน pool 200k+ กำลังแดง 5 นาที",
- "rank_t": 1795596557.7602189,
+ "rank_t": 1795596970.452474,
  "banned": {
   "J1Wpmugrooj1yMyQKrdZ2vwRXG5rhfx3vTnYE39gpump": "WOULD",
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings",
   "Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": "HODL",
   "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": "PUMPCADE",
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": "OTC",
-  "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"
+  "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
+  "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": "FLOAT"
  }
 }
