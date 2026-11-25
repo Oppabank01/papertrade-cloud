@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 2.5724455179547823,
+ "cash": 3.5360799319034255,
  "pos": {
   "KXWTI-26NOV2514-T79.49:yes": {
    "qty": 0.8269452146281397,
@@ -64,30 +64,6 @@
    "close": "2026-11-26T15:00:00Z",
    "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-26T15:00:00Z"
   },
-  "KXSILVERD-26NOV2517-T39.50:yes": {
-   "qty": 0.8358729577822337,
-   "entry": 0.8822669999999999,
-   "last": 0.99,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-25T00:16:25+00:00",
-   "coin": "YES | Will the silver close price be above 39.50 USD/t.oz on November 25, 2026 at 5:00 PM ",
-   "ticker": "KXSILVERD-26NOV2517-T39.50",
-   "side": "yes",
-   "close": "2026-11-25T22:00:00Z",
-   "why": "fav ask 0.87 ทุน 0.882 ปิด 2026-11-25T22:00:00Z"
-  },
-  "KXGOLDD-26NOV2517-T3483:yes": {
-   "qty": 0.8013438549268626,
-   "entry": 0.9202830000000001,
-   "last": 0.99,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-25T03:21:37+00:00",
-   "coin": "YES | Will the gold close price be above 3483 USD/t.oz on November 25, 2026 at 5:00 PM EST",
-   "ticker": "KXGOLDD-26NOV2517-T3483",
-   "side": "yes",
-   "close": "2026-11-25T22:00:00Z",
-   "why": "fav ask 0.91 ทุน 0.920 ปิด 2026-11-25T22:00:00Z"
-  },
   "KXUST7AD-26NOV25-T4.67:yes": {
    "qty": 0.8543610818706032,
    "entry": 0.8631749999999999,
@@ -123,18 +99,6 @@
    "side": "yes",
    "close": "2026-11-25T20:30:00Z",
    "why": "fav ask 0.90 ทุน 0.911 ปิด 2026-11-25T20:30:00Z"
-  },
-  "KXDJI-25NOV26-GE48625P00:yes": {
-   "qty": 0.8013438549268626,
-   "entry": 0.9202830000000001,
-   "last": 0.99,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-25T16:06:30+00:00",
-   "coin": "YES | Dow Jones price: At least 48,625 November 25, 2026 at 4pm ET",
-   "ticker": "KXDJI-25NOV26-GE48625P00",
-   "side": "yes",
-   "close": "2026-11-25T20:59:00Z",
-   "why": "fav ask 0.91 ทุน 0.920 ปิด 2026-11-25T20:59:00Z"
   },
   "KXDIESELD-26NOV26-T5.715:yes": {
    "qty": 0.7622452442238642,
@@ -175,7 +139,7 @@
   "KXLOWTMIA-26NOV25-B69.5:yes": {
    "qty": 0.7931826194981648,
    "entry": 0.9297520000000001,
-   "last": 0.89,
+   "last": 0.88,
    "usd": 0.7374631268436579,
    "t": "2026-11-25T22:23:39+00:00",
    "coin": "YES | Will the minimum temperature be 69-70° on Nov 25, 2026?",
@@ -195,6 +159,30 @@
    "side": "yes",
    "close": "2026-11-26T22:00:00Z",
    "why": "fav ask 0.95 ทุน 0.958 ปิด 2026-11-26T22:00:00Z"
+  },
+  "KXHIGHTLV-26NOV25-B63.5:yes": {
+   "qty": 0.8543610818706032,
+   "entry": 0.8631749999999999,
+   "last": 0.84,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-25T22:31:58+00:00",
+   "coin": "YES | Will the maximum temperature be 63-64° on Nov 25, 2026?",
+   "ticker": "KXHIGHTLV-26NOV25-B63.5",
+   "side": "yes",
+   "close": "2026-11-26T09:00:00Z",
+   "why": "fav ask 0.85 ทุน 0.863 ปิด 2026-11-26T09:00:00Z"
+  },
+  "KXBTCD-26NOV2617-T58499.99:yes": {
+   "qty": 0.8450091286674175,
+   "entry": 0.872728,
+   "last": 0.85,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-25T22:31:58+00:00",
+   "coin": "YES | Bitcoin price on Nov 26, 2026?",
+   "ticker": "KXBTCD-26NOV2617-T58499.99",
+   "side": "yes",
+   "close": "2026-11-26T22:00:00Z",
+   "why": "fav ask 0.86 ทุน 0.873 ปิด 2026-11-26T22:00:00Z"
   }
  },
  "log": [
@@ -1433,6 +1421,60 @@
    "usd": 0.7374631268436579,
    "why": "fav ask 0.95 ทุน 0.958 ปิด 2026-11-26T22:00:00Z",
    "ask": 0.95
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-25T22:31:58+00:00",
+   "coin": "YES | Will the maximum temperature be 63-64° on Nov 25, 2026?",
+   "px": 0.86317,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.85 ทุน 0.863 ปิด 2026-11-26T09:00:00Z",
+   "ask": 0.85
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-25T22:31:58+00:00",
+   "coin": "YES | Bitcoin price on Nov 26, 2026?",
+   "px": 0.87273,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.86 ทุน 0.873 ปิด 2026-11-26T22:00:00Z",
+   "ask": 0.86
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-25T22:31:58+00:00",
+   "coin": "YES | Will the silver close price be above 39.50 USD/t.oz on November 25, 2026 at 5:00 PM ",
+   "px": 1.0,
+   "entry": 0.88227,
+   "usd": 0.83587,
+   "pnl": 0.09841,
+   "ret": 0.13344,
+   "cost_side": 0,
+   "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-25T22:31:58+00:00",
+   "coin": "YES | Will the gold close price be above 3483 USD/t.oz on November 25, 2026 at 5:00 PM EST",
+   "px": 1.0,
+   "entry": 0.92028,
+   "usd": 0.80134,
+   "pnl": 0.06388,
+   "ret": 0.08662,
+   "cost_side": 0,
+   "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-25T22:31:59+00:00",
+   "coin": "YES | Dow Jones price: At least 48,625 November 25, 2026 at 4pm ET",
+   "px": 1.0,
+   "entry": 0.92028,
+   "usd": 0.80134,
+   "pnl": 0.06388,
+   "ret": 0.08662,
+   "cost_side": 0,
+   "why": "ตัดสิน yes"
   }
  ],
  "seen": null,
@@ -1504,6 +1546,8 @@
   "KXXRPD-26NOV2617": 1795644915,
   "KXETHD-26NOV2617": 1795644915,
   "KXLOWTMIA-26NOV25": 1795645417,
-  "KXHYPED-26NOV2617": 1795645417
+  "KXHYPED-26NOV2617": 1795645417,
+  "KXHIGHTLV-26NOV25": 1795645917,
+  "KXBTCD-26NOV2617": 1795645917
  }
 }
