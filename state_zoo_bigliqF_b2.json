@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.564225254454941,
+ "cash": 4.933272809550537,
  "pos": {
   "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
    "sym": "CBUCKS",
    "qty": 320.09506141295657,
    "entry": 0.004974,
-   "last": 0.005011,
-   "peak": 0.005048,
+   "last": 0.004968520934186071,
+   "peak": 0.005051,
    "cost": 1.6410563136137353,
    "opened": "2026-11-25T08:38:39+07:00",
    "zoo": "bigliqF_b2",
    "smart": 42,
    "kol": 0,
+   "gap": 4,
+   "miss": 0
+  },
+  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
+   "sym": "ANSEM",
+   "qty": 80.4039665673909,
+   "entry": 0.01968,
+   "last": 0.01955,
+   "peak": 0.01968,
+   "cost": 1.6309524449044042,
+   "opened": "2026-11-25T09:04:53+07:00",
+   "zoo": "bigliqF_b2",
+   "smart": 1000,
+   "kol": 187,
    "gap": 0,
    "miss": 0
   }
@@ -1269,10 +1283,24 @@
    "zoo": "bigliqF_b2",
    "smart": 42,
    "kol": 0
+  },
+  {
+   "t": "2026-11-25T09:04:53+07:00",
+   "kind": "buy",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.01968,
+   "jup": 0.019567349840158253,
+   "usd": 1.631,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliqF_b2",
+   "smart": 1000,
+   "kol": 187
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ เช็กราคาทุก 20 วิ",
- "rank_t": 1795571842.3865008,
+ "rank_t": 1795572220.8255885,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"
