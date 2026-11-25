@@ -726,26 +726,29 @@
    "stop_set": -0.08,
    "cost_side": 0.03,
    "source": "state_wallets.json"
+  },
+  {
+   "t": "2026-11-26T05:57:48+07:00",
+   "kind": "sell",
+   "mint": "FiVRbrKNxzVotLBc8QMrhEJSK9qtF3uu5QkY3GcHpump",
+   "sym": "RUDOLPH",
+   "price": 4.348e-05,
+   "entry": 4.752e-05,
+   "usd": 2.5272,
+   "pnl": -0.4071,
+   "why": "stop -8.5%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "pos": {
-  "FiVRbrKNxzVotLBc8QMrhEJSK9qtF3uu5QkY3GcHpump": {
-   "sym": "RUDOLPH",
-   "qty": 59908.059467918625,
-   "entry": 4.752e-05,
-   "last": 4.388e-05,
-   "peak": 4.752e-05,
-   "cost": 2.934272300469484,
-   "opened": "2026-11-26T04:53:16+07:00",
-   "source": "state_wallets.json",
-   "gap": 0,
-   "miss": 0
-  },
   "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn": {
    "sym": "PUMP",
    "qty": 1090.5909527981662,
    "entry": 0.002556,
-   "last": 0.002541,
+   "last": 0.002538,
    "peak": 0.002556,
    "cost": 2.873170970266041,
    "opened": "2026-11-26T05:49:26+07:00",
@@ -754,7 +757,7 @@
    "miss": 0
   }
  },
- "cash": 8.863918231611894,
+ "cash": 11.391097544992176,
  "start_usd": 14.671361502347418,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
