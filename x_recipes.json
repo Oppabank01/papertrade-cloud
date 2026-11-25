@@ -2548,5 +2548,39 @@
    "WATCH_S": 5
   },
   "note": "from strategy.ts: stop -10%, take profit +20%, trailing 5% once up 10%, 3600 slots read as 0.4 h, never re-enter read as a 24 h re-entry block; chosen by me: the bot trades seconds-old coins on the bonding curve but the zoo only sees GMGN 5-minute ranks, so 'survived its first ~100 s and still making highs' became age at most 1 h with 5m change at least +20% (the 1.2x run-up floor) and 1m change above +0.1% (fresh high proxy); the 3.0x run-up cap became zoo 'up' (5m change at most +100%); 'buys >= 2x sells from 4+ buyers' became 'up' (buys > sells) plus at least 20 buys in the zoo window (no ratio or distinct-buyer field); the 2 SOL real-reserve floor became liquidity 20k; creator-sell, stale-tape and net-sell-flow exits dropped (no such fields); 3% per trade, max 5 open and 5 s checks are mine; zoo default costs 1% fee + 2% slip per side"
+ },
+ {
+  "name": "x_memescan_rules",
+  "label": "memescan (R0OTZ) แบบที่ zoo เช็กได้: สภาพคล่อง 15k+ มาร์เก็ตแคป 50k ถึง 20M อายุ 15 นาที+ ขึ้น 1 ชม. ไม่เกิน 120% RugCheck stop -18% ขายครึ่งที่ x2 trail 25% ถือ 6 ชม.",
+  "horizon": "night",
+  "source": "https://github.com/R0OTZ/memescan",
+  "claim": "memescan, a free Solana memecoin scanner on GitHub Actions (scanner.py CFG, Nov 2026): trending tokens from DexScreener boosts and GeckoTerminal; drop liquidity under $15k, market cap outside $50k to $20M, age under 15 min, under 40 txns in 1 h, insider share over 10% (RugCheck), mint/freeze authority and danger risks; +120% in 1 h counts as overextended (wait for a dip); BUY at score 65; exits stop-loss -18%, take profit at 2x, then a trailing stop 25% from the peak, sell at once on rug or dev selling; its own paper P&L ignores fees and slippage (no results published; unverified)",
+  "added": "2026-11-25",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 15000,
+    "market_cap": 50000,
+    "age_h": 0.25
+   },
+   "max": {
+    "market_cap": 20000000,
+    "price_change_percent1h": 120
+   },
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.18,
+   "TP_ALL": null,
+   "HALF_AT": 1.0,
+   "TRAIL_ON": 1.0,
+   "TRAIL": 0.25,
+   "MAX_HOLD_H": 6,
+   "PER_TRADE": 0.03,
+   "MAX_POS": 5,
+   "COOLDOWN_H": 3,
+   "WATCH_S": 20
+  },
+  "note": "from scanner.py CFG: liquidity 15k, market cap 50k to 20M, age 15 min, 1 h change at most +120% (its overextended line), insider and danger risks via rugcheck, mint/freeze renounced (zoo base_guard), stop -18%, take profit 2x, trail 25% from the peak after the take profit, realert_hours 3 read as a 3 h re-entry block; chosen by me: 'take profit 2x then trail' read as sell half at +100% and trail the rest 25% once up 100% (the scanner only alerts, it does not say how much to sell), 6 h hold from its watch_hours, 3% per trade (its stake is $2), max 5 open, 20 s checks; the 40 txns per hour gate (zoo buys/sells cover a 5-minute window), the score-65 gate (its own score), the dip-buy WAIT cards (no 2 h high field) and the dev-selling exit (no such field) dropped; GMGN rank in place of DexScreener/GeckoTerminal trending; zoo default costs 1% fee + 2% slip per side (its paper P&L has none)"
  }
 ]

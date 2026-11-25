@@ -2383,5 +2383,86 @@
   "summary": "ค้นงานวิจัย anomaly ระหว่างวันของ BTC เดือนนี้ไม่เจอฉบับใหม่ ได้แต่งานเก่า turn-of-the-candle ซึ่งลองไปแล้ว 24 พ.ย.",
   "verdict": "ลองแล้วตก",
   "action": "ไม่ทำซ้ำ: รอบ 24 พ.ย. นาทีแรกของแท่ง 15 นาทีติดลบจริง -0.4 bps แต่ต้นทุนไปกลับ 70 bps long นาที 14 ถึง 0 ได้ -0.70% ต่อไม้"
+ },
+ {
+  "t": "2026-11-25T12:19:26+07:00",
+  "source": "github",
+  "title": "younghwan91/quantbox: D_mom8 VR squeeze (ATR8/ATR56 ต่ำกว่า 0.5 เข้าตามทิศ 8 แท่ง)",
+  "url": "https://github.com/younghwan91/quantbox",
+  "summary": "ระบบ futures Binance 60 เหรียญ เมื่อความผันผวนสั้นต่อยาวบีบต่ำกว่า 0.5 เข้าตามทิศโมเมนตัม 8 แท่ง stop 1% trail 0.5% เมื่อได้ 4% อ้าง backtest 6 ปี 2,868 ไม้ win 62.6% PF 1.97",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest Binance หลังหัก 0.35%/ข้าง 1 ชม. 2017-2026: BTC 112 ไม้ -0.38% ETH 76 ไม้ -0.52% SOL 33 ไม้ -0.87% ต่อไม้ ชนะ 15 ถึง 26% (ห่างจาก 62.6% ที่อ้าง) ก่อนหัก +0.32/+0.18/-0.17% ตัวแฝดเข้าสุ่ม -0.67/-0.65/-0.33% แท่ง 4 ชม. เกิดแค่ 18 ถึง 26 ไม้ permutation ใช้ไม่ได้เพราะแท่งที่สลับแล้วแทบไม่เกิด squeeze (ต่ำกว่า 10 ไม้) เปิด fwd_vrsqueeze.py (1 ชม. BTC ETH SOL ตัวแฝดเข้าสุ่ม 1 ใน 200) test ตรง backtest ETH 16 ไม้"
+ },
+ {
+  "t": "2026-11-25T12:19:26+07:00",
+  "source": "github",
+  "title": "younghwan91/quantbox: MA Cluster Squeeze 4 ชม. (SMA 20/50/100/200 บีบไม่เกิน 3% แล้วทะลุ)",
+  "url": "https://github.com/younghwan91/quantbox/blob/main/docs/STRATEGIES.md",
+  "summary": "เมื่อ SMA 4 เส้นอยู่ห่างกันไม่เกิน 3% แล้วราคาปิดทะลุทุกเส้นพร้อมโมเมนตัมเกิน 1% เข้าตามทิศ stop 2% เป้า 8% trail 0.5% เมื่อได้ 2% repo ไม่ให้ผลแยก",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest 4 ชม. 2017-2026 หลังหัก 0.35%/ข้าง: BTC 303 ไม้ -0.46% ETH 238 ไม้ -0.44% SOL 111 ไม้ -0.20% ต่อไม้ มัธยฐาน -0.44/-0.48/-0.56% ก่อนหัก +0.24/+0.27/+0.50% ตัวแฝดเข้าสุ่ม -0.57/-0.74/-0.65% permutation 200 รอบ p 0.085/0.095/0.060 ไม่ผ่าน ติดลบเกือบทุกปี หน้าต่างโมเมนตัม 8 แท่งเลือกเอง เปิด fwd_macluster.py (ตัวแฝดเข้าสุ่ม 1 ใน 50) test ตรง backtest BTC 63 ไม้"
+ },
+ {
+  "t": "2026-11-25T12:19:26+07:00",
+  "source": "github",
+  "title": "younghwan91/quantbox: S_d8 straddle (squeeze 3 แท่งแล้วเปิด long กับ short พร้อมกัน)",
+  "url": "https://github.com/younghwan91/quantbox/blob/main/docs/STRATEGIES.md",
+  "summary": "เมื่อ ATR8/ATR56 ต่ำกว่า 0.57 ติดกัน 3 แท่ง เปิดทั้ง long และ short stop 1.5% trail 0.5% เมื่อได้ 3% เป้า 5% อ้าง 7,706 ไม้ PF 4.755",
+  "verdict": "ทดสอบแล้ว",
+  "action": "backtest หลังหัก 0.35%/ข้าง (ผลต่อคู่ เฉลี่ยสองขา) 4 ชม.: BTC 24 คู่ -0.31% ETH 48 -0.26% SOL 32 -0.47% 1 ชม.: BTC 156 -0.60% ETH 121 -0.48% SOL 57 -0.44% ก่อนหัก +0.10 ถึง +0.44% ตัวแฝดเข้าสุ่ม -0.64 ถึง -0.80% PF 4.755 ที่อ้างน่าจะมาจากการให้ trail ทำงานในแท่งเดียวกับที่ราคาไปถึง (ผมเช็ก stop ก่อนเลื่อน trail) permutation ใช้ไม่ได้เหมือน D_mom8 forward test ที่เหมาะคือบัญชี 4 ชม. ที่ถือสองขาต่อเหรียญ (fwd ปัจจุบันถือได้ทีละขา) ให้ main thread เปิดถ้าต้องการ"
+ },
+ {
+  "t": "2026-11-25T12:19:26+07:00",
+  "source": "github",
+  "title": "R0OTZ/memescan: ตัวสแกนเหรียญมีม Solana ส่งแจ้งเตือน Telegram",
+  "url": "https://github.com/R0OTZ/memescan",
+  "summary": "สแกนเหรียญ trending จาก DexScreener กับ GeckoTerminal ตัดสภาพคล่องต่ำกว่า 15k มาร์เก็ตแคปนอก 50k ถึง 20M อายุไม่ถึง 15 นาที insider เกิน 10% ไม่ไล่ของขึ้น 1 ชม. เกิน 120% stop -18% TP 2 เท่า แล้ว trail 25%",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_memescan_rules (night) ตาม CFG ใน scanner.py ตีความ TP 2 เท่าเป็นขายครึ่งที่ +100% แล้ว trail 25% เลือกเองถือ 6 ชม. ไม้ละ 3% ตัดด่าน 40 txns ต่อชม. คะแนน 65 และการรอซื้อตอนย่อ (zoo ไม่มี field) ทุกเลขอยู่ใน note import zoo ไม่มี skip test_zoo ผ่าน"
+ },
+ {
+  "t": "2026-11-25T12:19:26+07:00",
+  "source": "github",
+  "title": "Mikodesteam/outrider: Memecoin research desk (Node.js)",
+  "url": "https://github.com/Mikodesteam/outrider",
+  "summary": "repo โชว์หน้าจอโต๊ะวิจัยเหรียญมีม pump.fun มี EV gate กับ Kelly แต่โค้ดเต็มขายใน store.mikodes.com",
+  "verdict": "ตัดทิ้ง",
+  "action": "ต้องจ่ายเงินซื้อโค้ด ไม่มีกฎเข้าออกใน repo สาธารณะ"
+ },
+ {
+  "t": "2026-11-25T12:19:26+07:00",
+  "source": "github",
+  "title": "tidy-marten-51: บอทแข่ง make.fun Pump.fun Bot Sprint แบบ probe แล้วเติมตอนทะลุ",
+  "url": "https://github.com/tidy-marten-51/u-riidzhsn-pump-fun-bot-sprint-make-bot-and-win-cb203fed",
+  "summary": "ซื้อไม้เล็กที่อายุ 10 slot ถ้าแรงซื้อ 5 SOL จาก 5 กระเป๋าขึ้นไป แล้วเติมไม้ใหญ่เมื่อราคา 2 เท่าและ 3 เท่าที่อายุ 50 slot ขึ้นไป อ้างว่า runner จริงขึ้นต่อเฉลี่ย 3.5 เท่า",
+  "verdict": "ไอเดีย",
+  "action": "ต้องรายการเทรดราย slot บน bonding curve (ผู้ซื้อแยกกระเป๋า SOL ที่ซื้อ) ซึ่ง zoo กับ rank_hist ไม่มี"
+ },
+ {
+  "t": "2026-11-25T12:19:26+07:00",
+  "source": "github",
+  "title": "aryafrb12/cbbtc-trend-breakout-bot: บอทแข่ง make.fun cbBTC ทะลุสูงสุด 240 แท่ง",
+  "url": "https://github.com/aryafrb12/cbbtc-trend-breakout-bot",
+  "summary": "long อย่างเดียว ซื้อเมื่อ EMA240 ชี้ขึ้น EMA60 อยู่เหนือ และปิดทะลุสูงสุด 240 แท่งที่กรอบกว้าง 1% ขึ้นไป trail จากจุดปิดสูงสุด 0.6 ถึง 3% ตามกำไร",
+  "verdict": "ไอเดีย",
+  "action": "ต้องรู้ขนาดแท่งของ bars-replay (README ไม่บอก) และกฎ trail ตามความผันผวน ยังไม่ได้ทดสอบ รอบหน้าลองบนแท่ง 1 นาทีของ BTC ได้"
+ },
+ {
+  "t": "2026-11-25T12:19:26+07:00",
+  "source": "x",
+  "title": "ค้น X 3 ครั้งรอบ 12:07 (opus 5.5 trading bot, volatility squeeze bot crypto backtest, memecoin bot rules entry exit)",
+  "url": "https://x.com/OxDeltaX/status/2125253118837346771",
+  "summary": "ได้แต่โพสต์โปรโมต Grok Bot กับโต๊ะเทรดเอเจนต์ที่เคยลงแล้ว (sayervonn, OxDeltaX, catstrateg) และโพสต์สอน quant ทั่วไปปี 2025",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎใหม่ที่ตัดสินได้ ไม่เพิ่มอะไร"
+ },
+ {
+  "t": "2026-11-25T12:19:26+07:00",
+  "source": "web",
+  "title": "UNWE FABA 2025.2: กลยุทธ์ BTC ตามรอบ halving",
+  "url": "https://www.unwe.bg/doi/FABA/2025.2/FABA.2025.2.10.pdf",
+  "summary": "งานวารสารเศรษฐศาสตร์บัลแกเรีย 2025 อ้างว่ากลยุทธ์อิงรอบ halving ชนะถือ BTC เฉยๆ 10 ใน 13 หน้าต่างที่ซ้อนกัน เจอตอนค้นงานวิจัย volatility compression ที่ไม่มีงานใหม่",
+  "verdict": "ไอเดีย",
+  "action": "ยังไม่ได้อ่านกฎเต็ม และ BTC มี halving แค่ 4 รอบ ข้อมูลไม่พอแยกจากโชค หน้าต่างซ้อนกัน 13 ชุดไม่ได้เป็นอิสระ"
  }
 ]
