@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 1.790835294490656,
+ "cash": 3.2996050990912287,
  "pos": {
-  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
-   "sym": "Rings",
-   "qty": 738.4053863791902,
-   "entry": 0.00232,
-   "last": 0.002255866956239479,
-   "peak": 0.002489,
-   "cost": 1.765718920222347,
-   "opened": "2026-11-25T12:02:51+07:00",
-   "zoo": "w_pause_bigliq_b2",
-   "smart": 136,
-   "kol": 10,
-   "gap": 4,
-   "miss": 0
-  },
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 100.01239142985764,
    "entry": 0.01715,
-   "last": 0.01719,
+   "last": 0.0172,
    "peak": 0.01726,
    "cost": 1.767895808103544,
    "opened": "2026-11-25T12:22:50+07:00",
@@ -35,21 +21,21 @@
    "sym": "FLOAT",
    "qty": 634.6532525185551,
    "entry": 0.002678,
-   "last": 0.002732880838490947,
+   "last": 0.002776,
    "peak": 0.002866,
    "cost": 1.751805205364554,
    "opened": "2026-11-25T12:48:24+07:00",
    "zoo": "w_pause_bigliq_b2",
    "smart": 380,
    "kol": 35,
-   "gap": 4,
+   "gap": 0,
    "miss": 0
   },
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 55.96180578068799,
    "entry": 0.03038,
-   "last": 0.02998,
+   "last": 0.03012,
    "peak": 0.03038,
    "cost": 1.7523393729306342,
    "opened": "2026-11-25T13:55:56+07:00",
@@ -1324,10 +1310,25 @@
    "zoo": "w_pause_bigliq_b2",
    "smart": 1000,
    "kol": 174
+  },
+  {
+   "t": "2026-11-25T14:05:02+07:00",
+   "kind": "sell",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.0021060411736619133,
+   "entry": 0.00232,
+   "usd": 1.5088,
+   "pnl": -0.2569,
+   "why": "stop -9.2%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 136,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795589642.5897813,
+ "rank_t": 1795590109.324122,
  "banned": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings"
