@@ -655,3 +655,13 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 - เพิ่มท่าใหม่: ไม่มี (ไม่ฝืนเดา)
 - ปลดท่า: ไม่มี ยังไม่มี x_ ถึงจุดตัดสิน
 - ยังทำไม่ได้: second pump breakout (ต้องประวัติราคารายแท่งต่อเหรียญเพื่อนับรอบพุ่ง)
+
+## 2026-11-25 10:27 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 18 พ.ย. (heikin ashi, keltner ได้ผลว่าง, pairs trading, crypto strategy ตั้งแต่ 21 พ.ย., ai trading agent ตั้งแต่ 22 พ.ย., pumpfun ตั้งแต่ 23 พ.ย., memecoin paper), X 4 ครั้ง (gemini trading bot backtest, บอทเทรด ผลย้อนหลัง, btc strategy backtest, kalshi bot strategy), เว็บ 1 ครั้ง (anomaly ระหว่างวันของ BTC เดือนนี้)
+เจอ: บอทแข่ง make.fun Pump.fun Bot Sprint ราว 15 repo ใหม่ (Second-Wind Breakout ของ Rezzrizz25 กฎครบใน strategy.ts), TradeBot PWA ของ ambelajartrading001-byte (FVG retest บนทอง ซ้ำท่าที่ลองแล้ว), โพสต์โปรโมต FensoryApp เรื่องทะลุแล้วรอ retest, งานเก่า turn-of-the-candle (ลองแล้ว 24 พ.ย.) คำค้นภาษาไทยได้ข่าวไม่เกี่ยว
+ทดสอบแล้ว (Binance รายวัน 2017-2026 หลังหัก 0.35%/ข้าง permutation 200 รอบ):
+- ทะลุแล้วรอ retest (ปิดเหนือสูงสุด 20 วัน รอ 10 วันให้ low แตะไม่เกิน L+1% แล้วปิดเหนือ L ออกที่ต่ำสุด 10 วันหรือปิดต่ำกว่า L-3% เลขทั้งหมดเลือกเอง): BTC 59 ไม้ +4.6% ETH 56 +3.0% SOL 32 +22.6% ต่อไม้ มัธยฐาน -4.1 ถึง -4.5% ชนะ 36 ถึง 41% ซื้อทันทีที่ทะลุด้วยจุดออกเดียวกัน +6.1/+7.5/+20.1% ตัวแฝดวันสุ่ม +1.8/+1.9/+8.6% ค้น 2 แบบ (20 และ 55 วัน) p 0.095/0.373/0.020 ไม่ผ่าน รอ retest แย่กว่าซื้อทันทีใน BTC กับ ETH และปี 2025 ถึง 2026 ติดลบเล็กน้อยทั้งสามเหรียญ
+เปิดบัญชี: fwd_retest.py (BTC ETH SOL ไม้ละ 1 ใน 3 ของทุน ตัวแฝดเข้าวันสุ่ม 1 ใน 20 ใช้ L เท่าราคาปิดวันนั้น) test เดินทีละแท่งตรง backtest BTC 52 ไม้ เปิดทั้งที่ไม่ผ่านเพราะผู้ใช้ให้ลองท่าอ่อน สคริปต์ /tmp/scout_1027/bt.py
+เพิ่ม x_: x_secondwind (night อายุไม่เกิน 1 ชม. ขึ้น 5 นาที 20%+ ขึ้น 1 นาที up buys 20+ สภาพคล่อง 20k stop -10% TP +20% trail 5% เมื่อขึ้น 10% ถือ 24 นาที ไม้ละ 3%) แปลงจากบอท bonding curve ระดับวินาที ตัวเลขที่แปลงเองอยู่ใน note import zoo ไม่มี skip และ test_zoo ผ่าน
+ไอเดีย: บอทแข่ง make.fun ตัวอื่น (ต้องรายการเทรดต่อ slot บน bonding curve), ท่าหุ้นไทยดู low รอบเช้าของ OneTrader168 (ต้องข้อมูล SET ราย 5 นาที)
+ไม่ทำซ้ำ: FVG retest ของ TradeBot PWA (ลองแล้ว 23 พ.ย. และมี fwd_fvg), turn-of-the-candle (ลองแล้ว 24 พ.ย.)

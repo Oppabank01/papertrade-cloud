@@ -2514,5 +2514,39 @@
    "WATCH_S": 20
   },
   "note": "from the README: liquidity 20k, age 6 h, buys > sells, owner/mint renounced and no honeypot or sell tax (zoo base_guard), LP lock and holder risks via rugcheck; chosen by me: the repo has no trade rules, so stop -15%, take profit +30%, 6 h hold, 3% per trade, max 5 open, 24 h re-entry block and 20 s checks are all mine; 'buys > sells over 1 h' replaced by zoo 'up' (buys > sells in the zoo window, 0 < 5m change <= 100%); 'top holder < 5% and top 5 < 15%' replaced by top_10_holder_rate <= 0.20 (zoo has only the top-10 share); the 24h volume gate (zoo volume is a 5-minute window), the deployer, sell-path and 6 h change gates dropped (no such fields); zoo default costs 1% fee + 2% slip per side"
+ },
+ {
+  "name": "x_secondwind",
+  "label": "Second-Wind Breakout (Rezzrizz25 บอทแข่ง make.fun) แบบที่ zoo เช็กได้: อายุไม่เกิน 1 ชม. ขึ้น 5 นาที 20 ถึง 100% ขึ้น 1 นาที ซื้อมากกว่าขาย สภาพคล่อง 20k+ stop -10% TP +20% trail 5% เมื่อขึ้น 10% ถือ 24 นาที",
+  "horizon": "night",
+  "source": "https://github.com/Rezzrizz25/pump-fun-second-wind",
+  "claim": "Second-Wind Breakout, a make.fun Pump.fun Bot Sprint entry (strategy.ts DEFAULT_PARAMS, Nov 2026): skip a coin for its first 240 slots (~96 s), decide by 450 slots (~3 min); buy only a fresh high over the last 240 slots with buy SOL at least 2x sells and 0.5 SOL+ over 40 slots from 4+ distinct non-creator buyers, price 1.2x to 3.0x the create price, 2 SOL+ real reserve, no creator sell; exits take profit +20%, trailing stop 5% once up 10%, stop -10%, 3600-slot (~24 min) time stop, stale tape, net-sell flow and creator-sell exits; never re-enter a coin; replay-graded on the bonding curve, no results published (unverified)",
+  "added": "2026-11-25",
+  "active": true,
+  "entry": {
+   "min": {
+    "price_change_percent5m": 20,
+    "price_change_percent1m": 0.1,
+    "liquidity": 20000,
+    "buys": 20
+   },
+   "max": {
+    "age_h": 1
+   },
+   "up": true
+  },
+  "exit": {
+   "STOP": -0.1,
+   "TP_ALL": 0.2,
+   "HALF_AT": null,
+   "TRAIL_ON": 0.1,
+   "TRAIL": 0.05,
+   "MAX_HOLD_H": 0.4,
+   "PER_TRADE": 0.03,
+   "MAX_POS": 5,
+   "COOLDOWN_H": 24,
+   "WATCH_S": 5
+  },
+  "note": "from strategy.ts: stop -10%, take profit +20%, trailing 5% once up 10%, 3600 slots read as 0.4 h, never re-enter read as a 24 h re-entry block; chosen by me: the bot trades seconds-old coins on the bonding curve but the zoo only sees GMGN 5-minute ranks, so 'survived its first ~100 s and still making highs' became age at most 1 h with 5m change at least +20% (the 1.2x run-up floor) and 1m change above +0.1% (fresh high proxy); the 3.0x run-up cap became zoo 'up' (5m change at most +100%); 'buys >= 2x sells from 4+ buyers' became 'up' (buys > sells) plus at least 20 buys in the zoo window (no ratio or distinct-buyer field); the 2 SOL real-reserve floor became liquidity 20k; creator-sell, stale-tape and net-sell-flow exits dropped (no such fields); 3% per trade, max 5 open and 5 s checks are mine; zoo default costs 1% fee + 2% slip per side"
  }
 ]
