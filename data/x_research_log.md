@@ -744,3 +744,14 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 เพิ่ม x_: x_obz_top5_month (month pool 500k+ มาร์เก็ตแคป 20M+ อายุ 30 วัน+ up ถือ 720 ชม. ไม่มี stop ไม้ละ 20% สูงสุด 5 ตัว) เลขที่แปลงเองอยู่ใน note import zoo ไม่มี skip และ test_zoo ผ่าน
 ไอเดีย: เอเจนต์ Claude ของ adammhijazi (ต้องข้อมูลข่าว OI long/short ratio ย้อนหลัง และเรียก LLM ทุกรอบ), ท่า BTC pullback ของ Girlgym67 (ข้อความถูกตัด)
 ตัดทิ้ง: repo grid/DCA ดาวปั่นของ bettysuzuki และ Isabela3497 (ต้องรันโปรแกรม Windows ที่ไม่มีซอร์ส ดูเป็นมัลแวร์)
+
+## 2026-11-26 04:15 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 19 พ.ย. (quant agent, scalping strategy, breakout strategy, vwap), X 4 ครั้ง (เทรดเหรียญมีม, crypto bot strategy backtest win rate, trading bot rules buy when sell when, memecoin bot entry exit rules), เว็บ 1 ครั้ง (งานวิจัยผลตามชั่วโมงและวันของ Bitcoin)
+เจอ: เว็บสัญญาณ Rolling VWAP 4 ชม. ของ PridiL (กฎครบในซอร์ส ไม่อ้างผล), บอท OB-scalp ของ OttGrinden (order block 4 ชม. + pin bar 1 นาที เป้า 0.15% อ้างชนะ 74%), โพสต์ diablomediablo บอท 7 เอเจนต์ด่านฆ่า 5 ข้อ (เห็น 2 ข้อ)
+ทดสอบแล้ว (Binance หลังหัก 0.35%/ข้าง permutation 200 รอบ):
+- Rolling VWAP 3 วัน 4 ชม. (ตัดขึ้น long ตัดลง short ถือ 6/18/30 แท่ง เส้นถ่วงวอลุ่มและไม่ถ่วง 6 แบบ) 2017-2026: ติดลบทุกแบบทุกเหรียญ ดีสุด BTC ถือ 30 แท่ง 489 ไม้ -0.34% ต่อไม้ ก่อนหัก +0.36% ตัวแฝดเข้าสุ่ม +0.15% ETH 495 ไม้ -1.02% SOL 335 ไม้ -1.53% PAXG 335 ไม้ -0.61% permutation ทั้งกริด BTC p 0.27 PAXG p 0.42 ไม่ผ่าน
+- OB-scalp แบบที่ใกล้สุด (BOS ปิดทะลุ 20 แท่ง 4 ชม. ตามฝั่ง EMA200 order block แท่งสีตรงข้ามล่าสุด pin bar 1 นาทีแตะโซน TP 0.15% SL 0.1-0.2% ถือไม่เกิน 2 ชม.) 60 วัน: BTC 81 ไม้ ก่อนหัก +0.016% ชนะ 48% ETH 168 ไม้ -0.014% ชนะ 36% SOL 214 ไม้ -0.004% ชนะ 42% หลังหัก -0.68 ถึง -0.71% ต่อไม้ ค่า futures 0.05%/ข้างก็ยัง -0.08 ถึง -0.11% BTC p 0.095 ลองแล้วตก ชนะไม่ถึงที่อ้าง และเป้าเล็กกว่าต้นทุนไปกลับ
+เปิดบัญชี: fwd_rvwap.py (BTC ETH SOL PAXG ไม้ละ 1 ใน 4 ถือ 30 แท่ง เส้นไม่ถ่วงวอลุ่มเพราะ byttrade.fetch ไม่มีวอลุ่ม ตัวแฝดเข้าสุ่ม 1 ใน 40 แท่งตามฝั่งของเส้น) test เดินทีละแท่งตรง backtest 26 ไม้ และเดินทั้งประวัติได้ไม้ตรง backtest ครบ 489/495/335/335 ไม้ (นับแท่งแทนนับชั่วโมงเพราะข้อมูล ETH ปี 2018 มีช่องว่าง) เปิดทั้งที่ติดลบเพราะผู้ใช้ให้ลองท่าอ่อนด้วย
+เพิ่ม x_: x_diablo_kill (week เหรียญใหม่ไม่เกิน 24 ชม. สภาพคล่อง 40k+ วอลุ่ม 50k+ RugCheck up stop -20% ขายครึ่ง +50% trail 25% ถือ 24 ชม. ไม้ละ 10%) เลขที่เลือกเองอยู่ใน note import zoo ไม่มี skip และ test_zoo ผ่าน
+ไอเดีย: งานวิจัยชั่วโมงและวันของ Bitcoin เป็นงานเก่า ซ้ำกับบัญชีที่มีอยู่ (fwd_hour21 fwd_monhour fwd_weekend), GurrLabs ให้ AI ให้คะแนนบอท 10 ตัว (ไม่มีกฎ)
+ตัดทิ้ง: ไม่มี

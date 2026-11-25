@@ -1,51 +1,6 @@
 [
  {
   "t": "2026-11-22T23:53:22+07:00",
-  "source": "github",
-  "title": "ketchup42/pm-bot",
-  "url": "https://github.com/ketchup42/pm-bot",
-  "summary": "ชุดเครื่องมือเก็บข้อมูลตลาด up/down ของ Polymarket (ราคา order book การตัดสินผล) แล้ว replay กลยุทธ์ DOGE แบบคิดค่าธรรมเนียม latency และความลึก",
-  "verdict": "ไอเดีย",
-  "action": "ต้องมีข้อมูล order book ของตลาด up/down ใน Polymarket ย้อนหลังที่เราไม่มี และเริ่มด้วย Docker ซึ่งห้ามรัน"
- },
- {
-  "t": "2026-11-22T23:53:22+07:00",
-  "source": "github",
-  "title": "blixtrade/memecoin-alert-bot",
-  "url": "https://github.com/blixtrade/memecoin-alert-bot",
-  "summary": "บอทแจ้งเหรียญ pump.fun เปิดใหม่และเหรียญจบ bonding curve กรอง top10 ไม่เกิน 30% แนบลิงก์ไป terminal BLIX",
-  "verdict": "กำลังลอง",
-  "action": "เปิดสูตร x_blix_grad_top10 ใน zoo 23 พ.ย.: เหรียญจบ curve อายุไม่เกิน 6 ชม. top10 ไม่เกิน 30% ออกแบบเดียวกับ x_fresh_grad เทียบกันตรงๆ"
- },
- {
-  "t": "2026-11-22T23:53:22+07:00",
-  "source": "x",
-  "title": "bosona: Polymarket P&L +$510K จาก 115,438 ตลาด",
-  "url": "https://x.com/0xburgerboy/status/2124446468354580903",
-  "summary": "บัญชี Polymarket เริ่ม พ.ค. 69 เทรด 115k ตลาด วอลุ่ม $32.1M กำไร $510K ไม้ใหญ่สุดแค่ $2.8K น่าจะเป็นบอททำตลาดหรือเก็บส่วนต่างเล็กๆ จำนวนมาก",
-  "verdict": "ไอเดีย",
-  "action": "ต้องมีประวัติไม้ของกระเป๋าจาก data API ของ Polymarket และ order book ย้อนหลังเพื่อดูว่ากำไรมาจาก maker rebate หรือ edge"
- },
- {
-  "t": "2026-11-22T23:53:22+07:00",
-  "source": "x",
-  "title": "SkyEdge terminal เทรดตลาดอากาศ",
-  "url": "https://x.com/skyedge_io/status/2124337315644613105",
-  "summary": "ขายเครื่องมือเทรดตลาดพยากรณ์อากาศใน Polymarket อ้างกำไร +$6.7k หลังหักค่าธรรมเนียม",
-  "verdict": "กำลังลอง",
-  "action": "เปิด state_poly_weather + twin แล้ว: เทียบช่องอุณหภูมิรายวันกับพยากรณ์ Open-Meteo (ECMWF+GEFS) ซื้อเมื่อ edge 8 จุดขึ้นไป ถือจนตัดสิน"
- },
- {
-  "t": "2026-11-22T23:53:22+07:00",
-  "source": "x",
-  "title": "jbfly46: arbitrage YES+NO ใน Polymarket",
-  "url": "https://x.com/jbfly46/status/2124183134577246681",
-  "summary": "โพสต์แย้ง guide arbitrage YES+NO ว่าส่วนต่างที่เกินค่าธรรมเนียมเกิดน้อยและบอทเร็วเก็บไปทันที กระเป๋าที่อ้างก็ไม่ได้เทรดแบบนั้น และ guide มีลิงก์ referral",
-  "verdict": "กำลังลอง",
-  "action": "เปิด state_poly_arb แล้ว: สแกน 300 ตลาดทุก 5 นาที รอบทดลอง 517 ตลาดช่องดีสุด -0.001 ก่อนค่าธรรมเนียม ยังไม่เจอคู่ที่ถูกกว่า 1 เก็บสถิติต่อ 7 วัน"
- },
- {
-  "t": "2026-11-22T23:53:22+07:00",
   "source": "x",
   "title": "DaviddDotTech: บอท TradingView + Claude short SUI +121% ALGO +39%",
   "url": "https://x.com/DaviddDotTech/status/2124194631197786326",
@@ -2698,5 +2653,50 @@
   "summary": "repo บอท grid/DCA ที่ให้โหลดโปรแกรม Windows สำเร็จรูป ดาวขึ้นเร็วผิดปกติ ไม่มีซอร์สของกลยุทธ์",
   "verdict": "ตัดทิ้ง",
   "action": "ต้องรันโปรแกรมที่โหลดมา ดูเป็นมัลแวร์ ไม่ได้เปิดดูไฟล์"
+ },
+ {
+  "t": "2026-11-26T04:15:40+07:00",
+  "source": "github",
+  "title": "PridiL/rvwap-signals: 4 ชม. ปิดตัดเส้น Rolling VWAP 3 วัน (ตัดขึ้น long ตัดลง short)",
+  "url": "https://github.com/PridiL/rvwap-signals",
+  "summary": "เว็บสัญญาณอัปเดตทุกชั่วโมงบน GitHub Actions ดูแท่ง 4 ชม. ที่ปิดตัดเส้น Rolling VWAP (hlc3 ถ่วงวอลุ่ม 3 วัน) ของ FX 28 คู่และดัชนี 9 ตัว แล้วให้คะแนนหลัง 6, 18, 30 แท่ง ไม่ได้อ้างผลกำไร",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest Binance 4 ชม. 2017-2026 หลังหัก 0.35%/ข้าง ถือ 6/18/30 แท่ง เส้นถ่วงวอลุ่มและไม่ถ่วง 6 แบบ ติดลบทุกแบบทุกเหรียญ ดีสุด BTC ถือ 30 แท่ง 489 ไม้ -0.34% ต่อไม้ ก่อนหัก +0.36% ตัวแฝดเข้าสุ่ม +0.15% ETH -1.02% SOL -1.53% PAXG -0.61% permutation 200 รอบทั้งกริด BTC p 0.27 PAXG p 0.42 ไม่ผ่าน เปิด fwd_rvwap.py (BTC ETH SOL PAXG ถือ 30 แท่ง เส้นไม่ถ่วงวอลุ่มเพราะ byttrade.fetch ไม่มีวอลุ่ม ตัวแฝดเข้าสุ่ม 1 ใน 40 แท่ง) test เดินทีละแท่งตรง backtest 26 ไม้ และเดินทั้งประวัติได้ไม้ตรง backtest ครบ 489/495/335/335 ไม้"
+ },
+ {
+  "t": "2026-11-26T04:15:40+07:00",
+  "source": "github",
+  "title": "OttGrinden/ob-scalp-bot: order block 4 ชม. + pin bar 1 นาที TP 0.15% SL 0.1-0.2% (อ้างชนะ 74%)",
+  "url": "https://github.com/OttGrinden/ob-scalp-bot",
+  "summary": "บอท scalp แบบ SMC ให้คะแนน 7 ด่าน (BOS, EMA200, IDM, order block ฯลฯ) ต้องได้ 9 คะแนนขึ้นไปแล้วรอ pin bar 1 นาที เป้า 0.15% leverage 15 เท่า README อ้าง backtest 2 ปีชนะราว 74% จุดคุ้มทุน 40%",
+  "verdict": "ลองแล้วตก",
+  "action": "สร้างแบบที่ใกล้สุด (BOS = ปิดทะลุสูงสุด 20 แท่ง 4 ชม. ตามฝั่ง EMA200, order block = แท่งสีตรงข้ามล่าสุดก่อน BOS ใช้ได้ 30 แท่ง, pin bar ไส้ 2 เท่าของตัวแท่งที่แตะโซน, TP 0.15% SL ปลายไส้ 0.1-0.2% ถือไม่เกิน 2 ชม.) บนแท่ง 1 นาที 60 วัน: BTC 81 ไม้ ก่อนหัก +0.016% ชนะ 48% ETH 168 ไม้ -0.014% ชนะ 36% SOL 214 ไม้ -0.004% ชนะ 42% หลังหัก 0.35%/ข้าง -0.68 ถึง -0.71% ต่อไม้ แม้คิดค่า futures 0.05%/ข้างก็ -0.08 ถึง -0.11% permutation 200 รอบ BTC p 0.095 ชนะไม่ถึง 74% ที่อ้าง และเป้า 0.15% เล็กกว่าต้นทุนไปกลับของเรา 0.7% ไม่เปิดบัญชี"
+ },
+ {
+  "t": "2026-11-26T04:15:40+07:00",
+  "source": "x",
+  "title": "diablomediablo: บอท 7 เอเจนต์ สแกนคู่ใหม่ 8,900 คู่ใน 3 สัปดาห์ ซื้อแค่ 36 ผ่านด่านฆ่า 5 ข้อ",
+  "url": "https://x.com/diablomediablo/status/2119863468715286775",
+  "summary": "โพสต์ 10 พ.ย. บอกกฎ 2 ข้อแรก: สภาพคล่องต่ำกว่า 40k หรือวอลุ่มต่ำกว่า 50k ตัดทิ้ง และ mint/freeze authority ยังไม่ revoke ตัดทิ้ง ข้อ 3 ถึง 5 ถูกตัดในผลค้น ไม่มีผลหรือกระเป๋าให้ตรวจ",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_diablo_kill (week อายุไม่เกิน 24 ชม. สภาพคล่อง 40k+ วอลุ่ม 50k+ RugCheck up stop -20% ขายครึ่ง +50% trail 25% ถือ 24 ชม. ไม้ละ 10% สูงสุด 5 ตัว) เลขที่เลือกเองอยู่ใน note import zoo ไม่มี skip และ test_zoo ผ่าน ข้อควรรู้: lessons 25 พ.ย. บอกว่าตัวกรองคุณภาพบนเหรียญใหม่ยังไม่เคยชนะฐาน"
+ },
+ {
+  "t": "2026-11-26T04:15:40+07:00",
+  "source": "x",
+  "title": "ค้น X 4 ครั้งรอบ 04:05 (เทรดเหรียญมีม, crypto bot strategy backtest win rate, trading bot rules buy when sell when, memecoin bot entry exit rules)",
+  "url": "https://x.com/search?q=memecoin%20bot%20entry%20exit%20rules",
+  "summary": "ค้นภาษาไทยได้แต่โพสต์เก่าปี 2023-2024 ค้นกฎ buy when/sell when ไม่ได้ผลเลย ที่เหลือเป็นโพสต์อวดผล Grok Bot ไม่มีกฎ (0x_exit, 0xboan, itsbramo, A_Pirate_I, x_cha1n) โพสต์ที่ลงฟีดแล้ว (DaviddDotTech, catstrateg, biektive ซึ่งซ้ำกับตารางบอท 25 ปี) และ GurrLabs ให้ AI ให้คะแนนบอท 10 ตัว (ไม่มีกฎ)",
+  "verdict": "ไอเดีย",
+  "action": "ได้ท่าใหม่ 1 ตัว (diablomediablo) ที่เหลือไม่มีกฎหรือซ้ำ ไม่ได้เพิ่ม"
+ },
+ {
+  "t": "2026-11-26T04:15:40+07:00",
+  "source": "web",
+  "title": "ค้นงานวิจัยผลตามชั่วโมงและวันของ Bitcoin (หาของใหม่เดือน พ.ย. 69)",
+  "url": "https://arxiv.org/pdf/2109.12142v2.pdf",
+  "summary": "เจอแต่งานเก่า (Baur และคณะ 2019, arXiv 2109.12142 ปี 2021, งาน GARCH 2013-2019) สรุปว่าความผันผวนตามชั่วโมงคงที่ แต่ผลตอบแทนตามวันเปลี่ยนตามช่วงข้อมูล ไม่มีงานใหม่ของเดือนนี้",
+  "verdict": "ไอเดีย",
+  "action": "ไม่ได้ทดสอบ ซ้ำกับบัญชีที่มีอยู่แล้ว (fwd_hour21, fwd_monhour, fwd_weekend, fwd_hourrev)"
  }
 ]

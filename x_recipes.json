@@ -2716,5 +2716,37 @@
    "COOLDOWN_H": 720
   },
   "note": "from the post: 5 coins, equal split, monthly rebalance, Solana memecoins; chosen by me: strongest read as pool 500k+ USD, market cap 20M+ USD, age 30 days+ and zoo up (the post gives no ranking), rebalance read as a 720 h (30 day) hold then sell, 20% of the account per coin (10 SOL / 5), no stop or target because the post sets none, a 720 h block before the same coin is bought again"
+ },
+ {
+  "name": "x_diablo_kill",
+  "label": "Diablo บอท 7 เอเจนต์ด่านฆ่า 5 ข้อ (เห็น 2 ข้อ) แบบที่ zoo เช็กได้: เหรียญใหม่ไม่เกิน 24 ชม. สภาพคล่อง 40k+ วอลุ่ม 50k+ RugCheck ผ่าน up stop -20% ขายครึ่ง +50% trail 25% ถือ 24 ชม.",
+  "horizon": "week",
+  "source": "https://x.com/diablomediablo/status/2119863468715286775",
+  "claim": "8,900 new Solana pairs in 3 weeks, the bot bought 36 after 5 kill rules (rule 1: liquidity under $40k or volume under $50k dead, 2,492 gone; rule 2: mint or freeze authority not revoked dead, 1,958 gone; rules 3 to 5 cut off in the search snippet); no results or wallet shown, unverified",
+  "added": "2026-11-26",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 40000,
+    "volume": 50000
+   },
+   "max": {
+    "age_h": 24
+   },
+   "rugcheck": true,
+   "up": true
+  },
+  "exit": {
+   "STOP": -0.2,
+   "TP_ALL": null,
+   "HALF_AT": 0.5,
+   "TRAIL_ON": 0.5,
+   "TRAIL": 0.25,
+   "MAX_HOLD_H": 24,
+   "PER_TRADE": 0.1,
+   "MAX_POS": 5,
+   "COOLDOWN_H": 24
+  },
+  "note": "from the post: liquidity 40k USD+, volume 50k USD+, mint and freeze authority revoked (read as zoo rugcheck), new Solana pairs; chosen by me: volume read as the GMGN rank volume field, new read as age at most 24 h, rules 3 to 5 unknown so zoo up stands in for them, stop -20%, sell half at +50% then trail 25%, max hold 24 h, 10% of the account per trade, at most 5 open, 24 h block before the same coin is bought again (the post gives no exits or sizes)"
  }
 ]
