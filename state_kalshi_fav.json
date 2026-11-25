@@ -2,12 +2,12 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 0.9125050186407017,
+ "cash": 0.17504189179704377,
  "pos": {
   "KXPCECORE-26OCT-T0.2:yes": {
    "qty": 0.7773833148266354,
    "entry": 0.9486479999999999,
-   "last": 0.81,
+   "last": 0.8,
    "usd": 0.7374631268436579,
    "t": "2026-11-23T22:25:55+00:00",
    "coin": "YES | Will the rate of core PCE inflation be above 0.2% in October 2026?",
@@ -43,7 +43,7 @@
   "KXAAAGASD-26NOV25-3.5850:yes": {
    "qty": 0.7622452442238642,
    "entry": 0.967488,
-   "last": 0.98,
+   "last": 0.99,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T13:11:25+00:00",
    "coin": "YES | Will average **gas prices** be above $3.5850?",
@@ -79,7 +79,7 @@
   "KXWTI-26NOV2514-T79.49:yes": {
    "qty": 0.8269452146281397,
    "entry": 0.8917919999999999,
-   "last": 0.76,
+   "last": 0.77,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T21:42:32+00:00",
    "coin": "YES | Will the WTI crude oil settlement price be above 79.49 USD/Bbl on Nov 25, 2026?",
@@ -91,7 +91,7 @@
   "KXXRPD-26NOV2517-T0.8799:yes": {
    "qty": 0.809687227540248,
    "entry": 0.9107999999999999,
-   "last": 0.89,
+   "last": 0.91,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T22:10:57+00:00",
    "coin": "YES | Ripple price at Nov 25, 2026 at 5pm EST?",
@@ -103,7 +103,7 @@
   "KXHYPED-26NOV2517-T56.9999:yes": {
    "qty": 0.8182188751659075,
    "entry": 0.901303,
-   "last": 0.77,
+   "last": 0.85,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T22:10:57+00:00",
    "coin": "YES | HYPE price on Nov 25, 2026?",
@@ -115,7 +115,7 @@
   "KXETHD-26NOV2517-T1609.99:yes": {
    "qty": 0.8269452146281397,
    "entry": 0.8917919999999999,
-   "last": 0.83,
+   "last": 0.85,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T22:17:03+00:00",
    "coin": "YES | Ethereum price at Nov 25, 2026 at 5pm EST?",
@@ -127,7 +127,7 @@
   "KXBTCD-26NOV2517-T57999.99:yes": {
    "qty": 0.8358729577822337,
    "entry": 0.8822669999999999,
-   "last": 0.82,
+   "last": 0.83,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T22:17:03+00:00",
    "coin": "YES | Bitcoin price on Nov 25, 2026?",
@@ -139,7 +139,7 @@
   "KXBNBD-26NOV2517-T534.99:yes": {
    "qty": 0.8450091286674175,
    "entry": 0.872728,
-   "last": 0.71,
+   "last": 0.73,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T22:23:34+00:00",
    "coin": "YES | BNB price on Nov 25, 2026?",
@@ -207,6 +207,18 @@
    "side": "yes",
    "close": "2026-11-25T22:00:00Z",
    "why": "fav ask 0.87 ทุน 0.882 ปิด 2026-11-25T22:00:00Z"
+  },
+  "KXGOLDD-26NOV2517-T3483:yes": {
+   "qty": 0.8013438549268626,
+   "entry": 0.9202830000000001,
+   "last": 0.87,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-25T03:21:37+00:00",
+   "coin": "YES | Will the gold close price be above 3483 USD/t.oz on November 25, 2026 at 5:00 PM EST",
+   "ticker": "KXGOLDD-26NOV2517-T3483",
+   "side": "yes",
+   "close": "2026-11-25T22:00:00Z",
+   "why": "fav ask 0.91 ทุน 0.920 ปิด 2026-11-25T22:00:00Z"
   }
  },
  "log": [
@@ -1202,6 +1214,15 @@
    "ret": 0.12134,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-25T03:21:37+00:00",
+   "coin": "YES | Will the gold close price be above 3483 USD/t.oz on November 25, 2026 at 5:00 PM EST",
+   "px": 0.92028,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.91 ทุน 0.920 ปิด 2026-11-25T22:00:00Z",
+   "ask": 0.91
   }
  ],
  "seen": null,
@@ -1262,6 +1283,7 @@
   "KXHIGHTDC-26NOV25": 1795559412,
   "KXOPENSOURCESHARE-26NOV26": 1795559412,
   "KXMC-GTA6": 1795559855,
-  "KXSILVERD-26NOV2517": 1795565784
+  "KXSILVERD-26NOV2517": 1795565784,
+  "KXGOLDD-26NOV2517": 1795576895
  }
 }
