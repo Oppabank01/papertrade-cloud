@@ -1,48 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 3.544899617822529,
+ "cash": 6.668562599644392,
  "pos": {
-  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
-   "sym": "CLAUDIA",
-   "qty": 201.25507705367218,
-   "entry": 0.008139,
-   "last": 0.007793,
-   "peak": 0.00831,
-   "cost": 1.6883272233970705,
-   "opened": "2026-11-25T10:09:57+07:00",
-   "zoo": "bigliqF_b2",
-   "smart": 576,
-   "kol": 37,
-   "gap": 0,
-   "miss": 0
-  },
-  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
-   "sym": "CATE",
-   "qty": 96.57488151304177,
-   "entry": 0.01686,
-   "last": 0.01707,
-   "peak": 0.01756,
-   "cost": 1.678264793145624,
-   "opened": "2026-11-25T10:09:57+07:00",
-   "zoo": "bigliqF_b2",
-   "smart": 968,
-   "kol": 111,
-   "gap": 0,
-   "miss": 0
-  },
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
    "sym": "FLOAT",
    "qty": 622.6300219305402,
    "entry": 0.002624,
-   "last": 0.002729043599416033,
-   "peak": 0.002778,
+   "last": 0.002789,
+   "peak": 0.002789,
    "cost": 1.683963283390783,
    "opened": "2026-11-25T12:47:43+07:00",
    "zoo": "bigliqF_b2",
    "smart": 380,
    "kol": 35,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1383,10 +1355,40 @@
    "zoo": "bigliqF_b2",
    "smart": 380,
    "kol": 35
+  },
+  {
+   "t": "2026-11-25T13:10:26+07:00",
+   "kind": "sell",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.007744,
+   "entry": 0.008139,
+   "usd": 1.5121,
+   "pnl": -0.1763,
+   "why": "ครบ 3 ชม. (-4.9%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 576,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-25T13:10:26+07:00",
+   "kind": "sell",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.0172,
+   "entry": 0.01686,
+   "usd": 1.6116,
+   "pnl": -0.0667,
+   "why": "ครบ 3 ชม. (+2.0%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 968,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ เช็กราคาทุก 20 วิ",
- "rank_t": 1795586353.615328,
+ "rank_t": 1795586845.124439,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"
