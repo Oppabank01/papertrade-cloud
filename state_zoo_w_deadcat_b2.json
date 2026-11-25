@@ -1,20 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 9.030264114085814,
+ "cash": 6.702212324762918,
  "pos": {
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
    "sym": "Rings",
    "qty": 1290.7986313198126,
    "entry": 0.001747,
-   "last": 0.0019789262710568183,
-   "peak": 0.002016862653542135,
+   "last": 0.001959597664271294,
+   "peak": 0.002022,
    "cost": 2.289249488772867,
    "opened": "2026-11-25T15:01:18+07:00",
    "zoo": "w_deadcat_b2",
    "smart": 136,
    "kol": 10,
-   "gap": 6,
+   "gap": 1,
+   "miss": 0
+  },
+  "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
+   "sym": "MANIFEST",
+   "qty": 1150.0739293242314,
+   "entry": 0.001994,
+   "last": 0.0019798550994920045,
+   "peak": 0.002028,
+   "cost": 2.328051789322895,
+   "opened": "2026-11-25T16:12:36+07:00",
+   "zoo": "w_deadcat_b2",
+   "smart": 91,
+   "kol": 15,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -573,10 +587,24 @@
    "cost_side": 0.015,
    "smart": 740,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T16:12:36+07:00",
+   "kind": "buy",
+   "mint": "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
+   "sym": "MANIFEST",
+   "price": 0.001994,
+   "jup": 0.002006016914268669,
+   "usd": 2.3281,
+   "stop_set": -0.25,
+   "cost_side": 0.015,
+   "zoo": "w_deadcat_b2",
+   "smart": 91,
+   "kol": 15
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: เด้งหลังร่วง: อายุเกิน 1 วัน pool 100k+ ร่วง 1 ชม. 15% ขึ้นไป",
- "rank_t": 1795597383.4615052,
+ "rank_t": 1795597896.3813493,
  "banned": {
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": "FLOAT",
   "5w3wVdJaESaJKyLmStM6Hv9UyUkmZ1b9DLQquAqqpump": "SID"
