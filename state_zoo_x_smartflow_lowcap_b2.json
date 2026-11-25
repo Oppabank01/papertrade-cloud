@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 0.43134912708988704,
+ "cash": 1.6112786363327596,
  "pos": {
   "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": {
    "sym": "PEAK",
    "qty": 9501.430074929434,
    "entry": 0.0002118,
-   "last": 0.0002094,
+   "last": 0.0002101,
    "peak": 0.000241,
    "cost": 2.074214481416259,
    "opened": "2026-11-25T00:49:30+07:00",
@@ -21,7 +21,7 @@
    "sym": "paws",
    "qty": 5845.822752464019,
    "entry": 0.0003469,
-   "last": 0.0003891,
+   "last": 0.0003951,
    "peak": 0.0004169,
    "cost": 2.0902039917849597,
    "opened": "2026-11-25T07:40:40+07:00",
@@ -35,28 +35,14 @@
    "sym": "MCAT",
    "qty": 23340.709247245242,
    "entry": 6.897e-05,
-   "last": 6.975553705531061e-05,
+   "last": 6.879637401209736e-05,
    "peak": 8.303e-05,
    "cost": 1.6592545009096107,
    "opened": "2026-11-25T21:59:06+07:00",
    "zoo": "x_smartflow_lowcap_b2",
    "smart": 114,
    "kol": 8,
-   "gap": 18,
-   "miss": 0
-  },
-  "2FYs4vApfj4ErsggpFDfzMv1WvxnyiLtzNEj84mS6TLh": {
-   "sym": "hCAT",
-   "qty": 11365.87212718854,
-   "entry": 0.0001377,
-   "last": 0.0001441,
-   "peak": 0.0001549,
-   "cost": 1.6131525375323257,
-   "opened": "2026-11-26T00:28:35+07:00",
-   "zoo": "x_smartflow_lowcap_b2",
-   "smart": 45,
-   "kol": 3,
-   "gap": 0,
+   "gap": 6,
    "miss": 0
   }
  },
@@ -1335,10 +1321,25 @@
    "zoo": "x_smartflow_lowcap_b2",
    "smart": 45,
    "kol": 3
+  },
+  {
+   "t": "2026-11-26T00:46:57+07:00",
+   "kind": "sell",
+   "mint": "2FYs4vApfj4ErsggpFDfzMv1WvxnyiLtzNEj84mS6TLh",
+   "sym": "hCAT",
+   "price": 0.0001070020323891084,
+   "entry": 0.0001377,
+   "usd": 1.1799,
+   "pnl": -0.4332,
+   "why": "stop -22.3%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 45,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: smart money เข้า 3+ มาร์เก็ตแคปต่ำ ขายครึ่งที่ x2",
- "rank_t": 1795628043.117221,
+ "rank_t": 1795628536.7636974,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "GNHW5JetZmW85vAU35KyoDcYoSd3sNWtx5RPMTDJpump": "GOAT",
