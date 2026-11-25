@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 2.012914524267232,
+ "cash": 3.851042568895857,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 68.62575395953417,
    "entry": 0.03253,
-   "last": 0.0305,
+   "last": 0.02998,
    "peak": 0.03272,
    "cost": 2.2548882869661337,
    "opened": "2026-11-24T22:00:13+07:00",
@@ -21,7 +21,7 @@
    "sym": "USELESS",
    "qty": 30.97317163733958,
    "entry": 0.07081,
-   "last": 0.06866,
+   "last": 0.06825,
    "peak": 0.0713,
    "cost": 2.2153079807479767,
    "opened": "2026-11-24T22:38:04+07:00",
@@ -31,32 +31,18 @@
    "gap": 0,
    "miss": 0
   },
-  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
-   "sym": "mihao",
-   "qty": 380.4606781805529,
-   "entry": 0.005441,
-   "last": 0.0049929732494212046,
-   "peak": 0.005551,
-   "cost": 2.090943713522778,
-   "opened": "2026-11-25T11:22:27+07:00",
-   "zoo": "i_bigliq_rc_run24_b2",
-   "smart": 809,
-   "kol": 75,
-   "gap": 2,
-   "miss": 0
-  },
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
    "sym": "Rings",
    "qty": 880.3924487705052,
    "entry": 0.00232,
-   "last": 0.002335,
+   "last": 0.002255866956239479,
    "peak": 0.002489,
    "cost": 2.0630898019217416,
    "opened": "2026-11-25T12:02:32+07:00",
    "zoo": "i_bigliq_rc_run24_b2",
    "smart": 136,
    "kol": 10,
-   "gap": 0,
+   "gap": 4,
    "miss": 0
   }
  },
@@ -693,10 +679,25 @@
    "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
    "sym": "Rings",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-25T13:56:59+07:00",
+   "kind": "sell",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.00488,
+   "entry": 0.005441,
+   "usd": 1.8381,
+   "pnl": -0.2528,
+   "why": "stop -10.3%",
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "smart": 809,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ RugCheck ปล่อยวิ่ง 24 ชม.",
- "rank_t": 1795589204.7269888,
+ "rank_t": 1795589642.5897813,
  "banned": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
   "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": "PUMPCADE",
