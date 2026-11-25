@@ -2,20 +2,8 @@
  "label": "Kalshi ตัวควบคุม: สุ่มฝั่งในตลาดเดียวกับตัวเต็ง/ตัวรอง",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 0.2561944178861899,
+ "cash": 1.0831396325143297,
  "pos": {
-  "KXWTI-26NOV2514-T79.49:yes": {
-   "qty": 0.8269452146281397,
-   "entry": 0.8917919999999999,
-   "last": 0.99,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-24T21:42:32+00:00",
-   "coin": "YES | Will the WTI crude oil settlement price be above 79.49 USD/Bbl on Nov 25, 2026?",
-   "ticker": "KXWTI-26NOV2514-T79.49",
-   "side": "yes",
-   "close": "2026-11-25T19:30:00Z",
-   "why": "สุ่มฝั่ง"
-  },
   "KXRAIN-26NOV25-ATL:no": {
    "qty": 17.195092493090325,
    "entry": 0.042888,
@@ -79,7 +67,7 @@
   "KXXRPD-26NOV2617-T0.8999:yes": {
    "qty": 0.809687227540248,
    "entry": 0.9107999999999999,
-   "last": 0.84,
+   "last": 0.85,
    "usd": 0.7374631268436579,
    "t": "2026-11-25T22:15:17+00:00",
    "coin": "YES | Ripple price at Nov 26, 2026 at 5pm EST?",
@@ -115,7 +103,7 @@
   "KXRAINTHANKSGIVING-26NOV26-ATL:yes": {
    "qty": 0.7549113938906525,
    "entry": 0.976887,
-   "last": 0.96,
+   "last": 0.95,
    "usd": 0.7374631268436579,
    "t": "2026-11-25T23:19:30+00:00",
    "coin": "YES | Will it rain in Atlanta on Thanksgiving?",
@@ -1202,6 +1190,18 @@
    "usd": 0.7374631268436579,
    "why": "สุ่มฝั่ง",
    "ask": 0.97
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-25T23:36:58+00:00",
+   "coin": "YES | Will the WTI crude oil settlement price be above 79.49 USD/Bbl on Nov 25, 2026?",
+   "px": 1.0,
+   "entry": 0.89179,
+   "usd": 0.82695,
+   "pnl": 0.08948,
+   "ret": 0.12134,
+   "cost_side": 0,
+   "why": "ตัดสิน yes"
   }
  ],
  "seen": null,
