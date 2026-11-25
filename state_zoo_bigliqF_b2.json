@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 7.945759024368613,
- "pos": {},
+ "cash": 6.35660721949489,
+ "pos": {
+  "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
+   "sym": "MANIFEST",
+   "qty": 629.561078435478,
+   "entry": 0.002449,
+   "last": 0.002413,
+   "peak": 0.002449,
+   "cost": 1.5891518048737225,
+   "opened": "2026-11-25T20:32:06+07:00",
+   "zoo": "bigliqF_b2",
+   "smart": 91,
+   "kol": 15,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T19:52:23+07:00",
@@ -1457,10 +1472,24 @@
    "cost_side": 0.03,
    "smart": 476,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T20:32:06+07:00",
+   "kind": "buy",
+   "mint": "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
+   "sym": "MANIFEST",
+   "price": 0.002449,
+   "jup": 0.0024488027502728334,
+   "usd": 1.5892,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliqF_b2",
+   "smart": 91,
+   "kol": 15
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ เช็กราคาทุก 20 วิ",
- "rank_t": 1795612988.5961838,
+ "rank_t": 1795613472.195958,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
