@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.628437682855472,
- "cash": 13.390383561060066,
- "pos": {},
+ "cash": 10.712306848848053,
+ "pos": {
+  "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump": {
+   "sym": "4CHAN",
+   "qty": 7286.23114466656,
+   "entry": 0.0003566,
+   "last": 0.0004077,
+   "peak": 0.0004077,
+   "cost": 2.6780767122120133,
+   "opened": "2026-11-25T08:52:16+07:00",
+   "zoo": "x_blix_grad_top10",
+   "smart": 125,
+   "kol": 4,
+   "gap": 7,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-23T01:38:31+07:00",
@@ -617,12 +632,26 @@
    "cost_side": 0.03,
    "smart": 95,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T08:52:16+07:00",
+   "kind": "buy",
+   "mint": "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump",
+   "sym": "4CHAN",
+   "price": 0.0003566,
+   "jup": 0.0003539639119324767,
+   "usd": 2.6781,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_blix_grad_top10",
+   "smart": 125,
+   "kol": 4
   }
  ],
  "label": "สวนสัตว์: blixtrade: เหรียญจบ curve ใหม่ top10 ถือไม่เกิน 30% (เดิมตัดทิ้งว่าซ้ำ ลองจริงก่อน)",
  "night": "2026-11-24",
  "night_start": 14.825427053332547,
- "rank_t": 1795571066.3867533,
+ "rank_t": 1795571437.7795937,
  "nights": [
   {
    "night": "2026-11-22",
