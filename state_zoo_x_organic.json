@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 13.807264710417321,
- "pos": {},
+ "cash": 11.045811768333857,
+ "pos": {
+  "7k35PSHkzijfRN6FyCFJFCYpi2nNisnQFFCgtTj8hjXY": {
+   "sym": "nSAI",
+   "qty": 2551.582518485121,
+   "entry": 0.00105,
+   "last": 0.001075,
+   "peak": 0.001075,
+   "cost": 2.7614529420834644,
+   "opened": "2026-11-26T01:38:45+07:00",
+   "zoo": "x_organic",
+   "smart": 7,
+   "kol": 1,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-23T02:11:54+07:00",
@@ -124,12 +139,26 @@
    "cost_side": 0.03,
    "smart": 4,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T01:38:45+07:00",
+   "kind": "buy",
+   "mint": "7k35PSHkzijfRN6FyCFJFCYpi2nNisnQFFCgtTj8hjXY",
+   "sym": "nSAI",
+   "price": 0.00105,
+   "jup": 0.0010526903018208754,
+   "usd": 2.7615,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_organic",
+   "smart": 7,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: คนซื้อจริง: บอทไม่เกิน 25% bundler ไม่เกิน 10% อายุไม่เกิน 24 ชม. (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-25",
  "night_start": 13.807264710417321,
- "rank_t": 1795631400.2676065,
+ "rank_t": 1795631820.4137292,
  "nights": [
   {
    "night": "2026-11-22",
