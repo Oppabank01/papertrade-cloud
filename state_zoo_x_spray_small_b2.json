@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 3.2454927495084576,
+ "cash": 3.0649582456337225,
  "pos": {
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 2.7143716258232673,
    "entry": 0.06972,
-   "last": 0.07107,
+   "last": 0.06978,
    "peak": 0.07201,
    "cost": 0.19505874021067637,
    "opened": "2026-11-26T03:15:43+07:00",
@@ -21,14 +21,28 @@
    "sym": "GOAT",
    "qty": 827.8395410173658,
    "entry": 0.0002145,
-   "last": 0.0002091,
+   "last": 0.00020617288617800597,
    "peak": 0.0002302,
    "cost": 0.1830257488643836,
    "opened": "2026-11-26T04:52:23+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 24,
    "kol": 3,
-   "gap": 0,
+   "gap": 10,
+   "miss": 0
+  },
+  "9wYTmf9HcHKKKEiesazLUaCp1Y7LHTMc66dfmgFcFZf3": {
+   "sym": "PI",
+   "qty": 1580.8174698489888,
+   "entry": 0.0001108,
+   "last": 9.874e-05,
+   "peak": 0.00013523843037414735,
+   "cost": 0.18053450387473507,
+   "opened": "2026-11-26T06:05:51+07:00",
+   "zoo": "x_spray_small_b2",
+   "smart": 82,
+   "kol": 3,
+   "gap": 15,
    "miss": 0
   }
  },
@@ -11269,10 +11283,31 @@
    "cost_side": 0.03,
    "smart": 982,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T06:05:51+07:00",
+   "kind": "buy",
+   "mint": "9wYTmf9HcHKKKEiesazLUaCp1Y7LHTMc66dfmgFcFZf3",
+   "sym": "PI",
+   "price": 0.0001108,
+   "jup": 0.00011009022142559223,
+   "usd": 0.1805,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_spray_small_b2",
+   "smart": 82,
+   "kol": 3
+  },
+  {
+   "t": "2026-11-26T06:12:04+07:00",
+   "kind": "ban",
+   "mint": "9wYTmf9HcHKKKEiesazLUaCp1Y7LHTMc66dfmgFcFZf3",
+   "sym": "PI",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: หว่านไม้เล็กหลายตัว ตัดกำไร 50% ตัดขาดทุน 15%",
- "rank_t": 1795647366.1874588,
+ "rank_t": 1795647839.616136,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": "three",
@@ -11320,6 +11355,7 @@
   "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": "JIMMY",
   "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": "Huss",
   "8nnaeWCw8mUypcGAgbmSuzAT85uWx4UN12adDrMhXrGF": "HOTBOT",
-  "7cPKubouxwsSy4aAKHtDKUETZ6uxVZDntRuy7Cappump": "GOAT"
+  "7cPKubouxwsSy4aAKHtDKUETZ6uxVZDntRuy7Cappump": "GOAT",
+  "9wYTmf9HcHKKKEiesazLUaCp1Y7LHTMc66dfmgFcFZf3": "PI"
  }
 }

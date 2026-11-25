@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 2.790218172651918,
+ "cash": 1.4848109528341176,
  "pos": {
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
    "sym": "paws",
    "qty": 5845.822752464019,
    "entry": 0.0003469,
-   "last": 0.0004123,
+   "last": 0.0004126,
    "peak": 0.0004174,
    "cost": 2.0902039917849597,
    "opened": "2026-11-25T07:40:40+07:00",
@@ -21,14 +21,28 @@
    "sym": "HOTBOT",
    "qty": 1993.3441562942703,
    "entry": 0.0007285,
-   "last": 0.0006663871606052005,
+   "last": 0.0006724,
    "peak": 0.0007285,
    "cost": 1.4967545020205895,
    "opened": "2026-11-26T01:06:00+07:00",
    "zoo": "x_smartflow_lowcap_b2",
    "smart": 180,
    "kol": 15,
-   "gap": 3,
+   "gap": 0,
+   "miss": 0
+  },
+  "9wYTmf9HcHKKKEiesazLUaCp1Y7LHTMc66dfmgFcFZf3": {
+   "sym": "PI",
+   "qty": 11430.56033093168,
+   "entry": 0.0001108,
+   "last": 9.874e-05,
+   "peak": 0.00013523843037414735,
+   "cost": 1.3054072198178004,
+   "opened": "2026-11-26T06:05:41+07:00",
+   "zoo": "x_smartflow_lowcap_b2",
+   "smart": 82,
+   "kol": 3,
+   "gap": 15,
    "miss": 0
   }
  },
@@ -1373,10 +1387,31 @@
    "cost_side": 0.03,
    "smart": 114,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T06:05:41+07:00",
+   "kind": "buy",
+   "mint": "9wYTmf9HcHKKKEiesazLUaCp1Y7LHTMc66dfmgFcFZf3",
+   "sym": "PI",
+   "price": 0.0001108,
+   "jup": 0.00011009022142559223,
+   "usd": 1.3054,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "x_smartflow_lowcap_b2",
+   "smart": 82,
+   "kol": 3
+  },
+  {
+   "t": "2026-11-26T06:12:04+07:00",
+   "kind": "ban",
+   "mint": "9wYTmf9HcHKKKEiesazLUaCp1Y7LHTMc66dfmgFcFZf3",
+   "sym": "PI",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: smart money เข้า 3+ มาร์เก็ตแคปต่ำ ขายครึ่งที่ x2",
- "rank_t": 1795647366.1874588,
+ "rank_t": 1795647839.616136,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "GNHW5JetZmW85vAU35KyoDcYoSd3sNWtx5RPMTDJpump": "GOAT",
@@ -1391,6 +1426,7 @@
   "7mH4PaR9BMxAid2i1QNDBmziAwxyXBsPNKSMiWySpump": "worth",
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": "paws",
   "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": "MCAT",
-  "8nnaeWCw8mUypcGAgbmSuzAT85uWx4UN12adDrMhXrGF": "HOTBOT"
+  "8nnaeWCw8mUypcGAgbmSuzAT85uWx4UN12adDrMhXrGF": "HOTBOT",
+  "9wYTmf9HcHKKKEiesazLUaCp1Y7LHTMc66dfmgFcFZf3": "PI"
  }
 }

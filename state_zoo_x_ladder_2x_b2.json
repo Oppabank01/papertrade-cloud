@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.954430907410935,
- "pos": {},
+ "cash": 5.5635447259287485,
+ "pos": {
+  "9wYTmf9HcHKKKEiesazLUaCp1Y7LHTMc66dfmgFcFZf3": {
+   "sym": "PI",
+   "qty": 12179.041275036261,
+   "entry": 0.0001108,
+   "last": 9.874e-05,
+   "peak": 0.00013523843037414735,
+   "cost": 1.3908861814821871,
+   "opened": "2026-11-26T06:05:41+07:00",
+   "zoo": "x_ladder_2x_b2",
+   "smart": 82,
+   "kol": 3,
+   "gap": 14,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T19:52:24+07:00",
@@ -590,10 +605,24 @@
    "cost_side": 0.03,
    "smart": 102,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T06:05:41+07:00",
+   "kind": "buy",
+   "mint": "9wYTmf9HcHKKKEiesazLUaCp1Y7LHTMc66dfmgFcFZf3",
+   "sym": "PI",
+   "price": 0.0001108,
+   "jup": 0.00011009022142559223,
+   "usd": 1.3909,
+   "stop_set": -0.35,
+   "cost_side": 0.03,
+   "zoo": "x_ladder_2x_b2",
+   "smart": 82,
+   "kol": 3
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: บันไดขาย ครึ่งที่ x2 trail 30% stop -35%",
- "rank_t": 1795647366.1874588,
+ "rank_t": 1795647839.616136,
  "banned": {
   "AQfw8J74V17erZsmMz4oK474eVLBaP44gD33vVbhtHo5": "ZOL",
   "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": "MCAT",
