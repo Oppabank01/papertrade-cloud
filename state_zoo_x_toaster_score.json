@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 12.27981734114332,
+ "cash": 12.168021288180448,
  "pos": {
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 91.35171536490465,
    "entry": 0.007787,
-   "last": 0.008228,
+   "last": 0.008203,
    "peak": 0.008676,
    "cost": 0.7332053262693388,
    "opened": "2026-11-25T00:30:01+07:00",
@@ -31,17 +31,17 @@
    "gap": 0,
    "miss": 0
   },
-  "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump": {
-   "sym": "4CHAN",
-   "qty": 1509.4413306695349,
-   "entry": 0.0004649,
-   "last": 0.000457,
-   "peak": 0.0004987,
-   "cost": 0.7232934184995534,
-   "opened": "2026-11-25T09:43:17+07:00",
+  "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": {
+   "sym": "GROKIA",
+   "qty": 222.65382759518963,
+   "entry": 0.003123,
+   "last": 0.003283,
+   "peak": 0.003302,
+   "cost": 0.7167057344668906,
+   "opened": "2026-11-25T10:02:57+07:00",
    "zoo": "x_toaster_score",
-   "smart": 132,
-   "kol": 4,
+   "smart": 4,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -296,8 +296,37 @@
    "zoo": "x_toaster_score",
    "smart": 132,
    "kol": 4
+  },
+  {
+   "t": "2026-11-25T10:02:32+07:00",
+   "kind": "sell",
+   "mint": "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump",
+   "sym": "4CHAN",
+   "price": 0.00041305989250088024,
+   "entry": 0.0004649,
+   "usd": 0.6049,
+   "pnl": -0.1184,
+   "why": "stop -11.2%",
+   "stop_set": -0.06,
+   "cost_side": 0.03,
+   "smart": 132,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-25T10:02:57+07:00",
+   "kind": "buy",
+   "mint": "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump",
+   "sym": "GROKIA",
+   "price": 0.003123,
+   "jup": 0.003150676329643508,
+   "usd": 0.7167,
+   "stop_set": -0.06,
+   "cost_side": 0.03,
+   "zoo": "x_toaster_score",
+   "smart": 4,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: บอท paper เหรียญมีม Solana (MyToasterIsCrying): อายุ 30 นาทีขึ้นไป สภาพคล่อง 25k+ ขึ้นทั้ง 5 นาทีและ 1 ชม. stop -6% เป้า +12%",
- "rank_t": 1795575319.7926953
+ "rank_t": 1795575675.9558444
 }
