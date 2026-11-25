@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.277115856408326,
+ "cash": 4.713497807016983,
  "pos": {
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 309.1222448442097,
    "entry": 0.005006,
-   "last": 0.005026,
+   "last": 0.005007,
    "peak": 0.005044,
    "cost": 1.594996864244603,
    "opened": "2026-11-25T22:28:51+07:00",
    "zoo": "w_pause_bigliq_b2",
    "smart": 542,
    "kol": 51,
+   "gap": 0,
+   "miss": 0
+  },
+  "AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump": {
+   "sym": "jobcoin",
+   "qty": 139.9467003246753,
+   "entry": 0.01084,
+   "last": 0.01089,
+   "peak": 0.01091,
+   "cost": 1.5636180493913423,
+   "opened": "2026-11-25T23:44:03+07:00",
+   "zoo": "w_pause_bigliq_b2",
+   "smart": 29,
+   "kol": 46,
    "gap": 0,
    "miss": 0
   }
@@ -1428,10 +1442,24 @@
    "cost_side": 0.03,
    "smart": 91,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T23:44:03+07:00",
+   "kind": "buy",
+   "mint": "AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump",
+   "sym": "jobcoin",
+   "price": 0.01084,
+   "jup": 0.010838456640239573,
+   "usd": 1.5636,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_bigliq_b2",
+   "smart": 29,
+   "kol": 46
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795624575.290532,
+ "rank_t": 1795624982.3957546,
  "banned": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings",

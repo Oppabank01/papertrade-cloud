@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.207841402824977,
+ "cash": 4.662181258989018,
  "pos": {
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 305.00688392273196,
    "entry": 0.005006,
-   "last": 0.005026,
+   "last": 0.005007,
    "peak": 0.005044,
    "cost": 1.5737625859793818,
    "opened": "2026-11-25T22:28:13+07:00",
    "zoo": "bigliqF_b2",
    "smart": 542,
    "kol": 51,
+   "gap": 0,
+   "miss": 0
+  },
+  "AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump": {
+   "sym": "jobcoin",
+   "qty": 139.10941294523633,
+   "entry": 0.01078,
+   "last": 0.01089,
+   "peak": 0.01091,
+   "cost": 1.5456601438359592,
+   "opened": "2026-11-25T23:43:26+07:00",
+   "zoo": "bigliqF_b2",
+   "smart": 29,
+   "kol": 46,
    "gap": 0,
    "miss": 0
   }
@@ -1515,10 +1529,24 @@
    "cost_side": 0.03,
    "smart": 91,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T23:43:26+07:00",
+   "kind": "buy",
+   "mint": "AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump",
+   "sym": "jobcoin",
+   "price": 0.01078,
+   "jup": 0.010833278593383634,
+   "usd": 1.5457,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliqF_b2",
+   "smart": 29,
+   "kol": 46
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ เช็กราคาทุก 20 วิ",
- "rank_t": 1795624575.290532,
+ "rank_t": 1795624982.3957546,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
