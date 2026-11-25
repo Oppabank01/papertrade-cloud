@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 3.5360799319034255,
+ "cash": 2.06115367821611,
  "pos": {
   "KXWTI-26NOV2514-T79.49:yes": {
    "qty": 0.8269452146281397,
@@ -55,7 +55,7 @@
   "KXMC-GTA6-98:yes": {
    "qty": 0.7549113938906525,
    "entry": 0.976887,
-   "last": 0.97,
+   "last": 0.98,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T22:37:36+00:00",
    "coin": "YES | Grand Theft Auto VI Metacritic score?",
@@ -175,7 +175,7 @@
   "KXBTCD-26NOV2617-T58499.99:yes": {
    "qty": 0.8450091286674175,
    "entry": 0.872728,
-   "last": 0.85,
+   "last": 0.86,
    "usd": 0.7374631268436579,
    "t": "2026-11-25T22:31:58+00:00",
    "coin": "YES | Bitcoin price on Nov 26, 2026?",
@@ -183,6 +183,30 @@
    "side": "yes",
    "close": "2026-11-26T22:00:00Z",
    "why": "fav ask 0.86 ทุน 0.873 ปิด 2026-11-26T22:00:00Z"
+  },
+  "KXBNBD-26NOV2617-T534.99:yes": {
+   "qty": 0.8013438549268626,
+   "entry": 0.9202830000000001,
+   "last": 0.88,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-25T22:39:16+00:00",
+   "coin": "YES | BNB price on Nov 26, 2026?",
+   "ticker": "KXBNBD-26NOV2617-T534.99",
+   "side": "yes",
+   "close": "2026-11-26T22:00:00Z",
+   "why": "fav ask 0.91 ทุน 0.920 ปิด 2026-11-26T22:00:00Z"
+  },
+  "KXZAIVREQ-26NOV26-T5P3:yes": {
+   "qty": 0.8013438549268626,
+   "entry": 0.9202830000000001,
+   "last": 0.88,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-25T22:39:16+00:00",
+   "coin": "YES | Z.AI Vercel share of AI Gateway requests across the top labs above 5.3%",
+   "ticker": "KXZAIVREQ-26NOV26-T5P3",
+   "side": "yes",
+   "close": "2026-11-27T04:59:00Z",
+   "why": "fav ask 0.91 ทุน 0.920 ปิด 2026-11-27T04:59:00Z"
   }
  },
  "log": [
@@ -1475,6 +1499,24 @@
    "ret": 0.08662,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-25T22:39:16+00:00",
+   "coin": "YES | BNB price on Nov 26, 2026?",
+   "px": 0.92028,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.91 ทุน 0.920 ปิด 2026-11-26T22:00:00Z",
+   "ask": 0.91
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-25T22:39:16+00:00",
+   "coin": "YES | Z.AI Vercel share of AI Gateway requests across the top labs above 5.3%",
+   "px": 0.92028,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.91 ทุน 0.920 ปิด 2026-11-27T04:59:00Z",
+   "ask": 0.91
   }
  ],
  "seen": null,
@@ -1548,6 +1590,8 @@
   "KXLOWTMIA-26NOV25": 1795645417,
   "KXHYPED-26NOV2617": 1795645417,
   "KXHIGHTLV-26NOV25": 1795645917,
-  "KXBTCD-26NOV2617": 1795645917
+  "KXBTCD-26NOV2617": 1795645917,
+  "KXBNBD-26NOV2617": 1795646354,
+  "KXZAIVREQ-26NOV26": 1795646354
  }
 }
