@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 0.2202243895437482,
- "pos": {
-  "9wRhnwc9P6RxdZw8g47cx5oBenk1C3PHyrPtbSefpump": {
-   "sym": "Pilly",
-   "qty": 502.9701100172893,
-   "entry": 0.0001062,
-   "last": 0.0001062,
-   "peak": 0.0001062,
-   "cost": 0.05505609738593706,
-   "opened": "2026-11-25T07:01:26+07:00",
-   "smart": 6,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 0.2579307278328333,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T09:54:40+07:00",
@@ -1399,8 +1385,23 @@
    "cost_side": 0.03,
    "smart": 6,
    "kol": 0
+  },
+  {
+   "t": "2026-11-25T07:09:25+07:00",
+   "kind": "sell",
+   "mint": "9wRhnwc9P6RxdZw8g47cx5oBenk1C3PHyrPtbSefpump",
+   "sym": "Pilly",
+   "price": 7.727e-05,
+   "entry": 0.0001062,
+   "usd": 0.0377,
+   "pnl": -0.0173,
+   "why": "stop -27.2%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 6,
+   "bundler": null
   }
  ],
  "label": "สูตร x_insider4 (คู่ใหม่ + top trader)",
- "rank_t": 1795564825.5060976
+ "rank_t": 1795565328.286327
 }

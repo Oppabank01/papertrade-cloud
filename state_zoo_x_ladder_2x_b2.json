@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.310786252375614,
+ "cash": 4.76467794733533,
  "pos": {
   "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump": {
    "sym": "4CHAN",
    "qty": 7330.848685410465,
    "entry": 0.0002088,
-   "last": 0.0002082,
+   "last": 0.0002173,
    "peak": 0.0003207,
    "cost": 1.5776965630939035,
    "opened": "2026-11-25T06:40:59+07:00",
@@ -15,6 +15,20 @@
    "smart": 83,
    "kol": 4,
    "gap": 1,
+   "miss": 0
+  },
+  "FScg2SAUTF645h6RhtBS5icytr7jKcfq3UDhXAfspump": {
+   "sym": "KYM",
+   "qty": 8179.030957197839,
+   "entry": 0.0001834,
+   "last": 0.00015463474162774517,
+   "peak": 0.0001834,
+   "cost": 1.5461083050402842,
+   "opened": "2026-11-25T07:10:34+07:00",
+   "zoo": "x_ladder_2x_b2",
+   "smart": 20,
+   "kol": 1,
+   "gap": 6,
    "miss": 0
   }
  },
@@ -375,10 +389,24 @@
    "mint": "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump",
    "sym": "4CHAN",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-25T07:10:34+07:00",
+   "kind": "buy",
+   "mint": "FScg2SAUTF645h6RhtBS5icytr7jKcfq3UDhXAfspump",
+   "sym": "KYM",
+   "price": 0.0001834,
+   "jup": 0.00018310637433208556,
+   "usd": 1.5461,
+   "stop_set": -0.35,
+   "cost_side": 0.03,
+   "zoo": "x_ladder_2x_b2",
+   "smart": 20,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: บันไดขาย ครึ่งที่ x2 trail 30% stop -35%",
- "rank_t": 1795564825.5060976,
+ "rank_t": 1795565328.286327,
  "banned": {
   "AQfw8J74V17erZsmMz4oK474eVLBaP44gD33vVbhtHo5": "ZOL",
   "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": "MCAT",

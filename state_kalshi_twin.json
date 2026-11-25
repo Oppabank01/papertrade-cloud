@@ -2,7 +2,7 @@
  "label": "Kalshi ตัวควบคุม: สุ่มฝั่งในตลาดเดียวกับตัวเต็ง/ตัวรอง",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 2.7714438810639517,
+ "cash": 2.033980754220294,
  "pos": {
   "KX30YMORTW-26NOV25-T7.20:yes": {
    "qty": 0.8543610818706032,
@@ -31,7 +31,7 @@
   "KXDIESELD-26NOV25-T5.760:yes": {
    "qty": 0.7773833148266354,
    "entry": 0.9486479999999999,
-   "last": 0.9,
+   "last": 0.95,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T15:48:36+00:00",
    "coin": "YES | Will Diesel Price on November 25, 2026 be above $5.760?",
@@ -67,7 +67,7 @@
   "KXXRPD-26NOV2517-T0.8799:no": {
    "qty": 6.281467482463463,
    "entry": 0.117403,
-   "last": 0.05,
+   "last": 0.06,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T22:10:57+00:00",
    "coin": "NO | Ripple price at Nov 25, 2026 at 5pm EST?",
@@ -79,7 +79,7 @@
   "KXHYPED-26NOV2517-T56.9999:no": {
    "qty": 4.945168760015945,
    "entry": 0.149128,
-   "last": 0.11,
+   "last": 0.14,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T22:10:57+00:00",
    "coin": "NO | HYPE price on Nov 25, 2026?",
@@ -91,7 +91,7 @@
   "KXETHD-26NOV2517-T1609.99:no": {
    "qty": 5.32206894025026,
    "entry": 0.13856700000000002,
-   "last": 0.11,
+   "last": 0.15,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T22:17:03+00:00",
    "coin": "NO | Ethereum price at Nov 25, 2026 at 5pm EST?",
@@ -103,7 +103,7 @@
   "KXBTCD-26NOV2517-T57999.99:no": {
    "qty": 4.945168760015945,
    "entry": 0.149128,
-   "last": 0.14,
+   "last": 0.18,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T22:17:03+00:00",
    "coin": "NO | Bitcoin price on Nov 25, 2026?",
@@ -115,7 +115,7 @@
   "KXBNBD-26NOV2517-T534.99:no": {
    "qty": 4.080536537670951,
    "entry": 0.180727,
-   "last": 0.16,
+   "last": 0.18,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T22:23:34+00:00",
    "coin": "NO | BNB price on Nov 25, 2026?",
@@ -151,7 +151,7 @@
   "KXOPENSOURCESHARE-26NOV26-T59.6:no": {
    "qty": 13.765060697035144,
    "entry": 0.053575000000000005,
-   "last": 0.03,
+   "last": 0.04,
    "usd": 0.7374631268436579,
    "t": "2026-11-24T22:30:13+00:00",
    "coin": "NO | Will Open vs. Closed Token Volume (open weights share) for Nov 25, 2026 be above 59.6",
@@ -170,6 +170,18 @@
    "ticker": "KXMC-GTA6-98",
    "side": "no",
    "close": "2026-11-26T15:00:00Z",
+   "why": "สุ่มฝั่ง"
+  },
+  "KXSILVERD-26NOV2517-T39.50:no": {
+   "qty": 4.332717186287706,
+   "entry": 0.170208,
+   "last": 0.13,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-25T00:16:25+00:00",
+   "coin": "NO | Will the silver close price be above 39.50 USD/t.oz on November 25, 2026 at 5:00 PM E",
+   "ticker": "KXSILVERD-26NOV2517-T39.50",
+   "side": "no",
+   "close": "2026-11-25T22:00:00Z",
    "why": "สุ่มฝั่ง"
   }
  },
@@ -992,6 +1004,15 @@
    "ret": 0.05413,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-25T00:16:25+00:00",
+   "coin": "NO | Will the silver close price be above 39.50 USD/t.oz on November 25, 2026 at 5:00 PM E",
+   "px": 0.17021,
+   "usd": 0.7374631268436579,
+   "why": "สุ่มฝั่ง",
+   "ask": 0.16
   }
  ],
  "seen": null,
@@ -1042,6 +1063,7 @@
   "KXRAIN-26NOV25": 1795559013,
   "KXHIGHTDC-26NOV25": 1795559412,
   "KXOPENSOURCESHARE-26NOV26": 1795559412,
-  "KXMC-GTA6": 1795559855
+  "KXMC-GTA6": 1795559855,
+  "KXSILVERD-26NOV2517": 1795565784
  }
 }
