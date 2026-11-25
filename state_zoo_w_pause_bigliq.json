@@ -1,33 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.8367253409835023,
+ "cash": 0.8158004695629446,
  "pos": {
-  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
-   "sym": "STONK",
-   "qty": 9.399309053238651,
-   "entry": 0.02871,
-   "last": 0.02743,
-   "peak": 0.02911,
-   "cost": 0.27814281892236825,
-   "opened": "2026-11-25T18:53:11+07:00",
-   "zoo": "w_pause_bigliq",
-   "smart": 1000,
-   "kol": 174,
-   "gap": 0,
-   "miss": 0
-  },
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 53.39699238861388,
    "entry": 0.005012,
-   "last": 0.004969,
+   "last": 0.004954,
    "peak": 0.005133,
    "cost": 0.2758459347059707,
    "opened": "2026-11-25T20:24:30+07:00",
    "zoo": "w_pause_bigliq",
    "smart": 542,
    "kol": 51,
+   "gap": 0,
+   "miss": 0
+  },
+  "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
+   "sym": "baton",
+   "qty": 92.23456373140301,
+   "entry": 0.002858,
+   "last": 0.002858,
+   "peak": 0.002858,
+   "cost": 0.27170313661549145,
+   "opened": "2026-11-25T21:50:51+07:00",
+   "zoo": "w_pause_bigliq",
+   "smart": 737,
+   "kol": 80,
    "gap": 0,
    "miss": 0
   }
@@ -4617,8 +4617,37 @@
    "zoo": "w_pause_bigliq",
    "smart": 542,
    "kol": 51
+  },
+  {
+   "t": "2026-11-25T21:50:51+07:00",
+   "kind": "buy",
+   "mint": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
+   "sym": "baton",
+   "price": 0.002858,
+   "jup": 0.002856944045674371,
+   "usd": 0.2717,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_bigliq",
+   "smart": 737,
+   "kol": 80
+  },
+  {
+   "t": "2026-11-25T21:53:13+07:00",
+   "kind": "sell",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.0275,
+   "entry": 0.02871,
+   "usd": 0.2508,
+   "pnl": -0.0274,
+   "why": "ครบ 3 ชม. (-4.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 1000,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795617651.1517057
+ "rank_t": 1795618159.0181508
 }
