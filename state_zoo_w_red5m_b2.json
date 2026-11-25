@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 3.8524829559257303,
+ "cash": 1.9019545043764339,
  "pos": {
   "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
    "sym": "MANIFEST",
@@ -14,7 +14,7 @@
    "zoo": "w_red5m_b2",
    "smart": 91,
    "kol": 15,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm": {
@@ -35,13 +35,27 @@
    "sym": "ZCAT",
    "qty": 104.33089562714552,
    "entry": 0.01869,
-   "last": 0.01826,
+   "last": 0.017945060256288458,
    "peak": 0.01926,
    "cost": 1.9695911105995805,
    "opened": "2026-11-26T02:17:16+07:00",
    "zoo": "w_red5m_b2",
    "smart": 330,
    "kol": 48,
+   "gap": 4,
+   "miss": 0
+  },
+  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
+   "sym": "CLAUDIA",
+   "qty": 237.40741704513056,
+   "entry": 0.008134,
+   "last": 0.00809,
+   "peak": 0.008147,
+   "cost": 1.9505284515492964,
+   "opened": "2026-11-26T06:14:55+07:00",
+   "zoo": "w_red5m_b2",
+   "smart": 576,
+   "kol": 37,
    "gap": 0,
    "miss": 0
   }
@@ -808,10 +822,24 @@
    "cost_side": 0.01,
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T06:14:55+07:00",
+   "kind": "buy",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.008134,
+   "jup": 0.008137023612470335,
+   "usd": 1.9505,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_red5m_b2",
+   "smart": 576,
+   "kol": 37
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สวนทาง: อายุเกิน 1 วัน pool 200k+ กำลังแดง 5 นาที",
- "rank_t": 1795647839.616136,
+ "rank_t": 1795648403.4776351,
  "banned": {
   "J1Wpmugrooj1yMyQKrdZ2vwRXG5rhfx3vTnYE39gpump": "WOULD",
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings",

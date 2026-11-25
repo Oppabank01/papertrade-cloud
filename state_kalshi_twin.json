@@ -2,7 +2,7 @@
  "label": "Kalshi ตัวควบคุม: สุ่มฝั่งในตลาดเดียวกับตัวเต็ง/ตัวรอง",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 1.7311206715735057,
+ "cash": 0.2561944178861899,
  "pos": {
   "KXWTI-26NOV2514-T79.49:yes": {
    "qty": 0.8269452146281397,
@@ -79,7 +79,7 @@
   "KXXRPD-26NOV2617-T0.8999:yes": {
    "qty": 0.809687227540248,
    "entry": 0.9107999999999999,
-   "last": 0.84,
+   "last": 0.85,
    "usd": 0.7374631268436579,
    "t": "2026-11-25T22:15:17+00:00",
    "coin": "YES | Ripple price at Nov 26, 2026 at 5pm EST?",
@@ -91,13 +91,37 @@
   "KXBNBD-26NOV2617-T534.99:yes": {
    "qty": 0.8013438549268626,
    "entry": 0.9202830000000001,
-   "last": 0.86,
+   "last": 0.87,
    "usd": 0.7374631268436579,
    "t": "2026-11-25T22:39:16+00:00",
    "coin": "YES | BNB price on Nov 26, 2026?",
    "ticker": "KXBNBD-26NOV2617-T534.99",
    "side": "yes",
    "close": "2026-11-26T22:00:00Z",
+   "why": "สุ่มฝั่ง"
+  },
+  "KXGOLDD-26NOV2614-T3478:no": {
+   "qty": 9.84504955269411,
+   "entry": 0.07490700000000002,
+   "last": 0.04,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-25T23:19:30+00:00",
+   "coin": "NO | Will the gold close price be above 3478 USD/t.oz on November 26, 2026 at 2:30 PM EST?",
+   "ticker": "KXGOLDD-26NOV2614-T3478",
+   "side": "no",
+   "close": "2026-11-26T19:30:00Z",
+   "why": "สุ่มฝั่ง"
+  },
+  "KXRAINTHANKSGIVING-26NOV26-ATL:yes": {
+   "qty": 0.7549113938906525,
+   "entry": 0.976887,
+   "last": 0.96,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-25T23:19:30+00:00",
+   "coin": "YES | Will it rain in Atlanta on Thanksgiving?",
+   "ticker": "KXRAINTHANKSGIVING-26NOV26-ATL",
+   "side": "yes",
+   "close": "2026-11-27T04:59:00Z",
    "why": "สุ่มฝั่ง"
   }
  },
@@ -1160,6 +1184,24 @@
    "ret": 0.09794,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-25T23:19:30+00:00",
+   "coin": "NO | Will the gold close price be above 3478 USD/t.oz on November 26, 2026 at 2:30 PM EST?",
+   "px": 0.07491,
+   "usd": 0.7374631268436579,
+   "why": "สุ่มฝั่ง",
+   "ask": 0.07
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-25T23:19:30+00:00",
+   "coin": "YES | Will it rain in Atlanta on Thanksgiving?",
+   "px": 0.97689,
+   "usd": 0.7374631268436579,
+   "why": "สุ่มฝั่ง",
+   "ask": 0.97
   }
  ],
  "seen": null,
@@ -1218,6 +1260,8 @@
   "KXUST30AD-26NOV25": 1795616608,
   "KXDIESELD-26NOV26": 1795627119,
   "KXXRPD-26NOV2617": 1795644915,
-  "KXBNBD-26NOV2617": 1795646354
+  "KXBNBD-26NOV2617": 1795646354,
+  "KXGOLDD-26NOV2614": 1795648768,
+  "KXRAINTHANKSGIVING-26NOV26": 1795648768
  }
 }
