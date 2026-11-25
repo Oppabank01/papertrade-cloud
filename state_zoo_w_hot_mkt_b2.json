@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 4.421128104487179,
+ "cash": 2.2058121567032645,
  "pos": {
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 435.8918064822295,
    "entry": 0.005006,
-   "last": 0.005002,
+   "last": 0.00503,
    "peak": 0.005044,
    "cost": 2.204059880558613,
    "opened": "2026-11-25T22:28:42+07:00",
@@ -21,8 +21,8 @@
    "sym": "jobcoin",
    "qty": 200.53475631791892,
    "entry": 0.01086,
-   "last": 0.01099,
-   "peak": 0.01106,
+   "last": 0.01113,
+   "peak": 0.01117,
    "cost": 2.199749959458195,
    "opened": "2026-11-25T23:50:38+07:00",
    "zoo": "w_hot_mkt_b2",
@@ -35,14 +35,28 @@
    "sym": "neet",
    "qty": 117.93069602510266,
    "entry": 0.01843,
-   "last": 0.0186,
-   "peak": 0.01872,
+   "last": 0.01895,
+   "peak": 0.01924,
    "cost": 2.1953614582890757,
    "opened": "2026-11-25T23:50:40+07:00",
    "zoo": "w_hot_mkt_b2",
    "smart": 894,
    "kol": 205,
-   "gap": 5,
+   "gap": 0,
+   "miss": 0
+  },
+  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
+   "sym": "STONK",
+   "qty": 77.30765495963237,
+   "entry": 0.02837,
+   "last": 0.02852,
+   "peak": 0.02852,
+   "cost": 2.215315947783915,
+   "opened": "2026-11-26T00:13:44+07:00",
+   "zoo": "w_hot_mkt_b2",
+   "smart": 1000,
+   "kol": 174,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -622,10 +636,24 @@
    "zoo": "w_hot_mkt_b2",
    "smart": 894,
    "kol": 205
+  },
+  {
+   "t": "2026-11-26T00:13:44+07:00",
+   "kind": "buy",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.02837,
+   "jup": 0.028356856804048217,
+   "usd": 2.2153,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_hot_mkt_b2",
+   "smart": 1000,
+   "kol": 174
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดร้อน: กฎ w_aged_nostop เฉพาะรอบที่เหรียญ 74%+ ขึ้นใน 1 ชม.",
- "rank_t": 1795626232.8729904,
+ "rank_t": 1795626716.591197,
  "banned": {
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": "OTC"
  }
