@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 13.25791098929476,
+ "cash": 12.561909000129159,
  "pos": {
   "34As1e1Kop9zBvu5e84kjg452Uigq8krcoGEJiWRpump": {
    "sym": "UHI",
    "qty": 1120.9340289993095,
    "entry": 0.0006201,
-   "last": 0.0005995,
+   "last": 0.0005903,
    "peak": 0.0006304,
    "cost": 0.7164411372732136,
    "opened": "2026-11-25T10:24:25+07:00",
    "zoo": "x_toaster_score",
    "smart": 16,
    "kol": 0,
+   "gap": 2,
+   "miss": 0
+  },
+  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
+   "sym": "mihao",
+   "qty": 138.37318235419414,
+   "entry": 0.00488,
+   "last": 0.004808,
+   "peak": 0.00488,
+   "cost": 0.6960019891656024,
+   "opened": "2026-11-25T16:44:13+07:00",
+   "zoo": "x_toaster_score",
+   "smart": 809,
+   "kol": 75,
    "gap": 0,
    "miss": 0
   }
@@ -414,8 +428,22 @@
    "cost_side": 0.03,
    "smart": 572,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T16:44:13+07:00",
+   "kind": "buy",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.00488,
+   "jup": 0.004853315583822784,
+   "usd": 0.696,
+   "stop_set": -0.06,
+   "cost_side": 0.03,
+   "zoo": "x_toaster_score",
+   "smart": 809,
+   "kol": 75
   }
  ],
  "label": "สวนสัตว์: บอท paper เหรียญมีม Solana (MyToasterIsCrying): อายุ 30 นาทีขึ้นไป สภาพคล่อง 25k+ ขึ้นทั้ง 5 นาทีและ 1 ชม. stop -6% เป้า +12%",
- "rank_t": 1795599411.006192
+ "rank_t": 1795599775.731452
 }
