@@ -2554,5 +2554,68 @@
   "summary": "ได้แต่โพสต์อวดผล Grok Bot ของ 0xJamino ($500 เป็น $9,914 ใน 24 ชม. win 85% อ้าง repo FinRL Jesse Cryptofeed ไม่มีกฎ ลงฟีดแล้วหลายรอบ), โพสต์โปรโมต FensoryApp, โพสต์แนะนำ NautilusTrader คำค้นภาษาไทยและ grok rules ไม่มีผล",
   "verdict": "ไอเดีย",
   "action": "ไม่มีกฎที่สคริปต์ตัดสินได้ ผลอวด 24 ชม. win 78 ถึง 85% ไม่มีรายการเทรดให้ตรวจ ไม่เพิ่มอะไร"
+ },
+ {
+  "t": "2026-11-25T17:33:00+07:00",
+  "source": "github",
+  "title": "Jitheandra98/strategy-research-lab: ทิศเช้าของทองไหลถึงปิดตลาด 13:30 ET (งานทดสอบล่วงหน้า 5,668 กฎบนทองล่วงหน้า)",
+  "url": "https://github.com/Jitheandra98/strategy-research-lab",
+  "summary": "คนทำทดสอบกฎเทรดทองล่วงหน้า 5,668 แบบแบบเขียนสเปกก่อน แบ่งข้อมูลตามเวลา และเทียบเข้าสุ่ม ไม่มีกฎไหนผ่าน มีแค่ผลจริงแต่เล็กกว่าต้นทุน เช่นทิศช่วงเช้าไหลต่อถึงปิด 13:30 ET (t 4.8) และช่วงเปิดตลาดรอบเย็น",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest Binance 30 นาที พ.ย. 63 ถึง 25 พ.ย. 69 ทิศ 08:30 ถึง 13:00 ET แล้วถือ 13:00 ถึง 13:30 หลังหัก 0.35%/ข้าง: PAXG 1,521 ไม้ -0.71% BTC 1,571 ไม้ -0.69% ETH 1,570 ไม้ -0.71% ต่อไม้ ก่อนหัก -0.01/+0.01/-0.01% ตัวแฝดฝั่งสุ่ม -0.70/-0.70/-0.69% เกณฑ์ขนาด 0.5% และ 1% กับ long อย่างเดียวไม่ดีขึ้น permutation 200 รอบ 3 ปีล่าสุด ดีสุดจาก 6 แบบ p 0.67/0.14/0.27 ไม่ผ่าน ช่วงเปิดรอบเย็น long 17:00 ถึง 18:00 ET ก่อนหัก +0.01/+0.06/+0.09% หลังหัก -0.61 ถึง -0.69% เปิด fwd_mmom.py (PAXG BTC ETH ตัวแฝดวันสุ่มฝั่งสุ่ม) test เดินทีละแท่งตรง backtest 17 ไม้ต่อเหรียญ ผลจะเป็นต้นทุนล้วนเพราะแท่งครึ่งชั่วโมงขยับน้อยกว่า 0.7%"
+ },
+ {
+  "t": "2026-11-25T17:33:00+07:00",
+  "source": "github",
+  "title": "masadawasesa-cloud/btc-race-bot: ซื้อตามแรง +0.5% ใน 1 ชม. trail 2.5% (บอทแข่ง make.fun btc-race-24h)",
+  "url": "https://github.com/masadawasesa-cloud/btc-race-bot",
+  "summary": "บอทแข่ง 24 ชม. ซื้อเต็มตักเมื่อปิดสูงกว่า 1 ชม. ก่อน 0.5% ขายเมื่อต่ำกว่าปิดสูงสุด 2.5% เข้าใหม่ได้ครั้งเดียวเมื่อทะลุจุดสูงสุดเดิม ไม่มีไม้ถึงครึ่งทางให้ซื้อ อ้าง +29.50 USDC ในหน้าต่าง dev ของงานแข่ง",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest Binance 5 นาที 365 วัน แข่งวันละรอบตามวัน UTC หลังหัก 0.35%/ข้าง: BTC 371 ไม้ -0.81% ETH 383 ไม้ -0.69% SOL 405 ไม้ -0.78% ต่อไม้ ก่อนหัก -0.11/+0.01/-0.08% ชนะ 24 ถึง 29% ตัวแฝดเข้าสุ่ม -0.79/-0.72/-0.81% permutation 200 รอบ p 0.87/0.14/0.54 ไม่ต่างจากสุ่ม ติดลบ 12 ใน 13 เดือน (ถือเฉยๆ -33 ถึง -50%) เปิด fwd_race24.py test เดินทีละแท่งตรง backtest และ trades() ตรง backtest BTC 371 SOL 405 ไม้"
+ },
+ {
+  "t": "2026-11-25T17:33:00+07:00",
+  "source": "github",
+  "title": "yudhisutawan/u-riidzhsn-pump-fun-bot-sprint: Rider ซื้อใกล้ราคาเปิด curve แล้วเติมตามแรง (บอทแข่ง make.fun)",
+  "url": "https://github.com/yudhisutawan/u-riidzhsn-pump-fun-bot-sprint-make-bot-and-win-cb203fed",
+  "summary": "บอท bonding curve ซื้อเหรียญที่ราคายังไม่เกิน create +10% มีคนซื้อ 2 ถึง 20 คน เงินไหลเข้าสุทธิ ขาย TP +12% stop -10% trail 20% เมื่อขึ้น 5% ถือไม่เกิน 100 slot replay 24 ชม. อ้าง +0.104 SOL 115 ไม้ ชนะ 25",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_rider (night ยังอยู่บน curve อายุไม่เกิน 30 นาที ขึ้น 5 นาทีและ 1 ชม. ไม่เกิน 10% up buys 2+ สภาพคล่อง 1k stop -10% TP +12% trail 20% เมื่อขึ้น 5% ถือ 3 นาที ไม้ละ 3%) ตัวเลขที่แปลงเองอยู่ใน note ต้นทุน zoo 3%/ข้าง เกือบครึ่งของเป้า import zoo ไม่มี skip test_zoo ผ่าน"
+ },
+ {
+  "t": "2026-11-25T17:33:00+07:00",
+  "source": "github",
+  "title": "jehan771/pump-fun-paper-sprint-any-bot-can-win: ช้อนย่อของเหรียญที่เพิ่งพุ่ง 2 เท่า (บอทแข่ง make.fun)",
+  "url": "https://github.com/jehan771/pump-fun-paper-sprint-any-bot-can-win",
+  "summary": "ซื้อเหรียญอายุไม่เกิน 60 นาทีที่พุ่ง 2 เท่าจากราคาเปิดแล้วย่อเหลือไม่เกิน 80% ของยอด TP +30% stop -10% ถือ 600 วินาที replay อ้าง +0.481 SOL 217 เหรียญ แต่ stress test ของเขาเองมัธยฐาน -0.92 SOL แพ้ 4 ใน 5",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_runner_dip (night ยังอยู่บน curve อายุไม่เกิน 1 ชม. ขึ้น 1 ชม. 100%+ 5 นาที -20% ลงไป สภาพคล่อง 1k stop -10% TP +30% ถือ 10 นาที ไม้ละ 3%) ตัวเลขที่แปลงเองอยู่ใน note import zoo ไม่มี skip test_zoo ผ่าน"
+ },
+ {
+  "t": "2026-11-25T17:33:00+07:00",
+  "source": "github",
+  "title": "กลุ่ม repo Polymarket/Kalshi arbitrage ดาวปั่น (MikhailMa649 ดาว 207, dianenelson33 ดาว 132, cortesprospera777-maker, ViMonts12)",
+  "url": "https://github.com/MikhailMa649/polymarket-trading-bot-clob-arbitrage",
+  "summary": "repo สร้าง 24 ถึง 25 พ.ย. ดาวพุ่งในวันเดียว คำอธิบายแบบ Standalone Windows Release, Setup & Config แบบเดียวกับ repo มัลแวร์ที่เคยเจอ",
+  "verdict": "ตัดทิ้ง",
+  "action": "ต้องโหลดและรันโปรแกรม Windows ที่ไม่มีซอร์ส ดูเป็นมัลแวร์ ไม่ได้เปิด"
+ },
+ {
+  "t": "2026-11-25T17:33:00+07:00",
+  "source": "x",
+  "title": "ค้น X 3 ครั้งรอบ 17:19 (claude code trading bot strategy, polymarket bot strategy backtest, บอทเทรดทอง)",
+  "url": "https://x.com/iqtauhid/status/2125266734340886956",
+  "summary": "ได้แต่โพสต์ที่ลงฟีดแล้ว (1budless, sopersone, DaviddDotTech, sayervonn, 0xKorens, quietoraclex) ใหม่มี iqtauhid บอท Polymarket ดู 9,521 สัญญาณเข้า 26 ไม้ (ไม่มีกฎ) และ maxnetlove007 สรุปตารางของ sopersone ว่าตัวดีสุด 25 ปีได้แค่ 3.44% ต่อปี",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎที่สคริปต์ตัดสินได้ ไม่ได้เพิ่ม"
+ },
+ {
+  "t": "2026-11-25T17:33:00+07:00",
+  "source": "web",
+  "title": "ค้นงานวิจัย intraday momentum ทองกับ BTC (ครึ่งชั่วโมงแรกทายครึ่งชั่วโมงสุดท้าย)",
+  "url": "https://www3.nd.edu/~zda/intramom.pdf",
+  "summary": "ไม่เจองานปี 2026 ใหม่ ได้งานเดิม Gao และคณะ (SPY 1993 ถึง 2013) กับ Baltussen และคณะ (JFE 2021 futures 60 ตัว) ซึ่งเป็นที่มาของท่าทิศเช้าไหลถึงปิดตลาด",
+  "verdict": "ทดสอบแล้ว",
+  "action": "ใช้เป็นพื้นฐานของการทดสอบ fwd_mmom บน PAXG BTC ETH ดูตัวเลขในรายการ Jitheandra98"
  }
 ]
