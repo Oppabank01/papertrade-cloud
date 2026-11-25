@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 4.936241698831036,
+ "cash": 6.480496888858138,
  "pos": {
-  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
-   "sym": "Buttcoin",
-   "qty": 317.8924459430478,
-   "entry": 0.005012,
-   "last": 0.005007,
-   "peak": 0.005133,
-   "cost": 1.6422149444099727,
-   "opened": "2026-11-25T20:24:26+07:00",
-   "zoo": "bigliqRC_b2",
-   "smart": 542,
-   "kol": 51,
-   "gap": 0,
-   "miss": 0
-  },
   "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
    "sym": "MANIFEST",
    "qty": 646.7807513517155,
    "entry": 0.002449,
-   "last": 0.002316,
+   "last": 0.002318,
    "peak": 0.002471,
    "cost": 1.6326180788088551,
    "opened": "2026-11-25T20:32:06+07:00",
@@ -1405,10 +1391,25 @@
    "mint": "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
    "sym": "MANIFEST",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-25T23:24:42+07:00",
+   "kind": "sell",
+   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+   "sym": "Buttcoin",
+   "price": 0.005007,
+   "entry": 0.005012,
+   "usd": 1.5443,
+   "pnl": -0.098,
+   "why": "ครบ 3 ชม. (-0.1%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 542,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ผ่าน RugCheck เช็กราคาทุก 20 วิ",
- "rank_t": 1795623271.8476489,
+ "rank_t": 1795623698.715854,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",

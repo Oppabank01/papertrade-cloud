@@ -1,17 +1,46 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.705882352941176,
- "cash": 14.705882352941176,
+ "cash": 14.615665430517293,
  "pos": {},
  "log": [
   {
    "t": "2026-11-25T10:42:34+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-25T23:23:45+07:00",
+   "kind": "buy",
+   "mint": "Bg74niwsyZFFxPhY8J47crDtDSUctKZEb1AuZL93pump",
+   "sym": "MONEY",
+   "price": 0.0001736,
+   "jup": 0.00017353067246906576,
+   "usd": 0.4412,
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "zoo": "x_secondwind",
+   "smart": 102,
+   "kol": 2
+  },
+  {
+   "t": "2026-11-25T23:27:17+07:00",
+   "kind": "sell",
+   "mint": "Bg74niwsyZFFxPhY8J47crDtDSUctKZEb1AuZL93pump",
+   "sym": "MONEY",
+   "price": 0.00014671411576880518,
+   "entry": 0.0001736,
+   "usd": 0.351,
+   "pnl": -0.0902,
+   "why": "stop -15.5%",
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "smart": 102,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: Second-Wind Breakout (Rezzrizz25 บอทแข่ง make.fun) แบบที่ zoo เช็กได้: อายุไม่เกิน 1 ชม. ขึ้น 5 นาที 20 ถึง 100% ขึ้น 1 นาที ซื้อมากกว่าขาย สภาพคล่อง 20k+ stop -10% TP +20% trail 5% เมื่อขึ้น 10% ถือ 24 นาที",
  "night": "2026-11-25",
  "night_start": 14.705882352941176,
- "rank_t": 1795623271.8476489
+ "rank_t": 1795623698.715854
 }

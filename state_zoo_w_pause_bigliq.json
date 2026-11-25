@@ -1,33 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.8158004695629446,
+ "cash": 0.8044552827988307,
  "pos": {
-  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
-   "sym": "Buttcoin",
-   "qty": 53.39699238861388,
-   "entry": 0.005012,
-   "last": 0.005007,
-   "peak": 0.005133,
-   "cost": 0.2758459347059707,
-   "opened": "2026-11-25T20:24:30+07:00",
-   "zoo": "w_pause_bigliq",
-   "smart": 542,
-   "kol": 51,
-   "gap": 0,
-   "miss": 0
-  },
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 92.23456373140301,
    "entry": 0.002858,
-   "last": 0.002933,
-   "peak": 0.00294,
+   "last": 0.002961,
+   "peak": 0.002961,
    "cost": 0.27170313661549145,
    "opened": "2026-11-25T21:50:51+07:00",
    "zoo": "w_pause_bigliq",
    "smart": 737,
    "kol": 80,
+   "gap": 0,
+   "miss": 0
+  },
+  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
+   "sym": "CLAUDIA",
+   "qty": 35.524572002645556,
+   "entry": 0.007394,
+   "last": 0.007422,
+   "peak": 0.007465,
+   "cost": 0.2707366371753879,
+   "opened": "2026-11-25T23:22:43+07:00",
+   "zoo": "w_pause_bigliq",
+   "smart": 576,
+   "kol": 37,
    "gap": 0,
    "miss": 0
   }
@@ -4646,10 +4646,42 @@
    "cost_side": 0.03,
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T23:22:40+07:00",
+   "kind": "resume",
+   "why": "ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-25T23:22:43+07:00",
+   "kind": "buy",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.007394,
+   "jup": 0.007445243787273212,
+   "usd": 0.2707,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_bigliq",
+   "smart": 576,
+   "kol": 37
+  },
+  {
+   "t": "2026-11-25T23:24:42+07:00",
+   "kind": "sell",
+   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+   "sym": "Buttcoin",
+   "price": 0.005007,
+   "entry": 0.005012,
+   "usd": 0.2594,
+   "pnl": -0.0165,
+   "why": "ครบ 3 ชม. (-0.1%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 542,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795623271.8476489,
- "halted": "ราคา baton สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ",
- "halted_until": "2026-11-25T23:10:25+07:00"
+ "rank_t": 1795623698.715854
 }

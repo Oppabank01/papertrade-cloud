@@ -1,20 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 7.820328390357626,
+ "cash": 5.883488072517718,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 96.82458175802144,
    "entry": 0.01978,
-   "last": 0.01872,
+   "last": 0.0197,
    "peak": 0.02018,
    "cost": 1.9344867323286423,
    "opened": "2026-11-25T17:54:46+07:00",
    "zoo": "w_red5m_b2",
    "smart": 1000,
    "kol": 187,
-   "gap": 4,
+   "gap": 0,
+   "miss": 0
+  },
+  "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": {
+   "sym": "MANIFEST",
+   "qty": 825.8054847844336,
+   "entry": 0.002322,
+   "last": 0.002318,
+   "peak": 0.002322,
+   "cost": 1.9368403178399078,
+   "opened": "2026-11-25T23:23:07+07:00",
+   "zoo": "w_red5m_b2",
+   "smart": 91,
+   "kol": 15,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -702,10 +716,24 @@
    "cost_side": 0.01,
    "smart": 735,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T23:23:07+07:00",
+   "kind": "buy",
+   "mint": "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
+   "sym": "MANIFEST",
+   "price": 0.002322,
+   "jup": 0.0023139303393096447,
+   "usd": 1.9368,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_red5m_b2",
+   "smart": 91,
+   "kol": 15
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สวนทาง: อายุเกิน 1 วัน pool 200k+ กำลังแดง 5 นาที",
- "rank_t": 1795623271.8476489,
+ "rank_t": 1795623698.715854,
  "banned": {
   "J1Wpmugrooj1yMyQKrdZ2vwRXG5rhfx3vTnYE39gpump": "WOULD",
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings",
