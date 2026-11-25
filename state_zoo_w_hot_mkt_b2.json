@@ -1,41 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 4.609829027959133,
+ "cash": 9.141751918934581,
  "pos": {
-  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
-   "sym": "ANSEM",
-   "qty": 108.54727561528462,
-   "entry": 0.02061,
-   "last": 0.02271,
-   "peak": 0.02465,
-   "cost": 2.2596998564995996,
-   "opened": "2026-11-25T00:35:50+07:00",
-   "zoo": "w_hot_mkt_b2",
-   "smart": 1000,
-   "kol": 187,
-   "gap": 0,
-   "miss": 0
-  },
-  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
-   "sym": "mihao",
-   "qty": 393.98203944360444,
-   "entry": 0.005667,
-   "last": 0.005311,
-   "peak": 0.005776,
-   "cost": 2.255191755285883,
-   "opened": "2026-11-25T00:35:50+07:00",
-   "zoo": "w_hot_mkt_b2",
-   "smart": 807,
-   "kol": 75,
-   "gap": 0,
-   "miss": 0
-  },
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": {
    "sym": "OTC",
    "qty": 1139.624501464258,
    "entry": 0.001991,
-   "last": 0.001716,
+   "last": 0.001758,
    "peak": 0.002002,
    "cost": 2.291853622297758,
    "opened": "2026-11-25T02:55:54+07:00",
@@ -535,10 +507,40 @@
    "cost_side": 0.01,
    "smart": 572,
    "bundler": null
+  },
+  {
+   "t": "2026-11-25T12:36:00+07:00",
+   "kind": "sell",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.02292,
+   "entry": 0.02061,
+   "usd": 2.4631,
+   "pnl": 0.2034,
+   "why": "ครบ 12 ชม. (+11.2%)",
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "smart": 1000,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-25T12:36:00+07:00",
+   "kind": "sell",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.005304,
+   "entry": 0.005667,
+   "usd": 2.0688,
+   "pnl": -0.1864,
+   "why": "ครบ 12 ชม. (-6.4%)",
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "smart": 807,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดร้อน: กฎ w_aged_nostop เฉพาะรอบที่เหรียญ 74%+ ขึ้นใน 1 ชม.",
- "rank_t": 1795584438.5864482,
+ "rank_t": 1795584816.509473,
  "banned": {
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": "OTC"
  }
