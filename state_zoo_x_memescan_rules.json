@@ -1,51 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.701558365186711,
- "cash": 13.161875491336737,
- "pos": {
-  "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
-   "sym": "FIONA",
-   "qty": 188.42076520348937,
-   "entry": 0.002271,
-   "last": 0.002846023399419412,
-   "peak": 0.002937,
-   "cost": 0.4410467509556013,
-   "opened": "2026-11-25T21:01:22+07:00",
-   "zoo": "x_memescan_rules",
-   "smart": 442,
-   "kol": 26,
-   "gap": 1,
-   "miss": 0
-  },
-  "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": {
-   "sym": "DCTY",
-   "qty": 480.6904101342706,
-   "entry": 0.0008878,
-   "last": 0.001089,
-   "peak": 0.001219,
-   "cost": 0.4398649207557261,
-   "opened": "2026-11-25T21:01:26+07:00",
-   "zoo": "x_memescan_rules",
-   "smart": 740,
-   "kol": 69,
-   "gap": 0,
-   "miss": 0
-  },
-  "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
-   "sym": "CBUCKS",
-   "qty": 84.63188277240505,
-   "entry": 0.005038,
-   "last": 0.005746,
-   "peak": 0.005917,
-   "cost": 0.43947168151657046,
-   "opened": "2026-11-25T21:01:32+07:00",
-   "zoo": "x_memescan_rules",
-   "smart": 42,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 14.714176543823472,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-25T12:27:52+07:00",
@@ -151,11 +108,56 @@
    "cost_side": 0.03,
    "smart": 182,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T03:01:35+07:00",
+   "kind": "sell",
+   "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
+   "sym": "FIONA",
+   "price": 0.003095,
+   "entry": 0.002271,
+   "usd": 0.5658,
+   "pnl": 0.1247,
+   "why": "ครบ 6 ชม. (+36.3%)",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": 442,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-26T03:01:35+07:00",
+   "kind": "sell",
+   "mint": "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump",
+   "sym": "DCTY",
+   "price": 0.001088,
+   "entry": 0.0008878,
+   "usd": 0.5074,
+   "pnl": 0.0675,
+   "why": "ครบ 6 ชม. (+22.6%)",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": 740,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-26T03:01:35+07:00",
+   "kind": "sell",
+   "mint": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+   "sym": "CBUCKS",
+   "price": 0.005835,
+   "entry": 0.005038,
+   "usd": 0.4791,
+   "pnl": 0.0396,
+   "why": "ครบ 6 ชม. (+15.8%)",
+   "stop_set": -0.18,
+   "cost_side": 0.03,
+   "smart": 42,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: memescan (R0OTZ) แบบที่ zoo เช็กได้: สภาพคล่อง 15k+ มาร์เก็ตแคป 50k ถึง 20M อายุ 15 นาที+ ขึ้น 1 ชม. ไม่เกิน 120% RugCheck stop -18% ขายครึ่งที่ x2 trail 25% ถือ 6 ชม.",
  "night": "2026-11-25",
  "night_start": 14.701558365186711,
- "rank_t": 1795635927.9399717,
+ "rank_t": 1795636664.1709328,
  "halted": "ราคา JaoJiu สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }
