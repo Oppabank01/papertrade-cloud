@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 0.9560768272304875,
+ "cash": 0.6660435082023085,
  "pos": {
   "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": {
    "sym": "paws",
    "qty": 5845.822752464019,
    "entry": 0.0003469,
-   "last": 0.0004008,
+   "last": 0.0004094,
    "peak": 0.0004199,
    "cost": 2.0902039917849597,
    "opened": "2026-11-25T07:40:40+07:00",
@@ -21,7 +21,7 @@
    "sym": "HOTBOT",
    "qty": 1993.3441562942703,
    "entry": 0.0007285,
-   "last": 0.0006659,
+   "last": 0.0006733,
    "peak": 0.0007285,
    "cost": 1.4967545020205895,
    "opened": "2026-11-26T01:06:00+07:00",
@@ -35,14 +35,14 @@
    "sym": "Mogmas",
    "qty": 19961.4319554746,
    "entry": 6.559e-05,
-   "last": 6.547e-05,
+   "last": 6.355405453573508e-05,
    "peak": 7.061e-05,
    "cost": 1.3494849741904544,
    "opened": "2026-11-26T06:14:44+07:00",
    "zoo": "x_smartflow_lowcap_b2",
    "smart": 110,
    "kol": 6,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -1437,10 +1437,39 @@
    "cost_side": 0.03,
    "smart": 82,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T06:56:24+07:00",
+   "kind": "buy",
+   "mint": "HWqqNLpcHvxJpNy43FJwnS1xDNsvobYtpLK8ostWhQwM",
+   "sym": "PLAZA",
+   "price": 8.597e-05,
+   "jup": 8.522250643045041e-05,
+   "usd": 0.9561,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "x_smartflow_lowcap_b2",
+   "smart": 17,
+   "kol": 1
+  },
+  {
+   "t": "2026-11-26T07:01:52+07:00",
+   "kind": "sell",
+   "mint": "HWqqNLpcHvxJpNy43FJwnS1xDNsvobYtpLK8ostWhQwM",
+   "sym": "PLAZA",
+   "price": 6.362593737247229e-05,
+   "entry": 8.597e-05,
+   "usd": 0.666,
+   "pnl": -0.29,
+   "why": "stop -26.0%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 17,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: smart money เข้า 3+ มาร์เก็ตแคปต่ำ ขายครึ่งที่ x2",
- "rank_t": 1795650409.303156,
+ "rank_t": 1795650934.8010302,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "GNHW5JetZmW85vAU35KyoDcYoSd3sNWtx5RPMTDJpump": "GOAT",
