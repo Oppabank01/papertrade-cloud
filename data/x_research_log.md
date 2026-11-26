@@ -898,3 +898,14 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 เพิ่ม x_: ไม่มี (รอบนี้ไม่เจอกฎเหรียญมีมใหม่)
 ไอเดีย: BTC คุม QQQ/SHY ควรเปิด forward แบบ fwd_rsi2us โดยเธรดหลัก (ราคา QQQ SHY มาจาก Yahoo ไม่ใช่ byttrade.fetch), โพสต์ Grok Bot ชุดใหม่ (ต้องเธรดเต็มหรือกระเป๋าจริง)
 ตัดทิ้ง: Hot Bot ของ VoidScout (ต้องสมัครเบต้า)
+
+## 2026-11-27 05:04 (scout)
+ค้น: GitHub repo ใหม่ (parabolic sar ตั้งแต่ 1 พ.ย., aroon ตั้งแต่ 15 ต.ค., squeeze momentum ตั้งแต่ 1 พ.ย. ไม่ได้ผลลัพธ์, crypto trading agent ตั้งแต่ 20 พ.ย., backtest ตั้งแต่ 22 พ.ย., strategy bitcoin ตั้งแต่ 22 พ.ย.), X 3 ครั้ง (parabolic sar strategy crypto backtest ไม่ได้ผลลัพธ์, solana sniper bot rules take profit, turtle trading crypto backtest ไม่ได้ผลลัพธ์), WebSearch 1 ครั้ง (ผล backtest Parabolic SAR บน Bitcoin ปี 2026)
+เจอ: ezmal2003-commits/btc-aroon-paper (เอเจนต์ Aroon 14 ให้ UP เมื่อ oscillator เกิน +50 DOWN ต่ำกว่า -50), ซีรีส์ dev.to howiprompt ให้เอเจนต์ AI ปรับท่า Parabolic SAR (อ้าง SOL +574% แต่ยอมรับว่าผลหายเมื่อทดสอบยาวขึ้น), Prydae/kalshi-btc-audit (ป้ายผลตัดสินผิด 7.95% ทำให้ edge ปลอม), DeanTerrizzi/poly-btc-research-bot (ตลาด BTC 5/15 นาทีของ Polymarket ไม่มีท่าไหนชนะหลังหักค่าธรรมเนียม), repo "for Windows 10/11" ดาวพุ่งชุดใหม่ 4 ตัว, X ได้แต่โฆษณาโต๊ะบอท Grok (alpha404ai, Noxen_ox) ส่วน byttrade/free-crypto-trading-bot มีในฟีดแล้ว
+ทดสอบแล้ว (Binance 4 ชม. 2017 ถึง 26 พ.ย. 69 long อย่างเดียว หลังหัก 0.35%/ข้าง):
+- Parabolic SAR 0.02/0.02/0.2: BTC 779 ไม้ -0.22% ต่อไม้ มัธยฐาน -1.47% ชนะ 33% ETH 783 ไม้ -0.41% SOL 563 ไม้ +0.15% BNB 759 ไม้ +0.42% XRP 660 ไม้ +0.01% ตัวแฝดเข้าสุ่มออกแบบเดียวกัน -0.43 ถึง +0.63% ใกล้กัน ตั้งแต่ 2025 -0.37 ถึง -1.00% ต่อไม้ ก่อนหักราว +0.3 ถึง +1.1% ต้นทุนกินเกือบหมด permutation 200 รอบบน 6,000 แท่งล่าสุด กริด 3 แบบ (0.02/0.2, 0.01/0.1, 0.02/0.1) p 0.637/0.308/0.403/0.433/0.075 ไม่ผ่าน
+- Aroon 14 +50/-50 ของ repo: BTC 400 ไม้ +0.15% มัธยฐาน -1.70% ETH 406 ไม้ +0.57% SOL 286 ไม้ +0.29% BNB 393 ไม้ +1.51% XRP 364 ไม้ +0.71% ตัวแฝดเข้าสุ่ม +0.00 ถึง +1.40% ใกล้หรือดีกว่า ตั้งแต่ 2025 -0.25 ถึง -1.42% ต่อไม้ ทบต้นแพ้ถือเฉยๆ ทุกเหรียญ permutation 200 รอบกริด 3 แบบ (14/50, 25/50, 14/70) p 0.373/0.453/0.950/0.542/0.129 ไม่ผ่าน
+เปิดบัญชี: fwd_psar.py (ตัวแฝดสุ่ม 1 ใน 13 แท่ง test เดินทีละแท่งตรง backtest 192 ไม้) และ fwd_aroon.py (ตัวแฝดสุ่ม 1 ใน 25 แท่ง test ตรง 113 ไม้) เปิดทั้งที่ไม่ผ่านเพราะผู้ใช้ให้ลองท่าอ่อน ค่า SAR เป็นค่าตำราของ Wilder ที่เลือกเอง Aroon ใช้แท่ง 4 ชม. แทน 1 ชม. ของ repo สคริปต์ /tmp/scout_0504/sar.py
+เพิ่ม x_: ไม่มี (รอบนี้ไม่เจอกฎเหรียญมีมใหม่)
+ไอเดีย: Prydae/kalshi-btc-audit กับ DeanTerrizzi/poly-btc-research-bot (ต้องข้อมูลตลาดทำนายรายวินาทีและผลตัดสินทางการ ใช้เป็นบทเรียนว่าตลาด 5/15 นาทีต้องตัดสินด้วยผลของตลาดเอง), โพสต์โต๊ะบอท Grok (ต้องเธรดเต็มหรือกระเป๋าจริง)
+ตัดทิ้ง: Keith-web242/multicharts, forgedeploy/ninjatrader-7, ellisharish/metatrader-4, dangduc681/amibroker (แจกตัวติดตั้ง Windows ทรงมัลแวร์)
