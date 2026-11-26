@@ -7,14 +7,14 @@
    "sym": "CATE",
    "qty": 129.14307668018807,
    "entry": 0.0179,
-   "last": 0.0173,
+   "last": 0.01725,
    "peak": 0.01804,
    "cost": 2.3349522209796385,
    "opened": "2026-11-26T11:29:54+07:00",
    "zoo": "w_hot_mkt_b2",
    "smart": 986,
    "kol": 112,
-   "gap": 0,
+   "gap": 2,
    "miss": 0
   },
   "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
@@ -35,7 +35,7 @@
    "sym": "GTA6",
    "qty": 867.5237804639587,
    "entry": 0.002657,
-   "last": 0.002005742597767471,
+   "last": 0.0020142775460644693,
    "peak": 0.002657,
    "cost": 2.328234827092991,
    "opened": "2026-11-26T12:11:07+07:00",
@@ -49,14 +49,14 @@
    "sym": "baton",
    "qty": 631.6082919031843,
    "entry": 0.003472,
-   "last": 0.0034363239206375833,
+   "last": 0.003472,
    "peak": 0.003472,
    "cost": 2.2150390035482497,
    "opened": "2026-11-26T13:47:14+07:00",
    "zoo": "w_hot_mkt_b2",
    "smart": 739,
    "kol": 80,
-   "gap": 12,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -780,13 +780,21 @@
    "zoo": "w_hot_mkt_b2",
    "smart": 739,
    "kol": 80
+  },
+  {
+   "t": "2026-11-26T14:01:22+07:00",
+   "kind": "ban",
+   "mint": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
+   "sym": "baton",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดร้อน: กฎ w_aged_nostop เฉพาะรอบที่เหรียญ 74%+ ขึ้นใน 1 ชม.",
- "rank_t": 1795675993.967885,
+ "rank_t": 1795676440.1648722,
  "banned": {
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": "OTC",
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": "Buttcoin",
-  "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": "neet"
+  "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": "neet",
+  "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"
  }
 }
