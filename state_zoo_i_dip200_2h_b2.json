@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 13.760608509645651,
- "pos": {},
+ "cash": 11.00848680771652,
+ "pos": {
+  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
+   "sym": "Rings",
+   "qty": 1538.4919751283949,
+   "entry": 0.001771,
+   "last": 0.001765,
+   "peak": 0.001772,
+   "cost": 2.7521217019291306,
+   "opened": "2026-11-27T00:55:08+07:00",
+   "zoo": "i_dip200_2h_b2",
+   "smart": 141,
+   "kol": 10,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T19:52:28+07:00",
@@ -247,10 +262,24 @@
    "cost_side": 0.01,
    "smart": 136,
    "bundler": null
+  },
+  {
+   "t": "2026-11-27T00:55:08+07:00",
+   "kind": "buy",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.001771,
+   "jup": 0.001773578051870491,
+   "usd": 2.7521,
+   "stop_set": -0.1,
+   "cost_side": 0.01,
+   "zoo": "i_dip200_2h_b2",
+   "smart": 141,
+   "kol": 10
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ย่อ 1 ชม. -15 ถึง -40% ถือ 2 ชม.",
- "rank_t": 1795715108.8247378,
+ "rank_t": 1795715633.2428253,
  "banned": {
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": "FLOAT"
  }
