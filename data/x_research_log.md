@@ -808,3 +808,15 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 เพิ่ม x_: x_dip_recover (night บน curve อายุ 2 นาทีขึ้นไป 5 นาที -15% ลงไป 1 นาทีเขียว buys 3+ สภาพคล่อง 1k+ stop -8% TP +20% trail 20% หลัง +10% ถือ 4 นาที ไม้ละ 3% สูงสุด 6 ตัว เช็กทุก 5 วิ) เลขที่แปลงเองอยู่ใน note import zoo ไม่มี skip และ test_zoo ผ่าน
 ไอเดีย: ท็อป 500 ของ raffaele-ando (ต้องรายชื่อท็อป 500 ย้อนหลังรวมตัวที่ถูกถอด), 0xkakaa ระบบของนักศึกษา SJTU (ไม่มีกฎ), Baquero (งานสำรวจ ไม่มีกฎ ยืนยันว่าต้องเทียบ naive)
 ตัดทิ้ง: ไม่มี (โพสต์ copy trade Polymarket ต้องสมัครผ่าน referral จึงไม่แตะ ลงฟีดเป็นไอเดียรวมกับผลค้น X)
+
+## 2026-11-26 17:20 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 19 พ.ย. (mcp trading, quant agent, keltner, volatility breakout, hyperliquid strategy, mean reversion crypto, pine strategy), X 3 ครั้ง (hyperliquid bot strategy, backtest strategy BTC win rate rules, สูตรเทรด บอท backtest), เว็บ 1 ครั้ง (งานวิจัยคริปโตเดือน พ.ย. 69 เรื่อง volatility targeting และฤดูกาล ได้ capstone Harvard ที่ยังไม่เคยลง ส่วน MDPI กลางวันกลางคืนกับต้นเดือนลงฟีดแล้ว)
+เจอ: drakkB/pine-script-22-strategies-btc-benchmark (ท่า Pine คลาสสิก 22 ท่าบน BTC รายวัน ตัดสินบนช่วงปิดผนึก ไม่มีท่าไหนผ่านครบ), capstone Harvard กรองทิศ + ปรับขนาดตามความผันผวน, iaswmn EMA crossover 1 นาที, BOX_HUNTER (ไม่มีโค้ด) บน X มีแต่โพสต์โปรโมตแพลตฟอร์มบอท
+ทดสอบแล้ว (Binance 1d 2017-2026 หลังหัก 0.35%/ข้าง permutation 200 รอบ):
+- ปิดตัด EMA50: BTC 107 ไม้ +5.14% ETH 109 ไม้ +5.92% SOL 78 ไม้ +32.04% BNB 123 ไม้ +15.30% XRP 124 ไม้ +2.02% ต่อไม้ มัธยฐานติดลบทุกเหรียญ ชนะ 12-21% ตัวแฝดเข้าสุ่ม +1.5 ถึง +6.5% ตั้งแต่ 2025 -3.15 ถึง +1.16% p 0.055/0.050/0.010/0.020/0.303 ไม่ผ่าน
+- Donchian 20 stop 2 ATR เป้า 3 ATR: BTC 106 ไม้ +0.70% ETH 105 ไม้ +1.35% SOL 71 ไม้ +5.74% BNB 104 ไม้ +3.93% XRP 78 ไม้ +1.42% ชนะ 47-57% ตัวแฝด +0.9 ถึง +2.4% ตั้งแต่ 2025 -3.58 ถึง +2.04% p 0.299/0.129/0.005/0.005/0.080 SOL BNB ผ่าน 0.01 รายเหรียญแต่ลองรวม 10 แบบ จึงยังไม่นับ
+- กรองทิศ + vol target 40% (แบบใกล้สุดที่สร้างเอง): ลด max drawdown BTC จาก 67% เหลือ 47% ETH จาก 63% เหลือ 37% แต่ Sharpe แทบไม่เปลี่ยน p BTC 0.149 ETH 0.050 ตรงกับที่งานบอก
+เปิดบัญชี: fwd_ema50x.py และ fwd_don20atr.py (BTC ETH SOL BNB XRP ไม้ละ 1 ใน 5 มีตัวแฝดเข้าสุ่ม) test เดินทีละวันบนหน้าต่าง 1000 แท่งตรง backtest (EMA50 BTC 48 ไม้ BNB 53 ไม้, Donchian BTC 42 ไม้ SOL 44 ไม้) และ trades() ตรงสคริปต์ backtest ครบทุกเหรียญ เปิดทั้งที่ไม่ผ่านเพราะผู้ใช้ให้ลองท่าอ่อน ใช้ 5 เหรียญแทน BTC อย่างเดียวของ repo เป็นตัวเลือกของผม
+เพิ่ม x_: ไม่มี (รอบนี้ไม่เจอกฎเหรียญมีมใหม่)
+ไอเดีย: vol target รายวัน BTC ETH (ทดสอบแล้ว รอเปิดบัญชีรอบหน้าถ้าเธรดหลักเห็นควร), iaswmn (ซ้ำตระกูล EMA cross), BOX_HUNTER (รอโค้ด)
+ตัดทิ้ง: ไม่มี

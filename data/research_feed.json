@@ -1,51 +1,6 @@
 [
  {
   "t": "2026-11-23T02:55:00+07:00",
-  "source": "x",
-  "title": "KGeNazeemali12: ท่า sniper ของ iBlasto_ บน FensoryApp ตัวกรอง key level",
-  "url": "https://x.com/KGeNazeemali12/status/2124052916143104287",
-  "summary": "โพสต์เล่าว่าตัวกรอง key level ตัวเดียวพลิก backtest BTC จาก +$1,738 เป็น -$492 ก่อนหักค่าธรรมเนียม ไม่บอกนิยาม key level ซึ่งอยู่ในแอป Fensory",
-  "verdict": "ไอเดีย",
-  "action": "ต้องนิยาม key level ของ iBlasto_ (อยู่ในแอปที่ต้องสมัคร) แบบใกล้สุดคือ breakout ระดับเมื่อวาน ซึ่งรันอยู่แล้วใน fwd_volbreak ไม่เปิดซ้ำ ตัวอย่างนี้ยังบอกว่าผลพลิกด้วยตัวกรองเดียวคือสัญญาณ overfit"
- },
- {
-  "t": "2026-11-23T02:55:00+07:00",
-  "source": "x",
-  "title": "irongiantXBT: วิศวกร SpaceXAI ทำคลังท่าเทรด backtest แล้วแจกฟรี",
-  "url": "https://x.com/irongiantXBT/status/2124582184376029638",
-  "summary": "โพสต์ชวนตามคลังท่าเทรดฟรีที่อ้างว่า backtest หลายปีแล้ว ข้อความถูกตัด ไม่เห็นชื่อ repo ค้นเว็บแล้วไม่เจอ",
-  "verdict": "ไอเดีย",
-  "action": "ต้องชื่อ repo จริง (ข้อความในผลค้นถูกตัด ค้นเว็บไม่เจอ) รอบหน้าค้นต่อด้วยคำในโพสต์ ถ้าเจอจะแยกท่าที่มีกฎมาลองทีละตัว"
- },
- {
-  "t": "2026-11-23T02:55:00+07:00",
-  "source": "github",
-  "title": "Dualshok3/trade-hub: Gemma 4 local เทียบ Claude Opus 5.5 บนหุ้นจริงด้วยเงินเล่น 100 ยูโร",
-  "url": "https://github.com/Dualshok3/trade-hub",
-  "summary": "LangGraph เอเจนต์ตัดสินบน snapshot ราคาและข่าว Google News ที่แช่แข็งไว้ เทียบกับพอร์ตกฎ 5 แบบ มีกฎเสี่ยงในโค้ด (ไม่เกิน 40% ต่อตัว ทุกการซื้อต้องอ้างข่าวหรือตัวชี้วัด) ยังไม่มีผลสรุป",
-  "verdict": "ไอเดีย",
-  "action": "ต้องข้อมูลหุ้นและข่าวรายวันพร้อมการเรียก LLM ทุก tick แนวคิด snapshot แช่แข็งให้หลายโมเดลตัดสินชุดเดียวกันใช้กับ state_gnews_* ได้ ไม่ได้รันโค้ดของ repo"
- },
- {
-  "t": "2026-11-23T02:55:00+07:00",
-  "source": "github",
-  "title": "repo ดาวปั่นแบบปุ่ม PowerShell setup (piyushverse001/quantconnect-lean-selvon-research, hasan6969macho-bit/vectorbt-avoria-analysis)",
-  "url": "https://github.com/piyushverse001/quantconnect-lean-selvon-research",
-  "summary": "สร้างไม่ถึงสัปดาห์ได้ 147 ดาว README มีปุ่มให้รันสคริปต์ PowerShell จากหน้าเว็บและที่อยู่ BTC ขอบริจาค ไม่มีกฎเทรด",
-  "verdict": "ตัดทิ้ง",
-  "action": "ต้องรันไฟล์ที่ดาวน์โหลด ทรงมัลแวร์"
- },
- {
-  "t": "2026-11-23T02:55:00+07:00",
-  "source": "web",
-  "title": "arXiv 2607.09426: The Quarter-Hour Effect ใน futures คริปโต",
-  "url": "https://arxiv.org/abs/2607.09426",
-  "summary": "ผลตอบแทน 10 วินาทีแรกของนาทีที่ 0/15/30/45 ทำนายได้ (R2 นอกตัวอย่างเฉลี่ย 3.4% ทิศถูก 57%) จากการเทรดอัลกอที่รันตามรอบ Binance perps 6 เหรียญ 2021-2024",
-  "verdict": "ไอเดีย",
-  "action": "ต้องข้อมูลเทรดระดับ 10 วินาที และกำไรก่อนหักแค่ 0.51 bps ต่อไม้ ราวหนึ่งในสิบของค่า taker 5 bps ที่ต้นทุนเรา 35 bps ทำไม่ได้แน่นอน"
- },
- {
-  "t": "2026-11-23T02:55:00+07:00",
   "source": "web",
   "title": "MDPI Risks 19(9) 692: แบ่งวันคริปโตเป็นช่วงกลางวันกับกลางคืน",
   "url": "https://www.mdpi.com/1911-8074/19/9/692",
@@ -2698,5 +2653,50 @@
   "summary": "งานสำรวจสรุปว่าตัวทำนายแบบ naive ชนะโมเดลส่วนใหญ่ และงานของผู้เขียนเอง (ยังไม่ผ่าน review) ขยายผลไปช่วง 1 ถึง 6 เดือน ว่าทำนายได้ทางสถิติไม่ได้แปลว่าทำเงินได้ ค้นรอบนี้ไม่เจองานเดือน พ.ย. 69",
   "verdict": "ไอเดีย",
   "action": "ไม่มีกฎให้ทดสอบ ใช้เป็นหลักฐานประกอบว่าท่าทายราคาสั้นต้องเทียบ naive และ permutation เสมอ ตรงกับผล fwd ส่วนใหญ่ที่แพ้ตัวแฝดเข้าสุ่ม"
+ },
+ {
+  "t": "2026-11-26T17:30:42+07:00",
+  "source": "github",
+  "title": "drakkB/pine-script-22-strategies-btc-benchmark: ปิดตัด EMA50 รายวัน (1 ใน 22 ท่า Pine คลาสสิกที่ตัดสินบนช่วงปิดผนึก)",
+  "url": "https://github.com/drakkB/pine-script-22-strategies-btc-benchmark",
+  "summary": "repo เอาท่า Pine คลาสสิก 22 ท่ามารันบน BTC รายวันแล้วตัดสินครั้งเดียวบนช่วง 17 ธ.ค. 67 ถึง 16 ต.ค. 69 ไม่มีท่าไหนผ่านครบ 4 ขั้น ท่าปิดตัด EMA50 ไปไกลสุด 3 ใน 4 ขั้น ได้ +16.98% เทียบถือ -23.25% (ค่าธรรมเนียม 0.1%/ข้าง)",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest Binance 1d 2017-2026 หลังหัก 0.35%/ข้าง: BTC 107 ไม้ +5.14% ต่อไม้ ETH 109 ไม้ +5.92% SOL 78 ไม้ +32.04% BNB 123 ไม้ +15.30% XRP 124 ไม้ +2.02% มัธยฐาน -2.4 ถึง -3.7% ชนะ 12-21% ตัวแฝดเข้าสุ่ม +1.5/+2.0/+6.5/+4.1/+1.5% ตั้งแต่ 2025 -0.11/+1.16/-0.32/+0.53/-3.15% ต่อไม้ permutation 200 รอบ p 0.055/0.050/0.010/0.020/0.303 ไม่ผ่าน 0.01 กำไรมาจากขาขึ้น 2019-2021 เปิด fwd_ema50x.py (5 เหรียญ ไม้ละ 1 ใน 5 ตัวแฝดเข้าสุ่ม 1 ใน 15 วัน ถือ 14 วัน) test เดินทีละวันตรง backtest BTC 48 ไม้ BNB 53 ไม้"
+ },
+ {
+  "t": "2026-11-26T17:30:42+07:00",
+  "source": "github",
+  "title": "drakkB/pine-script-22-strategies-btc-benchmark: Donchian 20 รายวัน stop 2 ATR เป้า 3 ATR",
+  "url": "https://github.com/drakkB/pine-script-22-strategies-btc-benchmark",
+  "summary": "ท่าที่ 10 ของ repo เดียวกัน ปิดเหนือจุดสูงสุด 20 วันก่อนแล้วซื้อ ตั้ง stop 2 ATR เป้า 3 ATR จากราคาปิดแท่งสัญญาณ บนช่วงปิดผนึก 13 ไม้ +33.79% ผลตัดสิน inconclusive",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest Binance 1d หลังหัก 0.35%/ข้าง: BTC 106 ไม้ +0.70% ETH 105 ไม้ +1.35% SOL 71 ไม้ +5.74% BNB 104 ไม้ +3.93% XRP 78 ไม้ +1.42% ต่อไม้ ชนะ 47-57% ตัวแฝดเข้าสุ่ม +1.3/+1.1/+2.4/+1.5/+0.9% ตั้งแต่ 2025 +2.04/-0.95/-3.58/+1.63/-0.23% permutation 200 รอบ p 0.299/0.129/0.005/0.005/0.080 SOL BNB ผ่าน 0.01 รายเหรียญ แต่ลองรวม 10 แบบ จึงยังไม่นับเป็น edge เปิด fwd_don20atr.py (5 เหรียญ ไม้ละ 1 ใน 5 ตัวแฝดเข้าสุ่ม 1 ใน 22 วัน stop เป้าเดียวกัน) test ตรง backtest BTC 42 ไม้ SOL 44 ไม้"
+ },
+ {
+  "t": "2026-11-26T17:30:42+07:00",
+  "source": "web",
+  "title": "Harvard DASH capstone (พ.ค. 69): Bitcoin direction gating + volatility-targeted sizing",
+  "url": "https://dash.harvard.edu/entities/publication/5c0bf8ce-6c2b-4d8d-8b40-4d06045e38a2",
+  "summary": "งานบอกว่ากรองทิศแล้วปรับขนาดไม้ตามความผันผวนเป้าหมาย Sharpe ไม่ต่างทางสถิติ แต่ลด max drawdown ได้ชัด หน้าเว็บติด 429 อ่านกฎละเอียดไม่ได้",
+  "verdict": "ทดสอบแล้ว",
+  "action": "สร้างแบบใกล้สุดเอง (ทิศ: ผลตอบแทน 30/90/180 วันเป็นบวก ขนาด min(1, 40% ต่อความผันผวน 30 วัน) เลขเลือกเองทั้งหมด ต้นทุน 0.35% ต่อการเปลี่ยนน้ำหนัก) Binance 1d: BTC ถือ Sharpe 0.62 mdd 77% แบบกรองทิศ 0.64-0.71 mdd 67-68% เพิ่ม vol target 0.60-0.80 mdd 47-51% ETH ถือ 0.51 mdd 90% กรองทิศ 0.44-0.89 mdd 63-79% vol target 0.47-0.89 mdd 37-63% 700 วันล่าสุด BTC ติดลบเกือบทุกแบบ permutation 200 รอบ (ดีสุดของ 3 แบบ vol target) BTC p 0.149 ETH p 0.050 ยืนยันว่าลด drawdown ได้แต่ไม่เพิ่มผลตอบแทน ถ้าจะเปิดบัญชี ให้เป็นบัญชีรายวัน 30 วัน vol target 40% BTC ETH คู่กับตัวกรองทิศเปล่า รอบนี้ไม่เปิดเพราะครบ 2 ไฟล์แล้ว"
+ },
+ {
+  "t": "2026-11-26T17:30:42+07:00",
+  "source": "github",
+  "title": "iaswmn/ema-crossover-bybit กับ nima-nasiri/BOX_HUNTER",
+  "url": "https://github.com/iaswmn/ema-crossover-bybit",
+  "summary": "iaswmn เป็นงานพอร์ต EMA crossover จาก Pine เป็น Python บนแท่ง 1 นาที Bybit 1000 แท่ง ไม่บอกช่วง EMA ส่วน BOX_HUNTER มีแค่ README บรรทัดเดียว ไม่มีโค้ด",
+  "verdict": "ไอเดีย",
+  "action": "ไม่ทดสอบ: iaswmn ซ้ำตระกูล EMA cross ที่มี fwd_ema1226 fwd_ema140 แล้วและไม่ให้เลข BOX_HUNTER รอโค้ด Pine"
+ },
+ {
+  "t": "2026-11-26T17:30:42+07:00",
+  "source": "x",
+  "title": "ค้น X 3 ครั้งรอบ 17:20 (hyperliquid bot strategy, backtest strategy BTC win rate rules, สูตรเทรด บอท backtest)",
+  "url": "https://x.com/search",
+  "summary": "เจอแต่โพสต์โปรโมตแพลตฟอร์มบอท (MEMEOS Quant, FensoryApp, Neptune ของ pacifica) และ JeffWhiting8338 ที่ลงฟีดแล้ว ค้นภาษาไทยไม่มีผล",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎที่ตรวจได้ แพลตฟอร์มต้องสมัครจึงไม่แตะ"
  }
 ]
