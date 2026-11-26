@@ -1,48 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 2.4527780358238007,
+ "cash": 4.175788380512908,
  "pos": {
-  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
-   "sym": "GTA6",
-   "qty": 867.5237804639587,
-   "entry": 0.002657,
-   "last": 0.002069,
-   "peak": 0.002657,
-   "cost": 2.328234827092991,
-   "opened": "2026-11-26T12:11:07+07:00",
-   "zoo": "w_hot_mkt_b2",
-   "smart": 324,
-   "kol": 25,
-   "gap": 0,
-   "miss": 0
-  },
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
    "sym": "baton",
    "qty": 631.6082919031843,
    "entry": 0.003472,
-   "last": 0.003621,
+   "last": 0.003607455576017913,
    "peak": 0.00397,
    "cost": 2.2150390035482497,
    "opened": "2026-11-26T13:47:14+07:00",
    "zoo": "w_hot_mkt_b2",
    "smart": 739,
    "kol": 80,
-   "gap": 0,
+   "gap": 8,
    "miss": 0
   },
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 400.5738297413721,
    "entry": 0.005434,
-   "last": 0.005638,
-   "peak": 0.005813,
+   "last": 0.0057078079489614325,
+   "peak": 0.005827,
    "cost": 2.1986497217894656,
    "opened": "2026-11-26T23:47:16+07:00",
    "zoo": "w_hot_mkt_b2",
    "smart": 819,
    "kol": 75,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
@@ -852,10 +838,25 @@
    "zoo": "w_hot_mkt_b2",
    "smart": 938,
    "kol": 295
+  },
+  {
+   "t": "2026-11-27T00:11:23+07:00",
+   "kind": "sell",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.002006135831692316,
+   "entry": 0.002657,
+   "usd": 1.723,
+   "pnl": -0.6052,
+   "why": "ครบ 12 ชม. (-24.5%)",
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "smart": 324,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดร้อน: กฎ w_aged_nostop เฉพาะรอบที่เหรียญ 74%+ ขึ้นใน 1 ชม.",
- "rank_t": 1795712036.935451,
+ "rank_t": 1795712602.6047149,
  "banned": {
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": "OTC",
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": "Buttcoin",
