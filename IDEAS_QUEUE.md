@@ -31,6 +31,12 @@
 - short หลัง Binance ประกาศ delist (fwd_delistshort.py, R6 จากรอบล่าท่าของ Fable): 97 ไม้ +7.5% ชนะ 80% แต่ขอบลดลงตามเวลา ช่วงหลังราว +2% ราคาใช้ spot แทน perp เพราะ fapi บล็อก GitHub
 - ท่าที่ Fable ลองแล้วไม่ผ่าน 26 พ.ย. 69: long หลัง funding ติดลบหนัก, short/long เหรียญพุ่ง 50-100% ใน 24 ชม., ช้อนแท่งร่วง 12%, short แท่งพุ่ง 12%, short perp เปิดใหม่, ช้อนมีม graduate ย่อ 50%, มีมรอด 15 นาที, ก๊อปเทรดกระเป๋าเก่ง, CTO หลัง dev เท ส่วน short หลัง Monitoring Tag, Bybit ถอด perp และ short หลัง funding ติดลบ ยังสรุปไม่ได้
 
+- ตั้งรับ stablecoin ที่ 0.985 ขาย 0.999 (fwd_stablewick.py, รอบท่าแปลกของ Fable 27 พ.ย. 69): 70 ไม้ใน 43 วัน +1.16% ชนะ 99% ตัวควบคุม -0.06% ราว 0.5 ไม้ต่อเดือน เสี่ยงเหรียญไม่กลับมาที่ 1
+- ซื้อเหรียญบน Bitkub ที่ถูกกว่า Binance 2% (fwd_bitkubgap.py): backtest ขอบอยู่ในสเปรดทั้งหมด ทดสอบด้วยราคาซื้อขายจริงจากกระดาน คนไทยเทรดจริงได้
+- short ETH หลัง Fear & Greed ร่วง 15 จุด (fwd_fgshort.py): ท่าเกือบผ่าน 45 ไม้ +3.7% แต่ตัด 5 ไม้ดีสุดเหลือ +0.5% เปิดเพื่อลองก่อนตัดทิ้ง
+- ท่าแปลกที่ Fable ลองแล้วไม่ผ่าน 27 พ.ย. 69 (research_notes/scripts_fable_27nov_weird/REPORT.txt): ช้อน stablecoin ทุกตัวรวม UST, ยอดอ่าน Wikipedia, ทอง PAXG เสาร์อาทิตย์, หุ้น perp Hyperliquid เสาร์อาทิตย์, ค่าธรรมเนียม/mempool BTC, hash rate, พายุสุริยะ, Fear & Greed สุดขีด, BNB หลัง Launchpool, Bitkub ประกาศรับเหรียญ, Bitkub premium ของ BTC และ USDT
+- ท่ามีมแบบ Grok Bot 240 แบบ (research_notes/scripts_fable_27nov/REPORT.md) ไม่ผ่านทั้งหมด
+
 ## ไม่ต้องลองซ้ำ
 - ตลาดนับทวีต Elon (tweets-markets 169 event 2,002 ช่อง 24 พ.ย. 69): ราคาตรงความจริงทุกช่วง z ไม่เกิน 2.1 คนซื้อตลาดนี้เก่งกว่าตลาดอุณหภูมิ ไม่เปิด
 - ตลาดช่วงราคาคริปโตรายสัปดาห์ (crypto-prices 273 ตลาด) และรายได้หนังเปิดตัว (box-office 362): ราคาตรงความจริง มีแต่ฝั่ง 0.95 ขึ้นไปที่ชนะครบ (poly_sure ครอบคลุมแล้ว)

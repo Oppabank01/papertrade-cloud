@@ -1,0 +1,21 @@
+Weird-idea rule hunt, 27 Nov 2026 (Fable, paper research only). About 750 settings across 12 idea families.
+
+PASS (flagged, 43 independent days): stablecoin wick bid. Limit buy 0.985 on USDC/TUSD/FDUSD/USD1 vs USDT (fill when a
+1m low trades below 0.985), sell 0.999, 720 h timeout, no stop, 0.15%/side. 2018-2026 n 70, mean +1.16%, median +1.12%,
+win 99%, ex5 +1.10%, halves +1.15/+1.17, OOS 2023-26 +1.19% (n 23), random-time control -0.06%. About 0.5 fills a month.
+Tail risk outside the sample: a fiat-backed coin that never re-pegs (USDC 0.87 Mar 2023). Non-fiat stables with the same
+rule: ex5 0.00% (UST -75%). Opened as fwd_stablewick.
+
+CLOSEST MISSES
+1. Short ETH after Fear & Greed falls 15+ in a day: next daily open, 14 d, stop 15%. n 45, +3.66%, ex5 +0.45%, 2021 -5.8%,
+   about 130 settings in the family. Opened as fwd_fgshort to test before rejecting.
+2. Bitkub ask 2%+ below Binance (THB/USDT adjusted): next-minute-open fills +2.83% (n 361), worst-price-in-minute fills
+   +0.41%. Edge sits inside the spread, only real quotes settle it. Opened as fwd_bitkubgap (live order book).
+3. Wikipedia attention spike on an up day, long 3 d: top 5 trades carry 404 of 496 points. Lottery.
+
+DEAD: depeg buys on all stables, wrapped assets, Wikipedia spikes (other variants), PAXG weekend, Hyperliquid equity perp
+weekends, BTC fee/mempool spikes, hash-rate drops, geomagnetic storms, F&G extremes, BNB after Launchpool/HODLer, Bitkub
+discount hourly, Bitkub listings on Binance, Bitkub BTC premium z, USDT/THB premium. Earlier sessions: CME gap fade -0.5%,
+Deribit expiry p 0.23. Not testable keyless: Coinbase roadmap, Robinhood, Binance Alpha, token unlocks (DefiLlama 402),
+max-pain open interest.
+Scripts and .out files are in this folder (wlib.py, run.sh, depeg_*, bitkub_*, wiki_*, weekend_bt, misc_bt, fg_deep, bnb_bt).

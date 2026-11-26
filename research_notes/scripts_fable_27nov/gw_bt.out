@@ -1,0 +1,50 @@
+coins 308 pool-switch breaks 7
+G0 any big active (liq>=100k) | T15 sl15     n=3482 mean= -3.09 med= -3.43 wr=  9 ex1= -3.11 ex5= -3.17 h1= -3.04 h2= -3.13 t=-37.2 worst=  -75 best=  +76 | ctl mean= -3.16 med= -3.39 p=0.13 coins=96
+G0 any big active (liq>=100k) | T60 sl15     n=1260 mean= -3.52 med= -3.26 wr= 15 ex1= -3.58 ex5= -3.72 h1= -3.85 h2= -3.18 t=-14.5 worst= -100 best=  +73 | ctl mean= -3.55 med= -3.38 p=0.39 coins=96
+G0 any big active (liq>=100k) | T240 sl15    n= 363 mean= -4.89 med= -4.13 wr= 18 ex1= -5.11 ex5= -5.77 h1= -6.24 h2= -3.54 t= -6.9 worst= -100 best=  +73 | ctl mean= -4.48 med= -4.00 p=0.71 coins=93
+G0 any big active (liq>=100k) | T240 tp20 sl10 n= 370 mean= -4.22 med= -3.89 wr= 22 ex1= -4.28 ex5= -4.49 h1= -4.86 h2= -3.59 t= -7.4 worst= -100 best=  +15 | ctl mean= -3.89 med= -3.76 p=0.76 coins=93
+G0 any big active (liq>=100k) | T240 trail10@+10 sl10 n= 369 mean= -3.90 med= -3.88 wr= 20 ex1= -4.11 ex5= -4.77 h1= -4.23 h2= -3.56 t= -5.9 worst= -100 best=  +73 | ctl mean= -3.70 med= -3.83 p=0.63 coins=93
+G0 any big active (liq>=100k) | T720 sl25    n=  98 mean=-10.86 med= -7.89 wr= 11 ex1=-12.49 ex5=-14.43 h1=-14.97 h2= -6.75 t= -4.2 worst= -100 best= +147 | ctl mean= -7.31 med= -7.96 p=0.93 coins=89
+G1 calm |ch_h1|<=5 | T15 sl15                n=2925 mean= -3.03 med= -3.43 wr=  7 ex1= -3.05 ex5= -3.11 h1= -2.90 h2= -3.15 t=-39.6 worst=  -50 best=  +76 | ctl mean= -3.16 med= -3.40 p=0.04 coins=83
+G1 calm |ch_h1|<=5 | T60 sl15                n=1144 mean= -3.50 med= -3.33 wr= 13 ex1= -3.57 ex5= -3.73 h1= -3.79 h2= -3.22 t=-17.6 worst=  -47 best=  +77 | ctl mean= -3.55 med= -3.36 p=0.41 coins=83
+G1 calm |ch_h1|<=5 | T240 sl15               n= 336 mean= -5.17 med= -4.25 wr= 17 ex1= -5.33 ex5= -5.88 h1= -6.11 h2= -4.23 t= -9.3 worst=  -45 best=  +50 | ctl mean= -4.32 med= -3.98 p=0.90 coins=81
+G1 calm |ch_h1|<=5 | T240 tp20 sl10          n= 342 mean= -4.23 med= -4.10 wr= 20 ex1= -4.29 ex5= -4.52 h1= -4.56 h2= -3.90 t= -8.8 worst=  -45 best=  +15 | ctl mean= -4.02 med= -3.86 p=0.64 coins=81
+G1 calm |ch_h1|<=5 | T240 trail10@+10 sl10   n= 341 mean= -4.40 med= -4.07 wr= 18 ex1= -4.59 ex5= -5.15 h1= -5.02 h2= -3.79 t= -8.4 worst=  -45 best=  +60 | ctl mean= -3.79 med= -3.91 p=0.82 coins=81
+G1 calm |ch_h1|<=5 | T720 sl25               n=  85 mean=-11.63 med= -8.24 wr=  6 ex1=-13.51 ex5=-14.72 h1=-12.14 h2=-11.12 t= -4.8 worst=  -87 best= +147 | ctl mean= -7.88 med= -8.30 p=0.93 coins=77
+G2 calm + buys>=1.5x sells | T15 sl15        n=1129 mean= -2.67 med= -2.95 wr=  8 ex1= -2.74 ex5= -2.88 h1= -2.42 h2= -2.93 t=-19.1 worst=  -33 best=  +77 | ctl mean= -3.11 med= -3.33 p=0.00 coins=71
+G2 calm + buys>=1.5x sells | T60 sl15        n= 631 mean= -3.23 med= -3.24 wr= 14 ex1= -3.31 ex5= -3.57 h1= -3.05 h2= -3.41 t=-12.1 worst=  -45 best=  +42 | ctl mean= -3.56 med= -3.35 p=0.12 coins=71
+G2 calm + buys>=1.5x sells | T240 sl15       n= 239 mean= -4.96 med= -4.28 wr= 15 ex1= -5.32 ex5= -6.06 h1= -5.80 h2= -4.12 t= -6.6 worst=  -45 best=  +81 | ctl mean= -4.44 med= -4.06 p=0.79 coins=70
+G2 calm + buys>=1.5x sells | T240 tp20 sl10  n= 243 mean= -4.27 med= -4.10 wr= 20 ex1= -4.36 ex5= -4.69 h1= -4.90 h2= -3.65 t= -7.3 worst=  -45 best=  +15 | ctl mean= -4.07 med= -3.85 p=0.61 coins=70
+G2 calm + buys>=1.5x sells | T240 trail10@+10 sl10 n= 243 mean= -3.94 med= -4.12 wr= 18 ex1= -4.23 ex5= -5.04 h1= -4.20 h2= -3.68 t= -5.3 worst=  -45 best=  +67 | ctl mean= -3.85 med= -3.89 p=0.47 coins=70
+G2 calm + buys>=1.5x sells | T720 sl25       n=  73 mean=-13.02 med= -9.14 wr=  8 ex1=-14.45 ex5=-15.64 h1=-17.60 h2= -8.57 t= -5.8 worst=  -87 best=  +90 | ctl mean= -8.33 med= -7.93 p=0.98 coins=66
+G3 dip ch_h1<=-15 | T15 sl15                 n= 108 mean= -4.57 med= -3.66 wr= 29 ex1= -4.76 ex5= -5.44 h1= -5.21 h2= -3.93 t= -4.0 worst=  -88 best=  +16 | ctl mean= -3.17 med= -3.21 p=0.99 coins=27
+G3 dip ch_h1<=-15 | T60 sl15                 n=  63 mean= -7.69 med= -7.59 wr= 24 ex1= -8.12 ex5= -9.71 h1= -8.12 h2= -7.27 t= -3.8 worst=  -87 best=  +19 | ctl mean= -3.71 med= -3.34 p=1.00 coins=27
+G3 dip ch_h1<=-15 | T240 sl15                n=  46 mean=-10.69 med=-10.07 wr= 26 ex1=-11.87 ex5=-14.68 h1=-11.55 h2= -9.84 t= -3.6 worst=  -87 best=  +42 | ctl mean= -4.84 med= -4.49 p=1.00 coins=27
+G3 dip ch_h1<=-15 | T240 tp20 sl10           n=  46 mean= -5.89 med= -7.99 wr= 35 ex1= -6.44 ex5= -8.65 h1= -6.19 h2= -5.59 t= -2.5 worst=  -48 best=  +19 | ctl mean= -4.13 med= -4.12 p=0.90 coins=27
+G3 dip ch_h1<=-15 | T240 trail10@+10 sl10    n=  46 mean= -7.83 med= -5.70 wr= 28 ex1= -8.95 ex5=-11.58 h1= -5.96 h2= -9.70 t= -2.7 worst=  -87 best=  +42 | ctl mean= -4.04 med= -4.16 p=1.00 coins=27
+G3 dip ch_h1<=-15 | T720 sl25                n=  24 mean=-20.78 med=-24.71 wr= 21 ex1=-22.70 ex5=-29.00 h1=-22.62 h2=-18.95 t= -4.5 worst=  -87 best=  +23 | ctl mean= -9.90 med= -8.48 p=1.00 coins=21
+G4 early move 3<=ch_m5<=12, ch_h1<=15 | T15 sl15 n= 353 mean= -4.02 med= -3.92 wr= 20 ex1= -4.12 ex5= -4.36 h1= -4.99 h2= -3.06 t=-10.9 worst=  -33 best=  +29 | ctl mean= -3.22 med= -3.40 p=1.00 coins=43
+G4 early move 3<=ch_m5<=12, ch_h1<=15 | T60 sl15 n= 237 mean= -4.32 med= -4.99 wr= 25 ex1= -4.56 ex5= -5.21 h1= -5.63 h2= -3.02 t= -5.6 worst=  -33 best=  +53 | ctl mean= -3.65 med= -3.44 p=0.87 coins=43
+G4 early move 3<=ch_m5<=12, ch_h1<=15 | T240 sl15 n= 106 mean= -4.92 med= -5.24 wr= 25 ex1= -6.11 ex5= -7.96 h1= -6.89 h2= -2.95 t= -2.6 worst=  -42 best= +120 | ctl mean= -4.38 med= -4.03 p=0.71 coins=41
+G4 early move 3<=ch_m5<=12, ch_h1<=15 | T240 tp20 sl10 n= 111 mean= -4.88 med= -5.22 wr= 29 ex1= -5.06 ex5= -5.83 h1= -6.03 h2= -3.74 t= -4.1 worst=  -42 best=  +15 | ctl mean= -4.21 med= -3.96 p=0.86 coins=41
+G4 early move 3<=ch_m5<=12, ch_h1<=15 | T240 trail10@+10 sl10 n= 111 mean= -3.32 med= -4.54 wr= 28 ex1= -3.90 ex5= -5.77 h1= -3.57 h2= -3.07 t= -2.3 worst=  -42 best=  +61 | ctl mean= -3.75 med= -3.89 p=0.30 coins=41
+G4 early move 3<=ch_m5<=12, ch_h1<=15 | T720 sl25 n=  41 mean=-13.15 med=-15.80 wr= 22 ex1=-15.81 ex5=-19.18 h1=-18.37 h2= -8.18 t= -3.3 worst=  -87 best=  +93 | ctl mean= -9.60 med= -8.37 p=0.88 coins=36
+G5 volume surge, flat price | T15 sl15       n= 393 mean= -2.45 med= -2.36 wr=  7 ex1= -2.51 ex5= -2.63 h1= -1.91 h2= -2.99 t=-18.0 worst=  -19 best=  +19 | ctl mean= -3.24 med= -3.37 p=0.00 coins=63
+G5 volume surge, flat price | T60 sl15       n= 309 mean= -2.59 med= -2.75 wr= 11 ex1= -2.72 ex5= -3.10 h1= -2.20 h2= -2.97 t= -8.0 worst=  -45 best=  +37 | ctl mean= -3.57 med= -3.37 p=0.00 coins=63
+G5 volume surge, flat price | T240 sl15      n= 150 mean= -3.32 med= -3.84 wr= 19 ex1= -3.79 ex5= -4.60 h1= -3.90 h2= -2.74 t= -4.1 worst=  -45 best=  +67 | ctl mean= -4.44 med= -4.12 p=0.16 coins=61
+G5 volume surge, flat price | T240 tp20 sl10 n= 151 mean= -3.60 med= -3.83 wr= 20 ex1= -3.73 ex5= -4.25 h1= -4.17 h2= -3.04 t= -6.1 worst=  -45 best=  +15 | ctl mean= -4.01 med= -3.86 p=0.30 coins=62
+G5 volume surge, flat price | T240 trail10@+10 sl10 n= 151 mean= -3.10 med= -3.83 wr= 18 ex1= -3.59 ex5= -4.63 h1= -3.69 h2= -2.52 t= -3.5 worst=  -45 best=  +70 | ctl mean= -3.83 med= -3.90 p=0.21 coins=62
+G5 volume surge, flat price | T720 sl25      n=  57 mean= -6.00 med= -7.50 wr= 12 ex1= -8.72 ex5=-10.13 h1= -4.86 h2= -7.09 t= -2.0 worst=  -45 best= +147 | ctl mean= -7.11 med= -7.12 p=0.35 coins=57
+G6 first sight, liq>=100k, |ch_h1|<=10 | T15 sl15 n=  49 mean= -2.76 med= -2.78 wr=  8 ex1= -2.95 ex5= -3.34 h1= -2.21 h2= -3.28 t= -6.5 worst=  -11 best=   +7 | ctl mean= -3.44 med= -2.88 p=0.15 coins=49
+G6 first sight, liq>=100k, |ch_h1|<=10 | T60 sl15 n=  49 mean= -2.62 med= -3.67 wr= 18 ex1= -3.61 ex5= -5.22 h1= +0.65 h2= -5.77 t= -1.5 worst=  -45 best=  +45 | ctl mean= -3.76 med= -3.69 p=0.25 coins=49
+G6 first sight, liq>=100k, |ch_h1|<=10 | T240 sl15 n=  49 mean= -4.57 med= -4.92 wr= 16 ex1= -5.70 ex5= -7.00 h1= -0.93 h2= -8.06 t= -2.7 worst=  -45 best=  +50 | ctl mean= -4.74 med= -5.13 p=0.44 coins=49
+G6 first sight, liq>=100k, |ch_h1|<=10 | T240 tp20 sl10 n=  49 mean= -3.98 med= -4.79 wr= 18 ex1= -4.39 ex5= -6.18 h1= -1.75 h2= -6.13 t= -2.8 worst=  -45 best=  +15 | ctl mean= -4.38 med= -4.80 p=0.39 coins=49
+G6 first sight, liq>=100k, |ch_h1|<=10 | T240 trail10@+10 sl10 n=  49 mean= -3.31 med= -4.79 wr= 18 ex1= -4.54 ex5= -6.26 h1= +0.26 h2= -6.74 t= -1.8 worst=  -45 best=  +55 | ctl mean= -3.38 med= -4.84 p=0.50 coins=49
+G6 first sight, liq>=100k, |ch_h1|<=10 | T720 sl25 n=  49 mean= -5.33 med= -7.80 wr=  8 ex1= -8.50 ex5= -9.97 h1= -3.79 h2= -6.81 t= -1.6 worst=  -45 best= +147 | ctl mean= -7.20 med= -8.30 p=0.29 coins=49
+G7 first sight, any big | T15 sl15           n=  65 mean= -2.44 med= -3.09 wr= 14 ex1= -3.62 ex5= -4.31 h1= -3.92 h2= -0.99 t= -1.7 worst=  -49 best=  +73 | ctl mean= -3.44 med= -3.01 p=0.09 coins=65
+G7 first sight, any big | T60 sl15           n=  65 mean= -1.97 med= -3.67 wr= 23 ex1= -3.15 ex5= -5.54 h1= -1.95 h2= -1.99 t= -0.9 worst=  -49 best=  +73 | ctl mean= -3.70 med= -3.61 p=0.12 coins=65
+G7 first sight, any big | T240 sl15          n=  65 mean= -4.09 med= -4.94 wr= 20 ex1= -5.30 ex5= -7.90 h1= -4.15 h2= -4.04 t= -1.8 worst=  -49 best=  +73 | ctl mean= -4.29 med= -5.04 p=0.41 coins=65
+G7 first sight, any big | T240 tp20 sl10     n=  65 mean= -3.90 med= -4.58 wr= 25 ex1= -4.20 ex5= -5.50 h1= -3.42 h2= -4.36 t= -2.5 worst=  -49 best=  +15 | ctl mean= -4.23 med= -4.70 p=0.38 coins=65
+G7 first sight, any big | T240 trail10@+10 sl10 n=  65 mean= -2.18 med= -4.58 wr= 23 ex1= -3.36 ex5= -6.17 h1= -1.02 h2= -3.30 t= -1.0 worst=  -49 best=  +73 | ctl mean= -3.06 med= -4.66 p=0.33 coins=65
+G7 first sight, any big | T720 sl25          n=  65 mean= -6.04 med= -7.80 wr= 14 ex1= -8.43 ex5=-11.17 h1= -8.18 h2= -3.97 t= -1.9 worst=  -49 best= +147 | ctl mean= -7.31 med= -8.24 p=0.36 coins=65
+settings tried: 48
