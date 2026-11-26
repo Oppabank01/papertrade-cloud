@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.429641818282151,
+ "cash": 0.9658750374636178,
  "pos": {
   "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
    "sym": "JEANPHIL",
    "qty": 200.59414747926022,
    "entry": 0.002341,
-   "last": 0.002228,
+   "last": 0.002197,
    "peak": 0.002381,
    "cost": 0.4840145323118411,
    "opened": "2026-11-26T13:54:46+07:00",
@@ -21,13 +21,27 @@
    "sym": "TROLL",
    "qty": 19.968243267968855,
    "entry": 0.02273,
-   "last": 0.02261,
+   "last": 0.02235,
    "peak": 0.02275,
    "cost": 0.4678191810770275,
    "opened": "2026-11-26T15:57:16+07:00",
    "zoo": "w_ban_bigliq",
    "smart": 480,
    "kol": 214,
+   "gap": 0,
+   "miss": 0
+  },
+  "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
+   "sym": "CBUCKS",
+   "qty": 69.20125049986788,
+   "entry": 0.006502,
+   "last": 0.00663,
+   "peak": 0.00663,
+   "cost": 0.4637667808185333,
+   "opened": "2026-11-26T16:14:06+07:00",
+   "zoo": "w_ban_bigliq",
+   "smart": 42,
+   "kol": 0,
    "gap": 0,
    "miss": 0
   }
@@ -4377,10 +4391,24 @@
    "mint": "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump",
    "sym": "JEANPHIL",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-26T16:14:06+07:00",
+   "kind": "buy",
+   "mint": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+   "sym": "CBUCKS",
+   "price": 0.006502,
+   "jup": 0.006531858179445146,
+   "usd": 0.4638,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_bigliq",
+   "smart": 42,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795683874.5188751,
+ "rank_t": 1795684332.4487653,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
