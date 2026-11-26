@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.731879787860931,
- "cash": 13.962050611570621,
+ "cash": 14.238126918305051,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 70.22910338817637,
    "entry": 0.005076,
-   "last": 0.005584189092277711,
+   "last": 0.005462,
    "peak": 0.005827,
    "cost": 0.3674324147581769,
    "opened": "2026-11-26T23:05:31+07:00",
    "zoo": "x_desk_fullpass",
    "smart": 818,
    "kol": 75,
-   "gap": 1,
-   "miss": 0
-  },
-  "32rBxcFjCFnyqZ41CEPM5AL67X1dcw8w83vZt6Kxpump": {
-   "sym": "PAIR",
-   "qty": 890.7956060687173,
-   "entry": 0.0004006,
-   "last": 0.000392486121505367,
-   "peak": 0.0004746,
-   "cost": 0.3678135639982768,
-   "opened": "2026-11-26T23:14:26+07:00",
-   "zoo": "x_desk_fullpass",
-   "smart": 93,
-   "kol": 6,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -89,12 +75,27 @@
    "zoo": "x_desk_fullpass",
    "smart": 93,
    "kol": 6
+  },
+  {
+   "t": "2026-11-27T00:27:01+07:00",
+   "kind": "sell",
+   "mint": "32rBxcFjCFnyqZ41CEPM5AL67X1dcw8w83vZt6Kxpump",
+   "sym": "PAIR",
+   "price": 0.00031944036984006227,
+   "entry": 0.0004006,
+   "usd": 0.2761,
+   "pnl": -0.0917,
+   "why": "stop -20.3%",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 93,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: solana-desk-scanner lane A (franco0882): วอลุ่ม 5 นาที 50k+ สภาพคล่อง 30k+ กำลังขึ้น 1 ชม. ไม่เกิน +200% stop -20% ขายครึ่งที่ +40% trail 35%",
  "night": "2026-11-26",
  "night_start": 14.697296590327076,
- "rank_t": 1795713192.7102187,
+ "rank_t": 1795713640.392946,
  "nights": [
   {
    "night": "2026-11-24",

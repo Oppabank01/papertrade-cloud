@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 11.095884758685923,
- "pos": {
-  "32rBxcFjCFnyqZ41CEPM5AL67X1dcw8w83vZt6Kxpump": {
-   "sym": "PAIR",
-   "qty": 2985.8621492419934,
-   "entry": 0.0004006,
-   "last": 0.000392486121505367,
-   "peak": 0.0004746,
-   "cost": 1.2328760842984359,
-   "opened": "2026-11-26T23:14:15+07:00",
-   "zoo": "x_boan_desk_b2",
-   "smart": 93,
-   "kol": 6,
-   "gap": 2,
-   "miss": 0
-  }
- },
+ "cash": 12.04045402127032,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-22T19:52:28+07:00",
@@ -354,10 +339,25 @@
    "mint": "32rBxcFjCFnyqZ41CEPM5AL67X1dcw8w83vZt6Kxpump",
    "sym": "PAIR",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-27T00:25:20+07:00",
+   "kind": "sell",
+   "mint": "32rBxcFjCFnyqZ41CEPM5AL67X1dcw8w83vZt6Kxpump",
+   "sym": "PAIR",
+   "price": 0.0003260639499454154,
+   "entry": 0.0004006,
+   "usd": 0.9446,
+   "pnl": -0.2883,
+   "why": "stop -18.6%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 93,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: โต๊ะ 4 เอเจนต์: เหรียญใหม่ คนถือ 300+ top10 ไม่เกิน 30% ขายเป็นช่วง",
- "rank_t": 1795713192.7102187,
+ "rank_t": 1795713640.392946,
  "banned": {
   "32rBxcFjCFnyqZ41CEPM5AL67X1dcw8w83vZt6Kxpump": "PAIR"
  }
