@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 4.143108767915274,
+ "cash": 3.8863253980822363,
  "pos": {
-  "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": {
-   "sym": "ZCAT",
-   "qty": 104.33089562714552,
-   "entry": 0.01869,
-   "last": 0.01704,
-   "peak": 0.01926,
-   "cost": 1.9695911105995805,
-   "opened": "2026-11-26T02:17:16+07:00",
-   "zoo": "w_red5m_b2",
-   "smart": 330,
-   "kol": 48,
-   "gap": 0,
-   "miss": 0
-  },
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 237.40741704513056,
    "entry": 0.008134,
-   "last": 0.0087,
+   "last": 0.00859,
    "peak": 0.009259,
    "cost": 1.9505284515492964,
    "opened": "2026-11-26T06:14:55+07:00",
@@ -42,6 +28,20 @@
    "zoo": "w_red5m_b2",
    "smart": 191,
    "kol": 33,
+   "gap": 0,
+   "miss": 0
+  },
+  "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
+   "sym": "CRIME",
+   "qty": 515.9361269590569,
+   "entry": 0.00376,
+   "last": 0.003763,
+   "peak": 0.003763,
+   "cost": 1.9594655057862718,
+   "opened": "2026-11-26T14:18:36+07:00",
+   "zoo": "w_red5m_b2",
+   "smart": 96,
+   "kol": 40,
    "gap": 0,
    "miss": 0
   }
@@ -866,10 +866,39 @@
    "zoo": "w_red5m_b2",
    "smart": 191,
    "kol": 33
+  },
+  {
+   "t": "2026-11-26T14:17:35+07:00",
+   "kind": "sell",
+   "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+   "sym": "ZCAT",
+   "price": 0.016484450793112386,
+   "entry": 0.01869,
+   "usd": 1.7027,
+   "pnl": -0.2669,
+   "why": "ครบ 12 ชม. (-11.8%)",
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "smart": 330,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-26T14:18:36+07:00",
+   "kind": "buy",
+   "mint": "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump",
+   "sym": "CRIME",
+   "price": 0.00376,
+   "jup": 0.003762067440697554,
+   "usd": 1.9595,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_red5m_b2",
+   "smart": 96,
+   "kol": 40
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สวนทาง: อายุเกิน 1 วัน pool 200k+ กำลังแดง 5 นาที",
- "rank_t": 1795676992.910917,
+ "rank_t": 1795677455.5411806,
  "banned": {
   "J1Wpmugrooj1yMyQKrdZ2vwRXG5rhfx3vTnYE39gpump": "WOULD",
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings",
