@@ -1,65 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 2.4297969016704726,
- "pos": {
-  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
-   "sym": "CLAUDIA",
-   "qty": 318.9735054355956,
-   "entry": 0.007385,
-   "last": 0.00824,
-   "peak": 0.008665,
-   "cost": 2.3793533876840214,
-   "opened": "2026-11-25T21:42:57+07:00",
-   "zoo": "w_night_aged_b2",
-   "smart": 576,
-   "kol": 37,
-   "gap": 0,
-   "miss": 0
-  },
-  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
-   "sym": "CATE",
-   "qty": 145.69167387062097,
-   "entry": 0.01605,
-   "last": 0.01721,
-   "peak": 0.01777,
-   "cost": 2.3619114321592547,
-   "opened": "2026-11-25T21:51:16+07:00",
-   "zoo": "w_night_aged_b2",
-   "smart": 971,
-   "kol": 111,
-   "gap": 0,
-   "miss": 0
-  },
-  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
-   "sym": "Buttcoin",
-   "qty": 466.1867212363805,
-   "entry": 0.005006,
-   "last": 0.005172,
-   "peak": 0.005423,
-   "cost": 2.357244237781188,
-   "opened": "2026-11-25T22:28:40+07:00",
-   "zoo": "w_night_aged_b2",
-   "smart": 542,
-   "kol": 51,
-   "gap": 0,
-   "miss": 0
-  },
-  "AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump": {
-   "sym": "jobcoin",
-   "qty": 214.53207510140845,
-   "entry": 0.01093,
-   "last": 0.01229,
-   "peak": 0.013813427407257509,
-   "cost": 2.368460979125168,
-   "opened": "2026-11-25T23:50:36+07:00",
-   "zoo": "w_night_aged_b2",
-   "smart": 29,
-   "kol": 46,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 12.511550618891743,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-22T19:52:26+07:00",
@@ -430,10 +373,50 @@
    "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
    "sym": "Buttcoin",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-26T09:07:06+07:00",
+   "kind": "sell",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.008252,
+   "usd": 2.6059,
+   "pnl": 0.2266,
+   "why": "ปิดรอบเช้า"
+  },
+  {
+   "t": "2026-11-26T09:07:06+07:00",
+   "kind": "sell",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.01734,
+   "usd": 2.5011,
+   "pnl": 0.1392,
+   "why": "ปิดรอบเช้า"
+  },
+  {
+   "t": "2026-11-26T09:07:06+07:00",
+   "kind": "sell",
+   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+   "sym": "Buttcoin",
+   "price": 0.005146,
+   "usd": 2.3751,
+   "pnl": 0.0178,
+   "why": "ปิดรอบเช้า"
+  },
+  {
+   "t": "2026-11-26T09:07:06+07:00",
+   "kind": "sell",
+   "mint": "AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump",
+   "sym": "jobcoin",
+   "price": 0.01224,
+   "usd": 2.5997,
+   "pnl": 0.2312,
+   "why": "ปิดรอบเช้า"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: กะดึก: กฎ w_aged_nostop เทรดเฉพาะ 21:00-09:00",
- "night": "2026-11-25",
+ "night": null,
  "night_start": 11.896766938420106,
  "rank_t": 1795658268.8476925,
  "nights": [
@@ -448,6 +431,10 @@
   {
    "night": "2026-11-24",
    "ret": -0.0286
+  },
+  {
+   "night": "2026-11-25",
+   "ret": 0.0517
   }
  ],
  "banned": {
