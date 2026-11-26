@@ -1,22 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 1.4052083643596394,
+ "cash": 1.4069254317591409,
  "pos": {
-  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
-   "sym": "USELESS",
-   "qty": 2.021714082830114,
-   "entry": 0.07231,
-   "last": 0.07367,
-   "peak": 0.07441,
-   "cost": 0.15068042190212902,
-   "opened": "2026-11-26T14:11:34+07:00",
-   "zoo": "x_spray_small_b2",
-   "smart": 938,
-   "kol": 295,
-   "gap": 0,
-   "miss": 0
-  },
   "Bb4jR951QtVjeFAYFLBYXDSMKjbTDroCLPbFLdd7pump": {
    "sym": "memecoin",
    "qty": 799.2641262183827,
@@ -42,14 +28,14 @@
    "zoo": "x_spray_small_b2",
    "smart": 133,
    "kol": 41,
-   "gap": 1,
+   "gap": 15,
    "miss": 0
   },
   "EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump": {
    "sym": "LUNO",
    "qty": 418.6016868619669,
    "entry": 0.0003416,
-   "last": 0.0003532,
+   "last": 0.0003552,
    "peak": 0.0003569,
    "cost": 0.14738645251705618,
    "opened": "2026-11-26T15:07:53+07:00",
@@ -63,7 +49,7 @@
    "sym": "YZY",
    "qty": 284.7435640938523,
    "entry": 0.0005017,
-   "last": 0.0005021,
+   "last": 0.0005005,
    "peak": 0.0005043,
    "cost": 0.14724370862284653,
    "opened": "2026-11-26T15:32:07+07:00",
@@ -91,7 +77,7 @@
    "sym": "AgenC",
    "qty": 191.5021553531217,
    "entry": 0.0007421,
-   "last": 0.0007583,
+   "last": 0.0007401,
    "peak": 0.0007583,
    "cost": 0.14647881827205897,
    "opened": "2026-11-26T15:41:17+07:00",
@@ -105,7 +91,7 @@
    "sym": "TROLL",
    "qty": 6.203950199789647,
    "entry": 0.02273,
-   "last": 0.02237,
+   "last": 0.02243,
    "peak": 0.02275,
    "cost": 0.14534713259247442,
    "opened": "2026-11-26T15:57:26+07:00",
@@ -119,7 +105,7 @@
    "sym": "CBUCKS",
    "qty": 21.83861095825788,
    "entry": 0.00641,
-   "last": 0.006501,
+   "last": 0.006518030089482534,
    "peak": 0.006684,
    "cost": 0.14428519505507423,
    "opened": "2026-11-26T16:29:09+07:00",
@@ -133,14 +119,28 @@
    "sym": "BIAO",
    "qty": 1123.2734948385262,
    "entry": 0.0001242,
-   "last": 0.0001247,
-   "peak": 0.0001289,
+   "last": 0.0001452,
+   "peak": 0.0001452,
    "cost": 0.143795679302149,
    "opened": "2026-11-26T16:37:53+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 19,
    "kol": 0,
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "HmY9bDnXet8Rvx6JembdeQQCC83FizZMQjmA2hjipump": {
+   "sym": "PCWINDOW",
+   "qty": 1462.650880289745,
+   "entry": 9.462e-05,
+   "last": 9.664e-05,
+   "peak": 9.664e-05,
+   "cost": 0.1426469040332052,
+   "opened": "2026-11-26T17:09:34+07:00",
+   "zoo": "x_spray_small_b2",
+   "smart": 3,
+   "kol": 0,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -12607,10 +12607,46 @@
    "cost_side": 0.03,
    "smart": 735,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T17:09:34+07:00",
+   "kind": "buy",
+   "mint": "HmY9bDnXet8Rvx6JembdeQQCC83FizZMQjmA2hjipump",
+   "sym": "PCWINDOW",
+   "price": 9.462e-05,
+   "jup": 9.502154232258645e-05,
+   "usd": 0.1426,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_spray_small_b2",
+   "smart": 3,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-26T17:11:43+07:00",
+   "kind": "sell",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.0736,
+   "entry": 0.07231,
+   "usd": 0.1444,
+   "pnl": -0.0063,
+   "why": "ครบ 3 ชม. (+1.8%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 938,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-26T17:15:06+07:00",
+   "kind": "ban",
+   "mint": "7HgfXftRBBqsYtAEYcqjGLQrNJLL6Tww9ek4rE3Apump",
+   "sym": "RKC",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: หว่านไม้เล็กหลายตัว ตัดกำไร 50% ตัดขาดทุน 15%",
- "rank_t": 1795687184.1293106,
+ "rank_t": 1795687614.0318072,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": "three",
@@ -12668,6 +12704,7 @@
   "ebSyELGXjyddEmEcZ9MpvZdANmx1aFB6kGWKDkUpump": "BARRON",
   "6pjRwzGg2QS1VSf6Z4TQZwyMxUysrUajkRmbbQ89P6KG": "FLOATER",
   "CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU": "e/acc",
-  "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": "PAID"
+  "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": "PAID",
+  "7HgfXftRBBqsYtAEYcqjGLQrNJLL6Tww9ek4rE3Apump": "RKC"
  }
 }
