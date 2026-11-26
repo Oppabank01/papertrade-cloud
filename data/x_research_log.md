@@ -789,3 +789,11 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 เพิ่ม x_: ไม่มี (รอบนี้ไม่เจอกฎเหรียญมีมใหม่)
 ไอเดีย: ryhantrade กับ Exezyra (ต้องรันโมเดล Kronos หรือ LLM และข้อมูลเงินฝากเข้า exchange), neextdrop (รอโค้ดกลยุทธ์), บอท Polymarket ของ offjayurena (ต้องประวัติราคาตลาดทายผล)
 ตัดทิ้ง: ไม่มี
+
+## 2026-11-26 (routine x recipes, รอบเย็น)
+ค้น: WebSearch 4 ครั้ง (solana memecoin bot strategy stop loss take profit, turned $ in a week, ภาษาไทยเทรดเหรียญมีมคืนเดียว, make.fun pump.fun bot rules) medium.com เข้าไม่ได้ (host ไม่อยู่ใน network ที่อนุญาต) จึงไม่ลองซ้ำ
+เจอ: บทความ Medium bytesavvy02 "$2,400 in 30 days" (month: สภาพคล่องล็อก ดู holder ขายทุนคืนที่ x2 ขาย x4-5 เหลือ moon bag ไม่บอกขนาดไม้และ stop), repo rajesharjun-oss/memecoin-trading-bot (score ขั้นต่ำ ไม่เห็นเลข), บอท make.fun หลายตัว (kenz2829 early sniper ซื้อ curve สดขายครึ่งที่ +50% stop -15%, theo1603 spike แล้วช้อนย่อ ซ้ำ x_tapescalp, ifulchina-ops QuickFlip +15%/-10% 60 slot)
+แปลง: ไม่มีของใหม่ บทความ month ไม่ให้ตัวเลขที่สคริปต์ตัดสินได้ ส่วนขายครึ่งที่ x2 ซ้ำ x_ladder_2x กลุ่ม early sniper ซ้ำ x_snipe_30_30 และ fresh ที่ตายแล้ว (ห้ามลองซ้ำโดยไม่มีเหตุผลใหม่)
+ยังทำไม่ได้: บอท make.fun ที่ใช้ slot และผู้ซื้อแยกกระเป๋าใน 40 slot (ต้อง tape ระดับเทรด)
+ปลด: ไม่มี (ยังไม่ครบจุดตัดสินของ x_ ตัวใดที่แพ้ rand ชัด)
+กระดานคะแนน: x_ ส่วนใหญ่ติดลบ ที่ยังบวก x_smartflow_lowcap +20.9% (7 ไม้) x_crb_4agent +11.8% (11 ไม้) x_kilo_grad_ladder +1.8% (2 ไม้) ส่วน rand -98.3%
