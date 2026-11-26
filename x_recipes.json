@@ -2783,5 +2783,37 @@
    "WATCH_S": 5
   },
   "note": "from strategy.ts: up 50% to 80% from the first price, take profit +15%, stop -2%, trail 15% once +30%, 5 position slots, still on the curve; chosen by me: 'up from first seen price' read as 1h change 50 to 80% (for a coin minutes old the 1h change is roughly the change since creation), 'climbing 3% over the last 10 samples' read as 5m change at least +3%, 'within 200 slots (about 80 s) of first sight' read as age at most 0.1 h (6 min, zoo sees coins later than the bot), '5 SOL real reserves' read as liquidity 1k USD+ (same conversion as x_runner_dip), net buying and 5+ trades read as zoo up (buys > sells), the 1200-slot stale exit read as a flat 0.13 h (8 min) max hold without the 'unless up 3%' clause, 3% of the account per trade in place of 0.02 SOL, a coin is never re-entered read as a 24 h block; zoo default costs 1% fee + 2% slip per side (the bot's replay paid about 3% a round trip)"
+ },
+ {
+  "name": "x_wait48",
+  "label": "ให้เหรียญใหม่รอก่อน (โพสต์ Grok Bot ที่ Sypronus เล่าต่อ) แบบที่ zoo เช็กได้: ซื้อเฉพาะมีมที่เทรดมาแล้ว 48 ชม.ขึ้นไป pool 50k ถึง 200k RugCheck up stop -15% TP +30% ถือ 24 ชม. ไม้ละ 10% สูงสุด 3 ตัว",
+  "horizon": "week",
+  "source": "https://x.com/Sypronus/status/2125696024798704005",
+  "claim": "A Grok Bot strategy that only considers memecoins trading for at least 48 hours, six agents split scanning, risk checks, position sizing, execution, logging and balance updates (a commentary post on someone else's demo, no rules beyond the 48 h wait and no verified results, unverified)",
+  "added": "2026-11-26",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 48,
+    "liquidity": 50000
+   },
+   "max": {
+    "liquidity": 200000
+   },
+   "rugcheck": true,
+   "up": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "TP_ALL": 0.3,
+   "HALF_AT": null,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 24,
+   "PER_TRADE": 0.1,
+   "MAX_POS": 3,
+   "COOLDOWN_H": 24
+  },
+  "note": "from the post: only memecoins trading 48 h or more, a risk check step; chosen by me: risk check read as zoo rugcheck, pool 50k to 200k USD (200k+ with up is a closed family in lessons.md, so this stays below it), zoo up as the scanner, stop -15%, take all at +30%, max hold 24 h, 10% of the account per trade, at most 3 open (the three slots of the Sypronus 23 Nov post), 24 h block before the same coin is bought again (the post gives no exits or sizes)"
  }
 ]

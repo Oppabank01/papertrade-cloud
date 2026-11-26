@@ -1,59 +1,5 @@
 [
  {
-  "t": "2026-11-23T01:08:17+07:00",
-  "source": "github",
-  "title": "LarynaB/arcanumfleet-x402-skill (สัญญาณ momentum Solana ผ่าน x402)",
-  "url": "https://github.com/LarynaB/arcanumfleet-x402-skill",
-  "summary": "ขายสัญญาณ momentum และตรวจเหรียญแบบจ่ายเงินต่อครั้งผ่าน x402",
-  "verdict": "ตัดทิ้ง",
-  "action": "ลองไม่ได้: ต้องจ่ายเงินจริงต่อสัญญาณ"
- },
- {
-  "t": "2026-11-23T01:08:17+07:00",
-  "source": "x",
-  "title": "zostaff: ศึกษา 666 กระเป๋า pump.fun แล้วทำเครื่องมือแยก backtest ที่เป็นโชค",
-  "url": "https://x.com/zostaff/status/2122782916426248690",
-  "summary": "อ้างว่าใช้ repo ฟรี 2 ตัวกับ Codex ทำเทอร์มินัลที่เทรดเฉพาะสัญญาณที่รอดการทดสอบ",
-  "verdict": "กำลังลอง",
-  "action": "ใช้ permutation test ที่เพิ่มใน market-timeseries แล้ว (iterate และตัวสำรวจใช้กับทุกสูตร)"
- },
- {
-  "t": "2026-11-23T01:08:17+07:00",
-  "source": "x",
-  "title": "0x_exit: 6 repo ทำโต๊ะเทรด AI รอบ Grok Bot เริ่มจาก paper",
-  "url": "https://x.com/0x_exit/status/2124454367382184026",
-  "summary": "รายชื่อเครื่องมือ (CCXT ฯลฯ) ให้เอเจนต์หาไอเดีย ตรวจกราฟ ทดสอบกฎ และมีผู้คุมความเสี่ยงสั่งไม่",
-  "verdict": "กำลังลอง",
-  "action": "ใช้บัญชี x_crb_4agent เป็นตัวแทนโต๊ะเทรดหลายเอเจนต์"
- },
- {
-  "t": "2026-11-23T01:08:17+07:00",
-  "source": "x",
-  "title": "sayervonn: เอเจนต์เทรดทองหลังคุยกับคนคุมโต๊ะทอง 14 ปี",
-  "url": "https://x.com/sayervonn/status/2124141366947008751",
-  "summary": "เล่าเรื่องสร้างเอเจนต์เทรด 4 เดือน ไม่มีกฎ ไม่มีบัญชีให้ตรวจ",
-  "verdict": "กำลังลอง",
-  "action": "ไม่มีกฎ จึงเปิดบัญชีทอง PAXG ตามสูตร byttrade 4 ชม. พร้อมตัวควบคุมแทน (state_byt_paxg)"
- },
- {
-  "t": "2026-11-23T01:08:17+07:00",
-  "source": "web",
-  "title": "arXiv 2609.05663: LLM trading agent ในงานจริง 6 เดือน 2 กลุ่ม",
-  "url": "https://arxiv.org/abs/2609.05663",
-  "summary": "3,505 vault มีม Base และ 500-599 เอเจนต์ perps Hyperliquid ไม่มีกลุ่มไหนมี edge ทิศทาง ชนะ 41% เทียบรายย่อย 50% 43% ของตำแหน่งเคยบวก 3% ใน 24 ชม. แต่ครึ่งหนึ่งปิดติดลบ bracket ตายตัวกู้ได้ +39 bps ต่อตำแหน่ง",
-  "verdict": "กำลังลอง",
-  "action": "อ่านฉบับเต็มแล้ว: เอเจนต์ LLM ชนะ 41% ไล่ซื้อ top 3 gainers bracket 2%/4% ดีกว่าออกเอง แต่ไม่มีแบบไหนกำไร backtest พฤติกรรมนี้ 15 เหรียญ 1 ชม. 2 ปี -82.5 bps/ไม้ p 0.821 เปิดบัญชี state_dxai + twin ลองตลาดสด"
- },
- {
-  "t": "2026-11-23T01:08:17+07:00",
-  "source": "web",
-  "title": "arXiv 2609.34510: Can AI Make Money in Crypto? ช่องว่าง backtest กับตลาดจริง",
-  "url": "https://arxiv.org/abs/2609.34510",
-  "summary": "benchmark วิธี ML, RL, LLM และเอเจนต์ 3 ขั้น backtest, paper trade และเงินจริง เพื่อวัดว่าผลหายไปเท่าไร",
-  "verdict": "ไอเดีย",
-  "action": "abstract ไม่มีตัวเลขและไม่มีกฎ ต้องอ่าน full text เพื่อดูขนาดช่องว่างไว้ตั้งความคาดหวังของบัญชี paper"
- },
- {
   "t": "2026-11-23T02:22+07:00",
   "source": "web",
   "title": "ไอเดียแท่งราคา: ดีดหลังร่วงแรง: วันลบ 10% ขึ้นไป ซื้อถือ 1 วัน",
@@ -2698,5 +2644,59 @@
   "summary": "บอท paper โมเมนตัมบน replay ของ pump.fun อีกราว 5 ตัว ยังไม่ได้อ่านซอร์ส รอบนี้อ่านแค่ของ Drssptra",
   "verdict": "ไอเดีย",
   "action": "ค้างไว้อ่านรอบหน้า ตัวที่กฎต่างจาก x_ ที่มีอยู่จะแปลงเป็น recipe"
+ },
+ {
+  "t": "2026-11-26T07:38:13+07:00",
+  "source": "github",
+  "title": "nguyenphong198e/donchian-miniapp: Donchian 4 ชม. 100 แท่ง trail 6 ATR ถือไม่เกิน 30 วัน (บอท MEKVRO)",
+  "url": "https://github.com/nguyenphong198e/donchian-miniapp",
+  "summary": "บอท futures ของคนเวียดนาม ปิดเหนือจุดสูงสุด 100 แท่ง 4 ชม. ครั้งแรกซื้อ stop 6 ATR แล้ว trail 6 ATR ใต้จุดสูงสุด ถือไม่เกิน 180 แท่ง 8 เหรียญ เพิ่มตัวกรองวอลุ่ม 1.5 เท่าเมื่อ 25 พ.ย. กฎครบในซอร์ส",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest Binance 4h 2017-2026 หลังหัก 0.35%/ข้าง 8 เหรียญ 553 ไม้ +6.72% ต่อไม้ มัธยฐาน -2.59% ชนะ 41% ตัด 1% ดีสุด +4.45% ตัวแฝดเข้าสุ่ม +2.49% ตัวกรองวอลุ่มให้ผลใกล้กัน ตั้งแต่ 2025 BTC 18 ไม้ -0.74% ETH -0.11% SOL -1.07% ZEC +17.7% permutation 200 รอบ 6000 แท่งล่าสุด กริด 9 แบบ BTC p 0.687 ETH p 0.119 SOL p 0.363 ไม่ผ่าน เปิด fwd_don100.py (ไม่มีตัวกรองวอลุ่มเพราะ fetch ไม่มีวอลุ่ม ตัวแฝด 1 ใน 55 แท่ง) test ตรง backtest ETH 8 ไม้"
+ },
+ {
+  "t": "2026-11-26T07:38:13+07:00",
+  "source": "x",
+  "title": "Sypronus: Grok Bot ที่ให้เหรียญใหม่รอก่อน ซื้อเฉพาะมีมที่เทรดมาแล้ว 48 ชม.ขึ้นไป",
+  "url": "https://x.com/Sypronus/status/2125696024798704005",
+  "summary": "โพสต์เล่าต่อเดโม Grok Bot 6 เอเจนต์ที่พิจารณาเฉพาะมีมอายุ 48 ชม.ขึ้นไป ไม่มีกฎออกหรือผลที่ตรวจได้",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_wait48 (week อายุ 48 ชม.+ pool 50k ถึง 200k RugCheck up stop -15% TP +30% ถือ 24 ชม. ไม้ละ 10% สูงสุด 3 ตัว) เลขที่เลือกเองอยู่ใน note เลี่ยง pool 200k+ เพราะตระกูลนั้นปิดแล้ว import zoo ไม่มี skip test_zoo ผ่าน"
+ },
+ {
+  "t": "2026-11-26T07:38:13+07:00",
+  "source": "web",
+  "title": "van Herk (EUR thesis): Twist on the Monday effect ในคริปโต 7 เหรียญ",
+  "url": "https://thesis.eur.nl/pub/59563/Thesis-Kevin-van-Herk-475254.pdf",
+  "summary": "งานวิทยานิพนธ์บอกว่าผลวันจันทร์หลังสัปดาห์ลงต่ำกว่าวันจันทร์หลังสัปดาห์ขึ้นอย่างมีนัย ทำเป็นกฎซื้อเปิดขายปิดวันจันทร์ตามทิศของสัปดาห์ก่อน",
+  "verdict": "ทดสอบแล้ว",
+  "action": "Binance 1d ซื้อเปิดขายปิดวันจันทร์เมื่อ 3/7/14 วันก่อนขึ้นหรือลง หลังหัก 0.35%/ข้าง ติดลบทุกแบบ ดีสุด BTC หลัง 3 วันขึ้น 255 ไม้ -0.14% ก่อนหัก +0.56% (วันจันทร์ทั้งหมด +0.40%) BTC 7 วันขึ้น +0.34% แย่กว่า 7 วันลง +0.48% สวนกับงาน ETH ดีสุด -0.15% SOL -0.04% permutation 200 รอบกริด 6 แบบ BTC p 0.129 ETH p 0.249 SOL p 0.547 ไม่ผ่าน ถ้าจะเดินหน้าเหมาะกับ BTC วันจันทร์หลัง 3 วันขึ้น แต่ต้นทุนไปกลับ 0.7% ใหญ่กว่าแรงวันจันทร์ ไม่เปิดเอง"
+ },
+ {
+  "t": "2026-11-26T07:38:13+07:00",
+  "source": "x",
+  "title": "ค้น X 3 ครั้งรอบ 07:31 (grok bot trading strategy, memecoin 48 hours bot rules, from:Sypronus grok bot)",
+  "url": "https://x.com/0xavelo/status/2125361841790767165",
+  "summary": "ได้ avelo ตามวาฬ 2 กระเป๋าที่ซื้อใน 15 นาทีเดียวกัน (sim 112 ไม้ $90 เป็น $2,740), Yumzlef ทดสอบ 6 กลยุทธ์ 1,260 วัน (VWAP Reclaim +86.4%), Dan1ro0 บอท Polymarket BTC 5 นาที, F4ith/sopersone ไลบรารีบอทคลาสสิกฟรีที่ไม่บอกชื่อ repo ที่เหลือเป็นโพสต์โปรโมต",
+  "verdict": "ไอเดีย",
+  "action": "avelo ต้องที่อยู่กระเป๋าและประวัติไม้ของวาฬ (และตามกระเป๋าแพ้แล้ว 2 บัญชี), Yumzlef เป็นหุ้นและไม่บอกกฎ, Dan1ro0 ต้องประวัติราคาตลาด Polymarket 5 นาที, ไลบรารีบอทต้องรู้ชื่อ repo ก่อน ค้นรอบหน้า"
+ },
+ {
+  "t": "2026-11-26T07:38:13+07:00",
+  "source": "github",
+  "title": "กลุ่ม repo Donchian บอทแข่ง make.fun btc-race (dewihass08, Djebrix, rezimtirani, Joppy26)",
+  "url": "https://github.com/Djebrix/btc-race-3",
+  "summary": "บอทแข่ง cbBTC/USDC ทะลุ Donchian แบบช้า แนวเดียวกับ fwd_don1m ที่เปิดไว้แล้ว",
+  "verdict": "ไอเดีย",
+  "action": "ไม่ได้ทดสอบซ้ำ ซ้ำกับ fwd_don1m (Donchian 1 นาที BTC ETH SOL) ถ้าจะลองให้อ่านเลข lookback ของแต่ละ repo แล้วเทียบกับ fwd_don1m ก่อน"
+ },
+ {
+  "t": "2026-11-26T07:38:13+07:00",
+  "source": "github",
+  "title": "TonyTrade-Net/tonytrade-net: ผู้ช่วยเทรด AI สำหรับ Binance OKX Bitget",
+  "url": "https://github.com/TonyTrade-Net/tonytrade-net",
+  "summary": "แอปแชท AI วาดแนวรับแนวต้านและส่งคำสั่งผ่านคีย์ exchange ไม่มีกฎตายตัว",
+  "verdict": "ตัดทิ้ง",
+  "action": "ต้องใส่คีย์ exchange และสมัครใช้บริการ"
  }
 ]
