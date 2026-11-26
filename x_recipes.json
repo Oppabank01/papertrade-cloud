@@ -998,7 +998,7 @@
   "source": "https://x.com/Hrundel75/status/2121980466748129536",
   "claim": "$250 to $15,483 buying after the dev rugged",
   "added": "2026-11-15",
-  "active": true,
+  "active": false,
   "entry": {
    "min": {
     "cto_flag": 1
@@ -2849,5 +2849,36 @@
    "WATCH_S": 5
   },
   "note": "from the README: still on the curve, 15% below the recent high, net buying, 300+ slots old, TP +20%, stop -8%, trail 20% once +10%, max hold 600 slots, at most 6 open; chosen by me: 300 slots read as age 0.033 h (2 min at 0.4 s per slot), the 40-slot high (about 16 s) read as the GMGN 5 m change at -15% or lower, net buying read as a green 1 m change of +0.1% or more and 3+ buys in the rank's buys field, 2 SOL real reserves read as 1k USD liquidity, the 80 SOL cap and the net-outflow exit left out (zoo has no such fields), 600 slots read as 0.067 h, 3% of the account per trade (the README stakes 0.15 SOL of an unknown balance), one entry per coin with a 24 h block (the README allows 2), 5 s checks because stops need the fast group (lessons.md)"
+ },
+ {
+  "name": "x_superior_desk",
+  "label": "โต๊ะ 6 เอเจนต์ Superior: อายุ 0.5-72 ชม. แคป 300k-20M คะแนน 70+ stop -6% trail",
+  "horizon": "week",
+  "source": "https://x.com/andreysuperior/status/2115946924901908483",
+  "claim": "$200 to $2,418 on the bot desk vs $34 for the AI clone of the author, paper test (unverified)",
+  "added": "2026-11-26",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 0.5,
+    "market_cap": 300000,
+    "liquidity": 40000,
+    "score": 70
+   },
+   "max": {
+    "age_h": 72,
+    "market_cap": 20000000
+   },
+   "safe": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.06,
+   "TRAIL_ON": 0.12,
+   "TRAIL": 0.12,
+   "PER_TRADE": 0.08,
+   "MAX_HOLD_H": 24
+  },
+  "note": "post gives stop -6, trail after +12, 8% size; trail distance 12% and hold 24h are ours; analyst score is zoo.score; 6-agent LLM layers not modelled"
  }
 ]

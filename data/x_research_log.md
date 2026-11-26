@@ -841,3 +841,11 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ลองแล้วตก: สูตร sniper 83% (ผลของ Zenko สัปดาห์ตัดสิน 420 ไม้ ชนะ 23.8% -8.6% ต่อไม้ แพ้ซื้อสุ่ม -4.4%)
 ไอเดีย: CTREND (ต้องราคาเหรียญหลายร้อยตัวแบบไม่มี survivorship และขา short), เรดาร์ 11 ธงแดง (ต้องรายการธงจากเธรด)
 ตัดทิ้ง: ไม่มี
+
+## 2026-11-26 (routine x recipes, เวลากรุงเทพ ช่วงเย็น)
+ค้น: WebSearch 3 ครั้ง (memecoin strategy overnight บน x.com, 1 month memecoin system results, ภาษาไทยเรื่องเทรดมีมคืนเดียว) ผลภาษาไทยและ 1 month ได้แต่บล็อกทั่วไป ไม่มีผลที่ตรวจได้
+เจอและเพิ่ม: x_superior_desk (week) https://x.com/andreysuperior/status/2115946924901908483 อ้าง $200 เป็น $2,418 บนโต๊ะบอต 6 เอเจนต์ (เทียบ $34 ของ AI โคลนผู้โพสต์ ทดสอบ paper ยังไม่ยืนยัน) แปลงเป็นอายุ 0.5 ถึง 72 ชม. แคป 300k ถึง 20M สภาพคล่อง 40k+ คะแนน zoo.score 70+ ผ่าน safe และ rugcheck stop -6% trail เริ่มที่ +12% ไม้ละ 8% ตามโพสต์ ระยะ trail 12% และถือสูงสุด 24 ชม. เป็นค่าที่เราเลือกเอง
+ข้าม: thread Loofyb0i เรื่อง circuit breaker (มีสูตรของ x_loofy_desk อยู่แล้ว ส่วนกฎไม่ซื้อเมื่อราคาแพงกว่า leader 15% ต้องมีข้อมูลกระเป๋า leader), Medium bytesavvy02 (บันทึกไว้ก่อนแล้ว), Eyyyys 1 เป็น 100 SOL ใน DLMM (ต้องข้อมูล LP ยังทำไม่ได้)
+ยังทำไม่ได้: กฎ circuit breaker ระดับโต๊ะ (ต้องสถานะ P&L รายวันของบัญชี), สัญญาณ LP DLMM (ต้องข้อมูลพูล Meteora)
+เลิก: x_cto_watch (week ครบ 7 วัน 18 ไม้ -43.5% รุ่น _b2 -54.1% ยืนยัน)
+คะแนน x_ ชั้นนำ: x_smartflow_lowcap +20.9% (7 ไม้) | x_crb_4agent +11.8% (11 ไม้) | x_obz_top5_month +1.8% (0 ไม้) | ตัวควบคุม rand -98.3% randrun -98.5%
