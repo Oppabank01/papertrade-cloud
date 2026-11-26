@@ -1,15 +1,44 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.684287812041116,
- "cash": 14.684287812041116,
- "pos": {},
+ "cash": 13.215859030837004,
+ "pos": {
+  "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": {
+   "sym": "JIMMY",
+   "qty": 1826.7336883244377,
+   "entry": 0.0007799,
+   "last": 0.0007805,
+   "peak": 0.0008021,
+   "cost": 1.4684287812041117,
+   "opened": "2026-11-26T08:19:50+07:00",
+   "zoo": "x_wait48",
+   "smart": 189,
+   "kol": 9,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-26T07:46:01+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-26T08:19:50+07:00",
+   "kind": "buy",
+   "mint": "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump",
+   "sym": "JIMMY",
+   "price": 0.0007799,
+   "jup": 0.0007786085874016545,
+   "usd": 1.4684,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_wait48",
+   "smart": 189,
+   "kol": 9
   }
  ],
  "label": "สวนสัตว์: ให้เหรียญใหม่รอก่อน (โพสต์ Grok Bot ที่ Sypronus เล่าต่อ) แบบที่ zoo เช็กได้: ซื้อเฉพาะมีมที่เทรดมาแล้ว 48 ชม.ขึ้นไป pool 50k ถึง 200k RugCheck up stop -15% TP +30% ถือ 24 ชม. ไม้ละ 10% สูงสุด 3 ตัว",
- "rank_t": 1795655325.7673764
+ "rank_t": 1795655861.3242471
 }
