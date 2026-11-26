@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 1.8712659528996758,
+ "cash": 2.0466234976045405,
  "pos": {
-  "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
-   "sym": "CRIME",
-   "qty": 48.03181163401354,
-   "entry": 0.003277,
-   "last": 0.003763,
-   "peak": 0.003949,
-   "cost": 0.16223484510890784,
-   "opened": "2026-11-26T11:36:28+07:00",
-   "zoo": "x_spray_small_b2",
-   "smart": 93,
-   "kol": 40,
-   "gap": 0,
-   "miss": 0
-  },
   "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
    "sym": "NIO",
    "qty": 138.86563331541487,
    "entry": 0.001116,
-   "last": 0.001131,
+   "last": 0.00111,
    "peak": 0.001148,
    "cost": 0.15973412366522677,
    "opened": "2026-11-26T12:26:04+07:00",
@@ -35,7 +21,7 @@
    "sym": "CATE",
    "qty": 8.747492111379357,
    "entry": 0.01769,
-   "last": 0.01771,
+   "last": 0.01758,
    "peak": 0.01777,
    "cost": 0.1594961198209656,
    "opened": "2026-11-26T12:26:04+07:00",
@@ -49,8 +35,8 @@
    "sym": "UHI",
    "qty": 227.0137453888998,
    "entry": 0.0006804,
-   "last": 0.0007153,
-   "peak": 0.0007244,
+   "last": 0.000726,
+   "peak": 0.000726,
    "cost": 0.15920444481818946,
    "opened": "2026-11-26T12:42:13+07:00",
    "zoo": "x_spray_small_b2",
@@ -63,7 +49,7 @@
    "sym": "Pompom",
    "qty": 983.8090599446833,
    "entry": 0.0001571,
-   "last": 0.0001491,
+   "last": 0.0001626,
    "peak": 0.0001733,
    "cost": 0.15930365215142211,
    "opened": "2026-11-26T13:06:43+07:00",
@@ -77,21 +63,21 @@
    "sym": "PAID",
    "qty": 137.85548579606365,
    "entry": 0.001062,
-   "last": 0.001046,
+   "last": 0.001026,
    "peak": 0.001067,
    "cost": 0.15089932582500476,
    "opened": "2026-11-26T14:02:54+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 735,
    "kol": 98,
-   "gap": 0,
+   "gap": 19,
    "miss": 0
   },
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 2.021714082830114,
    "entry": 0.07231,
-   "last": 0.07304,
+   "last": 0.07314,
    "peak": 0.07321,
    "cost": 0.15068042190212902,
    "opened": "2026-11-26T14:11:34+07:00",
@@ -12313,10 +12299,32 @@
    "cost_side": 0.03,
    "smart": 259,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T14:36:39+07:00",
+   "kind": "sell",
+   "mint": "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump",
+   "sym": "CRIME",
+   "price": 0.003763,
+   "entry": 0.003277,
+   "usd": 0.1754,
+   "pnl": 0.0131,
+   "why": "ครบ 3 ชม. (+14.8%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 93,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-26T14:40:21+07:00",
+   "kind": "ban",
+   "mint": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
+   "sym": "PAID",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: หว่านไม้เล็กหลายตัว ตัดกำไร 50% ตัดขาดทุน 15%",
- "rank_t": 1795677919.9613504,
+ "rank_t": 1795678394.6047883,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": "three",
@@ -12373,6 +12381,7 @@
   "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": "WASTED",
   "ebSyELGXjyddEmEcZ9MpvZdANmx1aFB6kGWKDkUpump": "BARRON",
   "6pjRwzGg2QS1VSf6Z4TQZwyMxUysrUajkRmbbQ89P6KG": "FLOATER",
-  "CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU": "e/acc"
+  "CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU": "e/acc",
+  "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": "PAID"
  }
 }
