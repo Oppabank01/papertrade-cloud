@@ -2,7 +2,7 @@
  "label": "Kalshi ตัวควบคุม: สุ่มฝั่งในตลาดเดียวกับตัวเต็ง/ตัวรอง",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 0.34567650567067176,
+ "cash": 1.107921749894536,
  "pos": {
   "KXOPENSOURCESHARE-26NOV26-T59.6:no": {
    "qty": 13.765060697035144,
@@ -26,18 +26,6 @@
    "ticker": "KXMC-GTA6-98",
    "side": "no",
    "close": "2026-11-26T15:00:00Z",
-   "why": "สุ่มฝั่ง"
-  },
-  "KXDIESELD-26NOV26-T5.715:yes": {
-   "qty": 0.7622452442238642,
-   "entry": 0.967488,
-   "last": 0.98,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-25T17:18:41+00:00",
-   "coin": "YES | Will Diesel Price on November 26, 2026 be above $5.715?",
-   "ticker": "KXDIESELD-26NOV26-T5.715",
-   "side": "yes",
-   "close": "2026-11-26T04:59:00Z",
    "why": "สุ่มฝั่ง"
   },
   "KXXRPD-26NOV2617-T0.8999:yes": {
@@ -1221,6 +1209,18 @@
    "usd": 0.0,
    "pnl": -0.73746,
    "ret": -1.0,
+   "cost_side": 0,
+   "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-26T13:57:04+00:00",
+   "coin": "YES | Will Diesel Price on November 26, 2026 be above $5.715?",
+   "px": 1.0,
+   "entry": 0.96749,
+   "usd": 0.76225,
+   "pnl": 0.02478,
+   "ret": 0.0336,
    "cost_side": 0,
    "why": "ตัดสิน yes"
   }
