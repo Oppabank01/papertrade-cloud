@@ -820,3 +820,13 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 เพิ่ม x_: ไม่มี (รอบนี้ไม่เจอกฎเหรียญมีมใหม่)
 ไอเดีย: vol target รายวัน BTC ETH (ทดสอบแล้ว รอเปิดบัญชีรอบหน้าถ้าเธรดหลักเห็นควร), iaswmn (ซ้ำตระกูล EMA cross), BOX_HUNTER (รอโค้ด)
 ตัดทิ้ง: ไม่มี
+
+## 2026-11-26 19:02 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 19 พ.ย. (heikin ashi, parabolic sar, stochastic rsi, squeeze momentum, vwap strategy, funding rate, trading strategy backtest ตั้งแต่ 25 พ.ย., crypto bot ตั้งแต่ 25 พ.ย., pump.fun ตั้งแต่ 25 พ.ย., larry williams, connors), X 4 ครั้ง (tradingview strategy backtest BTC profit factor, สูตรบอทเทรด ทดสอบย้อนหลัง, bot strategy rules RSI EMA win rate, ai trading bot strategy open source), WebSearch 4 ครั้ง (งานวิจัย BTC เดือน พ.ย. 69, arXiv, SSRN, บอท Polymarket ชนะ 99.2%)
+เจอ: Quantpedia pre-holiday drift ของ Bitcoin (ซื้อก่อนวันหยุดสหรัฐ ขายหลังวันหยุด), บอทแข่ง make.fun ใหม่ (hakimi, Steady Sniper ฯลฯ ใช้ tape ระดับ slot), Nevod แล็บกริด Setka MT5, Tactfolio (ต้องสมัคร), clarg 5 นาทีซ้ำของที่ลองแล้ว, บน X มีแต่โพสต์ขาย Grok Bot และโพสต์บอท Polymarket อ้างชนะ 99.2% ที่หาแหล่งยืนยันไม่ได้
+ทดสอบแล้ว (Binance รายวัน 2018 ถึง 24 พ.ย. 69 หลังหัก 0.35%/ข้าง permutation 200 รอบ):
+- ซื้อปิดวันก่อนวันหยุดราชการสหรัฐ ขายปิดวันหลังวันหยุด: BTC 93 ไม้ -0.42% ต่อไม้ มัธยฐาน -0.48% ชนะ 40% ก่อนหัก +0.28% ETH 93 ไม้ -0.65% ก่อนหัก +0.05% ฐานถือ 2 วันทุกวัน -0.50% และ -0.47% ตั้งแต่ 2025 BTC 20 ไม้ -1.02% กรองปิดสูงสุด 5/10/20 วัน BTC เหลือ 21/13/12 ไม้ +0.01/+0.18/+0.11% กริด 4 แบบ BTC p 0.433 ETH p 0.791 ไม่มีแรงจริง
+เปิดบัญชี: fwd_preholiday.py (BTC ETH ไม้ละครึ่ง แบบไม่กรอง ตัวแฝดเข้าสุ่ม 1 ใน 33 วัน ถือ 2 วัน) test เดินทีละวันบนหน้าต่าง 1000 แท่งตรง backtest 142 ไม้ ไม้แรกจะเป็นคริสต์มาส
+เพิ่ม x_: ไม่มี (กฎเหรียญมีมใหม่ทุกตัวต้องใช้ข้อมูลระดับ slot)
+ไอเดีย: บอทแข่ง make.fun (ต้อง tape ระดับเทรด), Nevod กริด Setka (ต้องซอร์ส EA และข้อมูลฟอเร็กซ์), บอท Polymarket 99.2% (ต้องประวัติ Polymarket), โมเมนตัมเหรียญรอดท็อป 100 (ต้องรายชื่อย้อนหลัง)
+ตัดทิ้ง: Tactfolio (ต้องสมัครและล็อกอิน)

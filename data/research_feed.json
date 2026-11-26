@@ -1,59 +1,5 @@
 [
  {
-  "t": "2026-11-23T02:55:00+07:00",
-  "source": "web",
-  "title": "MDPI Risks 19(9) 692: แบ่งวันคริปโตเป็นช่วงกลางวันกับกลางคืน",
-  "url": "https://www.mdpi.com/1911-8074/19/9/692",
-  "summary": "บทความถามว่าผลตอบแทนช่วงหนึ่งของวันทำนายอีกช่วงได้ไหมใน BTC และ ETH หน้าเว็บตอบ 403 อ่านกฎจริงไม่ได้ เลยสร้างแบบใกล้สุดเอง",
-  "verdict": "ลองแล้วตก",
-  "action": "ลองบน Binance 1 ชม.: ผลตอบแทน 00-12 UTC กำหนดฝั่งช่วง 12-24 UTC (ตามทิศหรือสวนทิศ ตัดวันขยับน้อยกว่า 2% หรือไม่ตัด 4 แบบ) ETH ตามทิศก่อนหัก +0.18% ต่อวัน permutation p 0.010 แต่หลังหัก 0.35%/ข้าง -0.52% (3,378 ไม้) BTC ดีสุด -0.58% p 0.144 SOL ดีสุด -0.47% p 0.085 ปี 2024+ ติดลบทุกแบบ มีแรงจริงเล็กน้อยใน ETH แต่ต้นทุนกินหมด ไม่เปิดบัญชี"
- },
- {
-  "t": "2026-11-23T04:42:08+07:00",
-  "source": "github",
-  "title": "ShuWayne/crypto-trading-intelligence-terminal: v3-B Range Mean-Reversion",
-  "url": "https://github.com/ShuWayne/crypto-trading-intelligence-terminal",
-  "summary": "เทอร์มินัลเทรดกระดาษ อ้างว่า v3-B ผ่าน backtest 240 วัน 17 ไม้ ชนะ 47% PF 1.75 กฎครบ: ตลาดไซด์เวย์ แตะขอบกรอบ 20 แท่ง RSI สุดขั้ว แท่งกลับตัว stop 1.5 ATR เป้า 3 ATR ถือไม่เกิน 24 แท่ง 4 ชม.",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "backtest Binance 4 ชม. 2017-2026 หลังหัก 0.35%/ข้าง long+short: BTC 171 ไม้ -1.17% ต่อไม้ (มัธยฐาน -2.30% ชนะ 29%) p 0.920, ETH 127 ไม้ -1.34% p 0.891, SOL 64 ไม้ -1.78% p 0.851 ก่อนหักก็ติดลบ -0.47 ถึง -1.08% แพ้ตัวแฝดเข้าสุ่มฝั่งสุ่ม (-0.54 ถึง -0.73%) ติดลบทุกปี 17 ไม้ของ repo จึงเป็นโชค เปิด fwd_rangerev.py (BTC SOL ตาม repo) พร้อมตัวแฝด test เดินทีละแท่งได้ 11 ไม้ตรง backtest"
- },
- {
-  "t": "2026-11-23T04:42:08+07:00",
-  "source": "web",
-  "title": "De Nicola 2021 (Ledger 6): On the Intraday Behavior of Bitcoin",
-  "url": "https://ledger.pitt.edu/ojs/ledger/article/view/213",
-  "summary": "งานวิจัยพบ autocorrelation ติดลบของ BTC ที่ 1, 2, 4 ชม. ท่าง่าย: แท่งลงแรงเกิน k SD ซื้อ ขึ้นแรง short ถือ 1 แท่ง ตาราง 5 บอก 4 ชม. 2 SD กำไร +0.32% ต่อไม้ก่อนค่าธรรมเนียม (Bitstamp 2015-2018 ใช้ SD ทั้งชุดซึ่งมองอนาคต)",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "backtest Binance 4 ชม. 2017-2026 ใช้ SD ย้อนหลัง 180 แท่ง (ผมเลือก) 2 SD หลังหัก 0.35%/ข้าง: BTC 1,165 ไม้ -0.75% p 0.900, ETH 1,201 ไม้ -0.74% p 0.811, SOL 806 ไม้ -0.54% p 0.025 ก่อนหักเหลือแค่ -0.05%, -0.04%, +0.16% ผลในงานวิจัยหายไปหลังปี 2018 ตัวแฝดสุ่ม -0.66 ถึง -0.71% เปิด fwd_jumprev.py (BTC ETH SOL) พร้อมตัวแฝด test เดินทีละแท่งได้ 58 ไม้ตรง backtest"
- },
- {
-  "t": "2026-11-23T04:42:08+07:00",
-  "source": "github",
-  "title": "LBS16ST/btc-race-24h-20261118-1444: Dip-Grid Bot (make.fun BTC race)",
-  "url": "https://github.com/LBS16ST/btc-race-24h-20261118-1444",
-  "summary": "บอทแข่ง make.fun เงินกระดาษ 1 นาที: ราคาต่ำกว่า SMA60 0.7% ซื้อไม้แรก ลงอีก 0.4% เติมสูงสุด 4 ไม้ (น้ำหนัก 1,1,2,2) ขายหมดเมื่อกลับถึง SMA60 หรือ +0.8% จากต้นทุนเฉลี่ย stop -3% ถือไม่เกิน 300 นาที อ้าง +9.06 USDC ใน 1 วัน",
-  "verdict": "ทดสอบแล้ว",
-  "action": "backtest BTCUSDT 1 นาที 60 วันล่าสุด (B&H -27.8%) 89 รอบ: ต้นทุน 0.06%/ข้างแบบของ repo เฉลี่ย +0.108% ต่อรอบ มัธยฐาน +0.267% ชนะ 73% CI (-0.06%, +0.25%) permutation p 0.010 ตัวแฝดเริ่มสุ่ม -0.09% แต่ต้นทุน 0.35%/ข้างของเรา -0.47% ต่อรอบ รวม -42% edge มีจริงเฉพาะค่าธรรมเนียมต่ำมาก forward test ต้องใช้แท่ง 1 นาทีและค่าธรรมเนียมไม่เกิน 0.06%/ข้าง ซึ่ง byttrade ให้แค่ 4 ชม. ยังเปิดไม่ได้ (สคริปต์ /tmp/scout_dipgrid.py)"
- },
- {
-  "t": "2026-11-23T04:42:08+07:00",
-  "source": "x",
-  "title": "SignalIn60: บอท AI ไวรัลคือ SMA20/50 รายวัน ลอง 365 เหรียญ แพ้ 83.6%",
-  "url": "https://x.com/SignalIn60/status/2121928933515858251",
-  "summary": "โพสต์แย้งว่าบอท AI ที่ดังคือเส้น 20/50 ตัดกันรายวัน ทดสอบ 365 เหรียญ 305 เหรียญขาดทุน มัธยฐาน -51.9%",
-  "verdict": "ทดสอบแล้ว",
-  "action": "ลองบนเหรียญใหญ่ Binance รายวันหลังหัก 0.35%/ข้าง long อย่างเดียว: BTC 37 ไม้ +17.1% ต่อไม้ (มัธยฐาน -3.1%) p 0.055, ETH 31 ไม้ +27.8% p 0.015, SOL 22 ไม้ +60.4% (มัธยฐาน -5.7%) p 0.045 ชนะตัวแฝดเข้าสุ่ม (+6.7%, +7.7%, +22.6%) แต่แพ้ B&H และปี 2024+ แทบไม่บวก ตรงกับหลักฐานว่าตามเทรนด์ใช้ได้กับเหรียญใหญ่ ส่วนเหรียญเล็กแพ้ตามโพสต์ ไม่เปิดบัญชีเพราะซ้ำสายหลัก paper.py/majors.py"
- },
- {
-  "t": "2026-11-23T04:42:08+07:00",
-  "source": "github",
-  "title": "IDRISK7/crypto-strategy-backtests: 11 ไอเดียทดสอบเข้ม ไม่มีอันไหนรอด",
-  "url": "https://github.com/IDRISK7/crypto-strategy-backtests",
-  "summary": "ทดสอบ 11 ท่าบน perp Binance รวมเหรียญที่ถูกถอด มี placebo และช่วงเก็บไว้: key level, breakout 20 วัน, funding carry, short ก่อน token unlock, long/short รายสัปดาห์ ทุกท่าตกในข้อมูลที่ไม่เคยเห็น",
-  "verdict": "ไอเดีย",
-  "action": "ไม่ได้รันโค้ด ผลสอดคล้องกับ lessons ของเรา (ผลช่วงพัฒนามาจากปี 2021 ปีเดียว, placebo เปลี่ยนคำตอบ) ท่า token unlock และ cross-section ต้องข้อมูลตาราง unlock ของ DefiLlama และแท่งรายวันเหรียญ perp ทั้งหมดรวมที่ถูกถอด ซึ่งเรายังไม่มี"
- },
- {
   "t": "2026-11-23T04:42:08+07:00",
   "source": "x",
   "title": "marvketh: บอทเหรียญมีม Solana 12 ไม้ ชนะ 0 พร้อม shadow test",
@@ -2698,5 +2644,59 @@
   "summary": "เจอแต่โพสต์โปรโมตแพลตฟอร์มบอท (MEMEOS Quant, FensoryApp, Neptune ของ pacifica) และ JeffWhiting8338 ที่ลงฟีดแล้ว ค้นภาษาไทยไม่มีผล",
   "verdict": "ไอเดีย",
   "action": "ไม่มีกฎที่ตรวจได้ แพลตฟอร์มต้องสมัครจึงไม่แตะ"
+ },
+ {
+  "t": "2026-11-26T19:10:39+07:00",
+  "source": "web",
+  "title": "Quantpedia (Dujava, 8 ก.ย. 68): Surprisingly Profitable Pre-Holiday Drift Signal for Bitcoin",
+  "url": "https://quantpedia.com/surprisingly-profitable-pre-holiday-drift-signal-for-bitcoin/",
+  "summary": "ซื้อ Bitcoin ตอนปิดวันก่อนวันหยุดสหรัฐ ถือผ่านวันหยุด ขายตอนปิดวันหลังวันหยุด ทดสอบบน BITO 2018 ถึง มิ.ย. 68 แบบไม่กรองผู้เขียนบอกเองว่าไม่น่าพอใจ แบบกรองปิดสูงสุด 5 วันได้ Sharpe เกิน 0.6",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest Binance รายวัน 2018 ถึง 24 พ.ย. 69 วันหยุดราชการสหรัฐ 10 วันตามวันที่จริง + Juneteenth ตั้งแต่ 2021 หลังหัก 0.35%/ข้าง: BTC 93 ไม้ -0.42% ต่อไม้ มัธยฐาน -0.48% ชนะ 40% ก่อนหัก +0.28% ETH 93 ไม้ -0.65% ก่อนหัก +0.05% ฐานถือ 2 วันทุกวัน -0.50/-0.47% ตั้งแต่ 2025 BTC 20 ไม้ -1.02% กรองปิดสูงสุด 5/10/20 วัน BTC 21/13/12 ไม้ +0.01/+0.18/+0.11% permutation 200 รอบ กริด 4 แบบ BTC p 0.433 ETH p 0.791 เปิด fwd_preholiday.py (BTC ETH ไม้ละครึ่ง แบบไม่กรอง ตัวแฝดเข้าสุ่ม 1 ใน 33 วัน) test เดินทีละวันตรง backtest 142 ไม้ ไม้แรกจะเป็นคริสต์มาส (ซื้อปิด 24 ธ.ค.)"
+ },
+ {
+  "t": "2026-11-26T19:10:39+07:00",
+  "source": "github",
+  "title": "กลุ่มบอทแข่ง make.fun pump.fun ใหม่ 25 ถึง 26 พ.ย. (lingxiansen2 hakimi, rozikin45 Steady Sniper, imnotripper, muhamadfajar160299 ฯลฯ)",
+  "url": "https://github.com/rozikin45/sharpe-sprint-steady-sniper",
+  "summary": "hakimi รวมหลายท่าระดับ slot (ช้อนเด้ง 40% จากจุดต่ำ 60 slot, ไหลเข้าสุทธิ 8 SOL ผู้ซื้อ 32 คน) อ้าง +33 SOL บน replay ของตัวเอง Steady Sniper ซื้อเหรียญอายุไม่เกิน 4 slot ราคาไม่เกิน +10% จากตอนสร้าง ผู้ซื้อไม่เกิน 3 คน dev ยังไม่ขาย ขายครึ่งที่ +15% ออกที่ +20% stop -10% trail 12%",
+  "verdict": "ไอเดีย",
+  "action": "ไม่ได้แปลง เพราะทุกตัวเข้าต้องใช้ tape ระดับเทรดหรือ slot (dev buy, จำนวนผู้ซื้อใน 4 slot แรก, ขายใหญ่) ที่ zoo ไม่มี ส่วนที่เหลือซ้ำตระกูล x_snipe_30_30 และ x_dip_recover"
+ },
+ {
+  "t": "2026-11-26T19:10:39+07:00",
+  "source": "github",
+  "title": "mamaelvisa/nevod-public: แล็บ backtest กริด Setka v1.43 (MT5)",
+  "url": "https://github.com/mamaelvisa/nevod-public",
+  "summary": "พอร์ตตรรกะ EA กริด Setka v1.43 ของ MT5 เป็น Python พร้อม walk-forward และบันทึกผลลบไว้ด้วย README ไม่ให้กฎกริดเป็นตัวเลข และเตือนว่ากริดเสี่ยงหมดพอร์ต",
+  "verdict": "ไอเดีย",
+  "action": "ต้องอ่านตรรกะ Setka จากซอร์สและข้อมูลฟอเร็กซ์ MT5 ระดับ tick ส่วนกริดบน BTC 1 ชม. ทดสอบไปแล้วรอบ 10:48 (pulsebot grid -0.55% ต่อไม้)"
+ },
+ {
+  "t": "2026-11-26T19:10:39+07:00",
+  "source": "github",
+  "title": "davidezekiel096-cmd/AI-Trading-Strategy-Workflow (Tactfolio)",
+  "url": "https://github.com/davidezekiel096-cmd/AI-Trading-Strategy-Workflow-From-Plain-Language-Rule-to-Backtest",
+  "summary": "เอกสารโฆษณาขั้นตอนให้ AI ผ่าน MCP แปลงไอเดียเป็นกฎแล้ว backtest บนแพลตฟอร์ม Tactfolio ตัวอย่างคือถือ ETF หุ้นสหรัฐเมื่อเหนือ SMA200",
+  "verdict": "ตัดทิ้ง",
+  "action": "ต้องสมัครและล็อกอิน OAuth แพลตฟอร์ม กฎตัวอย่างซ้ำตระกูล SMA200 ที่ทดสอบแล้ว"
+ },
+ {
+  "t": "2026-11-26T19:10:39+07:00",
+  "source": "x",
+  "title": "ค้น X 4 ครั้งรอบ 19:02 (tradingview strategy backtest BTC profit factor, สูตรบอทเทรด ทดสอบย้อนหลัง, bot strategy rules RSI EMA win rate, ai trading bot strategy open source)",
+  "url": "https://x.com/forceblanche/status/2125867947088327123",
+  "summary": "ได้แต่โพสต์ขาย Grok Bot และ tradingkit (0xNevsky, DaviddDotTech, evanmori) โพสต์ที่ลงฟีดแล้ว (biektive) ภาษาไทยไม่มีข้อความ และ forceblanche เล่าบอท Polymarket อ้างชนะ 99.2% จาก 1,500 เป็น 895,000 USDT ใน 3 วัน",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎที่สคริปต์ตัดสินได้ ค้นเว็บแล้วไม่เจอแหล่งยืนยันตัวเลขนี้ บอท Polymarket ที่ชนะเกือบ 100% ที่มีรายงาน (Account88888) เป็น arbitrage ราคา ต้องใช้ประวัติราคาและ order book ของ Polymarket ซึ่งเราไม่มี"
+ },
+ {
+  "t": "2026-11-26T19:10:39+07:00",
+  "source": "web",
+  "title": "ค้นงานวิจัยกลยุทธ์คริปโตใหม่เดือน พ.ย. 69 (arXiv, SSRN)",
+  "url": "https://www.mdpi.com/1911-8074/19/9/692",
+  "summary": "ไม่เจองานใหม่ของเดือนนี้ ได้ของที่ลงฟีดแล้ว (MDPI ช่วงกลางวันกลางคืน, AdaptiveTrend, TSMOM ก่อนหลัง ETF, ชั่วโมง 21 ถึง 23 UTC) และ Finance Research Letters 2026 ว่าโมเมนตัมเหรียญท็อป 100 มาจากเหรียญที่อยู่ไม่นาน",
+  "verdict": "ไอเดีย",
+  "action": "งานโมเมนตัมเหรียญรอดต้องรายชื่อท็อป 100 ย้อนหลังรวมเหรียญที่หลุด ซึ่งเราไม่มี ไม่ได้ทดสอบ"
  }
 ]
