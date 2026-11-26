@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 4.689439312754112,
+ "cash": 2.992652285910016,
  "pos": {
   "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
    "sym": "CRIME",
@@ -21,13 +21,27 @@
    "sym": "CLAUDIA",
    "qty": 213.3814434473206,
    "entry": 0.007653,
-   "last": 0.008715,
+   "last": 0.009022,
    "peak": 0.009312,
    "cost": 1.6831665498890382,
    "opened": "2026-11-26T11:53:29+07:00",
    "zoo": "w_f5_bigliqRC_b2",
    "smart": 576,
    "kol": 37,
+   "gap": 0,
+   "miss": 0
+  },
+  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
+   "sym": "STONK",
+   "qty": 53.344872762285846,
+   "entry": 0.03086,
+   "last": 0.03094,
+   "peak": 0.03094,
+   "cost": 1.6967870268440952,
+   "opened": "2026-11-26T13:25:06+07:00",
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 1000,
+   "kol": 174,
    "gap": 0,
    "miss": 0
   }
@@ -1551,10 +1565,24 @@
    "cost_side": 0.03,
    "smart": 324,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T13:25:06+07:00",
+   "kind": "buy",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.03086,
+   "jup": 0.030889638551636314,
+   "usd": 1.6968,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 1000,
+   "kol": 174
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ bigliqRC แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1795673701.587583,
+ "rank_t": 1795674215.8478622,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT"
  }
