@@ -2880,5 +2880,38 @@
    "MAX_HOLD_H": 24
   },
   "note": "post gives stop -6, trail after +12, 8% size; trail distance 12% and hold 24h are ours; analyst score is zoo.score; 6-agent LLM layers not modelled"
+ },
+ {
+  "name": "x_toaster_paper",
+  "label": "บอท paper MyToasterIsCrying (Solana Paper Bot 2.0) แบบที่ zoo เช็กได้: อายุ 30 นาทีขึ้นไป pool 25k+ top10 ไม่เกิน 30% ราคา 1 ชม. และ 5 นาทีบวก แรงซื้อนำ RugCheck stop -6% TP +12% ไม้ละ 5% สูงสุด 3 ตัว",
+  "horizon": "week",
+  "source": "https://github.com/MyToasterIsCrying/solana-paper-bot",
+  "claim": "GitHub Actions paper bot every 15 min with $100: 14 closed trades, 4 wins, -14.6% of the account by 23 Nov 2026 (its own dashboard.json, paper only, unverified and losing)",
+  "added": "2026-11-27",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 0.5,
+    "liquidity": 25000,
+    "price_change_percent1h": 0.01
+   },
+   "max": {
+    "top_10_holder_rate": 0.3
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.06,
+   "TP_ALL": 0.12,
+   "HALF_AT": null,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 24,
+   "PER_TRADE": 0.05,
+   "MAX_POS": 3,
+   "COOLDOWN_H": 2
+  },
+  "note": "from config.py and agents/analyst.py: token age 30 min+, liquidity 25k+, top10 holders 30% max, RugCheck safety, hard gates 5m and 1h change above 0, stop -6%, target +12%, 5% of equity per trade, 3 open max, 2 h re-entry block; chosen by me: the 0-100 analyst score (needs 1h volume, 5m volume and 1h buys/sells that GMGN rank does not give) is replaced by zoo up (buys > sells and 5m change above 0), 1h change above 0 written as 0.01%, the 1h volume 10k and 100 tx prefilters are dropped, max hold 24 h (the bot has none), RugCheck score cut 50 read as zoo rugcheck"
  }
 ]

@@ -874,3 +874,15 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ลองแล้วตก: รุ่นใช้ราคาอย่างเดียวของกฎ Moving_Markets (RSI14 รายวันแทนดัชนี เกณฑ์เลือกเอง 3 ชุด) BTC ได้แค่ 0.23 ถึง 0.25 ของถือเฉยๆ ETH 0.49 ถึง 0.58 SOL 0.05 ถึง 0.07 permutation p 0.900/0.701/0.607 สคริปต์ /tmp/scout_0007/fg_bt.py fg_b.py fg_la.py rsi_scale.py
 ไอเดีย: Ofego (ต้องอ่านทั้งเธรด), DrivenByNikiG (ต้องรายชื่อสูตรพร้อมผล), pairs Kalman (ต้องข้อมูลฟิวเจอร์สจีนหรือหุ้น NSE และมี fwd_pairz แล้ว)
 ตัดทิ้ง: cubrik-mcp (ต้องสมัครบัญชี) และเครื่องมือ MCP อื่นที่ไม่มีกฎ
+
+## 2026-11-27 01:53 (scout)
+ค้น: GitHub repo ใหม่ (heikin ashi ตั้งแต่ 15 พ.ย., polymarket bot ตั้งแต่ 20 พ.ย., stochastic rsi ตั้งแต่ 1 พ.ย., crypto strategy backtest ตั้งแต่ 20 พ.ย., memecoin ตั้งแต่ 22 พ.ย.), X 4 ครั้ง (heikin ashi strategy crypto backtest ไม่ได้ผลลัพธ์, stoch rsi bot backtest, paper trading bot results week memecoin, บอทเทรด กลยุทธ์ ทดสอบย้อนหลัง ได้แต่ข่าวหุ้น)
+เจอ: ipankaj-v/nifty-heikinashi-supertrend (มีแค่โครง Laravel เปล่า ใช้กฎมาตรฐาน TradingView แทน), MyToasterIsCrying/solana-paper-bot (บอท paper เหรียญมีมที่มีกฎครบและผลของตัวเอง 14 ไม้ ชนะ 4 -14.6%), EricPy/SMA_Strategy_Backtest (SMA ตัดกันนอกตัวอย่างแพ้ถือเฉยๆ), KryptoFynn เอเจนต์ 58 ตัวศึกษาตัวชี้วัด, กลุ่ม repo Polymarket/Kalshi arbitrage ดาวพุ่งที่แจกไฟล์ Windows ส่วน X รอบนี้ได้ผลน้อย
+ทดสอบแล้ว (Binance 4 ชม. 2017 ถึง 26 พ.ย. 69 long อย่างเดียว หลังหัก 0.35%/ข้าง):
+- Supertrend 10/3 บนแท่ง Heikin Ashi: BTC 162 ไม้ +2.23% ต่อไม้ มัธยฐาน -2.33% ชนะ 38% ETH 161 ไม้ +2.60% SOL 107 ไม้ +7.99% BNB 157 ไม้ +4.66% XRP 141 ไม้ +2.87% ตัวแฝดเข้าสุ่มออกแบบเดียวกัน +2.0 ถึง +10.0% ใกล้หรือดีกว่า ตั้งแต่ 2025 ติดลบทุกเหรียญ -0.25 ถึง -2.65% ต่อไม้ permutation 200 รอบบน 6,000 แท่งล่าสุด กริด 4 แบบ (10/3, 10/2, 20/3, สีแท่ง HA) p 0.244/0.303/0.229/0.468/0.264 ไม่ผ่าน
+- ท่าสีแท่ง HA (เขียว 2 แท่งติดไม่มีไส้ล่าง ซื้อ ออกแท่งแดงแรก): 655 ถึง 974 ไม้ต่อเหรียญ -0.16 ถึง -0.49% ต่อไม้ ก่อนหักราว +0.2 ถึง +0.5% ต้นทุนกินหมด
+เปิดบัญชี: fwd_hast.py (Supertrend 10/3 บน Heikin Ashi BTC ETH SOL BNB XRP ไม้ละ 1 ใน 5 ตัวแฝดเข้าสุ่ม 1 ใน 63 แท่ง) test เดินทีละแท่งบนหน้าต่าง 1,000 แท่งตรง backtest 44 ไม้ และ signals() ตรงสคริปต์ backtest บนข้อมูลเต็มทุกเหรียญ เปิดทั้งที่ไม่ผ่านเพราะผู้ใช้ให้ลองท่าอ่อน ค่า 10/3 เป็นค่าเริ่มต้นของ TradingView ที่เลือกเอง สคริปต์ /tmp/scout_0146/hast.py
+เพิ่ม x_: x_toaster_paper (week) จาก solana-paper-bot อายุ 30 นาทีขึ้นไป pool 25k+ top10 ไม่เกิน 30% ราคา 1 ชม. บวก zoo up RugCheck stop -6% TP +12% ไม้ละ 5% สูงสุด 3 ตัว กันซื้อซ้ำ 2 ชม. คะแนน analyst 65+ ทำซ้ำไม่ได้เพราะ GMGN rank ไม่มีวอลุ่ม 1 ชม. กับ 5 นาที จึงใช้ zoo up แทน ถือสูงสุด 24 ชม. เลือกเอง
+ลองแล้วตก: ท่าสีแท่ง HA (ตัวเลขด้านบน)
+ไอเดีย: KryptoFynn ตัวชี้วัดซ้ำกัน (ต้องรายการ 58 ตัวจากเธรด), EricPy SMA (ผลนอกตัวอย่างของเขาแพ้ถือเฉยๆ แล้ว และมีบัญชีตระกูลนี้อยู่)
+ตัดทิ้ง: กลุ่ม repo Polymarket/Kalshi arbitrage ดาวพุ่ง (ต้องรันไฟล์ที่ดาวน์โหลดและผูกกระเป๋า)
