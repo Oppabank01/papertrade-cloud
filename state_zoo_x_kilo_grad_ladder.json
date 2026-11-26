@@ -1,24 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 14.812809576714397,
- "pos": {
-  "ARMYxiiNbzToMCrhH6dNE5rb5oq2v8iGZUx6uHfcopQh": {
-   "sym": "ARMY",
-   "qty": 2875.9024367826833,
-   "entry": 0.0001266,
-   "last": 0.00019228639025853117,
-   "peak": 0.0002524,
-   "cost": 0.37527236497287947,
-   "opened": "2026-11-27T05:04:09+07:00",
-   "zoo": "x_kilo_grad_ladder",
-   "smart": 87,
-   "kol": 3,
-   "gap": 8,
-   "miss": 0,
-   "half": true
-  }
- },
+ "cash": 15.265674291148544,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-25T00:22:45+07:00",
@@ -87,12 +71,27 @@
    "usd": 0.5525,
    "pnl": 0.1772,
    "why": "ขายครึ่ง +56.4%"
+  },
+  {
+   "t": "2026-11-27T05:37:19+07:00",
+   "kind": "sell",
+   "mint": "ARMYxiiNbzToMCrhH6dNE5rb5oq2v8iGZUx6uHfcopQh",
+   "sym": "ARMY",
+   "price": 0.00016230543549313893,
+   "entry": 0.0001266,
+   "usd": 0.4529,
+   "pnl": 0.0776,
+   "why": "trailing จากยอด +99% (+28.2%)",
+   "stop_set": -0.5,
+   "cost_side": 0.03,
+   "smart": 87,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญเพิ่งจบ curve ไม่เกิน 15 นาที ขายครึ่งที่ 1.5 เท่า ที่เหลือ trail 30% stop -50% ถือไม่เกิน 24 ชม. (kilomene meme-project)",
  "night": "2026-11-26",
  "night_start": 15.010894598915177,
- "rank_t": 1795732035.7512174,
+ "rank_t": 1795732569.7504334,
  "nights": [
   {
    "night": "2026-11-24",
