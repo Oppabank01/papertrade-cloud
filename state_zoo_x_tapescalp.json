@@ -1,18 +1,32 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.701558365186711,
- "cash": 13.60688105280658,
+ "cash": 13.185857192397862,
  "pos": {
   "4ZosVumUi3KxHa4UqVt3igWkf7nruHu5hbhQSgFdpump": {
    "sym": "SITTINGDUK",
    "qty": 9526.14554033483,
    "entry": 4.286e-05,
-   "last": 4.441e-05,
-   "peak": 4.441e-05,
+   "last": 4.839e-05,
+   "peak": 4.89e-05,
    "cost": 0.42083137276721383,
    "opened": "2026-11-26T22:20:32+07:00",
    "zoo": "x_tapescalp",
    "smart": 2,
+   "kol": 0,
+   "gap": 1,
+   "miss": 0
+  },
+  "6r5r9mUQSi3jCKZTUTugovkkdcZRbfjahqKuNeJpump": {
+   "sym": "X",
+   "qty": 290111.7538128821,
+   "entry": 1.408e-06,
+   "last": 1.374e-06,
+   "peak": 1.408e-06,
+   "cost": 0.42102386040871786,
+   "opened": "2026-11-26T22:29:44+07:00",
+   "zoo": "x_tapescalp",
+   "smart": 6,
    "kol": 0,
    "gap": 0,
    "miss": 0
@@ -298,12 +312,26 @@
    "zoo": "x_tapescalp",
    "smart": 2,
    "kol": 0
+  },
+  {
+   "t": "2026-11-26T22:29:44+07:00",
+   "kind": "buy",
+   "mint": "6r5r9mUQSi3jCKZTUTugovkkdcZRbfjahqKuNeJpump",
+   "sym": "X",
+   "price": 1.408e-06,
+   "jup": 1.4077947318755563e-06,
+   "usd": 0.421,
+   "stop_set": -0.12,
+   "cost_side": 0.03,
+   "zoo": "x_tapescalp",
+   "smart": 6,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: tape-scalper (theo1603 บอทแข่ง make.fun) แบบที่ zoo เช็กได้: อายุไม่เกิน 1 ชม. สภาพคล่อง 3k ถึง 40k ขึ้น 5 นาที 3 ถึง 80% ขึ้น 1 นาที up buys 4+ stop -12% TP +45% trail 12% เมื่อขึ้น 20% ถือ 16 นาที",
  "night": "2026-11-26",
  "night_start": 14.027712425573794,
- "rank_t": 1795706353.7895584,
+ "rank_t": 1795706859.5269303,
  "nights": [
   {
    "night": "2026-11-25",
