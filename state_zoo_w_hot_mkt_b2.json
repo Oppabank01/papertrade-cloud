@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.851084457869607,
+ "cash": 4.538820335299066,
  "pos": {
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 77.30765495963237,
    "entry": 0.02837,
-   "last": 0.03117,
+   "last": 0.03115,
    "peak": 0.03163,
    "cost": 2.215315947783915,
    "opened": "2026-11-26T00:13:44+07:00",
@@ -21,13 +21,27 @@
    "sym": "CATE",
    "qty": 129.14307668018807,
    "entry": 0.0179,
-   "last": 0.01776,
+   "last": 0.01771,
    "peak": 0.01804,
    "cost": 2.3349522209796385,
    "opened": "2026-11-26T11:29:54+07:00",
    "zoo": "w_hot_mkt_b2",
    "smart": 986,
    "kol": 112,
+   "gap": 0,
+   "miss": 0
+  },
+  "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump": {
+   "sym": "CRIME",
+   "qty": 623.0809166978496,
+   "entry": 0.003674,
+   "last": 0.003816,
+   "peak": 0.003816,
+   "cost": 2.3122641225705407,
+   "opened": "2026-11-26T11:53:20+07:00",
+   "zoo": "w_hot_mkt_b2",
+   "smart": 96,
+   "kol": 40,
    "gap": 0,
    "miss": 0
   }
@@ -695,10 +709,24 @@
    "cost_side": 0.01,
    "smart": 894,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T11:53:20+07:00",
+   "kind": "buy",
+   "mint": "7M3gDRgozcumFsiTeXwjB8cYxpg7Q9R7rH7rkw2Fpump",
+   "sym": "CRIME",
+   "price": 0.003674,
+   "jup": 0.0036732422100754576,
+   "usd": 2.3123,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_hot_mkt_b2",
+   "smart": 96,
+   "kol": 40
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดร้อน: กฎ w_aged_nostop เฉพาะรอบที่เหรียญ 74%+ ขึ้นใน 1 ชม.",
- "rank_t": 1795668241.5617752,
+ "rank_t": 1795668718.6054144,
  "banned": {
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": "OTC",
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": "Buttcoin",
