@@ -108,6 +108,15 @@
    "trades": 1,
    "wins": 0,
    "ended": "09:00"
+  },
+  {
+   "night": "2026-11-25",
+   "start_usd": 14.6714,
+   "end_usd": 13.4285,
+   "ret": -0.0847,
+   "trades": 2,
+   "wins": 0,
+   "ended": "09:00"
   }
  ],
  "log": [
@@ -648,23 +657,20 @@
    "cost_side": 0.03,
    "smart": null,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T09:00:20+07:00",
+   "kind": "sell",
+   "mint": "PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S",
+   "sym": "NEURALINK",
+   "price": 419.17,
+   "usd": 5.4311,
+   "pnl": -0.4375,
+   "why": "ปิดรอบเช้า"
   }
  ],
- "pos": {
-  "PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S": {
-   "sym": "NEURALINK",
-   "qty": 0.013354744973098904,
-   "entry": 426.34,
-   "last": 413.68754667071045,
-   "peak": 435.11,
-   "cost": 5.868544600938968,
-   "opened": "2026-11-26T04:05:14+07:00",
-   "source": "state_wallets.json",
-   "gap": 4,
-   "miss": 0
-  }
- },
- "cash": 7.997407393819699,
+ "pos": {},
+ "cash": 13.428498172372425,
  "start_usd": 14.671361502347418,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
@@ -1053,6 +1059,7 @@
  "session": {
   "night": "2026-11-25",
   "t": "2026-11-25T21:01:44+07:00",
-  "start_usd": 14.671361502347418
+  "start_usd": 14.671361502347418,
+  "closed": true
  }
 }
