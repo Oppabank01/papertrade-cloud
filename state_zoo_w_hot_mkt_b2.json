@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 4.538820335299066,
+ "cash": 4.590871003459927,
  "pos": {
-  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
-   "sym": "STONK",
-   "qty": 77.30765495963237,
-   "entry": 0.02837,
-   "last": 0.03123,
-   "peak": 0.03163,
-   "cost": 2.215315947783915,
-   "opened": "2026-11-26T00:13:44+07:00",
-   "zoo": "w_hot_mkt_b2",
-   "smart": 1000,
-   "kol": 174,
-   "gap": 0,
-   "miss": 0
-  },
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 129.14307668018807,
    "entry": 0.0179,
-   "last": 0.01768,
+   "last": 0.01765,
    "peak": 0.01804,
    "cost": 2.3349522209796385,
    "opened": "2026-11-26T11:29:54+07:00",
@@ -43,6 +29,20 @@
    "smart": 96,
    "kol": 40,
    "gap": 0,
+   "miss": 0
+  },
+  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
+   "sym": "GTA6",
+   "qty": 867.5237804639587,
+   "entry": 0.002657,
+   "last": 0.002574735612788647,
+   "peak": 0.002657,
+   "cost": 2.328234827092991,
+   "opened": "2026-11-26T12:11:07+07:00",
+   "zoo": "w_hot_mkt_b2",
+   "smart": 324,
+   "kol": 25,
+   "gap": 6,
    "miss": 0
   }
  },
@@ -723,10 +723,39 @@
    "zoo": "w_hot_mkt_b2",
    "smart": 96,
    "kol": 40
+  },
+  {
+   "t": "2026-11-26T12:11:07+07:00",
+   "kind": "buy",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+   "sym": "GTA6",
+   "price": 0.002657,
+   "jup": 0.0026738059464564757,
+   "usd": 2.3282,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_hot_mkt_b2",
+   "smart": 324,
+   "kol": 25
+  },
+  {
+   "t": "2026-11-26T12:14:02+07:00",
+   "kind": "sell",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.0311,
+   "entry": 0.02837,
+   "usd": 2.3803,
+   "pnl": 0.165,
+   "why": "ครบ 12 ชม. (+9.6%)",
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "smart": 1000,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดร้อน: กฎ w_aged_nostop เฉพาะรอบที่เหรียญ 74%+ ขึ้นใน 1 ชม.",
- "rank_t": 1795669223.8246365,
+ "rank_t": 1795669812.1994221,
  "banned": {
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": "OTC",
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": "Buttcoin",
