@@ -849,3 +849,16 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ยังทำไม่ได้: กฎ circuit breaker ระดับโต๊ะ (ต้องสถานะ P&L รายวันของบัญชี), สัญญาณ LP DLMM (ต้องข้อมูลพูล Meteora)
 เลิก: x_cto_watch (week ครบ 7 วัน 18 ไม้ -43.5% รุ่น _b2 -54.1% ยืนยัน)
 คะแนน x_ ชั้นนำ: x_smartflow_lowcap +20.9% (7 ไม้) | x_crb_4agent +11.8% (11 ไม้) | x_obz_top5_month +1.8% (0 ไม้) | ตัวควบคุม rand -98.3% randrun -98.5%
+
+## 2026-11-26 22:25 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 19 พ.ย. (supertrend, turtle trading, llm trading agent, qqe, vegas tunnel ตั้งแต่ 1 พ.ย.), X 3 ครั้ง (range filter strategy crypto backtest, QQE strategy bitcoin 4h backtest ไม่ได้ผลลัพธ์, pump.fun bot results paper trading), WebSearch 2 ครั้ง (งานวิจัยวันหยุดและกลางคืนของ BTC ได้แต่ของเก่า, arXiv 2026 กฎเทคนิคระหว่างวัน ได้ Souza 2603.13638 ที่ยังไม่เคยลง) และให้เอเจนต์อ่านเปเปอร์นั้น
+เจอ: littleboyck/futu-indicators (พอร์ตตัวชี้วัด TradingView 5 ตัวไป Futu แสดงบนกราฟ 4 ชม. Range Filter B&S มีกฎครบ), Souza สัญญาณรวม 4 ตัวชี้วัด robust z กับ hysteresis (แท่ง 1 นาที ไม่คิดค่าธรรมเนียม), kaish3n บอทเหรียญ zombie บน pump.fun, fxlxsxf รวม repo เหรียญมีม ที่เหลือซ้ำของเดิม (DaviddDotTech, GovindGoel01) หรือเป็นโพสต์ Grok Bot ไม่มีข้อความ ส่วน GitHub llm agent มีแต่ framework ที่ไม่มีกฎ (trendpilot เปิดบัญชีไปแล้ว)
+ทดสอบแล้ว:
+- Range Filter B&S (Binance 4 ชม. 2017 ถึง 26 พ.ย. 69 long อย่างเดียว หลังหัก 0.35%/ข้าง): BTC 243 ไม้ +0.86% ต่อไม้ มัธยฐาน -2.42% ชนะ 33% ETH 234 ไม้ +1.11% SOL 160 ไม้ +2.62% BNB 231 ไม้ +2.49% XRP 222 ไม้ +0.60% ตัวแฝดเข้าสุ่มดีกว่าทุกเหรียญ +0.9 ถึง +4.0% ตั้งแต่ 2025 ติดลบทุกเหรียญ -0.59 ถึง -1.48% permutation 200 รอบบน 6,000 แท่ง กริด 4 แบบ p 0.582/0.403/0.249/0.189/0.353 ไม่ผ่าน
+- สัญญาณรวม hysteresis แบบใกล้สุด (RSI14 MFI14 MACD 12/26/9 BB 20/2 robust z ย้อน 168 แท่ง Binance 1 ชม. 20,000 แท่ง): BTC θ1.0 374 ไม้ -0.63% ต่อไม้ ก่อนหัก +0.07% ETH θ1.6 226 ไม้ -0.32% ก่อนหัก +0.38% permutation 200 รอบบน 8,000 แท่ง กริด θ 3 แบบ p BTC 0.343 ETH 0.149 ต้นทุนกินหมด
+- เหรียญ zombie ตื่น (อายุ 30 วันขึ้นไป pool 20k ถึง 200k ขยับ 1 ชม. +10% ถือ 2 ชม.) บน rank_hist 3,622 snapshot: 704 จุดเข้า เห็นราคาออก 152 ก่อนหัก +5.3% มัธยฐาน -1.7% ตัด 3 ไม้ดีสุด +0.2% ต่ำกว่าต้นทุนไปกลับ 6%
+เปิดบัญชี: fwd_rfbs.py (BTC ETH SOL BNB XRP ไม้ละ 1 ใน 5 ตัวแฝดเข้าสุ่ม 1 ใน 42 แท่ง) test เดินทีละแท่งบนหน้าต่าง 1,000 แท่งตรง backtest 60 ไม้ และ signals() ตรงสคริปต์ backtest ครบทุกเหรียญบนข้อมูลเต็ม เปิดทั้งที่ไม่ผ่านเพราะผู้ใช้ให้ลองท่าอ่อน ค่าในไฟล์ใช้ค่า default ในโค้ด (20, 3.5, ราคาปิด) ไม่ใช่ตาราง README (3.82, hl2) สคริปต์ /tmp/scout_2225/rf.py hyst.py hperm.py zombie.py
+เพิ่ม x_: ไม่มี (kaish3n ไม่ให้กฎ ลองแบบใกล้สุดบน rank_hist แล้วตก)
+ลองแล้วตก: เหรียญ zombie ตื่น (ตัวเลขด้านบน)
+ไอเดีย: สัญญาณรวม hysteresis รุ่นตัด MFI บน ETH 1 ชม. (byttrade.fetch ไม่มีวอลุ่ม), fxlxsxf รวม repo เหรียญมีม (ต้องเห็นเธรดเพื่อรู้ชื่อ repo)
+ตัดทิ้ง: ไม่มี
