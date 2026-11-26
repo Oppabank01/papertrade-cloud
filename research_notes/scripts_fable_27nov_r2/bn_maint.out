@@ -1,0 +1,29 @@
+events 456 {'upgrade': 360, 'maint': 71, 'swap': 25}
+with Binance spot data 385 {'upgrade': 341, 'maint': 38, 'swap': 6}
+upgrade notices: days from notice to the upgrade date: median 0.9, p10 -0.2, p90 6.8
+upgrade long notice 24h                            n= 339 mean= -0.20 med= -0.55 wr= 47 ex1= -0.34 ex5= -0.54 h1= -0.58 h2= +0.17 t= -0.6(328d) worst=  -15 best=  +46 | ctl mean= -0.36 med= -0.38 p=0.325
+upgrade long notice 72h                            n= 339 mean= -0.36 med= -0.34 wr= 47 ex1= -0.46 ex5= -0.80 h1= -0.81 h2= +0.09 t= -1.0(328d) worst=  -15 best=  +35 | ctl mean= -0.49 med= -0.49 p=0.390
+upgrade long notice 168h                           n= 339 mean= -1.76 med= -3.07 wr= 38 ex1= -2.10 ex5= -2.58 h1= -2.96 h2= -0.58 t= -2.7(328d) worst=  -15 best= +112 | ctl mean= -0.84 med= -0.84 p=0.920
+upgrade long runup to-dateh                        n=  49 mean= -0.69 med= -2.64 wr= 37 ex1= -1.39 ex5= -3.46 h1= -0.31 h2= -1.05 t= -0.4(49d) worst=  -15 best=  +33 | ctl mean= -1.31 med= -1.47 p=0.310
+upgrade long event 24h                             n=  74 mean= +0.38 med= +0.11 wr= 51 ex1= +0.00 ex5= -0.73 h1= +0.69 h2= +0.07 t= +0.5(69d) worst=  -15 best=  +28 | ctl mean= -0.39 med= -0.47 p=0.095
+upgrade long event 72h                             n=  71 mean= +1.03 med= -1.01 wr= 45 ex1= -0.31 ex5= -1.40 h1= +0.17 h2= +1.86 t= +0.6(67d) worst=  -15 best=  +95 | ctl mean= -0.59 med= -0.71 p=0.090
+upgrade long event 168h                            n=  69 mean= +0.74 med= -2.08 wr= 42 ex1= -0.27 ex5= -2.50 h1= -0.44 h2= +1.88 t= +0.5(65d) worst=  -15 best=  +70 | ctl mean= -0.53 med= -0.79 p=0.235
+maint long notice 24h                              n=  37 mean= +0.26 med= +0.20 wr= 57 ex1= -0.24 ex5= -0.89 h1= +1.23 h2= -0.65 t= +0.4(36d) worst=   -7 best=  +19 | ctl mean= -0.31 med= -0.36 p=0.170
+maint long notice 72h                              n=  37 mean= -0.21 med= +0.08 wr= 54 ex1= -0.57 ex5= -1.31 h1= -0.28 h2= -0.14 t= -0.2(36d) worst=  -15 best=  +13 | ctl mean= -0.25 med= -0.23 p=0.490
+swap notice n=6
+swap notice n=6
+swap notice n=6
+
+upgrade short notice 24h                           n= 339 mean= -0.58 med= -0.25 wr= 49 ex1= -0.62 ex5= -0.78 h1= -0.51 h2= -0.64 t= -1.9(328d) worst=  -15 best=  +14 | ctl mean= -0.33 med= -0.34 p=0.835
+upgrade short notice 72h                           n= 339 mean= -0.95 med= -0.74 wr= 46 ex1= -1.07 ex5= -1.42 h1= -1.10 h2= -0.81 t= -1.7(328d) worst=  -15 best=  +38 | ctl mean= -0.40 med= -0.42 p=0.895
+upgrade short notice 168h                          n= 339 mean= +0.13 med= +0.94 wr= 53 ex1= +0.01 ex5= -0.43 h1= -0.17 h2= +0.42 t= +0.3(328d) worst=  -15 best=  +41 | ctl mean= -0.44 med= -0.47 p=0.155
+upgrade short runup to-dateh                       n=  49 mean= +0.17 med= +2.04 wr= 57 ex1= -0.41 ex5= -1.97 h1= +0.60 h2= -0.24 t= +0.1(49d) worst=  -15 best=  +28 | ctl mean= +0.28 med= +0.36 p=0.550
+upgrade short event 24h                            n=  74 mean= -0.79 med= -0.71 wr= 42 ex1= -1.09 ex5= -1.60 h1= -1.64 h2= +0.05 t= -1.0(69d) worst=  -15 best=  +21 | ctl mean= -0.27 med= -0.24 p=0.815
+upgrade short event 72h                            n=  71 mean= -1.08 med= +0.39 wr= 52 ex1= -1.41 ex5= -2.57 h1= -1.76 h2= -0.41 t= -0.8(67d) worst=  -15 best=  +22 | ctl mean= -0.29 med= -0.28 p=0.795
+upgrade short event 168h                           n=  69 mean= -0.93 med= +0.84 wr= 51 ex1= -1.31 ex5= -2.59 h1= -1.26 h2= -0.60 t= -0.6(65d) worst=  -15 best=  +25 | ctl mean= -0.41 med= -0.54 p=0.635
+maint short notice 24h                             n=  37 mean= -0.76 med= -0.80 wr= 32 ex1= -0.97 ex5= -1.78 h1= -1.62 h2= +0.05 t= -1.2(36d) worst=  -15 best=   +7 | ctl mean= -0.34 med= -0.33 p=0.765
+maint short notice 72h                             n=  37 mean= -0.45 med= -0.68 wr= 38 ex1= -0.94 ex5= -1.87 h1= -0.44 h2= -0.46 t= -0.5(36d) worst=  -15 best=  +17 | ctl mean= -0.55 med= -0.55 p=0.470
+swap notice n=6
+swap notice n=6
+swap notice n=6
+

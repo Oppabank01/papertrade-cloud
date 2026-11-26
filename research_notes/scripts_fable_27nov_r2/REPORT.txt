@@ -1,0 +1,21 @@
+Rule hunt round 2, 27 Nov 2026 (Fable, paper research only). About 1,100 settings across 11 idea families, Thai-tradeable first.
+
+PASS (borderline): pre-XD run-up on SET/mai. Yield 4%+ of the entry close, buy at the close 6 trading days before XD, sell
+at the close of the last cum day, 8% stop, 0.17%/side. Pooled 421 stocks (252 never used to find it) 2010-2026: n 1,174,
++1.00%, median +0.66%, win 61%, ex5 +0.90%, halves +1.13/+0.88; random days in the same stock about -0.2%, same dates
+in other stocks -0.13 to 0.00. Fresh list alone +1.11% vs first list +1.13%. Weaker in liquid names (+0.85% at 5M THB/day,
++0.58% at 20M+ in 2023-26). Extra 0.25%/side spread cuts it to +0.50%. Entries earlier than 6 days look inflated by
+announcement-date look-ahead. About 11 trades a month, 80% in Feb-Apr and Aug. Opened as fwd_prexd (TradingView scanner
+for upcoming XD, Yahoo daily bars).
+
+CLOSEST MISSES
+1. Short on Binance after Upbit trade-caution designation, 72 h, 15% stop: n 42, +4.36%, ex5 +1.61%, random +0.55%,
+   halves +7.83/+0.89. Opened as fwd_upbitwarn to test before rejecting (Mac relay of Upbit notices).
+2. Thai gold evening lag (21:00 Bangkok, PAXG up 0.75%+ since last update): n 85, +0.45% at 100 THB spread, +0.20% at
+   200 THB. A real shop must still sell at the stale price, not verified.
+3. DR opening 2%+ below post-market fair value: +0.51% to the close, n 82 on 33 days.
+
+DEAD: SET dividend capture through XD (-0.25%, 4%+ yield held to XD+3 -1.8%), DR daily (Yahoo open artefact), Bitkub
+payday, pre-FOMC and CPI drift, funding-settlement micro-drift as a trade (-0.16%), Binance maintenance notices, SET
+crash-dip buy, SET long after a 7%+ day (survivorship), SET turn of month. ETH/BTC ratio skipped (fwd_pairz runs it).
+Scripts and .out files are in this folder (div_headline.out, div_oos.out, div_deep.out, upbit_bt.out, gold_bt.out, dr_intraday.out).

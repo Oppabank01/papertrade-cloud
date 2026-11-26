@@ -1,0 +1,26 @@
+ERROR:root:code for hash blake2b was not found.
+Traceback (most recent call last):
+  File "/Users/oppabank/.pyenv/versions/3.12.5/lib/python3.12/hashlib.py", line 245, in <module>
+    globals()[__func_name] = __get_hash(__func_name)
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oppabank/.pyenv/versions/3.12.5/lib/python3.12/hashlib.py", line 129, in __get_openssl_constructor
+    return __get_builtin_constructor(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oppabank/.pyenv/versions/3.12.5/lib/python3.12/hashlib.py", line 123, in __get_builtin_constructor
+    raise ValueError('unsupported hash type ' + name)
+ValueError: unsupported hash type blake2b
+ERROR:root:code for hash blake2s was not found.
+Traceback (most recent call last):
+  File "/Users/oppabank/.pyenv/versions/3.12.5/lib/python3.12/hashlib.py", line 245, in <module>
+    globals()[__func_name] = __get_hash(__func_name)
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oppabank/.pyenv/versions/3.12.5/lib/python3.12/hashlib.py", line 129, in __get_openssl_constructor
+    return __get_builtin_constructor(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oppabank/.pyenv/versions/3.12.5/lib/python3.12/hashlib.py", line 123, in __get_builtin_constructor
+    raise ValueError('unsupported hash type ' + name)
+ValueError: unsupported hash type blake2s
+page 20 400
+page 30 600
+page 40 800
+saved 823 2017-10-27T23:33:33+09:00

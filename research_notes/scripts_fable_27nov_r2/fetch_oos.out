@@ -1,0 +1,25 @@
+ERROR:root:code for hash blake2b was not found.
+Traceback (most recent call last):
+  File "/Users/oppabank/.pyenv/versions/3.12.5/lib/python3.12/hashlib.py", line 245, in <module>
+    globals()[__func_name] = __get_hash(__func_name)
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oppabank/.pyenv/versions/3.12.5/lib/python3.12/hashlib.py", line 129, in __get_openssl_constructor
+    return __get_builtin_constructor(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oppabank/.pyenv/versions/3.12.5/lib/python3.12/hashlib.py", line 123, in __get_builtin_constructor
+    raise ValueError('unsupported hash type ' + name)
+ValueError: unsupported hash type blake2b
+ERROR:root:code for hash blake2s was not found.
+Traceback (most recent call last):
+  File "/Users/oppabank/.pyenv/versions/3.12.5/lib/python3.12/hashlib.py", line 245, in <module>
+    globals()[__func_name] = __get_hash(__func_name)
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oppabank/.pyenv/versions/3.12.5/lib/python3.12/hashlib.py", line 129, in __get_openssl_constructor
+    return __get_builtin_constructor(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oppabank/.pyenv/versions/3.12.5/lib/python3.12/hashlib.py", line 123, in __get_builtin_constructor
+    raise ValueError('unsupported hash type ' + name)
+ValueError: unsupported hash type blake2s
+scanner rows 886 candidates 465 picked 260 turnover of the last pick (THB/day) 291405
+with Yahoo data 252
+THAI STECON BA INSET SPCG CREDIT NCAP MC SSP PROSPECT SCAP XO BBGI INETREIT AXTRART TRT DITTO TEAM GROREIT PT TACC MGC UKEM BAREIT NSL AKR KGI KAMART PSP KCG ROJNA EASTW ASEFA RJH NEO IP UVAN LHSC HTECH WHAIR SKY PB LOXLEY PCE SRICHA AAI NAT SICT MAGURO PM BWG OKJ BLAND IMPACT ASK ALLY FM ADB NYT SHR SAV HTC SPC CNT ICN UTP AIMIRT SAK VIH DMT MEB MCS LANNA BTC RAM TRUBB SIMAT ASIAN PLAT SABINA SEAFCO TITLE SUC BKIH TAE INET SPI POLY NETBAY GVREIT PYLON AIE MEDEZE SAMART SPVI ONEE TMAN AIT TEGH SKR KISS COCOCO ASW FUTURERT UBE CMAN FSMART TFM PG KSL SECURE SVOA B-WORK BKGI ML MFC BM MFEC BIZ ASP SEAOIL SUSCO BOFFICE PCC BLC TC BAFS SMPC SGP ROCTEC WPH CPTREIT QHHRREIT RPC METCO CHAYO WICE TMD PIS EKH NOBLE HYDROGEN MICRO KBS SEI IROYAL ANI SYNTEC RPH AUCT TMW SENA SVT ETC HENG CPH SFLEX ITNS TPAC AMARC PIN ILINK TIPCO QTC VIBHA LTMH JPARK TFMAMA CFARM MII SCP CSS IT WARRIX BOL EURO APP SRIPANWA AI MTW MPJ TSTH TNR GPI MGI SPRIME HPT PHG GC PJW DRT PRINC TOG VCOM MENA SUPEREIF SNPS WHABT SUN PTL KCC TNP FPT 2S SANKO TWPC SAMTEL AS SAFE SPREME FTE NTV SMART LEE STECH UMI DREIT TVH LHK WIIK SYMC KYE AMA SITHAI KJL SALEE MTI AYUD TNH TRP JAK ACG PROUD M-CHAI CPI BRI NC CTW NKT APCO TGE WP ICC PRTR PMC JUBILE BRR PHOL TSC HL MST LST
