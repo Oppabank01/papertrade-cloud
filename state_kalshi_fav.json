@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 1.0912717140205845,
+ "cash": 1.8709652252914433,
  "pos": {
   "KXOPENSOURCESHARE-26NOV26-T59.6:yes": {
    "qty": 0.7549113938906525,
@@ -103,7 +103,7 @@
   "KXZAIVREQ-26NOV26-T5P3:yes": {
    "qty": 0.8013438549268626,
    "entry": 0.9202830000000001,
-   "last": 0.97,
+   "last": 0.93,
    "usd": 0.7374631268436579,
    "t": "2026-11-25T22:39:16+00:00",
    "coin": "YES | Z.AI Vercel share of AI Gateway requests across the top labs above 5.3%",
@@ -111,18 +111,6 @@
    "side": "yes",
    "close": "2026-11-27T04:59:00Z",
    "why": "fav ask 0.91 ทุน 0.920 ปิด 2026-11-27T04:59:00Z"
-  },
-  "KXHIGHDEN-26NOV25-T49:yes": {
-   "qty": 0.7549113938906525,
-   "entry": 0.976887,
-   "last": 0.99,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-25T22:46:36+00:00",
-   "coin": "YES | Will the maximum temperature be <49° on Nov 25, 2026?",
-   "ticker": "KXHIGHDEN-26NOV25-T49",
-   "side": "yes",
-   "close": "2026-11-26T08:00:00Z",
-   "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-26T08:00:00Z"
   },
   "KXHIGHTSFO-26NOV25-B62.5:yes": {
    "qty": 0.8182188751659075,
@@ -159,18 +147,6 @@
    "side": "yes",
    "close": "2026-11-27T04:59:00Z",
    "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-27T04:59:00Z"
-  },
-  "KXLOWTDEN-26NOV25-B25.5:yes": {
-   "qty": 0.7622452442238642,
-   "entry": 0.967488,
-   "last": 0.99,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-25T23:28:48+00:00",
-   "coin": "YES | Will the minimum temperature be 25-26° on Nov 25, 2026?",
-   "ticker": "KXLOWTDEN-26NOV25-B25.5",
-   "side": "yes",
-   "close": "2026-11-26T08:00:00Z",
-   "why": "fav ask 0.96 ทุน 0.967 ปิด 2026-11-26T08:00:00Z"
   },
   "KXOPENVSPEND-26NOV26-T11P2:yes": {
    "qty": 0.8543610818706032,
@@ -231,6 +207,18 @@
    "side": "yes",
    "close": "2026-11-26T22:00:00Z",
    "why": "fav ask 0.95 ทุน 0.958 ปิด 2026-11-26T22:00:00Z"
+  },
+  "KXOPENVREQ-26NOV26-T19P0:yes": {
+   "qty": 0.7549113938906525,
+   "entry": 0.976887,
+   "last": 0.95,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-26T14:05:09+00:00",
+   "coin": "YES | OpenAI Vercel share of AI Gateway requests across the top labs above 19.0%",
+   "ticker": "KXOPENVREQ-26NOV26-T19P0",
+   "side": "yes",
+   "close": "2026-11-27T04:59:00Z",
+   "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-27T04:59:00Z"
   }
  },
  "log": [
@@ -1727,6 +1715,39 @@
    "ret": 0.0336,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-26T14:05:09+00:00",
+   "coin": "YES | OpenAI Vercel share of AI Gateway requests across the top labs above 19.0%",
+   "px": 0.97689,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-27T04:59:00Z",
+   "ask": 0.97
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-26T14:05:10+00:00",
+   "coin": "YES | Will the maximum temperature be <49° on Nov 25, 2026?",
+   "px": 1.0,
+   "entry": 0.97689,
+   "usd": 0.75491,
+   "pnl": 0.01745,
+   "ret": 0.02366,
+   "cost_side": 0,
+   "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-26T14:05:10+00:00",
+   "coin": "YES | Will the minimum temperature be 25-26° on Nov 25, 2026?",
+   "px": 1.0,
+   "entry": 0.96749,
+   "usd": 0.76225,
+   "pnl": 0.02478,
+   "ret": 0.0336,
+   "cost_side": 0,
+   "why": "ตัดสิน yes"
   }
  ],
  "seen": null,
@@ -1812,6 +1833,7 @@
   "KXSILVERD-26NOV2614": 1795650362,
   "KXTRUMPAPPROVE-26NOV26": 1795695076,
   "KXSOLD-26NOV2617": 1795695612,
-  "KXDOGED-26NOV2617": 1795695612
+  "KXDOGED-26NOV2617": 1795695612,
+  "KXOPENVREQ-26NOV26": 1795701908
  }
 }
