@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 8.049501186222432,
- "pos": {},
+ "cash": 6.4396009489779455,
+ "pos": {
+  "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": {
+   "sym": "Rings",
+   "qty": 707.0734314959715,
+   "entry": 0.002209,
+   "last": 0.002138545580569206,
+   "peak": 0.002209,
+   "cost": 1.6099002372444866,
+   "opened": "2026-11-26T23:24:30+07:00",
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 141,
+   "kol": 10,
+   "gap": 2,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T19:52:27+07:00",
@@ -1639,10 +1654,24 @@
    "cost_side": 0.03,
    "smart": 938,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T23:24:30+07:00",
+   "kind": "buy",
+   "mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
+   "sym": "Rings",
+   "price": 0.002209,
+   "jup": 0.0021927733359700867,
+   "usd": 1.6099,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 141,
+   "kol": 10
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ bigliqRC แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1795709584.5171564,
+ "rank_t": 1795710205.789235,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT"
  }
