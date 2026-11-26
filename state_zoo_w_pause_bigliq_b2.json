@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 4.226635422378132,
+ "cash": 2.8251352279032673,
  "pos": {
   "3B1ijcocM5EDga6XxQ7JLW7weocQPWWjuhBYG8Vepump": {
    "sym": "BP",
    "qty": 370.4053553309887,
    "entry": 0.003759,
-   "last": 0.003754,
+   "last": 0.003755,
    "peak": 0.003802,
    "cost": 1.435120316109242,
    "opened": "2026-11-26T15:41:28+07:00",
@@ -21,14 +21,28 @@
    "sym": "CBUCKS",
    "qty": 213.1564853133461,
    "entry": 0.006477,
-   "last": 0.006518030089482534,
+   "last": 0.006419344173617197,
    "peak": 0.006684,
    "cost": 1.4230205683101864,
    "opened": "2026-11-26T16:14:38+07:00",
    "zoo": "w_pause_bigliq_b2",
    "smart": 42,
    "kol": 0,
-   "gap": 1,
+   "gap": 2,
+   "miss": 0
+  },
+  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
+   "sym": "STONK",
+   "qty": 43.15250678132383,
+   "entry": 0.03151,
+   "last": 0.03147,
+   "peak": 0.03151,
+   "cost": 1.401500194474865,
+   "opened": "2026-11-26T17:17:39+07:00",
+   "zoo": "w_pause_bigliq_b2",
+   "smart": 1000,
+   "kol": 174,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1825,10 +1839,24 @@
    "cost_side": 0.03,
    "smart": 401,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T17:17:39+07:00",
+   "kind": "buy",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.03151,
+   "jup": 0.03146350247186394,
+   "usd": 1.4015,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_bigliq_b2",
+   "smart": 1000,
+   "kol": 174
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795687614.0318072,
+ "rank_t": 1795688173.7531757,
  "banned": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings",
