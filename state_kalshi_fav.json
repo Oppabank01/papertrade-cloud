@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 1.36605233589097,
+ "cash": 0.6285892090473121,
  "pos": {
   "KXXRPD-26NOV2617-T0.8999:yes": {
    "qty": 0.809687227540248,
@@ -211,7 +211,7 @@
   "KXRAIN-26NOV26-CHI:yes": {
    "qty": 0.7931826194981648,
    "entry": 0.9297520000000001,
-   "last": 0.95,
+   "last": 0.97,
    "usd": 0.7374631268436579,
    "t": "2026-11-26T15:18:09+00:00",
    "coin": "YES | Will it rain in Chicago on Nov 26, 2026?",
@@ -231,6 +231,18 @@
    "side": "yes",
    "close": "2026-11-27T15:00:00Z",
    "why": "fav ask 0.88 ทุน 0.892 ปิด 2026-11-27T15:00:00Z"
+  },
+  "KXTSAD-26NOV26-T1500000:yes": {
+   "qty": 0.785197647423473,
+   "entry": 0.9392070000000001,
+   "last": 0.9,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-26T17:02:28+00:00",
+   "coin": "YES | At least 1,500,000 passengers TSA passenger screenings on November 26, 2026?",
+   "ticker": "KXTSAD-26NOV26-T1500000",
+   "side": "yes",
+   "close": "2026-11-27T11:59:00Z",
+   "why": "fav ask 0.93 ทุน 0.939 ปิด 2026-11-27T11:59:00Z"
   }
  },
  "log": [
@@ -1853,6 +1865,15 @@
    "ret": 0.02366,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-26T17:02:28+00:00",
+   "coin": "YES | At least 1,500,000 passengers TSA passenger screenings on November 26, 2026?",
+   "px": 0.93921,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.93 ทุน 0.939 ปิด 2026-11-27T11:59:00Z",
+   "ask": 0.93
   }
  ],
  "seen": null,
@@ -1944,6 +1965,7 @@
   "KXAAAGASD-26NOV27": 1795702418,
   "KXSHIBAD-26NOV2617": 1795706287,
   "KXRAIN-26NOV26": 1795706287,
-  "KXINXU-26NOV27H1000": 1795706791
+  "KXINXU-26NOV27H1000": 1795706791,
+  "KXTSAD-26NOV26": 1795712547
  }
 }
