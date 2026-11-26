@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 2.1573489003468382,
+ "cash": 1.872173131946161,
  "pos": {
   "MsGDybWRSNdNXkdDZhEksgzugT5CbVWUG2wkhwgpump": {
    "sym": "MeiMei",
@@ -14,42 +14,42 @@
    "zoo": "x_spray_small_b2",
    "smart": 330,
    "kol": 27,
-   "gap": 8,
+   "gap": 35,
    "miss": 0
   },
   "7CvW68FD9KjNYGByfykhaNps7VNPLN8dFwMRfmgQpump": {
    "sym": "CUNTS",
    "qty": 2225.4623580784396,
    "entry": 6.1e-05,
-   "last": 6.681084503342158e-05,
+   "last": 6.929e-05,
    "peak": 7.211e-05,
    "cost": 0.1399229064551482,
    "opened": "2026-11-26T21:39:34+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 94,
    "kol": 5,
-   "gap": 3,
+   "gap": 0,
    "miss": 0
   },
   "ngwxpGYdkauMcxLFrNTKp8qBgK7JV53zVvd7F2spump": {
    "sym": "duh",
    "qty": 346.27535165133463,
    "entry": 0.0003915,
-   "last": 0.0004742449906030904,
+   "last": 0.0004558,
    "peak": 0.0004888,
    "cost": 0.1397307773361137,
    "opened": "2026-11-26T22:20:00+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 137,
    "kol": 10,
-   "gap": 1,
+   "gap": 3,
    "miss": 0
   },
   "4eiNbSrXgtbeuBSvyKLvZjZB1NTz1DsLrUrHXS3Npump": {
    "sym": "files",
    "qty": 2374.3596908562317,
    "entry": 5.805e-05,
-   "last": 5.575e-05,
+   "last": 5.533e-05,
    "peak": 5.805e-05,
    "cost": 0.1420651206495612,
    "opened": "2026-11-26T22:46:52+07:00",
@@ -63,14 +63,42 @@
    "sym": "Zero",
    "qty": 670.1013919325344,
    "entry": 0.0002063,
-   "last": 0.00018482579100514813,
+   "last": 0.0001887,
    "peak": 0.0002063,
    "cost": 0.14248806138495348,
    "opened": "2026-11-26T22:55:41+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 118,
    "kol": 3,
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "EpXtn6xGoZ4Y45vRjiDUHSCGbBoJD5FaEqZbF98YswH1": {
+   "sym": "MADE",
+   "qty": 675.9858616699158,
+   "entry": 0.0002048,
+   "last": 0.000188,
+   "peak": 0.0002048,
+   "cost": 0.14269419137291153,
+   "opened": "2026-11-26T23:14:02+07:00",
+   "zoo": "x_spray_small_b2",
+   "smart": 212,
+   "kol": 15,
+   "gap": 0,
+   "miss": 0
+  },
+  "6ZbWPYxFf8XyQ6dncrPAef1yz4W9nRF6rX3CYuE7pump": {
+   "sym": "攀豹豹",
+   "qty": 1211.5304647882426,
+   "entry": 0.0001141,
+   "last": 0.0001033,
+   "peak": 0.00011463460171960203,
+   "cost": 0.1424815770277659,
+   "opened": "2026-11-26T23:14:04+07:00",
+   "zoo": "x_spray_small_b2",
+   "smart": 159,
+   "kol": 5,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -13379,10 +13407,45 @@
    "cost_side": 0.03,
    "smart": 121,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T23:14:02+07:00",
+   "kind": "buy",
+   "mint": "EpXtn6xGoZ4Y45vRjiDUHSCGbBoJD5FaEqZbF98YswH1",
+   "sym": "MADE",
+   "price": 0.0002048,
+   "jup": 0.000205143477440128,
+   "usd": 0.1427,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_spray_small_b2",
+   "smart": 212,
+   "kol": 15
+  },
+  {
+   "t": "2026-11-26T23:14:04+07:00",
+   "kind": "buy",
+   "mint": "6ZbWPYxFf8XyQ6dncrPAef1yz4W9nRF6rX3CYuE7pump",
+   "sym": "攀豹豹",
+   "price": 0.0001141,
+   "jup": 0.00011463460171960203,
+   "usd": 0.1425,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_spray_small_b2",
+   "smart": 159,
+   "kol": 5
+  },
+  {
+   "t": "2026-11-26T23:15:22+07:00",
+   "kind": "ban",
+   "mint": "MsGDybWRSNdNXkdDZhEksgzugT5CbVWUG2wkhwgpump",
+   "sym": "MeiMei",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: หว่านไม้เล็กหลายตัว ตัดกำไร 50% ตัดขาดทุน 15%",
- "rank_t": 1795709020.617575,
+ "rank_t": 1795709584.5171564,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": "three",
@@ -13446,6 +13509,7 @@
   "DG2EJSEtPBge5F7zBCTZG78p27LTCiq8tUkJ39qupump": "duk",
   "GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump": "CHILLHOUSE",
   "32rBxcFjCFnyqZ41CEPM5AL67X1dcw8w83vZt6Kxpump": "PAIR",
-  "5yi5i8tKGzGZS1CnEedRag27wN1J9GRNHXtCCUr9pump": "SpaceXCoin"
+  "5yi5i8tKGzGZS1CnEedRag27wN1J9GRNHXtCCUr9pump": "SpaceXCoin",
+  "MsGDybWRSNdNXkdDZhEksgzugT5CbVWUG2wkhwgpump": "MeiMei"
  }
 }
