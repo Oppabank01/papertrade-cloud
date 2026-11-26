@@ -886,3 +886,15 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ลองแล้วตก: ท่าสีแท่ง HA (ตัวเลขด้านบน)
 ไอเดีย: KryptoFynn ตัวชี้วัดซ้ำกัน (ต้องรายการ 58 ตัวจากเธรด), EricPy SMA (ผลนอกตัวอย่างของเขาแพ้ถือเฉยๆ แล้ว และมีบัญชีตระกูลนี้อยู่)
 ตัดทิ้ง: กลุ่ม repo Polymarket/Kalshi arbitrage ดาวพุ่ง (ต้องรันไฟล์ที่ดาวน์โหลดและผูกกระเป๋า)
+
+## 2026-11-27 03:25 (scout)
+ค้น: GitHub repo ใหม่ (kaufman adaptive ตั้งแต่ 27 ต.ค., williams alligator และ fisher transform ตั้งแต่ 1 ต.ค. ไม่ได้ผลลัพธ์, wavetrend ตั้งแต่ 1 ต.ค.), X 2 ครั้ง (KAMA strategy crypto backtest ไม่ได้ผลลัพธ์, memecoin bot win rate rules), WebSearch 1 ครั้ง (งานกลยุทธ์ Bitcoin ใหม่) แล้วอ่านหน้า QuantConnect
+เจอ: giorgospoci532-cmd/Kama-Adaptive-Trading-Strategy (ถือเมื่อปิดเหนือ KAMA รายวัน), uegeersoy/wavetrend-bot (แจ้งเตือน WT1 10/21 เข้าโซน -65/+65 บน forex รายวัน), QuantConnect 21195 (ถือ QQQ เมื่อ BTC เหนือ SMA50 และ ROC20 บวก ไม่งั้น SHY เช็กรายสัปดาห์), โพสต์ Grok Bot อ้างกำไรหลายสิบเท่าใน 1 คืนอีกชุด (Primee32, OxDeltaX, AI__Brain) ไม่มีกฎ
+ทดสอบแล้ว (Binance หลังหัก 0.35%/ข้าง):
+- KAMA 10/2/30 รายวัน 2017 ถึง 26 พ.ย. 69: BTC 240 ไม้ +1.03% ต่อไม้ มัธยฐาน -2.32% ชนะ 23% ETH 222 ไม้ +1.49% SOL 153 ไม้ +4.55% BNB 240 ไม้ +3.12% XRP 215 ไม้ +1.32% ตัวแฝดเข้าสุ่ม +0.19 ถึง +2.46% ทบต้นแพ้ถือเฉยๆ ทุกเหรียญยกเว้น SOL ตั้งแต่ 2025 -1.69 ถึง +0.30% ต่อไม้ permutation 200 รอบกริด 2 แบบ p 0.174/0.080/0.025/0.055/0.095
+- WaveTrend 4 ชม. ซื้อเมื่อ WT1 ลงถึง -65 ขายเมื่อขึ้นถึง +65 (ลอง 4 แบบ): BTC 41 ไม้ +0.59% ETH 42 ไม้ +3.98% SOL 29 ไม้ +3.59% BNB 40 ไม้ +5.54% XRP 41 ไม้ +4.11% ตัวแฝดเข้าสุ่มออกแบบเดียวกัน +0.50 ถึง +5.63% ใกล้กัน permutation 200 รอบบน 6,000 แท่ง p 0.114 ถึง 0.532
+- BTC คุม QQQ/SHY (BTC Binance รายวัน QQQ SHY Yahoo พ.ย. 2017 ถึง 26 พ.ย. 69 หัก 0.01%/ข้าง): Sharpe 1.443 CAGR 19.2% MDD 14.3% ถือ QQQ 0.805 17.8% 35.1% ใช้เทรนด์ QQQ เอง 1.044 กริด 25 แบบชนะ QQQ ทั้งหมด permutation 200 รอบสลับแท่ง BTC p 0.005 ช่วยมากปี 2022 แพ้ปี 2024
+เปิดบัญชี: fwd_kama.py (KAMA รายวัน ตัวแฝดสุ่ม 1 ใน 7 วัน test ตรง backtest 201 ไม้) และ fwd_wt.py (WaveTrend 4 ชม. ตัวแฝดสุ่ม 1 ใน 250 แท่ง test ตรง 30 ไม้)
+เพิ่ม x_: ไม่มี (รอบนี้ไม่เจอกฎเหรียญมีมใหม่)
+ไอเดีย: BTC คุม QQQ/SHY ควรเปิด forward แบบ fwd_rsi2us โดยเธรดหลัก (ราคา QQQ SHY มาจาก Yahoo ไม่ใช่ byttrade.fetch), โพสต์ Grok Bot ชุดใหม่ (ต้องเธรดเต็มหรือกระเป๋าจริง)
+ตัดทิ้ง: Hot Bot ของ VoidScout (ต้องสมัครเบต้า)
