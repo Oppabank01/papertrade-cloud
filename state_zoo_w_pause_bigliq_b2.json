@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 4.341091351299067,
+ "cash": 2.9059710351898245,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 73.72065120037051,
    "entry": 0.01954,
-   "last": 0.01971,
+   "last": 0.01958,
    "peak": 0.01976,
    "cost": 1.4847469845962067,
    "opened": "2026-11-26T13:55:08+07:00",
@@ -21,13 +21,27 @@
    "sym": "JEANPHIL",
    "qty": 611.6685755529629,
    "entry": 0.002341,
-   "last": 0.002275,
+   "last": 0.002262,
    "peak": 0.002379,
    "cost": 1.475897892568013,
    "opened": "2026-11-26T13:55:10+07:00",
    "zoo": "w_pause_bigliq_b2",
    "smart": 401,
    "kol": 43,
+   "gap": 0,
+   "miss": 0
+  },
+  "3B1ijcocM5EDga6XxQ7JLW7weocQPWWjuhBYG8Vepump": {
+   "sym": "BP",
+   "qty": 370.4053553309887,
+   "entry": 0.003759,
+   "last": 0.003739,
+   "peak": 0.003772,
+   "cost": 1.435120316109242,
+   "opened": "2026-11-26T15:41:28+07:00",
+   "zoo": "w_pause_bigliq_b2",
+   "smart": 191,
+   "kol": 33,
    "gap": 0,
    "miss": 0
   }
@@ -1760,10 +1774,24 @@
    "cost_side": 0.03,
    "smart": 93,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T15:41:28+07:00",
+   "kind": "buy",
+   "mint": "3B1ijcocM5EDga6XxQ7JLW7weocQPWWjuhBYG8Vepump",
+   "sym": "BP",
+   "price": 0.003759,
+   "jup": 0.003762346572508613,
+   "usd": 1.4351,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_bigliq_b2",
+   "smart": 191,
+   "kol": 33
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795681859.2879944,
+ "rank_t": 1795682350.383105,
  "banned": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings",
