@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.701558365186711,
- "cash": 14.031508428330206,
+ "cash": 13.922387488802846,
  "pos": {},
  "log": [
   {
@@ -327,12 +327,41 @@
    "cost_side": 0.03,
    "smart": 6,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T23:47:57+07:00",
+   "kind": "buy",
+   "mint": "92y9KkVPyni8FBrjqzrwfkWTwV1cXZCXQKTBWRZEpump",
+   "sym": "TESTICLES",
+   "price": 4.838e-05,
+   "jup": 4.82843475474031e-05,
+   "usd": 0.4209,
+   "stop_set": -0.12,
+   "cost_side": 0.03,
+   "zoo": "x_tapescalp",
+   "smart": 20,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-26T23:49:47+07:00",
+   "kind": "sell",
+   "mint": "92y9KkVPyni8FBrjqzrwfkWTwV1cXZCXQKTBWRZEpump",
+   "sym": "TESTICLES",
+   "price": 3.8073927790269626e-05,
+   "entry": 4.838e-05,
+   "usd": 0.3118,
+   "pnl": -0.1091,
+   "why": "stop -21.3%",
+   "stop_set": -0.12,
+   "cost_side": 0.03,
+   "smart": 20,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: tape-scalper (theo1603 บอทแข่ง make.fun) แบบที่ zoo เช็กได้: อายุไม่เกิน 1 ชม. สภาพคล่อง 3k ถึง 40k ขึ้น 5 นาที 3 ถึง 80% ขึ้น 1 นาที up buys 4+ stop -12% TP +45% trail 12% เมื่อขึ้น 20% ถือ 16 นาที",
  "night": "2026-11-26",
  "night_start": 14.027712425573794,
- "rank_t": 1795711118.896791,
+ "rank_t": 1795711608.577558,
  "nights": [
   {
    "night": "2026-11-25",
