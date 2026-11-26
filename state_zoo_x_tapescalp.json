@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.701558365186711,
- "cash": 14.534894825977762,
- "pos": {},
+ "cash": 13.675929591620413,
+ "pos": {
+  "F5AhiT9nKGTP1VSGs6UrASSabopc18iFXFuEqtJ5pump": {
+   "sym": "Gemma",
+   "qty": 39539.236645170924,
+   "entry": 1.069e-05,
+   "last": 1.028e-05,
+   "peak": 1.069e-05,
+   "cost": 0.4356570189001001,
+   "opened": "2026-11-26T07:31:23+07:00",
+   "zoo": "x_tapescalp",
+   "smart": 8,
+   "kol": 1,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-25T14:10:14+07:00",
@@ -211,10 +226,53 @@
    "cost_side": 0.03,
    "smart": 35,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T07:31:23+07:00",
+   "kind": "buy",
+   "mint": "LuuPWJg8tMnmBqQmMTbJcG6eDKyuG4jJfRWZPwSpump",
+   "sym": "GTA 6 Coin",
+   "price": 4.486e-05,
+   "jup": 4.50128994508073e-05,
+   "usd": 0.436,
+   "stop_set": -0.12,
+   "cost_side": 0.03,
+   "zoo": "x_tapescalp",
+   "smart": 3,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-26T07:31:23+07:00",
+   "kind": "buy",
+   "mint": "F5AhiT9nKGTP1VSGs6UrASSabopc18iFXFuEqtJ5pump",
+   "sym": "Gemma",
+   "price": 1.069e-05,
+   "jup": 1.0747296691717491e-05,
+   "usd": 0.4357,
+   "stop_set": -0.12,
+   "cost_side": 0.03,
+   "zoo": "x_tapescalp",
+   "smart": 8,
+   "kol": 1
+  },
+  {
+   "t": "2026-11-26T07:34:48+07:00",
+   "kind": "sell",
+   "mint": "LuuPWJg8tMnmBqQmMTbJcG6eDKyuG4jJfRWZPwSpump",
+   "sym": "GTA 6 Coin",
+   "price": 1.3922790259822296e-06,
+   "entry": 4.486e-05,
+   "usd": 0.0127,
+   "pnl": -0.4233,
+   "why": "stop -96.9%",
+   "stop_set": -0.12,
+   "cost_side": 0.03,
+   "smart": 3,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: tape-scalper (theo1603 บอทแข่ง make.fun) แบบที่ zoo เช็กได้: อายุไม่เกิน 1 ชม. สภาพคล่อง 3k ถึง 40k ขึ้น 5 นาที 3 ถึง 80% ขึ้น 1 นาที up buys 4+ stop -12% TP +45% trail 12% เมื่อขึ้น 20% ถือ 16 นาที",
  "night": "2026-11-25",
  "night_start": 14.701558365186711,
- "rank_t": 1795652322.3288426
+ "rank_t": 1795652915.6463923
 }
