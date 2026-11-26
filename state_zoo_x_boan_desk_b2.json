@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 12.04045402127032,
- "pos": {},
+ "cash": 10.836408619143288,
+ "pos": {
+  "63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": {
+   "sym": "DEXDATA",
+   "qty": 7459.545652258277,
+   "entry": 0.0001566,
+   "last": 0.00014837458610042625,
+   "peak": 0.00017070338166183936,
+   "cost": 1.204045402127032,
+   "opened": "2026-11-27T06:30:37+07:00",
+   "zoo": "x_boan_desk_b2",
+   "smart": 53,
+   "kol": 2,
+   "gap": 3,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T19:52:28+07:00",
@@ -354,10 +369,24 @@
    "cost_side": 0.03,
    "smart": 93,
    "bundler": null
+  },
+  {
+   "t": "2026-11-27T06:30:37+07:00",
+   "kind": "buy",
+   "mint": "63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump",
+   "sym": "DEXDATA",
+   "price": 0.0001566,
+   "jup": 0.00015728999841293871,
+   "usd": 1.204,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_boan_desk_b2",
+   "smart": 53,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: โต๊ะ 4 เอเจนต์: เหรียญใหม่ คนถือ 300+ top10 ไม่เกิน 30% ขายเป็นช่วง",
- "rank_t": 1795735362.7548447,
+ "rank_t": 1795735795.7909648,
  "banned": {
   "32rBxcFjCFnyqZ41CEPM5AL67X1dcw8w83vZt6Kxpump": "PAIR"
  }

@@ -1,41 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 1.6245508803720214,
+ "cash": 1.6272996567353248,
  "pos": {
-  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
-   "sym": "USELESS",
-   "qty": 1.8691328550270017,
-   "entry": 0.07375,
-   "last": 0.07236,
-   "peak": 0.07427,
-   "cost": 0.1420826098312115,
-   "opened": "2026-11-27T03:33:01+07:00",
-   "zoo": "x_spray_small_b2",
-   "smart": 938,
-   "kol": 295,
-   "gap": 0,
-   "miss": 0
-  },
   "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
    "sym": "FIONA",
    "qty": 108.43642479863662,
    "entry": 0.00127,
-   "last": 0.0013255872623909773,
+   "last": 0.001314,
    "peak": 0.001449,
    "cost": 0.1419441965515033,
    "opened": "2026-11-27T03:50:00+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 447,
    "kol": 26,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 7.795001023322652,
    "entry": 0.01747,
-   "last": 0.01784,
+   "last": 0.0177,
    "peak": 0.01789,
    "cost": 0.1403614387522642,
    "opened": "2026-11-27T04:19:00+07:00",
@@ -49,7 +35,7 @@
    "sym": "CLAUDIA",
    "qty": 14.480674996233184,
    "entry": 0.009208,
-   "last": 0.00869,
+   "last": 0.008695,
    "peak": 0.009208,
    "cost": 0.13743357592796862,
    "opened": "2026-11-27T05:03:44+07:00",
@@ -63,21 +49,21 @@
    "sym": "LUNO",
    "qty": 377.70037351154843,
    "entry": 0.0003525,
-   "last": 0.0003534,
+   "last": 0.0003416767574077374,
    "peak": 0.0003763,
    "cost": 0.13722879989983594,
    "opened": "2026-11-27T05:03:48+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 49,
    "kol": 3,
-   "gap": 0,
+   "gap": 1,
    "miss": 0
   },
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
    "sym": "TROLL",
    "qty": 5.927659914852183,
    "entry": 0.02235,
-   "last": 0.02215,
+   "last": 0.02225,
    "peak": 0.0224,
    "cost": 0.13655246247881497,
    "opened": "2026-11-27T05:20:18+07:00",
@@ -91,7 +77,7 @@
    "sym": "Investor",
    "qty": 2631.801122918152,
    "entry": 5.005e-05,
-   "last": 5.456e-05,
+   "last": 5.184e-05,
    "peak": 5.63e-05,
    "cost": 0.13576751824577768,
    "opened": "2026-11-27T06:05:18+07:00",
@@ -99,6 +85,20 @@
    "smart": 118,
    "kol": 1,
    "gap": 0,
+   "miss": 0
+  },
+  "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": {
+   "sym": "NIO",
+   "qty": 129.37958792683983,
+   "entry": 0.0009657,
+   "last": 0.0009472210563075449,
+   "peak": 0.0009687,
+   "cost": 0.1287794970737469,
+   "opened": "2026-11-27T06:30:29+07:00",
+   "zoo": "x_spray_small_b2",
+   "smart": 459,
+   "kol": 35,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -14035,10 +14035,46 @@
    "cost_side": 0.03,
    "smart": 96,
    "bundler": null
+  },
+  {
+   "t": "2026-11-27T06:30:29+07:00",
+   "kind": "buy",
+   "mint": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
+   "sym": "NIO",
+   "price": 0.0009657,
+   "jup": 0.0009667333018197092,
+   "usd": 0.1288,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_spray_small_b2",
+   "smart": 459,
+   "kol": 35
+  },
+  {
+   "t": "2026-11-27T06:33:10+07:00",
+   "kind": "sell",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.07253,
+   "entry": 0.07375,
+   "usd": 0.1315,
+   "pnl": -0.0106,
+   "why": "ครบ 3 ชม. (-1.7%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 938,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-27T06:36:12+07:00",
+   "kind": "ban",
+   "mint": "J9eBkCb4UtquAMQqB6duwBmR99fFSMoTnDcaMB9Wpump",
+   "sym": "Investor",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: หว่านไม้เล็กหลายตัว ตัดกำไร 50% ตัดขาดทุน 15%",
- "rank_t": 1795735362.7548447,
+ "rank_t": 1795735795.7909648,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": "three",
@@ -14109,6 +14145,7 @@
   "EpXtn6xGoZ4Y45vRjiDUHSCGbBoJD5FaEqZbF98YswH1": "MADE",
   "FVWXgqKp1sD5YtNL2LtYEyN52tPX1RrYSsNugvvfLoat": "FEDORA",
   "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": "BTC",
-  "9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": "Snowball"
+  "9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": "Snowball",
+  "J9eBkCb4UtquAMQqB6duwBmR99fFSMoTnDcaMB9Wpump": "Investor"
  }
 }
