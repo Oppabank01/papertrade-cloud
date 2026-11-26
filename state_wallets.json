@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 4.290347097474315,
- "pos": {},
+ "cash": 3.432277677979452,
+ "pos": {
+  "34J9VrBeJ2dWActyAMpoNBKvoxZCqQz3SivmnnmSTUds": {
+   "sym": "STUDS",
+   "qty": 11911.560320416602,
+   "entry": 6.989e-05,
+   "last": 6.989e-05,
+   "peak": 6.989e-05,
+   "cost": 0.8580694194948632,
+   "opened": "2026-11-26T09:59:21+07:00",
+   "wallet": "FqJMNz",
+   "wallet_usd": 399,
+   "lag_min": 6.4,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T10:36:33+07:00",
@@ -13611,11 +13626,25 @@
    "wallet": "FqJMNz",
    "usd": 802,
    "why": "liq $13,159"
+  },
+  {
+   "t": "2026-11-26T09:59:21+07:00",
+   "kind": "buy",
+   "mint": "34J9VrBeJ2dWActyAMpoNBKvoxZCqQz3SivmnnmSTUds",
+   "sym": "STUDS",
+   "price": 6.989e-05,
+   "jup": 6.990722417515861e-05,
+   "usd": 0.8581,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "wallet": "FqJMNz",
+   "wallet_usd": 399,
+   "lag_min": 6.4
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ ผ่าน Helius",
  "cursor": {
-  "FqJMNzzY1DHz2F1Pt6F7VqCxBWdu8cK2TbfTrYT9zQbT": "uWsSUn9iqimRgK3rkUeKexFiB16SZH7dxJHe8A4JcBLAMBi7gDqRnfVgnQ9GSEPG9v8qV2KJUXdvsVdFcfhVtiq",
+  "FqJMNzzY1DHz2F1Pt6F7VqCxBWdu8cK2TbfTrYT9zQbT": "2wk7EdouTVkN5Dy6e5EL323xh28cJu8aFuU6bPopaarEj8irhKFSPNqsk88fGXmibHb8bbptmMGPADErJWiNt5Hi",
   "2kN7bb7sVKn4iBWDMpo8aAVyyQxAVpZATQ7RRkmoy6Mm": "1MPRQ6sFKgRpnNjsSdKzhPTSDqmA76HcwBZQaJrmqEQ51PVz8DHnvsi9k4wYx1WEqdh5kf5ASxzZvLACPunVric",
   "7NnaXghjuU92gM9kmwXysqa5HboyZuR2LTaBnvazFxSH": "3Vawf579dBZbV4wuuVp6ok5m7oL1biJs7MDGXc8H8BnqpSS3jPektDqnmjSPS8yrpEocyDu2rKi4KyNwgZq5XyMw",
   "7g5CJ754NboeY6D44MDdGwQmVX4Fvu59Q47c9ZKLPMkE": "5A9bPQUBWv8vqn6hYYvB1LZVoxCcmQSaG4e1echnp6Ki232nZPyHfWzZPfJg37LgeXxQHEeirbTPy2jh22CK32g2",
