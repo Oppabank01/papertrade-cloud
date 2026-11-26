@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 1.1220468882558612,
+ "cash": 1.2237842589979102,
  "pos": {
   "Bb4jR951QtVjeFAYFLBYXDSMKjbTDroCLPbFLdd7pump": {
    "sym": "memecoin",
@@ -28,21 +28,21 @@
    "zoo": "x_spray_small_b2",
    "smart": 133,
    "kol": 41,
-   "gap": 39,
+   "gap": 17,
    "miss": 0
   },
   "EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump": {
    "sym": "LUNO",
    "qty": 418.6016868619669,
    "entry": 0.0003416,
-   "last": 0.0003469,
+   "last": 0.00033053761489875295,
    "peak": 0.0003569,
    "cost": 0.14738645251705618,
    "opened": "2026-11-26T15:07:53+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 49,
    "kol": 3,
-   "gap": 0,
+   "gap": 8,
    "miss": 0
   },
   "9gyfbPVwwZx4y1hotNSLcqXCQNpNqqz6ZRvo8yTLpump": {
@@ -77,21 +77,21 @@
    "sym": "AgenC",
    "qty": 191.5021553531217,
    "entry": 0.0007421,
-   "last": 0.0007308,
+   "last": 0.0007314,
    "peak": 0.0007583,
    "cost": 0.14647881827205897,
    "opened": "2026-11-26T15:41:17+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 378,
    "kol": 57,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   },
   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
    "sym": "TROLL",
    "qty": 6.203950199789647,
    "entry": 0.02273,
-   "last": 0.0224,
+   "last": 0.02252,
    "peak": 0.02275,
    "cost": 0.14534713259247442,
    "opened": "2026-11-26T15:57:26+07:00",
@@ -105,21 +105,21 @@
    "sym": "CBUCKS",
    "qty": 21.83861095825788,
    "entry": 0.00641,
-   "last": 0.0064689428141707014,
+   "last": 0.006377,
    "peak": 0.006684,
    "cost": 0.14428519505507423,
    "opened": "2026-11-26T16:29:09+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 42,
    "kol": 0,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "As3XtYSstuVdrVyb6sJZZ77Tu8JvjTBg6S6hgPv4pump": {
    "sym": "BIAO",
    "qty": 1123.2734948385262,
    "entry": 0.0001242,
-   "last": 0.0001592,
+   "last": 0.0001552,
    "peak": 0.0001651,
    "cost": 0.143795679302149,
    "opened": "2026-11-26T16:37:53+07:00",
@@ -129,25 +129,11 @@
    "gap": 0,
    "miss": 0
   },
-  "HmY9bDnXet8Rvx6JembdeQQCC83FizZMQjmA2hjipump": {
-   "sym": "PCWINDOW",
-   "qty": 1462.650880289745,
-   "entry": 9.462e-05,
-   "last": 8.604969682405485e-05,
-   "peak": 9.7e-05,
-   "cost": 0.1426469040332052,
-   "opened": "2026-11-26T17:09:34+07:00",
-   "zoo": "x_spray_small_b2",
-   "smart": 3,
-   "kol": 0,
-   "gap": 2,
-   "miss": 0
-  },
   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
    "sym": "STONK",
    "qty": 4.3890070826803065,
    "entry": 0.03151,
-   "last": 0.03144,
+   "last": 0.03143,
    "peak": 0.03151,
    "cost": 0.14254546812539318,
    "opened": "2026-11-26T17:17:25+07:00",
@@ -161,14 +147,14 @@
    "sym": "Chinese",
    "qty": 1335.5082179074016,
    "entry": 0.0001034,
-   "last": 9.944e-05,
+   "last": 9.797e-05,
    "peak": 0.0001034,
    "cost": 0.14233307537788634,
    "opened": "2026-11-26T17:17:28+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 146,
    "kol": 9,
-   "gap": 0,
+   "gap": 17,
    "miss": 0
   }
  },
@@ -12699,10 +12685,32 @@
    "zoo": "x_spray_small_b2",
    "smart": 146,
    "kol": 9
+  },
+  {
+   "t": "2026-11-26T17:38:07+07:00",
+   "kind": "sell",
+   "mint": "HmY9bDnXet8Rvx6JembdeQQCC83FizZMQjmA2hjipump",
+   "sym": "PCWINDOW",
+   "price": 7.169329857876552e-05,
+   "entry": 9.462e-05,
+   "usd": 0.1017,
+   "pnl": -0.0409,
+   "why": "stop -24.2%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 3,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-26T17:39:07+07:00",
+   "kind": "ban",
+   "mint": "Tm2iqbxYjKpW8xCMe6q1xUraNMNzcG5xMztAir3pump",
+   "sym": "Chinese",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: หว่านไม้เล็กหลายตัว ตัดกำไร 50% ตัดขาดทุน 15%",
- "rank_t": 1795688651.5411074,
+ "rank_t": 1795689141.9084253,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": "three",
@@ -12761,6 +12769,7 @@
   "6pjRwzGg2QS1VSf6Z4TQZwyMxUysrUajkRmbbQ89P6KG": "FLOATER",
   "CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU": "e/acc",
   "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": "PAID",
-  "7HgfXftRBBqsYtAEYcqjGLQrNJLL6Tww9ek4rE3Apump": "RKC"
+  "7HgfXftRBBqsYtAEYcqjGLQrNJLL6Tww9ek4rE3Apump": "RKC",
+  "Tm2iqbxYjKpW8xCMe6q1xUraNMNzcG5xMztAir3pump": "Chinese"
  }
 }
