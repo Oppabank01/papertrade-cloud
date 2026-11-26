@@ -1,19 +1,47 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.473331559992248,
+ "cash": 3.2804373683622146,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 327.5832609797871,
    "entry": 0.004793,
-   "last": 0.004693,
+   "last": 0.004683,
    "peak": 0.00482,
    "cost": 1.618332889998062,
    "opened": "2026-11-26T06:30:49+07:00",
    "zoo": "bigliqRC_b2",
    "smart": 809,
    "kol": 75,
+   "gap": 0,
+   "miss": 0
+  },
+  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
+   "sym": "CATE",
+   "qty": 91.16798178052576,
+   "entry": 0.01704,
+   "last": 0.01709,
+   "peak": 0.01714,
+   "cost": 1.6012187276233345,
+   "opened": "2026-11-26T08:00:42+07:00",
+   "zoo": "bigliqRC_b2",
+   "smart": 983,
+   "kol": 111,
+   "gap": 0,
+   "miss": 0
+  },
+  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+   "sym": "USELESS",
+   "qty": 21.154021029853425,
+   "entry": 0.073,
+   "last": 0.07283,
+   "peak": 0.073,
+   "cost": 1.5916754640066995,
+   "opened": "2026-11-26T08:00:42+07:00",
+   "zoo": "bigliqRC_b2",
+   "smart": 938,
+   "kol": 295,
    "gap": 0,
    "miss": 0
   }
@@ -1493,10 +1521,38 @@
    "zoo": "bigliqRC_b2",
    "smart": 809,
    "kol": 75
+  },
+  {
+   "t": "2026-11-26T08:00:42+07:00",
+   "kind": "buy",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.01704,
+   "jup": 0.01715225857817729,
+   "usd": 1.6012,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliqRC_b2",
+   "smart": 983,
+   "kol": 111
+  },
+  {
+   "t": "2026-11-26T08:00:42+07:00",
+   "kind": "buy",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.073,
+   "jup": 0.07250183577842936,
+   "usd": 1.5917,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliqRC_b2",
+   "smart": 938,
+   "kol": 295
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ ผ่าน RugCheck เช็กราคาทุก 20 วิ",
- "rank_t": 1795654380.026923,
+ "rank_t": 1795654785.0588598,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
