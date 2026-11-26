@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 1.4157717107248502,
+ "cash": 0.6783085838811923,
  "pos": {
   "KXXRPD-26NOV2617-T0.8999:yes": {
    "qty": 0.809687227540248,
@@ -127,7 +127,7 @@
   "KXDOGED-26NOV2617-T0.0549999:yes": {
    "qty": 0.7697342346305435,
    "entry": 0.958075,
-   "last": 0.97,
+   "last": 0.98,
    "usd": 0.7374631268436579,
    "t": "2026-11-26T12:20:13+00:00",
    "coin": "YES | Dogecoin price on Nov 26, 2026?",
@@ -211,7 +211,7 @@
   "KXTSAD-26NOV26-T1500000:yes": {
    "qty": 0.785197647423473,
    "entry": 0.9392070000000001,
-   "last": 0.61,
+   "last": 0.63,
    "usd": 0.7374631268436579,
    "t": "2026-11-26T17:02:28+00:00",
    "coin": "YES | At least 1,500,000 passengers TSA passenger screenings on November 26, 2026?",
@@ -231,6 +231,18 @@
    "side": "yes",
    "close": "2026-11-27T19:30:00Z",
    "why": "fav ask 0.88 ทุน 0.892 ปิด 2026-11-27T19:30:00Z"
+  },
+  "KXSILVERW-26NOV2714-T39.99:yes": {
+   "qty": 0.7931826194981648,
+   "entry": 0.9297520000000001,
+   "last": 0.89,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-26T19:39:35+00:00",
+   "coin": "YES | Will the silver close price be above 39.99 USD/t.oz on November 27, 2026 at 2:45 PM ",
+   "ticker": "KXSILVERW-26NOV2714-T39.99",
+   "side": "yes",
+   "close": "2026-11-27T19:45:00Z",
+   "why": "fav ask 0.92 ทุน 0.930 ปิด 2026-11-27T19:45:00Z"
   }
  },
  "log": [
@@ -1895,6 +1907,15 @@
    "ret": 0.02366,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-26T19:39:35+00:00",
+   "coin": "YES | Will the silver close price be above 39.99 USD/t.oz on November 27, 2026 at 2:45 PM ",
+   "px": 0.92975,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.92 ทุน 0.930 ปิด 2026-11-27T19:45:00Z",
+   "ask": 0.92
   }
  ],
  "seen": null,
@@ -1988,6 +2009,7 @@
   "KXRAIN-26NOV26": 1795706287,
   "KXINXU-26NOV27H1000": 1795706791,
   "KXTSAD-26NOV26": 1795712547,
-  "KXWTI-26NOV2714": 1795716734
+  "KXWTI-26NOV2714": 1795716734,
+  "KXSILVERW-26NOV2714": 1795721972
  }
 }

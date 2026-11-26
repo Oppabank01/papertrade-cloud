@@ -2,7 +2,7 @@
  "label": "Kalshi ตัวควบคุม: สุ่มฝั่งในตลาดเดียวกับตัวเต็ง/ตัวรอง",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 1.1253700169415306,
+ "cash": 0.3879068900978727,
  "pos": {
   "KXXRPD-26NOV2617-T0.8999:yes": {
    "qty": 0.809687227540248,
@@ -62,6 +62,18 @@
    "ticker": "KXOPENVREQ-26NOV26-T19P0",
    "side": "no",
    "close": "2026-11-27T04:59:00Z",
+   "why": "สุ่มฝั่ง"
+  },
+  "KXSILVERW-26NOV2714-T39.99:yes": {
+   "qty": 0.7931826194981648,
+   "entry": 0.9297520000000001,
+   "last": 0.89,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-26T19:39:35+00:00",
+   "coin": "YES | Will the silver close price be above 39.99 USD/t.oz on November 27, 2026 at 2:45 PM ",
+   "ticker": "KXSILVERW-26NOV2714-T39.99",
+   "side": "yes",
+   "close": "2026-11-27T19:45:00Z",
    "why": "สุ่มฝั่ง"
   }
  },
@@ -1244,6 +1256,15 @@
    "ret": 0.02366,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-26T19:39:35+00:00",
+   "coin": "YES | Will the silver close price be above 39.99 USD/t.oz on November 27, 2026 at 2:45 PM ",
+   "px": 0.92975,
+   "usd": 0.7374631268436579,
+   "why": "สุ่มฝั่ง",
+   "ask": 0.92
   }
  ],
  "seen": null,
@@ -1306,6 +1327,7 @@
   "KXGOLDD-26NOV2614": 1795648768,
   "KXRAINTHANKSGIVING-26NOV26": 1795648768,
   "KXSILVERD-26NOV2614": 1795650362,
-  "KXOPENVREQ-26NOV26": 1795701908
+  "KXOPENVREQ-26NOV26": 1795701908,
+  "KXSILVERW-26NOV2714": 1795721972
  }
 }
