@@ -1,14 +1,14 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 4.050894434326548,
+ "cash": 2.039352255358161,
  "pos": {
   "3B1ijcocM5EDga6XxQ7JLW7weocQPWWjuhBYG8Vepump": {
    "sym": "BP",
    "qty": 526.9734842737953,
    "entry": 0.003638,
-   "last": 0.003816,
-   "peak": 0.003816,
+   "last": 0.003827,
+   "peak": 0.003827,
    "cost": 1.9364455804530871,
    "opened": "2026-11-26T12:26:09+07:00",
    "zoo": "w_red5m_b2",
@@ -21,7 +21,7 @@
    "sym": "CRIME",
    "qty": 515.9361269590569,
    "entry": 0.00376,
-   "last": 0.003946,
+   "last": 0.003937,
    "peak": 0.003946,
    "cost": 1.9594655057862718,
    "opened": "2026-11-26T14:18:36+07:00",
@@ -42,6 +42,20 @@
    "zoo": "w_red5m_b2",
    "smart": 15,
    "kol": 20,
+   "gap": 0,
+   "miss": 0
+  },
+  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
+   "sym": "mihao",
+   "qty": 423.35821550450197,
+   "entry": 0.004704,
+   "last": 0.0047,
+   "peak": 0.00476,
+   "cost": 2.0115421789683867,
+   "opened": "2026-11-26T19:13:28+07:00",
+   "zoo": "w_red5m_b2",
+   "smart": 811,
+   "kol": 75,
    "gap": 0,
    "miss": 0
   }
@@ -924,10 +938,24 @@
    "cost_side": 0.01,
    "smart": 576,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T19:13:28+07:00",
+   "kind": "buy",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.004704,
+   "jup": 0.004718438347267756,
+   "usd": 2.0115,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_red5m_b2",
+   "smart": 811,
+   "kol": 75
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สวนทาง: อายุเกิน 1 วัน pool 200k+ กำลังแดง 5 นาที",
- "rank_t": 1795694599.530028,
+ "rank_t": 1795695136.7576168,
  "banned": {
   "J1Wpmugrooj1yMyQKrdZ2vwRXG5rhfx3vTnYE39gpump": "WOULD",
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings",
