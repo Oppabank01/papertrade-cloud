@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.688601645123384,
- "cash": 13.179387097872757,
+ "cash": 12.44713743624963,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 117.95134345388767,
    "entry": 0.006041,
-   "last": 0.006119,
+   "last": 0.006098,
    "peak": 0.006568,
    "cost": 0.7344300822561692,
    "opened": "2026-11-27T01:59:22+07:00",
@@ -21,14 +21,28 @@
    "sym": "DCTY",
    "qty": 727.5959517126767,
    "entry": 0.000974,
-   "last": 0.001021,
+   "last": 0.001011,
    "peak": 0.001067,
    "cost": 0.730445740020766,
    "opened": "2026-11-27T02:25:30+07:00",
    "zoo": "x_toaster_paper",
    "smart": 741,
    "kol": 69,
-   "gap": 1,
+   "gap": 0,
+   "miss": 0
+  },
+  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
+   "sym": "STONK",
+   "qty": 22.574789377399387,
+   "entry": 0.03147,
+   "last": 0.03159,
+   "peak": 0.0316,
+   "cost": 0.732249661623128,
+   "opened": "2026-11-27T03:41:45+07:00",
+   "zoo": "x_toaster_paper",
+   "smart": 1000,
+   "kol": 174,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -123,8 +137,22 @@
    "cost_side": 0.03,
    "smart": 44,
    "bundler": null
+  },
+  {
+   "t": "2026-11-27T03:41:45+07:00",
+   "kind": "buy",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.03147,
+   "jup": 0.03160369128954108,
+   "usd": 0.7322,
+   "stop_set": -0.06,
+   "cost_side": 0.03,
+   "zoo": "x_toaster_paper",
+   "smart": 1000,
+   "kol": 174
   }
  ],
  "label": "สวนสัตว์: บอท paper MyToasterIsCrying (Solana Paper Bot 2.0) แบบที่ zoo เช็กได้: อายุ 30 นาทีขึ้นไป pool 25k+ top10 ไม่เกิน 30% ราคา 1 ชม. และ 5 นาทีบวก แรงซื้อนำ RugCheck stop -6% TP +12% ไม้ละ 5% สูงสุด 3 ตัว",
- "rank_t": 1795725126.5128386
+ "rank_t": 1795725615.781856
 }
