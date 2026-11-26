@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.701558365186711,
- "cash": 14.558643252230622,
+ "cash": 14.822683631578085,
  "pos": {},
  "log": [
   {
@@ -385,16 +385,46 @@
    "cost_side": 0.03,
    "smart": 50,
    "bundler": null
+  },
+  {
+   "t": "2026-11-27T01:49:51+07:00",
+   "kind": "buy",
+   "mint": "CtnZ7E5UNxVsziX3Qdf1XWqb2VwTk9S5r3kfcpNoNoCy",
+   "sym": "SCAT",
+   "price": 1.405e-05,
+   "jup": 1.3960096819991718e-05,
+   "usd": 0.4368,
+   "stop_set": -0.12,
+   "cost_side": 0.03,
+   "zoo": "x_tapescalp",
+   "smart": 7,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-27T01:55:52+07:00",
+   "kind": "sell",
+   "mint": "CtnZ7E5UNxVsziX3Qdf1XWqb2VwTk9S5r3kfcpNoNoCy",
+   "sym": "SCAT",
+   "price": 2.395e-05,
+   "entry": 1.405e-05,
+   "usd": 0.7008,
+   "pnl": 0.264,
+   "why": "ถึงเป้า +70.5%",
+   "stop_set": -0.12,
+   "cost_side": 0.03,
+   "smart": 7,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: tape-scalper (theo1603 บอทแข่ง make.fun) แบบที่ zoo เช็กได้: อายุไม่เกิน 1 ชม. สภาพคล่อง 3k ถึง 40k ขึ้น 5 นาที 3 ถึง 80% ขึ้น 1 นาที up buys 4+ stop -12% TP +45% trail 12% เมื่อขึ้น 20% ถือ 16 นาที",
  "night": "2026-11-26",
  "night_start": 14.027712425573794,
- "rank_t": 1795718421.1817074,
+ "rank_t": 1795718895.5559924,
  "nights": [
   {
    "night": "2026-11-25",
    "ret": -0.0458
   }
- ]
+ ],
+ "halted": "ราคา SCAT สองแหล่งต่างกันเกิน 1% ติดกัน 60 รอบ"
 }
