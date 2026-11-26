@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.731879787860931,
- "cash": 14.106140509557276,
- "pos": {
-  "Bwwc9n2mPn1k5rGv6UjAudiPPYmQpSzYevddjdmHpump": {
-   "sym": "MEOWI",
-   "qty": 15620.893852865438,
-   "entry": 1.788e-05,
-   "last": 2.297e-05,
-   "peak": 2.297e-05,
-   "cost": 0.2878804185623934,
-   "opened": "2026-11-27T02:41:48+07:00",
-   "zoo": "x_surge_rider",
-   "smart": 1,
-   "kol": 0,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 14.37322943446358,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-24T15:51:38+07:00",
@@ -356,12 +341,27 @@
    "zoo": "x_surge_rider",
    "smart": 1,
    "kol": 0
+  },
+  {
+   "t": "2026-11-27T03:02:56+07:00",
+   "kind": "sell",
+   "mint": "Bwwc9n2mPn1k5rGv6UjAudiPPYmQpSzYevddjdmHpump",
+   "sym": "MEOWI",
+   "price": 1.7623360631129574e-05,
+   "entry": 1.788e-05,
+   "usd": 0.2671,
+   "pnl": -0.0208,
+   "why": "trailing จากยอด +30% (-1.4%)",
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "smart": 1,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญบน bonding curve อายุเกิน 5 นาที ขึ้น 5 นาที 15%+ stop -10% trail 15% (บอทแข่ง Surge Rider)",
  "night": "2026-11-26",
  "night_start": 14.452869071761466,
- "rank_t": 1795722494.6998258,
+ "rank_t": 1795723009.2783709,
  "nights": [
   {
    "night": "2026-11-24",
