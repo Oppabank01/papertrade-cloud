@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 12.511550618891743,
- "pos": {},
+ "cash": 10.009240495113394,
+ "pos": {
+  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+   "sym": "USELESS",
+   "qty": 33.30666281653213,
+   "entry": 0.07438,
+   "last": 0.0745,
+   "peak": 0.0745,
+   "cost": 2.502310123778349,
+   "opened": "2026-11-26T21:22:28+07:00",
+   "zoo": "w_night_aged_b2",
+   "smart": 938,
+   "kol": 295,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T19:52:26+07:00",
@@ -413,12 +428,26 @@
    "usd": 2.5997,
    "pnl": 0.2312,
    "why": "ปิดรอบเช้า"
+  },
+  {
+   "t": "2026-11-26T21:22:28+07:00",
+   "kind": "buy",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.07438,
+   "jup": 0.07461341687593935,
+   "usd": 2.5023,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_night_aged_b2",
+   "smart": 938,
+   "kol": 295
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: กะดึก: กฎ w_aged_nostop เทรดเฉพาะ 21:00-09:00",
  "night": "2026-11-26",
  "night_start": 12.511550618891743,
- "rank_t": 1795702482.6301153,
+ "rank_t": 1795702890.4186041,
  "nights": [
   {
    "night": "2026-11-22",
