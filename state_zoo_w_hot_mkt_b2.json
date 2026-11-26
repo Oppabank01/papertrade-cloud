@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 4.240271670615796,
+ "cash": 2.007176164586222,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 400.5738297413721,
    "entry": 0.005434,
-   "last": 0.005927,
+   "last": 0.005944,
    "peak": 0.006568,
    "cost": 2.1986497217894656,
    "opened": "2026-11-26T23:47:16+07:00",
@@ -21,7 +21,7 @@
    "sym": "USELESS",
    "qty": 29.756541673321216,
    "entry": 0.07311,
-   "last": 0.07309,
+   "last": 0.07335,
    "peak": 0.07403,
    "cost": 2.19742002650086,
    "opened": "2026-11-26T23:55:02+07:00",
@@ -35,13 +35,27 @@
    "sym": "Rings",
    "qty": 1206.7619406328788,
    "entry": 0.001778,
-   "last": 0.001978,
+   "last": 0.001971,
    "peak": 0.002091,
    "cost": 2.1672409590113975,
    "opened": "2026-11-27T00:37:10+07:00",
    "zoo": "w_hot_mkt_b2",
    "smart": 141,
    "kol": 10,
+   "gap": 0,
+   "miss": 0
+  },
+  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
+   "sym": "ANSEM",
+   "qty": 115.20689829895409,
+   "entry": 0.01919,
+   "last": 0.0192,
+   "peak": 0.0192,
+   "cost": 2.233095506029574,
+   "opened": "2026-11-27T03:24:22+07:00",
+   "zoo": "w_hot_mkt_b2",
+   "smart": 1000,
+   "kol": 187,
    "gap": 0,
    "miss": 0
   }
@@ -882,10 +896,24 @@
    "cost_side": 0.01,
    "smart": 739,
    "bundler": null
+  },
+  {
+   "t": "2026-11-27T03:24:22+07:00",
+   "kind": "buy",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.01919,
+   "jup": 0.01919121156511465,
+   "usd": 2.2331,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_hot_mkt_b2",
+   "smart": 1000,
+   "kol": 187
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดร้อน: กฎ w_aged_nostop เฉพาะรอบที่เหรียญ 74%+ ขึ้นใน 1 ชม.",
- "rank_t": 1795724031.2507987,
+ "rank_t": 1795724600.6244698,
  "banned": {
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": "OTC",
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": "Buttcoin",
