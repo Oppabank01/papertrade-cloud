@@ -1,41 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.48054635186342043,
+ "cash": 0.9326064386978625,
  "pos": {
-  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
-   "sym": "CLAUDIA",
-   "qty": 25.382755623071805,
-   "entry": 0.009106,
-   "last": 0.009181,
-   "peak": 0.009381,
-   "cost": 0.23823476881435976,
-   "opened": "2026-11-27T00:54:43+07:00",
-   "zoo": "bigliq",
-   "smart": 583,
-   "kol": 37,
-   "gap": 1,
-   "miss": 0
-  },
-  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
-   "sym": "STONK",
-   "qty": 7.3217911371057305,
-   "entry": 0.03138,
-   "last": 0.03166,
-   "peak": 0.03166,
-   "cost": 0.23681488959222616,
-   "opened": "2026-11-27T00:54:43+07:00",
-   "zoo": "bigliq",
-   "smart": 1000,
-   "kol": 174,
-   "gap": 0,
-   "miss": 0
-  },
   "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
    "sym": "USELESS",
    "qty": 3.0990862963321884,
    "entry": 0.07375,
-   "last": 0.07413,
+   "last": 0.07398,
    "peak": 0.07413,
    "cost": 0.2355778338017923,
    "opened": "2026-11-27T03:32:41+07:00",
@@ -5400,8 +5372,38 @@
    "zoo": "bigliq",
    "smart": 938,
    "kol": 295
+  },
+  {
+   "t": "2026-11-27T03:58:58+07:00",
+   "kind": "sell",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.009181,
+   "entry": 0.009106,
+   "usd": 0.2261,
+   "pnl": -0.0121,
+   "why": "ครบ 3 ชม. (+0.8%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 583,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-27T03:58:58+07:00",
+   "kind": "sell",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.03181,
+   "entry": 0.03138,
+   "usd": 0.226,
+   "pnl": -0.0108,
+   "why": "ครบ 3 ชม. (+1.4%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 1000,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ มาร์เก็ตแคป 2M+",
- "rank_t": 1795726136.3033683
+ "rank_t": 1795726702.465735
 }
