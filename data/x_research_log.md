@@ -797,3 +797,14 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ยังทำไม่ได้: บอท make.fun ที่ใช้ slot และผู้ซื้อแยกกระเป๋าใน 40 slot (ต้อง tape ระดับเทรด)
 ปลด: ไม่มี (ยังไม่ครบจุดตัดสินของ x_ ตัวใดที่แพ้ rand ชัด)
 กระดานคะแนน: x_ ส่วนใหญ่ติดลบ ที่ยังบวก x_smartflow_lowcap +20.9% (7 ไม้) x_crb_4agent +11.8% (11 ไม้) x_kilo_grad_ladder +1.8% (2 ไม้) ส่วน rand -98.3%
+
+## 2026-11-26 10:48 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 19 พ.ย. (llm trading agent, turtle trading, macd strategy, bollinger crypto, ichimoku, backtest crypto ตั้งแต่ 24 พ.ย., trading strategy ตั้งแต่ 25 พ.ย.), X 3 ครั้ง (polymarket bot strategy backtest, openclaw trading strategy, dca bot rules results crypto), เว็บ 1 ครั้ง (งานวิจัยทำนายผลตอบแทน Bitcoin ล่าสุด ไม่เจองานเดือน พ.ย. 69 ได้งานสำรวจ Baquero arXiv 2606.00071)
+เจอ: pulsebot ของ gurbanmradov (2 ท่า rsi_ema_dip กับ grid กฎครบในซอร์ส), บอทแข่ง make.fun ช้อนย่อบน curve ของ Samot72 (กฎครบใน README), crypto-top500-multicycle ของ raffaele-ando (ถือท็อป 500 แพ้ BTC), repo pump-fun-sharpe-sprint ของ valdodamanik12-blip (มีแค่ LICENSE), บน X มีแต่ของที่ลงฟีดแล้วกับโพสต์ referral copy trade Polymarket
+ทดสอบแล้ว (Binance 1 ชม. หลังหัก 0.35%/ข้าง permutation 200 รอบบน 20,000 แท่งล่าสุด):
+- rsi_ema_dip ค่าเริ่มต้นของ repo (RSI14 ไม่เกิน 35 ปิดไม่ต่ำกว่า EMA50 ลบ 2% ออกที่ RSI 68 stop ปิด 3% trail 2% หลัง +5% พัก 3 แท่ง) 2017 ถึง 26 พ.ย. 69: BTC 410 ไม้ -0.58% ต่อไม้ มัธยฐาน +0.33% ชนะ 53% ก่อนหัก +0.12% ETH 301 ไม้ -0.82% SOL 117 ไม้ -0.70% ตัวแฝดเข้าสุ่ม -0.66/-0.71/-0.91% ติดลบทุกปี กริด 6 แบบ (RSI 30/35/40 x EMA 50/200) ดีสุด -0.35 ถึง -0.55% p BTC 0.920 ETH 0.602 SOL 0.731 ไม่ผ่าน
+- grid ของ repo (ซื้อเมื่อปิดต่ำกว่าจุดยึด 2% ขายที่ +2% กับ stop เดียวกัน): BTC 1,416 ไม้ -0.55% มัธยฐาน +1.40% ชนะ 62% ETH 1,985 ไม้ -0.72% SOL 2,149 ไม้ -0.72% ก่อนหักราว 0% กริด 1/2/3% p 0.652/0.781/0.826 ไม่ผ่าน ชนะบ่อยแต่ไม้แพ้ใหญ่กว่า แบบเดียวกับกริดที่ตายไปแล้ว จึงไม่เปิดบัญชี
+เปิดบัญชี: fwd_pulsedip.py (BTC ETH SOL ไม้ละ 1 ใน 3 ตัวแฝดเข้าสุ่ม 1 ใน 150 แท่ง อินดิเคเตอร์ตามซอร์ส ตัด kill switch ขาดทุน 3% ต่อวันออก เข้าออกที่ราคาเปิดแท่งถัดไป) test เดินทีละแท่งตรง backtest 57 ไม้ และ trades() ใน test ตรง backtest เต็มครบ 410/301/117 ไม้ เปิดทั้งที่ไม่ผ่านเพราะผู้ใช้ให้ลองท่าอ่อน ตัวเลขที่เลือกเองอยู่ใน comment สคริปต์ /tmp/scout_1048/bt.py perm.py grid.py
+เพิ่ม x_: x_dip_recover (night บน curve อายุ 2 นาทีขึ้นไป 5 นาที -15% ลงไป 1 นาทีเขียว buys 3+ สภาพคล่อง 1k+ stop -8% TP +20% trail 20% หลัง +10% ถือ 4 นาที ไม้ละ 3% สูงสุด 6 ตัว เช็กทุก 5 วิ) เลขที่แปลงเองอยู่ใน note import zoo ไม่มี skip และ test_zoo ผ่าน
+ไอเดีย: ท็อป 500 ของ raffaele-ando (ต้องรายชื่อท็อป 500 ย้อนหลังรวมตัวที่ถูกถอด), 0xkakaa ระบบของนักศึกษา SJTU (ไม่มีกฎ), Baquero (งานสำรวจ ไม่มีกฎ ยืนยันว่าต้องเทียบ naive)
+ตัดทิ้ง: ไม่มี (โพสต์ copy trade Polymarket ต้องสมัครผ่าน referral จึงไม่แตะ ลงฟีดเป็นไอเดียรวมกับผลค้น X)

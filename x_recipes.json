@@ -2815,5 +2815,39 @@
    "COOLDOWN_H": 24
   },
   "note": "from the post: only memecoins trading 48 h or more, a risk check step; chosen by me: risk check read as zoo rugcheck, pool 50k to 200k USD (200k+ with up is a closed family in lessons.md, so this stays below it), zoo up as the scanner, stop -15%, take all at +30%, max hold 24 h, 10% of the account per trade, at most 3 open (the three slots of the Sypronus 23 Nov post), 24 h block before the same coin is bought again (the post gives no exits or sizes)"
+ },
+ {
+  "name": "x_dip_recover",
+  "label": "ช้อนย่อบน curve (Samot72 บอทแข่ง make.fun Paper Sprint) แบบที่ zoo เช็กได้: ยังอยู่บน bonding curve อายุ 2 นาทีขึ้นไป ย่อ 5 นาที 15%+ แต่ 1 นาทีกลับเขียว stop -8% TP +20% trail 20% หลัง +10% ถือ 4 นาที",
+  "horizon": "night",
+  "source": "https://github.com/Samot72/u-boothlord-pump-fun-paper-sprint-any-bot-can-f83c389b-entry",
+  "claim": "Dip-recovery pump.fun replay paper bot (make.fun Paper Sprint entry, deadline 26 Nov 2026): buy a curve 300+ slots old with 2 to 80 SOL real reserves once its price is 15%+ below its 40-slot high and the last 10 slots show net buying (0.2+ SOL, 3+ buys, 3+ buyers); 0.15 SOL per position, TP +20%, stop -8%, trail 20% once +10%, exit on net outflow, max hold 600 slots, at most 6 open, at most 2 entries per curve (its own replay, no results shown, unverified)",
+  "added": "2026-11-26",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 0.033,
+    "liquidity": 1000,
+    "price_change_percent1m": 0.1,
+    "buys": 3
+   },
+   "max": {
+    "launchpad_status": 0,
+    "price_change_percent5m": -15
+   }
+  },
+  "exit": {
+   "STOP": -0.08,
+   "TP_ALL": 0.2,
+   "HALF_AT": null,
+   "TRAIL_ON": 0.1,
+   "TRAIL": 0.2,
+   "MAX_HOLD_H": 0.067,
+   "PER_TRADE": 0.03,
+   "MAX_POS": 6,
+   "COOLDOWN_H": 24,
+   "WATCH_S": 5
+  },
+  "note": "from the README: still on the curve, 15% below the recent high, net buying, 300+ slots old, TP +20%, stop -8%, trail 20% once +10%, max hold 600 slots, at most 6 open; chosen by me: 300 slots read as age 0.033 h (2 min at 0.4 s per slot), the 40-slot high (about 16 s) read as the GMGN 5 m change at -15% or lower, net buying read as a green 1 m change of +0.1% or more and 3+ buys in the rank's buys field, 2 SOL real reserves read as 1k USD liquidity, the 80 SOL cap and the net-outflow exit left out (zoo has no such fields), 600 slots read as 0.067 h, 3% of the account per trade (the README stakes 0.15 SOL of an unknown balance), one entry per coin with a 24 h block (the README allows 2), 5 s checks because stops need the fast group (lessons.md)"
  }
 ]

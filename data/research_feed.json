@@ -1,50 +1,5 @@
 [
  {
-  "t": "2026-11-23T02:22+07:00",
-  "source": "web",
-  "title": "ไอเดียแท่งราคา: ไอเดียแปลก: long เฉพาะข้างแรม",
-  "url": "https://github.com/Oppabank01/papertrade-cloud/blob/main/fwd_moon.py",
-  "summary": "ไอเดียคลาสสิก/แปลกที่ลองเองคืนนี้ BTC ETH SOL 2017-2026 ต้นทุน 0.35%/ข้าง",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "308 ไม้ +3.07%/ไม้ มัธยฐาน -0.72% 2024+ -1.20% p 0.06/0.89 ยังไม่ผ่านเกณฑ์ เปิด state_fwd_moon + twin ลองเผื่อฟลุค"
- },
- {
-  "t": "2026-11-23T02:50+07:00",
-  "source": "web",
-  "title": "Polymarket favorite-longshot bias: ซื้อตัวเต็ง 0.85-0.97 / ตัวรอง 0.03-0.10 ใกล้ตัดสิน",
-  "url": "https://github.com/Oppabank01/papertrade-cloud/blob/main/poly_fav.py",
-  "summary": "ทฤษฎีตลาดทำนายผล: ตัวเต็งชนะบ่อยกว่าราคาบอก ตัวรองชนะน้อยกว่า",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "ข้อมูลย้อนหลัง 5,948 ตลาด 30 วัน (91% กีฬา) ราคา 6 ชม. ก่อนจบ: เต็ง ราคา 0.920 ชนะจริง 0.947 (+2.2%/$ หลังต้นทุน) ตัวรอง 0.061 ชนะ 0.042 (-36%) แต่ช่วงกลางก็เพี้ยนผิดปกติและการเลือกตามวอลุ่มให้ผลกลับทิศ ยังไม่เชื่อ เปิด state_poly_fav, state_poly_long + twin"
- },
- {
-  "t": "2026-11-23T02:55:00+07:00",
-  "source": "github",
-  "title": "thecomicopera/trading-backtest-lab: Bollinger breakout 20/2",
-  "url": "https://github.com/thecomicopera/trading-backtest-lab",
-  "summary": "แดชบอร์ด HTML ไฟล์เดียวเทียบ 8 ท่าตำรา (SMA, EMA, RSI, Bollinger, MACD, Donchian, ROC) บนราคา Binance ไม่มีผลอ้าง เลือกแถว Bollinger breakout ค่าเริ่มต้นของ repo มาลอง",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "backtest Binance 4 ชม. 2017-2026 หลังหัก 0.35%/ข้าง ปิดเหนือกรอบบนซื้อ ปิดใต้เส้นกลางขาย long อย่างเดียว 979 ไม้ เฉลี่ย +0.44% มัธยฐาน -1.94% ชนะ 34% (BTC +0.47% 357 ไม้ ETH +0.34% SOL +0.52%) ตัวแฝดเข้าสุ่ม -0.08 ถึง -0.71% permutation 200 รอบ p BTC 0.010 ETH 0.080 SOL 0.284 แต่ปี 2024+ ติดลบทุกเหรียญ -0.33 ถึง -0.71% ต่อไม้ เปิด fwd_bbbreak.py (state_fwd_bbbreak.json + _twin) ไม่ได้จูนค่า ใช้ 20/2 ของ repo"
- },
- {
-  "t": "2026-11-23T02:55:00+07:00",
-  "source": "x",
-  "title": "machao_stock: ทองหลุด 4,000 ซื้อเลยหรือรอ 3,965",
-  "url": "https://x.com/machao_stock/status/2114554501227274666",
-  "summary": "โพสต์อ้างว่า backtest ซื้อทองที่ระดับเลขกลมด้านล่างชนะ 70 ถึง 100% ไม่ให้กฎออก ลองเป็นท่าตั้งซื้อที่ระดับ $100 ใต้ราคาปิดบน PAXG รายวัน",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "backtest PAXG รายวัน 2020-08 ถึง 2026-11 หลังหัก 0.35%/ข้าง ลอง 6 แบบ (ระดับ $50/$100 x ถือ 1/3/5 วัน) ติดลบทุกแบบ ตัวที่เลือก $100 ถือ 5 วัน 197 ไม้ เฉลี่ย -0.43% มัธยฐาน -0.38% ชนะ 40% แพ้ซื้อวันสุ่ม -0.27% permutation ทั้ง grid p 0.284 ตก แต่เปิด fwd_goldround.py ตามที่ผู้ใช้ให้ลองท่าอ่อน (ถือ 5 วันกับระดับ $100 ผมเลือกเอง เขียนไว้ในคอมเมนต์)"
- },
- {
-  "t": "2026-11-23T02:55:00+07:00",
-  "source": "x",
-  "title": "0xJamino และ w1nklerr: Grok Bot $500 เป็น $10,400 ชนะ 74-81% ใน 24 ชม.",
-  "url": "https://x.com/0xJamino/status/2123838882009567421",
-  "summary": "โพสต์ทรงเดิมซ้ำหลายบัญชี อ้าง 32 ถึง 81 ไม้ต่อวันบน BTC perps ชนะ 74-81% มี stop/TP ทุกไม้ ไม่มีกฎ ไม่มีกระเป๋าให้ตรวจ ใส่ชื่อ repo 3 ตัว (Jesse, Cryptofeed, TradingAgents)",
-  "verdict": "ลองแล้วตก",
-  "action": "ลองแบบใกล้สุด: เข้าสุ่มฝั่งสุ่มบน BTC 15 นาที 1 ปีล่าสุด TP 0.5% SL 1.5% ได้ชนะ 74% (1,649 ไม้) TP 0.3% SL 1.0% ชนะ 77% (3,048 ไม้) แต่เฉลี่ย -0.10% ต่อไม้แม้ค่าธรรมเนียมแค่ 0.05%/ข้าง และ -0.71% ที่ 0.35%/ข้าง อัตราชนะระดับนี้ได้จากเป้าแคบ stop กว้างโดยไม่ต้องมี edge"
- },
- {
   "t": "2026-11-23T02:55:00+07:00",
   "source": "x",
   "title": "KGeNazeemali12: ท่า sniper ของ iBlasto_ บน FensoryApp ตัวกรอง key level",
@@ -2698,5 +2653,50 @@
   "summary": "ภาษาไทยได้แต่ข่าวตลาดและโพสต์ทั่วไป ภาษาอังกฤษเจอ offjayurena ทดสอบบอท Polymarket แบบ paper, 0xF4ith กับ biektive พูดถึงคลังบอท backtest เปิดซอร์ส 25 ปี (SMA cross, RSI, pullback, breakout), Mazi Capital บอททองทะลุกรอบตามเทรนด์, DaviddDotTech บอท Kimi",
   "verdict": "ไอเดีย",
   "action": "ไม่มีโพสต์ไหนให้กฎครบ คลังบอทหาลิงก์ repo ใน GitHub ไม่เจอ และกฎที่ระบุ (SMA cross, RSI, breakout) มีบัญชีอยู่แล้ว ส่วน Polymarket ต้องประวัติราคาตลาดที่เราไม่มี"
+ },
+ {
+  "t": "2026-11-26T10:56:09+07:00",
+  "source": "github",
+  "title": "gurbanmradov/pulsebot: rsi_ema_dip (RSI14 ไม่เกิน 35 เหนือ EMA50 ลบ 2%) กับ grid 2% บน Binance 1 ชม.",
+  "url": "https://github.com/gurbanmradov/pulsebot",
+  "summary": "เอนจิน backtest และ paper ภาษา Python ล้วน มี 2 ท่า ซื้อเมื่อ RSI14 ไม่เกิน 35 ขณะปิดไม่ต่ำกว่า EMA50 ลบ 2% ออกเมื่อ RSI 68 หรือ stop 3% หรือ trail 2% หลัง +5% และท่า grid ซื้อเมื่อร่วง 2% จากจุดยึด ขายที่ +2% กฎครบในซอร์ส",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest Binance 1 ชม. 2017 ถึง 26 พ.ย. 69 หลังหัก 0.35%/ข้าง rsi_ema_dip BTC 410 ไม้ -0.58% ต่อไม้ มัธยฐาน +0.33% ชนะ 53% ETH 301 ไม้ -0.82% SOL 117 ไม้ -0.70% ตัวแฝดเข้าสุ่ม -0.66/-0.71/-0.91% ก่อนหักราว 0% ติดลบทุกปี permutation 200 รอบบน 20,000 แท่งล่าสุด กริด 6 แบบ p 0.920/0.602/0.731 ไม่ผ่าน เปิด fwd_pulsedip.py (BTC ETH SOL ไม้ละ 1 ใน 3 ตัวแฝดเข้าสุ่ม 1 ใน 150 แท่ง) test ตรง backtest 57 ไม้ ท่า grid ทดสอบด้วย BTC 1,416 ไม้ -0.55% มัธยฐาน +1.40% ชนะ 62% ETH 1,985 ไม้ -0.72% SOL 2,149 ไม้ -0.72% กริด 1/2/3% p 0.652/0.781/0.826 ไม่ผ่าน ไม่เปิดบัญชี grid (ครบ 1 ไฟล์ต่อ repo ชนะเล็กแพ้ใหญ่แบบเดียวกับกริดที่ตายไปแล้ว)"
+ },
+ {
+  "t": "2026-11-26T10:56:09+07:00",
+  "source": "github",
+  "title": "Samot72/u-boothlord-pump-fun-paper-sprint: ช้อนย่อ 15% บน curve เมื่อแรงซื้อกลับมา",
+  "url": "https://github.com/Samot72/u-boothlord-pump-fun-paper-sprint-any-bot-can-f83c389b-entry",
+  "summary": "บอทแข่ง make.fun ซื้อเหรียญบน bonding curve อายุ 300 slot ขึ้นไปที่ย่อ 15% จากจุดสูงสุด 40 slot และ 10 slot ล่าสุดมีแรงซื้อสุทธิ TP +20% stop -8% trail 20% หลัง +10% ถือไม่เกิน 600 slot ไม่มีผลให้ดู",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_dip_recover (night บน curve อายุ 2 นาทีขึ้นไป 5 นาที -15% ลงไป 1 นาทีเขียว buys 3+ สภาพคล่อง 1k+ stop -8% TP +20% trail 20% หลัง +10% ถือ 4 นาที ไม้ละ 3% สูงสุด 6 ตัว เช็กทุก 5 วิ) เลขที่แปลงเองอยู่ใน note import zoo ไม่มี skip และ test_zoo ผ่าน ระวัง lessons ตระกูล dip และ curve แพ้มาก่อน"
+ },
+ {
+  "t": "2026-11-26T10:56:09+07:00",
+  "source": "github",
+  "title": "raffaele-ando/crypto-top500-multicycle-2022-2026: ถือเหรียญท็อป 500 เท่ากันทุกตัวเทียบ BTC 15 จุดเวลา",
+  "url": "https://github.com/raffaele-ando/crypto-top500-multicycle-2022-2026",
+  "summary": "งานวิเคราะห์แบบไม่มี survivorship ถือท็อป 500 ตามมาร์เก็ตแคปตัวละ 5 ยูโร 30 ธ.ค. 65 ถึง 21 พ.ย. 69 ได้ -57% (นับ 44 ตัวที่ถูกถอด) ท็อป 50 +37.5% แต่ถือ BTC +226% ท็อป 500 แพ้ BTC ทุกหน้าต่าง",
+  "verdict": "ไอเดีย",
+  "action": "ยังไม่ทดสอบ ต้องมีรายชื่อท็อป 500 ตามมาร์เก็ตแคปย้อนหลังรวมเหรียญที่ถูกถอด (repo มี CSV ของ 15 วัน แต่ไม่มีราคาเป็นแท่ง) ผลของเขาเองสนับสนุนบทเรียนเดิมว่าถือ BTC ชนะตะกร้าเหรียญเล็ก"
+ },
+ {
+  "t": "2026-11-26T10:56:09+07:00",
+  "source": "x",
+  "title": "ค้น X 3 ครั้งรอบ 10:48 (polymarket bot strategy backtest, openclaw trading strategy, dca bot rules results crypto)",
+  "url": "https://x.com/0xkakaa/status/2125543267609526635",
+  "summary": "ได้แต่โพสต์ที่ลงฟีดแล้ว (offjayurena, iqtauhid, quietoraclex, 0xKorens, BALIA_OS, Fensory) ใหม่มี 0xkakaa เล่าว่านักศึกษา SJTU ใช้ Claude Code สร้างระบบเทรดอัตโนมัติใน 2 วัน และโพสต์ copy trade Polymarket ผ่านลิงก์ referral ของ Sevenup27 กับ KyleDeWriter",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎเข้าออกให้สร้างแบบที่ใกล้สุด โพสต์ copy trade ต้องสมัครแพลตฟอร์มผ่านลิงก์ referral จึงไม่แตะ คำค้น DCA ได้แต่โพสต์เก่าและโฆษณา 3Commas"
+ },
+ {
+  "t": "2026-11-26T10:56:09+07:00",
+  "source": "web",
+  "title": "Baquero (arXiv 2606.00071, พ.ค. 69): สำรวจงานทำนายราคา Bitcoin ที่ผ่าน peer review",
+  "url": "https://arxiv.org/abs/2606.00071",
+  "summary": "งานสำรวจสรุปว่าตัวทำนายแบบ naive ชนะโมเดลส่วนใหญ่ และงานของผู้เขียนเอง (ยังไม่ผ่าน review) ขยายผลไปช่วง 1 ถึง 6 เดือน ว่าทำนายได้ทางสถิติไม่ได้แปลว่าทำเงินได้ ค้นรอบนี้ไม่เจองานเดือน พ.ย. 69",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎให้ทดสอบ ใช้เป็นหลักฐานประกอบว่าท่าทายราคาสั้นต้องเทียบ naive และ permutation เสมอ ตรงกับผล fwd ส่วนใหญ่ที่แพ้ตัวแฝดเข้าสุ่ม"
  }
 ]
