@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 14.319391715955826,
- "pos": {},
+ "cash": 11.45551337276466,
+ "pos": {
+  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
+   "sym": "mihao",
+   "qty": 615.7027484729281,
+   "entry": 0.004605,
+   "last": 0.004608,
+   "peak": 0.004616,
+   "cost": 2.8638783431911654,
+   "opened": "2026-11-26T08:43:11+07:00",
+   "zoo": "w_cold_mkt_b2",
+   "smart": 809,
+   "kol": 75,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T19:52:27+07:00",
@@ -500,10 +515,24 @@
    "cost_side": 0.01,
    "smart": 387,
    "bundler": null
+  },
+  {
+   "t": "2026-11-26T08:43:11+07:00",
+   "kind": "buy",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.004605,
+   "jup": 0.004602874488918635,
+   "usd": 2.8639,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_cold_mkt_b2",
+   "smart": 809,
+   "kol": 75
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดเย็น: กฎ w_aged_nostop เฉพาะรอบที่เหรียญขึ้นไม่เกิน 61%",
- "rank_t": 1795656893.5609946,
+ "rank_t": 1795657308.2449687,
  "banned": {
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings",
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
