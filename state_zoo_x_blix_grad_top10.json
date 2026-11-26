@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.628437682855472,
- "cash": 11.443266160429292,
+ "cash": 10.364937725248465,
  "pos": {},
  "log": [
   {
@@ -931,12 +931,70 @@
    "cost_side": 0.03,
    "smart": 2,
    "bundler": null
+  },
+  {
+   "t": "2026-11-27T06:23:35+07:00",
+   "kind": "buy",
+   "mint": "CvXQ9qEriGgTbMWyF8L1U7oqn9ev8A49N1dzNE8cpump",
+   "sym": "CINU",
+   "price": 0.0002266,
+   "jup": 0.00022720668180416375,
+   "usd": 2.2887,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_blix_grad_top10",
+   "smart": 33,
+   "kol": 2
+  },
+  {
+   "t": "2026-11-27T06:23:35+07:00",
+   "kind": "buy",
+   "mint": "ARMYxiiNbzToMCrhH6dNE5rb5oq2v8iGZUx6uHfcopQh",
+   "sym": "ARMY",
+   "price": 0.0001855,
+   "jup": 0.00018515676127525474,
+   "usd": 2.275,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_blix_grad_top10",
+   "smart": 96,
+   "kol": 3
+  },
+  {
+   "t": "2026-11-27T06:26:43+07:00",
+   "kind": "sell",
+   "mint": "CvXQ9qEriGgTbMWyF8L1U7oqn9ev8A49N1dzNE8cpump",
+   "sym": "CINU",
+   "price": 0.00018260349527911588,
+   "entry": 0.0002266,
+   "usd": 1.736,
+   "pnl": -0.5526,
+   "why": "stop -19.4%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 33,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-27T06:28:24+07:00",
+   "kind": "sell",
+   "mint": "ARMYxiiNbzToMCrhH6dNE5rb5oq2v8iGZUx6uHfcopQh",
+   "sym": "ARMY",
+   "price": 0.00015153368414152276,
+   "entry": 0.0001855,
+   "usd": 1.7493,
+   "pnl": -0.5257,
+   "why": "stop -18.3%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 96,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: blixtrade: เหรียญจบ curve ใหม่ top10 ถือไม่เกิน 30% (เดิมตัดทิ้งว่าซ้ำ ลองจริงก่อน)",
  "night": "2026-11-26",
  "night_start": 11.856016671035622,
- "rank_t": 1795734848.7250912,
+ "rank_t": 1795735362.7548447,
  "nights": [
   {
    "night": "2026-11-22",
