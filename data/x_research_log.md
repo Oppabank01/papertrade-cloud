@@ -954,3 +954,16 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 เพิ่ม x_: ไม่มี (รอบนี้ไม่เจอกฎเหรียญมีมใหม่)
 ไอเดีย: polymarket-btc-bot (ต้องฟีด Chainlink รายวินาทีและราคาตลาด Polymarket), karan1399 (ต้อง order flow ย้อนหลัง), makefun-memecoin-backtest-48h-01 (ยังไม่มีกฎ), iqtauhid กับ trader_hummus (ต้องเธรดเต็ม)
 ตัดทิ้ง: luispunko816-beep/fomo-trading-bot (แจกบอทให้ดาวน์โหลดไปรัน ไม่มีกฎ)
+
+## 2026-11-27 11:44 (scout)
+ค้น: GitHub repo ใหม่ (connors rsi ตั้งแต่ 1 พ.ย., williams strategy crypto และ squeeze momentum ไม่ได้ผลลัพธ์, choppiness ได้แต่ repo นอกเรื่อง, llm trading ตั้งแต่ 22 พ.ย., freqtrade strategy ตั้งแต่ 20 พ.ย., crypto backtest ตั้งแต่ 25 พ.ย., binance strategy ตั้งแต่ 24 พ.ย.), X 3 ครั้ง (breakout bot market breadth filter crypto ไม่ได้ผลลัพธ์, trading bot backtest win rate rules crypto 4h, hyperliquid bot strategy open source results)
+เจอ: yourshivv/neextdrop-bot-lab (Breakout 4h ทะลุจุดสูงสุด 20 แท่ง กรองอารมณ์ตลาดจากสัดส่วนเหรียญเหนือ EMA20 กับ BTC เป้า 6R ถือไม่เกิน 10 วัน), Faraz-khan04/strategy-lab (ทดสอบท่า Freqtrade สาธารณะ 586 ท่า ช่วงนอกตัวอย่างกำไรแค่ 16% มัธยฐาน -43.1% ไม่มีท่าผ่านเส้นโชค), tsayin4/prereg-ledger (บัญชีลงทะเบียนล่วงหน้า 80 ท่า ไม่เปิดเนื้อหาท่า), X มีแต่ prompt ทีมเอเจนต์ Grok Bot ไม่มีกฎตัวเลข
+ทดสอบแล้ว (Binance 4 ชม. 2017 ถึง 27 พ.ย. 69 long อย่างเดียว หลังหัก 0.35%/ข้าง 10 เหรียญ BTC ETH SOL BNB XRP ADA DOGE AVAX LINK LTC อารมณ์ตลาดจาก EMA20 รายวันของ 10 เหรียญเดียวกัน stop 2 ATR14 เลือกเองเพราะ repo ไม่บอก):
+- วันตลาดอ่อน 1,371 วัน กลางๆ 714 วัน ร้อน 1,204 วัน ท่าเข้าได้แค่วันกลางๆ
+- stop 2 ATR: รวม 943 ไม้ +0.82% ต่อไม้ +0.16R มัธยฐาน -3.75% ชนะ 30% ตัด 1% ดีสุด +0.20% รายเหรียญ BTC 114 ไม้ +0.45% ETH +1.40% SOL +1.12% BNB +0.66% XRP -0.03% ADA +0.55% DOGE +2.07% AVAX -1.56% LINK +1.68% LTC +1.11% ตัวแฝดเข้าสุ่มแท่งตลาดกลางๆ ออกแบบเดียวกันแพ้กฎ 6 ใน 10 เหรียญ (SOL BNB AVAX LINK ตัวแฝดดีกว่า)
+- รายปี 2018 -2.12% 2022 -3.90% 2025 -0.17% ปีอื่นบวก ตั้งแต่ 2025 BTC -0.09% ADA -0.66% AVAX -0.01%
+- permutation 200 รอบบน 6,000 แท่งล่าสุด คงอารมณ์ตลาดจริงไว้ สลับแค่แท่งของเหรียญ กริด stop 2/3 ATR p BTC 0.164 ETH 0.090 SOL 0.134 BNB 0.010 XRP 0.179 ADA 0.468 DOGE 0.035 AVAX 0.269 LINK 0.010 LTC 0.398 ไม่มีเหรียญไหนต่ำกว่า 0.01 จึงไม่ผ่านประตู
+เปิดบัญชี: fwd_moodbrk.py (10 เหรียญ ทุนต่อเหรียญ 1 ใน 10 ตัวแฝดสุ่ม 1 ใน 25 แท่งตลาดกลางๆ test เดินทีละแท่งตรง backtest 31 ไม้ ใน ETH LINK BTC และอารมณ์ตลาดจาก 1,000 วันตรงประวัติเต็ม 500 วันล่าสุด) เปิดทั้งที่ไม่ผ่านเพราะผู้ใช้ให้ลอง ตัวเลขที่เลือกเองอยู่ในคอมเมนต์ (stop 2 ATR14, 10 เหรียญ, long อย่างเดียว, ไม่เลื่อน stop เท่าทุนหลัง 2R)
+เพิ่ม x_: ไม่มี (รอบนี้ไม่เจอกฎเหรียญมีมใหม่)
+ไอเดีย: strategy-lab (ถ้าจะลองท่าที่รอดช่วงนอกตัวอย่าง เช่น EI3v2_tag_cofi_green ต้องอ่านไฟล์กลยุทธ์แล้วเขียนกฎใหม่เอง), prereg-ledger (รอ paper บน SSRN), Pullback 4h ของ neextdrop (คล้าย fwd_tpull ที่มีแล้ว)
+ตัดทิ้ง: ไม่มี

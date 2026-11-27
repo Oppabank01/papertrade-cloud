@@ -2,42 +2,6 @@
  {
   "t": "2026-11-23T14:53:30+07:00",
   "source": "github",
-  "title": "tomeelow/pairs-trading: pairs trading หุ้นใหญ่สหรัฐแบบ backtest ซื่อตรง",
-  "url": "https://github.com/tomeelow/pairs-trading",
-  "summary": "repo ใหม่ 16 พ.ย. ทดสอบ pairs trading หุ้น 159 ตัว 2007-2026 แบบ walk-forward หลังต้นทุน Sharpe 0.21 (t 0.9) หลังแก้ multiple testing ติดลบ สรุปเองว่าไม่มี edge",
-  "verdict": "ทดสอบแล้ว",
-  "action": "ใช้เป็นต้นแบบของ fwd_pairz บนคริปโต ผลออกทางเดียวกัน: ratio สวนกลับติดลบทุกคู่ p ราว 1 ส่วนฝั่งตามเทรนด์บวกในตัวอย่างแต่ติดลบปี 2024+ ใน SOLBTC BNBBTC ไม่ได้รันโค้ดของ repo"
- },
- {
-  "t": "2026-11-23T14:53:30+07:00",
-  "source": "github",
-  "title": "petchtany/smart-dca-ai-hedge-fund: Smart DCA และ Buy-the-Dip AI CIO dashboard",
-  "url": "https://github.com/petchtany/smart-dca-ai-hedge-fund",
-  "summary": "fork ของ virattt/ai-hedge-fund เพิ่ม dashboard Smart DCA ซื้อตอนย่อ ใช้ LLM หลายตัวกับข้อมูลพื้นฐานหุ้น README ไม่มีกฎ dip เป็นตัวเลข",
-  "verdict": "ไอเดีย",
-  "action": "ไม่ได้ทดสอบ ต้องการกฎ dip ในโค้ด (ค้นโค้ดผ่าน gh api ไม่เจอ) และข้อมูลพื้นฐานหุ้นที่ต้องใช้ API key ของ Financial Datasets DCA ไม่มีจุดออกจึงเทียบกับบัญชีเทรดตรงๆ ไม่ได้"
- },
- {
-  "t": "2026-11-23T14:53:30+07:00",
-  "source": "x",
-  "title": "Graduation Sniper: ซื้อเหรียญ pump.fun ที่ curve เต็ม 92%",
-  "url": "https://x.com/UnTalNixon_exe/status/2120181321385316693",
-  "summary": "โพสต์ 10 พ.ย. เล่าถึงบอทที่ไม่ซื้อเหรียญเปิดใหม่ รอเฉพาะเหรียญที่เติม bonding curve ถึง 92% แล้วค่อยซื้อก่อนจบ curve ไม่มีผลหรือจุดออก",
-  "verdict": "ไอเดีย",
-  "action": "ต้องข้อมูล % ความคืบหน้าของ bonding curve ซึ่ง rank ของ GMGN ที่ zoo ใช้ไม่มี และบทเรียน 18 พ.ย. ตามกระเป๋าบน curve แพ้เพราะสภาพคล่องบาง ถ้าจะทำต้องมีแหล่งราคาบน curve ก่อน"
- },
- {
-  "t": "2026-11-23T14:53:30+07:00",
-  "source": "x",
-  "title": "ทีมชนะ Jane Street trading challenge ด้วยบอท market making 51 บรรทัด",
-  "url": "https://x.com/Dipper_pol/status/2124590657712918785",
-  "summary": "โพสต์เล่าว่าทีมชนะตั้งราคาซื้อขายห่างราคาล่าสุด $1 ทั้งสองฝั่ง ราคายุติธรรมเท่ากับ 40% ของ bid บวก 60% ของ ask แล้วเกลี่ย 70/30 กับค่าเก่า ไม่เดาทิศทาง",
-  "verdict": "ไอเดีย",
-  "action": "ทดสอบบนแท่งราคาไม่ได้ ต้องข้อมูล order book และตลาดจำลองที่จับคู่คำสั่ง ใช้ได้กับบัญชี Polymarket ถ้าจะลองตั้งราคาสองฝั่ง (โพสต์อีกอันของ carm1nee เล่าเรื่องเดียวกัน)"
- },
- {
-  "t": "2026-11-23T14:53:30+07:00",
-  "source": "github",
   "title": "blackbanquett/ai-grid-bot: AI Crypto Grid Trading Bot WAVEFORM",
   "url": "https://github.com/blackbanquett/ai-grid-bot",
   "summary": "repo สร้าง 18 พ.ย. ได้ดาว 12 ใน 5 วัน หน้า README มีปุ่ม DOWNLOAD ชี้ไปไฟล์ zip ใน release ของบัญชีอื่น (wordystepuncl/ai-arbitrage-bot)",
@@ -2698,5 +2662,41 @@
   "summary": "อ้างว่ามีกฎเข้าออกจริง 5 แบบจาก volume profile บน BTC กับทอง แต่ตัวโพสต์ไม่มีตัวเลข",
   "verdict": "ไอเดีย",
   "action": "ต้องอ่านเธรดเต็มเพื่อเอากฎ 5 แบบ และต้องวอลุ่มตามระดับราคา (ประมาณจากแท่ง 1 นาทีของ Binance ได้) รอบนี้ค้น X ครบ 4 ครั้งแล้ว"
+ },
+ {
+  "t": "2026-11-27T11:52:43+07:00",
+  "source": "github",
+  "title": "yourshivv/neextdrop-bot-lab: Breakout 4h กรองอารมณ์ตลาด (paper บน Freqtrade)",
+  "url": "https://github.com/yourshivv/neextdrop-bot-lab",
+  "summary": "แล็บ paper ที่เปิดผล backtest 3 ปี 124 เหรียญ ท่า Breakout 4h ซื้อเมื่อทะลุจุดสูงสุด 20 แท่ง ข้ามวันที่ตลาดอ่อน (เหรียญเหนือ EMA20 ไม่ถึง 35% และ BTC ใต้ EMA20) และข้าม long เมื่อตลาดร้อน เป้า 6R ถือไม่เกิน 10 วัน เจ้าของบอกว่าเป็นบอทเดียวที่บวกครบ 3 ปี แต่ตัวกรองหาจากข้อมูลชุดเดียวกัน",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest รุ่น long อย่างเดียว Binance 4 ชม. 10 เหรียญใหญ่ 2017 ถึง 27 พ.ย. 69 หลังหัก 0.35%/ข้าง stop 2 ATR14 (เลือกเอง repo ไม่บอก stop) รวม 943 ไม้ +0.82% ต่อไม้ +0.16R มัธยฐาน -3.75% ชนะ 30% ตัด 1% ดีสุด +0.20% ปี 2018 -2.12% ปี 2022 -3.90% ตัวแฝดเข้าสุ่มแท่งตลาดกลางๆ แพ้กฎ 6 ใน 10 เหรียญ (LINK +1.68 เทียบ +1.74, SOL +1.12 เทียบ +1.48) permutation 200 รอบ 6,000 แท่งล่าสุด คง mood ไว้ กริด stop 2/3 ATR p BTC 0.164 ETH 0.090 SOL 0.134 BNB 0.010 XRP 0.179 ADA 0.468 DOGE 0.035 AVAX 0.269 LINK 0.010 LTC 0.398 ไม่มีเหรียญไหนต่ำกว่า 0.01 เปิด fwd_moodbrk.py พร้อมตัวแฝดสุ่ม 1 ใน 25 แท่ง test เดินทีละแท่งตรง backtest 31 ไม้ และ mood จาก 1,000 วันตรงประวัติเต็ม 500 วัน ท่า Pullback 4h ของ repo เดียวกันคล้าย fwd_tpull ที่มีแล้วจึงยังไม่เปิด"
+ },
+ {
+  "t": "2026-11-27T11:52:43+07:00",
+  "source": "github",
+  "title": "Faraz-khan04/strategy-lab: ทดสอบกลยุทธ์ Freqtrade สาธารณะ 586 ท่าด้วยวิธีเดียวกัน",
+  "url": "https://github.com/Faraz-khan04/strategy-lab",
+  "summary": "รวมท่า Freqtrade สาธารณะ 586 ท่า ทดสอบ 10 เหรียญ ค่าธรรมเนียม 0.1% เลือกท่าบนช่วง 2023 ถึง 2024 แล้วดูช่วง 2025 ถึง ต.ค. 69 ช่วงหลังมีแค่ 16% ที่กำไร มัธยฐาน -43.1% ไม่มีท่าไหนผ่านเส้นโชค DSR และ 20 อันดับแรก 7 ท่ายังบวก (2 ใน 3 ท่าบนสุดที่บวกโกงด้วยการมองอนาคต)",
+  "verdict": "ไอเดีย",
+  "action": "ไม่ได้รันโค้ดของ repo อ่านแค่ report.md บน branch results เป็นหลักฐานรวมว่าท่าสาธารณะส่วนใหญ่ไม่รอดช่วงนอกตัวอย่าง ถ้าจะลองท่าที่รอด (EI3v2_tag_cofi_green +18.6% 333 ไม้) ต้องอ่านไฟล์กลยุทธ์ต้นฉบับแล้วเขียนกฎใหม่เอง ท่า BBRSIv2 ใกล้กับ fwd_bbrsi5 ที่มีแล้ว"
+ },
+ {
+  "t": "2026-11-27T11:52:43+07:00",
+  "source": "github",
+  "title": "tsayin4/prereg-ledger: บัญชีลงทะเบียนล่วงหน้าของการทดสอบท่า perp คริปโต",
+  "url": "https://github.com/tsayin4/prereg-ledger",
+  "summary": "ข้อมูลประกอบ working paper 'The Backtest Does Not Rank' เก็บ hash ของการลงทะเบียนท่าล่วงหน้า 80 ไฟล์ และตารางผลทุกการอ่าน นับการทดลองได้ราว 2,185 ถึง 2,542 ครั้ง",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎท่าให้ทดสอบ เนื้อหาท่าไม่เปิดเผย ต้องรอ paper บน SSRN และ table1.csv ถ้าจะดูว่าท่าแบบไหนผ่านการอ่านล่วงหน้า"
+ },
+ {
+  "t": "2026-11-27T11:52:43+07:00",
+  "source": "x",
+  "title": "ค้น X 3 ครั้งรอบ 11:44 (breakout bot market breadth filter crypto ไม่ได้ผลลัพธ์, trading bot backtest win rate rules crypto 4h, hyperliquid bot strategy open source results)",
+  "url": "https://x.com/Shelpid_WI3M/status/2117999411779228034",
+  "summary": "เจอแต่ prompt ตั้งทีมเอเจนต์ใน Grok Bot (Shelpid_WI3M), โพสต์แนะนำ ChatGPT Agent กว้างๆ และรายชื่อ repo การเงิน AI ไม่มีกฎตัวเลข",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎที่สคริปต์ตัดสินได้ ต้องเธรดเต็มหรือรายการกฎก่อนจะทดสอบ"
  }
 ]
