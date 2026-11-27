@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 1.046065802893819,
- "pos": {},
+ "cash": 0.8368526423150552,
+ "pos": {
+  "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
+   "sym": "CBUCKS",
+   "qty": 33.03688287654894,
+   "entry": 0.006144,
+   "last": 0.006144,
+   "peak": 0.006144,
+   "cost": 0.20921316057876382,
+   "opened": "2026-11-28T04:38:51+07:00",
+   "zoo": "bigliq",
+   "smart": 43,
+   "kol": 0,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:42:00+07:00",
@@ -5634,8 +5649,22 @@
    "cost_side": 0.03,
    "smart": 832,
    "bundler": null
+  },
+  {
+   "t": "2026-11-28T04:38:51+07:00",
+   "kind": "buy",
+   "mint": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+   "sym": "CBUCKS",
+   "price": 0.006144,
+   "jup": 0.006174007813350128,
+   "usd": 0.2092,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliq",
+   "smart": 43,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ มาร์เก็ตแคป 2M+",
- "rank_t": 1795814960.7847548
+ "rank_t": 1795815498.6604247
 }
