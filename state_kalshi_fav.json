@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 1.9433075995257933,
+ "cash": 0.4683813458384777,
  "pos": {
   "KXRAINTHANKSGIVING-26NOV26-ATL:yes": {
    "qty": 0.7549113938906525,
@@ -19,7 +19,7 @@
   "KXWTI-26NOV2714-T82.99:yes": {
    "qty": 0.8269452146281397,
    "entry": 0.8917919999999999,
-   "last": 0.66,
+   "last": 0.7,
    "usd": 0.7374631268436579,
    "t": "2026-11-26T18:12:15+00:00",
    "coin": "YES | Will the WTI crude oil settlement price be above 82.99 USD/Bbl on Nov 27, 2026?",
@@ -31,7 +31,7 @@
   "KXSILVERW-26NOV2714-T39.99:yes": {
    "qty": 0.7931826194981648,
    "entry": 0.9297520000000001,
-   "last": 0.98,
+   "last": 0.99,
    "usd": 0.7374631268436579,
    "t": "2026-11-26T19:39:35+00:00",
    "coin": "YES | Will the silver close price be above 39.99 USD/t.oz on November 27, 2026 at 2:45 PM ",
@@ -115,7 +115,7 @@
   "KXBTCD-26NOV2717-T58999.99:yes": {
    "qty": 0.8269452146281397,
    "entry": 0.8917919999999999,
-   "last": 0.88,
+   "last": 0.89,
    "usd": 0.7374631268436579,
    "t": "2026-11-26T22:26:20+00:00",
    "coin": "YES | Bitcoin price on Nov 27, 2026?",
@@ -163,7 +163,7 @@
   "KXINXDUD-26NOV27H1300-T7182.78:yes": {
    "qty": 0.7773833148266354,
    "entry": 0.9486479999999999,
-   "last": 0.96,
+   "last": 0.97,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T15:31:56+00:00",
    "coin": "YES | Will the S&P 500 be above 7182.78 on Nov 27, 2026 at 1pm EST?",
@@ -175,7 +175,7 @@
   "KXHYPED-26NOV2717-T61.9999:yes": {
    "qty": 0.809687227540248,
    "entry": 0.9107999999999999,
-   "last": 0.93,
+   "last": 0.94,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T15:31:56+00:00",
    "coin": "YES | HYPE price on Nov 27, 2026?",
@@ -187,7 +187,7 @@
   "KXXRPD-26NOV2712-T0.9399:yes": {
    "qty": 0.809687227540248,
    "entry": 0.9107999999999999,
-   "last": 0.88,
+   "last": 0.92,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T16:15:29+00:00",
    "coin": "YES | Ripple price at Nov 27, 2026 at 12pm EST?",
@@ -207,6 +207,30 @@
    "side": "yes",
    "close": "2026-11-27T17:00:00Z",
    "why": "fav ask 0.93 ทุน 0.939 ปิด 2026-11-27T17:00:00Z"
+  },
+  "KXCOPPERW-26NOV2714-T5.54:yes": {
+   "qty": 0.8182188751659075,
+   "entry": 0.901303,
+   "last": 0.87,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-27T16:25:08+00:00",
+   "coin": "YES | Will the copper close price be above 5.54 USD/Lbs on November 27, 2026 at 2:45 PM ES",
+   "ticker": "KXCOPPERW-26NOV2714-T5.54",
+   "side": "yes",
+   "close": "2026-11-27T19:45:00Z",
+   "why": "fav ask 0.89 ทุน 0.901 ปิด 2026-11-27T19:45:00Z"
+  },
+  "KXLOWTDEN-26NOV27-T37:yes": {
+   "qty": 0.7622452442238642,
+   "entry": 0.967488,
+   "last": 0.95,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-27T16:25:08+00:00",
+   "coin": "YES | Will the minimum temperature be >37° on Nov 27, 2026?",
+   "ticker": "KXLOWTDEN-26NOV27-T37",
+   "side": "yes",
+   "close": "2026-11-28T08:00:00Z",
+   "why": "fav ask 0.96 ทุน 0.967 ปิด 2026-11-28T08:00:00Z"
   }
  },
  "log": [
@@ -2399,6 +2423,24 @@
    "ret": 0.02366,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-27T16:25:08+00:00",
+   "coin": "YES | Will the copper close price be above 5.54 USD/Lbs on November 27, 2026 at 2:45 PM ES",
+   "px": 0.9013,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.89 ทุน 0.901 ปิด 2026-11-27T19:45:00Z",
+   "ask": 0.89
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-27T16:25:08+00:00",
+   "coin": "YES | Will the minimum temperature be >37° on Nov 27, 2026?",
+   "px": 0.96749,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.96 ทุน 0.967 ปิด 2026-11-28T08:00:00Z",
+   "ask": 0.96
   }
  ],
  "seen": null,
@@ -2516,6 +2558,8 @@
   "KXHYPED-26NOV2717": 1795793515,
   "KXXRPD-26NOV2711": 1795794170,
   "KXXRPD-26NOV2712": 1795796128,
-  "KXSOLD-26NOV2712": 1795796128
+  "KXSOLD-26NOV2712": 1795796128,
+  "KXCOPPERW-26NOV2714": 1795796706,
+  "KXLOWTDEN-26NOV27": 1795796706
  }
 }
