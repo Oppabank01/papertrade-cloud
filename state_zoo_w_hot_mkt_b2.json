@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.55667143278572,
+ "cash": 4.384923583509938,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 115.20689829895409,
    "entry": 0.01919,
-   "last": 0.01873,
+   "last": 0.01872,
    "peak": 0.01969,
    "cost": 2.233095506029574,
    "opened": "2026-11-27T03:24:22+07:00",
@@ -28,6 +28,20 @@
    "zoo": "w_hot_mkt_b2",
    "smart": 108,
    "kol": 28,
+   "gap": 0,
+   "miss": 0
+  },
+  "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
+   "sym": "STONK",
+   "qty": 66.01426664044386,
+   "entry": 0.03257,
+   "last": 0.03266,
+   "peak": 0.0327,
+   "cost": 2.1717478492757825,
+   "opened": "2026-11-27T13:51:46+07:00",
+   "zoo": "w_hot_mkt_b2",
+   "smart": 1000,
+   "kol": 174,
    "gap": 0,
    "miss": 0
   }
@@ -948,10 +962,24 @@
    "zoo": "w_hot_mkt_b2",
    "smart": 108,
    "kol": 28
+  },
+  {
+   "t": "2026-11-27T13:51:46+07:00",
+   "kind": "buy",
+   "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "sym": "STONK",
+   "price": 0.03257,
+   "jup": 0.03264488338803393,
+   "usd": 2.1717,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_hot_mkt_b2",
+   "smart": 1000,
+   "kol": 174
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดร้อน: กฎ w_aged_nostop เฉพาะรอบที่เหรียญ 74%+ ขึ้นใน 1 ชม.",
- "rank_t": 1795761595.9756927,
+ "rank_t": 1795762153.6573746,
  "banned": {
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": "OTC",
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": "Buttcoin",
