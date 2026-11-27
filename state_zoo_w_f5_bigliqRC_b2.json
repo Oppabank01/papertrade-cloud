@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 4.380693317440018,
+ "cash": 2.916016351145389,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 243.80454625208978,
    "entry": 0.005981,
-   "last": 0.006204,
+   "last": 0.006114,
    "peak": 0.006456,
    "cost": 1.5029839117024832,
    "opened": "2026-11-27T12:58:02+07:00",
    "zoo": "w_f5_bigliqRC_b2",
    "smart": 821,
    "kol": 75,
-   "gap": 0,
+   "gap": 4,
    "miss": 0
   },
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
@@ -28,7 +28,21 @@
    "zoo": "w_f5_bigliqRC_b2",
    "smart": 739,
    "kol": 80,
-   "gap": 26,
+   "gap": 65,
+   "miss": 0
+  },
+  "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
+   "sym": "neet",
+   "qty": 67.37930738260071,
+   "entry": 0.02109,
+   "last": 0.02114,
+   "peak": 0.02114,
+   "cost": 1.4646769662946288,
+   "opened": "2026-11-27T14:12:22+07:00",
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 901,
+   "kol": 205,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1870,11 +1884,33 @@
    "cost_side": 0.03,
    "smart": 994,
    "bundler": null
+  },
+  {
+   "t": "2026-11-27T14:12:22+07:00",
+   "kind": "buy",
+   "mint": "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump",
+   "sym": "neet",
+   "price": 0.02109,
+   "jup": 0.02109934783663994,
+   "usd": 1.4647,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 901,
+   "kol": 205
+  },
+  {
+   "t": "2026-11-27T14:17:50+07:00",
+   "kind": "ban",
+   "mint": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
+   "sym": "baton",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 60 รอบ"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ bigliqRC แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1795762825.4547853,
+ "rank_t": 1795763473.1403048,
  "banned": {
-  "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT"
+  "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
+  "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton"
  }
 }
