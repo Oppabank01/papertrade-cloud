@@ -933,3 +933,12 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 เพิ่ม x_: ไม่มี (รอบนี้ไม่เจอกฎเหรียญมีมใหม่)
 ไอเดีย: btc-regime-detector รุ่น MVRV (ต้องข้อมูล MVRV รายวันจาก Coin Metrics), GovindGoel01 (ต้องรายการ 11 ธงจากเธรดเต็ม และตัวกรอง field GMGN ไม่ผ่านแล้ว), momentum ข้ามเหรียญปรับความผันผวน (ต้องจักรวาลเหรียญรวมที่ถูกถอด)
 ตัดทิ้ง: ไม่มี
+
+## 2026-11-27 10:00 (routine x recipes, เวลากรุงเทพ)
+ค้น: solana memecoin bot overnight turned $, site:x.com memecoin strategy 1 month, ค้นไทย (เทรดเหรียญมีม คืนเดียว), pump.fun strategy this week, make.fun paper competition, "$100 to" 30 days, Solana Memecoin Trading Blueprint, youmind make money memecoins
+เจอ: dev.to gengengen (บอท 4,000 ดอลลาร์ต่อวัน TP +30% SL -30% ถือ 120 วิ) ซ้ำกับ x_snipe_30_30 ที่มีอยู่แล้ว, cryptorank 304ea blueprint 100 เป็น 50k (มีแต่คำกว้างๆ rug filter กับ auto TP ไม่มีตัวเลข), youmind 0xEthan (กฎขายตามความรู้สึก ไม่มีตัวเลข), Notion Part 5 checklist (เปิดไม่ได้ โดเมนไม่อนุญาต)
+เพิ่ม x_: ไม่มี (ไม่มีโพสต์ที่ให้กฎตัวเลขใหม่ที่สคริปต์ตัดสินได้) เว็บ dev.to, cryptorank, captainaltcoin, app.notion.com เปิดอ่านต้นฉบับไม่ได้ (resolve ไม่ได้) เลยใช้ได้แค่ snippet
+ยังทำไม่ได้: กฎขายตามความรู้สึก (ถามตัวเองว่าจะใส่เงินทั้งหมดไหม) ต้องการการตัดสินของคน
+ปลดระวาง (active false): x_loofy_desk_b2, x_scalp_1020_b2, x_ladder_2x_b2, x_cto_watch_b2, x_veyro_fresh, x_blix_grad_top10, x_hot_chase, x_spray_small เพราะขายครบ 20+ ไม้แล้วผลติดลบชัด (-9% ถึง -63%) แม้ rand จะ -98% ในตัวเลขรวม ตัวเลขนั้นเพี้ยนเพราะ rand ถูก halt
+สกอร์บอร์ด x_: x_smartflow_lowcap +20.9% (7 ไม้), x_crb_4agent +11.8% (11 ไม้), x_lotus_5bots +1.1% (8 ไม้)
+ล่างสุด: x_ladder_2x_b2 -63.2% (24 ไม้), x_veyro_fresh -59.1% (22 ไม้), x_cto_watch_b2 -54.1% (22 ไม้)
