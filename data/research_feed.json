@@ -1,77 +1,5 @@
 [
  {
-  "t": "2026-11-23T14:53:30+07:00",
-  "source": "github",
-  "title": "blackbanquett/ai-grid-bot: AI Crypto Grid Trading Bot WAVEFORM",
-  "url": "https://github.com/blackbanquett/ai-grid-bot",
-  "summary": "repo สร้าง 18 พ.ย. ได้ดาว 12 ใน 5 วัน หน้า README มีปุ่ม DOWNLOAD ชี้ไปไฟล์ zip ใน release ของบัญชีอื่น (wordystepuncl/ai-arbitrage-bot)",
-  "verdict": "ตัดทิ้ง",
-  "action": "รูปแบบมัลแวร์ (ให้โหลดไฟล์รันจากบัญชีอื่น) ไม่ได้เปิดไฟล์ และกริดเคยทดสอบแล้วขาดทุนทุกแบบตามบทเรียน 17 พ.ย."
- },
- {
-  "t": "2026-11-23T14:53:30+07:00",
-  "source": "x",
-  "title": "โพสต์ 'leaked prompt' ให้ Claude ตั้งบอทเทรด 24/7",
-  "url": "https://x.com/RohOnChain/status/2124554524027502931",
-  "summary": "หลายบัญชีโพสต์ข้อความเดียวกันว่ามีพรอมต์ที่ให้ Claude สร้างบอทเทรดเองโดยไม่ต้องเขียนโค้ด ไม่มีกฎหรือผลเทรด",
-  "verdict": "ตัดทิ้ง",
-  "action": "ไม่มีกฎให้ทดสอบ และบอทที่ได้ต้องผูกบัญชีกระดานจริงด้วย API key"
- },
- {
-  "t": "2026-11-23T15:00:00+07:00",
-  "source": "idea",
-  "title": "ผล: Kimchi premium (BTC บน Upbit แพงกว่า Binance)",
-  "url": "https://api.upbit.com/v1/candles/days",
-  "summary": "ทดสอบย้อนหลัง 2018-2026 ราว 3000 วัน ใช้ z-score ส่วนต่างราคา 30/90 วัน ทั้งสวนทาง (แพงไป short, ถูกไป long) และตามทาง ถือ 5 ถึง 20 วัน 36 แบบ ไม่มีแบบไหนชนะวันสุ่ม (p ดีสุด 0.17)",
-  "verdict": "ลองแล้วตก",
-  "action": "ไม่เปิดบัญชี เพราะแย่กว่าวันสุ่มทุกแบบ ไม่ใช่แค่อ่อน"
- },
- {
-  "t": "2026-11-23T15:00:00+07:00",
-  "source": "idea",
-  "title": "หุ้นสหรัฐช่วงตลาดปิด (overnight drift) SPY QQQ IWM",
-  "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY",
-  "summary": "ซื้อตอนปิดตลาด ขายตอนเปิดวันถัดไป backtest Yahoo: SPY ตั้งแต่ 2024 กลางคืน +49% กลางวัน +1%, IWM ตั้งแต่ 2020 กลางคืน +198% กลางวัน -44% หักค่าธรรมเนียม 2 bp ต่อรอบแล้วยังชนะกลางวันเกือบทุกปี",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "state_fwd_overnight คู่กับตัวควบคุมช่วงกลางวัน ได้วันละ 3 ไม้ ครบ 50 ไม้ในราว 3 สัปดาห์"
- },
- {
-  "t": "2026-11-23T15:02:00+07:00",
-  "source": "idea",
-  "title": "ผล: BTC รอบวันหมดอายุออปชันรายเดือน Deribit (ศุกร์สุดท้ายของเดือน)",
-  "url": "https://www.deribit.com",
-  "summary": "ทดสอบ 94 รอบหมดอายุ 2019-2026 ทั้ง long และ short ช่วงสัปดาห์ก่อน 3 วันก่อน วันหมดอายุถึงจันทร์ และสัปดาห์หลัง ไม่มีช่วงไหนชนะวันสุ่ม (p ดีสุด 0.23)",
-  "verdict": "ลองแล้วตก",
-  "action": "ไม่เปิดบัญชี"
- },
- {
-  "t": "2026-11-23T15:30:00+07:00",
-  "source": "idea",
-  "title": "ผล: ช่วงต้นเดือน (turn of month) SPY QQQ IWM และ BTC",
-  "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY",
-  "summary": "ซื้อก่อนวันทำการแรกของเดือน 1 ถึง 4 วัน ขายหลัง 1 ถึง 3 วัน ตั้งแต่ 2010 ชนะวันสุ่มนิดเดียว (p ดีสุด 0.11) และตั้งแต่ 2023 เฉลี่ยราว 0% BTC ก็ไม่ต่างจากสุ่มตั้งแต่ 2023",
-  "verdict": "ลองแล้วตก",
-  "action": "ไม่เปิดบัญชี ผลจางหายไปแล้วในช่วงหลัง"
- },
- {
-  "t": "2026-11-23T15:30:00+07:00",
-  "source": "idea",
-  "title": "ผล: Polymarket ตัวเต็งจัด 0.97 ขึ้นไป",
-  "url": "https://gamma-api.polymarket.com/markets",
-  "summary": "จากข้อมูลเทียบราคา 5,948 ตลาด (data/poly_fav_calib.json) ช่วง 0.97-0.985 ชนะ 97.8% ราคา 97.6% หักค่าธรรมเนียมแล้ว -0.5%/ไม้ ช่วง 0.985-0.995 +0.2% ช่วง 0.995 ขึ้นไป -0.3% ส่วนช่วง 0.85-0.97 ที่รันอยู่ได้ +2.2%",
-  "verdict": "ลองแล้วตก",
-  "action": "ไม่เปิดบัญชี กำไรต่อไม้ใกล้ศูนย์ แพ้ไม้เดียวกินกำไรหลายสิบไม้"
- },
- {
-  "t": "2026-11-23T15:30:00+07:00",
-  "source": "idea",
-  "title": "โมเมนตัมข้ามเหรียญรายสัปดาห์ (ถือ 3 เหรียญที่ขึ้นแรงสุด 28 วัน จาก 27 เหรียญใหญ่)",
-  "url": "https://data-api.binance.vision",
-  "summary": "backtest 2018-2026 top 3 +1.38%/สัปดาห์หลังค่าธรรมเนียม ถือทุกเหรียญ +1.10% เหรียญสุ่ม 3 ตัว +0.50% (p<0.01) แต่แพ้ถือทุกเหรียญในปี 2018, 2021, 2025, 2026 ช่วง 139 สัปดาห์หลังสุด top 3 -80% ถือทุกเหรียญ -63%",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "state_fwd_xsmom คู่กับตัวควบคุมถือทุกเหรียญ เริ่มซื้อจันทร์ 30 พ.ย. เปิดเพราะอยากลองไอเดียอ่อนแบบจริง ไม่ใช่เพราะคิดว่าชนะ"
- },
- {
   "t": "2026-11-23T16:15:00+07:00",
   "source": "idea",
   "title": "หุ้นสหรัฐ RSI(2) ต่ำกว่า 5 ซื้อ SPY QQQ IWM (Connors)",
@@ -2698,5 +2626,77 @@
   "summary": "เจอแต่ prompt ตั้งทีมเอเจนต์ใน Grok Bot (Shelpid_WI3M), โพสต์แนะนำ ChatGPT Agent กว้างๆ และรายชื่อ repo การเงิน AI ไม่มีกฎตัวเลข",
   "verdict": "ไอเดีย",
   "action": "ไม่มีกฎที่สคริปต์ตัดสินได้ ต้องเธรดเต็มหรือรายการกฎก่อนจะทดสอบ"
+ },
+ {
+  "t": "2026-11-27T15:07:20+07:00",
+  "source": "github",
+  "title": "ramz1ss/binance-auto-trading-bot: Crypto Desk บอท Binance spot 6 เอเจนต์ ให้คะแนน momentum trend volume แล้วซื้อเมื่อถึง 0.6 stop -8% ตาม 5% เมื่อขึ้น +10%",
+  "url": "https://github.com/ramz1ss/binance-auto-trading-bot",
+  "summary": "บอทกฎตายตัว (ไม่ใช่ AI) โหมด paper เป็นค่าเริ่มต้น คะแนน = 0.4 momentum (ผลตอบแทน 6/24 ชม. ลดเมื่อ RSI เกิน 75) + 0.35 trend (EMA20/50) + 0.25 volume ซื้อเมื่อ 0.6 ขึ้นไป ออกด้วย stop -8% และ trail 5% หลังขึ้น +10% ไม่มีเป้าและไม่มีเวลาถือสูงสุด",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest Binance 1 ชม. 2017 ถึง 27 พ.ย. 69 หลังหัก 0.35%/ข้าง 10 เหรียญ รุ่นมี volume (ตัวกรอง 24 ชม. เทียบ 10 วัน): BTC 255 ไม้ +1.25% ETH -0.20% SOL -0.20% BNB +0.15% XRP -0.63% ADA -0.56% DOGE +0.20% AVAX -0.31% LINK -0.56% LTC -0.89% มัธยฐาน -8.6% เกือบทุกเหรียญ (โดน stop) รุ่นไม่มี volume BTC +0.31% ถึง LTC -1.11% ชนะตัวแฝดสุ่ม 7 ใน 10 แบบเฉียด ตั้งแต่ 2025 ติดลบเกือบทุกเหรียญ permutation 200 รอบบน 6,000 แท่งล่าสุด กริด 2 แบบ p BTC 0.020 ETH 0.224 SOL 0.219 BNB 0.100 XRP 0.587 ADA 0.035 DOGE 0.532 AVAX 0.139 LINK 0.736 LTC 0.164 ไม่ผ่าน เปิด fwd_desk.py รุ่นไม่มี volume (byttrade.fetch ไม่มี volume) 10 เหรียญ ตัวแฝดสุ่ม 1 ใน 35 แท่ง test เดินทีละแท่งตรง backtest 151 ไม้ สคริปต์ /tmp/scout_1457/desk.py และ perm.py"
+ },
+ {
+  "t": "2026-11-27T15:07:20+07:00",
+  "source": "github",
+  "title": "Ryan-zhi/pump-replay-bot: บอท make.fun pump.fun replay sprint แบบ survivor momentum",
+  "url": "https://github.com/Ryan-zhi/pump-replay-bot",
+  "summary": "ไม่ซื้อเหรียญเพิ่งเกิด รอจนอยู่รอด 250 slot มีเงินจริงใน curve 10 SOL ซื้อ 40 ครั้งจาก 12 คน dev ยังไม่ขาย แล้วซื้อไม้ละ 0.08 SOL ออกด้วย trail 28% เมื่อขึ้น +20% stop -15% ถือไม่เกิน 300 slot ยังไม่มีผลเผยแพร่",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_survivor_curve (horizon night) อายุ 100 วิขึ้นไป คนถือ 12+ ซื้อ 40+ สภาพคล่อง 2k+ up rugcheck stop -15% TRAIL_ON 0.2 TRAIL 0.28 ถือ 2 นาที ไม้ละ 0.8% ตัวเลขแปลง slot เป็นวินาที และเงื่อนไขที่ zoo ไม่มี field (dev ขาย, กระเป๋าใหญ่, ATH) อยู่ใน note import zoo ไม่มี skip และ test_zoo ผ่าน"
+ },
+ {
+  "t": "2026-11-27T15:07:20+07:00",
+  "source": "github",
+  "title": "khascane/pump-fun-paper-sprint-entry: บอท make.fun pump.fun paper sprint เส้นเฉลี่ยสั้นเหนือยาว TP +28% SL -12%",
+  "url": "https://github.com/khascane/pump-fun-paper-sprint-entry",
+  "summary": "เทรดเหรียญบน bonding curve ด้วยเงินปลอม 10 SOL ซื้อเมื่อราคาเฉลี่ยสั้นอยู่เหนือยาวและแรงซื้อนำ ไม่ซื้อตัวที่ขึ้นเกิน 50% จากตอนเห็นครั้งแรก ไม้ละ 0.25 SOL ขายที่ +28% หรือ -12% หรือเมื่อเส้นตัดลง",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_khascane_curve (horizon night) บน curve สภาพคล่อง 1k+ 5 นาทีบวก up ขึ้น 1 ชม. ไม่เกิน 50% TP +28% stop -12% ถือไม่เกิน 30 นาที (แทนการออกเมื่อเส้นตัดลง) ไม้ละ 2.5% ตัวเลขที่เลือกเองอยู่ใน note import zoo ไม่มี skip และ test_zoo ผ่าน"
+ },
+ {
+  "t": "2026-11-27T15:07:20+07:00",
+  "source": "github",
+  "title": "กลุ่ม repo งาน make.fun pump.fun paper sprint 24 ถึง 25 พ.ย. (Suirobot/paper-sprint-boothlord-makefun, e0426685-cloud entry, SRamadhan-07/makefun-tiny-bot, DinishKawaii/pump-boothlord-repo)",
+  "url": "https://github.com/Suirobot/paper-sprint-boothlord-makefun",
+  "summary": "ผลงานส่งแข่ง bounty บอท paper บน pump.fun replay ของ make.fun README บอกแค่แนวคิด (second-wave momentum บน curve ที่สภาพคล่องดี, guarded momentum) ไม่มีตัวเลข TP stop หรือตัวกรอง",
+  "verdict": "ไอเดีย",
+  "action": "ต้องอ่านไฟล์กลยุทธ์ .ts ทีละ repo เพื่อดึงตัวเลข (main.ts ของ Suirobot ไม่มีพารามิเตอร์ที่ grep เจอ) และ leaderboard ของ make.fun เพื่อดูว่าตัวไหนชนะก่อนเลือกแปลงเป็น recipe รอบหน้า"
+ },
+ {
+  "t": "2026-11-27T15:07:20+07:00",
+  "source": "github",
+  "title": "กลุ่ม repo grid bot ใหม่ 20 ถึง 25 พ.ย. (Hyperliquidguide/hyperliquid-starter-bots, Mikodesteam/kestrel, eggrib/bitget-bot-gridbot, moonspiid/trader-botview, efolusi/cuwan)",
+  "url": "https://github.com/Hyperliquidguide/hyperliquid-starter-bots",
+  "summary": "ชุดบอท grid DCA market maker และ funding arb สำหรับหลายกระดาน ส่วนใหญ่เป็นแอปหรือโครงให้ผู้ใช้ตั้งค่าเอง cuwan มีคลาวด์เสียเงิน ไม่มีชุดพารามิเตอร์หรือผลทดสอบที่อ้างไว้",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎตัวเลขให้ทดสอบ ถ้าจะลอง grid ต้องเลือกช่วงราคาและระยะห่างเองทั้งหมด และมีบัญชี fwd_ladder fwd_polyladder แนวบันไดอยู่แล้ว ไม่ได้รันโค้ดของ repo"
+ },
+ {
+  "t": "2026-11-27T15:07:20+07:00",
+  "source": "x",
+  "title": "everyonebpup: prompt 20 หน้าสร้างห้องแล็บกลยุทธ์ด้วย Grok Bot และ GitHub 10 repo",
+  "url": "https://x.com/everyonebpup/status/2125702085127831679",
+  "summary": "โพสต์แจก prompt สร้างเวิร์กโฟลว์เตรียมข้อมูล เขียนกฎ และ backtest ไม่ได้ให้กฎเทรดหรือผลลัพธ์",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎให้ทดสอบ ต้องเธรดเต็มเพื่อดูว่า repo 10 ตัวมีตัวไหนที่ยังไม่ได้อ่าน"
+ },
+ {
+  "t": "2026-11-27T15:07:20+07:00",
+  "source": "x",
+  "title": "ค้น X 2 ครั้งรอบ 15:00 (grok trading bot strategy results, funding rate bot strategy backtest)",
+  "url": "https://x.com/iqtauhid/status/2125711236146905418",
+  "summary": "ได้แต่โพสต์ที่ลงฟีดแล้ว (iqtauhid บอท Grok สแกน 10,214 เทรด 38, Sypronus มีมอายุ 48 ชม., offjayurena, 0xJamino อวด $500 เป็น $10,400 ไม่มีกฎ) ใหม่มีแค่ everyonebpup",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎใหม่ คำค้น funding rate ได้โพสต์ Grok Bot ภาษาไทยของ 0xJamino ที่ลงฟีดแล้ว"
+ },
+ {
+  "t": "2026-11-27T15:07:20+07:00",
+  "source": "web",
+  "title": "ค้นผล Alpha Arena และงาน arXiv เทรดคริปโตเดือน พ.ย. 69",
+  "url": "https://protos.com/llm-crypto-trading-contest-finds-llms-cant-trade-crypto",
+  "summary": "ไม่เจอผลแข่ง LLM เทรดสดรอบใหม่ เจอแค่ข่าว Season 1 ปี 2025 (6 โมเดล บวกแค่ 2 ChatGPT -63%) และงาน MDPI แบ่งช่วงกลางวันกลางคืนกับ arXiv 2602.11708 ที่ลงฟีดแล้ว",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎใหม่ ต้องข้อมูล leaderboard ของ Nof1 โดยตรงถ้าจะตามผลรอบใหม่"
  }
 ]

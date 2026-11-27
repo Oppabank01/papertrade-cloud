@@ -967,3 +967,15 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 เพิ่ม x_: ไม่มี (รอบนี้ไม่เจอกฎเหรียญมีมใหม่)
 ไอเดีย: strategy-lab (ถ้าจะลองท่าที่รอดช่วงนอกตัวอย่าง เช่น EI3v2_tag_cofi_green ต้องอ่านไฟล์กลยุทธ์แล้วเขียนกฎใหม่เอง), prereg-ledger (รอ paper บน SSRN), Pullback 4h ของ neextdrop (คล้าย fwd_tpull ที่มีแล้ว)
 ตัดทิ้ง: ไม่มี
+
+## 2026-11-27 15:07 (scout)
+ค้น: GitHub repo ใหม่ (grid bot crypto ตั้งแต่ 20 พ.ย., turtle trading ตั้งแต่ 15 พ.ย. ได้แต่ repo ว่างหรือนอกเรื่อง, trading agent ตั้งแต่ 24 พ.ย., momentum strategy ตั้งแต่ 21 พ.ย.), X 2 ครั้ง (grok trading bot strategy results, funding rate bot strategy backtest), WebSearch 2 ครั้ง (งาน arXiv เทรดคริปโตเดือน พ.ย. 69 และผลแข่ง LLM เทรดสด ได้แต่ของที่ลงฟีดแล้วหรือข่าว Alpha Arena ปี 2025)
+เจอ: ramz1ss/binance-auto-trading-bot (Crypto Desk 6 เอเจนต์ คะแนน momentum trend volume ซื้อที่ 0.6 stop -8% trail 5% หลัง +10%), Ryan-zhi/pump-replay-bot กับ khascane/pump-fun-paper-sprint-entry (บอทงานแข่ง make.fun บน pump.fun replay ให้ตัวเลขครบ), Suirobot e0426685-cloud SRamadhan-07 DinishKawaii (งานแข่งเดียวกันแต่ README ไม่มีตัวเลข), กลุ่ม grid bot (Hyperliquidguide kestrel eggrib trader-botview cuwan), everyonebpup (prompt ห้องแล็บกลยุทธ์) ส่วน iqtauhid Sypronus offjayurena 0xJamino ลงฟีดแล้ว
+ทดสอบแล้ว (Binance 1 ชม. 2017 ถึง 27 พ.ย. 69 long อย่างเดียว หลังหัก 0.35%/ข้าง 10 เหรียญ BTC ETH SOL BNB XRP ADA DOGE AVAX LINK LTC ค่าตั้งของ repo ครบ ออกแบบ repo คือเช็ก low ก่อนในแต่ละแท่ง):
+- รุ่นมี volume (ตัวกรอง volume 24 ชม. ไม่ต่ำกว่าค่าเฉลี่ย 10 วัน): BTC 255 ไม้ +1.25% มัธยฐาน +4.26% ETH 377 ไม้ -0.20% SOL -0.20% BNB +0.15% XRP -0.63% ADA -0.56% DOGE +0.20% AVAX -0.31% LINK -0.56% LTC -0.89% มัธยฐานเหรียญอื่น -8.6% (โดน stop) ตัวแฝดเข้าสุ่มออกแบบเดียวกันแพ้กฎ 7 ใน 10 เหรียญ
+- รุ่นไม่มี volume (คะแนน volume ตั้งที่ 0.5): BTC 303 ไม้ +0.31% ETH -0.12% SOL -0.28% BNB +0.07% XRP -0.82% ADA -0.96% DOGE -0.57% AVAX -0.69% LINK -0.64% LTC -1.11% ชนะตัวแฝดแบบเฉียด ตั้งแต่ 2025 ติดลบทุกเหรียญยกเว้น BNB +0.56%
+- permutation 200 รอบบน 6,000 แท่งล่าสุด กริด 2 แบบ (มี/ไม่มี volume) p BTC 0.020 ETH 0.224 SOL 0.219 BNB 0.100 XRP 0.587 ADA 0.035 DOGE 0.532 AVAX 0.139 LINK 0.736 LTC 0.164 ไม่มีเหรียญไหนต่ำกว่า 0.01 จึงไม่ผ่านประตู
+เปิดบัญชี: fwd_desk.py (รุ่นไม่มี volume เพราะ byttrade.fetch ไม่มี volume 10 เหรียญ ทุนต่อเหรียญ 1 ใน 10 ตัวแฝดสุ่ม 1 ใน 35 แท่ง test เดินทีละแท่งด้วยหน้าต่าง 1,000 แท่งตรง backtest 151 ไม้) เปิดทั้งที่ไม่ผ่านเพราะผู้ใช้ให้ลองท่าอ่อน แท่ง 1 ชม. แทนสแกน 5 นาที เหรียญ 10 ตัวคงที่แทน top 20 ตาม volume และไม่จำกัด 3 ตำแหน่งเป็นค่าที่เลือกเอง สคริปต์ /tmp/scout_1457/desk.py และ perm.py
+เพิ่ม x_: x_survivor_curve (Ryan-zhi: บน curve อายุ 100 วิ คนถือ 12+ ซื้อ 40+ stop -15% ตาม 28% หลัง +20% ถือ 2 นาที) และ x_khascane_curve (บน curve 5 นาทีบวก แรงซื้อนำ ขึ้น 1 ชม. ไม่เกิน 50% TP +28% stop -12% ถือ 30 นาที) ตัวเลขที่เลือกเองอยู่ใน note import zoo ไม่มี skip test_zoo ผ่าน
+ไอเดีย: งาน make.fun ตัวอื่น (ต้องอ่านไฟล์กลยุทธ์ .ts และ leaderboard), grid bot (ไม่มีชุดพารามิเตอร์), everyonebpup (ต้องเธรดเต็ม), Alpha Arena รอบใหม่ (ต้อง leaderboard ของ Nof1)
+ตัดทิ้ง: ไม่มี

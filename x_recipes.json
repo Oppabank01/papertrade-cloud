@@ -2913,5 +2913,74 @@
    "COOLDOWN_H": 2
   },
   "note": "from config.py and agents/analyst.py: token age 30 min+, liquidity 25k+, top10 holders 30% max, RugCheck safety, hard gates 5m and 1h change above 0, stop -6%, target +12%, 5% of equity per trade, 3 open max, 2 h re-entry block; chosen by me: the 0-100 analyst score (needs 1h volume, 5m volume and 1h buys/sells that GMGN rank does not give) is replaced by zoo up (buys > sells and 5m change above 0), 1h change above 0 written as 0.01%, the 1h volume 10k and 100 tx prefilters are dropped, max hold 24 h (the bot has none), RugCheck score cut 50 read as zoo rugcheck"
+ },
+ {
+  "name": "x_survivor_curve",
+  "label": "บอท make.fun Ryan-zhi (survivor momentum) แบบที่ zoo เช็กได้: เหรียญบน curve อายุ 100 วิขึ้นไป คนถือ 12+ ซื้อ 40+ สภาพคล่อง 2k+ แรงซื้อนำ stop -15% ตาม 28% เมื่อขึ้น +20% ถือไม่เกิน 2 นาที ไม้ละ 0.8%",
+  "horizon": "night",
+  "source": "https://github.com/Ryan-zhi/pump-replay-bot",
+  "claim": "make.fun pump.fun replay sprint entry (24 Nov 2026): never buy fresh launches, buy only coins that survived 250 slots with 10 SOL real reserve, 40 trades from 12 buyers, creator not sold; no results published",
+  "added": "2026-11-27",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 0.028,
+    "holder_count": 12,
+    "buys": 40,
+    "liquidity": 2000
+   },
+   "max": {
+    "launchpad_status": 0
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "TP_ALL": null,
+   "HALF_AT": null,
+   "TRAIL_ON": 0.2,
+   "TRAIL": 0.28,
+   "MAX_HOLD_H": 0.033,
+   "PER_TRADE": 0.008,
+   "MAX_POS": 5,
+   "COOLDOWN_H": 24,
+   "WATCH_S": 5
+  },
+  "note": "from README: 250 slots since creation, 10 SOL real reserve, 40 trades from 12 distinct buyers, reserve growing, trailing stop armed at +20% giving back 28%, hard stop at 85% of cost, 300-slot time stop, fixed 0.08 SOL of 10 SOL; chosen by me: 250 slots read as 100 s (0.4 s per slot) = age_h 0.028, 300 slots as 120 s = MAX_HOLD_H 0.033, 10 SOL reserve read as liquidity 2000 USD, 40 trades read as buys 40, 12 buyers as holder_count 12, reserve growing read as zoo up, creator-not-sold, no-single-wallet, not-at-ATH, 30-slot quiet-tape exit, creator-sell exit and the pacing tiers are dropped (GMGN rank has no such field), MAX_POS 5, COOLDOWN_H 24, WATCH_S 5 as the other curve recipes"
+ },
+ {
+  "name": "x_khascane_curve",
+  "label": "บอท make.fun khascane แบบที่ zoo เช็กได้: เหรียญบน curve สภาพคล่อง 1k+ แรงซื้อนำ ขึ้น 1 ชม. ไม่เกิน 50% TP +28% stop -12% ถือไม่เกิน 30 นาที ไม้ละ 2.5%",
+  "horizon": "night",
+  "source": "https://github.com/khascane/pump-fun-paper-sprint-entry",
+  "claim": "make.fun pump.fun paper sprint entry (24 Nov 2026): buy when short average price is above the long average and buys outweigh sells, skip coins up 50%+ since first seen, TP about +28%, stop about -12%; no results published",
+  "added": "2026-11-27",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 1000,
+    "price_change_percent5m": 0.01
+   },
+   "max": {
+    "launchpad_status": 0,
+    "price_change_percent1h": 50
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.12,
+   "TP_ALL": 0.28,
+   "HALF_AT": null,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 0.5,
+   "PER_TRADE": 0.025,
+   "MAX_POS": 5,
+   "COOLDOWN_H": 24,
+   "WATCH_S": 5
+  },
+  "note": "from README: about 0.25 SOL of 10 SOL per buy, short average above long average and recent buys above sells, never buy a coin that ran 50%+ from where it was first seen or finished its curve, TP near +28%, stop near -12%, wait before buying the same coin again; chosen by me: short-over-long average read as 5m change above 0 (written 0.01%) plus zoo up, run-up since first seen read as 1h change at most 50%, liquidity floor 1000 USD, the trend-reversal exit replaced by MAX_HOLD_H 0.5, MAX_POS 5, COOLDOWN_H 24, WATCH_S 5 as the other curve recipes"
  }
 ]
