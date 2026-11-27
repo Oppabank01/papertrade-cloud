@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 12.001977720594235,
- "pos": {},
+ "cash": 10.801779948534811,
+ "pos": {
+  "7Y2CVbnqZRvR5RUvEJ9RQ73fZEfv7ybNcysytAepump": {
+   "sym": "WINSTON",
+   "qty": 4884.361906258611,
+   "entry": 0.0002384,
+   "last": 0.0002305,
+   "peak": 0.0002418,
+   "cost": 1.2001977720594237,
+   "opened": "2026-11-27T21:16:06+07:00",
+   "zoo": "x_boan_desk_b2",
+   "smart": 84,
+   "kol": 2,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T19:52:28+07:00",
@@ -422,10 +437,24 @@
    "cost_side": 0.03,
    "smart": 3,
    "bundler": null
+  },
+  {
+   "t": "2026-11-27T21:16:06+07:00",
+   "kind": "buy",
+   "mint": "7Y2CVbnqZRvR5RUvEJ9RQ73fZEfv7ybNcysytAepump",
+   "sym": "WINSTON",
+   "price": 0.0002384,
+   "jup": 0.00023742046326781925,
+   "usd": 1.2002,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_boan_desk_b2",
+   "smart": 84,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: โต๊ะ 4 เอเจนต์: เหรียญใหม่ คนถือ 300+ top10 ไม่เกิน 30% ขายเป็นช่วง",
- "rank_t": 1795788197.2077842,
+ "rank_t": 1795788901.0426168,
  "banned": {
   "32rBxcFjCFnyqZ41CEPM5AL67X1dcw8w83vZt6Kxpump": "PAIR"
  }
