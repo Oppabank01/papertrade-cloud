@@ -2,20 +2,8 @@
  "label": "Kalshi ตัวควบคุม: สุ่มฝั่งในตลาดเดียวกับตัวเต็ง/ตัวรอง",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 0.5240117188776673,
+ "cash": 1.2789231127683198,
  "pos": {
-  "KXRAINTHANKSGIVING-26NOV26-ATL:yes": {
-   "qty": 0.7549113938906525,
-   "entry": 0.976887,
-   "last": 0.99,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-25T23:19:30+00:00",
-   "coin": "YES | Will it rain in Atlanta on Thanksgiving?",
-   "ticker": "KXRAINTHANKSGIVING-26NOV26-ATL",
-   "side": "yes",
-   "close": "2026-11-27T04:59:00Z",
-   "why": "สุ่มฝั่ง"
-  },
   "KXSILVERW-26NOV2714-T39.99:yes": {
    "qty": 0.7931826194981648,
    "entry": 0.9297520000000001,
@@ -1305,6 +1293,18 @@
    "usd": 0.0,
    "pnl": -0.73746,
    "ret": -1.0,
+   "cost_side": 0,
+   "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-27T17:29:16+00:00",
+   "coin": "YES | Will it rain in Atlanta on Thanksgiving?",
+   "px": 1.0,
+   "entry": 0.97689,
+   "usd": 0.75491,
+   "pnl": 0.01745,
+   "ret": 0.02366,
    "cost_side": 0,
    "why": "ตัดสิน yes"
   }
