@@ -1,77 +1,5 @@
 [
  {
-  "t": "2026-11-23 23:51",
-  "source": "Fable (claude-fable-5-2) ท่ารู้ผลในคืนเดียว backtest ใน scratchpad",
-  "title": "Polymarket Up or Down ตัวเต็ง 0.90-0.96 นาทีที่ 30-50",
-  "url": "https://clob.polymarket.com/prices-history",
-  "summary": "BTC n 1,285 ราคา 0.921 ชนะ 0.941 +0.5% ต่อไม้ (se 0.7) ETH n 699 +1.4% (se 0.9) ครึ่งหลังของ ETH ติดลบ ทบได้ราว 7 ขั้นต่อคืนสูงสุด x1.7",
-  "verdict": "ทดสอบแล้ว",
-  "action": "ไม่เปิดบัญชี: edge เล็กกว่าความไม่แน่นอนของ spread ใกล้กับ poly_updown ที่ตายแล้ว"
- },
- {
-  "t": "2026-11-23 23:51",
-  "source": "Fable (claude-fable-5-2) ท่ารู้ผลในคืนเดียว backtest ใน scratchpad",
-  "title": "ซื้อออปชัน BTC OTM Deribit หมดอายุ 08:00 UTC คืนละ 1 ตัว",
-  "url": "https://history.deribit.com/api/v2/public/get_last_trades_by_currency_and_time",
-  "summary": "730 คืน x5 2.7% x10 2.1% EV 0.63 (90% 0.39-0.91) ตัด 3 คืนดีสุด 0.44 ทุกปีต่ำกว่า 1 สวนเทรนด์ 0.34",
-  "verdict": "ลองแล้วตก",
-  "action": "ไม่เปิดบัญชี"
- },
- {
-  "t": "2026-11-23 23:51",
-  "source": "Fable (claude-fable-5-2) ท่ารู้ผลในคืนเดียว backtest ใน scratchpad",
-  "title": "Pyramid perp 12 ชม. BTC 40x SOL 20x และกลับทิศรายชั่วโมงบน Polymarket",
-  "url": "https://data-api.binance.vision/api/v3/klines",
-  "summary": "6 กฎ 1,414 คืน x5 ไม่เกิน 0.8% ของคืน EV 0.89-0.99 ไม่ชนะโยนเหรียญ ส่วนกลับทิศรายชั่วโมง Binance มีจริง 52.7% แต่ Polymarket คิดราคาไว้แล้ว (ซื้อ 0.516 ชนะ 0.524 -1% ต่อไม้)",
-  "verdict": "ลองแล้วตก",
-  "action": "ไม่เปิดบัญชี"
- },
- {
-  "t": "2026-11-23T23:55:36+07:00",
-  "source": "github",
-  "title": "ShuWayne/crypto-trading-intelligence-terminal: v3-B Range Mean-Reversion 4 ชม. BTC SOL",
-  "url": "https://github.com/ShuWayne/crypto-trading-intelligence-terminal",
-  "summary": "เทอร์มินัลเทรดกระดาษ ใช้ข้อมูล Binance สาธารณะ อ้างว่า v3-B ผ่าน backtest 240 วัน 17 ไม้ ชนะ 47% PF 1.75 กฎครบ: SMA20 กับ SMA50 ห่างไม่เกิน 1% กรอบ 20 แท่งกว้าง 4 ATR แตะขอบ RSI สุด แท่งกลับตัว stop 1.5 ATR เป้า 3 ATR ถือไม่เกิน 24 แท่ง",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "backtest Binance 4 ชม. 2017-2026 หลังหัก 0.35%/ข้าง ทั้งสองฝั่ง BTC 171 ไม้ -1.17% ETH 127 ไม้ -1.34% SOL 64 ไม้ -1.78% ต่อไม้ ก่อนหัก -0.47/-0.64/-1.08% ชนะ 28-31% มัธยฐาน -2.3 ถึง -3.6% permutation 200 รอบ p 0.92/0.89/0.85 ตัวเข้าสุ่มดีกว่า (-0.5 ถึง -0.8%) ติดลบเกือบทุกปี long อย่างเดียวก็แย่กว่า 17 ไม้ของ repo เป็นโชคช่วงสั้น เปิด fwd_v3b.py (BTC SOL ตาม repo พร้อมตัวแฝดเข้าสุ่มฝั่งสุ่ม) test เดินทีละแท่งตรง backtest 11 ไม้"
- },
- {
-  "t": "2026-11-23T23:55:36+07:00",
-  "source": "github",
-  "title": "Orsonneri/crypto-trading-bots: 01 candle-colour momentum (แท่งวันเมื่อวานเขียวซื้อ แดง short)",
-  "url": "https://github.com/Orsonneri/crypto-trading-bots/tree/main/01-candle-momentum",
-  "summary": "ชุดบอท backtest ภาษา Python ล้วน บอท 01 เทรดตามสีแท่งวันเมื่อวาน จัดการไม้บนแท่ง 15 นาที ค่าเริ่มต้น stop 1% ดูราคาปิด ไม่โดนปิดสิ้นวัน มีเป้าและขายครึ่งที่ผมตัดออก",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "backtest Binance 15 นาที 2017-2026 หลังหัก 0.35%/ข้าง stop 1%: BTC 3,318 ไม้ -0.65% ETH 3,318 ไม้ -0.64% SOL 2,269 ไม้ -0.74% ต่อไม้ ก่อนหัก +0.05/+0.06/-0.04% ชนะ 21-24% เท่ากับฝั่งสุ่ม permutation 200 รอบบน 3 ปีล่าสุด p 0.17/0.35/0.15 ไม่มี stop p 0.70/0.70/0.17 ติดลบทุกปี เปิด fwd_cmom.py (BTC ETH SOL แบบมี stop, ไม่มี stop และตัวแฝดเวลาเดียวกันฝั่งสุ่ม) test เดินทีละแท่งตรง backtest 29 ไม้"
- },
- {
-  "t": "2026-11-23T23:55:36+07:00",
-  "source": "github",
-  "title": "kalambyryura/ai-trading-arena: ทีม AI 3 ทีม 7 สัปดาห์ เงินจริงบน OKX ไม่เจอ edge และกฎ H10-ETH ตัวเดียวที่ผ่าน gate",
-  "url": "https://github.com/kalambyryura/ai-trading-arena/tree/main/strategies/sonnet-h10-eth",
-  "summary": "ทดลอง 770+ ชุดตั้งค่า เงินจริง 86 ไม้ -1.65 USDT ค่าธรรมเนียม 24 เท่าของกำไรจากราคา ตัวเดียวที่ผ่าน gate คือ H10-ETH: ETH ขึ้นใน 1 ชม. เกิน 3 เท่าของ RMS การขยับรายชั่วโมง 168 ชม. และอยู่เหนือ SMA20 รายวัน ตั้ง limit ซื้อต่ำกว่า 0.25 เท่า stop -5% เป้า +10% ถือไม่เกิน 24 ชม.",
-  "verdict": "ทดสอบแล้ว",
-  "action": "backtest แท่ง 1 ชม. Binance 2017-2026 (สัญญาณจากแท่งปิดแทนหน้าต่าง 60 นาทีเลื่อน, limit รอ 2 แท่ง) หลังหัก 0.35%/ข้าง ETH 310 ไม้ +0.08% ต่อไม้ (ก่อนหัก +0.78% ที่ต้นทุน 0.11%/ข้าง +0.56%) มัธยฐาน -0.61% ตัด 1% ดีสุด -0.01% permutation 200 รอบ p 0.005 ตัวเข้าสุ่ม -0.58% แต่ปี 2017-2019 ที่อยู่นอกข้อมูลพัฒนาของเขา 70 ไม้เฉลี่ยราว -0.3% และปี 2026 -0.64% BTC 335 ไม้ -0.30% p 0.055 SOL 219 ไม้ -0.17% p 0.109 ควรเปิด forward fwd_h10 บน ETH BTC SOL แท่ง 1 ชม. พร้อมตัวแฝดเข้าสุ่ม (รอบนี้เปิดครบ 2 ไฟล์แล้ว ให้ thread หลักหรือรอบหน้าเปิด)"
- },
- {
-  "t": "2026-11-23T23:55:36+07:00",
-  "source": "github",
-  "title": "mohymabrouk/order-flow-after-fees: 6 โมเดล order flow บน perp BTC ETH SOL หลังค่าธรรมเนียม",
-  "url": "https://github.com/mohymabrouk/order-flow-after-fees",
-  "summary": "ไล่จากเครื่องหมาย order imbalance ล่าสุดถึง CNN+LSTM 7,749 พารามิเตอร์ บน Binance perp Q1 2024 สรุปว่าไม่มีโมเดลไหนจ่ายค่าธรรมเนียมได้ ใช้ได้แค่ช่วยจังหวะส่งคำสั่ง ประหยัด 0.13-0.30 bp",
-  "verdict": "ไอเดีย",
-  "action": "ต้องข้อมูล order book ระดับ best bid/ask รายวินาที ซึ่งเราไม่มี ใช้เป็นหลักฐานอีกชิ้นว่าท่าระยะสั้นบนข้อมูล order flow แพ้ต้นทุน 0.35%/ข้างแน่นอน ไม่ควรเปิดบัญชีระยะนาที"
- },
- {
-  "t": "2026-11-23T23:55:36+07:00",
-  "source": "web",
-  "title": "arXiv 2607.09426 Kim & Hansen: The Quarter-Hour Effect ใน perp คริปโต",
-  "url": "https://ideas.repec.org/p/arx/papers/2607.09426.html",
-  "summary": "ข้อมูลเทรดของ perp Binance 6 ตัว เจอการซื้อขายของบอทเป็นจังหวะที่นาที 0, 5, 15 และบอกว่า order imbalance ตอนเปิดชั่วโมงทำนายผลตอบแทน 4 ถึง 12 ชม. ได้นอกตัวอย่าง",
-  "verdict": "ไอเดีย",
-  "action": "ต้องวอลุ่มฝั่งซื้อและฝั่งขาย (taker buy) ของนาทีแรกของแต่ละชั่วโมง kline ของ Binance มีช่อง taker buy volume แต่ byttrade.fetch กับ mts.bars ไม่เก็บไว้ ถ้าเพิ่มช่องนี้ได้จะทดสอบ imbalance นาทีแรกแล้วถือ 4 ชม. ได้ ยังไม่ได้อ่านเปเปอร์เต็ม (มีแต่บทคัดย่อ)"
- },
- {
   "t": "2026-11-23T23:55:36+07:00",
   "source": "x",
   "title": "Sevenup27 และ KyleDeWriter: copy-trade เทรดเดอร์ Polymarket ผ่าน gravia.trade",
@@ -2698,5 +2626,77 @@
   "summary": "ผลที่เจอซ้ำกับที่มีแล้วทั้งหมด (turn-of-the-candle, MDPI สองช่วง 12 ชม. ที่เป็น fwd_sessrev, AdaptiveTrend 6 ชม., halving clock) ไม่เจองานใหม่ของเดือนนี้",
   "verdict": "ไอเดีย",
   "action": "ไม่เพิ่มอะไร รอบหน้าลองค้นหน้า listing q-fin.TR ของ arXiv โดยตรง"
+ },
+ {
+  "t": "2026-11-28T01:22:42+07:00",
+  "source": "github",
+  "title": "m3n4ce-dev/meme_traderv1: บอท paper pump.fun ท่า graduation-v1 (ซื้อช่วงท้าย curve ขายก่อนย้าย pool)",
+  "url": "https://github.com/m3n4ce-dev/meme_traderv1",
+  "summary": "บอท paper เหรียญมีมที่เขียนกฎล็อกไว้ก่อน ซื้อเหรียญบน curve เต็ม 55 ถึง 85% อายุไม่เกิน 15 นาทีที่มีแรงซื้อ 12 กระเป๋าขึ้นไป ออกที่ curve 94% stop -15% ถือไม่เกิน 10 นาที ผู้เขียนรายงานเองว่า 225 ไม้ได้แค่ +0.3% ต่อ SOL ตัด 3 ไม้ดีสุดติดลบ และหยุดบอทเพราะต้นทุนไปกลับจริงราว 4%",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_mt_grad_v1 (night): curve อายุไม่เกิน 15 นาที มาร์เก็ตแคป 16k ถึง 40k คนถือ 12+ up 5 นาทีไม่ติดลบ RugCheck TP +48% stop -15% trail 12% ถือ 10 นาที ไม้ละ 2% ตัวเลขที่แปลงเอง (มาร์เก็ตแคปจากคณิต curve ที่ 200 USD ต่อ SOL, TP จาก curve 85% ถึง 94%) อยู่ใน note import zoo ไม่มี skip test_zoo ผ่าน"
+ },
+ {
+  "t": "2026-11-28T01:22:42+07:00",
+  "source": "github",
+  "title": "Abu-Ishak/systematic-regime-backtesting: KalmanZScoreReversion 15 นาที กรอง ADX ต่ำกว่า 25",
+  "url": "https://github.com/Abu-Ishak/systematic-regime-backtesting",
+  "summary": "รวม 5 ท่า Freqtrade และ Jesse ผลใน README มาจากข้อมูลจำลอง ไม่ใช่ราคาจริง ท่า Kalman z-score สวนกลับเมื่อราคาห่างเส้น Kalman เกิน 2 SD และ ADX ต่ำกว่า 25 ผู้เขียนเองได้ Sharpe -0.67",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest Binance 15 นาที 365 วัน 6 เหรียญ (BTC ETH SOL AVAX LINK BNB) ตามไฟล์ strategy: หลังหัก 0.35%/ข้าง 546 ถึง 610 ไม้ต่อเหรียญ -0.69% ถึง -0.79% ต่อไม้ ก่อนหัก -0.09% ถึง +0.01% ชนะ 64 ถึง 67% (มัธยฐานบวกแต่ stop -2.5% กินหมด) ที่ 0.1%/ข้าง ยัง -0.19 ถึง -0.29% ตัวแฝดเข้าสุ่ม -0.64 ถึง -0.72% 90 วันล่าสุด -0.68 ถึง -0.81% permutation 200 รอบ 12,000 แท่งล่าสุด ก่อนหัก p BTC 0.403 ETH 0.821 SOL 0.557 ไม่ผ่าน เปิด fwd_kalmanz.py (6 เหรียญ ทุน 1 ใน 6 ตัวแฝดสุ่ม 1 ใน 120 แท่ง สุ่มฝั่ง) test เดินทีละแท่งตรง backtest 44 ไม้ ETH เปิดทั้งที่ไม่ผ่านเพราะผู้ใช้ให้ลองท่าอ่อน ถ้าจะเทียบ ให้ดูว่าแพ้ตัวแฝดหรือไม่หลัง 50 ไม้ สคริปต์ /tmp/scout_0101/kz.py"
+ },
+ {
+  "t": "2026-11-28T01:22:42+07:00",
+  "source": "github",
+  "title": "nerdfilip/NISS-Algorithm: ท่า intraday Nasdaq-100 futures อ้าง CAGR +22% Sharpe 1.52 ปี 2014 ถึง 2026",
+  "url": "https://github.com/nerdfilip/NISS-Algorithm",
+  "summary": "repo มีแค่หน้ารายงาน ไม่มีกฎหรือโค้ด อ้างว่าทดสอบ 300 ไอเดียบนแท่ง 1 นาที ปิดสถานะทุกคืน long และ short เริ่มรันเงินจริงบัญชี prop เดือน พ.ย. 69",
+  "verdict": "ลองแล้วตก",
+  "action": "สร้างแบบกลไกที่ใกล้ที่สุดเอง (intraday momentum แบบ Gao Han Li Zhou: ทิศของชั่วโมงแรก รวมหรือไม่รวม gap ข้ามคืน ทำนายแท่งสุดท้าย 15:30 ถึง 16:00 เวลานิวยอร์ก ถือแค่แท่งนั้น) บน QQQ 1 ชม. Yahoo ม.ค. 2024 ถึง 27 พ.ย. 69 721 วัน: ก่อนหัก -0.009% และ +0.006% ต่อไม้ หลังหัก 0.02%/ข้าง -0.049% และ -0.034% (ช่วงเชื่อมั่นติดลบทั้งคู่) ติดลบทุกปี ตัวเทียบ long แท่งสุดท้ายเสมอ -0.035% ทิศสุ่ม -0.048% permutation 200 รอบ (2 กฎ) p 0.358 ใช้แท่ง 1 ชม. แทนครึ่งชั่วโมงเป็นค่าที่เลือกเอง ถ้าจะลองต่อต้องข้อมูล NQ 1 นาทีย้อนหลังหลายปี สคริปต์ /tmp/scout_0101/niss.py"
+ },
+ {
+  "t": "2026-11-28T01:22:42+07:00",
+  "source": "x",
+  "title": "FensoryApp และ 0xRiRoyal: แปลงท่า sniper ของ iBlasto_ เป็นบอทแล้ว backtest BTC สองแบบ ตัวกรอง key level ทำให้แย่ลง",
+  "url": "https://x.com/FensoryApp/status/2123770116492194187",
+  "summary": "Fensory ทดสอบท่า sniper ของ iBlasto_ บน BTC ทั้งมีและไม่มีตัวกรอง key level แบบมีตัวกรอง -15.2% ส่วนแบบไม่มีขาดทุนน้อยกว่า (+1,738 เป็น -492 USD ก่อนค่าธรรมเนียม) ไม่บอกกฎเข้าออก โพสต์ของ iBlasto_ เองเป็นจุดเข้าและ stop รายครั้งจากการดูกราฟ",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎที่ตัดสินได้ ต้องการกฎเข้าออกที่ Fensory ใช้จริง หรือประวัติสัญญาณของ iBlasto_ ทุกไม้พร้อมเวลา ราคาเข้า stop และเป้า ถึงจะ backtest ได้"
+ },
+ {
+  "t": "2026-11-28T01:22:42+07:00",
+  "source": "x",
+  "title": "ค้น X 4 ครั้งรอบ 01:01 (hyperliquid bot strategy backtest, iBlasto_ sniper setup, กลยุทธ์ บอทเทรด backtest, เหรียญมีม บอท กลยุทธ์ stop loss)",
+  "url": "https://x.com/search?q=hyperliquid%20bot%20strategy%20backtest",
+  "summary": "เจอโพสต์ขายบอท Grok เปลี่ยน 500 เป็น 10,000 USD ของ 0xJamino ซ้ำกับที่มีแล้ว StacyOnChain ซ้ำ โพสต์ภาษาไทยเป็นของเก่าปี 2021 ถึงต้นปี 69 ไม่มีกฎ คำค้นสุดท้ายไม่ได้ผลลัพธ์",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎใหม่ นอกจาก iBlasto_ ที่ลงแยกแล้ว รอบหน้าให้ลองคำค้นเรื่อง funding หรือ prediction market ที่ยังไม่ได้ใช้"
+ },
+ {
+  "t": "2026-11-28T01:22:42+07:00",
+  "source": "github",
+  "title": "กลุ่ม repo ใหม่ 22 ถึง 27 พ.ย. ที่ไม่มีกฎให้ทดสอบ (Revelio-Trading/tori-trades-backtest, enekohd/Ehdreon, yk-hello/temper, cany38/TrendView, n-kostadinov/yfinance-agent-mcp)",
+  "url": "https://github.com/Revelio-Trading/tori-trades-backtest",
+  "summary": "tori-trades-backtest เป็นภาพหน้าจอ backtest ด้วยมือของท่าเส้นแนวโน้มบนน้ำมันดิบ Ehdreon และ temper เป็นโครงงานวิจัยและหน้าจอ paper TrendView เป็นโปรแกรมกราฟ yfinance-agent-mcp เป็น MCP อ่านข้อมูลหุ้น",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎกลไก tori-trades ต้องข้อมูลน้ำมันดิบ CL รายนาทีและนิยามเส้นแนวโน้มที่วาดด้วยมือ ที่เหลือเป็นเครื่องมือ ไม่ได้ทดสอบ"
+ },
+ {
+  "t": "2026-11-28T01:22:42+07:00",
+  "source": "github",
+  "title": "mudhinpc-droid/solana-memecoin-pump-fun-volume-booster-befalen (153 ดาวใน 1 วัน)",
+  "url": "https://github.com/mudhinpc-droid/solana-memecoin-pump-fun-volume-booster-befalen",
+  "summary": "เครื่องมือปั่นวอลุ่มเหรียญ pump.fun ดาวพุ่งผิดธรรมชาติแบบกลุ่ม repo หลอกที่เคยเจอ",
+  "verdict": "ตัดทิ้ง",
+  "action": "ต้องรันโค้ดที่ดาวน์โหลดและใช้กระเป๋าจริง หน้าตาเหมือน repo มัลแวร์ ไม่ได้เปิดโค้ด"
+ },
+ {
+  "t": "2026-11-28T01:22:42+07:00",
+  "source": "web",
+  "title": "ค้นเว็บงาน arXiv เรื่อง intraday momentum คริปโตหลังหักต้นทุน เดือน พ.ย. 69",
+  "url": "https://arxiv.org/abs/2602.10785",
+  "summary": "ไม่เจองานใหม่เดือนนี้ ได้แต่ 2602.10785 (MA intraday BTC), 2602.11708 (AdaptiveTrend) และงาน MDPI session BTC ETH ที่ลงฟีดแล้ว",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีของใหม่ ไม่ได้ทดสอบซ้ำ"
  }
 ]

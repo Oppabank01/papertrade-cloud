@@ -3166,5 +3166,41 @@
    "COOLDOWN_H": 24
   },
   "note": "from README: age 24h max, market cap 5k to 500k, 24h volume 1k+, reject 1h change over 100% and 5m move over 10%, RugCheck, TP1 +25% sells half, all out at +50%, stop -15%, 24h timeout; chosen by me: the 5m move rule read as both ways (-10 to +10%), 24h volume 1k read as the rank's volume field 1000+ (the GMGN 5m rank has no 24h volume), the trailing exit 'back to +20%' read as TRAIL_ON 0.25 with TRAIL 0.10 off the peak (zoo trails off the peak, not to a fixed level; 10% sits between 4% at a +25% peak and 20% at a +50% peak), social footprint and the mint audit dropped except RugCheck, the loss-streak cooldown dropped, PER_TRADE 0.03, MAX_POS 5, COOLDOWN_H 24 as other x_ recipes"
+ },
+ {
+  "name": "x_mt_grad_v1",
+  "label": "บอท meme_traderv1 ท่า graduation-v1 แบบที่ zoo เช็กได้: เหรียญบน curve อายุไม่เกิน 15 นาที มาร์เก็ตแคป 16k ถึง 40k (curve เต็มราว 55 ถึง 85%) คนถือ 12+ แรงซื้อนำ ขึ้น 5 นาที ผ่าน RugCheck ขายหมด +48% stop -15% ตาม 12% ถือไม่เกิน 10 นาที ไม้ละ 2%",
+  "horizon": "night",
+  "source": "https://github.com/m3n4ce-dev/meme_traderv1",
+  "claim": "graduation-v1 policy (frozen 3 Oct 2026): pump.fun curve 55 to 85% full, at most 15 min old, last 30 s organic net inflow 3+ SOL from 12+ unique buyers, buys/sells 1.5+, price within 10% of its high; exit at 94% full or migration, -15% stop, creator sells, 10 min max, 1.5 SOL outflow in 15 s while 12% off peak, no new high 45 s; $20 per trade, 6 open max. The author's own paper run: 225 trades +0.3% per SOL, negative without its best 3, and the bot was paused on 11 Oct for no edge after a measured ~4% round trip (unverified, paper only)",
+  "added": "2026-11-28",
+  "active": true,
+  "entry": {
+   "min": {
+    "market_cap": 16000,
+    "holder_count": 12,
+    "price_change_percent5m": 0
+   },
+   "max": {
+    "market_cap": 40000,
+    "launchpad_status": 0,
+    "age_h": 0.25
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "TP_ALL": 0.48,
+   "HALF_AT": null,
+   "TRAIL_ON": 0.01,
+   "TRAIL": 0.12,
+   "MAX_HOLD_H": 0.1667,
+   "PER_TRADE": 0.02,
+   "MAX_POS": 6,
+   "COOLDOWN_H": 24,
+   "WATCH_S": 5
+  },
+  "note": "from the policy file: curve 55 to 85% full, age 15 min max, stop -15%, 10 min max hold, 12% off peak, $20 per trade of 5 SOL, 6 open max; chosen by me: curve fullness read as market cap 16k to 40k USD (pump.fun curve math with 30 virtual SOL and 1,073M virtual tokens at 200 USD per SOL), the exit at 94% full read as TP_ALL +48% (the price rise from an 85% full curve to 94%, the nearest case), 12 unique buyers read as holder_count 12+, buys/sells 1.5 read as zoo up, within 10% of the high read as 5m change 0+, momentum decay and no-new-high 45 s read as TRAIL 0.12 armed at +1%, creator-sell, insider and bundle gates dropped except RugCheck, $20 of about 1000 USD = PER_TRADE 0.02, COOLDOWN_H 24 and WATCH_S 5 as the other curve recipes"
  }
 ]
