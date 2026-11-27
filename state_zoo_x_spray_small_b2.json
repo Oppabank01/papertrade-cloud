@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 1.5880548249455062,
+ "cash": 1.6887232662440983,
  "pos": {
-  "792rosbxyZ7tYELnC4HhW1ok4enB8T5tnySSs6Mnikvq": {
-   "sym": "Alice",
-   "qty": 9863.165810603907,
-   "entry": 9.988e-06,
-   "last": 1.052e-05,
-   "peak": 1.058e-05,
-   "cost": 0.1015391673019087,
-   "opened": "2026-11-27T19:02:09+07:00",
-   "zoo": "x_spray_small_b2",
-   "smart": 103,
-   "kol": 2,
-   "gap": 25,
-   "miss": 0
-  },
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 17.222174435160728,
    "entry": 0.005722,
-   "last": 0.005447,
+   "last": 0.005465,
    "peak": 0.005765,
    "cost": 0.10157213164088814,
    "opened": "2026-11-27T19:42:24+07:00",
@@ -35,14 +21,14 @@
    "sym": "Slingoor",
    "qty": 997.0580080657418,
    "entry": 9.196e-05,
-   "last": 7.908150990654872e-05,
+   "last": 8.087e-05,
    "peak": 9.239e-05,
    "cost": 0.09450572502754649,
    "opened": "2026-11-27T21:34:53+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 164,
    "kol": 4,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -15803,6 +15789,21 @@
    "stop_set": -0.15,
    "cost_side": 0.03,
    "smart": 92,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-27T22:02:10+07:00",
+   "kind": "sell",
+   "mint": "792rosbxyZ7tYELnC4HhW1ok4enB8T5tnySSs6Mnikvq",
+   "sym": "Alice",
+   "price": 1.052e-05,
+   "entry": 9.988e-06,
+   "usd": 0.1007,
+   "pnl": -0.0009,
+   "why": "ครบ 3 ชม. (+5.3%)",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 103,
    "bundler": null
   }
  ],

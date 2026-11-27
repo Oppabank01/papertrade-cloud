@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.662756598240469,
- "cash": 14.663175661169253,
+ "cash": 14.592242231402729,
  "pos": {},
  "log": [
   {
@@ -37,12 +37,41 @@
    "cost_side": 0.03,
    "smart": 11,
    "bundler": null
+  },
+  {
+   "t": "2026-11-27T21:55:43+07:00",
+   "kind": "buy",
+   "mint": "B41wDynVRaPDrQjTMCospcAdd4mUkx9i7Btgacppump",
+   "sym": "CREDITS",
+   "price": 1.422e-05,
+   "jup": 1.4146610631357708e-05,
+   "usd": 0.4399,
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "zoo": "x_rider",
+   "smart": 14,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-27T21:57:27+07:00",
+   "kind": "sell",
+   "mint": "B41wDynVRaPDrQjTMCospcAdd4mUkx9i7Btgacppump",
+   "sym": "CREDITS",
+   "price": 1.2670951111152663e-05,
+   "entry": 1.422e-05,
+   "usd": 0.369,
+   "pnl": -0.0709,
+   "why": "stop -10.9%",
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "smart": 14,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: Rider (yudhisutawan บอทแข่ง make.fun) แบบที่ zoo เช็กได้: ยังอยู่บน bonding curve อายุไม่เกิน 30 นาที ขึ้น 5 นาทีและ 1 ชม. ไม่เกิน 10% up buys 2+ stop -10% TP +12% trail 20% เมื่อขึ้น 5% ถือ 3 นาที",
  "night": "2026-11-27",
  "night_start": 14.663175661169253,
- "rank_t": 1795790620.6774855,
+ "rank_t": 1795791239.345057,
  "nights": [
   {
    "night": "2026-11-25",
