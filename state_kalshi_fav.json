@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 6.6910672658824675,
+ "cash": 5.216141012195151,
  "pos": {
   "KXWTI-26NOV2714-T82.99:yes": {
    "qty": 0.8269452146281397,
@@ -55,7 +55,7 @@
   "KXLOWTDEN-26NOV27-T37:yes": {
    "qty": 0.7622452442238642,
    "entry": 0.967488,
-   "last": 0.98,
+   "last": 0.99,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T16:25:08+00:00",
    "coin": "YES | Will the minimum temperature be >37° on Nov 27, 2026?",
@@ -67,7 +67,7 @@
   "KXDIESELD-26NOV28-T5.670:yes": {
    "qty": 0.7773833148266354,
    "entry": 0.9486479999999999,
-   "last": 0.55,
+   "last": 0.54,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T17:38:59+00:00",
    "coin": "YES | Will Diesel Price on November 28, 2026 be above $5.670?",
@@ -103,7 +103,7 @@
   "KXNHLTOTAL-26NOV27OTTTB-5:yes": {
    "qty": 0.8450091286674175,
    "entry": 0.872728,
-   "last": 0.81,
+   "last": 0.99,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T20:56:56+00:00",
    "coin": "YES | Full Game: Over 4.5 goals scored",
@@ -123,6 +123,30 @@
    "side": "yes",
    "close": "2026-11-29T20:00:00Z",
    "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-29T20:00:00Z"
+  },
+  "KXNHLSPREAD-26NOV27OTTTB-OTT4:yes": {
+   "qty": 0.7773833148266354,
+   "entry": 0.9486479999999999,
+   "last": 0.92,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-27T22:20:49+00:00",
+   "coin": "YES | Ottawa wins by over 3.5 goals",
+   "ticker": "KXNHLSPREAD-26NOV27OTTTB-OTT4",
+   "side": "yes",
+   "close": "2026-11-29T20:00:00Z",
+   "why": "fav ask 0.94 ทุน 0.949 ปิด 2026-11-29T20:00:00Z"
+  },
+  "KXNFLTOTAL-26NOV27DENPIT-35:yes": {
+   "qty": 0.8543610818706032,
+   "entry": 0.8631749999999999,
+   "last": 0.84,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-27T22:20:49+00:00",
+   "coin": "YES | Full Game: over 34.5 points scored?",
+   "ticker": "KXNFLTOTAL-26NOV27DENPIT-35",
+   "side": "yes",
+   "close": "2026-11-29T20:00:00Z",
+   "why": "fav ask 0.85 ทุน 0.863 ปิด 2026-11-29T20:00:00Z"
   }
  },
  "log": [
@@ -2714,6 +2738,24 @@
    "ret": 0.09794,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-27T22:20:49+00:00",
+   "coin": "YES | Ottawa wins by over 3.5 goals",
+   "px": 0.94865,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.94 ทุน 0.949 ปิด 2026-11-29T20:00:00Z",
+   "ask": 0.94
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-27T22:20:49+00:00",
+   "coin": "YES | Full Game: over 34.5 points scored?",
+   "px": 0.86317,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.85 ทุน 0.863 ปิด 2026-11-29T20:00:00Z",
+   "ask": 0.85
   }
  ],
  "seen": null,
@@ -2846,6 +2888,8 @@
   "KXLIGUE1TOTAL-26NOV27STBPAR": 1795810579,
   "KXNHLTOTAL-26NOV27VANPHI": 1795813015,
   "KXNHLTOTAL-26NOV27OTTTB": 1795813015,
-  "KXNHLTOTAL-26NOV27FLAWSH": 1795813677
+  "KXNHLTOTAL-26NOV27FLAWSH": 1795813677,
+  "KXNHLSPREAD-26NOV27OTTTB": 1795818048,
+  "KXNFLTOTAL-26NOV27DENPIT": 1795818048
  }
 }
