@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.236099125703565,
+ "cash": 4.69323610844871,
  "pos": {
   "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
    "sym": "CBUCKS",
    "qty": 195.169786185729,
    "entry": 0.00775,
-   "last": 0.007518,
+   "last": 0.007395,
    "peak": 0.007766,
    "cost": 1.5590247814258913,
    "opened": "2026-11-27T09:32:30+07:00",
    "zoo": "w_f5_bigliqRC_b2",
    "smart": 42,
    "kol": 0,
+   "gap": 2,
+   "miss": 0
+  },
+  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
+   "sym": "Buttcoin",
+   "qty": 265.45233185682935,
+   "entry": 0.005639,
+   "last": 0.005637,
+   "peak": 0.005669,
+   "cost": 1.5428630172548554,
+   "opened": "2026-11-27T09:40:13+07:00",
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 544,
+   "kol": 51,
    "gap": 0,
    "miss": 0
   }
@@ -1726,10 +1740,24 @@
    "zoo": "w_f5_bigliqRC_b2",
    "smart": 42,
    "kol": 0
+  },
+  {
+   "t": "2026-11-27T09:40:13+07:00",
+   "kind": "buy",
+   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+   "sym": "Buttcoin",
+   "price": 0.005639,
+   "jup": 0.005640554820596996,
+   "usd": 1.5429,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 544,
+   "kol": 51
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ bigliqRC แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1795746659.8612158,
+ "rank_t": 1795747158.1924894,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT"
  }
