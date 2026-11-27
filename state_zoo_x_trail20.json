@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.645577035735208,
- "cash": 5.6021014011365935,
- "pos": {
-  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
-   "sym": "CLAUDIA",
-   "qty": 237.04339728365775,
-   "entry": 0.008066,
-   "last": 0.008014,
-   "peak": 0.009412,
-   "cost": 1.9707194830859445,
-   "opened": "2026-11-24T22:57:43+07:00",
-   "zoo": "x_trail20",
-   "smart": 572,
-   "kol": 37,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 7.437567822916584,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-23T13:14:46+07:00",
@@ -530,9 +515,24 @@
    "cost_side": 0.03,
    "smart": 891,
    "bundler": null
+  },
+  {
+   "t": "2026-11-27T22:57:44+07:00",
+   "kind": "sell",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "sym": "CLAUDIA",
+   "price": 0.007981,
+   "entry": 0.008066,
+   "usd": 1.8355,
+   "pnl": -0.1353,
+   "why": "ครบ 72 ชม. (-1.1%)",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 572,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: trailing stop 20% จากจุดเข้าอย่างเดียว (วิเคราะห์ 6,200 ไม้ Grok Bot desk)",
- "rank_t": 1795794235.957221,
+ "rank_t": 1795794970.616093,
  "halted": "ราคา neet สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }
