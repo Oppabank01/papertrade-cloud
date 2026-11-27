@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.688601645123384,
- "cash": 12.089624678605555,
+ "cash": 12.776207803378643,
  "pos": {
-  "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
-   "sym": "JOB",
-   "qty": 330.3099581124006,
-   "entry": 0.002104,
-   "last": 0.002161,
-   "peak": 0.002206,
-   "cost": 0.716318441422893,
-   "opened": "2026-11-28T03:49:16+07:00",
-   "zoo": "x_toaster_paper",
-   "smart": 37,
-   "kol": 1,
-   "gap": 0,
-   "miss": 0
-  },
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 122.29984249647725,
    "entry": 0.005648,
-   "last": 0.005344,
+   "last": 0.005412,
    "peak": 0.005658,
    "cost": 0.7119661002062498,
    "opened": "2026-11-28T04:21:19+07:00",
@@ -31,18 +17,18 @@
    "gap": 0,
    "miss": 0
   },
-  "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": {
-   "sym": "BTC",
-   "qty": 356.19409160435407,
-   "entry": 0.00193,
-   "last": 0.001824,
-   "peak": 0.00193,
-   "cost": 0.7085699822679895,
-   "opened": "2026-11-28T05:31:35+07:00",
+  "Fpzcd2R1y2MPdezgMRigQuBx7aCPPn5sZBXpvtP3pump": {
+   "sym": "HUGH",
+   "qty": 6191.62319506735,
+   "entry": 0.0001104,
+   "last": 0.0001148,
+   "peak": 0.0001148,
+   "cost": 0.7045508150231246,
+   "opened": "2026-11-28T05:42:05+07:00",
    "zoo": "x_toaster_paper",
-   "smart": 823,
-   "kol": 70,
-   "gap": 7,
+   "smart": 80,
+   "kol": 5,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -383,8 +369,52 @@
    "zoo": "x_toaster_paper",
    "smart": 823,
    "kol": 70
+  },
+  {
+   "t": "2026-11-28T05:42:05+07:00",
+   "kind": "sell",
+   "mint": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+   "sym": "BTC",
+   "price": 0.001802,
+   "entry": 0.00193,
+   "usd": 0.6227,
+   "pnl": -0.0858,
+   "why": "stop -6.6%",
+   "stop_set": -0.06,
+   "cost_side": 0.03,
+   "smart": 823,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-28T05:42:05+07:00",
+   "kind": "buy",
+   "mint": "Fpzcd2R1y2MPdezgMRigQuBx7aCPPn5sZBXpvtP3pump",
+   "sym": "HUGH",
+   "price": 0.0001104,
+   "jup": 0.00011054314369677315,
+   "usd": 0.7046,
+   "stop_set": -0.06,
+   "cost_side": 0.03,
+   "zoo": "x_toaster_paper",
+   "smart": 80,
+   "kol": 5
+  },
+  {
+   "t": "2026-11-28T05:46:08+07:00",
+   "kind": "sell",
+   "mint": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
+   "sym": "JOB",
+   "price": 0.002397751828034373,
+   "entry": 0.002104,
+   "usd": 0.7684,
+   "pnl": 0.0521,
+   "why": "ถึงเป้า +14.0%",
+   "stop_set": -0.06,
+   "cost_side": 0.03,
+   "smart": 37,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: บอท paper MyToasterIsCrying (Solana Paper Bot 2.0) แบบที่ zoo เช็กได้: อายุ 30 นาทีขึ้นไป pool 25k+ top10 ไม่เกิน 30% ราคา 1 ชม. และ 5 นาทีบวก แรงซื้อนำ RugCheck stop -6% TP +12% ไม้ละ 5% สูงสุด 3 ตัว",
- "rank_t": 1795818612.7825212
+ "rank_t": 1795819231.5480628
 }

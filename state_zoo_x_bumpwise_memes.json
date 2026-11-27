@@ -1,17 +1,46 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.692918013517485,
- "cash": 14.692918013517485,
+ "cash": 14.568739889239865,
  "pos": {},
  "log": [
   {
    "t": "2026-11-28T04:59:45+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-28T05:42:13+07:00",
+   "kind": "buy",
+   "mint": "AQ1VAV8JM1UuwCtgH6GPMDeDdujudfh697KP5XeV8vdY",
+   "sym": "STEADY",
+   "price": 0.0001093,
+   "jup": 0.00010872633616406271,
+   "usd": 0.7346,
+   "stop_set": -0.05,
+   "cost_side": 0.03,
+   "zoo": "x_bumpwise_memes",
+   "smart": 26,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-28T05:42:25+07:00",
+   "kind": "sell",
+   "mint": "AQ1VAV8JM1UuwCtgH6GPMDeDdujudfh697KP5XeV8vdY",
+   "sym": "STEADY",
+   "price": 9.649e-05,
+   "entry": 0.0001093,
+   "usd": 0.6105,
+   "pnl": -0.1242,
+   "why": "stop -11.7%",
+   "stop_set": -0.05,
+   "cost_side": 0.03,
+   "smart": 26,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ท่า Memes agent ของ Bumpwise (บัญชี paper ที่โพสต์ทุกไม้รวมไม้แพ้) แบบที่ zoo เช็กได้: วอลุ่ม 80k ขึ้นไป ราคาขึ้นทั้ง 5 นาทีและ 1 ชม. ผ่าน RugCheck stop -5% ขายหมด +6% ตาม 4.5% ถือไม่เกิน 4 ชม. ไม้ละ 5%",
  "night": "2026-11-27",
  "night_start": 14.692918013517485,
- "rank_t": 1795818612.7825212
+ "rank_t": 1795819231.5480628
 }

@@ -2,42 +2,18 @@
  "label": "Kalshi ตัวควบคุม: สุ่มฝั่งในตลาดเดียวกับตัวเต็ง/ตัวรอง",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 0.6370996665621463,
+ "cash": 1.3920110604527989,
  "pos": {
   "KXDIESELD-26NOV28-T5.670:yes": {
    "qty": 0.7773833148266354,
    "entry": 0.9486479999999999,
-   "last": 0.4,
+   "last": 0.37,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T17:38:59+00:00",
    "coin": "YES | Will Diesel Price on November 28, 2026 be above $5.670?",
    "ticker": "KXDIESELD-26NOV28-T5.670",
    "side": "yes",
    "close": "2026-11-28T04:59:00Z",
-   "why": "สุ่มฝั่ง"
-  },
-  "KXNHLTOTAL-26NOV27VANPHI-3:yes": {
-   "qty": 0.7549113938906525,
-   "entry": 0.976887,
-   "last": 0.99,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-27T20:56:56+00:00",
-   "coin": "YES | Full Game: Over 2.5 goals scored",
-   "ticker": "KXNHLTOTAL-26NOV27VANPHI-3",
-   "side": "yes",
-   "close": "2026-11-29T20:00:00Z",
-   "why": "สุ่มฝั่ง"
-  },
-  "KXNHLSPREAD-26NOV27OTTTB-OTT4:no": {
-   "qty": 8.620057121325718,
-   "entry": 0.085552,
-   "last": 0.01,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-27T22:20:49+00:00",
-   "coin": "NO | Ottawa wins by over 3.5 goals",
-   "ticker": "KXNHLSPREAD-26NOV27OTTTB-OTT4",
-   "side": "no",
-   "close": "2026-11-29T20:00:00Z",
    "why": "สุ่มฝั่ง"
   }
  },
@@ -1370,6 +1346,30 @@
    "usd": 0.7374631268436579,
    "why": "สุ่มฝั่ง",
    "ask": 0.08
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-27T22:50:01+00:00",
+   "coin": "YES | Full Game: Over 2.5 goals scored",
+   "px": 1.0,
+   "entry": 0.97689,
+   "usd": 0.75491,
+   "pnl": 0.01745,
+   "ret": 0.02366,
+   "cost_side": 0,
+   "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-27T22:50:01+00:00",
+   "coin": "NO | Ottawa wins by over 3.5 goals",
+   "px": 0.0,
+   "entry": 0.08555,
+   "usd": 0.0,
+   "pnl": -0.73746,
+   "ret": -1.0,
+   "cost_side": 0,
+   "why": "ตัดสิน yes"
   }
  ],
  "seen": null,
