@@ -1,77 +1,5 @@
 [
  {
-  "t": "2026-11-24T01:42:00+07:00",
-  "source": "web",
-  "title": "Turn-of-the-candle effect in bitcoin returns (ผลตอบแทนผิดปกติรอบรอยต่อแท่ง 15 นาที)",
-  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10015199/",
-  "summary": "งานวิจัยรายงานว่าผลตอบแทน BTC รอบรอยต่อแท่ง 15 นาทีผิดปกติตั้งแต่กลางปี 2020 อาจเกิดจากบอท และท่าที่ใช้ผลนี้ชนะถือเฉยๆ หลังค่าธรรมเนียม อ่านตัวเปเปอร์ไม่ได้ (เว็บกันบอท) จึงวัดเองแบบใกล้ที่สุด",
-  "verdict": "ลองแล้วตก",
-  "action": "วัดผลตอบแทนรายนาทีในแท่ง 15 นาทีจาก Binance 1 นาที 60 วันล่าสุด: นาทีแรกของแท่ง (:00 :15 :30 :45) ติดลบจริง BTC -0.39 bps t -4.3 ETH -0.52 bps t -4.2 SOL -0.50 bps t -3.5 แต่ขนาดแค่ครึ่ง bps ท่า long นาทีที่ 14 ถึงนาทีที่ 0 5,760 ไม้ก่อนหัก -0.41/-0.51/-0.58 bps ชนะ 46-48% หลังหัก 0.35%/ข้าง -0.70% ต่อไม้ ฝั่ง short ก็ได้แค่ราว +0.5 bps ต่ำกว่าต้นทุนไปกลับ 70 bps เป็นร้อยเท่า แม้ค่าธรรมเนียม 0.02%/ข้างก็ไม่พอ"
- },
- {
-  "t": "2026-11-24T01:42:00+07:00",
-  "source": "github",
-  "title": "cemyilmvz/clarg-5m-oscillator-pro: Pine Script 5 นาที AO-RSI + EMA200 + VWAP ขายครึ่งที่ 1.5R",
-  "url": "https://github.com/cemyilmvz/clarg-5m-oscillator-pro",
-  "summary": "สคริปต์ TradingView แท่ง 5 นาที RSI ของ Awesome Oscillator ตัดขึ้น -30 เหนือ EMA200 และ VWAP เข้า long (short กลับกัน) stop 1.5 ATR ขายครึ่งที่ 1.5R เลื่อน stop มาทุน ที่เหลือเป้า 3R และ trailing ATR ไม่มีผล backtest",
-  "verdict": "ลองแล้วตก",
-  "action": "เทียบระยะกับต้นทุนบน Binance 5 นาที 1,000 แท่งล่าสุด: ATR มัธยฐาน BTC 0.22% ETH 0.24% SOL 0.27% stop 1.5 ATR = 0.32-0.40% เป้าแรก 0.49-0.61% เป้าสุดท้าย 0.97-1.21% ต้นทุนไปกลับ 0.70% ไม้ที่ดีที่สุด (ถึงทั้งสองเป้า) BTC ได้สุทธิราว +0.03% ส่วนไม้ที่โดน stop เสีย -1.0% ขึ้นไป ต้องชนะเกือบทุกไม้ถึงคุ้ม ท่า 5 นาทีใช้กับต้นทุน 0.35%/ข้างไม่ได้"
- },
- {
-  "t": "2026-11-24T01:42:00+07:00",
-  "source": "x",
-  "title": "KhunCher: backtest กลยุทธ์ TradingView 236 ตัวบน Hyperliquid รอดจริง 21 ตัว",
-  "url": "https://x.com/khuncher_co/status/2044613627953721392",
-  "summary": "โพสต์ไทยสรุปว่าลอง 236 กลยุทธ์บน TradingView กับค่าธรรมเนียม Hyperliquid รอดแค่ 21 ตัว (8.9%) และตัวที่รอดเทรดไม่บ่อยจนค่าธรรมเนียมไม่กินกำไร ตรงกับผลของเราที่ท่าแท่งสั้นแพ้ต้นทุนเสมอ",
-  "verdict": "ไอเดีย",
-  "action": "ไม่ได้ทดสอบ ต้องได้รายชื่อ 21 กลยุทธ์ที่รอดและเลขตั้งค่าก่อน ถ้าหาเจอให้ backtest ทีละตัวด้วย permutation"
- },
- {
-  "t": "2026-11-24T01:42:00+07:00",
-  "source": "x",
-  "title": "BALIA_OS: Alpha Hunter all-DEX strategy backtest $2,000 เป็น $50,357 (+2,417%) บน Solana",
-  "url": "https://x.com/BALIA_OS/status/2124671789255291222",
-  "summary": "โพสต์โปรโมตบอร์ดสาธารณะของ Alpha Hunter อ้าง backtest ราคาจริง +2,417% บนเหรียญ Solana ทุก DEX ไม่บอกกฎเข้าออกเลย",
-  "verdict": "ไอเดีย",
-  "action": "ไม่มีกฎให้สร้างแบบใกล้ที่สุด ต้องได้รายการไม้ (เหรียญ เวลาเข้าออก) จากบอร์ดสาธารณะก่อน ถ้าดูได้โดยไม่สมัครให้เทียบกับตัวเข้าสุ่มบนเหรียญชุดเดียวกัน"
- },
- {
-  "t": "2026-11-24T01:42:00+07:00",
-  "source": "github",
-  "title": "กลุ่ม repo บอท sniper แบบ 'native 64-bit Windows portable' (MariviPa23, pebble-grove, xenoncrumb, levivasquez, VasitoTa77)",
-  "url": "https://github.com/MariviPa23/ave-ai-defined-fi-memecoin-sniper",
-  "summary": "repo ใหม่ดาวสูงผิดปกติ ชื่อ sniper เหรียญมีม GMGN copytrade SunPump และชุดกลยุทธ์ FreqAI คำอธิบายแบบเดียวกันทุกตัวว่าเป็นโปรแกรม Windows พกพา",
-  "verdict": "ตัดทิ้ง",
-  "action": "หน้าตาเป็นมัลแวร์ (แจกไฟล์รัน Windows ดาวปั่น ข้อความซ้ำกันหลายบัญชี) ต้องรันโค้ดที่ดาวน์โหลดมา ไม่ได้เปิดดูไฟล์"
- },
- {
-  "t": "2026-11-24T03:33:39+07:00",
-  "source": "github",
-  "title": "Rizrekt/aiprove-eth-pnl-fixed: Donchian 240/120 แท่ง 1 นาที long+short (งาน bounty AIProve)",
-  "url": "https://github.com/Rizrekt/aiprove-eth-pnl-fixed",
-  "summary": "ทะลุราคาปิดสูงสุด 240 นาทีเข้า long ต่ำสุดเข้า short ออกเมื่อปิดสวนกรอบ 120 นาที อ้าง +$689 จาก 4 ไม้ใน 1 วันของชุดข้อมูลแข่ง ETH",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "backtest Binance 1 นาที 90 วัน หลังหัก 0.35%/ข้าง ETH 500 ไม้ -0.69% BTC 509 ไม้ -0.72% SOL 494 ไม้ -0.73% ต่อไม้ ก่อนหัก +0.01/-0.02/-0.03% ชนะ 10-17% permutation 200 รอบ p 0.368/0.701/0.766 ตัวแฝดเข้าสุ่ม -0.72 ถึง -0.75% ไม่ต่างจากสุ่ม ผลบวกของ repo มาจากวันเดียวที่ราคาร่วงยาว เปิด fwd_don1m.py (BTC ETH SOL พร้อมตัวแฝดเข้าสุ่ม) test เดินทีละแท่งตรง backtest 24 ไม้"
- },
- {
-  "t": "2026-11-24T03:33:39+07:00",
-  "source": "x",
-  "title": "6vintik9: บอท Grok เฝ้าเหรียญมีม 24 ตัว สแกนทุก 15 นาที สลับโหมดตามสภาพตลาด",
-  "url": "https://x.com/6vintik9/status/2123162101447364633",
-  "summary": "โพสต์เล่าว่าปล่อยบอทข้ามคืนก่อน GTA 6 ออก สลับโหมดทุก 15 นาที ไม่บอกกฎหรือผล อ่านได้แค่ส่วนต้นของโพสต์",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "สร้างแบบใกล้ที่สุด: regime switcher ตัวเดียวกับ fwd_regime (ER 20 แท่ง 0.35 ตามโมเมนตัม ต่ำกว่านั้นสวน z 0.5) บนแท่ง 15 นาที DOGE PEPE WIF BONK 365 วัน หลังหัก 0.35%/ข้าง 7,177 ถึง 7,496 ไม้ต่อเหรียญ -0.66 ถึง -0.69% ต่อไม้ ก่อนหัก +0.01 ถึง +0.04% permutation 200 รอบ p 0.085/0.010/0.035/0.149 สัญญาณมีจริงเล็กน้อยแต่ต้นทุนใหญ่กว่าราว 20 เท่า เปิด fwd_memeregime.py พร้อมตัวแฝดสุ่มฝั่ง test ตรง backtest 580 ไม้"
- },
- {
-  "t": "2026-11-24T03:33:39+07:00",
-  "source": "web",
-  "title": "curupira-blog: funding_rate_signal (funding สะสม 7 วัน z-score เทียบ 28 วัน เกิน 2 ให้สวน)",
-  "url": "https://curupira-blog.pages.dev/blog/on-chain-data-alpha",
-  "summary": "บล็อกให้โค้ดสัญญาณ funding สวนทางแต่บอกเองว่ายังไม่เคย backtest ผล 89 ไม้ PF 1.52 ที่ผลค้นเว็บอ้างไม่มีในหน้านี้",
-  "verdict": "ลองแล้วตก",
-  "action": "backtest funding Binance perp 2019-2026 กับราคา 4 ชม. เข้าแท่งถัดไปหลังเวลา funding ถือ 72 ชม. (เวลาถือเลือกเอง) หลังหัก 0.35%/ข้าง BTC 105 ไม้ -1.15% ETH 102 ไม้ -1.04% SOL 86 ไม้ -1.41% ต่อไม้ ก่อนหัก -0.45/-0.34/-0.71% แย่กว่าเข้าสุ่ม -0.44/-0.45/-0.78% permutation 200 รอบ p 0.791/0.692/0.806"
- },
- {
   "t": "2026-11-24T03:33:39+07:00",
   "source": "github",
   "title": "EthanMartinez11/crypto-cta-multifactor: trend + funding carry + relative trend บน perp 20 ตัว",
@@ -2698,5 +2626,77 @@
   "summary": "ท่าซื้อ BTC วันก่อนวันหยุดตลาดหุ้นสหรัฐ ถ้าราคาอยู่จุดสูงสุด N วัน แล้วขายหลังวันหยุด ขึ้นรายการ Premium Update 7 พ.ย.",
   "verdict": "ไอเดีย",
   "action": "มีบัญชีอยู่แล้ว (fwd_preholiday.py) ไม่เปิดซ้ำ"
+ },
+ {
+  "t": "2026-11-28T06:29:00+07:00",
+  "source": "x",
+  "title": "0xSett: GetAgent playbook 4 ชม. BTC ทอง SPY ใช้ EMA20 EMA50 และผลตอบแทน 10 แท่ง",
+  "url": "https://x.com/0xSett/status/2094326185732010132",
+  "summary": "โพสต์บอกว่าทุก 4 ชม. เช็ก BTC ทองและ SPY หาเทรนด์ชัดด้วย EMA20 EMA50 และผลตอบแทน 10 แท่ง ข้อความที่เหลือถูกตัด จึงเขียนฉบับกลไกเอง",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "ฉบับกลไก: EMA20 เหนือ EMA50 และ 10 แท่งบวก long ฝั่งกลับ short ออกเมื่อเงื่อนไขหาย ไม่มี stop (เลือกเอง) Binance 4 ชม. 2017 ถึง 28 พ.ย. 69 หลังหัก 0.35%/ข้าง BTC 1,711 ไม้ -0.48% ETH 1,743 -0.42% SOL 1,080 -0.03% PAXG 1,235 -0.65% ต่อไม้ ก่อนหัก +0.23/+0.28/+0.67/+0.05% ชนะ 12 ถึง 30% long อย่างเดียว -0.23/-0.14/+0.38/-0.61% ปี 2025+ ติดลบทุกเหรียญ ตัวแฝดเข้าสุ่ม -0.38 ถึง -0.68% permutation 200 รอบ p 0.224/0.358/0.134/0.075 เปิด fwd_sett4h.py (BTC ETH SOL PAXG ไม้ละ 1 ใน 4 ตัวแฝดสุ่ม 1 ใน 10 แท่ง) test เดินทีละแท่งตรง backtest 87 ไม้ คาดว่าแพ้ต้นทุนเพราะสลับบ่อย"
+ },
+ {
+  "t": "2026-11-28T06:29:00+07:00",
+  "source": "web",
+  "title": "Quantpedia: Dual Momentum Allocation Between Physical Gold and Bitcoin (6 พ.ค. 69)",
+  "url": "https://quantpedia.com/?p=45559",
+  "summary": "ทุกพุธถือ IBIT หรือ GLD ตัวที่ขึ้นมากกว่าใน X สัปดาห์และยังบวก ไม่งั้นถือเงินสด หน้าเว็บอ้าง 8 สัปดาห์ ผลตอบแทนต่อปี 79.9% Sharpe 1.64 drawdown -43.9% ช่วง 2019 ถึง เม.ย. 2569 ไม่หักต้นทุน",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "ทำบน Binance 4 ชม. PAXG แทน GLD BTC แทน IBIT ตัดสินที่แท่งปิดพุธ UTC 28 ส.ค. 63 ถึง 28 พ.ย. 69 หลังหัก 0.35%/ข้าง 8 สัปดาห์ 31 ไม้ +17.6% ต่อไม้ มัธยฐาน +1.4% ชนะ 52% CAGR +67% เงิน x22.8 เทียบถือ BTC x5.2 PAXG x1.9 ปี 2025+ 6 ไม้ +9.2% กริด 10 ช่วง 1 ถึง 28 สัปดาห์ ดีสุดคือ 8 (1 สัปดาห์ CAGR -11.5% 24 สัปดาห์ -10%) ตัวแฝดสุ่มเลือกทุกพุธ CAGR มัธยฐาน -6.8% permutation 200 รอบทั้งกริด ก่อนหัก p 0.005 ผ่านประตู in-sample แต่ 8 สัปดาห์ผู้เขียนเลือกจากช่วงข้อมูลที่ทับกัน ยังไม่ใช่หลักฐานนอกตัวอย่าง เปิด fwd_goldbtc.py (ทั้งบัญชีถือตัวเดียว ตัวแฝดสุ่มเลือก BTC PAXG หรือเงินสด) test เดินทีละแท่งตรง backtest 17 ไม้"
+ },
+ {
+  "t": "2026-11-28T06:29:00+07:00",
+  "source": "github",
+  "title": "delizarghamiiii-cyber/pairs-trading-gold-silver-crypto2: pairs ทองเงินกับ BTC ETH แบบ walk-forward",
+  "url": "https://github.com/delizarghamiiii-cyber/pairs-trading-gold-silver-crypto2",
+  "summary": "งานทดสอบแบบซื่อตรง z-score ของ spread รายวัน เข้า |z| 2 ออก 0.5 hedge ratio จากปีก่อน ผู้เขียนสรุปเองว่าไม่มี edge (ทองเงิน Sharpe 0.08 BTC ETH -0.33 ไม่ cointegrate ปีไหนเลย)",
+  "verdict": "ไอเดีย",
+  "action": "ไม่ได้ทดสอบซ้ำ ขา BTC ETH ซ้ำกับ fwd_pairz ที่เปิดอยู่แล้ว (ETHBTC z-score 30 วัน) ขาทองเงินต้องราคา SLV หรือเงินรายวันซึ่ง byttrade.fetch ไม่มี"
+ },
+ {
+  "t": "2026-11-28T06:29:00+07:00",
+  "source": "github",
+  "title": "PAUL01zjb/crypto-quant-core: โครงงานวิจัยและ paper ledger perp รายชั่วโมง (open-core)",
+  "url": "https://github.com/PAUL01zjb/crypto-quant-core",
+  "summary": "โครง LightGBM กับ Ridge แบบ purged walk-forward มี DSR PBO bootstrap และ paper ledger ที่ตรงกับ backtest แต่ alpha จริงเก็บไว้ใน repo ส่วนตัว ที่เปิดมีแค่กลยุทธ์ตัวอย่าง",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎให้ทดสอบ ต้องสูตร factor ที่ผู้เขียนไม่เปิดและต้องรันโค้ด ML ของ repo"
+ },
+ {
+  "t": "2026-11-28T06:29:00+07:00",
+  "source": "github",
+  "title": "กลุ่ม repo เครื่องมือ funding และ backtest ใหม่ 21 ถึง 27 พ.ย. (tordagaz-ops/bybit-funding-rate, s4miramadina-stack/fundingscout, yuanhuhuxi-hub/crypto-carry, AidarShymbolat01/backtest-overfitting, blamartlouka-debug/Trading-bot-research)",
+  "url": "https://github.com/s4miramadina-stack/fundingscout",
+  "summary": "ตัวสแกน funding ข้ามกระดาน MCP อ่าน funding ของ Bybit งานจำลองว่ากลยุทธ์สุ่ม N ตัวดูดีแค่ไหน และโครง backtest ที่ยังมีแค่ README",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎเข้าออกให้ทดสอบ ส่วนการเก็บ funding มี funding.py ในสายหลักอยู่แล้ว ถ้าจะลองส่วนต่าง funding ข้ามกระดานต้องประวัติ funding ของ Hyperliquid และ Bybit ซึ่งยังไม่มี"
+ },
+ {
+  "t": "2026-11-28T06:29:00+07:00",
+  "source": "github",
+  "title": "mayerduyacomputer9113-beep/polymarket-perp-dex-hyperliquid-vault-market-maker-saceron (153 ดาวใน 3 วัน)",
+  "url": "https://github.com/mayerduyacomputer9113-beep/polymarket-perp-dex-hyperliquid-vault-market-maker-saceron",
+  "summary": "repo ใหม่ 25 พ.ย. ดาวพุ่งผิดปกติ ชื่อยาวรวมคำค้นหลายตัว ทำ market making ข้าม Polymarket กับ Hyperliquid",
+  "verdict": "ตัดทิ้ง",
+  "action": "ต้องรันโค้ดที่ดาวน์โหลดและใช้กระเป๋าจริง หน้าตาเหมือน repo ปั่นดาวแบบกลุ่ม sniper ที่เคยตัดทิ้ง"
+ },
+ {
+  "t": "2026-11-28T06:29:00+07:00",
+  "source": "x",
+  "title": "catstrateg: Grok Bot อ่าน X ทั้งคืนแล้วซื้อเฉพาะเหรียญที่คนเถียงกันใน reply",
+  "url": "https://x.com/catstrateg/status/2124861296369676647",
+  "summary": "อ้างว่าโพสต์ซื้อได้แต่การเถียงใน reply ปลอมยาก จึงใช้ความขัดแย้งใน reply เป็นตัวคัดเหรียญ ไม่ได้ให้เกณฑ์ตัวเลข",
+  "verdict": "ไอเดีย",
+  "action": "ต้องข้อมูลจำนวน reply และ quote ต่อเหรียญตามเวลา (เช่น อัตรา reply ต่อ like) ที่ไม่มีใน rank_hist ต้องเก็บจาก X ก่อนอย่างน้อยหลายสัปดาห์"
+ },
+ {
+  "t": "2026-11-28T06:29:00+07:00",
+  "source": "x",
+  "title": "ค้น X 4 ครั้งรอบ 06:19 (btc strategy backtest rules win rate, from:0xSett playbook EMA, เทรดเหรียญมีม กฎ, memecoin bot entry exit rules stop loss)",
+  "url": "https://x.com/search?q=btc%20strategy%20backtest%20rules%20win%20rate",
+  "summary": "ได้ 0xSett กับ catstrateg ที่เหลือเป็นโฆษณาแพลตฟอร์ม (Fensory, Neptune, ZoqoTrade, TradeWarz) และภาพหน้าจอกำไร Grok Bot ของ A_Pirate_I ($180 เป็น $3,890 ไม่มีกระเป๋าให้ตรวจ) คำค้นภาษาไทยไม่ได้ผลเลย",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎหรือกระเป๋าเพิ่ม ภาพหน้าจอไม่นับเป็นหลักฐาน"
  }
 ]
