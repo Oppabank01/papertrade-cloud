@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 10.185702832782711,
- "pos": {},
+ "cash": 8.148562266226168,
+ "pos": {
+  "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": {
+   "sym": "Huss",
+   "qty": 2684.6424581270817,
+   "entry": 0.0007362,
+   "last": 0.0007173,
+   "peak": 0.0007362,
+   "cost": 2.0371405665565425,
+   "opened": "2026-11-27T15:17:49+07:00",
+   "zoo": "x_rule5_60_25_b2",
+   "smart": 194,
+   "kol": 11,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T19:52:28+07:00",
@@ -413,10 +428,24 @@
    "cost_side": 0.03,
    "smart": 137,
    "bundler": null
+  },
+  {
+   "t": "2026-11-27T15:17:49+07:00",
+   "kind": "buy",
+   "mint": "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump",
+   "sym": "Huss",
+   "price": 0.0007362,
+   "jup": 0.0007291210907741899,
+   "usd": 2.0371,
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "zoo": "x_rule5_60_25_b2",
+   "smart": 194,
+   "kol": 11
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ระบบ 5 ไม้ เข้มกรอง ปลอดภัย TP +60% SL -25%",
- "rank_t": 1795766679.8646448,
+ "rank_t": 1795767361.7057168,
  "banned": {
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": "DacityCoin",
   "8rjgC1GsBo4fwuXjq7Hy12SAFxgFxbtSJJSFBYkVpump": "WW",
