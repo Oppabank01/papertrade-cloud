@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.69723691945914,
- "cash": 14.24969232804254,
+ "cash": 14.15724458831826,
  "pos": {
   "CvXQ9qEriGgTbMWyF8L1U7oqn9ev8A49N1dzNE8cpump": {
    "sym": "CINU",
    "qty": 1940.4060990556538,
    "entry": 0.0002205,
-   "last": 0.00023560540750552008,
+   "last": 0.0002512,
    "peak": 0.0002668,
    "cost": 0.44100138614901224,
    "opened": "2026-11-28T00:41:35+07:00",
    "zoo": "x_solpaper_v3",
    "smart": 50,
    "kol": 2,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -241,10 +241,39 @@
    "cost_side": 0.03,
    "smart": 91,
    "bundler": null
+  },
+  {
+   "t": "2026-11-28T02:51:34+07:00",
+   "kind": "buy",
+   "mint": "6J3m4E2AvckGpMypHoBmT9JdPA6QZJ66X9AfzYwWZttc",
+   "sym": "rice",
+   "price": 9.07e-05,
+   "jup": 8.98864981168552e-05,
+   "usd": 0.4407,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_solpaper_v3",
+   "smart": 88,
+   "kol": 1
+  },
+  {
+   "t": "2026-11-28T02:57:25+07:00",
+   "kind": "sell",
+   "mint": "6J3m4E2AvckGpMypHoBmT9JdPA6QZJ66X9AfzYwWZttc",
+   "sym": "rice",
+   "price": 7.614599749091242e-05,
+   "entry": 9.07e-05,
+   "usd": 0.3483,
+   "pnl": -0.0924,
+   "why": "stop -16.0%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 88,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: บอท paper เหรียญใหม่ Solana v3 (myfufufafa) แบบที่ zoo เช็กได้: อายุไม่เกิน 24 ชม. มาร์เก็ตแคป 5k ถึง 500k ไม่พุ่งเกิน 100% ใน 1 ชม. และไม่ขยับเกิน 10% ใน 5 นาที ผ่าน RugCheck ขายครึ่ง +25% ขายหมด +50% stop -15% ตาม 10% หลัง +25% ถือไม่เกิน 24 ชม. ไม้ละ 3%",
  "night": "2026-11-27",
  "night_start": 14.69723691945914,
- "rank_t": 1795808481.2582114
+ "rank_t": 1795809004.2647095
 }
