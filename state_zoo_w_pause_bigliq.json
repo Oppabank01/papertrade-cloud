@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 0.7041504769936973,
+ "cash": 0.4742936369094888,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 11.986231459331892,
    "entry": 0.01893,
-   "last": 0.01854,
+   "last": 0.01843,
    "peak": 0.01911,
    "cost": 0.23386864721207248,
    "opened": "2026-11-27T04:44:34+07:00",
@@ -21,13 +21,27 @@
    "sym": "mihao",
    "qty": 40.3797505076153,
    "entry": 0.005558,
-   "last": 0.005564,
+   "last": 0.005495,
    "peak": 0.005617,
    "cost": 0.23132411185459267,
    "opened": "2026-11-27T07:05:01+07:00",
    "zoo": "w_pause_bigliq",
    "smart": 820,
    "kol": 75,
+   "gap": 0,
+   "miss": 0
+  },
+  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
+   "sym": "CATE",
+   "qty": 12.535531548605904,
+   "entry": 0.01779,
+   "last": 0.01774,
+   "peak": 0.01779,
+   "cost": 0.22985684008420845,
+   "opened": "2026-11-27T07:16:16+07:00",
+   "zoo": "w_pause_bigliq",
+   "smart": 991,
+   "kol": 112,
    "gap": 0,
    "miss": 0
   }
@@ -5188,8 +5202,22 @@
    "zoo": "w_pause_bigliq",
    "smart": 820,
    "kol": 75
+  },
+  {
+   "t": "2026-11-27T07:16:16+07:00",
+   "kind": "buy",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.01779,
+   "jup": 0.01779874417492772,
+   "usd": 0.2299,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_bigliq",
+   "smart": 991,
+   "kol": 112
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795737826.628152
+ "rank_t": 1795738517.2526515
 }
