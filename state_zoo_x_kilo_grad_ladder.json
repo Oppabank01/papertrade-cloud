@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 15.265674291148544,
- "pos": {},
+ "cash": 14.502390576591116,
+ "pos": {
+  "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg": {
+   "sym": "USOI",
+   "qty": 64.95946139154525,
+   "entry": 0.0114,
+   "last": 0.0114,
+   "peak": 0.0114,
+   "cost": 0.7632837145574273,
+   "opened": "2026-11-27T08:23:12+07:00",
+   "zoo": "x_kilo_grad_ladder",
+   "smart": 5,
+   "kol": 0,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-25T00:22:45+07:00",
@@ -86,12 +101,26 @@
    "cost_side": 0.03,
    "smart": 87,
    "bundler": null
+  },
+  {
+   "t": "2026-11-27T08:23:12+07:00",
+   "kind": "buy",
+   "mint": "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg",
+   "sym": "USOI",
+   "price": 0.0114,
+   "jup": 0.011403085530602668,
+   "usd": 0.7633,
+   "stop_set": -0.5,
+   "cost_side": 0.03,
+   "zoo": "x_kilo_grad_ladder",
+   "smart": 5,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: เหรียญเพิ่งจบ curve ไม่เกิน 15 นาที ขายครึ่งที่ 1.5 เท่า ที่เหลือ trail 30% stop -50% ถือไม่เกิน 24 ชม. (kilomene meme-project)",
  "night": "2026-11-26",
  "night_start": 15.010894598915177,
- "rank_t": 1795742010.055679,
+ "rank_t": 1795742525.8121548,
  "nights": [
   {
    "night": "2026-11-24",
