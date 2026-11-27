@@ -1,68 +1,5 @@
 [
  {
-  "t": "2026-11-23T13:09:23+07:00",
-  "source": "x",
-  "title": "sokotix_AS: เอากลยุทธ์ Polymarket ที่ backtest แล้วไปเล่นจริงไม้ละ $10 พังอะไรบ้างใน 24 ชม.",
-  "url": "https://x.com/sokotix_AS/status/2122691235286544861",
-  "summary": "ปัญหาที่ backtest ไม่เห็น เช่น คำสั่งโดนปฏิเสธเพราะ shares x price ต้องลงตัวเป็นเซนต์ และ latency ส่งคำสั่งจริงราว 235 ms",
-  "verdict": "ไอเดีย",
-  "action": "ต้องกติกาขนาดคำสั่งและ latency ของ Polymarket ถ้าบัญชี Polymarket ของเราจะสมจริงขึ้น ควรปัดจำนวนหุ้นให้ราคารวมลงตัวเป็นเซนต์"
- },
- {
-  "t": "2026-11-23T13:09:23+07:00",
-  "source": "x",
-  "title": "HoutSathit: EA ทองคำ backtest +206% เปลี่ยนโหมดทดสอบแล้วกลายเป็น -99%",
-  "url": "https://x.com/HoutSathit/status/2124158367249961261",
-  "summary": "บอทเทรดทอง backtest 10 เดือน +206% drawdown 0.7% พอเปลี่ยนโหมดจำลองราคา (ความละเอียดของ tick) ผลกลายเป็นพอร์ตแตก",
-  "verdict": "ไอเดีย",
-  "action": "ต้องไฟล์ EA และข้อมูล tick ทองคำ ย้ำว่าการใช้ราคาในแท่งแบบหยาบหลอกผลได้ backtest ของเราใช้ high/low และนับ stop ก่อนเป้าแล้ว"
- },
- {
-  "t": "2026-11-23T13:09:23+07:00",
-  "source": "github",
-  "title": "takenthatusernameis-collab/QUANTITATIVE-FINANCE-RESEARCH: repo วิจัยที่ให้ agent รันวนเอง",
-  "url": "https://github.com/takenthatusernameis-collab/QUANTITATIVE-FINANCE-RESEARCH",
-  "summary": "README เป็นคำสั่งถึง agent ล้วน (ไม่ทำตาม) ผลที่บันทึกไว้คือ mean reversion บน spot Binance แบบ walk-forward ไม่ผ่านทั้งสองแบบ",
-  "verdict": "ไอเดีย",
-  "action": "ไม่มีกฎหรือตัวเลขให้ทดสอบซ้ำ ใช้เป็นอีกเสียงว่าท่าสวนบน spot เหรียญใหญ่ไม่รอด"
- },
- {
-  "t": "2026-11-23T13:09:23+07:00",
-  "source": "github",
-  "title": "target1m/cubrik-mcp: MCP สร้าง backtest และรัน AI trading agent",
-  "url": "https://github.com/target1m/cubrik-mcp",
-  "summary": "MCP แบบ remote ของแพลตฟอร์ม cubrik อ่านพอร์ตและรันเอเจนต์บนเซิร์ฟเวอร์เขา",
-  "verdict": "ตัดทิ้ง",
-  "action": "ต้องสมัครและล็อกอินแพลตฟอร์ม"
- },
- {
-  "t": "2026-11-23T13:46:00+07:00",
-  "source": "web",
-  "title": "ผล: Polymarket Up or Down เทียบโมเดลราคา Binance",
-  "url": "https://polymarket.com",
-  "summary": "โมเดลชอบซื้อฝั่งรอง (ราคาเฉลี่ย 0.24 โมเดลคิดว่า 0.37) แต่ชนะจริง 22% เท่าราคาตลาด ตลาดรู้ดีกว่าโมเดล",
-  "verdict": "ลองแล้วตก",
-  "action": "2 ชม. แรก 32 ไม้ ชนะ 7 พอร์ต -73.7% ตัวสุ่ม -57.9% (ชนะ 15) เกินเกณฑ์ตาย 20 ไม้และแพ้ตัวสุ่ม ปล่อยบัญชีไว้ตามกติกา ไม่แก้กฎ"
- },
- {
-  "t": "2026-11-23T14:53:30+07:00",
-  "source": "web",
-  "title": "Crypto.com Research: Pair trading BTC-ETH ด้วย z-score หน้าต่าง 30 วัน",
-  "url": "https://crypto.com/en-ae/research/pair-trading-sep-2024",
-  "summary": "รายงานปี 2024 ทดสอบ pairs trading BTC กับ ETH รายวันด้วย z-score หน้าต่าง 30 วัน ผู้เขียนเตือนเองว่าไม่มี out-of-sample และไม่คิดต้นทุน",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "แปลงเป็นเทรด ratio ตรงๆ (ETHBTC SOLBTC BNBBTC รายวัน 2017-2026) |z| 2 ผมเลือก ออกเมื่อ z กลับ 0 หรือครบ 20 วัน หลังหัก 0.35%/ข้าง: ETHBTC 105 ไม้ -2.40% มัธยฐาน +1.12%, SOLBTC 71 ไม้ -7.35%, BNBBTC 104 ไม้ -4.39% ชนะ 54-62% แต่ไม้แพ้ใหญ่ (ฝั่ง short แย่สุด) permutation 200 รอบทั้งกริด 4 แบบ p 0.995/0.995/1.000 แพ้ตัวแฝดสุ่มฝั่ง (-1.28/-2.90/-1.91%) เปิด fwd_pairz.py พร้อมตัวแฝด test เดินทีละแท่งได้ไม้ตรง backtest 43 ไม้"
- },
- {
-  "t": "2026-11-23T14:53:30+07:00",
-  "source": "web",
-  "title": "ฝั่งตรงข้ามของ pairs z-score: ตามเทรนด์ ratio coin/BTC",
-  "url": "https://crypto.com/en-ae/research/pair-trading-sep-2024",
-  "summary": "ตั้งหลังเห็นว่าฝั่งสวนกลับแพ้: ซื้อ ratio เมื่อ z 30 วันเกิน +2 ขายเมื่อต่ำกว่า -2 ออกเมื่อ z กลับ 0 หรือครบ 20 วัน เป็นการตามเทรนด์ของเหรียญเทียบ BTC",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "หลังหัก 0.35%/ข้าง: ETHBTC 105 ไม้ +1.00% มัธยฐาน -2.52%, SOLBTC 71 ไม้ +5.95% มัธยฐาน -2.59%, BNBBTC 104 ไม้ +2.99% มัธยฐาน -3.75% permutation 200 รอบทั้งกริด p 0.010/0.015/0.005 แต่เลือกฝั่งหลังเห็นผล (ทดลองจริง 2 เท่า) ปี 2024+ +0.27/-2.51/-1.96% ผลบวกมาจากไม้เทรนด์ใหญ่ไม่กี่ไม้ เปิด fwd_pairzmom.py พร้อมตัวแฝด test ได้ไม้ตรง backtest 43 ไม้และตรงกับ fwd_pairz กลับฝั่ง"
- },
- {
   "t": "2026-11-23T14:53:30+07:00",
   "source": "github",
   "title": "tomeelow/pairs-trading: pairs trading หุ้นใหญ่สหรัฐแบบ backtest ซื่อตรง",
@@ -2698,5 +2635,68 @@
   "summary": "momentum ข้ามเหรียญรายสัปดาห์ที่ปรับขนาดตามความผันผวน อ้างผลตอบแทนเฉลี่ยรายสัปดาห์เพิ่มเกิน 200% เทียบแบบธรรมดา แต่ไม่ลดความเสี่ยงหางล่าง",
   "verdict": "ไอเดีย",
   "action": "ต้องจักรวาลเหรียญจำนวนมากรวมเหรียญที่ถูกถอดย้อนหลัง มี fwd_xsmom อยู่แล้วสำหรับ momentum ข้ามเหรียญบนเหรียญใหญ่ ค้นเว็บรอบนี้ไม่เจองาน arXiv ใหม่เดือน พ.ย. 69"
+ },
+ {
+  "t": "2026-11-27T10:11:25+07:00",
+  "source": "github",
+  "title": "stangler/stochastics7-sma6-strategy-pine: สโตแคสติก 7 คาบ x SMA6 สวนเทรนด์ (Pine, FX 5 นาที)",
+  "url": "https://github.com/stangler/stochastics7-sma6-strategy-pine",
+  "summary": "ท่าสวนเทรนด์ของญี่ปุ่น รอสโตแคสติก 7 คาบ (5 ถึง 89) ต่ำกว่า 20 ครบทุกเส้นภายใน 3 แท่งแล้ว SMA6 หันขึ้นค่อยซื้อ ฝั่งขายกลับกัน และกลับฝั่งเมื่อสัญญาณตรงข้าม ไม่มี TP SL",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest Binance 2017 ถึง 27 พ.ย. 69 หลังหัก 0.35%/ข้าง รุ่น repo กลับฝั่ง long/short 1 ชม. ติดลบทุกเหรียญ -0.74 ถึง -3.77% ต่อไม้ 4 ชม. -4.2 ถึง -25.3% รุ่น long อย่างเดียว 1 ชม. BTC 163 ไม้ +1.00% มัธยฐาน +1.54% ชนะ 66% ETH 127 ไม้ +0.52% SOL 115 ไม้ +0.96% BNB 169 ไม้ +1.64% XRP 111 ไม้ -0.44% ตัวแฝดเข้าสุ่มออกแบบเดียวกัน +0.51/-0.31/+1.24/+0.66/-0.17% ตั้งแต่ 2025 -0.64 ถึง +2.47% permutation 200 รอบบน 6,000 แท่งล่าสุด กริด 2 แบบ 1 ชม. p 0.597/0.005/0.761/0.005/0.065 4 ชม. p 0.836/0.905/0.005/0.055/1.000 ผ่านไม่ครบ ไม้น้อยต่อหน้าต่าง เปิด fwd_sto7.py (long อย่างเดียว 1 ชม. ตัวแฝดสุ่ม 1 ใน 300 แท่ง test เดินทีละแท่งตรง backtest 30 ไม้) แท่ง 1 ชม. แทน FX 5 นาที และไม่กลับฝั่ง short เป็นค่าที่เลือกเอง สคริปต์ /tmp/scout_0957/sto.py"
+ },
+ {
+  "t": "2026-11-27T10:11:25+07:00",
+  "source": "github",
+  "title": "syahrularifuddin/polymarket-btc-bot: บอทตลาด BTC Up/Down 5 นาทีจากสูตร TWAP 60 วินาทีของ Chainlink",
+  "url": "https://github.com/syahrularifuddin/polymarket-btc-bot",
+  "summary": "ตลาด 5 นาทีตัดสินด้วยค่าเฉลี่ย 60 วินาที ช่วงนาทีสุดท้ายครึ่งหนึ่งของค่าเฉลี่ยรู้แล้ว จึงคำนวณ P(Up) จากสูตร drift กับความแปรปรวนได้ เจ้าของบอกเองว่าค่าเริ่มต้นไม่ได้กำไร",
+  "verdict": "ไอเดีย",
+  "action": "ต้องข้อมูลฟีด Chainlink BTC/USD รายวินาทีกับราคาสั่งซื้อของ Polymarket ช่วงนาทีสุดท้ายและผลตัดสินจริง แท่ง Binance ทดสอบไม่ได้ เป็นแนวเดียวกับ Prydae/kalshi-btc-audit ที่จดไว้แล้ว"
+ },
+ {
+  "t": "2026-11-27T10:11:25+07:00",
+  "source": "github",
+  "title": "karan1399/Trading-Strategies: CG Order-Flow Terminal (footprint, CVD, liquidation levels, book walls)",
+  "url": "https://github.com/karan1399/Trading-Strategies",
+  "summary": "เทอร์มินัล order flow ที่ดึง Coinglass กับ Binance futures websocket มี MCP ให้เอเจนต์วิเคราะห์สัญญาณ ไม่มีกฎเข้าออกที่สคริปต์ตัดสินได้ใน README",
+  "verdict": "ไอเดีย",
+  "action": "ต้องข้อมูล order flow ย้อนหลัง (CVD, liquidation, order book depth) ซึ่งเราไม่ได้เก็บ และ repo มี testnet client ที่เซ็นคำสั่ง จึงอ่านอย่างเดียว ไม่รัน"
+ },
+ {
+  "t": "2026-11-27T10:11:25+07:00",
+  "source": "github",
+  "title": "vphoneg087-afk/makefun-memecoin-backtest-48h-01: งาน Make.fun ชนะบอทบน replay Solana 48 ชม.",
+  "url": "https://github.com/vphoneg087-afk/makefun-memecoin-backtest-48h-01",
+  "summary": "repo งานแข่ง Make.fun ที่ README มีแค่ชื่องาน ยังไม่มีกฎหรือโค้ด",
+  "verdict": "ไอเดีย",
+  "action": "ต้องข้อมูล replay ของ Make.fun และกฎของผู้ส่ง ตอนนี้ไม่มีอะไรให้ทดสอบ ดูอีกครั้งถ้ามีคน push กฎ"
+ },
+ {
+  "t": "2026-11-27T10:11:25+07:00",
+  "source": "github",
+  "title": "luispunko816-beep/fomo-trading-bot: บอทเหรียญมีม Solana ฟรี มี AI วิเคราะห์",
+  "url": "https://github.com/luispunko816-beep/fomo-trading-bot",
+  "summary": "repo ใหม่ชื่อบัญชีสุ่มแบบ -beep README บรรทัดเดียว แจกบอทเทรดฟรี ไม่มีกฎหรือผลทดสอบ",
+  "verdict": "ตัดทิ้ง",
+  "action": "ทรงเดียวกับ repo แจกบอทที่ต้องดาวน์โหลดไปรัน (มัลแวร์ขโมยกระเป๋าพบบ่อย) และไม่มีกฎให้ทดสอบ"
+ },
+ {
+  "t": "2026-11-27T10:11:25+07:00",
+  "source": "x",
+  "title": "iqtauhid: บอท Polymarket ปฏิเสธ 99% ดู 9,521 สัญญาณเข้า 26 ไม้",
+  "url": "https://x.com/iqtauhid/status/2125266734340886956",
+  "summary": "โพสต์อ้างว่าเอเจนต์คัดสัญญาณตลาด Bitcoin Up/Down แล้วเข้าแค่ 26 จาก 9,521 สัญญาณในการจำลอง ไม่มีกฎหรือผลกำไรที่ตรวจได้",
+  "verdict": "ไอเดีย",
+  "action": "ต้องเธรดเต็มหรือกฎคัดสัญญาณ และราคาตลาด Polymarket ย้อนหลัง บทเรียนเดียวกับ fwd_hourrev คือคัดน้อยไม่ได้แปลว่ามี edge"
+ },
+ {
+  "t": "2026-11-27T10:11:25+07:00",
+  "source": "x",
+  "title": "trader_hummus: Volume Profile playbook 5 setup สำหรับ scalping",
+  "url": "https://x.com/trader_hummus/status/2125296268071059567",
+  "summary": "อ้างว่ามีกฎเข้าออกจริง 5 แบบจาก volume profile บน BTC กับทอง แต่ตัวโพสต์ไม่มีตัวเลข",
+  "verdict": "ไอเดีย",
+  "action": "ต้องอ่านเธรดเต็มเพื่อเอากฎ 5 แบบ และต้องวอลุ่มตามระดับราคา (ประมาณจากแท่ง 1 นาทีของ Binance ได้) รอบนี้ค้น X ครบ 4 ครั้งแล้ว"
  }
 ]

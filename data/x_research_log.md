@@ -942,3 +942,15 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ปลดระวาง (active false): x_loofy_desk_b2, x_scalp_1020_b2, x_ladder_2x_b2, x_cto_watch_b2, x_veyro_fresh, x_blix_grad_top10, x_hot_chase, x_spray_small เพราะขายครบ 20+ ไม้แล้วผลติดลบชัด (-9% ถึง -63%) แม้ rand จะ -98% ในตัวเลขรวม ตัวเลขนั้นเพี้ยนเพราะ rand ถูก halt
 สกอร์บอร์ด x_: x_smartflow_lowcap +20.9% (7 ไม้), x_crb_4agent +11.8% (11 ไม้), x_lotus_5bots +1.1% (8 ไม้)
 ล่างสุด: x_ladder_2x_b2 -63.2% (24 ไม้), x_veyro_fresh -59.1% (22 ไม้), x_cto_watch_b2 -54.1% (22 ไม้)
+
+## 2026-11-27 10:11 (scout)
+ค้น: GitHub repo ใหม่ (memecoin bot ตั้งแต่ 20 พ.ย., polymarket bot ตั้งแต่ 20 พ.ย., mean reversion crypto ตั้งแต่ 20 พ.ย., stochastic strategy ตั้งแต่ 15 พ.ย., pine strategy ตั้งแต่ 21 พ.ย. ได้แต่ repo นอกเรื่อง), X 4 ครั้ง (polymarket bot strategy backtest, btc strategy rules backtested entry exit stop, เทรดเหรียญมีม ได้แต่โพสต์เก่า, memecoin sniper settings take profit stop loss ไม่ได้ผลลัพธ์), WebSearch 1 ครั้ง (งาน arXiv เรื่อง seasonality ระหว่างวันของ BTC ได้แต่งานเก่าที่มีบัญชีแล้ว fwd_hour21 กับ fwd_imom)
+เจอ: stangler/stochastics7-sma6-strategy-pine (สโตแคสติก 7 คาบสวนเทรนด์), syahrularifuddin/polymarket-btc-bot (สูตร TWAP 60 วินาทีของตลาด 5 นาที), karan1399/Trading-Strategies (เทอร์มินัล order flow), vphoneg087-afk/makefun-memecoin-backtest-48h-01 (ยังว่าง), luispunko816-beep/fomo-trading-bot, iqtauhid (บอท Polymarket เข้า 26 จาก 9,521 สัญญาณ), trader_hummus (volume profile 5 setup) ส่วน aman25singh, Orsonneri และ quietoraclex มีบัญชีแล้ว
+ทดสอบแล้ว (Binance 2017 ถึง 27 พ.ย. 69 หลังหัก 0.35%/ข้าง ค่าตั้งของ repo ครบ คาบ 5/8/13/21/34/55/89 เส้น 80/20 ครบ 7 เส้น ภายใน 3 แท่ง SMA6):
+- รุ่น repo กลับฝั่ง long/short: 1 ชม. BTC 326 ไม้ -0.74% ต่อไม้ ETH -1.85% SOL -3.77% BNB -1.92% XRP -3.25% แท่ง 4 ชม. ไม้น้อย (56 ถึง 79 ไม้) -4.2 ถึง -25.3% ฝั่ง short โดนขาขึ้นยาวลากลง
+- รุ่น long อย่างเดียว 1 ชม.: BTC 163 ไม้ +1.00% มัธยฐาน +1.54% ชนะ 66% ETH 127 ไม้ +0.52% SOL 115 ไม้ +0.96% BNB 169 ไม้ +1.64% XRP 111 ไม้ -0.44% ถือเฉลี่ยราว 190 ถึง 290 แท่ง ตัวแฝดเข้าสุ่มออกแบบเดียวกัน +0.51/-0.31/+1.24/+0.66/-0.17% ชนะตัวแฝด 3 ใน 5 เหรียญ ตั้งแต่ 2025 -0.64 ถึง +2.47%
+- permutation 200 รอบบน 6,000 แท่งล่าสุด กริด 2 แบบ (กลับฝั่ง, long อย่างเดียว) 1 ชม. p 0.597/0.005/0.761/0.005/0.065 4 ชม. p 0.836/0.905/0.005/0.055/1.000 ผ่านแค่บางเหรียญและไม่ตรงกันระหว่างกรอบเวลา หน้าต่างละราว 20 ถึง 25 ไม้จึงถูกไม้ไม่กี่ไม้ลาก
+เปิดบัญชี: fwd_sto7.py (long อย่างเดียว 1 ชม. BTC ETH SOL BNB XRP ตัวแฝดสุ่ม 1 ใน 300 แท่ง test เดินทีละแท่งด้วยหน้าต่าง 1,000 แท่งตรง backtest 30 ไม้) เปิดทั้งที่ไม่ผ่านเพราะผู้ใช้ให้ลองท่าอ่อน แท่ง 1 ชม. แทน FX 5 นาที และปิดแทนการกลับฝั่ง short เป็นค่าที่เลือกเอง สคริปต์ /tmp/scout_0957/sto.py
+เพิ่ม x_: ไม่มี (รอบนี้ไม่เจอกฎเหรียญมีมใหม่)
+ไอเดีย: polymarket-btc-bot (ต้องฟีด Chainlink รายวินาทีและราคาตลาด Polymarket), karan1399 (ต้อง order flow ย้อนหลัง), makefun-memecoin-backtest-48h-01 (ยังไม่มีกฎ), iqtauhid กับ trader_hummus (ต้องเธรดเต็ม)
+ตัดทิ้ง: luispunko816-beep/fomo-trading-bot (แจกบอทให้ดาวน์โหลดไปรัน ไม่มีกฎ)
