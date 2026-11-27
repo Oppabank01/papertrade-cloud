@@ -3021,5 +3021,82 @@
    "WATCH_S": 5
   },
   "note": "from README: curve 60 to 1800 slots old, real SOL reserve 2 to 120 SOL, 12+ buys from 8+ distinct wallets in the last 120 slots, net inflow 1+ SOL, buys at least 1.5x sells, price up 10 to 200% and within 5% of the window high, inflow accelerating, 0.06 SOL first buy plus one 0.06 SOL add-on (max 0.12 SOL per coin), max 5 positions, stop 0.96x cost, half at 1.15x, trailing armed at 1.08x exits at 0.92x peak, fade exit 10% off window high, 1500-slot time limit unless up 10%+; chosen by me: slots read as 0.4 s so 60 to 1800 slots = age_h 0.0067 to 0.2 and 1500 slots = MAX_HOLD_H 0.167 (the up-10% extension dropped), 2 to 120 SOL read as liquidity 400 to 24000 USD (10 SOL = 2000 USD as x_survivor_curve), 8 wallets read as holder_count 8, 120-slot price rise read as 1m change 10 to 200%, buys 1.5x sells read as zoo up (buys > sells only), the add-on folded into one buy of 0.12 SOL of 10 SOL = PER_TRADE 0.012, near-window-high, accelerating inflow, net inflow, fade exit and the probe round-trips dropped (GMGN rank has no such field), COOLDOWN_H 24, WATCH_S 5 as the other curve recipes"
+ },
+ {
+  "name": "x_flowgate",
+  "label": "บอท make.fun FlowGate v3 (kangrisuk-id) แบบที่ zoo เช็กได้: เหรียญบน curve อายุ 24 วิ ถึง 72 นาที สภาพคล่อง 500 ถึง 14k ซื้อ 30+ คนถือ 20+ แรงซื้อนำ ขึ้น 1 ชม. 15 ถึง 700% stop -14% TP +35% ตาม 20% เมื่อขึ้น +30% ถือไม่เกิน 17 นาที ไม้ละ 1%",
+  "horizon": "night",
+  "source": "https://github.com/kangrisuk-id/makefun-pumpbot-20261127",
+  "claim": "make.fun pump.fun replay entry (27 Nov 2026): lifetime buy volume 2.75x sell volume, 40+ trades from 20+ buyers, 2.5 to 70 SOL reserve, age 60 to 10,800 slots, price 1.15 to 8x its first print; stop -14%, TP +35%, trail 20% after +30%, about 17-minute time stop; dev window +0.068 SOL over 68 round trips (23 wins), tuned on that same tape",
+  "added": "2026-11-27",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 0.0067,
+    "liquidity": 500,
+    "buys": 30,
+    "holder_count": 20,
+    "price_change_percent1h": 15
+   },
+   "max": {
+    "age_h": 1.2,
+    "liquidity": 14000,
+    "launchpad_status": 0,
+    "price_change_percent1h": 700
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.14,
+   "TP_ALL": 0.35,
+   "HALF_AT": null,
+   "TRAIL_ON": 0.3,
+   "TRAIL": 0.2,
+   "MAX_HOLD_H": 0.283,
+   "PER_TRADE": 0.01,
+   "MAX_POS": 5,
+   "COOLDOWN_H": 24,
+   "WATCH_S": 5
+  },
+  "note": "from README: buy volume 2.75x sell volume over the coin's life, 40+ trades, 20+ distinct buyers, real reserve 2.5 to 70 SOL, age 60 to 10,800 slots, price 1.15 to 8x first print, 0.1 SOL of 10 SOL per entry, stop -14%, TP +35%, trailing armed at +30% exits 20% off peak, about 17-minute time stop, flow-reversal exit; chosen by me: slots read as 0.4 s so age_h 0.0067 to 1.2, 2.5 to 70 SOL read as liquidity 500 to 14000 USD (10 SOL = 2000 USD as x_survivor_curve), 40 trades at 2.75x dominance read as buys 30, 20 buyers read as holder_count 20, 1.15 to 8x first print read as 1h change 15 to 700% (the coin is under 72 minutes old), volume dominance read as zoo up (buy count > sell count only, GMGN rank has no buy volume), 17 minutes = MAX_HOLD_H 0.283, flow-reversal exit and the pace rule dropped, MAX_POS 5, COOLDOWN_H 24, WATCH_S 5 as the other curve recipes"
+ },
+ {
+  "name": "x_pullback_rider",
+  "label": "บอท make.fun Pullback Rider (Jeytm) แบบที่ zoo เช็กได้: เหรียญบน curve สภาพคล่อง 300 ถึง 16k ยังสูงกว่า 1 ชม. ก่อน 0 ถึง 100% แต่เด้ง 5 นาที 12 ถึง 60% คนถือ 20+ แรงซื้อนำ TP +30% stop -22% ตาม 12% เมื่อขึ้น +12% ถือไม่เกิน 1 ชม. ไม้ละ 3%",
+  "horizon": "night",
+  "source": "https://github.com/Jeytm/pump-fun-bot-sprint-20261127",
+  "claim": "make.fun pump.fun replay entry (27 Nov 2026): peak at least 1.6x first price, pulled back to 40 to 90% of peak, bounced 12%+ off the dip low, buys 65%+ of quote volume over the last 15 trades, 1.5 to 80 SOL reserve; TP +30%, stop -22%, trail 12% after +12%, 9,000-slot time stop, 0.3 SOL stakes; dev window +0.388 SOL over 80 round trips (45% wins), tuned on that same tape",
+  "added": "2026-11-27",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 300,
+    "holder_count": 20,
+    "price_change_percent1h": 0,
+    "price_change_percent5m": 12
+   },
+   "max": {
+    "liquidity": 16000,
+    "launchpad_status": 0,
+    "price_change_percent1h": 100,
+    "price_change_percent5m": 60
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.22,
+   "TP_ALL": 0.3,
+   "HALF_AT": null,
+   "TRAIL_ON": 0.12,
+   "TRAIL": 0.12,
+   "MAX_HOLD_H": 1.0,
+   "PER_TRADE": 0.03,
+   "MAX_POS": 5,
+   "COOLDOWN_H": 24,
+   "WATCH_S": 5
+  },
+  "note": "from README: peak 1.6x+ first-seen price, price back to 40 to 90% of peak, 12%+ bounce off the dip low, buys 65%+ of quote volume over the last 15 trades, real reserve 1.5 to 80 SOL, TP +30%, stop -22%, trailing armed at +12% sells at 88% of peak, 9,000-slot time stop, 0.3 SOL of 10 SOL per stake, max 5 positions, one entry per batch; chosen by me: GMGN rank has no peak or dip-low field, so run-up then pullback is read as 1h change 0 to 100% (still above where it was an hour ago but not at a fresh run) and the bounce as 5m change 12 to 60%, buy share 65% read as zoo up (buy count > sell count), 1.5 to 80 SOL read as liquidity 300 to 16000 USD (10 SOL = 2000 USD as x_survivor_curve), holder_count 20 as a floor of my own so dead coins are skipped, 9,000 slots at 0.4 s = MAX_HOLD_H 1.0, PER_TRADE 0.03, COOLDOWN_H 24, WATCH_S 5 as the other curve recipes"
  }
 ]

@@ -1,68 +1,5 @@
 [
  {
-  "t": "2026-11-23 19:39",
-  "source": "งานวิจัย low-volatility anomaly (Frazzini-Pedersen, ทดลองกับเหรียญ)",
-  "title": "ถือ 3 ถึง 5 เหรียญที่แกว่งน้อยสุด ปรับทุกจันทร์",
-  "url": "",
-  "summary": "27 เหรียญใหญ่ Binance 2018-2026 จัดอันดับความผันผวน 14 หรือ 28 วัน ถือตัวต่ำสุด ได้ +0.6 ถึง +0.9% ต่อสัปดาห์ หลังค่าธรรมเนียม ไม่ชนะการสุ่มเหรียญ (p 0.10 ถึง 0.38) และแพ้ถือทุกเหรียญเท่ากัน (+1.1%) ขาดทุนน้อยกว่าแค่ในปีขาลง เพราะเกือบเท่ากับถือ BTC",
-  "verdict": "ลองแล้วตก",
-  "action": "ไม่เปิดบัญชี"
- },
- {
-  "t": "2026-11-23T20:02:20+07:00",
-  "source": "github",
-  "title": "dantecoderr/vwap-nq: VWAP trend ระหว่างวันมีบัฟเฟอร์ตามความผันผวน (Zarattini & Aziz 2023) บน NQ",
-  "url": "https://github.com/dantecoderr/vwap-nq",
-  "summary": "ปิดเหนือ VWAP ของวันบวกบัฟเฟอร์ 0.15 เท่าของ std รายวัน 14 วัน long ต่ำกว่า short ปิดทุกสิ้นวัน repo บอกว่าบัฟเฟอร์ลดการเทรดลง 85% และ NQ ยังบวกหลังต้นทุนทั้งช่วงทดสอบและปี 2025 ที่เก็บไว้",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "backtest Binance 15 นาที 2017-2026 (วัน UTC เริ่มดูแท่งที่สอง) หลังหัก 0.35%/ข้าง: แบบบัฟเฟอร์ VWAP BTC 8,857 ไม้ -0.66% ETH 8,700 ไม้ -0.58% SOL 6,708 ไม้ -0.64% ต่อไม้ ก่อนหัก +0.04/+0.12/+0.06% แบบ TWAP ใกล้กัน แบบไม่มีบัฟเฟอร์ตามงานวิจัย BTC 35,841 ไม้ -0.69% ติดลบทุกปีทุกเหรียญ permutation 3 ปีล่าสุดกริด 4 แบบ 200 รอบ p 0.184/0.005/0.234 (ETH ผ่านประตูแต่ยังติดลบ) เปิด fwd_vwapbuf.py แบบ TWAP เพราะ fetch ไม่มีวอลุ่ม พร้อมตัวแฝดสุ่มแท่งสุ่มฝั่ง test เดินทีละแท่งตรง backtest 100 ไม้"
- },
- {
-  "t": "2026-11-23T20:02:20+07:00",
-  "source": "github",
-  "title": "chellurikishore080-ans8260/double-supertrend-binance-backtest: Double SuperTrend 1 ชม. (ATR10 x1.5 และ x3.0)",
-  "url": "https://github.com/chellurikishore080-ans8260/double-supertrend-binance-backtest",
-  "summary": "แดชบอร์ด Streamlit ทดสอบ Double SuperTrend บนข้อมูล Binance Vision เข้า long เมื่อสองเส้นชี้ขึ้นพร้อมกันครั้งแรก ออกเมื่อเส้นเร็วกลับลง repo บอกเองว่าเลือกเหรียญตามวอลุ่มวันนี้จึงมี survivorship",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "อ่านกฎจาก app.py (ไม่ได้รัน) backtest Binance 1 ชม. 2017-2026 หลังหัก 0.35%/ข้าง: BTC 1,537 ไม้ -0.54% ETH 1,569 ไม้ -0.49% SOL 1,161 ไม้ -0.54% ต่อไม้ ก่อนหัก +0.16/+0.21/+0.16% ชนะ 28-30% มัธยฐาน -1.2 ถึง -1.7% ติดลบเกือบทุกปี permutation 200 รอบ p 0.095/0.095/0.726 เปิด fwd_dst.py พร้อมตัวแฝดเข้าแท่งสุ่มออกกฎเดียวกัน test เดินทีละแท่งบนหน้าต่าง 1,000 แท่งตรง backtest 59 ไม้"
- },
- {
-  "t": "2026-11-23T20:02:20+07:00",
-  "source": "github",
-  "title": "m3n4ce-dev/meme_traderv1: บอทเหรียญ pump.fun แบบ paper ทดสอบซื่อตรง หยุดเองเพราะไม่มี edge",
-  "url": "https://github.com/m3n4ce-dev/meme_traderv1",
-  "summary": "graduation plays (ซื้อปลาย bonding curve) 225 ไม้ +0.3% ต่อ SOL ตัด 3 ไม้ดีสุดติดลบ sniper เหรียญใหม่ 78 ไม้ -13.4% วัดต้นทุนไปกลับจริงได้มัธยฐาน 3.2% บวกค่าเครือข่ายราว 0.8% และพบว่าโมเดลคัดเหรียญดีเมื่อเข้าทันที แต่ช้า 0.5-2.5 วินาทีแล้วกำไรหาย",
-  "verdict": "ไอเดีย",
-  "action": "ท่าปลาย curve ต้องใช้ % ความคืบหน้าของ bonding curve ซึ่ง rank ของ GMGN ไม่มี ผลของเขาตรงกับบทเรียนเรา (ต้นทุนจริงราว 4% ตามเวลาซื้อไม่ทัน) จึงไม่ได้เพิ่ม x_"
- },
- {
-  "t": "2026-11-23T20:02:20+07:00",
-  "source": "github",
-  "title": "andinoworks/claude-trader: Claude เสนอ Claude อีกตัวค้าน โค้ดคุมความเสี่ยงตัดสิน (paper หุ้นสหรัฐกับ BTC)",
-  "url": "https://github.com/andinoworks/claude-trader",
-  "summary": "repo มีแค่คำอธิบาย ไม่มีโค้ดและยังไม่มีผล ตัวเทียบไม่ใช้ AI คือถือ 3 ETF ที่โมเมนตัม 6 เดือนสูงสุดและอยู่เหนือเส้น 200 วัน ที่เหลือถือพันธบัตรสั้น",
-  "verdict": "ไอเดีย",
-  "action": "ไม่มีกฎของ AI ให้ทดสอบ ตัวเทียบ ETF โมเมนตัมทดสอบบน Yahoo ได้ถ้ารู้รายชื่อ 46 ตัว (repo ไม่ได้ระบุ)"
- },
- {
-  "t": "2026-11-23T21:52:10+07:00",
-  "source": "github",
-  "title": "irwan11795/makefun-btc-race-24h-20261123-0511: ขา Washout (บอทแข่ง make.fun)",
-  "url": "https://github.com/irwan11795/makefun-btc-race-24h-20261123-0511",
-  "summary": "บอทแข่ง BTC 24 ชม. แท่ง 1 นาที: ราคาร่วง 4% ขึ้นไปใน 240 แท่งแล้วซื้อหมดหน้าตัก stop -3% ถือไม่เกิน 500 แท่ง อ้าง 8 จาก 10 หน้าต่างบวก",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "ย้ายไปแท่ง 15 นาที (16 แท่ง = 240 นาที ถือไม่เกิน 33 แท่ง) Binance 2020-2026 หลังหัก 0.35%/ข้าง BTC 349 ไม้ -0.39% ETH 681 ไม้ -0.58% SOL 1,438 ไม้ -0.29% ต่อไม้ ก่อนหัก +0.31/+0.12/+0.41% ชนะ 41-42% permutation 200 รอบ p 0.045/0.254/0.005 แรงเด้งมีจริงแต่เล็กกว่าต้นทุน เปิด fwd_washout.py BTC ETH SOL พร้อมตัวแฝดเข้าสุ่ม test เดินทีละแท่งได้ไม้ตรง backtest 12 ไม้ https://github.com/Oppabank01/papertrade-cloud/blob/main/fwd_washout.py"
- },
- {
-  "t": "2026-11-23T21:52:10+07:00",
-  "source": "github",
-  "title": "irwan11795/makefun-btc-race-24h-20261123-0511: ขา Range",
-  "url": "https://github.com/irwan11795/makefun-btc-race-24h-20261123-0511",
-  "summary": "ขาที่สองของบอทเดียวกัน: ปิดต่ำกว่า SMA90 เกิน 0.6% ซื้อ 25% ของเงิน ออกที่ +0.8% หรือกลับเหนือ SMA +0.6% stop -1.2% ถือไม่เกิน 360 แท่ง",
-  "verdict": "ลองแล้วตก",
-  "action": "แท่ง 15 นาที (SMA6 = 90 นาที ถือไม่เกิน 24 แท่ง) 2020-2026 หลังหัก 0.35%/ข้าง BTC 3,669 ไม้ -0.69% ETH 5,660 ไม้ -0.68% SOL 8,984 ไม้ -0.72% ต่อไม้ ก่อนหักราว 0% ทุกเหรียญ permutation p 0.726/0.577/1.000 ไม่มีแรงเด้งเลย เป้า 0.8% เล็กกว่าต้นทุนไปกลับ 0.7% ไม่เปิด forward เพราะรอบนี้ใช้โควตา 2 ไฟล์แล้ว"
- },
- {
   "t": "2026-11-23T21:52:10+07:00",
   "source": "github",
   "title": "fansevanoo/btc-race-acct3: RegimeDip v3 WinStreak (บอทแข่ง make.fun)",
@@ -2698,5 +2635,68 @@
   "summary": "ส่วนใหญ่เป็นโพสต์โปรโมตเอเจนต์และ prompt (helicerat0x, PairSync, catlerone, RohOnChain) ไม่มีกฎที่ตรวจได้ เจอโพสต์ ICC ของ Elneto264 ที่นำไปทดสอบ",
   "verdict": "ไอเดีย",
   "action": "PairSync (pair trading ด้วย Grok Bot) ใกล้ fwd_pairz ที่มีแล้ว ไม่เปิดซ้ำ ที่เหลือไม่มีกฎ"
+ },
+ {
+  "t": "2026-11-27T20:07:00+07:00",
+  "source": "github",
+  "title": "h05meigames/makefun-tiny-bot-gorun: Tiny Bot snap-back + trend ride บนแท่ง 1 ชม. Solana (งาน make.fun)",
+  "url": "https://github.com/h05meigames/makefun-tiny-bot-gorun",
+  "summary": "บอท long อย่างเดียว ซื้อเมื่อ RSI10 ต่ำกว่า 32 ปิดต่ำกว่า EMA24 2% และ 12 ชม. ลง 3% หรือ EMA6 ตัดขึ้น EMA24 พร้อม 12 ชม. ขึ้น 2% ขายเมื่อ RSI10 เกิน 65 +10% -12% หรือ EMA ตัดลง อ้างชนะถือเฉยๆ บนหน้าต่าง dev แค่ 136 แท่ง",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest Binance 1 ชม. ถึง 27 พ.ย. 69 หลังหัก 0.35%/ข้าง เข้าที่ open แท่งถัดไป: SOL 787 ไม้ -0.30% (ก่อนหัก +0.40% มัธยฐาน +0.44%) ETH 863 ไม้ -0.44% WIF 428 ไม้ -0.77% RAY 737 ไม้ -0.61% ตัวแฝดสุ่ม -0.56 -0.70 -0.99 -0.51% ตั้งแต่ 2025 -0.64 -0.87 -1.17 -0.53% permutation 200 รอบบน 6,000 แท่งล่าสุด p SOL 0.94 ETH 0.95 WIF 0.27 RAY 0.27 ไม่ผ่าน เปิด fwd_tinybot.py ทั้งที่ไม่ผ่านเพราะผู้ใช้ให้ลองท่าอ่อน (FARTCOIN POPCAT JITOSOL ไม่มีบน Binance spot ใช้ ETH แทน WETH) test เดินทีละแท่งตรง backtest 122 ไม้"
+ },
+ {
+  "t": "2026-11-27T20:07:00+07:00",
+  "source": "github",
+  "title": "tianyurx/supertrend-attribution: Supertrend 10/3 บน SPY แยกผลจากการถือน้อยลงกับการจับจังหวะ",
+  "url": "https://github.com/tianyurx/supertrend-attribution",
+  "summary": "งานวิจัยเล็กที่ล็อกกฎไว้ก่อน ช่วงทดสอบ 2021 ถึง 2025 Supertrend ได้ CAGR 7.35% แพ้ถือเฉยๆ 14.47% และแพ้ตัวควบคุมที่ถือสัดส่วนเท่ากัน ส่วนจับจังหวะติดลบ",
+  "verdict": "ลองแล้วตก",
+  "action": "ทำซ้ำบน SPY รายวัน Yahoo (สัญญาณปิดวัน t เทรด open t+1) 2021 ถึง 2025 ต้นทุน 5 bps เข้า 23 ไม้ ผลรวม +39.8 จุด ถือเฉยๆ +76.6 จุด ตัวควบคุมถือ 65% +49.9 จุด ต้นทุน 0.35% เหลือ +26.3 จุด ปี 2005 ถึง 2020 +95.1 จุด ตัวควบคุม +109.7 จุด permutation 200 รอบบน 3,000 วันล่าสุด p 0.54 แพ้ตัวควบคุมทุกช่วง ไม่เปิดบัญชี (ราคาหุ้นไม่ผ่าน byttrade.fetch และมีบัญชี supertrend บน Binance อยู่แล้ว)"
+ },
+ {
+  "t": "2026-11-27T20:07:00+07:00",
+  "source": "github",
+  "title": "kangrisuk-id/makefun-pumpbot-20261127: FlowGate v3 momentum ยืนยันด้วยแรงซื้อ บน pump.fun replay",
+  "url": "https://github.com/kangrisuk-id/makefun-pumpbot-20261127",
+  "summary": "ซื้อเหรียญบน curve ที่วอลุ่มซื้อตลอดอายุมากกว่าขาย 2.75 เท่า 40 ไม้ขึ้นไป ผู้ซื้อ 20+ stop -14% TP +35% ตาม 20% หลัง +30% ถือราว 17 นาที อ้าง +0.068 SOL 68 ไม้บนเทปที่จูนเอง",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_flowgate (curve อายุ 24 วิ ถึง 72 นาที สภาพคล่อง 500 ถึง 14k ซื้อ 30+ คนถือ 20+ up ขึ้น 1 ชม. 15 ถึง 700% ไม้ละ 1%) ตัวเลขที่แปลงเองอยู่ใน note import zoo ไม่มี skip test_zoo ผ่าน"
+ },
+ {
+  "t": "2026-11-27T20:07:00+07:00",
+  "source": "github",
+  "title": "Jeytm/pump-fun-bot-sprint-20261127: Pullback Rider ซื้อตอนเด้งหลังย่อของเหรียญที่เคยวิ่ง",
+  "url": "https://github.com/Jeytm/pump-fun-bot-sprint-20261127",
+  "summary": "ซื้อเหรียญบน curve ที่เคยขึ้น 1.6 เท่า ย่อเหลือ 40 ถึง 90% ของยอด แล้วเด้ง 12%+ พร้อมแรงซื้อ 65% TP +30% stop -22% ตาม 12% อ้าง +0.388 SOL 80 ไม้ชนะ 45% บนเทปที่จูนเอง",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_pullback_rider (curve สภาพคล่อง 300 ถึง 16k ขึ้น 1 ชม. 0 ถึง 100% เด้ง 5 นาที 12 ถึง 60% คนถือ 20+ up ถือไม่เกิน 1 ชม. ไม้ละ 3%) GMGN ไม่มี field ยอดหรือจุดต่ำ จึงแปลงเป็นค่าเปลี่ยน 1 ชม. กับ 5 นาที เขียนไว้ใน note"
+ },
+ {
+  "t": "2026-11-27T20:07:00+07:00",
+  "source": "github",
+  "title": "กลุ่ม repo งาน make.fun Pump.fun Sharpe Sprint ใหม่ 27 พ.ย. (brendley224der CleanDip, hozin-king, redsparksz v4 v5, barubinan123-boop, nelsenwiliam, quintana111, lopeprof-design)",
+  "url": "https://github.com/brendley224der/u-jackxyz72-pump-fun-sharpe-sprint-cleanest-03e4f532",
+  "summary": "บอท pump.fun replay ใหม่อีกราว 10 ตัวในวันเดียว CleanDip ช้อน curve ที่ย่อ 25 ถึง 55% จาก high 8 นาที stop -3% TP +25% ถือ 2 นาที ผล dev ของตัวเอง -0.092 SOL 255 ไม้",
+  "verdict": "ไอเดีย",
+  "action": "ไม่เพิ่ม CleanDip เพราะผลของเจ้าของเองติดลบ และ stop -3% ต้องเห็นราคาทุกบล็อก ตัวอื่นยังไม่ได้อ่านไฟล์กลยุทธ์ ต้องใช้เทป pump.fun ระดับ trade (ขนาดซื้อ high ของหน้าต่าง slot) ถึงจะทดสอบได้"
+ },
+ {
+  "t": "2026-11-27T20:07:00+07:00",
+  "source": "github",
+  "title": "EricJi-coder/QuantAgents และ maxmoneycash/hlp-cli (เอเจนต์ LLM หุ้น และ CLI Hyperliquid)",
+  "url": "https://github.com/EricJi-coder/QuantAgents",
+  "summary": "QuantAgents ต่อ TradingAgents หลายเอเจนต์ LLM เข้ากับ QuantDinger เพื่อเทรดหุ้น hlp-cli เป็นเครื่องมือดูกราฟ vault และ backtest บน Hyperliquid ไม่มีกฎตัวเลข",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎที่สคริปต์ตัดสินได้ ต้องรันโมเดล LLM ทุกรอบและผลย้อนหลังของเอเจนต์ ไม่รันโค้ดที่ดาวน์โหลดมา"
+ },
+ {
+  "t": "2026-11-27T20:07:00+07:00",
+  "source": "x",
+  "title": "ค้น X 2 ครั้งรอบ 19:59 (mean reversion bot crypto backtest results, เทรดเหรียญมีม)",
+  "url": "https://x.com/search?q=mean%20reversion%20bot%20crypto%20backtest%20results",
+  "summary": "ได้โพสต์ offjayurena ที่ลงฟีดแล้ว และโพสต์ไทยเก่าปี 2023 ถึง 2024 เรื่องตามกระเป๋าเก่ง ไม่มีกฎตัวเลข",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีอะไรใหม่ให้ทดสอบ ตามกระเป๋าแพ้ครบ 2 บัญชีแล้วตาม lessons"
  }
 ]

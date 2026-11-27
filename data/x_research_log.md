@@ -995,3 +995,18 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 เพิ่ม x_: x_kopler_surge (Kopler12: บน curve อายุ 24 วิ ถึง 12 นาที สภาพคล่อง 400 ถึง 24k ซื้อ 12+ คนถือ 8+ ขึ้น 1 นาที 10 ถึง 200% stop -4% ขายครึ่ง +15% ตาม 8% หลัง +8% ถือ 10 นาที ไม้ละ 1.2%) ตัวเลขที่แปลงเองอยู่ใน note import zoo ไม่มี skip test_zoo ผ่าน
 ไอเดีย: hanadiana258 (ต้องข้อมูลเทปเปิดตัว ขนาดซื้อของผู้สร้างและผู้ซื้อ bundle), กลุ่ม MCP (เครื่องมือ ไม่มีกฎ), PairSync (ใกล้ fwd_pairz ที่มีแล้ว)
 ตัดทิ้ง: กลุ่ม sniper ไฟล์ Windows (ต้องรันโปรแกรมที่ดาวน์โหลดมา ลักษณะเหมือน malware)
+
+## 2026-11-27 20:07 (scout)
+ค้น: GitHub repo ใหม่ (mean reversion crypto ตั้งแต่ 20 พ.ย., supertrend ตั้งแต่ 20 พ.ย., quant agent ตั้งแต่ 22 พ.ย., rsi strategy ตั้งแต่ 20 พ.ย., pump.fun ตั้งแต่ 25 พ.ย.), X 2 ครั้ง (mean reversion bot crypto backtest results, เทรดเหรียญมีม), WebSearch 1 ครั้ง (งานวิจัย reversal และ weekend effect คริปโต ได้แต่ของที่ลงฟีดแล้ว)
+เจอ: h05meigames/makefun-tiny-bot-gorun (Tiny Bot แท่ง 1 ชม. Solana กฎครบ), tianyurx/supertrend-attribution (Supertrend 10/3 SPY ล็อกกฎไว้ก่อน แพ้ตัวควบคุม), งาน make.fun Pump.fun Sharpe Sprint ใหม่ราว 10 repo ในวันเดียว (FlowGate v3, Pullback Rider, CleanDip และอื่นๆ), EricJi-coder/QuantAgents กับ maxmoneycash/hlp-cli (เครื่องมือ ไม่มีกฎ) X ไม่มีของใหม่
+ทดสอบแล้ว Tiny Bot (Binance 1 ชม. ถึง 27 พ.ย. 69 long อย่างเดียว หลังหัก 0.35%/ข้าง สัญญาณปิดแท่ง เข้าออกที่ open แท่งถัดไป TP และ stop อ่านจากราคาปิดตาม repo SOL ETH WIF RAY เพราะ FARTCOIN POPCAT JITOSOL ไม่มีบน Binance spot):
+- SOL 787 ไม้ -0.30% ก่อนหัก +0.40% มัธยฐาน +0.44% ETH 863 ไม้ -0.44% WIF 428 ไม้ -0.77% RAY 737 ไม้ -0.61% ชนะราว 51 ถึง 54% ถือเฉลี่ย 22 ถึง 25 แท่ง ออกด้วย RSI10 เกิน 65 มากสุด
+- ตัวแฝดเข้าสุ่มออกแบบเดียวกัน SOL -0.56% ETH -0.70% WIF -0.99% RAY -0.51% กฎดีกว่าตัวแฝด 3 ใน 4 เหรียญแบบเฉียด ตั้งแต่ 2025 SOL -0.64% ETH -0.87% WIF -1.17% RAY -0.53%
+- permutation 200 รอบบน 6,000 แท่งล่าสุด (กฎเดียว ไม่มีกริด) p SOL 0.94 ETH 0.95 WIF 0.27 RAY 0.27 ไม่ผ่านประตู
+ลองแล้วตก Supertrend 10/3 SPY (Yahoo รายวัน สัญญาณปิดวัน t เทรด open t+1 ผลแบบ open ถึง open):
+- 2021 ถึง 2025 ต้นทุน 5 bps เข้า 23 ไม้ ผลรวม +39.8 จุด (repo ได้ +37.95) ถือเฉยๆ +76.6 จุด ตัวควบคุมถือ 65% ตลอด +49.9 จุด ต้นทุน 0.35% เหลือ +26.3 จุด
+- 2005 ถึง 2020 +95.1 จุด ตัวควบคุมสัดส่วนเท่ากัน +109.7 จุด permutation 200 รอบบน 3,000 วันล่าสุด p 0.54 ผลมาจากการถือตลาดบางส่วน ไม่ใช่การจับจังหวะ
+เปิดบัญชี: fwd_tinybot.py (SOL ETH WIF RAY ทุน 1 ใน 4 ต่อเหรียญ ตัวแฝดสุ่ม 1 ใน 70 แท่ง test เดินทีละแท่งด้วยหน้าต่าง 1,000 แท่งตรง backtest 122 ไม้ใน 4 เหรียญ) เปิดทั้งที่ไม่ผ่านเพราะผู้ใช้ให้ลองท่าอ่อน ตัวเลขที่เลือกเองอยู่ในคอมเมนต์ สคริปต์ /tmp/scout_1959/tiny.py และ st_spy.py
+เพิ่ม x_: x_flowgate (FlowGate v3: curve อายุ 24 วิ ถึง 72 นาที สภาพคล่อง 500 ถึง 14k ซื้อ 30+ คนถือ 20+ ขึ้น 1 ชม. 15 ถึง 700% stop -14% TP +35% ตาม 20% หลัง +30% ถือ 17 นาที) และ x_pullback_rider (Pullback Rider: curve สภาพคล่อง 300 ถึง 16k ขึ้น 1 ชม. 0 ถึง 100% เด้ง 5 นาที 12 ถึง 60% TP +30% stop -22% ตาม 12% หลัง +12% ถือ 1 ชม.) ตัวเลขที่แปลงเองอยู่ใน note import zoo ไม่มี skip test_zoo ผ่าน
+ไอเดีย: CleanDip และงาน Sharpe Sprint ตัวอื่น (ผล dev ของ CleanDip เองติดลบ ต้องเทป pump.fun ระดับ trade), QuantAgents กับ hlp-cli (ไม่มีกฎ ต้องรัน LLM)
+ตัดทิ้ง: ไม่มี
