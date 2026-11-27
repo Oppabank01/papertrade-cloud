@@ -1,34 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.3238513011196469,
+ "cash": 1.7382988141415514,
  "pos": {
-  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
-   "sym": "Buttcoin",
-   "qty": 76.11856727153136,
-   "entry": 0.005489,
-   "last": 0.005612,
-   "peak": 0.005694,
-   "cost": 0.43064813002827834,
-   "opened": "2026-11-27T08:57:22+07:00",
-   "zoo": "w_ban_bigliq",
-   "smart": 543,
-   "kol": 51,
-   "gap": 0,
-   "miss": 0
-  },
   "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
    "sym": "FLOAT",
    "qty": 126.18248912527208,
    "entry": 0.003309,
-   "last": 0.003442,
+   "last": 0.0033611268758380755,
    "peak": 0.00352,
    "cost": 0.4303626638997375,
    "opened": "2026-11-27T09:07:31+07:00",
    "zoo": "w_ban_bigliq",
    "smart": 382,
    "kol": 35,
-   "gap": 0,
+   "gap": 3,
    "miss": 0
   }
  },
@@ -4645,10 +4631,25 @@
    "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
    "sym": "FLOAT",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-27T11:57:33+07:00",
+   "kind": "sell",
+   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+   "sym": "Buttcoin",
+   "price": 0.005612,
+   "entry": 0.005489,
+   "usd": 0.4144,
+   "pnl": -0.0162,
+   "why": "ครบ 3 ชม. (+2.2%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 543,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795754860.224194,
+ "rank_t": 1795755338.552837,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
