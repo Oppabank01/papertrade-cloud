@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 2.751153325703508,
+ "cash": 1.2762270720161926,
  "pos": {
   "KXWTI-26NOV2714-T82.99:yes": {
    "qty": 0.8269452146281397,
@@ -127,7 +127,7 @@
   "KXLOWTSDF-26NOV28-T33:yes": {
    "qty": 0.7549113938906525,
    "entry": 0.976887,
-   "last": 0.94,
+   "last": 0.95,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T23:13:05+00:00",
    "coin": "YES | Will the minimum temperature be >33° on Nov 28, 2026?",
@@ -183,6 +183,30 @@
    "side": "yes",
    "close": "2026-11-29T19:00:00Z",
    "why": "fav ask 0.96 ทุน 0.967 ปิด 2026-11-29T19:00:00Z"
+  },
+  "KXHIGHTSEA-26NOV27-B48.5:yes": {
+   "qty": 0.785197647423473,
+   "entry": 0.9392070000000001,
+   "last": 0.92,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-27T23:43:02+00:00",
+   "coin": "YES | Will the maximum temperature be 48-49° on Nov 27, 2026?",
+   "ticker": "KXHIGHTSEA-26NOV27-B48.5",
+   "side": "yes",
+   "close": "2026-11-28T09:00:00Z",
+   "why": "fav ask 0.93 ทุน 0.939 ปิด 2026-11-28T09:00:00Z"
+  },
+  "KXTSAD-26NOV27-T2300000:yes": {
+   "qty": 0.8182188751659075,
+   "entry": 0.901303,
+   "last": 0.86,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-27T23:43:02+00:00",
+   "coin": "YES | At least 2,300,000 passengers TSA passenger screenings on November 27, 2026?",
+   "ticker": "KXTSAD-26NOV27-T2300000",
+   "side": "yes",
+   "close": "2026-11-28T11:59:00Z",
+   "why": "fav ask 0.89 ทุน 0.901 ปิด 2026-11-28T11:59:00Z"
   }
  },
  "log": [
@@ -3050,6 +3074,24 @@
    "usd": 0.7374631268436579,
    "why": "fav ask 0.96 ทุน 0.967 ปิด 2026-11-29T19:00:00Z",
    "ask": 0.96
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-27T23:43:02+00:00",
+   "coin": "YES | Will the maximum temperature be 48-49° on Nov 27, 2026?",
+   "px": 0.93921,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.93 ทุน 0.939 ปิด 2026-11-28T09:00:00Z",
+   "ask": 0.93
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-27T23:43:02+00:00",
+   "coin": "YES | At least 2,300,000 passengers TSA passenger screenings on November 27, 2026?",
+   "px": 0.9013,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.89 ทุน 0.901 ปิด 2026-11-28T11:59:00Z",
+   "ask": 0.89
   }
  ],
  "seen": null,
@@ -3198,6 +3240,8 @@
   "KXHIGHDEN-26NOV28": 1795821674,
   "KXOPENSOURCESHARE-26NOV29": 1795821674,
   "KXBTCD-26NOV2817": 1795822292,
-  "KXEERSTEDIVTOTAL-26NOV27VENWAA": 1795822292
+  "KXEERSTEDIVTOTAL-26NOV27VENWAA": 1795822292,
+  "KXHIGHTSEA-26NOV27": 1795822981,
+  "KXTSAD-26NOV27": 1795822981
  }
 }
