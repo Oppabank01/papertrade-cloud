@@ -1,20 +1,20 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.69723691945914,
- "cash": 14.119501296606124,
+ "cash": 13.672755737371507,
  "pos": {
   "AQFzxjKB66sXWHBUrEPpnrxQokPU3eDKKkkyprHBpump": {
    "sym": "SNOWBALLO",
    "qty": 2286.1015767123868,
    "entry": 9.332e-05,
-   "last": 0.0001212,
-   "peak": 0.0001233,
+   "last": 0.00012804389649837442,
+   "peak": 0.0001313,
    "cost": 0.21989177400412277,
    "opened": "2026-11-28T00:31:47+07:00",
    "zoo": "x_solpaper_v3",
    "smart": 2,
    "kol": 0,
-   "gap": 0,
+   "gap": 1,
    "miss": 0,
    "half": true
   },
@@ -22,7 +22,7 @@
    "sym": "CINU",
    "qty": 1940.4060990556538,
    "entry": 0.0002205,
-   "last": 0.0002349,
+   "last": 0.0002529,
    "peak": 0.0002584,
    "cost": 0.44100138614901224,
    "opened": "2026-11-28T00:41:35+07:00",
@@ -30,6 +30,20 @@
    "smart": 50,
    "kol": 2,
    "gap": 0,
+   "miss": 0
+  },
+  "8ob6WB1VTJasK2r6EjzbMyJ5Zv8bd6jDsTtahvxunyLV": {
+   "sym": "67",
+   "qty": 8325.634682470727,
+   "entry": 5.206e-05,
+   "last": 5.502e-05,
+   "peak": 5.973e-05,
+   "cost": 0.4467455592346176,
+   "opened": "2026-11-28T01:40:09+07:00",
+   "zoo": "x_solpaper_v3",
+   "smart": 58,
+   "kol": 5,
+   "gap": 5,
    "miss": 0
   }
  },
@@ -183,10 +197,24 @@
    "cost_side": 0.03,
    "smart": 97,
    "bundler": null
+  },
+  {
+   "t": "2026-11-28T01:40:09+07:00",
+   "kind": "buy",
+   "mint": "8ob6WB1VTJasK2r6EjzbMyJ5Zv8bd6jDsTtahvxunyLV",
+   "sym": "67",
+   "price": 5.206e-05,
+   "jup": 5.170998243364589e-05,
+   "usd": 0.4467,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_solpaper_v3",
+   "smart": 58,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: บอท paper เหรียญใหม่ Solana v3 (myfufufafa) แบบที่ zoo เช็กได้: อายุไม่เกิน 24 ชม. มาร์เก็ตแคป 5k ถึง 500k ไม่พุ่งเกิน 100% ใน 1 ชม. และไม่ขยับเกิน 10% ใน 5 นาที ผ่าน RugCheck ขายครึ่ง +25% ขายหมด +50% stop -15% ตาม 10% หลัง +25% ถือไม่เกิน 24 ชม. ไม้ละ 3%",
  "night": "2026-11-27",
  "night_start": 14.69723691945914,
- "rank_t": 1795804211.0912175
+ "rank_t": 1795804738.2871761
 }
