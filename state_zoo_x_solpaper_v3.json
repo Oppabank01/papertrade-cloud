@@ -1,42 +1,43 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.69723691945914,
- "cash": 13.36280348431462,
+ "cash": 13.62342169429897,
  "pos": {
   "63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": {
    "sym": "DEXDATA",
-   "qty": 2362.560956652032,
+   "qty": 1181.280478326016,
    "entry": 0.0001808,
-   "last": 0.0001985,
-   "peak": 0.00021196311523335917,
-   "cost": 0.44027109973478395,
+   "last": 0.0002274,
+   "peak": 0.0002274,
+   "cost": 0.22013554986739198,
    "opened": "2026-11-28T00:09:21+07:00",
    "zoo": "x_solpaper_v3",
    "smart": 97,
    "kol": 5,
-   "gap": 2,
-   "miss": 0
+   "gap": 0,
+   "miss": 0,
+   "half": true
   },
   "AQFzxjKB66sXWHBUrEPpnrxQokPU3eDKKkkyprHBpump": {
    "sym": "SNOWBALLO",
    "qty": 4572.2031534247735,
    "entry": 9.332e-05,
-   "last": 0.00010736722726492787,
-   "peak": 0.0001115,
+   "last": 0.00011583029368817328,
+   "peak": 0.00011583029368817328,
    "cost": 0.43978354800824554,
    "opened": "2026-11-28T00:31:47+07:00",
    "zoo": "x_solpaper_v3",
    "smart": 2,
    "kol": 0,
-   "gap": 2,
+   "gap": 4,
    "miss": 0
   },
   "CvXQ9qEriGgTbMWyF8L1U7oqn9ev8A49N1dzNE8cpump": {
    "sym": "CINU",
    "qty": 1940.4060990556538,
    "entry": 0.0002205,
-   "last": 0.0001955,
-   "peak": 0.0002205,
+   "last": 0.0002318,
+   "peak": 0.0002318,
    "cost": 0.44100138614901224,
    "opened": "2026-11-28T00:41:35+07:00",
    "zoo": "x_solpaper_v3",
@@ -161,10 +162,20 @@
    "cost_side": 0.03,
    "smart": 51,
    "bundler": null
+  },
+  {
+   "t": "2026-11-28T01:29:02+07:00",
+   "kind": "sell",
+   "mint": "63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump",
+   "sym": "DEXDATA",
+   "price": 0.0002274,
+   "usd": 0.2606,
+   "pnl": 0.0405,
+   "why": "ขายครึ่ง +25.8%"
   }
  ],
  "label": "สวนสัตว์: บอท paper เหรียญใหม่ Solana v3 (myfufufafa) แบบที่ zoo เช็กได้: อายุไม่เกิน 24 ชม. มาร์เก็ตแคป 5k ถึง 500k ไม่พุ่งเกิน 100% ใน 1 ชม. และไม่ขยับเกิน 10% ใน 5 นาที ผ่าน RugCheck ขายครึ่ง +25% ขายหมด +50% stop -15% ตาม 10% หลัง +25% ถือไม่เกิน 24 ชม. ไม้ละ 3%",
  "night": "2026-11-27",
  "night_start": 14.69723691945914,
- "rank_t": 1795803070.688837
+ "rank_t": 1795803689.1338184
 }
