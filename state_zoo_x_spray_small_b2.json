@@ -7,7 +7,7 @@
    "sym": "USOI",
    "qty": 10.738304971283002,
    "entry": 0.0114,
-   "last": 0.01141,
+   "last": 0.0114,
    "peak": 0.01142,
    "cost": 0.12617674363288622,
    "opened": "2026-11-27T08:22:59+07:00",
@@ -21,21 +21,21 @@
    "sym": "CBUCKS",
    "qty": 16.476434779452962,
    "entry": 0.007447,
-   "last": 0.007846411043235498,
+   "last": 0.007723,
    "peak": 0.007976,
    "cost": 0.12646877942958792,
    "opened": "2026-11-27T08:47:17+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 42,
    "kol": 0,
-   "gap": 2,
+   "gap": 0,
    "miss": 0
   },
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 22.234655462909924,
    "entry": 0.005489,
-   "last": 0.005572,
+   "last": 0.005622,
    "peak": 0.005694,
    "cost": 0.1257947060770074,
    "opened": "2026-11-27T08:57:30+07:00",
@@ -63,7 +63,7 @@
    "sym": "Ansemmas",
    "qty": 421.1418865200434,
    "entry": 0.0002964,
-   "last": 0.0002968,
+   "last": 0.0002951,
    "peak": 0.0002979,
    "cost": 0.12866053923370527,
    "opened": "2026-11-27T10:38:30+07:00",
@@ -77,22 +77,22 @@
    "sym": "bro",
    "qty": 2763.0340001406717,
    "entry": 4.511e-05,
-   "last": 4.735e-05,
-   "peak": 4.735e-05,
+   "last": 4.754e-05,
+   "peak": 4.754e-05,
    "cost": 0.12846883503024706,
    "opened": "2026-11-27T10:38:30+07:00",
    "zoo": "x_spray_small_b2",
    "smart": 97,
    "kol": 5,
-   "gap": 0,
+   "gap": 16,
    "miss": 0
   },
   "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": {
    "sym": "JOB",
    "qty": 67.70848218894515,
    "entry": 0.001835,
-   "last": 0.001841,
-   "peak": 0.001863,
+   "last": 0.00187,
+   "peak": 0.00187,
    "cost": 0.12806129129737617,
    "opened": "2026-11-27T10:45:53+07:00",
    "zoo": "x_spray_small_b2",
@@ -14469,10 +14469,17 @@
    "cost_side": 0.03,
    "smart": 71,
    "bundler": null
+  },
+  {
+   "t": "2026-11-27T11:19:04+07:00",
+   "kind": "ban",
+   "mint": "8wbxHYCKbGimALpDvNkxcvzGm1tAG4GN69Jzfejtpump",
+   "sym": "bro",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: หว่านไม้เล็กหลายตัว ตัดกำไร 50% ตัดขาดทุน 15%",
- "rank_t": 1795752207.7858312,
+ "rank_t": 1795752754.7154632,
  "banned": {
   "GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": "VEIL",
   "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": "three",
@@ -14547,6 +14554,7 @@
   "J9eBkCb4UtquAMQqB6duwBmR99fFSMoTnDcaMB9Wpump": "Investor",
   "DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump": "Zero",
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings",
-  "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg": "USOI"
+  "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg": "USOI",
+  "8wbxHYCKbGimALpDvNkxcvzGm1tAG4GN69Jzfejtpump": "bro"
  }
 }
