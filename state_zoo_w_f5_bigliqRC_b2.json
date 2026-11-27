@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 2.9573882688474007,
+ "cash": 2.9113851523334056,
  "pos": {
-  "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
-   "sym": "TROLL",
-   "qty": 66.60411988671827,
-   "entry": 0.02232,
-   "last": 0.02263,
-   "peak": 0.02273,
-   "cost": 1.5322654667816449,
-   "opened": "2026-11-27T10:46:01+07:00",
-   "zoo": "w_f5_bigliqRC_b2",
-   "smart": 480,
-   "kol": 214,
-   "gap": 0,
-   "miss": 0
-  },
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
    "sym": "CATE",
    "qty": 79.28997017436967,
    "entry": 0.01865,
-   "last": 0.01927,
+   "last": 0.01903,
    "peak": 0.01972,
    "cost": 1.5241784619171248,
    "opened": "2026-11-27T11:05:29+07:00",
@@ -35,13 +21,27 @@
    "sym": "mihao",
    "qty": 243.80454625208978,
    "entry": 0.005981,
-   "last": 0.006397,
+   "last": 0.00629607566099951,
    "peak": 0.006456,
    "cost": 1.5029839117024832,
    "opened": "2026-11-27T12:58:02+07:00",
    "zoo": "w_f5_bigliqRC_b2",
    "smart": 821,
    "kol": 75,
+   "gap": 1,
+   "miss": 0
+  },
+  "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": {
+   "sym": "baton",
+   "qty": 357.2728961363102,
+   "entry": 0.004096,
+   "last": 0.003998,
+   "peak": 0.004104,
+   "cost": 1.5083382628059436,
+   "opened": "2026-11-27T13:41:06+07:00",
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 739,
+   "kol": 80,
    "gap": 0,
    "miss": 0
   }
@@ -1840,10 +1840,39 @@
    "zoo": "w_f5_bigliqRC_b2",
    "smart": 821,
    "kol": 75
+  },
+  {
+   "t": "2026-11-27T13:41:06+07:00",
+   "kind": "buy",
+   "mint": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
+   "sym": "baton",
+   "price": 0.004096,
+   "jup": 0.0040989973590354395,
+   "usd": 1.5083,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 739,
+   "kol": 80
+  },
+  {
+   "t": "2026-11-27T13:46:03+07:00",
+   "kind": "sell",
+   "mint": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
+   "sym": "TROLL",
+   "price": 0.02263,
+   "entry": 0.02232,
+   "usd": 1.4623,
+   "pnl": -0.0699,
+   "why": "ครบ 3 ชม. (+1.4%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": 480,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ bigliqRC แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1795761012.8555226,
+ "rank_t": 1795761595.9756927,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT"
  }
