@@ -979,3 +979,19 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 เพิ่ม x_: x_survivor_curve (Ryan-zhi: บน curve อายุ 100 วิ คนถือ 12+ ซื้อ 40+ stop -15% ตาม 28% หลัง +20% ถือ 2 นาที) และ x_khascane_curve (บน curve 5 นาทีบวก แรงซื้อนำ ขึ้น 1 ชม. ไม่เกิน 50% TP +28% stop -12% ถือ 30 นาที) ตัวเลขที่เลือกเองอยู่ใน note import zoo ไม่มี skip test_zoo ผ่าน
 ไอเดีย: งาน make.fun ตัวอื่น (ต้องอ่านไฟล์กลยุทธ์ .ts และ leaderboard), grid bot (ไม่มีชุดพารามิเตอร์), everyonebpup (ต้องเธรดเต็ม), Alpha Arena รอบใหม่ (ต้อง leaderboard ของ Nof1)
 ตัดทิ้ง: ไม่มี
+
+## 2026-11-27 18:13 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 20 พ.ย. (mcp trading, solana sniper, crypto strategy backtest, trading indicator strategy ตั้งแต่ 22 พ.ย.), X 3 ครั้ง (ai trading agent backtest sharpe crypto, profit factor backtest BTC strategy rules entry exit, from:Elneto264 ICC), WebSearch 1 ครั้ง (งานวิจัย intraday momentum คริปโต)
+เจอ: Kopler12/kopler-pump-bot (Surge Sniper งาน make.fun กฎครบใน README), hanadiana258/pumpfun-launch-sniper (README ไม่มีตัวเลข), byttrade/free-crypto-trading-bot (มีบัญชีใน byttrade.py แล้ว), กลุ่ม sniper ไฟล์ Windows (dmitry-k-code19w1, bettysuzuki), กลุ่ม MCP เอเจนต์เทรด (cubrik-mcp, clearfills, yfinance-agent-mcp, tradingview-chip), Elneto264 (ทดสอบ ICC แบบกฎตายตัวไม่ผ่านสักตลาด), งาน Bitcoin intraday time series momentum (Shen, Urquhart, Wang 2022) ส่วน KenIDN24, EricPy, Boluwatifetade, zhengui666, IngTian, Exezyra และ Shelpid ลงฟีดแล้ว
+ทดสอบแล้ว ICC ฉบับกลไกที่เขียนเอง (Binance 4 ชม. 2017 ถึง 27 พ.ย. 69 หลังหัก 0.35%/ข้าง 8 เหรียญ BTC ETH SOL BNB XRP DOGE ADA LINK ทะลุจุดสูง N แท่ง ย่ออย่างน้อย 1 ATR14 ภายใน 12 แท่ง ปิดเหนือจุดสูงอีกครั้งภายใน 12 แท่ง stop จุดต่ำของการย่อ เป้า 2R ถือไม่เกิน 30 แท่ง ตัวเลขทั้งหมดเลือกเอง):
+- N20 long+short 2,455 ไม้ -0.32% ต่อไม้ N20 long 1,418 ไม้ +0.13% N50 long+short 1,533 ไม้ -0.04% N50 long 908 ไม้ +0.85% มัธยฐาน -2.80% ชนะ 41%
+- N50 long รายเหรียญ BTC 136 ไม้ +0.34% ETH +0.82% SOL +0.27% BNB +0.93% XRP +2.29% DOGE +3.77% ADA -0.13% LINK -0.18% ตัวแฝดเข้าสุ่มออกแบบเดียวกันแพ้กฎครบ 8 เหรียญ แต่ตั้งแต่ 2025 ติดลบ 6 ใน 8 เหรียญ
+- permutation 200 รอบบน 6,000 แท่งล่าสุด กริด 4 แบบ p BTC 0.552 ETH 0.070 SOL 0.567 BNB 0.328 XRP 0.010 DOGE 0.055 ADA 0.433 LINK 0.806 ไม่ผ่านประตู
+ลองแล้วตก intraday momentum (Binance 1 ชม. 2017 ถึง 27 พ.ย. 69 BTC ETH SOL BNB XRP สัญญาณ 1 หรือ 2 ชม. แรกตามเวลา UTC 8 แบบ แท่ง 1 ชม. แทนครึ่งชั่วโมงเป็นค่าที่เลือกเอง):
+- ถือชั่วโมงสุดท้ายตามทิศสัญญาณ ก่อนหัก -0.02% ถึง +0.10% ต่อไม้ หลังหัก -0.60% ถึง -0.74% เท่ากับตัวแฝดทิศสุ่ม ราว 2,300 ถึง 3,400 ไม้ต่อเหรียญ
+- ถือทั้งวันที่เหลือ long อย่างเดียว ก่อนหัก +0.08% ถึง +0.21% แพ้ตัวแฝด จึงเป็นแค่ขาขึ้นของตลาด
+- permutation 200 รอบบน 6,000 แท่งล่าสุด p BTC 0.209 ETH 0.403 SOL 0.552 BNB 0.373 XRP 0.552 ไม่เปิดบัญชีเพราะก่อนหักไม่มีอะไรเหลือ สคริปต์ /tmp/scout_1813/itsm.py
+เปิดบัญชี: fwd_icc.py (N50 long อย่างเดียว 8 เหรียญ ทุน 1 ใน 8 ต่อเหรียญ ตัวแฝดสุ่ม 1 ใน 160 แท่ง stop จุดต่ำ 6 แท่ง test เดินทีละแท่งด้วยหน้าต่าง 3,000 แท่ง XRP กับ ETH ตรง backtest 18 ไม้) เปิดทั้งที่ไม่ผ่านเพราะผู้ใช้ให้ลองท่าอ่อน ตัวเลขที่เลือกเองอยู่ในคอมเมนต์ สคริปต์ /tmp/scout_1813/icc.py
+เพิ่ม x_: x_kopler_surge (Kopler12: บน curve อายุ 24 วิ ถึง 12 นาที สภาพคล่อง 400 ถึง 24k ซื้อ 12+ คนถือ 8+ ขึ้น 1 นาที 10 ถึง 200% stop -4% ขายครึ่ง +15% ตาม 8% หลัง +8% ถือ 10 นาที ไม้ละ 1.2%) ตัวเลขที่แปลงเองอยู่ใน note import zoo ไม่มี skip test_zoo ผ่าน
+ไอเดีย: hanadiana258 (ต้องข้อมูลเทปเปิดตัว ขนาดซื้อของผู้สร้างและผู้ซื้อ bundle), กลุ่ม MCP (เครื่องมือ ไม่มีกฎ), PairSync (ใกล้ fwd_pairz ที่มีแล้ว)
+ตัดทิ้ง: กลุ่ม sniper ไฟล์ Windows (ต้องรันโปรแกรมที่ดาวน์โหลดมา ลักษณะเหมือน malware)

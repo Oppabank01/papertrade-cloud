@@ -1,77 +1,5 @@
 [
  {
-  "t": "2026-11-23T16:15:00+07:00",
-  "source": "idea",
-  "title": "หุ้นสหรัฐ RSI(2) ต่ำกว่า 5 ซื้อ SPY QQQ IWM (Connors)",
-  "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY",
-  "summary": "backtest 2005-2026 SPY 574 ไม้ +0.32%/ไม้ (วันสุ่ม +0.12%, p 0.003) ตั้งแต่ 2020 +0.43% QQQ +0.44% (p 0.007) IWM +0.23% (p 0.14) ถือเฉลี่ย 3 วัน ชนะราว 68%",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "state_fwd_rsi2us คู่กับตัวควบคุมวันสุ่ม ราว 80 ไม้ต่อปีรวม 3 ETF ครบ 50 ไม้ในราว 7 เดือน"
- },
- {
-  "t": "2026-11-23T16:15:00+07:00",
-  "source": "idea",
-  "title": "ผล: VIX พุ่งแล้วซื้อหุ้นสหรัฐ",
-  "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX",
-  "summary": "VIX z-score 20 วันเกิน 2 หรือ 3 ถือ 10 ถึง 20 วัน ชนะวันสุ่มไม่ชัด (p 0.04 ถึง 0.66) ส่วน VIX ข้าม 30 ถือ 20 วันได้ +2.9%/ไม้ (p 0.005 ถึง 0.02) แต่มีแค่ 32 ครั้งใน 21 ปี",
-  "verdict": "ทดสอบแล้ว",
-  "action": "ไม่เปิดบัญชี VIX ข้าม 30 เกิดปีละราว 1-2 ครั้ง เปิดไว้ก็ไม่ได้ข้อมูลพอตัดสิน"
- },
- {
-  "t": "2026-11-23T16:44:17+07:00",
-  "source": "x",
-  "title": "StacyOnChain: ศึกษา 8 เดือน เฟดการล้างพอร์ตบน Hyperliquid ตัวกรอง 2% และรอแท่งกลับตัว",
-  "url": "https://x.com/stacyonchain/status/2122691232149180644",
-  "summary": "โพสต์อ้างว่าสวนการล้างพอร์ตแบบทั่วไปได้ +0.01% ต่อไม้หลังหักค่าธรรมเนียม ใส่ตัวกรอง 2% ได้ +0.22% บวกทั้ง 7 เหรียญ และมีการเช็กแท่งกลับตัวเพิ่ม ไม่มีข้อมูลการล้างพอร์ตของเรา จึงใช้แท่ง 15 นาทีที่ขยับเกิน 2% แทน",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "backtest Binance 15 นาที 2017-2026 หลังหัก 0.35%/ข้าง ถือ 1 ชม. (ผมเลือก) กริด 4 แบบ (1% กับ 2% เปิดปิดการรอกลับตัว): แบบ 2% รอกลับตัว BTC 590 ไม้ -0.40% ETH 1,001 ไม้ -0.61% SOL 1,423 ไม้ -0.49% ก่อนหัก +0.30/+0.09/+0.21% (รูปแบบตรงกับโพสต์ ยิ่งกรองยิ่งดีก่อนหัก) ปี 2024+ -0.50/-0.77/-0.67% permutation 200 รอบ 3 ปีล่าสุดทั้งกริด BTC p 0.02 SOL p 0.005 แต่ติดลบหลังหักทุกแบบ เปิด fwd_cascade.py พร้อมตัวแฝดสุ่มแท่งสุ่มฝั่ง test เดินทีละแท่งตรงกับ backtest"
- },
- {
-  "t": "2026-11-23T16:44:17+07:00",
-  "source": "github",
-  "title": "Allencake/orderflow-research-desk: อินดิเคเตอร์ order flow 'ฝั่งขายทุบสองครั้งไม่หลุด' ในโซน fib 0.705-0.886",
-  "url": "https://github.com/Allencake/orderflow-research-desk",
-  "summary": "อินดิเคเตอร์ TradingView 5 นาที (21 ดาว) ดูทิศ EMA50 แท่ง 1 และ 4 ชม. ราคาต้องอยู่นอกแถบ VWAP 1 SD แท่งวอลุ่ม 1.5 เท่าทุบในโซน fib ไม่หลุดสองครั้งแล้วเข้า stop ใต้จุดต่ำ 0.1 ATR เป้า 2R trailing 1.5 ATR วันละไม่เกิน 2 ไม้ แล้วส่งให้ AI ตัดสินซ้ำ",
-  "verdict": "ทดสอบแล้ว",
-  "action": "สร้างตาม pine ทุกตัวเลขบนแท่ง 15 นาที BTC 2017-2026 (repo ใช้ 5 นาที ผมเลือก 15 นาทีเพื่อประหยัดแรม เข้าที่ open แท่งถัดไป): แค่ 18 ไม้ใน 9 ปี หลังหัก 0.35%/ข้าง -0.47% ต่อไม้ มัธยฐาน -0.45% ชนะ 22% ก่อนหัก +0.23% permutation 200 รอบ p 0.035 (ข้อมูลสลับแย่กว่า -0.73%) เปิด forward ไม่ได้เพราะ byttrade.fetch ไม่มีวอลุ่ม ถ้าจะเปิดต้องเพิ่มวอลุ่มใน fetch ก่อน"
- },
- {
-  "t": "2026-11-23T16:44:17+07:00",
-  "source": "github",
-  "title": "Aloento/InfinityCryptoSignals-Teardown: backtest ช่อง Telegram VIP แบบเสียเงิน 26,009 สัญญาณ 4 ปี",
-  "url": "https://github.com/Aloento/InfinityCryptoSignals-Teardown",
-  "summary": "คนดึงสัญญาณทั้งหมดของช่องเสียเงินมาเล่นซ้ำด้วยแท่ง 1 นาที ช่อง High Leverage -0.11% ต่อไม้ stop จริงห่าง 50% ประกาศกำไรเป็นแค่ระยะ TP คูณเลเวอเรจ สลับทิศสุ่มได้ใกล้เคียงกัน ลองสวนสัญญาณดูว่ากลับด้านแล้วได้ไหม",
-  "verdict": "ลองแล้วตก",
-  "action": "ใช้ไฟล์ไม้ 7,788 ไม้ของ repo (อ่านเป็นข้อมูล ไม่ได้รันโค้ด) สวนทุกสัญญาณแบบประมาณ (บวกต้นทุนเขาคืนราว 0.12% กลับเครื่องหมาย หัก 0.35%/ข้าง): -0.71% ต่อไม้ มัธยฐาน -0.94% ชนะ 34% ติดลบทุกปี 2022-2026 แม้ใช้ต้นทุนเขาเองก็ -0.12% ก่อนหักสัญญาณเขาเกือบศูนย์ (+0.01%) จึงไม่มีอะไรให้สวน"
- },
- {
-  "t": "2026-11-23T16:44:17+07:00",
-  "source": "github",
-  "title": "กลุ่ม repo บอท Hyperliquid/Polymarket ดาวปั่น ชื่อลงท้ายสุ่มและ 'portable x64'",
-  "url": "https://github.com/andreygeng05f8/hyperliquid-perp-market-maker-bot-portable",
-  "summary": "repo ใหม่หลายตัวชื่อคล้ายกันดาว 38 ถึง 225 (thecoolmann, jeyaprathakrish-wq, muhammadfaiez40-source, DharmeshAherwal, mike-garcia-x2000a6, samh-code92f5) ให้ดาวน์โหลดไฟล์รันสำเร็จรูป",
-  "verdict": "ตัดทิ้ง",
-  "action": "ต้องรันไฟล์ที่ดาวน์โหลดและผูกคีย์กระดาน ทรงมัลแวร์ ไม่ได้เปิดอ่านโค้ด"
- },
- {
-  "t": "2026-11-23T16:44:17+07:00",
-  "source": "x",
-  "title": "GoldRush: MACD BTC 1 ชม. บน Hyperliquid 88 วัน ค่าธรรมเนียม 8.5 bps ต่อข้างกินกำไร",
-  "url": "https://x.com/goldrushdev/status/2123030996933345359",
-  "summary": "โพสต์โปรโมตเครื่องมือ backtest เตือนว่า MACD 35 รอบใน 88 วันจ่ายค่าธรรมเนียม $60 ไม่มีกฎใหม่ MACD ทดสอบไปแล้วในรอบก่อน",
-  "verdict": "ไอเดีย",
-  "action": "ไม่ได้ทดสอบซ้ำ ข้อคิดเรื่องต้นทุนตรงกับบทเรียนเดิม ถ้าจะลองต้นทุน Hyperliquid 8.5 bps ต้องมีบัญชีที่คิดต้นทุนต่างจาก 0.35%"
- },
- {
-  "t": "2026-11-23 19:36",
-  "source": "งานวิจัย IBS (Pagonidis 2013, Quantified Strategies)",
-  "title": "IBS: ซื้อ ETF ที่ปิดใกล้จุดต่ำสุดของวัน",
-  "url": "https://www.quantifiedstrategies.com/internal-bar-strength-ibs-indicator-strategy/",
-  "summary": "ทดสอบ SPY QQQ IWM 2005-2026 IBS ต่ำกว่า 0.1 ซื้อเปิดวันถัดไป ขายปิดวันนั้น ได้ +0.13 ถึง +0.16% ต่อไม้ เทียบวันสุ่ม -0.01% (p 0.002) ถ้าซื้อตอนปิดวันสัญญาณได้ราวสองเท่า แต่ทำจริงไม่ได้เพราะรู้ค่า IBS หลังปิดแล้ว",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "fwd_ibs.py กับตัวควบคุมวันสุ่ม เทสต์ยืนยันไม้ตรง 391 ไม้ใน 5 ปี"
- },
- {
   "t": "2026-11-23 19:39",
   "source": "งานวิจัย low-volatility anomaly (Frazzini-Pedersen, ทดลองกับเหรียญ)",
   "title": "ถือ 3 ถึง 5 เหรียญที่แกว่งน้อยสุด ปรับทุกจันทร์",
@@ -2698,5 +2626,77 @@
   "summary": "ไม่เจอผลแข่ง LLM เทรดสดรอบใหม่ เจอแค่ข่าว Season 1 ปี 2025 (6 โมเดล บวกแค่ 2 ChatGPT -63%) และงาน MDPI แบ่งช่วงกลางวันกลางคืนกับ arXiv 2602.11708 ที่ลงฟีดแล้ว",
   "verdict": "ไอเดีย",
   "action": "ไม่มีกฎใหม่ ต้องข้อมูล leaderboard ของ Nof1 โดยตรงถ้าจะตามผลรอบใหม่"
+ },
+ {
+  "t": "2026-11-27T18:27:13+07:00",
+  "source": "x",
+  "title": "Elneto264: ทดสอบ ICC แบบกฎตายตัวหลังหักต้นทุน ผ่าน 0 จาก 4 ตลาด",
+  "url": "https://x.com/Elneto264/status/2119730575904768107",
+  "summary": "ทดสอบท่า ICC (Indication, Correction, Continuation) แบบกฎตายตัวบนทอง SPY EURUSD BTC ด้วยข้อมูลที่ไม่เคยเห็น ไม่ผ่านสักตลาด อีกโพสต์บอกว่าลอง 144 รุ่นบน 18 ซีรีส์ไม่รอดเลย กฎอยู่ในบทความ X ที่อ่านไม่ได้",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "เขียน ICC ฉบับกลไกเอง (ทะลุจุดสูง N แท่ง ย่อ 1 ATR ปิดเหนือจุดสูงอีกครั้ง stop จุดต่ำของการย่อ เป้า 2R ถือไม่เกิน 30 แท่ง) backtest Binance 4 ชม. 2017-2026 8 เหรียญ หลังหัก 0.35%/ข้าง: N20 long+short 2,455 ไม้ -0.32% N20 long 1,418 ไม้ +0.13% N50 long+short 1,533 ไม้ -0.04% N50 long 908 ไม้ +0.85% มัธยฐาน -2.80% ชนะ 41% ตัวแฝดเข้าสุ่มแพ้กฎครบ 8 เหรียญ ตั้งแต่ 2025 ลบ 6 ใน 8 เหรียญ permutation 200 รอบ กริด 4 แบบ p BTC 0.552 ETH 0.070 SOL 0.567 BNB 0.328 XRP 0.010 DOGE 0.055 ADA 0.433 LINK 0.806 ไม่ผ่านประตู เปิด fwd_icc.py (N50 long 8 เหรียญ ทุน 1 ใน 8 ต่อเหรียญ ตัวแฝดสุ่ม 1 ใน 160 แท่ง) test เดินทีละแท่งตรง backtest 18 ไม้"
+ },
+ {
+  "t": "2026-11-27T18:27:13+07:00",
+  "source": "web",
+  "title": "Bitcoin intraday time series momentum (Shen, Urquhart, Wang, Financial Review 2022)",
+  "url": "https://research.birmingham.ac.uk/en/publications/bitcoin-intraday-time-series-momentum/",
+  "summary": "งานวิจัยบอกว่าผลตอบแทนช่วงแรกของวันทำนายช่วงสุดท้ายของวัน BTC ได้ มาจากผู้ให้สภาพคล่อง",
+  "verdict": "ลองแล้วตก",
+  "action": "backtest Binance 1 ชม. 2017-2026 BTC ETH SOL BNB XRP สัญญาณ 1 หรือ 2 ชม. แรก (UTC) ถือชั่วโมงสุดท้ายหรือทั้งวันที่เหลือ long+short หรือ long อย่างเดียว (8 แบบ ใช้แท่ง 1 ชม. แทนครึ่งชั่วโมงเป็นค่าที่เลือกเอง): ถือชั่วโมงสุดท้ายก่อนหักแค่ -0.02% ถึง +0.10% ต่อไม้ หลังหัก -0.60 ถึง -0.74% ใกล้ตัวแฝดทิศสุ่มทุกเหรียญ แบบถือทั้งวันดีสุด long อย่างเดียวก่อนหัก +0.08 ถึง +0.21% ซึ่งแพ้ตัวแฝด (ผลมาจากขาขึ้นของตลาด) permutation 200 รอบบน 6,000 แท่งล่าสุด p BTC 0.209 ETH 0.403 SOL 0.552 BNB 0.373 XRP 0.552 ไม่เปิดบัญชีเพราะก่อนหักไม่มีอะไรเหลือให้ต้นทุน 0.7% สคริปต์ /tmp/scout_1813/itsm.py"
+ },
+ {
+  "t": "2026-11-27T18:27:13+07:00",
+  "source": "github",
+  "title": "Kopler12/kopler-pump-bot: Surge Sniper บอทงาน make.fun pump.fun replay",
+  "url": "https://github.com/Kopler12/kopler-pump-bot",
+  "summary": "บอท momentum บน bonding curve ซื้อเหรียญอายุ 60 ถึง 1800 slot ที่มีคนซื้อหลายกระเป๋า แรงซื้อเร่ง ราคาขึ้น 10 ถึง 200% stop -4% ขายครึ่ง +15% trail 8% ไม่มีผลประกาศ",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_kopler_surge (horizon night อายุ 24 วิ ถึง 12 นาที สภาพคล่อง 400 ถึง 24k ซื้อ 12+ คนถือ 8+ ขึ้น 1 นาที 10 ถึง 200% stop -4% ขายครึ่ง +15% trail 8% หลัง +8% ถือ 10 นาที ไม้ละ 1.2%) ตัวเลขที่แปลงเองอยู่ใน note import zoo ไม่มี skip test_zoo ผ่าน"
+ },
+ {
+  "t": "2026-11-27T18:27:13+07:00",
+  "source": "github",
+  "title": "hanadiana258/pumpfun-launch-sniper: launch sniper งาน make.fun",
+  "url": "https://github.com/hanadiana258/pumpfun-launch-sniper",
+  "summary": "ดูเหรียญตั้งแต่ CreateEvent อ่านขนาดการซื้อของผู้สร้าง จำนวนผู้ซื้อแบบ bundle ผู้สร้างขายแล้วหรือยัง แล้วออกด้วย trailing stop, hard stop และจำกัด slot README ไม่มีตัวเลข",
+  "verdict": "ไอเดีย",
+  "action": "ต้องข้อมูลเทปเปิดตัวรายเหรียญ (ขนาดซื้อของผู้สร้าง จำนวนผู้ซื้อ bundle) ซึ่ง GMGN rank ไม่มี และ README ไม่บอกค่าตัวเลข ถ้าจะลองต้องอ่าน strategy.ts ผ่าน gh api ก่อน"
+ },
+ {
+  "t": "2026-11-27T18:27:13+07:00",
+  "source": "github",
+  "title": "byttrade/free-crypto-trading-bot (58 ดาว 20 พ.ย.)",
+  "url": "https://github.com/byttrade/free-crypto-trading-bot",
+  "summary": "บอทฟรี 4 ท่าตามเทรนด์ 4 ชม. บน perp 20 เหรียญ มี backtest 2023-2026 และทดสอบซ้ำ 2020-2022 ที่อ่อนกว่า",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "ไม่ได้เปิดใหม่ มีบัญชีอยู่แล้วใน byttrade.py ตั้งแต่ 23 พ.ย. (st4h_ema50_1d บน SOL ETH BTC PAXG พร้อมตัวแฝด)"
+ },
+ {
+  "t": "2026-11-27T18:27:13+07:00",
+  "source": "github",
+  "title": "กลุ่ม sniper Solana ไฟล์ Windows ดาวพุ่ง 23 ถึง 24 พ.ย. (dmitry-k-code19w1/raydium-meteora-sniper-bot-x64, bettysuzuki/raydium-meteora-grpc-sniper-bot-2026)",
+  "url": "https://github.com/dmitry-k-code19w1/raydium-meteora-sniper-bot-x64",
+  "summary": "repo แจกโปรแกรม sniper แบบไฟล์ Windows ให้ดาวน์โหลดไปรัน ดาวขึ้นเร็วผิดปกติแบบกลุ่ม repo ปลอมรอบก่อน",
+  "verdict": "ตัดทิ้ง",
+  "action": "ต้องรันโปรแกรมที่ดาวน์โหลดมาและใส่กระเป๋า ไม่มีกฎให้ทดสอบ ลักษณะเหมือน malware"
+ },
+ {
+  "t": "2026-11-27T18:27:13+07:00",
+  "source": "github",
+  "title": "กลุ่ม MCP สำหรับเอเจนต์เทรดใหม่ 20 ถึง 24 พ.ย. (target1m/cubrik-mcp, clearfills/clearfills, n-kostadinov/yfinance-agent-mcp, evgyur/tradingview-chip, TalyxTerminal)",
+  "url": "https://github.com/clearfills/clearfills",
+  "summary": "เครื่องมือให้เอเจนต์ดึงข้อมูล backtest หรือกั้นความเสี่ยงก่อนส่งคำสั่ง ไม่มีท่าเทรดในตัว",
+  "verdict": "ไอเดีย",
+  "action": "เป็นเครื่องมือ ไม่ใช่กฎ ไม่มีอะไรให้ทดสอบ cubrik ต้องสมัครบัญชี"
+ },
+ {
+  "t": "2026-11-27T18:27:13+07:00",
+  "source": "x",
+  "title": "ค้น X 3 ครั้งรอบ 18:13 (ai trading agent backtest sharpe crypto, profit factor backtest BTC strategy rules entry exit, from:Elneto264 ICC)",
+  "url": "https://x.com/search?q=ai%20trading%20agent%20backtest%20sharpe%20crypto",
+  "summary": "ส่วนใหญ่เป็นโพสต์โปรโมตเอเจนต์และ prompt (helicerat0x, PairSync, catlerone, RohOnChain) ไม่มีกฎที่ตรวจได้ เจอโพสต์ ICC ของ Elneto264 ที่นำไปทดสอบ",
+  "verdict": "ไอเดีย",
+  "action": "PairSync (pair trading ด้วย Grok Bot) ใกล้ fwd_pairz ที่มีแล้ว ไม่เปิดซ้ำ ที่เหลือไม่มีกฎ"
  }
 ]

@@ -2982,5 +2982,44 @@
    "WATCH_S": 5
   },
   "note": "from README: about 0.25 SOL of 10 SOL per buy, short average above long average and recent buys above sells, never buy a coin that ran 50%+ from where it was first seen or finished its curve, TP near +28%, stop near -12%, wait before buying the same coin again; chosen by me: short-over-long average read as 5m change above 0 (written 0.01%) plus zoo up, run-up since first seen read as 1h change at most 50%, liquidity floor 1000 USD, the trend-reversal exit replaced by MAX_HOLD_H 0.5, MAX_POS 5, COOLDOWN_H 24, WATCH_S 5 as the other curve recipes"
+ },
+ {
+  "name": "x_kopler_surge",
+  "label": "บอท make.fun Kopler12 (Surge Sniper) แบบที่ zoo เช็กได้: เหรียญบน curve อายุ 24 วิ ถึง 12 นาที สภาพคล่อง 400 ถึง 24k ซื้อ 12+ คนถือ 8+ แรงซื้อนำ ขึ้น 1 นาที 10 ถึง 200% stop -4% ขายครึ่ง +15% ตาม 8% เมื่อขึ้น +8% ถือไม่เกิน 10 นาที ไม้ละ 1.2%",
+  "horizon": "night",
+  "source": "https://github.com/Kopler12/kopler-pump-bot",
+  "claim": "make.fun pump.fun replay sprint entry (27 Nov 2026): buy curves 60 to 1800 slots old with 2 to 120 SOL reserve, 12+ buys from 8+ wallets in 120 slots, buys 1.5x sells, price up 10 to 200% near its window high, accelerating inflow; stop 0.96x, half at 1.15x, trail 8% after +8%, 1500-slot limit; no results published",
+  "added": "2026-11-27",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 0.0067,
+    "liquidity": 400,
+    "buys": 12,
+    "holder_count": 8,
+    "price_change_percent1m": 10
+   },
+   "max": {
+    "age_h": 0.2,
+    "liquidity": 24000,
+    "launchpad_status": 0,
+    "price_change_percent1m": 200
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.04,
+   "TP_ALL": null,
+   "HALF_AT": 0.15,
+   "TRAIL_ON": 0.08,
+   "TRAIL": 0.08,
+   "MAX_HOLD_H": 0.167,
+   "PER_TRADE": 0.012,
+   "MAX_POS": 5,
+   "COOLDOWN_H": 24,
+   "WATCH_S": 5
+  },
+  "note": "from README: curve 60 to 1800 slots old, real SOL reserve 2 to 120 SOL, 12+ buys from 8+ distinct wallets in the last 120 slots, net inflow 1+ SOL, buys at least 1.5x sells, price up 10 to 200% and within 5% of the window high, inflow accelerating, 0.06 SOL first buy plus one 0.06 SOL add-on (max 0.12 SOL per coin), max 5 positions, stop 0.96x cost, half at 1.15x, trailing armed at 1.08x exits at 0.92x peak, fade exit 10% off window high, 1500-slot time limit unless up 10%+; chosen by me: slots read as 0.4 s so 60 to 1800 slots = age_h 0.0067 to 0.2 and 1500 slots = MAX_HOLD_H 0.167 (the up-10% extension dropped), 2 to 120 SOL read as liquidity 400 to 24000 USD (10 SOL = 2000 USD as x_survivor_curve), 8 wallets read as holder_count 8, 120-slot price rise read as 1m change 10 to 200%, buys 1.5x sells read as zoo up (buys > sells only), the add-on folded into one buy of 0.12 SOL of 10 SOL = PER_TRADE 0.012, near-window-high, accelerating inflow, net inflow, fade exit and the probe round-trips dropped (GMGN rank has no such field), COOLDOWN_H 24, WATCH_S 5 as the other curve recipes"
  }
 ]
