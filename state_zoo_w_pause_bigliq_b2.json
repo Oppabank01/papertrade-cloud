@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 5.036134313564366,
+ "cash": 3.7807546726291203,
  "pos": {
   "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
    "sym": "CBUCKS",
    "qty": 165.94408066227913,
    "entry": 0.007361,
-   "last": 0.007341,
-   "peak": 0.007452,
+   "last": 0.007516,
+   "peak": 0.007516,
    "cost": 1.2590335783910915,
    "opened": "2026-11-27T18:13:22+07:00",
    "zoo": "w_pause_bigliq_b2",
    "smart": 42,
    "kol": 0,
+   "gap": 0,
+   "miss": 0
+  },
+  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
+   "sym": "ANSEM",
+   "qty": 65.34170212636133,
+   "entry": 0.01864,
+   "last": 0.0185,
+   "peak": 0.01866,
+   "cost": 1.2553796409352456,
+   "opened": "2026-11-27T18:22:26+07:00",
+   "zoo": "w_pause_bigliq_b2",
+   "smart": 1000,
+   "kol": 187,
    "gap": 0,
    "miss": 0
   }
@@ -2058,10 +2072,24 @@
    "zoo": "w_pause_bigliq_b2",
    "smart": 42,
    "kol": 0
+  },
+  {
+   "t": "2026-11-27T18:22:26+07:00",
+   "kind": "buy",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.01864,
+   "jup": 0.018620331969977897,
+   "usd": 1.2554,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_pause_bigliq_b2",
+   "smart": 1000,
+   "kol": 187
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: กฎ bigliqF แต่ราคาสองแหล่งไม่ตรงพักซื้อ 1 ชม. แล้วกลับมาเอง",
- "rank_t": 1795777871.6707816,
+ "rank_t": 1795778454.3499615,
  "banned": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings",
