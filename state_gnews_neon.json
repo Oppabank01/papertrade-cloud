@@ -2,18 +2,8 @@
  "label": "ข่าว Gemini Neon high: อ่านข่าวคริปโตแล้วเลือกเหรียญใหญ่ ไม้ละ 20% TP +4% SL -2% ถือไม่เกิน 12 ชม.",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 17.299606386247493,
- "pos": {
-  "SUI": {
-   "side": "short",
-   "qty": -4.318964139640749,
-   "entry": 0.683,
-   "last": 0.6601,
-   "usd": 2.9498525073746316,
-   "t": "2026-11-27T09:53:15.978571+07:00",
-   "why": "[wublockchainenglish] Bluefin, Which Accounted for 95% of Sui's Historical Perpetual Futures Trading Volume, to Shut Dow"
-  }
- },
+ "cash": 14.44321323957979,
+ "pos": {},
  "log": [
   {
    "kind": "buy",
@@ -243,6 +233,17 @@
    "pnl": -0.06722047826021611,
    "cost_side": 0.001,
    "why": "SL"
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-27T21:54:44.100404+07:00",
+   "coin": "SUI",
+   "side": "short",
+   "px": 0.6607,
+   "usd": 2.9498525073746316,
+   "pnl": 0.09050950819955385,
+   "cost_side": 0.001,
+   "why": "หมดเวลา"
   }
  ]
 }
