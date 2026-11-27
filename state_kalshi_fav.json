@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 2.5334752531959124,
+ "cash": 1.0585489995085968,
  "pos": {
   "KXWTI-26NOV2714-T82.99:yes": {
    "qty": 0.8269452146281397,
@@ -79,7 +79,7 @@
   "KXBTCD-26NOV2717-T58999.99:yes": {
    "qty": 0.8269452146281397,
    "entry": 0.8917919999999999,
-   "last": 0.96,
+   "last": 0.97,
    "usd": 0.7374631268436579,
    "t": "2026-11-26T22:26:20+00:00",
    "coin": "YES | Bitcoin price on Nov 27, 2026?",
@@ -163,7 +163,7 @@
   "KXDIESELD-26NOV28-T5.670:yes": {
    "qty": 0.7773833148266354,
    "entry": 0.9486479999999999,
-   "last": 0.46,
+   "last": 0.45,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T17:38:59+00:00",
    "coin": "YES | Will Diesel Price on November 28, 2026 be above $5.670?",
@@ -175,7 +175,7 @@
   "KXHIGHMIA-26NOV27-B74.5:yes": {
    "qty": 0.7622452442238642,
    "entry": 0.967488,
-   "last": 0.95,
+   "last": 0.99,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T19:18:39+00:00",
    "coin": "YES | Will the maximum temperature be 74-75° on Nov 27, 2026?",
@@ -187,7 +187,7 @@
   "KXNCAAWBTOTAL-26NOV27SJURICH-126:yes": {
    "qty": 0.8182188751659075,
    "entry": 0.901303,
-   "last": 0.46,
+   "last": 0.31,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T20:16:21+00:00",
    "coin": "YES | Full Game: Over 125.5 points scored",
@@ -199,7 +199,7 @@
   "KXLIGUE1TOTAL-26NOV27STBPAR-2:yes": {
    "qty": 0.8182188751659075,
    "entry": 0.901303,
-   "last": 0.81,
+   "last": 0.77,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T20:16:21+00:00",
    "coin": "YES | Will over 1.5 goals be scored?",
@@ -207,6 +207,30 @@
    "side": "yes",
    "close": "2026-11-29T19:45:00Z",
    "why": "fav ask 0.89 ทุน 0.901 ปิด 2026-11-29T19:45:00Z"
+  },
+  "KXNHLTOTAL-26NOV27VANPHI-3:yes": {
+   "qty": 0.7549113938906525,
+   "entry": 0.976887,
+   "last": 0.96,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-27T20:56:56+00:00",
+   "coin": "YES | Full Game: Over 2.5 goals scored",
+   "ticker": "KXNHLTOTAL-26NOV27VANPHI-3",
+   "side": "yes",
+   "close": "2026-11-29T20:00:00Z",
+   "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-29T20:00:00Z"
+  },
+  "KXNHLTOTAL-26NOV27OTTTB-5:yes": {
+   "qty": 0.8450091286674175,
+   "entry": 0.872728,
+   "last": 0.85,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-27T20:56:56+00:00",
+   "coin": "YES | Full Game: Over 4.5 goals scored",
+   "ticker": "KXNHLTOTAL-26NOV27OTTTB-5",
+   "side": "yes",
+   "close": "2026-11-29T20:00:00Z",
+   "why": "fav ask 0.86 ทุน 0.873 ปิด 2026-11-29T20:00:00Z"
   }
  },
  "log": [
@@ -2651,6 +2675,24 @@
    "ret": 0.1095,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-27T20:56:56+00:00",
+   "coin": "YES | Full Game: Over 2.5 goals scored",
+   "px": 0.97689,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-29T20:00:00Z",
+   "ask": 0.97
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-27T20:56:56+00:00",
+   "coin": "YES | Full Game: Over 4.5 goals scored",
+   "px": 0.87273,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.86 ทุน 0.873 ปิด 2026-11-29T20:00:00Z",
+   "ask": 0.86
   }
  ],
  "seen": null,
@@ -2780,6 +2822,8 @@
   "KXHIGHMIA-26NOV27": 1795807117,
   "KXHYPED-26NOV2715": 1795807797,
   "KXNCAAWBTOTAL-26NOV27SJURICH": 1795810579,
-  "KXLIGUE1TOTAL-26NOV27STBPAR": 1795810579
+  "KXLIGUE1TOTAL-26NOV27STBPAR": 1795810579,
+  "KXNHLTOTAL-26NOV27VANPHI": 1795813015,
+  "KXNHLTOTAL-26NOV27OTTTB": 1795813015
  }
 }
