@@ -2,7 +2,7 @@
  "label": "Kalshi ตัวควบคุม: สุ่มฝั่งในตลาดเดียวกับตัวเต็ง/ตัวรอง",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 1.3920110604527989,
+ "cash": 0.654547933609141,
  "pos": {
   "KXDIESELD-26NOV28-T5.670:yes": {
    "qty": 0.7773833148266354,
@@ -14,6 +14,18 @@
    "ticker": "KXDIESELD-26NOV28-T5.670",
    "side": "yes",
    "close": "2026-11-28T04:59:00Z",
+   "why": "สุ่มฝั่ง"
+  },
+  "KXNCAAFGAME-26NOV27APPUSA-USA:yes": {
+   "qty": 0.809687227540248,
+   "entry": 0.9107999999999999,
+   "last": 0.89,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-27T23:01:34+00:00",
+   "coin": "YES | South Alabama wins",
+   "ticker": "KXNCAAFGAME-26NOV27APPUSA-USA",
+   "side": "yes",
+   "close": "2026-11-29T20:00:00Z",
    "why": "สุ่มฝั่ง"
   }
  },
@@ -1370,6 +1382,15 @@
    "ret": -1.0,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-27T23:01:34+00:00",
+   "coin": "YES | South Alabama wins",
+   "px": 0.9108,
+   "usd": 0.7374631268436579,
+   "why": "สุ่มฝั่ง",
+   "ask": 0.9
   }
  ],
  "seen": null,
@@ -1438,6 +1459,7 @@
   "KXSOLD-26NOV2717": 1795730994,
   "KXDIESELD-26NOV28": 1795801137,
   "KXNHLTOTAL-26NOV27VANPHI": 1795813015,
-  "KXNHLSPREAD-26NOV27OTTTB": 1795818048
+  "KXNHLSPREAD-26NOV27OTTTB": 1795818048,
+  "KXNCAAFGAME-26NOV27APPUSA": 1795820493
  }
 }

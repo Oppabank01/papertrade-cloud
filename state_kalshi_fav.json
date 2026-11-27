@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 4.768586611075979,
+ "cash": 4.810816995503179,
  "pos": {
   "KXWTI-26NOV2714-T82.99:yes": {
    "qty": 0.8269452146281397,
@@ -115,7 +115,7 @@
   "KXNFLWINMARGIN-26NOV27DENPIT-PIT15PLUS:yes": {
    "qty": 0.7931826194981648,
    "entry": 0.9297520000000001,
-   "last": 0.95,
+   "last": 0.99,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T22:39:35+00:00",
    "coin": "YES | Will Pittsburgh win by at least 15 points?",
@@ -124,34 +124,10 @@
    "close": "2026-11-29T20:00:00Z",
    "why": "fav ask 0.92 ทุน 0.930 ปิด 2026-11-29T20:00:00Z"
   },
-  "KXNFLRRYDS-26NOV27DENPIT-PITRDOWDLE13-65:yes": {
-   "qty": 0.7622452442238642,
-   "entry": 0.967488,
-   "last": 0.99,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-27T22:39:35+00:00",
-   "coin": "YES | Rico Dowdle: 65+ rushing and receiving yards combined",
-   "ticker": "KXNFLRRYDS-26NOV27DENPIT-PITRDOWDLE13-65",
-   "side": "yes",
-   "close": "2026-11-29T20:00:00Z",
-   "why": "fav ask 0.96 ทุน 0.967 ปิด 2026-11-29T20:00:00Z"
-  },
-  "KXNCAAMBTOTAL-26NOV27OREMD-149:yes": {
-   "qty": 0.7549113938906525,
-   "entry": 0.976887,
-   "last": 0.94,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-27T22:49:59+00:00",
-   "coin": "YES | Full Game: Over 148.5 points scored",
-   "ticker": "KXNCAAMBTOTAL-26NOV27OREMD-149",
-   "side": "yes",
-   "close": "2026-11-29T20:30:00Z",
-   "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-29T20:30:00Z"
-  },
   "KXNCAAFTOTAL-26NOV27TEMMEM-51:yes": {
    "qty": 0.7697342346305435,
    "entry": 0.958075,
-   "last": 0.94,
+   "last": 0.87,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T22:49:59+00:00",
    "coin": "YES | Full Game: Over 50.5 points scored",
@@ -159,6 +135,30 @@
    "side": "yes",
    "close": "2026-11-29T20:30:00Z",
    "why": "fav ask 0.95 ทุน 0.958 ปิด 2026-11-29T20:30:00Z"
+  },
+  "KXNCAAFGAME-26NOV27APPUSA-USA:yes": {
+   "qty": 0.809687227540248,
+   "entry": 0.9107999999999999,
+   "last": 0.89,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-27T23:01:34+00:00",
+   "coin": "YES | South Alabama wins",
+   "ticker": "KXNCAAFGAME-26NOV27APPUSA-USA",
+   "side": "yes",
+   "close": "2026-11-29T20:00:00Z",
+   "why": "fav ask 0.90 ทุน 0.911 ปิด 2026-11-29T20:00:00Z"
+  },
+  "KXNCAAFTOTAL-26NOV27NDSUSJSU-50:yes": {
+   "qty": 0.7931826194981648,
+   "entry": 0.9297520000000001,
+   "last": 0.91,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-27T23:01:34+00:00",
+   "coin": "YES | Full Game: Over 49.5 points scored",
+   "ticker": "KXNCAAFTOTAL-26NOV27NDSUSJSU-50",
+   "side": "yes",
+   "close": "2026-11-29T20:30:00Z",
+   "why": "fav ask 0.92 ทุน 0.930 ปิด 2026-11-29T20:30:00Z"
   }
  },
  "log": [
@@ -2882,6 +2882,48 @@
    "ret": 0.14583,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-27T23:01:34+00:00",
+   "coin": "YES | South Alabama wins",
+   "px": 0.9108,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.90 ทุน 0.911 ปิด 2026-11-29T20:00:00Z",
+   "ask": 0.9
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-27T23:01:34+00:00",
+   "coin": "YES | Full Game: Over 49.5 points scored",
+   "px": 0.92975,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.92 ทุน 0.930 ปิด 2026-11-29T20:30:00Z",
+   "ask": 0.92
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-27T23:01:35+00:00",
+   "coin": "YES | Rico Dowdle: 65+ rushing and receiving yards combined",
+   "px": 1.0,
+   "entry": 0.96749,
+   "usd": 0.76225,
+   "pnl": 0.02478,
+   "ret": 0.0336,
+   "cost_side": 0,
+   "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-27T23:01:35+00:00",
+   "coin": "YES | Full Game: Over 148.5 points scored",
+   "px": 1.0,
+   "entry": 0.97689,
+   "usd": 0.75491,
+   "pnl": 0.01745,
+   "ret": 0.02366,
+   "cost_side": 0,
+   "why": "ตัดสิน yes"
   }
  ],
  "seen": null,
@@ -3022,6 +3064,8 @@
   "KXNFLWINMARGIN-26NOV27DENPIT": 1795819173,
   "KXNFLRRYDS-26NOV27DENPIT": 1795819173,
   "KXNCAAMBTOTAL-26NOV27OREMD": 1795819798,
-  "KXNCAAFTOTAL-26NOV27TEMMEM": 1795819798
+  "KXNCAAFTOTAL-26NOV27TEMMEM": 1795819798,
+  "KXNCAAFGAME-26NOV27APPUSA": 1795820493,
+  "KXNCAAFTOTAL-26NOV27NDSUSJSU": 1795820493
  }
 }
