@@ -1219,7 +1219,7 @@
   "source": "https://nansen.ai/post/how-to-identify-the-next-viral-memecoin-using-nansen | 22 Nov rerun: original halted for good on a price gap",
   "claim": "filter micro-cap Solana memecoins for smart money inflows; high inflow with low market cap is a high-potential signal; sell half at 2x",
   "added": "2026-11-22",
-  "active": true,
+  "active": false,
   "entry": {
    "min": {
     "smart_degen_count": 3,
@@ -1250,7 +1250,7 @@
   "source": "https://dailycoin.com/how-a-trading-bot-made-6-8m-on-pump-fun-memecoins/ | 22 Nov rerun: original halted for good on a price gap",
   "claim": "pump.fun bot made 27,000 SOL in a month with spray and pray: many small bets across many tokens",
   "added": "2026-11-22",
-  "active": true,
+  "active": false,
   "entry": {
    "min": {
     "liquidity": 15000
@@ -3098,5 +3098,38 @@
    "WATCH_S": 5
   },
   "note": "from README: peak 1.6x+ first-seen price, price back to 40 to 90% of peak, 12%+ bounce off the dip low, buys 65%+ of quote volume over the last 15 trades, real reserve 1.5 to 80 SOL, TP +30%, stop -22%, trailing armed at +12% sells at 88% of peak, 9,000-slot time stop, 0.3 SOL of 10 SOL per stake, max 5 positions, one entry per batch; chosen by me: GMGN rank has no peak or dip-low field, so run-up then pullback is read as 1h change 0 to 100% (still above where it was an hour ago but not at a fresh run) and the bounce as 5m change 12 to 60%, buy share 65% read as zoo up (buy count > sell count), 1.5 to 80 SOL read as liquidity 300 to 16000 USD (10 SOL = 2000 USD as x_survivor_curve), holder_count 20 as a floor of my own so dead coins are skipped, 9,000 slots at 0.4 s = MAX_HOLD_H 1.0, PER_TRADE 0.03, COOLDOWN_H 24, WATCH_S 5 as the other curve recipes"
+ },
+ {
+  "name": "x_moonpay_stall5",
+  "label": "คู่มือ sniper AI ของ MoonPay: เหรียญสดอายุไม่เกิน 1 ชม. ผ่านเช็ก safe แรงซื้อนำ stop -35% ตาม 30% หลัง +15% ถือไม่เกิน 5 นาที",
+  "horizon": "night",
+  "source": "https://support.moonpay.com/en/articles/629129-automating-the-pump-fun-hunt-a-guide-to-the-ai-memecoin-sniper",
+  "claim": "guide lists stop loss 35% below entry, trailing stop 30% below peak, stall exit after +15% with no new high for 30s, 5 minute time limit (vendor guide, no performance data, unverified)",
+  "added": "2026-11-27",
+  "active": true,
+  "entry": {
+   "min": {
+    "liquidity": 2000,
+    "holder_count": 30
+   },
+   "max": {
+    "age_h": 1
+   },
+   "safe": true,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.35,
+   "TP_ALL": null,
+   "HALF_AT": null,
+   "TRAIL_ON": 0.15,
+   "TRAIL": 0.3,
+   "MAX_HOLD_H": 0.0833,
+   "PER_TRADE": 0.03,
+   "MAX_POS": 5,
+   "COOLDOWN_H": 24
+  },
+  "note": "chosen by me: guide gives only exits, so entry is fresh coin under 1h, liquidity 2000+, holders 30+, safe, up, rugcheck; stall exit (30s no new high) not supported so trail 30% after +15% stands in; 5 min = 0.0833h; size 3%"
  }
 ]

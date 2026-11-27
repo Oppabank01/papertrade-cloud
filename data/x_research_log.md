@@ -1010,3 +1010,10 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 เพิ่ม x_: x_flowgate (FlowGate v3: curve อายุ 24 วิ ถึง 72 นาที สภาพคล่อง 500 ถึง 14k ซื้อ 30+ คนถือ 20+ ขึ้น 1 ชม. 15 ถึง 700% stop -14% TP +35% ตาม 20% หลัง +30% ถือ 17 นาที) และ x_pullback_rider (Pullback Rider: curve สภาพคล่อง 300 ถึง 16k ขึ้น 1 ชม. 0 ถึง 100% เด้ง 5 นาที 12 ถึง 60% TP +30% stop -22% ตาม 12% หลัง +12% ถือ 1 ชม.) ตัวเลขที่แปลงเองอยู่ใน note import zoo ไม่มี skip test_zoo ผ่าน
 ไอเดีย: CleanDip และงาน Sharpe Sprint ตัวอื่น (ผล dev ของ CleanDip เองติดลบ ต้องเทป pump.fun ระดับ trade), QuantAgents กับ hlp-cli (ไม่มีกฎ ต้องรัน LLM)
 ตัดทิ้ง: ไม่มี
+
+## 27 พ.ย. 2569 (รอบบ่าย)
+ค้นหา: solana memecoin bot in a week, pump.fun sniper strategy rules, เทรดเหรียญมีม คืนเดียว, 1 month memecoin system ผลส่วนใหญ่เป็นข่าวเก่าหรือบทความขายบอท ไม่มีกฎที่ตัดสินได้ en.rattibha.com และ cryptorank.io เปิดไม่ได้ (ไม่อยู่ใน allowlist)
+เพิ่ม: x_moonpay_stall5 (night) ที่มา https://support.moonpay.com/en/articles/629129-automating-the-pump-fun-hunt-a-guide-to-the-ai-memecoin-sniper คู่มือให้แค่กฎออก stop -35% ตาม 30% หลัง +15% ถือ 5 นาที ส่วนกฎเข้าผมเลือกเอง (อายุไม่เกิน 1 ชม. สภาพคล่อง 2000+ คนถือ 30+) stall exit 30 วินาทีทำไม่ได้จึงใช้ trail แทน ป้าย ยังไม่ยืนยัน
+ปิด: x_smartflow_lowcap_b2 และ x_spray_small_b2 (ไม้เกิน 20 ติดลบชัด)
+ยังทำไม่ได้: บอท 27,000 SOL spray and pray ต้องกระเป๋าบน chain และความเร็วระดับวินาที; 10 SOL เป็น 1000 SOL ต้องข้อมูลกระเป๋า
+สกอร์: x_crb_4agent +11.8% (11 ไม้), x_kilo_grad_ladder +3.2% (5 ไม้), x_skip_pumped -73.8% (55 ไม้) เทียบ rand -98.3%
