@@ -1,68 +1,5 @@
 [
  {
-  "t": "2026-11-23 23:05",
-  "source": "ต่อยอด Connors RSI(2) (ทดสอบนอกตัวอย่าง)",
-  "title": "RSI(2) บน ETF อื่น: DIA, sector ETF สหรัฐ, ต่างประเทศ, ทอง, พันธบัตร",
-  "url": "",
-  "summary": "ใช้กฎเดิมจาก SPY QQQ IWM ไม่แก้ค่า 2005-2026: XLK +0.43% ต่อไม้ เทียบวันสุ่ม +0.21% (p 0.003), XLV p 0.003, XLF p 0.03, DIA p 0.03, XLE p 0.11 ส่วน EFA EEM ไม่ได้ผล (p 0.4, 0.57) GLD p 0.06 TLT p 0.01 สรุปว่าใช้ได้กับหุ้นสหรัฐเป็นหลัก",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "fwd_rsi2sec.py บน DIA XLK XLF XLE XLV กับตัวควบคุมวันสุ่ม เทสต์ยืนยันไม้ตรง 656 ไม้ใน 5 ปี"
- },
- {
-  "t": "2026-11-23 23:05",
-  "source": "ไอเดีย lead-lag หุ้นเทคไปคริปโต",
-  "title": "QQQ ขึ้นหรือลงแรงแล้วเทรด BTC วันถัดไป",
-  "url": "",
-  "summary": "2018-2026 วันที่ QQQ อยู่ใน 10% บนหรือล่าง แล้วถือ BTC 1 หรือ 3 วันจากเปิดวันถัดไป ไม่มีแบบไหนชนะวันสุ่ม หลัง QQQ ขึ้นแรง BTC วันถัดไปกลับลงเล็กน้อย (-0.6% เทียบ -0.1%) แต่เป็นผลกลับด้านที่เจอหลังทดสอบ และอ่อนลงตั้งแต่ 2023 ราคาหุ้นถูกสะท้อนใน BTC ไปแล้วระหว่างวัน",
-  "verdict": "ลองแล้วตก",
-  "action": "ไม่เปิดบัญชี"
- },
- {
-  "t": "2026-11-23 23:10",
-  "source": "ผู้ใช้ขอท่าแบบโพสต์โม้ Grok Bot ($100 เป็น $2,000+)",
-  "title": "วัดโอกาสได้ x20 จริง: เหรียญมีมเทียบกับลอตเตอรี่ทบไม้ BTC 50x",
-  "url": "",
-  "summary": "ไม้ขายเหรียญมีมจริงในบัญชีจำลอง 4,885 ไม้ เฉลี่ย -9.6% หลังต้นทุน ถึง x2 แค่ 17 ไม้ ไม่มีไม้ไหนถึง x10 จำลองทบไม้ 20,000 รอบไม่มีรอบไหนถึง x10 ส่วนทบไม้ BTC 50x ทีละ ±2% backtest 2023-2026 ถึง x20 35 จาก 902 รอบ (3.9%) อีก 96% หมดเดิมพัน เงินต่อรอบราว +10% ใกล้เสมอตัว ฝั่งตามเทรนด์ไม่ดีกว่าโยนเหรียญ",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "fwd_x20.py กฎตามเทรนด์ 24 ชม. กับตัวควบคุมโยนเหรียญ รอบละ 1/50 ของทุน"
- },
- {
-  "t": "2026-11-23 23:20",
-  "source": "Fable (claude-fable-5-2) ค้นท่าแบบโพสต์โม้ Grok Bot",
-  "title": "บันไดทบตัวเต็ง Polymarket 0.85-0.90 จนถึง x20",
-  "url": "",
-  "summary": "Fable จัดเป็นอันดับ 1 ผมตรวจซ้ำกับ data/poly_fav_calib.json สองฝั่งของทุกตลาด ช่วง 0.85-0.90 ที่ 1 ชม. ก่อนจบ n 470 (249 event) ราคา 0.872 ชนะ 0.926 ทบ 25 ขั้นถึง x20 ใน bootstrap ระดับ event 12.9% (6 ชม. ก่อนจบ 9.1%) เทียบราคาแฟร์ราว 5% แต่การคาลิเบรตรอบแรกตามวอลุ่มรวมให้ผลกลับทิศ",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "fwd_polyladder.py ใช้ไม้จริงของ poly_fav ที่ยังไม่ตัดสิน รอบละ 1/20 ของทุน"
- },
- {
-  "t": "2026-11-23 23:20",
-  "source": "Fable (claude-fable-5-2) ค้นท่าแบบโพสต์โม้ Grok Bot",
-  "title": "ท่าอื่นที่ Fable เสนอ: crash bounce 5x, BOOST หลัง graduate, deployer ที่ graduate บ่อย, ปลาย curve, ออปชัน OTM รายวัน",
-  "url": "https://pineanalytics.substack.com/p/exit-liquidity-machines",
-  "summary": "Fable หาหลักฐานว่าโพสต์โม้ส่วนใหญ่เป็นแม่แบบซ้ำหรือโฆษณา กำไรก้อนใหญ่บน pump.fun 51% มาจากการขายเหรียญที่รับโอน (Bitquery ผ่าน CryptoSlate) sniper ที่ deployer โอนเงินให้กำไร 87% และออกใน 5 นาที คนซื้อนาทีที่ 5-7 จึงเป็นฝั่งรับของ ท่าที่เหลือต้องเก็บข้อมูลไปข้างหน้า (PumpPortal migration ฟรี) หรือเป็นลอตเตอรี่ EV ลบ",
-  "verdict": "ไอเดีย",
-  "action": "ยังไม่เปิด ถัดไปจะ backtest crash bounce 5x กับแท่ง 1 ชม. Binance"
- },
- {
-  "t": "2026-11-23 23:44",
-  "source": "Fable ข้อ 2 (คิว IDEAS_QUEUE)",
-  "title": "ช้อนเหรียญวันตลาดพังด้วย 5x (crash bounce leveraged)",
-  "url": "",
-  "summary": "Binance 1 ชม. 23 เหรียญ 2017-2026: BTC -5% และเหรียญ -15% ใน 24 ชม. long ถือ 24 ชม. 1,015 สัญญาณใน 210 วัน 1x +3.7% ต่อไม้ เทียบสุ่ม -0.4% (p < 0.002) บวกทุกปี 3x +9.2% (ล้าง 35) 5x +10.6% (ล้าง 136 ได้ x2 51 ไม้) ข้อควรระวัง: สัญญาณกองกันในวันเดียว ตัวอย่างจริงราว 210 วัน และไม่มีเหรียญที่ตายแล้ว (LUNA FTT) จึงเข้าข้างกฎเด้ง",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "fwd_crash5x.py กับตัวควบคุมชั่วโมงสุ่ม 5x"
- },
- {
-  "t": "2026-11-23 23:51",
-  "source": "Fable (claude-fable-5-2) ท่ารู้ผลในคืนเดียว backtest ใน scratchpad",
-  "title": "บันได Polymarket BTC Up or Down รายชั่วโมง ตัวเต็ง 0.60-0.80 ทบจนถึง x5 ในคืนเดียว",
-  "url": "https://gamma-api.polymarket.com/events",
-  "summary": "2,084 ตลาด 88 คืน (28 ส.ค. ถึง 23 พ.ย. 69) ราคาแม่นเกือบพอดี 0.638 ชนะ 0.631, 0.731 ชนะ 0.723 หลังต้นทุนสมมติ -3% ต่อไม้ ทั้งสองครึ่ง คืนที่ถึง x5 16-19% EV ต่อคืน 0.97-1.14 เทียบผลจำลองตามราคา 14-15% EV 0.88-0.90 ส่วนต่างเป็น noise",
-  "verdict": "ลองแล้วตก",
-  "action": "ไม่เปิดบัญชี: ลอตเตอรี่เกือบแฟร์ เสียราว 10% ต่อคืน"
- },
- {
   "t": "2026-11-23 23:51",
   "source": "Fable (claude-fable-5-2) ท่ารู้ผลในคืนเดียว backtest ใน scratchpad",
   "title": "Polymarket Up or Down ตัวเต็ง 0.90-0.96 นาทีที่ 30-50",
@@ -2698,5 +2635,68 @@
   "summary": "ส่วนใหญ่เป็นโพสต์ขายวิธีสร้างบอท (DaviddDotTech Kimi, slamdunkwallet บอทข่าว Fed, 0xWifter เดสก์ Bloomberg) และ qwinsi0x กฎ stop 2% เป้า 4% แบบไม่มีจุดเข้า",
   "verdict": "ไอเดีย",
   "action": "ไม่มีกฎเข้าที่ตัดสินได้ กฎออก 2%/4% อย่างเดียวบนจุดเข้าสุ่มจะได้แค่ต้นทุน ไม่ทดสอบ ไม่มีเหรียญมีมใหม่ให้เพิ่ม x_"
+ },
+ {
+  "t": "2026-11-27T23:29:25+07:00",
+  "source": "github",
+  "title": "codewithmernpy/quant-critic: trend pullback 4 ชม. (EMA200 + RSI14 ตัด 40) ตัวที่ดีสุดในตารางของ repo",
+  "url": "https://github.com/codewithmernpy/quant-critic",
+  "summary": "เครื่องมือตรวจ backtest คริปโตแบบเข้ม (permutation, DSR, PBO, locked test) ตารางใน README ให้ custom:trend_pullback อันดับ 1 จาก 9 ท่าบน BTC ETH SOL 4 ชม. 2021 ถึง 2025 locked test Sharpe +0.25 random-entry p 0.005 แต่จุดคุ้มทุนแค่ 26.9 bps ต่อข้าง ต่ำกว่าต้นทุนเรา 35 bps",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest Binance 4 ชม. 2017 ถึง 27 พ.ย. 69 หลังหัก 0.35%/ข้าง ปิดเหนือ EMA200 และ RSI14 ตัดขึ้น 40 (short ตัดลง 60) stop 2 ATR เป้า 2.5R ถือไม่เกิน 36 แท่ง: BTC 269 ไม้ -0.30% ETH 271 ไม้ +0.07% SOL 186 ไม้ -0.15% ต่อไม้ ก่อนหัก +0.40/+0.77/+0.55% มัธยฐาน -2.5/-3.0/-4.3% ชนะ 38 ถึง 41% ปี 2025+ -0.40/+0.42/+0.32% ตัวแฝดเข้าสุ่มออกแบบเดียวกัน -0.55/-0.59/-0.79% permutation 200 รอบบน 6,000 แท่งล่าสุด p 0.199/0.015/0.388 (ETH เฉียดประตู 0.01) เปิด fwd_qcpull.py BTC ETH SOL พร้อมตัวแฝด test เดินทีละแท่งตรง backtest 38 ไม้ ส่วนท่าอื่นในตาราง (bollinger_squeeze, funding_contrarian) repo เองให้แพ้ใน locked test เลยไม่ทดสอบซ้ำรอบนี้"
+ },
+ {
+  "t": "2026-11-27T23:29:25+07:00",
+  "source": "github",
+  "title": "negariank-gif/turtle-trading-bot: แจ้งเตือน turtle รายวัน ปิดเหนือ high 20 วัน stop 3 ATR",
+  "url": "https://github.com/negariank-gif/turtle-trading-bot",
+  "summary": "สคริปต์ส่ง Telegram ทุกวันว่าเหรียญไหนปิดเหนือ high 20 วันก่อน พร้อม stop ราคาปิดลบ 3 ATR14 (ค่าเฉลี่ยธรรมดา) บนทอง เงิน BTC DOGE XRP SOL ETH AVAX ไม่มีกฎออกนอกจาก stop",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "ฉบับกลไกที่ใกล้สุด: ซื้อ open วันถัดไป stop ปิดลบ 3 ATR ยก stop ขึ้นทุกวันที่ทะลุใหม่ ไม่มีเป้า long อย่างเดียว ตัดทองกับเงินออก backtest Binance รายวันถึง 26 พ.ย. 69 หลังหัก 0.35%/ข้าง: BTC 46 ไม้ +8.65% ETH 48 +7.38% SOL 24 +112% XRP 40 +7.91% DOGE 33 +10.3% AVAX 27 +39.3% ต่อไม้ แต่มัธยฐาน -1.7/-3.8/+1.4/-8.0/-3.8/-8.7% ชนะ 28 ถึง 50% กำไรมาจากไม่กี่ไม้ใหญ่ ปี 2025+ -0.13/+0.74/+1.76/-4.35/-2.02/+3.48% ตัวแฝดเข้าวันสุ่มออกแบบเดียวกัน +6.1/+6.1/+61/+8.3/+14.7/+29.1% (ส่วนใหญ่มาจากขาขึ้นของเหรียญเอง) permutation 200 รอบ p 0.015/0.040/0.005/0.100/0.348/0.010 เปิด fwd_turtle3.py 6 เหรียญพร้อมตัวแฝด test เดินทีละแท่งตรง backtest 14 ไม้"
+ },
+ {
+  "t": "2026-11-27T23:29:25+07:00",
+  "source": "github",
+  "title": "myfufufafa/solana-paper-trader: บอท paper เหรียญใหม่ Solana Strategy v3",
+  "url": "https://github.com/myfufufafa/solana-paper-trader",
+  "summary": "แยกส่วน paper จากบอท Jupiter ที่รันเงินจริงเดือน พ.ย. 69 คัดเหรียญอายุไม่เกิน 24 ชม. มาร์เก็ตแคป 5k ถึง 500k ไม่พุ่งเกิน 100% ใน 1 ชม. ไม่ขยับเกิน 10% ใน 5 นาที ผ่าน RugCheck ขายครึ่ง +25% หมด +50% stop -15% ผู้เขียนบอกเองว่ารอบเงินจริงติดลบ",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_solpaper_v3 (night) ใน x_recipes.json ตัวเลขที่เลือกเองอยู่ใน note (5 นาทีอ่านเป็น -10 ถึง +10%, volume 1000+ ของอันดับ GMGN แทน volume 24 ชม., trail 10% หลัง +25% แทนการขายเมื่อกลับมา +20%, ไม้ละ 3%) python3 -c 'import zoo' ไม่มี skip และ test_zoo.py ผ่าน ไม่ได้รันโค้ดของ repo"
+ },
+ {
+  "t": "2026-11-27T23:29:25+07:00",
+  "source": "github",
+  "title": "roan-maverick/ai-trading-strategy-agents: ฝูงเอเจนต์ LLM หาและคัดกลยุทธ์ 24 ชม.",
+  "url": "https://github.com/roan-maverick/ai-trading-strategy-agents",
+  "summary": "เอเจนต์ LLM 7 ตัวเสนอกลยุทธ์ backtest ด้วย Numba แล้วคัดด้วยประตู 7 ข้อ (OOS Sharpe, walk-forward, ต้นทุน 2 เท่า, DSR) demo ใช้ตลาดสังเคราะห์ที่ฝัง edge ไว้ ไม่มีกลยุทธ์ผู้ชนะบนข้อมูลจริงให้ดู",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎตายตัวให้ทดสอบ ผลจริงต้องรันโค้ดของ repo กับ LLM ซึ่งห้ามทำ ถ้าวันหลัง repo เผยแพร่ leaderboard บนข้อมูลจริงพร้อมกฎ ค่อยดึงกฎนั้นมา backtest เอง"
+ },
+ {
+  "t": "2026-11-27T23:29:25+07:00",
+  "source": "github",
+  "title": "กลุ่ม repo เครื่องมือใหม่ 20 ถึง 27 พ.ย. (Victort1130/paper-llm-trader, Tokalpha/agentic-trading-survey, TsRa-cr/EventQuant, Atribyra/atribyra, yk-hello/temper, n-kostadinov/yfinance-agent-mcp)",
+  "url": "https://github.com/Tokalpha/agentic-trading-survey",
+  "summary": "เครื่องมือ paper trade ด้วย LLM, งานสำรวจเอกสารเอเจนต์เทรด, แพลตฟอร์มวิจัยแบบ event, เอเจนต์สร้างกลยุทธ์, workstation perp และ MCP อ่าน Yahoo Finance ไม่มีตัวไหนให้กฎเทรดตายตัว",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎให้ทดสอบ paper-llm-trader อ่าน README ไม่ได้ (404) งานสำรวจอาจใช้หาเอกสารต้นทางรอบหน้า ต้องมีกฎหรือผลบนข้อมูลจริงก่อนจึงจะทดสอบได้"
+ },
+ {
+  "t": "2026-11-27T23:29:25+07:00",
+  "source": "x",
+  "title": "ค้น X 2 ครั้งรอบ 23:20 (polymarket bot strategy backtest, memecoin strategy win rate) แท็บเปิดไม่ขึ้น",
+  "url": "https://x.com/search?q=memecoin%20strategy%20win%20rate",
+  "summary": "xsearch.mjs ตอบ tab did not open ทั้งสองครั้ง ไม่ได้ข้อมูลจาก X รอบนี้",
+  "verdict": "ไอเดีย",
+  "action": "หยุดที่ 2 ครั้งเพื่อไม่เปลืองโควตา ให้รอบหน้าลองคำค้นสองคำนี้ใหม่ ถ้ายังเปิดไม่ขึ้นต้องให้รอบหลักเช็กตัวอ่าน X"
+ },
+ {
+  "t": "2026-11-27T23:29:25+07:00",
+  "source": "web",
+  "title": "ค้นเว็บงาน arXiv และ SSRN เรื่องกฎเทรด BTC รายชั่วโมง เดือน พ.ย. 69",
+  "url": "https://www.mdpi.com/1911-8074/19/9/692",
+  "summary": "ผลที่เจอซ้ำกับที่มีแล้วทั้งหมด (turn-of-the-candle, MDPI สองช่วง 12 ชม. ที่เป็น fwd_sessrev, AdaptiveTrend 6 ชม., halving clock) ไม่เจองานใหม่ของเดือนนี้",
+  "verdict": "ไอเดีย",
+  "action": "ไม่เพิ่มอะไร รอบหน้าลองค้นหน้า listing q-fin.TR ของ arXiv โดยตรง"
  }
 ]

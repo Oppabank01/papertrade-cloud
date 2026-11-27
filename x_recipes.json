@@ -3131,5 +3131,40 @@
    "COOLDOWN_H": 24
   },
   "note": "chosen by me: guide gives only exits, so entry is fresh coin under 1h, liquidity 2000+, holders 30+, safe, up, rugcheck; stall exit (30s no new high) not supported so trail 30% after +15% stands in; 5 min = 0.0833h; size 3%"
+ },
+ {
+  "name": "x_solpaper_v3",
+  "label": "บอท paper เหรียญใหม่ Solana v3 (myfufufafa) แบบที่ zoo เช็กได้: อายุไม่เกิน 24 ชม. มาร์เก็ตแคป 5k ถึง 500k ไม่พุ่งเกิน 100% ใน 1 ชม. และไม่ขยับเกิน 10% ใน 5 นาที ผ่าน RugCheck ขายครึ่ง +25% ขายหมด +50% stop -15% ตาม 10% หลัง +25% ถือไม่เกิน 24 ชม. ไม้ละ 3%",
+  "horizon": "night",
+  "source": "https://github.com/myfufufafa/solana-paper-trader",
+  "claim": "Strategy v3 of a live Jupiter bot (Nov 2026), paper half only: Dexscreener newest profiled Solana tokens under 24h, market cap 5k to 500k, 24h volume 1k+, social footprint, reject 1h pump over 100% or 5m move over 10%, on-chain mint audit plus RugCheck; TP1 +25% sells 50%, runner all at +50% or trailing back to +20%, stop -15%, rug exit, 24h timeout, 2 losses in a row = 24h cooldown. The author says the real-money run was negative (-0.47 USD at 1 USD per trade) and gives no paper result (unverified)",
+  "added": "2026-11-27",
+  "active": true,
+  "entry": {
+   "min": {
+    "market_cap": 5000,
+    "volume": 1000,
+    "price_change_percent5m": -10
+   },
+   "max": {
+    "age_h": 24,
+    "market_cap": 500000,
+    "price_change_percent1h": 100,
+    "price_change_percent5m": 10
+   },
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "TP_ALL": 0.5,
+   "HALF_AT": 0.25,
+   "TRAIL_ON": 0.25,
+   "TRAIL": 0.1,
+   "MAX_HOLD_H": 24,
+   "PER_TRADE": 0.03,
+   "MAX_POS": 5,
+   "COOLDOWN_H": 24
+  },
+  "note": "from README: age 24h max, market cap 5k to 500k, 24h volume 1k+, reject 1h change over 100% and 5m move over 10%, RugCheck, TP1 +25% sells half, all out at +50%, stop -15%, 24h timeout; chosen by me: the 5m move rule read as both ways (-10 to +10%), 24h volume 1k read as the rank's volume field 1000+ (the GMGN 5m rank has no 24h volume), the trailing exit 'back to +20%' read as TRAIL_ON 0.25 with TRAIL 0.10 off the peak (zoo trails off the peak, not to a fixed level; 10% sits between 4% at a +25% peak and 20% at a +50% peak), social footprint and the mint audit dropped except RugCheck, the loss-streak cooldown dropped, PER_TRADE 0.03, MAX_POS 5, COOLDOWN_H 24 as other x_ recipes"
  }
 ]
