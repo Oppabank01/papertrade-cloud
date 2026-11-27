@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 1.6272657775886121,
+ "cash": 0.15233952390129635,
  "pos": {
   "KXWTI-26NOV2714-T82.99:yes": {
    "qty": 0.8269452146281397,
@@ -43,7 +43,7 @@
   "KXXRPD-26NOV2717-T0.8799:yes": {
    "qty": 0.7773833148266354,
    "entry": 0.9486479999999999,
-   "last": 0.98,
+   "last": 0.99,
    "usd": 0.7374631268436579,
    "t": "2026-11-26T22:09:55+00:00",
    "coin": "YES | Ripple price at Nov 27, 2026 at 5pm EST?",
@@ -67,7 +67,7 @@
   "KXSHIBAD-26NOV2717-T0.000003499:yes": {
    "qty": 0.8358729577822337,
    "entry": 0.8822669999999999,
-   "last": 0.72,
+   "last": 0.71,
    "usd": 0.7374631268436579,
    "t": "2026-11-26T22:18:12+00:00",
    "coin": "YES | Shiba Inu price on Nov 27, 2026?",
@@ -103,7 +103,7 @@
   "KXBTCD-26NOV2717-T58999.99:yes": {
    "qty": 0.8269452146281397,
    "entry": 0.8917919999999999,
-   "last": 0.96,
+   "last": 0.95,
    "usd": 0.7374631268436579,
    "t": "2026-11-26T22:26:20+00:00",
    "coin": "YES | Bitcoin price on Nov 27, 2026?",
@@ -211,7 +211,7 @@
   "KXHIGHMIA-26NOV27-B74.5:yes": {
    "qty": 0.7622452442238642,
    "entry": 0.967488,
-   "last": 0.92,
+   "last": 0.93,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T19:18:39+00:00",
    "coin": "YES | Will the maximum temperature be 74-75° on Nov 27, 2026?",
@@ -219,6 +219,30 @@
    "side": "yes",
    "close": "2026-11-28T06:00:00Z",
    "why": "fav ask 0.96 ทุน 0.967 ปิด 2026-11-28T06:00:00Z"
+  },
+  "KXNCAAWBTOTAL-26NOV27SJURICH-126:yes": {
+   "qty": 0.8182188751659075,
+   "entry": 0.901303,
+   "last": 0.88,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-27T20:16:21+00:00",
+   "coin": "YES | Full Game: Over 125.5 points scored",
+   "ticker": "KXNCAAWBTOTAL-26NOV27SJURICH-126",
+   "side": "yes",
+   "close": "2026-11-29T19:30:00Z",
+   "why": "fav ask 0.89 ทุน 0.901 ปิด 2026-11-29T19:30:00Z"
+  },
+  "KXLIGUE1TOTAL-26NOV27STBPAR-2:yes": {
+   "qty": 0.8182188751659075,
+   "entry": 0.901303,
+   "last": 0.88,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-27T20:16:21+00:00",
+   "coin": "YES | Will over 1.5 goals be scored?",
+   "ticker": "KXLIGUE1TOTAL-26NOV27STBPAR-2",
+   "side": "yes",
+   "close": "2026-11-29T19:45:00Z",
+   "why": "fav ask 0.89 ทุน 0.901 ปิด 2026-11-29T19:45:00Z"
   }
  },
  "log": [
@@ -2609,6 +2633,24 @@
    "ret": 0.07556,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-27T20:16:21+00:00",
+   "coin": "YES | Full Game: Over 125.5 points scored",
+   "px": 0.9013,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.89 ทุน 0.901 ปิด 2026-11-29T19:30:00Z",
+   "ask": 0.89
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-27T20:16:21+00:00",
+   "coin": "YES | Will over 1.5 goals be scored?",
+   "px": 0.9013,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.89 ทุน 0.901 ปิด 2026-11-29T19:45:00Z",
+   "ask": 0.89
   }
  ],
  "seen": null,
@@ -2736,6 +2778,8 @@
   "KXSOLD-26NOV2714": 1795803624,
   "KXSOLD-26NOV2715": 1795807117,
   "KXHIGHMIA-26NOV27": 1795807117,
-  "KXHYPED-26NOV2715": 1795807797
+  "KXHYPED-26NOV2715": 1795807797,
+  "KXNCAAWBTOTAL-26NOV27SJURICH": 1795810579,
+  "KXLIGUE1TOTAL-26NOV27STBPAR": 1795810579
  }
 }
