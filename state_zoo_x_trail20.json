@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.645577035735208,
- "cash": 1.5186474124434657,
+ "cash": 3.7162031256407078,
  "pos": {
-  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
-   "sym": "CATE",
-   "qty": 122.03956531787583,
-   "entry": 0.01753,
-   "last": 0.01853,
-   "peak": 0.01862,
-   "cost": 2.2050645021875526,
-   "opened": "2026-11-24T10:20:14+07:00",
-   "zoo": "x_trail20",
-   "smart": 960,
-   "kol": 111,
-   "gap": 0,
-   "miss": 0
-  },
   "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
    "sym": "neet",
    "qty": 92.917028574655,
    "entry": 0.02134,
-   "last": 0.02033,
+   "last": 0.02045,
    "peak": 0.02173,
    "cost": 2.0437532362225705,
    "opened": "2026-11-24T20:26:06+07:00",
@@ -35,7 +21,7 @@
    "sym": "CLAUDIA",
    "qty": 237.04339728365775,
    "entry": 0.008066,
-   "last": 0.008998,
+   "last": 0.009082,
    "peak": 0.009412,
    "cost": 1.9707194830859445,
    "opened": "2026-11-24T22:57:43+07:00",
@@ -528,9 +514,24 @@
    "cost_side": 0.03,
    "smart": 6,
    "bundler": null
+  },
+  {
+   "t": "2026-11-27T10:20:18+07:00",
+   "kind": "sell",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.01856,
+   "entry": 0.01753,
+   "usd": 2.1976,
+   "pnl": -0.0075,
+   "why": "ครบ 72 ชม. (+5.9%)",
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "smart": 960,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: trailing stop 20% จากจุดเข้าอย่างเดียว (วิเคราะห์ 6,200 ไม้ Grok Bot desk)",
- "rank_t": 1795748923.800902,
+ "rank_t": 1795749535.1986704,
  "halted": "ราคา neet สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }
