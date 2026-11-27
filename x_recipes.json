@@ -3202,5 +3202,35 @@
    "WATCH_S": 5
   },
   "note": "from the policy file: curve 55 to 85% full, age 15 min max, stop -15%, 10 min max hold, 12% off peak, $20 per trade of 5 SOL, 6 open max; chosen by me: curve fullness read as market cap 16k to 40k USD (pump.fun curve math with 30 virtual SOL and 1,073M virtual tokens at 200 USD per SOL), the exit at 94% full read as TP_ALL +48% (the price rise from an 85% full curve to 94%, the nearest case), 12 unique buyers read as holder_count 12+, buys/sells 1.5 read as zoo up, within 10% of the high read as 5m change 0+, momentum decay and no-new-high 45 s read as TRAIL 0.12 armed at +1%, creator-sell, insider and bundle gates dropped except RugCheck, $20 of about 1000 USD = PER_TRADE 0.02, COOLDOWN_H 24 and WATCH_S 5 as the other curve recipes"
+ },
+ {
+  "name": "x_bumpwise_memes",
+  "label": "ท่า Memes agent ของ Bumpwise (บัญชี paper ที่โพสต์ทุกไม้รวมไม้แพ้) แบบที่ zoo เช็กได้: วอลุ่ม 80k ขึ้นไป ราคาขึ้นทั้ง 5 นาทีและ 1 ชม. ผ่าน RugCheck stop -5% ขายหมด +6% ตาม 4.5% ถือไม่เกิน 4 ชม. ไม้ละ 5%",
+  "horizon": "night",
+  "source": "https://x.com/bumpwisetraders/status/2126328313824391559",
+  "claim": "Bumpwise Traders run 4 LLM paper traders and post every trade after fees. Memes agent example CBUCKS 28 Nov 2026: bought a reclaim of a level on a volume jump, stop -5%, target +6%, 4.5% trail on hourly closes, exit by about 4h; stopped after 31 min at -6.69% after fees. Since an update tokens need 80k USD daily volume; the account says memes is 0 for 4 since the update and its overall record is not a win (unverified, paper only, 4 trades seen)",
+  "added": "2026-11-28",
+  "active": true,
+  "entry": {
+   "min": {
+    "volume": 80000,
+    "price_change_percent5m": 0,
+    "price_change_percent1h": 0
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.05,
+   "TP_ALL": 0.06,
+   "HALF_AT": null,
+   "TRAIL_ON": 0.01,
+   "TRAIL": 0.045,
+   "MAX_HOLD_H": 4,
+   "PER_TRADE": 0.05,
+   "MAX_POS": 4,
+   "COOLDOWN_H": 24
+  },
+  "note": "from the posts: 80k USD daily volume, stop -5%, target +6%, 4.5% trail, out by about 4h (5:05 to 9:05 ET). Chosen by me: the LLM's 'reclaim on a volume jump' read as 5m and 1h change both at least 0 plus up; the GMGN volume field used for the 80k although its window may not be 24h; the trail starts at +1% (the posts trail on hourly closes, zoo on every check); 5% per trade, 4 open max and 24h cooldown are mine; no age or market cap filter because the posts give none"
  }
 ]

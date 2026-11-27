@@ -1,68 +1,5 @@
 [
  {
-  "t": "2026-11-23T23:55:36+07:00",
-  "source": "x",
-  "title": "Sevenup27 และ KyleDeWriter: copy-trade เทรดเดอร์ Polymarket ผ่าน gravia.trade",
-  "url": "https://x.com/Sevenup27/status/2122305173229797740",
-  "summary": "โพสต์ลิงก์ affiliate อ้าง $2,420 ใน 1 เดือนจากการ copy เทรดเดอร์อีสปอร์ต และ $150 เป็น $22,000 จากบอท Up/Down 5 นาที",
-  "verdict": "ตัดทิ้ง",
-  "action": "ต้องสมัครบริการ copy trade ผ่านลิงก์ affiliate ไม่มีที่อยู่กระเป๋าหรือกฎให้ทดสอบ"
- },
- {
-  "t": "2026-11-23T23:55:36+07:00",
-  "source": "x",
-  "title": "cyrilXBT: คลัง 4,843 กลยุทธ์ที่ backtest แล้ว เรียงตาม Sharpe",
-  "url": "https://x.com/cyrilXBT/status/2121539889170993447",
-  "summary": "อ้างคลังกลยุทธ์ฟรีพร้อม Sharpe, t stat และโค้ด Sharpe สูงสุด 3.39 ส่วนใหญ่น่าจะเป็นแฟกเตอร์หุ้นทางวิชาการ",
-  "verdict": "ไอเดีย",
-  "action": "โพสต์ไม่บอกชื่อคลัง ถ้าเป็นชุดแฟกเตอร์หุ้นต้องข้อมูลงบและหุ้นรายตัวที่เราไม่มี รอบหน้าหาชื่อคลังแล้วเลือกตัวที่ใช้แค่ราคา ETF หรือคริปโตมาทดสอบ"
- },
- {
-  "t": "2026-11-23T23:55:36+07:00",
-  "source": "x",
-  "title": "DrivenByNikiG: ให้ Claude กับ Codex แข่งสร้างเครื่องหาเงิน 200 ไอเดียไม่มีตัวไหนผ่าน",
-  "url": "https://x.com/DrivenByNikiG/status/2121300209539936272",
-  "summary": "ทดลองสาธารณะ 200+ ไอเดียใน backtest ยังไม่มีตัวไหนได้เงินจริง ไม่มีกฎในโพสต์",
-  "verdict": "ไอเดีย",
-  "action": "ไม่มีกฎหรือ repo ในโพสต์ ตรงกับผลของ ai-trading-arena และของแล็บนี้ ถ้าเขาเปิดรายชื่อไอเดียที่ผ่าน backtest จะดึงมาทดสอบ"
- },
- {
-  "t": "2026-11-24 00:10",
-  "source": "Fable รายการยังไม่ทดสอบ (funding settlement)",
-  "title": "ราคาก่อนและหลังเวลาจ่าย funding 8 ชม. BTC ETH SOL",
-  "url": "",
-  "summary": "Binance 2019-2026 ชั่วโมงหลังจ่าย funding เมื่อ funding สูงกว่า 0.03% ราคาขึ้นเฉลี่ย BTC +5.7 bp ETH +14.2 bp (se 4.4) SOL +12 bp เทียบทุกชั่วโมง +0.6 ถึง +1.4 bp แต่ช่วง 2023+ มีแค่ 91-152 ครั้ง และต้นทุน taker ไปกลับราว 8 bp กินเกือบหมด ชั่วโมงก่อนจ่ายไม่มีรูปแบบชัด",
-  "verdict": "ทดสอบแล้ว",
-  "action": "ไม่เปิดบัญชี: edge หลังหักต้นทุนเหลือไม่กี่ bp และเกิดน้อยลงตั้งแต่ funding ต่ำลง"
- },
- {
-  "t": "2026-11-24 00:10",
-  "source": "ความเชื่อในวงคริปโต (CME gap ต้องเติม)",
-  "title": "เทรดสวน gap ของ CME สุดสัปดาห์ BTC ให้กลับไปราคาปิดวันศุกร์",
-  "url": "",
-  "summary": "Binance 1 ชม. 2018-2026 ราคาวันอาทิตย์ 23:00 UTC เทียบปิดศุกร์ 21:00 gap 1%+ เติมใน 3 วัน 59% (2%+ 49%, 3%+ 40%) มัธยฐานต่อไม้บวก +1.1 ถึง +2.1% แต่เฉลี่ย -0.5 ถึง -0.6% เพราะตัวที่ไม่เติมวิ่งต่อไกล แย่กว่าเข้าทุกสุดสัปดาห์ (-0.4%) ติดลบ 5 ใน 9 ปี",
-  "verdict": "ลองแล้วตก",
-  "action": "ไม่เปิดบัญชี: gap เติมบ่อยจริงแต่ไม่ได้เงิน"
- },
- {
-  "t": "2026-11-24T01:42:00+07:00",
-  "source": "github",
-  "title": "Dkpiec/freqtrade-atr-channel: ATR_CHANNEL_2H (ทะลุกรอบ Donchian 40 แท่ง + 1.5 ATR ตามเทรนด์รายวัน)",
-  "url": "https://github.com/Dkpiec/freqtrade-atr-channel",
-  "summary": "กลยุทธ์ freqtrade แท่ง 2 ชม. ปิดทะลุ high 40 แท่งก่อนหน้า + 1.5 ATR ขณะวันก่อนปิดเหนือ EMA20 และ EMA10 > EMA20 (short กลับกัน) stop 1 ATR เป้า 4R ถือไม่เกิน 120 แท่ง อ้าง PF 3.70 ชนะ 55% บน 15 เหรียญ futures ไม่บอกช่วงข้อมูล อ่านโค้ดผ่าน gh api ไม่ได้รัน",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "backtest Binance 2 ชม. 2017-2026 หลังหัก 0.35%/ข้าง long+short: BTC 135 ไม้ -0.05% (มัธยฐาน -1.61% ชนะ 33%) ETH 123 ไม้ +0.57% (ชนะ 36% ก่อนหัก +1.27%) SOL 74 ไม้ -1.23% ต่อไม้ เข้าสุ่มฝั่งเทรนด์ -0.76/-0.47/-0.72% permutation 200 รอบ p 0.025/0.005/0.726 ETH ผ่านประตู in-sample แต่ปี 2024 และ 2026 ติดลบ ไม่ใกล้ PF 3.70 ที่อ้าง เปิด fwd_atrch.py (BTC ETH SOL ไม่ใช้ leverage) พร้อมตัวแฝดเข้าสุ่มฝั่งเทรนด์ test เดินทีละแท่งตรง backtest 12 ไม้"
- },
- {
-  "t": "2026-11-24T01:42:00+07:00",
-  "source": "x",
-  "title": "NongNuea_Trojan: ท่าเดียว 1 ชม. ราคาตัด EMA20/50 + RSI14 ตัดเส้นเรียบ ($1,000 เป็น $30,000)",
-  "url": "https://x.com/Cryptonuachan_/status/2051845244724060174",
-  "summary": "เทรดเดอร์ไทยทำเธรดท้าโต $1,000 เป็น $30,000 ใช้ท่าเดียวบนแท่ง 1 ชม. ราคาตัด EMA20/50 และ RSI14 ตัดเส้นเรียบของตัวเอง มีตัวกรองความผันผวนที่ไม่บอกเลข ออกด้วย TP และ trailing stop ไม่บอกเลข พอร์ตล่าสุดที่เห็น $1,460",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "ทำเป็นกฎใกล้ที่สุด (ปิดเหนือ EMA20 และ EMA50 และ RSI14 เหนือ SMA14 ครบครั้งแรก long, short กลับกัน, stop 1.5 ATR เป้า 3 ATR ถือไม่เกิน 48 ชม. เลขออกเลือกเอง) backtest Binance 1 ชม. 2017-2026 หลังหัก 0.35%/ข้าง BTC 3,686 ไม้ -0.76% ETH 3,673 ไม้ -0.69% SOL 2,562 ไม้ -0.72% ต่อไม้ ก่อนหัก -0.06/+0.01/-0.02% เข้าสุ่มได้ -0.73/-0.73/-0.72% permutation 200 รอบบน 3 ปีล่าสุด p 0.866/0.622/0.124 เท่าเหรียญหัวก้อย เปิด fwd_emarsi.py ตามที่ผู้ใช้ให้ลองท่าอ่อนด้วย พร้อมตัวแฝดเข้าสุ่ม test ตรง backtest 78 ไม้"
- },
- {
   "t": "2026-11-24T01:42:00+07:00",
   "source": "web",
   "title": "Turn-of-the-candle effect in bitcoin returns (ผลตอบแทนผิดปกติรอบรอยต่อแท่ง 15 นาที)",
@@ -2698,5 +2635,68 @@
   "summary": "ไม่เจองานใหม่เดือนนี้ ได้แต่ 2602.10785 (MA intraday BTC), 2602.11708 (AdaptiveTrend) และงาน MDPI session BTC ETH ที่ลงฟีดแล้ว",
   "verdict": "ไอเดีย",
   "action": "ไม่มีของใหม่ ไม่ได้ทดสอบซ้ำ"
+ },
+ {
+  "t": "2026-11-28T04:47:32+07:00",
+  "source": "web",
+  "title": "Quantpedia: How To Profitably Trade Bitcoin's Overnight Sessions? (MAX(10) ข้ามคืนตลาดหุ้นสหรัฐ)",
+  "url": "https://quantpedia.com/tag/bitcoin/",
+  "summary": "บทความ Quantpedia (Dujava 2024) ว่าถือ BTC เฉพาะคืนศุกร์ จันทร์ อังคาร ตั้งแต่ตลาดหุ้นนิวยอร์กปิด 16:00 ถึง 10:00 วันถัดไป และเฉพาะตอนราคาอยู่จุดสูงสุด 10 วัน ได้ผลดีกว่าถือตลอด",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "รอบ 02:55 เขียน fwd_nightmax.py ไว้แต่ไม่ได้ลงบันทึก รอบนี้รัน test ซ้ำผ่าน (13 ไม้ตรง backtest) และรัน backtest BTC ซ้ำได้ตรงป้าย: Binance 1 ชม. 2017 ถึง 27 พ.ย. 69 หลังหัก 0.35%/ข้าง 303 ไม้ +0.054% ต่อไม้ มัธยฐาน -0.48% ปี 2025+ -0.77% ตัวแฝดสุ่ม -0.33% permutation p 0.388 (ป้ายเขียน 0.418 จากรอบก่อน) ETH 278 ไม้ +0.17% SOL 180 ไม้ +0.57% ไม่ผ่าน เปิดเพราะผู้ใช้ให้ลองท่าอ่อน"
+ },
+ {
+  "t": "2026-11-28T04:47:32+07:00",
+  "source": "github",
+  "title": "Orsonneri/crypto-trading-bots: 01-candle-momentum (ตามสีแท่งวันก่อน)",
+  "url": "https://github.com/Orsonneri/crypto-trading-bots",
+  "summary": "repo บอท Binance ภาษา Python 8 ตัว ตัวแรกเทรดตามสีแท่งวันก่อน เขียว long แดง short ที่ open วันใหม่ เป้าที่ high/low วันก่อน ขายครึ่งที่ครึ่งทาง stop 1% ดูราคาปิด 15 นาที ปิดสิ้นวัน",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest ตาม CONFIG ของ repo บน Binance 15 นาที 2017 ถึง 27 พ.ย. 69 หลังหัก 0.35%/ข้าง BTC 3,323 ไม้ -0.70% ETH 3,322 ไม้ -0.75% SOL 2,273 ไม้ -0.76% ต่อไม้ ก่อนหัก +0.004/-0.046/-0.060% ที่ 0.1%/ข้าง -0.20/-0.25/-0.26% ติดลบทุกปี ตัวแฝดสุ่มฝั่ง -0.71/-0.72/-0.80% permutation 200 รอบบน 30,000 แท่งล่าสุด p 0.065/0.512/0.179 เปิด fwd_candlecolor.py (BTC ETH SOL ทุน 1 ใน 3 ต่อเหรียญ ตัวแฝดสุ่มฝั่งทุกวัน) test เดินทีละแท่งตรง backtest 41 ไม้ BTC สคริปต์ /tmp/scout_0436/cc.py"
+ },
+ {
+  "t": "2026-11-28T04:47:32+07:00",
+  "source": "github",
+  "title": "cashbags/makefun-btc-race-24h-20261123-0511: Tidebreak ช้อนย่อ BTC แท่ง 1 นาที",
+  "url": "https://github.com/cashbags/makefun-btc-race-24h-20261123-0511",
+  "summary": "บอทที่ส่งเข้าประกวด make.fun แข่งเทรด cbBTC 24 ชม. ช้อนเมื่อราคาต่ำกว่า high 120 แท่ง 0.6% แล้วรอแท่งปิดสูงขึ้นเหนือ EMA12 stop -1.5% เป้า +1.5% trail สองขั้น ถือไม่เกิน 720 นาที",
+  "verdict": "ลองแล้วตก",
+  "action": "อ่าน main.ts ผ่าน gh api (ไม่ได้รัน) เขียนกฎใหม่บน Binance 1 นาที 60 วัน (28 ก.ย. ถึง 27 พ.ย. 69) เข้าที่ open แท่งถัดไป หน้าต่างแข่งเป็นวัน UTC: BTC 110 ไม้ ก่อนหัก -0.15% หลังหัก -0.85% ETH 138 ไม้ -0.31%/-1.00% SOL 162 ไม้ -0.31%/-1.01% ต่อไม้ ตัวแฝดเข้าสุ่ม -0.91 ถึง -1.10% permutation 200 รอบบน 30,000 แท่ง p 0.527/0.876/0.701 ก่อนหักก็ติดลบ ไม่เปิดบัญชี สคริปต์ /tmp/scout_0436/tide.py"
+ },
+ {
+  "t": "2026-11-28T04:47:32+07:00",
+  "source": "x",
+  "title": "bumpwisetraders: AI trader 4 ตัวที่โพสต์ทุกไม้ paper รวมไม้แพ้",
+  "url": "https://x.com/bumpwisetraders/status/2126328313824391559",
+  "summary": "บัญชีที่ให้ LLM 4 ตัวเทรด paper แล้วโพสต์ทุกไม้หลังหักค่าธรรมเนียม ยอมรับเองว่าผลรวมยังไม่ชนะ ตัว memes แพ้ 4 ไม้ติดหลังอัปเดต ใช้ stop -5% เป้า +6% trail 4.5% ถือราว 4 ชม. วอลุ่มวันละ 80k ขึ้นไป",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_bumpwise_memes (วอลุ่ม 80k+ ขึ้นทั้ง 5 นาทีและ 1 ชม. up RugCheck stop -5% TP +6% trail 4.5% หลัง +1% ถือ 4 ชม. ไม้ละ 5%) ตัวเลขที่เลือกเองอยู่ใน note import zoo ไม่มี skip test_zoo ผ่าน ส่วนตัวเลือกเหรียญของ LLM ต้องรันกับ LLM จริง"
+ },
+ {
+  "t": "2026-11-28T04:47:32+07:00",
+  "source": "x",
+  "title": "ค้น X 3 ครั้งรอบ 04:36 (grok trading bot results, from:bumpwisetraders, บอทเทรด กลยุทธ์)",
+  "url": "https://x.com/search?q=grok%20trading%20bot%20results",
+  "summary": "ส่วนใหญ่เป็นโพสต์โชว์หน้าจอกำไร Grok Bot (OxPips, iqtauhid, kkite_aiarc, k1rallik) ไม่มีกฎหรือกระเป๋าให้ตรวจ คำค้นภาษาไทยได้แต่ข่าวหุ้นรายวัน",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีอะไรทดสอบได้ ภาพหน้าจอกำไรไม่นับเป็นหลักฐานตาม AGENT_RULES ต้องได้ที่อยู่กระเป๋าหรือประวัติไม้ครบก่อน"
+ },
+ {
+  "t": "2026-11-28T04:47:32+07:00",
+  "source": "github",
+  "title": "กลุ่ม repo ใหม่ 21 ถึง 27 พ.ย. ที่ไม่มีกฎให้ทดสอบ (drwjkirkpatrick-web/crypto-trading-agent, pine2profit, Hyperliquidguide/hyperliquid-starter-bots, Mikodesteam/kestrel, moonspiid/trader-botview, happyguy1982-source/mql5-quant-fx-gold-strategies)",
+  "url": "https://github.com/drwjkirkpatrick-web/crypto-trading-agent",
+  "summary": "Phosphor เป็นเอเจนต์ LLM paper ที่ให้โค้ดตรวจความเสี่ยง pine2profit เป็นเว็บให้ AI ตัดสินสคริปต์ Pine ที่เหลือเป็นชุดบอท grid DCA และ EA ของ FX กับทองคำ",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎเข้าออกตายตัวให้ทดสอบ pine2profit โฟลเดอร์ data ใน repo ว่าง (404) ถ้ารอบหน้ามีผลตัดสินรายสคริปต์ให้ดึงสคริปต์ที่ได้คะแนนดีมาทดสอบ ส่วน EA ทองคำต้องใช้ข้อมูล XAUUSD รายนาที"
+ },
+ {
+  "t": "2026-11-28T04:47:32+07:00",
+  "source": "web",
+  "title": "Quantpedia: Bitcoin Pre-Holiday Momentum Strategy (#1202)",
+  "url": "https://quantpedia.com/surprisingly-profitable-pre-holiday-drift-signal-for-bitcoin/",
+  "summary": "ท่าซื้อ BTC วันก่อนวันหยุดตลาดหุ้นสหรัฐ ถ้าราคาอยู่จุดสูงสุด N วัน แล้วขายหลังวันหยุด ขึ้นรายการ Premium Update 7 พ.ย.",
+  "verdict": "ไอเดีย",
+  "action": "มีบัญชีอยู่แล้ว (fwd_preholiday.py) ไม่เปิดซ้ำ"
  }
 ]
