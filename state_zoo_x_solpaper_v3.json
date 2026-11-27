@@ -1,20 +1,48 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.69723691945914,
- "cash": 14.256319811875366,
+ "cash": 13.37538365784726,
  "pos": {
   "39nuVgw8RCVC8PgGuuuaa8WoAERA61cTw85oUvBLT2va": {
    "sym": "COMPUTE",
    "qty": 7766.481078027917,
    "entry": 5.508e-05,
-   "last": 5.859456701098224e-05,
-   "peak": 5.958e-05,
+   "last": 6.422e-05,
+   "peak": 6.548e-05,
    "cost": 0.44091710758377417,
    "opened": "2026-11-27T23:38:11+07:00",
    "zoo": "x_solpaper_v3",
    "smart": 51,
    "kol": 2,
-   "gap": 11,
+   "gap": 10,
+   "miss": 0
+  },
+  "7Y2CVbnqZRvR5RUvEJ9RQ73fZEfv7ybNcysytAepump": {
+   "sym": "WINSTON",
+   "qty": 2060.4011357849695,
+   "entry": 0.0002075,
+   "last": 0.0001892786454700641,
+   "peak": 0.0002099,
+   "cost": 0.4406650542933222,
+   "opened": "2026-11-28T00:09:17+07:00",
+   "zoo": "x_solpaper_v3",
+   "smart": 107,
+   "kol": 2,
+   "gap": 1,
+   "miss": 0
+  },
+  "63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": {
+   "sym": "DEXDATA",
+   "qty": 2362.560956652032,
+   "entry": 0.0001808,
+   "last": 0.0002047,
+   "peak": 0.0002064,
+   "cost": 0.44027109973478395,
+   "opened": "2026-11-28T00:09:21+07:00",
+   "zoo": "x_solpaper_v3",
+   "smart": 97,
+   "kol": 5,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -37,10 +65,38 @@
    "zoo": "x_solpaper_v3",
    "smart": 51,
    "kol": 2
+  },
+  {
+   "t": "2026-11-28T00:09:17+07:00",
+   "kind": "buy",
+   "mint": "7Y2CVbnqZRvR5RUvEJ9RQ73fZEfv7ybNcysytAepump",
+   "sym": "WINSTON",
+   "price": 0.0002075,
+   "jup": 0.0002081731961168892,
+   "usd": 0.4407,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_solpaper_v3",
+   "smart": 107,
+   "kol": 2
+  },
+  {
+   "t": "2026-11-28T00:09:21+07:00",
+   "kind": "buy",
+   "mint": "63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump",
+   "sym": "DEXDATA",
+   "price": 0.0001808,
+   "jup": 0.00018220305059263352,
+   "usd": 0.4403,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_solpaper_v3",
+   "smart": 97,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: บอท paper เหรียญใหม่ Solana v3 (myfufufafa) แบบที่ zoo เช็กได้: อายุไม่เกิน 24 ชม. มาร์เก็ตแคป 5k ถึง 500k ไม่พุ่งเกิน 100% ใน 1 ชม. และไม่ขยับเกิน 10% ใน 5 นาที ผ่าน RugCheck ขายครึ่ง +25% ขายหมด +50% stop -15% ตาม 10% หลัง +25% ถือไม่เกิน 24 ชม. ไม้ละ 3%",
  "night": "2026-11-27",
  "night_start": 14.69723691945914,
- "rank_t": 1795798634.5771322
+ "rank_t": 1795799228.9833663
 }
