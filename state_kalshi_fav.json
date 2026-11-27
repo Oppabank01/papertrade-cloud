@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 5.70100583307814,
+ "cash": 4.226079579390824,
  "pos": {
   "KXWTI-26NOV2714-T82.99:yes": {
    "qty": 0.8269452146281397,
@@ -67,7 +67,7 @@
   "KXDIESELD-26NOV28-T5.670:yes": {
    "qty": 0.7773833148266354,
    "entry": 0.9486479999999999,
-   "last": 0.39,
+   "last": 0.41,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T17:38:59+00:00",
    "coin": "YES | Will Diesel Price on November 28, 2026 be above $5.670?",
@@ -135,6 +135,30 @@
    "side": "yes",
    "close": "2026-11-29T06:00:00Z",
    "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-29T06:00:00Z"
+  },
+  "KXHIGHDEN-26NOV28-T50:yes": {
+   "qty": 0.7697342346305435,
+   "entry": 0.958075,
+   "last": 0.94,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-27T23:21:16+00:00",
+   "coin": "YES | Will the maximum temperature be >50° on Nov 28, 2026?",
+   "ticker": "KXHIGHDEN-26NOV28-T50",
+   "side": "yes",
+   "close": "2026-11-29T08:00:00Z",
+   "why": "fav ask 0.95 ทุน 0.958 ปิด 2026-11-29T08:00:00Z"
+  },
+  "KXOPENSOURCESHARE-26NOV29-T65.5:yes": {
+   "qty": 0.7549113938906525,
+   "entry": 0.976887,
+   "last": 0.95,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-27T23:21:16+00:00",
+   "coin": "YES | Will Open vs. Closed Token Volume (open weights share) for Nov 28, 2026 be above 65.",
+   "ticker": "KXOPENSOURCESHARE-26NOV29-T65.5",
+   "side": "yes",
+   "close": "2026-11-29T15:00:00Z",
+   "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-29T15:00:00Z"
   }
  },
  "log": [
@@ -2966,6 +2990,24 @@
    "ret": 0.09794,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-27T23:21:16+00:00",
+   "coin": "YES | Will the maximum temperature be >50° on Nov 28, 2026?",
+   "px": 0.95808,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.95 ทุน 0.958 ปิด 2026-11-29T08:00:00Z",
+   "ask": 0.95
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-27T23:21:16+00:00",
+   "coin": "YES | Will Open vs. Closed Token Volume (open weights share) for Nov 28, 2026 be above 65.",
+   "px": 0.97689,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-29T15:00:00Z",
+   "ask": 0.97
   }
  ],
  "seen": null,
@@ -3110,6 +3152,8 @@
   "KXNCAAFGAME-26NOV27APPUSA": 1795820493,
   "KXNCAAFTOTAL-26NOV27NDSUSJSU": 1795820493,
   "KXANTHVSPEND-28NOV26": 1795821183,
-  "KXLOWTSDF-26NOV28": 1795821183
+  "KXLOWTSDF-26NOV28": 1795821183,
+  "KXHIGHDEN-26NOV28": 1795821674,
+  "KXOPENSOURCESHARE-26NOV29": 1795821674
  }
 }
