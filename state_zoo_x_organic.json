@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.624159110851126,
- "cash": 11.467170638635519,
- "pos": {
-  "3FYTVzMji7cN2gARmmFoxFVmEJ6zaz7fwZFMUzdHpump": {
-   "sym": "SNOWBALLY",
-   "qty": 37805.65771919322,
-   "entry": 7.357e-05,
-   "last": 7.619430286783087e-05,
-   "peak": 7.77e-05,
-   "cost": 2.86679265965888,
-   "opened": "2026-11-27T21:25:20+07:00",
-   "zoo": "x_organic",
-   "smart": 1,
-   "kol": 0,
-   "gap": 4,
-   "miss": 0
-  }
- },
+ "cash": 11.522245434278982,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-23T02:11:54+07:00",
@@ -293,12 +278,27 @@
    "zoo": "x_organic",
    "smart": 1,
    "kol": 0
+  },
+  {
+   "t": "2026-11-27T21:34:34+07:00",
+   "kind": "sell",
+   "mint": "3FYTVzMji7cN2gARmmFoxFVmEJ6zaz7fwZFMUzdHpump",
+   "sym": "SNOWBALLY",
+   "price": 1.5015328086761008e-06,
+   "entry": 7.357e-05,
+   "usd": 0.0551,
+   "pnl": -2.8117,
+   "why": "stop -98.0%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 1,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: คนซื้อจริง: บอทไม่เกิน 25% bundler ไม่เกิน 10% อายุไม่เกิน 24 ชม. (ไอเดียลองของ 23 พ.ย.)",
  "night": "2026-11-27",
  "night_start": 14.3339632982944,
- "rank_t": 1795789417.3079453,
+ "rank_t": 1795790052.6331089,
  "nights": [
   {
    "night": "2026-11-22",
