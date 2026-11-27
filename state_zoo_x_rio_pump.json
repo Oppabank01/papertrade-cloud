@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.731879787860931,
- "cash": 13.995285798467885,
- "pos": {
-  "7Y2CVbnqZRvR5RUvEJ9RQ73fZEfv7ybNcysytAepump": {
-   "sym": "WINSTON",
-   "qty": 2997.6656397195216,
-   "entry": 0.0002384,
-   "last": 0.0002204239243523685,
-   "peak": 0.0002438,
-   "cost": 0.7365939893930467,
-   "opened": "2026-11-27T21:16:24+07:00",
-   "zoo": "x_rio_pump",
-   "smart": 84,
-   "kol": 2,
-   "gap": 3,
-   "miss": 0
-  }
- },
+ "cash": 14.610518134590102,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-25T05:39:08+07:00",
@@ -37,12 +22,27 @@
    "zoo": "x_rio_pump",
    "smart": 84,
    "kol": 2
+  },
+  {
+   "t": "2026-11-27T21:24:57+07:00",
+   "kind": "sell",
+   "mint": "7Y2CVbnqZRvR5RUvEJ9RQ73fZEfv7ybNcysytAepump",
+   "sym": "WINSTON",
+   "price": 0.00021154106835719906,
+   "entry": 0.0002384,
+   "usd": 0.6152,
+   "pnl": -0.1214,
+   "why": "stop -11.3%",
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "smart": 84,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: บอท Rio (geo302 เหรียญมีม Base): ขึ้น 5 นาที +50 ถึง +150% และ 1 ชม. +100% อายุไม่เกิน 6 ชม. TP +20% stop -10% ล็อกกำไรเมื่อขึ้น 10%",
  "night": "2026-11-27",
  "night_start": 14.731879787860931,
- "rank_t": 1795788901.0426168,
+ "rank_t": 1795789417.3079453,
  "nights": [
   {
    "night": "2026-11-24",
