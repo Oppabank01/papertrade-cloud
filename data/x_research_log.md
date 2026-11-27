@@ -1017,3 +1017,16 @@ rattibha thread $100 เป็น $300K (บอทเฝ้า Twitter + GMGN AP
 ปิด: x_smartflow_lowcap_b2 และ x_spray_small_b2 (ไม้เกิน 20 ติดลบชัด)
 ยังทำไม่ได้: บอท 27,000 SOL spray and pray ต้องกระเป๋าบน chain และความเร็วระดับวินาที; 10 SOL เป็น 1000 SOL ต้องข้อมูลกระเป๋า
 สกอร์: x_crb_4agent +11.8% (11 ไม้), x_kilo_grad_ladder +3.2% (5 ไม้), x_skip_pumped -73.8% (55 ไม้) เทียบ rand -98.3%
+
+## 2026-11-27 21:38 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 20 พ.ย. (hyperliquid bot, polymarket strategy, pairs trading, crypto momentum, liquidation trading, altcoin strategy ตั้งแต่ 22 พ.ย.), X 4 ครั้ง (claude code trading bot results, from:ShadowsSniper1 backtest, liquidation bot strategy entry exit rules, memecoin bot settings take profit stop loss market cap), WebSearch 1 ครั้ง (งาน arXiv เทรดคริปโตหลังหักต้นทุน ได้แต่ของที่ลงฟีดแล้ว)
+เจอ: yfwwwwww/hyperliquid-quant-bot (เจ้าของเขียนว่าตัวกรอง 5 แบบตกนอกตัวอย่าง เหลือ EMA20 ตัด EMA100 4 ชม. กรอง EMA200 stop 3 ATR), RyanHou0303/QIT (alpha market-neutral 9 เหรียญ ยังไม่มีผล), กลุ่มเครื่องมือ (pspomyl2020, Avapage, PredictSim, liqsonar-mcp, signalcheckerhq), X: ShadowsSniper1 (0 จาก 20 รุ่นผ่าน), StacyOnChain (บอทตาม Telegram liquidation), โพสต์ขายวิธีสร้างบอทอีกหลายโพสต์ ไม่มีกฎเหรียญมีมใหม่
+ทดสอบ EMA20 ตัด EMA100 (Binance 4 ชม. 2017 ถึง 27 พ.ย. 69 หลังหัก 0.35%/ข้าง long+short ตามกฎใน strategy.py และ backtest.py ของ repo ออกเมื่อตัดสวนที่ open แท่งถัดไป):
+- BTC 173 ไม้ +2.64% ต่อไม้ ETH 176 ไม้ +3.11% SOL 122 ไม้ +7.15% BNB 182 ไม้ +4.13% XRP 178 ไม้ +1.31% มัธยฐาน -3 ถึง -5% ชนะ 24 ถึง 35% กำไรมาจากขา long ขา short ราว 0% หรือติดลบ
+- ปี 2025+ BTC +0.71% ETH +3.73% SOL +2.49% ตัวแฝดเข้าสุ่มออกแบบเดียวกัน BTC +0.57% ETH +0.68% SOL +6.74% (SOL ได้จากขาขึ้นของเหรียญเอง)
+- permutation 200 รอบบน 6,000 แท่งล่าสุด (กฎเดียว ไม่มีกริด) p BTC 0.055 ETH 0.045 SOL 0.090 BNB 0.567 XRP 0.104 ใกล้แต่ไม่ผ่านประตู 0.01 สคริปต์ /tmp/scout_2138/bt.py
+ลองแล้วตก QIT ฉบับกลไกที่เขียนเอง (residual 24 ชม. หัก beta BTC 30 วัน long 2 ต่ำสุด short 2 สูงสุดใน 8 เหรียญ ถือ 1 วัน ตัวเลขเลือกเองทั้งหมด): 2,225 วัน reversal -0.66% ต่อวัน ก่อนหัก -0.14% ติดลบทุกปี กลับเป็น momentum ก่อนหัก +0.14% หลังหัก -0.38% permutation 200 รอบ p 0.468 ต้นทุนรีบาลานซ์รายวันกินหมด สคริปต์ /tmp/scout_2138/resrev.py
+เปิดบัญชี: fwd_ema20x100.py (BTC ETH SOL ทุน 1 ใน 3 ต่อเหรียญ ตัวแฝดสุ่ม 1 ใน 55 แท่ง ฝั่งสุ่ม test เดินทีละแท่งด้วยหน้าต่าง 3,000 แท่ง ETH ตรง backtest 21 ไม้) เปิดทั้งที่ไม่ผ่านเพราะผู้ใช้ให้ลองท่าอ่อน ตัวเลขที่เลือกเองอยู่ในคอมเมนต์
+เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่)
+ไอเดีย: ShadowsSniper1 (ต้องบทความเต็ม), StacyOnChain (ต้องข้อมูล liquidation รายเหตุการณ์ ใกล้ fwd_cascade ที่มีแล้ว), กลุ่มเครื่องมือ (ต้องข้อมูลกระเป๋า Hyperliquid หรือ L2), qwinsi0x stop 2% เป้า 4% (ไม่มีจุดเข้า)
+ตัดทิ้ง: ไม่มี
