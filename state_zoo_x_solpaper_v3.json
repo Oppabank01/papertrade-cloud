@@ -1,27 +1,28 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.69723691945914,
- "cash": 13.717792995436378,
+ "cash": 13.542376323789789,
  "pos": {
   "39nuVgw8RCVC8PgGuuuaa8WoAERA61cTw85oUvBLT2va": {
    "sym": "COMPUTE",
-   "qty": 7766.481078027917,
+   "qty": 3883.2405390139584,
    "entry": 5.508e-05,
-   "last": 6.301e-05,
-   "peak": 6.548e-05,
-   "cost": 0.44091710758377417,
+   "last": 7.017e-05,
+   "peak": 7.017e-05,
+   "cost": 0.22045855379188709,
    "opened": "2026-11-27T23:38:11+07:00",
    "zoo": "x_solpaper_v3",
    "smart": 51,
    "kol": 2,
    "gap": 0,
-   "miss": 0
+   "miss": 0,
+   "half": true
   },
   "63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": {
    "sym": "DEXDATA",
    "qty": 2362.560956652032,
    "entry": 0.0001808,
-   "last": 0.0001989,
+   "last": 0.00018795470099780757,
    "peak": 0.00021196311523335917,
    "cost": 0.44027109973478395,
    "opened": "2026-11-28T00:09:21+07:00",
@@ -29,6 +30,20 @@
    "smart": 97,
    "kol": 5,
    "gap": 2,
+   "miss": 0
+  },
+  "AQFzxjKB66sXWHBUrEPpnrxQokPU3eDKKkkyprHBpump": {
+   "sym": "SNOWBALLO",
+   "qty": 4572.2031534247735,
+   "entry": 9.332e-05,
+   "last": 9.048e-05,
+   "peak": 9.471e-05,
+   "cost": 0.43978354800824554,
+   "opened": "2026-11-28T00:31:47+07:00",
+   "zoo": "x_solpaper_v3",
+   "smart": 2,
+   "kol": 0,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -94,10 +109,34 @@
    "cost_side": 0.03,
    "smart": 107,
    "bundler": null
+  },
+  {
+   "t": "2026-11-28T00:31:47+07:00",
+   "kind": "buy",
+   "mint": "AQFzxjKB66sXWHBUrEPpnrxQokPU3eDKKkkyprHBpump",
+   "sym": "SNOWBALLO",
+   "price": 9.332e-05,
+   "jup": 9.342977271171189e-05,
+   "usd": 0.4398,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_solpaper_v3",
+   "smart": 2,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-28T00:38:44+07:00",
+   "kind": "sell",
+   "mint": "39nuVgw8RCVC8PgGuuuaa8WoAERA61cTw85oUvBLT2va",
+   "sym": "COMPUTE",
+   "price": 7.017e-05,
+   "usd": 0.2644,
+   "pnl": 0.0439,
+   "why": "ขายครึ่ง +27.4%"
   }
  ],
  "label": "สวนสัตว์: บอท paper เหรียญใหม่ Solana v3 (myfufufafa) แบบที่ zoo เช็กได้: อายุไม่เกิน 24 ชม. มาร์เก็ตแคป 5k ถึง 500k ไม่พุ่งเกิน 100% ใน 1 ชม. และไม่ขยับเกิน 10% ใน 5 นาที ผ่าน RugCheck ขายครึ่ง +25% ขายหมด +50% stop -15% ตาม 10% หลัง +25% ถือไม่เกิน 24 ชม. ไม้ละ 3%",
  "night": "2026-11-27",
  "night_start": 14.69723691945914,
- "rank_t": 1795799969.9825714
+ "rank_t": 1795800614.5641444
 }
