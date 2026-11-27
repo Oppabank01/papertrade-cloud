@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 8.789405891091466,
+ "cash": 2.9923206631901684,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 152.2041941808952,
    "entry": 0.01894,
-   "last": 0.01869,
+   "last": 0.01863,
    "peak": 0.01928,
    "cost": 2.9117925686585235,
    "opened": "2026-11-27T14:39:47+07:00",
@@ -28,6 +28,34 @@
    "zoo": "w_cold_mkt_b2",
    "smart": 901,
    "kol": 205,
+   "gap": 0,
+   "miss": 0
+  },
+  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
+   "sym": "CATE",
+   "qty": 157.56966347252785,
+   "entry": 0.01823,
+   "last": 0.01822,
+   "peak": 0.01832,
+   "cost": 2.901436797155812,
+   "opened": "2026-11-27T19:42:26+07:00",
+   "zoo": "w_cold_mkt_b2",
+   "smart": 994,
+   "kol": 112,
+   "gap": 0,
+   "miss": 0
+  },
+  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
+   "sym": "Buttcoin",
+   "qty": 501.0073990997553,
+   "entry": 0.005722,
+   "last": 0.00573,
+   "peak": 0.005765,
+   "cost": 2.8956484307454855,
+   "opened": "2026-11-27T19:42:26+07:00",
+   "zoo": "w_cold_mkt_b2",
+   "smart": 545,
+   "kol": 51,
    "gap": 0,
    "miss": 0
   }
@@ -615,10 +643,38 @@
    "cost_side": 0.01,
    "smart": 1000,
    "bundler": null
+  },
+  {
+   "t": "2026-11-27T19:42:26+07:00",
+   "kind": "buy",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.01823,
+   "jup": 0.018232301577728476,
+   "usd": 2.9014,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_cold_mkt_b2",
+   "smart": 994,
+   "kol": 112
+  },
+  {
+   "t": "2026-11-27T19:42:26+07:00",
+   "kind": "buy",
+   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+   "sym": "Buttcoin",
+   "price": 0.005722,
+   "jup": 0.005768880824910357,
+   "usd": 2.8956,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_cold_mkt_b2",
+   "smart": 545,
+   "kol": 51
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดเย็น: กฎ w_aged_nostop เฉพาะรอบที่เหรียญขึ้นไม่เกิน 61%",
- "rank_t": 1795782634.6455424,
+ "rank_t": 1795783274.68505,
  "banned": {
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings",
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
