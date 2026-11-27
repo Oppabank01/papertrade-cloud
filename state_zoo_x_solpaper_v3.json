@@ -1,49 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.69723691945914,
- "cash": 13.672755737371507,
+ "cash": 13.894993333734334,
  "pos": {
-  "AQFzxjKB66sXWHBUrEPpnrxQokPU3eDKKkkyprHBpump": {
-   "sym": "SNOWBALLO",
-   "qty": 2286.1015767123868,
-   "entry": 9.332e-05,
-   "last": 0.0001333,
-   "peak": 0.0001383,
-   "cost": 0.21989177400412277,
-   "opened": "2026-11-28T00:31:47+07:00",
-   "zoo": "x_solpaper_v3",
-   "smart": 2,
-   "kol": 0,
-   "gap": 1,
-   "miss": 0,
-   "half": true
-  },
   "CvXQ9qEriGgTbMWyF8L1U7oqn9ev8A49N1dzNE8cpump": {
    "sym": "CINU",
    "qty": 1940.4060990556538,
    "entry": 0.0002205,
-   "last": 0.00022745433025630075,
+   "last": 0.000258,
    "peak": 0.0002665,
    "cost": 0.44100138614901224,
    "opened": "2026-11-28T00:41:35+07:00",
    "zoo": "x_solpaper_v3",
    "smart": 50,
    "kol": 2,
-   "gap": 4,
+   "gap": 3,
    "miss": 0
   },
-  "8ob6WB1VTJasK2r6EjzbMyJ5Zv8bd6jDsTtahvxunyLV": {
-   "sym": "67",
-   "qty": 8325.634682470727,
-   "entry": 5.206e-05,
-   "last": 5.1430930876861854e-05,
-   "peak": 5.973e-05,
-   "cost": 0.4467455592346176,
-   "opened": "2026-11-28T01:40:09+07:00",
+  "7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": {
+   "sym": "Kibo",
+   "qty": 5009.777032734634,
+   "entry": 8.69e-05,
+   "last": 8.00141374223562e-05,
+   "peak": 8.69e-05,
+   "cost": 0.4487215256077507,
+   "opened": "2026-11-28T01:58:52+07:00",
    "zoo": "x_solpaper_v3",
-   "smart": 58,
+   "smart": 91,
    "kol": 5,
-   "gap": 2,
+   "gap": 1,
    "miss": 0
   }
  },
@@ -211,10 +196,54 @@
    "zoo": "x_solpaper_v3",
    "smart": 58,
    "kol": 5
+  },
+  {
+   "t": "2026-11-28T01:58:52+07:00",
+   "kind": "buy",
+   "mint": "7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump",
+   "sym": "Kibo",
+   "price": 8.69e-05,
+   "jup": 8.699920001192419e-05,
+   "usd": 0.4487,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_solpaper_v3",
+   "smart": 91,
+   "kol": 5
+  },
+  {
+   "t": "2026-11-28T01:58:58+07:00",
+   "kind": "sell",
+   "mint": "AQFzxjKB66sXWHBUrEPpnrxQokPU3eDKKkkyprHBpump",
+   "sym": "SNOWBALLO",
+   "price": 0.0001414,
+   "entry": 9.332e-05,
+   "usd": 0.3136,
+   "pnl": 0.0937,
+   "why": "ถึงเป้า +51.5%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 2,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-28T02:05:43+07:00",
+   "kind": "sell",
+   "mint": "8ob6WB1VTJasK2r6EjzbMyJ5Zv8bd6jDsTtahvxunyLV",
+   "sym": "67",
+   "price": 4.423843884737908e-05,
+   "entry": 5.206e-05,
+   "usd": 0.3573,
+   "pnl": -0.0894,
+   "why": "stop -15.0%",
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "smart": 58,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: บอท paper เหรียญใหม่ Solana v3 (myfufufafa) แบบที่ zoo เช็กได้: อายุไม่เกิน 24 ชม. มาร์เก็ตแคป 5k ถึง 500k ไม่พุ่งเกิน 100% ใน 1 ชม. และไม่ขยับเกิน 10% ใน 5 นาที ผ่าน RugCheck ขายครึ่ง +25% ขายหมด +50% stop -15% ตาม 10% หลัง +25% ถือไม่เกิน 24 ชม. ไม้ละ 3%",
  "night": "2026-11-27",
  "night_start": 14.69723691945914,
- "rank_t": 1795805328.0213635
+ "rank_t": 1795805824.0497823
 }
