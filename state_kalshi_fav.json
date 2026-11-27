@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 5.216141012195151,
+ "cash": 3.741214758507835,
  "pos": {
   "KXWTI-26NOV2714-T82.99:yes": {
    "qty": 0.8269452146281397,
@@ -67,7 +67,7 @@
   "KXDIESELD-26NOV28-T5.670:yes": {
    "qty": 0.7773833148266354,
    "entry": 0.9486479999999999,
-   "last": 0.54,
+   "last": 0.55,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T17:38:59+00:00",
    "coin": "YES | Will Diesel Price on November 28, 2026 be above $5.670?",
@@ -127,7 +127,7 @@
   "KXNHLSPREAD-26NOV27OTTTB-OTT4:yes": {
    "qty": 0.7773833148266354,
    "entry": 0.9486479999999999,
-   "last": 0.92,
+   "last": 0.8,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T22:20:49+00:00",
    "coin": "YES | Ottawa wins by over 3.5 goals",
@@ -139,7 +139,7 @@
   "KXNFLTOTAL-26NOV27DENPIT-35:yes": {
    "qty": 0.8543610818706032,
    "entry": 0.8631749999999999,
-   "last": 0.84,
+   "last": 0.76,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T22:20:49+00:00",
    "coin": "YES | Full Game: over 34.5 points scored?",
@@ -147,6 +147,30 @@
    "side": "yes",
    "close": "2026-11-29T20:00:00Z",
    "why": "fav ask 0.85 ทุน 0.863 ปิด 2026-11-29T20:00:00Z"
+  },
+  "KXNHLSPREAD-26NOV27VANPHI-PHI2:yes": {
+   "qty": 0.8450091286674175,
+   "entry": 0.872728,
+   "last": 0.85,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-27T22:29:09+00:00",
+   "coin": "YES | Philadelphia wins by over 1.5 goals",
+   "ticker": "KXNHLSPREAD-26NOV27VANPHI-PHI2",
+   "side": "yes",
+   "close": "2026-11-29T20:00:00Z",
+   "why": "fav ask 0.86 ทุน 0.873 ปิด 2026-11-29T20:00:00Z"
+  },
+  "KXNFLSPREAD-26NOV27DENPIT-PIT8:yes": {
+   "qty": 0.7622452442238642,
+   "entry": 0.967488,
+   "last": 0.96,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-27T22:29:09+00:00",
+   "coin": "YES | Pittsburgh wins by over 7.5 points?",
+   "ticker": "KXNFLSPREAD-26NOV27DENPIT-PIT8",
+   "side": "yes",
+   "close": "2026-11-29T20:00:00Z",
+   "why": "fav ask 0.96 ทุน 0.967 ปิด 2026-11-29T20:00:00Z"
   }
  },
  "log": [
@@ -2756,6 +2780,24 @@
    "usd": 0.7374631268436579,
    "why": "fav ask 0.85 ทุน 0.863 ปิด 2026-11-29T20:00:00Z",
    "ask": 0.85
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-27T22:29:09+00:00",
+   "coin": "YES | Philadelphia wins by over 1.5 goals",
+   "px": 0.87273,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.86 ทุน 0.873 ปิด 2026-11-29T20:00:00Z",
+   "ask": 0.86
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-27T22:29:09+00:00",
+   "coin": "YES | Pittsburgh wins by over 7.5 points?",
+   "px": 0.96749,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.96 ทุน 0.967 ปิด 2026-11-29T20:00:00Z",
+   "ask": 0.96
   }
  ],
  "seen": null,
@@ -2890,6 +2932,8 @@
   "KXNHLTOTAL-26NOV27OTTTB": 1795813015,
   "KXNHLTOTAL-26NOV27FLAWSH": 1795813677,
   "KXNHLSPREAD-26NOV27OTTTB": 1795818048,
-  "KXNFLTOTAL-26NOV27DENPIT": 1795818048
+  "KXNFLTOTAL-26NOV27DENPIT": 1795818048,
+  "KXNHLSPREAD-26NOV27VANPHI": 1795818548,
+  "KXNFLSPREAD-26NOV27DENPIT": 1795818548
  }
 }
