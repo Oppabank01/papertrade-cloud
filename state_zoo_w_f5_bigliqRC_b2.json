@@ -1,27 +1,27 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 3.160970641667065,
+ "cash": 1.6367921797499403,
  "pos": {
   "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": {
    "sym": "CBUCKS",
    "qty": 195.169786185729,
    "entry": 0.00775,
-   "last": 0.007689,
-   "peak": 0.007813,
+   "last": 0.007862,
+   "peak": 0.007971,
    "cost": 1.5590247814258913,
    "opened": "2026-11-27T09:32:30+07:00",
    "zoo": "w_f5_bigliqRC_b2",
    "smart": 42,
    "kol": 0,
-   "gap": 6,
+   "gap": 0,
    "miss": 0
   },
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
    "sym": "Buttcoin",
    "qty": 265.45233185682935,
    "entry": 0.005639,
-   "last": 0.005622,
+   "last": 0.005572,
    "peak": 0.005713,
    "cost": 1.5428630172548554,
    "opened": "2026-11-27T09:40:13+07:00",
@@ -35,13 +35,27 @@
    "sym": "TROLL",
    "qty": 66.60411988671827,
    "entry": 0.02232,
-   "last": 0.02202,
+   "last": 0.02204,
    "peak": 0.02232,
    "cost": 1.5322654667816449,
    "opened": "2026-11-27T10:46:01+07:00",
    "zoo": "w_f5_bigliqRC_b2",
    "smart": 480,
    "kol": 214,
+   "gap": 0,
+   "miss": 0
+  },
+  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
+   "sym": "CATE",
+   "qty": 79.28997017436967,
+   "entry": 0.01865,
+   "last": 0.01869,
+   "peak": 0.01875,
+   "cost": 1.5241784619171248,
+   "opened": "2026-11-27T11:05:29+07:00",
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 994,
+   "kol": 112,
    "gap": 0,
    "miss": 0
   }
@@ -1782,10 +1796,24 @@
    "zoo": "w_f5_bigliqRC_b2",
    "smart": 480,
    "kol": 214
+  },
+  {
+   "t": "2026-11-27T11:05:29+07:00",
+   "kind": "buy",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.01865,
+   "jup": 0.018684029946794693,
+   "usd": 1.5242,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_f5_bigliqRC_b2",
+   "smart": 994,
+   "kol": 112
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ความเร็ว: กฎ bigliqRC แต่เช็กราคาทุก 5 วิ",
- "rank_t": 1795751670.4809396,
+ "rank_t": 1795752207.7858312,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT"
  }
