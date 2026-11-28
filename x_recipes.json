@@ -3326,5 +3326,78 @@
    "PER_TRADE": 0.15,
    "MAX_POS": 3
   }
+ },
+ {
+  "name": "x_heyrdzy_sharpe",
+  "label": "บอท make.fun HeyRdzy (Sharpe Sprint) แบบที่ zoo เช็กได้: เหรียญบน curve อายุ 3 นาทีขึ้นไป สภาพคล่อง 1k ถึง 12k ซื้อ 4+ คนถือ 5+ แรงซื้อนำ ขึ้น 5 นาที 20 ถึง 200% TP +15% stop -10% ถือไม่เกิน 6 นาที ไม้ละ 0.5%",
+  "horizon": "night",
+  "source": "https://github.com/HeyRdzy/pumpfun-sharpe-entry",
+  "claim": "make.fun Pump.fun Sharpe Sprint entry (28 Nov 2026): one 0.05 SOL buy per coin when the last 300 slots show 3+ SOL net buy inflow, 4+ buys from 5+ wallets, price up 20 to 200% and within 10% of the window high, 5 to 60 SOL real reserve, 500+ slots since creation; TP +15%, stop -10%, 900-slot time exit, no trailing (README says trailing and fade exits lost on its dev window; no results published, unverified)",
+  "added": "2026-11-28",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 0.056,
+    "liquidity": 1000,
+    "buys": 4,
+    "holder_count": 5,
+    "price_change_percent5m": 20
+   },
+   "max": {
+    "launchpad_status": 0,
+    "liquidity": 12000,
+    "price_change_percent5m": 200
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.1,
+   "TP_ALL": 0.15,
+   "HALF_AT": null,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 0.1,
+   "PER_TRADE": 0.005,
+   "MAX_POS": 5,
+   "COOLDOWN_H": 24,
+   "WATCH_S": 5
+  },
+  "note": "from README: 300-slot window, 3+ SOL net inflow, 4+ buys, 5+ distinct wallets, price +20% to +200% within 10% of window high, 5 to 60 SOL reserve, 500+ slots old, 0.05 SOL per coin, TP +15%, stop -10%, 900-slot exit, no trail; chosen by me: slots read as 0.4 s so 500 slots = age_h 0.056 and 900 slots = MAX_HOLD_H 0.1, 5 to 60 SOL read as liquidity 1000 to 12000 USD (10 SOL = 2000 USD as x_kopler_surge), 300-slot (2 min) rise read as 5m change 20 to 200%, 5 wallets read as holder_count 5, net inflow read as zoo up (buys > sells), 0.05 SOL of 10 SOL = PER_TRADE 0.005, MAX_POS 5 (README gives none), near-window-high and the 0.02 SOL probe trades dropped (no field), COOLDOWN_H 24 for one buy per coin, WATCH_S 5 and rugcheck on as the other curve recipes"
+ },
+ {
+  "name": "x_iammai_sharpe",
+  "label": "บอท make.fun iammai0816 (Sharpe Sprint) แบบที่ zoo เช็กได้: เหรียญบน curve อายุไม่เกิน 6 นาที วอลุ่ม 300+ ซื้อ 8+ แรงซื้อนำ ขึ้น 1 ชม. 10%+ TP +15% stop -6% ตาม 4% เมื่อขึ้น +3% ถือไม่เกิน 16 นาที ไม้ละ 0.5%",
+  "horizon": "night",
+  "source": "https://github.com/iammai0816/makefun-pumpfun-sharpe-bot",
+  "claim": "make.fun Pump.fun Sharpe Sprint entry (28 Nov 2026): within 900 slots of creation, cumulative buy volume 1.5+ SOL, 8+ buy trades, buys 70%+ of trades, price 1.10x+ creation; 0.05 SOL per mint, 5 open max; TP +15%, stop -6%, trailing exit at 0.96x peak once +3%, 2400-slot time stop (no results published, unverified)",
+  "added": "2026-11-28",
+  "active": true,
+  "entry": {
+   "min": {
+    "volume": 300,
+    "buys": 8,
+    "price_change_percent1h": 10
+   },
+   "max": {
+    "age_h": 0.1,
+    "launchpad_status": 0
+   },
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.06,
+   "TP_ALL": 0.15,
+   "HALF_AT": null,
+   "TRAIL_ON": 0.03,
+   "TRAIL": 0.04,
+   "MAX_HOLD_H": 0.27,
+   "PER_TRADE": 0.005,
+   "MAX_POS": 5,
+   "COOLDOWN_H": 24,
+   "WATCH_S": 5
+  },
+  "note": "from README: 900 slots since creation, buy volume 1.5+ SOL, 8+ buys, buys 70%+ of trades, price 1.10x+ creation, 0.05 SOL per mint, 5 open, TP +15%, stop -6%, trail 0.96x peak once +3%, 2400-slot stop; chosen by me: slots read as 0.4 s so 900 slots = age_h max 0.1 and 2400 slots = MAX_HOLD_H 0.27, 1.5 SOL buy volume read as total volume 300 USD (10 SOL = 2000 USD as x_kopler_surge; GMGN has no buy-only volume), buys 70%+ read as zoo up (buys > sells only, no ratio field), 1.10x creation read as 1h change 10%+ (coin younger than 1 h), 0.05 SOL of 10 SOL = PER_TRADE 0.005, COOLDOWN_H 24 for one buy per mint, WATCH_S 5 and rugcheck on as the other curve recipes"
  }
 ]

@@ -1,68 +1,5 @@
 [
  {
-  "t": "2026-11-24T05:21:27+07:00",
-  "source": "x",
-  "title": "goatyishere: กระเป๋า Polymarket mumiatriste +$2.3M ใน 4 เดือน ซื้อ NO ทุกขาของพาร์เลย์กีฬา",
-  "url": "https://x.com/goatyishere/status/2122690600101138526",
-  "summary": "โพสต์ (มีลิงก์ affiliate) อ้างว่ากระเป๋านี้เล่นแต่พาร์เลย์กีฬา 2-10 ขา ทุกขาเลือก NO ไม่บอกเกณฑ์อื่น",
-  "verdict": "ทดสอบแล้ว",
-  "action": "สร้างแบบใกล้ที่สุดบนตลาดเดี่ยว: ตลาด moneyline กีฬาที่ปิดแล้วล่าสุด 1,200 ตลาด (gamma-api) ราคา 2 ชม. ก่อนแข่ง (clob prices-history) บวก slippage 1 เซนต์ ถือจนตัดสิน ซื้อ NO ทุกขา 2,168 ขา -5.2% ต่อขา, ซื้อ NO เมื่อ YES ต่ำกว่า 0.5 815 ขา +9.8% ต่อขา มัธยฐาน +37% ชนะ 71%, NO เมื่อ YES ต่ำกว่า 0.25 161 ขา +4.6% ชนะ 91%, NO เมื่อ YES 0.75 ขึ้นไป -43.9% ดูเป็น favourite-longshot bias แต่เป็นช่วงเวลาเดียว (ไม่กี่สัปดาห์) ยังไม่แยกตามกีฬา ราคาเป็นราคาซื้อขายล่าสุดไม่ใช่ราคา ask และยังไม่ได้ทำประตู permutation forward ที่เหมาะ: บัญชีกระดาษ Polymarket ซื้อ NO ตลาด moneyline ที่ YES ต่ำกว่า 0.5 ตอน 2 ชม. ก่อนแข่ง ใช้ราคา ask จริงจาก clob พร้อมตัวควบคุมซื้อฝั่งสุ่ม สคริปต์ /tmp/scout_0505/poly_no.py"
- },
- {
-  "t": "2026-11-24T05:21:27+07:00",
-  "source": "x",
-  "title": "heyrooksy: Claude ให้คะแนนแต่ละจังหวะย่อ Python คุมขนาดไม้และ stop +$1,367 บน testnet",
-  "url": "https://x.com/heyrooksy/status/2124772950846955633",
-  "summary": "บอทช้อนย่อที่ให้ Claude ให้คะแนน ไม่ลงเงินจริงจนกว่าจะชนะ random noise ไม่บอกกฎหรือ prompt บอกแค่ผลวันเดียวบน testnet",
-  "verdict": "ไอเดีย",
-  "action": "ส่วนที่ตัดสินคือคะแนนจาก LLM ที่ไม่บอก prompt จึงทดสอบบนแท่งราคาไม่ได้ ต้องได้ prompt และรายการไม้ ส่วนกลไกช้อนย่อแบบไม่มี LLM มี fwd_dropbounce รันอยู่แล้ว ผลวันเดียวไม่นับเป็นหลักฐาน"
- },
- {
-  "t": "2026-11-24T05:21:27+07:00",
-  "source": "x",
-  "title": "recogard: บอท GitHub ฟรี 5 ตัวสำหรับตลาดอากาศ Polymarket (GFS 31 ฉากทัศน์)",
-  "url": "https://x.com/recogard/status/2124961712403099969",
-  "summary": "รวม repo บอทตลาดอุณหภูมิ ใช้พยากรณ์ ensemble GFS ประเมินความน่าจะเป็นแล้วซื้อช่องที่ราคาต่ำกว่า",
-  "verdict": "ไอเดีย",
-  "action": "วิธีเดียวกับ state_poly_weather ที่รันอยู่แล้ว (Open-Meteo ECMWF+GEFS) ไม่ได้รันโค้ดจาก repo ไม่เปิดบัญชีซ้ำ"
- },
- {
-  "t": "2026-11-24T07:02:41+07:00",
-  "source": "github",
-  "title": "Jordan-Johnson90/quant-strategy-research: Holy Grail (Raschke/Connors ADX14 + EMA20 trend pullback)",
-  "url": "https://github.com/Jordan-Johnson90/quant-strategy-research",
-  "summary": "ท่าคลาสสิกจากหนังสือ Street Smarts เมื่อ ADX เกิน 30 และกำลังขึ้น รอราคาย่อแตะ EMA20 แล้วตั้ง buy stop ที่ high ของแท่งนั้น stop ที่ low เป้าที่จุดสูงสุด 100 แท่ง repo เขียนกฎครบสำหรับ futures ดัชนี",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "backtest Binance 1 ชม. 2017-2026 เลขของ repo (ตัด re-entry กับเพดานขาดทุนรายวัน) หลังหัก 0.35%/ข้าง BTC 818 ไม้ -0.81% ETH 786 ไม้ -0.67% SOL 540 ไม้ -0.81% ต่อไม้ ก่อนหัก -0.11/+0.03/-0.11% ชนะ 26-27% เข้าสุ่ม -0.81/-0.82/-0.93% permutation 200 รอบ 3 ปีล่าสุด p 0.637/0.090/0.284 ติดลบทุกปี เปิด fwd_hgrail.py พร้อมตัวแฝดเข้าสุ่ม test เดินทีละแท่งตรง backtest 60 ไม้"
- },
- {
-  "t": "2026-11-24T07:02:41+07:00",
-  "source": "github",
-  "title": "acerodario/binance-trading-bot: B_ruptura (ทะลุจุดสูงสุด 2 วัน วอลุ่ม 2 เท่า) แท่ง 1 ชม.",
-  "url": "https://github.com/acerodario/binance-trading-bot",
-  "summary": "บอทสแกน perp Binance 520 ตัวทุกชั่วโมง ท่าที่ใช้จริงคือปิดเหนือ high 48 แท่งก่อนพร้อมวอลุ่มเกิน 2 เท่า คะแนน 60 ขึ้นไป BTC เหนือ EMA50 รายวัน ATR 1 ชม. 3% ขึ้นไป stop -10% trailing เริ่ม +5% คืน 2% ถือไม่เกิน 24 ชม.",
-  "verdict": "ทดสอบแล้ว",
-  "action": "backtest Binance 1 ชม. หลังหัก 0.35%/ข้าง ตัวกรอง ATR 3% แทบไม่ผ่านเหรียญใหญ่ (BTC 0 ไม้ ETH 5 ไม้) DOGE 44 ไม้ +0.83% PEPE 36 ไม้ -0.43% WIF 20 ไม้ -0.78% SOL 33 ไม้ -0.74% ไม่ใช้ตัวกรอง ATR: BTC 376 ไม้ -0.58% ETH 391 -0.43% SOL 307 -0.11% DOGE 322 -0.44% PEPE 166 -0.38% WIF 103 -0.09% ต่อไม้ เข้าสุ่มแบบเดียวกัน -0.58 ถึง -1.08% permutation 200 รอบ 3 ปี p 0.25-0.56 ทุกตัว ยังเปิดบัญชีไม่ได้เพราะ byttrade.fetch ไม่ส่งวอลุ่ม ถ้าจะ forward ให้เพิ่มวอลุ่มใน fetch แล้วเปิดบน DOGE PEPE WIF 1 ชม. แบบไม่ใช้ตัวกรอง ATR"
- },
- {
-  "t": "2026-11-24T07:02:41+07:00",
-  "source": "web",
-  "title": "MDPI JRFM 19(9) 692: แบ่งวันคริปโตเป็นช่วงกลางวันกลางคืน เลือกกฎบน 2016-2020 ทดสอบ 2021-2025",
-  "url": "https://www.mdpi.com/1911-8074/19/9/692",
-  "summary": "เปเปอร์บอกว่ากฎช่วงเวลาของ ETH ที่เลือกบนข้อมูล 2016-2020 ยังรอดใน 2021-2025 แต่ของ BTC แพ้การถือเฉยๆ อ่านตัวเต็มไม่ได้ (เว็บตอบ 403) จึงไม่รู้ชั่วโมงที่แบ่ง",
-  "verdict": "ลองแล้วตก",
-  "action": "แบบใกล้ที่สุด: ถือ long 12 ชม. ต่อวัน เลือกชั่วโมงเริ่มจาก 24 แบบบน 2017-2020 ETH ได้ 13:00 UTC ก่อนหักใน +0.31% ต่อวัน นอกตัวอย่าง 2021 ขึ้นไป +0.079% เทียบค่าเฉลี่ยทุกชั่วโมงเริ่ม +0.056% (แค่ drift ขาขึ้น) หลังหักไปกลับ 0.7% เหลือ -0.62% ต่อวัน BTC เลือกได้ 11:00 UTC นอกตัวอย่าง +0.064% หลังหัก -0.64% ต่อวัน"
- },
- {
-  "t": "2026-11-24T07:02:41+07:00",
-  "source": "github",
-  "title": "krstesimeonov/options-claims-audit: ตรวจ 5 คำอ้างกลยุทธ์ออปชันจากช่อง YouTube Volatility Vibes",
-  "url": "https://github.com/krstesimeonov/options-claims-audit",
-  "summary": "โปรเจกต์ล็อกกฎไว้ก่อนแล้วทดสอบหลังวันเผยแพร่ เช่น ขาย straddle ช่วงงบ, variance risk premium, calendar ตาม Forward Factor ตอนนี้ยังไม่ทดสอบสักข้อ",
-  "verdict": "ไอเดีย",
-  "action": "ต้องมีข้อมูล chain ออปชันหุ้นสหรัฐย้อนหลัง (repo ใช้ marketdata.app ที่ต้องมี token เสียเงิน) ตามผลเมื่อ repo ทดสอบเสร็จ"
- },
- {
   "t": "2026-11-24T07:02:41+07:00",
   "source": "x",
   "title": "ค้น X 4 ครั้ง (memecoin strategy rules backtest, เทรดเหรียญมีม, trading bot entry rule stop loss, open source crypto strategy github win rate)",
@@ -2698,5 +2635,68 @@
   "summary": "ไม่เจองานที่ทดสอบ RSI แบบจัดอันดับข้ามเหรียญโดยตรง ใกล้สุดคือ CTREND (JFQA ลงบันทึกแล้ว) และ AdaptiveTrend ที่มี fwd_adtrend แล้ว งานปี 2026 บอกว่าโมเมนตัมข้ามเหรียญอ่อนกว่าโมเมนตัมเหรียญเดี่ยว",
   "verdict": "ไอเดีย",
   "action": "ใช้เป็นบริบทของ fwd_xsrsi ผลข้ามเหรียญที่อ่อนตรงกับ backtest รอบนี้ (หลังหักติดลบ)"
+ },
+ {
+  "t": "2026-11-28T09:50:00+07:00",
+  "source": "github",
+  "title": "Shaojie66/llm-alpha-eval: ทดสอบ 180 สมมติฐานเทรดที่ LLM 6 ตัวเขียน บน BTC 1 ชม. ด้วย permutation และ BH",
+  "url": "https://github.com/Shaojie66/llm-alpha-eval",
+  "summary": "งานวิจัยใหม่ 27 พ.ย. ให้ LLM 6 ตัวเขียนท่า 180 ท่า ผ่าน 4 ด่านแล้วรอด 0 ท่า ท่าที่ดีสุดคือ gemini-4-carbon slot_16 ทะลุจุดสูง W ชม. พร้อมวอลุ่ม M เท่า ออกเมื่อปิดใต้ SMA W/2 (OOS Sharpe 0.78 แต่ permutation p 0.28 และหลังปี 2025 ติดลบ)",
+  "verdict": "ทดสอบแล้ว",
+  "action": "เขียน slot_16 ใหม่เอง (ไม่รันโค้ด repo) BTC 1 ชม. Binance 2017-08 ถึง 27 พ.ย. 69 81,225 แท่ง กริด 16 แบบของ repo: ก่อนหัก +0.41% ถึง +1.68% ต่อไม้ หลังหัก 0.35%/ข้าง -0.29% ถึง +0.98% มัธยฐานติดลบทุกแบบ เลือกบนช่วงก่อน 2022 ได้ W144 M3 นอกตัวอย่าง 2022+ 108 ไม้ หลังหัก +0.31% มัธยฐาน -1.29% ชนะ 38% CI -0.56% ถึง +1.25% ปี 2025 -0.44% ปี 2026 -0.12% ตัวแฝดเข้าสุ่มออกแบบเดียวกัน 20 รอบ มัธยฐาน +0.32% ดีสุด +0.61% permutation 200 รอบทั้งกริด ค่าจริง +1.68% มัธยฐานข้อมูลสลับ +1.16% p 0.323 ไม่ผ่าน ไม่เปิดบัญชีเพราะ byttrade.fetch ไม่มีวอลุ่ม ส่วนรุ่นไม่มีวอลุ่มคือ Donchian ซึ่งมี fwd_don100 และ fwd_turtle3 แล้ว ถ้าจะทดสอบไปข้างหน้าต้องเพิ่มวอลุ่มใน byttrade.fetch ก่อน สคริปต์ /tmp/scout_0944/bt.py"
+ },
+ {
+  "t": "2026-11-28T09:50:00+07:00",
+  "source": "github",
+  "title": "HeyRdzy/pumpfun-sharpe-entry: บอทแข่ง make.fun Sharpe Sprint ซื้อแรงไหลเข้า 2 นาที TP 15% stop 10%",
+  "url": "https://github.com/HeyRdzy/pumpfun-sharpe-entry",
+  "summary": "บอท paper บน replay pump.fun ซื้อเหรียญ curve อายุ 500 slot ขึ้นไป reserve 5 ถึง 60 SOL ที่ 300 slot ล่าสุดมีเงินไหลเข้า 3 SOL ซื้อ 4 ไม้ 5 กระเป๋า ราคาขึ้น 20 ถึง 200% ออก TP +15% stop -10% หรือครบ 900 slot ไม่มีผลลัพธ์",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_heyrdzy_sharpe (night) อายุ 0.056 ชม.+ สภาพคล่อง 1k ถึง 12k ซื้อ 4+ คนถือ 5+ up ขึ้น 5 นาที 20 ถึง 200% TP 15% stop -10% ถือ 0.1 ชม. ไม้ละ 0.5% ตัวเลขที่แปลงเองอยู่ใน note"
+ },
+ {
+  "t": "2026-11-28T09:50:00+07:00",
+  "source": "github",
+  "title": "iammai0816/makefun-pumpfun-sharpe-bot: บอทแข่ง make.fun Sharpe Sprint ซื้อ curve อายุไม่เกิน 900 slot TP 15% stop 6%",
+  "url": "https://github.com/iammai0816/makefun-pumpfun-sharpe-bot",
+  "summary": "บอท paper ซื้อเหรียญภายใน 900 slot หลังเกิด ที่มีวอลุ่มซื้อ 1.5 SOL+ ซื้อ 8 ไม้+ ไม้ซื้อ 70%+ ราคา 1.10 เท่าของราคาเปิด ออก TP +15% stop -6% trail 4% เมื่อขึ้น 3% หรือ 2400 slot ไม่มีผลลัพธ์",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_iammai_sharpe (night) อายุไม่เกิน 0.1 ชม. วอลุ่ม 300+ ซื้อ 8+ up ขึ้น 1 ชม. 10%+ TP 15% stop -6% trail 4% หลัง +3% ถือ 0.27 ชม. ไม้ละ 0.5% ตัวเลขที่แปลงเองอยู่ใน note"
+ },
+ {
+  "t": "2026-11-28T09:50:00+07:00",
+  "source": "github",
+  "title": "กลุ่มบอทแข่ง make.fun ใหม่ 24 ถึง 28 พ.ย. แบบซื้อใน slot แรกๆ (KenIDN24, akuraposo FirstLight และ Steady Sniper, Untunge 2 repo, byan280 2 repo, Kendisamar01, Indrawan89, lusiana27, iammai0816 bot-sprint)",
+  "url": "https://github.com/KenIDN24/pumpfun-paper-sprint",
+  "summary": "บอท sniper ซื้อเหรียญใน 3 slot แรกหลังเกิด (KenIDN24: reserve 0.3 ถึง 30 SOL ผู้สร้างซื้อไม่เกิน 2.5 SOL ผู้ซื้อไม่เกิน 3 ราย TP 15% stop -12% ถือ 10 slot, FirstLight: ถือ 3 slot ออกทันทีเมื่อผู้สร้างขาย) ที่เหลือ README ไม่มีตัวเลข",
+  "verdict": "ไอเดีย",
+  "action": "ไม่เพิ่ม เพราะต้องข้อมูลรายบล็อกตั้งแต่ slot แรก แต่ zoo เห็นแค่อันดับ GMGN ทุก 20 วินาที ซื้อทัน 1 ถึง 4 วินาทีไม่ได้ และ lessons บอกว่าซื้อช้ากว่าต้นทางบน curve แพ้ (curve -34% ต่อไม้) ต้องมีฟีดธุรกรรม pump.fun รายบล็อกก่อน"
+ },
+ {
+  "t": "2026-11-28T09:50:00+07:00",
+  "source": "x",
+  "title": "ajxhash: ทดสอบกฎจากโพสต์เปิดตัว TradingView + Claude บน Nasdaq 54 ปี",
+  "url": "https://x.com/ajxhash/status/2125968026587828300",
+  "summary": "ผู้โพสต์ทดสอบกฎตัวอย่างในโพสต์เปิดตัว TradingView ที่ต่อ Claude ได้ ชนะ 79% ของไม้ แต่ได้ 1.9% ต่อปี เทียบถือเฉยๆ 10.1% ต่อปี",
+  "verdict": "ไอเดีย",
+  "action": "ไม่ได้ทดสอบซ้ำ เพราะโพสต์ไม่ให้ตัวกฎ และค้นเว็บ 1 ครั้งไม่เจอโพสต์เปิดตัวที่มีกฎ ต้องหาข้อความกฎจริงก่อน ผลของผู้โพสต์เองก็แพ้ถือเฉยๆ อยู่แล้ว"
+ },
+ {
+  "t": "2026-11-28T09:50:00+07:00",
+  "source": "x",
+  "title": "IsThisAILegit ตรวจโพสต์ Dan1ro0 อ้างบอท Claude + GPT ได้ +$13,487 ใน 25 วัน",
+  "url": "https://x.com/IsThisAILegit/status/2126347699712618531",
+  "summary": "บัญชีตรวจข่าวบอกว่าไม่มีหลักฐานสาธารณะรองรับตัวเลข +$13,487.92 ใน 25 วัน และโพสต์ต้นทางไม่ให้กฎหรือประวัติไม้",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎหรือกระเป๋าให้สร้างฉบับกลไก ต้องมีรายการไม้หรือกฎเข้าออกก่อนจึงจะลองได้"
+ },
+ {
+  "t": "2026-11-28T09:50:00+07:00",
+  "source": "x",
+  "title": "ค้น X 2 ครั้งรอบ 09:44 (claude trading bot backtest, TradingView Claude strategy rule tested)",
+  "url": "https://x.com/search?q=claude%20trading%20bot%20backtest",
+  "summary": "ได้แต่โพสต์สอนต่อ TradingView กับ Claude บทความขายคอร์สและคำโม้ไม่มีกฎ โพสต์ Ofego_ เรื่องบั๊กที่ทำให้ผลชนะปลอมมีในฟีดแล้ว",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎใหม่ที่ทดสอบได้"
  }
 ]
