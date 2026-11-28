@@ -1202,3 +1202,12 @@ zoo import ไม่มี skip และ test_zoo.py ผ่าน
 เพิ่ม x_: ไม่มี (ไอเดีย misat0x ใกล้กับ x_crb_4agent ที่ทดสอบแล้วตก)
 ไอเดีย: hyperliquid-btc-signal (ต้องประวัติสถานะบัญชีผู้นำ Hyperliquid), misat0x (ต้องข้อมูลต้นทางเงินของกระเป๋าผู้ถือ)
 ตัดทิ้ง: ไม่มี
+
+## 2026-11-28 รอบดึก (x research)
+ค้น: WebSearch 6 ครั้ง (memecoin bot overnight turned $, 1 month memecoin system, เทรดเหรียญมีม คืนเดียว, site:x.com paper trading week, AI bot 100% win rate 780 SOL) ไม่พบโพสต์ X ตรง ๆ ketchupjl.github.io เปิดไม่ได้ (ไม่อยู่ในเครือข่ายที่อนุญาต) จึงไม่ลองซ้ำ
+เจอแต่ซ้ำ: บอท pump.fun 6.8M ดอลลาร์ (ซ้ำ x_spray_small), mexc 1066589 และ ketchupjl backtest (ซ้ำเดิม), cryptorank 100 เป็น 50k (ไม่มีกฎ), ข่าว terminal_of_fun 780 SOL 100% win (ไม่มีกฎเปิดเผย ตรงกับ insider จึงทำไม่ได้)
+เพิ่ม x_ (1 ตัว horizon week):
+- x_okx_smart_paper (skills.sh okx smart-money-signal-copy-trade): บอทโหมด paper ใช้สัญญาณ smart money TP1 +5% TP2 +15% TP3 +30% stop -10% ถือไม่เกิน 4 ชม. แปลงเป็น smart_degen_count 2+ ผ่าน safe up RugCheck ขายครึ่งที่ +15% trail 10% หลัง +15% stop -10% ถือ 4 ชม. (โพสต์ไม่บอกเกณฑ์จำนวน smart money จึงเลือก 2+ เอง ไม่มีขั้น TP 3 ขั้นใน zoo ใช้ขายครึ่งแทน) หมายเหตุ ตระกูล smart money ใน zoo แพ้ซ้ำหลายรุ่น คาดว่าไม่ผ่าน
+ยังทำไม่ได้: stop ที่ค่อย ๆ แคบลงตามเวลา (ต้องเอ็กซิตแบบแปรตามเวลา zoo ไม่มี), session win rate ตามช่วงเวลา (ต้องข้อมูลรายแท่งยาว)
+ปลด: ไม่มี (ยังไม่มีตัวไหนถึงจุดตัดสินแล้วแพ้ rand ที่ยังไม่ปิด)
+สกอร์บอร์ด: 1 คืน: x_tape17 -0.9% (32 ไม้) x_crb_smart_night -22.3% (17 ไม้) | 1 สัปดาห์: x_smartflow_lowcap +20.9% (7 ไม้) x_crb_4agent +11.8% x_loofy_desk -20.8% | 1 เดือน: x_obz_top5_month -3.0% (0 ไม้) x_month_10bag -19.6% (0 ไม้) rand -98.3%

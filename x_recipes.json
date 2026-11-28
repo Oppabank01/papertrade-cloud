@@ -3399,5 +3399,29 @@
    "WATCH_S": 5
   },
   "note": "from README: 900 slots since creation, buy volume 1.5+ SOL, 8+ buys, buys 70%+ of trades, price 1.10x+ creation, 0.05 SOL per mint, 5 open, TP +15%, stop -6%, trail 0.96x peak once +3%, 2400-slot stop; chosen by me: slots read as 0.4 s so 900 slots = age_h max 0.1 and 2400 slots = MAX_HOLD_H 0.27, 1.5 SOL buy volume read as total volume 300 USD (10 SOL = 2000 USD as x_kopler_surge; GMGN has no buy-only volume), buys 70%+ read as zoo up (buys > sells only, no ratio field), 1.10x creation read as 1h change 10%+ (coin younger than 1 h), 0.05 SOL of 10 SOL = PER_TRADE 0.005, COOLDOWN_H 24 for one buy per mint, WATCH_S 5 and rugcheck on as the other curve recipes"
+ },
+ {
+  "name": "x_okx_smart_paper",
+  "label": "OKX paper bot: smart money 2+ ผ่านเช็กปลอดภัย ขายครึ่ง +15% stop -10% ถือ 4 ชม.",
+  "horizon": "week",
+  "source": "https://skills.sh/okx/plugin-store/smart-money-signal-copy-trade",
+  "claim": "paper-mode smart money signal copy trade: TP1 +5% / TP2 +15% / TP3 +30% net, hard stop -10% tightening with time, max hold 4h",
+  "added": "2026-11-28",
+  "active": true,
+  "entry": {
+   "min": {
+    "smart_degen_count": 2
+   },
+   "safe": true,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.1,
+   "HALF_AT": 0.15,
+   "TRAIL_ON": 0.15,
+   "TRAIL": 0.1,
+   "MAX_HOLD_H": 4
+  }
  }
 ]
