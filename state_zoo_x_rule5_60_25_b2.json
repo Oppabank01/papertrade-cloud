@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 10.003109681990653,
- "pos": {},
+ "cash": 8.002487745592521,
+ "pos": {
+  "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": {
+   "sym": "Huss",
+   "qty": 2617.318504171341,
+   "entry": 0.0007416,
+   "last": 0.0006841764595311808,
+   "peak": 0.0007416,
+   "cost": 2.000621936398131,
+   "opened": "2026-11-28T21:44:56+07:00",
+   "zoo": "x_rule5_60_25_b2",
+   "smart": 197,
+   "kol": 11,
+   "gap": 20,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T19:52:28+07:00",
@@ -507,15 +522,37 @@
    "cost_side": 0.03,
    "smart": 2,
    "bundler": null
+  },
+  {
+   "t": "2026-11-28T21:44:56+07:00",
+   "kind": "buy",
+   "mint": "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump",
+   "sym": "Huss",
+   "price": 0.0007416,
+   "jup": 0.000740245534196799,
+   "usd": 2.0006,
+   "stop_set": -0.25,
+   "cost_side": 0.03,
+   "zoo": "x_rule5_60_25_b2",
+   "smart": 197,
+   "kol": 11
+  },
+  {
+   "t": "2026-11-28T21:53:37+07:00",
+   "kind": "ban",
+   "mint": "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump",
+   "sym": "Huss",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ระบบ 5 ไม้ เข้มกรอง ปลอดภัย TP +60% SL -25%",
- "rank_t": 1795876262.1634457,
+ "rank_t": 1795876976.8919675,
  "banned": {
   "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": "DacityCoin",
   "8rjgC1GsBo4fwuXjq7Hy12SAFxgFxbtSJJSFBYkVpump": "WW",
   "usoi4eW13p1pwo9B8u2kNbmhPGH482xta1BG2BxZPBg": "USOI",
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings",
-  "2va3NUJtEcPemDYg2N1RgA79rPKGTGGJKo3gTY5zpump": "WOOPY"
+  "2va3NUJtEcPemDYg2N1RgA79rPKGTGGJKo3gTY5zpump": "WOOPY",
+  "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": "Huss"
  }
 }

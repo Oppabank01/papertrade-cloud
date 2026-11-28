@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 7.456525156449833,
+ "cash": 4.987363596138552,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 441.2844515864345,
    "entry": 0.005568,
-   "last": 0.005512,
+   "last": 0.005584,
    "peak": 0.00562,
    "cost": 2.4818280613451855,
    "opened": "2026-11-28T21:08:54+07:00",
@@ -21,14 +21,28 @@
    "sym": "STONK",
    "qty": 80.70409065387078,
    "entry": 0.03031,
-   "last": 0.03037,
-   "peak": 0.03037,
+   "last": 0.03026,
+   "peak": 0.03046,
    "cost": 2.4707870889309094,
    "opened": "2026-11-28T21:32:06+07:00",
    "zoo": "w_night_aged_b2",
    "smart": 1000,
    "kol": 175,
    "gap": 0,
+   "miss": 0
+  },
+  "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": {
+   "sym": "FLOAT",
+   "qty": 924.5581216895521,
+   "entry": 0.002644,
+   "last": 0.0026147859590097164,
+   "peak": 0.002644,
+   "cost": 2.469161560311281,
+   "opened": "2026-11-28T21:44:46+07:00",
+   "zoo": "w_night_aged_b2",
+   "smart": 382,
+   "kol": 35,
+   "gap": 19,
    "miss": 0
   }
  },
@@ -691,12 +705,33 @@
    "zoo": "w_night_aged_b2",
    "smart": 1000,
    "kol": 175
+  },
+  {
+   "t": "2026-11-28T21:44:46+07:00",
+   "kind": "buy",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "price": 0.002644,
+   "jup": 0.0026208156234991974,
+   "usd": 2.4692,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_night_aged_b2",
+   "smart": 382,
+   "kol": 35
+  },
+  {
+   "t": "2026-11-28T21:53:57+07:00",
+   "kind": "ban",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: กะดึก: กฎ w_aged_nostop เทรดเฉพาะ 21:00-09:00",
  "night": "2026-11-28",
  "night_start": 12.409140306725927,
- "rank_t": 1795876262.1634457,
+ "rank_t": 1795876976.8919675,
  "nights": [
   {
    "night": "2026-11-22",
@@ -726,6 +761,7 @@
  "banned": {
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
   "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu": "PUMPCADE",
-  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": "Buttcoin"
+  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": "Buttcoin",
+  "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": "FLOAT"
  }
 }
