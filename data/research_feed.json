@@ -1,59 +1,5 @@
 [
  {
-  "t": "2026-11-24T03:33:39+07:00",
-  "source": "github",
-  "title": "EthanMartinez11/crypto-cta-multifactor: trend + funding carry + relative trend บน perp 20 ตัว",
-  "url": "https://github.com/EthanMartinez11/crypto-cta-multifactor",
-  "summary": "พอร์ต long-short รายวัน 3 ปัจจัย ปรับจักรวาลรายเดือน 20 ตัวแรกตามวอลุ่มและ OI เป้าความผันผวน 50% อ้าง 2019-2026 CAGR 90% Sharpe 1.63 DD -44% ผู้เขียนบอกเองว่ายังยืนยันไม่ได้ว่าผลตรงกับโค้ด",
-  "verdict": "ไอเดีย",
-  "action": "ต้องมีราคาและ funding ย้อนหลังของ perp ราว 30 ตัวรวมตัวที่ถูกถอด และอันดับ OI รายเดือน ซึ่ง forward ที่ใช้แค่ byttrade.fetch ทำไม่ได้ ส่วน relative trend ใกล้ fwd_xsmom ที่รันอยู่แล้ว ไม่ได้รันโค้ดของ repo"
- },
- {
-  "t": "2026-11-24T03:33:39+07:00",
-  "source": "web",
-  "title": "dev.to quant001: ตามเทรนด์หลังการล้างพอร์ต (long liquidation แล้ว short, short liquidation แล้ว long)",
-  "url": "https://dev.to/quant001/quantitative-trading-with-liquidation-data-an-ai-automated-strategy-based-on-liquidation-signals-k37",
-  "summary": "บทความเสนอว่าราคาไปต่อหลังการล้างพอร์ตเป็นกลุ่ม ให้เข้าตามทิศของการล้าง",
-  "verdict": "ไอเดีย",
-  "action": "ต้องมีข้อมูลการล้างพอร์ตย้อนหลังราย 5 นาที ซึ่ง Binance ไม่มีย้อนหลังแบบฟรี (ได้แค่สตรีมสด) ถ้าใช้แท่ง 15 นาทีที่ขยับแรงแทนการล้างพอร์ต จะเป็นทิศตรงข้ามของ fwd_cascade ที่สวนแท่งแรงอยู่แล้ว ผลก่อนหักจึงกลับเครื่องหมายกันและเสียต้นทุนเท่ากัน รอผล fwd_cascade ก่อน"
- },
- {
-  "t": "2026-11-24T03:33:39+07:00",
-  "source": "x",
-  "title": "nexustradinglab: เชื่อมบอท Grok หรือ Bankr เข้า Lab ให้รันกลยุทธ์ตามกฎ",
-  "url": "https://x.com/nexustradinglab/status/2124624273713377586",
-  "summary": "บริการให้ต่อบอทเข้าแพลตฟอร์มแล้วโพสต์ thesis ไม่มีกฎหรือผลให้ทดสอบ",
-  "verdict": "ตัดทิ้ง",
-  "action": "ต้องสมัครและเชื่อมบัญชีบอทกับแพลตฟอร์ม"
- },
- {
-  "t": "2026-11-24T05:21:27+07:00",
-  "source": "github",
-  "title": "Boluwatifetade/crypto-trading-strategy: trend_pullback_1h (Tadex Strategy Bot, Sweet Spot Gate Winner)",
-  "url": "https://github.com/Boluwatifetade/crypto-trading-strategy",
-  "summary": "1 ชม. ปิดเหนือ EMA200 แล้วตัดขึ้น EMA50 ADX14 เกิน 20 และ +DI เหนือ -DI เข้า long (short กลับกัน) stop 2.5% เป้า 6% repo อ้าง BTC 1 ปี 33 ไม้ PF 1.215 ผ่านประตูของตัวเอง",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "backtest Binance 1 ชม. 2017-2026 หลังหัก 0.35%/ข้าง BTC 386 ไม้ -0.78% ETH 455 ไม้ -0.70% SOL 328 ไม้ -0.64% ต่อไม้ ก่อนหัก -0.08/0.00/+0.07% ชนะ 28-30% เข้าสุ่ม -0.57/-0.65/-0.63% permutation 200 รอบ p 0.682/0.463/0.234 ติดลบเกือบทุกปี เปิด fwd_tpull.py (BTC ETH SOL พร้อมตัวแฝดเข้าสุ่ม) test เดินทีละแท่งตรง backtest 33 ไม้"
- },
- {
-  "t": "2026-11-24T05:21:27+07:00",
-  "source": "github",
-  "title": "Boluwatifetade/crypto-trading-strategy: intraday_momentum 5 นาที (ทะลุ 3 แท่ง + วอลุ่ม 1.5 เท่า + ATR เกิน 0.5%)",
-  "url": "https://github.com/Boluwatifetade/crypto-trading-strategy",
-  "summary": "ขาที่สองของ repo เดียวกัน ปิดเหนือ high 3 แท่งก่อน วอลุ่มเกิน 1.5 เท่าของ SMA20 ATR14 ต่อราคาเกิน 0.5% stop 0.8% เป้า 2.4% ถือไม่เกิน 48 แท่ง repo เองได้ PF 1.058 แบบค่าธรรมเนียม maker",
-  "verdict": "ลองแล้วตก",
-  "action": "backtest Binance 5 นาที 365 วัน หลังหัก 0.35%/ข้าง BTC 50 ไม้ -0.67% SOL 314 ไม้ -0.62% ต่อไม้ ก่อนหัก +0.03/+0.08% เข้าสุ่ม -0.70/-0.68% ต้นทุนไปกลับ 0.7% ใหญ่เกือบเท่า stop ค่า p ของ permutation (0.005) ใช้ไม่ได้เพราะข้อมูลสลับแทบไม่ผ่านตัวกรอง ATR จนไม่ถึง 10 ไม้ ไม่เปิดบัญชี (รอบนี้เปิดครบ 2 ไฟล์แล้ว)"
- },
- {
-  "t": "2026-11-24T05:21:27+07:00",
-  "source": "x",
-  "title": "DaviddDotTech: บอทเทรดทองด้วย Claude backtest +1,669% 456 ไม้ (แพ้ 69% R/R 3.8 เท่า)",
-  "url": "https://x.com/DaviddDotTech/status/2124927963091108258",
-  "summary": "โพสต์สอนสร้างบอททองผ่าน tradingkit.com ไม่บอกกฎ โพสต์เก่าบอกว่าท่าทองที่ดีสุดแพ้ 69% ของไม้ R/R 3.8 เท่า และบอทเงินของเขาคือ MACD 2 ชม.",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "สร้างแบบใกล้ที่สุด: PAXG 2 ชม. MACD 12/26/9 ตัดเส้นสัญญาณ stop 2 ATR เป้า 7.6 ATR (3.8R) ถือไม่เกิน 120 แท่ง (เลขออกเลือกเอง) backtest 2020-2026 หลังหัก 0.35%/ข้าง 503 ไม้ -0.68% ต่อไม้ ก่อนหัก +0.02% ชนะ 23% เข้าสุ่ม -0.63% permutation 200 รอบ p 0.149 ติดลบทุกปี เปิด fwd_goldmacd.py พร้อมตัวแฝดเข้าสุ่ม test ตรง backtest 17 ไม้"
- },
- {
   "t": "2026-11-24T05:21:27+07:00",
   "source": "x",
   "title": "goatyishere: กระเป๋า Polymarket mumiatriste +$2.3M ใน 4 เดือน ซื้อ NO ทุกขาของพาร์เลย์กีฬา",
@@ -2698,5 +2644,59 @@
   "summary": "ได้ 0xSett กับ catstrateg ที่เหลือเป็นโฆษณาแพลตฟอร์ม (Fensory, Neptune, ZoqoTrade, TradeWarz) และภาพหน้าจอกำไร Grok Bot ของ A_Pirate_I ($180 เป็น $3,890 ไม่มีกระเป๋าให้ตรวจ) คำค้นภาษาไทยไม่ได้ผลเลย",
   "verdict": "ไอเดีย",
   "action": "ไม่มีกฎหรือกระเป๋าเพิ่ม ภาพหน้าจอไม่นับเป็นหลักฐาน"
+ },
+ {
+  "t": "2026-11-28T08:12:00+07:00",
+  "source": "github",
+  "title": "Moontaehyeon01/tradingAI: XSectRsiStrategy long-short จัดอันดับ RSI14 ข้าม 19 เหรียญ (บอท Freqtrade ที่เจ้าของรันเงินจริง)",
+  "url": "https://github.com/Moontaehyeon01/tradingAI",
+  "summary": "บอท futures จัดอันดับ 19 เหรียญด้วย RSI14 แบบ Cutler ทุกเช้า long 3 บน short 3 ล่าง ถือ 3 ถึง 4 วัน เป้าตามความผันผวน 3 วัน x2 พัก 48 ชม. หลังออก เจ้าของเขียนเองว่าท่ารุ่นก่อนไม่มี edge และตัวเลข Sharpe 2.7 ยังไม่หักต้นทุนครบ",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest Binance รายวัน 18 เหรียญ (ตัด XMR) 2019-07 ถึง 2026-11 หลังหัก 0.35%/ข้าง 4,652 ไม้ -0.36% ต่อไม้ ก่อนหัก +0.34% long +0.08% short -0.82% ติดลบ 7 ใน 8 ปี ที่ 0.1%/ข้าง +0.14% ตัวแฝดสุ่มเหรียญ -0.64% (ดีสุด 20 รอบ -0.52%) permutation 200 รอบ ก่อนหัก p 0.030 (ข้อมูลสลับมัธยฐาน +0.05%) ผ่านแบบอ่อนแต่ไม่ถึง 0.01 และ RSI14 ผู้เขียนเลือกจากหลายแบบ เปิด fwd_xsrsi.py กับตัวแฝดสุ่มเหรียญ test เดินทีละแท่งตรง backtest 686 ไม้ สคริปต์ /tmp/scout_0801/bt.py ส่วน dvol_sizing ใน repo เดียวกันยังไม่ได้ลอง"
+ },
+ {
+  "t": "2026-11-28T08:12:00+07:00",
+  "source": "github",
+  "title": "กลุ่ม repo เครื่องมือใหม่ 21 ถึง 28 พ.ย. ที่ไม่มีกฎ (n-kostadinov/yfinance-agent-mcp, IngTian/trading-desk, vijaygopalbalasa/guardrail, TsRa-cr/EventQuant, AidarShymbolat01/backtest-overfitting, pandich93/pandich-lab, dylanpersonguy/awesome-hyperliquid)",
+  "url": "https://github.com/IngTian/trading-desk",
+  "summary": "MCP อ่านราคา Yahoo, MCP จดสมุดเทรด, ตัวกันความเสี่ยงบน chain, แพลตฟอร์ม paper ตามข่าว, งานจำลองว่ากลยุทธ์สุ่ม N ตัวดูดีแค่ไหน และรายชื่อเครื่องมือ Hyperliquid ไม่มีท่าเทรดที่ทดสอบได้",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎเข้าออก ต้องได้ท่าจริงก่อน backtest-overfitting ตรงกับประตู permutation ที่ใช้อยู่แล้ว ไม่ต้องเพิ่ม"
+ },
+ {
+  "t": "2026-11-28T08:12:00+07:00",
+  "source": "github",
+  "title": "กลุ่ม repo ดาวพุ่งไฟล์ Windows 26 ถึง 28 พ.ย. (gkshitij299-ship-it/polymarket-trading-arbitrage-bot-desalan 118 ดาว, 1Deadpool-g1/hyperliquid-perp-market-maker-bot-baveron 118 ดาว, adrianpanagiotou/hyperliquid-trading-bot, Feelingrostrike/crypto-sniper-bot, jeffrey00631/aider-pro-patcher-installer)",
+  "url": "https://github.com/adrianpanagiotou/hyperliquid-trading-bot",
+  "summary": "repo เกิดใหม่ 1 ถึง 2 วันแต่ดาวเป็นร้อย คำอธิบาย community-built แบบเดียวกัน ขายเป็นไฟล์ Windows x64 sniper bundler หลายกระเป๋า",
+  "verdict": "ตัดทิ้ง",
+  "action": "ต้องรันโค้ดที่ดาวน์โหลดและใส่กระเป๋าจริง หน้าตาเหมือนมัลแวร์ ไม่ได้เปิดอ่านโค้ด"
+ },
+ {
+  "t": "2026-11-28T08:12:00+07:00",
+  "source": "x",
+  "title": "kyzoroX: Grok Bot ก๊อปไม้ pump.fun จาก 296 กระเป๋าข้ามคืน $50 เป็น $105.95",
+  "url": "https://x.com/kyzoroX/status/2115534789503553941",
+  "summary": "บอทตามกระเป๋า 296 ใบ คัดทิ้ง 6,248 จาก 6,412 เหรียญด้วยตัวกรอง เช่น win rate กระเป๋าต่ำกว่า 55% ผลคืนเดียว 12 ไม้ ไม่มีรายชื่อกระเป๋า",
+  "verdict": "ไอเดีย",
+  "action": "ต้องรายชื่อกระเป๋าและตัวกรองครบ และ lessons ห้ามเปิดท่าตามกระเป๋าอีกถ้าซื้อไม่ทันต้นทาง (curve กับ wallets แพ้ครบ 20 ไม้แล้ว) ผลคืนเดียวไม่นับเป็นหลักฐาน"
+ },
+ {
+  "t": "2026-11-28T08:12:00+07:00",
+  "source": "x",
+  "title": "ค้น X 3 ครั้งรอบ 08:01 (crypto bot strategy rsi rank long short ไม่มีผล, ai trading agent strategy, pump.fun bot take profit stop loss rules)",
+  "url": "https://x.com/search?q=ai%20trading%20agent%20strategy",
+  "summary": "ได้โพสต์โฆษณา Corbel ก๊อปข้อความเดียวกัน 8 บัญชี, carm1nee แจก prompt ที่ให้รัน curl | bash, 51bodila รวม 20 repo, marvketh บอทมีม 12 ไม้ชนะ 0 (ลงบันทึกแล้ว), GovindGoel01 เรดาร์ 11 ธง (ลงฟีดแล้ว) ที่เหลือไม่มีข้อความ",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎที่ทดสอบได้ prompt ของ carm1nee ให้ติดตั้งโปรแกรมผ่าน curl จึงไม่แตะ"
+ },
+ {
+  "t": "2026-11-28T08:12:00+07:00",
+  "source": "web",
+  "title": "ค้นเว็บงานจัดอันดับ RSI ข้ามเหรียญคริปโต ปี 2026",
+  "url": "https://jfqa.org/wp-content/uploads/2024/09/24955-trend-factor-cross-section-crypto-returns.pdf",
+  "summary": "ไม่เจองานที่ทดสอบ RSI แบบจัดอันดับข้ามเหรียญโดยตรง ใกล้สุดคือ CTREND (JFQA ลงบันทึกแล้ว) และ AdaptiveTrend ที่มี fwd_adtrend แล้ว งานปี 2026 บอกว่าโมเมนตัมข้ามเหรียญอ่อนกว่าโมเมนตัมเหรียญเดี่ยว",
+  "verdict": "ไอเดีย",
+  "action": "ใช้เป็นบริบทของ fwd_xsrsi ผลข้ามเหรียญที่อ่อนตรงกับ backtest รอบนี้ (หลังหักติดลบ)"
  }
 ]
