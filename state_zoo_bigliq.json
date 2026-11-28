@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.753614635585718,
- "cash": 0.9830687598927712,
- "pos": {},
+ "cash": 0.786455007914217,
+ "pos": {
+  "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
+   "sym": "ANSEM",
+   "qty": 10.84449472254652,
+   "entry": 0.01759,
+   "last": 0.01759,
+   "peak": 0.01759,
+   "cost": 0.19661375197855424,
+   "opened": "2026-11-28T18:13:18+07:00",
+   "zoo": "bigliq",
+   "smart": 1000,
+   "kol": 187,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-14T00:42:00+07:00",
@@ -5808,8 +5823,22 @@
    "cost_side": 0.03,
    "smart": 107,
    "bundler": null
+  },
+  {
+   "t": "2026-11-28T18:13:18+07:00",
+   "kind": "buy",
+   "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "sym": "ANSEM",
+   "price": 0.01759,
+   "jup": 0.017606064503121768,
+   "usd": 0.1966,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliq",
+   "smart": 1000,
+   "kol": 187
   }
  ],
  "label": "สวนสัตว์: สภาพคล่อง 200k+ มาร์เก็ตแคป 2M+",
- "rank_t": 1795863729.8346167
+ "rank_t": 1795864377.216515
 }
