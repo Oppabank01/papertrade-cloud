@@ -1,15 +1,44 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.688601645123384,
- "cash": 14.688601645123384,
- "pos": {},
+ "cash": 13.513513513513514,
+ "pos": {
+  "9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": {
+   "sym": "Snowball",
+   "qty": 3473.7065974646453,
+   "entry": 0.0003282,
+   "last": 0.0003308,
+   "peak": 0.0003331,
+   "cost": 1.1750881316098707,
+   "opened": "2026-11-28T11:14:25+07:00",
+   "zoo": "x_superior_desk",
+   "smart": 205,
+   "kol": 14,
+   "gap": 2,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-26T21:39:17+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-28T11:14:25+07:00",
+   "kind": "buy",
+   "mint": "9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump",
+   "sym": "Snowball",
+   "price": 0.0003282,
+   "jup": 0.0003292836445727112,
+   "usd": 1.1751,
+   "stop_set": -0.06,
+   "cost_side": 0.03,
+   "zoo": "x_superior_desk",
+   "smart": 205,
+   "kol": 14
   }
  ],
  "label": "สวนสัตว์: โต๊ะ 6 เอเจนต์ Superior: อายุ 0.5-72 ชม. แคป 300k-20M คะแนน 70+ stop -6% trail",
- "rank_t": 1795838613.8767989
+ "rank_t": 1795839175.0584812
 }
