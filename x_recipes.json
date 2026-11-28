@@ -3423,5 +3423,37 @@
    "TRAIL": 0.1,
    "MAX_HOLD_H": 4
   }
+ },
+ {
+  "name": "x_kolgrad_selloff",
+  "label": "เหรียญจบ curve ที่มี KOL ถือ 2 คนขึ้นไป รอให้ร่วง 1 ชม. 20%+ ก่อนค่อยซื้อ (โพสต์ mrpapawheelie) stop -15% ขายหมด +35% ถือไม่เกิน 2 ชม.",
+  "source": "https://x.com/mrpapawheelie/status/2126518869275947387",
+  "claim": "after graduation most coins sell off and buying every dip fails; better: pick strong graduates that have KOLs in and wait until the token is selling off or has sold off, then buy (post is cut off, no exit and no results given, unverified)",
+  "horizon": "week",
+  "added": "2026-11-29",
+  "active": true,
+  "entry": {
+   "min": {
+    "launchpad_status": 1,
+    "renowned_count": 2,
+    "liquidity": 20000
+   },
+   "max": {
+    "launchpad_status": 1,
+    "age_h": 24,
+    "price_change_percent1h": -20
+   },
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.15,
+   "TP_ALL": 0.35,
+   "HALF_AT": null,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 2,
+   "COOLDOWN_H": 24
+  },
+  "note": "from post: graduated coins, KOLs in, buy only after a sell-off; chosen by me: graduated read as launchpad_status 1, KOLs in read as renowned_count 2+ (as kol2), sell-off read as 1h change -20% or worse, age_h max 24 so it is still near graduation, liquidity 20k and rugcheck as most recipes, no up filter because the post buys into selling, exit copied from x_fresh_grad (stop -15%, all at +35%, 2 h) since the post gives none, COOLDOWN_H 24 for one buy per coin; lessons say dip buys on pool 200k+ coins older than 1 day failed, this one is young graduates with KOLs so it is a different group, expect it to lose"
  }
 ]

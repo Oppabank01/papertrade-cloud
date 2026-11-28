@@ -1,86 +1,5 @@
 [
  {
-  "t": "2026-11-24T22:45:00+07:00",
-  "source": "github",
-  "title": "Pyrochem/universal-quant-tournament-mcp: bollinger_rsi_mean_reversion (ท่าที่ 3 จาก 8 ท่า)",
-  "url": "https://github.com/Pyrochem/universal-quant-tournament-mcp",
-  "summary": "ท่าสวนกรอบ: ปิดแตะกรอบล่าง Bollinger 2 SD และ RSI14 ไม่เกิน 34 ซื้อ (กลับด้านที่กรอบบน RSI 66 ขึ้นไป) stop 1.5 ATR เป้า 2.4 ATR รอบ 23 พ.ย. ทดสอบไปแล้วแค่ท่าแรก trend_pullback_champion",
-  "verdict": "ลองแล้วตก",
-  "action": "รุ่นกลไก 4 ชม. Binance 2017-2026 หลังหัก 0.35%/ข้าง ไม่ใส่ตัวยืนยันแท่งเทียนกับ killzone (เลือกเอง) เข้าแท่งถัดไป: long+short BTC 945 ไม้ -1.14% ต่อไม้ ETH 961 ไม้ -1.21% SOL 584 ไม้ -1.59% ก่อนหัก -0.45/-0.51/-0.90% มัธยฐาน -2.6 ถึง -4.2% long อย่างเดียว BTC 438 ไม้ -1.17% ETH 454 ไม้ -1.30% SOL 268 ไม้ -1.58% ตัวแฝดเข้าสุ่ม -0.60 ถึง -0.91% permutation 200 รอบ p 0.98 ถึง 1.00 แย่กว่าสุ่มทุกปีเกือบทุกเหรียญ ไม่เปิดบัญชี ฝั่งตรงข้าม (ตามแรงที่กรอบ) คือ fwd_bbbreak ที่มีอยู่แล้ว"
- },
- {
-  "t": "2026-11-24T22:45:00+07:00",
-  "source": "github",
-  "title": "EricPy/sma_strategy_backtest: SMA crossover รายวัน BTC ETH XRP เลือกค่าบนช่วงแรก ทดสอบช่วงหลัง (งาน MSc SMU)",
-  "url": "https://github.com/EricPy/sma_strategy_backtest",
-  "summary": "เลือกคู่ SMA จาก 5 คู่บนข้อมูล 2016-2021 (BTC ETH 5/20, XRP 3/10) แล้วทดสอบ 2022-2026 ต้นทุน 10 bps พอร์ต +41% แพ้ถือเฉยๆ +58% alpha t 0.15 ที่ 50 bps เหลือ -18% ผู้เขียนสรุปเองว่าไม่ต่างจากศูนย์",
-  "verdict": "ไอเดีย",
-  "action": "ไม่ทดสอบซ้ำ: ตามเทรนด์ SMA รายวันอยู่ในสายหลักแล้ว (paper.py, majors.py ห้ามเปิดบัญชีใหม่ในสายนี้) และผลของเขาที่ต้นทุน 25 ถึง 50 bps (ใกล้ 0.35%/ข้างของเรา) ติดลบอยู่แล้ว"
- },
- {
-  "t": "2026-11-24T22:45:00+07:00",
-  "source": "github",
-  "title": "JMrtzsn/chrysopoeia: LLM ทายผลตลาด Polymarket เกม CS2 กับ Dota 2 แล้ว paper trade",
-  "url": "https://github.com/JMrtzsn/chrysopoeia",
-  "summary": "เอเจนต์ trader เสนอหรืองด เอเจนต์ reviewer ตรวจ Python คุมความเสี่ยงและบัญชี ตอนนี้ paper เฉพาะตลาดผู้ชนะแมตช์ esports วัด Brier score หลังตลาดจบ",
-  "verdict": "ไอเดีย",
-  "action": "ไม่ได้ทดสอบ: ต้องเรียกโมเดล LLM ที่เสียเงิน (Vertex/OpenRouter) และต้องราคาย้อนหลังของตลาด esports ใน Polymarket พร้อมผลแมตช์ ที่ทำได้ฟรีคือเทียบตัวเต็ง esports แบบไม่มี LLM ต่อจาก poly_fav_sport.py"
- },
- {
-  "t": "2026-11-24T22:45:00+07:00",
-  "source": "x",
-  "title": "ค้น X 4 ครั้งรอบ 22:31 (claude code trading strategy backtest, บอทเทรด กลยุทธ์, trading bot rules entry exit stop, ai trading agent backtest results)",
-  "url": "https://x.com/sopersone/status/2125219559347216837",
-  "summary": "ได้แต่โพสต์โปรโมต FensoryApp (ตัดทิ้งไปแล้ว 23 พ.ย.), โพสต์ sopersone ชวนดูคลังบอท SMA/RSI/breakout ที่ open source (ตรงกับ Orsonneri/crypto-trading-bots ที่เปิดบัญชีไปแล้ว), DaviddDotTech ซ้ำ และข่าวหุ้นไทยที่ไม่เกี่ยว",
-  "verdict": "ไอเดีย",
-  "action": "ไม่มีกฎใหม่ให้ทดสอบ ไม่เพิ่ม x_ เพราะไม่เจอกฎเหรียญมีมที่ตัดสินได้"
- },
- {
-  "t": "2026-11-25T00:19:12+07:00",
-  "source": "github",
-  "title": "MyToasterIsCrying/solana-paper-bot: บอท paper เหรียญมีม Solana บน GitHub Actions ทุก 15 นาที",
-  "url": "https://github.com/MyToasterIsCrying/solana-paper-bot",
-  "summary": "บอทเงินจำลอง 100 ดอลลาร์ คัดเหรียญอายุ 30 นาทีขึ้นไป สภาพคล่อง 25k+ ขึ้นทั้ง 5 นาทีและ 1 ชม. คะแนน analyst 65+ ผ่าน RugCheck stop -6% เป้า +12% ไม้ละ 5% ถือพร้อมกัน 3 ตัว dashboard ของเขาเอง 23 พ.ย. 14 ไม้ ชนะ 4 ขาดทุน -14.6%",
-  "verdict": "เพิ่มแล้ว",
-  "action": "เพิ่ม x_toaster_score (week) ใน x_recipes.json คะแนน analyst แทนด้วย up ของ zoo เพราะไม่มี field วอลุ่ม 1 ชม. ถือไม่เกิน 72 ชม. เลือกเอง ตัวเลขที่เลือกเองอยู่ใน note import zoo ไม่มี skip และ test_zoo ผ่าน"
- },
- {
-  "t": "2026-11-25T00:19:12+07:00",
-  "source": "github",
-  "title": "kilomene/meme-project: บอท paper ซื้อเหรียญเพิ่งจบ curve ภายใน 30 วินาที ขายเป็นบันได",
-  "url": "https://github.com/kilomene/meme-project",
-  "summary": "เลน grad_select ซื้อเหรียญ pump.fun ที่เพิ่ง graduate หลังผ่านฟิลเตอร์ผู้สร้าง curve pool และชื่อซ้ำ ขาย 25% ที่ 1.5 เท่า 25% ที่ 3 เท่า ที่เหลือ trail 30% stop -50% ครบ 24 ชม. ปิด อ้างไม้ EXEN วิ่งถึง 36.9 เท่า แต่เป็นไม้เดียว ไม่มีบัญชีเต็ม",
-  "verdict": "เพิ่มแล้ว",
-  "action": "เพิ่ม x_kilo_grad_ladder (night) อายุไม่เกิน 15 นาทีแทน 30 วินาที รวมสองขาเป็นขายครึ่งที่ +50% trail 30% stop -50% 24 ชม. ไม้ละ 5% ตัวเลขที่เลือกเองอยู่ใน note ฟิลเตอร์ผู้สร้างทำไม่ได้เพราะ zoo ไม่มีประวัติผู้สร้าง"
- },
- {
-  "t": "2026-11-25T00:19:12+07:00",
-  "source": "web",
-  "title": "โมเมนตัมระหว่างวันคริปโต (Petukhina et al. arXiv 2009.04200, Gao et al. 2018 แบบหุ้น): ผลตอบแทนวันถึงตอนนี้ทายชั่วโมงสุดท้าย",
-  "url": "https://arxiv.org/abs/2009.04200v1",
-  "summary": "งานวิจัยรายงานว่าคริปโตมีโมเมนตัมระหว่างวัน คือทิศของวันที่ผ่านมาทายทิศช่วงท้ายวัน ทดลองแบบกลไกบนแท่ง 1 ชม. Binance ด้วยวัน UTC",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "backtest 2017-2026 หลังหัก 0.35%/ข้าง ค้น 4 แบบ (เกณฑ์ 0 หรือ 2%, long อย่างเดียวหรือสองฝั่ง) แบบดีสุด BTC long+short เกิน 2% 1,283 ไม้ -0.62% ต่อไม้ ก่อนหัก +0.08% ETH long เกิน 2% 875 ไม้ -0.59% ก่อนหัก +0.11% SOL 700 ไม้ -0.60% ก่อนหัก +0.10% ตัวแฝดชั่วโมงสุ่ม -0.68 ถึง -0.73% permutation 200 รอบ p 0.005/0.005/0.025 แพทเทิร์นมีจริงแต่ต้นทุนไปกลับใหญ่กว่า 7 เท่า และปี 2024-2026 แย่กว่าช่วงแรก เปิด fwd_imom.py (สองฝั่ง เกณฑ์ 2% BTC ETH SOL พร้อมตัวแฝดชั่วโมงสุ่ม) test เดินทีละแท่งตรง backtest ETH 34 ไม้ คาดว่าติดลบราว -0.6% ต่อไม้จากต้นทุน"
- },
- {
-  "t": "2026-11-25T00:19:12+07:00",
-  "source": "x",
-  "title": "NateLorenzen: Grok Bot paper ท่า Lag 7 ซื้อหุ้นใหญ่ 7 ตัวหลังปิดใต้เส้น 200 วัน 2 วันติด",
-  "url": "https://x.com/NateLorenzen/status/2124974994866508253",
-  "summary": "AAPL MSFT GOOGL AMZN NVDA META TSLA ปิดใต้ SMA200 สองวันติดซื้อเปิดวันถัดไป 14% ของพอร์ต ไม่เติม ไม่มี stop ข้อความที่เห็นไม่บอกจุดออก",
-  "verdict": "ลองแล้วตก",
-  "action": "backtest Yahoo รายวัน 2010-2026 ต้นทุน 0.1%/ข้าง ลองจุดออก 3 แบบที่เลือกเอง (ปิดกลับเหนือ SMA200, ถือ 20 วัน, ถือ 60 วัน) ถือ 60 วันเฉลี่ย +4.5% ถึง +10.4% ต่อไม้ 13 ถึง 24 ไม้ต่อหุ้น แต่ตัวแฝดเข้าสุ่มถือเท่ากันได้ +6.3% ถึง +14.5% permutation 200 รอบ p AAPL 0.83 MSFT 0.15 GOOGL 0.14 AMZN 0.27 NVDA 0.79 META 0.18 TSLA 0.95 ไม่ดีกว่าซื้อวันสุ่มในหุ้นที่ขึ้นแรงอยู่แล้ว (หุ้นถูกเลือกจากผู้ชนะวันนี้ จึงมี survivorship) ไม่เปิดบัญชีเพราะไม่ใช่แท่ง Binance"
- },
- {
-  "t": "2026-11-25T00:19:12+07:00",
-  "source": "x",
-  "title": "0xKorens และ Dan1ro0: บอท Polymarket BTC Up or Down 5 และ 15 นาที ซื้อทั้งสองฝั่ง ชนะ 50% แต่กำไร",
-  "url": "https://x.com/0xKorens/status/2124838313294987353",
-  "summary": "อ้างบัญชีชนะ 21,780 แพ้ 21,773 แต่กำไร 117,532 ดอลลาร์ เพราะซื้อ YES กับ NO รวมกันต่ำกว่า 1 ดอลลาร์ในตลาด BTC 5 นาที (อีกโพสต์อ้าง Kalman 475,961 ดอลลาร์ใน 127 วัน) โพสต์มีลิงก์ชวนสมัคร",
-  "verdict": "ไอเดีย",
-  "action": "ทดสอบไม่ได้ด้วยแท่งราคา ต้องประวัติ order book ของตลาด BTC Up or Down 5 นาทีใน Polymarket (ราคา YES และ NO พร้อมกันทุกวินาที) ซึ่งเรายังไม่มี ถ้าจะเก็บต้องเขียนตัวอ่าน CLOB สาธารณะแบบอ่านอย่างเดียว"
- },
- {
   "t": "2026-11-25T00:19:12+07:00",
   "source": "github",
   "title": "VictorElentis/bitcoin-price-prediction: ทดสอบว่า BTC ทายอะไรได้บ้างเทียบ baseline ตรงๆ",
@@ -2698,5 +2617,86 @@
   "summary": "ไม่เจองานใหม่ในเดือนนี้ ได้แต่งานเก่าเรื่องสภาพคล่องสูงช่วงเวลาตลาดสหรัฐและรูปแบบรายวันรายสัปดาห์",
   "verdict": "ไอเดีย",
   "action": "รูปแบบรายชั่วโมงมีบัญชีแล้ว (fwd_hour21, fwd_monhour, fwd_sessrev) ไม่เปิดซ้ำ"
+ },
+ {
+  "t": "2026-11-29T02:28:00+07:00",
+  "source": "x",
+  "title": "QuantifiedStrat: 9 EMA Trading Strategy (โพสต์ 22 และ 24 พ.ย.)",
+  "url": "https://x.com/QuantifiedStrat/status/2125258138458927169",
+  "summary": "โพสต์ลิงก์บทความท่า EMA 9 เส้นเดียว ไม่ให้กฎสำหรับคริปโต จึงทำแบบง่ายสุด: ปิดรายวันเหนือ EMA9 ซื้อ ปิดต่ำกว่าออก",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest Binance รายวัน ส.ค. 60 ถึง 28 พ.ย. 69 หลังหัก 0.35%/ข้าง BTC 313 ไม้ +0.99% ต่อไม้ มัธยฐาน -1.96% ชนะ 27% ตัดไม้ดีสุด 1% เหลือ +0.04% ทบต้น +233% แพ้ถือเฉยๆ +1,306% ETH 332 ไม้ +0.62% ทบต้น +3% 2 ปีล่าสุดติดลบทั้งคู่ (BTC -0.89% ETH -1.02% ต่อไม้) permutation 200 รอบก่อนหัก BTC p 0.030 ETH p 0.109 รุ่นแท่ง 4 ชม. EMA54 ต่อไม้ +0.01%/+0.18% เปิด fwd_ema9.py คู่ตัวแฝดเข้าสุ่ม 1 ใน 4 วัน test เดินทีละแท่งตรง backtest 464 ไม้"
+ },
+ {
+  "t": "2026-11-29T02:28:00+07:00",
+  "source": "github",
+  "title": "vvijayyadav77-ops/my-new-crypto-trade-strategy-: Binance Spot Paper Bot",
+  "url": "https://github.com/vvijayyadav77-ops/my-new-crypto-trade-strategy-",
+  "summary": "บอท paper แท่ง 5 นาที ซื้อเมื่อ EMA9 เหนือ EMA21 MACD เหนือเส้นสัญญาณ RSI 52 ถึง 75 โมเมนตัม 3 และ 6 แท่งบวก stop -1.5% TP +3% ออกเมื่อสัญญาณกลับเป็นขาลง",
+  "verdict": "ลองแล้วตก",
+  "action": "เขียนกฎใหม่เอง (ไม่รันโค้ด repo) แท่ง 5 นาทีย้อนยาวไม่ได้จึงทดสอบแท่ง 4 ชม. 2017 ถึง 2026 และ 1 ชม. 3 ปี: ก่อนหักราว 0% ทุกเหรียญ หลังหัก 0.35%/ข้าง 4 ชม. BTC 1,171 ไม้ -0.65% ETH 1,590 ไม้ -0.69% SOL 1,504 ไม้ -0.87% ต่อไม้ ติดลบทุกปีทุกเหรียญ 1 ชม. -0.65 ถึง -0.67% permutation 200 รอบ BTC p 0.005 ETH p 0.010 SOL p 0.527 (ข้อมูลสลับขาดทุนก่อนหักมากกว่า แต่ของจริงก็แค่เสมอตัว) ไม่เปิดบัญชีเพราะต้นทุนกินหมดทุกปี"
+ },
+ {
+  "t": "2026-11-29T02:28:00+07:00",
+  "source": "x",
+  "title": "mrpapawheelie: ซื้อเหรียญจบ curve ที่มี KOL หลังจากร่วงแล้ว",
+  "url": "https://x.com/mrpapawheelie/status/2126518869275947387",
+  "summary": "บอกว่าช้อนทุกเหรียญที่เพิ่งจบ curve แล้วร่วงเดายาก ให้เลือกตัวที่มี KOL ถือ แล้วรอให้ร่วงก่อนค่อยซื้อ โพสต์ถูกตัดไม่มีจุดออก",
+  "verdict": "เพิ่มแล้ว",
+  "action": "เพิ่ม x_kolgrad_selloff (week): launchpad_status 1 อายุไม่เกิน 24 ชม. renowned_count 2+ ร่วง 1 ชม. -20% ขึ้นไป สภาพคล่อง 20k+ rugcheck stop -15% ขายหมด +35% ถือ 2 ชม. ตัวเลขที่เลือกเองอยู่ใน note import zoo และ test_zoo ผ่าน"
+ },
+ {
+  "t": "2026-11-29T02:28:00+07:00",
+  "source": "x",
+  "title": "theo_matchbook และ CoinStats: Fear & Greed แตะ 10 แล้ว BTC 90 วันมัธยฐานบวก",
+  "url": "https://coinstats.app/news/868bb56010e529e1fc9ccd348c1b206cfddc630773aede35d2a06276a91fecbf_Fear-and-Greed-Hits-10-Across-26-Earlier-Prints-Bitcoins-90Day-Median-Gain-Is-14/",
+  "summary": "โพสต์อ้างว่าทุกครั้งที่ดัชนี Fear & Greed ลงถึง 10 BTC 90 วันต่อมามักบวก (หัวข่าวว่ามัธยฐาน 14% แต่ผลค้นเว็บอ่านได้ 1.4%)",
+  "verdict": "ลองแล้วตก",
+  "action": "ทดสอบเอง ดัชนี alternative.me กับ BTC รายวัน 2018 ถึง 2026 ซื้อวันถัดไปถือ 90 วัน: ค่า 10 ลงมา เว้น 14 วันนับกลุ่มใหม่ 14 ครั้ง เฉลี่ย +19.1% มัธยฐาน +21.3% แต่วันสุ่มทุกวันเฉลี่ย +17.0% p 0.394 เว้น 30 วัน 11 ครั้ง +10.4% p 0.619 เกณฑ์ 15 ลงมา 20 ครั้ง +4.8% เกณฑ์ 20 ลงมา 29 ครั้ง +0.7% p 0.967 ไม่ดีกว่าซื้อวันสุ่ม ไม่เปิดบัญชี (เปิดเองไม่ได้ด้วยเพราะต้องดึงดัชนีนอก byttrade.fetch)"
+ },
+ {
+  "t": "2026-11-29T02:28:00+07:00",
+  "source": "x",
+  "title": "sharkdev_ai: ซื้อ BTC ทุกครั้งที่ Elon Musk ทวีต ขายวันถัดไป",
+  "url": "https://x.com/sharkdev_ai/status/2126687844487823650",
+  "summary": "backtest ทวีต 8,038 โพสต์ปี 2021 ถึง 2022 ซื้อ 100 ดอลลาร์นาทีถัดไป ขายหลัง 1 วัน",
+  "verdict": "ไอเดีย",
+  "action": "กฎชัดแต่ต้องเวลาโพสต์ของ Elon ย้อนหลังรายนาที (ไม่มีในมือ) ถ้าได้รายการเวลาทวีตมาจะทดสอบกับแท่ง 1 นาทีของ Binance ได้ทันที"
+ },
+ {
+  "t": "2026-11-29T02:28:00+07:00",
+  "source": "x",
+  "title": "block_piffer: slippage ทำให้ท่า TP 10% บนเหรียญมีมเสมอตัว",
+  "url": "https://x.com/block_piffer/status/2126748891261591560",
+  "summary": "ชี้ว่าคนตั้ง slippage 10% แต่เสียจริง 2 ถึง 3% ต่อขา ซื้อแย่ลง 5% ขายแย่ลง 5% รวมเสีย 10.5% มากกว่าเป้า TP 10%",
+  "verdict": "ไอเดีย",
+  "action": "ไม่ใช่ท่าเทรด แต่ตรงกับบทเรียนเรื่องต้นทุนไปกลับใน lessons.md ใช้เป็นเหตุผลไม่เปิดท่า TP ต่ำกว่า 15% บนเหรียญเล็ก"
+ },
+ {
+  "t": "2026-11-29T02:28:00+07:00",
+  "source": "x",
+  "title": "CaffeSatoshi: ML จาก Hull MA 50/72/100 วันบน BTC",
+  "url": "https://x.com/CaffeSatoshi/status/2126673539533033703",
+  "summary": "สร้างโมเดล ML จาก HMA 3 เส้น 50 72 100 วันเพื่อหาสัญญาณ BTC ไม่ได้ให้กฎหรือผล",
+  "verdict": "ไอเดีย",
+  "action": "ใกล้ fwd_hull ที่เปิดแล้ว (กริด HMA 50/72/100/150 permutation BTC p 0.104) ส่วน ML ต้องเทรนโมเดลซึ่งห้ามทำบนเครื่องนี้ ไม่ทำซ้ำ"
+ },
+ {
+  "t": "2026-11-29T02:28:00+07:00",
+  "source": "x",
+  "title": "ค้น X รอบ 02:20 (memecoin strategy, bitcoin strategy backtest)",
+  "url": "https://x.com/search?q=bitcoin%20strategy%20backtest",
+  "summary": "ที่เหลือไม่มีกฎ: CAIT Super Strategy +11,985% 37 ไม้ (ไม่เปิดกฎ), Kryll ท่า Claude Fable 90 ไม้ (ไม่เปิดกฎ), racerhome backtest +169% แล้วปีจริง -20.4%, iqtauhid บอท Polymarket ข้ามสัญญาณ 99%, ช่อง call TG และโพสต์ทั่วไป",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎที่ทดสอบได้ CAIT กับ Kryll ต้องเห็นกฎหรือรายการไม้ก่อน บอท Polymarket ต้องประวัติราคาสัญญา"
+ },
+ {
+  "t": "2026-11-29T02:28:00+07:00",
+  "source": "github",
+  "title": "กลุ่ม repo ใหม่ 22 ถึง 28 พ.ย. ที่ไม่มีกฎใหม่ให้ทดสอบ (hypr-markets/hyperliquid-trading-bot, Natural14u/crypto-research-kit, emmali202477-del/StockXchange, Mechanics95/SteadyEdge, หุ้นและ Kalshi อีกหลายตัว)",
+  "url": "https://github.com/hypr-markets/hyperliquid-trading-bot",
+  "summary": "บอท Hyperliquid แม่แบบ EMA RSI breakout DCA ทั่วไป ชุดเครื่องมือตรวจกลยุทธ์ ระบบหุ้นสหรัฐอินเดีย และบอท Kalshi 15 นาที ค้น supertrend crypto และ funding rate strategy ตั้งแต่ 22 พ.ย. ไม่มีผล",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีค่าตั้งเฉพาะใหม่ ท่าแม่แบบซ้ำกับบัญชี fwd ที่มีแล้ว บอท Kalshi ต้องประวัติราคาสัญญา"
  }
 ]

@@ -1237,3 +1237,16 @@ zoo import ไม่มี skip และ test_zoo.py ผ่าน
 เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่)
 ไอเดีย: btc-paper-bot (ต้องประวัติราคาสัญญา Kalshi รายนาที), grokbot (ต้อง order book L2 ย้อนหลัง), ทองยืนยัน BTC ของ alex_crypto98 (ใกล้ fwd_goldbtc ที่มีแล้ว)
 ตัดทิ้ง: ไม่มี
+
+## 2026-11-29 02:20 (scout)
+ค้น: GitHub repo ใหม่ (supertrend crypto และ funding rate strategy ตั้งแต่ 22 พ.ย. ไม่มีผล, trading strategy backtest ตั้งแต่ 25 พ.ย., crypto strategy ตั้งแต่ 25 พ.ย., bitcoin bot ตั้งแต่ 24 พ.ย.), X 2 ครั้งที่ได้ผล (memecoin strategy, bitcoin strategy backtest) อีก 2 ครั้งไม่ได้ผลลัพธ์กลับมา, เว็บ 1 ครั้ง (Fear & Greed แตะ 10 กับผล BTC 90 วัน)
+เจอ: vvijayyadav77-ops Binance Spot Paper Bot (กฎชัด), QuantifiedStrat ท่า EMA9, mrpapawheelie ซื้อเหรียญจบ curve ที่มี KOL หลังร่วง, theo_matchbook กับ CoinStats เรื่อง Fear & Greed 10, sharkdev_ai ซื้อ BTC ตามทวีต Elon, block_piffer เรื่อง slippage กินท่า TP 10%, CaffeSatoshi ML จาก HMA 3 เส้น ที่เหลือเป็นโพสต์อวดผลไม่เปิดกฎ (CAIT, Kryll) และ repo แม่แบบหรือหุ้น
+ทดสอบบอท vvijayyadav (เขียนกฎใหม่เอง ไม่รันโค้ด repo): EMA9 เหนือ EMA21 MACD เหนือเส้นสัญญาณ RSI 52 ถึง 75 โมเมนตัม 3 และ 6 แท่งบวก stop -1.5% TP +3% ออกเมื่อเป็นขาลง สคริปต์ /tmp/scout_0220/bt.py
+- แท่ง 4 ชม. 2017 ถึง 2026 ก่อนหักราว 0% หลังหัก 0.35%/ข้าง BTC 1,171 ไม้ -0.65% ETH 1,590 ไม้ -0.69% SOL 1,504 ไม้ -0.87% ต่อไม้ ติดลบทุกปีทุกเหรียญ
+- แท่ง 1 ชม. 3 ปี -0.65 ถึง -0.67% ต่อไม้ permutation 200 รอบ 4 ชม. BTC p 0.005 ETH p 0.010 SOL p 0.527 แต่ของจริงแค่เสมอตัวก่อนหัก ลองแล้วตก
+ทดสอบ EMA9 รายวัน (ปิดเหนือ EMA9 ซื้อ ปิดต่ำกว่าออก): หลังหัก BTC 313 ไม้ +0.99% ต่อไม้ มัธยฐาน -1.96% ตัดไม้ดีสุด 1% +0.04% ทบต้น +233% แพ้ถือเฉยๆ +1,306% ETH 332 ไม้ +0.62% 2 ปีล่าสุดติดลบทั้งคู่ permutation BTC p 0.030 ETH p 0.109
+ทดสอบ Fear & Greed 10 ลงมา ซื้อ BTC ถือ 90 วัน: 14 ครั้ง เฉลี่ย +19.1% เทียบวันสุ่ม +17.0% p 0.394 เกณฑ์ 15 และ 20 แย่กว่าวันสุ่ม ลองแล้วตก
+เปิดบัญชี: fwd_ema9.py (BTC ETH ช่องละครึ่งทุน long อย่างเดียว คู่ตัวแฝดเข้าสุ่ม 1 ใน 4 วัน test เดินทีละแท่งตรง backtest 464 ไม้)
+เพิ่ม x_: x_kolgrad_selloff (week) จบ curve อายุไม่เกิน 24 ชม. KOL 2+ ร่วง 1 ชม. 20%+ stop -15% ขายหมด +35% ถือ 2 ชม. ตัวเลขที่เลือกเองอยู่ใน note
+ไอเดีย: ทวีต Elon (ต้องเวลาโพสต์ย้อนหลังรายนาที), HMA 3 เส้น ML (ใกล้ fwd_hull และต้องเทรนโมเดล), CAIT และ Kryll (ไม่เปิดกฎ), บอท Kalshi และ Polymarket (ต้องประวัติราคาสัญญา)
+ตัดทิ้ง: ไม่มี
