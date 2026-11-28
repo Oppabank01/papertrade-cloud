@@ -1,37 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 8.438611853639712,
- "pos": {
-  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
-   "sym": "CATE",
-   "qty": 157.56966347252785,
-   "entry": 0.01823,
-   "last": 0.01806,
-   "peak": 0.01888,
-   "cost": 2.901436797155812,
-   "opened": "2026-11-27T19:42:26+07:00",
-   "zoo": "w_cold_mkt_b2",
-   "smart": 994,
-   "kol": 112,
-   "gap": 0,
-   "miss": 0
-  },
-  "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
-   "sym": "Buttcoin",
-   "qty": 501.0073990997553,
-   "entry": 0.005722,
-   "last": 0.005686,
-   "peak": 0.005814,
-   "cost": 2.8956484307454855,
-   "opened": "2026-11-27T19:42:26+07:00",
-   "zoo": "w_cold_mkt_b2",
-   "smart": 545,
-   "kol": 51,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 14.076246046203662,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-22T19:52:27+07:00",
@@ -673,10 +644,40 @@
    "cost_side": 0.01,
    "smart": 901,
    "bundler": null
+  },
+  {
+   "t": "2026-11-28T07:42:39+07:00",
+   "kind": "sell",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.01806,
+   "entry": 0.01823,
+   "usd": 2.8173,
+   "pnl": -0.0841,
+   "why": "ครบ 12 ชม. (-0.9%)",
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "smart": 994,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-28T07:42:39+07:00",
+   "kind": "sell",
+   "mint": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+   "sym": "Buttcoin",
+   "price": 0.005686,
+   "entry": 0.005722,
+   "usd": 2.8203,
+   "pnl": -0.0753,
+   "why": "ครบ 12 ชม. (-0.6%)",
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "smart": 545,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดเย็น: กฎ w_aged_nostop เฉพาะรอบที่เหรียญขึ้นไม่เกิน 61%",
- "rank_t": 1795825872.5792632,
+ "rank_t": 1795826424.7247555,
  "banned": {
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings",
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
