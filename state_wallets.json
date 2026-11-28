@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 1.466603606621605,
+ "cash": 1.8508199976785047,
  "pos": {
   "H8xQ6poBjB9DTPMDTKWzWPrnxu4bDEhybxiouF8Ppump": {
    "sym": "Tokabu",
    "qty": 639.738331070205,
    "entry": 0.001099,
-   "last": 0.001081,
+   "last": 0.001079,
    "peak": 0.001099,
    "cost": 0.7246675178789481,
    "opened": "2026-11-28T23:52:03+07:00",
@@ -21,27 +21,13 @@
    "sym": "enu",
    "qty": 3016.3282344163545,
    "entry": 0.000231,
-   "last": 0.000231,
+   "last": 0.0002309,
    "peak": 0.000231,
    "cost": 0.718173389146751,
    "opened": "2026-11-29T00:56:03+07:00",
    "wallet": "FqJMNz",
    "wallet_usd": 503,
    "lag_min": 4.5,
-   "gap": 0,
-   "miss": 0
-  },
-  "nUESj13byLn6bHFFaygmf7mCQbHZvb6yKqdHjjLWmj1": {
-   "sym": "ARTCOIN",
-   "qty": 27463.08731523246,
-   "entry": 2.522e-05,
-   "last": 2.522e-05,
-   "peak": 2.522e-05,
-   "cost": 0.7138930757474363,
-   "opened": "2026-11-29T00:56:04+07:00",
-   "wallet": "2kN7bb",
-   "wallet_usd": 321,
-   "lag_min": 8.2,
    "gap": 0,
    "miss": 0
   }
@@ -15668,19 +15654,61 @@
    "wallet": "2kN7bb",
    "wallet_usd": 321,
    "lag_min": 8.2
+  },
+  {
+   "t": "2026-11-29T01:11:10+07:00",
+   "kind": "skip",
+   "mint": "3Hfbhg84nsUtzrTPTu8SpnhzFcDpAsvXv1cEyX4opump",
+   "sym": "UNAWARE",
+   "wallet": "FqJMNz",
+   "usd": 402,
+   "why": "liq $9,340"
+  },
+  {
+   "t": "2026-11-29T01:11:10+07:00",
+   "kind": "skip",
+   "mint": "9JeNYUpKjJ5cGWq6RySLyTFAQB21HqiecpXrDoXEpump",
+   "sym": "WOLF21",
+   "wallet": "FqJMNz",
+   "usd": 402,
+   "why": "liq $0"
+  },
+  {
+   "t": "2026-11-29T01:11:12+07:00",
+   "kind": "skip",
+   "mint": "9dNu7DszxBLWqvFVJraGYbfMhUZxkzF1C4VNk1wNpump",
+   "sym": "mm",
+   "wallet": "a8UJuW",
+   "usd": 434,
+   "why": "liq $0"
+  },
+  {
+   "t": "2026-11-29T01:11:12+07:00",
+   "kind": "sell",
+   "mint": "nUESj13byLn6bHFFaygmf7mCQbHZvb6yKqdHjjLWmj1",
+   "sym": "ARTCOIN",
+   "price": 1.442e-05,
+   "entry": 2.522e-05,
+   "usd": 0.3842,
+   "pnl": -0.3297,
+   "why": "stop -42.8%",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ ผ่าน Helius",
  "cursor": {
-  "FqJMNzzY1DHz2F1Pt6F7VqCxBWdu8cK2TbfTrYT9zQbT": "2Behef9WEjPF8MasB3kZ7BG2DnPxfbXirBMGqWYuZiXm5vj2zToerweRu3Wh8cPbV2i6Hjd7fxzZfEBKDMHcg8N3",
+  "FqJMNzzY1DHz2F1Pt6F7VqCxBWdu8cK2TbfTrYT9zQbT": "5nEhU66TLqiZ2kHN7EdxnSnaj5NBqd5ZSfrm8wTywsVwbm3a24TcvVqwePFQ3jkDHpXEaQUrcKnbU2HPWjRmH2ov",
   "2kN7bb7sVKn4iBWDMpo8aAVyyQxAVpZATQ7RRkmoy6Mm": "6HTdkkN9sDf6vkuvDPxRUz4hRWZCe7WLMiu2VsUj7sc56ToKHPgEKdJfmqGM9RCuQCHWotwNUeNQ4sjLJ5xzDbE",
   "7NnaXghjuU92gM9kmwXysqa5HboyZuR2LTaBnvazFxSH": "4mE9yj7f98W44mvAYmg5HMJ2voNX2kU5n2iTeECgR3MD8gAGwTa6S5uYJEgRD8Zmgt3ZxV5JLidMxiPJV96jYqWZ",
-  "7g5CJ754NboeY6D44MDdGwQmVX4Fvu59Q47c9ZKLPMkE": "5biok4STnNKWHjtee5m3ruCDLCLzoK3Mm8jtm2Sam86e2HChv22e2CsCCJbCpBuymaQq58CWPjmbwcKzfcFNJwky",
+  "7g5CJ754NboeY6D44MDdGwQmVX4Fvu59Q47c9ZKLPMkE": "32LrxoReReChfVZ5Bz11ry2GUQ3ztDHYEv8baR6E96FU77GPsEiuNrXshqkVKFV8q5oAPozcpKVEc8Yp8kvLBvVZ",
   "8emnM6nfVM2ePrYDmZcMkwy8qzDhRFZ5EefCkMsmgByX": "HUzQmgg1RdXHn62J4pp8a5H3Uegmfk3svMrJjwC1vvyRj3cvuGZLyegJWqx121Hom84n8rX1yViiWXviZWhFsy1",
   "ENskGQev2bXPjaCYPV9bUcPLv3635Y18BWzLN95x4soC": "3bfxu8UELSSJAqBKCA1wm7fAdTj3CVdGzN7VLadptAPBM9q9CB7TPJTMdRWiApyHZfAw7AafeVXFadeAuTD5Nf63",
   "chudc2GnxyW2V7nmLA9bkrzFmKkvPyTfN7V7Uu6XG6o": "4zvkeBiS3ioZxTcuCnk6syMDUJkK81dDNXxLSkrJLJ6U4t6iumaLRzPFdsk3vDbUtAzpf8StR1wFbJ4v3p3zuwE",
   "8XzVYjjVdpDoD3zBtXqMiMBRNj7eMhayr8DyWZQiRgs8": "4RPNahkhM9z6h4f4LcCKStWht3BhZYpPoDTMxWRLR9k41aAQ84rokuxwqmhxyMmRye7sNNy1HYQWZHK8KTuMoQiR",
-  "a8UJuWKvWwQTtYbEVzA5b7SYF5j92guqJdwMY428jZN": "cLxKMWvNqgWmDcQwUHSg55Z4qsZxgoYwYd2dDbPARiF8mvQh2gcoB4HqwZyQp4YXeS2gwipX6yJ3ti42SQqq4Xo",
+  "a8UJuWKvWwQTtYbEVzA5b7SYF5j92guqJdwMY428jZN": "6yGyUCjGY3MpnyBECqMd7VCBmfb7pYhAM8mZ1qnDtzarJSpF8b49wtpoMt2VLFbVXM8LomYkC4AwiDgCUTNbZ75",
   "A9svdtSzTnMBRFWYMtu4u4gQikU4XJCZaQ9h3nijWmP2": "547vSmLBkWES6c5WyVngNbe8Rr3ic3LjitWaCYUgpa9hpsekhagpg4ps713g3iEbZ6buDdDxqWC4DS2U8UkfAKGm"
  }
 }
