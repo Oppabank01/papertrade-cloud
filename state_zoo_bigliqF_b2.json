@@ -1,8 +1,37 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 6.100184779000484,
- "pos": {},
+ "cash": 3.6673822876568587,
+ "pos": {
+  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
+   "sym": "mihao",
+   "qty": 191.16276720239892,
+   "entry": 0.006192,
+   "last": 0.006183,
+   "peak": 0.006232,
+   "cost": 1.220036955800097,
+   "opened": "2026-11-28T15:32:34+07:00",
+   "zoo": "bigliqF_b2",
+   "smart": 833,
+   "kol": 76,
+   "gap": 0,
+   "miss": 0
+  },
+  "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+   "sym": "USELESS",
+   "qty": 15.991099790491045,
+   "entry": 0.07358,
+   "last": 0.07359,
+   "peak": 0.0736,
+   "cost": 1.2127655355435283,
+   "opened": "2026-11-28T15:32:34+07:00",
+   "zoo": "bigliqF_b2",
+   "smart": 938,
+   "kol": 295,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-22T19:52:23+07:00",
@@ -2182,10 +2211,38 @@
    "cost_side": 0.03,
    "smart": 107,
    "bundler": null
+  },
+  {
+   "t": "2026-11-28T15:32:34+07:00",
+   "kind": "buy",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.006192,
+   "jup": 0.006236695920629121,
+   "usd": 1.22,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliqF_b2",
+   "smart": 833,
+   "kol": 76
+  },
+  {
+   "t": "2026-11-28T15:32:34+07:00",
+   "kind": "buy",
+   "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+   "sym": "USELESS",
+   "price": 0.07358,
+   "jup": 0.07380950901350321,
+   "usd": 1.2128,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "bigliqF_b2",
+   "smart": 938,
+   "kol": 295
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สภาพคล่อง 200k+ เช็กราคาทุก 20 วิ",
- "rank_t": 1795854200.5607052,
+ "rank_t": 1795854719.2988703,
  "banned": {
   "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": "ZCAT",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
