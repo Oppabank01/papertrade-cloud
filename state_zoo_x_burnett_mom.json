@@ -1,15 +1,44 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.67997651203758,
- "cash": 14.67997651203758,
- "pos": {},
+ "cash": 13.211978860833822,
+ "pos": {
+  "HmGQsYJyeiWrV6jABUY2Cb3bEmVxwk6LzVxCchsCpump": {
+   "sym": "WLFI",
+   "qty": 5492.677675271446,
+   "entry": 0.0002593,
+   "last": 0.0002503,
+   "peak": 0.0002941,
+   "cost": 1.467997651203758,
+   "opened": "2026-11-28T12:39:35+07:00",
+   "zoo": "x_burnett_mom",
+   "smart": 90,
+   "kol": 5,
+   "gap": 5,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-28T09:51:27+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-28T12:39:35+07:00",
+   "kind": "buy",
+   "mint": "HmGQsYJyeiWrV6jABUY2Cb3bEmVxwk6LzVxCchsCpump",
+   "sym": "WLFI",
+   "price": 0.0002593,
+   "jup": 0.0002609467064050018,
+   "usd": 1.468,
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "zoo": "x_burnett_mom",
+   "smart": 90,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: โมเมนตัม 5 นาที +8% วอลุ่มสูง TP +25% trail 5% ถือ 20 นาที",
- "rank_t": 1795843544.3130453
+ "rank_t": 1795844262.1422434
 }
