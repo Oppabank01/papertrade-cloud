@@ -7,7 +7,7 @@
    "sym": "CATE",
    "qty": 116.94183754141359,
    "entry": 0.01834,
-   "last": 0.01814,
+   "last": 0.01815,
    "peak": 0.01888,
    "cost": 2.166322366111487,
    "opened": "2026-11-27T23:58:59+07:00",
@@ -21,7 +21,7 @@
    "sym": "CLAUDIA",
    "qty": 277.4017945988519,
    "entry": 0.007715,
-   "last": 0.007569,
+   "last": 0.007586,
    "peak": 0.007877,
    "cost": 2.161717982202613,
    "opened": "2026-11-28T00:31:18+07:00",
@@ -35,8 +35,8 @@
    "sym": "TROLL",
    "qty": 95.3902914042143,
    "entry": 0.02216,
-   "last": 0.02304,
-   "peak": 0.02305,
+   "last": 0.023,
+   "peak": 0.02312,
    "cost": 2.1351469483269496,
    "opened": "2026-11-28T03:58:39+07:00",
    "zoo": "w_hot_mkt_b2",
@@ -49,14 +49,14 @@
    "sym": "FLOAT",
    "qty": 768.5965250198562,
    "entry": 0.002755,
-   "last": 0.00278,
-   "peak": 0.00278,
+   "last": 0.00278403346917014,
+   "peak": 0.002792,
    "cost": 2.1388181373497677,
    "opened": "2026-11-28T08:12:43+07:00",
    "zoo": "w_hot_mkt_b2",
    "smart": 382,
    "kol": 35,
-   "gap": 0,
+   "gap": 15,
    "miss": 0
   }
  },
@@ -1098,10 +1098,17 @@
    "zoo": "w_hot_mkt_b2",
    "smart": 382,
    "kol": 35
+  },
+  {
+   "t": "2026-11-28T08:30:02+07:00",
+   "kind": "ban",
+   "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+   "sym": "FLOAT",
+   "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดร้อน: กฎ w_aged_nostop เฉพาะรอบที่เหรียญ 74%+ ขึ้นใน 1 ชม.",
- "rank_t": 1795828305.9698005,
+ "rank_t": 1795828865.9257183,
  "banned": {
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": "OTC",
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": "Buttcoin",
@@ -1109,6 +1116,7 @@
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings",
-  "69LjZUUzxj3Cb3Fxeo1X4QpYEQTboApkhXTysPpbpump": "CODEC"
+  "69LjZUUzxj3Cb3Fxeo1X4QpYEQTboApkhXTysPpbpump": "CODEC",
+  "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": "FLOAT"
  }
 }
