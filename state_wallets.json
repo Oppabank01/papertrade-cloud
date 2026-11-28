@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 3.6233375893947404,
- "pos": {},
+ "cash": 2.8986700715157925,
+ "pos": {
+  "H8xQ6poBjB9DTPMDTKWzWPrnxu4bDEhybxiouF8Ppump": {
+   "sym": "Tokabu",
+   "qty": 639.738331070205,
+   "entry": 0.001099,
+   "last": 0.001099,
+   "peak": 0.001099,
+   "cost": 0.7246675178789481,
+   "opened": "2026-11-28T23:52:03+07:00",
+   "wallet": "FqJMNz",
+   "wallet_usd": 2505,
+   "lag_min": 12.5,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-13T10:36:33+07:00",
@@ -15439,17 +15454,85 @@
    "wallet": "a8UJuW",
    "usd": 361,
    "why": "liq $0"
+  },
+  {
+   "t": "2026-11-28T23:52:03+07:00",
+   "kind": "buy",
+   "mint": "H8xQ6poBjB9DTPMDTKWzWPrnxu4bDEhybxiouF8Ppump",
+   "sym": "Tokabu",
+   "price": 0.001099,
+   "jup": 0.0010956292451707122,
+   "usd": 0.7247,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "wallet": "FqJMNz",
+   "wallet_usd": 2505,
+   "lag_min": 12.5
+  },
+  {
+   "t": "2026-11-28T23:52:03+07:00",
+   "kind": "skip",
+   "mint": "H8xQ6poBjB9DTPMDTKWzWPrnxu4bDEhybxiouF8Ppump",
+   "sym": "Tokabu",
+   "wallet": "FqJMNz",
+   "usd": 872,
+   "why": "repeat"
+  },
+  {
+   "t": "2026-11-28T23:52:03+07:00",
+   "kind": "skip",
+   "mint": "H8xQ6poBjB9DTPMDTKWzWPrnxu4bDEhybxiouF8Ppump",
+   "sym": "Tokabu",
+   "wallet": "FqJMNz",
+   "usd": 501,
+   "why": "repeat"
+  },
+  {
+   "t": "2026-11-28T23:52:03+07:00",
+   "kind": "skip",
+   "mint": "H8xQ6poBjB9DTPMDTKWzWPrnxu4bDEhybxiouF8Ppump",
+   "sym": "Tokabu",
+   "wallet": "FqJMNz",
+   "usd": 501,
+   "why": "repeat"
+  },
+  {
+   "t": "2026-11-28T23:52:03+07:00",
+   "kind": "skip",
+   "mint": "H8xQ6poBjB9DTPMDTKWzWPrnxu4bDEhybxiouF8Ppump",
+   "sym": "Tokabu",
+   "wallet": "FqJMNz",
+   "usd": 501,
+   "why": "repeat"
+  },
+  {
+   "t": "2026-11-28T23:52:03+07:00",
+   "kind": "skip",
+   "mint": "H8xQ6poBjB9DTPMDTKWzWPrnxu4bDEhybxiouF8Ppump",
+   "sym": "Tokabu",
+   "wallet": "FqJMNz",
+   "usd": 501,
+   "why": "repeat"
+  },
+  {
+   "t": "2026-11-28T23:52:03+07:00",
+   "kind": "skip",
+   "mint": "9PGt6yqAW8XJPeBdfMzc2zxPqQeijGgyTahpK2Bppump",
+   "sym": "birds",
+   "wallet": "FqJMNz",
+   "usd": 699,
+   "why": "liq $10,619"
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ ผ่าน Helius",
  "cursor": {
-  "FqJMNzzY1DHz2F1Pt6F7VqCxBWdu8cK2TbfTrYT9zQbT": "5qrHD69eP8XjpcfTuZ4F1KDMbhjYa4H9FGwWg4mzThadBS8fABTJ8AbNcpax1yyTod4swTY7gUU4zXp8rKedyEgy",
+  "FqJMNzzY1DHz2F1Pt6F7VqCxBWdu8cK2TbfTrYT9zQbT": "3mBYqD1WPFvvzga9Ckag2UengGiBPNGDUzSMwfs9BFeDtdJXv76S7h5W4ZwVBn83sjUpLvYJkDawJN8hffq4dRUy",
   "2kN7bb7sVKn4iBWDMpo8aAVyyQxAVpZATQ7RRkmoy6Mm": "jCW5DEi6uFGGkyS2EoNknyKf8RkDcZgc5Hf1YxX5rc3SQmjmtiEETXLmTWWi7EGAs79mfnSj3QVUsxUdFJpgtWV",
   "7NnaXghjuU92gM9kmwXysqa5HboyZuR2LTaBnvazFxSH": "4mE9yj7f98W44mvAYmg5HMJ2voNX2kU5n2iTeECgR3MD8gAGwTa6S5uYJEgRD8Zmgt3ZxV5JLidMxiPJV96jYqWZ",
   "7g5CJ754NboeY6D44MDdGwQmVX4Fvu59Q47c9ZKLPMkE": "5AxAukUgrqFSpV5XBd7DEfK7prbJ2nG1cY87SLVutpo2FjK8fX65nqdKhQzEcaCRnGvzsAFCwxrpKqkopHkM4L28",
-  "8emnM6nfVM2ePrYDmZcMkwy8qzDhRFZ5EefCkMsmgByX": "MUc2cenDiJEqzig58k2SGE8u5KXgyTQfCZh54WbqpcfYKELoaGckxeznxBkBQJR6go54NES8vqKYJFpd9imodVK",
+  "8emnM6nfVM2ePrYDmZcMkwy8qzDhRFZ5EefCkMsmgByX": "2FSwAVqNCtrWFjnEwcYGKz4d7gbvqkpw6x2xMox4gQ9Fz3jSrY7JtfszSk4FEzJoDeGc3hsnDXJggSvXsEpMYPrU",
   "ENskGQev2bXPjaCYPV9bUcPLv3635Y18BWzLN95x4soC": "3bfxu8UELSSJAqBKCA1wm7fAdTj3CVdGzN7VLadptAPBM9q9CB7TPJTMdRWiApyHZfAw7AafeVXFadeAuTD5Nf63",
-  "chudc2GnxyW2V7nmLA9bkrzFmKkvPyTfN7V7Uu6XG6o": "4aEKTVxnY3rAnaKaaEXt55LSpvr7LNNR7PscZz8eHLR391F1Ym8PH4T5qKbKgEeLit1yTbHqBJmBGqDNDyrz7mS9",
+  "chudc2GnxyW2V7nmLA9bkrzFmKkvPyTfN7V7Uu6XG6o": "4zvkeBiS3ioZxTcuCnk6syMDUJkK81dDNXxLSkrJLJ6U4t6iumaLRzPFdsk3vDbUtAzpf8StR1wFbJ4v3p3zuwE",
   "8XzVYjjVdpDoD3zBtXqMiMBRNj7eMhayr8DyWZQiRgs8": "31RRr45mjF8SJmGTDCY26ZMdxsb3aTAUeKZzMm4oe8MBVLcjPwjbuBGhD6bGoh42tf7rK84rYXiZzQ1o5pZDb4Wv",
   "a8UJuWKvWwQTtYbEVzA5b7SYF5j92guqJdwMY428jZN": "qNxa4t2eoT8TzizDUU67ej7dQiowRjGoEabPGHwHEHwzi86CUCdA9Qn9Rq8pV12tLg2eTzZEZaXtJNdsYoq3Qge",
   "A9svdtSzTnMBRFWYMtu4u4gQikU4XJCZaQ9h3nijWmP2": "547vSmLBkWES6c5WyVngNbe8Rr3ic3LjitWaCYUgpa9hpsekhagpg4ps713g3iEbZ6buDdDxqWC4DS2U8UkfAKGm"

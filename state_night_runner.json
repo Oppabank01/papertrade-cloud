@@ -707,10 +707,35 @@
    "usd": 5.5466,
    "pnl": -0.3409,
    "why": "ปิดรอบเช้า"
+  },
+  {
+   "t": "2026-11-28T23:54:55+07:00",
+   "kind": "buy",
+   "mint": "H8xQ6poBjB9DTPMDTKWzWPrnxu4bDEhybxiouF8Ppump",
+   "sym": "Tokabu",
+   "price": 0.001087,
+   "jup": 0.0010848490715204794,
+   "usd": 5.872,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "source": "state_wallets.json"
   }
  ],
- "pos": {},
- "cash": 14.67997651203758,
+ "pos": {
+  "H8xQ6poBjB9DTPMDTKWzWPrnxu4bDEhybxiouF8Ppump": {
+   "sym": "Tokabu",
+   "qty": 5241.035220599396,
+   "entry": 0.001087,
+   "last": 0.001087,
+   "peak": 0.001087,
+   "cost": 5.871990604815032,
+   "opened": "2026-11-28T23:54:55+07:00",
+   "source": "state_wallets.json",
+   "gap": 0,
+   "miss": 0
+  }
+ },
+ "cash": 8.807985907222548,
  "start_usd": 14.67997651203758,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
@@ -1099,7 +1124,8 @@
   "state_wallets.json:2026-11-26T12:56:06+07:00:MRVLSjkR2ceUBukujaD3xCyHP1H3B2SzpsNTZF546jo",
   "state_wallets.json:2026-11-27T00:21:15+07:00:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
   "state_wallets.json:2026-11-28T06:14:16+07:00:XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
-  "state_wallets.json:2026-11-28T12:47:56+07:00:DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF"
+  "state_wallets.json:2026-11-28T12:47:56+07:00:DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF",
+  "state_wallets.json:2026-11-28T23:52:03+07:00:H8xQ6poBjB9DTPMDTKWzWPrnxu4bDEhybxiouF8Ppump"
  ],
  "session": {
   "night": "2026-11-28",
