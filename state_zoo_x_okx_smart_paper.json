@@ -1,15 +1,44 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.67997651203758,
- "cash": 14.67997651203758,
- "pos": {},
+ "cash": 11.743981209630064,
+ "pos": {
+  "viCEWiReoWxwmRRfGmWmpP1FFdB8Jm8PzZChVJ9dvg6": {
+   "sym": "Vicewire",
+   "qty": 26721.413155682665,
+   "entry": 0.0001066,
+   "last": 0.0001044,
+   "peak": 0.0001066,
+   "cost": 2.935995302407516,
+   "opened": "2026-11-28T23:04:18+07:00",
+   "zoo": "x_okx_smart_paper",
+   "smart": 60,
+   "kol": 1,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-28T21:43:46+07:00",
    "kind": "init",
    "thb": 500.0
+  },
+  {
+   "t": "2026-11-28T23:04:18+07:00",
+   "kind": "buy",
+   "mint": "viCEWiReoWxwmRRfGmWmpP1FFdB8Jm8PzZChVJ9dvg6",
+   "sym": "Vicewire",
+   "price": 0.0001066,
+   "jup": 0.00010636831887392359,
+   "usd": 2.936,
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "zoo": "x_okx_smart_paper",
+   "smart": 60,
+   "kol": 1
   }
  ],
  "label": "สวนสัตว์: OKX paper bot: smart money 2+ ผ่านเช็กปลอดภัย ขายครึ่ง +15% stop -10% ถือ 4 ชม.",
- "rank_t": 1795880951.674749
+ "rank_t": 1795881595.9792128
 }
