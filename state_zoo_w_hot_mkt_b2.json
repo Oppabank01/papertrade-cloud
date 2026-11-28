@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 8.32397618619277,
+ "cash": 6.2418227416311485,
  "pos": {
   "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": {
    "sym": "ANSEM",
    "qty": 117.30135113071046,
    "entry": 0.01763,
-   "last": 0.01783,
+   "last": 0.01778,
    "peak": 0.01796,
    "cost": 2.0888591908632863,
    "opened": "2026-11-28T19:12:01+07:00",
    "zoo": "w_hot_mkt_b2",
    "smart": 1000,
    "kol": 187,
+   "gap": 0,
+   "miss": 0
+  },
+  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
+   "sym": "mihao",
+   "qty": 368.7627842490374,
+   "entry": 0.00559,
+   "last": 0.005585,
+   "peak": 0.005629,
+   "cost": 2.0821534445616217,
+   "opened": "2026-11-28T21:58:09+07:00",
+   "zoo": "w_hot_mkt_b2",
+   "smart": 833,
+   "kol": 76,
    "gap": 0,
    "miss": 0
   }
@@ -1137,10 +1151,24 @@
    "cost_side": 0.01,
    "smart": 382,
    "bundler": null
+  },
+  {
+   "t": "2026-11-28T21:58:09+07:00",
+   "kind": "buy",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.00559,
+   "jup": 0.005594227970663361,
+   "usd": 2.0822,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_hot_mkt_b2",
+   "smart": 833,
+   "kol": 76
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดร้อน: กฎ w_aged_nostop เฉพาะรอบที่เหรียญ 74%+ ขึ้นใน 1 ชม.",
- "rank_t": 1795876976.8919675,
+ "rank_t": 1795877780.099951,
  "banned": {
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": "OTC",
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": "Buttcoin",
