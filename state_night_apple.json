@@ -126,6 +126,15 @@
    "trades": 0,
    "wins": 0,
    "ended": "09:00"
+  },
+  {
+   "night": "2026-11-27",
+   "start_usd": 14.7189,
+   "end_usd": 14.2075,
+   "ret": -0.0347,
+   "trades": 1,
+   "wins": 0,
+   "ended": "09:00"
   }
  ],
  "log": [
@@ -642,23 +651,20 @@
    "stop_set": -0.18,
    "cost_side": 0.03,
    "source": "state_wallets.json"
+  },
+  {
+   "t": "2026-11-28T09:06:31+07:00",
+   "kind": "sell",
+   "mint": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
+   "sym": "SPYx",
+   "price": 735.76,
+   "usd": 8.3199,
+   "pnl": -0.5114,
+   "why": "ปิดรอบเช้า"
   }
  ],
- "pos": {
-  "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W": {
-   "sym": "SPYx",
-   "qty": 0.011655283237258002,
-   "entry": 735.13,
-   "last": 735.45,
-   "peak": 736.052,
-   "cost": 8.831321754489256,
-   "opened": "2026-11-28T06:15:03+07:00",
-   "source": "state_wallets.json",
-   "gap": 0,
-   "miss": 0
-  }
- },
- "cash": 5.887547836326171,
+ "pos": {},
+ "cash": 14.207489393370698,
  "start_usd": 14.718869590815427,
  "mirrored": [
   "state_recipe_grad.json:2026-11-13T09:57:00+07:00:HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump",
@@ -1051,6 +1057,7 @@
  "session": {
   "night": "2026-11-27",
   "t": "2026-11-27T21:05:33+07:00",
-  "start_usd": 14.718869590815427
+  "start_usd": 14.718869590815427,
+  "closed": true
  }
 }
