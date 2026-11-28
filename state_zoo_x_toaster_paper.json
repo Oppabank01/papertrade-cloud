@@ -1,37 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.688601645123384,
- "cash": 12.776207803378643,
- "pos": {
-  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
-   "sym": "mihao",
-   "qty": 122.29984249647725,
-   "entry": 0.005648,
-   "last": 0.005386,
-   "peak": 0.005658,
-   "cost": 0.7119661002062498,
-   "opened": "2026-11-28T04:21:19+07:00",
-   "zoo": "x_toaster_paper",
-   "smart": 832,
-   "kol": 76,
-   "gap": 0,
-   "miss": 0
-  },
-  "Fpzcd2R1y2MPdezgMRigQuBx7aCPPn5sZBXpvtP3pump": {
-   "sym": "HUGH",
-   "qty": 6191.62319506735,
-   "entry": 0.0001104,
-   "last": 0.0001046,
-   "peak": 0.0001148,
-   "cost": 0.7045508150231246,
-   "opened": "2026-11-28T05:42:05+07:00",
-   "zoo": "x_toaster_paper",
-   "smart": 80,
-   "kol": 5,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 14.016134088586494,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-27T01:58:14+07:00",
@@ -413,9 +384,39 @@
    "cost_side": 0.03,
    "smart": 37,
    "bundler": null
+  },
+  {
+   "t": "2026-11-28T07:19:14+07:00",
+   "kind": "sell",
+   "mint": "Fpzcd2R1y2MPdezgMRigQuBx7aCPPn5sZBXpvtP3pump",
+   "sym": "HUGH",
+   "price": 0.00010199813943363572,
+   "entry": 0.0001104,
+   "usd": 0.6127,
+   "pnl": -0.0918,
+   "why": "stop -7.6%",
+   "stop_set": -0.06,
+   "cost_side": 0.03,
+   "smart": 80,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-28T07:21:22+07:00",
+   "kind": "sell",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.005286,
+   "entry": 0.005648,
+   "usd": 0.6272,
+   "pnl": -0.0848,
+   "why": "stop -6.4%",
+   "stop_set": -0.06,
+   "cost_side": 0.03,
+   "smart": 832,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: บอท paper MyToasterIsCrying (Solana Paper Bot 2.0) แบบที่ zoo เช็กได้: อายุ 30 นาทีขึ้นไป pool 25k+ top10 ไม่เกิน 30% ราคา 1 ชม. และ 5 นาทีบวก แรงซื้อนำ RugCheck stop -6% TP +12% ไม้ละ 5% สูงสุด 3 ตัว",
- "rank_t": 1795824323.972812,
+ "rank_t": 1795825087.3759186,
  "halted": "ราคา HUGH สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }

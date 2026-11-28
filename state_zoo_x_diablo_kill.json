@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.667057788207684,
- "cash": 14.216971771192503,
- "pos": {},
+ "cash": 12.795274594073252,
+ "pos": {
+  "AvvXpCVph4PtJ5urfhetPkdZYh8o4uW7CawUA2MK8hFT": {
+   "sym": "STEADY",
+   "qty": 6338.835483644746,
+   "entry": 0.0002176,
+   "last": 0.0001814,
+   "peak": 0.00028344660321341414,
+   "cost": 1.4216971771192504,
+   "opened": "2026-11-28T07:20:26+07:00",
+   "zoo": "x_diablo_kill",
+   "smart": 32,
+   "kol": 2,
+   "gap": 3,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-26T04:20:35+07:00",
@@ -105,8 +120,22 @@
    "cost_side": 0.03,
    "smart": 2,
    "bundler": null
+  },
+  {
+   "t": "2026-11-28T07:20:26+07:00",
+   "kind": "buy",
+   "mint": "AvvXpCVph4PtJ5urfhetPkdZYh8o4uW7CawUA2MK8hFT",
+   "sym": "STEADY",
+   "price": 0.0002176,
+   "jup": 0.00021691020200471792,
+   "usd": 1.4217,
+   "stop_set": -0.2,
+   "cost_side": 0.03,
+   "zoo": "x_diablo_kill",
+   "smart": 32,
+   "kol": 2
   }
  ],
  "label": "สวนสัตว์: Diablo บอท 7 เอเจนต์ด่านฆ่า 5 ข้อ (เห็น 2 ข้อ) แบบที่ zoo เช็กได้: เหรียญใหม่ไม่เกิน 24 ชม. สภาพคล่อง 40k+ วอลุ่ม 50k+ RugCheck ผ่าน up stop -20% ขายครึ่ง +50% trail 25% ถือ 24 ชม.",
- "rank_t": 1795824323.972812
+ "rank_t": 1795825087.3759186
 }
