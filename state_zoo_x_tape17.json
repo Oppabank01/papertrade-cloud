@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.731879787860931,
- "cash": 14.634830318945555,
+ "cash": 14.599697851286804,
  "pos": {},
  "log": [
   {
@@ -907,12 +907,41 @@
    "cost_side": 0.03,
    "smart": 17,
    "bundler": null
+  },
+  {
+   "t": "2026-11-28T21:09:19+07:00",
+   "kind": "buy",
+   "mint": "5jjJWZfTTaZtG74zSpiEZbMBHNM2jieHEXM2UZvapump",
+   "sym": "GROKSIE",
+   "price": 1.593e-05,
+   "jup": 1.5850655588433772e-05,
+   "usd": 0.2195,
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "zoo": "x_tape17",
+   "smart": 6,
+   "kol": 3
+  },
+  {
+   "t": "2026-11-28T21:11:03+07:00",
+   "kind": "sell",
+   "mint": "5jjJWZfTTaZtG74zSpiEZbMBHNM2jieHEXM2UZvapump",
+   "sym": "GROKSIE",
+   "price": 1.421515562770242e-05,
+   "entry": 1.593e-05,
+   "usd": 0.1844,
+   "pnl": -0.0351,
+   "why": "stop -10.8%",
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "smart": 6,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: เหรียญบน bonding curve ไม้ซื้อ 17 ขึ้นไปและซื้อมากกว่าขาย TP +20% stop -10% trail 15% เมื่อขึ้น 10% (บอทแข่ง bisnanjp01)",
- "night": null,
- "night_start": 14.501716118858788,
- "rank_t": 1795830764.3784869,
+ "night": "2026-11-28",
+ "night_start": 14.634830318945555,
+ "rank_t": 1795874857.4418101,
  "nights": [
   {
    "night": "2026-11-24",

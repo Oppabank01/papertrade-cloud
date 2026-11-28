@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 2.5073437292602767,
+ "cash": 1.0324174755729612,
  "pos": {
   "KXOPENSOURCESHARE-26NOV28-T61.1:yes": {
    "qty": 0.8013438549268626,
@@ -67,7 +67,7 @@
   "KXOPENSOURCESHARE-26NOV29-T65.5:yes": {
    "qty": 0.7549113938906525,
    "entry": 0.976887,
-   "last": 0.96,
+   "last": 0.89,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T23:21:16+00:00",
    "coin": "YES | Will Open vs. Closed Token Volume (open weights share) for Nov 28, 2026 be above 65.",
@@ -79,7 +79,7 @@
   "KXBTCD-26NOV2817-T58749.99:yes": {
    "qty": 0.8013438549268626,
    "entry": 0.9202830000000001,
-   "last": 0.7,
+   "last": 0.74,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T23:31:34+00:00",
    "coin": "YES | Bitcoin price on Nov 28, 2026?",
@@ -127,7 +127,7 @@
   "KXETHD-26NOV2817-T1619.99:yes": {
    "qty": 0.7773833148266354,
    "entry": 0.9486479999999999,
-   "last": 0.82,
+   "last": 0.85,
    "usd": 0.7374631268436579,
    "t": "2026-11-28T00:17:21+00:00",
    "coin": "YES | Ethereum price at Nov 28, 2026 at 5pm EST?",
@@ -151,7 +151,7 @@
   "KXHYPED-26NOV2817-T61.9999:yes": {
    "qty": 0.8182188751659075,
    "entry": 0.901303,
-   "last": 0.65,
+   "last": 0.73,
    "usd": 0.7374631268436579,
    "t": "2026-11-28T04:54:03+00:00",
    "coin": "YES | HYPE price on Nov 28, 2026?",
@@ -171,6 +171,30 @@
    "side": "yes",
    "close": "2026-11-29T04:59:00Z",
    "why": "fav ask 0.88 ทุน 0.892 ปิด 2026-11-29T04:59:00Z"
+  },
+  "KXTEMPNYCHS-26NOV2810-T46.99:yes": {
+   "qty": 0.7549113938906525,
+   "entry": 0.976887,
+   "last": 0.94,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-28T14:18:38+00:00",
+   "coin": "YES | Will the temp in New York City be above 46.99° on Nov 28, 2026 at 10am EST?",
+   "ticker": "KXTEMPNYCHS-26NOV2810-T46.99",
+   "side": "yes",
+   "close": "2026-11-28T15:00:00Z",
+   "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-28T15:00:00Z"
+  },
+  "KXSOLD-26NOV2810-T69.9999:yes": {
+   "qty": 0.7773833148266354,
+   "entry": 0.9486479999999999,
+   "last": 0.92,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-28T14:18:38+00:00",
+   "coin": "YES | SOL price on Nov 28, 2026?",
+   "ticker": "KXSOLD-26NOV2810-T69.9999",
+   "side": "yes",
+   "close": "2026-11-28T15:00:00Z",
+   "why": "fav ask 0.94 ทุน 0.949 ปิด 2026-11-28T15:00:00Z"
   }
  },
  "log": [
@@ -3764,6 +3788,24 @@
    "ret": 0.14583,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-28T14:18:38+00:00",
+   "coin": "YES | Will the temp in New York City be above 46.99° on Nov 28, 2026 at 10am EST?",
+   "px": 0.97689,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-28T15:00:00Z",
+   "ask": 0.97
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-28T14:18:38+00:00",
+   "coin": "YES | SOL price on Nov 28, 2026?",
+   "px": 0.94865,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.94 ทุน 0.949 ปิด 2026-11-28T15:00:00Z",
+   "ask": 0.94
   }
  ],
  "seen": null,
@@ -3946,6 +3988,8 @@
   "KXTEMPNYCHS-26NOV2808": 1795869342,
   "KXSOLD-26NOV2809": 1795871811,
   "KXHYPED-26NOV2809": 1795871811,
-  "KXETHD-26NOV2809": 1795872342
+  "KXETHD-26NOV2809": 1795872342,
+  "KXTEMPNYCHS-26NOV2810": 1795875516,
+  "KXSOLD-26NOV2810": 1795875516
  }
 }
