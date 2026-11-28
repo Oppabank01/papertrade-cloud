@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.67997651203758,
- "cash": 13.107641784986097,
- "pos": {
-  "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": {
-   "sym": "Singularity",
-   "qty": 14045.871017730631,
-   "entry": 0.0001014,
-   "last": 0.0001002,
-   "peak": 0.000102,
-   "cost": 1.467997651203758,
-   "opened": "2026-11-28T09:52:20+07:00",
-   "zoo": "x_nadir_pump15",
-   "smart": 135,
-   "kol": 3,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 14.31555721920431,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-28T09:51:27+07:00",
@@ -95,8 +80,52 @@
    "cost_side": 0.03,
    "smart": 32,
    "bundler": null
+  },
+  {
+   "t": "2026-11-28T10:33:29+07:00",
+   "kind": "buy",
+   "mint": "ExKWd2Gbck3eemAPAaoVNKrrvy5tUtrJyevrqRXPpump",
+   "sym": "Grok AI",
+   "price": 4.917e-05,
+   "jup": 4.966133090937006e-05,
+   "usd": 1.4512,
+   "stop_set": -0.03,
+   "cost_side": 0.03,
+   "zoo": "x_nadir_pump15",
+   "smart": 3,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-28T10:36:04+07:00",
+   "kind": "sell",
+   "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump",
+   "sym": "Singularity",
+   "price": 9.810499486996575e-05,
+   "entry": 0.0001014,
+   "usd": 1.3369,
+   "pnl": -0.1311,
+   "why": "stop -3.2%",
+   "stop_set": -0.03,
+   "cost_side": 0.03,
+   "smart": 135,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-28T10:36:24+07:00",
+   "kind": "sell",
+   "mint": "ExKWd2Gbck3eemAPAaoVNKrrvy5tUtrJyevrqRXPpump",
+   "sym": "Grok AI",
+   "price": 4.7593881219366104e-05,
+   "entry": 4.917e-05,
+   "usd": 1.3222,
+   "pnl": -0.129,
+   "why": "stop -3.2%",
+   "stop_set": -0.03,
+   "cost_side": 0.03,
+   "smart": 3,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ไล่ราคาขึ้น 8% ขายกำไร 8% ตัด -3%",
- "rank_t": 1795836189.8321264
+ "rank_t": 1795836736.400164
 }
