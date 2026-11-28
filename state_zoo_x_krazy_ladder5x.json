@@ -1,48 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.67997651203758,
- "cash": 7.885034298695413,
+ "cash": 10.09316274180675,
  "pos": {
-  "GXjSWDoMQkDEbhon9ALxz8chUUsVKg3x8V3NajjDpump": {
-   "sym": "MoonBoy",
-   "qty": 4780.436298493687,
-   "entry": 0.0004469,
-   "last": 0.00047288320675712423,
-   "peak": 0.0006778,
-   "cost": 2.201996476805637,
-   "opened": "2026-11-28T09:52:23+07:00",
-   "zoo": "x_krazy_ladder5x",
-   "smart": 173,
-   "kol": 10,
-   "gap": 5,
-   "miss": 0
-  },
   "7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": {
    "sym": "Kibo",
    "qty": 25423.428595860973,
    "entry": 8.873e-05,
-   "last": 6.71e-05,
+   "last": 7.168e-05,
    "peak": 9.12e-05,
    "cost": 2.3251090695843577,
    "opened": "2026-11-28T11:05:11+07:00",
    "zoo": "x_krazy_ladder5x",
    "smart": 97,
    "kol": 5,
-   "gap": 3,
+   "gap": 1,
    "miss": 0
   },
   "7dc3gFoyuDCPWjrfZfX99uasJJSceAJx5ucE8bDGpump": {
    "sym": "WINTER",
    "qty": 22753.414004932765,
    "entry": 9.67e-05,
-   "last": 8.826e-05,
+   "last": 8.515e-05,
    "peak": 9.716161136186054e-05,
    "cost": 2.2678366669521735,
    "opened": "2026-11-28T11:14:32+07:00",
    "zoo": "x_krazy_ladder5x",
    "smart": 18,
    "kol": 0,
-   "gap": 1,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -93,9 +79,24 @@
    "zoo": "x_krazy_ladder5x",
    "smart": 18,
    "kol": 0
+  },
+  {
+   "t": "2026-11-28T13:52:40+07:00",
+   "kind": "sell",
+   "mint": "GXjSWDoMQkDEbhon9ALxz8chUUsVKg3x8V3NajjDpump",
+   "sym": "MoonBoy",
+   "price": 0.00047609708922925265,
+   "entry": 0.0004469,
+   "usd": 2.2081,
+   "pnl": 0.0061,
+   "why": "ครบ 4 ชม. (+6.5%)",
+   "stop_set": -0.35,
+   "cost_side": 0.03,
+   "smart": 173,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: กรองลึก pool 10 นาที ถึง 24 ชม. ขายครึ่งที่ x2 เป้า x5 stop -35%",
- "rank_t": 1795847709.6093967,
+ "rank_t": 1795848221.6591432,
  "halted": "ราคา WINTER สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }
