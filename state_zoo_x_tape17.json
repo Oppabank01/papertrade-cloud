@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.731879787860931,
- "cash": 14.528459751624375,
- "pos": {},
+ "cash": 14.31053285535001,
+ "pos": {
+  "hAmswnT9EBzM7tk6mWMoLn1dUf7MDGHV1zUQG7CSg3P": {
+   "sym": "SpaceX",
+   "qty": 13091.806487021026,
+   "entry": 1.615e-05,
+   "last": 1.617e-05,
+   "peak": 1.619e-05,
+   "cost": 0.21792689627436562,
+   "opened": "2026-11-29T02:41:31+07:00",
+   "zoo": "x_tape17",
+   "smart": 0,
+   "kol": 0,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-25T03:57:56+07:00",
@@ -994,12 +1009,26 @@
    "cost_side": 0.03,
    "smart": 13,
    "bundler": null
+  },
+  {
+   "t": "2026-11-29T02:41:31+07:00",
+   "kind": "buy",
+   "mint": "hAmswnT9EBzM7tk6mWMoLn1dUf7MDGHV1zUQG7CSg3P",
+   "sym": "SpaceX",
+   "price": 1.615e-05,
+   "jup": 1.6169720997845243e-05,
+   "usd": 0.2179,
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "zoo": "x_tape17",
+   "smart": 0,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: เหรียญบน bonding curve ไม้ซื้อ 17 ขึ้นไปและซื้อมากกว่าขาย TP +20% stop -10% trail 15% เมื่อขึ้น 10% (บอทแข่ง bisnanjp01)",
  "night": "2026-11-28",
  "night_start": 14.634830318945555,
- "rank_t": 1795894068.91343,
+ "rank_t": 1795894791.1148322,
  "nights": [
   {
    "night": "2026-11-24",
