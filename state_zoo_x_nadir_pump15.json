@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.67997651203758,
- "cash": 14.31555721920431,
- "pos": {},
+ "cash": 12.88400149728388,
+ "pos": {
+  "BDdzUjksj1J4bSnMveQ5tV9Up8A9c6YS1tHrxNw3pump": {
+   "sym": "FOMO",
+   "qty": 23938.217190748055,
+   "entry": 5.802e-05,
+   "last": 5.966e-05,
+   "peak": 5.966e-05,
+   "cost": 1.4315557219204311,
+   "opened": "2026-11-28T10:55:30+07:00",
+   "zoo": "x_nadir_pump15",
+   "smart": 251,
+   "kol": 28,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-28T09:51:27+07:00",
@@ -124,8 +139,22 @@
    "cost_side": 0.03,
    "smart": 3,
    "bundler": null
+  },
+  {
+   "t": "2026-11-28T10:55:30+07:00",
+   "kind": "buy",
+   "mint": "BDdzUjksj1J4bSnMveQ5tV9Up8A9c6YS1tHrxNw3pump",
+   "sym": "FOMO",
+   "price": 5.802e-05,
+   "jup": 5.810008485234555e-05,
+   "usd": 1.4316,
+   "stop_set": -0.03,
+   "cost_side": 0.03,
+   "zoo": "x_nadir_pump15",
+   "smart": 251,
+   "kol": 28
   }
  ],
  "label": "สวนสัตว์: ไล่ราคาขึ้น 8% ขายกำไร 8% ตัด -3%",
- "rank_t": 1795837350.8772764
+ "rank_t": 1795838045.8648658
 }
