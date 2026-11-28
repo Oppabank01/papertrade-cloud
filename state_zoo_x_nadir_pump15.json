@@ -1,20 +1,34 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.67997651203758,
- "cash": 13.211978860833822,
+ "cash": 11.752148227805439,
  "pos": {
   "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": {
    "sym": "Singularity",
    "qty": 14045.871017730631,
    "entry": 0.0001014,
-   "last": 9.93e-05,
-   "peak": 0.0001014,
+   "last": 0.000101,
+   "peak": 0.000102,
    "cost": 1.467997651203758,
    "opened": "2026-11-28T09:52:20+07:00",
    "zoo": "x_nadir_pump15",
    "smart": 135,
    "kol": 3,
-   "gap": 1,
+   "gap": 3,
+   "miss": 0
+  },
+  "Cfmo6asAsZFx6GGQvAt4Ajxn8hN6vgWGpaSrjQKRpump": {
+   "sym": "MARS",
+   "qty": 21301.363816575995,
+   "entry": 6.649e-05,
+   "last": 6.601e-05,
+   "peak": 6.795e-05,
+   "cost": 1.4598306330283837,
+   "opened": "2026-11-28T10:04:41+07:00",
+   "zoo": "x_nadir_pump15",
+   "smart": 32,
+   "kol": 14,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -37,8 +51,22 @@
    "zoo": "x_nadir_pump15",
    "smart": 135,
    "kol": 3
+  },
+  {
+   "t": "2026-11-28T10:04:41+07:00",
+   "kind": "buy",
+   "mint": "Cfmo6asAsZFx6GGQvAt4Ajxn8hN6vgWGpaSrjQKRpump",
+   "sym": "MARS",
+   "price": 6.649e-05,
+   "jup": 6.649949861887027e-05,
+   "usd": 1.4598,
+   "stop_set": -0.03,
+   "cost_side": 0.03,
+   "zoo": "x_nadir_pump15",
+   "smart": 32,
+   "kol": 14
   }
  ],
  "label": "สวนสัตว์: ไล่ราคาขึ้น 8% ขายกำไร 8% ตัด -3%",
- "rank_t": 1795834247.6012158
+ "rank_t": 1795834983.9392807
 }
