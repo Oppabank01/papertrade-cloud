@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 1.442500888566267,
+ "cash": 2.359734117930275,
  "pos": {
   "KXRAIN-26NOV27-NYC:yes": {
    "qty": 0.8013438549268626,
@@ -43,7 +43,7 @@
   "KXDIESELD-26NOV28-T5.670:yes": {
    "qty": 0.7773833148266354,
    "entry": 0.9486479999999999,
-   "last": 0.01,
+   "last": 0.05,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T17:38:59+00:00",
    "coin": "YES | Will Diesel Price on November 28, 2026 be above $5.670?",
@@ -184,29 +184,17 @@
    "close": "2026-11-30T02:00:00Z",
    "why": "fav ask 0.91 ทุน 0.920 ปิด 2026-11-30T02:00:00Z"
   },
-  "KXNCAAMBTOTAL-26NOV27TENNLOU-137:yes": {
-   "qty": 0.8450091286674175,
-   "entry": 0.872728,
-   "last": 0.99,
+  "KXNCAAFTOTAL-26NOV27WVUUTAH-72:yes": {
+   "qty": 0.8013438549268626,
+   "entry": 0.9202830000000001,
+   "last": 0.9,
    "usd": 0.7374631268436579,
-   "t": "2026-11-28T03:22:18+00:00",
-   "coin": "YES | Full Game: Over 136.5 points scored",
-   "ticker": "KXNCAAMBTOTAL-26NOV27TENNLOU-137",
+   "t": "2026-11-28T04:31:48+00:00",
+   "coin": "YES | Full Game: Over 71.5 points scored",
+   "ticker": "KXNCAAFTOTAL-26NOV27WVUUTAH-72",
    "side": "yes",
    "close": "2026-11-30T02:00:00Z",
-   "why": "fav ask 0.86 ทุน 0.873 ปิด 2026-11-30T02:00:00Z"
-  },
-  "KXNCAAMBTEAMTOTAL-26NOV27TENNLOU-LOU66:yes": {
-   "qty": 0.809687227540248,
-   "entry": 0.9107999999999999,
-   "last": 0.99,
-   "usd": 0.7374631268436579,
-   "t": "2026-11-28T03:31:21+00:00",
-   "coin": "YES | Louisville over 65.5 points scored",
-   "ticker": "KXNCAAMBTEAMTOTAL-26NOV27TENNLOU-LOU66",
-   "side": "yes",
-   "close": "2026-11-30T02:00:00Z",
-   "why": "fav ask 0.90 ทุน 0.911 ปิด 2026-11-30T02:00:00Z"
+   "why": "fav ask 0.91 ทุน 0.920 ปิด 2026-11-30T02:00:00Z"
   }
  },
  "log": [
@@ -3365,6 +3353,39 @@
    "ret": 0.0336,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-28T04:31:48+00:00",
+   "coin": "YES | Full Game: Over 71.5 points scored",
+   "px": 0.92028,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.91 ทุน 0.920 ปิด 2026-11-30T02:00:00Z",
+   "ask": 0.91
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-28T04:31:51+00:00",
+   "coin": "YES | Full Game: Over 136.5 points scored",
+   "px": 1.0,
+   "entry": 0.87273,
+   "usd": 0.84501,
+   "pnl": 0.10755,
+   "ret": 0.14583,
+   "cost_side": 0,
+   "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "sell",
+   "t": "2026-11-28T04:31:51+00:00",
+   "coin": "YES | Louisville over 65.5 points scored",
+   "px": 1.0,
+   "entry": 0.9108,
+   "usd": 0.80969,
+   "pnl": 0.07222,
+   "ret": 0.09794,
+   "cost_side": 0,
+   "why": "ตัดสิน yes"
   }
  ],
  "seen": null,
@@ -3528,6 +3549,7 @@
   "KXNCAAWBGAME-26NOV27CINMINN": 1795834197,
   "KXNCAAMBTOTAL-26NOV27WICHUK": 1795836137,
   "KXNCAAMBTOTAL-26NOV27TENNLOU": 1795836137,
-  "KXNCAAMBTEAMTOTAL-26NOV27TENNLOU": 1795836679
+  "KXNCAAMBTEAMTOTAL-26NOV27TENNLOU": 1795836679,
+  "KXNCAAFTOTAL-26NOV27WVUUTAH": 1795840306
  }
 }
