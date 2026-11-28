@@ -1,59 +1,5 @@
 [
  {
-  "t": "2026-11-24T15:44:00+07:00",
-  "source": "web",
-  "title": "Konczal & Polocznański (arXiv 2608.09576): ความผิดปกติระหว่างวันของ ETP คริปโตในยุโรป",
-  "url": "https://ideas.repec.org/p/arx/papers/2608.09576.html",
-  "summary": "งานวิจัยรูปแบบระหว่างวันของ ETP คริปโตที่ซื้อขายในตลาดยุโรปด้วยข้อมูล 1 นาที ผลค้นเว็บไม่เจองานใหม่เดือนนี้เรื่อง BTC ระหว่างวัน",
-  "verdict": "ไอเดีย",
-  "action": "ต้องข้อมูล 1 นาทีของ ETP ในตลาดยุโรป (Xetra, SIX) ที่ byttrade และ mts ไม่มี ส่วนช่วงเวลาของวันบน BTC ลองไปแล้วหลายแบบ (turn-of-the-candle, ชั่วโมงของวัน)"
- },
- {
-  "t": "2026-11-24T17:37:42+07:00",
-  "source": "github",
-  "title": "salainiyo/public-trading-engine: Supertrend+RSI ทองคำ H1 (ทะลุจุดสูงสุด 20 แท่ง เหนือ band ATR10 RSI เกิน 60 stop $25 เป้า 3 เท่า)",
-  "url": "https://github.com/salainiyo/public-trading-engine",
-  "summary": "บอทสอบ prop firm เทรด XAUUSD 1 ชม. กฎครบใน README ชื่อ supertrend แต่จริงเป็น band (H+L)/2-3ATR10 กับทะลุกรอบ 20 แท่งและ RSI",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "backtest Binance 4 ชม. ทั้งประวัติ stop 1.5 ATR14 (เลือกเองแทน $25) เป้า 3 เท่า หลังหัก 0.35%/ข้าง: BTC 374 ไม้ -0.28% ETH 412 ไม้ -0.44% SOL 266 ไม้ -0.54% BNB 385 ไม้ +0.33% XRP 318 ไม้ +0.03% PAXG 208 ไม้ -0.30% ต่อไม้ มัธยฐาน -1.4 ถึง -4.2% ตัวแฝดเข้าสุ่ม -0.16/-0.61/-0.40/-0.08/-1.09/-0.58% permutation 200 รอบ p 0.070/0.269/0.582/0.005/0.010/0.005 (BNB บวกเพราะปี 2017 5 ไม้ ปี 2022+ ติดลบเกือบทุกเหรียญ) ขา short ตามกฎเดิมไม่เคยเกิดเลย เปิด fwd_atrbrk.py (BTC ETH SOL BNB XRP PAXG long อย่างเดียว พร้อมตัวแฝดเข้าสุ่ม 1 ใน 50 แท่ง) test เดินทีละแท่งตรง backtest BTC 12 ไม้ PAXG 13 ไม้"
- },
- {
-  "t": "2026-11-24T17:37:42+07:00",
-  "source": "web",
-  "title": "Aalipour, Mehdian & Rezvanian (2026) Finance Research Letters 110634: Are day-of-the-week effects in cryptocurrencies real? Intraday evidence",
-  "url": "https://securities.io/crypto-day-of-the-week-effects-intraday-patterns/",
-  "summary": "งานวิจัยใหม่ใช้ข้อมูลรายชั่วโมง 12 เหรียญ บอกว่าผลวันในสัปดาห์กระจุกอยู่ไม่กี่ชั่วโมง BTC วันจันทร์อยู่ราว 06:00 และ 18:00 UTC (อ่านจากบทสรุปรอง ยังไม่ได้อ่านตัวเปเปอร์)",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "backtest Binance 1 ชม. 2017-2026 ซื้อเปิดแท่งวันจันทร์ 06:00 และ 18:00 UTC ถือ 1 ชม.: ก่อนหัก BTC +0.029% ETH -0.001% ต่อไม้ เทียบชั่วโมงสุ่ม +0.038/+0.053% หลังหัก BTC 967 ไม้ -0.67% ETH 967 ไม้ -0.70% p 0.209/0.602 ปี 2024+ ก่อนหักติดลบทั้งคู่ เปิด fwd_monhour.py (BTC ETH พร้อมตัวแฝดชั่วโมงสุ่ม 1 ใน 84) test ตรง backtest 26 ไม้ คาดว่าแพ้ต้นทุนราว 0.7% ต่อไม้"
- },
- {
-  "t": "2026-11-24T17:37:42+07:00",
-  "source": "github",
-  "title": "moonspiid/Binance-AI-Trader-Bot: agent เลือกค่า SMA เร็ว/ช้า กับ stop จาก grid แล้วเทรดเหรียญราคาถูก (ตัวอย่าง SMA 12/60 15 นาที stop 1.8% เป้า 3.6%)",
-  "url": "https://github.com/moonspiid/Binance-AI-Trader-Bot",
-  "summary": "บอท HTML ไฟล์เดียว paper เป็นค่าเริ่มต้น ค้น grid SMA 4x4 กับ stop 4 ค่าบน 15 นาที 1 ชม. 4 ชม. แล้วเลือกตัวที่ดีสุด เลือกเฉพาะเหรียญราคาถูกวอลุ่ม 5M+",
-  "verdict": "ทดสอบแล้ว",
-  "action": "ทดสอบค่าตัวอย่างใน README (SMA 12 ตัดขึ้น 60 ซื้อ stop 1.8% เป้า 3.6% ตัดลงออก) หลังหัก 0.35%/ข้าง 1 ชม. 30,000 แท่งล่าสุด: DOGE 353 ไม้ -0.84% XRP 350 ไม้ -0.70% ADA 331 ไม้ -0.80% TRX 314 ไม้ -0.38% HBAR 318 ไม้ -0.81% ตัวแฝดเข้าสุ่ม -0.49 ถึง -0.78% p 0.806/0.333/0.697/0.025/0.771 แท่ง 15 นาที 50,000 แท่ง SOL 546 ไม้ -0.70% WIF 578 ไม้ -0.79% p 0.294/0.657 ก่อนหักราว 0% เท่ากับสุ่ม ยังไม่ได้ทดสอบการเลือก grid เอง (ต้องทำ walk-forward) ถ้าจะเปิด forward เหมาะกับบัญชี 1 ชม. TRX DOGE XRP ADA HBAR พร้อมตัวแฝดเข้าสุ่ม แต่ไม่ได้เปิดเพราะครบ 2 ไฟล์ต่อรอบ"
- },
- {
-  "t": "2026-11-24T17:37:42+07:00",
-  "source": "x",
-  "title": "bullpaid: ดูกำไรรายเหรียญแล้วเก็บเหรียญที่ชนะไว้ ตัดเหรียญที่แพ้ทิ้ง",
-  "url": "https://x.com/bullpaid/status/2125169303079288965",
-  "summary": "โพสต์แนะนำให้กรองเหรียญตามผลรวมของไม้ที่ผ่านมา เหรียญชนะให้รันต่อ เหรียญแพ้ให้ถอด ไม่มีตัวเลข",
-  "verdict": "ทดสอบแล้ว",
-  "action": "ใช้ท่า ATR band breakout 4 ชม. บน 27 เหรียญเป็นฐาน (7,365 ไม้ เฉลี่ย -0.35%) แล้วเข้าเฉพาะตอนผลรวม K ไม้ล่าสุดของเหรียญนั้นบวก (K เลือกเอง): K 10 เหลือ 2,612 จาก 7,095 ไม้ เฉลี่ย -0.26% เทียบไม่กรอง -0.40% ดีขึ้น 0.13 จุด แต่สลับลำดับไม้ 200 รอบได้ p 0.104 K 20 ดีขึ้น 0.03 จุด p 0.348 มัธยฐานแย่ลง -4.2% ไม่ทำให้บวก ถ้าจะลอง forward ต้องเป็นบัญชีที่รันหลายเหรียญแล้วเปิดเฉพาะเหรียญที่ shadow 10 ไม้ล่าสุดบวก"
- },
- {
-  "t": "2026-11-24T17:37:42+07:00",
-  "source": "x",
-  "title": "1budless: ลอง prompt 'บอทเทรด 24/7' ที่แชร์กันใน Claude เงินจำลอง $1,000 ราคา BTC จริง 30 วัน 17 ไม้ แพ้ 15",
-  "url": "https://x.com/1budless/status/2124928567259590666",
-  "summary": "คนลองเอา prompt บอทเทรดที่แชร์กันไปให้ Claude เขียนโค้ดแล้วรันบนราคาจริง ได้ 17 ไม้ แพ้ 15 ไม้ ส่วนที่เห็นไม่มีกฎของบอท",
-  "verdict": "ไอเดีย",
-  "action": "ข้อความที่อ่านได้มีแค่ต้นโพสต์ ไม่มีตัว prompt หรือกฎเข้าออก ต้องได้ข้อความ prompt หรือโค้ดที่ Claude เขียนก่อนจึงสร้างรุ่นกลไกได้ ผลของเขาเองตรงกับที่เราเห็น (ท่าระยะสั้นแพ้ต้นทุน)"
- },
- {
   "t": "2026-11-24T17:37:42+07:00",
   "source": "github",
   "title": "tuhinfay/Daily-Signal-by-Grok-AI: สแกนสัญญาณ long/short ทุกคู่ USDT-M หลายกรอบเวลา พร้อม Entry SL TP1 TP2 และคะแนน",
@@ -2698,5 +2644,59 @@
   "summary": "ผลค้นไม่มีงาน arXiv ใหม่ เจอแต่ MDPI เรื่องแบ่ง 2 ช่วง 12 ชม. ซึ่งเปิดเป็น fwd_sessrev แล้ว และงานเก่าเรื่องฤดูกาลรายชั่วโมง",
   "verdict": "ไอเดีย",
   "action": "ไม่มีของใหม่ ไม่ได้ทดสอบซ้ำ"
+ },
+ {
+  "t": "2026-11-28T21:34:42+07:00",
+  "source": "github",
+  "title": "keithorange/HUGE_FreqTrade_Strategy_Collection: EI3v2_tag_cofi_green ท่าเดียวที่รอดช่วงยืนยันใน strategy-lab (spot +18.6% 333 ไม้)",
+  "url": "https://github.com/keithorange/HUGE_FreqTrade_Strategy_Collection/blob/0bd980ffe4f09063256a1df3d9c1250b2acda1a7/EI3v2_tag_cofi_green.py",
+  "summary": "ท่า Freqtrade แท่ง 5 นาที ซื้อตอนร่วงแรงใต้ EMA (lambo2, EWO, cofi stochastic) ไม่มี stop จริง (-99%) ออกด้วย trailing 0.1% เมื่อกำไรถึง 1.2% หรือสัญญาณขายเมื่อกำไรเกิน 1% และตัดไม้ขาดทุนเกิน 4% ที่ถือครบ 4 วัน",
+  "verdict": "ทดสอบแล้ว",
+  "action": "เขียนกฎใหม่เองจากไฟล์ ไม่ได้รันโค้ด repo (ใช้ค่าจาก buy_params ตามที่ Freqtrade โหลด ข้าม protections ยกเว้น cooldown 5 แท่ง) Binance spot 5 นาที 1 ปีถึง 28 พ.ย. 69: หลังหัก 0.1%/ข้าง BTC 2 ไม้ +0.94% ETH 9 ไม้ +1.11% SOL 12 ไม้ +1.10% XRP 19 ไม้ +1.28% DOGE 17 ไม้ -0.25% (unclog 2 ไม้) ADA 18 ไม้ +0.31% รวม 77 ไม้ราว +0.66% ต่อไม้ ที่ 0.35%/ข้างเหลือราว +0.16% ชนะ 82 ถึง 100% เพราะไม่มี stop ถือไม้ลบรอจนเด้ง ตัวแฝดเข้าสุ่มออกแบบเดียวกัน 20 รอบมัธยฐาน -0.30 ถึง +0.95% ถือเหรียญเฉยๆ -35 ถึง -65% permutation 200 รอบก่อนหัก XRP p 0.005 SOL 0.030 ETH 0.055 ADA 0.204 จำนวนไม้น้อยและเสี่ยงไม้ลบก้อนใหญ่ที่ยังไม่เกิด เปิดบัญชีเองไม่ได้เพราะ byttrade.fetch มีแค่แท่ง 4 ชม. ถ้าจะลองต้องให้ main thread เพิ่มตัวดึงแท่ง 5 นาทีแล้วเปิด fwd_ei3cofi บน ETH SOL XRP ADA DOGE คู่ตัวแฝด สคริปต์ /tmp/scout_2111/bt.py"
+ },
+ {
+  "t": "2026-11-28T21:34:42+07:00",
+  "source": "github",
+  "title": "Faraz-khan04/strategy-lab: รายงาน futures (branch results-futures) ทดสอบท่า Freqtrade ที่ short ได้ 370 ท่า",
+  "url": "https://github.com/Faraz-khan04/strategy-lab/blob/results-futures/report.md",
+  "summary": "รายงานใหม่ 27 พ.ย. ทดสอบท่าที่ short ได้บน USDT-M futures leverage 1x 10 เหรียญ ช่วงเลือก 2023 ถึง 2024 ช่วงยืนยัน 2025 ถึง ต.ค. 2026 ท่าที่ดูดีมากทั้ง 6 ท่าที่ผ่านเส้นโชคโกงด้วย look-ahead ทั้งหมด ท่าที่สะอาดตัวเดียวในอันดับ (InnovativeReversalStrategy) ช่วงยืนยัน -11.8%",
+  "verdict": "ไอเดีย",
+  "action": "อ่าน report.md อย่างเดียว ไม่ได้รันโค้ด ใน 20 อันดับแรก 19 ท่าโกง look-ahead ยืนยันบทเรียนว่าผลดีเกินจริงจากโค้ดสาธารณะส่วนใหญ่มาจากใช้ข้อมูลอนาคต ไม่มีท่าใหม่ให้เปิด ใช้ฝั่ง spot ต่อแทน (ทดสอบ EI3v2_tag_cofi_green รอบนี้)"
+ },
+ {
+  "t": "2026-11-28T21:34:42+07:00",
+  "source": "x",
+  "title": "ค้น X รอบ 21:11 grok bot trading rules (FutureGirlAi, evanmori, JerrySGE, misat0x, veyro_xbt, maraaiai)",
+  "url": "https://x.com/search?q=grok%20bot%20trading%20rules",
+  "summary": "โพสต์โม้กำไรข้ามคืนไม่มีกฎ (FutureGirlAi $69 เป็น $13,370, veyro_xbt ซ้ำรอบก่อน, maraaiai) evanmori รวม 6 ท่าคลาสสิก (SMA cross, RSI) ที่มีบัญชีแล้ว JerrySGE ใช้ MACD กับ Fibonacci บน Robinhood ไม่บอกเกณฑ์ misat0x คัดเหรียญ Solana ที่กระเป๋า top 4 ได้เงินจากกระเป๋าเดียวกันทิ้ง",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎที่สคริปต์ตัดสินได้ใหม่ ไอเดีย misat0x ต้องมีข้อมูลต้นทางเงินของกระเป๋าผู้ถือ (กราฟโอนเงินบน chain) ที่ zoo ไม่มี รุ่นใกล้สุดคือกรองคนถือกระจุก ซึ่ง x_crb_4agent ทดสอบแล้วตก จึงไม่เพิ่มซ้ำ"
+ },
+ {
+  "t": "2026-11-28T21:34:42+07:00",
+  "source": "x",
+  "title": "ค้น X รอบ 21:11 เทรดเหรียญมีม",
+  "url": "https://x.com/search?q=%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%94%E0%B9%80%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%8D%E0%B8%A1%E0%B8%B5%E0%B8%A1",
+  "summary": "ได้แค่โพสต์เก่าปี 2023 ถึง 2024 (sirapopv เรื่องตามกระเป๋าเทรดเก่ง, NFTThailand) ไม่มีของใหม่",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎใหม่ ตามกระเป๋ามีบัญชี wallets.py กับ curve.py แล้วและแพ้ rand"
+ },
+ {
+  "t": "2026-11-28T21:34:42+07:00",
+  "source": "github",
+  "title": "กลุ่ม repo ใหม่ 21 ถึง 28 พ.ย. ที่ไม่มีกฎให้ทดสอบ (rutiq-xyz/rutiq, yfinance-agent-mcp, clearfills, IngTian/trading-desk, PrafullJ0shi/hyperliquid-btc-signal)",
+  "url": "https://github.com/rutiq-xyz/rutiq",
+  "summary": "rutiq เป็นสตูดิโอเขียนกฎและ paper trade บน Robinhood Chain ที่มีเหรียญ $RUTIQ ส่วนที่เหลือเป็น MCP อ่านราคา ตัวกั้นความเสี่ยง และสมุดจดไม้ hyperliquid-btc-signal ใช้สถานะของบัญชีผู้นำ Hyperliquid",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีท่าใหม่ให้ทดสอบบนแท่ง Binance hyperliquid-btc-signal ต้องมีประวัติสถานะของบัญชีผู้นำ Hyperliquid หลายเดือน ไม่ได้รันโค้ด repo ไหน"
+ },
+ {
+  "t": "2026-11-28T21:34:42+07:00",
+  "source": "web",
+  "title": "Short-horizon mean reversion in cryptocurrency markets: a matched cross-market measurement (arXiv 2608.21888)",
+  "url": "https://arxiv.org/pdf/2608.21888",
+  "summary": "วัดการดีดกลับช่วงสั้นของคริปโตข้ามตลาด พบว่าสัญญาณมีจริงแต่ไม่รอดต้นทุน spot ทั้งแบบ taker และ maker และแท่ง 5 นาทีแย่กว่าแท่งยาวเพราะโอกาสเล็กลงเร็วกว่าต้นทุน",
+  "verdict": "ไอเดีย",
+  "action": "ไม่ได้ทดสอบซ้ำ ใช้เป็นข้อเตือนกับผล EI3v2 รอบนี้ซึ่งเป็นท่าช้อนร่วงแท่ง 5 นาทีที่บวกหลังหัก 0.1% แต่เหลือบางมากที่ 0.35%/ข้าง"
  }
 ]
