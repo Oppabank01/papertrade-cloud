@@ -1250,3 +1250,20 @@ zoo import ไม่มี skip และ test_zoo.py ผ่าน
 เพิ่ม x_: x_kolgrad_selloff (week) จบ curve อายุไม่เกิน 24 ชม. KOL 2+ ร่วง 1 ชม. 20%+ stop -15% ขายหมด +35% ถือ 2 ชม. ตัวเลขที่เลือกเองอยู่ใน note
 ไอเดีย: ทวีต Elon (ต้องเวลาโพสต์ย้อนหลังรายนาที), HMA 3 เส้น ML (ใกล้ fwd_hull และต้องเทรนโมเดล), CAIT และ Kryll (ไม่เปิดกฎ), บอท Kalshi และ Polymarket (ต้องประวัติราคาสัญญา)
 ตัดทิ้ง: ไม่มี
+
+## 2026-11-29 03:59 (scout)
+ค้น: GitHub repo ใหม่ตั้งแต่ 22 พ.ย. (pairs trading crypto, grid bot crypto, mcp trading, breakout strategy, liquidation crypto, crypto momentum strategy ไม่มีผล, sentiment trading, bitcoin backtest ตั้งแต่ 25 พ.ย.), X 4 ครั้ง (grid bot crypto results, solana sniper strategy rules, สูตรเทรด bitcoin, funding rate strategy btc backtest), เว็บ 1 ครั้ง (grid trading คริปโตกับการขายความผันผวน)
+เจอ: TimIng0497/crypto-grid-bot (grid 6 ช่องจากกรอบ 14 วัน เลือกใหม่ทุกสัปดาห์), jfsantiago/autotrading (volatile_breakout กฎชัด), งาน Dynamic Grid arXiv 2506.11921 (grid รีเซ็ตเมื่อหลุดกรอบ ไม่มี stop), ที่เหลือเป็นแผนที่ liquidation ตัวจับ squeeze เซิร์ฟเวอร์ MCP และ repo ที่บันทึกไปแล้ว โพสต์ X เป็นโฆษณาบอท grid โพสต์ sniper เก่า และโพสต์อวดบอท Grok ชุดเดิม
+ทดสอบ grid ของ TimIng0497 (เขียนกฎใหม่เอง ไม่รันโค้ด repo): แท่ง 1 ชม. ปิดหมดทุกวันจันทร์ stop ใต้กรอบ 1 ช่อง สคริปต์ /tmp/scout_0359/bt.py
+- ต้นทุน 0.35%/ข้าง BTC 455 สัปดาห์ ทบต้น -93% ETH -94% SOL -85% ต้นทุน 0.1% BTC -49% ETH -52% SOL -35% สัปดาห์ที่ราคาขึ้นเกิน 5% grid ได้ราว 1 ใน 5 ของถือเฉยๆ สัปดาห์ร่วงเกิน 5% เสียราวครึ่งหนึ่ง
+- permutation 200 รอบก่อนหัก BTC p 0.935 ETH 0.841 SOL 0.950 ข้อมูลจริงแย่กว่าข้อมูลสลับ ลองแล้วตก
+ทดสอบ Dynamic Grid (เขียนจากเนื้อหางาน): grid เรขาคณิต 5 เส้นใต้ราคา ก้าว 1/2/3% แท่ง 1 ชม. สคริปต์ /tmp/scout_0359/dgt.py
+- หลังหัก 0.35%/ข้าง BTC +180% ถึง +600% เทียบถือ +1,296% ETH +111% ถึง +2,456% เทียบถือ +449% DD 67 ถึง 93% ช่วงเดียวกับงาน BTC +170 ถึง +304% เทียบถือ +123% แต่เกือบทั้งหมดคือถือเหรียญเต็มพอร์ตหลังหลุดกรอบล่าง
+- permutation 200 รอบ ค้นทั้ง 3 ก้าว BTC p 0.756 ETH p 0.214 ไม่ได้เปิดบัญชีเพราะต้องถือหลายไม้ต่อเหรียญ ไม่เข้ารูปแบบ fwd
+ทดสอบ volatile_breakout ของ jfsantiago (เขียนกฎใหม่เอง): 5 แท่งขึ้น 5%+ วอลุ่ม z 2+ long ลงกลับกัน short stop 3% เป้า 6% PEPE WIF INJ ARB WLD สคริปต์ /tmp/scout_0359/vb.py
+- หลังหัก 0.35%/ข้าง แท่ง 1 ชม. 1,999 ไม้ -0.57% ต่อไม้ มัธยฐาน -3.70% ชนะ 35% แท่ง 4 ชม. 1,216 ไม้ -0.44% ปี 2025 +0.26% ปีอื่นติดลบ
+- permutation 200 รอบ 4 ชม. ก่อนหัก PEPE p 0.124 WIF 0.005 INJ 0.398 ARB 0.015 WLD 0.154 รุ่นใช้ความกว้างแท่งแทนวอลุ่ม 1,185 ไม้ -0.48% p 0.050 ถึง 0.567
+เปิดบัญชี: fwd_spikebrk.py (รุ่นความกว้างแท่ง 4 ชม. เพราะ byttrade.fetch ไม่มีวอลุ่ม 5 เหรียญ ช่องละ 1 ใน 5 คู่ตัวแฝดเข้าสุ่ม 1 ใน 30 แท่งทิศสุ่ม test เดินทีละแท่งตรง backtest 45 ไม้)
+เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่)
+ไอเดีย: ตัวจับ short squeeze และแผนที่ liquidation (ต้อง open interest และ funding ย้อนหลังรายชั่วโมง), Dynamic Grid แบบหลายไม้ต่อเหรียญ (ต้องเขียนบัญชีแบบใหม่)
+ตัดทิ้ง: ไม่มี
