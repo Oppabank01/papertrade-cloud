@@ -1,50 +1,5 @@
 [
  {
-  "t": "2026-11-24T07:02:41+07:00",
-  "source": "x",
-  "title": "ค้น X 4 ครั้ง (memecoin strategy rules backtest, เทรดเหรียญมีม, trading bot entry rule stop loss, open source crypto strategy github win rate)",
-  "url": "https://x.com/0xJamino/status/2122383002097377624",
-  "summary": "ไม่เจอของใหม่ ผลที่ได้คือโพสต์ที่มีใน feed แล้ว (0xJamino prompt บอท Grok, MisterFeeman) โพสต์เก่าปี 2023-2024 และโพสต์โฆษณาไม่มีกฎ",
-  "verdict": "ไอเดีย",
-  "action": "ไม่มีอะไรให้ทดสอบ รอบหน้าควรค้นด้วยชื่อบัญชีหรือคำเฉพาะแทนคำกว้าง"
- },
- {
-  "t": "2026-11-24T08:43:41+07:00",
-  "source": "web",
-  "title": "maymay5692 (dev.to): backtest 49 ท่าบน BTC รายวัน ท่าชนะคือ EMA 12/26 ตัดกัน",
-  "url": "https://dev.to/maymay5692/i-backtested-49-crypto-trading-strategies-heres-every-single-result-4gg5",
-  "summary": "ทดสอบ 49 ท่าบน Binance BTC รายวัน ม.ค. 2023 ถึง ก.พ. 2026 ท่าที่ไม้พอและดีสุดคือ EMA 12/26 ตัดกัน 34 ไม้ Sharpe 1.30 +491% รันจริง 33 ดอลลาร์ 3 เดือนได้ 2 ไม้เท่าทุน โพสต์มีลิงก์ referral และขายช่องสัญญาณ",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "Binance 1d 2017-2026 long อย่างเดียว หลังหัก 0.35%/ข้าง EMA12/26: BTC 50 ไม้ +16.3% ETH 48 ไม้ +13.3% SOL 32 ไม้ +52.9% ต่อไม้ มัธยฐาน -4 ถึง -7% ชนะ 34-40% ตัวแฝดเข้าวันสุ่มถือ 35 วัน +4.3/+4.8/+13.9% ทบรวม x40/x29/x95 เทียบถือเฉยๆ x14/x6/x25 drawdown 61-68% เทียบ 83-96% แต่ 3 ปีล่าสุด x1.70/x1.65/x1.09 เทียบ x1.64/x0.84/x1.25 PSAR 0.02/0.2 ก็ลองด้วย (แพ้ถือเฉยๆ BTC ETH) permutation 200 รอบเลือกดีสุดจากสองท่า p 0.015/0.050/0.005 ไม่ผ่าน 0.01 ทุกเหรียญ เป็น edge ตามเทรนด์ที่รู้กันอยู่แล้ว เปิด fwd_ema1226.py BTC ETH SOL พร้อมตัวแฝดเข้าวันสุ่มถือ 35 วัน test เดินทีละแท่งตรง backtest BTC 25 ไม้ SOL 23 ไม้ ตอนนี้ EMA12 อยู่ใต้ EMA26 ทั้งสามเหรียญ จึงยังไม่มีไม้ ไม้จะมาช้า (ราว 6 ไม้ต่อปีต่อเหรียญ)"
- },
- {
-  "t": "2026-11-24T08:43:41+07:00",
-  "source": "github",
-  "title": "fauzinfau4/btc-race-24h-20261118-1444: บอทแข่ง make.fun 4 ขา (ช้อนร่วง 30 นาที, เด้งจากต่ำสุด, ย่อลึก 8 ชม. trailing, ทะลุ 30 นาที)",
-  "url": "https://github.com/fauzinfau4/btc-race-24h-20261118-1444",
-  "summary": "บอท cbBTC แท่ง 1 นาที สี่ขาเข้าตอนสัญญาณเพิ่งติด (ขอบขาขึ้น) ลำดับ dip, mr, rec, mom อ้างกำไรช่วง dev 2 วัน +11 ถึง +21 ดอลลาร์ 6 ถึง 8 ไม้ กฎครบใน main.py (อ่านผ่าน gh api ไม่ได้รัน)",
-  "verdict": "ลองแล้วตก",
-  "action": "Binance 1 นาที 60 วันล่าสุด (ถือเฉยๆ BTC -27% ETH -36% SOL -38%) เลขของ repo ทุกตัว ออกตามราคาปิดเทียบราคาปิดแท่งสัญญาณ ขายแท่งถัดไป ตัดกฎ fallback กับ cutoff ของงานแข่งออก (ผมเลือก) หลังหัก 0.35%/ข้าง BTC 229 ไม้ -0.71% ETH 373 ไม้ -0.74% SOL 491 ไม้ -0.74% ต่อไม้ ก่อนหัก -0.01/-0.05/-0.04% ชนะ 10-15% ที่ 0.06%/ข้างแบบงานแข่งก็ -0.13 ถึง -0.17% ตัวแฝดเข้าสุ่ม -0.75/-0.71/-0.78% permutation 200 รอบ p 0.284/0.687/0.741 ขาไหนก็ไม่บวกก่อนหักชัด (ขา mom ETH 7 ไม้ +1.4% ไม้น้อยเกิน) ถ้าจะ forward ให้ใช้แท่ง 1 นาที BTC พร้อมตัวแฝดเข้าสุ่ม แต่ซ้ำกับ fwd_washout กับ fwd_don1m ที่รันอยู่"
- },
- {
-  "t": "2026-11-24T08:43:41+07:00",
-  "source": "github",
-  "title": "zhengui666/nautilus-quant-research: skill ให้ agent วิจัย factor และ backtest บน NautilusTrader สำหรับ perp Hyperliquid",
-  "url": "https://github.com/zhengui666/nautilus-quant-research",
-  "summary": "ขั้นตอนวิจัยแบบมีด่าน (IC หลังหักต้นทุน, walk-forward, CPCV, DSR, PBO) สำหรับสัญญาณ 1 ถึง 15 นาทีบน perp เหรียญเล็ก ไม่มีกฎเทรดในตัว ต้องติดตั้ง nautilus_trader และซื้อข้อมูล 1 วินาที/L2",
-  "verdict": "ไอเดีย",
-  "action": "ไม่มีท่าให้ทดสอบ ด่านคล้ายของ market-timeseries ที่ใช้อยู่ ถ้าจะใช้ต้องมีข้อมูล trades/L2 และ OI รายชั่วโมงของ Hyperliquid (CryptoHFTData หรือ Reservoir แบบ requester pays เสียเงิน) จึงไม่ได้ทำต่อ"
- },
- {
-  "t": "2026-11-24T10:25:29+07:00",
-  "source": "github",
-  "title": "bruce-quant/hsw-stock-bot: Swing (ช้อนหลุด Bollinger ล่างในขาขึ้นแรง รายวัน)",
-  "url": "https://github.com/bruce-quant/hsw-stock-bot",
-  "summary": "บอทหุ้น S&P 100 ที่รายงานผลตรงไปตรงมา ซื้อเมื่อราคาเหนือ SMA200 SMA50 เหนือ SMA200 และปิดใต้ Bollinger ล่าง 20/2 ออกเมื่อปิดใต้ราคาวันสัญญาณลบ 3 ATR14 ปิดเหนือ SMA20 หรือครบ 20 วัน ผลของ repo เอง 5.4% ต่อปี แพ้ SPY 10.3% random entry p 0.40",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "ย้ายมาเหรียญ Binance รายวัน 2017-2026 เลขทุกตัวจาก config.toml หลังหัก 0.35%/ข้าง รวม 112 ไม้ +1.40% ต่อไม้ มัธยฐาน +4.2% ชนะ 64% ก่อนหัก +2.1% (BTC 26 ไม้ -0.08% ETH 30 +3.27% SOL 18 +1.41% BNB 21 +0.84% XRP 17 +1.06%) ตัวแฝดเข้าวันสุ่มออกกฎเดียวกัน -0.09 ถึง -0.42% permutation 200 รอบ p 0.622/0.318/0.547/0.701/0.478 ไม่ผ่าน เปิด fwd_hswswing.py (BTC ETH SOL BNB XRP พร้อมตัวแฝด) test เดินทีละแท่งตรง backtest 38 ไม้"
- },
- {
   "t": "2026-11-24T10:25:29+07:00",
   "source": "github",
   "title": "bruce-quant/hsw-stock-bot: Steady (หมุน ETF 3 ตัวแข็งสุดรายเดือน หลบไป SHY เมื่อ SPY แพ้)",
@@ -2698,5 +2653,50 @@
   "summary": "ได้แต่โพสต์สอนต่อ TradingView กับ Claude บทความขายคอร์สและคำโม้ไม่มีกฎ โพสต์ Ofego_ เรื่องบั๊กที่ทำให้ผลชนะปลอมมีในฟีดแล้ว",
   "verdict": "ไอเดีย",
   "action": "ไม่มีกฎใหม่ที่ทดสอบได้"
+ },
+ {
+  "t": "2026-11-28T11:31:43+07:00",
+  "source": "github",
+  "title": "runningshark/factor_study_failureprove: X6 low volatility long-short (1 ใน 3 ตัวที่ผู้เขียนให้ 'เฝ้าดูบน paper')",
+  "url": "https://github.com/runningshark/factor_study_failureprove",
+  "summary": "งานลงทะเบียนล่วงหน้า 14 ปัจจัยบน Binance top 30 รวมเหรียญที่ถูกถอด รอดแบบ 'เฝ้าดู' 3 ตัว (X4 funding 7 วัน, X6 ผันผวนต่ำ, X7 MAX) ที่เหลือตกหมด ทุกจันทร์ long เหรียญผันผวน 30 วันต่ำ short ผันผวนสูง",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest เอง 27 เหรียญใหญ่ Binance รายวัน 2019 ถึง 27 พ.ย. 69 ทุกจันทร์ 1 ใน 3 ต่อฝั่ง 0.35%/ข้าง: 381 สัปดาห์ ก่อนหัก -0.22%/สัปดาห์ หลังหัก -0.34% มัธยฐาน +0.11% ชนะ 52% ปี 2024+ +0.09% ตัวแฝดสุ่ม -0.49% permutation 200 (เลือกดีสุดของ MAX กับ low-vol) p 0.891 เหรียญที่ยังอยู่ในตลาดวันนี้ทำให้ขา short เสียเปรียบ เปิด fwd_lowvol.py แม้ไม่ผ่าน test เดินทีละแท่งตรง backtest 936 ไม้ งานวิจัยอื่นเรื่องนี้ขัดกันเอง (Erasmus ว่าบวก WHU ว่าลบ)"
+ },
+ {
+  "t": "2026-11-28T11:31:43+07:00",
+  "source": "web",
+  "title": "MAX momentum in cryptocurrency markets (Li, Urquhart, Wang, Zhang 2021) เทียบ X7 lottery ของ runningshark",
+  "url": "https://ideas.repec.org/a/eee/finana/v77y2021ics1057521921001630.html",
+  "summary": "งานวิจัยบอกว่าเหรียญที่มีวันพุ่งแรงสุดในช่วงก่อนสูงยังวิ่งต่อ ตรงข้ามกับ lottery effect ในหุ้น ส่วน runningshark ลงทะเบียนทางกลับ (long MAX ต่ำ) และให้เฝ้าดู",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "ทาง lottery (long MAX ต่ำ short MAX สูง) บน 27 เหรียญ หลังหัก -0.58%/สัปดาห์ แพ้สุ่ม จึงลองทางกลับซึ่งเลือกหลังเห็นผล: 381 สัปดาห์ ก่อนหัก +0.41% หลังหัก +0.25% มัธยฐาน -0.12% CI -0.13..+0.61 ครึ่งแรก +0.65% ครึ่งหลัง -0.14% ปี 2024+ -0.30% (ติดลบ 3 ปีล่าสุด) ตัวแฝดสุ่ม -0.50% permutation 200 p 0.040 ไม่ถึงเกณฑ์ 0.01 และเป็น post hoc เปิด fwd_maxmom.py ดูต่อ test ตรง backtest 936 ไม้"
+ },
+ {
+  "t": "2026-11-28T11:31:43+07:00",
+  "source": "github",
+  "title": "runningshark/quant-failure-archive: คลังท่าที่ทดสอบแล้วตก 121 ท่า ลงทะเบียนล่วงหน้า (Binance Vision รวมเหรียญที่ถูกถอด)",
+  "url": "https://github.com/runningshark/quant-failure-archive",
+  "summary": "ผู้เขียนทดสอบท่ายอดนิยม 121 แบบ (ช้อนย่อ, SMC/FVG, ฟีโบ, กริด, มาร์ติงเกล, funding, on-chain, ปฏิทิน, ตัวชี้วัด 650 กฎ, สคริปต์ TradingView 14 ตัว) แทบตกหมด ช่วง 21 ถึง 23 น. UTC+8 (13 ถึง 15 UTC) มีผลจริงก่อนหัก t 4.35 แต่ค่าธรรมเนียมกินหมด",
+  "verdict": "ไอเดีย",
+  "action": "ไม่ได้รันโค้ด อ่าน README อย่างเดียว ท่าที่ตรงกับบัญชีเรามี fwd_hour21 กับ fwd_moon อยู่แล้ว ตัวที่เหลือ 'ยังไม่ตัดสิน' คือ Pi cycle, รอบ halving, ตุลาคมขึ้น, MVRV ซึ่งไม่กี่ไม้ต่อปีหรือต้องข้อมูล on-chain (Coin Metrics) จึงยังไม่เปิด ใช้เป็นรายการท่าที่ไม่ต้องลองซ้ำได้"
+ },
+ {
+  "t": "2026-11-28T11:31:43+07:00",
+  "source": "github",
+  "title": "กลุ่ม repo ใหม่ 21 ถึง 28 พ.ย. ที่ไม่มีกฎให้ทดสอบ (Jwarren-ENG/prediction-market-bot, emrebekar/freqtrade-skills, Dirac-Finance/DiracD8XVault, IcxvPnMleFxj15213/freqtrade-ccxt-strategy-19)",
+  "url": "https://github.com/Jwarren-ENG/prediction-market-bot",
+  "summary": "แอป paper ตลาดทายผล BTC กับอากาศ, skill สำหรับเขียนท่า Freqtrade, archive vault คู่ long ทอง short BTC ปี 2025 และ repo ว่างชื่อสุ่ม",
+  "verdict": "ไอเดีย",
+  "action": "prediction-market-bot ต้องประวัติราคาตลาดทายผลซึ่งเราไม่มี, freqtrade-skills เป็นเครื่องมือ, คู่ทองกับ BTC มี fwd_goldbtc แล้ว, repo ว่างไม่มีอะไรให้อ่าน"
+ },
+ {
+  "t": "2026-11-28T11:31:43+07:00",
+  "source": "x",
+  "title": "ค้น X 2 ครั้งรอบ 11:21 (บอทเทรด, funding rate bot strategy results)",
+  "url": "https://x.com/search?q=funding%20rate%20bot%20strategy%20results",
+  "summary": "คำค้นไทยได้แต่บอทกดบัตรและเทรดของสะสม ไม่เกี่ยวการเงิน คำค้นอังกฤษเจอ offjayurena (Polymarket paper) กับ 6vintik9 ($600 เป็น $41,760) ซึ่งลงบันทึกแล้ว และ prompt ของ 0xJamino ที่ให้ประกอบ repo",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎใหม่ให้เพิ่ม ไม่เปิดลิงก์ prompt ที่ให้ติดตั้งโค้ด"
  }
 ]
