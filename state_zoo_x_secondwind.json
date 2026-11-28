@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.705882352941176,
- "cash": 13.5424293559794,
+ "cash": 13.640238106623015,
  "pos": {},
  "log": [
   {
@@ -182,12 +182,70 @@
    "cost_side": 0.03,
    "smart": 70,
    "bundler": null
+  },
+  {
+   "t": "2026-11-28T22:14:33+07:00",
+   "kind": "buy",
+   "mint": "HnRPNwcYZFhsuRg5ChqdBEUR7DLx1XrGXdYkuSBqpump",
+   "sym": "Artcoin",
+   "price": 0.0001627,
+   "jup": 0.00016239883011360113,
+   "usd": 0.4063,
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "zoo": "x_secondwind",
+   "smart": 67,
+   "kol": 4
+  },
+  {
+   "t": "2026-11-28T22:14:33+07:00",
+   "kind": "buy",
+   "mint": "4Hv8T8NQojXJJinB64fKgLq4iNrrSrSni2TcyRbMpump",
+   "sym": "SNOWSHAR",
+   "price": 3.844e-05,
+   "jup": 3.833887113212556e-05,
+   "usd": 0.4059,
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "zoo": "x_secondwind",
+   "smart": 2,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-28T22:17:43+07:00",
+   "kind": "sell",
+   "mint": "HnRPNwcYZFhsuRg5ChqdBEUR7DLx1XrGXdYkuSBqpump",
+   "sym": "Artcoin",
+   "price": 0.00017825255333414893,
+   "entry": 0.0001627,
+   "usd": 0.419,
+   "pnl": 0.0127,
+   "why": "trailing จากยอด +17% (+9.6%)",
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "smart": 67,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-28T22:19:21+07:00",
+   "kind": "sell",
+   "mint": "4Hv8T8NQojXJJinB64fKgLq4iNrrSrSni2TcyRbMpump",
+   "sym": "SNOWSHAR",
+   "price": 4.94e-05,
+   "entry": 3.844e-05,
+   "usd": 0.491,
+   "pnl": 0.0851,
+   "why": "ถึงเป้า +28.5%",
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "smart": 2,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: Second-Wind Breakout (Rezzrizz25 บอทแข่ง make.fun) แบบที่ zoo เช็กได้: อายุไม่เกิน 1 ชม. ขึ้น 5 นาที 20 ถึง 100% ขึ้น 1 นาที ซื้อมากกว่าขาย สภาพคล่อง 20k+ stop -10% TP +20% trail 5% เมื่อขึ้น 10% ถือ 24 นาที",
  "night": "2026-11-28",
  "night_start": 13.5424293559794,
- "rank_t": 1795877780.099951,
+ "rank_t": 1795878687.9543872,
  "nights": [
   {
    "night": "2026-11-25",
