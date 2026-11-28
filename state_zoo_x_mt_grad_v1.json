@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.701558365186711,
- "cash": 14.539973215116751,
- "pos": {},
+ "cash": 14.249173750814416,
+ "pos": {
+  "77yEME56mnhjRaGyXWZgdQpLLYZNJePFKuZmeqDYpump": {
+   "sym": "KWIF",
+   "qty": 13689.16255536756,
+   "entry": 2.061e-05,
+   "last": 2.043040663936508e-05,
+   "peak": 2.074e-05,
+   "cost": 0.290799464302335,
+   "opened": "2026-11-28T22:51:48+07:00",
+   "zoo": "x_mt_grad_v1",
+   "smart": 3,
+   "kol": 0,
+   "gap": 15,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-28T01:30:49+07:00",
@@ -66,12 +81,26 @@
    "cost_side": 0.03,
    "smart": 1,
    "bundler": null
+  },
+  {
+   "t": "2026-11-28T22:51:48+07:00",
+   "kind": "buy",
+   "mint": "77yEME56mnhjRaGyXWZgdQpLLYZNJePFKuZmeqDYpump",
+   "sym": "KWIF",
+   "price": 2.061e-05,
+   "jup": 2.065768171275404e-05,
+   "usd": 0.2908,
+   "stop_set": -0.15,
+   "cost_side": 0.03,
+   "zoo": "x_mt_grad_v1",
+   "smart": 3,
+   "kol": 0
   }
  ],
  "label": "สวนสัตว์: บอท meme_traderv1 ท่า graduation-v1 แบบที่ zoo เช็กได้: เหรียญบน curve อายุไม่เกิน 15 นาที มาร์เก็ตแคป 16k ถึง 40k (curve เต็มราว 55 ถึง 85%) คนถือ 12+ แรงซื้อนำ ขึ้น 5 นาที ผ่าน RugCheck ขายหมด +48% stop -15% ตาม 12% ถือไม่เกิน 10 นาที ไม้ละ 2%",
  "night": "2026-11-28",
  "night_start": 14.539973215116751,
- "rank_t": 1795880174.449385,
+ "rank_t": 1795880951.674749,
  "nights": [
   {
    "night": "2026-11-27",
