@@ -1,8 +1,23 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.67997651203758,
- "cash": 13.99528721532641,
- "pos": {},
+ "cash": 11.196229772261129,
+ "pos": {
+  "ANvsL4A6tJKAXJsPg7XVSHQA7KYmFcpW42jPuhVtpump": {
+   "sym": "Slingoor",
+   "qty": 31232.26602946448,
+   "entry": 8.695e-05,
+   "last": 8.721e-05,
+   "peak": 8.721e-05,
+   "cost": 2.799057443065282,
+   "opened": "2026-11-29T02:03:33+07:00",
+   "zoo": "x_okx_smart_paper",
+   "smart": 183,
+   "kol": 5,
+   "gap": 0,
+   "miss": 0
+  }
+ },
  "log": [
   {
    "t": "2026-11-28T21:43:46+07:00",
@@ -37,8 +52,22 @@
    "cost_side": 0.03,
    "smart": 60,
    "bundler": null
+  },
+  {
+   "t": "2026-11-29T02:03:33+07:00",
+   "kind": "buy",
+   "mint": "ANvsL4A6tJKAXJsPg7XVSHQA7KYmFcpW42jPuhVtpump",
+   "sym": "Slingoor",
+   "price": 8.695e-05,
+   "jup": 8.695535712606233e-05,
+   "usd": 2.7991,
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "zoo": "x_okx_smart_paper",
+   "smart": 183,
+   "kol": 5
   }
  ],
  "label": "สวนสัตว์: OKX paper bot: smart money 2+ ผ่านเช็กปลอดภัย ขายครึ่ง +15% stop -10% ถือ 4 ชม.",
- "rank_t": 1795891758.8316576
+ "rank_t": 1795892360.518154
 }
