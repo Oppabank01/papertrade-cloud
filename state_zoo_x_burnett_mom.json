@@ -1,7 +1,7 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.67997651203758,
- "cash": 15.17274395848237,
+ "cash": 14.901462887800552,
  "pos": {},
  "log": [
   {
@@ -66,8 +66,37 @@
    "cost_side": 0.03,
    "smart": 120,
    "bundler": null
+  },
+  {
+   "t": "2026-11-29T03:10:42+07:00",
+   "kind": "buy",
+   "mint": "ChMSoitxHt2cYCqqJzQ3S5ZzFmNVtkZ4HW5qqDRupump",
+   "sym": "nelson",
+   "price": 0.0004325,
+   "jup": 0.0004350010489452802,
+   "usd": 1.5173,
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "zoo": "x_burnett_mom",
+   "smart": 76,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-29T03:12:04+07:00",
+   "kind": "sell",
+   "mint": "ChMSoitxHt2cYCqqJzQ3S5ZzFmNVtkZ4HW5qqDRupump",
+   "sym": "nelson",
+   "price": 0.0003773246326422586,
+   "entry": 0.0004325,
+   "usd": 1.246,
+   "pnl": -0.2713,
+   "why": "stop -12.8%",
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "smart": 76,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: โมเมนตัม 5 นาที +8% วอลุ่มสูง TP +25% trail 5% ถือ 20 นาที",
- "rank_t": 1795895555.727535
+ "rank_t": 1795896368.4847515
 }

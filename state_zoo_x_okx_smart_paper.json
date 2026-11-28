@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.67997651203758,
- "cash": 11.196229772261129,
- "pos": {
-  "ANvsL4A6tJKAXJsPg7XVSHQA7KYmFcpW42jPuhVtpump": {
-   "sym": "Slingoor",
-   "qty": 31232.26602946448,
-   "entry": 8.695e-05,
-   "last": 7.889468559713636e-05,
-   "peak": 8.721e-05,
-   "cost": 2.799057443065282,
-   "opened": "2026-11-29T02:03:33+07:00",
-   "zoo": "x_okx_smart_paper",
-   "smart": 183,
-   "kol": 5,
-   "gap": 1,
-   "miss": 0
-  }
- },
+ "cash": 13.075347171586706,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-28T21:43:46+07:00",
@@ -66,8 +51,52 @@
    "zoo": "x_okx_smart_paper",
    "smart": 183,
    "kol": 5
+  },
+  {
+   "t": "2026-11-29T03:06:08+07:00",
+   "kind": "sell",
+   "mint": "ANvsL4A6tJKAXJsPg7XVSHQA7KYmFcpW42jPuhVtpump",
+   "sym": "Slingoor",
+   "price": 7.801642920382296e-05,
+   "entry": 8.695e-05,
+   "usd": 2.364,
+   "pnl": -0.435,
+   "why": "stop -10.3%",
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "smart": 183,
+   "bundler": null
+  },
+  {
+   "t": "2026-11-29T03:10:45+07:00",
+   "kind": "buy",
+   "mint": "ChMSoitxHt2cYCqqJzQ3S5ZzFmNVtkZ4HW5qqDRupump",
+   "sym": "nelson",
+   "price": 0.0004325,
+   "jup": 0.0004350010489452802,
+   "usd": 2.712,
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "zoo": "x_okx_smart_paper",
+   "smart": 76,
+   "kol": 0
+  },
+  {
+   "t": "2026-11-29T03:12:04+07:00",
+   "kind": "sell",
+   "mint": "ChMSoitxHt2cYCqqJzQ3S5ZzFmNVtkZ4HW5qqDRupump",
+   "sym": "nelson",
+   "price": 0.0003773246326422586,
+   "entry": 0.0004325,
+   "usd": 2.2271,
+   "pnl": -0.4849,
+   "why": "stop -12.8%",
+   "stop_set": -0.1,
+   "cost_side": 0.03,
+   "smart": 76,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: OKX paper bot: smart money 2+ ผ่านเช็กปลอดภัย ขายครึ่ง +15% stop -10% ถือ 4 ชม.",
- "rank_t": 1795895555.727535
+ "rank_t": 1795896368.4847515
 }
