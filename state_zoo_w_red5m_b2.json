@@ -1,19 +1,33 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 7.91354747248621,
+ "cash": 5.94627824497679,
  "pos": {
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 259.2770583954807,
    "entry": 0.007474,
-   "last": 0.007412,
+   "last": 0.007329,
    "peak": 0.007877,
    "cost": 1.9573614145580394,
    "opened": "2026-11-28T01:39:35+07:00",
    "zoo": "w_red5m_b2",
    "smart": 584,
    "kol": 37,
+   "gap": 0,
+   "miss": 0
+  },
+  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
+   "sym": "mihao",
+   "qty": 357.23509115279023,
+   "entry": 0.005452,
+   "last": 0.005406,
+   "peak": 0.005452,
+   "cost": 1.967269227509419,
+   "opened": "2026-11-28T12:48:20+07:00",
+   "zoo": "w_red5m_b2",
+   "smart": 833,
+   "kol": 76,
    "gap": 0,
    "miss": 0
   }
@@ -1056,10 +1070,24 @@
    "cost_side": 0.01,
    "smart": 739,
    "bundler": null
+  },
+  {
+   "t": "2026-11-28T12:48:20+07:00",
+   "kind": "buy",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+   "sym": "mihao",
+   "price": 0.005452,
+   "jup": 0.005405877747927851,
+   "usd": 1.9673,
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "zoo": "w_red5m_b2",
+   "smart": 833,
+   "kol": 76
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: สวนทาง: อายุเกิน 1 วัน pool 200k+ กำลังแดง 5 นาที",
- "rank_t": 1795844262.1422434,
+ "rank_t": 1795844864.432081,
  "banned": {
   "J1Wpmugrooj1yMyQKrdZ2vwRXG5rhfx3vTnYE39gpump": "WOULD",
   "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": "Rings",
