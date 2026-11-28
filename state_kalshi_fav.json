@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 1.0790106091706675,
+ "cash": 0.3415474823270096,
  "pos": {
   "KXWTI-26NOV2714-T82.99:yes": {
    "qty": 0.8269452146281397,
@@ -163,7 +163,7 @@
   "KXTSAD-26NOV27-T2300000:yes": {
    "qty": 0.8182188751659075,
    "entry": 0.901303,
-   "last": 0.86,
+   "last": 0.85,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T23:43:02+00:00",
    "coin": "YES | At least 2,300,000 passengers TSA passenger screenings on November 27, 2026?",
@@ -175,7 +175,7 @@
   "KXETHD-26NOV2817-T1619.99:yes": {
    "qty": 0.7773833148266354,
    "entry": 0.9486479999999999,
-   "last": 0.94,
+   "last": 0.95,
    "usd": 0.7374631268436579,
    "t": "2026-11-28T00:17:21+00:00",
    "coin": "YES | Ethereum price at Nov 28, 2026 at 5pm EST?",
@@ -207,6 +207,18 @@
    "side": "yes",
    "close": "2026-11-30T00:30:00Z",
    "why": "fav ask 0.96 ทุน 0.967 ปิด 2026-11-30T00:30:00Z"
+  },
+  "KXNHLSPREAD-26NOV27WPGNYI-WPG2:yes": {
+   "qty": 0.8450091286674175,
+   "entry": 0.872728,
+   "last": 0.85,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-28T02:27:11+00:00",
+   "coin": "YES | Winnipeg wins by over 1.5 goals",
+   "ticker": "KXNHLSPREAD-26NOV27WPGNYI-WPG2",
+   "side": "yes",
+   "close": "2026-11-30T00:30:00Z",
+   "why": "fav ask 0.86 ทุน 0.873 ปิด 2026-11-30T00:30:00Z"
   }
  },
  "log": [
@@ -3260,6 +3272,15 @@
    "ret": 0.15851,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-28T02:27:11+00:00",
+   "coin": "YES | Winnipeg wins by over 1.5 goals",
+   "px": 0.87273,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.86 ทุน 0.873 ปิด 2026-11-30T00:30:00Z",
+   "ask": 0.86
   }
  ],
  "seen": null,
@@ -3418,6 +3439,7 @@
   "KXNCAAMBTOTAL-26NOV27WVUUNC": 1795827027,
   "KXNCAAMBTOTAL-26NOV27UGAUCF": 1795827027,
   "KXNHLTOTAL-26NOV27WPGNYI": 1795828784,
-  "KXNHLGAME-26NOV27WPGNYI": 1795831458
+  "KXNHLGAME-26NOV27WPGNYI": 1795831458,
+  "KXNHLSPREAD-26NOV27WPGNYI": 1795832830
  }
 }
