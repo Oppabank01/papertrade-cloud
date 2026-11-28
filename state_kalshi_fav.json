@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 2.027963427045246,
+ "cash": 0.5530371733579303,
  "pos": {
   "KXOPENSOURCESHARE-26NOV28-T61.1:yes": {
    "qty": 0.8013438549268626,
@@ -55,7 +55,7 @@
   "KXOPENSOURCESHARE-26NOV29-T65.5:yes": {
    "qty": 0.7549113938906525,
    "entry": 0.976887,
-   "last": 0.9,
+   "last": 0.91,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T23:21:16+00:00",
    "coin": "YES | Will Open vs. Closed Token Volume (open weights share) for Nov 28, 2026 be above 65.",
@@ -67,7 +67,7 @@
   "KXBTCD-26NOV2817-T58749.99:yes": {
    "qty": 0.8013438549268626,
    "entry": 0.9202830000000001,
-   "last": 0.83,
+   "last": 0.8,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T23:31:34+00:00",
    "coin": "YES | Bitcoin price on Nov 28, 2026?",
@@ -91,7 +91,7 @@
   "KXETHD-26NOV2817-T1619.99:yes": {
    "qty": 0.7773833148266354,
    "entry": 0.9486479999999999,
-   "last": 0.9,
+   "last": 0.87,
    "usd": 0.7374631268436579,
    "t": "2026-11-28T00:17:21+00:00",
    "coin": "YES | Ethereum price at Nov 28, 2026 at 5pm EST?",
@@ -115,7 +115,7 @@
   "KXHYPED-26NOV2817-T61.9999:yes": {
    "qty": 0.8182188751659075,
    "entry": 0.901303,
-   "last": 0.76,
+   "last": 0.62,
    "usd": 0.7374631268436579,
    "t": "2026-11-28T04:54:03+00:00",
    "coin": "YES | HYPE price on Nov 28, 2026?",
@@ -139,7 +139,7 @@
   "KXSOLD-26NOV2817-T68.9999:yes": {
    "qty": 0.7697342346305435,
    "entry": 0.958075,
-   "last": 0.92,
+   "last": 0.9,
    "usd": 0.7374631268436579,
    "t": "2026-11-28T15:10:27+00:00",
    "coin": "YES | SOL price on Nov 28, 2026?",
@@ -151,7 +151,7 @@
   "KXTEMPMIAH-26NOV2811-T68.99:yes": {
    "qty": 0.7549113938906525,
    "entry": 0.976887,
-   "last": 0.95,
+   "last": 0.96,
    "usd": 0.7374631268436579,
    "t": "2026-11-28T15:25:43+00:00",
    "coin": "YES | Will the temp in Miami be above 68.99° on Nov 28, 2026 at 11am EST?",
@@ -163,7 +163,7 @@
   "KXAAAGASD-26NOV29-3.5150:yes": {
    "qty": 0.7549113938906525,
    "entry": 0.976887,
-   "last": 0.95,
+   "last": 0.96,
    "usd": 0.7374631268436579,
    "t": "2026-11-28T15:25:43+00:00",
    "coin": "YES | Will average **gas prices** be above $3.5150?",
@@ -171,6 +171,30 @@
    "side": "yes",
    "close": "2026-11-29T04:59:00Z",
    "why": "fav ask 0.97 ทุน 0.977 ปิด 2026-11-29T04:59:00Z"
+  },
+  "KXLOWTBOS-26NOV28-B43.5:yes": {
+   "qty": 0.7622452442238642,
+   "entry": 0.967488,
+   "last": 0.94,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-28T15:35:18+00:00",
+   "coin": "YES | Will the minimum temperature be 43-44° on Nov 28, 2026?",
+   "ticker": "KXLOWTBOS-26NOV28-B43.5",
+   "side": "yes",
+   "close": "2026-11-29T06:00:00Z",
+   "why": "fav ask 0.96 ทุน 0.967 ปิด 2026-11-29T06:00:00Z"
+  },
+  "KXTSAW-26NOV29-A2.50:yes": {
+   "qty": 0.7697342346305435,
+   "entry": 0.958075,
+   "last": 0.94,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-28T15:35:18+00:00",
+   "coin": "YES | Will more than 2500000 people be **screened by the TSA** on average this week?",
+   "ticker": "KXTSAW-26NOV29-A2.50",
+   "side": "yes",
+   "close": "2026-11-30T04:59:00Z",
+   "why": "fav ask 0.95 ทุน 0.958 ปิด 2026-11-30T04:59:00Z"
   }
  },
  "log": [
@@ -3890,6 +3914,24 @@
    "ret": 0.09794,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-28T15:35:18+00:00",
+   "coin": "YES | Will the minimum temperature be 43-44° on Nov 28, 2026?",
+   "px": 0.96749,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.96 ทุน 0.967 ปิด 2026-11-29T06:00:00Z",
+   "ask": 0.96
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-28T15:35:18+00:00",
+   "coin": "YES | Will more than 2500000 people be **screened by the TSA** on average this week?",
+   "px": 0.95808,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.95 ทุน 0.958 ปิด 2026-11-30T04:59:00Z",
+   "ask": 0.95
   }
  ],
  "seen": null,
@@ -4078,6 +4120,8 @@
   "KXTEMPCHIHS-26NOV2810": 1795876202,
   "KXSOLD-26NOV2817": 1795878626,
   "KXTEMPMIAH-26NOV2811": 1795879542,
-  "KXAAAGASD-26NOV29": 1795879542
+  "KXAAAGASD-26NOV29": 1795879542,
+  "KXLOWTBOS-26NOV28": 1795880116,
+  "KXTSAW-26NOV29": 1795880116
  }
 }
