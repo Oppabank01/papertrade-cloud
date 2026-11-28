@@ -1,13 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.710208884966166,
- "cash": 1.2037512404097062,
+ "cash": 0.8109884625675594,
  "pos": {
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "sym": "mihao",
    "qty": 68.6085407771789,
    "entry": 0.005701,
-   "last": 0.005487,
+   "last": 0.00554,
    "peak": 0.005749,
    "cost": 0.40315119663027926,
    "opened": "2026-11-28T10:12:48+07:00",
@@ -21,13 +21,27 @@
    "sym": "CATE",
    "qty": 21.560902302073625,
    "entry": 0.01788,
-   "last": 0.01782,
-   "peak": 0.01792,
+   "last": 0.01792,
+   "peak": 0.01794,
    "cost": 0.39734996202955725,
    "opened": "2026-11-28T10:43:14+07:00",
    "zoo": "w_ban_bigliq",
    "smart": 998,
    "kol": 112,
+   "gap": 0,
+   "miss": 0
+  },
+  "AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump": {
+   "sym": "jobcoin",
+   "qty": 35.51336878494415,
+   "entry": 0.01073,
+   "last": 0.01071,
+   "peak": 0.01073,
+   "cost": 0.3927627778421467,
+   "opened": "2026-11-28T11:04:30+07:00",
+   "zoo": "w_ban_bigliq",
+   "smart": 107,
+   "kol": 51,
    "gap": 0,
    "miss": 0
   }
@@ -4906,10 +4920,24 @@
    "zoo": "w_ban_bigliq",
    "smart": 998,
    "kol": 112
+  },
+  {
+   "t": "2026-11-28T11:04:30+07:00",
+   "kind": "buy",
+   "mint": "AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump",
+   "sym": "jobcoin",
+   "price": 0.01073,
+   "jup": 0.010794538518145203,
+   "usd": 0.3928,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "zoo": "w_ban_bigliq",
+   "smart": 107,
+   "kol": 51
   }
  ],
  "label": "สวนสัตว์: กฎ bigliqF แต่ห้ามแค่เหรียญที่ราคาสองแหล่งไม่ตรง ตัวอื่นซื้อต่อ",
- "rank_t": 1795838045.8648658,
+ "rank_t": 1795838613.8767989,
  "banned": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": "GTA6",
   "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": "baton",
