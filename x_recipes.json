@@ -1684,7 +1684,7 @@
   "source": "https://x.com/0xLotttus/status/2121983888406786144 | 22 Nov rerun: original halted for good on a price gap",
   "claim": "$112 to $4,194 (37.4x)",
   "added": "2026-11-22",
-  "active": true,
+  "active": false,
   "entry": {
    "min": {
     "liquidity": 25000
@@ -2228,7 +2228,7 @@
   "source": "https://github.com/hupo3661/u-jackxyz72-pump-fun-replay-sprint-paper-bot-0b809122",
   "claim": "Surge Rider, a make.fun Pump.fun Replay Sprint paper bot: buy mature curves (800+ slots old) whose 40-slot tape shows 3+ SOL net inflow from 5+ wallets with price up 15 to 150% near its high; stop -10%, 15% trail once up 2%, 400-slot limit (bounty entry, no result published; unverified)",
   "added": "2026-11-24",
-  "active": true,
+  "active": false,
   "entry": {
    "min": {
     "liquidity": 10000,
@@ -3232,5 +3232,99 @@
    "COOLDOWN_H": 24
   },
   "note": "from the posts: 80k USD daily volume, stop -5%, target +6%, 4.5% trail, out by about 4h (5:05 to 9:05 ET). Chosen by me: the LLM's 'reclaim on a volume jump' read as 5m and 1h change both at least 0 plus up; the GMGN volume field used for the 80k although its window may not be 24h; the trail starts at +1% (the posts trail on hourly closes, zoo on every check); 5% per trade, 4 open max and 24h cooldown are mine; no age or market cap filter because the posts give none"
+ },
+ {
+  "name": "x_nadir_pump15",
+  "label": "ไล่ราคาขึ้น 8% ขายกำไร 8% ตัด -3%",
+  "source": "https://github.com/NadirAliOfficial/solana-meme-bot",
+  "claim": "buys tokens up 15% in 15min, sells at 8% profit or -3% stop loss, no safety filters (no results published)",
+  "horizon": "week",
+  "added": "2026-11-28",
+  "active": true,
+  "entry": {
+   "min": {
+    "price_change_percent5m": 8
+   },
+   "max": {
+    "price_change_percent5m": 60
+   },
+   "safe": false,
+   "up": false,
+   "rugcheck": false
+  },
+  "exit": {
+   "STOP": -0.03,
+   "TP_ALL": 0.08,
+   "TRAIL_ON": null,
+   "TRAIL": null,
+   "MAX_HOLD_H": 1,
+   "PER_TRADE": 0.1,
+   "MAX_POS": 6
+  }
+ },
+ {
+  "name": "x_burnett_mom",
+  "label": "โมเมนตัม 5 นาที +8% วอลุ่มสูง TP +25% trail 5% ถือ 20 นาที",
+  "source": "https://github.com/BurnettTech/solana-memecoin-bot",
+  "claim": "paper momentum bot: age 3min+, liq 15k+, vol 25k+, +8% in 5m, stop -10%, TP +25%, trail 5% after +15%, max hold 20min (no results claimed)",
+  "horizon": "week",
+  "added": "2026-11-28",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 0.05,
+    "liquidity": 15000,
+    "volume": 25000,
+    "price_change_percent5m": 8
+   },
+   "max": {},
+   "safe": false,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.1,
+   "TP_ALL": 0.25,
+   "TRAIL_ON": 0.15,
+   "TRAIL": 0.05,
+   "MAX_HOLD_H": 0.34,
+   "PER_TRADE": 0.1,
+   "MAX_POS": 3
+  }
+ },
+ {
+  "name": "x_krazy_ladder5x",
+  "label": "กรองลึก pool 10 นาที ถึง 24 ชม. ขายครึ่งที่ x2 เป้า x5 stop -35%",
+  "source": "https://github.com/KrazySnipeOof/AI-memes-strat",
+  "claim": "filter pool 10m-24h, liq 20k-2M, top10<=45%, holders 50+, ladder half at 2x, all at 5x, stop -35%, trail 25% after first TP, time stop 4h (no results claimed)",
+  "horizon": "week",
+  "added": "2026-11-28",
+  "active": true,
+  "entry": {
+   "min": {
+    "age_h": 0.17,
+    "liquidity": 20000,
+    "holder_count": 50
+   },
+   "max": {
+    "age_h": 24,
+    "liquidity": 2000000,
+    "top_10_holder_rate": 0.45,
+    "dev_team_hold_rate": 0.1
+   },
+   "safe": false,
+   "up": true,
+   "rugcheck": true
+  },
+  "exit": {
+   "STOP": -0.35,
+   "HALF_AT": 1.0,
+   "TP_ALL": 4.0,
+   "TRAIL_ON": 1.0,
+   "TRAIL": 0.25,
+   "MAX_HOLD_H": 4,
+   "PER_TRADE": 0.15,
+   "MAX_POS": 3
+  }
  }
 ]
