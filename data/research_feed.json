@@ -1,77 +1,5 @@
 [
  {
-  "t": "2026-11-24T13:58:00+07:00",
-  "source": "x",
-  "title": "theplotthick: ให้ AI ทำงานตรวจ ไม่ใช่หา edge (log ไม้ที่ผิดกฎ, monte carlo, เทียบ fill จริงกับ paper)",
-  "url": "https://x.com/theplotthick/status/2125060037663936599",
-  "summary": "โพสต์แนะนำให้ใช้ AI ตรวจวินัยและความเสี่ยงของบอท ไม่มีกฎเทรด",
-  "verdict": "ไอเดีย",
-  "action": "ไม่มีกฎให้ทดสอบ แล็บนี้ทำเรื่อง log ไม้และตัวแฝดสุ่มอยู่แล้ว ส่วน monte carlo ของเส้นทุนใช้ได้ถ้ามีไม้จริงครบ 50 ไม้"
- },
- {
-  "t": "2026-11-24T15:44:00+07:00",
-  "source": "github",
-  "title": "itzalisha99/pump-fun-paper-sprint: Breakout Rider (ย่อจากจุดสูงสุดก่อน แล้วค่อยซื้อตอนทะลุจุดสูงเดิม) บอทแข่ง make.fun",
-  "url": "https://github.com/itzalisha99/pump-fun-paper-sprint",
-  "summary": "บอทแข่งบน bonding curve ของ pump.fun ซื้อเฉพาะเหรียญที่ย่อจากจุดสูงสุดแรก 25%+ แล้วกลับมาทำจุดสูงใหม่เหนือจุดเดิม 7% stop -15% trail 20% เมื่อถึง +15% ขายหมด +100% ผู้เขียนรายงานเองว่า +0.31 SOL 73 ไม้ แต่ 3 เหรียญให้กำไร 37% และ stress test แพ้ 18 จาก 20 ชุด",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "ย้ายมาเหรียญมีม Binance แท่ง 4 ชม. (DOGE SHIB PEPE FLOKI BONK WIF ทั้งประวัติ) จุดสูงสุดย้อนหลัง 10 วัน ถือไม่เกิน 5 วัน หลังหัก 0.35%/ข้าง เกณฑ์เดิม 25/7 ได้แค่ 7 ไม้ จึงลด เป็นย่อ 15% ทะลุ 3% (เลือกจาก 6 แบบ) ได้ 46 ไม้ +7.36% ต่อไม้ มัธยฐาน +0.72% ตัด 3 ไม้ดีสุด +2.01% DOGE 12 ไม้ +23.6% (9 ไม้ปี 2021) SHIB 9 +2.3% PEPE 11 +1.1% FLOKI 3 -10.0% BONK 5 +7.1% WIF 6 +3.0% ตัวแฝดเข้าแท่งสุ่ม -0.82% ต่อไม้ permutation 200 รอบ p 0.005/0.214/0.428/0.940/0.080/0.199 เปิด fwd_pullbreak.py พร้อมตัวแฝดเข้าสุ่ม 1 ใน 1,000 แท่ง test เดินทีละแท่งตรง backtest DOGE 12 ไม้ PEPE 11 ไม้ สัญญาณเกิดน้อย (ราว 1 ครั้งต่อเหรียญต่อ 7 เดือน)"
- },
- {
-  "t": "2026-11-24T15:44:00+07:00",
-  "source": "github",
-  "title": "hupo3661 Surge Rider: บอทแข่ง make.fun ไล่แรงซื้อบน bonding curve",
-  "url": "https://github.com/hupo3661/u-jackxyz72-pump-fun-replay-sprint-paper-bot-0b809122",
-  "summary": "ซื้อ curve ที่อายุ 800 slot ขึ้นไป แรงซื้อสุทธิ 3 SOL+ ใน 40 slot จากกระเป๋า 5 ใบขึ้นไป ราคาขึ้น 15 ถึง 150% ใกล้จุดสูงสุด stop -10% trail 15% เมื่อบวก 2% ถือไม่เกิน 400 slot ไม่มีผลเผยแพร่",
-  "verdict": "เพิ่มแล้ว",
-  "action": "เพิ่ม x_surge_rider (night) บน curve (launchpad_status 0) ขึ้น 5 นาที 15%+ up rugcheck สภาพคล่อง 10k stop -10% trail 15% เมื่อ +2% ถือไม่เกิน 0.5 ชม. ไม้ละ 2% สูงสุด 5 ตัว เช็กทุก 5 วินาที ตัดเงื่อนไขอายุทิ้งเพราะ open_timestamp ของเหรียญบน curve เป็น 0 (zoo จะเห็นอายุ 0 ทุกตัว) ตัดแรงซื้อสุทธิกับจำนวนกระเป๋าเพราะไม่มีข้อมูล tape ทุกเลขที่เลือกเองอยู่ใน note ใน rank_hist 23 ถึง 24 พ.ย. 356 snapshot เข้าเงื่อนไข 297 ครั้ง 167 เหรียญ (ยังไม่นับ base guard) เป็นญาติของตระกูลไล่ของร้อนที่แพ้ rand ไปแล้ว (บทเรียน 14 พ.ย.) เปิดเพราะผู้ใช้ให้ลองท่าอ่อน"
- },
- {
-  "t": "2026-11-24T15:44:00+07:00",
-  "source": "github",
-  "title": "กลุ่ม repo บอทแข่ง make.fun Pump.fun Replay Sprint / Paper Sprint (24 พ.ย. ราว 15 repo)",
-  "url": "https://github.com/albertod12-ops/pumpfun-replay-survivor",
-  "summary": "บอทกระดาษบนข้อมูล replay ของ pump.fun ระดับ slot เช่น survivor pyramid (ซื้อเล็กตอนต้น 20+ ผู้ซื้อ trail 25% เปลี่ยนเป็น 50% เมื่อถึง x3), create-slot sniper ที่ซื้อเพิ่มตอนวิ่ง, Dip & Runner ผู้เขียน survivor รายงานว่า velocity breakout ขาดทุน -0.72 ถึง -1.70 SOL เพราะ latency และค่าธรรมเนียม",
-  "verdict": "ไอเดีย",
-  "action": "ต้องข้อมูลการซื้อขายรายธุรกรรมบน curve (จำนวนผู้ซื้อ แรงซื้อสุทธิ ต่อ slot) ซึ่ง rank_hist ไม่มี ท่า sniper ช่วงสร้างเหรียญถือไม่กี่นาทีทำซ้ำไม่ได้ด้วยการเช็กทุก 5 ถึง 20 วินาที (เหตุผลเดียวกับที่ปิด x_snipe_30_30) หยิบมาลองแล้ว 2 ตัวข้างบน"
- },
- {
-  "t": "2026-11-24T15:44:00+07:00",
-  "source": "github",
-  "title": "ella-lxy/longshot-bias: ตัวรองราคาต่ำกว่า 10% ในตลาดอุณหภูมิรายวัน Polymarket",
-  "url": "https://github.com/ella-lxy/longshot-bias",
-  "summary": "งานวิจัย 931 เหตุการณ์ 11 เมือง ซื้อ NO เมื่อ YES ต่ำกว่า 10% ตอน 24 ชม. ก่อนเที่ยงคืน ได้ +0.77% ช่วง validation แต่ -1.57% ช่วง replication ซื้อ YES หลังตัดขึ้นผ่าน 10% ได้ -54.7% และ -25.5% ช่วงเชื่อมั่นคร่อมศูนย์ทั้งหมด",
-  "verdict": "ไอเดีย",
-  "action": "ผู้เขียนทดสอบนอกตัวอย่างแล้วตก ต้นทุน 1 เซนต์ต่อหุ้นกินกำไรหมด ถ้าจะทำซ้ำต้องมีราคาซื้อขายย้อนหลังของทุก bucket กับผลจริงจาก Weather Underground ที่เราไม่มี บัญชี poly_weather ที่รันอยู่ใช้ตลาดเดียวกันอยู่แล้ว ใช้ผลนี้เป็นตัวเทียบตอนตัดสินได้"
- },
- {
-  "t": "2026-11-24T15:44:00+07:00",
-  "source": "github",
-  "title": "b2devv/backtest-overfitting-detector: สุ่ม 1,000 กฎแล้วเช็ก Deflated Sharpe",
-  "url": "https://github.com/b2devv/backtest-overfitting-detector",
-  "summary": "สร้างกฎสุ่ม 1,000 ตัว (MA cross, momentum, mean reversion, breakout) บน SPY 5 ปี กฎดีสุด Sharpe 0.86 เท่ากับที่โชคอย่างเดียวคาดได้ 0.87 Deflated Sharpe 49.6%",
-  "verdict": "ไอเดีย",
-  "action": "ไม่มีกฎเทรด เป็นเครื่องมือตรวจ overfit แบบเดียวกับที่แล็บใช้ (DSR ใน stats.py และประตู permutation) ไม่ได้รันโค้ดจาก repo ใช้เตือนว่าการเลือกเกณฑ์ 15/3 ของ fwd_pullbreak จาก 6 แบบก็เป็นการค้นแบบนี้ขนาดเล็ก"
- },
- {
-  "t": "2026-11-24T15:44:00+07:00",
-  "source": "x",
-  "title": "Cralliy: Grok Bot $204 เป็น $7,814 ใน 17 ไม้ (ลิงก์สมัคร pump.fun)",
-  "url": "https://x.com/Cralliy/status/2124921533739229269",
-  "summary": "โพสต์อวดผลพร้อมลิงก์ referral ให้สมัคร pump.fun แล้วเชื่อมกระเป๋ากับ Grok Bot ไม่มีกฎหรือที่อยู่กระเป๋า",
-  "verdict": "ตัดทิ้ง",
-  "action": "ต้องสมัครและเชื่อมกระเป๋าเงินจริง"
- },
- {
-  "t": "2026-11-24T15:44:00+07:00",
-  "source": "x",
-  "title": "ElioWIF: บอท AI เหรียญมีม 4 ตัว ตัวที่ 4 ที่ไม่มีใครทำ (คอมเมนต์ STACK เพื่อรับ)",
-  "url": "https://x.com/ElioWIF/status/2124935388594618831",
-  "summary": "โพสต์ล่อให้คอมเมนต์เพื่อรับบทความทาง DM ไม่มีกฎในโพสต์",
-  "verdict": "ตัดทิ้ง",
-  "action": "ต้องคอมเมนต์และรับ DM ซึ่งห้ามทำ"
- },
- {
   "t": "2026-11-24T15:44:00+07:00",
   "source": "web",
   "title": "Konczal & Polocznański (arXiv 2608.09576): ความผิดปกติระหว่างวันของ ETP คริปโตในยุโรป",
@@ -2698,5 +2626,77 @@
   "verdict": "ไอเดีย",
   "action": "ไม่มีอะไรใหม่ ผลรายชั่วโมงมีบัญชี fwd_monhour fwd_hour21 อยู่แล้ว",
   "t": "2026-11-28T18:00:00+07:00"
+ },
+ {
+  "t": "2026-11-28T19:39:27+07:00",
+  "source": "github",
+  "title": "walidplayx-debug/crypto-bot: หมุน 5 เหรียญตามโมเมนตัม 30 วันทุก 3 วัน",
+  "url": "https://github.com/walidplayx-debug/crypto-bot",
+  "summary": "บอทส่งสัญญาณบน GitHub Actions ทุก 3 วันจัดอันดับ BTC ETH SOL BNB DOGE ตามผลตอบแทน 30 วัน long 2 อันดับแรกถ้าบวก short อันดับท้ายถ้าลบ ผู้เขียนเลือกค่าจาก 240 แบบบนข้อมูลถึง ก.ค. 2024 แล้วอ้างช่วงซ่อน +136% เทียบถือ 5 เหรียญ -29% ส่วนสูตร GA 80 รอบก่อนหน้าไม่ผ่านเลย",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "เขียนกฎเอง ไม่รันโค้ด repo Binance รายวัน ก.ย. 2017 ถึง 27 พ.ย. 69 ช่องละ 1 ใน 3 หลังหัก 0.35%/ข้าง: 1,119 รอบ +0.55% ต่อรอบ มัธยฐาน +0.11% ชนะ 52% ตัดรอบดีสุด 1% เหลือ +0.24% CI +0.27 ถึง +0.86 ถือเท่ากันทั้ง 5 เหรียญ +0.78% ต่อรอบ (แพ้ช่วงยาว) ตัวแฝดสุ่มเหรียญจำนวนเท่ากัน 20 รอบมัธยฐาน +0.23% รายปีต่อรอบ 2021 +1.74% 2024 +0.05% 2025 +0.12% 2026 0.00% ตั้งแต่ 1 ก.ค. 2024 รวม +37% เทียบถือ 5 เหรียญ -28% ช่วงถือ 541 ช่วง long +6.5% short +0.5% ต่อช่วง กริด lookback 14/30/60 x ถือ 3/7 วัน บวกทุกแบบ +0.14 ถึง +0.18% ต่อวัน permutation 200 รอบทั้งกริด (สลับแท่งรายเหรียญแยกกัน) ก่อนหัก p 0.005 เปิด fwd_rot5.py คู่ตัวแฝดสุ่มเหรียญ test เดินทีละวันตรง backtest 182 ช่วงถือ สคริปต์ /tmp/scout_1931/bt_rot.py"
+ },
+ {
+  "t": "2026-11-28T19:39:27+07:00",
+  "source": "github",
+  "title": "tiagocosta1234/ema-futures-study: S06 Triple EMA 12/26/50 (งานค้างจากรอบ 17:55)",
+  "url": "https://github.com/tiagocosta1234/ema-futures-study",
+  "summary": "ท่าเดียวที่ผ่านเกณฑ์ที่ผู้เขียนลงทะเบียนไว้ก่อนจาก EMA 12 ท่าบน futures 13 ตัว รอบ 17:55 ทดสอบแล้วแต่โควตา fwd เต็ม",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "ใช้ตัวเลขรอบ 17:55 (รายวัน BTC 70 ไม้ +9.2% ETH 63 ไม้ +8.0% SOL 48 ไม้ +26.3% ต่อไม้หลังหัก มัธยฐาน BTC -3.0% ตัวแฝดเข้าสุ่ม +8.1/+6.6/+24.1% เกือบเท่ากฎ permutation กริดก่อนหัก p 0.050/0.030/0.070) เปิด fwd_tripleema.py BTC ETH SOL long/short คู่ตัวแฝดเข้าแท่งสุ่มฝั่ง EMA12 เทียบ EMA26 ฟังก์ชัน trades() ให้ไม้ตรงกับสคริปต์ /tmp/scout_1755/bt.py ครบ 70/63/48 ไม้ test เดินทีละแท่ง BTC 22 ไม้ SOL 21 ไม้ตรง backtest"
+ },
+ {
+  "t": "2026-11-28T19:39:27+07:00",
+  "source": "github",
+  "title": "m3n4ce-dev/edge-scout: วัดส่วนต่างราคา funding และ basis ข้ามตลาดหลังหักต้นทุนจริง",
+  "url": "https://github.com/m3n4ce-dev/edge-scout",
+  "summary": "เครื่องมืออ่านข้อมูลสาธารณะของตลาดที่คนอเมริกาเทรดได้ สแกนแรกพบส่วนต่าง spot ข้ามตลาดแค่หลักร้อยละ 0.01 เทียบค่าธรรมเนียมไปกลับ 0.8 ถึง 2.4% ส่วนที่น่าตามคือ funding สูงของ LINK ราว 17% ต่อปี AVAX 13% ต่อปี",
+  "verdict": "ไอเดีย",
+  "action": "ไม่ได้ทดสอบ ต้องมีประวัติ funding ของหลายตลาด (Coinbase perp, Hyperliquid, OKX, dYdX) หลายเดือนเพื่อดูว่า funding สูงคงอยู่นานพอจ่ายค่าธรรมเนียมไหม สายหลัก funding.py เก็บ funding อยู่แล้วแต่ห้ามเปิดบัญชีใหม่ในสายนั้น"
+ },
+ {
+  "t": "2026-11-28T19:39:27+07:00",
+  "source": "github",
+  "title": "กลุ่ม repo ดาวปลอม 26 ถึง 27 พ.ย. (Agenord/crypto-ai-trading-bot, khalilur14103026/crypto-accumulation-scanner, muhrifandi/nexusswitch-auto-profit-switcher, John00-crypto/sbft-bip39-framework)",
+  "url": "https://github.com/Agenord/crypto-ai-trading-bot",
+  "summary": "สร้างไม่ถึง 2 วันได้ราว 170 ดาวเท่ากันทุก repo แต่ 0 fork มีโฟลเดอร์ files กับหน้า index.html และอีกตัวเป็นเครื่องมือไล่เดา seed phrase ลักษณะเดียวกับชุดมัลแวร์ที่ปั๊มดาว",
+  "verdict": "ตัดทิ้ง",
+  "action": "ตัดทิ้งเพราะต้องดาวน์โหลดและรันโปรแกรมของ repo ไม่มีกฎเทรดให้ทดสอบ ไม่ได้เปิดไฟล์ใน files"
+ },
+ {
+  "t": "2026-11-28T19:39:27+07:00",
+  "source": "github",
+  "title": "กลุ่ม repo บอทเหรียญมีมใหม่ 25 ถึง 27 พ.ย. (ds2026-creator/solana-memecoin-trading-bot, VilTools/VilTools-Memecoins, venmo278/Memecoin-sniper-bot, mudhinpc-droid volume booster)",
+  "url": "https://github.com/ds2026-creator/solana-memecoin-trading-bot",
+  "summary": "คำบรรยายเป็นโฆษณา บอก demo ใน Releases และให้ติดต่อขอสิทธิ์ ไม่มีกฎเข้าออก ตัว volume booster คือการปั๊มวอลุ่ม",
+  "verdict": "ตัดทิ้ง",
+  "action": "ตัดทิ้งเพราะต้องรันไฟล์ที่ดาวน์โหลดและใส่กระเป๋า ไม่มีกฎให้ลองแบบกลไก"
+ },
+ {
+  "t": "2026-11-28T19:39:27+07:00",
+  "source": "x",
+  "title": "ค้น X รอบ 19:31 codex trading bot backtest",
+  "url": "https://x.com/search?q=codex%20trading%20bot%20backtest",
+  "summary": "ได้ 15 โพสต์ ส่วนใหญ่ลงฟีดแล้ว (Ofego_, DrivenByNikiG, RohOnChain) ที่เหลือเป็นพรอมต์ขายของหรือโฆษณา tradingkit และ Fensory ไม่มีกฎเข้าออก",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีของใหม่ให้ทดสอบ"
+ },
+ {
+  "t": "2026-11-28T19:39:27+07:00",
+  "source": "x",
+  "title": "ค้น X รอบ 19:31 btc strategy backtest win rate",
+  "url": "https://x.com/search?q=btc%20strategy%20backtest%20win%20rate",
+  "summary": "ได้ 15 โพสต์ ซ้ำเกือบหมด (0xJamino โพสต์ Grok Bot $500 เป็น $10K ข้อความแบบเดิมหลายวัน, CaffeSatoshi, 6vintik9, w1nklerr) ที่เหลือโฆษณา Fensory, Neptune, ZoqoTrade",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีของใหม่ โพสต์ Grok Bot ชุดนี้เคยตรวจแล้วว่าเป็นข้อความชุดเดียวกับ referral"
+ },
+ {
+  "t": "2026-11-28T19:39:27+07:00",
+  "source": "web",
+  "title": "ค้นเว็บงานใหม่เรื่องรูปแบบรายวันหรือข้ามคืนของ BTC หลังหักต้นทุน",
+  "url": "https://www.mdpi.com/1911-8074/19/9/692",
+  "summary": "ผลค้นไม่มีงาน arXiv ใหม่ เจอแต่ MDPI เรื่องแบ่ง 2 ช่วง 12 ชม. ซึ่งเปิดเป็น fwd_sessrev แล้ว และงานเก่าเรื่องฤดูกาลรายชั่วโมง",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีของใหม่ ไม่ได้ทดสอบซ้ำ"
  }
 ]
