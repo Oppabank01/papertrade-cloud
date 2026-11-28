@@ -1,19 +1,47 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.8986700715157925,
+ "cash": 1.466603606621605,
  "pos": {
   "H8xQ6poBjB9DTPMDTKWzWPrnxu4bDEhybxiouF8Ppump": {
    "sym": "Tokabu",
    "qty": 639.738331070205,
    "entry": 0.001099,
-   "last": 0.001082,
+   "last": 0.001081,
    "peak": 0.001099,
    "cost": 0.7246675178789481,
    "opened": "2026-11-28T23:52:03+07:00",
    "wallet": "FqJMNz",
    "wallet_usd": 2505,
    "lag_min": 12.5,
+   "gap": 0,
+   "miss": 0
+  },
+  "9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump": {
+   "sym": "enu",
+   "qty": 3016.3282344163545,
+   "entry": 0.000231,
+   "last": 0.000231,
+   "peak": 0.000231,
+   "cost": 0.718173389146751,
+   "opened": "2026-11-29T00:56:03+07:00",
+   "wallet": "FqJMNz",
+   "wallet_usd": 503,
+   "lag_min": 4.5,
+   "gap": 0,
+   "miss": 0
+  },
+  "nUESj13byLn6bHFFaygmf7mCQbHZvb6yKqdHjjLWmj1": {
+   "sym": "ARTCOIN",
+   "qty": 27463.08731523246,
+   "entry": 2.522e-05,
+   "last": 2.522e-05,
+   "peak": 2.522e-05,
+   "cost": 0.7138930757474363,
+   "opened": "2026-11-29T00:56:04+07:00",
+   "wallet": "2kN7bb",
+   "wallet_usd": 321,
+   "lag_min": 8.2,
    "gap": 0,
    "miss": 0
   }
@@ -15603,18 +15631,55 @@
    "wallet": "FqJMNz",
    "usd": 500,
    "why": "liq $9,019"
+  },
+  {
+   "t": "2026-11-29T00:56:03+07:00",
+   "kind": "buy",
+   "mint": "9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump",
+   "sym": "enu",
+   "price": 0.000231,
+   "jup": 0.0002312263355364625,
+   "usd": 0.7182,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "wallet": "FqJMNz",
+   "wallet_usd": 503,
+   "lag_min": 4.5
+  },
+  {
+   "t": "2026-11-29T00:56:03+07:00",
+   "kind": "skip",
+   "mint": "9An9c2vBiJyRD6p2rpZhuHKC42GE5yRQ342Md7wCpump",
+   "sym": "Stake",
+   "wallet": "FqJMNz",
+   "usd": 251,
+   "why": "liq $0"
+  },
+  {
+   "t": "2026-11-29T00:56:04+07:00",
+   "kind": "buy",
+   "mint": "nUESj13byLn6bHFFaygmf7mCQbHZvb6yKqdHjjLWmj1",
+   "sym": "ARTCOIN",
+   "price": 2.522e-05,
+   "jup": 2.516474665355277e-05,
+   "usd": 0.7139,
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "wallet": "2kN7bb",
+   "wallet_usd": 321,
+   "lag_min": 8.2
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ ผ่าน Helius",
  "cursor": {
-  "FqJMNzzY1DHz2F1Pt6F7VqCxBWdu8cK2TbfTrYT9zQbT": "59EbQHrwsVP9izYU2qaPdVwcScvUpXRfjbdebwUtJjSb5Jqm7kLxWLHFD2StBt4ZNkXGDw1ZzbTBFCXVxNF2frMP",
-  "2kN7bb7sVKn4iBWDMpo8aAVyyQxAVpZATQ7RRkmoy6Mm": "37m8umQg2kXnMPiw8H69TWsddLBatWfHDNog8C6vJFBVr3aGbd1DBcvEsbLrc4zUx4BmVYmdXaVnEFTsJ7srSzkN",
+  "FqJMNzzY1DHz2F1Pt6F7VqCxBWdu8cK2TbfTrYT9zQbT": "2Behef9WEjPF8MasB3kZ7BG2DnPxfbXirBMGqWYuZiXm5vj2zToerweRu3Wh8cPbV2i6Hjd7fxzZfEBKDMHcg8N3",
+  "2kN7bb7sVKn4iBWDMpo8aAVyyQxAVpZATQ7RRkmoy6Mm": "6HTdkkN9sDf6vkuvDPxRUz4hRWZCe7WLMiu2VsUj7sc56ToKHPgEKdJfmqGM9RCuQCHWotwNUeNQ4sjLJ5xzDbE",
   "7NnaXghjuU92gM9kmwXysqa5HboyZuR2LTaBnvazFxSH": "4mE9yj7f98W44mvAYmg5HMJ2voNX2kU5n2iTeECgR3MD8gAGwTa6S5uYJEgRD8Zmgt3ZxV5JLidMxiPJV96jYqWZ",
   "7g5CJ754NboeY6D44MDdGwQmVX4Fvu59Q47c9ZKLPMkE": "5biok4STnNKWHjtee5m3ruCDLCLzoK3Mm8jtm2Sam86e2HChv22e2CsCCJbCpBuymaQq58CWPjmbwcKzfcFNJwky",
-  "8emnM6nfVM2ePrYDmZcMkwy8qzDhRFZ5EefCkMsmgByX": "4opgub9ck48gtAefn9RGqVPLPk2Yw7vtJTYqpLV11hS7RHVEej6AmYXy6Kfeza7mFbBhbMWpXV79xgEfiQWfBZUZ",
+  "8emnM6nfVM2ePrYDmZcMkwy8qzDhRFZ5EefCkMsmgByX": "HUzQmgg1RdXHn62J4pp8a5H3Uegmfk3svMrJjwC1vvyRj3cvuGZLyegJWqx121Hom84n8rX1yViiWXviZWhFsy1",
   "ENskGQev2bXPjaCYPV9bUcPLv3635Y18BWzLN95x4soC": "3bfxu8UELSSJAqBKCA1wm7fAdTj3CVdGzN7VLadptAPBM9q9CB7TPJTMdRWiApyHZfAw7AafeVXFadeAuTD5Nf63",
   "chudc2GnxyW2V7nmLA9bkrzFmKkvPyTfN7V7Uu6XG6o": "4zvkeBiS3ioZxTcuCnk6syMDUJkK81dDNXxLSkrJLJ6U4t6iumaLRzPFdsk3vDbUtAzpf8StR1wFbJ4v3p3zuwE",
-  "8XzVYjjVdpDoD3zBtXqMiMBRNj7eMhayr8DyWZQiRgs8": "5NkadhdAaH4KiFRbzzcjnGwkWKXGT439vwcFvXupuyv2npLLkcAtaKqcn494JPv9i5ceK7MfavDPFfFrvJax8yhm",
+  "8XzVYjjVdpDoD3zBtXqMiMBRNj7eMhayr8DyWZQiRgs8": "4RPNahkhM9z6h4f4LcCKStWht3BhZYpPoDTMxWRLR9k41aAQ84rokuxwqmhxyMmRye7sNNy1HYQWZHK8KTuMoQiR",
   "a8UJuWKvWwQTtYbEVzA5b7SYF5j92guqJdwMY428jZN": "cLxKMWvNqgWmDcQwUHSg55Z4qsZxgoYwYd2dDbPARiF8mvQh2gcoB4HqwZyQp4YXeS2gwipX6yJ3ti42SQqq4Xo",
   "A9svdtSzTnMBRFWYMtu4u4gQikU4XJCZaQ9h3nijWmP2": "547vSmLBkWES6c5WyVngNbe8Rr3ic3LjitWaCYUgpa9hpsekhagpg4ps713g3iEbZ6buDdDxqWC4DS2U8UkfAKGm"
  }
