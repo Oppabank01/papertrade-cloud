@@ -2,7 +2,7 @@
  "label": "Kalshi ซื้อตัวเต็ง 0.85-0.97 ตลาดปิดใน 48 ชม. ไม้ละ 5% ถือจนตัดสิน (เทียบกับ Polymarket)",
  "start_thb": 500.0,
  "start_usd": 14.749262536873157,
- "cash": 1.030017587456363,
+ "cash": 0.2925544606127052,
  "pos": {
   "KXRAIN-26NOV27-NYC:yes": {
    "qty": 0.8013438549268626,
@@ -115,7 +115,7 @@
   "KXBTCD-26NOV2817-T58749.99:yes": {
    "qty": 0.8013438549268626,
    "entry": 0.9202830000000001,
-   "last": 0.89,
+   "last": 0.91,
    "usd": 0.7374631268436579,
    "t": "2026-11-27T23:31:34+00:00",
    "coin": "YES | Bitcoin price on Nov 28, 2026?",
@@ -175,7 +175,7 @@
   "KXRAIN-26NOV28-CLE:yes": {
    "qty": 0.7773833148266354,
    "entry": 0.9486479999999999,
-   "last": 0.2,
+   "last": 0.15,
    "usd": 0.7374631268436579,
    "t": "2026-11-28T04:44:21+00:00",
    "coin": "YES | Will it rain in Cleveland on Nov 28, 2026?",
@@ -187,7 +187,7 @@
   "KXHYPED-26NOV2817-T61.9999:yes": {
    "qty": 0.8182188751659075,
    "entry": 0.901303,
-   "last": 0.74,
+   "last": 0.79,
    "usd": 0.7374631268436579,
    "t": "2026-11-28T04:54:03+00:00",
    "coin": "YES | HYPE price on Nov 28, 2026?",
@@ -199,7 +199,7 @@
   "KXANTHVREQ-28NOV26-T7P9:yes": {
    "qty": 0.8269452146281397,
    "entry": 0.8917919999999999,
-   "last": 0.87,
+   "last": 0.89,
    "usd": 0.7374631268436579,
    "t": "2026-11-28T04:54:03+00:00",
    "coin": "YES | Anthropic Vercel share of AI Gateway requests across the top labs above 7.9%",
@@ -207,6 +207,18 @@
    "side": "yes",
    "close": "2026-11-29T04:59:00Z",
    "why": "fav ask 0.88 ทุน 0.892 ปิด 2026-11-29T04:59:00Z"
+  },
+  "KXETHD-26NOV2802-T1654.99:yes": {
+   "qty": 0.8543610818706032,
+   "entry": 0.8631749999999999,
+   "last": 0.84,
+   "usd": 0.7374631268436579,
+   "t": "2026-11-28T06:34:10+00:00",
+   "coin": "YES | Ethereum price at Nov 28, 2026 at 2am EST?",
+   "ticker": "KXETHD-26NOV2802-T1654.99",
+   "side": "yes",
+   "close": "2026-11-28T07:00:00Z",
+   "why": "fav ask 0.85 ทุน 0.863 ปิด 2026-11-28T07:00:00Z"
   }
  },
  "log": [
@@ -3491,6 +3503,15 @@
    "ret": 0.02366,
    "cost_side": 0,
    "why": "ตัดสิน yes"
+  },
+  {
+   "kind": "buy",
+   "t": "2026-11-28T06:34:10+00:00",
+   "coin": "YES | Ethereum price at Nov 28, 2026 at 2am EST?",
+   "px": 0.86317,
+   "usd": 0.7374631268436579,
+   "why": "fav ask 0.85 ทุน 0.863 ปิด 2026-11-28T07:00:00Z",
+   "ask": 0.85
   }
  ],
  "seen": null,
@@ -3660,6 +3681,7 @@
   "KXNCAAFSPREAD-26NOV27WVUUTAH": 1795841060,
   "KXHYPED-26NOV2817": 1795841641,
   "KXANTHVREQ-28NOV26": 1795841641,
-  "KXTEMPMIAH-26NOV2801": 1795844795
+  "KXTEMPMIAH-26NOV2801": 1795844795,
+  "KXETHD-26NOV2802": 1795847649
  }
 }
