@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.67997651203758,
- "cash": 12.88400149728388,
- "pos": {
-  "BDdzUjksj1J4bSnMveQ5tV9Up8A9c6YS1tHrxNw3pump": {
-   "sym": "FOMO",
-   "qty": 23938.217190748055,
-   "entry": 5.802e-05,
-   "last": 5.731e-05,
-   "peak": 5.966e-05,
-   "cost": 1.4315557219204311,
-   "opened": "2026-11-28T10:55:30+07:00",
-   "zoo": "x_nadir_pump15",
-   "smart": 251,
-   "kol": 28,
-   "gap": 22,
-   "miss": 0
-  }
- },
+ "cash": 14.215018127515037,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-28T09:51:27+07:00",
@@ -153,9 +138,24 @@
    "zoo": "x_nadir_pump15",
    "smart": 251,
    "kol": 28
+  },
+  {
+   "t": "2026-11-28T11:55:35+07:00",
+   "kind": "sell",
+   "mint": "BDdzUjksj1J4bSnMveQ5tV9Up8A9c6YS1tHrxNw3pump",
+   "sym": "FOMO",
+   "price": 5.731e-05,
+   "entry": 5.802e-05,
+   "usd": 1.331,
+   "pnl": -0.1005,
+   "why": "ครบ 1 ชม. (-1.2%)",
+   "stop_set": -0.03,
+   "cost_side": 0.03,
+   "smart": 251,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: ไล่ราคาขึ้น 8% ขายกำไร 8% ตัด -3%",
- "rank_t": 1795841115.541903,
+ "rank_t": 1795841714.800558,
  "halted": "ราคา FOMO สองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
 }

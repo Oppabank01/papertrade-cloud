@@ -1,27 +1,13 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.611338398597312,
- "cash": 2.15398673383263,
+ "cash": 4.226365368376319,
  "pos": {
-  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
-   "sym": "CATE",
-   "qty": 116.94183754141359,
-   "entry": 0.01834,
-   "last": 0.01791,
-   "peak": 0.01888,
-   "cost": 2.166322366111487,
-   "opened": "2026-11-27T23:58:59+07:00",
-   "zoo": "w_hot_mkt_b2",
-   "smart": 995,
-   "kol": 112,
-   "gap": 0,
-   "miss": 0
-  },
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "sym": "CLAUDIA",
    "qty": 277.4017945988519,
    "entry": 0.007715,
-   "last": 0.007436,
+   "last": 0.007462,
    "peak": 0.007877,
    "cost": 2.161717982202613,
    "opened": "2026-11-28T00:31:18+07:00",
@@ -35,7 +21,7 @@
    "sym": "TROLL",
    "qty": 95.3902914042143,
    "entry": 0.02216,
-   "last": 0.02281,
+   "last": 0.02293,
    "peak": 0.02314,
    "cost": 2.1351469483269496,
    "opened": "2026-11-28T03:58:39+07:00",
@@ -56,7 +42,7 @@
    "zoo": "w_hot_mkt_b2",
    "smart": 382,
    "kol": 35,
-   "gap": 8,
+   "gap": 0,
    "miss": 0
   }
  },
@@ -1105,10 +1091,25 @@
    "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
    "sym": "FLOAT",
    "why": "ราคาสองแหล่งต่างกันเกิน 1% ติดกัน 15 รอบ"
+  },
+  {
+   "t": "2026-11-28T11:59:08+07:00",
+   "kind": "sell",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "sym": "CATE",
+   "price": 0.0179,
+   "entry": 0.01834,
+   "usd": 2.0724,
+   "pnl": -0.0939,
+   "why": "ครบ 12 ชม. (-2.4%)",
+   "stop_set": -1.0,
+   "cost_side": 0.01,
+   "smart": 995,
+   "bundler": null
   }
  ],
  "label": "สวนสัตว์: รุ่น 2 แบนแค่เหรียญที่ราคาไม่ตรง: ตลาดร้อน: กฎ w_aged_nostop เฉพาะรอบที่เหรียญ 74%+ ขึ้นใน 1 ชม.",
- "rank_t": 1795841115.541903,
+ "rank_t": 1795841714.800558,
  "banned": {
   "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": "OTC",
   "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": "Buttcoin",
