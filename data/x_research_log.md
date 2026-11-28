@@ -1157,3 +1157,20 @@ zoo import ไม่มี skip และ test_zoo.py ผ่าน
 เพิ่ม x_: ไม่มี (รอบนี้ไม่เจอกฎเหรียญมีมใหม่)
 ไอเดีย: แถบราคา 36 เซนต์ขึ้นไปของตลาด Polymarket 5 นาที (ต้องประวัติ taker trade ใกล้กับที่ ud5late ทดสอบแล้ว), Agent4Crypto (ต้องเรียก LLM ทุกแท่ง), backtest-overfitting (เตือนว่าบัญชีที่ดูดีในกว่า 110 บัญชีอาจมาจากโชค ให้ตัดสินด้วย DSR)
 ตัดทิ้ง: ไม่มี
+
+## 2026-11-28 17:55 (scout)
+รับงานค้างของรอบ 16:14 ซึ่งหยุดก่อนจดฟีดและ commit: fwd_honestbrk.py กับ fwd_d3trail.py และ test ของทั้งสองไฟล์อยู่ในโฟลเดอร์แล้ว รัน test ใหม่รอบนี้ผ่านทั้งคู่ (honestbrk BTC 19 ไม้ SOL 16 ไม้ตรง backtest, d3trail BTC ETH LINK 6 ไม้ ADA 4 ไม้ตรง backtest) ไม่มี subprocess, eval, socket หรือ urllib จดรายการของรอบนั้น 6 รายการลงฟีดตามที่รอบนั้นเตรียมไว้:
+- เปิดบัญชี fwd_honestbrk (lovgolf/honest-crypto-backtester ทะลุ high 20 ชม. เหนือ EMA100 stop 2 ATR เป้า 4 ATR ถือ 48 ชม. BTC ETH SOL หลังหัก -0.50 ถึง -0.54% ต่อไม้ permutation p 0.010/0.010/0.124)
+- เปิดบัญชี fwd_d3trail (rubenx1303/crypto-backtesting D3 Donchian 100 วัน +1% เหนือ SMA100 stop 4 ATR trail 6 ATR 8 เหรียญ 80 ไม้ เฉลี่ย +37.2% มัธยฐาน -7.2% ปี 2025 ถึง 2026 ติดลบ permutation p 0.045 ถึง 0.085)
+- ไอเดีย: rulesfirst-engine และกลุ่ม repo ที่ไม่มีกฎใหม่, ค้น X 3 ครั้งของรอบนั้น, ค้นเว็บของรอบนั้น
+- ตัดทิ้ง: กลุ่ม repo บอท sniper ไฟล์ Windows (ต้องรันโปรแกรมที่ดาวน์โหลดและใส่กระเป๋า)
+
+รอบนี้ค้น: GitHub repo ใหม่ตั้งแต่ 21 พ.ย. (llm trading, hyperliquid strategy, grid bot, liquidation crypto, volatility strategy, walk-forward), X 2 ครั้ง (claude trading bot results, hyperliquid bot strategy backtest), เว็บ 1 ครั้ง (arXiv เดือน พ.ย. เรื่องรูปแบบรายชั่วโมงหลังหักต้นทุน)
+เจอ: repo ส่วนใหญ่ลงฟีดแล้ว (m3n4ce-dev/meme_traderv1 มี x_mt_grad_v1 แล้ว, trendpilot, roan-maverick, pspomyl2020, Hyperliquidguide) ของใหม่คือ tiagocosta1234/ema-futures-study (ทดสอบ EMA 12 ท่าบน futures 13 ตัว ลงทะเบียนเกณฑ์ไว้ก่อน ผ่านท่าเดียวคือ S06 Triple EMA แบบเฉียดฉิว) โพสต์ X ใหม่ไม่มีกฎ (Hordak0x ขายพรอมต์, DeFi_Blub เตือนเรื่องฟาร์มยอด, Fensory กับ 0xJamino ซ้ำ) เว็บไม่เจองานใหม่
+ทดสอบ S06 Triple EMA (เขียนเอง ไม่รันโค้ด repo): เข้าแท่งแรกที่ EMA(n) > EMA(26n/12) > EMA(50n/12) short กลับด้าน ออกเมื่อ EMA เร็วตัดกลับ EMA กลาง stop 3 ATR14 จากราคาปิดแท่งสัญญาณ สัญญาณฝั่งตรงข้ามกลับข้าง Binance รายวันถึง 27 พ.ย. 69 หลังหัก 0.35%/ข้าง สคริปต์ /tmp/scout_1755/bt.py
+- n12 long และ short: BTC 70 ไม้ +9.2% ต่อไม้ มัธยฐาน -3.0% ชนะ 41% ETH 63 ไม้ +8.0% SOL 48 ไม้ +26.3% ขา short ใกล้ศูนย์ทุกเหรียญ BTC ปี 2025 -0.3% 2026 +1.0%
+- ตัวแฝดเข้าสุ่มออกแบบเดียวกัน 20 รอบมัธยฐาน +8.1/+6.6/+24.1% เกือบเท่ากฎ รุ่น long อย่างเดียวแพ้ตัวแฝดทั้ง 3 เหรียญ
+- permutation 200 รอบทั้งกริด (n 8/10/12/20/50 x long-only/long-short) ก่อนหัก p BTC 0.050 ETH 0.030 SOL 0.070 ผลบวกมาจากตัวออกที่ถือตามเทรนด์ ไม่ใช่จุดเข้า
+- ไม่เปิดบัญชีรอบนี้เพราะโควตา fwd 2 ไฟล์ใช้กับงานค้างแล้ว ถ้าจะลองให้เปิด fwd_tripleema รายวัน BTC ETH SOL long-short n12 คู่ตัวแฝด
+เพิ่ม x_: ไม่มี (ไม่เจอกฎเหรียญมีมใหม่)
+ตัดทิ้ง: ไม่มีของใหม่

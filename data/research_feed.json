@@ -1,95 +1,5 @@
 [
  {
-  "t": "2026-11-24T10:25:29+07:00",
-  "source": "x",
-  "title": "Dan1ro0: Grok Bot สร้าง Quant Vortex / Quant Kalman บน Polymarket BTC 5 นาที +$174k และ +$476k ใน 128 วัน ชนะ 50 ถึง 51%",
-  "url": "https://x.com/Dan1ro0/status/2124962466140717069",
-  "summary": "โพสต์ยกผลกระเป๋า Polymarket ที่เทรดตลาด BTC 5 นาทีราว 10 ถึง 12 ครั้งต่อชั่วโมง ไม่ให้กฎ บอกแค่ชื่อโมเดล",
-  "verdict": "ไอเดีย",
-  "action": "ไม่มีกฎ แบบใกล้ที่สุด (โมเดลราคา Binance เทียบราคา Up/Down) ทดสอบไปแล้วในฟีด ต้องประวัติไม้ของกระเป๋าทั้งหมดพร้อมเวลาและราคาถึงจะแกะกฎได้"
- },
- {
-  "t": "2026-11-24T12:40:00+07:00",
-  "source": "github",
-  "title": "iralekseev-hub/freqtrade-bybit-bot: SimpleTrendOpt 4 ชม. (EMA9/21 + Supertrend + RSI + MACD + BB กลาง)",
-  "url": "https://github.com/iralekseev-hub/freqtrade-bybit-bot",
-  "summary": "บอท freqtrade บน Bybit futures 3x long+short เลขจาก hyperopt ใน SimpleTrendOpt.json ครบทั้งตัวเข้า ตาราง ROI stop -15.2% trailing และสัญญาณออก รันแบบ dry_run",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "backtest Binance 4 ชม. 2017-2026 หลังหัก 0.35%/ข้าง (แปลงเลข ROI stop trailing เป็นราคาด้วยการหาร 3 ตามเลเวอเรจ): BTC 1,253 ไม้ -0.64% ETH 1,452 ไม้ -0.64% SOL 1,262 ไม้ -0.62% DOGE 1,288 ไม้ -0.70% XRP 1,437 ไม้ -0.74% ต่อไม้ มัธยฐาน +0.5 ถึง +0.6% ชนะ 57-58% ก่อนหักราว 0% ตัวแฝดเข้าสุ่ม -0.60 ถึง -0.69% permutation 200 รอบ p 0.045/0.129/0.040/0.189/0.507 ติดลบทุกปีทุกเหรียญ เปิด fwd_simpletrend.py (5 เหรียญ พร้อมตัวแฝดสุ่ม) test เดินทีละแท่งตรง backtest ETH 48 ไม้ SOL 58 ไม้"
- },
- {
-  "t": "2026-11-24T12:40:00+07:00",
-  "source": "github",
-  "title": "Germoso/freqtrade-strategy-research: EMACrossDet EMA10/20 ตัดกัน + ตัวกรอง EMA200 TP 1.5% SL 2% แท่ง 5 นาที",
-  "url": "https://github.com/Germoso/freqtrade-strategy-research",
-  "summary": "ท่า EMA10 ตัด EMA20 บนแท่ง 5 นาที long+short กรองด้วย EMA200 (แบบปกติและแบบกลับด้าน) ออกที่ TP 1.5% หรือ SL 2% ผลของ repo เองขาดทุนรวม 10 เหรียญ",
-  "verdict": "ลองแล้วตก",
-  "action": "backtest Binance 5 นาที 180 วันล่าสุด หลังหัก 0.35%/ข้าง: ไม่กรอง/กรองปกติ/กลับด้าน BTC -0.66/-0.59/-0.75% ETH -0.76/-0.67/-0.78% SOL -0.67/-0.69/-0.70% LINK -0.76/-0.58/-0.73% ต่อไม้ (159 ถึง 404 ไม้) เข้าสุ่ม -0.68 ถึง -0.74% permutation 200 รอบ (เลือกดีสุดจาก 3 แบบ) p 0.338/0.692/0.756/0.159 ชนะ 55-61% แต่ TP เล็กกว่า SL ต้นทุนกินหมด ไม่เปิดบัญชีเพราะแท่ง 5 นาทีไม่มีใน byttrade.fetch และเท่ากับสุ่ม"
- },
- {
-  "t": "2026-11-24T12:40:00+07:00",
-  "source": "github",
-  "title": "Flexpro23/trading-system: แล็บ paper futures (level, order flow, OI, long/short ratio crowd fade)",
-  "url": "https://github.com/Flexpro23/trading-system",
-  "summary": "แล็บทดสอบที่รายงานผลตรงไปตรงมา level method กับ order flow ตกหมดหลังหักค่าธรรมเนียม มีแค่ crowd fade ของ long/short ratio 24 ชม. ที่ผ่าน PF 1.43/1.32 ช่วงเทรน 1.15 ช่วงกันไว้",
-  "verdict": "ไอเดีย",
-  "action": "crowd fade ต้องมีประวัติ long/short ratio ของ Binance futures ย้อนหลังหลายปี (API สาธารณะให้แค่ 30 วัน) ยังไม่มีในระบบ ไม่ได้ทดสอบ ท่าอื่นใน repo ตกแล้วตามผลของเขาเอง"
- },
- {
-  "t": "2026-11-24T12:40:00+07:00",
-  "source": "github",
-  "title": "VasitoTa77/freqtrade-2026-ai-ml-strategies: FreqAI LightGBM/RL แบบ 'native 64-bit Windows portable'",
-  "url": "https://github.com/VasitoTa77/freqtrade-2026-ai-ml-strategies",
-  "summary": "ใช้คำบรรยายแบบเดียวกับกลุ่ม repo ปลอมที่แจก exe ที่เคยเจอ (MariviPa23, Roger86476) ดาวขึ้นเร็วผิดปกติ",
-  "verdict": "ตัดทิ้ง",
-  "action": "ต้องรันโปรแกรมที่ดาวน์โหลด หน้าตาเหมือนมัลแวร์ ไม่ได้เปิดดูโค้ด"
- },
- {
-  "t": "2026-11-24T12:40:00+07:00",
-  "source": "x",
-  "title": "Sypronus: เดโม Grok Bot 12 เอเจนต์ $10 เป็น $14,382 ใน 24 ชม.",
-  "url": "https://x.com/Sypronus/status/2124969063848009963",
-  "summary": "คลิปแดชบอร์ดเร่งความเร็วของบอท Grok 12 ตัว ไม่มีกฎ ไม่มีกระเป๋าหรือประวัติไม้ให้ตรวจ",
-  "verdict": "ไอเดีย",
-  "action": "ไม่มีกฎหรือกระเป๋าให้ทำเป็นท่ากลไก บอท Grok เฝ้าเหรียญมีมแบบใกล้ที่สุดเปิดไปแล้วเมื่อ 03:33 (6vintik9) จึงไม่เปิดซ้ำ ต้องมีที่อยู่กระเป๋าหรือ log ไม้ถึงจะตรวจได้"
- },
- {
-  "t": "2026-11-24T13:58:00+07:00",
-  "source": "github",
-  "title": "erikunterberger/trendpilot: ทางออกแบบ ATR stop ย้ายไปทุนที่ +1R แล้ว trail 3 ATR (Gemini เลือกหุ้น โค้ดคุมทางออก)",
-  "url": "https://github.com/erikunterberger/trendpilot",
-  "summary": "เอเจนต์ LLM เลือกหุ้นสหรัฐ แต่โค้ดตั้ง stop 1.5 ถึง 2.5 ATR พอถึง +1R ย้าย stop ไปทุนแล้ว trail 2.5 ถึง 3.5 ATR ใต้จุดสูงสุด ถือ 2 สัปดาห์ยังไม่ถึง +0.5R ขายทิ้ง ไม่มีเป้ากำไร",
-  "verdict": "เปิดบัญชีแล้ว",
-  "action": "แทนการเลือกของ LLM ด้วยกฎกลไก ปิดเหนือ SMA50 เหนือ SMA200 RSI14 ต่ำกว่า 75 บน Binance รายวัน 2017-2026 หลังหัก 0.35%/ข้าง BTC 71 ไม้ +2.70% ETH 66 ไม้ +4.05% SOL 53 ไม้ +6.39% BNB 80 ไม้ +8.77% XRP 63 ไม้ +1.78% ต่อไม้ มัธยฐานติดลบเกือบทุกเหรียญ ตัวแฝดเข้าวันสุ่มทางออกเดียวกัน +1.06/+1.47/+6.02/+4.81/+1.31% permutation 200 รอบ p 0.040/0.020/0.065/0.010/0.259 ทบรวมแพ้ถือเฉยๆ ทุกเหรียญยกเว้น ETH ปี 2024-2026 อ่อนลง เปิด fwd_trendpilot.py พร้อมตัวแฝดเข้าวันสุ่ม 1 ใน 25 test เดินทีละแท่งตรง backtest BTC 40 ไม้ ETH 34 ไม้"
- },
- {
-  "t": "2026-11-24T13:58:00+07:00",
-  "source": "x",
-  "title": "tigra_ai: บอท pump.fun ที่ Claude Code เขียน ไม่ซื้อเหรียญใหม่ ซื้อแต่เหรียญที่รอดแล้ว 15 SOL เป็น 168 ใน 9 วัน",
-  "url": "https://x.com/tigra_ai/status/2120825264473022619",
-  "summary": "โพสต์เล่าเรื่องว่าบอทซื้อเฉพาะเหรียญที่รอดมาแล้ว ไม่มีกระเป๋าหรือ log ไม้ให้ตรวจ",
-  "verdict": "เพิ่มแล้ว",
-  "action": "เพิ่ม x_survivor_grad (week) จบ curve แล้ว (launchpad_status 1) อายุ 24 ชม. ถึง 7 วัน pool 50k+ safe up RugCheck stop -20% ขายหมดที่ +50% ถือไม่เกิน 24 ชม. ไม้ละ 10% สูงสุด 5 ตัว cooldown 24 ชม. ตัวเลขทั้งหมดเลือกเอง จดใน note ป้ายยังไม่ยืนยัน"
- },
- {
-  "t": "2026-11-24T13:58:00+07:00",
-  "source": "github",
-  "title": "Rahulboss7788/btc-race-24h-20261123-0511-bindu: DipSnap (บอทแข่ง make.fun)",
-  "url": "https://github.com/Rahulboss7788/btc-race-24h-20261123-0511-bindu",
-  "summary": "แท่ง 1 นาที ซื้อ 70% เมื่อต่ำกว่าจุดสูงสุด 240 แท่ง 1.25% และ z-score ไม่เกิน -1 ย่อถึง 2% เติมเป็น 100% ออกที่ z +1, +1.2%, -2% หรือครบ 360 แท่ง",
-  "verdict": "ลองแล้วตก",
-  "action": "ย้ายไปแท่ง 15 นาที (16 แท่ง ถือไม่เกิน 24 แท่ง) 2 ปีล่าสุด หลังหัก 0.35%/ข้าง BTC 751 ไม้ -0.66% ETH 1,388 ไม้ -0.64% SOL 1,760 ไม้ -0.63% ต่อไม้ ก่อนหักราว +0.05% ตัวแฝดเข้าสุ่ม -0.67 ถึง -0.69% permutation 200 รอบ p 0.572/0.746/0.652 เท่ากับสุ่ม ไม่เปิดบัญชีเพราะต้นทุนกินหมดและซ้ำตระกูลช้อนย่อของบอทแข่งที่ลองแล้ว"
- },
- {
-  "t": "2026-11-24T13:58:00+07:00",
-  "source": "x",
-  "title": "phonezxc: บอท trench ซื้อเหรียญใหม่ทันทีหลังผู้สร้างซื้อ ขายใน 1 นาที (ล้างพอร์ต)",
-  "url": "https://x.com/phonezxc/status/2119962443384545679",
-  "summary": "ทดลองซื้อตามการซื้อของผู้สร้างเหรียญบน pump.fun แล้วออกภายใน 1 นาที เจ้าตัวบอกว่าเสียหมด",
-  "verdict": "ไอเดีย",
-  "action": "ต้องมีข้อมูลการซื้อของผู้สร้างตอนเปิดเหรียญรายวินาที ซึ่ง rank_hist ไม่มี ท่าใกล้เคียงคือ x_snipe_30_30 ที่รันอยู่แล้ว"
- },
- {
   "t": "2026-11-24T13:58:00+07:00",
   "source": "x",
   "title": "theplotthick: ให้ AI ทำงานตรวจ ไม่ใช่หา edge (log ไม้ที่ผิดกฎ, monte carlo, เทียบ fill จริงกับ paper)",
@@ -2698,5 +2608,95 @@
   "summary": "งานวิจัยเดือน พ.ย. 69 ใช้เอเจนต์ LLM หลายตัวที่ทบทวนตัวเองจากผลตลาด ทดสอบ 5 seed ทุนเริ่ม 1 ล้านดอลลาร์ ไม่ชัดว่าหักค่าธรรมเนียมอย่างไร",
   "verdict": "ไอเดีย",
   "action": "ไม่ใช่กฎกลไก ต้องเรียก LLM ทุกแท่งและข้อมูลข่าว ไม่ทดสอบ งานทบทวน 2606.08285 ที่เจอคู่กันบอกว่างานแนวนี้มักไม่คิดค่าธรรมเนียม"
+ },
+ {
+  "t": "2026-11-28T16:25:00+07:00",
+  "source": "github",
+  "title": "lovgolf/honest-crypto-backtester: breakout_trend ทะลุ high 20 แท่งเหนือ EMA100 stop 2 ATR เป้า 4 ATR ถือ 48 แท่ง",
+  "url": "https://github.com/lovgolf/honest-crypto-backtester",
+  "summary": "เครื่อง backtest ที่ตั้งใจคิดต้นทุนเข้มกว่าตลาดจริง ตัวอย่างบน SOL 1 ชม. บอกเองว่าไม่มีต้นทุนได้ +$388 พอคิดต้นทุนเหลือ -$362",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "เขียนกฎใหม่เอง (ไม่รันโค้ด repo) Binance 1h 2017 ถึง 28 พ.ย. 69 หลังหัก 0.35%/ข้าง BTC 1318 ไม้ -0.50% ต่อไม้ ETH 1336 ไม้ -0.54% SOL 923 ไม้ -0.50% ชนะ 37% มัธยฐาน -1.5 ถึง -2.4% ติดลบเกือบทุกปี ตัวแฝดเข้าสุ่มเหนือ EMA100 -0.58/-0.57/-0.62% ก่อนหัก +0.20/+0.16/+0.20% permutation 200 รอบทั้งกริด 9 แบบ (lookback 10/20/40 x EMA 50/100/200) p 0.010/0.010/0.124 แรงทะลุมีจริงบน BTC ETH แต่เล็กกว่าค่าธรรมเนียมไปกลับ 0.7% เปิด fwd_honestbrk.py (BTC ETH SOL ไม้ละ 1 ใน 3 ทุน ตัวแฝดสุ่ม 1 ใน 38 แท่ง) test เดินทีละแท่งตรง backtest 35 ไม้"
+ },
+ {
+  "t": "2026-11-28T16:25:00+07:00",
+  "source": "github",
+  "title": "rubenx1303/crypto-backtesting: D3 Donchian 100 วัน +1% กรอง SMA100 stop 4 ATR trailing 6 ATR",
+  "url": "https://github.com/rubenx1303/crypto-backtesting",
+  "summary": "โปรเจกต์ภาษาสเปน backtest และ paper trade บนคู่ EUR ของ Bitvavo เทียบหลายตระกูลแล้วแช่แข็งท่า D3 ไว้ ถือสูงสุด 2 ตำแหน่ง เสี่ยง 1% ต่อไม้",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "เขียนกฎใหม่เอง (ไม่รันโค้ด repo) Binance 1d เหรียญ CORE 8 ตัว 2017 ถึง 28 พ.ย. 69 หลังหัก 0.35%/ข้าง รวม 80 ไม้ เฉลี่ย +37.2% ต่อไม้ มัธยฐาน -7.2% ชนะ 40% CI +13.9 ถึง +65.5% ปี 2025 -6.6% (8 ไม้) 2026 -13.6% (6 ไม้) ตัวแฝดเข้าสุ่มเหนือ SMA100 มัธยฐาน +19.1% กริด buffer x trailing 9 แบบบวกทุกแบบ +32 ถึง +48% permutation 200 รอบ BTC p 0.070 ETH p 0.085 SOL p 0.045 ไม่ผ่าน ผลส่วนใหญ่มาจากขาขึ้นใหญ่ 2020 ถึง 2021 เปิด fwd_d3trail.py (8 เหรียญ ไม้ละ 1 ใน 8 ทุน ไม่จำกัด 2 ตำแหน่งแบบ repo) test เดินทีละแท่งตรง backtest 22 ไม้"
+ },
+ {
+  "t": "2026-11-28T16:25:00+07:00",
+  "source": "github",
+  "title": "กลุ่ม repo ใหม่ 22 ถึง 28 พ.ย. ที่ไม่มีกฎใหม่ให้ทดสอบ (username12389/rulesfirst-engine, AhmadEblagh205/algo-trading-bot, abdullahscodesite/trading-dashboard, Ali172981/MarketMind-AI)",
+  "url": "https://github.com/username12389/rulesfirst-engine",
+  "summary": "rulesfirst ลงทะเบียนล่วงหน้า 31 การทดสอบ ผ่าน 1 (มีบทความ Substack), AhmadEblagh205 ทดสอบ SMA ตัดกันและ RSI บนข้อมูลจำลองแล้วถือเฉยๆ ชนะ ที่เหลือเป็นแดชบอร์ด",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎใหม่บนราคาจริง ถ้าจะใช้ต่อต้องอ่านบทความ rulesfirst ว่าท่าเดียวที่ผ่านคืออะไร (ต้องเปิดหน้า Substack รอบหน้า)"
+ },
+ {
+  "t": "2026-11-28T16:25:00+07:00",
+  "source": "github",
+  "title": "กลุ่ม repo บอท sniper เหรียญมีมไฟล์ Windows 22 ถึง 28 พ.ย. (EconomicDemolish/blackwave-trading-bot 24 ดาว, venmo278/Memecoin-sniper-bot, ds2026-creator/solana-memecoin-trading-bot, VilTools/VilTools-Memecoin)",
+  "url": "https://github.com/EconomicDemolish/blackwave-trading-bot",
+  "summary": "บอท sniper แบบโปรแกรม Windows ใส่ RPC และกระเป๋า ดาวขึ้นเร็วผิดปกติ หน้าตาเหมือน repo ปล่อยมัลแวร์ชุดก่อนๆ",
+  "verdict": "ตัดทิ้ง",
+  "action": "ต้องรันโปรแกรมที่ดาวน์โหลดและใส่กระเป๋า ไม่ได้เปิดอ่านโค้ด"
+ },
+ {
+  "t": "2026-11-28T16:25:00+07:00",
+  "source": "x",
+  "title": "ค้น X 3 ครั้งรอบ 16:14 (ai trading agent backtest rules, memecoin bot rules take profit stop loss, btc strategy tested 4h win rate profit factor) และคำค้นไทยไม่ได้ผล",
+  "url": "https://x.com/search?q=ai%20trading%20agent%20backtest%20rules",
+  "summary": "ส่วนใหญ่เป็นโพสต์โปรโมต FensoryApp และ Travix ที่ไม่ให้กฎ quantlabs เล่าว่าให้เอเจนต์จัดอันดับบอท futures 25 ตัว 24 ตัวไม่เคยเข้าไม้ใน backtest ตัวที่เข้าก็ขาดทุน s1rozha_ (15 ส.ค.) ลอง 3 ท่า BTC รายชั่วโมงตกหมดแล้วหันไปทะลุรายวัน",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎใหม่ให้ทดสอบ โพสต์ s1rozha_ เปิดอ่านต่อไม่ได้ (X ตอบ 402) แนวทะลุรายวันมี fwd_don20atr fwd_brk30 และ fwd_d3trail ที่เปิดรอบนี้แล้ว ข้อเตือนของ quantlabs ตรงกับที่เราทำอยู่คือดูจำนวนไม้ก่อนกำไร"
+ },
+ {
+  "t": "2026-11-28T16:25:00+07:00",
+  "source": "web",
+  "title": "ค้นเว็บงาน arXiv และวารสารเรื่องกฎเทรด BTC รายชั่วโมงหรือรายวันหลังหักต้นทุน เดือน พ.ย. 69",
+  "url": "https://arxiv.org/pdf/2602.11708.pdf",
+  "summary": "ไม่เจองานใหม่ของเดือนนี้ ได้แต่งานเรื่องผลวันในสัปดาห์และชั่วโมงของ BTC ปี 2019 ถึง 2022 และ AdaptiveTrend กับ 2602.10785 ที่ลงฟีดแล้ว",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีอะไรใหม่ ผลวันและชั่วโมงมีบัญชี fwd_monhour fwd_hour21 fwd_weekend อยู่แล้ว"
+ },
+ {
+  "source": "github",
+  "title": "tiagocosta1234/ema-futures-study: S06 Triple EMA 12/26/50 ท่าเดียวจาก 12 ท่าที่ผ่านเกณฑ์ลงทะเบียนล่วงหน้าบน futures 13 ตัว",
+  "url": "https://github.com/tiagocosta1234/ema-futures-study",
+  "summary": "งานทดสอบท่า EMA 12 ท่าบน futures รายวัน 2001 ถึง 2026 ตั้งเกณฑ์ผ่านไว้ก่อน มีแค่ Triple EMA (EMA12 > EMA26 > EMA50 เข้า, EMA12 ตัดลง EMA26 ออก, stop 3 ATR, สวนทางได้) ที่ผ่านแบบเฉียดฉิว Sharpe 0.35 และผู้เขียนบอกเองว่าแก้ข้อมูลหลังเห็นผล",
+  "verdict": "ทดสอบแล้ว",
+  "action": "เขียนกฎใหม่เอง (ไม่รันโค้ด repo) Binance รายวันถึง 27 พ.ย. 69 หลังหัก 0.35%/ข้าง n12 long และ short: BTC 70 ไม้ +9.2% ต่อไม้ มัธยฐาน -3.0% ชนะ 41% CI -0.0 ถึง +21.8% ETH 63 ไม้ +8.0% SOL 48 ไม้ +26.3% ขา short แทบศูนย์ (BTC +0.1% ETH +4.6% SOL +1.7%) ปี 2025 ถึง 2026 BTC -0.3/+1.0% ตัวแฝดเข้าสุ่มออกแบบเดียวกัน 20 รอบมัธยฐาน +8.1/+6.6/+24.1% เกือบเท่ากฎ และรุ่น long อย่างเดียวแพ้ตัวแฝดทั้ง 3 เหรียญ (BTC +21.4 เทียบ +23.6, ETH +11.2 เทียบ +18.2, SOL +53.0 เทียบ +56.2) permutation 200 รอบทั้งกริด n 8/10/12/20/50 x long-only/long-short ก่อนหัก p BTC 0.050 ETH 0.030 SOL 0.070 ผลมาจากตัวออกที่ถือตามเทรนด์ ไม่ใช่จุดเข้า ไม่เปิดบัญชีรอบนี้เพราะโควตา fwd 2 ไฟล์ใช้กับ fwd_honestbrk และ fwd_d3trail แล้ว ถ้าจะลองให้เปิด fwd_tripleema รายวัน BTC ETH SOL long-short n12 คู่ตัวแฝดเข้าสุ่ม 1 ใน 30 แท่ง สคริปต์ /tmp/scout_1755/bt.py",
+  "t": "2026-11-28T18:00:00+07:00"
+ },
+ {
+  "source": "x",
+  "title": "ค้น X รอบ 17:55 claude trading bot results (Hordak0x, frontier_rat_, DeFi_Blub ใหม่ ที่เหลือลงฟีดแล้ว)",
+  "url": "https://x.com/search?q=claude%20trading%20bot%20results",
+  "summary": "Hordak0x ขายพรอมต์ให้ Claude สร้างบอทจากชื่อเหรียญกับทุนเริ่มต้น frontier_rat_ เล่ามุกบั๊กทศนิยม USDC DeFi_Blub เตือนว่าโพสต์ทำ $5k ข้ามคืนด้วยพรอมต์เดียวคือการฟาร์มยอด ไม่มีใครให้กฎเข้าออก",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎที่สคริปต์ตัดสินได้ ไม่มีประวัติไม้ ไม่ได้เพิ่มหรือทดสอบ",
+  "t": "2026-11-28T18:00:00+07:00"
+ },
+ {
+  "source": "x",
+  "title": "ค้น X รอบ 17:55 hyperliquid bot strategy backtest (AvberEth, Quantronee, xhakill_ ใหม่ ที่เหลือเป็น Fensory กับ 0xJamino ซ้ำ)",
+  "url": "https://x.com/search?q=hyperliquid%20bot%20strategy%20backtest",
+  "summary": "ส่วนใหญ่ยังเป็นโพสต์โปรโมต FensoryApp และโพสต์บอท Grok $500 เป็น $10k ของ 0xJamino ชุดเดิม Quantronee แนะนำ NautilusTrader เป็นเครื่องยนต์ ไม่ใช่ท่าเทรด",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎใหม่ให้ทดสอบ โพสต์ 0xJamino ตัดสินไปแล้วในรอบก่อน (ภาพกำไรไม่นับเป็นหลักฐาน)",
+  "t": "2026-11-28T18:00:00+07:00"
+ },
+ {
+  "source": "web",
+  "title": "ค้นเว็บงาน arXiv เดือน พ.ย. 69 เรื่องรูปแบบรายชั่วโมงของคริปโตหลังหักต้นทุน",
+  "url": "https://arxiv.org/abs/2602.10785",
+  "summary": "ไม่เจองานใหม่ของเดือนนี้ ได้แต่ 2602.10785 งาน MDPI แบ่งช่วงซื้อขายรายวัน และงาน tea time ที่ลงฟีดแล้ว",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีอะไรใหม่ ผลรายชั่วโมงมีบัญชี fwd_monhour fwd_hour21 อยู่แล้ว",
+  "t": "2026-11-28T18:00:00+07:00"
  }
 ]
