@@ -1,60 +1,6 @@
 [
  {
   "t": "2026-11-24T10:25:29+07:00",
-  "source": "github",
-  "title": "bruce-quant/hsw-stock-bot: Steady (หมุน ETF 3 ตัวแข็งสุดรายเดือน หลบไป SHY เมื่อ SPY แพ้)",
-  "url": "https://github.com/bruce-quant/hsw-stock-bot",
-  "summary": "วันแรกของเดือนเลือก 3 ใน 15 ETF ที่ผลตอบแทนเฉลี่ย 3/6/12 เดือนสูงสุด ถ้า SPY แพ้ SHY ถือ SHY ทั้งหมด repo รายงาน 7.7% ต่อปี เทียบ SPY 10.3% แต่ drawdown -31% เทียบ -55%",
-  "verdict": "ทดสอบแล้ว",
-  "action": "backtest Yahoo 2002-2026 ต้นทุน 0.05%/ข้าง: 8.3% ต่อปี เทียบ SPY 10.9% drawdown -32.8% เทียบ -55.2% ตั้งแต่ 2015 6.5% เทียบ 12.9% สุ่มเลือก 3 ตัวรายเดือน มัธยฐาน 6.9% (ชนะ Steady 7 จาก 50) permutation 200 รอบ (สลับแท่งทุก ETF) p 0.224 ไม่ผ่าน forward ที่เหมาะคือบัญชีกระดาษ ETF สหรัฐรายเดือนผ่าน Yahoo แต่ byttrade.fetch ดึงได้แค่ Binance จึงยังไม่เปิด สคริปต์ /tmp/scout_1015/steady.py"
- },
- {
-  "t": "2026-11-24T10:25:29+07:00",
-  "source": "web",
-  "title": "Quantpedia / Josh Molnar: Bitcoin Runs on a Clock (นาฬิกา halving)",
-  "url": "https://quantpedia.com/bitcoin-runs-on-a-clock-why-every-price-indicator-dies-and-the-halving-clock-doesnt/",
-  "summary": "เปเปอร์ SSRN อ้างว่าจุดสูงสุดของรอบมาที่ 525/546/534 วันหลัง halving และจุดต่ำสุด 364 ถึง 406 วันหลังจุดสูงสุด ตัวชี้วัดราคาอื่นเสื่อมหมดแต่นาฬิกาไม่เสื่อม หน้าต่างก้นรอบล่วงหน้า 5 ต.ค. ถึง 16 พ.ย. 69",
-  "verdict": "ทดสอบแล้ว",
-  "action": "แบบกลไก: ถือ BTC ยกเว้นวันที่ 535 ถึง 905 หลัง halving (เลขกลางที่เลือกเองจากเปเปอร์) Binance 1d 2017-2026 หลังหัก 0.35%/ข้าง x263 เทียบถือเฉยๆ x14.4 drawdown -63% เทียบ -83% 3 ปีล่าสุด x2.37 เทียบ x1.64 permutation p 0.005 แต่ใช้ไม่ได้เพราะเลข 535/370 ถูกวัดจากจุดกลับตัวของข้อมูลชุดนี้เอง มีแค่ 3 รอบออก และไม้ล่าสุดเข้า 13 ต.ค. 69 ที่ 81,850 ตอนนี้ -25.7% forward ของท่านี้คือถือ BTC ไปจนราว ก.ย. 2572 ซ้ำกับตัวเทียบถือ BTC เฉยๆ ที่มีอยู่ จึงไม่เปิดบัญชีใหม่ สคริปต์ /tmp/scout_1015/bt.py clock"
- },
- {
-  "t": "2026-11-24T10:25:29+07:00",
-  "source": "github",
-  "title": "irisgong0522/xauusdt-strategy-backtest: z-score ส่วนต่าง Binance XAUUSDT กับ COMEX ทอง 1 นาที",
-  "url": "https://github.com/irisgong0522/xauusdt-strategy-backtest",
-  "summary": "เข้าสวนเมื่อ z-score ส่วนต่างราคาทองสองตลาด (หน้าต่าง 120 จุด) เกินเกณฑ์ ทดสอบแค่ 720 นาทีในคืนเดียว 10 ถึง 11 พ.ย. 69",
-  "verdict": "ไอเดีย",
-  "action": "ต้องข้อมูล COMEX GC 1 นาทีย้อนหลังหลายเดือน (Yahoo ให้แค่ 7 วัน) และการเทรดสองขาพร้อมกัน ตัวอย่าง 720 จุดสั้นเกินจะตัดสินอะไรได้"
- },
- {
-  "t": "2026-11-24T10:25:29+07:00",
-  "source": "github",
-  "title": "kimanicollier44-cmyk/omni-agent-traderx: agent Monad รวม 8 โปรเจกต์ (x402, BEAR token, Coinbase, Reddit bot)",
-  "url": "https://github.com/kimanicollier44-cmyk/omni-agent-traderx",
-  "summary": "รวมโค้ดหลายโปรเจกต์ไว้ในไฟล์เดียว ทางที่ใช้งานจริงต้องใส่ credential ของ Coinbase, wallet Monad และ Reddit สัญญาณมาจากดัชนีความรู้สึก NSI ไม่มีกฎราคาที่อ่านได้",
-  "verdict": "ตัดทิ้ง",
-  "action": "ต้องรันโค้ดที่ดาวน์โหลดพร้อม credential กระเป๋าและบัญชี โพสต์ Reddit ได้จริง ไม่มีกฎบนแท่งราคาให้ลองแทน"
- },
- {
-  "t": "2026-11-24T10:25:29+07:00",
-  "source": "github",
-  "title": "pumpstrikerdev/pumpstriker-bot: บอท Telegram เทรดเหรียญมีม Solana แบบรันเอง",
-  "url": "https://github.com/pumpstrikerdev/pumpstriker-bot",
-  "summary": "บอท self-hosted ที่ต้องใส่ private key ของกระเป๋าเอง ไม่มีกฎเข้าออกในคำอธิบาย",
-  "verdict": "ตัดทิ้ง",
-  "action": "ต้องใช้ private key และรันโค้ดที่ดาวน์โหลด"
- },
- {
-  "t": "2026-11-24T10:25:29+07:00",
-  "source": "x",
-  "title": "0xKorens: บอท Polymarket BTC Up or Down 5/15 นาที ชนะ 50.0% (21,780 ต่อ 21,773) ยังบวก $117,532 เพราะซื้อทั้งสองฝั่ง",
-  "url": "https://x.com/0xKorens/status/2124838313294987353",
-  "summary": "อ้างว่าบอทไม่เดาทิศ แต่ซื้อ YES และ NO ของตลาดเดียวกันเมื่อรวมกันถูกกว่า 1 ดอลลาร์ เฉพาะตลาด 5 และ 15 นาที",
-  "verdict": "ไอเดีย",
-  "action": "ไอเดียเดียวกับรายการ order book สองฝั่งที่อยู่ในฟีดแล้ว ต้องข้อมูล ask ของทั้งสองฝั่งรายวินาทีย้อนหลัง prices-history ให้แค่ราคาซื้อขายล่าสุดซึ่งใช้วัดช่องว่างจริงไม่ได้"
- },
- {
-  "t": "2026-11-24T10:25:29+07:00",
   "source": "x",
   "title": "Dan1ro0: Grok Bot สร้าง Quant Vortex / Quant Kalman บน Polymarket BTC 5 นาที +$174k และ +$476k ใน 128 วัน ชนะ 50 ถึง 51%",
   "url": "https://x.com/Dan1ro0/status/2124962466140717069",
@@ -2698,5 +2644,59 @@
   "summary": "คำค้นไทยได้แต่บอทกดบัตรและเทรดของสะสม ไม่เกี่ยวการเงิน คำค้นอังกฤษเจอ offjayurena (Polymarket paper) กับ 6vintik9 ($600 เป็น $41,760) ซึ่งลงบันทึกแล้ว และ prompt ของ 0xJamino ที่ให้ประกอบ repo",
   "verdict": "ไอเดีย",
   "action": "ไม่มีกฎใหม่ให้เพิ่ม ไม่เปิดลิงก์ prompt ที่ให้ติดตั้งโค้ด"
+ },
+ {
+  "t": "2026-11-28T14:42:00+07:00",
+  "source": "github",
+  "title": "strategyverdict/strategy-verdict-backtests: 20 Candle Strategy ของ Neeraj Joshi (BTC 4 ชม.)",
+  "url": "https://github.com/strategyverdict/strategy-verdict-backtests/tree/main/20-candle-swing-neeraj-joshi",
+  "summary": "ช่อง YouTube ที่ทดสอบท่าจากคลิปแบบลงทะเบียนกฎก่อน ท่านี้ปิดทะลุ high/low 20 แท่งก่อนตามฝั่ง EMA200 stop 2.5 ATR แล้ว trail 3 ATR ไม่มีเป้า ทีมนั้นได้ 346 ไม้ หลังหัก +0.175R PF 1.45 นอกตัวอย่าง 2024+ PF 1.24 ยังไม่ตัดสิน",
+  "verdict": "เปิดบัญชีแล้ว",
+  "action": "backtest เองด้วยโค้ดที่เขียนใหม่ (ไม่รันโค้ด repo) Binance spot 4h ตั้งแต่เหรียญเข้าถึง 28 พ.ย. 69 หลังหัก 0.35%/ข้าง: BTC 468 ไม้ ก่อนหัก +0.89% หลังหัก +0.19% มัธยฐาน -1.54% ชนะ 35% CI -0.39 ถึง +0.76 ปี 2024+ -0.29% (2025 -0.45 2026 -0.53) long +0.60% short -0.27%; ETH 483 ไม้ +0.20% ปี 2024+ -0.00%; SOL 340 ไม้ -0.11% ปี 2024+ -0.57% ตัวแฝดเข้าสุ่ม 20 รอบมัธยฐาน -0.00/+0.33/-0.17% ปรับ stop 2 หรือ 3 ATR และกรอบ 15 หรือ 25 แท่ง BTC ETH ยังบวกเล็กน้อย SOL ลบทุกแบบ permutation 200 รอบก่อนหัก p 0.005/0.005/0.075 คือมีแรงตามเทรนด์จริงแต่ค่าธรรมเนียมกินเกือบหมดและช่วงหลังติดลบ เปิด fwd_c20swing.py (BTC ETH SOL ไม้ละ 1 ใน 3 ทุน ตัวแฝดเข้าแท่งสุ่มฝั่ง EMA200) test เดินทีละแท่งตรง backtest 23 ไม้ สคริปต์ /tmp/scout_1436/bt.py"
+ },
+ {
+  "t": "2026-11-28T14:42:00+07:00",
+  "source": "x",
+  "title": "goatyishere: บอท Polymarket BTC 5 นาที ซื้อฝั่ง Up/Down ราคา 36 เซนต์ขึ้นไป อ้าง $275K",
+  "url": "https://x.com/goatyishere/status/2126339813859033124",
+  "summary": "โพสต์อ้างว่าบอท pbot-6 เทรดตลาด BTC 5 นาที 125,969 ตลาดตั้งแต่มีนาคม ได้ $275K โดยซื้อสัญญาที่ราคาราว 36 เซนต์ ข้อความถูกตัดก่อนถึงกฎครบ และพาไปลิงก์ poly.market",
+  "verdict": "ไอเดีย",
+  "action": "ไม่เปิดบัญชีใหม่ ต้องประวัติ taker trade ของตลาด 5 นาทีย้อนหลังเพื่อทดสอบแถบราคา 36 เซนต์ขึ้นไป ใกล้กับที่ ud5late.py ทดสอบแล้ว (แถบ 0.20 ถึง 0.35 ขาดทุน 6 ถึง 23% หลังค่าธรรมเนียม) และ ud5late ซื้อตัวเต็งนาทีสุดท้ายรันอยู่แล้ว"
+ },
+ {
+  "t": "2026-11-28T14:42:00+07:00",
+  "source": "x",
+  "title": "FrankFMY: ตรวจโพสต์ \"Gave Grok Bot $80 ตื่นมาได้ $5,432\"",
+  "url": "https://x.com/FrankFMY/status/2126004440088158575",
+  "summary": "สรุปการสืบที่นับได้ 111 โพสต์จาก 80 บัญชี ราว 2 ล้านวิว 11 ต.ค. ถึง 3 พ.ย. ข้อความเหมือนกันทุกคำ ใช้คลิปซ้ำ และลิงก์ referral ชุดเดียวกัน เป็นหลักฐานว่าโพสต์ Grok Bot ข้ามคืนส่วนใหญ่เป็นแคมเปญโฆษณา",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎให้ทดสอบ ใช้เป็นข้อมูลประกอบ: คำโม้ Grok Bot ข้ามคืนที่ลงฟีดก่อนหน้าไม่ควรนับเป็นหลักฐาน ท่า x_ ที่มาจากโพสต์แบบนี้ให้ดูผล zoo เท่านั้น"
+ },
+ {
+  "t": "2026-11-28T14:42:00+07:00",
+  "source": "x",
+  "title": "ค้น X 4 ครั้งรอบ 14:36 (memecoin strategy rules backtest, polymarket bot strategy, เทรดเหรียญมีม, bot backtest profit factor rules crypto)",
+  "url": "https://x.com/search?q=polymarket%20bot%20strategy",
+  "summary": "ได้โพสต์ใหม่เรื่อง Polymarket หลายโพสต์ (forceblanche อ้างชนะ 99.2% 1,500 เป็น 895,000 USDT, 2xnmore ซื้อทั้งสองฝั่งรวมต่ำกว่า $1, JeffWhiting8338 ตัวกันขาดทุนนาทีสุดท้าย, iqtauhid ลงฟีดแล้ว) คำค้นไทยได้แต่โพสต์ปี 2023 ถึง 2024 คำค้น backtest ได้ DaviddDotTech ที่ลงแล้ว",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีกฎตัวเลขครบ การซื้อสองฝั่งรวมต่ำกว่า $1 มี poly_arb.py ทำอยู่แล้ว คำโม้ชนะ 99.2% ไม่มีกฎหรือประวัติไม้ให้ตรวจ"
+ },
+ {
+  "t": "2026-11-28T14:42:00+07:00",
+  "source": "github",
+  "title": "กลุ่ม repo ใหม่ 21 ถึง 28 พ.ย. ที่ไม่มีกฎให้ทดสอบ (roan-maverick/ai-trading-strategy-agents, AidarShymbolat01/backtest-overfitting, clearfills, vijaygopalbalasa/guardrail, maxmoneycash/hlp-cli, ainstarc/nse-strategy-lab)",
+  "url": "https://github.com/AidarShymbolat01/backtest-overfitting",
+  "summary": "roan-maverick เป็นโครงฝูงเอเจนต์ LLM หาท่าเองแล้วเก็บตัว Sharpe สูง (ไม่มีท่าตายตัว) backtest-overfitting เป็นงานจำลองว่าเลือกท่าดีสุดจาก N ท่าที่ไม่มี edge เลย N 100 ได้ Sharpe ในตัวอย่าง 2.5 นอกตัวอย่าง 0 ที่เหลือเป็นเครื่องมือคุมความเสี่ยงหรือ MCP และท่าหุ้นอินเดีย",
+  "verdict": "ไอเดีย",
+  "action": "ไม่มีท่าให้ทดสอบบนแท่ง Binance งาน backtest-overfitting ยืนยันว่าบัญชี fwd กว่า 110 บัญชีของเราจะมีตัวที่ดูดีเพราะโชค ตอนตัดสินควรใช้ DSR ตามจำนวนบัญชีทั้งหมด ไม่ได้รันโค้ด repo ไหน"
+ },
+ {
+  "t": "2026-11-28T14:42:00+07:00",
+  "source": "web",
+  "title": "Agent4Crypto: ระบบ LLM หลายเอเจนต์สะท้อนผลตลาดสำหรับเทรดคริปโต (arXiv 2611.12269)",
+  "url": "https://arxiv.org/pdf/2611.12269",
+  "summary": "งานวิจัยเดือน พ.ย. 69 ใช้เอเจนต์ LLM หลายตัวที่ทบทวนตัวเองจากผลตลาด ทดสอบ 5 seed ทุนเริ่ม 1 ล้านดอลลาร์ ไม่ชัดว่าหักค่าธรรมเนียมอย่างไร",
+  "verdict": "ไอเดีย",
+  "action": "ไม่ใช่กฎกลไก ต้องเรียก LLM ทุกแท่งและข้อมูลข่าว ไม่ทดสอบ งานทบทวน 2606.08285 ที่เจอคู่กันบอกว่างานแนวนี้มักไม่คิดค่าธรรมเนียม"
  }
 ]

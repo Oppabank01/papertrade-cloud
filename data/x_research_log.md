@@ -1143,3 +1143,17 @@ zoo import ไม่มี skip และ test_zoo.py ผ่าน
 เพิ่ม x_: ไม่มี (รอบนี้ไม่มีกฎเหรียญมีมใหม่)
 ไอเดีย: ตัวที่ runningshark ยังไม่ตัดสิน (Pi cycle, รอบ halving, ตุลาคมขึ้น, MVRV ต้องข้อมูล on-chain หรือได้ไม่กี่ไม้ต่อปี), X4 funding 7 วันข้ามเหรียญ (ต้องประวัติ funding หลายเหรียญ), prediction-market-bot (ต้องราคาตลาดทายผล)
 ตัดทิ้ง: ไม่มี
+
+## 2026-11-28 14:42 (scout)
+ค้น: GitHub repo ใหม่ (mcp trading ตั้งแต่ 21 พ.ย., quant agent ตั้งแต่ 21 พ.ย., trading strategy backtest ตั้งแต่ 24 พ.ย.), X 4 ครั้ง (memecoin strategy rules backtest, polymarket bot strategy, เทรดเหรียญมีม, bot backtest profit factor rules crypto), เว็บ 1 ครั้ง (งาน arXiv เดือน พ.ย. เรื่องเอเจนต์ LLM เทรดคริปโตกับค่าธรรมเนียม)
+เจอ: strategyverdict/strategy-verdict-backtests (ช่อง YouTube ที่ลงทะเบียนกฎจากคลิปก่อนทดสอบ 19 ท่า ตกเกือบหมด), goatyishere บอท Polymarket BTC 5 นาทีซื้อราว 36 เซนต์ อ้าง $275K, FrankFMY สรุปว่าโพสต์ Grok Bot $80 เป็น $5,432 มาจาก 80 บัญชี 111 โพสต์ข้อความเดียวกันพร้อม referral, forceblanche อ้างบอท Polymarket ชนะ 99.2%, Agent4Crypto (arXiv 2611.12269), AidarShymbolat01/backtest-overfitting, roan-maverick ฝูงเอเจนต์ LLM คำค้นไทยได้แต่โพสต์ปี 2023 ถึง 2024
+ทดสอบ 20 Candle Strategy ของ Neeraj Joshi ตามกฎที่ strategyverdict ล็อกไว้ (เขียนเอง ไม่รันโค้ด repo): ปิดทะลุ high 20 แท่งก่อนและเหนือ EMA200 long, ทะลุ low และใต้ EMA200 short, เข้าเปิดแท่งถัดไป stop 2.5 ATR14 แล้ว trail จากจุดสุดตั้งแต่เข้า 3 ATR ไม่มีเป้า Binance spot 4 ชม. ตั้งแต่เหรียญเข้าถึง 28 พ.ย. 69 หัก 0.35%/ข้าง
+- BTC 468 ไม้ ก่อนหัก +0.89% หลังหัก +0.19% มัธยฐาน -1.54% ชนะ 35% CI -0.39 ถึง +0.76 ปี 2024+ 157 ไม้ -0.29% (2025 -0.45 2026 -0.53) long +0.60% short -0.27%
+- ETH 483 ไม้ หลังหัก +0.20% ปี 2024+ -0.00% SOL 340 ไม้ -0.11% ปี 2024+ -0.57%
+- ตัวแฝดเข้าแท่งสุ่มฝั่ง EMA200 ออกแบบเดียวกัน 20 รอบ มัธยฐาน -0.00/+0.33/-0.17%
+- ขยับ stop 2 หรือ 3 ATR และกรอบ 15 หรือ 25 แท่ง BTC ETH ยังบวก +0.08 ถึง +0.48% SOL ลบทุกแบบ
+- permutation 200 รอบก่อนหัก BTC p 0.005 ETH p 0.005 SOL p 0.075 แปลว่าแรงตามเทรนด์มีจริงบน BTC ETH แต่ค่าธรรมเนียมกินเกือบหมด และตั้งแต่ปี 2024 ติดลบ
+เปิดบัญชี: fwd_c20swing.py (BTC ETH SOL ไม้ละ 1 ใน 3 ทุน long และ short ตัวแฝดเข้าแท่งสุ่ม 1 ใน 30 ฝั่งตาม EMA200) test เดินทีละแท่งตรง backtest 23 ไม้ สคริปต์ /tmp/scout_1436/bt.py
+เพิ่ม x_: ไม่มี (รอบนี้ไม่เจอกฎเหรียญมีมใหม่)
+ไอเดีย: แถบราคา 36 เซนต์ขึ้นไปของตลาด Polymarket 5 นาที (ต้องประวัติ taker trade ใกล้กับที่ ud5late ทดสอบแล้ว), Agent4Crypto (ต้องเรียก LLM ทุกแท่ง), backtest-overfitting (เตือนว่าบัญชีที่ดูดีในกว่า 110 บัญชีอาจมาจากโชค ให้ตัดสินด้วย DSR)
+ตัดทิ้ง: ไม่มี
