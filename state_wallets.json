@@ -1,23 +1,8 @@
 {
  "start_thb": 500.0,
  "start_usd": 14.779781259237364,
- "cash": 2.9402196321773864,
- "pos": {
-  "DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF": {
-   "sym": "DJT",
-   "qty": 0.1810026070519353,
-   "entry": 3.94,
-   "last": 3.88,
-   "peak": 3.94,
-   "cost": 0.7350549080443467,
-   "opened": "2026-11-28T12:47:56+07:00",
-   "wallet": "ENskGQ",
-   "wallet_usd": 229,
-   "lag_min": 1.9,
-   "gap": 0,
-   "miss": 0
-  }
- },
+ "cash": 3.6233375893947404,
+ "pos": {},
  "log": [
   {
    "t": "2026-11-13T10:36:33+07:00",
@@ -15331,6 +15316,39 @@
    "wallet": "ENskGQ",
    "usd": 232,
    "why": "liq $0"
+  },
+  {
+   "t": "2026-11-28T15:54:06+07:00",
+   "kind": "skip",
+   "mint": "55VFvwZ45A9cZ4R8FvPKxAwVDQCj79XTfL9m8Liepump",
+   "sym": "Penguin",
+   "wallet": "ENskGQ",
+   "usd": 233,
+   "why": "liq $0"
+  },
+  {
+   "t": "2026-11-28T15:54:06+07:00",
+   "kind": "skip",
+   "mint": "9CrZwT5ckGBL2GiZHa38oGbKcB75nCeTbTrivUDVpump",
+   "sym": "Teeth",
+   "wallet": "ENskGQ",
+   "usd": 233,
+   "why": "liq $0"
+  },
+  {
+   "t": "2026-11-28T15:54:07+07:00",
+   "kind": "sell",
+   "mint": "DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF",
+   "sym": "DJT",
+   "price": 3.89,
+   "entry": 3.94,
+   "usd": 0.6831,
+   "pnl": -0.0519,
+   "why": "ครบ 3 ชม. (-1.3%)",
+   "stop_set": -0.08,
+   "cost_side": 0.03,
+   "smart": null,
+   "bundler": null
   }
  ],
  "label": "ตามกระเป๋า 10 ใบ ผ่าน Helius",
@@ -15338,9 +15356,9 @@
   "FqJMNzzY1DHz2F1Pt6F7VqCxBWdu8cK2TbfTrYT9zQbT": "3wtQ79yu1iLNfHCkBAKDngbhw9f8zre8fJCWLtK7t1SEgKVg3EwFCfEQeouwypJoQwy7ZDn1m91GJpJ8cQ22BPib",
   "2kN7bb7sVKn4iBWDMpo8aAVyyQxAVpZATQ7RRkmoy6Mm": "3wLYXQ9wQ6yyi335F9nXUN94zFBErDc8FKwrqwnizf5nAQrR4hELMv1E5dgA98amrgNTxnpwcuz37gZx498UNNrY",
   "7NnaXghjuU92gM9kmwXysqa5HboyZuR2LTaBnvazFxSH": "YRfFkXps5SBLQkMEq6ozWk8zvUo8Tk4JbzFhykja8m85QhP6PwzHxQ9429AQgFL5M2fuZ3YjJDvagEhz6pJzfjG",
-  "7g5CJ754NboeY6D44MDdGwQmVX4Fvu59Q47c9ZKLPMkE": "2WRdEA3b4En7LkaKiqpKJVgkazu97QzrVaBDX9riv11AdLfgrFKpEiNWdAaB8SPmjL4WS4CuFcL6rRhucXxoiitG",
+  "7g5CJ754NboeY6D44MDdGwQmVX4Fvu59Q47c9ZKLPMkE": "W7d2osBLr7TxuYULUdchFq8yAyfEc7Td5XasroK6GHjaSaDqpGNnDttaN4mBAufCdu8D3eXJDHSabJMAeKwWErv",
   "8emnM6nfVM2ePrYDmZcMkwy8qzDhRFZ5EefCkMsmgByX": "5M4kT7gTjQGzDY4PCiWS3jRMvVM24m3zZG1scQeYRugaJSJ3eb2dkY6KoGiCtYBpj6cdtUbUQKF25J3vikTgPL14",
-  "ENskGQev2bXPjaCYPV9bUcPLv3635Y18BWzLN95x4soC": "4ssz2rNTiJaLMuRqbtLtghnnHFW26So5NmMy96gwVNBv2CPCevVtCEy7LmRX5tk6xd1D5qq1V8rZevBTCcDkaQrU",
+  "ENskGQev2bXPjaCYPV9bUcPLv3635Y18BWzLN95x4soC": "5Bf9kVYNkUsSVvMNCu9FC84AfurQNWiF7AWgGaH4sPEnyCYsKWSc65qJXjX8ExFYcxdPBQxaHuCQqScFT6kNa5Sx",
   "chudc2GnxyW2V7nmLA9bkrzFmKkvPyTfN7V7Uu6XG6o": "4WPAN38EaJghWbXDjnMeodUGYsYgpKTHsJMucWQyD5avBGiYMTLYnEBec1A4NHLojw2KzX7nEcnu2UcxomngB2pR",
   "8XzVYjjVdpDoD3zBtXqMiMBRNj7eMhayr8DyWZQiRgs8": "3pV8ie7mpXNUjXi2MjJMXSrjDa6agTw52Voojdq4fQ1ZNaVfqHjfTNLX1HA4sW6yHCroshv8BZ9DMhBf6q47h8EP",
   "a8UJuWKvWwQTtYbEVzA5b7SYF5j92guqJdwMY428jZN": "2Dut5tHQB2ESHcD8sGV7cEwDBjhnMsZMTbHYP5GsjMX97TH6QcR9woPFSNUsSFEZTAyJmxuFJRK2kcToWoQjhtjV",
